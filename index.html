@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Consolidated Cyber News RSS Feed</title>
+</head>
+<body>
+  <h1>Latest Cyber News</h1>
+  <ul id="feed-list"></ul>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rss-parser/3.12.0/rss-parser.min.js"></script>
+  <script>
+    const parser = new RSSParser();
+    const feedUrls = [
+      '/feeds/bleepingcomputer_feed.xml',
+      '/feeds/thehackersnews_feed.xml'
+    ];
+
+    async function fetchFeeds() {
+      let feedItems = [];
+
+      for (const url of feedUrls) {
+        const feed = await parser.parseURL(url);
+        feedItems = feedItems.concat(feed.items);
+      }
+
+      // Sort items by publication date
+      feedItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+
+      // Display items
+      const feedList = document.getElementById('feed-list');
+      feedItems.forEach(item => {
+        const listItem = document.createElement('li');
+        listItem.innerHTML = `<a href="${item.link}">${item.title}</a> - ${item.pubDate}`;
+        feedList.appendChild(listItem);
+      });
+    }
+
+    fetchFeeds();
+  </script>
+</body>
+</html>
