@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 03 Dec 2024 13:02:05 EST</pubDate>
+        <pubDate>Tue, 03 Dec 2024 14:00:17 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Exploit released for critical WhatsUp Gold RCE flaw, patch now</title>
+        <link>https://www.bleepingcomputer.com/news/security/exploit-released-for-critical-whatsup-gold-rce-flaw-patch-now/</link>
+        <pubDate>Tue, 03 Dec 2024 14:00:11 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/exploit-released-for-critical-whatsup-gold-rce-flaw-patch-now/</guid>
+	<description><![CDATA[A proof-of-concept (PoC) exploit for a critical-severity remote code execution flaw in Progress WhatsUp Gold has been published, making it critical to install the latest security updates as soon as possible. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Veeam warns of critical RCE bug in Service Provider Console</title>
+        <link>https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-rce-bug-in-service-provider-console/</link>
+        <pubDate>Tue, 03 Dec 2024 13:07:39 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-rce-bug-in-service-provider-console/</guid>
+	<description><![CDATA[​Veeam released security updates today to address two Service Provider Console (VSPC) vulnerabilities, including a critical remote code execution (RCE) discovered during internal testing. [...]]]></description>
+ </item>
+
  <item>
         <title>Police seizes largest German online crime marketplace, arrests admin</title>
         <link>https://www.bleepingcomputer.com/news/security/police-seizes-largest-german-online-crime-marketplace-arrests-admin/</link>
@@ -150,24 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/novel-phishing-campaign-uses-corrupted-word-documents-to-evade-security/</guid>
 	<description><![CDATA[A novel phishing attack abuses Microsoft's Word file recovery feature by sending corrupted Word documents as email attachments, allowing them to bypass security software due to their damaged state but still be recoverable by the application. [...]]]></description>
- </item>
-
- <item>
-        <title>SpyLoan Android malware on Google Play installed 8 million times</title>
-        <link>https://www.bleepingcomputer.com/news/security/spyloan-android-malware-on-google-play-installed-8-million-times/</link>
-        <pubDate>Sat, 30 Nov 2024 10:11:21 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/spyloan-android-malware-on-google-play-installed-8-million-times/</guid>
-	<description><![CDATA[A new set of 15 SpyLoan Android malware apps with over 8 million installs was discovered on Google Play, targeting primarily users from South America, Southeast Asia, and Africa. [...]]]></description>
  </item>
 
 </channel>
