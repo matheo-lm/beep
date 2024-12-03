@@ -1,0 +1,31 @@
+name: Update RSS Feeds
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs hourly at the top of the hour
+  workflow_dispatch:
+
+permissions:
+  contents: write  # Allows the action to push changes to the repo
+
+jobs:
+  update-feeds:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch BleepingComputer RSS Feed
+        run: curl -L https://www.bleepingcomputer.com/feed/ -o feeds/bleepingcomputer_feed.xml
+
+      - name: Fetch TheHackersNews RSS Feed
+        run: curl -L https://feeds.feedburner.com/TheHackersNews -o feeds/thehackersnews_feed.xml
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add feeds/*.xml
+          git commit -m "Update RSS feeds" || exit 0
+          git push
