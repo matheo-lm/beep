@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 03 Dec 2024 10:01:55 EST</pubDate>
+        <pubDate>Tue, 03 Dec 2024 11:01:50 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FTC bans data brokers from selling Americans’ sensitive location data</title>
+        <link>https://www.bleepingcomputer.com/news/security/ftc-bans-data-brokers-from-selling-americans-sensitive-location-data/</link>
+        <pubDate>Tue, 03 Dec 2024 11:01:45 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ftc-bans-data-brokers-from-selling-americans-sensitive-location-data/</guid>
+	<description><![CDATA[Today, the FTC banned data brokers Mobilewalla and Gravy Analytics from harvesting and selling Americans' location tracking data linked to sensitive locations, like churches, healthcare facilities, military installations, and schools. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Police seize Matrix encrypted chat service after spying on criminals</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-seize-matrix-encrypted-chat-service-after-spying-on-criminals/</link>
+        <pubDate>Tue, 03 Dec 2024 10:27:43 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-seize-matrix-encrypted-chat-service-after-spying-on-criminals/</guid>
+	<description><![CDATA[An international law enforcement operation codenamed 'Operation Passionflower' has shut down MATRIX, an encrypted messaging platform used by cybercriminals to coordinate illegal activities while evading police. [...]]]></description>
+ </item>
+
  <item>
         <title>Korea arrests CEO for adding DDoS feature to satellite receivers</title>
         <link>https://www.bleepingcomputer.com/news/security/korea-arrests-ceo-for-adding-ddos-feature-to-satellite-receivers/</link>
@@ -124,48 +154,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/spyloan-android-malware-on-google-play-installed-8-million-times/</guid>
 	<description><![CDATA[A new set of 15 SpyLoan Android malware apps with over 8 million installs was discovered on Google Play, targeting primarily users from South America, Southeast Asia, and Africa. [...]]]></description>
- </item>
-
- <item>
-        <title>New Rockstar 2FA phishing service targets Microsoft 365 accounts</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-rockstar-2fa-phishing-service-targets-microsoft-365-accounts/</link>
-        <pubDate>Fri, 29 Nov 2024 14:01:50 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-rockstar-2fa-phishing-service-targets-microsoft-365-accounts/</guid>
-	<description><![CDATA[A new phishing-as-a-service (PhaaS) platform named 'Rockstar 2FA' has emerged, facilitating large-scale adversary-in-the-middle (AiTM) attacks to steal Microsoft 365 credentials. [...]]]></description>
- </item>
-
- <item>
-        <title>Russia arrests cybercriminal Wazawaka for ties with ransomware gangs</title>
-        <link>https://www.bleepingcomputer.com/news/security/russia-arrests-cybercriminal-wazawaka-for-ties-with-ransomware-gangs/</link>
-        <pubDate>Fri, 29 Nov 2024 12:50:55 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/russia-arrests-cybercriminal-wazawaka-for-ties-with-ransomware-gangs/</guid>
-	<description><![CDATA[Russian law enforcement has arrested and indicted notorious ransomware affiliate Mikhail Pavlovich Matveev (also known as Wazawaka, Uhodiransomwar, m1x, and Boriselcin) for developing malware and his involvement in several hacking groups. [...]]]></description>
- </item>
-
- <item>
-        <title>Bologna FC confirms data breach after RansomHub ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/bologna-fc-confirms-data-breach-after-ransomhub-ransomware-attack/</link>
-        <pubDate>Fri, 29 Nov 2024 12:19:47 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/bologna-fc-confirms-data-breach-after-ransomhub-ransomware-attack/</guid>
-	<description><![CDATA[Bologna Football Club 1909 has confirmed it suffered a ransomware attack after its stolen data was leaked online by the RansomHub extortion group. [...]]]></description>
  </item>
 
 </channel>
