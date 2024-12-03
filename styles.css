@@ -59,3 +59,9 @@ body {
     padding: 5px;
   }
   
+  .feed-content {
+    margin-top: 10px;
+    color: #333;
+    line-height: 1.5;
+  }
+  

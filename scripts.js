@@ -7,6 +7,9 @@
     let currentPage = 1;
     let itemsPerPage = parseInt(document.getElementById('itemsPerPage').value);
   
+    // Show loading message
+    document.getElementById('feed-list').innerHTML = '<li>Loading...</li>';
+  
     // Fetch and combine feed items
     for (const url of feedUrls) {
       try {
@@ -21,6 +24,15 @@
     // Sort items by publication date
     feedItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
   
+    // Function to update pagination buttons
+    function updatePaginationButtons() {
+      const prevButton = document.getElementById('prevPage');
+      const nextButton = document.getElementById('nextPage');
+  
+      prevButton.disabled = currentPage === 1;
+      nextButton.disabled = currentPage === Math.ceil(feedItems.length / itemsPerPage);
+    }
+  
     // Function to display items for the current page
     function displayItems() {
       const feedList = document.getElementById('feed-list');
@@ -34,7 +46,7 @@
         const listItem = document.createElement('li');
         listItem.innerHTML = `
           <a href="${item.link}" target="_blank">${item.title}</a><br>
-          <span class="feed-content">${item.contentSnippet || ''}</span><br>
+          <div class="feed-content">${item.content || item.contentSnippet || ''}</div>
           <small>${new Date(item.pubDate).toLocaleString()}</small>
         `;
         feedList.appendChild(listItem);
@@ -43,6 +55,9 @@
       // Update page info
       const pageInfo = document.getElementById('pageInfo');
       pageInfo.textContent = `Page ${currentPage} of ${Math.ceil(feedItems.length / itemsPerPage)}`;
+  
+      // Update pagination buttons
+      updatePaginationButtons();
     }
   
     // Event listeners for pagination buttons
