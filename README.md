@@ -15,4 +15,10 @@ parse them, and present then in a readable format.
 
 5. deduplicate news. 
 
+6. add two more sources 
+
+7. enable filtering by source date
+
+8. extract tags and 
+
 
