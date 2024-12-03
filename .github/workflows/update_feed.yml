@@ -22,10 +22,35 @@ jobs:
       - name: Fetch TheHackersNews RSS Feed
         run: curl -L https://feeds.feedburner.com/TheHackersNews -o feeds/thehackersnews_feed.xml
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install Dependencies
+        run: npm install rss-parser
+
+      - name: Convert RSS Feeds to JSON
+        run: |
+          node -e "
+          const fs = require('fs');
+          const RSSParser = require('rss-parser');
+          const parser = new RSSParser();
+          const feeds = [
+            { xml: 'feeds/bleepingcomputer_feed.xml', json: 'feeds/bleepingcomputer_feed.json' },
+            { xml: 'feeds/thehackersnews_feed.xml', json: 'feeds/thehackersnews_feed.json' }
+          ];
+          feeds.forEach(async (feed) => {
+            const xmlData = fs.readFileSync(feed.xml, 'utf8');
+            const jsonData = await parser.parseString(xmlData);
+            fs.writeFileSync(feed.json, JSON.stringify(jsonData));
+          });
+          "
+
       - name: Commit and Push Changes
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add feeds/*.xml
+          git add feeds/*
           git commit -m "Update RSS feeds" || exit 0
           git push
