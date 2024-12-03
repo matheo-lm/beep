@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #feed-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #feed-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  #feed-list li:last-child {
+    border-bottom: none;
+  }
+  
+  #feed-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  #feed-list a:hover {
+    text-decoration: underline;
+  }
+  
+  .feed-content {
+    margin-top: 5px;
+    color: #555;
+  }
+  
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+  
+  .items-per-page {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .items-per-page label {
+    margin-right: 10px;
+  }
+  
+  .items-per-page select {
+    padding: 5px;
+  }
+  
