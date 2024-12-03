@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 03 Dec 2024 14:59:14 EST</pubDate>
+        <pubDate>Tue, 03 Dec 2024 16:00:37 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cloudflare’s developer domains increasingly abused by threat actors</title>
+        <link>https://www.bleepingcomputer.com/news/security/cloudflares-developer-domains-increasingly-abused-by-threat-actors/</link>
+        <pubDate>Tue, 03 Dec 2024 16:00:32 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cloudflares-developer-domains-increasingly-abused-by-threat-actors/</guid>
+	<description><![CDATA[Cloudflare's 'pages.dev' and 'workers.dev' domains, used for deploying web pages and facilitating serverless computing, are being increasingly abused by cybercriminals for phishing and other malicious activities. [...]]]></description>
+ </item>
+
  <item>
         <title>US shares tips to block hackers behind recent telecom breaches</title>
         <link>https://www.bleepingcomputer.com/news/security/us-shares-tips-to-block-hackers-behind-recent-telecom-breaches/</link>
@@ -162,22 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/software/mozilla-really-wants-you-to-set-firefox-as-default-windows-browser/</guid>
 	<description><![CDATA[In an effort to turn the tide, Mozilla is testing a fresh approach that could persuade more people to switch their default browser on Windows during the installation of the browser. [...]]]></description>
- </item>
-
- <item>
-        <title>Google Chrome’s AI feature lets you quickly check website trustworthiness</title>
-        <link>https://www.bleepingcomputer.com/news/google/google-chromes-ai-feature-lets-you-quickly-check-website-trustworthiness/</link>
-        <pubDate>Mon, 02 Dec 2024 05:46:34 -0500</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/google/google-chromes-ai-feature-lets-you-quickly-check-website-trustworthiness/</guid>
-	<description><![CDATA[Google Chrome's upcoming feature uses AI to provide a summary of reviews from independent websites about the store or website you're visiting. [...]]]></description>
  </item>
 
 </channel>
