@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 03 Dec 2024 14:00:17 EST</pubDate>
+        <pubDate>Tue, 03 Dec 2024 14:59:14 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US shares tips to block hackers behind recent telecom breaches</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-shares-tips-to-block-hackers-behind-recent-telecom-breaches/</link>
+        <pubDate>Tue, 03 Dec 2024 14:49:06 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-shares-tips-to-block-hackers-behind-recent-telecom-breaches/</guid>
+	<description><![CDATA[​CISA released guidance today to help network defenders harden their systems against attacks coordinated by the Salt Typhoon Chinese threat group that breached multiple major global telecommunications providers earlier this year. [...]]]></description>
+ </item>
+
  <item>
         <title>Exploit released for critical WhatsUp Gold RCE flaw, patch now</title>
         <link>https://www.bleepingcomputer.com/news/security/exploit-released-for-critical-whatsup-gold-rce-flaw-patch-now/</link>
@@ -164,20 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/google/google-chromes-ai-feature-lets-you-quickly-check-website-trustworthiness/</guid>
 	<description><![CDATA[Google Chrome's upcoming feature uses AI to provide a summary of reviews from independent websites about the store or website you're visiting. [...]]]></description>
- </item>
-
- <item>
-        <title>Novel phishing campaign uses corrupted Word documents to evade security</title>
-        <link>https://www.bleepingcomputer.com/news/security/novel-phishing-campaign-uses-corrupted-word-documents-to-evade-security/</link>
-        <pubDate>Sun, 01 Dec 2024 10:20:30 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/novel-phishing-campaign-uses-corrupted-word-documents-to-evade-security/</guid>
-	<description><![CDATA[A novel phishing attack abuses Microsoft's Word file recovery feature by sending corrupted Word documents as email attachments, allowing them to bypass security software due to their damaged state but still be recoverable by the application. [...]]]></description>
  </item>
 
 </channel>
