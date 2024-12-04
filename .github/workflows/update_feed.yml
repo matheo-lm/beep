@@ -43,10 +43,10 @@ jobs:
           
           // Helper to extract the first sentence
           const extractFirstSentence = (text) => {
-            // Match sentences properly, allowing abbreviations like U.S., etc.
-            const regex = /([A-Z][^.!?]*(?:\b(?:U\.S\.|Mr\.|Dr\.|Inc\.|Ltd\.)[^.!?]*)*[.!?])/;
+            // Match the first sentence but ensure it doesn't stop at abbreviations like "U.S."
+            const regex = /([A-Z][^.!?]*(?<!\b(?:U\.S|Mr|Dr|Inc|Ltd|Jr|Sr))\.?[^.!?]*)[.!?]/;
             const match = text.match(regex);
-            return match ? match[1].trim() + ' [...]' : text;
+            return match ? match[0].trim() + ' [...]' : text;
             };
 
           feeds.forEach(async (feed) => {
