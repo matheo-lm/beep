@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 04 Dec 2024 14:58:06 EST</pubDate>
+        <pubDate>Wed, 04 Dec 2024 15:57:38 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FBI shares tips on how to tackle AI-powered fraud schemes</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-shares-tips-on-how-to-tackle-ai-powered-fraud-schemes/</link>
+        <pubDate>Wed, 04 Dec 2024 15:37:15 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-shares-tips-on-how-to-tackle-ai-powered-fraud-schemes/</guid>
+	<description><![CDATA[The FBI warns that scammers are increasingly using artificial intelligence to improve the quality and effectiveness of their online fraud schemes, ranging from romance and investment scams to job hiring schemes. [...]]]></description>
+ </item>
+
+ <item>
+        <title>UK disrupts Russian money laundering networks used by ransomware</title>
+        <link>https://www.bleepingcomputer.com/news/security/uk-disrupts-russian-money-laundering-networks-used-by-ransomware/</link>
+        <pubDate>Wed, 04 Dec 2024 15:18:10 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/uk-disrupts-russian-money-laundering-networks-used-by-ransomware/</guid>
+	<description><![CDATA[​A law enforcement operation led by the United Kingdom's National Crime Agency (NCA) has disrupted two Russian money laundering networks working with criminals worldwide, including ransomware gangs. [...]]]></description>
+ </item>
+
  <item>
         <title>BT unit took servers offline after Black Basta ransomware breach</title>
         <link>https://www.bleepingcomputer.com/news/security/bt-conferencing-division-took-servers-offline-after-black-basta-ransomware-attack/</link>
@@ -156,48 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/exploit-released-for-critical-whatsup-gold-rce-flaw-patch-now/</guid>
 	<description><![CDATA[A proof-of-concept (PoC) exploit for a critical-severity remote code execution flaw in Progress WhatsUp Gold has been published, making it critical to install the latest security updates as soon as possible. [...]]]></description>
- </item>
-
- <item>
-        <title>Veeam warns of critical RCE bug in Service Provider Console</title>
-        <link>https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-rce-bug-in-service-provider-console/</link>
-        <pubDate>Tue, 03 Dec 2024 13:07:39 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-rce-bug-in-service-provider-console/</guid>
-	<description><![CDATA[​Veeam released security updates today to address two Service Provider Console (VSPC) vulnerabilities, including a critical remote code execution (RCE) discovered during internal testing. [...]]]></description>
- </item>
-
- <item>
-        <title>Police seizes largest German online crime marketplace, arrests admin</title>
-        <link>https://www.bleepingcomputer.com/news/security/police-seizes-largest-german-online-crime-marketplace-arrests-admin/</link>
-        <pubDate>Tue, 03 Dec 2024 12:16:33 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/police-seizes-largest-german-online-crime-marketplace-arrests-admin/</guid>
-	<description><![CDATA[Germany has taken down the largest online cybercrime marketplace in the country, named "Crimenetwork," and arrested its administrator for facilitating the sale of drugs, stolen data, and illegal services. [...]]]></description>
- </item>
-
- <item>
-        <title>FTC bans data brokers from selling Americans’ sensitive location data</title>
-        <link>https://www.bleepingcomputer.com/news/security/ftc-bans-data-brokers-from-selling-americans-sensitive-location-data/</link>
-        <pubDate>Tue, 03 Dec 2024 11:01:45 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ftc-bans-data-brokers-from-selling-americans-sensitive-location-data/</guid>
-	<description><![CDATA[Today, the FTC banned data brokers Mobilewalla and Gravy Analytics from harvesting and selling Americans' location tracking data linked to sensitive locations, like churches, healthcare facilities, military installations, and schools. [...]]]></description>
  </item>
 
 </channel>
