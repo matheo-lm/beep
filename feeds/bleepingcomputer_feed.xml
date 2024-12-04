@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 04 Dec 2024 13:01:15 EST</pubDate>
+        <pubDate>Wed, 04 Dec 2024 14:02:50 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>BT unit took servers offline after Black Basta ransomware breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/bt-conferencing-division-took-servers-offline-after-black-basta-ransomware-attack/</link>
+        <pubDate>Wed, 04 Dec 2024 13:37:32 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/bt-conferencing-division-took-servers-offline-after-black-basta-ransomware-attack/</guid>
+	<description><![CDATA[Multinational telecommunications giant BT Group (formerly British Telecom) has confirmed that its BT Conferencing business division shut down some of its servers following a Black Basta ransomware breach. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New DroidBot Android banking malware spreads across Europe</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-droidbot-android-banking-malware-spreads-across-europe/</link>
+        <pubDate>Wed, 04 Dec 2024 13:26:24 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-droidbot-android-banking-malware-spreads-across-europe/</guid>
+	<description><![CDATA[A new Android banking malware named 'DroidBot' attempts to steal credentials for over 77 cryptocurrency exchanges and banking apps in the UK, Italy, France, Spain, and Portugal. [...]]]></description>
+ </item>
+
  <item>
         <title>Solana Web3.js library backdoored to steal secret, private keys</title>
         <link>https://www.bleepingcomputer.com/news/security/solana-web3js-library-backdoored-to-steal-secret-private-keys/</link>
@@ -170,22 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ftc-bans-data-brokers-from-selling-americans-sensitive-location-data/</guid>
 	<description><![CDATA[Today, the FTC banned data brokers Mobilewalla and Gravy Analytics from harvesting and selling Americans' location tracking data linked to sensitive locations, like churches, healthcare facilities, military installations, and schools. [...]]]></description>
- </item>
-
- <item>
-        <title>Police seize Matrix encrypted chat service after spying on criminals</title>
-        <link>https://www.bleepingcomputer.com/news/security/police-seize-matrix-encrypted-chat-service-after-spying-on-criminals/</link>
-        <pubDate>Tue, 03 Dec 2024 10:27:43 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/police-seize-matrix-encrypted-chat-service-after-spying-on-criminals/</guid>
-	<description><![CDATA[An international law enforcement operation codenamed 'Operation Passionflower' has shut down MATRIX, an encrypted messaging platform used by cybercriminals to coordinate illegal activities while evading police. [...]]]></description>
  </item>
 
 </channel>
