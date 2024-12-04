@@ -47,7 +47,7 @@
         listItem.innerHTML = `
           <a href="${item.link}" target="_blank">${item.title}</a><br>
           <div class="feed-content">${item.content || item.contentSnippet || ''}</div>
-          <small class="iso-Date">${item.isoDate}</small>
+          <small class="iso-date">${item.isoDate}</small>
         `;
         feedList.appendChild(listItem);
       });

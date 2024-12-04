@@ -61,6 +61,14 @@ h1 a:hover {
     line-height: 1.5;
 }
 
+/* ISO Date */
+.iso-date {
+    margin-top: 10px;
+    color: #555;
+    font-size: 8px;
+    line-height: 1.5;
+}
+
 /* Pagination Styling */
 .pagination {
     text-align: center;
