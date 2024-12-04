@@ -129,3 +129,11 @@ a:focus, button:focus, select:focus {
         padding: 8px; /* Larger touch area for buttons */
     }
 }
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    .pagination button {
+        padding: 10px 20px; /* Increase padding for larger touch targets */
+        font-size: 16px; /* Increase font size for better readability */
+    }
+}
