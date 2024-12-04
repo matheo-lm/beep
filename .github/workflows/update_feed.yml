@@ -55,7 +55,7 @@ jobs:
                   if (!unique.some(existing => existing.link === item.link)) {
                     // Truncate content if it exceeds 240 characters
                     if (item.content && item.content.length > 240) {
-                      item.content = item.content.substring(0, 240) + '[...]';
+                      item.content = item.content.substring(0, 240) + ' [...]';
                     }
                     unique.push(item);
                   }
