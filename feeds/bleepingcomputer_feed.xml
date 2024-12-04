@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 04 Dec 2024 16:57:58 EST</pubDate>
+        <pubDate>Wed, 04 Dec 2024 18:00:29 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>White House: Salt Typhoon hacked telcos in dozens of countries</title>
+        <link>https://www.bleepingcomputer.com/news/security/white-house-salt-typhoon-hacked-telcos-in-dozens-of-countries/</link>
+        <pubDate>Wed, 04 Dec 2024 18:00:27 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/white-house-salt-typhoon-hacked-telcos-in-dozens-of-countries/</guid>
+	<description><![CDATA[​Chinese state hackers, known as Salt Typhoon, have breached telecommunications companies in dozens of countries, President Biden's deputy national security adviser Anne Neuberger said today. [...]]]></description>
+ </item>
+
  <item>
         <title>FBI shares tips on how to tackle AI-powered fraud schemes</title>
         <link>https://www.bleepingcomputer.com/news/security/fbi-shares-tips-on-how-to-tackle-ai-powered-fraud-schemes/</link>
@@ -172,20 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-shares-tips-to-block-hackers-behind-recent-telecom-breaches/</guid>
 	<description><![CDATA[​CISA released guidance today to help network defenders harden their systems against attacks coordinated by the Salt Typhoon Chinese threat group that breached multiple major global telecommunications providers earlier this year. [...]]]></description>
- </item>
-
- <item>
-        <title>Exploit released for critical WhatsUp Gold RCE flaw, patch now</title>
-        <link>https://www.bleepingcomputer.com/news/security/exploit-released-for-critical-whatsup-gold-rce-flaw-patch-now/</link>
-        <pubDate>Tue, 03 Dec 2024 14:00:11 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/exploit-released-for-critical-whatsup-gold-rce-flaw-patch-now/</guid>
-	<description><![CDATA[A proof-of-concept (PoC) exploit for a critical-severity remote code execution flaw in Progress WhatsUp Gold has been published, making it critical to install the latest security updates as soon as possible. [...]]]></description>
  </item>
 
 </channel>
