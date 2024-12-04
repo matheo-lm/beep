@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 04 Dec 2024 11:59:36 EST</pubDate>
+        <pubDate>Wed, 04 Dec 2024 13:01:15 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Solana Web3.js library backdoored to steal secret, private keys</title>
+        <link>https://www.bleepingcomputer.com/news/security/solana-web3js-library-backdoored-to-steal-secret-private-keys/</link>
+        <pubDate>Wed, 04 Dec 2024 12:31:04 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/solana-web3js-library-backdoored-to-steal-secret-private-keys/</guid>
+	<description><![CDATA[The legitimate Solana JavaScript SDK was temporarily compromised yesterday in a supply chain attack, with the library backdoored with malicious code to steal cryptocurrency private keys and drain wallets. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Russian hackers hijack Pakistani hackers' servers for their own attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/russian-turla-hackers-hijack-pakistani-apt-servers-for-cyber-espionage-attacks/</link>
+        <pubDate>Wed, 04 Dec 2024 12:00:00 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/russian-turla-hackers-hijack-pakistani-apt-servers-for-cyber-espionage-attacks/</guid>
+	<description><![CDATA[The notorious Russian cyber-espionage group Turla is hacking other hackers, hijacking the Pakistani threat actor Storm-0156's infrastructure to launch their own covert attacks on already compromised networks. [...]]]></description>
+ </item>
+
  <item>
         <title>Japan warns of IO-Data zero-day router flaws exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/japan-warns-of-io-data-zero-day-router-flaws-exploited-in-attacks/</link>
@@ -156,38 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/police-seize-matrix-encrypted-chat-service-after-spying-on-criminals/</guid>
 	<description><![CDATA[An international law enforcement operation codenamed 'Operation Passionflower' has shut down MATRIX, an encrypted messaging platform used by cybercriminals to coordinate illegal activities while evading police. [...]]]></description>
- </item>
-
- <item>
-        <title>Korea arrests CEO for adding DDoS feature to satellite receivers</title>
-        <link>https://www.bleepingcomputer.com/news/security/korea-arrests-ceo-for-adding-ddos-feature-to-satellite-receivers/</link>
-        <pubDate>Mon, 02 Dec 2024 16:11:31 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Hardware]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/korea-arrests-ceo-for-adding-ddos-feature-to-satellite-receivers/</guid>
-	<description><![CDATA[South Korean police have arrested a CEO and five employees for manufacturing over 240,000 satellite receivers pre-loaded or later updated to include DDoS attack functionality at a purchaser's request. [...]]]></description>
- </item>
-
- <item>
-        <title>Russia sentences Hydra dark web market leader to life in prison</title>
-        <link>https://www.bleepingcomputer.com/news/security/russia-sentences-hydra-dark-web-market-leader-to-life-in-prison/</link>
-        <pubDate>Mon, 02 Dec 2024 14:40:44 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/russia-sentences-hydra-dark-web-market-leader-to-life-in-prison/</guid>
-	<description><![CDATA[Russian authorities have sentenced the leader of the criminal group behind the now-closed dark web platform Hydra Market to life in prison. [...]]]></description>
  </item>
 
 </channel>
