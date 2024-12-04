@@ -43,9 +43,10 @@ jobs:
           
           // Helper to extract the first sentence
           const extractFirstSentence = (text) => {
-            const match = text.match(/.*?[.!?](\\s|$)/);
-            return match ? match[0].trim() + ' [...]' : text;
-          };
+            const regex = /([A-Z][^.!?]*?(?<!\bU\.S|\bMr|\bDr|\bInc)[.!?])(\s|$)/;
+            const match = text.match(regex);
+            return match ? match[1].trim() + ' [...]' : text;
+            };
 
           feeds.forEach(async (feed) => {
             const xmlData = fs.readFileSync(feed.xml, 'utf8');
