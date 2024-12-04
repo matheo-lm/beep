@@ -41,20 +41,21 @@ jobs:
             { xml: 'feeds/thehackersnews_feed.xml', json: 'feeds/thehackersnews_feed.json' }
           ];
           
-          // Helper to extract the first sentence
-          const extractFirstSentence = (text) => {
-            // Match the first sentence but ensure it doesn't stop at abbreviations like "U.S."
-            const regex = /([A-Z][^.!?]*(?<!\b(?:U\.S|Mr|Dr|Inc|Ltd|Jr|Sr))\.?[^.!?]*)[.!?]/;
-            const match = text.match(regex);
-            return match ? match[0].trim() + ' [...]' : text;
-            };
+          // Helper to truncate text to 240 characters and append ellipsis
+          const truncateText = (text, limit = 240) => {
+            if (text.length <= limit) {
+              return text; // No truncation needed
+            }
+            const truncated = text.slice(0, limit);
+            return truncated.endsWith('...') ? truncated : `${truncated}...`;
+          };
 
           feeds.forEach(async (feed) => {
             const xmlData = fs.readFileSync(feed.xml, 'utf8');
             const newItems = await parser.parseString(xmlData).then(parsed => parsed.items.map(item => {
-              // Format content and contentSnippet fields
-              if (item.content) item.content = extractFirstSentence(item.content);
-              if (item.contentSnippet) item.contentSnippet = extractFirstSentence(item.contentSnippet);
+              // Truncate content and contentSnippet fields
+              if (item.content) item.content = truncateText(item.content);
+              if (item.contentSnippet) item.contentSnippet = truncateText(item.contentSnippet);
               return item;
             }));
 
