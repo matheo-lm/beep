@@ -47,7 +47,7 @@ jobs:
               return text; // No truncation needed
             }
             const truncated = text.slice(0, limit);
-            return truncated.endsWith('...') ? truncated : `${truncated}...`;
+            return truncated.endsWith('...') ? truncated : '${truncated}...'';
           };
 
           feeds.forEach(async (feed) => {
