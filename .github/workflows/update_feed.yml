@@ -40,9 +40,21 @@ jobs:
             { xml: 'feeds/bleepingcomputer_feed.xml', json: 'feeds/bleepingcomputer_feed.json' },
             { xml: 'feeds/thehackersnews_feed.xml', json: 'feeds/thehackersnews_feed.json' }
           ];
+          
+          // Helper to extract the first sentence
+          const extractFirstSentence = (text) => {
+            const match = text.match(/.*?[.!?](\\s|$)/);
+            return match ? match[0].trim() + ' [...]' : text;
+          };
+
           feeds.forEach(async (feed) => {
             const xmlData = fs.readFileSync(feed.xml, 'utf8');
-            const newItems = await parser.parseString(xmlData).then(parsed => parsed.items);
+            const newItems = await parser.parseString(xmlData).then(parsed => parsed.items.map(item => {
+              // Format content and contentSnippet fields
+              if (item.content) item.content = extractFirstSentence(item.content);
+              if (item.contentSnippet) item.contentSnippet = extractFirstSentence(item.contentSnippet);
+              return item;
+            }));
 
             let existingItems = [];
             if (fs.existsSync(feed.json)) {
