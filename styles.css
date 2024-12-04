@@ -2,18 +2,29 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #f8f9fa; /* Light gray background for modern look */
+    background-color: #f8f9fa; /* Light gray background */
     color: #333; /* Default text color */
 }
 
 /* Header Styling */
 h1 {
     text-align: center;
-    font-size: 2.5em; /* Larger, more prominent header */
-    font-weight: bold; /* Makes the header bold */
+    font-size: 2.5em;
+    font-weight: 700; /* Ensures bold font across devices */
     color: #222; /* Darker gray for emphasis */
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     margin-bottom: 20px;
+}
+
+/* Make h1 Headers Look Like Hyperlinks */
+h1 a {
+    color: #007bff; /* Blue for a clear hyperlink indication */
+    text-decoration: none;
+}
+
+h1 a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue on hover */
 }
 
 /* Feed List Styles */
@@ -23,7 +34,7 @@ h1 {
 }
 
 #feed-list li {
-    border-bottom: 1px solid #ddd; /* Softer gray for dividers */
+    border-bottom: 1px solid #ddd;
     padding: 10px 0;
 }
 
@@ -33,19 +44,20 @@ h1 {
 
 #feed-list a {
     text-decoration: none;
-    color: #444; /* Slightly lighter gray for links */
+    color: #007bff; /* Blue for clickable items */
     font-size: 18px;
+    font-weight: 600; /* Makes links stand out more */
 }
 
 #feed-list a:hover {
     text-decoration: underline;
-    color: #000; /* Darker gray on hover */
+    color: #0056b3;
 }
 
 /* Feed Content */
 .feed-content {
     margin-top: 10px;
-    color: #555; /* Mid-gray for less emphasis */
+    color: #555;
     line-height: 1.5;
 }
 
@@ -58,15 +70,17 @@ h1 {
 .pagination button {
     margin: 0 5px;
     padding: 5px 10px;
-    background-color: #e9ecef; /* Light gray for buttons */
-    border: 1px solid #ccc; /* Soft gray border */
+    background-color: #e9ecef;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounds the button borders */
     color: #333;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .pagination button:hover {
-    background-color: #d6d8db; /* Slightly darker gray on hover */
+    background-color: #d6d8db;
+    border-color: #b3b3b3; /* Slightly darker border on hover */
 }
 
 /* Items Per Page Styling */
@@ -77,17 +91,33 @@ h1 {
 
 .items-per-page label {
     margin-right: 10px;
-    color: #444; /* Lighter gray for labels */
+    color: #444;
 }
 
 .items-per-page select {
     padding: 5px;
     background-color: #f8f9fa;
     border: 1px solid #ccc;
+    border-radius: 5px; /* Rounds the dropdown borders */
     color: #333;
 }
 
 /* Accessibility and Modern Touch */
 a:focus, button:focus, select:focus {
     outline: 2px solid #555; /* Improve focus visibility */
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em; /* Slightly smaller header on mobile */
+    }
+
+    #feed-list a {
+        font-size: 16px; /* Adjust link size for readability on small screens */
+    }
+
+    .pagination button {
+        padding: 8px; /* Larger touch area for buttons */
+    }
 }
