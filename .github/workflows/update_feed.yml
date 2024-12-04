@@ -40,25 +40,31 @@ jobs:
             { xml: 'feeds/bleepingcomputer_feed.xml', json: 'feeds/bleepingcomputer_feed.json' },
             { xml: 'feeds/thehackersnews_feed.xml', json: 'feeds/thehackersnews_feed.json' }
           ];
-          feeds.forEach(async (feed) => {
-            const xmlData = fs.readFileSync(feed.xml, 'utf8');
-            const newItems = await parser.parseString(xmlData).then(parsed => parsed.items);
-
-            let existingItems = [];
-            if (fs.existsSync(feed.json)) {
-              existingItems = JSON.parse(fs.readFileSync(feed.json, 'utf8')).items || [];
+          (async () => {
+            for (const feed of feeds) {
+              const xmlData = fs.readFileSync(feed.xml, 'utf8');
+              const newItems = await parser.parseString(xmlData).then(parsed => parsed.items);
+      
+              let existingItems = [];
+              if (fs.existsSync(feed.json)) {
+                existingItems = JSON.parse(fs.readFileSync(feed.json, 'utf8')).items || [];
+              }
+      
+              const mergedItems = [...newItems, ...existingItems]
+                .reduce((unique, item) => {
+                  if (!unique.some(existing => existing.link === item.link)) {
+                    // Truncate content if it exceeds 240 characters
+                    if (item.content && item.content.length > 240) {
+                      item.content = item.content.substring(0, 240) + '...';
+                    }
+                    unique.push(item);
+                  }
+                  return unique;
+                }, []);
+      
+              fs.writeFileSync(feed.json, JSON.stringify({ items: mergedItems }));
             }
-
-            const mergedItems = [...newItems, ...existingItems]
-              .reduce((unique, item) => {
-                if (!unique.some(existing => existing.link === item.link)) {
-                  unique.push(item);
-                }
-                return unique;
-              }, []);
-
-            fs.writeFileSync(feed.json, JSON.stringify({ items: mergedItems }));
-          });
+          })();
           "
 
       - name: Commit and Push Changes
