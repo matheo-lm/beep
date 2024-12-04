@@ -40,24 +40,9 @@ jobs:
             { xml: 'feeds/bleepingcomputer_feed.xml', json: 'feeds/bleepingcomputer_feed.json' },
             { xml: 'feeds/thehackersnews_feed.xml', json: 'feeds/thehackersnews_feed.json' }
           ];
-
-          // Helper to truncate text to 240 characters and append ellipsis
-          const truncateText = (text, limit = 240) => {
-            if (text.length <= limit) {
-              return text; // No truncation needed
-            }
-            const truncated = text.slice(0, limit);
-            return truncated.endsWith('...') ? truncated : '${truncated}...'';
-          };
-
           feeds.forEach(async (feed) => {
             const xmlData = fs.readFileSync(feed.xml, 'utf8');
-            const newItems = await parser.parseString(xmlData).then(parsed => parsed.items.map(item => {
-              // Truncate content and contentSnippet fields
-              if (item.content) item.content = truncateText(item.content);
-              if (item.contentSnippet) item.contentSnippet = truncateText(item.contentSnippet);
-              return item;
-            }));
+            const newItems = await parser.parseString(xmlData).then(parsed => parsed.items);
 
             let existingItems = [];
             if (fs.existsSync(feed.json)) {
