@@ -30,7 +30,7 @@ jobs:
       - name: Install Dependencies
         run: npm install rss-parser
 
-      - name: Convert RSS Feeds to JSON
+      - name: Convert and Merge RSS Feeds to JSON
         run: |
           node -e "
           const fs = require('fs');
@@ -42,8 +42,22 @@ jobs:
           ];
           feeds.forEach(async (feed) => {
             const xmlData = fs.readFileSync(feed.xml, 'utf8');
-            const jsonData = await parser.parseString(xmlData);
-            fs.writeFileSync(feed.json, JSON.stringify(jsonData));
+            const newItems = await parser.parseString(xmlData).then(parsed => parsed.items);
+
+            let existingItems = [];
+            if (fs.existsSync(feed.json)) {
+              existingItems = JSON.parse(fs.readFileSync(feed.json, 'utf8')).items || [];
+            }
+
+            const mergedItems = [...newItems, ...existingItems]
+              .reduce((unique, item) => {
+                if (!unique.some(existing => existing.link === item.link)) {
+                  unique.push(item);
+                }
+                return unique;
+              }, []);
+
+            fs.writeFileSync(feed.json, JSON.stringify({ items: mergedItems }));
           });
           "
 
