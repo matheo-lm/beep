@@ -1,4 +1,4 @@
-name: Update RSS Feeds 2
+name: Update RSS Feeds
 
 on:
   schedule:
@@ -32,7 +32,6 @@ jobs:
           node -e "
           const fs = require('fs');
           const RSSParser = require('rss-parser');
-          const xml2js = require('xml2js');
           const parser = new RSSParser();
           const xmlFile = 'feeds/kbs.xml';
           const jsonFile = 'feeds/kbs.json';
@@ -41,14 +40,20 @@ jobs:
             const xmlData = fs.readFileSync(xmlFile, 'utf8');
             const feed = await parser.parseString(xmlData);
 
-            const parsedItems = feed.items.map(item => ({
-              title: item.title,
-              link: item.link,
-              pubDate: item.pubDate,
-              creator: item.creator || item['dc:creator'],
-              content: item['content:encoded'] || item.description,
-              guid: item.guid,
-            }));
+            const parsedItems = feed.items.map(item => {
+              let content = item['content:encoded'] || item.description || '';
+              if (content.length > 240) {
+                content = content.substring(0, 240) + ' [...]';
+              }
+              return {
+                title: item.title,
+                link: item.link,
+                pubDate: item.pubDate,
+                creator: item.creator || item['dc:creator'],
+                content,
+                guid: item.guid,
+              };
+            });
 
             const output = { items: parsedItems };
             fs.writeFileSync(jsonFile, JSON.stringify(output, null, 2));
