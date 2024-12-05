@@ -86,6 +86,13 @@
       displayItems();
     });
   
+    // Event listener for the "Latest Cyber News" link
+    document.getElementById('homeLink').addEventListener('click', (e) => {
+      e.preventDefault();
+      currentPage = 1;
+      displayItems();
+    });
+  
     // Initial display
     displayItems();
   })();
