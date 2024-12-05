@@ -1,24 +1,17 @@
-# development name: beep 
-## project name: hermes 
-#### to provide a centralized, near real time source of cybersecurity news and incidents
+# Development Name: beep
+## Project Name: hermes
+#### To provide a centralized, near real-time source of cybersecurity news and incidents
 
-### functionality: 
-1. collect cyber security news from reliable sources, 
-parse them, and present then in a readable format. 
+### Functionality:
+1. Collect cybersecurity news from reliable sources, parse them, and present them in a readable format.
+2. Keep a record of all the news since inception.
 
-2. keep a record of all the news since inception. 
-
-### todo 
-3. provide a friendly mobile and web interface. 
-
-4. allow users to subscribe to a daily, hourly, or weekly digest. 
-
-5. deduplicate news. 
-
-6. add two more sources 
-
-7. enable filtering by source date
-
-8. extract tags and 
+### TODO:
+3. Provide a friendly mobile and web interface.
+4. Allow users to subscribe to a daily, hourly, or weekly digest.
+5. Deduplicate news.
+6. Add two more sources.
+7. Enable filtering by source date.
+8. Extract tags and categorize news.
 
 
