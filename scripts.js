@@ -2,6 +2,7 @@
   const feedUrls = [
     '/beep/feeds/bleepingcomputer_feed.json',
     '/beep/feeds/thehackersnews_feed.json',
+    '/beep/feeds/kbs.json'
   ];
   let feedItems = [];
   let currentPage = 1;
