@@ -17,7 +17,7 @@
 9. Add unique identifier for each news article. 
 
 ## Phase 2:
-10. Add a top menu bar for "cyber news", "incidents fillings", "breach notifications", "advisories" and "saas status".  
+10. Add a top menu bar for "cyber news", "incident fillings", "breach notifications", "advisories" and "saas status".  
 11. Grind each of the features above.....
 
 
