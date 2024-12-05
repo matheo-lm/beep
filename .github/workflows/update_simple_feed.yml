@@ -72,5 +72,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add feeds/*
-          git commit -m "Update RSS feeds" || exit 0
+          git commit -m "Update simple feeds to JSON" || exit 0
           git push
