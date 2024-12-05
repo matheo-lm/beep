@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 05 Dec 2024 10:03:13 EST</pubDate>
+        <pubDate>Thu, 05 Dec 2024 11:04:11 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Latrodectus malware and how to defend against it with Wazuh</title>
+        <link>https://www.bleepingcomputer.com/news/security/latrodectus-malware-and-how-to-defend-against-it-with-wazuh/</link>
+        <pubDate>Thu, 05 Dec 2024 10:02:12 -0500</pubDate>
+        <dc:creator>Sponsored by Wazuh</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/latrodectus-malware-and-how-to-defend-against-it-with-wazuh/</guid>
+	<description><![CDATA[Latrodectus is a versatile malware family that infiltrate systems, steal sensitive data, and evades detection. Learn more from Wazuh about Latrodectus malware and how to defend against it using the open-source XDR. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Mitel MiCollab zero-day flaw gets proof-of-concept exploit</title>
+        <link>https://www.bleepingcomputer.com/news/security/mitel-micollab-zero-day-flaw-gets-proof-of-concept-exploit/</link>
+        <pubDate>Thu, 05 Dec 2024 06:00:00 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/mitel-micollab-zero-day-flaw-gets-proof-of-concept-exploit/</guid>
+	<description><![CDATA[Researchers have uncovered an arbitrary file read zero-day in the Mitel MiCollab collaboration platform, allowing attackers to access files on a server's filesystem. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft says having a TPM is "non-negotiable" for Windows 11</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-having-a-tpm-is-non-negotiable-for-windows-11/</link>
@@ -158,48 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/six-password-takeaways-from-the-updated-nist-cybersecurity-framework/</guid>
 	<description><![CDATA[Updated NIST guidelines reject outdated password security practices in favor of more effective protections. Learn from Specops Software about 6 takeaways from NIST's new guidance that help create strong password policies. [...]]]></description>
- </item>
-
- <item>
-        <title>Vodka maker Stoli files for bankruptcy in US after ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/vodka-maker-stoli-files-for-bankruptcy-in-us-after-ransomware-attack/</link>
-        <pubDate>Tue, 03 Dec 2024 17:00:24 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/vodka-maker-stoli-files-for-bankruptcy-in-us-after-ransomware-attack/</guid>
-	<description><![CDATA[Stoli Group's U.S. companies have filed for bankruptcy following an August ransomware attack and Russian authorities seizing the company's remaining distilleries in the country. [...]]]></description>
- </item>
-
- <item>
-        <title>Cloudflare’s developer domains increasingly abused by threat actors</title>
-        <link>https://www.bleepingcomputer.com/news/security/cloudflares-developer-domains-increasingly-abused-by-threat-actors/</link>
-        <pubDate>Tue, 03 Dec 2024 16:00:32 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cloudflares-developer-domains-increasingly-abused-by-threat-actors/</guid>
-	<description><![CDATA[Cloudflare's 'pages.dev' and 'workers.dev' domains, used for deploying web pages and facilitating serverless computing, are being increasingly abused by cybercriminals for phishing and other malicious activities. [...]]]></description>
- </item>
-
- <item>
-        <title>US shares tips to block hackers behind recent telecom breaches</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-shares-tips-to-block-hackers-behind-recent-telecom-breaches/</link>
-        <pubDate>Tue, 03 Dec 2024 14:49:06 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-shares-tips-to-block-hackers-behind-recent-telecom-breaches/</guid>
-	<description><![CDATA[​CISA released guidance today to help network defenders harden their systems against attacks coordinated by the Salt Typhoon Chinese threat group that breached multiple major global telecommunications providers earlier this year. [...]]]></description>
  </item>
 
 </channel>
