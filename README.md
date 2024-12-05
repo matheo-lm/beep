@@ -11,7 +11,7 @@
 ### TODO:
 4. Allow users to subscribe to a daily, hourly, or weekly digest.
 5. Deduplicate news.
-6. Add two more sources.
+6. Add two more sources (krebs and ??).
 7. Enable filtering by source date.
 8. Extract tags and categorize news.
 9. Add unique identifier for each news article. 
