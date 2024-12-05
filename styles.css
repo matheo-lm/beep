@@ -167,7 +167,7 @@ a:focus, button:focus, select:focus {
 
 .github-button, .total-article-button {
     position: fixed;
-    bottom: 20px;
+    bottom: 40px;
     background-color: #24292e;
     color: #fff;
     border: none;
