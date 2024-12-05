@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 05 Dec 2024 15:05:37 EST</pubDate>
+        <pubDate>Thu, 05 Dec 2024 16:01:43 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US arrests Scattered Spider suspect linked to telecom hacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-arrests-scattered-spider-suspect-linked-to-telecom-hacks/</link>
+        <pubDate>Thu, 05 Dec 2024 15:31:18 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-arrests-scattered-spider-suspect-linked-to-telecom-hacks/</guid>
+	<description><![CDATA[​U.S. authorities have arrested a 19-year-old teenager linked to the notorious Scattered Spider cybercrime gang who is now charged with breaching a U.S. financial institution and two unnamed telecommunications firms. [...]]]></description>
+ </item>
+
  <item>
         <title>Police shuts down Manson cybercrime market, arrests key suspects</title>
         <link>https://www.bleepingcomputer.com/news/security/police-shuts-down-manson-cybercrime-market-fake-shops-arrests-key-suspects/</link>
@@ -174,34 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/solana-web3js-library-backdoored-to-steal-secret-private-keys/</guid>
 	<description><![CDATA[The legitimate Solana JavaScript SDK was temporarily compromised yesterday in a supply chain attack, with the library backdoored with malicious code to steal cryptocurrency private keys and drain wallets. [...]]]></description>
- </item>
-
- <item>
-        <title>Russian hackers hijack Pakistani hackers' servers for their own attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/russian-hackers-hijack-pakistani-hackers-servers-for-their-own-attacks/</link>
-        <pubDate>Wed, 04 Dec 2024 12:00:00 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/russian-hackers-hijack-pakistani-hackers-servers-for-their-own-attacks/</guid>
-	<description><![CDATA[The notorious Russian cyber-espionage group Turla is hacking other hackers, hijacking the Pakistani threat actor Storm-0156's infrastructure to launch their own covert attacks on already compromised networks. [...]]]></description>
- </item>
-
- <item>
-        <title>Japan warns of IO-Data zero-day router flaws exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/japan-warns-of-io-data-zero-day-router-flaws-exploited-in-attacks/</link>
-        <pubDate>Wed, 04 Dec 2024 10:28:55 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/japan-warns-of-io-data-zero-day-router-flaws-exploited-in-attacks/</guid>
-	<description><![CDATA[Japan's CERT is warning that hackers are exploiting zero-day vulnerabilities in I-O Data router devices to modify device settings, execute commands, or even turn off the firewall. [...]]]></description>
  </item>
 
 </channel>
