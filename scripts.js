@@ -56,16 +56,16 @@
       const pageInfo = document.getElementById('pageInfo');
       pageInfo.textContent = `Page ${currentPage} of ${Math.ceil(feedItems.length / itemsPerPage)}`;
   
+      // Update total article count
+      const totalArticleCount = document.getElementById('totalArticleCount');
+      totalArticleCount.textContent = `Total articles available: ${feedItems.length}`;
+  
       // Update pagination buttons
       updatePaginationButtons();
     }
   
     // Event listeners for pagination buttons
     document.getElementById('prevPage').addEventListener('click', () => {
-      if (currentPage > 1) {
-        currentPage--;
-        displayItems();
-      }
     });
   
     document.getElementById('nextPage').addEventListener('click', () => {
@@ -85,4 +85,3 @@
     // Initial display
     displayItems();
   })();
-  

@@ -139,3 +139,10 @@ a:focus, button:focus, select:focus {
         font-size: 16px; /* Increase font size for better readability */
     }
 }
+
+.total-article-count {
+    text-align: right;
+    margin-top: 20px;
+    color: #444;
+    font-size: 14px;
+}
