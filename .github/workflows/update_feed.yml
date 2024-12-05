@@ -42,7 +42,7 @@ jobs:
           const feeds = [
             { xml: 'feeds/bleepingcomputer_feed.xml', json: 'feeds/bleepingcomputer_feed.json' },
             { xml: 'feeds/thehackersnews_feed.xml', json: 'feeds/thehackersnews_feed.json' },
-            { xml: 'feeds/krebsonsecurity_feed.xml', json: 'feeds/krebsonsecurity_feed.json' } // Added new feed
+            { xml: 'feeds/krebsonsecurity_feed.xml', json: 'feeds/krebsonsecurity_feed.json' } 
           ];
           (async () => {
             for (const feed of feeds) {
@@ -51,7 +51,11 @@ jobs:
       
               let existingItems = [];
               if (fs.existsSync(feed.json)) {
-                existingItems = JSON.parse(fs.readFileSync(feed.json, 'utf8')).items || [];
+                try {
+                  existingItems = JSON.parse(fs.readFileSync(feed.json, 'utf8')).items || [];
+                } catch (error) {
+                  console.error(`Error parsing JSON for ${feed.json}:`, error);
+                }
               }
       
               const mergedItems = [...newItems, ...existingItems]
