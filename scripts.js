@@ -33,6 +33,11 @@
     nextButton.disabled = currentPage === Math.ceil(feedItems.length / itemsPerPage);
   }
 
+  // Function to scroll to the top of the page
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
   // Function to display items for the current page
   function displayItems() {
     const feedList = document.getElementById('feed-list');
@@ -62,6 +67,9 @@
 
     // Update pagination buttons
     updatePaginationButtons();
+
+    // Scroll to the top of the page after displaying items
+    scrollToTop();
   }
 
   // Event listeners for pagination buttons
