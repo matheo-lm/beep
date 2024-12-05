@@ -159,7 +159,7 @@ a:focus, button:focus, select:focus {
 }
 
 .total-article-count {
-    text-align: right;
+    text-align: center;
     margin-top: 20px;
     color: #444;
     font-size: 14px;
