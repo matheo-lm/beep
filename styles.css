@@ -152,6 +152,22 @@ a:focus, button:focus, select:focus {
 
 /* Mobile Styles */
 @media (max-width: 600px) {
+    h1 {
+        font-size: 1.75em; /* Slightly smaller header on mobile */
+    }
+
+    #feed-list a {
+        font-size: 20px; /* Increase link size for readability on small screens */
+    }
+
+    .feed-content {
+        font-size: 16px; /* Increase content size for readability on small screens */
+    }
+
+    .iso-date {
+        font-size: 14px; /* Increase date size for readability on small screens */
+    }
+
     .pagination-container button {
         padding: 10px 20px; /* Increase padding for larger touch targets */
         font-size: 16px; /* Increase font size for better readability */
