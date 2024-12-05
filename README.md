@@ -1,6 +1,6 @@
-# Development Name: beep
-## Project Name: hermes
-#### To provide a centralized, near real-time source of cybersecurity news, incidents, and app status
+# dev: beep
+## product: hermes
+### To provide a centralized, near real-time source of cybersecurity news, incidents, and app status
 
 ## Phase 1:
 ### Functionality:
