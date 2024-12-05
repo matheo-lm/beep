@@ -1,7 +1,7 @@
 (async () => {
     const feedUrls = [
-      '/beep/feeds/bleepingcomputer_feed.json',
-      '/beep/feeds/thehackersnews_feed.json'
+      '../feeds/bleepingcomputer_feed.json',
+      '../feeds/thehackersnews_feed.json'
     ];
     let feedItems = [];
     let currentPage = 1;
@@ -28,9 +28,13 @@
     function updatePaginationButtons() {
       const prevButton = document.getElementById('prevPage');
       const nextButton = document.getElementById('nextPage');
+      const prevButtonBottom = document.getElementById('prevPageBottom');
+      const nextButtonBottom = document.getElementById('nextPageBottom');
   
       prevButton.disabled = currentPage === 1;
       nextButton.disabled = currentPage === Math.ceil(feedItems.length / itemsPerPage);
+      prevButtonBottom.disabled = currentPage === 1;
+      nextButtonBottom.disabled = currentPage === Math.ceil(feedItems.length / itemsPerPage);
     }
   
     // Function to display items for the current page
@@ -56,6 +60,9 @@
       const pageInfo = document.getElementById('pageInfo');
       pageInfo.textContent = `Page ${currentPage} of ${Math.ceil(feedItems.length / itemsPerPage)}`;
   
+      const pageInfoBottom = document.getElementById('pageInfoBottom');
+      pageInfoBottom.textContent = `Page ${currentPage} of ${Math.ceil(feedItems.length / itemsPerPage)}`;
+  
       // Update total article count
       const totalArticleCount = document.getElementById('totalArticleCount');
       totalArticleCount.textContent = `Total articles available: ${feedItems.length}`;
@@ -79,6 +86,20 @@
       }
     });
   
+    document.getElementById('prevPageBottom').addEventListener('click', () => {
+      if (currentPage > 1) {
+        currentPage--;
+        displayItems();
+      }
+    });
+  
+    document.getElementById('nextPageBottom').addEventListener('click', () => {
+      if (currentPage < Math.ceil(feedItems.length / itemsPerPage)) {
+        currentPage++;
+        displayItems();
+      }
+    });
+  
     // Event listener for items per page selection
     document.getElementById('itemsPerPage').addEventListener('change', (e) => {
       itemsPerPage = parseInt(e.target.value);
@@ -88,6 +109,12 @@
   
     // Event listener for the "Latest Cyber News" link
     document.getElementById('homeLink').addEventListener('click', (e) => {
+      e.preventDefault();
+      currentPage = 1;
+      displayItems();
+    });
+  
+    document.getElementById('homeLinkBottom').addEventListener('click', (e) => {
       e.preventDefault();
       currentPage = 1;
       displayItems();
