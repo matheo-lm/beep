@@ -1,9 +1,13 @@
-
 const fs = require('fs');
 const path = require('path');
 
-const feedDir = path.join(__dirname, 'feed');
+const feedDir = path.join(__dirname, 'feeds');
 const outputFile = path.join(feedDir, 'merged.json');
+
+if (!fs.existsSync(feedDir)) {
+  console.error(`Directory ${feedDir} does not exist.`);
+  process.exit(1);
+}
 
 let mergedData = {};
 
