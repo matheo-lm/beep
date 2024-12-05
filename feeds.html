@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Feeds</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
@@ -9,12 +10,15 @@
   <link rel="manifest" href="favicons/site.webmanifest">
 </head>
 <body>
-    <h1 class="header-title"><a href="index.html">All Ingested Feeds</a></h1>
-    <ul id="feed-list">
+    <h1 class="header-title text-center"><a href="index.html" class="text-dark">All Ingested Feeds</a></h1>
+    <ul id="feed-list" class="list-unstyled">
         <li><a href="https://raw.githubusercontent.com/matheo-lm/beep/3c045b1c94ecc96bc9192ddc28ddb52e6dedacdc/feeds/bleepingcomputer_feed.json">bleepingcomputer_feed.json</a></li>
         <li><a href="https://raw.githubusercontent.com/matheo-lm/beep/3c045b1c94ecc96bc9192ddc28ddb52e6dedacdc/feeds/thehackersnews_feed.json">thehackernews_feed.json</a></li>
         <li><a href="https://raw.githubusercontent.com/matheo-lm/beep/refs/heads/main/feeds/kbs.json">krebsonsecurity_feed.json</a></li>
       </ul>
     <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -90,12 +90,12 @@ h1 a:hover {
 }
 
 /* Pagination Styling */
-.pagination {
+.pagination-container {
     text-align: center;
     margin-top: 20px;
 }
 
-.pagination button {
+.pagination-container button {
     margin: 15px;
     padding: 5px 10px;
     background-color: #e9ecef;
@@ -106,7 +106,7 @@ h1 a:hover {
     transition: all 0.3s ease;
 }
 
-.pagination button:hover {
+.pagination-container button:hover {
     background-color: #d6d8db;
     border-color: #b3b3b3; /* Slightly darker border on hover */
 }
@@ -145,56 +145,15 @@ a:focus, button:focus, select:focus {
         font-size: 16px; /* Adjust link size for readability on small screens */
     }
 
-    .pagination button {
+    .pagination-container button {
         padding: 8px; /* Larger touch area for buttons */
     }
 }
 
 /* Mobile Styles */
 @media (max-width: 600px) {
-    .pagination button {
+    .pagination-container button {
         padding: 10px 20px; /* Increase padding for larger touch targets */
         font-size: 16px; /* Increase font size for better readability */
     }
-}
-
-.total-article-count {
-    text-align: center;
-    margin-top: 20px;
-    color: #444;
-    font-size: 14px;
-}
-
-.github-button, .total-article-button {
-    position: fixed;
-    bottom: 40px;
-    background-color: #24292e;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    font-size: 14px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.github-button {
-    left: 20px; /* Position on the left */
-}
-
-.total-article-button {
-    right: 20px; /* Position on the right */
-}
-
-.github-button:hover, .total-article-button:hover {
-    background-color: #444d56;
-}
-
-.github-button img, .total-article-button img {
-    margin-right: 8px;
-    width: 20px;
-    height: 20px;
 }
