@@ -9,7 +9,14 @@
   <link rel="manifest" href="favicons/site.webmanifest">
 </head>
 <body>
-    <header><a href="#" id="homeLink">Latest Cyber News</a></header>
+    <div class="top-menu-bar">
+      <a href="#" id="homeLink">Feed</a>
+      <div class="pagination">
+        <button id="prevPage">Previous</button>
+        <span id="pageInfo"></span>
+        <button id="nextPage">Next</button>
+      </div>
+    </div>
   
     <div class="items-per-page">
       <label for="itemsPerPage">Items per page:</label>
@@ -22,12 +29,6 @@
     </div>
   
     <ul id="feed-list"></ul>
-  
-    <div class="pagination">
-      <button id="prevPage">Previous</button>
-      <span id="pageInfo"></span>
-      <button id="nextPage">Next</button>
-    </div>
 
     <div id="totalArticleCount" class="total-article-count"></div>
   
