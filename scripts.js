@@ -1,7 +1,7 @@
 (async () => {
   const feedUrls = [
-    '/beep/feeds/bleepingcomputer_feed.json',
-    '/beep/feeds/thehackersnews_feed.json',
+    '/beep/feeds/bpc.json',
+    '/beep/feeds/thn.json',
     '/beep/feeds/kbs.json'
   ];
   let feedItems = [];

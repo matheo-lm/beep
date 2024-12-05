@@ -17,10 +17,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Fetch BleepingComputer RSS Feed
-        run: curl -L https://www.bleepingcomputer.com/feed/ -o feeds/bleepingcomputer_feed.xml
+        run: curl -L https://www.bleepingcomputer.com/feed/ -o feeds/bpc.xml
 
       - name: Fetch TheHackersNews RSS Feed
-        run: curl -L https://feeds.feedburner.com/TheHackersNews -o feeds/thehackersnews_feed.xml
+        run: curl -L https://feeds.feedburner.com/TheHackersNews -o feeds/thn.xml
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
