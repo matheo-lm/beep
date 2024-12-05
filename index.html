@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1><a href="#" id="homeLink">Latest Cyber News</a></h1>
+    <h1>Latest Cyber News</h1>
   
     <div class="items-per-page">
       <label for="itemsPerPage">Items per page:</label>
@@ -19,24 +19,14 @@
   
     <ul id="feed-list"></ul>
   
-    <div class="pagination"></div>
+    <div class="pagination">
       <button id="prevPage">Previous</button>
       <span id="pageInfo"></span>
-      <button id="""nextPage">Next</button>
+      <button id="nextPage">Next</button>
     </div>
-
-    <!-- Add a new element to display the total number of items -->
-    <div id="totalItems" class="total-items"></div>
   
     <!-- Include scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rss-parser/3.12.0/rss-parser.min.js"></script>
     <script src="scripts.js"></script>
-    <script>
-      document.getElementById('homeLink').addEventListener('click', (e) => {
-        e.preventDefault();
-        currentPage = 1;
-        displayItems();
-      });
-    </script>
   </body>  
 </html>
