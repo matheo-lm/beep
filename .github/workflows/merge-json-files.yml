@@ -2,10 +2,11 @@ name: Merge JSON Files
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight
-  push:
-    branches:
-      - main
+    - cron: '0 0 * * *'  # Runs daily
+  workflow_dispatch:
+
+permissions:
+      contents: write
 
 jobs:
   merge-json:
