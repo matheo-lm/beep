@@ -14,10 +14,20 @@
   for (const url of feedUrls) {
     try {
       const response = await fetch(url);
+      if (!response.ok) throw new Error('Network response was not ok');
       const feed = await response.json();
       feedItems = feedItems.concat(feed.items);
     } catch (error) {
       console.error(`Error fetching or parsing feed at ${url}:`, error);
+      // Fallback to local files
+      try {
+        const localResponse = await fetch(`feeds/${url.split('/').pop()}`);
+        if (!localResponse.ok) throw new Error('Local network response was not ok');
+        const localFeed = await localResponse.json();
+        feedItems = feedItems.concat(localFeed.items);
+      } catch (localError) {
+        console.error(`Error fetching or parsing local feed at ${url}:`, localError);
+      }
     }
   }
 
