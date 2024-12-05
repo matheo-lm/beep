@@ -22,6 +22,9 @@ jobs:
       - name: Fetch TheHackersNews RSS Feed
         run: curl -L https://feeds.feedburner.com/TheHackersNews -o feeds/thehackersnews_feed.xml
 
+      - name: Fetch KrebsOnSecurity RSS Feed
+        run: curl -L https://krebsonsecurity.com/feed/ -o feeds/krebsonsecurity_feed.xml
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -38,7 +41,8 @@ jobs:
           const parser = new RSSParser();
           const feeds = [
             { xml: 'feeds/bleepingcomputer_feed.xml', json: 'feeds/bleepingcomputer_feed.json' },
-            { xml: 'feeds/thehackersnews_feed.xml', json: 'feeds/thehackersnews_feed.json' }
+            { xml: 'feeds/thehackersnews_feed.xml', json: 'feeds/thehackersnews_feed.json' },
+            { xml: 'feeds/krebsonsecurity_feed.xml', json: 'feeds/krebsonsecurity_feed.json' } // Added new feed
           ];
           (async () => {
             for (const feed of feeds) {

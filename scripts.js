@@ -1,7 +1,8 @@
 (async () => {
   const feedUrls = [
     '/beep/feeds/bleepingcomputer_feed.json',
-    '/beep/feeds/thehackersnews_feed.json'
+    '/beep/feeds/thehackersnews_feed.json',
+    '/beep/feeds/krebsonsecurity_feed.json' // Added new feed URL
   ];
   let feedItems = [];
   let currentPage = 1;
