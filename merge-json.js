@@ -14,8 +14,12 @@ let mergedData = {};
 fs.readdirSync(feedDir).forEach(file => {
   if (path.extname(file) === '.json') {
     const filePath = path.join(feedDir, file);
-    const fileData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-    mergedData = { ...mergedData, ...fileData };
+    try {
+      const fileData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      mergedData = { ...mergedData, ...fileData };
+    } catch (error) {
+      console.error(`Error parsing JSON from file ${filePath}:`, error);
+    }
   }
 });
 
