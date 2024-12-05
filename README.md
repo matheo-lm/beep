@@ -1,6 +1,8 @@
 # dev: beep
-## product: hermes
+## prod: hermes
 ### To provide a centralized, near real-time source of cybersecurity news, incidents, and app status
+
+[Project Link](https://matheo-lm.github.io/beep/#)
 
 ## Phase 1:
 ### Functionality:
