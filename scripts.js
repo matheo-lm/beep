@@ -1,4 +1,4 @@
-(async () => {
+document.addEventListener('DOMContentLoaded', async () => {
     const feedUrls = [
       '/beep/feeds/bleepingcomputer_feed.json',
       '/beep/feeds/thehackersnews_feed.json'
@@ -122,4 +122,4 @@
   
     // Initial display
     displayItems();
-  })();
+});
