@@ -7,6 +7,7 @@
   let feedItems = [];
   let currentPage = 1;
   let itemsPerPage = parseInt(document.getElementById('itemsPerPage').value);
+  let filteredItems = [];
 
   // Show loading message
   document.getElementById('feed-list').innerHTML = '<li>Loading...</li>';
@@ -34,6 +35,7 @@
 
   // Sort items by publication date
   feedItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+  filteredItems = feedItems;
 
   // Function to update pagination buttons
   function updatePaginationButtons() {
@@ -41,7 +43,7 @@
     const nextButton = document.getElementById('nextPage');
 
     prevButton.disabled = currentPage === 1;
-    nextButton.disabled = currentPage === Math.ceil(feedItems.length / itemsPerPage);
+    nextButton.disabled = currentPage === Math.ceil(filteredItems.length / itemsPerPage);
   }
 
   // Function to scroll to the top of the page
@@ -56,7 +58,7 @@
 
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
-    const pageItems = feedItems.slice(startIndex, endIndex);
+    const pageItems = filteredItems.slice(startIndex, endIndex);
 
     pageItems.forEach(item => {
       const listItem = document.createElement('li');
@@ -70,17 +72,28 @@
 
     // Update page info
     const pageInfo = document.getElementById('pageInfo');
-    pageInfo.textContent = `Page ${currentPage} of ${Math.ceil(feedItems.length / itemsPerPage)}`;
+    pageInfo.textContent = `Page ${currentPage} of ${Math.ceil(filteredItems.length / itemsPerPage)}`;
 
     // Update total article count
     const totalArticleCount = document.getElementById('totalArticleCount');
-    totalArticleCount.textContent = `Total articles available: ${feedItems.length}`;
+    totalArticleCount.textContent = `Total articles available: ${filteredItems.length}`;
 
     // Update pagination buttons
     updatePaginationButtons();
 
     // Scroll to the top of the page after displaying items
     scrollToTop();
+  }
+
+  // Function to filter items based on search keyword
+  function filterItems(keyword) {
+    filteredItems = feedItems.filter(item => 
+      item.title.toLowerCase().includes(keyword.toLowerCase()) ||
+      (item.content && item.content.toLowerCase().includes(keyword.toLowerCase())) ||
+      (item.contentSnippet && item.contentSnippet.toLowerCase().includes(keyword.toLowerCase()))
+    );
+    currentPage = 1; // Reset to first page
+    displayItems();
   }
 
   // Event listeners for pagination buttons
@@ -92,7 +105,7 @@
   });
 
   document.getElementById('nextPage').addEventListener('click', () => {
-    if (currentPage < Math.ceil(feedItems.length / itemsPerPage)) {
+    if (currentPage < Math.ceil(filteredItems.length / itemsPerPage)) {
       currentPage++;
       displayItems();
     }
@@ -103,6 +116,12 @@
     itemsPerPage = parseInt(e.target.value);
     currentPage = 1; // Reset to first page
     displayItems();
+  });
+
+  // Event listener for search button
+  document.getElementById('searchButton').addEventListener('click', () => {
+    const keyword = document.getElementById('searchInput').value;
+    filterItems(keyword);
   });
 
   // Initial display

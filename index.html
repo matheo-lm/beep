@@ -11,14 +11,24 @@
 <body>
     <h1 class="header-title text-center"><a href="index.html" class="text-dark">Latest Cybersecurity News</a></h1>
   
-    <div class="items-per-page text-center mb-4">
-      <label for="itemsPerPage" class="mr-2">Items per page:</label>
-      <select id="itemsPerPage" class="custom-select w-auto d-inline-block">
-        <option value="25">25</option>
-        <option value="50">50</option>
-        <option value="75">75</option>
-        <option value="100">100</option>
-      </select>
+    <div class="container mb-4">
+      <div class="row justify-content-center">
+        <div class="col-auto">
+          <label for="itemsPerPage" class="mr-2">Items per page:</label>
+          <select id="itemsPerPage" class="custom-select w-auto d-inline-block">
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="75">75</option>
+            <option value="100">100</option>
+          </select>
+        </div>
+        <div class="col-auto">
+          <input type="text" id="searchInput" class="form-control d-inline-block w-auto" placeholder="Search articles...">
+        </div>
+        <div class="col-auto">
+          <button id="searchButton" class="btn btn-primary">Search</button>
+        </div>
+      </div>
     </div>
   
     <ul id="feed-list" class="list-unstyled p-3"></ul>
