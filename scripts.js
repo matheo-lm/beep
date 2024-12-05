@@ -66,6 +66,10 @@
   
     // Event listeners for pagination buttons
     document.getElementById('prevPage').addEventListener('click', () => {
+      if (currentPage > 1) {
+        currentPage--;
+        displayItems();
+      }
     });
   
     document.getElementById('nextPage').addEventListener('click', () => {
