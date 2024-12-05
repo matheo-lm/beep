@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 05 Dec 2024 12:04:23 EST</pubDate>
+        <pubDate>Thu, 05 Dec 2024 13:05:02 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Police shuts down Manson cybercrime market, arrests key suspects</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-shuts-down-manson-cybercrime-market-fake-shops-arrests-key-suspects/</link>
+        <pubDate>Thu, 05 Dec 2024 12:44:54 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-shuts-down-manson-cybercrime-market-fake-shops-arrests-key-suspects/</guid>
+	<description><![CDATA[German law enforcement has seized over 50 servers that hosted the Manson Market cybercrime marketplace and fake online shops used in phishing operations. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New Android spyware found on phone seized by Russian FSB</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-android-spyware-found-on-phone-seized-by-russian-fsb/</link>
+        <pubDate>Thu, 05 Dec 2024 12:17:25 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-android-spyware-found-on-phone-seized-by-russian-fsb/</guid>
+	<description><![CDATA[After a Russian programmer was detained by Russia's Federal Security Service (FSB) for fifteen days and his phone confiscated, it was discovered that a new spyware was secretly installed on his device upon its return. [...]]]></description>
+ </item>
+
  <item>
         <title>Latrodectus malware and how to defend against it with Wazuh</title>
         <link>https://www.bleepingcomputer.com/news/security/latrodectus-malware-and-how-to-defend-against-it-with-wazuh/</link>
@@ -172,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/japan-warns-of-io-data-zero-day-router-flaws-exploited-in-attacks/</guid>
 	<description><![CDATA[Japan's CERT is warning that hackers are exploiting zero-day vulnerabilities in I-O Data router devices to modify device settings, execute commands, or even turn off the firewall. [...]]]></description>
- </item>
-
- <item>
-        <title>Six password takeaways from the updated NIST cybersecurity framework</title>
-        <link>https://www.bleepingcomputer.com/news/security/six-password-takeaways-from-the-updated-nist-cybersecurity-framework/</link>
-        <pubDate>Wed, 04 Dec 2024 10:01:11 -0500</pubDate>
-        <dc:creator>Sponsored by Specops Software</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/six-password-takeaways-from-the-updated-nist-cybersecurity-framework/</guid>
-	<description><![CDATA[Updated NIST guidelines reject outdated password security practices in favor of more effective protections. Learn from Specops Software about 6 takeaways from NIST's new guidance that help create strong password policies. [...]]]></description>
  </item>
 
 </channel>
