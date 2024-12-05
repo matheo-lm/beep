@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 05 Dec 2024 17:01:47 EST</pubDate>
+        <pubDate>Thu, 05 Dec 2024 18:04:45 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>U.S. org suffered four month intrusion by Chinese hackers</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-org-suffered-four-month-intrusion-by-chinese-hackers/</link>
+        <pubDate>Thu, 05 Dec 2024 17:15:05 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-org-suffered-four-month-intrusion-by-chinese-hackers/</guid>
+	<description><![CDATA[A large U.S. organization with significant presence in China has been reportedly breached by China-based threat actors who persisted on its networks from April to August 2024. [...]]]></description>
+ </item>
+
  <item>
         <title>US arrests Scattered Spider suspect linked to telecom hacks</title>
         <link>https://www.bleepingcomputer.com/news/security/us-arrests-scattered-spider-suspect-linked-to-telecom-hacks/</link>
@@ -172,22 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-droidbot-android-malware-targets-77-banking-crypto-apps/</guid>
 	<description><![CDATA[A new Android banking malware named 'DroidBot' attempts to steal credentials for over 77 cryptocurrency exchanges and banking apps in the UK, Italy, France, Spain, and Portugal. [...]]]></description>
- </item>
-
- <item>
-        <title>Solana Web3.js library backdoored to steal secret, private keys</title>
-        <link>https://www.bleepingcomputer.com/news/security/solana-web3js-library-backdoored-to-steal-secret-private-keys/</link>
-        <pubDate>Wed, 04 Dec 2024 12:31:04 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/solana-web3js-library-backdoored-to-steal-secret-private-keys/</guid>
-	<description><![CDATA[The legitimate Solana JavaScript SDK was temporarily compromised yesterday in a supply chain attack, with the library backdoored with malicious code to steal cryptocurrency private keys and drain wallets. [...]]]></description>
  </item>
 
 </channel>
