@@ -1,0 +1,79 @@
+
+name: Consolidate Update RSS Feeds
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs hourly
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-feeds:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch RSS Feeds
+        run: |
+          curl -L https://www.bleepingcomputer.com/feed/ -o feeds/bpc.xml
+          curl -L https://feeds.feedburner.com/TheHackersNews -o feeds/thn.xml
+          curl -L https://krebsonsecurity.com/feed/ -o feeds/kbs.xml
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install Dependencies
+        run: npm install rss-parser xml2js
+
+      - name: Convert and Merge RSS Feeds to JSON
+        run: |
+          node -e "
+          const fs = require('fs');
+          const RSSParser = require('rss-parser');
+          const parser = new RSSParser();
+          const feeds = [
+            { xml: 'feeds/bpc.xml', json: 'feeds/bpc.json', tag: 'news' },
+            { xml: 'feeds/thn.xml', json: 'feeds/thn.json', tag: 'news' },
+            { xml: 'feeds/kbs.xml', json: 'feeds/kbs.json', tag: 'news' }
+          ];
+          (async () => {
+            for (const feed of feeds) {
+              const xmlData = fs.readFileSync(feed.xml, 'utf8');
+              const newItems = await parser.parseString(xmlData).then(parsed => parsed.items);
+
+              let existingItems = [];
+              if (fs.existsSync(feed.json)) {
+                existingItems = JSON.parse(fs.readFileSync(feed.json, 'utf8')).items || [];
+              }
+
+              const mergedItems = [...newItems, ...existingItems]
+                .reduce((unique, item) => {
+                  if (!unique.some(existing => existing.link === item.link)) {
+                    // Truncate content if it exceeds 240 characters
+                    if (item.content && item.content.length > 240) {
+                      item.content = item.content.substring(0, 240) + ' [...]';
+                    }
+                    item.tag = feed.tag;
+                    unique.push(item);
+                  }
+                  return unique;
+                }, []);
+
+              fs.writeFileSync(feed.json, JSON.stringify({ items: mergedItems }));
+            }
+          })();
+          "
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add feeds/*
+          git commit -m "Update feeds to JSON" || exit 0
+          git push
