@@ -62,3 +62,10 @@ body.dark-mode #darkModeToggle {
       font-size: 16px; /* Increase font size for better readability */
   }
 }
+
+.header-container {
+  display: flex;
+  justify-content: space-between; /* Ensures items are spaced at the edges */
+  max-width: 1440px;
+}
+
