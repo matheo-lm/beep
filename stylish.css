@@ -39,41 +39,77 @@ body.dark-mode #darkModeToggle {
 }
 
 
-/* Mobile Styles */
-@media (max-width: 600px) {
-  h1 {
-      font-size: 3em; /* Balanced header size for smaller screens */
-      line-height: 1.2; /* Add spacing for better readability */
-  }
-
-  #feed-list a {
-      font-size: 1.5rem; /* Relative size for scalable readability */
-      padding: 0.5em 0; /* Add vertical spacing */
-      display: block; /* Easier to tap by making links block-level */
-  }
-
-  .feed-content {
-      font-size: 1.25rem; /* Relative content size */
-      line-height: 1.5; /* Add line spacing for better readability */
-  }
-
-  .iso-date {
-      font-size: 1rem; /* Relative size for dates */
-      color: gray; /* Softer color to reduce distraction */
-  }
-
-  .pagination-container button {
-      padding: 0.75em 1.5em; /* Larger touch target */
-      font-size: 1rem; /* Scalable font size */
-      border-radius: 5px; /* Add a border radius for modern look */
-      display: inline-block; /* Ensure proper button placement */
-  }
-}
-
-
 .header-container {
   display: flex;
   justify-content: space-between; /* Ensures items are spaced at the edges */
   max-width: 1440px;
 }
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+  body h1 {
+      font-size: 1.5rem !important; /* Balanced header size for smaller screens */
+      line-height: 0.2 !important; /* Improved readability */
+      margin-bottom: 1em !important; /* Reduce spacing below the title */
+      margin-top: 1em !important; /* Reduce spacing below the title */
+
+  }
+
+  #feed-list a {
+      font-size: 1.1rem !important; /* Optimized size for readability */
+      display: block !important; /* Block-level links for better tap experience */
+      margin-bottom: -1.2em !important; /* Reduce spacing below the title */
+
+  }
+
+  .feed-content {
+      font-size: 1rem !important; /* Scaled for readability */
+      line-height: 1.5 !important; /* Slightly reduced line height for compactness */
+  }
+
+  .iso-date {
+      font-size: 0.9rem !important; /* Slightly larger for clarity */
+      color: #6c757d !important; /* Neutral gray tone */
+      margin-top: -0.5em !important; /* Pull date closer to content */
+  }
+
+  .pagination-container button {
+      padding: 0.6em 1em !important; /* Adjusted button size */
+      font-size: 1rem !important; /* Consistent, readable size */
+      border-radius: 5px !important; /* Rounded corners for aesthetics */
+      display: inline-block !important; /* Ensures proper alignment */
+  }
+
+  .header-container {
+      display: flex;
+      font-size: 0rem !important; /* Slightly larger for clarity */
+      margin-top: 30em !important; 
+      margin-bottom: 1em !important; 
+      flex-direction: column; /* Stack items vertically */
+      justify-content: center; /* Center items if needed */
+      align-items: center; /* Align items centrally */
+      padding: 2em 0; /* Vertiscal padding only */
+      max-width: 100%; /* Ensure it doesn’t overflow */
+  }
+
+  #feed-list {
+      display: flex; /* Enable a flexbox layout */
+      flex-direction: column; /* Stack articles vertically */
+      gap: 0.5em; /* Add spacing between articles */
+      padding: 0 1em; /* Add horizontal padding for better alignment */
+      max-width: 100%; /* Ensure content fits within screen */
+  }
+
+  article {
+      padding: 0.5em !important; /* Reduce padding for compactness */
+      box-sizing: border-box; /* Prevents layout issues */
+  }
+
+  .d-flex align-items-center{
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem !important; /* Slightly larger for clarity */
+  } ;
+}
+
 
