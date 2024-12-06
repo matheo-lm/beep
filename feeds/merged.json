@@ -2,6 +2,159 @@
   "items": [
     {
       "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "This $3,000 Android Trojan Targeting Banks and Cryptocurrency Exchanges",
+      "link": "https://thehackernews.com/2024/12/this-3000-android-trojan-targeting.html",
+      "pubDate": "Thu, 05 Dec 2024 21:28:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbPZP74p5tgDHJM3FLaCd3WuHGJn-xRnKy1I2scD0ZD5sF1gr75IG1XmH4ZjtHIdk-Hfekbx8ODv6aJ9zG7N3Y2bMRHNFrxVZCIr3QoCDk2-pJYpSv7b-ezN-zHn0661uvBFyfB7Wx8q1mteQwqBxg9WBe0RXOdIk5At-gv87ylfQKQz1pyKLBxDccbJeJ/s1600/android.png"
+      },
+      "content": "As many as 77 banking institutions, cryptocurrency exchanges, and national organizations have become the target of a newly discovered Android remote access trojan (RAT) called DroidBot.\n\"DroidBot is a modern RAT that combines hidden VNC and [...]",
+      "contentSnippet": "As many as 77 banking institutions, cryptocurrency exchanges, and national organizations have become the target of a newly discovered Android remote access trojan (RAT) called DroidBot.\n\"DroidBot is a modern RAT that combines hidden VNC and overlay attack techniques with spyware-like capabilities, such as keylogging and user interface monitoring,\" Cleafy researchers Simone Mattia, Alessandro",
+      "guid": "https://thehackernews.com/2024/12/this-3000-android-trojan-targeting.html",
+      "isoDate": "2024-12-05T15:58:00.000Z",
+      "itunes": {}
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "Critical Mitel MiCollab Flaw Exposes Systems to Unauthorized File and Admin Access",
+      "link": "https://thehackernews.com/2024/12/critical-mitel-micollab-flaw-exposes.html",
+      "pubDate": "Thu, 05 Dec 2024 20:26:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJUuOP9gIu8zQpLgwI19Ko0JurpJKjZbU8JmaOfCsAvQKLW8PYupEekM9x8Fyr_AjpU7m0vTn7WTRG-qHfNB-BZMXm3EjH4h8TEnL0c6eMlFDoJ0xU4U4G1EcLhQHdxT-BDUkAAT5HFdPKO1qvuJh5gEfB_5YpTwB54bFu6UBg-oZL8x_y___8_f619fGg/s1600/hacking.png"
+      },
+      "content": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit that strings together a now-patched critical security flaw impacting Mitel MiCollab with an arbitrary file read zero-day, granting an attacker the ability to access fi [...]",
+      "contentSnippet": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit that strings together a now-patched critical security flaw impacting Mitel MiCollab with an arbitrary file read zero-day, granting an attacker the ability to access files from susceptible instances.\nThe critical vulnerability in question is CVE-2024-41713 (CVSS score: 9.8), which relates to a case of insufficient input",
+      "guid": "https://thehackernews.com/2024/12/critical-mitel-micollab-flaw-exposes.html",
+      "isoDate": "2024-12-05T14:56:00.000Z",
+      "itunes": {}
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "Europol Shuts Down Manson Market Fraud Marketplace, Seizes 50 Servers",
+      "link": "https://thehackernews.com/2024/12/europol-shuts-down-manson-market-fraud.html",
+      "pubDate": "Thu, 05 Dec 2024 20:25:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiryi9nOCmOWpCHYvfhS0NsNLTxQc4IacKou-lggAJzuDgaAaeRxrtI-gx6svpnEXPvhpoXiuMvjq7BV7FPnuvzTjFHsUuhqaMIQsaUQUhTDlu4PRa-5BjtIgPca9dgJDW1RczgFyMGwy2jkLXVI-r0SxIGV-dSni6woe2yApGTRHG6L82ADXuYfnJhRmXa/s1600/market.png"
+      },
+      "content": "Europol on Thursday announced the shutdown of a clearnet marketplace called Manson Market that facilitated online fraud on a large scale.\nThe operation, led by German authorities, has resulted in the seizure of more than 50 servers associat [...]",
+      "contentSnippet": "Europol on Thursday announced the shutdown of a clearnet marketplace called Manson Market that facilitated online fraud on a large scale.\nThe operation, led by German authorities, has resulted in the seizure of more than 50 servers associated with the service and the arrest of two suspects. More than 200 terabytes of digital evidence have been collected.\nManson Market (\"manson-market[.]pw\") is",
+      "guid": "https://thehackernews.com/2024/12/europol-shuts-down-manson-market-fraud.html",
+      "isoDate": "2024-12-05T14:55:00.000Z",
+      "itunes": {}
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "Want to Grow Vulnerability Management into Exposure Management? Start Here!",
+      "link": "https://thehackernews.com/2024/12/want-to-grow-vulnerability-management.html",
+      "pubDate": "Thu, 05 Dec 2024 18:16:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh02EU_ITGxo8cMYStzriiYfZjnzR15cL_iOwSN3D9RO68WEQ58Eqmk42EkYbBu3LMsz5uW8YMpVeAumNOxlK4YbSf4ojWc5T_cLMVrOvOE-AtgjqxJYMuhYyuAiW15HmofgQ7wU7fKsokxWxaOArgAZJMlDKh9YoHDB1fLud7FxYP_0P_XHQzhTBksXo/s1600/main.png"
+      },
+      "content": "Vulnerability Management (VM) has long been a cornerstone of organizational cybersecurity. Nearly as old as the discipline of cybersecurity itself, it aims to help organizations identify and address potential security issues before they bec [...]",
+      "contentSnippet": "Vulnerability Management (VM) has long been a cornerstone of organizational cybersecurity. Nearly as old as the discipline of cybersecurity itself, it aims to help organizations identify and address potential security issues before they become serious problems. Yet, in recent years, the limitations of this approach have become increasingly evident. \nAt its core, Vulnerability Management",
+      "guid": "https://thehackernews.com/2024/12/want-to-grow-vulnerability-management.html",
+      "isoDate": "2024-12-05T12:46:00.000Z",
+      "itunes": {}
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "Hackers Target Uyghurs and Tibetans with MOONSHINE Exploit and DarkNimbus Backdoor",
+      "link": "https://thehackernews.com/2024/12/hackers-target-uyghurs-and-tibetans.html",
+      "pubDate": "Thu, 05 Dec 2024 18:13:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEjcxpBZGi1wmaYXDaf3D2X3HxS2v2fqBStMOCvgaUukrY5YveAx-A1AWPeViqDWXEggKxyA8_6wyMUDKpLpVKuGsYgGlUO71lnil2AB1lH4-P5QI2EzODxwPAUEYhH5fyCG9AO14LNItUdQyXnRSzFLnT5j3Bz4SU0u32A6kXR1k6Yy_omU6iAzsL_aKF/s1600/chinese-hackers.png"
+      },
+      "content": "A previously undocumented threat activity cluster dubbed Earth Minotaur is leveraging the MOONSHINE exploit kit and an unreported Android-cum-Windows backdoor called DarkNimbus to facilitate long-term surveillance operations targeting Tibet [...]",
+      "contentSnippet": "A previously undocumented threat activity cluster dubbed Earth Minotaur is leveraging the MOONSHINE exploit kit and an unreported Android-cum-Windows backdoor called DarkNimbus to facilitate long-term surveillance operations targeting Tibetans and Uyghurs.\n\"Earth Minotaur uses MOONSHINE to deliver the DarkNimbus backdoor to Android and Windows devices, targeting WeChat, and possibly making it a",
+      "guid": "https://thehackernews.com/2024/12/hackers-target-uyghurs-and-tibetans.html",
+      "isoDate": "2024-12-05T12:43:00.000Z",
+      "itunes": {}
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "Researchers Uncover 4-Month Cyberattack on U.S. Firm Linked to Chinese Hackers",
+      "link": "https://thehackernews.com/2024/12/researchers-uncover-4-month-cyberattack.html",
+      "pubDate": "Thu, 05 Dec 2024 16:30:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG8n5LOH9EpZ2WInLskY3CSsM98nn-RxEVVX4pVGHpAJlOqUj7_REBEYT4IVW7KkEuKC8FzQvRLawjlseV_OoZgKYssHnuO64KS_3WthD2PxwAoL6tdlPzMtN7If9HDIHrJISdQ9DGUF74iEqf22qD6FvluAjO17JVDdj5iP79LTj3iPfiyjGYOfW_usSQ/s1600/china.png"
+      },
+      "content": "A suspected Chinese threat actor targeted a large U.S. organization earlier this year as part of a four-month-long intrusion.\nAccording to Broadcom-owned Symantec, the first evidence of the malicious activity was detected on April 11, 2024  [...]",
+      "contentSnippet": "A suspected Chinese threat actor targeted a large U.S. organization earlier this year as part of a four-month-long intrusion.\nAccording to Broadcom-owned Symantec, the first evidence of the malicious activity was detected on April 11, 2024 and continued until August. However, the company doesn't rule out the possibility that the intrusion may have occurred earlier.\n\"The attackers moved laterally",
+      "guid": "https://thehackernews.com/2024/12/researchers-uncover-4-month-cyberattack.html",
+      "isoDate": "2024-12-05T11:00:00.000Z",
+      "itunes": {}
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "ANEL and NOOPDOOR Backdoors Weaponized in New MirrorFace Campaign Against Japan",
+      "link": "https://thehackernews.com/2024/12/anel-and-noopdoor-backdoors-weaponized.html",
+      "pubDate": "Thu, 05 Dec 2024 13:00:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFZpRDzT9Fp41KYZ5kyu1SoGxEkWAXwqO6USnDJUGWF7hJY9ERy_sXEoHUkxz0zTbbmtk7RiIRzr1tJujRLZeD5yybZLQS6jh0PpjffhUUy6ma8Q8wZKo-edr7W7j_Z7dgOGEPEV9mdml3bJ6t4uhhBFNk_nTHxx62i6nyvdCTC24htfnMhZwmd-ez0ABH/s1600/main.png"
+      },
+      "content": "The China-linked threat actor known as MirrorFace has been attributed to a new spear-phishing campaign mainly targeting individuals and organizations in Japan since June 2024.\nThe aim of the campaign is to deliver backdoors known as NOOPDOO [...]",
+      "contentSnippet": "The China-linked threat actor known as MirrorFace has been attributed to a new spear-phishing campaign mainly targeting individuals and organizations in Japan since June 2024.\nThe aim of the campaign is to deliver backdoors known as NOOPDOOR (aka HiddenFace) and ANEL (aka UPPERCUT), Trend Micro said in a technical analysis.\n\"An interesting aspect of this campaign is the comeback of a backdoor",
+      "guid": "https://thehackernews.com/2024/12/anel-and-noopdoor-backdoors-weaponized.html",
+      "isoDate": "2024-12-05T07:30:00.000Z",
+      "itunes": {}
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "NCA Busts Russian Crypto Networks Laundering Funds and Evading Sanctions",
+      "link": "https://thehackernews.com/2024/12/nca-busts-russian-crypto-networks.html",
+      "pubDate": "Thu, 05 Dec 2024 11:17:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO6oBwHVgLNyAqZkpbigsDoSXCuJ5jPNSECcm3t0TaAL9cYLpUwBX3p9qaXxnJSHmH3QGkPJbswKvezzB8cTZKx0BRonTsE-lGC5z-mh7VJKfQVfLVI5QKKmvXxvI21UiE2uwIOhFGjrVJjcME4fCJCNlVjqtGXIczzYZbSXj7K0sr3KjE0SJZpIuZMAaf/s1600/nca.png"
+      },
+      "content": "The U.K. National Crime Agency (NCA) on Wednesday announced that it led an international investigation to disrupt Russian money laundering networks that were found to facilitate serious and organized crime across the U.K., the Middle East,  [...]",
+      "contentSnippet": "The U.K. National Crime Agency (NCA) on Wednesday announced that it led an international investigation to disrupt Russian money laundering networks that were found to facilitate serious and organized crime across the U.K., the Middle East, Russia, and South America.\nThe effort, codenamed Operation Destabilise, has resulted in the arrest of 84 suspects linked to two Russian-speaking networks",
+      "guid": "https://thehackernews.com/2024/12/nca-busts-russian-crypto-networks.html",
+      "isoDate": "2024-12-05T05:47:00.000Z",
+      "itunes": {}
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "CISA Warns of Active Exploitation of Flaws in Zyxel, ProjectSend, and CyberPanel",
+      "link": "https://thehackernews.com/2024/12/cisa-warns-of-active-exploitation-of.html",
+      "pubDate": "Thu, 05 Dec 2024 10:39:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhw7jcdk7XehytSmI9Jdiijh-_MOmZ_13_ipTxXdoJ0DCmSSkXK2sJgrPEeoC9BelDKFUWGgiT4QSXgQ2LxX4smr-c7F4A-_mH9krjGxV04O9xENew-lhQ_JpYQ3cpeHo4IaJ055WQSDL2AMuvAgC9jcNvYBW23eNeLlmFB90a_utbmoSmlDFg1b9hif5Jn/s1600/warning-cisa.png"
+      },
+      "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added multiple security flaws affecting products from Zyxel, North Grid Proself, ProjectSend, and CyberPanel to its Known Exploited Vulnerabilities (KEV) catalog, citing evide [...]",
+      "contentSnippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added multiple security flaws affecting products from Zyxel, North Grid Proself, ProjectSend, and CyberPanel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.\nThe list of vulnerabilities is as follows -\n\nCVE-2024-51378 (CVSS score: 10.0) - An incorrect default permissions",
+      "guid": "https://thehackernews.com/2024/12/cisa-warns-of-active-exploitation-of.html",
+      "isoDate": "2024-12-05T05:09:00.000Z",
+      "itunes": {}
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
       "title": "Russia-Linked Turla Exploits Pakistani Hackers' Servers to Target Afghan and Indian Entities",
       "link": "https://thehackernews.com/2024/12/russia-linked-turla-exploits-pakistani.html",
       "pubDate": "Wed, 04 Dec 2024 22:53:00 +0530",
@@ -22,7 +175,7 @@
       "title": "Europol Dismantles Criminal Messaging Service MATRIX in Major Global Takedown",
       "link": "https://thehackernews.com/2024/12/europol-dismantles-criminal-messaging.html",
       "pubDate": "Wed, 04 Dec 2024 17:50:00 +0530",
-      "author":  "info@thehackernews.com (The Hacker News)",
+      "author": "info@thehackernews.com (The Hacker News)",
       "enclosure": {
         "length": "12216320",
         "type": "image/jpeg",
@@ -495,6 +648,23 @@
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "Critical Flaw in ProjectSend Under Active Exploitation Against Public-Facing Servers",
+      "link": "https://thehackernews.com/2024/11/critical-flaw-in-projectsend-under.html",
+      "pubDate": "Wed, 27 Nov 2024 21:35:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqZHbdcctGsYm5Xz0LzO_g2ZwZGjUsiejnP3DxzFv0XX0e3iuJNND9kVCwUVyiuYBp8T-PfoZ9T-_8fLB17GMDoNZbQpY8tgfvoZHb-OTWnsuJbbd0ihTp4zf-H03FRy29lCpmqPuLG3FZDNvuT2LLPOaQWKLDoy_eZlF8YSZVzBOpSbbVsEklBCeHHAdq/s1600/projectsend.png"
+      },
+      "content": "A critical security flaw impacting the ProjectSend open-source file-sharing application has likely come under active exploitation in the wild, according to findings from VulnCheck.\nThe vulnerability, originally patched over a year-and-a-hal [...]",
+      "contentSnippet": "A critical security flaw impacting the ProjectSend open-source file-sharing application has likely come under active exploitation in the wild, according to findings from VulnCheck.\nThe vulnerability, originally patched over a year-and-a-half ago as part of a commit pushed in May 2023, was not officially made available until August 2024 with the release of version r1720. As of November 26, 2024,",
+      "guid": "https://thehackernews.com/2024/11/critical-flaw-in-projectsend-under.html",
+      "isoDate": "2024-11-27T16:05:00.000Z",
+      "itunes": {}
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
       "title": "Researchers Discover \"Bootkitty\" – First UEFI Bootkit Targeting Linux Kernels",
       "link": "https://thehackernews.com/2024/11/researchers-discover-bootkitty-first.html",
       "pubDate": "Wed, 27 Nov 2024 21:35:00 +0530",
@@ -507,23 +677,6 @@
       "content": "Cybersecurity researchers have shed light on what has been described as the first Unified Extensible Firmware Interface (UEFI) bootkit designed for Linux systems.\nDubbed Bootkitty by its creators who go by the name BlackCat, the bootkit is  [...]",
       "contentSnippet": "Cybersecurity researchers have shed light on what has been described as the first Unified Extensible Firmware Interface (UEFI) bootkit designed for Linux systems.\nDubbed Bootkitty by its creators who go by the name BlackCat, the bootkit is assessed to be a proof-of-concept (PoC) and there is no evidence that it has been put to use in real-world attacks. Also tracked as IranuKit, it was uploaded",
       "guid": "https://thehackernews.com/2024/11/researchers-discover-bootkitty-first.html",
-      "isoDate": "2024-11-27T16:05:00.000Z",
-      "itunes": {}
-    },
-    {
-      "creator": "info@thehackernews.com (The Hacker News)",
-      "title": "Critical Flaw in ProjectSend Under Active Exploitation Against Public-Facing Servers",
-      "link": "https://thehackernews.com/2024/11/critical-flaw-in-projectsend-under.html",
-      "pubDate": "Wed, 27 Nov 2024 21:35:00 +0530",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "enclosure": {
-        "length": "12216320",
-        "type": "image/jpeg",
-        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqZHbdcctGsYm5Xz0LzO_g2ZwZGjUsiejnP3DxzFv0XX0e3iuJNND9kVCwUVyiuYBp8T-PfoZ9T-_8fLB17GMDoNZbQpY8tgfvoZHb-OTWnsuJbbd0ihTp4zf-H03FRy29lCpmqPuLG3FZDNvuT2LLPOaQWKLDoy_eZlF8YSZVzBOpSbbVsEklBCeHHAdq/s1600/projectsend.png"
-      },
-      "content": "A critical security flaw impacting the ProjectSend open-source file-sharing application has likely come under active exploitation in the wild, according to findings from VulnCheck.\nThe vulnerability, originally patched over a year-and-a-hal [...]",
-      "contentSnippet": "A critical security flaw impacting the ProjectSend open-source file-sharing application has likely come under active exploitation in the wild, according to findings from VulnCheck.\nThe vulnerability, originally patched over a year-and-a-half ago as part of a commit pushed in May 2023 , was not officially made available until August 2024 with the release of version r1720. As of November 26, 2024,",
-      "guid": "https://thehackernews.com/2024/11/critical-flaw-in-projectsend-under.html",
       "isoDate": "2024-11-27T16:05:00.000Z",
       "itunes": {}
     },
