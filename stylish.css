@@ -42,26 +42,34 @@ body.dark-mode #darkModeToggle {
 /* Mobile Styles */
 @media (max-width: 600px) {
   h1 {
-      font-size: 4.75em; /* Slightly smaller header on mobile */
+      font-size: 3em; /* Balanced header size for smaller screens */
+      line-height: 1.2; /* Add spacing for better readability */
   }
 
   #feed-list a {
-      font-size: 50px; /* Increase link size for readability on small screens */
+      font-size: 1.5rem; /* Relative size for scalable readability */
+      padding: 0.5em 0; /* Add vertical spacing */
+      display: block; /* Easier to tap by making links block-level */
   }
 
   .feed-content {
-      font-size: 46px; /* Increase content size for readability on small screens */
+      font-size: 1.25rem; /* Relative content size */
+      line-height: 1.5; /* Add line spacing for better readability */
   }
 
   .iso-date {
-      font-size: 14px; /* Increase date size for readability on small screens */
+      font-size: 1rem; /* Relative size for dates */
+      color: gray; /* Softer color to reduce distraction */
   }
 
   .pagination-container button {
-      padding: 10px 20px; /* Increase padding for larger touch targets */
-      font-size: 16px; /* Increase font size for better readability */
+      padding: 0.75em 1.5em; /* Larger touch target */
+      font-size: 1rem; /* Scalable font size */
+      border-radius: 5px; /* Add a border radius for modern look */
+      display: inline-block; /* Ensure proper button placement */
   }
 }
+
 
 .header-container {
   display: flex;
