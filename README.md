@@ -22,3 +22,14 @@ In Greek mythology, Hermes was the messenger of the gods, a patron of travelers,
 ## Phase 2:
 - Add a top menu bar for "cyber news", "incident fillings", "breach notifications", "advisories" and "saas status".  
 - Grind each of the features above.....
+
+
+## Contributing
+We welcome contributions! Please read our Contributing Guide to get started.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+For any inquiries or support, please open an issue or contact us at hello@82sec.com.
+
