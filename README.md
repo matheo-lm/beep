@@ -8,11 +8,11 @@ In Greek mythology, Hermes was the messenger of the gods, a patron of travelers,
 
 ## Done
 - ~Collects and displays cybersecurity news from reliable sources.~
-- Archives articles for historical reference.
-- Provides a user-friendly interface for both web and mobile users.
-- Add a top menu bar for "cyber news", "incident fillings", "breach notifications", "advisories" and "saas status".
-- Filtering capabilities by category.
-- Functionality to Attach tags to each category.
+- ~Archives articles for historical reference.~
+- ~Provides a user-friendly interface for both web and mobile users.~
+- ~Add a top menu bar for "cyber news", "incident fillings", "breach notifications", "advisories" and "saas status".~
+- ~Filtering capabilities by category.~
+- ~Functionality to Attach tags to each category.~
 - Integrate 4 news sources
 
 ## TODOs
