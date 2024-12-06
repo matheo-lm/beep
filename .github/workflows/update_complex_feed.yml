@@ -1,8 +1,8 @@
 name: Update Complex RSS Feeds
 
 on:
-  schedule:
-    - cron: '0 * * * *'  # Runs hourly
+#  schedule:
+#    - cron: '0 * * * *'  # Runs hourly
   workflow_dispatch:
 
 permissions:
