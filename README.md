@@ -1,25 +1,24 @@
-# dev: beep
-## prod: hermes
-### To provide a centralized, near real-time source of cybersecurity news, incidents, and app status
+# beep
+
+## Hermes: Centralized Cybersecurity Updates
+
+In Greek mythology, Hermes was the messenger of the gods, a patron of travelers, and a protector of merchants, orators, and even thieves. In the cyber world, our Hermes channels that spirit—delivering SaaS status, hackcidents, intel, news, and exploit (SHINE) updates straight to you with no nonsense.
 
 [Project Link](https://matheo-lm.github.io/beep/#)
 
-## Phase 1:
-### Functionality:
-1. Collect cybersecurity news from reliable sources, parse them, and present them in a readable format.
-2. Keep a record of all the news since inception.
-3. Provide a friendly mobile and web interface.
+## Features
+- Collects and displays cybersecurity news from reliable sources.
+- Archives news for historical reference.
+- Provides a user-friendly interface for both web and mobile users.
 
-### TODO:
-4. Allow users to subscribe to a daily, hourly, or weekly digest.
-5. Deduplicate news.
-6. Add two more sources (krebs and ??).
-7. Enable filtering by source date.
-8. Extract tags and categorize news.
-9. Add unique identifier for each news article. 
+## TODOs
+- Subscription options for daily, hourly, or weekly digests.
+- News deduplication.
+- Integration of additional sources (e.g., Krebs).
+- Filtering capabilities by source and date.
+- Tag extraction and news categorization.
+- Unique identifiers for each news article.
 
 ## Phase 2:
-10. Add a top menu bar for "cyber news", "incident fillings", "breach notifications", "advisories" and "saas status".  
-11. Grind each of the features above.....
-
-
+- Add a top menu bar for "cyber news", "incident fillings", "breach notifications", "advisories" and "saas status".  
+- Grind each of the features above.....
