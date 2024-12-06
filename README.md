@@ -6,22 +6,27 @@ In Greek mythology, Hermes was the messenger of the gods, a patron of travelers,
 
 [Project Link](https://matheo-lm.github.io/beep/#)
 
-## Features
-- Collects and displays cybersecurity news from reliable sources.
-- Archives news for historical reference.
+## Done
+- ~Collects and displays cybersecurity news from reliable sources.~
+- Archives articles for historical reference.
 - Provides a user-friendly interface for both web and mobile users.
+- Add a top menu bar for "cyber news", "incident fillings", "breach notifications", "advisories" and "saas status".
+- Filtering capabilities by category.
+- Functionality to Attach tags to each category.
+- Integrate 4 news sources
 
 ## TODOs
-- Subscription options for daily, hourly, or weekly digests.
-- News deduplication.
-- Integration of additional sources (e.g., Krebs).
-- Filtering capabilities by source and date.
-- Tag extraction and news categorization.
-- Unique identifiers for each news article.
+- Integrate 4 intel sources
+- Integrate 4 hackcidents sources
+- Integrate 4 status sources
+- Integrate 4 exploits sources
+- Filtering capabilities by source
+- Filtering capabilities by date.
+- Assign unique identifiers for each news article.
 
 ## Phase 2:
-- Add a top menu bar for "cyber news", "incident fillings", "breach notifications", "advisories" and "saas status".  
-- Grind each of the features above.....
+- News deduplication.
+- Subscription options for daily, hourly, or weekly digests.
 
 
 ## Contributing
