@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 06 Dec 2024 11:00:07 EST</pubDate>
+        <pubDate>Fri, 06 Dec 2024 11:56:12 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Blue Yonder SaaS giant breached by Termite ransomware gang</title>
+        <link>https://www.bleepingcomputer.com/news/security/blue-yonder-saas-giant-breached-by-termite-ransomware-gang/</link>
+        <pubDate>Fri, 06 Dec 2024 11:35:54 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/blue-yonder-saas-giant-breached-by-termite-ransomware-gang/</guid>
+	<description><![CDATA[​The Termite ransomware gang has officially claimed responsibility for the November breach of software as a service (SaaS) provider Blue Yonder. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New Windows zero-day exposes NTLM credentials, gets unofficial patch</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-windows-zero-day-exposes-ntlm-credentials-gets-unofficial-patch/</link>
+        <pubDate>Fri, 06 Dec 2024 11:32:05 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-windows-zero-day-exposes-ntlm-credentials-gets-unofficial-patch/</guid>
+	<description><![CDATA[A new zero-day vulnerability has been discovered that allows attackers to capture NTLM credentials by simply tricking the target into viewing a malicious file in Windows Explorer. [...]]]></description>
+ </item>
+
  <item>
         <title>Crypto-stealing malware posing as a meeting app targets Web3 pros</title>
         <link>https://www.bleepingcomputer.com/news/security/crypto-stealing-malware-posing-as-a-meeting-app-targets-web3-pros/</link>
@@ -160,36 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-having-a-tpm-is-non-negotiable-for-windows-11/</guid>
 	<description><![CDATA[Microsoft made it abundantly clear this week that Windows 10 users won't be able to upgrade to Windows 11 unless their systems come with TPM 2.0 support, stating it's a "non-negotiable" requirement. [...]]]></description>
- </item>
-
- <item>
-        <title>White House: Salt Typhoon hacked telcos in dozens of countries</title>
-        <link>https://www.bleepingcomputer.com/news/security/white-house-salt-typhoon-hacked-telcos-in-dozens-of-countries/</link>
-        <pubDate>Wed, 04 Dec 2024 18:00:27 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/white-house-salt-typhoon-hacked-telcos-in-dozens-of-countries/</guid>
-	<description><![CDATA[​Chinese state hackers, known as Salt Typhoon, have breached telecommunications companies in dozens of countries, President Biden's deputy national security adviser Anne Neuberger said today. [...]]]></description>
- </item>
-
- <item>
-        <title>FBI shares tips on how to tackle AI-powered fraud schemes</title>
-        <link>https://www.bleepingcomputer.com/news/security/fbi-shares-tips-on-how-to-tackle-ai-powered-fraud-schemes/</link>
-        <pubDate>Wed, 04 Dec 2024 15:37:15 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fbi-shares-tips-on-how-to-tackle-ai-powered-fraud-schemes/</guid>
-	<description><![CDATA[The FBI warns that scammers are increasingly using artificial intelligence to improve the quality and effectiveness of their online fraud schemes, ranging from romance and investment scams to job hiring schemes. [...]]]></description>
  </item>
 
 </channel>
