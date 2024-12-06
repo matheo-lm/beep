@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 06 Dec 2024 14:00:00 EST</pubDate>
+        <pubDate>Fri, 06 Dec 2024 14:57:00 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft expands Recall preview to Intel and AMD Copilot+ PCs</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-expands-recall-preview-to-intel-and-amd-copilot-plus-pcs/</link>
+        <pubDate>Fri, 06 Dec 2024 14:06:46 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-expands-recall-preview-to-intel-and-amd-copilot-plus-pcs/</guid>
+	<description><![CDATA[​Microsoft is now testing its AI-powered Recall feature on AMD and Intel-powered Copilot+ PCs enrolled in the Windows 11 Insider program. [...]]]></description>
+ </item>
+
  <item>
         <title>Ultralytics AI model hijacked to infect thousands with cryptominer</title>
         <link>https://www.bleepingcomputer.com/news/security/ultralytics-ai-model-hijacked-to-infect-thousands-with-cryptominer/</link>
@@ -180,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/latrodectus-malware-and-how-to-defend-against-it-with-wazuh/</guid>
 	<description><![CDATA[Latrodectus is a versatile malware family that infiltrate systems, steal sensitive data, and evades detection. Learn more from Wazuh about Latrodectus malware and how to defend against it using the open-source XDR. [...]]]></description>
- </item>
-
- <item>
-        <title>Mitel MiCollab zero-day flaw gets proof-of-concept exploit</title>
-        <link>https://www.bleepingcomputer.com/news/security/mitel-micollab-zero-day-flaw-gets-proof-of-concept-exploit/</link>
-        <pubDate>Thu, 05 Dec 2024 06:00:00 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/mitel-micollab-zero-day-flaw-gets-proof-of-concept-exploit/</guid>
-	<description><![CDATA[Researchers have uncovered an arbitrary file read zero-day in the Mitel MiCollab collaboration platform, allowing attackers to access files on a server's filesystem. [...]]]></description>
  </item>
 
 </channel>
