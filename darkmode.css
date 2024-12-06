@@ -1,0 +1,39 @@
+body.dark-mode {
+  background-color: #333;
+  color: #ffffff;
+}
+body.dark-mode .navbar {
+  background-color: #2a2a2a !important;
+}
+body.dark-mode .btn {
+  background-color: #333333;
+  color: #ffffff;
+}
+body.dark-mode .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+body.dark-mode .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+body.dark-mode .text-dark {
+  color: #ffffff !important;
+}
+body.dark-mode .text-muted {
+  color: #cccccc !important;
+}
+body.dark-mode .github-button, body.dark-mode .total-article-button, body.dark-mode #prevPage, body.dark-mode #nextPage {
+  background-color: #ffffff;
+  color: #333333;
+}
+body.dark-mode .nav-link {
+  color: #ffffff !important;
+}
+body.dark-mode .navbar-brand {
+  color: #ffffff !important;
+}
+body.dark-mode #darkModeToggle {
+  background-color: #ffffff;
+  color: #333333;
+}

@@ -9,6 +9,7 @@
   let itemsPerPage = parseInt(document.getElementById('itemsPerPage').value);
   let filteredItems = [];
   const headerTitle = document.querySelector('.header-title a');
+  const darkModeToggle = document.getElementById('darkModeToggle');
 
   // Show loading message
   document.getElementById('feed-list').innerHTML = '<li>Loading...</li>';
@@ -78,7 +79,7 @@
 
     // Update page info
     const pageInfo = document.getElementById('pageInfo');
-    pageInfo.textContent = `Page ${currentPage} of ${Math.ceil(filteredItems.length / itemsPerPage)}`;
+    pageInfo.textContent = `${currentPage} of ${Math.ceil(filteredItems.length / itemsPerPage)}`;
 
     // Update total article count
     const totalArticleCount = document.getElementById('totalArticleCount');
@@ -110,6 +111,14 @@
     headerTitle.textContent = `Latest Cyber ${tag.charAt(0).toUpperCase() + tag.slice(1)}`;
   }
 
+  // Function to toggle dark mode
+  function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+    const darkModeEnabled = document.body.classList.contains('dark-mode');
+    localStorage.setItem('darkMode', darkModeEnabled);
+    darkModeToggle.textContent = darkModeEnabled ? 'Light Mode' : 'Dark Mode';
+  }
+
   // Event listeners for pagination buttons
   document.getElementById('prevPage').addEventListener('click', () => {
     if (currentPage > 1) {
@@ -139,15 +148,15 @@
   });
 
   // Event listener for "Status" link in the navigation bar
-   document.querySelector('.nav-link[href="#status"]').addEventListener('click', () => {
+  document.querySelector('.nav-link[href="#status"]').addEventListener('click', () => {
     filterItemsByTag('status');
   });
 
   // Event listener for "Hackcidents" link in the navigation bar
-    document.querySelector('.nav-link[href="#hackcidents"]').addEventListener('click', () => {
-      filterItemsByTag('hackcidents');
+  document.querySelector('.nav-link[href="#hackcidents"]').addEventListener('click', () => {
+    filterItemsByTag('hackcidents');
   });
- 
+
   // Event listener for "Intel" link in the navigation bar
   document.querySelector('.nav-link[href="#intel"]').addEventListener('click', () => {
     filterItemsByTag('intel');
@@ -163,6 +172,14 @@
     filterItemsByTag('exploits');
   });
 
+  // Event listener for dark mode toggle
+  darkModeToggle.addEventListener('click', toggleDarkMode);
+
+  // Check for saved dark mode preference
+  if (localStorage.getItem('darkMode') === 'true') {
+    document.body.classList.add('dark-mode');
+    darkModeToggle.textContent = 'Light Mode';
+  }
 
   // Initial display
   displayItems();
