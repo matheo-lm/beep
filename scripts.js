@@ -57,6 +57,11 @@
     const feedList = document.getElementById('feed-list');
     feedList.innerHTML = '';
 
+    if (filteredItems.length === 0) {
+      feedList.innerHTML = '<li>Sorry, no articles found. Please check back later for updates.</li>';
+      return;
+    }
+
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
     const pageItems = filteredItems.slice(startIndex, endIndex);
@@ -77,7 +82,7 @@
 
     // Update total article count
     const totalArticleCount = document.getElementById('totalArticleCount');
-    totalArticleCount.textContent = `Total articles available: ${filteredItems.length}`;
+    totalArticleCount.textContent = `Total articles: ${filteredItems.length}`;
 
     // Update pagination buttons
     updatePaginationButtons();
