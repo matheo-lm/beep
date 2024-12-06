@@ -42,15 +42,15 @@ body.dark-mode #darkModeToggle {
 /* Mobile Styles */
 @media (max-width: 600px) {
   h1 {
-      font-size: 2.75em; /* Slightly smaller header on mobile */
+      font-size: 3.75em; /* Slightly smaller header on mobile */
   }
 
   #feed-list a {
-      font-size: 30px; /* Increase link size for readability on small screens */
+      font-size: 40px; /* Increase link size for readability on small screens */
   }
 
   .feed-content {
-      font-size: 26px; /* Increase content size for readability on small screens */
+      font-size: 36px; /* Increase content size for readability on small screens */
   }
 
   .iso-date {
