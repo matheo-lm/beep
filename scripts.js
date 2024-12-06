@@ -8,6 +8,7 @@
   let currentPage = 1;
   let itemsPerPage = parseInt(document.getElementById('itemsPerPage').value);
   let filteredItems = [];
+  const headerTitle = document.querySelector('.header-title a');
 
   // Show loading message
   document.getElementById('feed-list').innerHTML = '<li>Loading...</li>';
@@ -96,6 +97,14 @@
     displayItems();
   }
 
+  // Function to filter items by tag
+  function filterItemsByTag(tag) {
+    filteredItems = feedItems.filter(item => item.tag === tag);
+    currentPage = 1; // Reset to first page
+    displayItems();
+    headerTitle.textContent = `Latest Cyber ${tag.charAt(0).toUpperCase() + tag.slice(1)}`;
+  }
+
   // Event listeners for pagination buttons
   document.getElementById('prevPage').addEventListener('click', () => {
     if (currentPage > 1) {
@@ -123,6 +132,32 @@
     const keyword = document.getElementById('searchInput').value;
     filterItems(keyword);
   });
+
+  // Event listener for "Status" link in the navigation bar
+   document.querySelector('.nav-link[href="#status"]').addEventListener('click', () => {
+    filterItemsByTag('status');
+  });
+
+  // Event listener for "Hackcidents" link in the navigation bar
+    document.querySelector('.nav-link[href="#hackcidents"]').addEventListener('click', () => {
+      filterItemsByTag('hackcidents');
+  });
+ 
+  // Event listener for "Intel" link in the navigation bar
+  document.querySelector('.nav-link[href="#intel"]').addEventListener('click', () => {
+    filterItemsByTag('intel');
+  });
+
+  // Event listener for "News" link in the navigation bar
+  document.querySelector('.nav-link[href="#news"]').addEventListener('click', () => {
+    filterItemsByTag('news');
+  });
+
+  // Event listener for "Exploits" link in the navigation bar
+  document.querySelector('.nav-link[href="#exploits"]').addEventListener('click', () => {
+    filterItemsByTag('exploits');
+  });
+
 
   // Initial display
   displayItems();
