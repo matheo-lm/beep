@@ -116,7 +116,7 @@
     document.body.classList.toggle('dark-mode');
     const darkModeEnabled = document.body.classList.contains('dark-mode');
     localStorage.setItem('darkMode', darkModeEnabled);
-    darkModeToggle.textContent = darkModeEnabled ? 'Light Mode' : 'Dark Mode';
+    darkModeToggle.textContent = darkModeEnabled ? '\u2600' : '\uD83C\uDF13';
   }
 
   // Event listeners for pagination buttons
