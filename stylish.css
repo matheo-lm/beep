@@ -5,6 +5,9 @@ body.dark-mode {
 body.dark-mode .navbar {
   background-color: #2a2a2a !important;
 }
+body.dark-mode .navbar-toggler {
+  background-color: #ffffff !important;
+}
 body.dark-mode .btn {
   background-color: #333333;
   color: #ffffff;
