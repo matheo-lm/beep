@@ -2,6 +2,96 @@
   "items": [
     {
       "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "FSB Uses Trojan App to Monitor Russian Programmer Accused of Supporting Ukraine",
+      "link": "https://thehackernews.com/2024/12/fsb-uses-trojan-app-to-monitor-russian.html",
+      "pubDate": "Fri, 06 Dec 2024 21:45:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqJ75gjpg8k9dVxTKKsF6qYQzR4IDldFkYCQzUErYTicEA7XHnTiIAFYj-7LQpvnVVRlHUAFwPqOxoe6W4x2dm5h2yRkKNaoNbqu3_Ciei3VitMgxBHQzeNTdBou62tijV1CJmipKBnBiQfIgmEi3J4h3HL9D2grw1IuTTIjyIJrV1t8u0nZ3JuSVZEO8M/s1600/programmer.png"
+      },
+      "content": "A Russian programmer accused of donating money to Ukraine had his Android device secretly implanted with spyware by the Federal Security Service (FSB) after he was detained earlier this year.\nThe findings come as part of a collaborative inv [...]",
+      "contentSnippet": "A Russian programmer accused of donating money to Ukraine had his Android device secretly implanted with spyware by the Federal Security Service (FSB) after he was detained earlier this year.\nThe findings come as part of a collaborative investigation by First Department and the University of Toronto's Citizen Lab.\n\"The spyware placed on his device allows the operator to track a target device's",
+      "guid": "https://thehackernews.com/2024/12/fsb-uses-trojan-app-to-monitor-russian.html",
+      "isoDate": "2024-12-06T16:15:00.000Z",
+      "itunes": {},
+      "tag": "news"
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "Researchers Uncover Flaws in Popular Open-Source Machine Learning Frameworks",
+      "link": "https://thehackernews.com/2024/12/researchers-uncover-flaws-in-popular.html",
+      "pubDate": "Fri, 06 Dec 2024 16:58:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia1UI8-w6ihOHAxW_rag0lwL_ksW9lIyTZn6Ib3LsOCmUQJUIDoZkgR4URLpY2-TT9KtRE5Dyg3DLj7cGx3wwQKKoYAxNi5NT1Rxs9QgKY8bMJYUH3sC1LwIlH2C64nS8j0-uyH5bWWnvXej9ZtokT81257ZXnCW7Fp1smuSCbwR_EkCGudkACK64PZn2L/s1600/ai-model.png"
+      },
+      "content": "Cybersecurity researchers have disclosed multiple security flaws impacting open-source machine learning (ML) tools and frameworks such as MLflow, H2O, PyTorch, and MLeap that could pave the way for code execution.\nThe vulnerabilities, disco [...]",
+      "contentSnippet": "Cybersecurity researchers have disclosed multiple security flaws impacting open-source machine learning (ML) tools and frameworks such as MLflow, H2O, PyTorch, and MLeap that could pave the way for code execution.\nThe vulnerabilities, discovered by JFrog, are part of a broader collection of 22 security shortcomings the supply chain security company first disclosed last month.\nUnlike the first",
+      "guid": "https://thehackernews.com/2024/12/researchers-uncover-flaws-in-popular.html",
+      "isoDate": "2024-12-06T11:28:00.000Z",
+      "itunes": {},
+      "tag": "news"
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "Conquering the Complexities of Modern BCDR",
+      "link": "https://thehackernews.com/2024/12/conquering-complexities-of-modern-bcdr.html",
+      "pubDate": "Fri, 06 Dec 2024 16:30:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZbsm8MIsDOwphqZmMCfwh_VYkjL7qRqzHW2eLgWJ2CcNeuSW4XJAArx4_eL1Myd-PaOJz86sKot3VcUueFJiJy8gP5wxVconW1KYC7XtqP9T8iFm-Ces-pGlz5MiSBeJDKfTCzQJAOswTB3K_CTsB3bxlSldY78ZzBrSTrtCpLH5TnMDWP7LRcehxMUk/s1600/rel.png"
+      },
+      "content": "The modern business landscape is thrilling yet daunting. Rapidly evolving technology, persistent cyberthreats and escalating operational complexities make data protection and seamless business continuity challenging for businesses of all si [...]",
+      "contentSnippet": "The modern business landscape is thrilling yet daunting. Rapidly evolving technology, persistent cyberthreats and escalating operational complexities make data protection and seamless business continuity challenging for businesses of all sizes. Your organization needs robust security measures that go beyond traditional backup solutions to address the intricacies of today’s complex IT ecosystems.",
+      "guid": "https://thehackernews.com/2024/12/conquering-complexities-of-modern-bcdr.html",
+      "isoDate": "2024-12-06T11:00:00.000Z",
+      "itunes": {},
+      "tag": "news"
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "More_eggs MaaS Expands Operations with RevC2 Backdoor and Venom Loader",
+      "link": "https://thehackernews.com/2024/12/moreeggs-maas-expands-operations-with.html",
+      "pubDate": "Fri, 06 Dec 2024 13:52:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiVqdu6jTCFeMHiye1NOKu0vzrHFHPoYyaUyNOvLoEjIXTmhyDbQoI9gLUhKbjrSkfHUCyzE353OshnBWb8DG6Axx_gUdHISTfrfaTUOEz2xlD2GdAvvxDqGjzoP4pi7k0tVDc78TirT4vGrUojzRaHmZJBUlbPpU3hwVFJb6w0nsKzOqJOBXCCT5Tma5v/s1600/malware-attack.png"
+      },
+      "content": "The threat actors behind the More_eggs malware have been linked to two new malware families, indicating an expansion of its malware-as-a-service (MaaS) operation.\nThis includes a novel information-stealing backdoor called RevC2 and a loader [...]",
+      "contentSnippet": "The threat actors behind the More_eggs malware have been linked to two new malware families, indicating an expansion of its malware-as-a-service (MaaS) operation.\nThis includes a novel information-stealing backdoor called RevC2 and a loader codenamed Venom Loader, both of which are deployed using VenomLNK, a staple tool that serves as an initial access vector for the deployment of follow-on",
+      "guid": "https://thehackernews.com/2024/12/moreeggs-maas-expands-operations-with.html",
+      "isoDate": "2024-12-06T08:22:00.000Z",
+      "itunes": {},
+      "tag": "news"
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "Hackers Leveraging Cloudflare Tunnels, DNS Fast-Flux to Hide GammaDrop Malware",
+      "link": "https://thehackernews.com/2024/12/hackers-leveraging-cloudflare-tunnels.html",
+      "pubDate": "Fri, 06 Dec 2024 12:33:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiv26ODGftkoQZDbBiIMSZr8PHkem3wc0UYRC-iPA7bxr0tOR_G14lolghwGFif-DdCIVff5MCMWRdDZi0snz0GSWOkOvFDQ2cGopVoALWbhLEnIhPkgfb1qm5Jj5BtgFVO208_fH7ENrpgriCxzw3ChobY2zmjSMqsCt86sMPhF3Jh5WicBkUrj7tFyQ/s1600/cyberattack.png"
+      },
+      "content": "The threat actor known as Gamaredon has been observed leveraging Cloudflare Tunnels as a tactic to conceal its staging infrastructure hosting a malware called GammaDrop.\nThe activity is part of an ongoing spear-phishing campaign targeting U [...]",
+      "contentSnippet": "The threat actor known as Gamaredon has been observed leveraging Cloudflare Tunnels as a tactic to conceal its staging infrastructure hosting a malware called GammaDrop.\nThe activity is part of an ongoing spear-phishing campaign targeting Ukrainian entities since at least early 2024 that's designed to drop the Visual Basic Script malware, Recorded Future's Insikt Group said in a new analysis.",
+      "guid": "https://thehackernews.com/2024/12/hackers-leveraging-cloudflare-tunnels.html",
+      "isoDate": "2024-12-06T07:03:00.000Z",
+      "itunes": {},
+      "tag": "news"
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
       "title": "This $3,000 Android Trojan Targeting Banks and Cryptocurrency Exchanges",
       "link": "https://thehackernews.com/2024/12/this-3000-android-trojan-targeting.html",
       "pubDate": "Thu, 05 Dec 2024 21:28:00 +0530",
@@ -15,7 +105,8 @@
       "contentSnippet": "As many as 77 banking institutions, cryptocurrency exchanges, and national organizations have become the target of a newly discovered Android remote access trojan (RAT) called DroidBot.\n\"DroidBot is a modern RAT that combines hidden VNC and overlay attack techniques with spyware-like capabilities, such as keylogging and user interface monitoring,\" Cleafy researchers Simone Mattia, Alessandro",
       "guid": "https://thehackernews.com/2024/12/this-3000-android-trojan-targeting.html",
       "isoDate": "2024-12-05T15:58:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -32,7 +123,8 @@
       "contentSnippet": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit that strings together a now-patched critical security flaw impacting Mitel MiCollab with an arbitrary file read zero-day, granting an attacker the ability to access files from susceptible instances.\nThe critical vulnerability in question is CVE-2024-41713 (CVSS score: 9.8), which relates to a case of insufficient input",
       "guid": "https://thehackernews.com/2024/12/critical-mitel-micollab-flaw-exposes.html",
       "isoDate": "2024-12-05T14:56:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -46,10 +138,11 @@
         "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiryi9nOCmOWpCHYvfhS0NsNLTxQc4IacKou-lggAJzuDgaAaeRxrtI-gx6svpnEXPvhpoXiuMvjq7BV7FPnuvzTjFHsUuhqaMIQsaUQUhTDlu4PRa-5BjtIgPca9dgJDW1RczgFyMGwy2jkLXVI-r0SxIGV-dSni6woe2yApGTRHG6L82ADXuYfnJhRmXa/s1600/market.png"
       },
       "content": "Europol on Thursday announced the shutdown of a clearnet marketplace called Manson Market that facilitated online fraud on a large scale.\nThe operation, led by German authorities, has resulted in the seizure of more than 50 servers associat [...]",
-      "contentSnippet": "Europol on Thursday announced the shutdown of a clearnet marketplace called Manson Market that facilitated online fraud on a large scale.\nThe operation, led by German authorities, has resulted in the seizure of more than 50 servers associated with the service and the arrest of two suspects. More than 200 terabytes of digital evidence have been collected.\nManson Market (\"manson-market[.]pw\") is",
+      "contentSnippet": "Europol on Thursday announced the shutdown of a clearnet marketplace called Manson Market that facilitated online fraud on a large scale.\nThe operation, led by German authorities, has resulted in the seizure of more than 50 servers associated with the service and the arrest of two suspects. More than 200 terabytes of digital evidence have been collected.\nIn addition, over 80 data storage devices",
       "guid": "https://thehackernews.com/2024/12/europol-shuts-down-manson-market-fraud.html",
       "isoDate": "2024-12-05T14:55:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -66,7 +159,8 @@
       "contentSnippet": "Vulnerability Management (VM) has long been a cornerstone of organizational cybersecurity. Nearly as old as the discipline of cybersecurity itself, it aims to help organizations identify and address potential security issues before they become serious problems. Yet, in recent years, the limitations of this approach have become increasingly evident. \nAt its core, Vulnerability Management",
       "guid": "https://thehackernews.com/2024/12/want-to-grow-vulnerability-management.html",
       "isoDate": "2024-12-05T12:46:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -83,7 +177,8 @@
       "contentSnippet": "A previously undocumented threat activity cluster dubbed Earth Minotaur is leveraging the MOONSHINE exploit kit and an unreported Android-cum-Windows backdoor called DarkNimbus to facilitate long-term surveillance operations targeting Tibetans and Uyghurs.\n\"Earth Minotaur uses MOONSHINE to deliver the DarkNimbus backdoor to Android and Windows devices, targeting WeChat, and possibly making it a",
       "guid": "https://thehackernews.com/2024/12/hackers-target-uyghurs-and-tibetans.html",
       "isoDate": "2024-12-05T12:43:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -100,7 +195,8 @@
       "contentSnippet": "A suspected Chinese threat actor targeted a large U.S. organization earlier this year as part of a four-month-long intrusion.\nAccording to Broadcom-owned Symantec, the first evidence of the malicious activity was detected on April 11, 2024 and continued until August. However, the company doesn't rule out the possibility that the intrusion may have occurred earlier.\n\"The attackers moved laterally",
       "guid": "https://thehackernews.com/2024/12/researchers-uncover-4-month-cyberattack.html",
       "isoDate": "2024-12-05T11:00:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -117,7 +213,8 @@
       "contentSnippet": "The China-linked threat actor known as MirrorFace has been attributed to a new spear-phishing campaign mainly targeting individuals and organizations in Japan since June 2024.\nThe aim of the campaign is to deliver backdoors known as NOOPDOOR (aka HiddenFace) and ANEL (aka UPPERCUT), Trend Micro said in a technical analysis.\n\"An interesting aspect of this campaign is the comeback of a backdoor",
       "guid": "https://thehackernews.com/2024/12/anel-and-noopdoor-backdoors-weaponized.html",
       "isoDate": "2024-12-05T07:30:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -134,7 +231,8 @@
       "contentSnippet": "The U.K. National Crime Agency (NCA) on Wednesday announced that it led an international investigation to disrupt Russian money laundering networks that were found to facilitate serious and organized crime across the U.K., the Middle East, Russia, and South America.\nThe effort, codenamed Operation Destabilise, has resulted in the arrest of 84 suspects linked to two Russian-speaking networks",
       "guid": "https://thehackernews.com/2024/12/nca-busts-russian-crypto-networks.html",
       "isoDate": "2024-12-05T05:47:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -151,7 +249,8 @@
       "contentSnippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added multiple security flaws affecting products from Zyxel, North Grid Proself, ProjectSend, and CyberPanel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.\nThe list of vulnerabilities is as follows -\n\nCVE-2024-51378 (CVSS score: 10.0) - An incorrect default permissions",
       "guid": "https://thehackernews.com/2024/12/cisa-warns-of-active-exploitation-of.html",
       "isoDate": "2024-12-05T05:09:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -168,7 +267,8 @@
       "contentSnippet": "The Russia-linked advanced persistent threat (APT) group known as Turla has been linked to a previously undocumented campaign that involved infiltrating the command-and-control (C2) servers of a Pakistan-based hacking group named Storm-0156 to conduct its own operations since 2022.\nThe activity, first observed in December 2022, is the latest instance of the nation-state adversary \"embedding",
       "guid": "https://thehackernews.com/2024/12/russia-linked-turla-exploits-pakistani.html",
       "isoDate": "2024-12-04T17:23:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -185,7 +285,8 @@
       "contentSnippet": "Europol on Tuesday announced the takedown of an invite-only encrypted messaging service called MATRIX that's created by criminals for criminal purposes.\nThe joint operation, conducted by French and Dutch authorities under the moniker Passionflower, comes in the aftermath of an investigation that was launched in 2021 after the messaging service was discovered on the phone of a criminal convicted",
       "guid": "https://thehackernews.com/2024/12/europol-dismantles-criminal-messaging.html",
       "isoDate": "2024-12-04T12:20:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -202,7 +303,8 @@
       "contentSnippet": "Are you using the cloud or thinking about transitioning? Undoubtedly, multi-cloud and hybrid environments offer numerous benefits for organizations. However, the cloud's flexibility, scalability, and efficiency come with significant risk — an expanded attack surface. The decentralization that comes with utilizing multi-cloud environments can also lead to limited visibility into user activity and",
       "guid": "https://thehackernews.com/2024/12/7-pam-best-practices-to-secure-hybrid.html",
       "isoDate": "2024-12-04T11:50:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -219,7 +321,8 @@
       "contentSnippet": "Many organizations struggle with password policies that look strong on paper but fail in practice because they're too rigid to follow, too vague to enforce, or disconnected from real security needs. Some are so tedious and complex that employees post passwords on sticky notes under keyboards, monitors, or desk drawers. Others set rules so loose they may as well not exist. And many simply copy",
       "guid": "https://thehackernews.com/2024/12/how-to-plan-new-and-improved-password.html",
       "isoDate": "2024-12-04T10:30:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -236,7 +339,8 @@
       "contentSnippet": "Cybersecurity researchers are alerting to a software supply chain attack targeting the popular @solana/web3.js npm library that involved pushing two malicious versions capable of harvesting users' private keys with an aim to drain their cryptocurrency wallets.\nThe attack has been detected in versions 1.95.6 and 1.95.7. Both these versions are no longer available for download from the npm",
       "guid": "https://thehackernews.com/2024/12/researchers-uncover-backdoor-in-solanas.html",
       "isoDate": "2024-12-04T09:48:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -253,7 +357,8 @@
       "contentSnippet": "A joint advisory issued by Australia, Canada, New Zealand, and the U.S. has warned of a broad cyber espionage campaign undertaken by People's Republic of China (PRC)-affiliated threat actors targeting telecommunications providers.\n\"Identified exploitations or compromises associated with these threat actors' activity align with existing weaknesses associated with victim infrastructure; no novel",
       "guid": "https://thehackernews.com/2024/12/joint-advisory-warns-of-prc-backed.html",
       "isoDate": "2024-12-04T06:07:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -270,7 +375,8 @@
       "contentSnippet": "Veeam has released security updates to address a critical flaw impacting Service Provider Console (VSPC) that could pave the way for remote code execution on susceptible instances.\nThe vulnerability, tracked as CVE-2024-42448, carries a CVSS score of 9.9 out of a maximum of 10.0. The company noted that the bug was identified during internal testing.\n\"From the VSPC management agent machine, under",
       "guid": "https://thehackernews.com/2024/12/veeam-issues-patch-for-critical-rce.html",
       "isoDate": "2024-12-04T05:34:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -287,7 +393,8 @@
       "contentSnippet": "A critical security vulnerability has been disclosed in SailPoint's IdentityIQ identity and access management (IAM) software that allows unauthorized access to content stored within the application directory.\nThe flaw, tracked as CVE-2024-10905, has a CVSS score of 10.0, indicating maximum severity. It affects IdentityIQ versions 8.2. 8.3, 8.4, and other previous versions.\nIdentityIQ \"allows",
       "guid": "https://thehackernews.com/2024/12/critical-sailpoint-identityiq.html",
       "isoDate": "2024-12-04T05:08:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -304,7 +411,8 @@
       "contentSnippet": "Cybersecurity researchers have called attention to a novel phishing campaign that leverages corrupted Microsoft Office documents and ZIP archives as a way to bypass email defenses.\n\"The ongoing attack evades #antivirus software, prevents uploads to sandboxes, and bypasses Outlook's spam filters, allowing the malicious emails to reach your inbox,\" ANY.RUN said in a series of posts on X.\nThe",
       "guid": "https://thehackernews.com/2024/12/hackers-use-corrupted-zips-and-office.html",
       "isoDate": "2024-12-04T04:48:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -321,7 +429,8 @@
       "contentSnippet": "Cisco on Monday updated an advisory to warn customers of active exploitation of a decade-old security flaw impacting its Adaptive Security Appliance (ASA).\nThe vulnerability, tracked as CVE-2014-2120 (CVSS score: 4.3), concerns a case of insufficient input validation in ASA's WebVPN login page that could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack",
       "guid": "https://thehackernews.com/2024/12/cisco-warns-of-exploitation-of-decade.html",
       "isoDate": "2024-12-03T12:51:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -338,7 +447,8 @@
       "contentSnippet": "Cybersecurity researchers have disclosed a set of flaws impacting Palo Alto Networks and SonicWall virtual private network (VPN) clients that could be potentially exploited to gain remote code execution on Windows and macOS systems.\n\"By targeting the implicit trust VPN clients place in servers, attackers can manipulate client behaviours, execute arbitrary commands, and gain high levels of access",
       "guid": "https://thehackernews.com/2024/12/nachovpn-tool-exploits-flaws-in-popular.html",
       "isoDate": "2024-12-03T10:17:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -355,7 +465,8 @@
       "contentSnippet": "The North Korea-aligned threat actor known as Kimsuky has been linked to a series of phishing attacks that involve sending email messages that originate from Russian sender addresses to ultimately conduct credential theft.\n\"Phishing emails were sent mainly through email services in Japan and Korea until early September,\" South Korean cybersecurity company Genians said. \"Then, from mid-September,",
       "guid": "https://thehackernews.com/2024/12/north-korean-kimsuky-hackers-use.html",
       "isoDate": "2024-12-03T09:51:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -372,7 +483,8 @@
       "contentSnippet": "A newly discovered malware campaign has been found to target private users, retailers, and service businesses mainly located in Russia to deliver NetSupport RAT and BurnsRAT.\nThe campaign, dubbed Horns&Hooves by Kaspersky, has hit more than 1,000 victims since it began around March 2023. The end goal of these attacks is to leverage the access afforded by these trojans to install stealer",
       "guid": "https://thehackernews.com/2024/12/horns-campaign-delivers-rats-via-fake.html",
       "isoDate": "2024-12-03T05:23:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -389,7 +501,8 @@
       "contentSnippet": "Artificial Intelligence (AI) is no longer a far-off dream—it’s here, changing the way we live. From ordering coffee to diagnosing diseases, it’s everywhere. But while you’re creating the next big AI-powered app, hackers are already figuring out ways to break it.\nEvery AI app is an opportunity—and a potential risk. The stakes are huge: data leaks, downtime, and even safety threats if security",
       "guid": "https://thehackernews.com/2024/12/a-guide-to-securing-ai-app-development.html",
       "isoDate": "2024-12-02T14:11:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -406,7 +519,8 @@
       "contentSnippet": "Taiwanese entities in manufacturing, healthcare, and information technology sectors have become the target of a new campaign distributing the SmokeLoader malware.\n\"SmokeLoader is well-known for its versatility and advanced evasion techniques, and its modular design allows it to perform a wide range of attacks,\" Fortinet FortiGuard Labs said in a report shared with The Hacker News.\n\"While",
       "guid": "https://thehackernews.com/2024/12/smokeloader-malware-resurfaces.html",
       "isoDate": "2024-12-02T14:01:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -423,7 +537,8 @@
       "contentSnippet": "Ever wonder what happens in the digital world every time you blink? Here's something wild - hackers launch about 2,200 attacks every single day, which means someone's trying to break into a system somewhere every 39 seconds.\nAnd get this - while we're all worried about regular hackers, there are now AI systems out there that can craft phishing emails so convincingly, that even cybersecurity",
       "guid": "https://thehackernews.com/2024/12/thn-recap-top-cybersecurity-threats.html",
       "isoDate": "2024-12-02T11:14:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -440,7 +555,8 @@
       "contentSnippet": "Over a dozen malicious Android apps identified on the Google Play Store that have been collectively downloaded over 8 million times contain malware known as SpyLoan, according to new findings from McAfee Labs.\n\"These PUP (potentially unwanted programs) applications use social engineering tactics to trick users into providing sensitive information and granting extra mobile app permissions, which",
       "guid": "https://thehackernews.com/2024/12/8-million-android-users-hit-by-spyloan.html",
       "isoDate": "2024-12-02T09:46:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -457,7 +573,8 @@
       "contentSnippet": "A global law enforcement operation has led to the arrest of more than 5,500 suspects involved in financial crimes and the seizure of more than $400 million in virtual assets and government-backed currencies.\nThe coordinated exercise saw the participation of authorities from 40 countries, territories, and regions as part of the latest wave of Operation HAECHI-V, which took place between July and",
       "guid": "https://thehackernews.com/2024/12/interpol-arrests-5500-in-global.html",
       "isoDate": "2024-12-02T07:02:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -474,7 +591,8 @@
       "contentSnippet": "A Russian cybercriminal wanted in the U.S. in connection with LockBit and Hive ransomware operations has been arrested by law enforcement authorities in the country.\nAccording to a news report from Russian media outlet RIA Novosti, Mikhail Pavlovich Matveev has been accused of developing a malicious program designed to encrypt files and seek ransom in return for a decryption key.\n\"At present,",
       "guid": "https://thehackernews.com/2024/11/wanted-russian-cybercriminal-linked-to.html",
       "isoDate": "2024-11-30T07:14:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -491,7 +609,8 @@
       "contentSnippet": "A Moscow-based company sanctioned by the U.S. earlier this year has been linked to yet another influence operation designed to turn public opinion against Ukraine and erode Western support since at least December 2023.\nThe covert campaign undertaken by Social Design Agency (SDA) leverages videos enhanced using artificial intelligence (AI) and bogus websites impersonating reputable news sources",
       "guid": "https://thehackernews.com/2024/11/ai-powered-fake-news-campaign-targets.html",
       "isoDate": "2024-11-29T13:17:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -508,7 +627,8 @@
       "contentSnippet": "The lines between digital and physical realms increasingly blur. While this opens countless opportunities for businesses, it also brings numerous challenges. In our recent webinar, Shaping the Cyber-Physical Future: Trends, Challenges, and Opportunities for 2025, we explored the different factors shaping the cyber-physical future. In an insightful conversation with industry experts, we discussed",
       "guid": "https://thehackernews.com/2024/11/protecting-tomorrows-world-shaping.html",
       "isoDate": "2024-11-29T11:00:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -525,7 +645,8 @@
       "contentSnippet": "Cybersecurity researchers are warning about malicious email campaigns leveraging a phishing-as-a-service (PhaaS) toolkit called Rockstar 2FA with an aim to steal Microsoft 365 account credentials.\n\"This campaign employs an AitM [adversary-in-the-middle] attack, allowing attackers to intercept user credentials and session cookies, which means that even users with multi-factor authentication (MFA)",
       "guid": "https://thehackernews.com/2024/11/phishing-as-service-rockstar-2fa.html",
       "isoDate": "2024-11-29T10:06:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -542,7 +663,8 @@
       "contentSnippet": "Microsoft has addressed four security flaws impacting its artificial intelligence (AI), cloud, enterprise resource planning, and Partner Center offerings, including one that it said has been exploited in the wild.\nThe vulnerability that has been tagged with an \"Exploitation Detected\" assessment is CVE-2024-49035 (CVSS score: 8.7), a privilege escalation flaw in partner.microsoft[.]com.\n\"An",
       "guid": "https://thehackernews.com/2024/11/microsoft-fixes-ai-cloud-and-erp.html",
       "isoDate": "2024-11-29T09:34:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -559,7 +681,8 @@
       "contentSnippet": "A 59-year-old U.S. citizen who immigrated from the People's Republic of China (PRC) has been sentenced to four years in prison for conspiring to act as a spy for the country and sharing sensitive information about his employer with China's principal civilian intelligence agency.\nPing Li, 59, of Wesley Chapel, Florida, is said to have served as a cooperative contact for the Ministry of State",
       "guid": "https://thehackernews.com/2024/11/us-citizen-sentenced-for-spying-on.html",
       "isoDate": "2024-11-29T05:31:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -576,7 +699,8 @@
       "contentSnippet": "Nearly two dozen security vulnerabilities have been disclosed in Advantech EKI industrial-grade wireless access point devices, some of which could be weaponized to bypass authentication and execute code with elevated privileges.\n\"These vulnerabilities pose significant risks, allowing unauthenticated remote code execution with root privileges, thereby fully compromising the confidentiality,",
       "guid": "https://thehackernews.com/2024/11/over-two-dozen-flaws-identified-in.html",
       "isoDate": "2024-11-28T16:57:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -593,7 +717,8 @@
       "contentSnippet": "Serverless environments, leveraging services such as AWS Lambda, offer incredible benefits in terms of scalability, efficiency, and reduced operational overhead. However, securing these environments is extremely challenging. The core of current serverless security practices often revolves around two key components: log monitoring and static analysis of code or system configuration. But here is",
       "guid": "https://thehackernews.com/2024/11/the-future-of-serverless-security-in.html",
       "isoDate": "2024-11-28T11:30:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -610,7 +735,8 @@
       "contentSnippet": "Cybersecurity researchers have discovered a software supply chain attack that has remained active for over a year on the npm package registry by starting off as an innocuous library and later adding malicious code to steal sensitive data and mine cryptocurrency on infected systems.\nThe package, named @0xengine/xmlrpc, was originally published on October 2, 2023 as a JavaScript-based XML-RPC",
       "guid": "https://thehackernews.com/2024/11/xmlrpc-npm-library-turns-malicious.html",
       "isoDate": "2024-11-28T10:48:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -627,7 +753,8 @@
       "contentSnippet": "A popular open-source game engine called Godot Engine is being misused as part of a new GodLoader malware campaign, infecting over 17,000 systems since at least June 2024.\n\"Cybercriminals have been taking advantage of Godot Engine to execute crafted GDScript code which triggers malicious commands and delivers malware,\" Check Point said in a new analysis published Wednesday. \"The technique",
       "guid": "https://thehackernews.com/2024/11/cybercriminals-exploit-popular-game.html",
       "isoDate": "2024-11-28T09:29:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -644,7 +771,8 @@
       "contentSnippet": "U.S. telecom service provider T-Mobile said it recently detected attempts made by bad actors to infiltrate its systems in recent weeks but noted that no sensitive data was accessed.\nThese intrusion attempts \"originated from a wireline provider's network that was connected to ours,\" Jeff Simon, chief security officer at T-Mobile, said in a statement. \"We see no instances of prior attempts like",
       "guid": "https://thehackernews.com/2024/11/us-telecom-giant-t-mobile-detects.html",
       "isoDate": "2024-11-28T04:37:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -661,7 +789,8 @@
       "contentSnippet": "A critical security flaw impacting the ProjectSend open-source file-sharing application has likely come under active exploitation in the wild, according to findings from VulnCheck.\nThe vulnerability, originally patched over a year-and-a-half ago as part of a commit pushed in May 2023, was not officially made available until August 2024 with the release of version r1720. As of November 26, 2024,",
       "guid": "https://thehackernews.com/2024/11/critical-flaw-in-projectsend-under.html",
       "isoDate": "2024-11-27T16:05:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -678,7 +807,8 @@
       "contentSnippet": "Cybersecurity researchers have shed light on what has been described as the first Unified Extensible Firmware Interface (UEFI) bootkit designed for Linux systems.\nDubbed Bootkitty by its creators who go by the name BlackCat, the bootkit is assessed to be a proof-of-concept (PoC) and there is no evidence that it has been put to use in real-world attacks. Also tracked as IranuKit, it was uploaded",
       "guid": "https://thehackernews.com/2024/11/researchers-discover-bootkitty-first.html",
       "isoDate": "2024-11-27T16:05:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -695,7 +825,8 @@
       "contentSnippet": "Multi-stage cyber attacks, characterized by their complex execution chains, are designed to avoid detection and trick victims into a false sense of security. Knowing how they operate is the first step to building a solid defense strategy against them. Let's examine real-world examples of some of the most common multi-stage attack scenarios that are active right now.\nURLs and Other Embedded",
       "guid": "https://thehackernews.com/2024/11/latest-multi-stage-attack-scenarios.html",
       "isoDate": "2024-11-27T11:30:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -712,7 +843,8 @@
       "contentSnippet": "The threat actor known as APT-C-60 has been linked to a cyber attack targeting an unnamed organization in Japan that used a job application-themed lure to deliver the SpyGlace backdoor.\nThat's according to findings from JPCERT/CC, which said the intrusion leveraged legitimate services like Google Drive, Bitbucket, and StatCounter. The attack was carried out around August 2024.\n\"In this attack,",
       "guid": "https://thehackernews.com/2024/11/apt-c-60-exploits-wps-office.html",
       "isoDate": "2024-11-27T11:14:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -729,7 +861,8 @@
       "contentSnippet": "An INTERPOL-led operation has led to the arrest of 1,006 suspects across 19 African countries and the takedown of 134,089 malicious infrastructures and networks as part of a coordinated effort to disrupt cybercrime in the continent.\nDubbed Serengeti, the law enforcement exercise took place between September 2 and October 31, 2024, and targeted criminals behind ransomware, business email",
       "guid": "https://thehackernews.com/2024/11/interpol-busts-african-cybercrime-1006.html",
       "isoDate": "2024-11-27T07:20:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -746,7 +879,8 @@
       "contentSnippet": "A threat actor named Matrix has been linked to a widespread distributed denial-of-service (DDoS) campaign that leverages vulnerabilities and misconfigurations in Internet of Things (IoT) devices to co-opt them into a disruptive botnet.\n\"This operation serves as a comprehensive one-stop shop for scanning, exploiting vulnerabilities, deploying malware, and setting up shop kits, showcasing a",
       "guid": "https://thehackernews.com/2024/11/matrix-botnet-exploits-iot-devices-in.html",
       "isoDate": "2024-11-27T05:21:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -763,7 +897,8 @@
       "contentSnippet": "Two critical security flaws impacting the Spam protection, Anti-Spam, and FireWall plugin for WordPress could allow an unauthenticated attacker to install and enable malicious plugins on susceptible sites and potentially achieve remote code execution.\nThe vulnerabilities, tracked as CVE-2024-10542 and CVE-2024-10781, carry a CVSS score of 9.8 out of a maximum of 10.0. They were addressed in",
       "guid": "https://thehackernews.com/2024/11/critical-wordpress-anti-spam-plugin.html",
       "isoDate": "2024-11-26T13:23:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -780,7 +915,8 @@
       "contentSnippet": "When CVEs go viral, separating critical vulnerabilities from the noise is essential to protecting your organization. That’s why Intruder, a leader in attack surface management, built Intel - a free vulnerability intelligence platform designed to help you act fast and prioritize real threats.\nWhat is Intel?\nIntel was created to fill a gap in the resources available for tracking emerging",
       "guid": "https://thehackernews.com/2024/11/intruder-launches-intel-free.html",
       "isoDate": "2024-11-26T11:30:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -797,7 +933,8 @@
       "contentSnippet": "The Russia-aligned threat actor known as RomCom has been linked to the zero-day exploitation of two security flaws, one in Mozilla Firefox and the other in Microsoft Windows, as part of attacks designed to deliver the eponymous backdoor on victim systems.\n\"In a successful attack, if a victim browses a web page containing the exploit, an adversary can run arbitrary code – without any user",
       "guid": "https://thehackernews.com/2024/11/romcom-exploits-zero-day-firefox-and.html",
       "isoDate": "2024-11-26T10:34:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -814,7 +951,8 @@
       "contentSnippet": "The China-linked threat actor known as Earth Estries has been observed using a previously undocumented backdoor called GHOSTSPIDER as part of its attacks targeting Southeast Asian telecommunications companies. \nTrend Micro, which described the hacking group as an aggressive advanced persistent threat (APT), said the intrusions also involved the use of another cross-platform backdoor dubbed",
       "guid": "https://thehackernews.com/2024/11/chinese-hackers-use-ghostspider-malware.html",
       "isoDate": "2024-11-26T10:19:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -831,7 +969,8 @@
       "contentSnippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched critical security flaw impacting Array Networks AG and vxAG secure access gateways to its Known Exploited Vulnerabilities (KEV) catalog following reports of active exploitation in the wild.\nThe vulnerability, tracked as CVE-2023-28461 (CVSS score: 9.8), concerns a case of missing authentication that",
       "guid": "https://thehackernews.com/2024/11/cisa-urges-agencies-to-patch-critical.html",
       "isoDate": "2024-11-26T05:03:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -848,7 +987,8 @@
       "contentSnippet": "Google has introduced a new feature called Restore Credentials to help users restore their account access to third-party apps securely after migrating to a new Android device.\nPart of Android's Credential Manager API, the feature aims to reduce the hassle of re-entering the login credentials for every app during the handset replacement.\n\"With Restore Credentials, apps can seamlessly onboard",
       "guid": "https://thehackernews.com/2024/11/googles-new-restore-credentials-tool.html",
       "isoDate": "2024-11-25T14:22:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -865,7 +1005,8 @@
       "contentSnippet": "The administrators of the Python Package Index (PyPI) repository have quarantined the package \"aiocpa\" following a new update that included malicious code to exfiltrate private keys via Telegram.\nThe package in question is described as a synchronous and asynchronous Crypto Pay API client. The package, originally released in September 2024, has been downloaded 12,100 times to date.\nBy putting the",
       "guid": "https://thehackernews.com/2024/11/pypi-python-library-aiocpa-found.html",
       "isoDate": "2024-11-25T13:54:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -882,7 +1023,8 @@
       "contentSnippet": "We hear terms like “state-sponsored attacks” and “critical vulnerabilities” all the time, but what’s really going on behind those words? This week’s cybersecurity news isn’t just about hackers and headlines—it’s about how digital risks shape our lives in ways we might not even realize.\nFor instance, telecom networks being breached isn’t just about stolen data—it’s about power. Hackers are",
       "guid": "https://thehackernews.com/2024/11/thn-recap-top-cybersecurity-threats_25.html",
       "isoDate": "2024-11-25T11:30:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -899,7 +1041,8 @@
       "contentSnippet": "Dive into the evolution of phishing and malware evasion techniques and understand how attackers are using increasingly sophisticated methods to bypass security measures.\nThe Evolution of Phishing Attacks\n“I really like the saying that ‘This is out of scope’ said no hacker ever. Whether it’s tricks, techniques or technologies, hackers will do anything to evade detection and make sure their",
       "guid": "https://thehackernews.com/2024/11/flying-under-radar-security-evasion.html",
       "isoDate": "2024-11-25T11:30:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -916,7 +1059,8 @@
       "contentSnippet": "Cybersecurity researchers have disclosed two new attack techniques against infrastructure-as-code (IaC) and policy-as-code (PaC) tools like HashiCorp's Terraform and Styra's Open Policy Agent (OPA) that leverage dedicated, domain-specific languages (DSLs) to breach cloud platforms and exfiltrate data.\n\"Since these are hardened languages with limited capabilities, they're supposed to be more",
       "guid": "https://thehackernews.com/2024/11/cybersecurity-flaws-in-iac-and-pac.html",
       "isoDate": "2024-11-25T11:24:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -933,7 +1077,8 @@
       "contentSnippet": "Cybersecurity researchers have uncovered a new malicious campaign that leverages a technique called Bring Your Own Vulnerable Driver (BYOVD) to disarm security protections and ultimately gain access to the infected system.\n\"This malware takes a more sinister route: it drops a legitimate Avast Anti-Rootkit driver (aswArPot.sys) and manipulates it to carry out its destructive agenda,\" Trellix",
       "guid": "https://thehackernews.com/2024/11/researchers-uncover-malware-using-byovd.html",
       "isoDate": "2024-11-25T09:16:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -950,7 +1095,8 @@
       "contentSnippet": "Government agencies and non-governmental organizations in the United States have become the target of a nascent China state threat actor known as Storm-2077.\nThe adversary, believed to be active since at least January 2024, has also conducted cyber attacks against the Defense Industrial Base (DIB), aviation, telecommunications, and financial and legal services across the world, Microsoft said.",
       "guid": "https://thehackernews.com/2024/11/google-exposes-glassbridge-pro-china.html",
       "isoDate": "2024-11-23T12:10:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -967,7 +1113,8 @@
       "contentSnippet": "The North Korea-linked threat actor known as Sapphire Sleet is estimated to have stolen more than $10 million worth of cryptocurrency as part of social engineering campaigns orchestrated over a six-month period.\nThese findings come from Microsoft, which said that multiple threat activity clusters with ties to the country have been observed creating fake profiles on LinkedIn, posing as both",
       "guid": "https://thehackernews.com/2024/11/north-korean-hackers-steal-10m-with-ai.html",
       "isoDate": "2024-11-23T11:53:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -984,7 +1131,8 @@
       "contentSnippet": "The threat actor known as Mysterious Elephant has been observed using an advanced version of malware called Asyncshell.\nThe attack campaign is said to have used Hajj-themed lures to trick victims into executing a malicious payload under the guise of a Microsoft Compiled HTML Help (CHM) file, the Knownsec 404 team said in an analysis published today.\nMysterious Elephant, which is also known as",
       "guid": "https://thehackernews.com/2024/11/apt-k-47-uses-hajj-themed-lures-to.html",
       "isoDate": "2024-11-22T16:59:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -1001,7 +1149,8 @@
       "contentSnippet": "Threat actors with ties to Russia have been linked to a cyber espionage campaign aimed at organizations in Central Asia, East Asia, and Europe.\nRecorded Future's Insikt Group, which has assigned the activity cluster the name TAG-110, said it overlaps with a threat group tracked by the Computer Emergency Response Team of Ukraine (CERT-UA) as UAC-0063, which, in turn, overlaps with APT28. The",
       "guid": "https://thehackernews.com/2024/11/russian-hackers-deploy-hatvibe-and.html",
       "isoDate": "2024-11-22T16:59:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -1018,7 +1167,8 @@
       "contentSnippet": "A China-linked nation-state group called TAG-112 compromised Tibetan media and university websites in a new cyber espionage campaign designed to facilitate the delivery of the Cobalt Strike post-exploitation toolkit for follow-on information collection.\n\"The attackers embedded malicious JavaScript in these sites, which spoofed a TLS certificate error to trick visitors into downloading a",
       "guid": "https://thehackernews.com/2024/11/china-linked-tag-112-targets-tibetan.html",
       "isoDate": "2024-11-22T16:47:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -1035,7 +1185,8 @@
       "contentSnippet": "Google Workspace has quickly become the productivity backbone for businesses worldwide, offering an all-in-one suite with email, cloud storage and collaboration tools. This single-platform approach makes it easy for teams to connect and work efficiently, no matter where they are, enabling seamless digital transformation that’s both scalable and adaptable.\nAs companies shift from traditional,",
       "guid": "https://thehackernews.com/2024/11/the-importance-of having-a-google-workspace-backup-solution.html",
       "isoDate": "2024-11-22T11:30:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -1052,7 +1203,8 @@
       "contentSnippet": "Meta Platforms, Microsoft, and the U.S. Department of Justice (DoJ) have announced independent actions to tackle cybercrime and disrupt services that enable scams, fraud, and phishing attacks.\nTo that end, Microsoft's Digital Crimes Unit (DCU) said it seized 240 fraudulent websites associated with an Egypt-based cybercrime facilitator named Abanoub Nady (aka MRxC0DER and mrxc0derii), who",
       "guid": "https://thehackernews.com/2024/11/microsoft-meta-and-doj-disrupt-global.html",
       "isoDate": "2024-11-22T09:37:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -1069,7 +1221,8 @@
       "contentSnippet": "Cybersecurity researchers have discovered two malicious packages uploaded to the Python Package Index (PyPI) repository that impersonated popular artificial intelligence (AI) models like OpenAI ChatGPT and Anthropic Claude to deliver an information stealer called JarkaStealer.\nThe packages, named gptplus and claudeai-eng, were uploaded by a user named \"Xeroline\" in November 2023, attracting",
       "guid": "https://thehackernews.com/2024/11/pypi-attack-chatgpt-claude.html",
       "isoDate": "2024-11-22T06:15:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -1086,7 +1239,8 @@
       "contentSnippet": "As many as 2,000 Palo Alto Networks devices are estimated to have been compromised as part of a campaign abusing the newly disclosed security flaws that have come under active exploitation in the wild.\nAccording to statistics shared by the Shadowserver Foundation, a majority of the infections have been reported in the U.S. (554) and India (461), followed by Thailand (80), Mexico (48), Indonesia",
       "guid": "https://thehackernews.com/2024/11/warning-over-2000-palo-alto-networks.html",
       "isoDate": "2024-11-21T16:22:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -1103,7 +1257,8 @@
       "contentSnippet": "The China-aligned advanced persistent threat (APT) actor known as Gelsemium has been observed using a new Linux backdoor dubbed WolfsBane as part of cyber attacks likely targeting East and Southeast Asia.\nThat's according to findings from cybersecurity firm ESET based on multiple Linux samples uploaded to the VirusTotal platform from Taiwan, the Philippines, and Singapore in March 2023.",
       "guid": "https://thehackernews.com/2024/11/chinese-apt-gelsemium-targets-linux.html",
       "isoDate": "2024-11-21T15:50:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -1120,7 +1275,8 @@
       "contentSnippet": "Privileged access management (PAM) plays a pivotal role in building a strong security strategy. PAM empowers you to significantly reduce cybersecurity risks, gain tighter control over privileged access, achieve regulatory compliance, and reduce the burden on your IT team. \nAs an established provider of a PAM solution, we’ve witnessed firsthand how PAM transforms organizational security. In",
       "guid": "https://thehackernews.com/2024/11/10-most-impactful-pam-use-cases-for.html",
       "isoDate": "2024-11-21T12:23:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -1137,7 +1293,8 @@
       "contentSnippet": "Threat actors with ties to the Democratic People's Republic of Korea (DPRK) are impersonating U.S.-based software and technology consulting businesses in order to further their financial objectives as part of a broader information technology (IT) worker scheme.\n\"Front companies, often based in China, Russia, Southeast Asia, and Africa, play a key role in masking the workers' true origins and",
       "guid": "https://thehackernews.com/2024/11/north-korean-front-companies.html",
       "isoDate": "2024-11-21T12:04:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     },
     {
       "creator": "info@thehackernews.com (The Hacker News)",
@@ -1154,7 +1311,8 @@
       "contentSnippet": "As a relatively new security category, many security operators and executives I’ve met have asked us “What are these Automated Security Validation (ASV) tools?” We’ve covered that pretty extensively in the past, so today, instead of covering the “What is ASV?” I wanted to address the “Why ASV?” question. In this article, we’ll cover some common use cases and misconceptions of how people misuse",
       "guid": "https://thehackernews.com/2024/11/cyber-story-time-boy-who-cried-secure.html",
       "isoDate": "2024-11-21T11:30:00.000Z",
-      "itunes": {}
+      "itunes": {},
+      "tag": "news"
     }
   ]
 }
