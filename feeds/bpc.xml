@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 08 Dec 2024 01:59:12 EST</pubDate>
+        <pubDate>Sun, 08 Dec 2024 02:59:03 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Anna Jaques Hospital ransomware breach exposed data of 300K patients</title>
+        <link>https://www.bleepingcomputer.com/news/security/anna-jaques-hospital-ransomware-breach-exposed-data-of-300k-patients/</link>
+        <pubDate>Sat, 07 Dec 2024 10:12:22 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/anna-jaques-hospital-ransomware-breach-exposed-data-of-300k-patients/</guid>
+	<description><![CDATA[Anna Jaques Hospital has confirmed on its website that a ransomware attack it suffered almost precisely a year ago, on December 25, 2023, has exposed sensitive health data for over 316,000 patients. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft expands Recall preview to Intel and AMD Copilot+ PCs</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-expands-recall-preview-to-intel-and-amd-copilot-plus-pcs/</link>
@@ -164,36 +180,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/police-shuts-down-manson-cybercrime-market-fake-shops-arrests-key-suspects/</guid>
 	<description><![CDATA[German law enforcement has seized over 50 servers that hosted the Manson Market cybercrime marketplace and fake online shops used in phishing operations. [...]]]></description>
- </item>
-
- <item>
-        <title>New Android spyware found on phone seized by Russian FSB</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-android-spyware-found-on-phone-seized-by-russian-fsb/</link>
-        <pubDate>Thu, 05 Dec 2024 12:17:25 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-android-spyware-found-on-phone-seized-by-russian-fsb/</guid>
-	<description><![CDATA[After a Russian programmer was detained by Russia's Federal Security Service (FSB) for fifteen days and his phone confiscated, it was discovered that a new spyware was secretly installed on his device upon its return. [...]]]></description>
- </item>
-
- <item>
-        <title>Latrodectus malware and how to defend against it with Wazuh</title>
-        <link>https://www.bleepingcomputer.com/news/security/latrodectus-malware-and-how-to-defend-against-it-with-wazuh/</link>
-        <pubDate>Thu, 05 Dec 2024 10:02:12 -0500</pubDate>
-        <dc:creator>Sponsored by Wazuh</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/latrodectus-malware-and-how-to-defend-against-it-with-wazuh/</guid>
-	<description><![CDATA[Latrodectus is a versatile malware family that infiltrate systems, steal sensitive data, and evades detection. Learn more from Wazuh about Latrodectus malware and how to defend against it using the open-source XDR. [...]]]></description>
  </item>
 
 </channel>
