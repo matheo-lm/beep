@@ -45,7 +45,7 @@ body.dark-mode #darkModeToggle {
 .header-container {
   display: flex;
   justify-content: space-between; /* Ensures items are spaced at the edges */
-  max-width: 1440px;
+  max-width: 3660px;
 }
 
 /* Mobile Styles */
