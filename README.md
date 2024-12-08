@@ -17,7 +17,7 @@ In Greek mythology, Hermes was the messenger of the gods, a patron of travelers,
 
 ## TODOs
 - Integrate 4 intel sources
-- Integrate 4 hackcidents sources
+- Integrate 4 "hackcidents" sources
 - Integrate 4 status sources
 - Integrate 4 exploits sources
 - Filtering capabilities by source
