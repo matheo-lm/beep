@@ -1,4 +1,3 @@
-
 name: Consolidated Update Feeds
 
 on:
@@ -22,7 +21,7 @@ jobs:
           curl -L https://www.bleepingcomputer.com/feed/ -o feeds/bpc.xml
           curl -L https://feeds.feedburner.com/TheHackersNews -o feeds/thn.xml
           curl -L https://krebsonsecurity.com/feed/ -o feeds/kbs.xml
-          curl -L https://www.recordedfuture.com/feed -o rf.xml
+          curl -L https://www.recordedfuture.com/feed/ -o feeds/rf.xml
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
