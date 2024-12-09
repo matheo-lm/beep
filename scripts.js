@@ -2,7 +2,8 @@
   const feedUrls = [
     '/beep/feeds/bpc.json',
     '/beep/feeds/thn.json',
-    '/beep/feeds/kbs.json'
+    '/beep/feeds/kbs.json',
+    '/beep/feeds/rf.json'
   ];
   let feedItems = [];
   let currentPage = 1;
