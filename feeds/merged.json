@@ -2,6 +2,96 @@
   "items": [
     {
       "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "Black Basta Ransomware Evolves with Email Bombing, QR Codes, and Social Engineering",
+      "link": "https://thehackernews.com/2024/12/black-basta-ransomware-evolves-with.html",
+      "pubDate": "Mon, 09 Dec 2024 23:14:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH0ydjAyWCR8V206KFt3hnhnJ5qfA4eM3u86O43eFgPT6tfE1g9ePUrtzgMm3TBaPrCEGSBjKLJYDR-H-GWcXgNtf1fqB29nz1GLU7U2wxVP_0iCXdP4wnJsgvfVI5ntVN0tz8koc-psoNoPzIjNXyV46c7VjdTpVru_wpB0Qi0tJGGmt4c6PjSm_LdiYM/s1600/rnsomware.png"
+      },
+      "content": "The threat actors linked to the Black Basta ransomware have been observed switching up their social engineering tactics, distributing a different set of payloads such as Zbot and DarkGate since early October 2024.\n\"Users within the target e [...]",
+      "contentSnippet": "The threat actors linked to the Black Basta ransomware have been observed switching up their social engineering tactics, distributing a different set of payloads such as Zbot and DarkGate since early October 2024.\n\"Users within the target environment will be email bombed by the threat actor, which is often achieved by signing up the user's email to numerous mailing lists simultaneously,\" Rapid7",
+      "guid": "https://thehackernews.com/2024/12/black-basta-ransomware-evolves-with.html",
+      "isoDate": "2024-12-09T17:44:00.000Z",
+      "itunes": {},
+      "tag": "news"
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "⚡ THN Recap: Top Cybersecurity Threats, Tools and Tips (Dec 2 - 8)",
+      "link": "https://thehackernews.com/2024/12/thn-recap-top-cybersecurity-threats_9.html",
+      "pubDate": "Mon, 09 Dec 2024 18:41:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl09tRTR8ZWGdB24VX5CUkR2iDU775kr2b2I1i-hdX1LQpNKmSMuDM2pcWJ_vc5MV35zILsWTgRigP1ZbZblq_fMq5KbFBVM3rY2wB9NLL57_sWFTP8mYNDjOf-o0e5xtx3Me4gGxeQq8IMFE7uPmR4dWURJ8_UR19hy4V-rPJT8j66CpRj6CkDAFw-oEE/s1600/recap.png"
+      },
+      "content": "This week’s cyber world is like a big spy movie. Hackers are breaking into other hackers’ setups, sneaky malware is hiding in popular software, and AI-powered scams are tricking even the smartest of us. On the other side, the good guys are  [...]",
+      "contentSnippet": "This week’s cyber world is like a big spy movie. Hackers are breaking into other hackers’ setups, sneaky malware is hiding in popular software, and AI-powered scams are tricking even the smartest of us. On the other side, the good guys are busting secret online markets and kicking out shady chat rooms, while big companies rush to fix new security holes before attackers can jump in.\nWant to",
+      "guid": "https://thehackernews.com/2024/12/thn-recap-top-cybersecurity-threats_9.html",
+      "isoDate": "2024-12-09T13:11:00.000Z",
+      "itunes": {},
+      "tag": "news"
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "Researchers Uncover Prompt Injection Vulnerabilities in DeepSeek and Claude AI",
+      "link": "https://thehackernews.com/2024/12/researchers-uncover-prompt-injection.html",
+      "pubDate": "Mon, 09 Dec 2024 17:25:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUUvOrxdXvZsIox38GMrT5X1oTq07PSlNy5_AbMi2d1RJE_5vR5UMIhDFYDoKitgp1nbvG_sljpB5n7RUxrfmKuFGycy-MH19gPdW6pA5gH11bU9ILRCafbfpOTet2ir5VcTmw7KK2xPPk3uY07Xu797BIwvzIFKXQiqMDJK8umHH8zPmBRYSe7OQj5fjK/s1600/AI.png"
+      },
+      "content": "Details have emerged about a now-patched security flaw in the DeepSeek artificial intelligence (AI) chatbot that, if successfully exploited, could permit a bad actor to take control of a victim's account by means of a prompt injection attac [...]",
+      "contentSnippet": "Details have emerged about a now-patched security flaw in the DeepSeek artificial intelligence (AI) chatbot that, if successfully exploited, could permit a bad actor to take control of a victim's account by means of a prompt injection attack.\nSecurity researcher Johann Rehberger, who has chronicled many a prompt injection attack targeting various AI tools, found that providing the input \"Print",
+      "guid": "https://thehackernews.com/2024/12/researchers-uncover-prompt-injection.html",
+      "isoDate": "2024-12-09T11:55:00.000Z",
+      "itunes": {},
+      "tag": "news"
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "Seven Bolt-Ons to Make Your Entra ID More Secure for Critical Sessions",
+      "link": "https://thehackernews.com/2024/12/seven-bolt-ons-to-make-your-entra-id.html",
+      "pubDate": "Mon, 09 Dec 2024 16:30:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCJ7rf5bZv5r97iwifRWgnZXQbDcKNq92_y7pksIi7amFnML8YEpY9Tvy_LlUyEOgG3z7u32iYm-bqgzJcsBx6jh6uPPhrYdYJ0XU5qIfIZK6589-ckQ8DYfpa2RJXEKDWetbdA1al0NJDLsMheGzYHyVOFKDW9687s2IBBoHl4U51CjbU6gyqIfncGK8/s1600/main.png"
+      },
+      "content": "Identity security is all the rage right now, and rightfully so. Securing identities that access an organization’s resources is a sound security model.\nBut IDs have their limits, and there are many use cases when a business should add other  [...]",
+      "contentSnippet": "Identity security is all the rage right now, and rightfully so. Securing identities that access an organization’s resources is a sound security model.\nBut IDs have their limits, and there are many use cases when a business should add other layers of security to a strong identity. And this is what we at SSH Communications Security want to talk about today.\nLet’s look at seven ways to add",
+      "guid": "https://thehackernews.com/2024/12/seven-bolt-ons-to-make-your-entra-id.html",
+      "isoDate": "2024-12-09T11:00:00.000Z",
+      "itunes": {},
+      "tag": "news"
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
+      "title": "Socks5Systemz Botnet Powers Illegal Proxy Service with 85,000+ Hacked Devices",
+      "link": "https://thehackernews.com/2024/12/socks5systemz-botnet-powers-illegal.html",
+      "pubDate": "Mon, 09 Dec 2024 16:14:00 +0530",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "enclosure": {
+        "length": "12216320",
+        "type": "image/jpeg",
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXupK2WAZUHzBVdWYns9a1R02jpVDbVYTRUEaAyTX7JQ2_9DZgHanvfYDzLv1kWCBUjl0ZoAJFwZXt9pf-KqDN8RVq80QOSw8kFMXOstfJ3Vl2iB6K9mQNIPfxzfUmSdjFMtZbMZoi7JeVwZg1ipCOcYn3hx5iL5TNeAeeJSt_0S-Jf92ID6LZSgG3ddMT/s1600/proxy.png"
+      },
+      "content": "A malicious botnet called Socks5Systemz is powering a proxy service called PROXY.AM, according to new findings from Bitsight.\n\"Proxy malware and services enable other types of criminal activity adding uncontrolled layers of anonymity to the [...]",
+      "contentSnippet": "A malicious botnet called Socks5Systemz is powering a proxy service called PROXY.AM, according to new findings from Bitsight.\n\"Proxy malware and services enable other types of criminal activity adding uncontrolled layers of anonymity to the threat actors, so they can perform all kinds of malicious activity using chains of victim systems,\" the company's security research team said in an analysis",
+      "guid": "https://thehackernews.com/2024/12/socks5systemz-botnet-powers-illegal.html",
+      "isoDate": "2024-12-09T10:44:00.000Z",
+      "itunes": {},
+      "tag": "news"
+    },
+    {
+      "creator": "info@thehackernews.com (The Hacker News)",
       "title": "Learn How Experts Secure Privileged Accounts—Proven PAS Strategies Webinar",
       "link": "https://thehackernews.com/2024/12/learn-how-experts-secure-privileged.html",
       "pubDate": "Sat, 07 Dec 2024 16:24:00 +0530",
