@@ -11,11 +11,97 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 08 Dec 2024 09:55:55 EST</pubDate>
+        <pubDate>Mon, 09 Dec 2024 15:59:12 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ubisoft fixes Windows 11 24H2 conflicts causing game crashes</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/ubisoft-fixes-windows-11-24h2-conflicts-causing-game-crashes/</link>
+        <pubDate>Mon, 09 Dec 2024 15:34:03 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/ubisoft-fixes-windows-11-24h2-conflicts-causing-game-crashes/</guid>
+	<description><![CDATA[Microsoft has now partially lifted a compatibility hold blocking the Windows 24H2 update on systems with some Ubisoft games after the French video game publisher has fixed bugs causing crashes, freezes, and audio issues. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Radiant links $50 million crypto heist to North Korean hackers</title>
+        <link>https://www.bleepingcomputer.com/news/security/radiant-links-50-million-crypto-heist-to-north-korean-hackers/</link>
+        <pubDate>Mon, 09 Dec 2024 15:25:43 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/radiant-links-50-million-crypto-heist-to-north-korean-hackers/</guid>
+	<description><![CDATA[Radiant Capital now says that North Korean threat actors are behind the $50 million cryptocurrency heist that occurred after hackers breached its systems in an October 16 cyberattack. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Outdated Google Workspace Sync blocks Windows 11 24H2 upgrades</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/outdated-google-workspace-sync-blocks-windows-11-24h2-upgrades/</link>
+        <pubDate>Mon, 09 Dec 2024 13:34:56 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/outdated-google-workspace-sync-blocks-windows-11-24h2-upgrades/</guid>
+	<description><![CDATA[Microsoft now blocks the Windows 11 24H2 update on computers with outdated Google Workspace Sync installs because they're causing Outlook launch issues. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Cybercrime gang arrested after turning Airbnbs into fraud centers</title>
+        <link>https://www.bleepingcomputer.com/news/security/cybercrime-gang-arrested-after-turning-airbnbs-into-fraud-centers/</link>
+        <pubDate>Mon, 09 Dec 2024 11:55:34 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cybercrime-gang-arrested-after-turning-airbnbs-into-fraud-centers/</guid>
+	<description><![CDATA[Eight members of an international cybercrime network that stole millions of Euros from victims and set up Airbnb fraud centers were arrested in Belgium and the Netherlands. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Romanian energy supplier Electrica hit by ransomware attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/romanian-energy-supplier-electrica-hit-by-ransomware-attack/</link>
+        <pubDate>Mon, 09 Dec 2024 11:38:50 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/romanian-energy-supplier-electrica-hit-by-ransomware-attack/</guid>
+	<description><![CDATA[Electrica Group, a key player in the Romanian electricity distribution and supply market, is investigating a ransomware attack that was still "in progress" earlier today. [...]]]></description>
+ </item>
+
+ <item>
+        <title>QR codes bypass browser isolation for malicious C2 communication</title>
+        <link>https://www.bleepingcomputer.com/news/security/qr-codes-bypass-browser-isolation-for-malicious-c2-communication/</link>
+        <pubDate>Sun, 08 Dec 2024 10:27:37 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/qr-codes-bypass-browser-isolation-for-malicious-c2-communication/</guid>
+	<description><![CDATA[Mandiant has identified a novel method to bypass contemporary browser isolation technology and achieve command-and-control C2 operations. [...]]]></description>
+ </item>
+
  <item>
         <title>Anna Jaques Hospital ransomware breach exposed data of 300K patients</title>
         <link>https://www.bleepingcomputer.com/news/security/anna-jaques-hospital-ransomware-breach-exposed-data-of-300k-patients/</link>
@@ -92,94 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-windows-zero-day-exposes-ntlm-credentials-gets-unofficial-patch/</guid>
 	<description><![CDATA[A new zero-day vulnerability has been discovered that allows attackers to capture NTLM credentials by simply tricking the target into viewing a malicious file in Windows Explorer. [...]]]></description>
- </item>
-
- <item>
-        <title>Crypto-stealing malware posing as a meeting app targets Web3 pros</title>
-        <link>https://www.bleepingcomputer.com/news/security/crypto-stealing-malware-posing-as-a-meeting-app-targets-web3-pros/</link>
-        <pubDate>Fri, 06 Dec 2024 06:00:00 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/crypto-stealing-malware-posing-as-a-meeting-app-targets-web3-pros/</guid>
-	<description><![CDATA[Cybercriminals are targeting people working in Web3 with fake business meetings using a fraudulent video conferencing platform that infects Windows and Macs with crypto-stealing malware. [...]]]></description>
- </item>
-
- <item>
-        <title>Nebraska man pleads guilty to $3.5 million cryptojacking scheme</title>
-        <link>https://www.bleepingcomputer.com/news/security/nebraska-man-pleads-guilty-to-35-million-cryptojacking-scheme/</link>
-        <pubDate>Thu, 05 Dec 2024 19:05:31 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/nebraska-man-pleads-guilty-to-35-million-cryptojacking-scheme/</guid>
-	<description><![CDATA[​A Nebraska man pleaded guilty on Thursday to operating a large-scale cryptojacking operation after being arrested and charged in April. [...]]]></description>
- </item>
-
- <item>
-        <title>Romania's election systems targeted in over 85,000 cyberattacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/romanias-election-systems-targeted-in-over-85-000-cyberattacks/</link>
-        <pubDate>Thu, 05 Dec 2024 18:57:01 -0500</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/romanias-election-systems-targeted-in-over-85-000-cyberattacks/</guid>
-	<description><![CDATA[A declassified report from Romania's Intelligence Service says that the country's election infrastructure was targeted by more than 85,000 cyberattacks. [...]]]></description>
- </item>
-
- <item>
-        <title>U.S. org suffered four month intrusion by Chinese hackers</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-org-suffered-four-month-intrusion-by-chinese-hackers/</link>
-        <pubDate>Thu, 05 Dec 2024 17:15:05 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-org-suffered-four-month-intrusion-by-chinese-hackers/</guid>
-	<description><![CDATA[A large U.S. organization with significant presence in China has been reportedly breached by China-based threat actors who persisted on its networks from April to August 2024. [...]]]></description>
- </item>
-
- <item>
-        <title>US arrests Scattered Spider suspect linked to telecom hacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-arrests-scattered-spider-suspect-linked-to-telecom-hacks/</link>
-        <pubDate>Thu, 05 Dec 2024 15:31:18 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-arrests-scattered-spider-suspect-linked-to-telecom-hacks/</guid>
-	<description><![CDATA[​U.S. authorities have arrested a 19-year-old teenager linked to the notorious Scattered Spider cybercrime gang who is now charged with breaching a U.S. financial institution and two unnamed telecommunications firms. [...]]]></description>
- </item>
-
- <item>
-        <title>Police shuts down Manson cybercrime market, arrests key suspects</title>
-        <link>https://www.bleepingcomputer.com/news/security/police-shuts-down-manson-cybercrime-market-fake-shops-arrests-key-suspects/</link>
-        <pubDate>Thu, 05 Dec 2024 12:44:54 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/police-shuts-down-manson-cybercrime-market-fake-shops-arrests-key-suspects/</guid>
-	<description><![CDATA[German law enforcement has seized over 50 servers that hosted the Manson Market cybercrime marketplace and fake online shops used in phishing operations. [...]]]></description>
  </item>
 
 </channel>
