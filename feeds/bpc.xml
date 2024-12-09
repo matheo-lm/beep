@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 09 Dec 2024 12:56:45 EST</pubDate>
+        <pubDate>Mon, 09 Dec 2024 13:55:51 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Outdated Google Workspace Sync blocks Windows 11 24H2 upgrades</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/outdated-google-workspace-sync-blocks-windows-11-24h2-upgrades/</link>
+        <pubDate>Mon, 09 Dec 2024 13:34:56 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/outdated-google-workspace-sync-blocks-windows-11-24h2-upgrades/</guid>
+	<description><![CDATA[Microsoft now blocks the Windows 11 24H2 update on computers with outdated Google Workspace Sync installs because they're causing Outlook launch issues. [...]]]></description>
+ </item>
+
  <item>
         <title>Cybercrime gang arrested after turning Airbnbs into fraud centers</title>
         <link>https://www.bleepingcomputer.com/news/security/cybercrime-gang-arrested-after-turning-airbnbs-into-fraud-centers/</link>
@@ -150,22 +164,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/crypto-stealing-malware-posing-as-a-meeting-app-targets-web3-pros/</guid>
 	<description><![CDATA[Cybercriminals are targeting people working in Web3 with fake business meetings using a fraudulent video conferencing platform that infects Windows and Macs with crypto-stealing malware. [...]]]></description>
- </item>
-
- <item>
-        <title>Nebraska man pleads guilty to $3.5 million cryptojacking scheme</title>
-        <link>https://www.bleepingcomputer.com/news/security/nebraska-man-pleads-guilty-to-35-million-cryptojacking-scheme/</link>
-        <pubDate>Thu, 05 Dec 2024 19:05:31 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/nebraska-man-pleads-guilty-to-35-million-cryptojacking-scheme/</guid>
-	<description><![CDATA[​A Nebraska man pleaded guilty on Thursday to operating a large-scale cryptojacking operation after being arrested and charged in April. [...]]]></description>
  </item>
 
 </channel>
