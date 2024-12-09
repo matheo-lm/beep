@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 09 Dec 2024 15:59:12 EST</pubDate>
+        <pubDate>Mon, 09 Dec 2024 18:41:04 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ransomware attack hits leading heart surgery device maker</title>
+        <link>https://www.bleepingcomputer.com/news/security/ransomware-attack-hits-leading-heart-surgery-device-maker/</link>
+        <pubDate>Mon, 09 Dec 2024 18:00:51 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ransomware-attack-hits-leading-heart-surgery-device-maker/</guid>
+	<description><![CDATA[​Artivion, a leading manufacturer of heart surgery medical devices, has disclosed a November 21 ransomware attack that disrupted its operations and forced it to take some systems offline. [...]]]></description>
+ </item>
+
+ <item>
+        <title>OpenWrt Sysupgrade flaw let hackers push malicious firmware images</title>
+        <link>https://www.bleepingcomputer.com/news/security/openwrt-sysupgrade-flaw-let-hackers-push-malicious-firmware-images/</link>
+        <pubDate>Mon, 09 Dec 2024 17:33:02 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/openwrt-sysupgrade-flaw-let-hackers-push-malicious-firmware-images/</guid>
+	<description><![CDATA[A flaw in OpenWrt's Attended Sysupgrade feature used to build custom, on-demand firmware images could have allowed for the distribution of malicious firmware packages. [...]]]></description>
+ </item>
+
  <item>
         <title>Ubisoft fixes Windows 11 24H2 conflicts causing game crashes</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/ubisoft-fixes-windows-11-24h2-conflicts-causing-game-crashes/</link>
@@ -148,36 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ultralytics-ai-model-hijacked-to-infect-thousands-with-cryptominer/</guid>
 	<description><![CDATA[The popular Ultralytics YOLO11 AI model was compromised in a supply chain attack to deploy cryptominers on devices running versions 8.3.41 and 8.3.42 from the Python Package Index (PyPI)   [...]]]></description>
- </item>
-
- <item>
-        <title>Blue Yonder SaaS giant breached by Termite ransomware gang</title>
-        <link>https://www.bleepingcomputer.com/news/security/blue-yonder-saas-giant-breached-by-termite-ransomware-gang/</link>
-        <pubDate>Fri, 06 Dec 2024 11:35:54 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/blue-yonder-saas-giant-breached-by-termite-ransomware-gang/</guid>
-	<description><![CDATA[​The Termite ransomware gang has officially claimed responsibility for the November breach of software as a service (SaaS) provider Blue Yonder. [...]]]></description>
- </item>
-
- <item>
-        <title>New Windows zero-day exposes NTLM credentials, gets unofficial patch</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-windows-zero-day-exposes-ntlm-credentials-gets-unofficial-patch/</link>
-        <pubDate>Fri, 06 Dec 2024 11:32:05 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-windows-zero-day-exposes-ntlm-credentials-gets-unofficial-patch/</guid>
-	<description><![CDATA[A new zero-day vulnerability has been discovered that allows attackers to capture NTLM credentials by simply tricking the target into viewing a malicious file in Windows Explorer. [...]]]></description>
  </item>
 
 </channel>
