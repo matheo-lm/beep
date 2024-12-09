@@ -50,7 +50,11 @@ jobs:
 
               let existingItems = [];
               if (fs.existsSync(feed.json)) {
-                existingItems = JSON.parse(fs.readFileSync(feed.json, 'utf8')).items || [];
+                try {
+                  existingItems = JSON.parse(fs.readFileSync(feed.json, 'utf8')).items || [];
+                } catch (error) {
+                  console.error('Error parsing existing JSON file:', error);
+                }
               }
 
               const mergedItems = [...newItems, ...existingItems]
