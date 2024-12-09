@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 09 Dec 2024 01:58:08 EST</pubDate>
+        <pubDate>Mon, 09 Dec 2024 02:58:11 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>QR codes bypass browser isolation for malicious C2 communication</title>
+        <link>https://www.bleepingcomputer.com/news/security/qr-codes-bypass-browser-isolation-for-malicious-c2-communication/</link>
+        <pubDate>Sun, 08 Dec 2024 10:27:37 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/qr-codes-bypass-browser-isolation-for-malicious-c2-communication/</guid>
+	<description><![CDATA[Mandiant has identified a novel method to bypass contemporary browser isolation technology and achieve command-and-control C2 operations. [...]]]></description>
+ </item>
+
  <item>
         <title>Anna Jaques Hospital ransomware breach exposed data of 300K patients</title>
         <link>https://www.bleepingcomputer.com/news/security/anna-jaques-hospital-ransomware-breach-exposed-data-of-300k-patients/</link>
@@ -166,20 +180,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-arrests-scattered-spider-suspect-linked-to-telecom-hacks/</guid>
 	<description><![CDATA[​U.S. authorities have arrested a 19-year-old teenager linked to the notorious Scattered Spider cybercrime gang who is now charged with breaching a U.S. financial institution and two unnamed telecommunications firms. [...]]]></description>
- </item>
-
- <item>
-        <title>Police shuts down Manson cybercrime market, arrests key suspects</title>
-        <link>https://www.bleepingcomputer.com/news/security/police-shuts-down-manson-cybercrime-market-fake-shops-arrests-key-suspects/</link>
-        <pubDate>Thu, 05 Dec 2024 12:44:54 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/police-shuts-down-manson-cybercrime-market-fake-shops-arrests-key-suspects/</guid>
-	<description><![CDATA[German law enforcement has seized over 50 servers that hosted the Manson Market cybercrime marketplace and fake online shops used in phishing operations. [...]]]></description>
  </item>
 
 </channel>
