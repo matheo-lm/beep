@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 10 Dec 2024 16:01:21 EST</pubDate>
+        <pubDate>Tue, 10 Dec 2024 18:02:23 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Wyden proposes bill to secure US telecoms after Salt Typhoon hacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/wyden-proposes-bill-to-secure-us-telecoms-after-salt-typhoon-hacks/</link>
+        <pubDate>Tue, 10 Dec 2024 16:38:26 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Government]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/wyden-proposes-bill-to-secure-us-telecoms-after-salt-typhoon-hacks/</guid>
+	<description><![CDATA[U.S. Senator Ron Wyden of Oregon announced a new bill to secure the networks of American telecommunications companies breached by Salt Typhoon Chinese state hackers earlier this year. [...]]]></description>
+ </item>
+
  <item>
         <title>WPForms bug allows Stripe refunds on millions of WordPress sites</title>
         <link>https://www.bleepingcomputer.com/news/security/wpforms-bug-allows-stripe-refunds-on-millions-of-wordpress-sites/</link>
@@ -188,22 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ransomware-attack-hits-leading-heart-surgery-device-maker/</guid>
 	<description><![CDATA[​Artivion, a leading manufacturer of heart surgery medical devices, has disclosed a November 21 ransomware attack that disrupted its operations and forced it to take some systems offline. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenWrt Sysupgrade flaw let hackers push malicious firmware images</title>
-        <link>https://www.bleepingcomputer.com/news/security/openwrt-sysupgrade-flaw-let-hackers-push-malicious-firmware-images/</link>
-        <pubDate>Mon, 09 Dec 2024 17:33:02 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Hardware]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/openwrt-sysupgrade-flaw-let-hackers-push-malicious-firmware-images/</guid>
-	<description><![CDATA[A flaw in OpenWrt's Attended Sysupgrade feature used to build custom, on-demand firmware images could have allowed for the distribution of malicious firmware packages. [...]]]></description>
  </item>
 
 </channel>
