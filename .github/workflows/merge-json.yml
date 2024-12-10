@@ -22,7 +22,7 @@ jobs:
         python-version: '3.9'
 
     - name: Merge JSON files
-      run: python merge-json.py
+      run: python scripts/merge-json.py
 
     - name: Commit and push changes
       run: |
