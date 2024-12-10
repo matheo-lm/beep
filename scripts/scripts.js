@@ -62,7 +62,7 @@
     const lastUpdatedBadge = document.getElementById('lastUpdatedBadge');
     const lastUpdated = new Date().toLocaleString();
     totalArticlesBadge.textContent = `Total articles: ${filteredItems.length}`;
-    lastUpdatedBadge.textContent = `Last updated: ${lastUpdated}`;
+    lastUpdatedBadge.textContent = `Last updated: ${lastUpdated} EST`;
   }
 
   // Function to display items for the current page
