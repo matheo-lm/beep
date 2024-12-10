@@ -8,7 +8,7 @@ import os
 feed_url = "https://googleprojectzero.blogspot.com/feeds/posts/default"
 
 # Output file path
-output_file = "gpz.json"
+output_file = "feeds/gpz.json"
 
 # Function to clean and truncate HTML content
 def clean_and_truncate_html(raw_html, char_limit=240):
