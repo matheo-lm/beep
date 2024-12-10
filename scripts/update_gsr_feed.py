@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import os
 
 def scrape_google_scholar(query, pages=10):
     base_url = "https://scholar.google.com/scholar"
@@ -39,8 +40,27 @@ def scrape_google_scholar(query, pages=10):
     return items
 
 def save_to_json(data, filename):
+    if os.path.exists(filename):
+        with open(filename, "r", encoding="utf-8") as f:
+            existing_data = json.load(f)
+        existing_items = {item["guid"]: item for item in existing_data["items"]}
+    else:
+        existing_items = {}
+
+    for item in data["items"]:
+        guid = item["guid"]
+        if guid in existing_items:
+            existing_item = existing_items[guid]
+            for key, value in item.items():
+                if key not in existing_item or not existing_item[key]:
+                    existing_item[key] = value
+        else:
+            existing_items[guid] = item
+
+    updated_data = {"items": list(existing_items.values())}
+
     with open(filename, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
+        json.dump(updated_data, f, indent=4, ensure_ascii=False)
 
 # Query for search
 query = '"cybersecurity" AND ("geopolitics" OR "incident*" OR "intel" OR "exploits" OR "warfare" OR "coercion")'

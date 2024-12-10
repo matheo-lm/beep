@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  update-gpz-feed:
+  update-gsr-feed:
     runs-on: ubuntu-latest
 
     steps:
