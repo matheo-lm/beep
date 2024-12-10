@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 10 Dec 2024 14:02:12 EST</pubDate>
+        <pubDate>Tue, 10 Dec 2024 15:00:19 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>WPForms bug allows Stripe refunds on millions of WordPress sites</title>
+        <link>https://www.bleepingcomputer.com/news/security/wpforms-bug-allows-stripe-refunds-on-millions-of-wordpress-sites/</link>
+        <pubDate>Tue, 10 Dec 2024 15:00:10 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/wpforms-bug-allows-stripe-refunds-on-millions-of-wordpress-sites/</guid>
+	<description><![CDATA[A vulnerability in WPForms, a WordPress plugin used in over 6 million websites, could allow subscriber-level users to issue arbitrary Stripe refunds or cancel subscriptions. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Ivanti warns of maximum severity CSA auth bypass vulnerability</title>
+        <link>https://www.bleepingcomputer.com/news/security/ivanti-warns-of-maximum-severity-csa-auth-bypass-vulnerability/</link>
+        <pubDate>Tue, 10 Dec 2024 14:40:39 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ivanti-warns-of-maximum-severity-csa-auth-bypass-vulnerability/</guid>
+	<description><![CDATA[Ivanti warned customers on Tuesday about a new maximum-severity authentication bypass vulnerability in its Cloud Services Appliance (CSA) solution. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 10 KB5048652 update fixes new motherboard activation bug</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5048652-update-fixes-new-motherboard-activation-bug/</link>
@@ -176,50 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/openwrt-sysupgrade-flaw-let-hackers-push-malicious-firmware-images/</guid>
 	<description><![CDATA[A flaw in OpenWrt's Attended Sysupgrade feature used to build custom, on-demand firmware images could have allowed for the distribution of malicious firmware packages. [...]]]></description>
- </item>
-
- <item>
-        <title>Ubisoft fixes Windows 11 24H2 conflicts causing game crashes</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/ubisoft-fixes-windows-11-24h2-conflicts-causing-game-crashes/</link>
-        <pubDate>Mon, 09 Dec 2024 15:34:03 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/ubisoft-fixes-windows-11-24h2-conflicts-causing-game-crashes/</guid>
-	<description><![CDATA[Microsoft has now partially lifted a compatibility hold blocking the Windows 24H2 update on systems with some Ubisoft games after the French video game publisher has fixed bugs causing crashes, freezes, and audio issues. [...]]]></description>
- </item>
-
- <item>
-        <title>Radiant links $50 million crypto heist to North Korean hackers</title>
-        <link>https://www.bleepingcomputer.com/news/security/radiant-links-50-million-crypto-heist-to-north-korean-hackers/</link>
-        <pubDate>Mon, 09 Dec 2024 15:25:43 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/radiant-links-50-million-crypto-heist-to-north-korean-hackers/</guid>
-	<description><![CDATA[Radiant Capital now says that North Korean threat actors are behind the $50 million cryptocurrency heist that occurred after hackers breached its systems in an October 16 cyberattack. [...]]]></description>
- </item>
-
- <item>
-        <title>Outdated Google Workspace Sync blocks Windows 11 24H2 upgrades</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/outdated-google-workspace-sync-blocks-windows-11-24h2-upgrades/</link>
-        <pubDate>Mon, 09 Dec 2024 13:34:56 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/outdated-google-workspace-sync-blocks-windows-11-24h2-upgrades/</guid>
-	<description><![CDATA[Microsoft now blocks the Windows 11 24H2 update on computers with outdated Google Workspace Sync installs because they're causing Outlook launch issues. [...]]]></description>
  </item>
 
 </channel>
