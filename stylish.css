@@ -103,6 +103,12 @@ body.dark-mode #darkModeToggle {
       max-width: 100%; /* Ensure content fits within screen */
   }
 
+  #feed-list li {
+    border-bottom: 1px solid #b4bcc2 !important;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
   article {
       padding: 0.5em !important; /* Reduce padding for compactness */
       box-sizing: border-box; /* Prevents layout issues */
@@ -115,4 +121,8 @@ body.dark-mode #darkModeToggle {
   } ;
 }
 
-
+#feed-list li {
+  border-bottom: 1px solid #b4bcc2 !important;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
