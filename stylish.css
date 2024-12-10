@@ -109,6 +109,17 @@ body.dark-mode #darkModeToggle {
     margin-bottom: 0.5em;
   }
 
+  #feed-list li:hover {
+    border-radius: 5px !important; /* Rounded corners for aesthetics */
+    background-color: #f0f0f0;
+  }
+  
+  body.dark-mode #feed-list li:hover {
+    border-radius: 5px !important; /* Rounded corners for aesthetics */
+    background-color: #444;
+  }
+  
+
   article {
       padding: 0.5em !important; /* Reduce padding for compactness */
       box-sizing: border-box; /* Prevents layout issues */
@@ -125,4 +136,16 @@ body.dark-mode #darkModeToggle {
   border-bottom: 1px solid #b4bcc2 !important;
   padding-bottom: 0.5em;
   margin-bottom: 0.5em;
+}
+
+#feed-list li:hover {
+  border-radius: 2px !important; /* Rounded corners for aesthetics */
+  padding: 0.1em !important; /* Reduce padding for compactness */
+  background-color: #f0f0f0;
+}
+
+body.dark-mode #feed-list li:hover {
+  border-radius: 2px !important; /* Rounded corners for aesthetics */
+  padding: 0.1em !important; /* Reduce padding for compactness */
+  background-color: #444;
 }
