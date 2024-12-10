@@ -11,11 +11,57 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 10 Dec 2024 13:01:24 EST</pubDate>
+        <pubDate>Tue, 10 Dec 2024 14:02:12 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 10 KB5048652 update fixes new motherboard activation bug</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5048652-update-fixes-new-motherboard-activation-bug/</link>
+        <pubDate>Tue, 10 Dec 2024 13:45:48 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5048652-update-fixes-new-motherboard-activation-bug/</guid>
+	<description><![CDATA[Microsoft has released the KB5048652 cumulative update for Windows 10 22H2, which contains six fixes, including a fix that prevented Windows 10 from activating when you change a device's motherboard. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft December 2024 Patch Tuesday fixes 1 exploited zero-day, 71 flaws</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-december-2024-patch-tuesday-fixes-1-exploited-zero-day-71-flaws/</link>
+        <pubDate>Tue, 10 Dec 2024 13:33:42 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-december-2024-patch-tuesday-fixes-1-exploited-zero-day-71-flaws/</guid>
+	<description><![CDATA[Today is Microsoft's December 2024 Patch Tuesday, which includes security updates for 71 flaws, including one actively exploited zero-day vulnerability. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 KB5048667 &amp; KB5048685 cumulative updates released</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5048667-and-kb5048685-cumulative-updates-released/</link>
+        <pubDate>Tue, 10 Dec 2024 13:19:31 -0500</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5048667-and-kb5048685-cumulative-updates-released/</guid>
+	<description><![CDATA[Microsoft has released the Windows 11 KB5048667 and KB5048685 cumulative updates for versions 24H2 and 23H2 to fix security vulnerabilities and issues. [...]]]></description>
+ </item>
+
  <item>
         <title>FTC distributes $72 million in Fortnite refunds from Epic Games</title>
         <link>https://www.bleepingcomputer.com/news/gaming/ftc-distributes-72-million-in-fortnite-refunds-from-epic-games/</link>
@@ -174,34 +220,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/outdated-google-workspace-sync-blocks-windows-11-24h2-upgrades/</guid>
 	<description><![CDATA[Microsoft now blocks the Windows 11 24H2 update on computers with outdated Google Workspace Sync installs because they're causing Outlook launch issues. [...]]]></description>
- </item>
-
- <item>
-        <title>Cybercrime gang arrested after turning Airbnbs into fraud centers</title>
-        <link>https://www.bleepingcomputer.com/news/security/cybercrime-gang-arrested-after-turning-airbnbs-into-fraud-centers/</link>
-        <pubDate>Mon, 09 Dec 2024 11:55:34 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cybercrime-gang-arrested-after-turning-airbnbs-into-fraud-centers/</guid>
-	<description><![CDATA[Eight members of an international cybercrime network that stole millions of Euros from victims and set up Airbnb fraud centers were arrested in Belgium and the Netherlands. [...]]]></description>
- </item>
-
- <item>
-        <title>Romanian energy supplier Electrica hit by ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/romanian-energy-supplier-electrica-hit-by-ransomware-attack/</link>
-        <pubDate>Mon, 09 Dec 2024 11:38:50 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/romanian-energy-supplier-electrica-hit-by-ransomware-attack/</guid>
-	<description><![CDATA[Electrica Group, a key player in the Romanian electricity distribution and supply market, is investigating a ransomware attack that was still "in progress" earlier today. [...]]]></description>
  </item>
 
 </channel>
