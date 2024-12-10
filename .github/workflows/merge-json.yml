@@ -23,7 +23,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install os json pathlib
+        pip install json pathlib
 
     - name: Merge JSON files
       run: python merge-json.py
