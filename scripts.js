@@ -3,6 +3,7 @@
     '/beep/feeds/bpc.json',
     '/beep/feeds/thn.json',
     '/beep/feeds/kbs.json',
+    '/beep/feeds/gpz.json',
     '/beep/feeds/rf.json'
   ];
   let feedItems = [];
@@ -23,7 +24,7 @@
       const feed = await response.json();
       feedItems = feedItems.concat(feed.items);
     } catch (error) {
-      console.error(`Error fetching or parsing feed at ${url}:`, error);
+      // console.error(`Error fetching or parsing feed at ${url}:`, error);
       // Fallback to local files
       try {
         const localResponse = await fetch(`feeds/${url.split('/').pop()}`);
