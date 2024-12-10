@@ -114,6 +114,16 @@
     headerTitle.textContent = `Latest Cyber ${tag.charAt(0).toUpperCase() + tag.slice(1)}`;
   }
 
+  // Function to filter items by date range
+  function filterItemsByDateRange(startDate, endDate) {
+    filteredItems = feedItems.filter(item => {
+      const itemDate = new Date(item.isoDate);
+      return itemDate >= startDate && itemDate <= endDate;
+    });
+    currentPage = 1; // Reset to first page
+    displayItems();
+  }
+
   // Function to toggle dark mode
   function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
@@ -121,6 +131,36 @@
     localStorage.setItem('darkMode', darkModeEnabled);
     darkModeToggle.textContent = darkModeEnabled ? '\u2600' : '\uD83C\uDF13';
   }
+
+  // Event listeners for date range buttons
+  document.getElementById('filter1d').addEventListener('click', () => {
+    const endDate = new Date();
+    const startDate = new Date();
+    startDate.setDate(endDate.getDate() - 1);
+    filterItemsByDateRange(startDate, endDate);
+  });
+
+  document.getElementById('filter5d').addEventListener('click', () => {
+    const endDate = new Date();
+    const startDate = new Date();
+    startDate.setDate(endDate.getDate() - 5);
+    filterItemsByDateRange(startDate, endDate);
+  });
+
+  document.getElementById('filter7d').addEventListener('click', () => {
+    const endDate = new Date();
+    const startDate = new Date();
+    startDate.setDate(endDate.getDate() - 7);
+    filterItemsByDateRange(startDate, endDate);
+  });
+
+  // Event listener for custom date range
+  document.getElementById('customDateRange').addEventListener('change', (e) => {
+    const [start, end] = e.target.value.split(' - ');
+    const startDate = new Date(start);
+    const endDate = new Date(end);
+    filterItemsByDateRange(startDate, endDate);
+  });
 
   // Event listeners for pagination buttons
   document.getElementById('prevPage').addEventListener('click', () => {
@@ -194,4 +234,17 @@
 
   // Initial display
   displayItems();
+
+  $(document).ready(function() {
+    $('#customDateRange').daterangepicker({
+      opens: 'left',
+      locale: {
+        format: 'YYYY-MM-DD'
+      }
+    }, function(start, end, label) {
+      const startDate = new Date(start.format('YYYY-MM-DD'));
+      const endDate = new Date(end.format('YYYY-MM-DD'));
+      filterItemsByDateRange(startDate, endDate);
+    });
+  });
 })();

@@ -85,13 +85,13 @@ body.dark-mode #darkModeToggle {
 
   .header-container {
       display: flex;
-      font-size: 0rem !important; /* Slightly larger for clarity */
-      margin-top: 30em !important; 
+      font-size: 1rem !important; /* Slightly larger for clarity */
+      /* margin-top: 30em !important;  */
       margin-bottom: 1em !important; 
       flex-direction: column; /* Stack items vertically */
       justify-content: center; /* Center items if needed */
       align-items: center; /* Align items centrally */
-      padding: 2em 0; /* Vertiscal padding only */
+      /* padding: 2em 0; Vertiscal padding only */
       max-width: 100%; /* Ensure it doesn’t overflow */
   }
 
