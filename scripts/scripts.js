@@ -236,7 +236,7 @@
   // Check for saved dark mode preference
   if (localStorage.getItem('darkMode') === 'true') {
     document.body.classList.add('dark-mode');
-    darkModeToggle.textContent = 'Light Mode';
+    darkModeToggle.textContent = '\u2600';
   }
 
   // Initial display
