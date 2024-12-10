@@ -68,6 +68,7 @@
             <div class="d-flex align-items-center mb-2 mb-md-0 mr-md-3">
               <label for="itemsPerPage" class="mr-2">Items per page:</label>
               <select id="itemsPerPage" class="custom-select w-auto">
+                <option value="5">5</option>
                 <option value="25">25</option>
                 <option value="50">50</option>
                 <option value="100">100</option>
@@ -101,6 +102,11 @@
 
     <div id="totalArticleCount" class="total-article-count text-center mt-4 text-muted">
     </div>
+
+    <footer class="text-center mt-4">
+      <span id="totalArticlesBadge" class="badge badge-secondary"></span>
+      <span id="lastUpdatedBadge" class="badge badge-success"></span>
+    </footer>
     
     <!-- Include scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rss-parser/3.12.0/rss-parser.min.js"></script>

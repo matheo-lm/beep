@@ -56,6 +56,15 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+  // Function to update footer information
+  function updateFooterInfo() {
+    const totalArticlesBadge = document.getElementById('totalArticlesBadge');
+    const lastUpdatedBadge = document.getElementById('lastUpdatedBadge');
+    const lastUpdated = new Date().toLocaleString();
+    totalArticlesBadge.textContent = `Total articles: ${filteredItems.length}`;
+    lastUpdatedBadge.textContent = `Last updated: ${lastUpdated}`;
+  }
+
   // Function to display items for the current page
   function displayItems() {
     const feedList = document.getElementById('feed-list');
@@ -93,6 +102,9 @@
 
     // Scroll to the top of the page after displaying items
     scrollToTop();
+
+    // Update footer information
+    updateFooterInfo();
   }
 
   // Function to filter items based on search keyword
@@ -241,6 +253,7 @@
 
   // Initial display
   displayItems();
+  updateFooterInfo();
 
   $(document).ready(function() {
     $('#customDateRange').daterangepicker({
