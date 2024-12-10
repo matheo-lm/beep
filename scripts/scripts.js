@@ -254,10 +254,22 @@
       } else {
         $(this).html('<i class="bi bi-funnel"></i> Filters');
       }
+      $('html, body').animate({
+        scrollTop: $("#filterOptions").offset().top
+      }, 500);
     });
 
     $('#filterOptions').on('hidden.bs.collapse', function () {
       $('#filtersButton').removeClass('active').html('<i class="bi bi-funnel"></i> Filters');
+    });
+
+    $('#clearFiltersButton').on('click', function() {
+      $('#itemsPerPage').val('25');
+      $('#searchInput').val('');
+      $('#customDateRange').val('');
+      filteredItems = feedItems;
+      currentPage = 1;
+      displayItems();
     });
   });
 })();
