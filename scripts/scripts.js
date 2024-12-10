@@ -246,5 +246,18 @@
       const endDate = new Date(end.format('YYYY-MM-DD'));
       filterItemsByDateRange(startDate, endDate);
     });
+
+    $('#filtersButton').on('click', function() {
+      $(this).toggleClass('active');
+      if ($(this).hasClass('active')) {
+        $(this).html('<i class="bi bi-x-circle"></i> Close Filters');
+      } else {
+        $(this).html('<i class="bi bi-funnel"></i> Filters');
+      }
+    });
+
+    $('#filterOptions').on('hidden.bs.collapse', function () {
+      $('#filtersButton').removeClass('active').html('<i class="bi bi-funnel"></i> Filters');
+    });
   });
 })();
