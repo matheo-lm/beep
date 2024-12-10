@@ -130,6 +130,13 @@
     const darkModeEnabled = document.body.classList.contains('dark-mode');
     localStorage.setItem('darkMode', darkModeEnabled);
     darkModeToggle.textContent = darkModeEnabled ? '\u2600' : '\uD83C\uDF13';
+    // Update filter menu styles
+    const filterOptions = document.getElementById('filterOptions');
+    if (darkModeEnabled) {
+      filterOptions.classList.add('dark-mode');
+    } else {
+      filterOptions.classList.remove('dark-mode');
+    }
   }
 
   // Event listeners for date range buttons
