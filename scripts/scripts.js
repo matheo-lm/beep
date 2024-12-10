@@ -149,6 +149,14 @@
     filterItems(keyword);
   });
 
+  // Event listener for search input to execute search on Enter key press
+  document.getElementById('searchInput').addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      const keyword = e.target.value;
+      filterItems(keyword);
+    }
+  });
+
   // Event listener for "Status" link in the navigation bar
   document.querySelector('.nav-link[href="#status"]').addEventListener('click', () => {
     filterItemsByTag('status');
