@@ -1,4 +1,4 @@
-name: Update Feeds
+name: Python Update GPZ Feeds
 
 on:
   schedule:
@@ -31,7 +31,7 @@ jobs:
       # Step 4: Run the feed update script
       - name: Run Feed Update Script
         run: |
-          python scripts/update_feed.py
+          python scripts/update_gpz_feed.py
 
       # Step 5: Commit and push changes
       - name: Commit and Push Changes
