@@ -146,8 +146,10 @@
     const filterOptions = document.getElementById('filterOptions');
     if (darkModeEnabled) {
       filterOptions.classList.add('dark-mode');
+      $('.daterangepicker').addClass('dark-mode');
     } else {
       filterOptions.classList.remove('dark-mode');
+      $('.daterangepicker').removeClass('dark-mode');
     }
   }
 
