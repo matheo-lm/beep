@@ -38,6 +38,6 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add feeds/gpz.json
-          git commit -m "Update feeds to JSON" || exit 0
+          git add feeds/*
+          git commit -m "Py Update feeds to GPZ JSON" || exit 0
           git push
