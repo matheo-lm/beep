@@ -1,0 +1,43 @@
+name: Update Feeds
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily
+  workflow_dispatch:  # Allows manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # Step 3: Install dependencies
+      - name: Install Dependencies
+        run: |
+          pip install feedparser beautifulsoup4
+
+      # Step 4: Run the feed update script
+      - name: Run Feed Update Script
+        run: |
+          python scripts/update_feed.py
+
+      # Step 5: Commit and push changes
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add feeds/gpz.json
+          git commit -m "Update feeds to JSON" || exit 0
+          git push
