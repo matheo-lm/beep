@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 10 Dec 2024 09:59:33 EST</pubDate>
+        <pubDate>Tue, 10 Dec 2024 11:00:22 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Cleo zero-day RCE flaw exploited in data theft attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-cleo-zero-day-rce-flaw-exploited-in-data-theft-attacks/</link>
+        <pubDate>Tue, 10 Dec 2024 10:09:52 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-cleo-zero-day-rce-flaw-exploited-in-data-theft-attacks/</guid>
+	<description><![CDATA[Hackers are actively exploiting a zero-day vulnerability in Cleo managed file transfer software to breach corporate networks and conduct data theft attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Inside the incident: Uncovering an advanced phishing attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/inside-the-incident-uncovering-an-advanced-phishing-attack/</link>
+        <pubDate>Tue, 10 Dec 2024 10:01:11 -0500</pubDate>
+        <dc:creator>Sponsored by Varonis</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/inside-the-incident-uncovering-an-advanced-phishing-attack/</guid>
+	<description><![CDATA[Recently, Varonis investigated a phishing campaign in which a malicious email enabled a threat actor to access the organization. This blog post will reveal the tactics used to avoid detection and share what was discovered during the investigation. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft 365 outage takes down Office web apps, admin center</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-takes-down-office-web-apps-admin-center/</link>
@@ -158,22 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/qr-codes-bypass-browser-isolation-for-malicious-c2-communication/</guid>
 	<description><![CDATA[Mandiant has identified a novel method to bypass contemporary browser isolation technology and achieve command-and-control C2 operations. [...]]]></description>
- </item>
-
- <item>
-        <title>Anna Jaques Hospital ransomware breach exposed data of 300K patients</title>
-        <link>https://www.bleepingcomputer.com/news/security/anna-jaques-hospital-ransomware-breach-exposed-data-of-300k-patients/</link>
-        <pubDate>Sat, 07 Dec 2024 10:12:22 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/anna-jaques-hospital-ransomware-breach-exposed-data-of-300k-patients/</guid>
-	<description><![CDATA[Anna Jaques Hospital has confirmed on its website that a ransomware attack it suffered almost precisely a year ago, on December 25, 2023, has exposed sensitive health data for over 316,000 patients. [...]]]></description>
  </item>
 
 </channel>
