@@ -29,6 +29,10 @@ jobs:
         run: |
           python scripts/update_gpz_feed.py
 
+      - name: Remove Old JSON File
+        run: |
+          rm -f feeds/gpz.json
+
       - name: Commit and Push Changes
         run: |
           git config --local user.name "github-actions[bot]"
