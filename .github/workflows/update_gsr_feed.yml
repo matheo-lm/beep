@@ -1,0 +1,38 @@
+name: Python Update GSR Feeds
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  
+  workflow_dispatch:  
+
+permissions:
+  contents: write
+
+jobs:
+  update-gpz-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          pip install feedparser beautifulsoup4
+
+      - name: Run Feed Update Script
+        run: |
+          python scripts/update_gsr_feed.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add feeds/gsr.json
+          git commit -m "Py Update feeds to GPZ JSON" || exit 0
+          git push

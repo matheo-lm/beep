@@ -4,6 +4,7 @@
     '/beep/feeds/thn.json',
     '/beep/feeds/kbs.json',
     '/beep/feeds/gpz.json',
+    '/beep/feeds/gsr.json',
     '/beep/feeds/rf.json'
   ];
   let feedItems = [];
@@ -157,9 +158,9 @@
     }
   });
 
-  // Event listener for "Status" link in the navigation bar
-  document.querySelector('.nav-link[href="#status"]').addEventListener('click', () => {
-    filterItemsByTag('status');
+  // Event listener for "Scholarly" link in the navigation bar
+  document.querySelector('.nav-link[href="#scholarly"]').addEventListener('click', () => {
+    filterItemsByTag('scholarly');
   });
 
   // Event listener for "Hackcidents" link in the navigation bar
