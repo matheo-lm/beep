@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 11 Dec 2024 13:00:50 EST</pubDate>
+        <pubDate>Wed, 11 Dec 2024 13:58:06 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Facebook, Instagram, WhatsApp hit by massive worldwide outage</title>
+        <link>https://www.bleepingcomputer.com/news/technology/facebook-instagram-whatsapp-hit-by-massive-worldwide-outage/</link>
+        <pubDate>Wed, 11 Dec 2024 13:52:24 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/technology/facebook-instagram-whatsapp-hit-by-massive-worldwide-outage/</guid>
+	<description><![CDATA[Facebook, Instagram, Threads, and WhatsApp suffered a massive worldwide Wednesday afternoon, with services impacted in varying degrees based on user's region. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Russian Turla hackers hit Starlink-connected devices in Ukraine</title>
+        <link>https://www.bleepingcomputer.com/news/security/russian-turla-hackers-hit-starlink-connected-devices-in-ukraine/</link>
+        <pubDate>Wed, 11 Dec 2024 12:00:00 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/russian-turla-hackers-hit-starlink-connected-devices-in-ukraine/</guid>
+	<description><![CDATA[Russian cyber-espionage group Turla, aka "Secret Blizzard," is utilizing other threat actors' infrastructure to target Ukrainian military devices connected via Starlink. [...]]]></description>
+ </item>
+
  <item>
         <title>Operation PowerOFF shuts down 27 DDoS-for-hire platforms</title>
         <link>https://www.bleepingcomputer.com/news/security/operation-poweroff-shuts-down-27-ddos-for-hire-platforms/</link>
@@ -178,34 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-sanctions-chinese-firm-for-hacking-firewalls-in-ragnarok-ransomware-attacks/</guid>
 	<description><![CDATA[The U.S. Treasury Department has sanctioned Chinese cybersecurity company Sichuan Silence and one of its employees for their involvement in a series of Ragnarok ransomware attacks targeting U.S. critical infrastructure companies and many other victims worldwide in April 2020. [...]]]></description>
- </item>
-
- <item>
-        <title>New Cleo zero-day RCE flaw exploited in data theft attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-cleo-zero-day-rce-flaw-exploited-in-data-theft-attacks/</link>
-        <pubDate>Tue, 10 Dec 2024 10:09:52 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-cleo-zero-day-rce-flaw-exploited-in-data-theft-attacks/</guid>
-	<description><![CDATA[Hackers are actively exploiting a zero-day vulnerability in Cleo managed file transfer software to breach corporate networks and conduct data theft attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Inside the incident: Uncovering an advanced phishing attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/inside-the-incident-uncovering-an-advanced-phishing-attack/</link>
-        <pubDate>Tue, 10 Dec 2024 10:01:11 -0500</pubDate>
-        <dc:creator>Sponsored by Varonis</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/inside-the-incident-uncovering-an-advanced-phishing-attack/</guid>
-	<description><![CDATA[Recently, Varonis investigated a phishing campaign in which a malicious email enabled a threat actor to access the organization. This blog post will reveal the tactics used to avoid detection and share what was discovered during the investigation. [...]]]></description>
  </item>
 
 </channel>
