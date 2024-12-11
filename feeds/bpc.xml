@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 11 Dec 2024 09:01:29 EST</pubDate>
+        <pubDate>Wed, 11 Dec 2024 09:59:56 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Krispy Kreme cyberattack impacts online orders and operations</title>
+        <link>https://www.bleepingcomputer.com/news/security/krispy-kreme-cyberattack-impacts-online-orders-and-operations/</link>
+        <pubDate>Wed, 11 Dec 2024 09:44:43 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/krispy-kreme-cyberattack-impacts-online-orders-and-operations/</guid>
+	<description><![CDATA[US doughnut chain Krispy Kreme suffered a cyberattack in November that impacted portions of its business operations, including placing online orders. [...]]]></description>
+ </item>
+
  <item>
         <title>Wyden proposes bill to secure US telecoms after Salt Typhoon hacks</title>
         <link>https://www.bleepingcomputer.com/news/security/wyden-proposes-bill-to-secure-us-telecoms-after-salt-typhoon-hacks/</link>
@@ -176,34 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-takes-down-office-web-apps-admin-center/</guid>
 	<description><![CDATA[Microsoft is investigating a widespread and ongoing Microsoft 365 outage impacting Office web apps and the Microsoft 365 admin center. [...]]]></description>
- </item>
-
- <item>
-        <title>Chinese hackers use Visual Studio Code tunnels for remote access</title>
-        <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-use-visual-studio-code-tunnels-for-remote-access/</link>
-        <pubDate>Tue, 10 Dec 2024 06:00:00 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/chinese-hackers-use-visual-studio-code-tunnels-for-remote-access/</guid>
-	<description><![CDATA[Chinese hackers targeting large IT service providers in Southern Europe were seen abusing Visual Studio Code (VSCode) tunnels to maintain persistent access to compromised systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Ransomware attack hits leading heart surgery device maker</title>
-        <link>https://www.bleepingcomputer.com/news/security/ransomware-attack-hits-leading-heart-surgery-device-maker/</link>
-        <pubDate>Mon, 09 Dec 2024 18:00:51 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ransomware-attack-hits-leading-heart-surgery-device-maker/</guid>
-	<description><![CDATA[​Artivion, a leading manufacturer of heart surgery medical devices, has disclosed a November 21 ransomware attack that disrupted its operations and forced it to take some systems offline. [...]]]></description>
  </item>
 
 </channel>
