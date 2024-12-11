@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 04 Dec 2024 15:23:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 11 Dec 2024 01:53:13 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,49 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Patch Tuesday, December 2024 Edition</title>
+		<link>https://krebsonsecurity.com/2024/12/patch-tuesday-december-2024-edition/</link>
+					<comments>https://krebsonsecurity.com/2024/12/patch-tuesday-december-2024-edition/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Wed, 11 Dec 2024 01:53:13 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Adam Barnett]]></category>
+		<category><![CDATA[CVE-2024-49112]]></category>
+		<category><![CDATA[CVE-2024-49138]]></category>
+		<category><![CDATA[Fortra]]></category>
+		<category><![CDATA[Immersive Labs]]></category>
+		<category><![CDATA[LDAP]]></category>
+		<category><![CDATA[Lightweight Directory Access Protocol]]></category>
+		<category><![CDATA[Microsoft Patch Tuesday December 2024]]></category>
+		<category><![CDATA[Rapid7]]></category>
+		<category><![CDATA[Rob Reeves]]></category>
+		<category><![CDATA[Tenable]]></category>
+		<category><![CDATA[Tyler Reguly]]></category>
+		<category><![CDATA[Windows Common Log File System (CLFS) driver]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69721</guid>
+
+					<description><![CDATA[Microsoft today released updates to plug at least 70 security holes in Windows and Windows software, including one vulnerability that is already being exploited in active attacks. The zero-day seeing exploitation involves CVE-2024-49138, a security weakness in the Windows Common… <span class="read-more"><a href="https://krebsonsecurity.com/2024/12/patch-tuesday-december-2024-edition/">Read More &#187;</a></span>]]></description>
+										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today released updates to plug at least 70 security holes in <strong>Windows</strong> and Windows software, including one vulnerability that is already being exploited in active attacks.</p>
+<p><img decoding="async" loading="lazy" class="aligncenter  wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="749" height="527" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p>The zero-day seeing exploitation involves <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-49138" target="_blank" rel="noopener">CVE-2024-49138</a>, a security weakness in the <strong>Windows Common Log File System</strong> (CLFS) driver &#8212; used by applications to write transaction logs &#8212; that could let an authenticated attacker gain &#8220;system&#8221; level privileges on a vulnerable Windows device.</p>
+<p>The security firm <strong>Rapid7</strong> notes there have been a series of zero-day elevation of privilege flaws in CLFS over the past few years.</p>
+<p>&#8220;Ransomware authors who have abused previous CLFS vulnerabilities will be only too pleased to get their hands on a fresh one,&#8221; wrote <strong>Adam Barnett</strong>, lead software engineer at Rapid7. &#8220;Expect more CLFS zero-day vulnerabilities to emerge in the future, at least until Microsoft performs a full replacement of the aging CLFS codebase instead of offering spot fixes for specific flaws.&#8221;</p>
+<p>Elevation of privilege vulnerabilities accounted for 29% of the 1,009 security bugs Microsoft has patched so far in 2024, according to a year-end tally by <strong>Tenable</strong>; nearly 40 percent of those bugs were weaknesses that could let attackers run malicious code on the vulnerable device.<span id="more-69721"></span></p>
+<p><strong>Rob Reeves</strong>, principal security engineer at <strong>Immersive Labs</strong>, called special attention to <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-49112" target="_blank" rel="noopener">CVE-2024-49112</a>, a remote code execution flaw in the <strong>Lightweight Directory Access Protocol</strong> (LDAP) service <em>on every version of Windows since Windows 7. </em>CVE-2024-49112 has been assigned a CVSS (badness) score of 9.8 out of 10.</p>
+<p>&#8220;LDAP is most commonly seen on servers that are Domain Controllers inside a Windows network and LDAP must be exposed to other servers and clients within an enterprise environment for the domain to function,&#8221; Reeves said. &#8220;Microsoft hasn’t released specific information about the vulnerability at present, but has indicated that the attack complexity is low and authentication is not required.&#8221;</p>
+<p><strong>Tyler Reguly</strong> at the security firm <strong>Fortra</strong> had a slightly different 2024 patch tally for Microsoft, at 1,088 vulnerabilities, which he said was surprisingly similar to the 1,063 vulnerabilities resolved in 2023 and the 1,119 vulnerabilities resolved in 2022.</p>
+<p>&#8220;If nothing else, we can say that Microsoft is consistent,&#8221; Reguly said. &#8220;While it would be nice to see the number of vulnerabilities each year decreasing, at least consistency lets us know what to expect.&#8221;</p>
+<p>If you&#8217;re a Windows end user and your system is not set up to automatically install updates, please take a minute this week to run Windows Update, preferably after backing up your system and/or important data.</p>
+<p>System admins should keep an eye on <a href="https://www.askwoody.com" target="_blank" rel="noopener">AskWoody.com</a>, which usually has the details if any of the Patch Tuesday fixes are causing problems. In the meantime, if you run into any problems applying this month&#8217;s fixes, please drop a note about in the comments below.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2024/12/patch-tuesday-december-2024-edition/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>U.S. Offered $10M for Hacker Just Arrested by Russia</title>
 		<link>https://krebsonsecurity.com/2024/12/u-s-offered-10m-for-hacker-just-arrested-by-russia/</link>
 					<comments>https://krebsonsecurity.com/2024/12/u-s-offered-10m-for-hacker-just-arrested-by-russia/#comments</comments>
@@ -42,7 +85,7 @@
 
 					<description><![CDATA[In January 2022, KrebsOnSecurity identified a Russian man named Mikhail Matveev as "Wazawaka," a cybercriminal who was deeply involved in the formation and operation of multiple ransomware groups. The U.S. government indicted Matveev as a top ransomware purveyor a year later, offering $10 million for information leading to his arrest. Last week, the Russian government reportedly arrested Matveev and charged him with creating malware used to extort companies.]]></description>
 										<content:encoded><![CDATA[<p>In January 2022, KrebsOnSecurity identified a Russian man named <strong>Mikhail Matveev</strong> as &#8220;<strong>Wazawaka</strong>,&#8221; a cybercriminal who was deeply involved in the formation and operation of multiple ransomware groups. The U.S. government indicted Matveev as a top ransomware purveyor a year later, offering $10 million for information leading to his arrest. Last week, the Russian government reportedly arrested Matveev and charged him with creating malware used to extort companies.</p>
-<div id="attachment_63686" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-63686" decoding="async" class=" wp-image-63686" src="https://krebsonsecurity.com/wp-content/uploads/2023/05/fbiwanted-matveev.png" alt="" width="748" height="734" srcset="https://krebsonsecurity.com/wp-content/uploads/2023/05/fbiwanted-matveev.png 804w, https://krebsonsecurity.com/wp-content/uploads/2023/05/fbiwanted-matveev-768x754.png 768w, https://krebsonsecurity.com/wp-content/uploads/2023/05/fbiwanted-matveev-782x767.png 782w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-63686" class="wp-caption-text">An FBI wanted poster for Matveev.</p></div>
+<div id="attachment_63686" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-63686" decoding="async" loading="lazy" class=" wp-image-63686" src="https://krebsonsecurity.com/wp-content/uploads/2023/05/fbiwanted-matveev.png" alt="" width="748" height="734" srcset="https://krebsonsecurity.com/wp-content/uploads/2023/05/fbiwanted-matveev.png 804w, https://krebsonsecurity.com/wp-content/uploads/2023/05/fbiwanted-matveev-768x754.png 768w, https://krebsonsecurity.com/wp-content/uploads/2023/05/fbiwanted-matveev-782x767.png 782w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-63686" class="wp-caption-text">An FBI wanted poster for Matveev.</p></div>
 <p>Matveev, a.k.a. &#8220;Wazawaka&#8221; and &#8220;<strong>Boriselcin</strong>&#8221; worked with at least three different ransomware gangs that extorted hundreds of millions of dollars from companies, schools, hospitals and government agencies, U.S. prosecutors allege.</p>
 <p>Russia&#8217;s interior ministry last week issued <a href="https://t.me/mvd39/5931" target="_blank" rel="noopener">a statement</a> saying a 32-year-old hacker had been charged with violating domestic laws against the creation and use of malicious software. The announcement didn&#8217;t name the accused, but the Russian state news agency <em>RIA Novosti</em> <a href="https://ria.ru/20241129/sud-1986456557.html" target="_blank" rel="noopener">cited</a> anonymous sources saying the man detained is Matveev.</p>
 <p>Matveev did not respond to requests for comment. <strong>Daryna Antoniuk</strong> at <em>TheRecord</em> <a href="https://therecord.media/wazawaka-mikhail-matveev-reportedly-arrested-russia" target="_blank" rel="noopener">reports</a> that a security researcher said on Sunday they had contacted Wazawaka, who confirmed being charged and said he&#8217;d paid two fines, had his cryptocurrency confiscated, and is currently out on bail pending trial.</p>
@@ -62,7 +105,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2024/12/u-s-offered-10m-for-hacker-just-arrested-by-russia/feed/</wfw:commentRss>
-			<slash:comments>11</slash:comments>
+			<slash:comments>12</slash:comments>
 		
 		
 			</item>
@@ -639,67 +682,15 @@ At the end of 2023, malicious hackers learned that many large companies had uplo
 		
 		
 			</item>
-		<item>
-		<title>Booking.com Phishers May Leave You With Reservations</title>
-		<link>https://krebsonsecurity.com/2024/11/booking-com-phishers-may-leave-you-with-reservations/</link>
-					<comments>https://krebsonsecurity.com/2024/11/booking-com-phishers-may-leave-you-with-reservations/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Fri, 01 Nov 2024 21:12:38 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Latest Warnings]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[Web Fraud 2.0]]></category>
-		<category><![CDATA[booking.com]]></category>
-		<category><![CDATA[phishing]]></category>
-		<category><![CDATA[secureworks]]></category>
-		<category><![CDATA[spear phishing]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69374</guid>
-
-					<description><![CDATA[A number of cybercriminal innovations are making it easier for scammers to cash in on your upcoming travel plans. This story examines a recent spear-phishing campaign that ensued when a California hotel had its booking.com credentials stolen. We'll also explore an array of cybercrime services aimed at phishers who target hotels that rely on the world's most visited travel website.]]></description>
-										<content:encoded><![CDATA[<p>A number of cybercriminal innovations are making it easier for scammers to cash in on your upcoming travel plans. This story examines a recent spear-phishing campaign that ensued when a California hotel had its <strong>booking.com</strong> credentials stolen. We&#8217;ll also explore an array of cybercrime services aimed at phishers who target hotels that rely on the world&#8217;s most visited travel website.</p>
-<p>According to the market share website <strong>statista.com</strong>, booking.com is by far the Internet&#8217;s busiest travel service, with nearly 550 million visits in September. KrebsOnSecurity last week heard from a reader whose close friend received a targeted phishing message within the Booking mobile app just minutes after making a reservation at a California hotel.</p>
-<p>The missive bore the name of the hotel and referenced details from their reservation, claiming that booking.com&#8217;s anti-fraud system required additional information about the customer before the reservation could be finalized.</p>
-<div id="attachment_69390" style="width: 425px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69390" decoding="async" loading="lazy" class="size-full wp-image-69390" src="https://krebsonsecurity.com/wp-content/uploads/2024/11/bookingcomphish.png" alt="" width="415" height="725" /><p id="caption-attachment-69390" class="wp-caption-text">The phishing message our reader&#8217;s friend received after making a reservation at booking.com in late October.</p></div>
-<p>In an email to KrebsOnSecurity, booking.com confirmed one of its partners had suffered a security incident that allowed unauthorized access to customer booking information.</p>
-<p>&#8220;Our security teams are currently investigating the incident you mentioned and can confirm that it was indeed a phishing attack targeting one of our accommodation partners, which unfortunately is not a new situation and quite common across industries,&#8221; booking.com replied. &#8220;Importantly, we want to clarify that there has been no compromise of Booking.com&#8217;s internal systems.&#8221;</p>
-<div id="attachment_69387" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69387" decoding="async" loading="lazy" class=" wp-image-69387" src="https://krebsonsecurity.com/wp-content/uploads/2024/11/bookingdotcomphishingsite.png" alt="" width="749" height="458" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/11/bookingdotcomphishingsite.png 1558w, https://krebsonsecurity.com/wp-content/uploads/2024/11/bookingdotcomphishingsite-768x470.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/11/bookingdotcomphishingsite-1536x940.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2024/11/bookingdotcomphishingsite-782x478.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-69387" class="wp-caption-text">The phony booking.com website generated by visiting the link in the text message.</p></div>
-<p>Booking.com said it now <a href="https://partner.booking.com/en-gb/help/legal-security/security/securing-your-account" target="_blank" rel="noopener">requires 2FA</a>, which forces partners to provide a one-time passcode from a mobile authentication app (Pulse) in addition to a username and password.</p>
-<p>&#8220;2FA is required and enforced, including for partners to access payment details from customers securely,&#8221; a booking.com spokesperson wrote. &#8220;That&#8217;s why the cybercriminals follow-up with messages to try and get customers to make payments outside of our platform.&#8221;</p>
-<p>&#8220;That said, the phishing attacks stem from partners&#8217; machines being compromised with malware, which has enabled them to also gain access to the partners&#8217; accounts and to send the messages that your reader has flagged,&#8221; they continued.</p>
-<p>It&#8217;s unclear, however, if the company&#8217;s 2FA requirement is enforced for all or just newer partners. Booking.com did not respond to questions about that, and its current <a href="https://www.booking.com/trust-and-safety/partners.en-gb.html#tns_partners_account_safe" target="_blank" rel="noopener">account security advice</a> urges customers to enable 2FA.</p>
-<div id="attachment_69410" style="width: 631px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69410" decoding="async" loading="lazy" class=" wp-image-69410" src="https://krebsonsecurity.com/wp-content/uploads/2024/11/whybooking.png" alt="" width="621" height="171" /><p id="caption-attachment-69410" class="wp-caption-text">A scan of social media networks showed this is not an uncommon scam.</p></div>
-<p>In November 2023, the security firm <strong>SecureWorks</strong> <a href="https://www.secureworks.com/blog/vidar-infostealer-steals-booking-com-credentials-in-fraud-scam" target="_blank" rel="noopener">detailed</a> how scammers targeted booking.com hospitality partners with data-stealing malware. SecureWorks said these attacks had been going on since at least March 2023.</p>
-<p>&#8220;The hotel did not enable multi-factor authentication (MFA) on its Booking.com access, so logging into the account with the stolen credentials was easy,&#8221; SecureWorks said of the booking.com partner it investigated.</p>
-<p>In June 2024, booking.com <a href="https://www.bbc.com/news/articles/c8003dd8jzeo" target="_blank" rel="noopener">told the BBC</a> that phishing attacks targeting travelers had increased 900 percent, and that thieves taking advantage of new artificial intelligence (AI) tools were the primary driver of this trend.</p>
-<p>Booking.com told the BCC the company had started using AI to fight AI-based phishing attacks. Booking.com&#8217;s statement said their investments in that arena &#8220;blocked 85 million fraudulent reservations over more than 1.5 million phishing attempts in 2023.&#8221;</p>
-<p><span id="more-69374"></span></p>
-<p>The domain name in the phony booking.com website sent to our reader&#8217;s friend &#8212; <strong>guestssecureverification[.]com</strong> &#8212; was registered to the email address <strong>ilotirabec207@gmail.com</strong>. According to <a href="https://www.domaintools.com" target="_blank" rel="noopener">DomainTools.com</a>, this email address was used to register more than 700 other phishing domains in the past month alone.</p>
-<p>Many of the 700+ domains appear to target hospitality companies, including platforms like booking.com and <strong>Airbnb</strong>. Others seem crafted to phish users of <strong>Shopify</strong>, <strong>Steam</strong>, and a variety of financial platforms. A full, defanged list of domains is available <a href="https://docs.google.com/spreadsheets/d/1k8c2d2XZLXIG9tFUaU6MGRK-puAKxoCuWuzB8GSqkAM/edit?usp=sharing" target="_blank" rel="noopener">here</a>.</p>
-<p>A cursory review of recent posts across dozens of cybercrime forums monitored by the security firm <a href="https://www.intel471.com" target="_blank" rel="noopener">Intel 471</a> shows there is a great demand for compromised booking.com accounts belonging to hotels and other partners.</p>
-<p>One post last month on the Russian-language hacking forum <strong>BHF</strong> offered up to $5,000 for each hotel account. This seller claims to help people monetize hacked booking.com partners, apparently by using the stolen credentials to set up fraudulent listings.</p>
-<p>A service advertised on the English-language crime community <strong>BreachForums</strong> in October courts phishers who may need help with certain aspects of their phishing campaigns targeting booking.com partners. Those include more than two million hotel email addresses, and services designed to help phishers organize large volumes of phished records. Customers can interact with the service via an automated Telegram bot.</p>
-<p><img decoding="async" loading="lazy" class="aligncenter wp-image-69394" src="https://krebsonsecurity.com/wp-content/uploads/2024/11/airbnb-bf.png" alt="" width="747" height="588" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/11/airbnb-bf.png 952w, https://krebsonsecurity.com/wp-content/uploads/2024/11/airbnb-bf-768x605.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/11/airbnb-bf-782x616.png 782w" sizes="(max-width: 747px) 100vw, 747px" /></p>
-<p>Some cybercriminals appear to have used compromised booking.com accounts to power their own travel agencies catering to fellow scammers, with up to 50 percent discounts on hotel reservations through booking.com. Others are selling ready-to-use &#8220;config&#8221; files designed to make it simple to conduct automated login attempts against booking.com administrator accounts.</p>
-<p>SecureWorks found the phishers targeting booking.com partner hotels used malware to steal credentials. But today&#8217;s thieves can just as easily just visit crime bazaars online and purchase stolen credentials to cloud services that do not enforce 2FA for all accounts.</p>
-<p>That is <a href="https://www.wired.com/story/snowflake-breach-advanced-auto-parts-lendingtree/" target="_blank" rel="noopener">exactly what transpired</a> over the past year with many customers of the cloud data storage giant <strong>Snowflake</strong>. In late 2023, cybercriminals figured out that while tons of companies had stashed enormous amounts of customer data at Snowflake, many of those customer accounts were not protected by 2FA.</p>
-<p>Snowflake responded by making 2FA mandatory for all new customers. But that change came only after thieves used stolen credentials to siphon data from 160 companies &#8212; including <strong>AT&amp;T</strong>, <strong>Lending Tree</strong> and <strong>TicketMaster</strong>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2024/11/booking-com-phishers-may-leave-you-with-reservations/feed/</wfw:commentRss>
-			<slash:comments>33</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 243/243 objects using memcached
-Page Caching using memcached 
+Object Caching 245/245 objects using memcached
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2024-12-10 16:53:27 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2024-12-10 21:22:56 by W3 Total Cache
 -->
