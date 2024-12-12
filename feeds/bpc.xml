@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 12 Dec 2024 11:59:11 EST</pubDate>
+        <pubDate>Thu, 12 Dec 2024 13:03:48 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cleo patches critical zero-day exploited in data theft attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/cleo-patches-critical-zero-day-exploited-in-data-theft-attacks/</link>
+        <pubDate>Thu, 12 Dec 2024 12:03:21 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cleo-patches-critical-zero-day-exploited-in-data-theft-attacks/</guid>
+	<description><![CDATA[Cleo has released security updates for a zero-day flaw in its LexiCom, VLTransfer, and Harmony software, currently exploited in data theft attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Spain busts voice phishing ring for defrauding 10,000 bank customers</title>
         <link>https://www.bleepingcomputer.com/news/security/spain-busts-voice-phishing-ring-for-defrauding-10-000-bank-customers/</link>
@@ -174,22 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/krispy-kreme-cyberattack-impacts-online-orders-and-operations/</guid>
 	<description><![CDATA[US doughnut chain Krispy Kreme suffered a cyberattack in November that impacted portions of its business operations, including placing online orders. [...]]]></description>
- </item>
-
- <item>
-        <title>Wyden proposes bill to secure US telecoms after Salt Typhoon hacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/wyden-proposes-bill-to-secure-us-telecoms-after-salt-typhoon-hacks/</link>
-        <pubDate>Tue, 10 Dec 2024 16:38:26 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Government]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/wyden-proposes-bill-to-secure-us-telecoms-after-salt-typhoon-hacks/</guid>
-	<description><![CDATA[U.S. Senator Ron Wyden of Oregon announced a new bill to secure the networks of American telecommunications companies breached by Salt Typhoon Chinese state hackers earlier this year. [...]]]></description>
  </item>
 
 </channel>
