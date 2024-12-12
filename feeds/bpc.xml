@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 12 Dec 2024 11:02:44 EST</pubDate>
+        <pubDate>Thu, 12 Dec 2024 11:59:11 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Spain busts voice phishing ring for defrauding 10,000 bank customers</title>
+        <link>https://www.bleepingcomputer.com/news/security/spain-busts-voice-phishing-ring-for-defrauding-10-000-bank-customers/</link>
+        <pubDate>Thu, 12 Dec 2024 11:44:03 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/spain-busts-voice-phishing-ring-for-defrauding-10-000-bank-customers/</guid>
+	<description><![CDATA[The Spanish police, working with colleagues in Peru, conducted a simultaneous crackdown on a large-scale voice phishing (vishing) scam ring in the two countries, arresting 83 individuals. [...]]]></description>
+ </item>
+
  <item>
         <title>Bitcoin ATM firm Byte Federal hacked via GitLab flaw, 58K users exposed</title>
         <link>https://www.bleepingcomputer.com/news/security/bitcoin-atm-firm-byte-federal-hacked-via-gitlab-flaw-58k-users-exposed/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/wyden-proposes-bill-to-secure-us-telecoms-after-salt-typhoon-hacks/</guid>
 	<description><![CDATA[U.S. Senator Ron Wyden of Oregon announced a new bill to secure the networks of American telecommunications companies breached by Salt Typhoon Chinese state hackers earlier this year. [...]]]></description>
- </item>
-
- <item>
-        <title>WPForms bug allows Stripe refunds on millions of WordPress sites</title>
-        <link>https://www.bleepingcomputer.com/news/security/wpforms-bug-allows-stripe-refunds-on-millions-of-wordpress-sites/</link>
-        <pubDate>Tue, 10 Dec 2024 15:00:10 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/wpforms-bug-allows-stripe-refunds-on-millions-of-wordpress-sites/</guid>
-	<description><![CDATA[A vulnerability in WPForms, a WordPress plugin used in over 6 million websites, could allow subscriber-level users to issue arbitrary Stripe refunds or cancel subscriptions. [...]]]></description>
  </item>
 
 </channel>
