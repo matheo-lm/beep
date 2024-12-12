@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 12 Dec 2024 17:02:16 EST</pubDate>
+        <pubDate>Thu, 12 Dec 2024 18:00:45 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New stealthy Pumakit Linux rootkit malware spotted in the wild</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-stealthy-pumakit-linux-rootkit-malware-spotted-in-the-wild/</link>
+        <pubDate>Thu, 12 Dec 2024 17:35:24 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Linux]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-stealthy-pumakit-linux-rootkit-malware-spotted-in-the-wild/</guid>
+	<description><![CDATA[A new Linux rootkit malware called Pumakit has been discovered that uses stealth and advanced privilege escalation techniques to hide its presence on systems. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Police shuts down Rydox cybercrime market, arrests 3 admins</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-shuts-down-rydox-cybercrime-market-arrests-3-admins/</link>
+        <pubDate>Thu, 12 Dec 2024 17:11:28 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-shuts-down-rydox-cybercrime-market-arrests-3-admins/</guid>
+	<description><![CDATA[International law enforcement operation seizes the Rydox cybercrime marketplace and arrests three administrators. [...]]]></description>
+ </item>
+
  <item>
         <title>New IOCONTROL malware used in critical infrastructure attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/new-iocontrol-malware-used-in-critical-infrastructure-attacks/</link>
@@ -158,36 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/technology/facebook-instagram-whatsapp-hit-by-massive-worldwide-outage/</guid>
 	<description><![CDATA[Facebook, Instagram, Threads, and WhatsApp suffered a massive worldwide Wednesday afternoon, with services impacted in varying degrees based on user's region. [...]]]></description>
- </item>
-
- <item>
-        <title>Russian cyber spies hide behind other hackers to target Ukraine</title>
-        <link>https://www.bleepingcomputer.com/news/security/russian-cyber-spies-hide-behind-other-hackers-to-target-ukraine/</link>
-        <pubDate>Wed, 11 Dec 2024 12:00:00 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/russian-cyber-spies-hide-behind-other-hackers-to-target-ukraine/</guid>
-	<description><![CDATA[Russian cyber-espionage group Turla, aka "Secret Blizzard," is utilizing other threat actors' infrastructure to target Ukrainian military devices connected via Starlink. [...]]]></description>
- </item>
-
- <item>
-        <title>Operation PowerOFF shuts down 27 DDoS-for-hire platforms</title>
-        <link>https://www.bleepingcomputer.com/news/security/operation-poweroff-shuts-down-27-ddos-for-hire-platforms/</link>
-        <pubDate>Wed, 11 Dec 2024 11:34:57 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/operation-poweroff-shuts-down-27-ddos-for-hire-platforms/</guid>
-	<description><![CDATA[Law enforcement agencies from 15 countries have taken 27 DDoS-for-hire services offline, also known as "booters" or "stressers," arrested three administrators, and identified 300 customers of the platforms. [...]]]></description>
  </item>
 
 </channel>
