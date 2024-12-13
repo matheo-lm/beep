@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 13 Dec 2024 17:00:07 EST</pubDate>
+        <pubDate>Fri, 13 Dec 2024 18:00:55 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Citrix shares mitigations for ongoing Netscaler password spray attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/citrix-shares-mitigations-for-ongoing-netscaler-password-spray-attacks/</link>
+        <pubDate>Fri, 13 Dec 2024 17:10:23 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/citrix-shares-mitigations-for-ongoing-netscaler-password-spray-attacks/</guid>
+	<description><![CDATA[Citrix Netscaler is the latest target in widespread password spray attacks targeting edge networking devices and cloud platforms this year to breach corporate networks. [...]]]></description>
+ </item>
+
  <item>
         <title>CISA confirms critical Cleo bug exploitation in ransomware attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/cisa-confirms-critical-cleo-bug-exploitation-in-ransomware-attacks/</link>
@@ -188,22 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/spain-busts-voice-phishing-ring-for-defrauding-10-000-bank-customers/</guid>
 	<description><![CDATA[The Spanish police, working with colleagues in Peru, conducted a simultaneous crackdown on a large-scale voice phishing (vishing) scam ring in the two countries, arresting 83 individuals. [...]]]></description>
- </item>
-
- <item>
-        <title>Bitcoin ATM firm Byte Federal hacked via GitLab flaw, 58K users exposed</title>
-        <link>https://www.bleepingcomputer.com/news/security/bitcoin-atm-firm-byte-federal-hacked-via-gitlab-flaw-58k-users-exposed/</link>
-        <pubDate>Thu, 12 Dec 2024 11:02:37 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/bitcoin-atm-firm-byte-federal-hacked-via-gitlab-flaw-58k-users-exposed/</guid>
-	<description><![CDATA[US Bitcoin ATM operator Byte Federal has disclosed a data breach that exposed the data of 58,000 customers after its systems were breached using a GitLab vulnerability. [...]]]></description>
  </item>
 
 </channel>
