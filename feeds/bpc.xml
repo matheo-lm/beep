@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 13 Dec 2024 12:01:01 EST</pubDate>
+        <pubDate>Fri, 13 Dec 2024 13:03:40 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Russian cyberspies target Android users with new spyware</title>
+        <link>https://www.bleepingcomputer.com/news/security/russian-gamaredon-cyberspies-target-android-users-with-new-spyware/</link>
+        <pubDate>Fri, 13 Dec 2024 12:43:23 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/russian-gamaredon-cyberspies-target-android-users-with-new-spyware/</guid>
+	<description><![CDATA[Russian cyberspies Gamaredon has been discovered using two Android spyware families named 'BoneSpy' and 'PlainGnome' to spy on and steal data from mobile devices. [...]]]></description>
+ </item>
+
  <item>
         <title>Germany blocks BadBox malware loaded on 30,000 Android devices</title>
         <link>https://www.bleepingcomputer.com/news/security/germany-blocks-badbox-malware-loaded-on-30-000-android-devices/</link>
@@ -176,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-eaglemsgspy-android-spyware-used-by-chinese-police-researchers-say/</guid>
 	<description><![CDATA[A previously undocumented Android spyware called 'EagleMsgSpy' has been discovered and is believed to be used by law enforcement agencies in China to monitor mobile devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft lifts Windows 11 24H2 block on PCs with USB scanners</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-24h2-block-on-pcs-with-usb-scanners/</link>
-        <pubDate>Wed, 11 Dec 2024 14:06:43 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-24h2-block-on-pcs-with-usb-scanners/</guid>
-	<description><![CDATA[Microsoft has lifted a compatibility block preventing Windows 11 24H2 upgrades after fixing a bug causing USB connection issues to some scanners. [...]]]></description>
  </item>
 
 </channel>
