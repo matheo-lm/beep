@@ -10,7 +10,11 @@
   ];
   let feedItems = [];
   let currentPage = 1;
-  let itemsPerPage = parseInt(document.getElementById('itemsPerPage').value);
+  let itemsPerPage = 25; // Default value
+  const itemsPerPageElement = document.getElementById('itemsPerPage');
+  if (itemsPerPageElement) {
+    itemsPerPage = parseInt(itemsPerPageElement.value);
+  }
   let filteredItems = [];
   const headerTitle = document.querySelector('.header-title a');
   const darkModeToggle = document.getElementById('darkModeToggle');
@@ -42,15 +46,6 @@
   // Sort items by publication date
   feedItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
   filteredItems = feedItems;
-
-  // Function to update pagination buttons
-  function updatePaginationButtons() {
-    const prevButton = document.getElementById('prevPage');
-    const nextButton = document.getElementById('nextPage');
-
-    prevButton.disabled = currentPage === 1;
-    nextButton.disabled = currentPage === Math.ceil(filteredItems.length / itemsPerPage);
-  }
 
   // Function to scroll to the top of the page
   function scrollToTop() {
@@ -90,19 +85,9 @@
       feedList.appendChild(listItem);
     });
 
-    // Update page info
-    const pageInfo = document.getElementById('pageInfo');
-    pageInfo.textContent = `${currentPage} of ${Math.ceil(filteredItems.length / itemsPerPage)}`;
-
     // Update total article count
     const totalArticleCount = document.getElementById('totalArticleCount');
     totalArticleCount.textContent = `Total articles: ${filteredItems.length}`;
-
-    // Update pagination buttons
-    updatePaginationButtons();
-
-    // Scroll to the top of the page after displaying items
-    scrollToTop();
 
     // Update footer information
     updateFooterInfo();
@@ -182,27 +167,14 @@
     filterItemsByDateRange(startDate, endDate);
   });
 
-  // Event listeners for pagination buttons
-  document.getElementById('prevPage').addEventListener('click', () => {
-    if (currentPage > 1) {
-      currentPage--;
-      displayItems();
-    }
-  });
-
-  document.getElementById('nextPage').addEventListener('click', () => {
-    if (currentPage < Math.ceil(filteredItems.length / itemsPerPage)) {
-      currentPage++;
-      displayItems();
-    }
-  });
-
   // Event listener for items per page selection
-  document.getElementById('itemsPerPage').addEventListener('change', (e) => {
-    itemsPerPage = parseInt(e.target.value);
-    currentPage = 1; // Reset to first page
-    displayItems();
-  });
+  if (itemsPerPageElement) {
+    itemsPerPageElement.addEventListener('change', (e) => {
+      itemsPerPage = parseInt(e.target.value);
+      currentPage = 1; // Reset to first page
+      displayItems();
+    });
+  }
 
   // Event listener for search button
   document.getElementById('searchButton').addEventListener('click', () => {
@@ -293,4 +265,43 @@
       displayItems();
     });
   });
+
+  // Function to load more content
+  async function loadMoreContent() {
+    const nextPage = currentPage + 1;
+    const startIndex = (nextPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const pageItems = filteredItems.slice(startIndex, endIndex);
+
+    if (pageItems.length > 0) {
+      const feedList = document.getElementById('feed-list');
+      pageItems.forEach(item => {
+        const listItem = document.createElement('li');
+        listItem.innerHTML = `
+          <a href="${item.link}" target="_blank">${item.title}</a><br>
+          <div class="feed-content">${item.content || item.contentSnippet || ''}</div>
+          <small class="iso-date">${item.isoDate}</small>
+        `;
+        feedList.appendChild(listItem);
+      });
+      currentPage = nextPage;
+      updateFooterInfo();
+    } else {
+      document.getElementById('loadMoreButton').style.display = 'none';
+    }
+  }
+
+  // Infinite scrolling implementation
+  window.addEventListener('scroll', () => {
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
+      loadMoreContent();
+    }
+  });
+
+  // Initial display
+  displayItems();
+  updateFooterInfo();
+
+  // Add event listener for "Load More" button
+  document.getElementById('loadMoreButton').addEventListener('click', loadMoreContent);
 })();
