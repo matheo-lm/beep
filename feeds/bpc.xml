@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 13 Dec 2024 14:02:55 EST</pubDate>
+        <pubDate>Fri, 13 Dec 2024 15:01:49 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FTC warns of online task job scams hooking victims like gambling</title>
+        <link>https://www.bleepingcomputer.com/news/security/ftc-warns-of-online-task-job-scams-hooking-victims-like-gambling/</link>
+        <pubDate>Fri, 13 Dec 2024 14:51:36 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ftc-warns-of-online-task-job-scams-hooking-victims-like-gambling/</guid>
+	<description><![CDATA[The Federal Trade Commission (FTC) warns about a significant rise in gambling-like online job scams, known as "task scams," that draw people into earning cash through repetitive tasks, with the promises of earning more if they deposit their own money. [...]]]></description>
+ </item>
+
+ <item>
+        <title>CISA warns water facilities to secure HMI systems exposed online</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-warns-water-facilities-to-secure-hmi-systems-exposed-online/</link>
+        <pubDate>Fri, 13 Dec 2024 14:34:35 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-water-facilities-to-secure-hmi-systems-exposed-online/</guid>
+	<description><![CDATA[CISA and the Environmental Protection Agency (EPA) warned water facilities today to secure Internet-exposed Human Machine Interfaces (HMIs) from cyberattacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Russia blocks Viber in latest attempt to censor communications</title>
         <link>https://www.bleepingcomputer.com/news/security/russia-blocks-viber-in-latest-attempt-to-censor-communications/</link>
@@ -162,34 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/bitcoin-atm-firm-byte-federal-hacked-via-gitlab-flaw-58k-users-exposed/</guid>
 	<description><![CDATA[US Bitcoin ATM operator Byte Federal has disclosed a data breach that exposed the data of 58,000 customers after its systems were breached using a GitLab vulnerability. [...]]]></description>
- </item>
-
- <item>
-        <title>Hunk Companion WordPress plugin exploited to install vulnerable plugins</title>
-        <link>https://www.bleepingcomputer.com/news/security/hunk-companion-wordpress-plugin-exploited-to-install-vulnerable-plugins/</link>
-        <pubDate>Wed, 11 Dec 2024 18:28:09 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hunk-companion-wordpress-plugin-exploited-to-install-vulnerable-plugins/</guid>
-	<description><![CDATA[Hackers are exploiting a critical vulnerability in the "Hunk Companion" plugin to install and activate other plugins with exploitable flaws directly from the WordPress.org repository. [...]]]></description>
- </item>
-
- <item>
-        <title>Cynet Delivers 100% Protection and 100% Detection Visibility in the 2024 MITRE ATT&amp;CK Evaluation</title>
-        <link>https://www.bleepingcomputer.com/news/security/cynet-delivers-100-percent-protection-and-100-percent-detection-visibility-in-the-2024-mitre-attandck-evaluation/</link>
-        <pubDate>Wed, 11 Dec 2024 17:43:43 -0500</pubDate>
-        <dc:creator>Sponsored by Cynet</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cynet-delivers-100-percent-protection-and-100-percent-detection-visibility-in-the-2024-mitre-attandck-evaluation/</guid>
-	<description><![CDATA[The 2024 MITRE ATT&CK Evaluation results are now available with Cynet achieving 100% Visibility and 100% Protection in the 2024 evaluation. Learn more from Cynet about what these results mean. [...]]]></description>
  </item>
 
 </channel>
