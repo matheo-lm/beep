@@ -42,7 +42,7 @@ body.dark-mode #darkModeToggle {
 }
 body.dark-mode .card {
   background-color: #2a2a2a;
-  color: #6c757d;
+  color: #ffffff;
 }
 body.dark-mode .custom-select,
 body.dark-mode .form-control {
@@ -65,34 +65,6 @@ body.dark-mode .btn-danger {
 body.dark-mode .btn-dark {
   background-color: #444;
   border-color: #444;
-}
-
-body.dark-mode .daterangepicker {
-  background-color: #2a2a2a;
-  color: #ffffff;
-}
-body.dark-mode .daterangepicker .calendar-table {
-  background-color: #333;
-  color: #ffffff;
-}
-body.dark-mode .daterangepicker td.active,
-body.dark-mode .daterangepicker td.active:hover {
-  background-color: #2a2a2a;
-  color: #ffffff;
-}
-body.dark-mode .daterangepicker td.available:hover {
-  background-color: #444;
-  color: #6c757d;
-}
-body.dark-mode .daterangepicker .ranges li.active,
-body.dark-mode .daterangepicker .ranges li:hover {
-  background-color: #2a2a2a;
-  color: #6c757d;
-}
-body.dark-mode .daterangepicker .drp-buttons .btn {
-  background-color: #444;
-  color: #ffffff;
-  border: 1px solid #555;
 }
 
 .header-container {

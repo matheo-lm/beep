@@ -6,6 +6,7 @@
     '/beep/feeds/gpz.json',
     '/beep/feeds/gsr.json',
     '/beep/feeds/rf.json'
+    // '/beep/feeds/merged.json'
   ];
   let feedItems = [];
   let currentPage = 1;
@@ -146,10 +147,8 @@
     const filterOptions = document.getElementById('filterOptions');
     if (darkModeEnabled) {
       filterOptions.classList.add('dark-mode');
-      $('.daterangepicker').addClass('dark-mode');
     } else {
       filterOptions.classList.remove('dark-mode');
-      $('.daterangepicker').removeClass('dark-mode');
     }
   }
 
