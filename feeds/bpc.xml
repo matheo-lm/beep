@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 13 Dec 2024 10:01:59 EST</pubDate>
+        <pubDate>Fri, 13 Dec 2024 11:02:27 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Germany sinkholes BadBox malware pre-loaded on Android devices</title>
+        <link>https://www.bleepingcomputer.com/news/security/germany-sinkholes-badbox-malware-pre-loaded-on-android-devices/</link>
+        <pubDate>Fri, 13 Dec 2024 10:22:05 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/germany-sinkholes-badbox-malware-pre-loaded-on-android-devices/</guid>
+	<description><![CDATA[Germany's Federal Office for Information Security (BSI) has disrupted the BadBox malware operation pre-loaded in over 30,000 Android IoT devices sold in the country. [...]]]></description>
+ </item>
+
  <item>
         <title>New stealthy Pumakit Linux rootkit malware spotted in the wild</title>
         <link>https://www.bleepingcomputer.com/news/security/new-stealthy-pumakit-linux-rootkit-malware-spotted-in-the-wild/</link>
@@ -174,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-24h2-block-on-pcs-with-usb-scanners/</guid>
 	<description><![CDATA[Microsoft has lifted a compatibility block preventing Windows 11 24H2 upgrades after fixing a bug causing USB connection issues to some scanners. [...]]]></description>
- </item>
-
- <item>
-        <title>Facebook, Instagram, WhatsApp hit by massive worldwide outage</title>
-        <link>https://www.bleepingcomputer.com/news/technology/facebook-instagram-whatsapp-hit-by-massive-worldwide-outage/</link>
-        <pubDate>Wed, 11 Dec 2024 13:52:24 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/technology/facebook-instagram-whatsapp-hit-by-massive-worldwide-outage/</guid>
-	<description><![CDATA[Facebook, Instagram, Threads, and WhatsApp suffered a massive worldwide Wednesday afternoon, with services impacted in varying degrees based on user's region. [...]]]></description>
  </item>
 
 </channel>
