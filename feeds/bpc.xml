@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 14 Dec 2024 14:00:34 EST</pubDate>
+        <pubDate>Sat, 14 Dec 2024 15:02:42 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>390,000 WordPress accounts stolen from hackers in supply chain attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/390-000-wordpress-accounts-stolen-from-hackers-in-supply-chain-attack/</link>
+        <pubDate>Sat, 14 Dec 2024 10:17:27 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/390-000-wordpress-accounts-stolen-from-hackers-in-supply-chain-attack/</guid>
+	<description><![CDATA[A threat actor tracked as MUT-1244 has stolen over 390,000 WordPress credentials in a large-scale, year-long campaign targeting other threat actors using a trojanized WordPress credentials checker. [...]]]></description>
+ </item>
+
  <item>
         <title>Auto parts giant LKQ says cyberattack disrupted Canadian business unit</title>
         <link>https://www.bleepingcomputer.com/news/security/auto-parts-giant-lkq-says-cyberattack-disrupted-canadian-business-unit/</link>
@@ -188,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-offers-5-million-for-info-on-north-korean-it-worker-farms/</guid>
 	<description><![CDATA[​The U.S. State Department is offering a reward of up to $5 million for information that could help disrupt the activities of North Korean front companies and employees who generated over $88 million via illegal remote IT work schemes in six years. [...]]]></description>
- </item>
-
- <item>
-        <title>Cleo patches critical zero-day exploited in data theft attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/cleo-patches-critical-zero-day-exploited-in-data-theft-attacks/</link>
-        <pubDate>Thu, 12 Dec 2024 12:03:21 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cleo-patches-critical-zero-day-exploited-in-data-theft-attacks/</guid>
-	<description><![CDATA[Cleo has released security updates for a zero-day flaw in its LexiCom, VLTransfer, and Harmony software, currently exploited in data theft attacks. [...]]]></description>
  </item>
 
 </channel>
