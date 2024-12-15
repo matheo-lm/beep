@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 15 Dec 2024 15:00:31 EST</pubDate>
+        <pubDate>Sun, 15 Dec 2024 17:02:51 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Clop ransomware claims responsibility for Cleo data theft attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/clop-ransomware-claims-responsibility-for-cleo-data-theft-attacks/</link>
+        <pubDate>Sun, 15 Dec 2024 15:15:00 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/clop-ransomware-claims-responsibility-for-cleo-data-theft-attacks/</guid>
+	<description><![CDATA[The Clop ransomware gang has confirmed to BleepingComputer that they are behind the recent Cleo data-theft attacks, utilizing zero-day exploits to breach corporate networks and steal data. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Winnti hackers target other threat actors with new Glutton PHP backdoor</title>
+        <link>https://www.bleepingcomputer.com/news/security/winnti-hackers-target-other-threat-actors-with-new-glutton-php-backdoor/</link>
+        <pubDate>Sun, 15 Dec 2024 10:19:29 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/winnti-hackers-target-other-threat-actors-with-new-glutton-php-backdoor/</guid>
+	<description><![CDATA[​The Chinese Winnti hacking group is using a new PHP backdoor named 'Glutton' in attacks on organizations in China and the U.S., and also in attacks on other cybercriminals. [...]]]></description>
+ </item>
+
  <item>
         <title>390,000 WordPress accounts stolen from hackers in supply chain attack</title>
         <link>https://www.bleepingcomputer.com/news/security/390-000-wordpress-accounts-stolen-from-hackers-in-supply-chain-attack/</link>
@@ -160,48 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-stealthy-pumakit-linux-rootkit-malware-spotted-in-the-wild/</guid>
 	<description><![CDATA[A new Linux rootkit malware called Pumakit has been discovered that uses stealth and advanced privilege escalation techniques to hide its presence on systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Police shuts down Rydox cybercrime market, arrests 3 admins</title>
-        <link>https://www.bleepingcomputer.com/news/security/police-shuts-down-rydox-cybercrime-market-arrests-3-admins/</link>
-        <pubDate>Thu, 12 Dec 2024 17:11:28 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/police-shuts-down-rydox-cybercrime-market-arrests-3-admins/</guid>
-	<description><![CDATA[International law enforcement operation seizes the Rydox cybercrime marketplace and arrests three administrators. [...]]]></description>
- </item>
-
- <item>
-        <title>New IOCONTROL malware used in critical infrastructure attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-iocontrol-malware-used-in-critical-infrastructure-attacks/</link>
-        <pubDate>Thu, 12 Dec 2024 15:46:32 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-iocontrol-malware-used-in-critical-infrastructure-attacks/</guid>
-	<description><![CDATA[Iranian threat actors are utilizing a new malware named IOCONTROL to compromise Internet of Things (IoT) devices and OT/SCADA systems used by critical infrastructure in Israel and the United States. [...]]]></description>
- </item>
-
- <item>
-        <title>US offers $5 million for info on North Korean IT worker farms</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-offers-5-million-for-info-on-north-korean-it-worker-farms/</link>
-        <pubDate>Thu, 12 Dec 2024 15:24:14 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-offers-5-million-for-info-on-north-korean-it-worker-farms/</guid>
-	<description><![CDATA[​The U.S. State Department is offering a reward of up to $5 million for information that could help disrupt the activities of North Korean front companies and employees who generated over $88 million via illegal remote IT work schemes in six years. [...]]]></description>
  </item>
 
 </channel>
