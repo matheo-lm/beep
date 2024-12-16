@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 16 Dec 2024 13:59:02 EST</pubDate>
+        <pubDate>Mon, 16 Dec 2024 15:00:36 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows kernel bug now exploited in attacks to gain SYSTEM privileges</title>
+        <link>https://www.bleepingcomputer.com/news/security/windows-kernel-bug-now-exploited-in-attacks-to-gain-system-privileges/</link>
+        <pubDate>Mon, 16 Dec 2024 14:50:29 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/windows-kernel-bug-now-exploited-in-attacks-to-gain-system-privileges/</guid>
+	<description><![CDATA[CISA has warned U.S. federal agencies to secure their systems against ongoing attacks targeting a high-severity Windows kernel vulnerability. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Malicious ads push Lumma infostealer via fake CAPTCHA pages</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-ads-push-lumma-infostealer-via-fake-captcha-pages/</link>
+        <pubDate>Mon, 16 Dec 2024 14:32:07 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-ads-push-lumma-infostealer-via-fake-captcha-pages/</guid>
+	<description><![CDATA[A large-scale malvertising campaign distributed the Lumma Stealer info-stealing malware through fake CAPTCHA verification pages that prompt users to run PowerShell commands to verify they are not a bot. [...]]]></description>
+ </item>
+
  <item>
         <title>ConnectOnCall breach exposes health data of over 910,000 patients</title>
         <link>https://www.bleepingcomputer.com/news/security/connectoncall-breach-exposes-health-data-of-over-910-000-patients/</link>
@@ -158,34 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ftc-warns-of-online-task-job-scams-hooking-victims-like-gambling/</guid>
 	<description><![CDATA[The Federal Trade Commission (FTC) warns about a significant rise in gambling-like online job scams, known as "task scams," that draw people into earning cash through repetitive tasks, with the promises of earning more if they deposit their own money. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA warns water facilities to secure HMI systems exposed online</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-warns-water-facilities-to-secure-hmi-systems-exposed-online/</link>
-        <pubDate>Fri, 13 Dec 2024 14:34:35 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-water-facilities-to-secure-hmi-systems-exposed-online/</guid>
-	<description><![CDATA[CISA and the Environmental Protection Agency (EPA) warned water facilities today to secure Internet-exposed Human Machine Interfaces (HMIs) from cyberattacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Russia blocks Viber in latest attempt to censor communications</title>
-        <link>https://www.bleepingcomputer.com/news/security/russia-blocks-viber-in-latest-attempt-to-censor-communications/</link>
-        <pubDate>Fri, 13 Dec 2024 13:10:40 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/russia-blocks-viber-in-latest-attempt-to-censor-communications/</guid>
-	<description><![CDATA[Russian telecommunications watchdog Roskomnadzor has blocked the Viber encrypted messaging app, used by hundreds of millions worldwide, for violating the country's legislation. [...]]]></description>
  </item>
 
 </channel>
