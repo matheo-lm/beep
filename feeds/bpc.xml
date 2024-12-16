@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 16 Dec 2024 16:01:52 EST</pubDate>
+        <pubDate>Mon, 16 Dec 2024 16:58:29 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Kali Linux 2024.4 released with 14 new tools, deprecates some features</title>
+        <link>https://www.bleepingcomputer.com/news/security/kali-linux-20244-released-with-14-new-tools-deprecates-some-features/</link>
+        <pubDate>Mon, 16 Dec 2024 16:33:19 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Linux]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/kali-linux-20244-released-with-14-new-tools-deprecates-some-features/</guid>
+	<description><![CDATA[Kali Linux has released version 2024.4, the fourth and final version of 2024, and it is now available with fourteen new tools, numerous improvements, and deprecates some features. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows kernel bug now exploited in attacks to gain SYSTEM privileges</title>
         <link>https://www.bleepingcomputer.com/news/security/windows-kernel-bug-now-exploited-in-attacks-to-gain-system-privileges/</link>
@@ -172,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-confirms-critical-cleo-bug-exploitation-in-ransomware-attacks/</guid>
 	<description><![CDATA[CISA confirmed today that a critical remote code execution bug in Cleo Harmony, VLTrader, and LexiCom file transfer software is being exploited in ransomware attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>FTC warns of online task job scams hooking victims like gambling</title>
-        <link>https://www.bleepingcomputer.com/news/security/ftc-warns-of-online-task-job-scams-hooking-victims-like-gambling/</link>
-        <pubDate>Fri, 13 Dec 2024 14:51:36 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ftc-warns-of-online-task-job-scams-hooking-victims-like-gambling/</guid>
-	<description><![CDATA[The Federal Trade Commission (FTC) warns about a significant rise in gambling-like online job scams, known as "task scams," that draw people into earning cash through repetitive tasks, with the promises of earning more if they deposit their own money. [...]]]></description>
  </item>
 
 </channel>
