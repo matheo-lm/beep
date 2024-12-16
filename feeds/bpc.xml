@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 16 Dec 2024 12:01:58 EST</pubDate>
+        <pubDate>Mon, 16 Dec 2024 13:03:55 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ConnectOnCall breach exposes health data of over 910,000 patients</title>
+        <link>https://www.bleepingcomputer.com/news/security/connectoncall-breach-exposes-health-data-of-over-910-000-patients/</link>
+        <pubDate>Mon, 16 Dec 2024 12:28:35 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/connectoncall-breach-exposes-health-data-of-over-910-000-patients/</guid>
+	<description><![CDATA[Healthcare software as a service (SaaS) company Phreesia is notifying over 910,000 people that their personal and health data was exposed in a May breach of its subsidiary ConnectOnCall. [...]]]></description>
+ </item>
+
  <item>
         <title>Rhode Island confirms data breach after Brain Cipher ransomware attack</title>
         <link>https://www.bleepingcomputer.com/news/security/rhode-island-confirms-data-breach-after-brain-cipher-ransomware-attack/</link>
@@ -170,22 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/russia-blocks-viber-in-latest-attempt-to-censor-communications/</guid>
 	<description><![CDATA[Russian telecommunications watchdog Roskomnadzor has blocked the Viber encrypted messaging app, used by hundreds of millions worldwide, for violating the country's legislation. [...]]]></description>
- </item>
-
- <item>
-        <title>Russian cyberspies target Android users with new spyware</title>
-        <link>https://www.bleepingcomputer.com/news/security/russian-cyberspies-target-android-users-with-new-spyware/</link>
-        <pubDate>Fri, 13 Dec 2024 12:43:23 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/russian-cyberspies-target-android-users-with-new-spyware/</guid>
-	<description><![CDATA[Russian cyberspies Gamaredon has been discovered using two Android spyware families named 'BoneSpy' and 'PlainGnome' to spy on and steal data from mobile devices. [...]]]></description>
  </item>
 
 </channel>
