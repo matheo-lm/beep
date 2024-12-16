@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 16 Dec 2024 11:01:49 EST</pubDate>
+        <pubDate>Mon, 16 Dec 2024 12:01:58 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Rhode Island confirms data breach after Brain Cipher ransomware attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/rhode-island-confirms-data-breach-after-brain-cipher-ransomware-attack/</link>
+        <pubDate>Mon, 16 Dec 2024 11:51:49 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/rhode-island-confirms-data-breach-after-brain-cipher-ransomware-attack/</guid>
+	<description><![CDATA[Rhode Island is warning that its RIBridges system, managed by Deloitte, suffered a data breach exposing residents' personal information after the Brain Cipher ransomware gang hacked its systems. [...]]]></description>
+ </item>
+
  <item>
         <title>New Android NoviSpy spyware linked to Qualcomm zero-day bugs</title>
         <link>https://www.bleepingcomputer.com/news/security/new-android-novispy-spyware-linked-to-qualcomm-zero-day-bugs/</link>
@@ -172,22 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/russian-cyberspies-target-android-users-with-new-spyware/</guid>
 	<description><![CDATA[Russian cyberspies Gamaredon has been discovered using two Android spyware families named 'BoneSpy' and 'PlainGnome' to spy on and steal data from mobile devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Germany blocks BadBox malware loaded on 30,000 Android devices</title>
-        <link>https://www.bleepingcomputer.com/news/security/germany-blocks-badbox-malware-loaded-on-30-000-android-devices/</link>
-        <pubDate>Fri, 13 Dec 2024 10:22:05 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Hardware]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/germany-blocks-badbox-malware-loaded-on-30-000-android-devices/</guid>
-	<description><![CDATA[Germany's Federal Office for Information Security (BSI) has disrupted the BadBox malware operation pre-loaded in over 30,000 Android IoT devices sold in the country. [...]]]></description>
  </item>
 
 </channel>
