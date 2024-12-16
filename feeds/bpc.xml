@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 16 Dec 2024 10:00:19 EST</pubDate>
+        <pubDate>Mon, 16 Dec 2024 11:01:49 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Android NoviSpy spyware linked to Qualcomm zero-day bugs</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-android-novispy-spyware-linked-to-qualcomm-zero-day-bugs/</link>
+        <pubDate>Mon, 16 Dec 2024 10:06:16 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-android-novispy-spyware-linked-to-qualcomm-zero-day-bugs/</guid>
+	<description><![CDATA[The Serbian government exploited Qualcomm zero-days to unlock and infect Android devices with a new spyware named 'NoviSpy,' used to spy on activists, journalists, and protestors. [...]]]></description>
+ </item>
+
  <item>
         <title>Clop ransomware claims responsibility for Cleo data theft attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/clop-ransomware-claims-responsibility-for-cleo-data-theft-attacks/</link>
@@ -172,22 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/germany-blocks-badbox-malware-loaded-on-30-000-android-devices/</guid>
 	<description><![CDATA[Germany's Federal Office for Information Security (BSI) has disrupted the BadBox malware operation pre-loaded in over 30,000 Android IoT devices sold in the country. [...]]]></description>
- </item>
-
- <item>
-        <title>New stealthy Pumakit Linux rootkit malware spotted in the wild</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-stealthy-pumakit-linux-rootkit-malware-spotted-in-the-wild/</link>
-        <pubDate>Thu, 12 Dec 2024 17:35:24 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Linux]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-stealthy-pumakit-linux-rootkit-malware-spotted-in-the-wild/</guid>
-	<description><![CDATA[A new Linux rootkit malware called Pumakit has been discovered that uses stealth and advanced privilege escalation techniques to hide its presence on systems. [...]]]></description>
  </item>
 
 </channel>
