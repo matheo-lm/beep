@@ -38,3 +38,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 For any inquiries or support, please open an issue or contact us at hello@82sec.com.
 
+[![Dependency review](https://github.com/matheo-lm/beep/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/matheo-lm/beep/actions/workflows/dependency-review.yml)
+
+[![pages-build-deployment](https://github.com/matheo-lm/beep/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/matheo-lm/beep/actions/workflows/pages/pages-build-deployment)
