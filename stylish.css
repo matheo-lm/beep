@@ -213,3 +213,7 @@ body.dark-mode #feed-list li:hover {
   justify-content: center;
   margin-top: 2em;
 }
+
+.navbar-brand {
+  padding-right: 10rem !important;
+}
