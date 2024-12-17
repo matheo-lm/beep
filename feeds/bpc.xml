@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 17 Dec 2024 13:59:42 EST</pubDate>
+        <pubDate>Tue, 17 Dec 2024 15:01:17 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA orders federal agencies to secure Microsoft 365 tenants</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-orders-federal-agencies-to-secure-microsoft-365-tenants/</link>
+        <pubDate>Tue, 17 Dec 2024 15:01:13 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-orders-federal-agencies-to-secure-microsoft-365-tenants/</guid>
+	<description><![CDATA[​CISA has issued this year's first binding operational directive (BOD 25-01), ordering federal civilian agencies to secure their Microsoft 365 cloud environments by implementing a list of required configuration baselines. [...]]]></description>
+ </item>
+
  <item>
         <title>New critical Apache Struts flaw exploited to find vulnerable servers</title>
         <link>https://www.bleepingcomputer.com/news/security/new-critical-apache-struts-flaw-exploited-to-find-vulnerable-servers/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-android-novispy-spyware-linked-to-qualcomm-zero-day-bugs/</guid>
 	<description><![CDATA[The Serbian government exploited Qualcomm zero-days to unlock and infect Android devices with a new spyware named 'NoviSpy,' used to spy on activists, journalists, and protestors. [...]]]></description>
- </item>
-
- <item>
-        <title>Clop ransomware claims responsibility for Cleo data theft attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/clop-ransomware-claims-responsibility-for-cleo-data-theft-attacks/</link>
-        <pubDate>Sun, 15 Dec 2024 15:15:00 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/clop-ransomware-claims-responsibility-for-cleo-data-theft-attacks/</guid>
-	<description><![CDATA[The Clop ransomware gang has confirmed to BleepingComputer that they are behind the recent Cleo data-theft attacks, utilizing zero-day exploits to breach corporate networks and steal data. [...]]]></description>
  </item>
 
 </channel>
