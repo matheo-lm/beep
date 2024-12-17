@@ -20,7 +20,7 @@
   const darkModeToggle = document.getElementById('darkModeToggle');
 
   // Show loading message
-  document.getElementById('feed-list').innerHTML = '<li>Loading...</li>';
+  document.getElementById('feed-list').innerHTML = '<div style="display: flex; justify-content: center; align-items: center; height: 100%;"><img src="/img/spinner.svg" alt="Loading..." class="spinner" style="width: 50px; height: 50px;"></div>';
 
   // Fetch and combine feed items
   for (const url of feedUrls) {
@@ -298,10 +298,13 @@
         const listItem = document.createElement('li');
         const iconSrc = getIconForTag(item.tag);
         listItem.innerHTML = `
-          <img src="${iconSrc}" alt="${item.tag}" class="article-icon">
-          <a href="${item.link}" target="_blank">${item.title}</a><br>
-          <div class="feed-content">${item.content || item.contentSnippet || ''}</div>
-          <small class="iso-date">${item.isoDate}</small>
+          <div>
+            <img src="${iconSrc}" alt="${item.tag}" class="article-icon">
+              <a href="${item.link}" target="_blank">${item.title}</a><br>
+              <div class="feed-content">${item.content || item.contentSnippet || ''}
+              <small class="iso-date">${item.isoDate}</small>
+            </div>
+          </div>
         `;
         feedList.appendChild(listItem);
       });

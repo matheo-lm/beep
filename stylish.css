@@ -155,12 +155,12 @@ body.dark-mode .article-icon {
   } 
 
   .article-icon {
-    width: 22px;
-    height: 22px;
-    margin-right: 1px;
-    vertical-align: middle;
-    border-radius: 50%; /* Makes the icon circular */
-    border: 0.5px solid #fff; /* Adds a white border around the icon */
+    width: 22px !important;
+    height: 22px !important;
+    margin-right: 1px !important;
+    vertical-align: middle !important;
+    border-radius: 1% !important; /* Makes the icon circular */
+    border: 0.5px solid #fff !important; /* Adds a white border around the icon */
   }
 }
 
@@ -183,4 +183,13 @@ body.dark-mode #feed-list li:hover {
   vertical-align: middle;
   border-radius: 1%; /* Makes the icon circular */
   border: 0.5px solid #fff; /* Adds a white border around the icon */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
 }
