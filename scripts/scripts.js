@@ -195,11 +195,11 @@
     });
   }
 
-  // // Event listener for search button
-  // document.getElementById('searchButton').addEventListener('click', () => {
-  //   const keyword = document.getElementById('searchInput').value;
-  //   filterItems(keyword);
-  // });
+  // Event listener for search button
+  document.getElementById('searchButton').addEventListener('click', () => {
+    const keyword = document.getElementById('searchInput').value;
+    filterItems(keyword);
+  });
 
   // Event listener for search input to execute search on Enter key press
   document.getElementById('searchInput').addEventListener('keypress', (e) => {
