@@ -196,7 +196,8 @@
   }
 
   // Event listener for search button
-  document.getElementById('searchButton').addEventListener('click', () => {
+  document.getElementById('searchButton').addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent form submission
     const keyword = document.getElementById('searchInput').value;
     filterItems(keyword);
   });
