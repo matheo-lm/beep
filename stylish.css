@@ -67,6 +67,10 @@ body.dark-mode .btn-dark {
   border-color: #444;
 }
 
+body.dark-mode .article-icon {
+  filter: invert(1);
+}
+
 .header-container {
   display: flex;
   justify-content: space-between; /* Ensures items are spaced at the edges */
@@ -154,7 +158,16 @@ body.dark-mode .btn-dark {
     display: flex;
     align-items: center;
     font-size: 0.7rem !important; /* Slightly larger for clarity */
-  } ;
+  } 
+
+  .article-icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 1px;
+    vertical-align: middle;
+    border-radius: 50%; /* Makes the icon circular */
+    border: 0.5px solid #fff; /* Adds a white border around the icon */
+  }
 }
 
 /* #feed-list li {
@@ -173,4 +186,13 @@ body.dark-mode #feed-list li:hover {
   border-radius: 2px !important; /* Rounded corners for aesthetics */
   padding: 0.1em !important; /* Reduce padding for compactness */
   background-color: #444;
+}
+
+.article-icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 1px;
+  vertical-align: middle;
+  border-radius: 1%; /* Makes the icon circular */
+  border: 0.5px solid #fff; /* Adds a white border around the icon */
 }

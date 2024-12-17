@@ -61,6 +61,23 @@
     lastUpdatedBadge.textContent = `Last updated: ${lastUpdated} EST`;
   }
 
+  function getIconForTag(tag) {
+    switch (tag) {
+      case 'intel':
+        return 'img/intel.svg';
+      case 'news':
+        return 'img/news.svg';
+      case 'scholarly':
+        return 'img/scholarly.svg';
+      case 'hackcidents':
+        return 'img/hackcidents.svg';
+      case 'exploits':
+        return 'img/exploit.svg';
+      default:
+        return 'img/default.svg';
+    }
+  }
+
   // Function to display items for the current page
   function displayItems() {
     const feedList = document.getElementById('feed-list');
@@ -77,7 +94,9 @@
 
     pageItems.forEach(item => {
       const listItem = document.createElement('li');
+      const iconSrc = getIconForTag(item.tag);
       listItem.innerHTML = `
+        <img src="${iconSrc}" alt="${item.tag}" class="article-icon">
         <a href="${item.link}" target="_blank">${item.title}</a><br>
         <div class="feed-content">${item.content || item.contentSnippet || ''}</div>
         <small class="iso-date">${item.isoDate}</small>
@@ -277,7 +296,9 @@
       const feedList = document.getElementById('feed-list');
       pageItems.forEach(item => {
         const listItem = document.createElement('li');
+        const iconSrc = getIconForTag(item.tag);
         listItem.innerHTML = `
+          <img src="${iconSrc}" alt="${item.tag}" class="article-icon">
           <a href="${item.link}" target="_blank">${item.title}</a><br>
           <div class="feed-content">${item.content || item.contentSnippet || ''}</div>
           <small class="iso-date">${item.isoDate}</small>
