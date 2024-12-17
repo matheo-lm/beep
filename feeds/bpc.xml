@@ -11,11 +11,55 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 17 Dec 2024 17:02:19 EST</pubDate>
+        <pubDate>Tue, 17 Dec 2024 17:49:55 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>NVIDIA shares fix for game performance issues with new NVIDIA App</title>
+        <link>https://www.bleepingcomputer.com/news/software/nvidia-shares-fix-for-game-performance-issues-with-new-nvidia-app/</link>
+        <pubDate>Tue, 17 Dec 2024 17:49:52 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/software/nvidia-shares-fix-for-game-performance-issues-with-new-nvidia-app/</guid>
+	<description><![CDATA[Nvidia has shared a temporary fix for a known issue impacting systems running its recently unveiled NVIDIA App and causing gaming performance to drop by up to 15%. [...]]]></description>
+ </item>
+
+ <item>
+        <title>'Bitter' cyberspies target defense orgs with new MiyaRAT malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/bitter-cyberspies-target-defense-orgs-with-new-miyarat-malware/</link>
+        <pubDate>Tue, 17 Dec 2024 17:29:44 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/bitter-cyberspies-target-defense-orgs-with-new-miyarat-malware/</guid>
+	<description><![CDATA[A cyberespionage threat group known as 'Bitter' was observed targeting defense organizations in Turkey using a novel malware family named MiyaRAT. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New fake Ledger data breach emails try to steal crypto wallets </title>
+        <link>https://www.bleepingcomputer.com/news/security/new-fake-ledger-data-breach-emails-try-to-steal-crypto-wallets/</link>
+        <pubDate>Tue, 17 Dec 2024 17:04:40 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-fake-ledger-data-breach-emails-try-to-steal-crypto-wallets/</guid>
+	<description><![CDATA[A new Ledger phishing campaign is underway that pretends to be a data breach notification asking you to verify your recovery phrase, which is then stolen and used to steal your cryptocurrency. [...]]]></description>
+ </item>
+
  <item>
         <title>CISA orders federal agencies to secure Microsoft 365 tenants</title>
         <link>https://www.bleepingcomputer.com/news/security/cisa-orders-federal-agencies-to-secure-microsoft-365-tenants/</link>
@@ -160,52 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/malicious-ads-push-lumma-infostealer-via-fake-captcha-pages/</guid>
 	<description><![CDATA[A large-scale malvertising campaign distributed the Lumma Stealer info-stealing malware through fake CAPTCHA verification pages that prompt users to run PowerShell commands to verify they are not a bot. [...]]]></description>
- </item>
-
- <item>
-        <title>ConnectOnCall breach exposes health data of over 910,000 patients</title>
-        <link>https://www.bleepingcomputer.com/news/security/connectoncall-breach-exposes-health-data-of-over-910-000-patients/</link>
-        <pubDate>Mon, 16 Dec 2024 12:28:35 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/connectoncall-breach-exposes-health-data-of-over-910-000-patients/</guid>
-	<description><![CDATA[Healthcare software as a service (SaaS) company Phreesia is notifying over 910,000 people that their personal and health data was exposed in a May breach of its subsidiary ConnectOnCall. [...]]]></description>
- </item>
-
- <item>
-        <title>Rhode Island confirms data breach after Brain Cipher ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/rhode-island-confirms-data-breach-after-brain-cipher-ransomware-attack/</link>
-        <pubDate>Mon, 16 Dec 2024 11:51:49 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/rhode-island-confirms-data-breach-after-brain-cipher-ransomware-attack/</guid>
-	<description><![CDATA[Rhode Island is warning that its RIBridges system, managed by Deloitte, suffered a data breach exposing residents' personal information after the Brain Cipher ransomware gang hacked its systems. [...]]]></description>
- </item>
-
- <item>
-        <title>New Android NoviSpy spyware linked to Qualcomm zero-day bugs</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-android-novispy-spyware-linked-to-qualcomm-zero-day-bugs/</link>
-        <pubDate>Mon, 16 Dec 2024 10:06:16 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-android-novispy-spyware-linked-to-qualcomm-zero-day-bugs/</guid>
-	<description><![CDATA[The Serbian government exploited Qualcomm zero-days to unlock and infect Android devices with a new spyware named 'NoviSpy,' used to spy on activists, journalists, and protestors. [...]]]></description>
  </item>
 
 </channel>
