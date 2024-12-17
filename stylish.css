@@ -155,8 +155,8 @@ body.dark-mode .article-icon {
   } 
 
   .article-icon {
-    width: 18px !important;
-    height: 18px !important;
+    width: 0px !important;
+    height: 0px !important;
     margin-right: 1px !important;
     vertical-align: middle !important;
     border-radius: 1% !important; /* Makes the icon circular */
