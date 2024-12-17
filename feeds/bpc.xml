@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 17 Dec 2024 13:03:39 EST</pubDate>
+        <pubDate>Tue, 17 Dec 2024 13:59:42 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New critical Apache Struts flaw exploited to find vulnerable servers</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-critical-apache-struts-flaw-exploited-to-find-vulnerable-servers/</link>
+        <pubDate>Tue, 17 Dec 2024 13:04:14 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-critical-apache-struts-flaw-exploited-to-find-vulnerable-servers/</guid>
+	<description><![CDATA[A recently patched critical Apache Struts 2 vulnerability tracked as CVE-2024-53677 is actively exploited using public proof-of-concept exploits to find vulnerable devices. [...]]]></description>
+ </item>
+
  <item>
         <title>Ireland fines Meta $264 million over 2018 Facebook data breach</title>
         <link>https://www.bleepingcomputer.com/news/security/ireland-fines-meta-264-million-over-2018-facebook-data-breach/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/clop-ransomware-claims-responsibility-for-cleo-data-theft-attacks/</guid>
 	<description><![CDATA[The Clop ransomware gang has confirmed to BleepingComputer that they are behind the recent Cleo data-theft attacks, utilizing zero-day exploits to breach corporate networks and steal data. [...]]]></description>
- </item>
-
- <item>
-        <title>Winnti hackers target other threat actors with new Glutton PHP backdoor</title>
-        <link>https://www.bleepingcomputer.com/news/security/winnti-hackers-target-other-threat-actors-with-new-glutton-php-backdoor/</link>
-        <pubDate>Sun, 15 Dec 2024 10:19:29 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/winnti-hackers-target-other-threat-actors-with-new-glutton-php-backdoor/</guid>
-	<description><![CDATA[​The Chinese Winnti hacking group is using a new PHP backdoor named 'Glutton' in attacks on organizations in China and the U.S., and also in attacks on other cybercriminals. [...]]]></description>
  </item>
 
 </channel>
