@@ -23,6 +23,7 @@ jobs:
           curl -L https://krebsonsecurity.com/feed/ -o feeds/kbs.xml
           curl -L https://www.recordedfuture.com/feed/ -o feeds/rf.xml
           curl -L https://www.sentinelone.com/labs/feed/ -o feeds/sn1.xml
+          curl -L https://kill-the-newsletter.com/feeds/s06kqhjyiz23ypq16eb4.xml -o feeds/ktn-gsc.xml
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -43,7 +44,8 @@ jobs:
             { xml: 'feeds/thn.xml', json: 'feeds/thn.json', tag: 'news' },
             { xml: 'feeds/kbs.xml', json: 'feeds/kbs.json', tag: 'news' },
             { xml: 'feeds/sn1.xml', json: 'feeds/sn1.json', tag: 'intel' },
-            { xml: 'feeds/rf.xml', json: 'feeds/rf.json', tag: 'intel' }
+            { xml: 'feeds/rf.xml', json: 'feeds/rf.json', tag: 'intel' },
+            { xml: 'feeds/ktn-gsc.xml', json: 'feeds/ktn-gsc.json', tag: 'scholarly' }
           ];
           (async () => {
             for (const feed of feeds) {
