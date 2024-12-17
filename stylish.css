@@ -132,12 +132,6 @@ body.dark-mode .article-icon {
       max-width: 100%; /* Ensure content fits within screen */
   }
 
-  /* #feed-list li {
-    border-bottom: 1px solid #b4bcc2 !important;
-    padding-bottom: 0.5em;
-    margin-bottom: 0.5em;
-  } */
-
   #feed-list li:hover {
     border-radius: 5px !important; /* Rounded corners for aesthetics */
     background-color: #f0f0f0;
@@ -169,12 +163,6 @@ body.dark-mode .article-icon {
     border: 0.5px solid #fff; /* Adds a white border around the icon */
   }
 }
-
-/* #feed-list li {
-  border-bottom: 1px solid #b4bcc2 !important;
-  padding-bottom: 0.5em;
-  margin-bottom: 0.5em;
-} */
 
 #feed-list li:hover {
   border-radius: 2px !important; /* Rounded corners for aesthetics */
