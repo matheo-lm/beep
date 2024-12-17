@@ -105,8 +105,8 @@
     });
 
     // Update total article count
-    const totalArticleCount = document.getElementById('totalArticleCount');
-    totalArticleCount.textContent = `Total articles: ${filteredItems.length}`;
+    // const totalArticleCount = document.getElementById('totalArticleCount');
+    // totalArticleCount.textContent = `Total articles: ${filteredItems.length}`;
 
     // Update footer information
     updateFooterInfo();
