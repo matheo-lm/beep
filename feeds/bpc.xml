@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 17 Dec 2024 10:03:18 EST</pubDate>
+        <pubDate>Tue, 17 Dec 2024 11:02:26 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Over 25,000 SonicWall VPN Firewalls exposed to critical flaws</title>
+        <link>https://www.bleepingcomputer.com/news/security/over-25-000-sonicwall-vpn-firewalls-exposed-to-critical-flaws/</link>
+        <pubDate>Tue, 17 Dec 2024 10:27:14 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/over-25-000-sonicwall-vpn-firewalls-exposed-to-critical-flaws/</guid>
+	<description><![CDATA[Over 25,000 publicly accessible SonicWall SSLVPN devices are vulnerable to critical severity flaws, with 20,000 using a SonicOS/OSX firmware version that the vendor no longer supports. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Might need a mass password reset one day? Read this first.</title>
+        <link>https://www.bleepingcomputer.com/news/security/might-need-a-mass-password-reset-one-day-read-this-first/</link>
+        <pubDate>Tue, 17 Dec 2024 10:02:12 -0500</pubDate>
+        <dc:creator>Sponsored by Specops Software</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/might-need-a-mass-password-reset-one-day-read-this-first/</guid>
+	<description><![CDATA[Organizations are often caught off-guard when a data breaches occurs, forcing them to quickly perform mass password resets Learn from Specops Software about some of the common mass password reset scenarios and the challenges you may face. [...]]]></description>
+ </item>
+
  <item>
         <title>FBI spots HiatusRAT malware attacks targeting web cameras, DVRs</title>
         <link>https://www.bleepingcomputer.com/news/security/fbi-spots-hiatusrat-malware-attacks-targeting-web-cameras-dvrs/</link>
@@ -160,34 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/winnti-hackers-target-other-threat-actors-with-new-glutton-php-backdoor/</guid>
 	<description><![CDATA[​The Chinese Winnti hacking group is using a new PHP backdoor named 'Glutton' in attacks on organizations in China and the U.S., and also in attacks on other cybercriminals. [...]]]></description>
- </item>
-
- <item>
-        <title>390,000 WordPress accounts stolen from hackers in supply chain attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/390-000-wordpress-accounts-stolen-from-hackers-in-supply-chain-attack/</link>
-        <pubDate>Sat, 14 Dec 2024 10:17:27 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/390-000-wordpress-accounts-stolen-from-hackers-in-supply-chain-attack/</guid>
-	<description><![CDATA[A threat actor tracked as MUT-1244 has stolen over 390,000 WordPress credentials in a large-scale, year-long campaign targeting other threat actors using a trojanized WordPress credentials checker. [...]]]></description>
- </item>
-
- <item>
-        <title>Auto parts giant LKQ says cyberattack disrupted Canadian business unit</title>
-        <link>https://www.bleepingcomputer.com/news/security/auto-parts-giant-lkq-says-cyberattack-disrupted-canadian-business-unit/</link>
-        <pubDate>Fri, 13 Dec 2024 18:31:24 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/auto-parts-giant-lkq-says-cyberattack-disrupted-canadian-business-unit/</guid>
-	<description><![CDATA[Automobile parts giant LKQ Corporation disclosed that one of its business units in Canada was hacked, allowing threat actors to steal data from the company. [...]]]></description>
  </item>
 
 </channel>
