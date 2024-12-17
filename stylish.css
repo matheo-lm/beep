@@ -162,6 +162,20 @@ body.dark-mode .article-icon {
     border-radius: 1% !important; /* Makes the icon circular */
     border: 0.5px solid #fff !important; /* Adds a white border around the icon */
   }
+
+  #feed-list {
+    max-width: 100% !important; /* Ensure content fits within screen */
+  }
+
+}
+
+#feed-list {
+  display: flex; /* Enable a flexbox layout */
+  flex-direction: column; /* Stack articles vertically */
+  gap: 0.5em; /* Add spacing between articles */
+  padding: 0 1em; /* Add horizontal padding for better alignment */
+  max-width: 80%; /* Ensure content fits within screen */
+  margin: 0 auto; /* Center the feed list */
 }
 
 #feed-list li:hover {
@@ -191,5 +205,13 @@ body.dark-mode #feed-list li:hover {
 }
 
 .spinner {
-  animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite !important;
+}
+
+.page-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
 }
