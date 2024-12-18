@@ -3,6 +3,7 @@
     '/beep/feeds/bpc.json',
     '/beep/feeds/thn.json',
     '/beep/feeds/kbs.json',
+    '/beep/feeds/hibp.json',
     '/beep/feeds/breaches-net.json',
     '/beep/feeds/gpz.json',
     '/beep/feeds/gsr.json',

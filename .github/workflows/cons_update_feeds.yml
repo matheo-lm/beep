@@ -25,6 +25,7 @@ jobs:
           curl -L https://www.sentinelone.com/labs/feed/ -o feeds/sn1.xml
           curl -L https://kill-the-newsletter.com/feeds/s06kqhjyiz23ypq16eb4.xml -o feeds/ktn-gsc.xml
           curl -L https://databreaches.net/feed/ -o feeds/breaches-net.xml
+          curl -L https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches/ -o feeds/hibp.xml
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -47,7 +48,8 @@ jobs:
             { xml: 'feeds/sn1.xml', json: 'feeds/sn1.json', tag: 'intel' },
             { xml: 'feeds/rf.xml', json: 'feeds/rf.json', tag: 'intel' },
             { xml: 'feeds/ktn-gsc.xml', json: 'feeds/ktn-gsc.json', tag: 'scholarly' },
-            { xml: 'feeds/breaches-net.xml', json: 'feeds/breaches-net.json', tag: 'hackcidents' }
+            { xml: 'feeds/breaches-net.xml', json: 'feeds/breaches-net.json', tag: 'hackcidents' },
+            { xml: 'feeds/hibp.xml', json: 'feeds/hibp.json', tag: 'hackcidents' }
           ];
           (async () => {
             for (const feed of feeds) {
