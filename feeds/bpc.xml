@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 18 Dec 2024 13:02:37 EST</pubDate>
+        <pubDate>Wed, 18 Dec 2024 14:01:39 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>HubSpot phishing targets 20,000 Microsoft Azure accounts</title>
+        <link>https://www.bleepingcomputer.com/news/security/hubspot-phishing-targets-20-000-microsoft-azure-accounts/</link>
+        <pubDate>Wed, 18 Dec 2024 13:41:26 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hubspot-phishing-targets-20-000-microsoft-azure-accounts/</guid>
+	<description><![CDATA[A phishing campaign targeting automotive, chemical, and industrial manufacturing companies in Germany and the UK is abusing HubSpot to steal Microsoft Azure account credentials. [...]]]></description>
+ </item>
+
+ <item>
+        <title>CISA urges switch to Signal-like encrypted messaging apps after telecom hacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-urges-switch-to-signal-like-encrypted-messaging-apps-after-telecom-hacks/</link>
+        <pubDate>Wed, 18 Dec 2024 13:19:12 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-urges-switch-to-signal-like-encrypted-messaging-apps-after-telecom-hacks/</guid>
+	<description><![CDATA[Today, CISA urged senior government and political officials to switch to end-to-end encrypted messaging apps like Signal following a wave of telecom breaches across dozens of countries, including eight carriers in the United States. [...]]]></description>
+ </item>
+
  <item>
         <title>Malicious Microsoft VSCode extensions target devs, crypto community</title>
         <link>https://www.bleepingcomputer.com/news/security/malicious-microsoft-vscode-extensions-target-devs-crypto-community/</link>
@@ -178,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/might-need-a-mass-password-reset-one-day-read-this-first/</guid>
 	<description><![CDATA[Organizations are often caught off-guard when a data breaches occurs, forcing them to quickly perform mass password resets Learn from Specops Software about some of the common mass password reset scenarios and the challenges you may face. [...]]]></description>
- </item>
-
- <item>
-        <title>FBI spots HiatusRAT malware attacks targeting web cameras, DVRs</title>
-        <link>https://www.bleepingcomputer.com/news/security/fbi-spots-hiatusrat-malware-attacks-targeting-web-cameras-dvrs/</link>
-        <pubDate>Mon, 16 Dec 2024 17:22:35 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fbi-spots-hiatusrat-malware-attacks-targeting-web-cameras-dvrs/</guid>
-	<description><![CDATA[The FBI warned today that new HiatusRAT malware attacks are now scanning for and infecting vulnerable web cameras and DVRs that are exposed online. [...]]]></description>
  </item>
 
 </channel>
