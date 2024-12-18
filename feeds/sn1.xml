@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Tue, 10 Dec 2024 14:50:39 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 18 Dec 2024 14:53:24 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,31 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>LABScon24 Replay &#124; Let Them Eat Cake: “Secure by Upgrade” Software is a National Security Threat</title>
+		<link>https://www.sentinelone.com/labs/labscon24-replay-let-them-eat-cake-secure-by-upgrade-software-is-a-national-security-threat/</link>
+		
+		<dc:creator><![CDATA[LABScon]]></dc:creator>
+		<pubDate>Wed, 18 Dec 2024 14:49:14 +0000</pubDate>
+				<category><![CDATA[LABScon]]></category>
+		<category><![CDATA[labscon24]]></category>
+		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=111195</guid>
+
+					<description><![CDATA[Kymberlee Price reveals the technical chaos facing SMBs as they struggle with solutions aimed at bigger fish in the face of expanding crimeware.]]></description>
+										<content:encoded><![CDATA[<p>Ransomware is doing more to change the security landscape than the last 20 years of Secure Development Lifecycle, DevSecOps, Zero Days, Breaches, or any corporate memo. Pair this with predatory pricing models from software vendors that sell security features as add-on products in premium or enterprise tier licenses, and you’ve got a perfect storm that hits small and medium sized businesses (SMBs) the hardest.</p>
+<p>In this hard-hitting talk, <a href="https://www.linkedin.com/in/kymberleeprice/" rel="noopener" target="_blank">Kymberlee Price</a> reveals the technical chaos facing the US’s largest employment sector: SMBs. With restricted budgets, a lack of expertise, no access to consumer reports by which to clearly compare products, and a SaaS industry that makes basic security features like SSO a premium add-on, many businesses remain easy pickings for threat actors in a rapidly expanding crimeware landscape.</p>
+<p>Why should we care about this, is it really a national threat, and what can a bunch of security engineers do about it?</p>
+<p><iframe src="https://www.youtube.com/embed/cmsBUq1vcxc" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<h2>About the Author</h2>
+<p>Kymberlee Price is a dynamic engineering leader and public speaker known for developing high-performing multidisciplinary teams responsible for the security and integrity of software products, services, and infrastructure. A recognized expert in the information security industry, she has extensive experience in product security incident response and investigations, coordinated vulnerability disclosure and bug bounties, Secure Development Lifecycle (SDL), and Open Source Security strategy. Kymberlee speaks regularly at conferences around the world and is currently on the content review board for Black Hat USA and LocoMocoSec.</p>
+<h2>About LABScon</h2>
+<p>This presentation was featured live at <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon</a> 2024, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLabs.</p>
+<p>Keep up with all the latest on <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon 2025</a> here.</p>
+]]></content:encoded>
+					
+		
+		
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/12/Kymberlee-ftr.jpg" length="621118" type="image/jpeg" />	</item>
+		<item>
 		<title>Operation Digital Eye &#124; Chinese APT Compromises Critical Digital Infrastructure via Visual Studio Code Tunnels</title>
 		<link>https://www.sentinelone.com/labs/operation-digital-eye-chinese-apt-compromises-critical-digital-infrastructure-via-visual-studio-code-tunnels/</link>
 		
@@ -85,7 +110,7 @@
 <li aria-level="1"><code>验证 $this->rg 是否安全</code>, which translates to <code>Verify that $this->rg is safe</code>.</li>
 <li aria-level="1"><code>验证和清理用户输入</code>, which translates to <code>Validating and sanitizing user input</code>.</li>
 </ul>
-<p><img decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye14.jpg" alt="" width="382" height="196" class="aligncenter size-full wp-image-109545" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye14.jpg 382w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye14-300x154.jpg 300w" sizes="(max-width: 382px) 100vw, 382px" /><br />
+<p><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye14.jpg" alt="" width="382" height="196" class="aligncenter size-full wp-image-109545" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye14.jpg 382w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye14-300x154.jpg 300w" sizes="(max-width: 382px) 100vw, 382px" /><br />
 <img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye2.jpg" alt="" width="580" height="119" class="aligncenter size-full wp-image-109541" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye2.jpg 580w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye2-300x62.jpg 300w" sizes="(max-width: 580px) 100vw, 580px" /><br />
 <figure id="attachment_109548" aria-describedby="caption-attachment-109548" style="width: 671px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye11.jpg" alt="PHPsert code snippets with comments in Chinese" width="671" height="45" class="size-full wp-image-109548" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye11.jpg 671w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye11-300x20.jpg 300w" sizes="(max-width: 671px) 100vw, 671px" /><figcaption id="caption-attachment-109548" class="wp-caption-text">PHPsert code snippets with comments in Chinese</figcaption></figure></p>
 <p>The presence of these comments, along with the indicators of removed code across PHPsert variants, suggests the potential involvement of Chinese-speaking developers who may have been simplifying the webshell&#8217;s execution logic.</p>
@@ -1296,32 +1321,5 @@ grovik71[.]theweb[.]place</p>
 		
 		
 		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina-Desert-Ftr.jpg" length="802915" type="image/jpeg" />	</item>
-		<item>
-		<title>LABScon23 Replay &#124; They Spilled Oil in My Health-Boosting Smoothie</title>
-		<link>https://www.sentinelone.com/labs/labscon23-replay-they-spilled-oil-in-my-health-boosting-smoothie/</link>
-		
-		<dc:creator><![CDATA[LABScon]]></dc:creator>
-		<pubDate>Thu, 05 Sep 2024 15:25:14 +0000</pubDate>
-				<category><![CDATA[LABScon23]]></category>
-		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=104518</guid>
-
-					<description><![CDATA[Zuzana Hromcová explores how Iran-aligned APT OilRig targets healthcare and local governments with a stream of updated and newly developed tools.]]></description>
-										<content:encoded><![CDATA[<p>OilRig is a well-known Iran-aligned cyberespionage group, allegedly under the MOIS (Ministry of Intelligence and Security), that has been targeting Middle Eastern governments and a variety of business verticals since at least 2014. In this presentation, Zuzana Hromcová discusses the group’s persistent attacks on Israeli healthcare and local governments, often with the same organizations targeted multiple times over the course of several years, suggesting that OilRig considers them to be of high espionage value.</p>
-<p>Zuzana explores how an Israeli local government organization and a group of healthcare organizations recovered from the Out to Sea compromise in 2021 only to find themselves retargeted by several versions of OilRig’s SC5k downloader, followed by the new OilBooster and Mango backdoors throughout 2022.</p>
-<p>In the process, she discloses the previously undocumented 2021 Outer Space and 2022 Juicy Mix campaigns, notable for their new C# backdoors, dubbed Solar and Mango, and a set of custom postcompromise tools used to collect credentials, cookies, and browsing history from major browsers and from the Windows Credential Manager. Although not sophisticated tools, they are tweaked frequently, and the talk inspects their added layers of obfuscation and detection evasion techniques.</p>
-<p>This wide-ranging talk also discusses OilRig’s ongoing shift away from traditional C&#038;C infrastructure towards Microsoft APIs and looks at the mechanism behind OilRig&#8217;s use of the OneDrive API (OilBooster) and Microsoft Office 365 API (SC5k downloader) for its C&#038;C communications, and the difficulty this presents for tracking the threat actor.</p>
-<p>Zuzana concludes with a breakdown of the group’s characteristic TTPs, noting how they remain unchanged despite the constant stream of updated and newly developed tools – including their frequent coding mistakes, noisy presence on compromised systems, and other characteristics that make it possible for researchers to keep a close eye on the group.</p>
-<p><iframe loading="lazy" src="https://www.youtube.com/embed/r7YQleL6_A4" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<h2>About the Author</h2>
-<p>Zuzana Hromcová is a malware researcher at ESET’s Montréal research team. Her professional journey has been shaped by both her studies – she holds a master’s degree in computer science – as well as her interest in solving logical puzzles and challenges. Three-times a Slovak sudoku champion, with numerous appearances at World Sudoku and World Puzzle Championships, she spent a decade sharpening her analytical skills for a job that was yet to come.</p>
-<p>In 2016, she joined ESET and moved on from solving logical puzzles to dissecting malicious binaries and dismantling espionage campaigns. Zuzana focuses on targeted threats and is a frequent speaker at security conferences, having shared her research with the audience at RSAC, Black Hat, BlueHat IL, Virus Bulletin and other events.</p>
-<h2>About LABScon</h2>
-<p>This presentation was featured live at <a href="https://www.labscon.io" target="_blank" rel="noopener">LABScon</a> 2023, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLabs.</p>
-<p>Keep up with all the latest on <a href="https://www.labscon.io" target="_blank" rel="noopener">LABScon 2024</a> here.</p>
-]]></content:encoded>
-					
-		
-		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/09/Zuzana_labscon23.jpg" length="679204" type="image/jpeg" />	</item>
 	</channel>
 </rss>
