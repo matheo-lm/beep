@@ -11,11 +11,29 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 18 Dec 2024 12:03:10 EST</pubDate>
+        <pubDate>Wed, 18 Dec 2024 13:02:37 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Malicious Microsoft VSCode extensions target devs, crypto community</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-microsoft-vscode-extensions-target-devs-crypto-community/</link>
+        <pubDate>Wed, 18 Dec 2024 12:47:28 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-microsoft-vscode-extensions-target-devs-crypto-community/</guid>
+	<description><![CDATA[Malicious Visual Studio Code extensions were discovered on the VSCode marketplace that download heavily obfuscated PowerShell payloads to target developers and cryptocurrency projects in supply chain attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Recorded Future CEO applauds "undesirable" designation by Russia</title>
         <link>https://www.bleepingcomputer.com/news/security/recorded-future-ceo-applauds-undesirable-designation-by-russia/</link>
@@ -174,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fbi-spots-hiatusrat-malware-attacks-targeting-web-cameras-dvrs/</guid>
 	<description><![CDATA[The FBI warned today that new HiatusRAT malware attacks are now scanning for and infecting vulnerable web cameras and DVRs that are exposed online. [...]]]></description>
- </item>
-
- <item>
-        <title>Texas Tech University System data breach impacts 1.4 million patients</title>
-        <link>https://www.bleepingcomputer.com/news/security/texas-tech-university-system-data-breach-impacts-14-million-patients/</link>
-        <pubDate>Mon, 16 Dec 2024 17:17:16 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/texas-tech-university-system-data-breach-impacts-14-million-patients/</guid>
-	<description><![CDATA[The Texas Tech University Health Sciences Center and its El Paso counterpart suffered a cyberattack that disrupted computer systems and applications, potentially exposing the data of 1.4 million patients. [...]]]></description>
  </item>
 
 </channel>
