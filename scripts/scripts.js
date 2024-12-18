@@ -9,7 +9,7 @@
     '/beep/feeds/gsr.json',
     '/beep/feeds/sn1.json',
     '/beep/feeds/rf.json',
-    '/beep/feeds/ktn-gsc.json',
+    // '/beep/feeds/ktn-gsc.json',
     // '/beep/feeds/merged.json'
   ];
   let feedItems = [];
