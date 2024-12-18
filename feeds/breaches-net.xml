@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description>The Office of Inadequate Security</description>
-	<lastBuildDate>Wed, 18 Dec 2024 13:04:59 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 18 Dec 2024 13:17:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,24 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>No need to hack when it&#8217;s leaking: Cisco edition</title>
+		<link>https://databreaches.net/2024/12/18/no-need-to-hack-when-its-leaking-cisco-edition/</link>
+					<comments>https://databreaches.net/2024/12/18/no-need-to-hack-when-its-leaking-cisco-edition/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Wed, 18 Dec 2024 13:17:56 +0000</pubDate>
+				<category><![CDATA[Business Sector]]></category>
+		<category><![CDATA[Exposure]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=119634</guid>
+
+					<description><![CDATA[The hacker and forum owner known as &#8220;IntelBroker&#8221; announced that he and others breached Cisco systems and obtained source code and other valuable information. In a forum post where they offered &#8220;partial Cisco&#8221; data, they admit that a Cisco error had enabled them to access the data: In October 2024, Cisco accidentally left open their...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2024/12/18/no-need-to-hack-when-its-leaking-cisco-edition/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Dragos Industrial Ransomware Analysis: Q3 2024</title>
 		<link>https://databreaches.net/2024/12/18/dragos-industrial-ransomware-analysis-q3-2024/</link>
 					<comments>https://databreaches.net/2024/12/18/dragos-industrial-ransomware-analysis-q3-2024/#respond</comments>
@@ -207,28 +225,6 @@
 					<description><![CDATA[Aaron Sanderford reports: Nebraska on Monday became the first state to sue Tennessee-based Change Healthcare over the company’s massive data breach that cost at least 575,000 Nebraskans their personal information and medical records. &#8230; The breach was blamed on a low-level employee who had his or her login credentials hacked. Nebraska Attorney General Mike Hilgers...]]></description>
 		
 					<wfw:commentRss>https://databreaches.net/2024/12/16/nebraska-ag-becomes-first-state-to-sue-change-healthcare-over-massive-data-breach/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Clop ransomware claims responsibility for Cleo data theft attacks</title>
-		<link>https://databreaches.net/2024/12/16/clop-ransomware-claims-responsibility-for-cleo-data-theft-attacks/</link>
-					<comments>https://databreaches.net/2024/12/16/clop-ransomware-claims-responsibility-for-cleo-data-theft-attacks/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Mon, 16 Dec 2024 12:27:36 +0000</pubDate>
-				<category><![CDATA[Business Sector]]></category>
-		<category><![CDATA[Hack]]></category>
-		<category><![CDATA[Cleo]]></category>
-		<category><![CDATA[Clop]]></category>
-		<category><![CDATA[file transfer]]></category>
-		<category><![CDATA[vulnerability]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=119582</guid>
-
-					<description><![CDATA[Lawrence Abrams reports: The Clop ransomware gang has confirmed to BleepingComputer that they are behind the recent Cleo data-theft attacks, utilizing zero-day exploits to breach corporate networks and steal data. Cleo is the developer of the managed file transfer platforms Cleo Harmony, VLTrader, and LexiCom, which companies use to securely exchange files between their business partners...]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2024/12/16/clop-ransomware-claims-responsibility-for-cleo-data-theft-attacks/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
