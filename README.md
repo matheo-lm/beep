@@ -13,13 +13,13 @@ In Greek mythology, Hermes was the messenger of the gods, a patron of travelers,
 - ~Add a top menu bar for "cyber news", "incident fillings", "breach notifications", "advisories" and "saas status".~
 - ~Filtering capabilities by category.~
 - ~Functionality to Attach tags to each category.~
-- Integrate 4 news sources
 
 ## TODOs
-- Integrate 4 intel sources
-- Integrate 4 "hackcidents" sources
-- Integrate 4 status sources
-- Integrate 4 exploits sources
+- Integrate 4 news sources (thn, kbs, bpc, ?? )
+- Integrate 4 intel sources (rf, s1, ??, ?? )
+- Integrate 4 "hackcidents" sources (hipb, breaches, ??, ??)
+- Integrate 4 scholarly sources (??, ??, ??, ??)
+- Integrate 4 exploits sources (gpz, ??, ??, ??)
 - Filtering capabilities by source
 - Filtering capabilities by date.
 - Assign unique identifiers for each news article.
