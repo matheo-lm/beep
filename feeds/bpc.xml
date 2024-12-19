@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 19 Dec 2024 13:01:27 EST</pubDate>
+        <pubDate>Thu, 19 Dec 2024 13:59:30 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Android malware found on Amazon Appstore disguised as health app</title>
+        <link>https://www.bleepingcomputer.com/news/security/android-spyware-found-on-amazon-appstore-disguised-as-health-app/</link>
+        <pubDate>Thu, 19 Dec 2024 13:59:26 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/android-spyware-found-on-amazon-appstore-disguised-as-health-app/</guid>
+	<description><![CDATA[A malicious Android spyware application named 'BMI CalculationVsn' was discovered on the Amazon Appstore, masquerading as a simple health tool but stealing data from infected devices in the background. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Juniper warns of Mirai botnet targeting Session Smart routers</title>
+        <link>https://www.bleepingcomputer.com/news/security/juniper-warns-of-mirai-botnet-targeting-session-smart-routers/</link>
+        <pubDate>Thu, 19 Dec 2024 13:27:00 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/juniper-warns-of-mirai-botnet-targeting-session-smart-routers/</guid>
+	<description><![CDATA[Juniper Networks has warned customers of Mirai malware attacks targeting and infecting Session Smart routers using default credentials. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 11 24H2 upgrades blocked on some PCs due to audio issues</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-upgrades-blocked-on-some-pcs-due-to-audio-issues/</link>
@@ -27,7 +55,7 @@
 
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-upgrades-blocked-on-some-pcs-due-to-audio-issues/</guid>
-	<description><![CDATA[​Microsoft has added another Windows 11 24H2 upgrade block for systems with Dirac audio improvement software due to compatibility issues breaking sound output. [...]]]></description>
+	<description><![CDATA[Microsoft has added another Windows 11 24H2 upgrade block for systems with Dirac audio improvement software due to compatibility issues breaking sound output. [...]]]></description>
  </item>
 
  <item>
@@ -174,34 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/malicious-microsoft-vscode-extensions-target-devs-crypto-community/</guid>
 	<description><![CDATA[Malicious Visual Studio Code extensions were discovered on the VSCode marketplace that download heavily obfuscated PowerShell payloads to target developers and cryptocurrency projects in supply chain attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Recorded Future CEO applauds "undesirable" designation by Russia</title>
-        <link>https://www.bleepingcomputer.com/news/security/recorded-future-ceo-applauds-undesirable-designation-by-russia/</link>
-        <pubDate>Wed, 18 Dec 2024 11:53:04 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/recorded-future-ceo-applauds-undesirable-designation-by-russia/</guid>
-	<description><![CDATA[​Recorded Future, an American threat intelligence company, has become the first cybersecurity firm designated by the Russian government as an "undesirable" organization. [...]]]></description>
- </item>
-
- <item>
-        <title>Interpol replaces dehumanizing "Pig Butchering" term with "Romance Baiting"</title>
-        <link>https://www.bleepingcomputer.com/news/security/interpol-replaces-dehumanizing-pig-butchering-term-with-romance-baiting/</link>
-        <pubDate>Wed, 18 Dec 2024 10:44:27 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/interpol-replaces-dehumanizing-pig-butchering-term-with-romance-baiting/</guid>
-	<description><![CDATA[Interpol calls on the cybersecurity community, law enforcement, and the media to stop using the term "Pig Butchering" when referring to online relationship and investment scams, as it unnecessarily shames the victims impacted by these fraud campaigns. [...]]]></description>
  </item>
 
 </channel>
