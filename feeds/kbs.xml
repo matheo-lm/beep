@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 18 Dec 2024 13:17:59 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 19 Dec 2024 17:22:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,74 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Web Hacking Service &#8216;Araneida&#8217; Tied to Turkish IT Firm</title>
+		<link>https://krebsonsecurity.com/2024/12/web-hacking-service-araneida-tied-to-turkish-it-firm/</link>
+					<comments>https://krebsonsecurity.com/2024/12/web-hacking-service-araneida-tied-to-turkish-it-firm/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Thu, 19 Dec 2024 17:07:30 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Breadcrumbs]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Acunetix]]></category>
+		<category><![CDATA[Altug Sara]]></category>
+		<category><![CDATA[altugsara321@gmail.com]]></category>
+		<category><![CDATA[Araneida Scanner]]></category>
+		<category><![CDATA[Bilitro Yazilim]]></category>
+		<category><![CDATA[domaintools]]></category>
+		<category><![CDATA[Fin7]]></category>
+		<category><![CDATA[Invicti Security]]></category>
+		<category><![CDATA[Matt Sciberras]]></category>
+		<category><![CDATA[Neil Roseman]]></category>
+		<category><![CDATA[ori0nbusiness@protonmail.com]]></category>
+		<category><![CDATA[Silent Push]]></category>
+		<category><![CDATA[U.S. Department of Health and Human Services]]></category>
+		<category><![CDATA[Zach Edwards]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69811</guid>
+
+					<description><![CDATA[Cybercriminals are selling hundreds of thousands of credential sets stolen with the help of a cracked version of Acunetix, a powerful commercial web app vulnerability scanner, new research finds. The cracked software is being resold as a cloud-based attack tool by at least two different services, one of which KrebsOnSecurity traced to an information technology firm based in Turkey.]]></description>
+										<content:encoded><![CDATA[<p>Cybercriminals are selling hundreds of thousands of credential sets stolen with the help of a cracked version of <strong>Acunetix</strong>, a powerful commercial web app vulnerability scanner, new research finds. The cracked software is being resold as a cloud-based attack tool by at least two different services, one of which KrebsOnSecurity traced to an information technology firm based in Turkey.</p>
+<div id="attachment_69895" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69895" decoding="async" class=" wp-image-69895" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/araneida-scanner.png" alt="" width="749" height="562" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/12/araneida-scanner.png 1126w, https://krebsonsecurity.com/wp-content/uploads/2024/12/araneida-scanner-768x576.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/12/araneida-scanner-782x587.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-69895" class="wp-caption-text">Araneida Scanner.</p></div>
+<p>Cyber threat analysts at <strong>Silent Push</strong> said they recently received reports from a partner organization that identified an aggressive scanning effort against their website using an Internet address previously associated with a campaign by <a href="https://resources.prodaft.com/fin7-cybercrime-gang" target="_blank" rel="noopener">FIN7</a>, a notorious Russia-based hacking group.</p>
+<p>But on closer inspection they discovered the address contained an HTML title of &#8220;<strong>Araneida Customer Panel</strong>,&#8221; and found they could search on that text string to find dozens of unique addresses hosting the same service.</p>
+<p>It soon became apparent that Araneida was being resold as a cloud-based service using a cracked version of Acunetix, allowing paying customers to conduct offensive reconnaissance on potential target websites, scrape user data, and find vulnerabilities for exploitation.</p>
+<p>Silent Push also learned Araneida bundles its service with a robust proxy offering, so that customer scans appear to come from Internet addresses that are randomly selected from a large pool of available traffic relays.</p>
+<p>The makers of Acunetix, Texas-based application security vendor <strong>Invicti Security</strong>, confirmed Silent Push&#8217;s findings, saying someone had figured out how to crack the free trial version of the software so that it runs without a valid license key.</p>
+<p>&#8220;We have been playing cat and mouse for a while with these guys,&#8221; said <strong>Matt Sciberras</strong>, chief information security officer at Invicti.</p>
+<p>Silent Push said Araneida is being advertised by an eponymous user on multiple cybercrime forums. The service&#8217;s Telegram channel boasts nearly 500 subscribers and explains how to use the tool for malicious purposes.</p>
+<p>In a &#8220;Fun Facts&#8221; list posted to the channel in late September, Araneida said their service was used to take over more than 30,000 websites in just six months, and that one customer used it to buy a Porsche with the payment card data (&#8220;dumps&#8221;) they sold.</p>
+<div id="attachment_69898" style="width: 668px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69898" decoding="async" loading="lazy" class=" wp-image-69898" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/araneida-tg.png" alt="" width="658" height="273" /><p id="caption-attachment-69898" class="wp-caption-text">Araneida Scanner&#8217;s Telegram channel bragging about how customers are using the service for cybercrime.</p></div>
+<p>“They are constantly bragging with their community about the crimes that are being committed, how it’s making criminals money,” said <strong>Zach Edwards</strong>, a senior threat researcher at Silent Push. “They are also selling bulk data and dumps which appear to have been acquired with this tool or due to vulnerabilities found with the tool.”</p>
+<p>Silent Push also found a cracked version of Acunetix was powering at least 20 instances of a similar cloud-based vulnerability testing service catering to Mandarin speakers, but they were unable to find any apparently related sales threads about them on the dark web.</p>
+<p>Rumors of a cracked version of Acunetix being used by attackers surfaced <a href="https://x.com/FalconFeedsio/status/1665690661377691649" target="_blank" rel="noopener">in June 2023 on Twitter/X</a>, when researchers <a href="https://x.com/TLP_R3D/status/1665777020767293447" target="_blank" rel="noopener">first posited a connection between observed scanning activity and Araneida</a>.</p>
+<p>According to <a href="https://www.hhs.gov/sites/default/files/china-based-threat-actor-profiles-tlpclear.pdf" target="_blank" rel="noopener">an August 2023 report</a> (PDF) from the <strong>U.S. Department of Health and Human Services</strong> (HHS), Acunetix (presumably a cracked version) is among several tools used by <a href="https://krebsonsecurity.com/2020/09/chinese-antivirus-firm-was-part-of-apt41-supply-chain-attack/" target="_blank" rel="noopener">APT 41</a>, a prolific Chinese state-sponsored hacking group.<span id="more-69811"></span></p>
+<h2>THE TURKISH CONNECTION</h2>
+<p>Silent Push notes that the website where Araneida is being sold &#8212; <strong>araneida[.]co</strong> &#8212; first came online in February 2023. But a review of this Araneida nickname on the cybercrime forums shows they have been active in the criminal hacking scene since at least 2018.</p>
+<p>A search in the threat intelligence platform <a href="https://www.intel471.com" target="_blank" rel="noopener">Intel 471</a> shows a user by the name Araneida promoted the scanner on two cybercrime forums since 2022, including <strong>Breached</strong> and <strong>Nulled</strong>. In 2022, Araneida told fellow Breached members they could be reached on Discord at the username &#8220;<strong>Ornie#9811</strong>.&#8221;</p>
+<p>According to Intel 471, this same Discord account was advertised in 2019 by a person on the cybercrime forum <strong>Cracked</strong> who used the monikers &#8220;<strong>ORN</strong>&#8221; and &#8220;<strong>ori0n</strong>.&#8221; The user &#8220;ori0n&#8221; mentioned in several posts that they could be reached on Telegram at the username &#8220;<strong>@sirorny</strong>.&#8221;</p>
+<div id="attachment_69912" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69912" decoding="async" loading="lazy" class=" wp-image-69912" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/orn-araneida.png" alt="" width="749" height="411" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/12/orn-araneida.png 1002w, https://krebsonsecurity.com/wp-content/uploads/2024/12/orn-araneida-768x422.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/12/orn-araneida-782x429.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-69912" class="wp-caption-text">Orn advertising Araneida Scanner in Feb. 2023 on the forum Cracked. Image: Ke-la.com.</p></div>
+<p>The Sirorny Telegram identity also was referenced as a point of contact for a current user on the cybercrime forum Nulled who is selling website development services, and who references araneida[.]co as one of their projects. That user, &#8220;<strong>Exorn</strong>,&#8221; has posts dating back to August 2018.</p>
+<p>In early 2020, Exorn promoted a website called &#8220;<strong>orndorks[.]com</strong>,&#8221; which they described as a service for automating the scanning for web-based vulnerabilities. A passive DNS lookup on this domain at <a href="https://www.domaintools.com" target="_blank" rel="noopener">DomainTools.com</a> shows that its email records pointed to the address <strong>ori0nbusiness@protonmail.com</strong>.</p>
+<p><a href="https://www.constella.ai" target="_blank" rel="noopener">Constella Intelligence</a>, a company that tracks information exposed in data breaches, finds this email address was used to register an account at <strong>Breachforums</strong> in July 2024 under the nickname &#8220;<strong>Ornie</strong>.&#8221; Constella also finds the same email registered at the website netguard[.]codes in 2021 using the password &#8220;<strong>ceza2003</strong>&#8221; [full disclosure: Constella is currently an advertiser on KrebsOnSecurity].</p>
+<p>A search on the password ceza2003 in Constella finds roughly a dozen email addresses that used it in an exposed data breach, most of them featuring some variation on the name &#8220;<strong>altugsara</strong>,&#8221; including <strong>altugsara321@gmail.com</strong>. Constella further finds altugsara321@gmail.com was used to create an account at the cybercrime community <strong>RaidForums</strong> under the username &#8220;<strong>ori0n</strong>,&#8221; from an Internet address in Istanbul.</p>
+<p>According to DomainTools, altugsara321@gmail.com was used in 2020 to register the domain name <strong>altugsara[.]com</strong>. <a href="https://web.archive.org/web/20211125114845/http://altugsara.com/" target="_blank" rel="noopener">Archive.org&#8217;s history for that domain</a> shows that in 2021 it featured a website for a then 18-year-old <strong>Altuğ Şara</strong> from Ankara, Turkey.</p>
+<div id="attachment_69893" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69893" decoding="async" loading="lazy" class="size-full wp-image-69893" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/altugsaradotcom.png" alt="" width="749" height="345" /><p id="caption-attachment-69893" class="wp-caption-text">Archive.org&#8217;s recollection of what altugsara dot com looked like in 2021.</p></div>
+<p><strong>LinkedIn</strong> finds this same <strong>altugsara[.]com</strong> domain listed in the &#8220;contact info&#8221; section of <a href="https://www.linkedin.com/in/altu%C4%9F-%C5%9Fara-58957b212/" target="_blank" rel="noopener">a profile</a> for an <strong>Altug Sara</strong> from Ankara, who says he has worked the past two years as a senior software developer for a Turkish IT firm called <strong>Bilitro Yazilim</strong>.</p>
+<p>Neither Altug Sara nor Bilitro Yazilim responded to requests for comment.</p>
+<p>Invicti&#8217;s website states that it has offices in Ankara, but the company&#8217;s CEO said none of their employees recognized either name.</p>
+<p>&#8220;We do have a small team in Ankara, but as far as I know we have no connection to the individual other than the fact that they are also in Ankara,&#8221; Invicti CEO <strong>Neil Roseman</strong> told KrebsOnSecurity.</p>
+<p>Researchers at Silent Push say despite Araneida using a seemingly endless supply of proxies to mask the true location of its users, it is a fairly &#8220;noisy&#8221; scanner that will kick off a large volume of requests to various API endpoints, and make requests to random URLs associated with different content management systems.</p>
+<p>What&#8217;s more, the cracked version of Acunetix being resold to cybercriminals invokes legacy Acunetix SSL certificates on active control panels, which Silent Push says provides a solid pivot for finding some of this infrastructure, particularly from the Chinese threat actors.</p>
+<p>Further reading: <a href="https://www.silentpush.com/blog/araneida-scanner-acunetix" target="_blank" rel="noopener">Silent Push&#8217;s research on Araneida Scanner</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2024/12/web-hacking-service-araneida-tied-to-turkish-it-firm/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>How to Lose a Fortune with Just One Bad Click</title>
 		<link>https://krebsonsecurity.com/2024/12/how-to-lose-a-fortune-with-just-one-bad-click/</link>
 					<comments>https://krebsonsecurity.com/2024/12/how-to-lose-a-fortune-with-just-one-bad-click/#comments</comments>
@@ -46,7 +114,7 @@
 		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69474</guid>
 
 					<description><![CDATA[Adam Griffin is still in disbelief over how quickly he was robbed of nearly $500,000 in cryptocurrencies. A scammer called using a real Google phone number to warn his Gmail account was being hacked, sent email security alerts directly from google.com, and ultimately seized control over the account by convincing him to click "yes" to a Google prompt on his mobile device.]]></description>
-										<content:encoded><![CDATA[<div id="attachment_69859" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69859" decoding="async" class=" wp-image-69859" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/thumb-mobile.png" alt="" width="749" height="441" /><p id="caption-attachment-69859" class="wp-caption-text">Image: Shutterstock, iHaMoo.</p></div>
+										<content:encoded><![CDATA[<div id="attachment_69859" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69859" decoding="async" loading="lazy" class=" wp-image-69859" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/thumb-mobile.png" alt="" width="749" height="441" /><p id="caption-attachment-69859" class="wp-caption-text">Image: Shutterstock, iHaMoo.</p></div>
 <p><strong>Adam Griffin</strong> is still in disbelief over how quickly he was robbed of nearly $500,000 in cryptocurrencies. A scammer called using a real <strong>Google</strong> phone number to warn his Gmail account was being hacked, sent email security alerts directly from google.com, and ultimately seized control over the account by convincing him to click &#8220;yes&#8221; to a Google prompt on his mobile device.</p>
 <p>Griffin is a battalion chief firefighter in the Seattle area, and on May 6 he received a call from someone claiming they were from Google support saying his account was being accessed from Germany. A Google search on the phone number calling him &#8212; <strong>(650) 203-0000</strong> &#8212; revealed it was an official number for <a href="https://en.wikipedia.org/wiki/Google_Assistant" target="_blank" rel="noopener">Google Assistant</a>, an AI-based service that can engage in two-way conversations.</p>
 <p>At the same time, he received an email that came from a google.com email address, warning his Google account was compromised. The message included a &#8220;Google Support Case ID number&#8221; and information about the Google representative supposedly talking to him on the phone, stating the rep&#8217;s name as &#8220;Ashton&#8221;<strong> </strong>&#8212; the same name given by the caller.</p>
@@ -634,56 +702,15 @@
 		
 		
 			</item>
-		<item>
-		<title>Microsoft Patch Tuesday, November 2024 Edition</title>
-		<link>https://krebsonsecurity.com/2024/11/microsoft-patch-tuesday-november-2024-edition/</link>
-					<comments>https://krebsonsecurity.com/2024/11/microsoft-patch-tuesday-november-2024-edition/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Tue, 12 Nov 2024 21:59:46 +0000</pubDate>
-				<category><![CDATA[Security Tools]]></category>
-		<category><![CDATA[Time to Patch]]></category>
-		<category><![CDATA[CVE-2024-43451]]></category>
-		<category><![CDATA[CVE-2024-43602]]></category>
-		<category><![CDATA[CVE-2024-49019]]></category>
-		<category><![CDATA[CVE-2024-49039]]></category>
-		<category><![CDATA[CVE-2024-49040]]></category>
-		<category><![CDATA[Google TAG]]></category>
-		<category><![CDATA[Microsoft Patch Tuesday November 2024]]></category>
-		<category><![CDATA[Satnam Narang]]></category>
-		<category><![CDATA[Tenable]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69463</guid>
-
-					<description><![CDATA[Microsoft today released updates to plug at least 89 security holes in its Windows operating systems and other software. November's patch batch includes fixes for two zero-day vulnerabilities that are already being exploited by attackers, as well as two other flaws that were publicly disclosed prior to today.]]></description>
-										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today released updates to plug at least 89 security holes in its <strong>Windows</strong> operating systems and other software. November&#8217;s patch batch includes fixes for two zero-day vulnerabilities that are already being exploited by attackers, as well as two other flaws that were publicly disclosed prior to today.</p>
-<p><img decoding="async" loading="lazy" class="aligncenter wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="749" height="527" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /></p>
-<p>The zero-day flaw tracked as <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-49039" target="_blank" rel="noopener">CVE-2024-49039</a> is a bug in the <strong>Windows Task Scheduler</strong> that allows an attacker to increase their privileges on a Windows machine. Microsoft credits Google&#8217;s <strong>Threat Analysis Group</strong> with reporting the flaw.</p>
-<p>The second bug fixed this month that is already seeing in-the-wild exploitation is <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-43451" target="_blank" rel="noopener">CVE-2024-43451</a>, a spoofing flaw that could reveal <a href="https://www.ired.team/offensive-security/initial-access/netntlmv2-hash-stealing-using-outlook" target="_blank" rel="noopener">Net-NTLMv2 hashes</a>, which are used for authentication in Windows environments.</p>
-<p><strong>Satnam Narang</strong>, senior staff research engineer at <strong>Tenable</strong>, says the danger with stolen NTLM hashes is that they enable so-called &#8220;pass-the-hash&#8221; attacks, which let an attacker masquerade as a legitimate user without ever having to log in or know the user&#8217;s password. Narang notes that CVE-2024-43451 is the third NTLM zero-day so far this year.</p>
-<p>&#8220;Attackers continue to be adamant about discovering and exploiting zero-day vulnerabilities that can disclose NTLMv2 hashes, as they can be used to authenticate to systems and potentially move laterally within a network to access other systems,&#8221; Narang said.<span id="more-69463"></span></p>
-<p>The two other publicly disclosed weaknesses Microsoft patched this month are <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-49019" target="_blank" rel="noopener">CVE-2024-49019</a>, an elevation of privilege flaw in <strong>Active Directory Certificate Services</strong> (AD CS); and <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-49040" target="_blank" rel="noopener">CVE-2024-49040</a>, a spoofing vulnerability in <strong>Microsoft Exchange Server</strong>.</p>
-<p><strong>Ben McCarthy</strong>, lead cybersecurity engineer at <strong>Immersive Labs</strong>, called special attention to <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-43639" target="_blank" rel="noopener">CVE-2024-43639</a>, a remote code execution vulnerability in <strong>Windows Kerberos</strong>, the authentication protocol that is heavily used in Windows domain networks.</p>
-<p>&#8220;This is one of the most threatening CVEs from this patch release,&#8221; McCarthy said. &#8220;Windows domains are used in the majority of enterprise networks, and by taking advantage of a cryptographic protocol vulnerability, an attacker can perform privileged acts on a remote machine within the network, potentially giving them eventual access to the domain controller, which is the goal for many attackers when attacking a domain.&#8221;</p>
-<p>McCarthy also pointed to <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-43498" target="_blank" rel="noopener">CVE-2024-43498</a>, a remote code execution flaw in <strong>.NET</strong> and <strong>Visual Studio</strong> that could be used to install malware. This bug has earned a CVSS severity rating of 9.8 (10 is the worst).</p>
-<p>Finally, at least 29 of the updates released today tackle memory-related security issues involving <strong>SQL server</strong>, each of which earned a threat score of 8.8. Any one of these bugs could be used to install malware if an authenticated user connects to a malicious or hacked SQL database server.</p>
-<p>For a more detailed breakdown of today&#8217;s patches from Microsoft, check out the <a href="https://isc.sans.edu/diary/Microsoft%20November%202024%20Patch%20Tuesday/31438" target="_blank" rel="noopener">SANS Internet Storm Center’s list</a>. For administrators in charge of managing larger Windows environments, it pays to keep an eye on <a href="https://www.askwoody.com/" target="_blank" rel="noopener">Askwoody.com</a>, which frequently points out when specific Microsoft updates are creating problems for a number of users.</p>
-<p>As always, if you experience any problems applying any of these updates, consider dropping a note about it in the comments; chances are excellent that someone else reading here has experienced the same issue, and maybe even has found a solution.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2024/11/microsoft-patch-tuesday-november-2024-edition/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 266/266 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Object Caching 278/278 objects using memcached
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2024-12-19 11:55:24 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2024-12-19 12:25:39 by W3 Total Cache
 -->

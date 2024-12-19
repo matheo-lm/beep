@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 19 Dec 2024 11:58:29 EST</pubDate>
+        <pubDate>Thu, 19 Dec 2024 13:01:27 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 11 24H2 upgrades blocked on some PCs due to audio issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-upgrades-blocked-on-some-pcs-due-to-audio-issues/</link>
+        <pubDate>Thu, 19 Dec 2024 12:28:02 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-upgrades-blocked-on-some-pcs-due-to-audio-issues/</guid>
+	<description><![CDATA[​Microsoft has added another Windows 11 24H2 upgrade block for systems with Dirac audio improvement software due to compatibility issues breaking sound output. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Fortinet warns of FortiWLM bug giving hackers admin privileges</title>
+        <link>https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortiwlm-bug-giving-hackers-admin-privileges/</link>
+        <pubDate>Thu, 19 Dec 2024 12:24:38 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortiwlm-bug-giving-hackers-admin-privileges/</guid>
+	<description><![CDATA[Fortinet has disclosed a critical vulnerability in Fortinet Wireless Manager (FortiWLM) that allows remote attackers to take over devices by executing unauthorized code or commands through specially crafted web requests. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft says Auto HDR causes game freezes on Windows 11 24H2</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-auto-hdr-causes-game-freezes-on-windows-11-24h2/</link>
@@ -27,7 +55,7 @@
 
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-auto-hdr-causes-game-freezes-on-windows-11-24h2/</guid>
-	<description><![CDATA[​Microsoft is now blocking Windows 11 24H2 upgrades on systems with Auto HDR enabled due to a compatibility issue that causes game freezes. [...]]]></description>
+	<description><![CDATA[Microsoft is now blocking Windows 11 24H2 upgrades on systems with Auto HDR enabled due to a compatibility issue that causes game freezes. [...]]]></description>
  </item>
 
  <item>
@@ -174,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/interpol-replaces-dehumanizing-pig-butchering-term-with-romance-baiting/</guid>
 	<description><![CDATA[Interpol calls on the cybersecurity community, law enforcement, and the media to stop using the term "Pig Butchering" when referring to online relationship and investment scams, as it unnecessarily shames the victims impacted by these fraud campaigns. [...]]]></description>
- </item>
-
- <item>
-        <title>NVIDIA shares fix for game performance issues with new NVIDIA App</title>
-        <link>https://www.bleepingcomputer.com/news/software/nvidia-shares-fix-for-game-performance-issues-with-new-nvidia-app/</link>
-        <pubDate>Tue, 17 Dec 2024 17:49:52 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/software/nvidia-shares-fix-for-game-performance-issues-with-new-nvidia-app/</guid>
-	<description><![CDATA[Nvidia has shared a temporary fix for a known issue impacting systems running its recently unveiled NVIDIA App and causing gaming performance to drop by up to 15%. [...]]]></description>
  </item>
 
 </channel>
