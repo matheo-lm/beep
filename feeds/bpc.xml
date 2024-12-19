@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 19 Dec 2024 09:59:02 EST</pubDate>
+        <pubDate>Thu, 19 Dec 2024 11:02:43 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>BeyondTrust says hackers breached Remote Support SaaS instances</title>
+        <link>https://www.bleepingcomputer.com/news/security/beyondtrust-says-hackers-breached-remote-support-saas-instances/</link>
+        <pubDate>Thu, 19 Dec 2024 10:42:35 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/beyondtrust-says-hackers-breached-remote-support-saas-instances/</guid>
+	<description><![CDATA[Privileged access management company BeyondTrust suffered a cyberattack in early December after threat actors breached some of its Remote Support SaaS instances. [...]]]></description>
+ </item>
+
  <item>
         <title>Ongoing phishing attack abuses Google Calendar to bypass spam filters</title>
         <link>https://www.bleepingcomputer.com/news/security/ongoing-phishing-attack-abuses-google-calendar-to-bypass-spam-filters/</link>
@@ -174,38 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/bitter-cyberspies-target-defense-orgs-with-new-miyarat-malware/</guid>
 	<description><![CDATA[A cyberespionage threat group known as 'Bitter' was observed targeting defense organizations in Turkey using a novel malware family named MiyaRAT. [...]]]></description>
- </item>
-
- <item>
-        <title>New fake Ledger data breach emails try to steal crypto wallets </title>
-        <link>https://www.bleepingcomputer.com/news/security/new-fake-ledger-data-breach-emails-try-to-steal-crypto-wallets/</link>
-        <pubDate>Tue, 17 Dec 2024 17:04:40 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-fake-ledger-data-breach-emails-try-to-steal-crypto-wallets/</guid>
-	<description><![CDATA[A new Ledger phishing campaign is underway that pretends to be a data breach notification asking you to verify your recovery phrase, which is then stolen and used to steal your cryptocurrency. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA orders federal agencies to secure Microsoft 365 tenants</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-orders-federal-agencies-to-secure-microsoft-365-tenants/</link>
-        <pubDate>Tue, 17 Dec 2024 15:01:13 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-orders-federal-agencies-to-secure-microsoft-365-tenants/</guid>
-	<description><![CDATA[​CISA has issued this year's first binding operational directive (BOD 25-01), ordering federal civilian agencies to secure their Microsoft 365 cloud environments by implementing a list of required configuration baselines. [...]]]></description>
  </item>
 
 </channel>
