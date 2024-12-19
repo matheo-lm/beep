@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 19 Dec 2024 11:02:43 EST</pubDate>
+        <pubDate>Thu, 19 Dec 2024 11:58:29 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft says Auto HDR causes game freezes on Windows 11 24H2</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-auto-hdr-causes-game-freezes-on-windows-11-24h2/</link>
+        <pubDate>Thu, 19 Dec 2024 11:23:14 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-auto-hdr-causes-game-freezes-on-windows-11-24h2/</guid>
+	<description><![CDATA[​Microsoft is now blocking Windows 11 24H2 upgrades on systems with Auto HDR enabled due to a compatibility issue that causes game freezes. [...]]]></description>
+ </item>
+
  <item>
         <title>BeyondTrust says hackers breached Remote Support SaaS instances</title>
         <link>https://www.bleepingcomputer.com/news/security/beyondtrust-says-hackers-breached-remote-support-saas-instances/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/software/nvidia-shares-fix-for-game-performance-issues-with-new-nvidia-app/</guid>
 	<description><![CDATA[Nvidia has shared a temporary fix for a known issue impacting systems running its recently unveiled NVIDIA App and causing gaming performance to drop by up to 15%. [...]]]></description>
- </item>
-
- <item>
-        <title>'Bitter' cyberspies target defense orgs with new MiyaRAT malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/bitter-cyberspies-target-defense-orgs-with-new-miyarat-malware/</link>
-        <pubDate>Tue, 17 Dec 2024 17:29:44 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/bitter-cyberspies-target-defense-orgs-with-new-miyarat-malware/</guid>
-	<description><![CDATA[A cyberespionage threat group known as 'Bitter' was observed targeting defense organizations in Turkey using a novel malware family named MiyaRAT. [...]]]></description>
  </item>
 
 </channel>
