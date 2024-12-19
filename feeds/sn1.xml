@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Wed, 18 Dec 2024 14:53:24 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 18 Dec 2024 15:14:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,31 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>LABScon24 Replay &#124; The Ransomware Trust Paradox</title>
+		<link>https://www.sentinelone.com/labs/labscon24-replay-the-ransomware-trust-paradox/</link>
+		
+		<dc:creator><![CDATA[LABScon]]></dc:creator>
+		<pubDate>Thu, 19 Dec 2024 14:00:12 +0000</pubDate>
+				<category><![CDATA[LABScon]]></category>
+		<category><![CDATA[labscon24]]></category>
+		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=110935</guid>
+
+					<description><![CDATA[Max Smeets explores how ransomware groups leverage public reporting and why we must disrupt the trust dynamic between threat actors and victims.]]></description>
+										<content:encoded><![CDATA[<p>In his Keynote talk at LABScon 24, Max Smeets explores how ransomware operators build a unique relationship between themselves and their victims. In contrast to most other threat actors, ransomware operators rely on and leverage public visibility into their activities. Unlike APTs and other threat actors that prize stealth, ransomware gangs seek to publicize their attacks in order to convince future victims that they are trustworthy enough to deliver on their promises &#8211; providing a decryptor and deleting stolen data &#8211; if paid.</p>
+<p>In &#8216;The Ransomware Trust Paradox&#8217;, Max observes that this notion of trust is not only a prerequisite for ransomware gangs&#8217; profitability but also relies on media and security vendor reporting. Detailing the mechanisms by which ransomware operators establish trust, build brand awareness, and foster a reputation for reliability, this talk is essential viewing for anyone reporting on crimeware activities.</p>
+<p>Max calls for the establishment of a reporting code of ethics for threat intelligence and the media, and a shift in policy to undermine the trust dynamics between threat actors and their victims.</p>
+<p><iframe src="https://www.youtube.com/embed/Ktlz7Xfp-CE&amp;t=4s" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<h2>About the Author</h2>
+<p>Max Smeets is the author of Ransom War: How Cyber Crime Became a Threat to National Security and No Shortcuts: Why States Struggle to Develop a Military Cyber Force. Max is Co-director of <a href="https://virtual-routes.org/" target="_blank" rel="noopener noreferrer">Virtual Routes</a> and Senior Researcher at ETH Zurich.</p>
+<h2>About LABScon</h2>
+<p>This presentation was featured live at <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon</a> 2024, an immersive 3-day conference bringing together the world&#8217;s top cybersecurity minds, hosted by SentinelOne&#8217;s research arm, SentinelLabs.</p>
+<p>Keep up with all the latest on <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon 2025</a> here.</p>
+]]></content:encoded>
+					
+		
+		
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/12/Max_Smeets_ftr.jpg" length="561135" type="image/jpeg" />	</item>
+		<item>
 		<title>LABScon24 Replay &#124; Let Them Eat Cake: “Secure by Upgrade” Software is a National Security Threat</title>
 		<link>https://www.sentinelone.com/labs/labscon24-replay-let-them-eat-cake-secure-by-upgrade-software-is-a-national-security-threat/</link>
 		
@@ -96,7 +121,7 @@
 <p>The abuse of Visual Studio Code tunneling for C2 purposes also relies on Microsoft Azure infrastructure. Creating and hosting a dev tunnel requires connecting to a Microsoft Azure server with a domain of <code>*.[clusterID].devtunnels.ms</code>, where <code>[clusterID]</code> corresponds to the Azure region of the endpoint running the Visual Studio Code server, <a href="https://global.rel.tunnels.api.visualstudio.com/api/v1/clusters" target="_blank" rel="noopener noreferrer">such as</a> <code>euw</code> for <code>West Europe</code>. In Operation Digital Eye, the creation of dev tunnels involved establishing connections to the server with the domain <code>[REDACTED].euw.devtunnels[.]ms</code>, which resolved to the IP address <code>20.103.221[.]187</code>. This server is part of Microsoft&#8217;s Azure infrastructure in the <code>West Europe</code> datacenter region (Azure IP range: <code>20.103.0[.]0/16</code>, service tag: <code>AzureCloud.westeurope</code>).</p>
 <h2>The PHPsert Webshell</h2>
 <p>PHPsert executes attacker-provided PHP code using the <a href="https://www.php.net/manual/en/function.assert.php" target="_blank" rel="noopener noreferrer">assert</a> function, which, in PHP versions prior to 8.0.0, interprets and runs parameter strings as PHP code. To hinder static analysis and evade detection, the webshell uses various code obfuscation techniques, including XOR encoding, hexadecimal character representation, string concatenation, and randomized variable names.</p>
-<figure id="attachment_109540" aria-describedby="caption-attachment-109540" style="width: 664px" class="wp-caption aligncenter"><img decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye3.jpg" alt="PHPsert implementation" width="664" height="434" class="size-full wp-image-109540" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye3.jpg 664w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye3-300x196.jpg 300w" sizes="(max-width: 664px) 100vw, 664px" /><figcaption id="caption-attachment-109540" class="wp-caption-text">PHPsert implementation</figcaption></figure>
+<figure id="attachment_109540" aria-describedby="caption-attachment-109540" style="width: 664px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye3.jpg" alt="PHPsert implementation" width="664" height="434" class="size-full wp-image-109540" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye3.jpg 664w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye3-300x196.jpg 300w" sizes="(max-width: 664px) 100vw, 664px" /><figcaption id="caption-attachment-109540" class="wp-caption-text">PHPsert implementation</figcaption></figure>
 <p>The PHPsert webshell operates as follows:</p>
 <ul>
 <li aria-level="1">PHPsert instantiates a class with a single regular method, which XOR-decodes and concatenates hexadecimal characters to generate the string <code>assert</code>. The class&#8217;s destructor (the magic method <code>__destruct</code>) uses this string to invoke the <code>assert</code> function, passing attacker-provided PHP code as a parameter.</li>
@@ -1058,268 +1083,5 @@ grep -RinE --include=\*.{py,sh} '\b(aws|azure|profile|admin|password|server|host
 		
 		
 		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/10/china-influence-feature.jpg" length="326838" type="image/jpeg" />	</item>
-		<item>
-		<title>Kryptina RaaS &#124; From Unsellable Cast-Off to Enterprise Ransomware</title>
-		<link>https://www.sentinelone.com/labs/kryptina-raas-from-unsellable-cast-off-to-enterprise-ransomware/</link>
-		
-		<dc:creator><![CDATA[Jim Walter]]></dc:creator>
-		<pubDate>Mon, 23 Sep 2024 10:00:00 +0000</pubDate>
-				<category><![CDATA[Ransomware]]></category>
-		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=105715</guid>
-
-					<description><![CDATA[Kryptina's adoption by Mallox affiliates complicates malware tracking as ransomware operators blend different codebases into new variants.]]></description>
-										<content:encoded><![CDATA[<h2>Executive Summary</h2>
-<ul>
-<li aria-level="1">Kryptina evolved from a free tool on public forums to being actively used in enterprise attacks, particularly under the Mallox ransomware family.</li>
-<li aria-level="1">In May 2024, a Mallox affiliate leaked staging server data, revealing that their Linux ransomware was based on a modified version of Kryptina.</li>
-<li aria-level="1">The affiliate made superficial changes to source code and documentation, stripping Kryptina branding but retaining core functionality.</li>
-<li aria-level="1">The adoption of Kryptina by Mallox affiliates exemplifies the commoditization of ransomware tools, complicating malware tracking as affiliates blend different codebases into new variants.</li>
-<li aria-level="1">This original research was presented by the author at <a href="https://labscon.io" target="_blank" rel="noopener noreferrer">LABScon 2024</a> in Scottsdale, Arizona.</li>
-</ul>
-<h2>Background</h2>
-<p>In February of 2024, SentinelOne posted a <a href="https://www.sentinelone.com/blog/kryptina-raas-from-underground-commodity-to-open-source-threat/" target="_blank" rel="noopener noreferrer">write-up</a> on Kryptina Ransomware-as-a-Service, a free and open-source RaaS platform written for Linux. At the time, Kryptina provided all the components required to host a fully functional RaaS platform. This included the ability to automate payloads, manage multiple groups and campaigns nested within, as well as configure the ransom payment requirements such as the amount and type of payment. Despite such functionality, the offering struggled to attract much interest from dark market customers.</p>
-<p>In May 2024, an affiliate of the Mallox RaaS exposed one of their staging servers. As a result of this leak, we identified Kryptina RaaS to be the platform on which the affiliate’s Linux variants were based. The affiliate threat actor referred to this Linux variant as “Mallox v1.0”. This ‘evolution’ of Kryptina is notable in a rags-to-riches sort of way. In the span of a few months, the tool went from an unsellable give-away in public forums to being observed in active SMB/Enterprise attacks.</p>
-<p>In this research, we explore the data exposed in the open directory leak, detailing differences between the original Kryptina RaaS (v2.2) and the modified version branded under the Mallox moniker.</p>
-<h2>Brief History of Kryptina &amp; Mallox</h2>
-<p><a href="https://www.sentinelone.com/anthology/mallox/" target="_blank" rel="noopener noreferrer">Mallox</a> (<i>aka</i> <a href="https://www.sentinelone.com/blog/mallox-resurrected-ransomware-attacks-exploiting-ms-sql-continue-to-burden-enterprises/" target="_blank" rel="noopener noreferrer">TargetCompany</a>) ransomware is a longstanding, Enterprise-focused, RaaS. The family emerged in 2021 and is sometimes referred to as FARGO, XOLLAM, or BOZON, due to the extension appended to encrypted files in some variants. Mallox operators are known to opportunistically target ‘timely’ vulnerabilities (e.g., <a href="https://www.sentinelone.com/blog/mallox-resurrected-ransomware-attacks-exploiting-ms-sql-continue-to-burden-enterprises/" target="_blank" rel="noopener noreferrer">MSSQL Server</a>). Individual affiliate behavior will vary, though this style of exploitation, along with brute force attacks to establish initial access, is common across Mallox campaigns.</p>
-<p>Kryptina was first offered for sale by the “Corlys” identity in December 2023. The price for the full suite, at the time, was $500.00, and later raised to $800.00. In February 2024, “Corlys” put a halt to the active sales of Kryptina, and subsequently posted the full source code to <a href="https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-20-5/" target="_blank" rel="noopener noreferrer">BreachForums</a>.</p>
-<p>In May, 2024, an open directory which contained staged payloads along with Mallox builder tools and source was <a href="https://x.com/banthisguy9349/status/1796431710470721600" target="_blank" rel="noopener noreferrer">discovered</a>. This staging server was erected by a Mallox affiliate and hosts a number of attacker-related tools. </p>
-<figure id="attachment_105867" aria-describedby="caption-attachment-105867" style="width: 535px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_5.jpg" alt="First discovery of opendir on Mallox affiliate server" width="535" height="434" class="size-full wp-image-105867" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_5.jpg 535w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_5-300x243.jpg 300w" sizes="(max-width: 535px) 100vw, 535px" /><figcaption id="caption-attachment-105867" class="wp-caption-text">First discovery of an open directory on Mallox affiliate server</figcaption></figure>
-<p>The staging server, hosted on <code>185[.]73.125[.]6</code>, contained numerous archives and payloads specific to the Windows version of Mallox. </p>
-<figure id="attachment_105882" aria-describedby="caption-attachment-105882" style="width: 1090px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_18.jpg" alt="Mallox staging server with web application and source" width="1090" height="942" class="size-full wp-image-105882" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_18.jpg 1090w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_18-300x259.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_18-1024x885.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_18-768x664.jpg 768w" sizes="(max-width: 1090px) 100vw, 1090px" /><figcaption id="caption-attachment-105882" class="wp-caption-text">Mallox staging server with web application and source</figcaption></figure>
-<p>However, the affiliate’s server also contained all the (modified) source files for Kryptina, including the accessible web server and interface for building Mallox Linux (Kryptina) payloads, and managing separate infection campaigns. </p>
-<figure id="attachment_105881" aria-describedby="caption-attachment-105881" style="width: 974px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_19.jpg" alt="Kryptina source files in Mallox leak" width="974" height="524" class="size-full wp-image-105881" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_19.jpg 974w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_19-300x161.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_19-768x413.jpg 768w" sizes="(max-width: 974px) 100vw, 974px" /><figcaption id="caption-attachment-105881" class="wp-caption-text">Kryptina source files in Mallox leak</figcaption></figure>
-<figure id="attachment_105877" aria-describedby="caption-attachment-105877" style="width: 1464px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_22.jpg" alt="Kryptina database in Mallox leak" width="1464" height="676" class="size-full wp-image-105877" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_22.jpg 1464w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_22-300x139.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_22-1024x473.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_22-768x355.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_22-818x378.jpg 818w" sizes="(max-width: 1464px) 100vw, 1464px" /><figcaption id="caption-attachment-105877" class="wp-caption-text">Kryptina database in Mallox leak</figcaption></figure>
-<p>The use of Kryptina by this affiliate appears to be singular: <a href="https://www.trendmicro.com/en_us/research/24/f/targetcompany-s-linux-variant-targets-esxi-environments.html" target="_blank" rel="noopener noreferrer">other</a> Linux variants of Mallox are not based on Kryptina, further complicating the the relationship between Kryptina and Mallox.</p>
-<h2>Customizing Kryptina</h2>
-<p>Encryption and decryption routines in “Mallox Linux 1.0” are identical to original Kryptina. To recap from our <a href="https://www.sentinelone.com/blog/kryptina-raas-from-underground-commodity-to-open-source-threat/" target="_blank" rel="noopener noreferrer">previous write-up</a>:</p>
-<div class="inverted-block" style="font-size:80%;">&#8220;Individual file encryption is achieved through use of AES256 in CBC mode. The keys and configuration data are obfuscated via XOR and then base64 encoded (the XOR key depends on the value set in the builder or scripts). The function <code>krptna_process_file()</code> function is responsible for the file encryption. This function is a typical implementation of file encryption/decryption using the AES-256-CBC algorithm in OpenSSL.</p>
-<p>This function initializes an OpenSSL cipher context <code>EVP_CIPHER_CTX_new()</code>. This is passed to the appropriate function, depending on what mode was chosen in the builder configuration (demo mode, etc). File input and output streams are processed via <code>EVP_CipherUpdate()</code>, which transforms unencrypted file data to the encrypted data in the output buffer. This is then written to the final output file (as the modified/encrypted file). <code>EVP_CipherFinal</code> finalizes the processes handling any padding (integral to CBC mode).</p>
-<p>All the legacy Kryptina code is included in the <code>/src</code> folder of the affiliates server, with the files themselves even retaining the Kryptina naming conventions and references to known functions (e.g., <code>krptna_process_file()</code>).&#8221;</div>
-<figure id="attachment_105864" aria-describedby="caption-attachment-105864" style="width: 658px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_8.jpg" alt="Kryptina-specific functions in Mallox Linux 1.0" width="658" height="335" class="size-full wp-image-105864" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_8.jpg 658w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_8-300x153.jpg 300w" sizes="(max-width: 658px) 100vw, 658px" /><figcaption id="caption-attachment-105864" class="wp-caption-text">Kryptina-specific functions in Mallox Linux 1.0</figcaption></figure>
-<p>With the exception of the aforementioned Kryptina database, the Kryptina branding has been stripped from most of the source and support files for “Mallox Linux 1.0”.</p>
-<figure id="attachment_105874" aria-describedby="caption-attachment-105874" style="width: 759px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_25.jpg" alt="Mallox Linux 1.0 “Documentation”" width="759" height="154" class="size-full wp-image-105874" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_25.jpg 759w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_25-300x61.jpg 300w" sizes="(max-width: 759px) 100vw, 759px" /><figcaption id="caption-attachment-105874" class="wp-caption-text">Mallox Linux 1.0 documentation</figcaption></figure>
-<p>Documentation for the Kryptina-derived Mallox variations is included, though it is a distilled version of the original Kryptina documentation. The original Kryptia PDF (SHA1: <code>d46fbc4a57dce813574ee312001eaad0aa4e52de</code>) has been slimmed down and included as <code>docs.md</code>. Included sections have been translated to Russian from the original English version.</p>
-<figure id="attachment_105875" aria-describedby="caption-attachment-105875" style="width: 852px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_24.jpg" alt="Original Kryptina RaaS documentation" width="852" height="517" class="size-full wp-image-105875" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_24.jpg 852w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_24-300x182.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_24-768x466.jpg 768w" sizes="(max-width: 852px) 100vw, 852px" /><figcaption id="caption-attachment-105875" class="wp-caption-text">Original Kryptina RaaS documentation</figcaption></figure>
-<figure id="attachment_105868" aria-describedby="caption-attachment-105868" style="width: 865px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_4.jpg" alt="Modified Mallox Linux 1.0 documentation" width="865" height="361" class="size-full wp-image-105868" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_4.jpg 865w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_4-300x125.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_4-768x321.jpg 768w" sizes="(max-width: 865px) 100vw, 865px" /><figcaption id="caption-attachment-105868" class="wp-caption-text">Modified Mallox Linux 1.0 documentation</figcaption></figure>
-<p>The updated Mallox Linux 1.0 documentation contains sections covering basic features, environmental setup (dependencies and version affinities), along with setup and configuration of phpMyAdmin and the backend DB (MySQL).</p>
-<figure id="attachment_105869" aria-describedby="caption-attachment-105869" style="width: 819px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_3.jpg" alt="Mallox Linux 1.0 Dependencies" width="819" height="485" class="size-full wp-image-105869" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_3.jpg 819w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_3-300x178.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_3-768x455.jpg 768w" sizes="(max-width: 819px) 100vw, 819px" /><figcaption id="caption-attachment-105869" class="wp-caption-text">Mallox Linux 1.0 dependencies</figcaption></figure>
-<figure id="attachment_105892" aria-describedby="caption-attachment-105892" style="width: 825px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_21b.jpg" alt="Mallox Linux 1.0 DB (MySQL) configuration" width="825" height="361" class="size-full wp-image-105892" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_21b.jpg 825w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_21b-300x131.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_21b-768x336.jpg 768w" sizes="(max-width: 825px) 100vw, 825px" /><figcaption id="caption-attachment-105892" class="wp-caption-text">Mallox Linux 1.0 DB (MySQL) configuration</figcaption></figure>
-<p>The affiliate made a few changes to the Kryptina source files and scripts in order to remove references to Kryptina and associate the comments and naming conventions to those of Mallox.</p>
-<p>Ransom note templates are structured similarly to the original <a href="https://www.sentinelone.com/blog/kryptina-raas-from-underground-commodity-to-open-source-threat/" target="_blank" rel="noopener noreferrer">Kryptina</a> version. The <code>\note</code> folder on the affiliate server contains the template source, which can be customized directly or via the Kryptina web UI. The template for the ransom note was updated to remove the Kryptina 2.x references, replacing them with Mallox v1.0.</p>
-<figure id="attachment_105865" aria-describedby="caption-attachment-105865" style="width: 1360px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_7.jpg" alt="Kryptina original ransom note template" width="1360" height="1030" class="size-full wp-image-105865" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_7.jpg 1360w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_7-300x227.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_7-1024x776.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_7-768x582.jpg 768w" sizes="(max-width: 1360px) 100vw, 1360px" /><figcaption id="caption-attachment-105865" class="wp-caption-text">Kryptina original ransom note template</figcaption></figure>
-<figure id="attachment_105863" aria-describedby="caption-attachment-105863" style="width: 1370px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_9.jpg" alt="Mallox 1.0 ransom note template" width="1370" height="1022" class="size-full wp-image-105863" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_9.jpg 1370w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_9-300x224.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_9-1024x764.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_9-768x573.jpg 768w" sizes="(max-width: 1370px) 100vw, 1370px" /><figcaption id="caption-attachment-105863" class="wp-caption-text">Mallox 1.0 ransom note template</figcaption></figure>
-<p>The main source files for “Mallox 1.0” were held in the <code>/src</code> folder of the affiliate server. The original names of the encryptor and decryptor source files (<code>kryptina.c</code> and <code>kryptina.h</code>) retain the Kryptina-centric names. The only operational change to the Kryptina encryptor code is the updating of printed output in Debug mode (updated to Mallox). Aside from changing comments in the file to reference Mallox, and removing references to the Kryptina author (“Corlys”), the source is unchanged.</p>
-<figure id="attachment_105873" aria-describedby="caption-attachment-105873" style="width: 859px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_26.jpg" alt="Mallox 1.0 src, with KRPTNA_DEBUG printf Mallox" width="859" height="349" class="size-full wp-image-105873" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_26.jpg 859w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_26-300x122.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_26-768x312.jpg 768w" sizes="(max-width: 859px) 100vw, 859px" /><figcaption id="caption-attachment-105873" class="wp-caption-text">Mallox 1.0 src, with <em>KRPTNA_DEBUG printf -&gt;Mallox</em></figcaption></figure>
-<figure id="attachment_105871" aria-describedby="caption-attachment-105871" style="width: 1108px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_28.jpg" alt="Original Kryptina 2.2 kryptina.c source file" width="1108" height="766" class="size-full wp-image-105871" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_28.jpg 1108w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_28-300x207.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_28-1024x708.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_28-768x531.jpg 768w" sizes="(max-width: 1108px) 100vw, 1108px" /><figcaption id="caption-attachment-105871" class="wp-caption-text">Original Kryptina 2.2 <em>kryptina.c</em> source file</figcaption></figure>
-<figure id="attachment_105876" aria-describedby="caption-attachment-105876" style="width: 1166px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_23.jpg" alt="Mallox 1.0 kryptina.c source file" width="1166" height="860" class="size-full wp-image-105876" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_23.jpg 1166w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_23-300x221.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_23-1024x755.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_23-768x566.jpg 768w" sizes="(max-width: 1166px) 100vw, 1166px" /><figcaption id="caption-attachment-105876" class="wp-caption-text">Mallox 1.0 <em>kryptina.c</em> source file</figcaption></figure>
-<p>Kryptina’s original <code>scripting_demo.py</code> file provided threat actors with a way to build Linux payloads via the command line. All the requisite fields are provided in the template. This allows for quick and automated builds. While these scripted builds are not reflected in the web UI, it can be a valuable tool to a threat actor wanting to streamline the automation of new builds over time. The <code>scripting_demo.py</code> file has been minimally updated, again to reflect Mallox branding over Kryptina. References to “Corlys” have been removed as well.</p>
-<figure id="attachment_105889" aria-describedby="caption-attachment-105889" style="width: 1244px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_11.jpg" alt="Original Kryptina scripting_demo.py source file" width="1244" height="642" class="size-full wp-image-105889" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_11.jpg 1244w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_11-300x155.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_11-1024x528.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_11-768x396.jpg 768w" sizes="(max-width: 1244px) 100vw, 1244px" /><figcaption id="caption-attachment-105889" class="wp-caption-text">Original Kryptina <em>scripting_demo.py</em> source file</figcaption></figure>
-<figure id="attachment_105880" aria-describedby="caption-attachment-105880" style="width: 1232px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_2.jpg" alt="Mallox 1.0 scripting_demo.py source file" width="1232" height="542" class="size-full wp-image-105880" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_2.jpg 1232w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_2-300x132.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_2-1024x450.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_2-768x338.jpg 768w" sizes="(max-width: 1232px) 100vw, 1232px" /><figcaption id="caption-attachment-105880" class="wp-caption-text">Mallox 1.0 <em>scripting_demo.py</em> source file</figcaption></figure>
-<h2>Comparing Kryptina and Mallox makefiles</h2>
-<p>The makefile is used when building encryptor and decryptor payloads. This can be called directly via script, or via the web UI while building payloads within campaigns.</p>
-<p>Kryptina (and subsequently Mallox 1.0) supports multiple modes within the compiled payloads. These are:</p>
-<ul>
-<li aria-level="1">demo &#8211; builds a demo version of Kryptina, no encryption</li>
-<li aria-level="1">debug &#8211; provides customized debug output</li>
-<li aria-level="1">symbols &#8211; provides debug build with debug symbols (-ggdb3)</li>
-<li aria-level="1">arch32 &#8211; output 32-bit payload</li>
-</ul>
-<p>Additional parameter values are provided for other conditions present in the builder. This includes the ability to customize the XOR key use for encoding the encrypted configuration data within payloads (<code>xor</code>), thread count to use during the encryption process (<code>jobs</code>), toggling of the self deletion feature (<code>persist</code>), and filesize constraints (<code>maxsize</code>) to enforce during encryption (e.g., maximum size of file to attempt to decrypt). Secure deletion (wiper’esque capability) can be toggled via the <code>secdel</code> parameter. </p>
-<p>Example makefiles from the original Kryptina package and the Mallox-modified package appear as follows:</p>
-<figure id="attachment_105870" aria-describedby="caption-attachment-105870" style="width: 652px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_29.jpg" alt="Kryptina Mallox makefile" width="652" height="490" class="size-full wp-image-105870" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_29.jpg 652w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_29-300x225.jpg 300w" sizes="(max-width: 652px) 100vw, 652px" /><figcaption id="caption-attachment-105870" class="wp-caption-text">Kryptina makefile</figcaption></figure>
-<figure id="attachment_105888" aria-describedby="caption-attachment-105888" style="width: 643px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_12.jpg" alt="Mallox Linux 1.0 makefile" width="643" height="456" class="size-full wp-image-105888" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_12.jpg 643w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_12-300x213.jpg 300w" sizes="(max-width: 643px) 100vw, 643px" /><figcaption id="caption-attachment-105888" class="wp-caption-text">Mallox Linux 1.0 makefile</figcaption></figure>
-<h2>Victim Subfolders</h2>
-<p>The May 2024 affiliate leak also contained target-specific output folders for 14 targets (potential victims). Some of this information was previously detailed <a href="https://www.uptycs.com/blog/threat-research-report-team/mallox-ransomware-linux-variant-decryptor-discovered" target="_blank" rel="noopener noreferrer">here</a>.</p>
-<p>In the <code>\output</code> folder, subfolders exist for each target (unique ‘Target Name’ value).</p>
-<figure id="attachment_105891" aria-describedby="caption-attachment-105891" style="width: 1367px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_1.jpg" alt="Output folder on affiliate staging server" width="1367" height="812" class="size-full wp-image-105891" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_1.jpg 1367w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_1-300x178.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_1-1024x608.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_1-768x456.jpg 768w" sizes="(max-width: 1367px) 100vw, 1367px" /><figcaption id="caption-attachment-105891" class="wp-caption-text">Output folder on affiliate staging server</figcaption></figure>
-<p>Some of these folders contain <code>config.json</code> files (builder configuration) alongside the matching encryptor/decryptor binary pairs. There are empty folders as well, meaning those targets were defined, but payloads have yet to be built.</p>
-<figure id="attachment_105890" aria-describedby="caption-attachment-105890" style="width: 748px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_10.jpg" alt="Affiliate output directory with payloads and configs" width="748" height="914" class="size-full wp-image-105890" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_10.jpg 748w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_10-246x300.jpg 246w" sizes="(max-width: 748px) 100vw, 748px" /><figcaption id="caption-attachment-105890" class="wp-caption-text">Affiliate output directory with payloads and configs</figcaption></figure>
-<p>Each of the config files contains values for all the fields required in the builder scripts. This includes payment type and addresses. The configuration JSON contains values for the following:</p>
-<div style="overflow-x:auto;">
-<table style="border-collapse: collapse; width: 100%; height: 120px; font-size:80%">
-<tbody>
-<tr style="height: 24px;">
-<td style="width: 20.0%; height: 24px;">about</td>
-<td style="width: 20.0%; height: 24px;">amount</td>
-<td style="width: 20.0%; height: 24px;">arch32</td>
-<td style="width: 20.0%; height: 24px;">bitcoin</td>
-<td style="width: 20.0%; height: 24px;">deadline</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 20.0%; height: 24px;">debug</td>
-<td style="width: 20.0%; height: 24px;">demo</td>
-<td style="width: 20.0%; height: 24px;">extension</td>
-<td style="width: 20.0%; height: 24px;">ignore</td>
-<td style="width: 20.0%; height: 24px;">iv</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 20.0%; height: 24px;">jobs</td>
-<td style="width: 20.0%; height: 24px;">key</td>
-<td style="width: 20.0%; height: 24px;">maxsize</td>
-<td style="width: 20.0%; height: 24px;">monero</td>
-<td style="width: 20.0%; height: 24px;">name</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 20.0%; height: 24px;">nolog</td>
-<td style="width: 20.0%; height: 24px;">nonote</td>
-<td style="width: 20.0%; height: 24px;">note</td>
-<td style="width: 20.0%; height: 24px;">note_name</td>
-<td style="width: 20.0%; height: 24px;">persist</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 20.0%; height: 24px;">recommend</td>
-<td style="width: 20.0%; height: 24px;">secdel</td>
-<td style="width: 20.0%; height: 24px;">session</td>
-<td style="width: 20.0%; height: 24px;">static</td>
-<td style="width: 20.0%; height: 24px;">symbols</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 20.0%; height: 24px;">target_id</td>
-<td style="width: 20.0%; height: 24px;">targets</td>
-<td style="width: 20.0%; height: 24px;">tox</td>
-<td style="width: 20.0%; height: 24px;">verbose</td>
-<td style="width: 20.0%; height: 24px;">xor_key</td>
-</tr>
-</tbody>
-</table>
-</div>
-<figure id="attachment_105883" aria-describedby="caption-attachment-105883" style="width: 1788px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_17.jpg" alt="Example config.json" width="1788" height="844" class="size-full wp-image-105883" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_17.jpg 1788w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_17-300x142.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_17-1024x483.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_17-768x363.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_17-1536x725.jpg 1536w" sizes="(max-width: 1788px) 100vw, 1788px" /><figcaption id="caption-attachment-105883" class="wp-caption-text">Example <em>config.json</em></figcaption></figure>
-<p>Seven of the victim subfolders contained corresponding <code>config.json</code> files and compiled encryptor &amp; decryptor tools. All of the JSON files have similar values assigned for the requisite field. All of the targets were configured with the same payment address (BTC <code>18CUq89XR81Y7Ju2UBjER14fYWTfVwpGP3</code>). Other requisite values are repeated across campaigns as well. This includes the values for “key”, “bitcoin” and “extension”. The extension on all fully-configured builds (potentially separate attack campaigns) is <code>.lmallox</code>.</p>
-<div style="overflow-x:auto;">
-<table style="border-collapse: collapse; width: 100%; height: 120px; font-size:60%">
-<tbody>
-<tr style="height: 24px;">
-<td style="width: 25.0%; height: 24px;"><strong>SHA1 Hash</strong></td>
-<td style="width: 25.0%; height: 24px;"><strong>Bitcoin</strong></td>
-<td style="width: 15.0%; height: 24px;"><strong>Extension</strong></td>
-<td style="width: 25.0%; height: 24px;"><strong>Key</strong></td>
-<td style="width: 10.0%; height: 24px;"><strong>Amount</strong></td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 25.0%; height: 24px;">fbb89744bc9f65719bd5415dcf1ec9a74b24254e</td>
-<td style="width: 25.0%; height: 24px;">18CUq89XR81Y7Ju2UBjER14fYWTfVwpGP3</td>
-<td style="width: 15.0%; height: 24px;">.lmallox</td>
-<td style="width: 25.0%; height: 24px;">smHKnqN7S1ehBz4zxya6ddwys39PJHbF7LlqIS1+Fq4=</td>
-<td style="width: 10.0%; height: 24px;">500.0</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 25.0%; height: 24px;">55dc4541b72a804a7edf324d6a388569a68a2986</td>
-<td style="width: 25.0%; height: 24px;">18CUq89XR81Y7Ju2UBjER14fYWTfVwpGP3</td>
-<td style="width: 15.0%; height: 24px;">.lmallox</td>
-<td style="width: 25.0%; height: 24px;">smHKnqN7S1ehBz4zxya6ddwys39PJHbF7LlqIS1+Fq4=</td>
-<td style="width: 10.0%; height: 24px;">500.0</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 25.0%; height: 24px;">78c27c7ac1da97dc822b4af7be5f15d68f9c5e4f</td>
-<td style="width: 25.0%; height: 24px;">18CUq89XR81Y7Ju2UBjER14fYWTfVwpGP3</td>
-<td style="width: 15.0%; height: 24px;">.lmallox</td>
-<td style="width: 25.0%; height: 24px;">smHKnqN7S1ehBz4zxya6ddwys39PJHbF7LlqIS1+Fq4=</td>
-<td style="width: 10.0%; height: 24px;">500.0</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 25.0%; height: 24px;">d94f890a8c92cbce50d89da2792bcfc24894c004</td>
-<td style="width: 25.0%; height: 24px;">18CUq89XR81Y7Ju2UBjER14fYWTfVwpGP3</td>
-<td style="width: 15.0%; height: 24px;">.lmallox</td>
-<td style="width: 25.0%; height: 24px;">smHKnqN7S1ehBz4zxya6ddwys39PJHbF7LlqIS1+Fq4=</td>
-<td style="width: 10.0%; height: 24px;">500.0</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 25.0%; height: 24px;">16ec82ac2caf0c2e4812a636dbff4bd8ef84d5c3</td>
-<td style="width: 25.0%; height: 24px;">18CUq89XR81Y7Ju2UBjER14fYWTfVwpGP3</td>
-<td style="width: 15.0%; height: 24px;">.lmallox</td>
-<td style="width: 25.0%; height: 24px;">smHKnqN7S1ehBz4zxya6ddwys39PJHbF7LlqIS1+Fq4=</td>
-<td style="width: 10.0%; height: 24px;">500.0</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 25.0%; height: 24px;">66cab82b64fbb03fecf7ca7f9ed295404a9bfe2b</td>
-<td style="width: 25.0%; height: 24px;">18CUq89XR81Y7Ju2UBjER14fYWTfVwpGP3</td>
-<td style="width: 15.0%; height: 24px;">.lmallox</td>
-<td style="width: 25.0%; height: 24px;">smHKnqN7S1ehBz4zxya6ddwys39PJHbF7LlqIS1+Fq4=</td>
-<td style="width: 10.0%; height: 24px;">500.0</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 25.0%; height: 24px;">0bbd9a8ddbb68e2658ea4c0a4106c7406a392098</td>
-<td style="width: 25.0%; height: 24px;">18CUq89XR81Y7Ju2UBjER14fYWTfVwpGP3</td>
-<td style="width: 15.0%; height: 24px;">.lmallox</td>
-<td style="width: 25.0%; height: 24px;">smHKnqN7S1ehBz4zxya6ddwys39PJHbF7LlqIS1+Fq4=</td>
-<td style="width: 10.0%; height: 24px;">500.0</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>The configuration files also contain the full text template for the ransom notes, with associated Client IDs, and additional communication channels. </p>
-<pre>
-Tox ID: 290E6890D02FBDCD92659056F9A95D80854534A4D76EE5D3A64AFD55E584EA398722EC2D3697)
-</pre>
-<h2>What Else Was Leaked?</h2>
-<p>The tools identified on the affiliate server were not limited to Linux victims. A small cache of tools and exploits which target the Windows platform were also hosted. These are utilized by the threat actor in the early stages of attack, primarily for beachhead establishment and privilege escalation.</p>
-<figure id="attachment_105887" aria-describedby="caption-attachment-105887" style="width: 598px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_13.jpg" alt="Windows-focused droppers and tools on affiliate leak site" width="598" height="612" class="size-full wp-image-105887" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_13.jpg 598w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_13-293x300.jpg 293w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_13-50x50.jpg 50w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_13-24x24.jpg 24w" sizes="(max-width: 598px) 100vw, 598px" /><figcaption id="caption-attachment-105887" class="wp-caption-text">Windows-focused droppers and tools on affiliate leak site</figcaption></figure>
-<p><code>KLAPR.ZIP</code> extracts to <code>KLAPR.BAT</code> (SHA1:<code>43377911601247920dc15e9b22eda4c57cb9e743</code>). This tool is provided by the affiliate to assist in the neutralization of Kaspersky endpoint products where needed. This binary is a copy of the “Kaspersky Lab AllProducts Password Reset v2.0” tool. This is a legitimate support <a href="https://support.kaspersky.com/common/settings/14674" target="_blank" rel="noopener noreferrer">tool</a> from Kaspersky Labs. Specific security products from Kaspersky require an application-specific password to allow for changing of configuration settings (locally) or other management tasks. This <code>.BAT</code> file resets (nullifies) the stored password values for a multitude of Kaspersky products.</p>
-<p>Exploit code for <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-21338" target="_blank" rel="noopener noreferrer">CVE-2024-21338</a> is included as well. CVE-2024-21338 is a local privilege escalation flaw in Windows 10 and 11 where HVCI (Hypervisor-Protected Code Integrity) is enabled. This exploit is based on the proof-of-concept code provided in a <a href="https://hakaisecurity.io/cve-2024-21338-from-admin-to-kernel-through-token-manipulation-and-windows-kernel-exploitation/research-blog/" target="_blank" rel="noopener noreferrer">writeup</a> from Hakai Security. The same code is also hosted on the <a href="https://github.com/hakaioffsec/CVE-2024-21338" target="_blank" rel="noopener noreferrer">hakaioffsec GitHub repository</a>.</p>
-<figure id="attachment_105885" aria-describedby="caption-attachment-105885" style="width: 524px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_15.jpg" alt="CVE-2024-21338 Exploit Readme" width="524" height="231" class="size-full wp-image-105885" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_15.jpg 524w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_15-300x132.jpg 300w" sizes="(max-width: 524px) 100vw, 524px" /><figcaption id="caption-attachment-105885" class="wp-caption-text">CVE-2024-21338 Exploit Readme</figcaption></figure>
-<p>CVE-2024-21338 has been <a href="https://www.cisa.gov/news-events/alerts/2024/03/04/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">associated</a> with other Mallox campaigns, as well <a href="https://www.cisa.gov/news-events/alerts/2024/03/04/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">as</a> <a href="https://www.sentinelone.com/labs/comrades-in-arms-north-korea-compromises-sanctioned-russian-missile-engineering-company/" target="_blank" rel="noopener noreferrer">Lazarus</a>.</p>
-<p>Multiple droppers for Mallox (Windows) are included, including a commented <code>s.ps1</code> PowerShell script. This script, hosted at the root of the open directory, provides a template for PowerShell privilege escalation and payload execution. Some basic environmental discovery commands are included (e.g., <code>Get-WmiObject -Namespace "root\SecurityCenter2" -Class AntiVirusProduct</code>).</p>
-<figure id="attachment_105884" aria-describedby="caption-attachment-105884" style="width: 917px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_16.jpg" alt="s.ps1 script from Mallox affiliate leak" width="917" height="582" class="size-full wp-image-105884" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_16.jpg 917w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_16-300x190.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_16-768x487.jpg 768w" sizes="(max-width: 917px) 100vw, 917px" /><figcaption id="caption-attachment-105884" class="wp-caption-text"><em>s.ps1</em> script from Mallox affiliate leak</figcaption></figure>
-<p>A Mallox (Windows) dropper named <code>Application.jar</code> (SHA1: <code>5cf67c0a1fa06101232437bee5111fefcd8e2df4</code>) was also present. This dropper launches a PowerShell script that downloads a copy of Mallox from the same server (as <code>id.exe</code>; SHA1: <code>0f1aea2cf0c9f2de55d2b920618a5948c5e5e119</code>). The PowerShell commands are embedded within the nested <code>MyClass.class</code> as Java bytecode. <code>MyClass.class</code> contains reference to a temporary DNS resolution for the host at <code>grovik71.theweb[.]place</code>.</p>
-<figure id="attachment_105886" aria-describedby="caption-attachment-105886" style="width: 676px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_14.jpg" alt="DNS name revealed (grovik71.theweb[.]place)" width="676" height="491" class="size-full wp-image-105886" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_14.jpg 676w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_14-300x218.jpg 300w" sizes="(max-width: 676px) 100vw, 676px" /><figcaption id="caption-attachment-105886" class="wp-caption-text">DNS name revealed (<em>grovik71.theweb[.]place</em>)</figcaption></figure>
-<p>A copy of the Java JRE (8.0.4010.10) is hosted on the affiliate server. <code>Jre-8u401-windows-x64.exe</code> is a full offline installer of the JRE (SHA1: <code>dc3f98dded6c1f1e363db6752c512e01ac9433f3</code>).</p>
-<p>Finally, multiple additional dropper/payload sets were hosted at the root of the site. These include packages split for 32 and 64 bit use, and a <code>.LNK</code>-based dropper for the payloads.</p>
-<figure id="attachment_105903" aria-describedby="caption-attachment-105903" style="width: 463px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_6a.jpg" alt="Droppers separated by architecture" width="463" height="82" class="size-full wp-image-105903" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_6a.jpg 463w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_6a-300x53.jpg 300w" sizes="(max-width: 463px) 100vw, 463px" /><figcaption id="caption-attachment-105903" class="wp-caption-text">Droppers separated by architecture</figcaption></figure>
-<p><code>Reader.img</code> and <code>Reader+x86.img</code> are compressed disk image files that contain Mallox (Windows) payloads for 64 and 32 bit systems, respectively. Each of these images contains the same <code>.LNK</code> launcher (SHA1: <code>c20e8d536804cf97584eec93d9a89c09541155bc</code>), which is named <code>Reader.lnk</code>.</p>
-<figure id="attachment_105879" aria-describedby="caption-attachment-105879" style="width: 576px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_20.jpg" alt=".LNK Launcher for Mallox (Windows)" width="576" height="296" class="size-full wp-image-105879" srcset="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_20.jpg 576w, https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina_Mallox_20-300x154.jpg 300w" sizes="(max-width: 576px) 100vw, 576px" /><figcaption id="caption-attachment-105879" class="wp-caption-text"><em>.LNK</em> Launcher for Mallox (Windows)</figcaption></figure>
-<p>The payload contained within these compressed images is named <code>red.exe</code>.</p>
-<pre>
-red.exe (x86) - SHA1: 29936b1aa952a89905bf0f7b7053515fd72d8c5c
-red.exe (x64) - SHA1: 0f1aea2cf0c9f2de55d2b920618a5948c5e5e119
-</pre>
-<p>This instance of the 64-bit payload (SHA1: <code>0f1aea2cf0c9f2de55d2b920618a5948c5e5e119</code>) is identical to the prior referenced <code>id.exe</code> and the hosted <code>MSiedge.exe</code>.</p>
-<h2>Conclusion</h2>
-<p>The Kryptina-derived variants of Mallox are affiliate-specific and separate from <a href="https://www.trendmicro.com/en_us/research/24/f/targetcompany-s-linux-variant-targets-esxi-environments.html" target="_blank" rel="noopener noreferrer">other Linux variants of Mallox </a> that have since emerged, an indication of how the ransomware landscape has evolved into a complex menagerie of cross-pollinated toolsets and non-linear codebases. </p>
-<p>The adoption of Kryptina – a RaaS given away as a free tool after the developer&#8217;s failure to cash-in on it – by an active Mallox affiliate represents a kind of &#8216;levelling-up&#8217; for the malware. More importantly, it demonstrates the broader trend of ransomware commoditization. </p>
-<p>The leakage of powerful tools like the LockBit, Yashma, and Babuk builders along with Kryptina RaaS has obscured the lineage and proliferation of related malware families. Individual affiliates introducing different codebases into the mix further muddies the water, ultimately increasing the level of difficulty when tracking these tools and understanding the scope of their use and adoption. Looking forward, we expect to see more outlier platforms like Kryptina being absorbed into the TTPs leveraged by more advanced threat actors.</p>
-<h2>IOCs</h2>
-<p><b>Files SHA1</b><br />
-0b9d2895d29f7d553e5613266c2319e10afdda78<br />
-0de92527430dc0794694787678294509964422e6<br />
-0e83d023b9f6c34ab029206f1f11b3457171a30a<br />
-0f1aea2cf0c9f2de55d2b920618a5948c5e5e119<br />
-0f632f8e59b8c8b99241d0fd5ff802f31a3650cd<br />
-1379a1b08f938f9a53082150d53efadb2ad37ae5<br />
-21bacf8daa45717e87a39842ec33ad61d9d79cfe<br />
-262497702d6b7f7d4af73a90cb7d0e930f9ec355<br />
-29936b1aa952a89905bf0f7b7053515fd72d8c5c<br />
-2b3fc20c4521848f33edcf55ed3d508811c42861<br />
-341552a8650d2bdad5f3ec12e333e3153172ee66<br />
-43377911601247920dc15e9b22eda4c57cb9e743<br />
-58552820ba2271e5c3a76b30bd3a07144232b9b3<br />
-5cf67c0a1fa06101232437bee5111fefcd8e2df4<br />
-88a039be03abc7305db724079e1a85810088f900<br />
-9050419cbecc88be7a06ea823e270db16f47c1ea<br />
-93ef3578f9c3db304a979b0d9d36234396ec6ac9<br />
-a1a8922702ffa8c74aba9782cca90c939dfb15bf<br />
-b07c725edb65a879d392cd961b4cb6a876e40e2d<br />
-b27d291596cc890d283e0d3a3e08907c47e3d1cc<br />
-b768ba3e6e03a77004539ae999bb2ae7b1f12c62<br />
-c20e8d536804cf97584eec93d9a89c09541155bc<br />
-c4d988135e960e88e7acfae79a45c20e100984b6<br />
-d46fbc4a57dce813574ee312001eaad0aa4e52de<br />
-d618a9655985c33e69a4713ebe39d473a4d58cde<br />
-dc3f98dded6c1f1e363db6752c512e01ac9433f3<br />
-ee3cd3a749f5146cf6d4b36ee87913c51b9bfe93<br />
-ef2565c789316612d8103056cec25f77674d78d1<br />
-f17d9b3cd2ba1dea125d2e1a4aeafc6d4d8f12dc</p>
-<p><b>Network Comms</b><br />
-185[.]73.125[.]6<br />
-grovik71[.]theweb[.]place</p>
-<p><b>Tox ID</b><br />
-290E6890D02FBDCD92659056F9A95D80854534A4D76EE5D3A64AFD55E584EA398722EC2D3697</p>
-<p><b>BTC Address</b><br />
-18CUq89XR81Y7Ju2UBjER14fYWTfVwpGP3</p>
-]]></content:encoded>
-					
-		
-		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/09/Kryptina-Desert-Ftr.jpg" length="802915" type="image/jpeg" />	</item>
 	</channel>
 </rss>
