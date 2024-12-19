@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Wed, 18 Dec 2024 13:17:59 +0000</lastBuildDate>
@@ -112,7 +112,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2024/12/how-to-lose-a-fortune-with-just-one-bad-click/feed/</wfw:commentRss>
-			<slash:comments>20</slash:comments>
+			<slash:comments>19</slash:comments>
 		
 		
 			</item>
@@ -287,7 +287,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2024/12/u-s-offered-10m-for-hacker-just-arrested-by-russia/feed/</wfw:commentRss>
-			<slash:comments>13</slash:comments>
+			<slash:comments>14</slash:comments>
 		
 		
 			</item>
@@ -681,9 +681,9 @@
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 266/266 objects using memcached
-Page Caching using memcached 
+Object Caching 264/266 objects using memcached
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2024-12-18 21:15:35 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2024-12-19 00:01:17 by W3 Total Cache
 -->
