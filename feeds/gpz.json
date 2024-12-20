@@ -350,6 +350,19 @@
       "categories": [],
       "isoDate": "2024-12-16T06:11:00.000Z",
       "tag": "exploits"
+    },
+    {
+      "creator": "Google Project Zero (noreply@blogger.com)",
+      "title": "The Windows Registry Adventure #5: The regf file format",
+      "link": "https://googleprojectzero.blogspot.com/2024/12/the-windows-registry-adventure-5-regf.html",
+      "pubDate": "2024-12-19T11:03:00.000-08:00",
+      "dc:creator": "Google Project Zero (noreply@blogger.com)",
+      "content": "\n\nPosted by Mateusz Jurczyk, Google Project Zero\n\nAs previously mentioned in the second installment of the blog post series (\"A brief history of the feature\"), the binary format used to encode registry hives from Windows NT 3.1 up to the mo[...]",
+      "contentSnippet": "\n\nPosted by Mateusz Jurczyk, Google Project Zero\n\nAs previously mentioned in the second installment of the blog post series (\"A brief history of the feature\"), the binary format used to encode registry hives from Windows NT 3.1 up to the mo[...]",
+      "guid": "https://googleprojectzero.blogspot.com/2024/12/the-windows-registry-adventure-5-regf.html",
+      "categories": [],
+      "isoDate": "2024-12-19T19:03:00.000Z",
+      "tag": "exploits"
     }
   ]
 }
