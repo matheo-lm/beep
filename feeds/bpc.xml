@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 20 Dec 2024 07:04:08 EST</pubDate>
+        <pubDate>Fri, 20 Dec 2024 08:06:09 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ascension: Health data of 5.6 million stolen in ransomware attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/ascension-health-data-of-56-million-stolen-in-ransomware-attack/</link>
+        <pubDate>Fri, 20 Dec 2024 07:05:33 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ascension-health-data-of-56-million-stolen-in-ransomware-attack/</guid>
+	<description><![CDATA[​Ascension, one of the largest private U.S. healthcare systems, is notifying over 5.6 million patients and employees that their personal and health data was stolen in a May cyberattack linked to the Black Basta ransomware operation. [...]]]></description>
+ </item>
+
  <item>
         <title>Massive live sports piracy ring with 812 million yearly visits taken offline</title>
         <link>https://www.bleepingcomputer.com/news/security/massive-live-sports-piracy-ring-with-812-million-yearly-visits-taken-offline/</link>
@@ -186,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/raccoon-stealer-malware-operator-gets-5-years-in-prison-after-guilty-plea/</guid>
 	<description><![CDATA[​​Ukrainian national Mark Sokolovsky was sentenced today to five years in prison for his involvement in the Raccoon Stealer malware cybercrime operation. [...]]]></description>
- </item>
-
- <item>
-        <title>Russian hackers use RDP proxies to steal data in MiTM attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/russian-hackers-use-rdp-proxies-to-steal-data-in-mitm-attacks/</link>
-        <pubDate>Wed, 18 Dec 2024 16:53:18 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/russian-hackers-use-rdp-proxies-to-steal-data-in-mitm-attacks/</guid>
-	<description><![CDATA[The Russian hacking group tracked as APT29 (aka "Midnight Blizzard") is using a network of 193 remote desktop protocol proxy servers to perform man-in-the-middle (MiTM) attacks to steal data and credentials and to install malicious payloads. [...]]]></description>
  </item>
 
 </channel>
