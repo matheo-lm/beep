@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 20 Dec 2024 11:01:25 EST</pubDate>
+        <pubDate>Fri, 20 Dec 2024 11:58:07 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US charges Russian-Israeli as suspected LockBit ransomware coder</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-charges-russian-israeli-as-suspected-lockbit-ransomware-coder/</link>
+        <pubDate>Fri, 20 Dec 2024 11:48:25 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-charges-russian-israeli-as-suspected-lockbit-ransomware-coder/</guid>
+	<description><![CDATA[The US Department of Justice has charged a Russian-Israeli dual-national for his suspected role in developing malware and managing the infrastructure for the notorious LockBit ransomware group. [...]]]></description>
+ </item>
+
  <item>
         <title>Sophos Firewall vulnerable to critical remote code execution flaw</title>
         <link>https://www.bleepingcomputer.com/news/security/sophos-firewall-vulnerable-to-critical-remote-code-execution-flaw/</link>
@@ -57,7 +71,7 @@
 
 
         <guid>https://www.bleepingcomputer.com/news/security/ascension-health-data-of-56-million-stolen-in-ransomware-attack/</guid>
-	<description><![CDATA[​Ascension, one of the largest private U.S. healthcare systems, is notifying over 5.6 million patients and employees that their personal and health data was stolen in a May cyberattack linked to the Black Basta ransomware operation. [...]]]></description>
+	<description><![CDATA[​Ascension, one of the largest private U.S. healthcare systems, is notifying nearly 5.6 million patients and employees that their personal and health data was stolen in a May cyberattack linked to the Black Basta ransomware operation. [...]]]></description>
  </item>
 
  <item>
@@ -186,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-auto-hdr-causes-game-freezes-on-windows-11-24h2/</guid>
 	<description><![CDATA[Microsoft is now blocking Windows 11 24H2 upgrades on systems with Auto HDR enabled due to a compatibility issue that causes game freezes. [...]]]></description>
- </item>
-
- <item>
-        <title>BeyondTrust says hackers breached Remote Support SaaS instances</title>
-        <link>https://www.bleepingcomputer.com/news/security/beyondtrust-says-hackers-breached-remote-support-saas-instances/</link>
-        <pubDate>Thu, 19 Dec 2024 10:42:35 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/beyondtrust-says-hackers-breached-remote-support-saas-instances/</guid>
-	<description><![CDATA[Privileged access management company BeyondTrust suffered a cyberattack in early December after threat actors breached some of its Remote Support SaaS instances. [...]]]></description>
  </item>
 
 </channel>
