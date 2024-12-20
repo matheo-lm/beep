@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 20 Dec 2024 11:58:07 EST</pubDate>
+        <pubDate>Fri, 20 Dec 2024 12:59:28 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Malicious Rspack, Vant packages published using stolen NPM tokens</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-rspack-vant-packages-published-using-stolen-npm-tokens/</link>
+        <pubDate>Fri, 20 Dec 2024 12:47:54 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-rspack-vant-packages-published-using-stolen-npm-tokens/</guid>
+	<description><![CDATA[Three popular npm packages, @rspack/core, @rspack/cli, and Vant, were compromised through stolen npm account tokens, allowing threat actors to publish malicious versions that installed cryptominers. [...]]]></description>
+ </item>
+
  <item>
         <title>US charges Russian-Israeli as suspected LockBit ransomware coder</title>
         <link>https://www.bleepingcomputer.com/news/security/us-charges-russian-israeli-as-suspected-lockbit-ransomware-coder/</link>
@@ -186,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortiwlm-bug-giving-hackers-admin-privileges/</guid>
 	<description><![CDATA[Fortinet has disclosed a critical vulnerability in Fortinet Wireless Manager (FortiWLM) that allows remote attackers to take over devices by executing unauthorized code or commands through specially crafted web requests. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft says Auto HDR causes game freezes on Windows 11 24H2</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-auto-hdr-causes-game-freezes-on-windows-11-24h2/</link>
-        <pubDate>Thu, 19 Dec 2024 11:23:14 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-auto-hdr-causes-game-freezes-on-windows-11-24h2/</guid>
-	<description><![CDATA[Microsoft is now blocking Windows 11 24H2 upgrades on systems with Auto HDR enabled due to a compatibility issue that causes game freezes. [...]]]></description>
  </item>
 
 </channel>
