@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 24 Dec 2024 12:01:44 EST</pubDate>
+        <pubDate>Tue, 24 Dec 2024 13:03:09 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>European Space Agency's official store hacked to steal payment cards</title>
+        <link>https://www.bleepingcomputer.com/news/security/european-space-agencys-official-store-hacked-to-steal-payment-cards/</link>
+        <pubDate>Tue, 24 Dec 2024 12:07:14 -0500</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/european-space-agencys-official-store-hacked-to-steal-payment-cards/</guid>
+	<description><![CDATA[European Space Agency's official web shop was hacked as it started to load a piece of JavaScript code that generates a fake Stripe payment page at checkout. [...]]]></description>
+ </item>
+
  <item>
         <title>FBI links North Korean hackers to $308 million crypto heist</title>
         <link>https://www.bleepingcomputer.com/news/security/fbi-links-north-korean-hackers-to-308-million-crypto-heist/</link>
@@ -160,22 +174,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-flowerstorm-microsoft-phishing-service-fills-void-left-by-rockstar2fa/</guid>
 	<description><![CDATA[A new Microsoft 365 phishing-as-a-service platform called "FlowerStorm" is growing in popularity, filling the void left behind by the sudden shutdown of the Rockstar2FA cybercrime service. [...]]]></description>
- </item>
-
- <item>
-        <title>Google Chrome uses AI to analyze pages in new scam detection feature</title>
-        <link>https://www.bleepingcomputer.com/news/google/google-chrome-uses-ai-to-analyze-pages-in-new-scam-detection-feature/</link>
-        <pubDate>Fri, 20 Dec 2024 16:31:05 -0500</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/google/google-chrome-uses-ai-to-analyze-pages-in-new-scam-detection-feature/</guid>
-	<description><![CDATA[Google is using artificial intelligence to power a new Chrome scam protection feature that analyzes brands and the intent of pages as you browse the web. [...]]]></description>
  </item>
 
 </channel>
