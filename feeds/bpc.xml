@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 24 Dec 2024 08:02:03 EST</pubDate>
+        <pubDate>Tue, 24 Dec 2024 09:03:01 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FBI links North Korean hackers to $308 million crypto heist</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-links-north-korean-hackers-to-308-million-crypto-heist/</link>
+        <pubDate>Tue, 24 Dec 2024 09:02:57 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-links-north-korean-hackers-to-308-million-crypto-heist/</guid>
+	<description><![CDATA[The North Korean hacker group 'TraderTraitor' stole $308 million worth of cryptocurrency in the attack on the Japanese exchange DMM Bitcoin in May. [...]]]></description>
+ </item>
+
  <item>
         <title>Clop ransomware threatens 66 Cleo attack victims with data leak</title>
         <link>https://www.bleepingcomputer.com/news/security/clop-ransomware-threatens-66-cleo-attack-victims-with-data-leak/</link>
@@ -160,22 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/google/google-chrome-uses-ai-to-analyze-pages-in-new-scam-detection-feature/</guid>
 	<description><![CDATA[Google is using artificial intelligence to power a new Chrome scam protection feature that analyzes brands and the intent of pages as you browse the web. [...]]]></description>
- </item>
-
- <item>
-        <title>Malicious Rspack, Vant packages published using stolen NPM tokens</title>
-        <link>https://www.bleepingcomputer.com/news/security/malicious-rspack-vant-packages-published-using-stolen-npm-tokens/</link>
-        <pubDate>Fri, 20 Dec 2024 12:47:54 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/malicious-rspack-vant-packages-published-using-stolen-npm-tokens/</guid>
-	<description><![CDATA[Three popular npm packages, @rspack/core, @rspack/cli, and Vant, were compromised through stolen npm account tokens, allowing threat actors to publish malicious versions that installed cryptominers. [...]]]></description>
  </item>
 
 </channel>
