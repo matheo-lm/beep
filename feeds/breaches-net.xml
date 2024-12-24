@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description>The Office of Inadequate Security</description>
-	<lastBuildDate>Tue, 24 Dec 2024 11:48:39 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 24 Dec 2024 12:07:10 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,26 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Today&#8217;s insider threat: Ardyss edition</title>
+		<link>https://databreaches.net/2024/12/24/todays-insider-threat-ardyss-edition/</link>
+					<comments>https://databreaches.net/2024/12/24/todays-insider-threat-ardyss-edition/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Tue, 24 Dec 2024 11:59:13 +0000</pubDate>
+				<category><![CDATA[Business Sector]]></category>
+		<category><![CDATA[Hack]]></category>
+		<category><![CDATA[Insider]]></category>
+		<category><![CDATA[0mid16B]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=119742</guid>
+
+					<description><![CDATA[Here&#8217;s today&#8217;s reminder of the insider threat. And also the external threat. Consider it a pre-holiday twofer. DataBreaches was contacted yesterday by &#8220;0mid16B,&#8221; the same individual who was responsible for previously hacking The1 Card, Thailand&#8217;s most popular loyalty program. In their latest contact, they claim to have successfully attacked Ardyss[.]com and ArdyssLife[.]com, telling DataBreaches, &#8220;In...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2024/12/24/todays-insider-threat-ardyss-edition/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>CA: Electronic data security breach at Milton long-term care home revealed</title>
 		<link>https://databreaches.net/2024/12/24/ca-electronic-data-security-breach-at-milton-long-term-care-home-revealed/</link>
 					<comments>https://databreaches.net/2024/12/24/ca-electronic-data-security-breach-at-milton-long-term-care-home-revealed/#respond</comments>
@@ -198,24 +218,6 @@
 					<description><![CDATA[Zack Whittaker reports: GPS tracking firm Hapn exposed the names of thousands of its customers due to a website bug, TechCrunch has learned. A security researcher alerted TechCrunch in late November to customer names and affiliations — such as the name of their workplace — spilling from one of Hapn’s servers, which TechCrunch has seen....]]></description>
 		
 					<wfw:commentRss>https://databreaches.net/2024/12/22/tracker-firm-hapn-spilled-names-of-thousands-of-gps-tracking-customers/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Douglas County Health &#038; Human Services notifies patients that former employee accessed their records inappropriately</title>
-		<link>https://databreaches.net/2024/12/21/douglas-county-health-human-services-notifies-patients-that-former-employee-accessed-their-records-inappropriately/</link>
-					<comments>https://databreaches.net/2024/12/21/douglas-county-health-human-services-notifies-patients-that-former-employee-accessed-their-records-inappropriately/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Sat, 21 Dec 2024 23:16:19 +0000</pubDate>
-				<category><![CDATA[Health Data]]></category>
-		<category><![CDATA[Insider]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=119673</guid>
-
-					<description><![CDATA[Alex Evans reports: Unauthorized access of HIPAA-protected information by county employee, largely flies under the radar. Six-months after the Douglas County Department of Health and Human Services determined an employee had accessed protected personal and health information without authorization, a notice appeared on the county’s website. That notice can be found here. Fox21 reports some...]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2024/12/21/douglas-county-health-human-services-notifies-patients-that-former-employee-accessed-their-records-inappropriately/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

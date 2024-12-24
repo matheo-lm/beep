@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 24 Dec 2024 07:03:08 EST</pubDate>
+        <pubDate>Tue, 24 Dec 2024 08:02:03 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Clop ransomware threatens 66 Cleo attack victims with data leak</title>
+        <link>https://www.bleepingcomputer.com/news/security/clop-ransomware-threatens-66-cleo-attack-victims-with-data-leak/</link>
+        <pubDate>Tue, 24 Dec 2024 08:02:00 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/clop-ransomware-threatens-66-cleo-attack-victims-with-data-leak/</guid>
+	<description><![CDATA[The Clop ransomware gang started to extort victims of its Cleo data theft attacks and announced on its dark web portal that 66 companies have 48 hours to respond to the demands. [...]]]></description>
+ </item>
+
  <item>
         <title>Adobe warns of critical ColdFusion bug with PoC exploit code</title>
         <link>https://www.bleepingcomputer.com/news/security/adobe-warns-of-critical-coldfusion-bug-with-poc-exploit-code/</link>
@@ -162,34 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/malicious-rspack-vant-packages-published-using-stolen-npm-tokens/</guid>
 	<description><![CDATA[Three popular npm packages, @rspack/core, @rspack/cli, and Vant, were compromised through stolen npm account tokens, allowing threat actors to publish malicious versions that installed cryptominers. [...]]]></description>
- </item>
-
- <item>
-        <title>US charges Russian-Israeli as suspected LockBit ransomware coder</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-charges-russian-israeli-as-suspected-lockbit-ransomware-coder/</link>
-        <pubDate>Fri, 20 Dec 2024 11:48:25 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-charges-russian-israeli-as-suspected-lockbit-ransomware-coder/</guid>
-	<description><![CDATA[The US Department of Justice has charged a Russian-Israeli dual-national for his suspected role in developing malware and managing the infrastructure for the notorious LockBit ransomware group. [...]]]></description>
- </item>
-
- <item>
-        <title>Sophos discloses critical Firewall remote code execution flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/sophos-discloses-critical-firewall-remote-code-execution-flaw/</link>
-        <pubDate>Fri, 20 Dec 2024 10:31:13 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sophos-discloses-critical-firewall-remote-code-execution-flaw/</guid>
-	<description><![CDATA[Sophos has addressed three vulnerabilities in its Sophos Firewall product that could allow remote unauthenticated threat actors to perform SQL injection, remote code execution, and gain privileged SSH access to devices. [...]]]></description>
  </item>
 
 </channel>
