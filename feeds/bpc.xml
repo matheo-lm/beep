@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 26 Dec 2024 11:01:55 EST</pubDate>
+        <pubDate>Thu, 26 Dec 2024 11:58:19 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New 'OtterCookie' malware used to backdoor devs in fake job offers</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-ottercookie-malware-used-to-backdoor-devs-in-fake-job-offers/</link>
+        <pubDate>Thu, 26 Dec 2024 11:53:10 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-ottercookie-malware-used-to-backdoor-devs-in-fake-job-offers/</guid>
+	<description><![CDATA[North Korean threat actors are using new malware called OtterCookie in the Contagious Interview campaign that is targeting software developers. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 11 installation media bug causes security update failures</title>
         <link>https://www.bleepingcomputer.com/news/security/windows-11-installation-media-bug-causes-security-update-failures/</link>
@@ -148,20 +164,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/premium-wplms-wordpress-plugins-address-seven-critical-flaws/</guid>
 	<description><![CDATA[Two WordPress plugins required by the premium WordPress WPLMS theme, which has over 28,000 sales, are vulnerable to more than a dozen critical-severity vulnerabilities. [...]]]></description>
- </item>
-
- <item>
-        <title>US court finds spyware maker NSO liable for WhatsApp hacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-court-finds-spyware-maker-nso-liable-for-whatsapp-hacks/</link>
-        <pubDate>Mon, 23 Dec 2024 11:37:40 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-court-finds-spyware-maker-nso-liable-for-whatsapp-hacks/</guid>
-	<description><![CDATA[A U.S. federal judge has ruled that Israeli spyware maker NSO Group violated U.S. hacking laws by using WhatsApp zero-days to deploy Pegasus spyware on at least 1,400 devices. [...]]]></description>
  </item>
 
 </channel>
