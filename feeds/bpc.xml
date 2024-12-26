@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 26 Dec 2024 10:01:10 EST</pubDate>
+        <pubDate>Thu, 26 Dec 2024 11:01:55 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 11 installation media bug causes security update failures</title>
+        <link>https://www.bleepingcomputer.com/news/security/windows-11-installation-media-bug-causes-security-update-failures/</link>
+        <pubDate>Thu, 26 Dec 2024 10:31:26 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/windows-11-installation-media-bug-causes-security-update-failures/</guid>
+	<description><![CDATA[Microsoft is warning of an issue when using a media support to install Windows 11, version 24H2, that causes the operating system to not accept further security updates. [...]]]></description>
+ </item>
+
  <item>
         <title>Five lesser known Task Manager features in Windows 11</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/five-lesser-known-task-manager-features-in-windows-11/</link>
@@ -146,34 +162,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-court-finds-spyware-maker-nso-liable-for-whatsapp-hacks/</guid>
 	<description><![CDATA[A U.S. federal judge has ruled that Israeli spyware maker NSO Group violated U.S. hacking laws by using WhatsApp zero-days to deploy Pegasus spyware on at least 1,400 devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Apache fixes remote code execution bypass in Tomcat web server</title>
-        <link>https://www.bleepingcomputer.com/news/security/apache-fixes-remote-code-execution-bypass-in-tomcat-web-server/</link>
-        <pubDate>Mon, 23 Dec 2024 07:33:40 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/apache-fixes-remote-code-execution-bypass-in-tomcat-web-server/</guid>
-	<description><![CDATA[Apache has released a security update to address an important vulnerability in Tomcat web server that could lead to an attacker achieving remote code execution. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes bug behind random Office 365 deactivation errors</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-random-office-365-deactivation-errors/</link>
-        <pubDate>Mon, 23 Dec 2024 07:22:03 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-random-office-365-deactivation-errors/</guid>
-	<description><![CDATA[​Microsoft has rolled out a fix for a known issue that causes random "Product Deactivated" errors for customers using Microsoft 365 Office apps. [...]]]></description>
  </item>
 
 </channel>
