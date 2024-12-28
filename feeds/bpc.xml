@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 28 Dec 2024 11:02:31 EST</pubDate>
+        <pubDate>Sat, 28 Dec 2024 12:02:42 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Customer data from 800,000 electric cars and owners exposed online</title>
+        <link>https://www.bleepingcomputer.com/news/security/customer-data-from-800-000-electric-cars-and-owners-exposed-online/</link>
+        <pubDate>Sat, 28 Dec 2024 10:16:36 -0500</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/customer-data-from-800-000-electric-cars-and-owners-exposed-online/</guid>
+	<description><![CDATA[Volkswagen's automotive software company, Cariad, exposed data collected from around 800,000 electric cars. The info could be linked to drivers' names and reveal precise vehicle locations. [...]]]></description>
+ </item>
+
  <item>
         <title>White House links ninth telecom breach to Chinese hackers</title>
         <link>https://www.bleepingcomputer.com/news/security/white-house-links-ninth-telecom-breach-to-chinese-hackers/</link>
@@ -132,20 +146,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-botnet-exploits-vulnerabilities-in-nvrs-tp-link-routers/</guid>
 	<description><![CDATA[A new Mirai-based malware campaign is actively exploiting unpatched vulnerabilities in Internet of Things (IoT) devices, including DigiEver DS-2105 Pro DVRs. [...]]]></description>
- </item>
-
- <item>
-        <title>European Space Agency's official store hacked to steal payment cards</title>
-        <link>https://www.bleepingcomputer.com/news/security/european-space-agencys-official-store-hacked-to-steal-payment-cards/</link>
-        <pubDate>Tue, 24 Dec 2024 12:07:14 -0500</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/european-space-agencys-official-store-hacked-to-steal-payment-cards/</guid>
-	<description><![CDATA[European Space Agency's official web shop was hacked as it started to load a piece of JavaScript code that generates a fake Stripe payment page at checkout. [...]]]></description>
  </item>
 
 </channel>
