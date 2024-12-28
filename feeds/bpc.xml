@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 28 Dec 2024 14:58:31 EST</pubDate>
+        <pubDate>Sat, 28 Dec 2024 15:58:01 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers steal ZAGG customers' credit cards in third-party breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-steal-zagg-customers-credit-cards-in-third-party-breach/</link>
+        <pubDate>Sat, 28 Dec 2024 11:57:28 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-steal-zagg-customers-credit-cards-in-third-party-breach/</guid>
+	<description><![CDATA[ZAGG Inc. is informing customers that their credit card data has been exposed to unauthorized individuals after hackers compromised a third-party application provided by the company's e-commerce provider, BigCommerce. [...]]]></description>
+ </item>
+
  <item>
         <title>Customer data from 800,000 electric cars and owners exposed online</title>
         <link>https://www.bleepingcomputer.com/news/security/customer-data-from-800-000-electric-cars-and-owners-exposed-online/</link>
@@ -132,20 +146,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/five-lesser-known-task-manager-features-in-windows-11/</guid>
 	<description><![CDATA[Windows 11 is far from perfect, but it does make Task Manager significantly better. In this article, we're going to take a closer look at some of our favourite Task Manager features. [...]]]></description>
- </item>
-
- <item>
-        <title>New botnet exploits vulnerabilities in NVRs, TP-Link routers</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-botnet-exploits-vulnerabilities-in-nvrs-tp-link-routers/</link>
-        <pubDate>Tue, 24 Dec 2024 15:04:03 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-botnet-exploits-vulnerabilities-in-nvrs-tp-link-routers/</guid>
-	<description><![CDATA[A new Mirai-based malware campaign is actively exploiting unpatched vulnerabilities in Internet of Things (IoT) devices, including DigiEver DS-2105 Pro DVRs. [...]]]></description>
  </item>
 
 </channel>
