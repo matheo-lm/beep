@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Sun, 29 Dec 2024 23:48:44 +0000</lastBuildDate>
@@ -52,7 +52,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2024/12/happy-15th-anniversary-krebsonsecurity/feed/</wfw:commentRss>
-			<slash:comments>19</slash:comments>
+			<slash:comments>23</slash:comments>
 		
 		
 			</item>
@@ -217,7 +217,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2024/12/how-to-lose-a-fortune-with-just-one-bad-click/feed/</wfw:commentRss>
-			<slash:comments>65</slash:comments>
+			<slash:comments>66</slash:comments>
 		
 		
 			</item>
@@ -683,5 +683,5 @@ Object Caching 266/266 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2024-12-30 07:47:47 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2024-12-30 09:00:04 by W3 Total Cache
 -->
