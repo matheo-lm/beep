@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 30 Dec 2024 17:01:28 EST</pubDate>
+        <pubDate>Mon, 30 Dec 2024 17:59:55 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US Treasury Department breached through remote support platform</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-treasury-department-breached-through-remote-support-platform/</link>
+        <pubDate>Mon, 30 Dec 2024 17:19:42 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-treasury-department-breached-through-remote-support-platform/</guid>
+	<description><![CDATA[Chinese state-sponsored threat actors hacked the U.S. Treasury Department after breaching a remote support platform used by the federal agency. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers exploit Four-Faith router flaw to open reverse shells</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-four-faith-router-flaw-to-open-reverse-shells/</link>
@@ -156,22 +170,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/apache-warns-of-critical-flaws-in-mina-hugegraph-traffic-control/</guid>
 	<description><![CDATA[The Apache Software Foundation has released security updates to address three severe problems that affect MINA, HugeGraph-Server, and Traffic Control products. [...]]]></description>
- </item>
-
- <item>
-        <title>New 'OtterCookie' malware used to backdoor devs in fake job offers</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-ottercookie-malware-used-to-backdoor-devs-in-fake-job-offers/</link>
-        <pubDate>Thu, 26 Dec 2024 11:53:10 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-ottercookie-malware-used-to-backdoor-devs-in-fake-job-offers/</guid>
-	<description><![CDATA[North Korean threat actors are using new malware called OtterCookie in the Contagious Interview campaign that is targeting software developers. [...]]]></description>
  </item>
 
 </channel>
