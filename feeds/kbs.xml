@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Sun, 29 Dec 2024 23:48:44 +0000</lastBuildDate>
@@ -52,7 +52,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2024/12/happy-15th-anniversary-krebsonsecurity/feed/</wfw:commentRss>
-			<slash:comments>18</slash:comments>
+			<slash:comments>19</slash:comments>
 		
 		
 			</item>
@@ -680,8 +680,8 @@
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 266/266 objects using memcached
-Page Caching using memcached 
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2024-12-30 04:08:58 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2024-12-30 06:55:09 by W3 Total Cache
 -->
