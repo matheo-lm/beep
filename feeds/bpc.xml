@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 30 Dec 2024 04:01:27 EST</pubDate>
+        <pubDate>Mon, 30 Dec 2024 04:58:31 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>AT&amp;T and Verizon say networks secure after Salt Typhoon breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/atandt-and-verizon-say-networks-secure-after-salt-typhoon-breach/</link>
+        <pubDate>Mon, 30 Dec 2024 04:18:10 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/atandt-and-verizon-say-networks-secure-after-salt-typhoon-breach/</guid>
+	<description><![CDATA[AT&T and Verizon confirmed they were breached in a massive Chinese espionage campaign targeting telecom carriers worldwide but said the hackers have now been evicted from their networks. [...]]]></description>
+ </item>
+
  <item>
         <title>Malware botnets exploit outdated D-Link routers in recent attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/malware-botnets-exploit-outdated-d-link-routers-in-recent-attacks/</link>
@@ -144,22 +158,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/windows-11-installation-media-bug-causes-security-update-failures/</guid>
 	<description><![CDATA[Microsoft is warning of an issue when using a media support to install Windows 11, version 24H2, that causes the operating system to not accept further security updates. [...]]]></description>
- </item>
-
- <item>
-        <title>Five lesser known Task Manager features in Windows 11</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/five-lesser-known-task-manager-features-in-windows-11/</link>
-        <pubDate>Wed, 25 Dec 2024 10:55:02 -0500</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/five-lesser-known-task-manager-features-in-windows-11/</guid>
-	<description><![CDATA[Windows 11 is far from perfect, but it does make Task Manager significantly better. In this article, we're going to take a closer look at some of our favourite Task Manager features. [...]]]></description>
  </item>
 
 </channel>
