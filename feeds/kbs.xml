@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 31 Dec 2024 04:23:08 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 31 Dec 2024 12:14:27 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -39,7 +39,7 @@
 					<description><![CDATA[Federal authorities have arrested and indicted a 20-year-old U.S. Army soldier on suspicion of being Kiberphant0m, a cybercriminal who has been selling and leaking sensitive customer call records stolen earlier this year from AT&#038;T and Verizon. As first reported by KrebsOnSecurity last month, the accused is a communications specialist who was recently stationed in South Korea.]]></description>
 										<content:encoded><![CDATA[<p>Federal authorities have arrested and indicted a 20-year-old U.S. Army soldier on suspicion of being <strong>Kiberphant0m</strong>, a cybercriminal who has been selling and leaking sensitive customer call records stolen earlier this year from <strong>AT&amp;T</strong> and <strong>Verizon</strong>. As first reported by KrebsOnSecurity last month, the accused is a communications specialist who was recently stationed in South Korea.</p>
 <div id="attachment_69974" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69974" decoding="async" class=" wp-image-69974" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/camwagenius-selfie.png" alt="" width="750" height="743" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/12/camwagenius-selfie.png 779w, https://krebsonsecurity.com/wp-content/uploads/2024/12/camwagenius-selfie-768x761.png 768w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-69974" class="wp-caption-text">One of several selfies on the Facebook page of Cameron Wagenius.</p></div>
-<p><strong>Cameron John Wagenius</strong>, 20, was arrested near the Army base in Fort Hood, Texas on Dec. 20, after being indicted on two criminal counts of unlawful transfer of confidential phone records.</p>
+<p><strong>Cameron John Wagenius</strong> was arrested near the Army base in Fort Hood, Texas on Dec. 20, after being indicted on two criminal counts of unlawful transfer of confidential phone records.</p>
 <p>The sparse, <a href="https://krebsonsecurity.com/wp-content/uploads/2024/12/wagenius-indictment.pdf" target="_blank" rel="noopener">two-page indictment</a> (PDF) doesn&#8217;t reference specific victims or hacking activity, nor does it include any personal details about the accused. But a conversation with Wagenius&#8217; mother &#8212; Minnesota native <strong>Alicia Roen </strong>&#8212; filled in the gaps.</p>
 <p>Roen said that prior to her son&#8217;s arrest he&#8217;d acknowledged being associated with <strong>Connor Riley Moucka</strong>, a.k.a. &#8220;<strong>Judische</strong>,&#8221; a prolific cybercriminal from Canada who was <a href="https://krebsonsecurity.com/2024/11/canadian-man-arrested-in-snowflake-data-extortions/" target="_blank" rel="noopener">arrested in late October</a> for stealing data from and extorting dozens of companies that stored data at the cloud service <strong>Snowflake</strong>.</p>
 <p>In an interview with KrebsOnSecurity, Judische said he had no interest in selling the data he&#8217;d stolen from Snowflake customers and telecom providers, and that he preferred to outsource that to Kiberphant0m and others. Meanwhile, Kiberphant0m claimed in posts on Telegram that he was responsible for hacking into at least 15 telecommunications firms, including AT&amp;T and Verizon.</p>
@@ -57,7 +57,7 @@
 <p>The profile photo on Wagenius&#8217; Facebook page was deleted within hours of my Nov. 26 story identifying Kiberphant0m as a likely U.S. Army soldier. Still, many of his original profile photos remain, including several that show Wagenius in uniform while holding various Army-issued weapons.</p>
 <div id="attachment_69972" style="width: 612px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69972" decoding="async" loading="lazy" class=" wp-image-69972" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/wagenius-fb.png" alt="" width="602" height="842" /><p id="caption-attachment-69972" class="wp-caption-text">Several profile photos visible on the Facebook page of Cameron Wagenius.</p></div>
 <p>November&#8217;s story on Kiberphant0m cited his own Telegram messages saying he maintained a large botnet that was used for distributed denial-of-service (DDoS) attacks to knock websites, users and networks offline. In 2023, Kiberphant0m sold remote access credentials for a major U.S. defense contractor.</p>
-<p><strong>Allison Nixon</strong> is chief research officer at the New York-based cybersecurity firm <a href="https://www.unit221b.com" target="_blank" rel="noopener">Unit 221B</a> who helped track down Kiberphant0m&#8217;s real life identity. Nixon was among several security researchers who faced harassment and specific threats of violence from Judische and his associates.</p>
+<p><strong>Allison Nixon,</strong> chief research officer at the New York-based cybersecurity firm <a href="https://www.unit221b.com" target="_blank" rel="noopener">Unit 221B</a>, helped track down Kiberphant0m&#8217;s real life identity. Nixon was among several security researchers who faced harassment and specific threats of violence from Judische and his associates.</p>
 <p>&#8220;Anonymously extorting the President and VP as a member of the military is a bad idea, but it&#8217;s an even worse idea to harass people who specialize in de-anonymizing cybercriminals,&#8221; Nixon told KrebsOnSecurity. She said the investigation into Kiberphant0m shows that law enforcement is getting better and faster at going after cybercriminals &#8212; especially those who are actually living in the United States.</p>
 <p>&#8220;Between when we, and an anonymous colleague, found his opsec mistake on November 10th to his last Telegram activity on December 6, law enforcement set the speed record for the fastest turnaround time for an American federal cyber case that I have witnessed in my career,&#8221; she said.</p>
 <p>Nixon asked to share a message for all the other Kiberphant0ms out there who think they can&#8217;t be found and arrested.</p>
@@ -66,7 +66,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2024/12/u-s-army-soldier-arrested-in-att-verizon-extortions/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
+			<slash:comments>11</slash:comments>
 		
 		
 			</item>
@@ -684,8 +684,8 @@
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 264/264 objects using memcached
-Page Caching using memcached 
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2024-12-31 06:11:15 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2024-12-31 08:01:28 by W3 Total Cache
 -->
