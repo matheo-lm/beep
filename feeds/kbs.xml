@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Sun, 29 Dec 2024 23:48:44 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 31 Dec 2024 04:23:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,57 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>U.S. Army Soldier Arrested in AT&#038;T, Verizon Extortions</title>
+		<link>https://krebsonsecurity.com/2024/12/u-s-army-soldier-arrested-in-att-verizon-extortions/</link>
+					<comments>https://krebsonsecurity.com/2024/12/u-s-army-soldier-arrested-in-att-verizon-extortions/#comments</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Tue, 31 Dec 2024 04:05:51 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[Allison Nixon]]></category>
+		<category><![CDATA[Cameron John Wagenius]]></category>
+		<category><![CDATA[Connor Riley Moucka]]></category>
+		<category><![CDATA[Judische]]></category>
+		<category><![CDATA[Kiberphant0m]]></category>
+		<category><![CDATA[Unit 221B]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69925</guid>
+
+					<description><![CDATA[Federal authorities have arrested and indicted a 20-year-old U.S. Army soldier on suspicion of being Kiberphant0m, a cybercriminal who has been selling and leaking sensitive customer call records stolen earlier this year from AT&#038;T and Verizon. As first reported by KrebsOnSecurity last month, the accused is a communications specialist who was recently stationed in South Korea.]]></description>
+										<content:encoded><![CDATA[<p>Federal authorities have arrested and indicted a 20-year-old U.S. Army soldier on suspicion of being <strong>Kiberphant0m</strong>, a cybercriminal who has been selling and leaking sensitive customer call records stolen earlier this year from <strong>AT&amp;T</strong> and <strong>Verizon</strong>. As first reported by KrebsOnSecurity last month, the accused is a communications specialist who was recently stationed in South Korea.</p>
+<div id="attachment_69974" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69974" decoding="async" class=" wp-image-69974" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/camwagenius-selfie.png" alt="" width="750" height="743" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/12/camwagenius-selfie.png 779w, https://krebsonsecurity.com/wp-content/uploads/2024/12/camwagenius-selfie-768x761.png 768w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-69974" class="wp-caption-text">One of several selfies on the Facebook page of Cameron Wagenius.</p></div>
+<p><strong>Cameron John Wagenius</strong>, 20, was arrested near the Army base in Fort Hood, Texas on Dec. 20, after being indicted on two criminal counts of unlawful transfer of confidential phone records.</p>
+<p>The sparse, <a href="https://krebsonsecurity.com/wp-content/uploads/2024/12/wagenius-indictment.pdf" target="_blank" rel="noopener">two-page indictment</a> (PDF) doesn&#8217;t reference specific victims or hacking activity, nor does it include any personal details about the accused. But a conversation with Wagenius&#8217; mother &#8212; Minnesota native <strong>Alicia Roen </strong>&#8212; filled in the gaps.</p>
+<p>Roen said that prior to her son&#8217;s arrest he&#8217;d acknowledged being associated with <strong>Connor Riley Moucka</strong>, a.k.a. &#8220;<strong>Judische</strong>,&#8221; a prolific cybercriminal from Canada who was <a href="https://krebsonsecurity.com/2024/11/canadian-man-arrested-in-snowflake-data-extortions/" target="_blank" rel="noopener">arrested in late October</a> for stealing data from and extorting dozens of companies that stored data at the cloud service <strong>Snowflake</strong>.</p>
+<p>In an interview with KrebsOnSecurity, Judische said he had no interest in selling the data he&#8217;d stolen from Snowflake customers and telecom providers, and that he preferred to outsource that to Kiberphant0m and others. Meanwhile, Kiberphant0m claimed in posts on Telegram that he was responsible for hacking into at least 15 telecommunications firms, including AT&amp;T and Verizon.</p>
+<p>On November 26, KrebsOnSecurity <a href="https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/" target="_blank" rel="noopener">published a story</a> that followed a trail of clues left behind by Kiberphantom indicating he was a U.S. Army soldier stationed in South Korea.</p>
+<div id="attachment_69971" style="width: 761px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69971" decoding="async" loading="lazy" class=" wp-image-69971" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/cwag-army.png" alt="" width="751" height="641" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/12/cwag-army.png 918w, https://krebsonsecurity.com/wp-content/uploads/2024/12/cwag-army-768x655.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/12/cwag-army-782x667.png 782w" sizes="(max-width: 751px) 100vw, 751px" /><p id="caption-attachment-69971" class="wp-caption-text">An 18-year-old Cameron Wagenius, joining the U.S. Army.</p></div>
+<p>Ms. Roen said Cameron worked on radio signals and network communications at an Army base in South Korea for the past two years, returning to the United States periodically. She said Cameron was always good with computers, but that she had no idea he might have been involved in criminal hacking.</p>
+<p>&#8220;I never was aware he was into hacking,&#8221; Roen said. &#8220;It was definitely a shock to me when we found this stuff out.&#8221;</p>
+<p>Ms. Roen said Cameron joined the Army as soon as he was of age, following in his older brother&#8217;s footsteps.</p>
+<p>&#8220;He and his brother when they were like 6 and 7 years old would ask for MREs from other countries,&#8221; she recalled, referring to military-issued &#8220;meals ready to eat&#8221; food rations. &#8220;They both always wanted to be in the Army. I&#8217;m not sure where things went wrong.&#8221;<span id="more-69925"></span></p>
+<p>Immediately after news broke of Moucka’s arrest, Kiberphant0m posted on the hacker community <strong>BreachForums</strong> what they claimed were the AT&amp;T call logs for <strong>President-elect</strong> <strong>Donald J. Trump</strong> and for <strong>Vice President Kamala Harris</strong>.</p>
+<p>“In the event you do not reach out to us @ATNT all presidential government call logs will be leaked,” Kiberphant0m threatened, signing their post with multiple “#FREEWAIFU” tags. “You don’t think we don’t have plans in the event of an arrest? Think again.”</p>
+<div id="attachment_69624" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69624" decoding="async" loading="lazy" class=" wp-image-69624" src="https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphant0m-nsa-schema.png" alt="" width="750" height="239" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphant0m-nsa-schema.png 1417w, https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphant0m-nsa-schema-768x245.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphant0m-nsa-schema-782x249.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-69624" class="wp-caption-text">Kiberphant0m posting what he claimed was a &#8220;data schema&#8221; stolen from the NSA via AT&amp;T.</p></div>
+<p>On that same day, Kiberphant0m posted what they claimed was the “data schema” from the <strong>U.S. National Security Agency</strong>.</p>
+<p>On Nov. 5, Kiberphant0m offered call logs stolen from Verizon’s push-to-talk (PTT) customers — mainly U.S. government agencies and emergency first responders. On Nov. 9, Kiberphant0m posted a sales thread on BreachForums offering a “SIM-swapping” service targeting Verizon PTT customers. In a SIM-swap, fraudsters use credentials that are phished or stolen from mobile phone company employees to divert a target’s phone calls and text messages to a device they control.</p>
+<p>The profile photo on Wagenius&#8217; Facebook page was deleted within hours of my Nov. 26 story identifying Kiberphant0m as a likely U.S. Army soldier. Still, many of his original profile photos remain, including several that show Wagenius in uniform while holding various Army-issued weapons.</p>
+<div id="attachment_69972" style="width: 612px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69972" decoding="async" loading="lazy" class=" wp-image-69972" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/wagenius-fb.png" alt="" width="602" height="842" /><p id="caption-attachment-69972" class="wp-caption-text">Several profile photos visible on the Facebook page of Cameron Wagenius.</p></div>
+<p>November&#8217;s story on Kiberphant0m cited his own Telegram messages saying he maintained a large botnet that was used for distributed denial-of-service (DDoS) attacks to knock websites, users and networks offline. In 2023, Kiberphant0m sold remote access credentials for a major U.S. defense contractor.</p>
+<p><strong>Allison Nixon</strong> is chief research officer at the New York-based cybersecurity firm <a href="https://www.unit221b.com" target="_blank" rel="noopener">Unit 221B</a> who helped track down Kiberphant0m&#8217;s real life identity. Nixon was among several security researchers who faced harassment and specific threats of violence from Judische and his associates.</p>
+<p>&#8220;Anonymously extorting the President and VP as a member of the military is a bad idea, but it&#8217;s an even worse idea to harass people who specialize in de-anonymizing cybercriminals,&#8221; Nixon told KrebsOnSecurity. She said the investigation into Kiberphant0m shows that law enforcement is getting better and faster at going after cybercriminals &#8212; especially those who are actually living in the United States.</p>
+<p>&#8220;Between when we, and an anonymous colleague, found his opsec mistake on November 10th to his last Telegram activity on December 6, law enforcement set the speed record for the fastest turnaround time for an American federal cyber case that I have witnessed in my career,&#8221; she said.</p>
+<p>Nixon asked to share a message for all the other Kiberphant0ms out there who think they can&#8217;t be found and arrested.</p>
+<p>&#8220;I know that young people involved in cybercrime will read these articles,&#8221; Nixon said. &#8220;You need to stop doing stupid shit and get a lawyer. Law enforcement wants to put all of you in prison for a long time.&#8221;</p>
+<p>The indictment against Wagenius was filed in Texas, but the case has been transferred to the U.S. District Court for the Western District of Washington in Seattle.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2024/12/u-s-army-soldier-arrested-in-att-verizon-extortions/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Happy 15th Anniversary, KrebsOnSecurity!</title>
 		<link>https://krebsonsecurity.com/2024/12/happy-15th-anniversary-krebsonsecurity/</link>
 					<comments>https://krebsonsecurity.com/2024/12/happy-15th-anniversary-krebsonsecurity/#comments</comments>
@@ -30,7 +81,7 @@
 		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69936</guid>
 
 					<description><![CDATA[KrebsOnSecurity.com turns 15 years old today! Maybe it's indelicate to celebrate the birthday of a cybercrime blog that mostly publishes bad news, but happily many of 2024's most engrossing security stories were about bad things happening to bad guys. It's also an occasion to note that despite my publishing fewer stories than ever this past year, we somehow managed to attract near record levels of readership (thank you!).]]></description>
-										<content:encoded><![CDATA[<div id="attachment_69961" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69961" decoding="async" class=" wp-image-69961" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/15bday.png" alt="" width="749" height="486" /><p id="caption-attachment-69961" class="wp-caption-text">Image: Shutterstock, Dreamansions.</p></div>
+										<content:encoded><![CDATA[<div id="attachment_69961" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69961" decoding="async" loading="lazy" class=" wp-image-69961" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/15bday.png" alt="" width="749" height="486" /><p id="caption-attachment-69961" class="wp-caption-text">Image: Shutterstock, Dreamansions.</p></div>
 <p>KrebsOnSecurity.com turns 15 years old today! Maybe it&#8217;s indelicate to celebrate the birthday of a cybercrime blog that mostly publishes bad news, but happily many of 2024&#8217;s most engrossing security stories were about bad things happening to bad guys. It&#8217;s also an occasion to note that despite my publishing fewer stories than ever this past year, we somehow managed to attract near record levels of readership (thank you!).</p>
 <p>In case you missed any of them, here&#8217;s a recap of 2024&#8217;s most-read stories. In January, KrebsOnSecurity told the story of a Canadian man who was falsely charged with larceny and lost his job after becoming the victim of a <a href="https://krebsonsecurity.com/2024/01/canadian-man-stuck-in-triangle-of-e-commerce-fraud/" target="_blank" rel="noopener">complex e-commerce scam known as triangulation fraud.</a> This can occur when you buy something online — from a seller on <strong>Amazon</strong> or <strong>eBay</strong>, for example — but the seller doesn’t actually own the item for sale. Instead, they purchase the item using stolen payment card data and your shipping address. In this scam, you receive what you ordered, and the only party left to dispute the transaction is the owner of the stolen payment card.</p>
 <div id="attachment_32692" style="width: 590px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-32692" decoding="async" loading="lazy" class="size-medium wp-image-32692" src="https://krebsonsecurity.com/wp-content/uploads/2015/11/triangulationfraud-580x318.png" alt="" width="580" height="318" srcset="https://krebsonsecurity.com/wp-content/uploads/2015/11/triangulationfraud-580x318.png 580w, https://krebsonsecurity.com/wp-content/uploads/2015/11/triangulationfraud.png 637w" sizes="(max-width: 580px) 100vw, 580px" /><p id="caption-attachment-32692" class="wp-caption-text">Triangulation fraud. Image: eBay Enterprise.</p></div>
@@ -52,7 +103,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2024/12/happy-15th-anniversary-krebsonsecurity/feed/</wfw:commentRss>
-			<slash:comments>41</slash:comments>
+			<slash:comments>42</slash:comments>
 		
 		
 			</item>
@@ -626,62 +677,15 @@
 		
 		
 			</item>
-		<item>
-		<title>Fintech Giant Finastra Investigating Data Breach</title>
-		<link>https://krebsonsecurity.com/2024/11/fintech-giant-finastra-investigating-data-breach/</link>
-					<comments>https://krebsonsecurity.com/2024/11/fintech-giant-finastra-investigating-data-breach/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Wed, 20 Nov 2024 01:12:15 +0000</pubDate>
-				<category><![CDATA[Data Breaches]]></category>
-		<category><![CDATA[Latest Warnings]]></category>
-		<category><![CDATA[Ne'er-Do-Well News]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[abyss0]]></category>
-		<category><![CDATA[BreachForums]]></category>
-		<category><![CDATA[Finastra]]></category>
-		<category><![CDATA[ke-la.com]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69538</guid>
-
-					<description><![CDATA[The financial technology firm Finastra is investigating the alleged large-scale theft of information from its internal file transfer platform, KrebsOnSecurity has learned. Finastra, which provides software and services to 45 of the world's top 50 banks, notified customers of a potential breach after a cybercriminal began selling more than 400 gigabytes of data purportedly stolen from the company. ]]></description>
-										<content:encoded><![CDATA[<p>The financial technology firm <strong>Finastra</strong> is investigating the alleged large-scale theft of information from its internal file transfer platform, KrebsOnSecurity has learned. Finastra, which provides software and services to 45 of the world&#8217;s top 50 banks, notified customers of the security incident after a cybercriminal began selling more than 400 gigabytes of data purportedly stolen from the company.</p>
-<p><img decoding="async" loading="lazy" class="aligncenter wp-image-50961" src="https://krebsonsecurity.com/wp-content/uploads/2020/03/finastra.png" alt="" width="747" height="453" /></p>
-<p>London-based Finastra has offices in 42 countries and reported $1.9 billion in revenues last year. The company employs more than 7,000 people and serves approximately 8,100 financial institutions around the world. A major part of Finastra&#8217;s day-to-day business involves processing huge volumes of digital files containing instructions for wire and bank transfers on behalf of its clients.</p>
-<p>On November 8, 2024, Finastra notified financial institution customers that on Nov. 7 its security team detected suspicious activity on Finastra&#8217;s internally hosted file transfer platform. Finastra also told customers that someone had begun selling large volumes of files allegedly stolen from its systems.</p>
-<p>&#8220;On November 8, a threat actor communicated on the dark web claiming to have data exfiltrated from this platform,&#8221; reads <a href="https://krebsonsecurity.com/wp-content/uploads/2024/11/finastra-notice.png" target="_blank" rel="noopener">Finastra&#8217;s disclosure</a>, a copy of which was shared by a source at one of the customer firms.</p>
-<p>&#8220;There is no direct impact on customer operations, our customers&#8217; systems, or Finastra&#8217;s ability to serve our customers currently,&#8221; the notice continued. &#8220;We have implemented an alternative secure file sharing platform to ensure continuity, and investigations are ongoing.&#8221;</p>
-<p>But its notice to customers does indicate the intruder managed to extract or &#8220;exfiltrate&#8221; an unspecified volume of customer data.</p>
-<p>&#8220;The threat actor did not deploy malware or tamper with any customer files within the environment,&#8221; the notice reads. &#8220;Furthermore, no files other than the exfiltrated files were viewed or accessed. We remain focused on determining the scope and nature of the data contained within the exfiltrated files.&#8221;<span id="more-69538"></span></p>
-<p>In a written statement in response to questions about the incident, Finastra said it has been &#8220;actively and transparently responding to our customers’ questions and keeping them informed about what we do and do not yet know about the data that was posted.&#8221; The company also shared an updated communication to its clients, which said while it was still investigating the root cause, &#8220;initial evidence points to credentials that were compromised.&#8221;</p>
-<p>&#8220;Additionally, we have been sharing Indicators of Compromise (IOCs) and our CISO has been speaking directly with our customers’ security teams to provide updates on the investigation and our eDiscovery process,&#8221; the statement continues. Here is the rest of what they shared:</p>
-<blockquote><p>&#8220;In terms of eDiscovery, we are analyzing the data to determine what specific customers were affected, while simultaneously assessing and communicating which of our products are not dependent on the specific version of the SFTP platform that was compromised. The impacted SFTP platform is not used by all customers and is not the default platform used by Finastra or its customers to exchange data files associated with a broad suite of our products, so we are working as quickly as possible to rule out affected customers. However, as you can imagine, this is a time-intensive process because we have many large customers that leverage different Finastra products in different parts of their business. We are prioritizing accuracy and transparency in our communications.</p>
-<p>Importantly, for any customers who are deemed to be affected, we will be reaching out and working with them directly.&#8221;</p></blockquote>
-<p>On Nov. 8, a cybercriminal using the nickname &#8220;<strong>abyss0</strong>&#8221; posted on the English-language cybercrime community <strong>BreachForums</strong> that they&#8217;d stolen files belonging to some of Finastra&#8217;s largest banking clients. The data auction did not specify a starting or &#8220;buy it now&#8221; price, but said interested buyers should reach out to them on Telegram.</p>
-<div id="attachment_69542" style="width: 760px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2024/11/finastra-sales-nov8.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-69542" decoding="async" loading="lazy" class="wp-image-69542" src="https://krebsonsecurity.com/wp-content/uploads/2024/11/finastra-sales-nov8.png" alt="" width="750" height="489" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/11/finastra-sales-nov8.png 1052w, https://krebsonsecurity.com/wp-content/uploads/2024/11/finastra-sales-nov8-768x500.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/11/finastra-sales-nov8-782x509.png 782w" sizes="(max-width: 750px) 100vw, 750px" /></a><p id="caption-attachment-69542" class="wp-caption-text">abyss0&#8217;s Nov. 7 sales thread on BreachForums included many screenshots showing the file directory listings for various Finastra customers. Image: Ke-la.com.</p></div>
-<p>According to screenshots collected by the cyber intelligence platform <a href="https://www.ke-la.com" target="_blank" rel="noopener">Ke-la.com</a>, abyss0 first attempted to sell the data allegedly stolen from Finastra on October 31, but that earlier sales thread did not name the victim company. However, it did reference many of the same banks called out as Finastra customers in the Nov. 8 post on BreachForums.</p>
-<div id="attachment_69540" style="width: 758px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2024/11/finastra-bf-oct2024.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-69540" decoding="async" loading="lazy" class="wp-image-69540" src="https://krebsonsecurity.com/wp-content/uploads/2024/11/finastra-bf-oct2024.png" alt="" width="748" height="422" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/11/finastra-bf-oct2024.png 1057w, https://krebsonsecurity.com/wp-content/uploads/2024/11/finastra-bf-oct2024-768x433.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/11/finastra-bf-oct2024-782x441.png 782w" sizes="(max-width: 748px) 100vw, 748px" /></a><p id="caption-attachment-69540" class="wp-caption-text">The original October 31 post from abyss0, where they advertise the sale of data from several large banks that are customers of a large financial software company. Image: Ke-la.com.</p></div>
-<p>The October sales thread also included a starting price: $20,000. By Nov. 3, that price had been reduced to $10,000. A review of abyss0&#8217;s posts to BreachForums reveals this user has offered to sell databases stolen in several dozen other breaches advertised over the past six months.</p>
-<p>The apparent timeline of this breach suggests abyss0 gained access to Finastra&#8217;s file sharing system at least a week before the company says it first detected suspicious activity, and that the Nov. 7 activity cited by Finastra may have been the intruder returning to exfiltrate more data.</p>
-<p>Maybe abyss0 found a buyer who paid for their early retirement. We may never know, because this person has effectively vanished. The Telegram account that abyss0 listed in their sales thread appears to have been suspended or deleted. Likewise, abyss0&#8217;s account on BreachForums no longer exists, and all of their sales threads have since disappeared.</p>
-<p>It seems improbable that both Telegram and BreachForums would have given this user the boot at the same time. The simplest explanation is that something spooked abyss0 enough for them to abandon a number of pending sales opportunities, in addition to a well-manicured cybercrime persona.</p>
-<p>In March 2020, Finastra <a href="https://krebsonsecurity.com/2020/03/security-breach-disrupts-fintech-firm-finastra/" target="_blank" rel="noopener">suffered a ransomware attack</a> that sidelined a number of the company&#8217;s core businesses for days. According to <a href="https://www.bloomberg.com/news/articles/2020-04-08/how-finastra-survived-a-ransomware-attack-without-paying-ransom" target="_blank" rel="noopener">reporting from Bloomberg</a>, Finastra was able to recover from that incident without paying a ransom.</p>
-<p><em>This is a developing story. Updates will be noted with timestamps. If you have any additional information about this incident, please reach out to krebsonsecurity @ gmail.com or at protonmail.com.</em></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2024/11/fintech-giant-finastra-investigating-data-breach/feed/</wfw:commentRss>
-			<slash:comments>15</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 266/266 objects using memcached
+Object Caching 264/264 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2024-12-30 22:55:13 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2024-12-31 00:01:03 by W3 Total Cache
 -->
