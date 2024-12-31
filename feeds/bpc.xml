@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 31 Dec 2024 02:02:02 EST</pubDate>
+        <pubDate>Tue, 31 Dec 2024 03:03:30 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Massive healthcare breaches prompt US cybersecurity rules overhaul</title>
+        <link>https://www.bleepingcomputer.com/news/security/massive-healthcare-breaches-prompt-us-cybersecurity-rules-overhaul/</link>
+        <pubDate>Tue, 31 Dec 2024 02:32:22 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/massive-healthcare-breaches-prompt-us-cybersecurity-rules-overhaul/</guid>
+	<description><![CDATA[The U.S. Department of Health and Human Services (HHS) has proposed updates to the Health Insurance Portability and Accountability Act of 1996 (HIPAA) to secure patients' health data following a surge in massive healthcare data leaks. [...]]]></description>
+ </item>
+
  <item>
         <title>US Treasury Department breached through remote support platform</title>
         <link>https://www.bleepingcomputer.com/news/security/us-treasury-department-breached-through-remote-support-platform/</link>
@@ -156,20 +172,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cybersecurity-firms-chrome-extension-hijacked-to-steal-users-data/</guid>
 	<description><![CDATA[At least five Chrome extensions were compromised in a coordinated attack where a threat actor injected code that steals sensitive information from users. [...]]]></description>
- </item>
-
- <item>
-        <title>Apache warns of critical flaws in MINA, HugeGraph, Traffic Control</title>
-        <link>https://www.bleepingcomputer.com/news/security/apache-warns-of-critical-flaws-in-mina-hugegraph-traffic-control/</link>
-        <pubDate>Thu, 26 Dec 2024 13:27:11 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/apache-warns-of-critical-flaws-in-mina-hugegraph-traffic-control/</guid>
-	<description><![CDATA[The Apache Software Foundation has released security updates to address three severe problems that affect MINA, HugeGraph-Server, and Traffic Control products. [...]]]></description>
  </item>
 
 </channel>
