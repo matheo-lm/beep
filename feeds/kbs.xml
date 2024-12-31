@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 31 Dec 2024 12:14:27 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 31 Dec 2024 17:58:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -44,7 +44,6 @@
 <p>Roen said that prior to her son&#8217;s arrest he&#8217;d acknowledged being associated with <strong>Connor Riley Moucka</strong>, a.k.a. &#8220;<strong>Judische</strong>,&#8221; a prolific cybercriminal from Canada who was <a href="https://krebsonsecurity.com/2024/11/canadian-man-arrested-in-snowflake-data-extortions/" target="_blank" rel="noopener">arrested in late October</a> for stealing data from and extorting dozens of companies that stored data at the cloud service <strong>Snowflake</strong>.</p>
 <p>In an interview with KrebsOnSecurity, Judische said he had no interest in selling the data he&#8217;d stolen from Snowflake customers and telecom providers, and that he preferred to outsource that to Kiberphant0m and others. Meanwhile, Kiberphant0m claimed in posts on Telegram that he was responsible for hacking into at least 15 telecommunications firms, including AT&amp;T and Verizon.</p>
 <p>On November 26, KrebsOnSecurity <a href="https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/" target="_blank" rel="noopener">published a story</a> that followed a trail of clues left behind by Kiberphantom indicating he was a U.S. Army soldier stationed in South Korea.</p>
-<div id="attachment_69971" style="width: 761px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69971" decoding="async" loading="lazy" class=" wp-image-69971" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/cwag-army.png" alt="" width="751" height="641" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/12/cwag-army.png 918w, https://krebsonsecurity.com/wp-content/uploads/2024/12/cwag-army-768x655.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/12/cwag-army-782x667.png 782w" sizes="(max-width: 751px) 100vw, 751px" /><p id="caption-attachment-69971" class="wp-caption-text">An 18-year-old Cameron Wagenius, joining the U.S. Army.</p></div>
 <p>Ms. Roen said Cameron worked on radio signals and network communications at an Army base in South Korea for the past two years, returning to the United States periodically. She said Cameron was always good with computers, but that she had no idea he might have been involved in criminal hacking.</p>
 <p>&#8220;I never was aware he was into hacking,&#8221; Roen said. &#8220;It was definitely a shock to me when we found this stuff out.&#8221;</p>
 <p>Ms. Roen said Cameron joined the Army as soon as he was of age, following in his older brother&#8217;s footsteps.</p>
@@ -66,7 +65,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2024/12/u-s-army-soldier-arrested-in-att-verizon-extortions/feed/</wfw:commentRss>
-			<slash:comments>20</slash:comments>
+			<slash:comments>21</slash:comments>
 		
 		
 			</item>
@@ -683,9 +682,9 @@
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 264/264 objects using memcached
-Page Caching using memcached 
+Object Caching 262/262 objects using memcached
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2024-12-31 12:35:33 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2024-12-31 13:57:25 by W3 Total Cache
 -->
