@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 02 Jan 2025 14:59:39 EST</pubDate>
+        <pubDate>Thu, 02 Jan 2025 16:01:22 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New DoubleClickjacking attack exploits double-clicks to hijack accounts</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-doubleclickjacking-attack-exploits-double-clicks-to-hijack-accounts/</link>
+        <pubDate>Thu, 02 Jan 2025 15:26:11 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-doubleclickjacking-attack-exploits-double-clicks-to-hijack-accounts/</guid>
+	<description><![CDATA[A new variation of clickjacking attacks called "DoubleClickjacking" lets attackers trick users into authorizing sensitive actions using double-clicks while bypassing existing protections against these types of attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Chinese hackers targeted sanctions office in Treasury attack</title>
         <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-targeted-sanctions-office-in-treasury-attack/</link>
@@ -132,20 +146,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-four-faith-router-flaw-to-open-reverse-shells/</guid>
 	<description><![CDATA[Threat actors are exploiting a post-authentication remote command injection vulnerability in Four-Faith routers tracked as CVE-2024-12856 to open reverse shells back to the attackers. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft issues urgent dev warning to update .NET installer link</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-issues-urgent-dev-warning-to-update-net-installer-link/</link>
-        <pubDate>Mon, 30 Dec 2024 10:06:08 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-issues-urgent-dev-warning-to-update-net-installer-link/</guid>
-	<description><![CDATA[Microsoft is forcing .NET developers to quickly update their apps and developer pipelines so they do not use 'azureedge.net' domains to install .NET components, as the domain will soon be unavailable due to the bankruptcy and imminent shutdown of CDN provider Edgio. [...]]]></description>
  </item>
 
 </channel>
