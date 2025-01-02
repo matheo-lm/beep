@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 02 Jan 2025 17:01:45 EST</pubDate>
+        <pubDate>Thu, 02 Jan 2025 18:00:58 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ransomware gang leaks data stolen in Rhode Island's RIBridges Breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/ransomware-gang-leaks-data-stolen-in-rhode-islands-ribridges-breach/</link>
+        <pubDate>Thu, 02 Jan 2025 17:51:01 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ransomware-gang-leaks-data-stolen-in-rhode-islands-ribridges-breach/</guid>
+	<description><![CDATA[The Brain Cipher ransomware gang has begun to leak documents stolen in an attack on Rhode Island's "RIBridges" social services platform. [...]]]></description>
+ </item>
+
  <item>
         <title>New DoubleClickjacking attack exploits double-clicks to hijack accounts</title>
         <link>https://www.bleepingcomputer.com/news/security/new-doubleclickjacking-attack-exploits-double-clicks-to-hijack-accounts/</link>
@@ -130,22 +144,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-treasury-department-breached-through-remote-support-platform/</guid>
 	<description><![CDATA[Chinese state-sponsored threat actors hacked the U.S. Treasury Department after breaching a remote support platform used by the federal agency. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers exploit Four-Faith router flaw to open reverse shells</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-four-faith-router-flaw-to-open-reverse-shells/</link>
-        <pubDate>Mon, 30 Dec 2024 13:03:06 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Hardware]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-four-faith-router-flaw-to-open-reverse-shells/</guid>
-	<description><![CDATA[Threat actors are exploiting a post-authentication remote command injection vulnerability in Four-Faith routers tracked as CVE-2024-12856 to open reverse shells back to the attackers. [...]]]></description>
  </item>
 
 </channel>
