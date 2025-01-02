@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 02 Jan 2025 10:03:03 EST</pubDate>
+        <pubDate>Thu, 02 Jan 2025 10:59:59 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Over 3 million mail servers without encryption exposed to sniffing attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/over-3-million-mail-servers-without-encryption-exposed-to-sniffing-attacks/</link>
+        <pubDate>Thu, 02 Jan 2025 10:54:53 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/over-3-million-mail-servers-without-encryption-exposed-to-sniffing-attacks/</guid>
+	<description><![CDATA[Over three million POP3 and IMAP mail servers without TLS encryption are currently exposed on the Internet and vulnerable to network sniffing attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>The biggest cybersecurity and cyberattack stories of 2024</title>
         <link>https://www.bleepingcomputer.com/news/security/the-biggest-cybersecurity-and-cyberattack-stories-of-2024/</link>
@@ -132,20 +146,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/atandt-and-verizon-say-networks-secure-after-salt-typhoon-breach/</guid>
 	<description><![CDATA[AT&T and Verizon confirmed they were breached in a massive Chinese espionage campaign targeting telecom carriers worldwide but said the hackers have now been evicted from their networks. [...]]]></description>
- </item>
-
- <item>
-        <title>Malware botnets exploit outdated D-Link routers in recent attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/malware-botnets-exploit-outdated-d-link-routers-in-recent-attacks/</link>
-        <pubDate>Sun, 29 Dec 2024 10:09:28 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/malware-botnets-exploit-outdated-d-link-routers-in-recent-attacks/</guid>
-	<description><![CDATA[Two botnets tracked as 'Ficora' and 'Capsaicin' have recorded increased activity in targeting D-Link routers that have reached end of life or are running outdated firmware versions. [...]]]></description>
  </item>
 
 </channel>
