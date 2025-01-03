@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 03 Jan 2025 10:00:43 EST</pubDate>
+        <pubDate>Fri, 03 Jan 2025 10:58:39 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Malicious npm packages target Ethereum developers' private keys</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-npm-packages-target-ethereum-developers-private-keys/</link>
+        <pubDate>Fri, 03 Jan 2025 10:53:34 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-npm-packages-target-ethereum-developers-private-keys/</guid>
+	<description><![CDATA[Twenty malicious packages impersonating the Hardhat development environment used by Ethereum developers are targeting private keys and other sensitive data. [...]]]></description>
+ </item>
+
  <item>
         <title>Apple offers $95 million in Siri privacy violation settlement</title>
         <link>https://www.bleepingcomputer.com/news/security/apple-offers-95-million-in-siri-privacy-violation-settlement/</link>
@@ -128,22 +142,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-details-reveal-how-hackers-hijacked-35-google-chrome-extensions/</guid>
 	<description><![CDATA[New details have emerged about a phishing campaign targeting Chrome browser extension developers that led to the compromise of at least thirty-five extensions to inject data-stealing code, including those from cybersecurity firm Cyberhaven. [...]]]></description>
- </item>
-
- <item>
-        <title>Over 3.1 million fake "stars" on GitHub projects used to boost rankings</title>
-        <link>https://www.bleepingcomputer.com/news/security/over-31-million-fake-stars-on-github-projects-used-to-boost-rankings/</link>
-        <pubDate>Tue, 31 Dec 2024 10:13:12 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/over-31-million-fake-stars-on-github-projects-used-to-boost-rankings/</guid>
-	<description><![CDATA[GitHub has a problem with inauthentic "stars" used to artificially inflate the popularity of scam and malware distribution repositories, helping them reach more unsuspecting users. [...]]]></description>
  </item>
 
 </channel>
