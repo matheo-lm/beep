@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 03 Jan 2025 08:59:00 EST</pubDate>
+        <pubDate>Fri, 03 Jan 2025 10:00:43 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Apple offers $95 million in Siri privacy violation settlement</title>
+        <link>https://www.bleepingcomputer.com/news/security/apple-offers-95-million-in-siri-privacy-violation-settlement/</link>
+        <pubDate>Fri, 03 Jan 2025 09:30:31 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apple-offers-95-million-in-siri-privacy-violation-settlement/</guid>
+	<description><![CDATA[Apple has agreed to pay $95 million to settle a class action lawsuit in the U.S. alleging that its Siri assistant recorded private conversations and shared them with third parties. [...]]]></description>
+ </item>
+
+ <item>
+        <title>French govt contractor Atos denies Space Bears ransomware attack claims</title>
+        <link>https://www.bleepingcomputer.com/news/security/french-govt-contractor-atos-denies-space-bears-ransomware-attack-claims/</link>
+        <pubDate>Fri, 03 Jan 2025 09:20:00 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/french-govt-contractor-atos-denies-space-bears-ransomware-attack-claims/</guid>
+	<description><![CDATA[French tech giant Atos, which secures communications for the country's military and secret services, has denied claims made by the Space Bears ransomware gang that they compromised one of its databases. [...]]]></description>
+ </item>
+
  <item>
         <title>Ransomware gang leaks data stolen in Rhode Island's RIBridges Breach</title>
         <link>https://www.bleepingcomputer.com/news/security/ransomware-gang-leaks-data-stolen-in-rhode-islands-ribridges-breach/</link>
@@ -114,36 +144,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/over-31-million-fake-stars-on-github-projects-used-to-boost-rankings/</guid>
 	<description><![CDATA[GitHub has a problem with inauthentic "stars" used to artificially inflate the popularity of scam and malware distribution repositories, helping them reach more unsuspecting users. [...]]]></description>
- </item>
-
- <item>
-        <title>Massive healthcare breaches prompt US cybersecurity rules overhaul</title>
-        <link>https://www.bleepingcomputer.com/news/security/massive-healthcare-breaches-prompt-us-cybersecurity-rules-overhaul/</link>
-        <pubDate>Tue, 31 Dec 2024 02:32:22 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/massive-healthcare-breaches-prompt-us-cybersecurity-rules-overhaul/</guid>
-	<description><![CDATA[The U.S. Department of Health and Human Services (HHS) has proposed updates to the Health Insurance Portability and Accountability Act of 1996 (HIPAA) to secure patients' health data following a surge in massive healthcare data leaks. [...]]]></description>
- </item>
-
- <item>
-        <title>US Treasury Department breached through remote support platform</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-treasury-department-breached-through-remote-support-platform/</link>
-        <pubDate>Mon, 30 Dec 2024 17:19:42 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-treasury-department-breached-through-remote-support-platform/</guid>
-	<description><![CDATA[Chinese state-sponsored threat actors hacked the U.S. Treasury Department after breaching a remote support platform used by the federal agency. [...]]]></description>
  </item>
 
 </channel>
