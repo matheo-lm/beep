@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 03 Jan 2025 10:58:39 EST</pubDate>
+        <pubDate>Fri, 03 Jan 2025 12:00:27 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US sanctions Chinese company linked to Flax Typhoon hackers</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-sanctions-chinese-company-linked-to-flax-typhoon-hackers/</link>
+        <pubDate>Fri, 03 Jan 2025 11:19:53 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-sanctions-chinese-company-linked-to-flax-typhoon-hackers/</guid>
+	<description><![CDATA[​The U.S. Treasury Department has sanctioned Beijing-based cybersecurity company Integrity Tech (also known as Yongxin Zhicheng) for its involvement in cyberattacks attributed to the Chinese state-sponsored Flax Typhoon hacking group. [...]]]></description>
+ </item>
+
  <item>
         <title>Malicious npm packages target Ethereum developers' private keys</title>
         <link>https://www.bleepingcomputer.com/news/security/malicious-npm-packages-target-ethereum-developers-private-keys/</link>
@@ -128,20 +142,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/the-biggest-cybersecurity-and-cyberattack-stories-of-2024/</guid>
 	<description><![CDATA[2024 was a big year for cybersecurity, with significant cyberattacks, data breaches, new threat groups emerging, and, of course, zero-day vulnerabilities. Below are fourteen of what BleepingComputer believes are the most impactful cybersecurity stories of 2024. [...]]]></description>
- </item>
-
- <item>
-        <title>New details reveal how hackers hijacked 35 Google Chrome extensions</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-details-reveal-how-hackers-hijacked-35-google-chrome-extensions/</link>
-        <pubDate>Tue, 31 Dec 2024 13:54:11 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-details-reveal-how-hackers-hijacked-35-google-chrome-extensions/</guid>
-	<description><![CDATA[New details have emerged about a phishing campaign targeting Chrome browser extension developers that led to the compromise of at least thirty-five extensions to inject data-stealing code, including those from cybersecurity firm Cyberhaven. [...]]]></description>
  </item>
 
 </channel>
