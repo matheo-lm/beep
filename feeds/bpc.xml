@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 04 Jan 2025 16:59:30 EST</pubDate>
+        <pubDate>Sat, 04 Jan 2025 18:02:33 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Nuclei flaw bypasses template signature checks to execute commands</title>
+        <link>https://www.bleepingcomputer.com/news/security/nuclei-flaw-bypasses-template-signature-checks-to-execute-commands/</link>
+        <pubDate>Sat, 04 Jan 2025 17:59:25 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/nuclei-flaw-bypasses-template-signature-checks-to-execute-commands/</guid>
+	<description><![CDATA[A now-fixed vulnerability in the open-source vulnerability scanner Nuclei could potentially allow attackers to bypass signature verification while sneaking malicious code into templates that execute on local systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Google Chrome is making it easier to share specific parts of long PDFs</title>
         <link>https://www.bleepingcomputer.com/news/google/google-chrome-is-making-it-easier-to-share-specific-parts-of-long-pdfs/</link>
