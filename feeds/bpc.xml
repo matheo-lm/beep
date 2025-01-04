@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 04 Jan 2025 14:00:42 EST</pubDate>
+        <pubDate>Sat, 04 Jan 2025 14:58:31 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google Chrome is making it easier to share specific parts of long PDFs</title>
+        <link>https://www.bleepingcomputer.com/news/google/google-chrome-is-making-it-easier-to-share-specific-parts-of-long-pdfs/</link>
+        <pubDate>Sat, 04 Jan 2025 14:18:19 -0500</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/google/google-chrome-is-making-it-easier-to-share-specific-parts-of-long-pdfs/</guid>
+	<description><![CDATA[Google is adding the Text Fragment feature to its PDF reader to make it easier to share specific parts of long PDFs. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New FireScam Android malware poses as RuStore app to steal data</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-firescam-android-malware-poses-as-rustore-app-to-steal-data/</link>
+        <pubDate>Sat, 04 Jan 2025 10:16:26 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-firescam-android-malware-poses-as-rustore-app-to-steal-data/</guid>
+	<description><![CDATA[A new Android malware named 'FireScam' is being distributed as a premium version of the Telegram app via phishing websites on GitHub that mimick the RuStore, Russia's app market for mobile devices. [...]]]></description>
+ </item>
+
  <item>
         <title>Bad Tenable plugin updates take down Nessus agents worldwide</title>
         <link>https://www.bleepingcomputer.com/news/security/bad-tenable-plugin-updates-take-down-nessus-agents-worldwide/</link>
@@ -142,20 +174,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/over-3-million-mail-servers-without-encryption-exposed-to-sniffing-attacks/</guid>
 	<description><![CDATA[Over three million POP3 and IMAP mail servers without TLS encryption are currently exposed on the Internet and vulnerable to network sniffing attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>The biggest cybersecurity and cyberattack stories of 2024</title>
-        <link>https://www.bleepingcomputer.com/news/security/the-biggest-cybersecurity-and-cyberattack-stories-of-2024/</link>
-        <pubDate>Wed, 01 Jan 2025 11:03:14 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/the-biggest-cybersecurity-and-cyberattack-stories-of-2024/</guid>
-	<description><![CDATA[2024 was a big year for cybersecurity, with significant cyberattacks, data breaches, new threat groups emerging, and, of course, zero-day vulnerabilities. Below are fourteen of what BleepingComputer believes are the most impactful cybersecurity stories of 2024. [...]]]></description>
  </item>
 
 </channel>
