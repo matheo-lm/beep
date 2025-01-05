@@ -11,14 +11,14 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 04 Jan 2025 22:08:37 EST</pubDate>
+        <pubDate>Sat, 04 Jan 2025 23:01:48 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
  <item>
-        <title>Nuclei flaw bypasses template signature checks to execute commands</title>
-        <link>https://www.bleepingcomputer.com/news/security/nuclei-flaw-bypasses-template-signature-checks-to-execute-commands/</link>
+        <title>Nuclei flaw lets malicious templates bypass signature verification</title>
+        <link>https://www.bleepingcomputer.com/news/security/nuclei-flaw-lets-malicious-templates-bypass-signature-verification/</link>
         <pubDate>Sat, 04 Jan 2025 17:59:25 -0500</pubDate>
         <dc:creator>Lawrence Abrams</dc:creator>
 
@@ -26,7 +26,7 @@
         <category><![CDATA[Security]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/security/nuclei-flaw-bypasses-template-signature-checks-to-execute-commands/</guid>
+        <guid>https://www.bleepingcomputer.com/news/security/nuclei-flaw-lets-malicious-templates-bypass-signature-verification/</guid>
 	<description><![CDATA[A now-fixed vulnerability in the open-source vulnerability scanner Nuclei could potentially allow attackers to bypass signature verification while sneaking malicious code into templates that execute on local systems. [...]]]></description>
  </item>
 
@@ -47,8 +47,8 @@
  </item>
 
  <item>
-        <title>New FireScam Android malware poses as RuStore app to steal data</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-firescam-android-malware-poses-as-rustore-app-to-steal-data/</link>
+        <title>New FireScam Android data-theft malware poses as Telegram Premium app</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-firescam-android-data-theft-malware-poses-as-telegram-premium-app/</link>
         <pubDate>Sat, 04 Jan 2025 10:16:26 -0500</pubDate>
         <dc:creator>Bill Toulas</dc:creator>
 
@@ -58,7 +58,7 @@
         <category><![CDATA[Mobile]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/security/new-firescam-android-malware-poses-as-rustore-app-to-steal-data/</guid>
+        <guid>https://www.bleepingcomputer.com/news/security/new-firescam-android-data-theft-malware-poses-as-telegram-premium-app/</guid>
 	<description><![CDATA[A new Android malware named 'FireScam' is being distributed as a premium version of the Telegram app via phishing websites on GitHub that mimick the RuStore, Russia's app market for mobile devices. [...]]]></description>
  </item>
 
