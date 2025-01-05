@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 05 Jan 2025 15:02:59 EST</pubDate>
+        <pubDate>Sun, 05 Jan 2025 15:57:59 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 10 users urged to upgrade to avoid "security fiasco"</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-users-urged-to-upgrade-to-avoid-security-fiasco/</link>
+        <pubDate>Sun, 05 Jan 2025 15:48:04 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-users-urged-to-upgrade-to-avoid-security-fiasco/</guid>
+	<description><![CDATA[​Cybersecurity firm ESET is urging Windows 10 users to upgrade to Windows 11 or Linux to avoid a "security fiasco" as the 10-year-old operating system nears the end of support in October 2025. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Cryptocurrency wallet drainers stole $494 million in 2024</title>
+        <link>https://www.bleepingcomputer.com/news/security/cryptocurrency-wallet-drainers-stole-494-million-in-2024/</link>
+        <pubDate>Sun, 05 Jan 2025 10:11:21 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cryptocurrency-wallet-drainers-stole-494-million-in-2024/</guid>
+	<description><![CDATA[Scammers stole $494 million worth of cryptocurrency in wallet drainer attacks last year that targeted more than 300,000 wallet addresses. [...]]]></description>
+ </item>
+
  <item>
         <title>Nuclei flaw lets malicious templates bypass signature verification</title>
         <link>https://www.bleepingcomputer.com/news/security/nuclei-flaw-lets-malicious-templates-bypass-signature-verification/</link>
@@ -160,34 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-doubleclickjacking-attack-exploits-double-clicks-to-hijack-accounts/</guid>
 	<description><![CDATA[A new variation of clickjacking attacks called "DoubleClickjacking" lets attackers trick users into authorizing sensitive actions using double-clicks while bypassing existing protections against these types of attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Chinese hackers targeted sanctions office in Treasury attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-targeted-sanctions-office-in-treasury-attack/</link>
-        <pubDate>Thu, 02 Jan 2025 13:09:03 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/chinese-hackers-targeted-sanctions-office-in-treasury-attack/</guid>
-	<description><![CDATA[​Chinese state-backed hackers have reportedly breached the Office of Foreign Assets Control (OFAC), a Treasury Department office that administers and enforces trade and economic sanctions programs. [...]]]></description>
- </item>
-
- <item>
-        <title>Over 3 million mail servers without encryption exposed to sniffing attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/over-3-million-mail-servers-without-encryption-exposed-to-sniffing-attacks/</link>
-        <pubDate>Thu, 02 Jan 2025 10:54:53 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/over-3-million-mail-servers-without-encryption-exposed-to-sniffing-attacks/</guid>
-	<description><![CDATA[Over three million POP3 and IMAP mail servers without TLS encryption are currently exposed on the Internet and vulnerable to network sniffing attacks. [...]]]></description>
  </item>
 
 </channel>
