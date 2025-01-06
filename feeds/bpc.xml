@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 06 Jan 2025 11:58:42 EST</pubDate>
+        <pubDate>Mon, 06 Jan 2025 13:03:03 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Vulnerable Moxa devices expose industrial networks to attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/vulnerable-moxa-devices-expose-industrial-networks-to-attacks/</link>
+        <pubDate>Mon, 06 Jan 2025 12:15:46 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/vulnerable-moxa-devices-expose-industrial-networks-to-attacks/</guid>
+	<description><![CDATA[Industrial networking and communications provider Moxa is warning of a high-severity and a critical vulnerability that impact various models of its cellular routers, secure routers, and network security appliances. [...]]]></description>
+ </item>
+
  <item>
         <title>Chinese hackers also breached Charter and Windstream networks</title>
         <link>https://www.bleepingcomputer.com/news/security/charter-and-windstream-among-nine-us-telecoms-hacked-by-china/</link>
@@ -180,20 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-sanctions-chinese-company-linked-to-flax-typhoon-hackers/</guid>
 	<description><![CDATA[​The U.S. Treasury Department has sanctioned Beijing-based cybersecurity company Integrity Tech (also known as Yongxin Zhicheng) for its involvement in cyberattacks attributed to the Chinese state-sponsored Flax Typhoon hacking group. [...]]]></description>
- </item>
-
- <item>
-        <title>Malicious npm packages target Ethereum developers' private keys</title>
-        <link>https://www.bleepingcomputer.com/news/security/malicious-npm-packages-target-ethereum-developers-private-keys/</link>
-        <pubDate>Fri, 03 Jan 2025 10:53:34 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/malicious-npm-packages-target-ethereum-developers-private-keys/</guid>
-	<description><![CDATA[Twenty malicious packages impersonating the Hardhat development environment used by Ethereum developers are targeting private keys and other sensitive data. [...]]]></description>
  </item>
 
 </channel>
