@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 06 Jan 2025 10:00:00 EST</pubDate>
+        <pubDate>Mon, 06 Jan 2025 11:03:21 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Chinese hackers also breached Charter and Windstream networks</title>
+        <link>https://www.bleepingcomputer.com/news/security/charter-and-windstream-among-nine-us-telecoms-hacked-by-china/</link>
+        <pubDate>Mon, 06 Jan 2025 10:27:53 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/charter-and-windstream-among-nine-us-telecoms-hacked-by-china/</guid>
+	<description><![CDATA[​More U.S. companies have been added to the list of telecommunications firms hacked in a wave of breaches by a Chinese state-backed threat group tracked as Salt Typhoon. [...]]]></description>
+ </item>
+
  <item>
         <title>Eagerbee backdoor deployed against Middle Eastern govt orgs, ISPs</title>
         <link>https://www.bleepingcomputer.com/news/security/eagerbee-backdoor-deployed-against-middle-eastern-govt-orgs-isps/</link>
@@ -180,22 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/malicious-npm-packages-target-ethereum-developers-private-keys/</guid>
 	<description><![CDATA[Twenty malicious packages impersonating the Hardhat development environment used by Ethereum developers are targeting private keys and other sensitive data. [...]]]></description>
- </item>
-
- <item>
-        <title>Apple offers $95 million in Siri privacy violation settlement</title>
-        <link>https://www.bleepingcomputer.com/news/security/apple-offers-95-million-in-siri-privacy-violation-settlement/</link>
-        <pubDate>Fri, 03 Jan 2025 09:30:31 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/apple-offers-95-million-in-siri-privacy-violation-settlement/</guid>
-	<description><![CDATA[Apple has agreed to pay $95 million to settle a class action lawsuit in the U.S. alleging that its Siri assistant recorded private conversations and shared them with third parties. [...]]]></description>
  </item>
 
 </channel>
