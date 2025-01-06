@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 06 Jan 2025 15:02:05 EST</pubDate>
+        <pubDate>Mon, 06 Jan 2025 15:58:26 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA says recent government hack limited to US Treasury</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-says-recent-government-hack-limited-to-us-treasury/</link>
+        <pubDate>Mon, 06 Jan 2025 15:58:23 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-says-recent-government-hack-limited-to-us-treasury/</guid>
+	<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) said today that the Treasury Department breach disclosed last week did not impact other federal agencies. [...]]]></description>
+ </item>
+
  <item>
         <title>Vulnerable Moxa devices expose industrial networks to attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/vulnerable-moxa-devices-expose-industrial-networks-to-attacks/</link>
@@ -182,20 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/bad-tenable-plugin-updates-take-down-nessus-agents-worldwide/</guid>
 	<description><![CDATA[Tenable says customers must manually upgrade their software to revive Nessus vulnerability scanner agents taken offline on December 31st due to buggy differential plugin updates. [...]]]></description>
- </item>
-
- <item>
-        <title>US sanctions Chinese company linked to Flax Typhoon hackers</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-sanctions-chinese-company-linked-to-flax-typhoon-hackers/</link>
-        <pubDate>Fri, 03 Jan 2025 11:19:53 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-sanctions-chinese-company-linked-to-flax-typhoon-hackers/</guid>
-	<description><![CDATA[​The U.S. Treasury Department has sanctioned Beijing-based cybersecurity company Integrity Tech (also known as Yongxin Zhicheng) for its involvement in cyberattacks attributed to the Chinese state-sponsored Flax Typhoon hacking group. [...]]]></description>
  </item>
 
 </channel>
