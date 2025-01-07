@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Tue, 31 Dec 2024 17:58:11 +0000</lastBuildDate>
@@ -686,5 +686,5 @@ Object Caching 262/262 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-07 01:53:43 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-07 04:11:00 by W3 Total Cache
 -->
