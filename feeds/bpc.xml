@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 07 Jan 2025 08:04:27 EST</pubDate>
+        <pubDate>Tue, 07 Jan 2025 09:51:41 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Green Bay Packers' online store hacked to steal credit cards</title>
+        <link>https://www.bleepingcomputer.com/news/security/green-bay-packers-online-store-hacked-to-steal-credit-cards/</link>
+        <pubDate>Tue, 07 Jan 2025 09:00:08 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/green-bay-packers-online-store-hacked-to-steal-credit-cards/</guid>
+	<description><![CDATA[The Green Bay Packers American football team is notifying fans that a threat actor hacked its official online retail store in October and injected a card skimmer script to steal customers' personal and payment information. [...]]]></description>
+ </item>
+
  <item>
         <title>CISA says recent government hack limited to US Treasury</title>
         <link>https://www.bleepingcomputer.com/news/security/cisa-says-recent-government-hack-limited-to-us-treasury/</link>
@@ -182,20 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-firescam-android-data-theft-malware-poses-as-telegram-premium-app/</guid>
 	<description><![CDATA[A new Android malware named 'FireScam' is being distributed as a premium version of the Telegram app via phishing websites on GitHub that mimick the RuStore, Russia's app market for mobile devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Bad Tenable plugin updates take down Nessus agents worldwide</title>
-        <link>https://www.bleepingcomputer.com/news/security/bad-tenable-plugin-updates-take-down-nessus-agents-worldwide/</link>
-        <pubDate>Fri, 03 Jan 2025 17:57:59 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/bad-tenable-plugin-updates-take-down-nessus-agents-worldwide/</guid>
-	<description><![CDATA[Tenable says customers must manually upgrade their software to revive Nessus vulnerability scanner agents taken offline on December 31st due to buggy differential plugin updates. [...]]]></description>
  </item>
 
 </channel>
