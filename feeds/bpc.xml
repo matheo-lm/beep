@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 07 Jan 2025 09:51:41 EST</pubDate>
+        <pubDate>Tue, 07 Jan 2025 10:25:27 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Malicious Browser Extensions are the Next Frontier for Identity Attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-browser-extensions-are-the-next-frontier-for-identity-attacks/</link>
+        <pubDate>Tue, 07 Jan 2025 10:02:28 -0500</pubDate>
+        <dc:creator>Sponsored by  LayerX</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-browser-extensions-are-the-next-frontier-for-identity-attacks/</guid>
+	<description><![CDATA[A recent campaign targeting browser extensions illustrates that they are the next frontier in identity attacks. Learn more about these attacks from LayerX Security and how to receive a free extension audit. [...]]]></description>
+ </item>
+
  <item>
         <title>Green Bay Packers' online store hacked to steal credit cards</title>
         <link>https://www.bleepingcomputer.com/news/security/green-bay-packers-online-store-hacked-to-steal-credit-cards/</link>
@@ -180,22 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/google/google-chrome-is-making-it-easier-to-share-specific-parts-of-long-pdfs/</guid>
 	<description><![CDATA[Google is adding the Text Fragment feature to its PDF reader to make it easier to share specific parts of long PDFs. [...]]]></description>
- </item>
-
- <item>
-        <title>New FireScam Android data-theft malware poses as Telegram Premium app</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-firescam-android-data-theft-malware-poses-as-telegram-premium-app/</link>
-        <pubDate>Sat, 04 Jan 2025 10:16:26 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-firescam-android-data-theft-malware-poses-as-telegram-premium-app/</guid>
-	<description><![CDATA[A new Android malware named 'FireScam' is being distributed as a premium version of the Telegram app via phishing websites on GitHub that mimick the RuStore, Russia's app market for mobile devices. [...]]]></description>
  </item>
 
 </channel>
