@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 07 Jan 2025 13:00:11 EST</pubDate>
+        <pubDate>Tue, 07 Jan 2025 14:00:36 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA warns of critical Oracle, Mitel flaws exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-oracle-mitel-flaws-exploited-in-attacks/</link>
+        <pubDate>Tue, 07 Jan 2025 13:45:29 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-oracle-mitel-flaws-exploited-in-attacks/</guid>
+	<description><![CDATA[CISA has warned U.S. federal agencies to secure their systems against critical vulnerabilities in Oracle WebLogic Server and Mitel MiCollab systems that are actively exploited in attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Washington state sues T-Mobile over 2021 data breach security failures</title>
+        <link>https://www.bleepingcomputer.com/news/legal/washington-state-sues-t-mobile-over-2021-data-breach-security-failures/</link>
+        <pubDate>Tue, 07 Jan 2025 13:08:24 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Legal]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/legal/washington-state-sues-t-mobile-over-2021-data-breach-security-failures/</guid>
+	<description><![CDATA[Washington state has sued T-Mobile over failing to secure the sensitive personal information of over 2 million Washington residents in a 2021 data breach. [...]]]></description>
+ </item>
+
  <item>
         <title>UN aviation agency investigating 'potential' security breach</title>
         <link>https://www.bleepingcomputer.com/news/security/un-aviation-agency-investigating-potential-security-breach/</link>
@@ -176,22 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-users-urged-to-upgrade-to-avoid-security-fiasco/</guid>
 	<description><![CDATA[​Cybersecurity firm ESET is urging Windows 10 users to upgrade to Windows 11 or Linux to avoid a "security fiasco" as the 10-year-old operating system nears the end of support in October 2025. [...]]]></description>
- </item>
-
- <item>
-        <title>Cryptocurrency wallet drainers stole $494 million in 2024</title>
-        <link>https://www.bleepingcomputer.com/news/security/cryptocurrency-wallet-drainers-stole-494-million-in-2024/</link>
-        <pubDate>Sun, 05 Jan 2025 10:11:21 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cryptocurrency-wallet-drainers-stole-494-million-in-2024/</guid>
-	<description><![CDATA[Scammers stole $494 million worth of cryptocurrency in wallet drainer attacks last year that targeted more than 300,000 wallet addresses. [...]]]></description>
  </item>
 
 </channel>
