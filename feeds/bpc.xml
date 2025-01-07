@@ -11,11 +11,53 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 07 Jan 2025 15:00:55 EST</pubDate>
+        <pubDate>Tue, 07 Jan 2025 15:59:25 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Mirai botnet targets industrial routers with zero-day exploits</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-mirai-botnet-targets-industrial-routers-with-zero-day-exploits/</link>
+        <pubDate>Tue, 07 Jan 2025 15:44:06 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-mirai-botnet-targets-industrial-routers-with-zero-day-exploits/</guid>
+	<description><![CDATA[A relatively new Mirai-based botnet has been growing in sophistication and is now leveraging zero-day exploits for security flaws in industrial routers and smart home devices. [...]]]></description>
+ </item>
+
+ <item>
+        <title>US govt launches cybersecurity safety label for smart devices</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-govt-launches-cybersecurity-safety-label-for-smart-devices/</link>
+        <pubDate>Tue, 07 Jan 2025 15:21:26 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-govt-launches-cybersecurity-safety-label-for-smart-devices/</guid>
+	<description><![CDATA[​Today, the White House announced the launch of the U.S. Cyber Trust Mark, a new cybersecurity safety label for internet-connected consumer devices. [...]]]></description>
+ </item>
+
+ <item>
+        <title>BIOS flaws expose iSeq DNA sequencers to bootkit attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/bios-flaws-expose-iseq-dna-sequencers-to-bootkit-attacks/</link>
+        <pubDate>Tue, 07 Jan 2025 14:02:41 -0500</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/bios-flaws-expose-iseq-dna-sequencers-to-bootkit-attacks/</guid>
+	<description><![CDATA[BIOS/UEFI vulnerabilities in the iSeq 100 DNA sequencer from U.S. biotechnology company Illumina could let attackers disable devices used for detecting illnesses and developing vaccines. [...]]]></description>
+ </item>
+
  <item>
         <title>CISA warns of critical Oracle, Mitel flaws exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-oracle-mitel-flaws-exploited-in-attacks/</link>
@@ -174,38 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-bing-shows-misleading-google-like-page-for-google-searches/</guid>
 	<description><![CDATA[Microsoft Bing is displaying what is being categorized as a misleading Google-esque search page when users search for Google, making it look you are on the competing search engine. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft may have scrapped Windows 11's dynamic wallpapers feature</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-may-have-scrapped-windows-11s-dynamic-wallpapers-feature/</link>
-        <pubDate>Sun, 05 Jan 2025 17:42:03 -0500</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-may-have-scrapped-windows-11s-dynamic-wallpapers-feature/</guid>
-	<description><![CDATA[Microsoft has many good ideas for Windows 11 that often do not ship, and one of them was "Dynamic Wallpapers," which, as the name suggests, could have made the wallpaper dynamic, similar to third-party tools like Lively Wallpaper. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 10 users urged to upgrade to avoid "security fiasco"</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-users-urged-to-upgrade-to-avoid-security-fiasco/</link>
-        <pubDate>Sun, 05 Jan 2025 15:48:04 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-users-urged-to-upgrade-to-avoid-security-fiasco/</guid>
-	<description><![CDATA[​Cybersecurity firm ESET is urging Windows 10 users to upgrade to Windows 11 or Linux to avoid a "security fiasco" as the 10-year-old operating system nears the end of support in October 2025. [...]]]></description>
  </item>
 
 </channel>
