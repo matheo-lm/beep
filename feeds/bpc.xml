@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 08 Jan 2025 10:01:45 EST</pubDate>
+        <pubDate>Wed, 08 Jan 2025 10:58:48 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Thousands of credit cards stolen in Green Bay Packers store breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/thousands-of-credit-cards-stolen-in-green-bay-packers-store-breach/</link>
+        <pubDate>Wed, 08 Jan 2025 10:05:50 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/thousands-of-credit-cards-stolen-in-green-bay-packers-store-breach/</guid>
+	<description><![CDATA[​American football team Green Bay Packers says cybercriminals stole the credit card data of over 8,500 customers after hacking its official Pro Shop online retail store in a September breach. [...]]]></description>
+ </item>
+
+ <item>
+        <title>How initial access brokers (IABs) sell your users’ credentials</title>
+        <link>https://www.bleepingcomputer.com/news/security/how-initial-access-brokers-iabs-sell-your-users-credentials/</link>
+        <pubDate>Wed, 08 Jan 2025 10:04:45 -0500</pubDate>
+        <dc:creator>Sponsored by Specops Software</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/how-initial-access-brokers-iabs-sell-your-users-credentials/</guid>
+	<description><![CDATA[Initial Access Brokers (IABs) are specialized cybercriminals that break into corporate networks and sell stolen access to other attackers.  Learn from Specops Software about how IABs operate and how businesses can protect themselves. [...]]]></description>
+ </item>
+
  <item>
         <title>UN aviation agency confirms recruitment database security breach</title>
         <link>https://www.bleepingcomputer.com/news/security/un-aviation-agency-confirms-recruitment-database-security-breach/</link>
@@ -184,20 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/green-bay-packers-online-store-hacked-to-steal-credit-cards/</guid>
 	<description><![CDATA[The Green Bay Packers American football team is notifying fans that a threat actor hacked its official online retail store in October and injected a card skimmer script to steal customers' personal and payment information. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA says recent government hack limited to US Treasury</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-says-recent-government-hack-limited-to-us-treasury/</link>
-        <pubDate>Mon, 06 Jan 2025 15:58:23 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-says-recent-government-hack-limited-to-us-treasury/</guid>
-	<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) said today that the Treasury Department breach disclosed last week did not impact other federal agencies. [...]]]></description>
  </item>
 
 </channel>
