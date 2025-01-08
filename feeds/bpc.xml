@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 08 Jan 2025 11:59:47 EST</pubDate>
+        <pubDate>Wed, 08 Jan 2025 13:03:10 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Over 4,000 backdoors hijacked by registering expired domains</title>
+        <link>https://www.bleepingcomputer.com/news/security/over-4-000-backdoors-hijacked-by-registering-expired-domains/</link>
+        <pubDate>Wed, 08 Jan 2025 12:34:54 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Government]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/over-4-000-backdoors-hijacked-by-registering-expired-domains/</guid>
+	<description><![CDATA[Over 4,000 abandoned but still active web backdoors were hijacked and their communication infrastructure sinkholed after researchers registered expired domains used for commanding them. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Medical billing firm Medusind discloses breach affecting 360,000 people</title>
+        <link>https://www.bleepingcomputer.com/news/security/medical-billing-firm-medusind-discloses-breach-affecting-360-000-people/</link>
+        <pubDate>Wed, 08 Jan 2025 12:28:01 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/medical-billing-firm-medusind-discloses-breach-affecting-360-000-people/</guid>
+	<description><![CDATA[​Medusind, a leading billing provider for healthcare organizations, is notifying hundreds of thousands of individuals of a data breach that exposed their personal and health information more than a year ago, in December 2023. [...]]]></description>
+ </item>
+
  <item>
         <title>Thousands of credit cards stolen in Green Bay Packers store breach</title>
         <link>https://www.bleepingcomputer.com/news/security/thousands-of-credit-cards-stolen-in-green-bay-packers-store-breach/</link>
@@ -184,34 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/legal/telegram-hands-over-data-on-thousands-of-users-to-us-law-enforcement/</guid>
 	<description><![CDATA[Telegram reveals that the communications platform has fulfilled 900 U.S. government requests, sharing the phone number or IP address information of 2,253 users with law enforcement. [...]]]></description>
- </item>
-
- <item>
-        <title>Malicious Browser Extensions are the Next Frontier for Identity Attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/malicious-browser-extensions-are-the-next-frontier-for-identity-attacks/</link>
-        <pubDate>Tue, 07 Jan 2025 10:02:28 -0500</pubDate>
-        <dc:creator>Sponsored by  LayerX</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/malicious-browser-extensions-are-the-next-frontier-for-identity-attacks/</guid>
-	<description><![CDATA[A recent campaign targeting browser extensions illustrates that they are the next frontier in identity attacks. Learn more about these attacks from LayerX Security and how to receive a free extension audit. [...]]]></description>
- </item>
-
- <item>
-        <title>Green Bay Packers' online store hacked to steal credit cards</title>
-        <link>https://www.bleepingcomputer.com/news/security/green-bay-packers-online-store-hacked-to-steal-credit-cards/</link>
-        <pubDate>Tue, 07 Jan 2025 09:00:08 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/green-bay-packers-online-store-hacked-to-steal-credit-cards/</guid>
-	<description><![CDATA[The Green Bay Packers American football team is notifying fans that a threat actor hacked its official online retail store in October and injected a card skimmer script to steal customers' personal and payment information. [...]]]></description>
  </item>
 
 </channel>
