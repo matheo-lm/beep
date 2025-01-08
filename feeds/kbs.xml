@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 08 Jan 2025 01:26:27 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 08 Jan 2025 03:31:20 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -112,7 +112,7 @@
 <h2>LIFE IS A GAME: MONEY IS HOW WE KEEP SCORE</h2>
 <p>Cybercriminals involved in voice phishing communities on Telegram are universally obsessed with their crypto holdings, mainly because in this community one&#8217;s demonstrable wealth is primarily what confers social status. It is not uncommon to see members sizing one another up using a verbal shorthand of &#8220;figs,&#8221; as in figures of crypto wealth.</p>
 <p>For example, a low-level caller with no experience will sometimes be mockingly referred to as a 3fig or 3f, as in a person with less than $1,000 to their name. Salaries for callers are often also referenced this way, e.g. &#8220;Weekly salary: 5f.&#8221;</p>
-<div id="attachment_70058" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70058" decoding="async" loading="lazy" class=" wp-image-70058" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/howitstartedhowitsgoing.png" alt="" width="749" height="416" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/01/howitstartedhowitsgoing.png 1265w, https://krebsonsecurity.com/wp-content/uploads/2025/01/howitstartedhowitsgoing-768x426.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/01/howitstartedhowitsgoing-782x434.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-70058" class="wp-caption-text">This meme shared by Stotle uses humor to depict and all-too-common pathway for voice phishing callers, who are often minors recruited from gaming networks like Minecraft and Roblox. The image that Lookout used in its blog post for Crypto Chameleon can be seen in the lower right hooded figure.</p></div>
+<div id="attachment_70058" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70058" decoding="async" loading="lazy" class=" wp-image-70058" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/howitstartedhowitsgoing.png" alt="" width="749" height="416" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/01/howitstartedhowitsgoing.png 1265w, https://krebsonsecurity.com/wp-content/uploads/2025/01/howitstartedhowitsgoing-768x426.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/01/howitstartedhowitsgoing-782x434.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-70058" class="wp-caption-text">This meme shared by Stotle uses humor to depict an all-too-common pathway for voice phishing callers, who are often minors recruited from gaming networks like Minecraft and Roblox. The image that Lookout used in its blog post for Crypto Chameleon can be seen in the lower right hooded figure.</p></div>
 <p>Voice phishing groups frequently require new members to provide &#8220;proof of funds&#8221; &#8212; screenshots of their crypto holdings, ostensibly to demonstrate they are not penniless &#8212; before they&#8217;re allowed to join.</p>
 <p>This proof of funds (POF) demand is typical among thieves selling high-dollar items, because it tends to cut down on the time-wasting inquiries from criminals who can&#8217;t afford what&#8217;s for sale anyway. But it has become so common in cybercrime communities that there are now several services designed to create fake POF images and videos, allowing customers to brag about large crypto holdings without actually possessing said wealth.</p>
 <p>Several of the phishing panel videos shared by Stotle feature audio that suggests co-conspirators were practicing responses to certain call scenarios, while other members of the phishing group critiqued them or tried disrupt their social engineering by being verbally abusive.</p>
@@ -130,7 +130,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/feed/</wfw:commentRss>
-			<slash:comments>5</slash:comments>
+			<slash:comments>6</slash:comments>
 		
 		
 			</item>
@@ -736,5 +736,5 @@ Object Caching 258/258 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-07 22:04:09 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-08 00:51:44 by W3 Total Cache
 -->
