@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 08 Jan 2025 00:11:12 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 08 Jan 2025 01:26:27 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -125,7 +125,7 @@
 <p>The <a href="https://urlscan.io/search/#page.url%3A%22captcha%3Forigin%3D%22" target="_blank" rel="noopener">dozens of phishing domains that phone home to these control servers</a> are all kept offline when they are not actively being used in phishing attacks. A social engineering training guide shared by Stotle explains this practice minimizes the chances that a phishing domain will get &#8220;redpaged,&#8221; a reference to the default red warning pages served by Google Chrome or Firefox whenever someone tries to visit a site that&#8217;s been flagged for phishing or distributing malware.</p>
 <p>What&#8217;s more, while the phishing sites are live their operators typically place a CAPTCHA challenge in front of the main page to prevent security services from scanning and flagging the sites as malicious.</p>
 <p>It may seem odd that so many cybercriminal groups operate so openly on instant collaboration networks like Telegram and Discord. After all, this blog is replete with stories about cybercriminals getting caught thanks to personal details they inadvertently leaked or disclosed themselves.</p>
-<p>Nixon said the relative openness of these cybercrime communities makes them inherently risky, but it also allows for the rapid formation and recruitment of new potential co-conspirators. Moreover, today&#8217;s English-speaking cybercriminals tend to be <a href="https://krebsonsecurity.com/2024/10/lamborghini-carjackers-lured-by-243m-cyberheist/" target="_blank" rel="noopener">more afraid of gettimg home invaded or mugged by fellow cyber thieves</a> than they are of being arrested by authorities.</p>
+<p>Nixon said the relative openness of these cybercrime communities makes them inherently risky, but it also allows for the rapid formation and recruitment of new potential co-conspirators. Moreover, today&#8217;s English-speaking cybercriminals tend to be <a href="https://krebsonsecurity.com/2024/10/lamborghini-carjackers-lured-by-243m-cyberheist/" target="_blank" rel="noopener">more afraid of getting home invaded or mugged by fellow cyber thieves</a> than they are of being arrested by authorities.</p>
 <p>&#8220;The biggest structural threat to the online criminal ecosystem is not the police or researchers, it is fellow criminals,&#8221; Nixon said. &#8220;To protect them from themselves, every criminal forum and marketplace has a reputation system, even though they know it&#8217;s a major liability when the police come. That is why I am not worried as we see criminals migrate to various &#8216;encrypted&#8217; platforms that promise to ignore the police. To protect themselves better against the law, they have to ditch their protections against fellow criminals and that&#8217;s not going to happen.&#8221;</p>
 ]]></content:encoded>
 					
@@ -736,5 +736,5 @@ Object Caching 258/258 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-07 20:25:29 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-07 20:26:43 by W3 Total Cache
 -->
