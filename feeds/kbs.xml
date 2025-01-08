@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 07 Jan 2025 23:41:53 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 08 Jan 2025 00:11:12 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,7 @@
 	<item>
 		<title>A Day in the Life of a Prolific Voice Phishing Crew</title>
 		<link>https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/</link>
-					<comments>https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/#respond</comments>
+					<comments>https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/#comments</comments>
 		
 		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
 		<pubDate>Tue, 07 Jan 2025 23:41:53 +0000</pubDate>
@@ -120,7 +120,7 @@
 <p><strong>Allison Nixon</strong> is the chief research officer for <a href="https://www.unit221b.com" target="_blank" rel="noopener">Unit 221B</a>, a cybersecurity firm in New York that has worked on a number of investigations involving these voice phishing groups. Nixon said the constant snaking within the voice phishing circles points to a psychological self-selection phenomenon that is in desperate need of academic study.</p>
 <p>&#8220;In short, a person whose moral compass lets them rob old people will also be a bad business partner,&#8221; Nixon said. &#8220;This is another fundamental flaw in this ecosystem and why most groups end in betrayal. This structural problem is great for journalists and the police too. Lots of snitching.&#8221;</p>
 <h2>POINTS FOR BRAZENNESS</h2>
-<p>Asked about the size of Perm&#8217;s phishing enterprise, Stotle said there were at least 46 distinct phishing groups paying to use Perm&#8217;s panel. He said each group was assigned their own subdomain on Perm&#8217;s main &#8220;command and control server,&#8221; which naturally uses the domain name <strong>commandandcontrolserver[.]com</strong>.</p>
+<p>Asked about the size of Perm&#8217;s phishing enterprise, Stotle said there were dozens of distinct phishing groups paying to use Perm&#8217;s panel. He said each group was assigned their own subdomain on Perm&#8217;s main &#8220;command and control server,&#8221; which naturally uses the domain name <strong>commandandcontrolserver[.]com</strong>.</p>
 <p>A review of that domain&#8217;s history via <strong>DomainTools.com</strong> shows there are at least 57 separate subdomains scattered across commandandcontrolserver[.]com and two other related control domains &#8212; <strong>thebackendserver[.]com</strong> and <strong>lookoutsucks[.]com</strong>. That latter domain was created and deployed shortly after Lookout published its blog post on Crypto Chameleon.</p>
 <p>The <a href="https://urlscan.io/search/#page.url%3A%22captcha%3Forigin%3D%22" target="_blank" rel="noopener">dozens of phishing domains that phone home to these control servers</a> are all kept offline when they are not actively being used in phishing attacks. A social engineering training guide shared by Stotle explains this practice minimizes the chances that a phishing domain will get &#8220;redpaged,&#8221; a reference to the default red warning pages served by Google Chrome or Firefox whenever someone tries to visit a site that&#8217;s been flagged for phishing or distributing malware.</p>
 <p>What&#8217;s more, while the phishing sites are live their operators typically place a CAPTCHA challenge in front of the main page to prevent security services from scanning and flagging the sites as malicious.</p>
@@ -130,7 +130,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>2</slash:comments>
 		
 		
 			</item>
@@ -736,5 +736,5 @@ Object Caching 258/258 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-07 18:43:35 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-07 20:25:29 by W3 Total Cache
 -->
