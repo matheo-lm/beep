@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 08 Jan 2025 15:58:41 EST</pubDate>
+        <pubDate>Wed, 08 Jan 2025 16:59:49 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Unpatched critical flaws impact Fancy Product Designer WordPress plugin</title>
+        <link>https://www.bleepingcomputer.com/news/security/unpatched-critical-flaws-impact-fancy-product-designer-wordpress-plugin/</link>
+        <pubDate>Wed, 08 Jan 2025 16:34:42 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/unpatched-critical-flaws-impact-fancy-product-designer-wordpress-plugin/</guid>
+	<description><![CDATA[Premium WordPress plugin Fancy Product Designer from Radykal is vulnerable to two critical severity flaws that remain unfixed in the current latest version. [...]]]></description>
+ </item>
+
  <item>
         <title>Ivanti warns of new Connect Secure flaw used in zero-day attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-connect-secure-flaw-used-in-zero-day-attacks/</link>
@@ -200,20 +214,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-govt-launches-cybersecurity-safety-label-for-smart-devices/</guid>
 	<description><![CDATA[​Today, the White House announced the launch of the U.S. Cyber Trust Mark, a new cybersecurity safety label for internet-connected consumer devices. [...]]]></description>
- </item>
-
- <item>
-        <title>BIOS flaws expose iSeq DNA sequencers to bootkit attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/bios-flaws-expose-iseq-dna-sequencers-to-bootkit-attacks/</link>
-        <pubDate>Tue, 07 Jan 2025 14:02:41 -0500</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/bios-flaws-expose-iseq-dna-sequencers-to-bootkit-attacks/</guid>
-	<description><![CDATA[BIOS/UEFI vulnerabilities in the iSeq 100 DNA sequencer from U.S. biotechnology company Illumina could let attackers disable devices used for detecting illnesses and developing vaccines. [...]]]></description>
  </item>
 
 </channel>
