@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 07 Jan 2025 22:58:57 EST</pubDate>
+        <pubDate>Wed, 08 Jan 2025 00:00:37 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>PowerSchool hack exposes student, teacher data from K-12 districts</title>
+        <link>https://www.bleepingcomputer.com/news/security/powerschool-hack-exposes-student-teacher-data-from-k-12-districts/</link>
+        <pubDate>Tue, 07 Jan 2025 23:26:09 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/powerschool-hack-exposes-student-teacher-data-from-k-12-districts/</guid>
+	<description><![CDATA[Education software giant PowerSchool has confirmed it suffered a cybersecurity incident that allowed a threat actor to steal the personal information of students and teachers from school districts using its PowerSchool SIS platform. [...]]]></description>
+ </item>
+
  <item>
         <title>Casio says data of 8,500 people exposed in October ransomware attack</title>
         <link>https://www.bleepingcomputer.com/news/security/casio-says-data-of-8-500-people-exposed-in-october-ransomware-attack/</link>
@@ -200,20 +214,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/charter-and-windstream-among-nine-us-telecoms-hacked-by-china/</guid>
 	<description><![CDATA[​More U.S. companies have been added to the list of telecommunications firms hacked in a wave of breaches by a Chinese state-backed threat group tracked as Salt Typhoon. [...]]]></description>
- </item>
-
- <item>
-        <title>Eagerbee backdoor deployed against Middle Eastern govt orgs, ISPs</title>
-        <link>https://www.bleepingcomputer.com/news/security/eagerbee-backdoor-deployed-against-middle-eastern-govt-orgs-isps/</link>
-        <pubDate>Mon, 06 Jan 2025 09:54:56 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/eagerbee-backdoor-deployed-against-middle-eastern-govt-orgs-isps/</guid>
-	<description><![CDATA[New variants of the Eagerbee malware framework are being deployed against government organizations and internet service providers (ISPs) in the Middle East. [...]]]></description>
  </item>
 
 </channel>
