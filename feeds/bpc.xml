@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 08 Jan 2025 14:00:46 EST</pubDate>
+        <pubDate>Wed, 08 Jan 2025 15:01:23 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Russian ISP confirms Ukrainian hackers "destroyed" its network</title>
+        <link>https://www.bleepingcomputer.com/news/security/russian-isp-confirms-ukrainian-hackers-destroyed-its-network/</link>
+        <pubDate>Wed, 08 Jan 2025 14:26:04 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/russian-isp-confirms-ukrainian-hackers-destroyed-its-network/</guid>
+	<description><![CDATA[Russian internet service provider Nodex confirmed on Tuesday that its network was "destroyed" in a cyberattack claimed by Ukrainian hacktivists part of the Ukrainian Cyber Alliance [...]]]></description>
+ </item>
+
+ <item>
+        <title>SonicWall urges admins to patch exploitable SSLVPN bug immediately</title>
+        <link>https://www.bleepingcomputer.com/news/security/sonicwall-urges-admins-to-patch-exploitable-sslvpn-bug-immediately/</link>
+        <pubDate>Wed, 08 Jan 2025 14:16:52 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-urges-admins-to-patch-exploitable-sslvpn-bug-immediately/</guid>
+	<description><![CDATA[SonicWall is emailing customers urging them to upgrade their firewall's SonicOS firmware to patch an authentication bypass vulnerability in SSL VPN and SSH management that is "susceptible to actual exploitation." [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers exploit KerioControl firewall flaw to steal admin CSRF tokens</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-keriocontrol-firewall-flaw-to-steal-admin-csrf-tokens/</link>
@@ -186,36 +214,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-oracle-mitel-flaws-exploited-in-attacks/</guid>
 	<description><![CDATA[CISA has warned U.S. federal agencies to secure their systems against critical vulnerabilities in Oracle WebLogic Server and Mitel MiCollab systems that are actively exploited in attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Washington state sues T-Mobile over 2021 data breach security failures</title>
-        <link>https://www.bleepingcomputer.com/news/legal/washington-state-sues-t-mobile-over-2021-data-breach-security-failures/</link>
-        <pubDate>Tue, 07 Jan 2025 13:08:24 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Legal]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/legal/washington-state-sues-t-mobile-over-2021-data-breach-security-failures/</guid>
-	<description><![CDATA[Washington state has sued T-Mobile over failing to secure the sensitive personal information of over 2 million Washington residents in a 2021 data breach. [...]]]></description>
- </item>
-
- <item>
-        <title>UN aviation agency investigating 'potential' security breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/un-aviation-agency-investigating-potential-security-breach/</link>
-        <pubDate>Tue, 07 Jan 2025 10:59:23 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/un-aviation-agency-investigating-potential-security-breach/</guid>
-	<description><![CDATA[​On Monday, the United Nations' International Civil Aviation Organization (ICAO) announced it was investigating what it described as a "reported security incident." [...]]]></description>
  </item>
 
 </channel>
