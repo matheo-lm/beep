@@ -11,7 +11,7 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 09 Jan 2025 14:59:44 EST</pubDate>
+        <pubDate>Thu, 09 Jan 2025 15:59:42 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
@@ -196,22 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-keriocontrol-firewall-flaw-to-steal-admin-csrf-tokens/</guid>
 	<description><![CDATA[Hackers are trying to exploit CVE-2024-52875, a critical CRLF injection vulnerability that leads to 1-click remote code execution (RCE) attacks in GFI KerioControl firewall product. [...]]]></description>
- </item>
-
- <item>
-        <title>Over 4,000 backdoors hijacked by registering expired domains</title>
-        <link>https://www.bleepingcomputer.com/news/security/over-4-000-backdoors-hijacked-by-registering-expired-domains/</link>
-        <pubDate>Wed, 08 Jan 2025 12:34:54 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Government]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/over-4-000-backdoors-hijacked-by-registering-expired-domains/</guid>
-	<description><![CDATA[Over 4,000 abandoned but still active web backdoors were hijacked and their communication infrastructure sinkholed after researchers registered expired domains used for commanding them. [...]]]></description>
  </item>
 
 </channel>
