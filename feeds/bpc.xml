@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 09 Jan 2025 10:02:08 EST</pubDate>
+        <pubDate>Thu, 09 Jan 2025 10:59:55 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Criminal IP: Bringing Real-Time Phishing Detection to Microsoft Outlook</title>
+        <link>https://www.bleepingcomputer.com/news/security/criminal-ip-bringing-real-time-phishing-detection-to-microsoft-outlook/</link>
+        <pubDate>Thu, 09 Jan 2025 10:02:12 -0500</pubDate>
+        <dc:creator>Sponsored by Criminal IP</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/criminal-ip-bringing-real-time-phishing-detection-to-microsoft-outlook/</guid>
+	<description><![CDATA[AI SPERA announced today that it launched its Criminal IP Malicious Link Detector add-in on the Microsoft Marketplace. Learn more about how this tool provides real-time phishing email detection and URL blocking for Microsoft Outlook. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes bug causing Outlook freezes when copying text</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-outlook-freezes-when-copying-text/</link>
@@ -186,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/powerschool-hack-exposes-student-teacher-data-from-k-12-districts/</guid>
 	<description><![CDATA[Education software giant PowerSchool has confirmed it suffered a cybersecurity incident that allowed a threat actor to steal the personal information of students and teachers from school districts using its PowerSchool SIS platform. [...]]]></description>
- </item>
-
- <item>
-        <title>Casio says data of 8,500 people exposed in October ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/casio-says-data-of-8-500-people-exposed-in-october-ransomware-attack/</link>
-        <pubDate>Tue, 07 Jan 2025 16:56:52 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/casio-says-data-of-8-500-people-exposed-in-october-ransomware-attack/</guid>
-	<description><![CDATA[Japanese electronics manufacturer Casio says that the October 2024 ransomware incident exposed the personal data of approximately 8,500 people. [...]]]></description>
  </item>
 
 </channel>
