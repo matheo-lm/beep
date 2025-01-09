@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 09 Jan 2025 09:01:26 EST</pubDate>
+        <pubDate>Thu, 09 Jan 2025 10:02:08 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft fixes bug causing Outlook freezes when copying text</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-outlook-freezes-when-copying-text/</link>
+        <pubDate>Thu, 09 Jan 2025 09:21:51 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-outlook-freezes-when-copying-text/</guid>
+	<description><![CDATA[Microsoft has fixed a known issue causing the classic Outlook email client to stop responding when copying text with the CTRL+C keyboard shortcut. [...]]]></description>
+ </item>
+
  <item>
         <title>Unpatched critical flaws impact Fancy Product Designer WordPress plugin</title>
         <link>https://www.bleepingcomputer.com/news/security/unpatched-critical-flaws-impact-fancy-product-designer-wordpress-plugin/</link>
@@ -186,34 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/casio-says-data-of-8-500-people-exposed-in-october-ransomware-attack/</guid>
 	<description><![CDATA[Japanese electronics manufacturer Casio says that the October 2024 ransomware incident exposed the personal data of approximately 8,500 people. [...]]]></description>
- </item>
-
- <item>
-        <title>New Mirai botnet targets industrial routers with zero-day exploits</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-mirai-botnet-targets-industrial-routers-with-zero-day-exploits/</link>
-        <pubDate>Tue, 07 Jan 2025 15:44:06 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-mirai-botnet-targets-industrial-routers-with-zero-day-exploits/</guid>
-	<description><![CDATA[A relatively new Mirai-based botnet has been growing in sophistication and is now leveraging zero-day exploits for security flaws in industrial routers and smart home devices. [...]]]></description>
- </item>
-
- <item>
-        <title>US govt launches cybersecurity safety label for smart devices</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-govt-launches-cybersecurity-safety-label-for-smart-devices/</link>
-        <pubDate>Tue, 07 Jan 2025 15:21:26 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-govt-launches-cybersecurity-safety-label-for-smart-devices/</guid>
-	<description><![CDATA[​Today, the White House announced the launch of the U.S. Cyber Trust Mark, a new cybersecurity safety label for internet-connected consumer devices. [...]]]></description>
  </item>
 
 </channel>
