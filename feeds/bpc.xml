@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 09 Jan 2025 13:00:41 EST</pubDate>
+        <pubDate>Thu, 09 Jan 2025 13:59:22 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Banshee stealer evades detection using Apple XProtect encryption algo</title>
+        <link>https://www.bleepingcomputer.com/news/security/banshee-stealer-evades-detection-using-apple-xprotect-encryption-algo/</link>
+        <pubDate>Thu, 09 Jan 2025 13:59:19 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/banshee-stealer-evades-detection-using-apple-xprotect-encryption-algo/</guid>
+	<description><![CDATA[A new version of the Banshee info-stealing malware for macOS has been evading detection over the past two months by adopting string encryption from Apple's XProtect. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft fixes OneDrive bug causing macOS app freezes</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-onedrive-bug-causing-macos-app-freezes/</link>
+        <pubDate>Thu, 09 Jan 2025 13:29:51 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-onedrive-bug-causing-macos-app-freezes/</guid>
+	<description><![CDATA[​Microsoft has fixed a known issue causing macOS applications to freeze when opening or saving files in OneDrive. [...]]]></description>
+ </item>
+
  <item>
         <title>Proton Mail still down as Proton recovers from worldwide outage</title>
         <link>https://www.bleepingcomputer.com/news/technology/proton-mail-still-down-as-proton-recovers-from-worldwide-outage/</link>
@@ -184,36 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/over-4-000-backdoors-hijacked-by-registering-expired-domains/</guid>
 	<description><![CDATA[Over 4,000 abandoned but still active web backdoors were hijacked and their communication infrastructure sinkholed after researchers registered expired domains used for commanding them. [...]]]></description>
- </item>
-
- <item>
-        <title>Medical billing firm Medusind discloses breach affecting 360,000 people</title>
-        <link>https://www.bleepingcomputer.com/news/security/medical-billing-firm-medusind-discloses-breach-affecting-360-000-people/</link>
-        <pubDate>Wed, 08 Jan 2025 12:28:01 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/medical-billing-firm-medusind-discloses-breach-affecting-360-000-people/</guid>
-	<description><![CDATA[​Medusind, a leading billing provider for healthcare organizations, is notifying hundreds of thousands of individuals of a data breach that exposed their personal and health information more than a year ago, in December 2023. [...]]]></description>
- </item>
-
- <item>
-        <title>Thousands of credit cards stolen in Green Bay Packers store breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/thousands-of-credit-cards-stolen-in-green-bay-packers-store-breach/</link>
-        <pubDate>Wed, 08 Jan 2025 10:05:50 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/thousands-of-credit-cards-stolen-in-green-bay-packers-store-breach/</guid>
-	<description><![CDATA[​American football team Green Bay Packers says cybercriminals stole the credit card data of over 8,500 customers after hacking its official Pro Shop online retail store in a September breach. [...]]]></description>
  </item>
 
 </channel>
