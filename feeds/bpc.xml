@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 10 Jan 2025 12:59:29 EST</pubDate>
+        <pubDate>Fri, 10 Jan 2025 13:58:03 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Web3 attack exploits transaction simulations to steal crypto</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-web3-attack-exploits-transaction-simulations-to-steal-crypto/</link>
+        <pubDate>Fri, 10 Jan 2025 13:12:17 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-web3-attack-exploits-transaction-simulations-to-steal-crypto/</guid>
+	<description><![CDATA[Threat actors are employing a new tactic called "transaction simulation spoofing" to steal crypto, with one attack successfully stealing 143.45 Ethereum, worth approximately $460,000. [...]]]></description>
+ </item>
+
  <item>
         <title>US charges operators of cryptomixers linked to ransomware gangs</title>
         <link>https://www.bleepingcomputer.com/news/security/us-charges-operators-of-cryptomixers-linked-to-ransomware-gangs/</link>
@@ -184,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/mirrorface-hackers-targeting-japanese-govt-politicians-since-2019/</guid>
 	<description><![CDATA[The National Police Agency (NPA) and the Cabinet Cyber Security Center in Japan have linked a cyber-espionage campaign targeting the country to the Chinese state-backed "MirrorFace" hacking group. [...]]]></description>
- </item>
-
- <item>
-        <title>US Treasury hack linked to Silk Typhoon Chinese state hackers</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-treasury-hack-linked-to-silk-typhoon-chinese-state-hackers/</link>
-        <pubDate>Thu, 09 Jan 2025 11:49:01 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-treasury-hack-linked-to-silk-typhoon-chinese-state-hackers/</guid>
-	<description><![CDATA[​Chinese state-backed hackers, tracked as Silk Typhoon, have been linked to the U.S. Office of Foreign Assets Control (OFAC) hack in early December. [...]]]></description>
  </item>
 
 </channel>
