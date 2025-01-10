@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 10 Jan 2025 09:58:25 EST</pubDate>
+        <pubDate>Fri, 10 Jan 2025 11:01:07 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Proton worldwide outage caused by Kubernetes migration, software change</title>
+        <link>https://www.bleepingcomputer.com/news/technology/proton-worldwide-outage-caused-by-kubernetes-migration-software-change/</link>
+        <pubDate>Fri, 10 Jan 2025 10:55:54 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/technology/proton-worldwide-outage-caused-by-kubernetes-migration-software-change/</guid>
+	<description><![CDATA[Swiss tech company Proton, which provides privacy-focused online services, says that a Thursday worldwide outage was caused by an ongoing infrastructure migration to Kubernetes and a software change that triggered an initial load spike. [...]]]></description>
+ </item>
+
+ <item>
+        <title>STIIIZY data breach exposes cannabis buyers’ IDs and purchases</title>
+        <link>https://www.bleepingcomputer.com/news/security/stiiizy-data-breach-exposes-cannabis-buyers-ids-and-purchases/</link>
+        <pubDate>Fri, 10 Jan 2025 10:19:50 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/stiiizy-data-breach-exposes-cannabis-buyers-ids-and-purchases/</guid>
+	<description><![CDATA[Popular cannabis brand STIIIZY disclosed a data breach this week after hackers breached its point-of-sale (POS) vendor to steal customer information, including government IDs and purchase information. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft to force install new Outlook on Windows 10 PCs in February</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-force-install-new-outlook-on-windows-10-pcs-in-february/</link>
@@ -170,20 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-outlook-to-freeze-when-copying-text/</guid>
 	<description><![CDATA[Microsoft has fixed a known issue causing the classic Outlook email client to stop responding when copying text with the CTRL+C keyboard shortcut. [...]]]></description>
- </item>
-
- <item>
-        <title>Unpatched critical flaws impact Fancy Product Designer WordPress plugin</title>
-        <link>https://www.bleepingcomputer.com/news/security/unpatched-critical-flaws-impact-fancy-product-designer-wordpress-plugin/</link>
-        <pubDate>Wed, 08 Jan 2025 16:34:42 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/unpatched-critical-flaws-impact-fancy-product-designer-wordpress-plugin/</guid>
-	<description><![CDATA[Premium WordPress plugin Fancy Product Designer from Radykal is vulnerable to two critical severity flaws that remain unfixed in the current latest version. [...]]]></description>
  </item>
 
 </channel>
