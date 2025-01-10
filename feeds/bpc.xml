@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 10 Jan 2025 11:01:07 EST</pubDate>
+        <pubDate>Fri, 10 Jan 2025 12:02:53 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Treasury hackers also breached US foreign investments review office</title>
+        <link>https://www.bleepingcomputer.com/news/security/treasury-hackers-also-breached-us-foreign-investments-review-office/</link>
+        <pubDate>Fri, 10 Jan 2025 12:02:49 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/treasury-hackers-also-breached-us-foreign-investments-review-office/</guid>
+	<description><![CDATA[Chinese hackers, part of the state-backed Silk Typhoon threat group, have reportedly breached the Committee on Foreign Investment in the United States (CFIUS), which reviews foreign investments to determine national security risks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Docker Desktop blocked on Macs due to false malware alert</title>
+        <link>https://www.bleepingcomputer.com/news/security/docker-desktop-blocked-on-macs-due-to-false-malware-alert/</link>
+        <pubDate>Fri, 10 Jan 2025 11:37:59 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/docker-desktop-blocked-on-macs-due-to-false-malware-alert/</guid>
+	<description><![CDATA[Docker is warning that Docker Desktop is not starting on macOS due to malware warnings after some files were signed with an incorrect code-signing certificate. [...]]]></description>
+ </item>
+
  <item>
         <title>Proton worldwide outage caused by Kubernetes migration, software change</title>
         <link>https://www.bleepingcomputer.com/news/technology/proton-worldwide-outage-caused-by-kubernetes-migration-software-change/</link>
@@ -170,34 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-chinese-hackers-likely-behind-ivanti-vpn-zero-day-attacks/</guid>
 	<description><![CDATA[Hackers exploiting the critical Ivanti Connect Secure zero-day vulnerability disclosed yesterday installed on compromised VPN appliances new malware called 'Dryhook' and 'Phasejam' that is not currently associated with any threat group. [...]]]></description>
- </item>
-
- <item>
-        <title>Criminal IP: Bringing Real-Time Phishing Detection to Microsoft Outlook</title>
-        <link>https://www.bleepingcomputer.com/news/security/criminal-ip-bringing-real-time-phishing-detection-to-microsoft-outlook/</link>
-        <pubDate>Thu, 09 Jan 2025 10:02:12 -0500</pubDate>
-        <dc:creator>Sponsored by Criminal IP</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/criminal-ip-bringing-real-time-phishing-detection-to-microsoft-outlook/</guid>
-	<description><![CDATA[AI SPERA announced today that it launched its Criminal IP Malicious Link Detector add-in on the Microsoft Marketplace. Learn more about how this tool provides real-time phishing email detection and URL blocking for Microsoft Outlook. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes bug causing Outlook to freeze when copying text</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-outlook-to-freeze-when-copying-text/</link>
-        <pubDate>Thu, 09 Jan 2025 09:21:51 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-outlook-to-freeze-when-copying-text/</guid>
-	<description><![CDATA[Microsoft has fixed a known issue causing the classic Outlook email client to stop responding when copying text with the CTRL+C keyboard shortcut. [...]]]></description>
  </item>
 
 </channel>
