@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 11 Jan 2025 10:01:03 EST</pubDate>
+        <pubDate>Sat, 11 Jan 2025 11:00:55 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Fake LDAPNightmware exploit on GitHub spreads infostealer malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/fake-ldapnightmware-exploit-on-github-spreads-infostealer-malware/</link>
+        <pubDate>Sat, 11 Jan 2025 10:21:31 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fake-ldapnightmware-exploit-on-github-spreads-infostealer-malware/</guid>
+	<description><![CDATA[A deceptive proof-of-concept (PoC) exploit for CVE-2024-49113 (aka "LDAPNightmare") on GitHub infects users with infostealer malware that exfiltrates sensitive data to an external FTP server. [...]]]></description>
+ </item>
+
  <item>
         <title>Telefónica confirms internal ticketing system breach after data leak</title>
         <link>https://www.bleepingcomputer.com/news/security/telefonica-confirms-internal-ticketing-system-breach-after-data-leak/</link>
@@ -27,7 +41,7 @@
 
 
         <guid>https://www.bleepingcomputer.com/news/security/telefonica-confirms-internal-ticketing-system-breach-after-data-leak/</guid>
-	<description><![CDATA[Spanish telecommunications company Telefónica confirms its internal ticketing system was breached after stolen data was leaked on a hacking forum. [...]]]></description>
+	<description><![CDATA[Spanish telecommunications company Telefónica confirms an internal ticketing system was breached after stolen data was leaked on a hacking forum. [...]]]></description>
  </item>
 
  <item>
@@ -172,34 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/banshee-stealer-evades-detection-using-apple-xprotect-encryption-algo/</guid>
 	<description><![CDATA[A new version of the Banshee info-stealing malware for macOS has been evading detection over the past two months by adopting string encryption from Apple's XProtect. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes OneDrive bug causing macOS app freezes</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-onedrive-bug-causing-macos-app-freezes/</link>
-        <pubDate>Thu, 09 Jan 2025 13:29:51 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-onedrive-bug-causing-macos-app-freezes/</guid>
-	<description><![CDATA[​Microsoft has fixed a known issue causing macOS applications to freeze when opening or saving files in OneDrive. [...]]]></description>
- </item>
-
- <item>
-        <title>Proton Mail still down as Proton recovers from worldwide outage</title>
-        <link>https://www.bleepingcomputer.com/news/technology/proton-mail-still-down-as-proton-recovers-from-worldwide-outage/</link>
-        <pubDate>Thu, 09 Jan 2025 12:45:34 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/technology/proton-mail-still-down-as-proton-recovers-from-worldwide-outage/</guid>
-	<description><![CDATA[Privacy firm Proton suffered a massive worldwide outage today, taking down most services, with Proton Mail and Calendar users still unable to connect to their accounts. [...]]]></description>
  </item>
 
 </channel>
