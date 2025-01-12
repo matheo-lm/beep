@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 12 Jan 2025 13:58:34 EST</pubDate>
+        <pubDate>Sun, 12 Jan 2025 15:01:27 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Phishing texts trick Apple iMessage users into disabling protection</title>
+        <link>https://www.bleepingcomputer.com/news/security/phishing-texts-trick-apple-imessage-users-into-disabling-protection/</link>
+        <pubDate>Sun, 12 Jan 2025 14:31:01 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/phishing-texts-trick-apple-imessage-users-into-disabling-protection/</guid>
+	<description><![CDATA[Cybercriminals are exploiting a trick to turn off Apple iMessage's built-in phishing protection for a text and trick users into re-enabling disabled phishing links. [...]]]></description>
+ </item>
+
  <item>
         <title>Pastor who saw crypto project in his "dream" indicted for fraud</title>
         <link>https://www.bleepingcomputer.com/news/legal/pastor-who-saw-crypto-project-in-his-dream-indicted-for-fraud/</link>
@@ -174,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-force-install-new-outlook-on-windows-10-pcs-in-february/</guid>
 	<description><![CDATA[Microsoft will force install the new Outlook email client on Windows 10 systems starting with next month's security update. [...]]]></description>
- </item>
-
- <item>
-        <title>Fake CrowdStrike job offer emails target devs with crypto miners</title>
-        <link>https://www.bleepingcomputer.com/news/security/fake-crowdstrike-job-offer-emails-target-devs-with-crypto-miners/</link>
-        <pubDate>Thu, 09 Jan 2025 16:30:07 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fake-crowdstrike-job-offer-emails-target-devs-with-crypto-miners/</guid>
-	<description><![CDATA[CrowdStrike is warning that a phishing campaign is impersonating the cybersecurity company in fake job offer emails to trick targets into infecting themselves with a Monero cryptocurrency miner (XMRig). [...]]]></description>
  </item>
 
 </channel>
