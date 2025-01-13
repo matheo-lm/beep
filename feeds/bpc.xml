@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 13 Jan 2025 16:59:19 EST</pubDate>
+        <pubDate>Mon, 13 Jan 2025 18:01:26 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>OneBlood confirms personal data stolen in July ransomware attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/oneblood-confirms-personal-data-stolen-in-july-ransomware-attack/</link>
+        <pubDate>Mon, 13 Jan 2025 17:36:16 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/oneblood-confirms-personal-data-stolen-in-july-ransomware-attack/</guid>
+	<description><![CDATA[Blood-donation not-for-profit OneBlood confirms that donors' personal information was stolen in a ransomware attack last summer. [...]]]></description>
+ </item>
+
  <item>
         <title>CISA orders agencies to patch BeyondTrust bug exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/cisa-orders-agencies-to-patch-beyondtrust-bug-exploited-in-attacks/</link>
@@ -184,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fake-ldapnightmware-exploit-on-github-spreads-infostealer-malware/</guid>
 	<description><![CDATA[A deceptive proof-of-concept (PoC) exploit for CVE-2024-49113 (aka "LDAPNightmare") on GitHub infects users with infostealer malware that exfiltrates sensitive data to an external FTP server. [...]]]></description>
- </item>
-
- <item>
-        <title>Telefónica confirms internal ticketing system breach after data leak</title>
-        <link>https://www.bleepingcomputer.com/news/security/telefonica-confirms-internal-ticketing-system-breach-after-data-leak/</link>
-        <pubDate>Fri, 10 Jan 2025 14:15:09 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/telefonica-confirms-internal-ticketing-system-breach-after-data-leak/</guid>
-	<description><![CDATA[Spanish telecommunications company Telefónica confirms an internal ticketing system was breached after stolen data was leaked on a hacking forum. [...]]]></description>
  </item>
 
 </channel>
