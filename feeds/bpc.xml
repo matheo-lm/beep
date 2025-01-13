@@ -11,11 +11,29 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 13 Jan 2025 13:02:52 EST</pubDate>
+        <pubDate>Mon, 13 Jan 2025 14:02:42 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: macOS bug lets hackers install malicious kernel drivers</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-macos-bug-lets-hackers-install-malicious-kernel-drivers/</link>
+        <pubDate>Mon, 13 Jan 2025 13:24:21 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-macos-bug-lets-hackers-install-malicious-kernel-drivers/</guid>
+	<description><![CDATA[Apple recently addressed a macOS vulnerability that allows attackers to bypass System Integrity Protection (SIP) and install malicious kernel drivers by loading third-party kernel extensions. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers exploit critical Aviatrix Controller RCE flaw in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-aviatrix-controller-rce-flaw-in-attacks/</link>
@@ -180,20 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-charges-operators-of-cryptomixers-linked-to-ransomware-gangs/</guid>
 	<description><![CDATA[The U.S. Department of Justice indicted three operators of sanctioned Blender.io and Sinbad.io crypto mixer services used by ransomware gangs and North Korean hackers to launder ransoms and stolen cryptocurrency. [...]]]></description>
- </item>
-
- <item>
-        <title>Treasury hackers also breached US foreign investments review office</title>
-        <link>https://www.bleepingcomputer.com/news/security/treasury-hackers-also-breached-us-foreign-investments-review-office/</link>
-        <pubDate>Fri, 10 Jan 2025 12:02:49 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/treasury-hackers-also-breached-us-foreign-investments-review-office/</guid>
-	<description><![CDATA[Chinese hackers, part of the state-backed Silk Typhoon threat group, have reportedly breached the Committee on Foreign Investment in the United States (CFIUS), which reviews foreign investments to determine national security risks. [...]]]></description>
  </item>
 
 </channel>
