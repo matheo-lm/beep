@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 13 Jan 2025 11:02:38 EST</pubDate>
+        <pubDate>Mon, 13 Jan 2025 12:00:22 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>UK domain registry Nominet confirms breach via Ivanti zero-day</title>
+        <link>https://www.bleepingcomputer.com/news/security/uk-domain-registry-nominet-confirms-breach-via-ivanti-zero-day-vulnerability/</link>
+        <pubDate>Mon, 13 Jan 2025 11:50:12 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/uk-domain-registry-nominet-confirms-breach-via-ivanti-zero-day-vulnerability/</guid>
+	<description><![CDATA[Nominet, the official .UK domain registry and one of the largest country code registries, has confirmed that its network was breached two weeks ago using an Ivanti VPN zero-day vulnerability. [...]]]></description>
+ </item>
+
  <item>
         <title>Ransomware abuses Amazon AWS feature to encrypt S3 buckets</title>
         <link>https://www.bleepingcomputer.com/news/security/ransomware-abuses-amazon-aws-feature-to-encrypt-s3-buckets/</link>
@@ -178,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/docker-desktop-blocked-on-macs-due-to-false-malware-alert/</guid>
 	<description><![CDATA[Docker is warning that Docker Desktop is not starting on macOS due to malware warnings after some files were signed with an incorrect code-signing certificate. [...]]]></description>
- </item>
-
- <item>
-        <title>Proton worldwide outage caused by Kubernetes migration, software change</title>
-        <link>https://www.bleepingcomputer.com/news/technology/proton-worldwide-outage-caused-by-kubernetes-migration-software-change/</link>
-        <pubDate>Fri, 10 Jan 2025 10:55:54 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/technology/proton-worldwide-outage-caused-by-kubernetes-migration-software-change/</guid>
-	<description><![CDATA[Swiss tech company Proton, which provides privacy-focused online services, says that a Thursday worldwide outage was caused by an ongoing infrastructure migration to Kubernetes and a software change that triggered an initial load spike. [...]]]></description>
  </item>
 
 </channel>
