@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 13 Jan 2025 12:00:22 EST</pubDate>
+        <pubDate>Mon, 13 Jan 2025 13:02:52 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers exploit critical Aviatrix Controller RCE flaw in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-aviatrix-controller-rce-flaw-in-attacks/</link>
+        <pubDate>Mon, 13 Jan 2025 12:57:45 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Cloud]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-aviatrix-controller-rce-flaw-in-attacks/</guid>
+	<description><![CDATA[Threat actors are exploiting a critical remote command execution vulnerability, tracked as CVE-2024-50603, in Aviatrix Controller instances to install backdoors and crypto miners. [...]]]></description>
+ </item>
+
  <item>
         <title>UK domain registry Nominet confirms breach via Ivanti zero-day</title>
         <link>https://www.bleepingcomputer.com/news/security/uk-domain-registry-nominet-confirms-breach-via-ivanti-zero-day-vulnerability/</link>
@@ -178,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/treasury-hackers-also-breached-us-foreign-investments-review-office/</guid>
 	<description><![CDATA[Chinese hackers, part of the state-backed Silk Typhoon threat group, have reportedly breached the Committee on Foreign Investment in the United States (CFIUS), which reviews foreign investments to determine national security risks. [...]]]></description>
- </item>
-
- <item>
-        <title>Docker Desktop blocked on Macs due to false malware alert</title>
-        <link>https://www.bleepingcomputer.com/news/security/docker-desktop-blocked-on-macs-due-to-false-malware-alert/</link>
-        <pubDate>Fri, 10 Jan 2025 11:37:59 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/docker-desktop-blocked-on-macs-due-to-false-malware-alert/</guid>
-	<description><![CDATA[Docker is warning that Docker Desktop is not starting on macOS due to malware warnings after some files were signed with an incorrect code-signing certificate. [...]]]></description>
  </item>
 
 </channel>
