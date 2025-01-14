@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 14 Jan 2025 14:01:09 EST</pubDate>
+        <pubDate>Tue, 14 Jan 2025 15:01:09 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US govt says North Korea stole over $659 million in crypto last year</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-govt-says-north-korea-stole-over-659-million-in-crypto-last-year/</link>
+        <pubDate>Tue, 14 Jan 2025 15:01:02 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-govt-says-north-korea-stole-over-659-million-in-crypto-last-year/</guid>
+	<description><![CDATA[​North Korean state-backed hacking groups have stolen over $659 million worth of cryptocurrency in multiple crypto-heists, according to a joint statement issued by the United States, South Korea, and Japan on Tuesday. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 10 KB5049981 update released with new BYOVD blocklist</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5049981-update-released-with-new-byovd-blocklist/</link>
+        <pubDate>Tue, 14 Jan 2025 14:28:59 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5049981-update-released-with-new-byovd-blocklist/</guid>
+	<description><![CDATA[Microsoft has released the KB5049981 cumulative update for Windows 10 22H2 and Windows 10 21H2, which contains an updated Kernel driver blocklist to prevent Bring Your Own Vulnerable Driver (BYOVD) attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft January 2025 Patch Tuesday fixes 8 zero-days, 159 flaws</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-january-2025-patch-tuesday-fixes-8-zero-days-159-flaws/</link>
@@ -182,52 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-macos-bug-lets-hackers-install-malicious-kernel-drivers/</guid>
 	<description><![CDATA[Apple recently addressed a macOS vulnerability that allows attackers to bypass System Integrity Protection (SIP) and install malicious kernel drivers by loading third-party kernel extensions. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers exploit critical Aviatrix Controller RCE flaw in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-aviatrix-controller-rce-flaw-in-attacks/</link>
-        <pubDate>Mon, 13 Jan 2025 12:57:45 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Cloud]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-aviatrix-controller-rce-flaw-in-attacks/</guid>
-	<description><![CDATA[Threat actors are exploiting a critical remote command execution vulnerability, tracked as CVE-2024-50603, in Aviatrix Controller instances to install backdoors and crypto miners. [...]]]></description>
- </item>
-
- <item>
-        <title>UK domain registry Nominet confirms breach via Ivanti zero-day</title>
-        <link>https://www.bleepingcomputer.com/news/security/uk-domain-registry-nominet-confirms-breach-via-ivanti-zero-day-vulnerability/</link>
-        <pubDate>Mon, 13 Jan 2025 11:50:12 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/uk-domain-registry-nominet-confirms-breach-via-ivanti-zero-day-vulnerability/</guid>
-	<description><![CDATA[Nominet, the official .UK domain registry and one of the largest country code registries, has confirmed that its network was breached two weeks ago using an Ivanti VPN zero-day vulnerability. [...]]]></description>
- </item>
-
- <item>
-        <title>Ransomware abuses Amazon AWS feature to encrypt S3 buckets</title>
-        <link>https://www.bleepingcomputer.com/news/security/ransomware-abuses-amazon-aws-feature-to-encrypt-s3-buckets/</link>
-        <pubDate>Mon, 13 Jan 2025 10:27:22 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Cloud]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ransomware-abuses-amazon-aws-feature-to-encrypt-s3-buckets/</guid>
-	<description><![CDATA[A new ransomware campaign encrypts Amazon S3 buckets using AWS's Server-Side Encryption with Customer Provided Keys (SSE-C) known only to the threat actor, demanding ransoms to receive the decryption key. [...]]]></description>
  </item>
 
 </channel>
