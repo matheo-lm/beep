@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 14 Jan 2025 09:02:21 EST</pubDate>
+        <pubDate>Tue, 14 Jan 2025 09:58:27 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft 365 apps crash on Windows Server after Office update</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-apps-crash-on-windows-server-after-office-update/</link>
+        <pubDate>Tue, 14 Jan 2025 09:18:15 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-apps-crash-on-windows-server-after-office-update/</guid>
+	<description><![CDATA[​Microsoft says a known issue is causing Classic Outlook and Microsoft 365 applications to crash on Windows Server 2016 or Windows Server 2019 systems. [...]]]></description>
+ </item>
+
  <item>
         <title>OneBlood confirms personal data stolen in July ransomware attack</title>
         <link>https://www.bleepingcomputer.com/news/security/oneblood-confirms-personal-data-stolen-in-july-ransomware-attack/</link>
@@ -186,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/scammers-file-first-get-your-irs-identity-protection-pin-now/</guid>
 	<description><![CDATA[The IRS relaunched its Identity Protection Personal Identification Number (IP PIN) program this week and all US taxpayers are encouraged to enroll for added security against identity theft and fraudulent returns. [...]]]></description>
- </item>
-
- <item>
-        <title>Fake LDAPNightmware exploit on GitHub spreads infostealer malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/fake-ldapnightmware-exploit-on-github-spreads-infostealer-malware/</link>
-        <pubDate>Sat, 11 Jan 2025 10:21:31 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fake-ldapnightmware-exploit-on-github-spreads-infostealer-malware/</guid>
-	<description><![CDATA[A deceptive proof-of-concept (PoC) exploit for CVE-2024-49113 (aka "LDAPNightmare") on GitHub infects users with infostealer malware that exfiltrates sensitive data to an external FTP server. [...]]]></description>
  </item>
 
 </channel>
