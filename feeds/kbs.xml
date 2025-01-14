@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 08 Jan 2025 03:31:20 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 14 Jan 2025 22:50:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,66 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Microsoft: Happy 2025. Here&#8217;s 161 Security Updates</title>
+		<link>https://krebsonsecurity.com/2025/01/microsoft-happy-2025-heres-161-security-updates/</link>
+					<comments>https://krebsonsecurity.com/2025/01/microsoft-happy-2025-heres-161-security-updates/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Tue, 14 Jan 2025 22:50:00 +0000</pubDate>
+				<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Time to Patch]]></category>
+		<category><![CDATA[Adam Barnett]]></category>
+		<category><![CDATA[Bitlocker]]></category>
+		<category><![CDATA[Bob Hopkins]]></category>
+		<category><![CDATA[CVE-2024-49142]]></category>
+		<category><![CDATA[CVE-2025-21186]]></category>
+		<category><![CDATA[CVE-2025-21210]]></category>
+		<category><![CDATA[CVE-2025-21298]]></category>
+		<category><![CDATA[CVE-2025-21311]]></category>
+		<category><![CDATA[CVE-2025-21333]]></category>
+		<category><![CDATA[CVE-2025-21334]]></category>
+		<category><![CDATA[CVE-2025-21335]]></category>
+		<category><![CDATA[CVE-2025-21366]]></category>
+		<category><![CDATA[CVE-2025-21395]]></category>
+		<category><![CDATA[Kev Breen]]></category>
+		<category><![CDATA[Microsoft Access]]></category>
+		<category><![CDATA[Microsoft Patch Tuesday January 2025]]></category>
+		<category><![CDATA[Rapid7]]></category>
+		<category><![CDATA[Satnam Narang]]></category>
+		<category><![CDATA[unpatched.ai]]></category>
+		<category><![CDATA[Windows 11]]></category>
+		<category><![CDATA[Windows Hyper-V]]></category>
+		<category><![CDATA[Windows NTLMv1]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70070</guid>
+
+					<description><![CDATA[Microsoft today unleashed updates to plug a whopping 161 security vulnerabilities in Windows and related software, including three "zero-day" weaknesses that are already under active attack. Redmond's inaugural Patch Tuesday of 2025 bundles more fixes than the company has shipped in one go since 2017.]]></description>
+										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today unleashed updates to plug a whopping 161 security vulnerabilities in <strong>Windows</strong> and related software, including three &#8220;zero-day&#8221; weaknesses that are already under active attack. Redmond&#8217;s inaugural Patch Tuesday of 2025 bundles more fixes than the company has shipped in one go since 2017.</p>
+<p><img decoding="async" class="aligncenter  wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p><strong>Rapid7</strong>&#8216;s <strong>Adam Barnett</strong> says January marks the fourth consecutive month where Microsoft has published zero-day vulnerabilities on Patch Tuesday without evaluating any of them as critical severity at time of publication. Today also saw the publication of nine critical remote code execution (RCE) vulnerabilities.</p>
+<p>The Microsoft flaws already seeing active attacks include <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21333" target="_blank" rel="noopener">CVE-2025-21333</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21334" target="_blank" rel="noopener">CVE-2025-21334</a> and, you guessed it&#8211; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21335" target="_blank" rel="noopener">CVE-2025-21335</a>. These are sequential because all reside in <strong>Windows Hyper-V</strong>, a component that is heavily embedded in modern <strong>Windows 11</strong> operating systems and used for security features including device guard and credential guard.</p>
+<p>Tenable&#8217;s <strong>Satnam Narang</strong> says little is known about the in-the-wild exploitation of these flaws, apart from the fact that they are all &#8220;privilege escalation&#8221; vulnerabilities. Narang said we tend to see a lot of elevation of privilege bugs exploited in the wild as zero-days in Patch Tuesday because it&#8217;s not always initial access to a system that&#8217;s a challenge for attackers as they have various avenues in their pursuit.</p>
+<p>&#8220;As elevation of privilege bugs, they’re being used as part of post-compromise activity, where an attacker has already accessed a target system,&#8221; he said. &#8220;It&#8217;s kind of like if an attacker is able to enter a secure building, they’re unable to access more secure parts of the facility because they have to prove that they have clearance. In this case, they’re able to trick the system into believing they should have clearance.&#8221;<span id="more-70070"></span></p>
+<p>Several bugs addressed today earned CVSS (threat rating) scores of 9.8 out of a possible 10, including <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21298" target="_blank" rel="noopener">CVE-2025-21298</a>, a weakness in Windows that could allow attackers to run arbitrary code by getting a target to open a malicious <strong>.rtf</strong> files, which are documents typically opened on Office applications like Microsoft Word. Microsoft has rated this flaw &#8220;exploitation more likely.&#8221;</p>
+<p><strong>Bob Hopkins</strong> at <strong>Immersive Labs</strong> called attention to the <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21311" target="_blank" rel="noopener">CVE-2025-21311</a>, a 9.8 &#8220;critical&#8221; bug in <strong>Windows NTLMv1</strong> (NT LAN Manager version 1), an older Microsoft authentication protocol that is still used by many organizations.</p>
+<p>&#8220;What makes this vulnerability so impactful is the fact that it is remotely exploitable, so attackers can reach the compromised machine(s) over the internet, and the attacker does not need significant knowledge or skills to achieve repeatable success with the same payload across any vulnerable component,&#8221; Hopkins wrote.</p>
+<p><strong>Kev Breen</strong> at Immersive points to an interesting flaw (<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21210" target="_blank" rel="noopener">CVE-2025-21210</a>) that Microsoft fixed in its full disk encryption suite <strong>Bitlocker</strong> that the software giant has dubbed &#8220;exploitation more likely.&#8221; Specifically, this bug holds out the possibility that in some situations the hibernation image created when one closes the laptop lid on an open Windows session may not be fully encrypted and could be recovered in plain text.</p>
+<p>&#8220;Hibernation images are used when a laptop goes to sleep and contains the contents that were stored in RAM at the moment the device powered down,&#8221; Breen noted. &#8220;This presents a significant potential impact as RAM can contain sensitive data (such as passwords, credentials and PII) that may have been in open documents or browser sessions and can all be recovered with free tools from hibernation files.&#8221;</p>
+<p>Tenable&#8217;s Narang also highlighted a trio of vulnerabilities in <strong>Microsoft Access</strong> fixed this month and credited to Unpatched.ai, a security research effort that is aided by artificial intelligence looking for vulnerabilities in code. Tracked as <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21186" target="_blank" rel="noopener">CVE-2025-21186</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21366" target="_blank" rel="noopener">CVE-2025-21366</a>, and <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21395" target="_blank" rel="noopener">CVE-2025-21395</a>, these are remote code execution bugs that are exploitable if an attacker convinces a target to download and run a malicious file through social engineering. Unpatched.ai was also credited with discovering a flaw in the December 2024 Patch Tuesday release (<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-49142" target="_blank" rel="noopener">CVE-2024-49142</a>).</p>
+<p>&#8220;Automated vulnerability detection using AI has garnered a lot of attention recently, so it’s noteworthy to see this service being credited with finding bugs in Microsoft products,&#8221; Narang observed. &#8220;It may be the first of many in 2025.&#8221;</p>
+<p>If you&#8217;re a Windows user who has automatic updates turned off and haven&#8217;t updated in a while, it&#8217;s probably time to play catch up. Please consider backing up important files and/or the entire hard drive before updating. And if you run into any problems installing this month&#8217;s patch batch, drop a line in the comments below, please.</p>
+<p>Further reading on today&#8217;s patches from Microsoft:</p>
+<p><a href="https://www.tenable.com/blog/microsofts-january-2025-patch-tuesday-157-cves-cve-2025-21333-cve-2025-21334-cve-2025-21335" target="_blank" rel="noopener">Tenable blog</a></p>
+<p><a href="https://isc.sans.edu/forums/diary/Microsoft%20January%202025%20Patch%20Tuesday/31590/" target="_blank" rel="noopener">SANS Internet Storm Center</a></p>
+<p><a href="https://www.askwoody.com" target="_blank" rel="noopener">Ask Woody</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/01/microsoft-happy-2025-heres-161-security-updates/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>A Day in the Life of a Prolific Voice Phishing Crew</title>
 		<link>https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/</link>
 					<comments>https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/#comments</comments>
@@ -53,7 +113,7 @@
 
 					<description><![CDATA[Besieged by scammers seeking to phish user accounts over the telephone, Apple and Google frequently caution that they will never reach out unbidden to users this way. However, new details about the internal operations of a prolific voice phishing gang show the group routinely abuses legitimate services at Apple and Google to force a variety of outbound communications to their users, including emails, automated phone calls and system-level messages sent to all signed-in devices.]]></description>
 										<content:encoded><![CDATA[<p>Besieged by scammers seeking to phish user accounts over the telephone, <strong>Apple</strong> and <strong>Google</strong> frequently caution that they will never reach out unbidden to users this way. However, new details about the internal operations of a prolific voice phishing gang show the group routinely abuses legitimate services at Apple and Google to force a variety of outbound communications to their users, including emails, automated phone calls and system-level messages sent to all signed-in devices.</p>
-<div id="attachment_69859" style="width: 711px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69859" decoding="async" class="size-full wp-image-69859" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/thumb-mobile.png" alt="" width="701" height="413" /><p id="caption-attachment-69859" class="wp-caption-text">Image: Shutterstock, iHaMoo.</p></div>
+<div id="attachment_69859" style="width: 711px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69859" decoding="async" loading="lazy" class="size-full wp-image-69859" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/thumb-mobile.png" alt="" width="701" height="413" /><p id="caption-attachment-69859" class="wp-caption-text">Image: Shutterstock, iHaMoo.</p></div>
 <p>KrebsOnSecurity recently told the saga of a cryptocurrency investor named <strong>Tony</strong> who was robbed of more than $4.7 million in <a href="https://krebsonsecurity.com/2024/12/how-to-lose-a-fortune-with-just-one-bad-click/" target="_blank" rel="noopener">an elaborate voice phishing attack</a>. In Tony&#8217;s ordeal, the crooks appear to have initially contacted him via <strong>Google Assistant</strong>, an AI-based service that can engage in two-way conversations. The phishers also abused legitimate Google services to send Tony an email from google.com, and to send a Google account recovery prompt to all of his signed-in devices.</p>
 <p>Today&#8217;s story pivots off of Tony&#8217;s heist and new details shared by a scammer to explain how these voice phishing groups are abusing a legitimate Apple telephone support line to generate &#8220;account confirmation&#8221; message prompts from Apple to their customers.</p>
 <p>Before we get to the Apple scam in detail, we need to revisit Tony&#8217;s case. The phishing domain used to steal roughly $4.7 million in cryptocurrencies from Tony was <strong>verify-trezor[.]io</strong>. This domain was featured in <a href="https://www.lookout.com/threat-intelligence/article/cryptochameleon-fcc-phishing-kit" target="_blank" rel="noopener">a writeup from February 2024</a> by the security firm <strong>Lookout</strong>, which found it was one of dozens being used by a prolific and audacious voice phishing group it dubbed &#8220;<strong>Crypto Chameleon</strong>.&#8221;</p>
@@ -615,126 +675,15 @@
 		
 		
 			</item>
-		<item>
-		<title>Hacker in Snowflake Extortions May Be a U.S. Soldier</title>
-		<link>https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/</link>
-					<comments>https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Wed, 27 Nov 2024 00:45:48 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[DDoS-for-Hire]]></category>
-		<category><![CDATA[Ne'er-Do-Well News]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[AT&T]]></category>
-		<category><![CDATA[Boxfan]]></category>
-		<category><![CDATA[buttholio]]></category>
-		<category><![CDATA[Connor Riley Moucka]]></category>
-		<category><![CDATA[cyb3rph4nt0m]]></category>
-		<category><![CDATA[John Erin Binns]]></category>
-		<category><![CDATA[Judische]]></category>
-		<category><![CDATA[Kiberphant0m]]></category>
-		<category><![CDATA[Naver]]></category>
-		<category><![CDATA[Proman557]]></category>
-		<category><![CDATA[Reverseshell]]></category>
-		<category><![CDATA[Shi-Bot]]></category>
-		<category><![CDATA[Snowflake]]></category>
-		<category><![CDATA[South Korea]]></category>
-		<category><![CDATA[telekomterrorist]]></category>
-		<category><![CDATA[Vars_Secc]]></category>
-		<category><![CDATA[Verizon]]></category>
-		<category><![CDATA[Waifu]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69605</guid>
-
-					<description><![CDATA[Two men have been arrested for allegedly stealing data from and extorting dozens of companies that used the cloud data storage company Snowflake, but a third suspect -- a prolific hacker known as Kiberphant0m -- remains at large and continues to publicly extort victims. However, this person's identity may not remain a secret for long: A careful review of Kiberphant0m's daily chats across multiple cybercrime personas suggests they are a U.S. Army soldier who is or was recently stationed in South Korea.]]></description>
-										<content:encoded><![CDATA[<p>Two men have been arrested for allegedly stealing data from and extorting dozens of companies that used the cloud data storage company <strong>Snowflake</strong>, but a third suspect &#8212; a prolific hacker known as <strong>Kiberphant0m </strong>&#8212; remains at large and continues to publicly extort victims. However, this person&#8217;s identity may not remain a secret for long: A careful review of Kiberphant0m&#8217;s daily chats across multiple cybercrime personas suggests they are a U.S. Army soldier who is or was recently stationed in South Korea.</p>
-<p>Kiberphant0m&#8217;s identities on cybercrime forums and on Telegram and Discord chat channels have been selling data stolen from customers of the cloud data storage company Snowflake. At the end of 2023, malicious hackers discovered that many companies had uploaded huge volumes of sensitive customer data to Snowflake accounts that were protected with nothing more than a username and password (no multi-factor authentication required).</p>
-<p>After scouring darknet markets for stolen Snowflake account credentials, the hackers began raiding the data storage repositories for some of the world’s largest corporations. Among those was <strong>AT&amp;T</strong>, which <a href="https://krebsonsecurity.com/2024/07/hackers-steal-phone-sms-records-for-nearly-all-att-customers/" target="_blank" rel="noopener">disclosed in July</a> that cybercriminals had stolen personal information, phone and text message records for roughly 110 million people.  <strong>Wired.com</strong> <a href="https://www.wired.com/story/atandt-paid-hacker-300000-to-delete-stolen-call-records/" target="_blank" rel="noopener">reported in July</a> that AT&amp;T paid a hacker $370,000 to delete stolen phone records.</p>
-<p>On October 30, Canadian authorities <a href="https://krebsonsecurity.com/2024/11/canadian-man-arrested-in-snowflake-data-extortions/" target="_blank" rel="noopener">arrested</a> <strong>Alexander Moucka, </strong>a.k.a.<strong> Connor Riley Moucka </strong>of Kitchener, Ontario, on a provisional arrest warrant from the United States, which has since indicted him on 20 criminal counts connected to the Snowflake breaches. Another suspect in the Snowflake hacks, <strong>John Erin Binns</strong>, is an American who is currently incarcerated in Turkey.</p>
-<div id="attachment_69625" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69625" decoding="async" loading="lazy" class=" wp-image-69625" src="https://krebsonsecurity.com/wp-content/uploads/2024/11/moucka-surveillance.png" alt="" width="749" height="575" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/11/moucka-surveillance.png 1137w, https://krebsonsecurity.com/wp-content/uploads/2024/11/moucka-surveillance-768x590.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/11/moucka-surveillance-782x600.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-69625" class="wp-caption-text">A surveillance photo of Connor Riley Moucka, a.k.a. &#8220;Judische&#8221; and &#8220;Waifu,&#8221; dated Oct 21, 2024, 9 days before Moucka&#8217;s arrest. This image was included in an affidavit filed by an investigator with the Royal Canadian Mounted Police (RCMP).</p></div>
-<p>Investigators say Moucka, who went by the handles <strong>Judische</strong> and <strong>Waifu</strong>, had tasked Kiberphant0m with selling data stolen from Snowflake customers who refused to pay a ransom to have their information deleted. Immediately after news broke of Moucka&#8217;s arrest, Kiberphant0m was clearly furious, and posted on the hacker community <strong>BreachForums</strong> what they claimed were the AT&amp;T call logs for <strong>President-elect</strong> <strong>Donald J. Trump</strong> and for <strong>Vice President Kamala Harris</strong>.</p>
-<p>&#8220;In the event you do not reach out to us @ATNT all presidential government call logs will be leaked,&#8221; Kiberphant0m threatened, signing their post with multiple &#8220;#FREEWAIFU&#8221; tags. &#8220;You don&#8217;t think we don&#8217;t have plans in the event of an arrest? Think again.&#8221;</p>
-<p>On the same day, Kiberphant0m posted what they claimed was the &#8220;data schema&#8221; from the <strong>U.S. National Security Agency</strong>.</p>
-<p>&#8220;This was obtained from the ATNT Snowflake hack which is why ATNT paid an extortion,&#8221; Kiberphant0m wrote in a thread on BreachForums. &#8220;Why would ATNT pay Waifu for the data when they wouldn&#8217;t even pay an extortion for over 20M+ SSNs?&#8221;</p>
-<div id="attachment_69624" style="width: 760px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphant0m-nsa-schema.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-69624" decoding="async" loading="lazy" class="wp-image-69624" src="https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphant0m-nsa-schema.png" alt="" width="750" height="239" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphant0m-nsa-schema.png 1417w, https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphant0m-nsa-schema-768x245.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphant0m-nsa-schema-782x249.png 782w" sizes="(max-width: 750px) 100vw, 750px" /></a><p id="caption-attachment-69624" class="wp-caption-text">Kiberphant0m posting what he claimed was a &#8220;data schema&#8221; stolen from the NSA via AT&amp;T.</p></div>
-<p>Also on Nov. 5, Kiberphant0m offered call logs stolen from Verizon&#8217;s push-to-talk (PTT) customers &#8212; mainly U.S. government agencies and emergency first responders. On Nov. 9, Kiberphant0m posted a sales thread on BreachForums offering a &#8220;SIM-swapping&#8221; service targeting Verizon PTT customers. In a SIM-swap, fraudsters use credentials that are phished or stolen from mobile phone company employees to divert a target&#8217;s phone calls and text messages to a device they control.</p>
-<h2>MEET &#8216;BUTTHOLIO&#8217;</h2>
-<p>Kiberphant0m joined BreachForums in January 2024, but their public utterances on Discord and Telegram channels date back to at least early 2022. On their first post to BreachForums, Kiberphant0m said they could be reached at the Telegram handle <strong>@cyb3rph4nt0m</strong>.</p>
-<p>A review of @cyb3rph4nt0m shows this user has posted more than 4,200 messages since January 2024. Many of these messages were attempts to recruit people who could be hired to deploy a piece of malware that enslaved host machines in an Internet of Things (IoT) botnet.</p>
-<p>On BreachForums, Kiberphant0m has sold the source code to &#8220;<strong>Shi-Bot</strong>,&#8221; a custom Linux DDoS botnet based on <a href="https://krebsonsecurity.com/tag/mirai/" target="_blank" rel="noopener">the Mirai malware</a>. Kiberphant0m had few sales threads on BreachForums prior to the Snowflake attacks becoming public in May, and many of those involved databases stolen from companies in South Korea.</p>
-<p>On June 5, 2024, a Telegram user by the name &#8220;<strong>Buttholio</strong>&#8221; joined the fraud-focused Telegram channel &#8220;<strong>Comgirl</strong>&#8221; and claimed to be Kiberphant0m. Buttholio made the claim after being taunted as a nobody by another denizen of Comgirl, referring to their @cyb3rph4nt0m account on Telegram and the Kiberphant0m user on cybercrime forums.</p>
-<p>&#8220;Type &#8216;kiberphant0m&#8217; on google with the quotes,&#8221; Buttholio told another user. &#8220;I&#8217;ll wait. Go ahead. Over 50 articles. 15+ telecoms breached. I got the IMSI number to every single person that&#8217;s ever registered in Verizon, Tmobile, ATNT and Verifone.&#8221;</p>
-<p>On Sept. 17, 2023, Buttholio posted in a Discord chat room dedicated to players of the video game <strong>Escape from Tarkov</strong>. &#8220;Come to Korea, servers there is pretty much no extract camper or cheater,&#8221; Buttholio advised.</p>
-<p>In another message that same day in the gaming Discord, Buttholio told others they bought the game in the United States, but that they were playing it in Asia.</p>
-<p>&#8220;USA is where the game was purchased from, server location is actual in game servers u play on. I am a u.s. soldier so i bought it in the states but got on rotation so i have to use asian servers,&#8221; they shared.<span id="more-69605"></span></p>
-<h2>&#8216;REVERSESHELL&#8217;</h2>
-<p>The account @Kiberphant0m was assigned the Telegram ID number 6953392511. A review of this ID at the cyber intelligence platform <a href="https://www.flashpoint.io" target="_blank" rel="noopener">Flashpoint</a> shows that on January 4, 2024 Kibertphant0m posted to the Telegram channel &#8220;Dstat,&#8221; which is populated by cybercriminals involved in launching distributed denial-of-service (DDoS) attacks and selling DDoS-for-hire services [Full disclosure: Flashpoint is currently an advertiser on this website].</p>
-<p>Immediately after Kiberphant0m logged on to the Dstat channel, another user wrote &#8220;hi buttholio,&#8221; to which Kiberphant0m replied with an affirmative greeting &#8220;wsg,&#8221; or &#8220;what&#8217;s good.&#8221; On Nov. 1, <a href="https://www.bleepingcomputer.com/news/security/ddos-site-dstatcc-seized-and-two-suspects-arrested-in-germany/" target="_blank" rel="noopener">Dstat&#8217;s website dstat[.]cc was seized</a> as part of &#8220;Operation PowerOFF,&#8221; an international law enforcement action against DDoS services.</p>
-<p>Flashpoint&#8217;s data shows that @kiberphant0m told a fellow member of Dstat on April 10, 2024 that their alternate Telegram username was &#8220;<strong>@reverseshell</strong>,&#8221; and did the same two weeks later in the Telegram chat The Jacuzzi. The Telegram ID for this account is <strong>5408575119</strong>.</p>
-<p>Way back on Nov. 15, 2022, @reverseshell told a fellow member of a Telegram channel called Cecilio Chat that they were a soldier in the U.S. Army. This user also shared the following image of someone pictured waist-down in military fatigues, with a camouflaged backpack at their feet:</p>
-<div id="attachment_69628" style="width: 665px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69628" decoding="async" loading="lazy" class="wp-image-69628 size-full" src="https://krebsonsecurity.com/wp-content/uploads/2024/11/reverseshell-fatigues.png" alt="" width="655" height="663" /><p id="caption-attachment-69628" class="wp-caption-text">Kiberphant0m&#8217;s apparent alias ReverseShell posted this image on a Telegram channel Cecilio Chat, on Nov. 15, 2022. Image: Flashpoint.</p></div>
-<p>In September 2022, Reverseshell was embroiled in an argument with another member who had threatened to launch a DDoS attack against Reverseshell&#8217;s Internet address. After the promised attack materialized, Reverseshell responded, &#8220;Yall just hit military base contracted wifi.&#8221;</p>
-<p>In a chat from October 2022, Reverseshell was bragging about the speed of the servers they were using, and in reply to another member&#8217;s question said that they were accessing the Internet via South Korea Telecom.</p>
-<p>Telegram chat logs archived by Flashpoint show that on Aug. 23, 2022, Reverseshell bragged they&#8217;d been using automated tools to find valid logins for Internet servers that they resold to others.</p>
-<p>&#8220;I&#8217;ve hit US gov servers with default creds,&#8221; Reverseshell wrote, referring to systems with easy-to-guess usernames and/or passwords. &#8220;Telecom control servers, machinery shops, Russian ISP servers, etc. I sold a few big companies for like $2-3k a piece. You can sell the access when you get a big SSH into corporation.&#8221;</p>
-<p>On July 29, 2023, Reverseshell posted a screenshot of a login page for a major U.S. defense contractor, claiming they had an aerospace company&#8217;s credentials to sell.</p>
-<h2>PROMAN AND VARS_SECC</h2>
-<p>Flashpoint finds the Telegram ID 5408575119 has used several aliases since 2022, including Reverseshell and <strong>Proman557</strong>.</p>
-<p>A search on the username Proman557 at the cyber intelligence platform <a href="https://www.intel471.com" target="_blank" rel="noopener">Intel 471</a> shows that a hacker by the name &#8220;<strong>Proman554</strong>&#8221; registered on Hackforums in September 2022, and in messages to other users Proman554 said they can be reached at the Telegram account Buttholio.</p>
-<p>Intel 471 also finds the Proman557 moniker is one of many used by a person on the Russian-language hacking forum <strong>Exploit</strong> in 2022 who sold a variety of Linux-based botnet malware.</p>
-<p>Proman557 was eventually banned &#8212; allegedly for scamming a fellow member out of $350 &#8212; and the Exploit moderator warned forum users that Proman557 had previously registered under several other nicknames, including an account called &#8220;<strong>Vars_Secc</strong>.&#8221;</p>
-<p>Vars_Secc&#8217;s thousands of comments on Telegram over two years show this user divided their time between online gaming, maintaining a DDoS botnet, and promoting the sale or renting of their botnets to other users.</p>
-<p>&#8220;I use ddos for many things not just to be a skid,&#8221; Vars_Secc pronounced. &#8220;Why do you think I haven’t sold my net?&#8221; They then proceeded to list the most useful qualities of their botnet:</p>
-<blockquote><p>-I use it to hit off servers that ban me or piss me off<br />
--I used to ddos certain games to get my items back since the data reverts to when u joined<br />
--I use it for server side desync RCE vulnerabilities<br />
--I use it to sometimes ransom<br />
--I use it when bored as a source of entertainment</p></blockquote>
-<p>Flashpoint shows that in June 2023, Vars_Secc responded to taunting from a fellow member in the Telegram channel SecHub who had threatened to reveal their personal details to the federal government for a reward.</p>
-<p>&#8220;Man I’ve been doing this shit for 4 years,&#8221; Vars_Secc replied nonchalantly. &#8220;I highly doubt the government is going to pay millions of dollars for data on some random dude operating a pointless ddos botnet and finding a few vulnerabilities here and there.&#8221;</p>
-<p>For several months in 2023, Vars_Secc also was an active member of the Russian-language crime forum <strong>XSS</strong>, where they sold access to a U.S. government server for $2,000. However, Vars_Secc would be banned from XSS after attempting to sell access to the Russian telecommunications giant <strong>Rostelecom</strong>. [In this, Vars_Secc violated the Number One Rule for operating on a Russia-based crime forum: Never offer to hack or sell data stolen from Russian entities or citizens].</p>
-<p>On June 20, 2023, Vars_Secc posted a sales thread on the cybercrime forum <strong>Ramp 2.0</strong> titled, &#8220;Selling US Gov Financial Access.&#8221;</p>
-<p>&#8220;Server within the network, possible to pivot,&#8221; Vars_Secc&#8217;s sparse sales post read. &#8220;Has 3-5 subroutes connected to it. Price $1,250. Telegram: Vars_Secc.&#8221;</p>
-<p>Vars_Secc also used Ramp in June 2023 to sell access to a &#8220;Vietnam government Internet Network Information Center.&#8221;</p>
-<p>&#8220;Selling access server allocated within the network,&#8221; Vars_Secc wrote. &#8220;Has some data on it. $500.&#8221;</p>
-<h2>BUG BOUNTIES</h2>
-<p>The Vars_Secc identity claimed on Telegram in May 2023 that they made money by submitting reports about software flaws to <strong>HackerOne</strong>, a company that helps technology firms field reports about security vulnerabilities in their products and services. Specifically, Vars_Secc said they had earned financial rewards or &#8220;bug bounties&#8221; from <strong>reddit.com</strong>, the <strong>U.S.</strong> <strong>Department of Defense</strong>, and <strong>Coinbase</strong>, among 30 others.</p>
-<p>&#8220;I make money off bug bounties, it&#8217;s quite simple,&#8221; Vars_Secc said when asked what they do for a living. &#8220;That&#8217;s why I have over 30 bug bounty reports on HackerOne.&#8221;</p>
-<p>A month before that, Vars_Secc said they&#8217;d found a vulnerability in reddit.com.</p>
-<p>&#8220;I poisoned Reddit&#8217;s cache,&#8221; they explained. &#8220;I&#8217;m going to exploit it further, then report it to reddit.&#8221;</p>
-<p>KrebsOnSecurity sought comment from HackerOne, which said it would investigate the claims. This story will be updated if they respond.</p>
-<p>The Vars_Secc telegram handle also has claimed ownership of the BreachForums member &#8220;<strong>Boxfan</strong>,&#8221; and Intel 471 shows Boxfan&#8217;s early posts on the forum had the Vars_Secc Telegram account in their signature. In their most recent post to BreachForums in January 2024, Boxfan disclosed a security vulnerability they found in <strong>Naver</strong>, the most popular search engine in South Korea (according to statista.com). Boxfan&#8217;s comments suggest they have strong negative feelings about South Korean culture.</p>
-<p>&#8220;Have fun exploiting this vulnerability,&#8221; Boxfan wrote on BreachForums, after pasting a long string of computer code intended to demonstrate the flaw. &#8220;Fuck you South Korea and your discriminatory views. Nobody likes ur shit kpop you evil fucks. Whoever can dump this DB [database] congrats. I don&#8217;t feel like doing it so I&#8217;ll post it to the forum.&#8221;</p>
-<p>The many identities tied to Kiberphant0m strongly suggest they are or until recently were a U.S. Army soldier stationed in South Korea. Kiberphant0m&#8217;s alter egos never mentioned their military rank, regiment, or specialization.</p>
-<p>However, it is likely that Kiberphant0m&#8217;s facility with computers and networking was noticed by the Army. According to the U.S. Army&#8217;s website, the bulk of its forces in South Korea reside within the <a href="https://en.wikipedia.org/wiki/Eighth_Army_(United_States)" target="_blank" rel="noopener">Eighth Army</a>, which has a dedicated cyber operations unit focused on defending against cyber threats.</p>
-<p>On April 1, 2023, Vars_Secc posted to a public Telegram chat channel a screenshot of the National Security Agency&#8217;s website. The image indicated the visitor had just applied for some type of job at the NSA.</p>
-<div id="attachment_69656" style="width: 720px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69656" decoding="async" loading="lazy" class="size-full wp-image-69656" src="https://krebsonsecurity.com/wp-content/uploads/2024/11/kiber-nsa-app.png" alt="" width="710" height="511" /><p id="caption-attachment-69656" class="wp-caption-text">A screenshot posted by Vars_Secc on Telegram on April 1, 2023, suggesting they just applied for a job at the National Security Agency.</p></div>
-<p>The NSA has not yet responded to requests for comment.</p>
-<p>Reached via Telegram, Kiberphant0m acknowledged that KrebsOnSecurity managed to unearth their old handles.</p>
-<p>&#8220;I see you found the IP behind it no way,&#8221; Kiberphant0m <a href="https://krebsonsecurity.com/wp-content/uploads/2024/11/kiber-tg-replies.png" target="_blank" rel="noopener">replied</a>. &#8220;I see you managed to find my old aliases LOL.&#8221;</p>
-<p>Kiberphant0m denied being in the U.S. Army or ever being in South Korea, and said all of that was a lengthy ruse designed to create a fictitious persona. &#8220;Epic opsec troll,&#8221; they claimed.</p>
-<p>Asked if they were at all concerned about getting busted, Kiberphant0m called that an impossibility.</p>
-<p>&#8220;I literally can&#8217;t get caught,&#8221; Kiberphant0m said, declining an invitation to explain why. &#8220;I don&#8217;t even live in the USA Mr. Krebs.&#8221;</p>
-<p>Below is a mind map that hopefully helps illustrate some of the connections between and among Kiberphant0m&#8217;s apparent alter egos.</p>
-<div id="attachment_69662" style="width: 1592px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphantom-mm.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-69662" decoding="async" loading="lazy" class="wp-image-69662 size-full" src="https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphantom-mm.png" alt="" width="1582" height="841" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphantom-mm.png 1582w, https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphantom-mm-768x408.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphantom-mm-1536x817.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2024/11/kiberphantom-mm-782x416.png 782w" sizes="(max-width: 1582px) 100vw, 1582px" /></a><p id="caption-attachment-69662" class="wp-caption-text">A mind map of the connections between and among the identities apparently used by Kiberphant0m. Click to enlarge.</p></div>
-<p>KrebsOnSecurity would like to extend a special note of thanks to the New York City based security intelligence firm <a href="https://www.unit221b.com" target="_blank" rel="noopener">Unit 221B</a> for their assistance in helping to piece together key elements of Kiberphant0m&#8217;s different identities.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/feed/</wfw:commentRss>
-			<slash:comments>40</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 258/258 objects using memcached
+Object Caching 257/257 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-14 16:54:03 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-14 18:00:02 by W3 Total Cache
 -->

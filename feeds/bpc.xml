@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 14 Jan 2025 17:00:01 EST</pubDate>
+        <pubDate>Tue, 14 Jan 2025 18:00:23 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>January Windows updates may fail if Citrix SRA is installed </title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/january-windows-updates-may-fail-if-citrix-sra-is-installed/</link>
+        <pubDate>Tue, 14 Jan 2025 17:04:58 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/january-windows-updates-may-fail-if-citrix-sra-is-installed/</guid>
+	<description><![CDATA[Microsoft is warning that the January 2025 Windows 11 and Windows 10 cumulative updates may fail if Citrix Session Recording Agent (SRA) version 2411 is installed on the device. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Allstate car insurer sued for tracking drivers without permission</title>
+        <link>https://www.bleepingcomputer.com/news/legal/allstate-car-insurer-sued-for-tracking-drivers-without-permission/</link>
+        <pubDate>Tue, 14 Jan 2025 16:29:33 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Legal]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/legal/allstate-car-insurer-sued-for-tracking-drivers-without-permission/</guid>
+	<description><![CDATA[Texas Attorney General Ken Paxton has filed a lawsuit against Allstate and its data subsidiary Arity for unlawfully collecting, using, and selling driving data from over 45 million Americans. [...]]]></description>
+ </item>
+
  <item>
         <title>WP3.XYZ malware attacks add rogue admins to 5,000+ WordPress sites</title>
         <link>https://www.bleepingcomputer.com/news/security/wp3xyz-malware-attacks-add-rogue-admins-to-5-000-plus-wordpress-sites/</link>
@@ -178,36 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/oneblood-confirms-personal-data-stolen-in-july-ransomware-attack/</guid>
 	<description><![CDATA[Blood-donation not-for-profit OneBlood confirms that donors' personal information was stolen in a ransomware attack last summer. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA orders agencies to patch BeyondTrust bug exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-orders-agencies-to-patch-beyondtrust-bug-exploited-in-attacks/</link>
-        <pubDate>Mon, 13 Jan 2025 15:58:17 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-orders-agencies-to-patch-beyondtrust-bug-exploited-in-attacks/</guid>
-	<description><![CDATA[​CISA tagged a vulnerability in BeyondTrust's Privileged Remote Access (PRA) and Remote Support (RS) as actively exploited in attacks, ordering agencies to secure their systems within three weeks. [...]]]></description>
- </item>
-
- <item>
-        <title>Stolen Path of Exile 2 admin account used to hack player accounts</title>
-        <link>https://www.bleepingcomputer.com/news/security/stolen-path-of-exile-2-admin-account-used-to-hack-player-accounts/</link>
-        <pubDate>Mon, 13 Jan 2025 15:33:46 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Gaming]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/stolen-path-of-exile-2-admin-account-used-to-hack-player-accounts/</guid>
-	<description><![CDATA[Path of Exile 2 developers confirmed that a hacked admin account allowed a threat actor to change the password and access at least 66 accounts, finally explaining how PoE 2 accounts have been breached since November. [...]]]></description>
  </item>
 
 </channel>
