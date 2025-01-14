@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 14 Jan 2025 09:58:27 EST</pubDate>
+        <pubDate>Tue, 14 Jan 2025 11:02:15 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers use FastHTTP in new high-speed Microsoft 365 password attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-use-fasthttp-in-new-high-speed-microsoft-365-password-attacks/</link>
+        <pubDate>Tue, 14 Jan 2025 10:57:07 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-use-fasthttp-in-new-high-speed-microsoft-365-password-attacks/</guid>
+	<description><![CDATA[Threat actors are utilizing the FastHTTP Go library to launch high-speed brute-force password attacks targeting Microsoft 365 accounts globally. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Fortinet warns of auth bypass zero-day exploited to hijack firewalls</title>
+        <link>https://www.bleepingcomputer.com/news/security/fortinet-warns-of-auth-bypass-zero-day-exploited-to-hijack-firewalls/</link>
+        <pubDate>Tue, 14 Jan 2025 10:24:27 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fortinet-warns-of-auth-bypass-zero-day-exploited-to-hijack-firewalls/</guid>
+	<description><![CDATA[​Attackers are exploiting a new authentication bypass zero-day vulnerability in FortiOS and FortiProxy to hijack Fortinet firewalls and breach enterprise networks. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft 365 apps crash on Windows Server after Office update</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-apps-crash-on-windows-server-after-office-update/</link>
@@ -184,22 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/legal/pastor-who-saw-crypto-project-in-his-dream-indicted-for-fraud/</guid>
 	<description><![CDATA[A pastor at a Pasco, Washington, church has been indicted on 26 counts of fraud for allegedly operating a cryptocurrency scam that defrauded investors of millions between 2021 and 2023. [...]]]></description>
- </item>
-
- <item>
-        <title>Scammers file first — Get your IRS Identity Protection PIN now</title>
-        <link>https://www.bleepingcomputer.com/news/security/scammers-file-first-get-your-irs-identity-protection-pin-now/</link>
-        <pubDate>Sat, 11 Jan 2025 11:44:20 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Government]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/scammers-file-first-get-your-irs-identity-protection-pin-now/</guid>
-	<description><![CDATA[The IRS relaunched its Identity Protection Personal Identification Number (IP PIN) program this week and all US taxpayers are encouraged to enroll for added security against identity theft and fraudulent returns. [...]]]></description>
  </item>
 
 </channel>
