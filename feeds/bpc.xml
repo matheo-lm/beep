@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 15 Jan 2025 09:59:21 EST</pubDate>
+        <pubDate>Wed, 15 Jan 2025 11:01:25 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows BitLocker bug triggers warnings on devices with TPMs</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-bitlocker-bug-triggers-warnings-on-devices-with-tpms/</link>
+        <pubDate>Wed, 15 Jan 2025 10:46:18 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-bitlocker-bug-triggers-warnings-on-devices-with-tpms/</guid>
+	<description><![CDATA[​Microsoft is investigating a bug triggering security alerts on systems with a Trusted Platform Module (TPM) processor after enabling BitLocker. [...]]]></description>
+ </item>
+
  <item>
         <title>January Windows updates may fail if Citrix SRA is installed </title>
         <link>https://www.bleepingcomputer.com/news/microsoft/january-windows-updates-may-fail-if-citrix-sra-is-installed/</link>
@@ -192,22 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-apps-crash-on-windows-server-after-office-update/</guid>
 	<description><![CDATA[​Microsoft says a known issue is causing Classic Outlook and Microsoft 365 applications to crash on Windows Server 2016 or Windows Server 2019 systems. [...]]]></description>
- </item>
-
- <item>
-        <title>OneBlood confirms personal data stolen in July ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/oneblood-confirms-personal-data-stolen-in-july-ransomware-attack/</link>
-        <pubDate>Mon, 13 Jan 2025 17:36:16 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/oneblood-confirms-personal-data-stolen-in-july-ransomware-attack/</guid>
-	<description><![CDATA[Blood-donation not-for-profit OneBlood confirms that donors' personal information was stolen in a ransomware attack last summer. [...]]]></description>
  </item>
 
 </channel>
