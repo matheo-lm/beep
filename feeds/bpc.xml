@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 15 Jan 2025 13:02:13 EST</pubDate>
+        <pubDate>Wed, 15 Jan 2025 14:02:39 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers use Google Search ads to steal Google Ads accounts</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-use-google-search-ads-to-steal-google-ads-accounts/</link>
+        <pubDate>Wed, 15 Jan 2025 14:02:34 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-use-google-search-ads-to-steal-google-ads-accounts/</guid>
+	<description><![CDATA[​Ironically, cybercriminals now use Google search advertisements to promote phishing sites that steal advertisers' credentials for the Google Ads platform. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft ends support for Office apps on Windows 10 in October</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-ends-support-for-office-apps-on-windows-10-in-october/</link>
@@ -194,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fbi-deletes-chinese-plugx-malware-from-thousands-of-us-computers/</guid>
 	<description><![CDATA[​The U.S. Department of Justice announced today that the FBI has deleted Chinese PlugX malware from over 4,200 computers in networks across the United States. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers use FastHTTP in new high-speed Microsoft 365 password attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-use-fasthttp-in-new-high-speed-microsoft-365-password-attacks/</link>
-        <pubDate>Tue, 14 Jan 2025 10:57:07 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-use-fasthttp-in-new-high-speed-microsoft-365-password-attacks/</guid>
-	<description><![CDATA[Threat actors are utilizing the FastHTTP Go library to launch high-speed brute-force password attacks targeting Microsoft 365 accounts globally. [...]]]></description>
  </item>
 
 </channel>
