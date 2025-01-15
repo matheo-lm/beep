@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 15 Jan 2025 14:59:36 EST</pubDate>
+        <pubDate>Wed, 15 Jan 2025 15:59:23 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA shares guidance for Microsoft expanded logging capabilities</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-shares-guidance-for-microsoft-expanded-logging-capabilities/</link>
+        <pubDate>Wed, 15 Jan 2025 15:39:16 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-shares-guidance-for-microsoft-expanded-logging-capabilities/</guid>
+	<description><![CDATA[​CISA shared guidance for government agencies and enterprises on using expanded cloud logs in their Microsoft 365 tenants as part of their forensic and compliance investigations. [...]]]></description>
+ </item>
+
+ <item>
+        <title>MikroTik botnet uses misconfigured SPF DNS records to spread malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/mikrotik-botnet-uses-misconfigured-spf-dns-records-to-spread-malware/</link>
+        <pubDate>Wed, 15 Jan 2025 15:04:45 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/mikrotik-botnet-uses-misconfigured-spf-dns-records-to-spread-malware/</guid>
+	<description><![CDATA[A newly discovered botnet of 13,000 MikroTik devices uses a misconfiguration in domain name server records to bypass email protections and deliver malware by spoofing roughly 20,000 web domains. [...]]]></description>
+ </item>
+
  <item>
         <title>Label giant Avery says website hacked to steal credit cards</title>
         <link>https://www.bleepingcomputer.com/news/security/label-giant-avery-says-website-hacked-to-steal-credit-cards/</link>
@@ -160,38 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5049981-update-released-with-new-byovd-blocklist/</guid>
 	<description><![CDATA[Microsoft has released the KB5049981 cumulative update for Windows 10 22H2 and Windows 10 21H2, which contains an updated Kernel driver blocklist to prevent Bring Your Own Vulnerable Driver (BYOVD) attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft January 2025 Patch Tuesday fixes 8 zero-days, 159 flaws</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-january-2025-patch-tuesday-fixes-8-zero-days-159-flaws/</link>
-        <pubDate>Tue, 14 Jan 2025 14:01:03 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-january-2025-patch-tuesday-fixes-8-zero-days-159-flaws/</guid>
-	<description><![CDATA[Today is Microsoft's January 2025 Patch Tuesday, which includes security updates for 159 flaws, including eight zero-day vulnerabilities, with three actively exploited in attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 KB5050009 &amp; KB5050021  cumulative updates released</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5050009-and-kb5050021-cumulative-updates-released/</link>
-        <pubDate>Tue, 14 Jan 2025 13:48:37 -0500</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5050009-and-kb5050021-cumulative-updates-released/</guid>
-	<description><![CDATA[Microsoft has released the Windows 11 KB5050009 and KB5050021 cumulative updates for versions 24H2 and 23H2 to fix security vulnerabilities and issues. [...]]]></description>
  </item>
 
 </channel>
