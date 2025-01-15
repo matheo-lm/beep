@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 15 Jan 2025 11:01:25 EST</pubDate>
+        <pubDate>Wed, 15 Jan 2025 12:00:25 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Over 660,000 Rsync servers exposed to code execution attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/over-660-000-rsync-servers-exposed-to-code-execution-attacks/</link>
+        <pubDate>Wed, 15 Jan 2025 12:00:18 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Linux]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/over-660-000-rsync-servers-exposed-to-code-execution-attacks/</guid>
+	<description><![CDATA[Over 660,000 exposed Rsync servers are potentially vulnerable new to six new vulnerabilities, including a critical-severity heap-buffer overflow flaw that could lead to remote code execution. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows BitLocker bug triggers warnings on devices with TPMs</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-bitlocker-bug-triggers-warnings-on-devices-with-tpms/</link>
@@ -192,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fortinet-warns-of-auth-bypass-zero-day-exploited-to-hijack-firewalls/</guid>
 	<description><![CDATA[​Attackers are exploiting a new authentication bypass zero-day vulnerability in FortiOS and FortiProxy to hijack Fortinet firewalls and breach enterprise networks. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft 365 apps crash on Windows Server after Office update</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-apps-crash-on-windows-server-after-office-update/</link>
-        <pubDate>Tue, 14 Jan 2025 09:18:15 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-apps-crash-on-windows-server-after-office-update/</guid>
-	<description><![CDATA[​Microsoft says a known issue is causing Classic Outlook and Microsoft 365 applications to crash on Windows Server 2016 or Windows Server 2019 systems. [...]]]></description>
  </item>
 
 </channel>
