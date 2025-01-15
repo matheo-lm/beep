@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 15 Jan 2025 14:02:39 EST</pubDate>
+        <pubDate>Wed, 15 Jan 2025 14:59:36 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Label giant Avery says website hacked to steal credit cards</title>
+        <link>https://www.bleepingcomputer.com/news/security/label-giant-avery-says-website-hacked-to-steal-credit-cards/</link>
+        <pubDate>Wed, 15 Jan 2025 14:44:28 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/label-giant-avery-says-website-hacked-to-steal-credit-cards/</guid>
+	<description><![CDATA[Avery Products Corporation is warning it suffered a data breach after its website was hacked to steal customers' credit cards and personal information. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers use Google Search ads to steal Google Ads accounts</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-use-google-search-ads-to-steal-google-ads-accounts/</link>
@@ -178,36 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5050009-and-kb5050021-cumulative-updates-released/</guid>
 	<description><![CDATA[Microsoft has released the Windows 11 KB5050009 and KB5050021 cumulative updates for versions 24H2 and 23H2 to fix security vulnerabilities and issues. [...]]]></description>
- </item>
-
- <item>
-        <title>Google OAuth flaw lets attackers gain access to abandoned accounts</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-oauth-flaw-lets-attackers-gain-access-to-abandoned-accounts/</link>
-        <pubDate>Tue, 14 Jan 2025 12:28:20 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-oauth-flaw-lets-attackers-gain-access-to-abandoned-accounts/</guid>
-	<description><![CDATA[A weakness in Google's OAuth "Sign in with Google" feature could enable attackers that register domains of defunct startups to access sensitive data of former employee accounts linked to various software-as-a-service (SaaS) platforms. [...]]]></description>
- </item>
-
- <item>
-        <title>FBI deletes Chinese PlugX malware from thousands of US computers</title>
-        <link>https://www.bleepingcomputer.com/news/security/fbi-deletes-chinese-plugx-malware-from-thousands-of-us-computers/</link>
-        <pubDate>Tue, 14 Jan 2025 11:26:26 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fbi-deletes-chinese-plugx-malware-from-thousands-of-us-computers/</guid>
-	<description><![CDATA[​The U.S. Department of Justice announced today that the FBI has deleted Chinese PlugX malware from over 4,200 computers in networks across the United States. [...]]]></description>
  </item>
 
 </channel>
