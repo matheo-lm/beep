@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 14 Jan 2025 22:50:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 15 Jan 2025 00:07:32 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,7 @@
 	<item>
 		<title>Microsoft: Happy 2025. Here&#8217;s 161 Security Updates</title>
 		<link>https://krebsonsecurity.com/2025/01/microsoft-happy-2025-heres-161-security-updates/</link>
-					<comments>https://krebsonsecurity.com/2025/01/microsoft-happy-2025-heres-161-security-updates/#respond</comments>
+					<comments>https://krebsonsecurity.com/2025/01/microsoft-happy-2025-heres-161-security-updates/#comments</comments>
 		
 		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
 		<pubDate>Tue, 14 Jan 2025 22:50:00 +0000</pubDate>
@@ -55,12 +55,12 @@
 
 					<description><![CDATA[Microsoft today unleashed updates to plug a whopping 161 security vulnerabilities in Windows and related software, including three "zero-day" weaknesses that are already under active attack. Redmond's inaugural Patch Tuesday of 2025 bundles more fixes than the company has shipped in one go since 2017.]]></description>
 										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today unleashed updates to plug a whopping 161 security vulnerabilities in <strong>Windows</strong> and related software, including three &#8220;zero-day&#8221; weaknesses that are already under active attack. Redmond&#8217;s inaugural Patch Tuesday of 2025 bundles more fixes than the company has shipped in one go since 2017.</p>
-<p><img decoding="async" class="aligncenter  wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p><img decoding="async" class="aligncenter wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
 <p><strong>Rapid7</strong>&#8216;s <strong>Adam Barnett</strong> says January marks the fourth consecutive month where Microsoft has published zero-day vulnerabilities on Patch Tuesday without evaluating any of them as critical severity at time of publication. Today also saw the publication of nine critical remote code execution (RCE) vulnerabilities.</p>
 <p>The Microsoft flaws already seeing active attacks include <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21333" target="_blank" rel="noopener">CVE-2025-21333</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21334" target="_blank" rel="noopener">CVE-2025-21334</a> and, you guessed it&#8211; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21335" target="_blank" rel="noopener">CVE-2025-21335</a>. These are sequential because all reside in <strong>Windows Hyper-V</strong>, a component that is heavily embedded in modern <strong>Windows 11</strong> operating systems and used for security features including device guard and credential guard.</p>
 <p>Tenable&#8217;s <strong>Satnam Narang</strong> says little is known about the in-the-wild exploitation of these flaws, apart from the fact that they are all &#8220;privilege escalation&#8221; vulnerabilities. Narang said we tend to see a lot of elevation of privilege bugs exploited in the wild as zero-days in Patch Tuesday because it&#8217;s not always initial access to a system that&#8217;s a challenge for attackers as they have various avenues in their pursuit.</p>
 <p>&#8220;As elevation of privilege bugs, they’re being used as part of post-compromise activity, where an attacker has already accessed a target system,&#8221; he said. &#8220;It&#8217;s kind of like if an attacker is able to enter a secure building, they’re unable to access more secure parts of the facility because they have to prove that they have clearance. In this case, they’re able to trick the system into believing they should have clearance.&#8221;<span id="more-70070"></span></p>
-<p>Several bugs addressed today earned CVSS (threat rating) scores of 9.8 out of a possible 10, including <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21298" target="_blank" rel="noopener">CVE-2025-21298</a>, a weakness in Windows that could allow attackers to run arbitrary code by getting a target to open a malicious <strong>.rtf</strong> files, which are documents typically opened on Office applications like Microsoft Word. Microsoft has rated this flaw &#8220;exploitation more likely.&#8221;</p>
+<p>Several bugs addressed today earned CVSS (threat rating) scores of 9.8 out of a possible 10, including <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21298" target="_blank" rel="noopener">CVE-2025-21298</a>, a weakness in Windows that could allow attackers to run arbitrary code by getting a target to open a malicious <strong>.rtf</strong> file, documents typically opened on Office applications like Microsoft Word. Microsoft has rated this flaw &#8220;exploitation more likely.&#8221;</p>
 <p><strong>Bob Hopkins</strong> at <strong>Immersive Labs</strong> called attention to the <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21311" target="_blank" rel="noopener">CVE-2025-21311</a>, a 9.8 &#8220;critical&#8221; bug in <strong>Windows NTLMv1</strong> (NT LAN Manager version 1), an older Microsoft authentication protocol that is still used by many organizations.</p>
 <p>&#8220;What makes this vulnerability so impactful is the fact that it is remotely exploitable, so attackers can reach the compromised machine(s) over the internet, and the attacker does not need significant knowledge or skills to achieve repeatable success with the same payload across any vulnerable component,&#8221; Hopkins wrote.</p>
 <p><strong>Kev Breen</strong> at Immersive points to an interesting flaw (<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21210" target="_blank" rel="noopener">CVE-2025-21210</a>) that Microsoft fixed in its full disk encryption suite <strong>Bitlocker</strong> that the software giant has dubbed &#8220;exploitation more likely.&#8221; Specifically, this bug holds out the possibility that in some situations the hibernation image created when one closes the laptop lid on an open Windows session may not be fully encrypted and could be recovered in plain text.</p>
@@ -75,7 +75,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/01/microsoft-happy-2025-heres-161-security-updates/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>2</slash:comments>
 		
 		
 			</item>
@@ -685,5 +685,5 @@ Object Caching 257/257 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-14 18:12:09 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-14 19:47:58 by W3 Total Cache
 -->
