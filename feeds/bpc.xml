@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 16 Jan 2025 11:02:33 EST</pubDate>
+        <pubDate>Thu, 16 Jan 2025 12:01:52 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Wolf Haldenstein law firm says 3.5 million impacted by data breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/wolf-haldenstein-law-firm-says-35-million-impacted-by-data-breach/</link>
+        <pubDate>Thu, 16 Jan 2025 11:26:41 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/wolf-haldenstein-law-firm-says-35-million-impacted-by-data-breach/</guid>
+	<description><![CDATA[Wolf Haldenstein Adler Freeman & Herz LLP ("Wolf Haldenstein") reports it has suffered a data breach that exposed the personal information of nearly 3.5 million individuals to hackers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>FTC sues GoDaddy for years of poor hosting security practices</title>
+        <link>https://www.bleepingcomputer.com/news/security/ftc-sues-godaddy-for-years-of-poor-hosting-security-practices/</link>
+        <pubDate>Thu, 16 Jan 2025 11:09:19 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ftc-sues-godaddy-for-years-of-poor-hosting-security-practices/</guid>
+	<description><![CDATA[The FTC will require web hosting giant GoDaddy to implement basic security protections, such as multi-factor authentication and HTTPS APIs, to settle charges that it failed to secure its hosting services against attacks since 2018. [...]]]></description>
+ </item>
+
  <item>
         <title>New UEFI Secure Boot flaw exposes systems to bootkits, patch now</title>
         <link>https://www.bleepingcomputer.com/news/security/new-uefi-secure-boot-flaw-exposes-systems-to-bootkits-patch-now/</link>
@@ -174,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-bitlocker-bug-triggers-warnings-on-devices-with-tpms/</guid>
 	<description><![CDATA[​Microsoft is investigating a bug triggering security alerts on systems with a Trusted Platform Module (TPM) processor after enabling BitLocker. [...]]]></description>
- </item>
-
- <item>
-        <title>January Windows updates may fail if Citrix SRA is installed </title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/january-windows-updates-may-fail-if-citrix-sra-is-installed/</link>
-        <pubDate>Tue, 14 Jan 2025 17:04:58 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/january-windows-updates-may-fail-if-citrix-sra-is-installed/</guid>
-	<description><![CDATA[Microsoft is warning that the January 2025 Windows 11 and Windows 10 cumulative updates may fail if Citrix Session Recording Agent (SRA) version 2411 is installed on the device. [...]]]></description>
  </item>
 
 </channel>
