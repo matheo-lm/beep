@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 15 Jan 2025 19:15:56 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 16 Jan 2025 21:18:48 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,60 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Chinese Innovations Spawn Wave of Toll Phishing Via SMS</title>
+		<link>https://krebsonsecurity.com/2025/01/chinese-innovations-spawn-wave-of-toll-phishing-via-sms/</link>
+					<comments>https://krebsonsecurity.com/2025/01/chinese-innovations-spawn-wave-of-toll-phishing-via-sms/#comments</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Thu, 16 Jan 2025 21:18:48 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[Web Fraud 2.0]]></category>
+		<category><![CDATA[@chenlun]]></category>
+		<category><![CDATA[CSIS Security Group]]></category>
+		<category><![CDATA[EZDriveMA]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[Ford Merrill]]></category>
+		<category><![CDATA[ic3]]></category>
+		<category><![CDATA[iMessage]]></category>
+		<category><![CDATA[Lighthouse]]></category>
+		<category><![CDATA[MassDOT]]></category>
+		<category><![CDATA[North Texas Toll Authority]]></category>
+		<category><![CDATA[RCS]]></category>
+		<category><![CDATA[SecAlliance]]></category>
+		<category><![CDATA[smishing]]></category>
+		<category><![CDATA[SMS phishing]]></category>
+		<category><![CDATA[Sunpass]]></category>
+		<category><![CDATA[The Toll Roads]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70091</guid>
+
+					<description><![CDATA[Residents across the United States are being inundated with text messages purporting to come from toll road operators like E-ZPass, warning that recipients face fines if a delinquent toll fee remains unpaid. Researchers say the surge in SMS spam coincides with new features added to a popular commercial phishing kit sold in China that makes it simple to set up convincing lures spoofing toll road operators in multiple U.S. states.]]></description>
+										<content:encoded><![CDATA[<p>Residents across the United States are being inundated with text messages purporting to come from toll road operators like <strong>E-ZPass</strong>, warning that recipients face fines if a delinquent toll fee remains unpaid. Researchers say the surge in SMS spam coincides with new features added to a popular commercial phishing kit sold in China that makes it simple to set up convincing lures spoofing toll road operators in multiple U.S. states.</p>
+<p>Last week, the <strong>Massachusetts Department of Transportation</strong> (MassDOT) <a href="https://www.ezdrivema.com/About-EzdriveMA/Smishing-Alert" target="_blank" rel="noopener">warned residents</a> to be on the lookout for a new SMS phishing or &#8220;smishing&#8221; scam targeting users of <strong>EZDriveMA</strong>, MassDOT&#8217;s all electronic tolling program. Those who fall for the scam are asked to provide payment card data, and eventually will be asked to supply a one-time password sent via SMS or a mobile authentication app.</p>
+<p>Reports of similar SMS phishing attacks against customers of other U.S. state-run toll facilities surfaced around the same time as the MassDOT alert. People in Florida reported receiving SMS phishing that spoofed <strong>Sunpass</strong>, Florida&#8217;s prepaid toll program.</p>
+<div id="attachment_70096" style="width: 503px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70096" decoding="async" class="size-full wp-image-70096" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/lighthouse-ezdrive.png" alt="" width="493" height="683" /><p id="caption-attachment-70096" class="wp-caption-text">This phishing module for spoofing MassDOT&#8217;s EZDrive toll system was offered on Jan. 10, 2025 by a China-based SMS phishing service called &#8220;Lighthouse.&#8221;</p></div>
+<p>In Texas, residents said they received text messages about unpaid tolls with the <strong>North Texas Toll Authority</strong>. Similar reports came from readers in California, Colorado, Connecticut, Minnesota, and Washington. This is by no means a comprehensive list.</p>
+<div id="attachment_70097" style="width: 503px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70097" decoding="async" loading="lazy" class="size-full wp-image-70097" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/lighthouse-ntta.png" alt="" width="493" height="683" /><p id="caption-attachment-70097" class="wp-caption-text">A new module from the Lighthouse SMS phishing kit released Jan. 14 targets customers of the North Texas Toll Authority (NTTA).</p></div>
+<p>In each case, the emergence of these SMS phishing attacks coincided with the release of new phishing kit capabilities that closely mimic these toll operator websites as they appear on mobile devices. Notably, none of the phishing pages will even load unless the website detects that the visitor is coming from a mobile device.</p>
+<p><strong>Ford Merrill</strong> works in security research at <a href="https://www.secalliance.com" target="_blank" rel="noopener">SecAlliance</a>, a <a href="https://www.csis.com" target="_blank" rel="noopener">CSIS Security Group</a> company. Merrill said the volume of SMS phishing attacks spoofing toll road operators skyrocketed after the New Year, when at least one Chinese cybercriminal group known for selling sophisticated SMS phishing kits began offering new phishing pages designed to spoof toll operators in various U.S. states.</p>
+<p>According to Merrill, multiple China-based cybercriminals are selling distinct SMS-based phishing kits that each have hundreds or thousands of customers. The ultimate goal of these kits, he said, is to phish enough information from victims that their payment cards can be added to mobile wallets and used to buy goods at physical stores, online, or to launder money through shell companies.<span id="more-70091"></span></p>
+<div id="attachment_70098" style="width: 503px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70098" decoding="async" loading="lazy" class="size-full wp-image-70098" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/lighthouse-tollroads.png" alt="" width="493" height="683" /><p id="caption-attachment-70098" class="wp-caption-text">A component of the Chinese SMS phishing kit Lighthouse made to target customers of The Toll Roads, which refers to several state routes through Orange County, Calif.</p></div>
+<p>Merrill said the different purveyors of these SMS phishing tools traditionally have impersonated shipping companies, customs authorities, and even governments with tax refund lures and visa or immigration renewal scams targeting people who may be living abroad or new to a country.</p>
+<p>&#8220;What we&#8217;re seeing with these tolls scams is just a continuation of the Chinese smishing groups rotating from package redelivery schemes to toll road scams,&#8221; Merrill said. &#8220;Every one of us by now is sick and tired of receiving these package smishing attacks, so now it&#8217;s a new twist on an existing scam.”</p>
+<p>In October 2023, KrebsOnSecurity wrote about <a href="https://krebsonsecurity.com/2023/10/phishers-spoof-usps-12-other-natl-postal-services/" target="_blank" rel="noopener">a massive uptick in SMS phishing scams targeting <strong>U.S. Postal Service</strong> customers</a>. That story revealed the surge was tied to innovations introduced by &#8220;<strong>Chenlun</strong>,&#8221; a mainland China-based proprietor of a popular phishing kit and service. At the time, Chenlun had just introduced new phishing pages made to impersonate postal services in the United States and at least a dozen other countries.</p>
+<p>SMS phishing kits are hardly new, but Merrill said Chinese smishing groups recently have introduced innovations in deliverability, by more seamlessly integrating their spam messages with Apple&#8217;s <strong>iMessage</strong> technology, and with <a href="https://support.google.com/messages/answer/7189714?hl=en" target="_blank" rel="noopener">RCS</a>, the equivalent &#8220;rich text&#8221; messaging capability built into <strong>Android</strong> devices.</p>
+<p>“While traditional smishing kits relied heavily on SMS for delivery, nowadays the actors make heavy use of iMessage and RCS because telecom operators can’t filter them and they likely have a higher success rate with these delivery channels,” he said.</p>
+<p>It remains unclear how the phishers have selected their targets, or from where their data may be sourced. A notice from MassDOT cautions that &#8220;the targeted phone numbers seem to be chosen at random and are not uniquely associated with an account or usage of toll roads.&#8221;</p>
+<p>Indeed, one reader shared on Mastodon yesterday that they&#8217;d received one of these SMS phishing attacks spoofing a local toll operator, when they didn&#8217;t even own a vehicle.</p>
+<p>Targeted or not, these phishing websites are dangerous because they are operated dynamically in real-time by criminals. If you receive one of these messages, just ignore it or delete it, but please do not visit the phishing site. The FBI asks that before you bin the missives, consider filing a complaint with the agency&#8217;s <a href="https://www.ic3.gov" target="_blank" rel="noopener">Internet Crime Complaint Center</a> (IC3), including the phone number where the text originated, and the website listed within the text.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/01/chinese-innovations-spawn-wave-of-toll-phishing-via-sms/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Microsoft: Happy 2025. Here&#8217;s 161 Security Updates</title>
 		<link>https://krebsonsecurity.com/2025/01/microsoft-happy-2025-heres-161-security-updates/</link>
 					<comments>https://krebsonsecurity.com/2025/01/microsoft-happy-2025-heres-161-security-updates/#comments</comments>
@@ -55,7 +109,7 @@
 
 					<description><![CDATA[Microsoft today unleashed updates to plug a whopping 161 security vulnerabilities in Windows and related software, including three "zero-day" weaknesses that are already under active attack. Redmond's inaugural Patch Tuesday of 2025 bundles more fixes than the company has shipped in one go since 2017.]]></description>
 										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today unleashed updates to plug a whopping 161 security vulnerabilities in <strong>Windows</strong> and related software, including three &#8220;zero-day&#8221; weaknesses that are already under active attack. Redmond&#8217;s inaugural Patch Tuesday of 2025 bundles more fixes than the company has shipped in one go since 2017.</p>
-<p><img decoding="async" class="aligncenter wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
 <p><strong>Rapid7</strong>&#8216;s <strong>Adam Barnett</strong> says January marks the fourth consecutive month where Microsoft has published zero-day vulnerabilities on Patch Tuesday without evaluating any of them as critical severity at time of publication. Today also saw the publication of nine critical remote code execution (RCE) vulnerabilities.</p>
 <p>The Microsoft flaws already seeing active attacks include <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21333" target="_blank" rel="noopener">CVE-2025-21333</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21334" target="_blank" rel="noopener">CVE-2025-21334</a> and, you guessed it&#8211; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21335" target="_blank" rel="noopener">CVE-2025-21335</a>. These are sequential because all reside in <strong>Windows Hyper-V</strong>, a component that is heavily embedded in modern <strong>Windows 11</strong> operating systems and used for security features including device guard and credential guard.</p>
 <p>Tenable&#8217;s <strong>Satnam Narang</strong> says little is known about the in-the-wild exploitation of these flaws, apart from the fact that they are all &#8220;privilege escalation&#8221; vulnerabilities. Narang said we tend to see a lot of elevation of privilege bugs exploited in the wild as zero-days in Patch Tuesday because it&#8217;s not always initial access to a system that&#8217;s a challenge for attackers as they have various avenues in their pursuit.</p>
@@ -621,69 +675,15 @@
 		
 		
 			</item>
-		<item>
-		<title>Why Phishers Love New TLDs Like .shop, .top and .xyz</title>
-		<link>https://krebsonsecurity.com/2024/12/why-phishers-love-new-tlds-like-shop-top-and-xyz/</link>
-					<comments>https://krebsonsecurity.com/2024/12/why-phishers-love-new-tlds-like-shop-top-and-xyz/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Tue, 03 Dec 2024 13:27:31 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Latest Warnings]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[@chenlun]]></category>
-		<category><![CDATA[and Mobile Anti-Abuse Working Group]]></category>
-		<category><![CDATA[Anti-Phishing Working Group]]></category>
-		<category><![CDATA[Coalition Against Unsolicited Commercial Email]]></category>
-		<category><![CDATA[ICANN]]></category>
-		<category><![CDATA[Interisle Consulting]]></category>
-		<category><![CDATA[Internet Corporation for Assigned Names and Numbers]]></category>
-		<category><![CDATA[John Levine]]></category>
-		<category><![CDATA[malware]]></category>
-		<category><![CDATA[Messaging]]></category>
-		<category><![CDATA[new gTLDs]]></category>
-		<category><![CDATA[phishing]]></category>
-		<category><![CDATA[spam]]></category>
-		<category><![CDATA[U.S. Postal Service]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69531</guid>
-
-					<description><![CDATA[Phishing attacks increased nearly 40 percent in the year ending August 2024, with much of that growth concentrated at a small number of new generic top-level domains (gTLDs) -- such as .shop, .top, .xyz -- that attract scammers with rock-bottom prices and no meaningful registration requirements, new research finds. Meanwhile, the nonprofit entity that oversees the domain name industry is moving forward with plans to introduce a slew of new gTLDs.]]></description>
-										<content:encoded><![CDATA[<p>Phishing attacks increased nearly 40 percent in the year ending August 2024, with much of that growth concentrated at a small number of new generic top-level domains (gTLDs) &#8212; such as <strong>.shop</strong>, <strong>.top</strong>, <strong>.xyz</strong> &#8212; that attract scammers with rock-bottom prices and no meaningful registration requirements, new research finds. Meanwhile, the nonprofit entity that oversees the domain name industry is moving forward with plans to introduce a slew of new gTLDs.</p>
-<div id="attachment_68142" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-68142" decoding="async" loading="lazy" class=" wp-image-68142" src="https://krebsonsecurity.com/wp-content/uploads/2024/07/phishtrap.png" alt="" width="748" height="457" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/07/phishtrap.png 776w, https://krebsonsecurity.com/wp-content/uploads/2024/07/phishtrap-768x469.png 768w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-68142" class="wp-caption-text">Image: Shutterstock.</p></div>
-<p>A <a href="https://interisle.net/insights/cybercrimesupplychain2024" target="_blank" rel="noopener">study</a> on phishing data released by <strong>Interisle Consulting</strong> finds that new gTLDs introduced in the last few years command just 11 percent of the market for new domains, but accounted for roughly 37 percent of cybercrime domains reported between September 2023 and August 2024.</p>
-<p>Interisle was sponsored by several anti-spam organizations, including the <strong>Anti-Phishing Working Group</strong> (APWG), the <strong>Coalition Against Unsolicited Commercial Email</strong> (CAUCE), and the <strong>Messaging, Malware, and Mobile Anti-Abuse Working Group</strong> (M3AAWG).</p>
-<p>The study finds that while <strong>.com</strong> and <strong>.net</strong> domains made up approximately half of all domains registered in the past year (more than all of the other TLDs combined) they accounted for just over 40 percent of all cybercrime domains. Interisle says an almost equal share &#8212; 37 percent &#8212; of cybercrime domains were registered through new gTLDs.</p>
-<p>Spammers and scammers gravitate toward domains in the new gTLDs because these registrars tend to offer cheap or free registration with little to no account or identity verification requirements. For example, among the gTLDs with the highest cybercrime domain scores in this year&#8217;s study, nine offered registration fees for less than $1, and nearly two dozen offered fees of less than $2.00. By comparison, the cheapest price identified for a .com domain was $5.91.</p>
-<p>Currently, there are around 2,500 registrars authorized to sell domains by the <strong>Internet Corporation for Assigned Names and Numbers</strong> (ICANN), the California nonprofit that oversees the domain industry.</p>
-<div id="attachment_69689" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69689" decoding="async" loading="lazy" class=" wp-image-69689" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/interisle-top-xyz.png" alt="" width="749" height="503" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/12/interisle-top-xyz.png 862w, https://krebsonsecurity.com/wp-content/uploads/2024/12/interisle-top-xyz-768x516.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/12/interisle-top-xyz-782x525.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-69689" class="wp-caption-text">The top 5 new gTLDs, ranked by cybercrime domains reported. Image: Interisle Cybercrime Supply Chain 2014.</p></div>
-<p>Incredibly, despite years of these reports showing phishers heavily abusing new gTLDs, ICANN is shuffling forward on a plan to introduce even more of them. ICANN&#8217;s proposed <a href="https://newgtldprogram.icann.org/en/application-rounds/round2" target="_blank" rel="noopener">next round envisions</a> accepting applications for new gTLDs in 2026.</p>
-<p><strong>John Levine </strong>is author of the book &#8220;The Internet for Dummies&#8221; and president of CAUCE. Levine said adding more TLDs without a much stricter registration policy will likely further expand an already plentiful greenfield for cybercriminals.</p>
-<p>&#8220;The problem is that ICANN can&#8217;t make up their mind whether they are the neutral nonprofit regulator or just the domain speculator trade association,&#8221; Levine told KrebsOnSecurity. &#8220;But they act a lot more like the latter.&#8221;<span id="more-69531"></span></p>
-<p>Levine said the vast majority of new gTLDs have a few thousand domains &#8212; a far cry from the number of registrations they would need just to cover the up-front costs of operating a new gTLD (~$180,000-$300,000). New gTLD registrars can quickly attract customers by selling domains cheaply to customers who buy domains in bulk, but that tends to be a losing strategy.</p>
-<p>&#8220;Selling to criminals and spammers turns out to be lousy business,&#8221; Levine said. &#8220;You can charge whatever you want on the first year, but you have to charge list price on domain renewals. And criminals and spammers never renew. So if it sounds like the economics makes no sense it&#8217;s because the economics makes no sense.&#8221;</p>
-<p>In virtually all previous spam reports, Interisle found the top brands referenced in phishing attacks were the largest technology companies, including Apple, Facebook, Google and PayPal. But this past year, Interisle found the <strong>U.S. Postal Service</strong> was by far the most-phished entity, with more than four times the number of phishing domains as the second most-frequent target (Apple).</p>
-<p>At least some of that increase is likely from a prolific cybercriminal using the nickname <strong>Chenlun</strong>, who has been <a href="https://krebsonsecurity.com/2023/10/phishers-spoof-usps-12-other-natl-postal-services/" target="_blank" rel="noopener">selling phishing kits targeting domestic postal services</a> in the United States and at least a dozen other countries.</p>
-<p>Interisle says an increasing number of phishers are eschewing domain registrations altogether, and instead taking advantage of subdomain providers like <strong>blogspot.com</strong>, <strong>pages.dev</strong>, and <strong>weebly.com</strong>. The report notes that cyberattacks hosted at subdomain provider services can be tough to mitigate, because only the subdomain provider can disable malicious accounts or take down malicious web pages.</p>
-<p>&#8220;Any action upstream, such as blocking the second-level domain, would have an impact across the provider&#8217;s whole customer base,&#8221; the report observes.</p>
-<p>Interisle tracked more than 1.18 million instances of subdomains used for phishing in the past year (a 114 percent increase), and found more than half of those were subdomains at blogspot.com and other services operated by Google.</p>
-<p>&#8220;Many of these services allow the creation of large numbers of accounts at one time, which is highly exploited by criminals,&#8221; the report concludes. &#8220;Subdomain providers should limit the number of subdomains (user accounts) a customer can create at one time and suspend automated, high-volume automated account sign-ups – especially using free services.&#8221;</p>
-<p>Dec. 4, 10:21 a.m. ET: Corrected link to report.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2024/12/why-phishers-love-new-tlds-like-shop-top-and-xyz/feed/</wfw:commentRss>
-			<slash:comments>12</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 257/257 objects using memcached
+Object Caching 261/261 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-16 15:54:26 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-16 16:55:05 by W3 Total Cache
 -->
