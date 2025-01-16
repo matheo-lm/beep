@@ -11,7 +11,7 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 16 Jan 2025 13:58:48 EST</pubDate>
+        <pubDate>Thu, 16 Jan 2025 15:01:13 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
@@ -71,7 +71,7 @@
 
 
         <guid>https://www.bleepingcomputer.com/news/security/ftc-sues-godaddy-for-years-of-poor-hosting-security-practices/</guid>
-	<description><![CDATA[The FTC will require web hosting giant GoDaddy to implement basic security protections, such as multi-factor authentication and HTTPS APIs, to settle charges that it failed to secure its hosting services against attacks since 2018. [...]]]></description>
+	<description><![CDATA[The Federal Trade Commission (FTC) will require web hosting giant GoDaddy to implement basic security protections, including HTTPS APIs and mandatory multi-factor authentication, to settle charges that it failed to secure its hosting services against attacks since 2018. [...]]]></description>
  </item>
 
  <item>
@@ -188,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-use-google-search-ads-to-steal-google-ads-accounts/</guid>
 	<description><![CDATA[​Ironically, cybercriminals now use Google search advertisements to promote phishing sites that steal advertisers' credentials for the Google Ads platform. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft ends support for Office apps on Windows 10 in October</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-ends-support-for-office-apps-on-windows-10-in-october/</link>
-        <pubDate>Wed, 15 Jan 2025 12:05:58 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-ends-support-for-office-apps-on-windows-10-in-october/</guid>
-	<description><![CDATA[Microsoft says it will drop support for Office apps in Windows 10 after the operating system reaches its end of support on October 14. [...]]]></description>
  </item>
 
 </channel>
