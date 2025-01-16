@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 16 Jan 2025 15:01:13 EST</pubDate>
+        <pubDate>Thu, 16 Jan 2025 16:01:55 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>W3 Total Cache plugin flaw exposes 1 million WordPress sites to attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/w3-total-cache-plugin-flaw-exposes-1-million-wordpress-sites-to-attacks/</link>
+        <pubDate>Thu, 16 Jan 2025 15:36:43 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/w3-total-cache-plugin-flaw-exposes-1-million-wordpress-sites-to-attacks/</guid>
+	<description><![CDATA[A severe flaw in the W3 Total Cache plugin installed on more than one million WordPress sites could give attackers access to various information, including metadata on cloud-based apps. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft expands testing of Windows 11 admin protection feature</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-expands-testing-of-windows-11-admin-protection-feature/</link>
+        <pubDate>Thu, 16 Jan 2025 15:13:32 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-expands-testing-of-windows-11-admin-protection-feature/</guid>
+	<description><![CDATA[Microsoft has expanded its Windows 11 administrator protection tests, allowing Insiders to enable the security feature from the Windows Security settings. [...]]]></description>
+ </item>
+
  <item>
         <title>US cracks down on North Korean IT worker army with more sanctions</title>
         <link>https://www.bleepingcomputer.com/news/security/us-cracks-down-on-north-korean-it-worker-army-with-more-sanctions/</link>
@@ -174,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/label-giant-avery-says-website-hacked-to-steal-credit-cards/</guid>
 	<description><![CDATA[Avery Products Corporation is warning it suffered a data breach after its website was hacked to steal customers' credit cards and personal information. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers use Google Search ads to steal Google Ads accounts</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-use-google-search-ads-to-steal-google-ads-accounts/</link>
-        <pubDate>Wed, 15 Jan 2025 14:02:34 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-use-google-search-ads-to-steal-google-ads-accounts/</guid>
-	<description><![CDATA[​Ironically, cybercriminals now use Google search advertisements to promote phishing sites that steal advertisers' credentials for the Google Ads platform. [...]]]></description>
  </item>
 
 </channel>
