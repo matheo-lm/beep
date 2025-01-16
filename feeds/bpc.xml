@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 16 Jan 2025 09:58:57 EST</pubDate>
+        <pubDate>Thu, 16 Jan 2025 11:02:33 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New UEFI Secure Boot flaw exposes systems to bootkits, patch now</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-uefi-secure-boot-flaw-exposes-systems-to-bootkits-patch-now/</link>
+        <pubDate>Thu, 16 Jan 2025 10:05:59 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-uefi-secure-boot-flaw-exposes-systems-to-bootkits-patch-now/</guid>
+	<description><![CDATA[A new UEFI Secure Boot bypass vulnerability tracked as CVE-2024-7344 that affects a Microsoft-signed application could be exploited to deploy bootkits even if Secure Boot protection is active. [...]]]></description>
+ </item>
+
+ <item>
+        <title>MFA Failures - The Worst is Yet to Come</title>
+        <link>https://www.bleepingcomputer.com/news/security/mfa-failures-the-worst-is-yet-to-come/</link>
+        <pubDate>Thu, 16 Jan 2025 10:01:11 -0500</pubDate>
+        <dc:creator>Sponsored by Token</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/mfa-failures-the-worst-is-yet-to-come/</guid>
+	<description><![CDATA[This article delves into the rising tide of MFA failures, the alarming role of generative AI in amplifying these attacks, the growing user discontent weakening our defenses, and the glaring vulnerabilities being frequently exploited. The storm is building, and the worst is yet to come. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers leak configs and VPN credentials for 15,000 FortiGate devices</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-leak-configs-and-vpn-credentials-for-15-000-fortigate-devices/</link>
@@ -158,52 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/january-windows-updates-may-fail-if-citrix-sra-is-installed/</guid>
 	<description><![CDATA[Microsoft is warning that the January 2025 Windows 11 and Windows 10 cumulative updates may fail if Citrix Session Recording Agent (SRA) version 2411 is installed on the device. [...]]]></description>
- </item>
-
- <item>
-        <title>Allstate car insurer sued for tracking drivers without permission</title>
-        <link>https://www.bleepingcomputer.com/news/legal/allstate-car-insurer-sued-for-tracking-drivers-without-permission/</link>
-        <pubDate>Tue, 14 Jan 2025 16:29:33 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Legal]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/legal/allstate-car-insurer-sued-for-tracking-drivers-without-permission/</guid>
-	<description><![CDATA[Texas Attorney General Ken Paxton has filed a lawsuit against Allstate and its data subsidiary Arity for unlawfully collecting, using, and selling driving data from over 45 million Americans. [...]]]></description>
- </item>
-
- <item>
-        <title>WP3.XYZ malware attacks add rogue admins to 5,000+ WordPress sites</title>
-        <link>https://www.bleepingcomputer.com/news/security/wp3xyz-malware-attacks-add-rogue-admins-to-5-000-plus-wordpress-sites/</link>
-        <pubDate>Tue, 14 Jan 2025 15:54:28 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/wp3xyz-malware-attacks-add-rogue-admins-to-5-000-plus-wordpress-sites/</guid>
-	<description><![CDATA[A new malware campaign has compromised more than 5,000 WordPress sites to create admin accounts, install a malicious plugin, and steal data. [...]]]></description>
- </item>
-
- <item>
-        <title>US govt says North Korea stole over $659 million in crypto last year</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-govt-says-north-korea-stole-over-659-million-in-crypto-last-year/</link>
-        <pubDate>Tue, 14 Jan 2025 15:01:02 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-govt-says-north-korea-stole-over-659-million-in-crypto-last-year/</guid>
-	<description><![CDATA[​North Korean state-backed hacking groups have stolen over $659 million worth of cryptocurrency in multiple crypto-heists, according to a joint statement issued by the United States, South Korea, and Japan on Tuesday. [...]]]></description>
  </item>
 
 </channel>
