@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 16 Jan 2025 12:01:52 EST</pubDate>
+        <pubDate>Thu, 16 Jan 2025 13:03:22 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Biden signs executive order to bolster national cybersecurity</title>
+        <link>https://www.bleepingcomputer.com/news/security/biden-signs-executive-order-to-bolster-national-cybersecurity/</link>
+        <pubDate>Thu, 16 Jan 2025 12:58:14 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/biden-signs-executive-order-to-bolster-national-cybersecurity/</guid>
+	<description><![CDATA[Days before leaving office, President Joe Biden signed an executive order to shore up the United States' cybersecurity by making it easier to sanction hacking groups targeting federal agencies and the nation's critical infrastructure. [...]]]></description>
+ </item>
+
  <item>
         <title>Wolf Haldenstein law firm says 3.5 million impacted by data breach</title>
         <link>https://www.bleepingcomputer.com/news/security/wolf-haldenstein-law-firm-says-35-million-impacted-by-data-breach/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/over-660-000-rsync-servers-exposed-to-code-execution-attacks/</guid>
 	<description><![CDATA[Over 660,000 exposed Rsync servers are potentially vulnerable to six new vulnerabilities, including a critical-severity heap-buffer overflow flaw that allows remote code execution on servers. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows BitLocker bug triggers warnings on devices with TPMs</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-bitlocker-bug-triggers-warnings-on-devices-with-tpms/</link>
-        <pubDate>Wed, 15 Jan 2025 10:46:18 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-bitlocker-bug-triggers-warnings-on-devices-with-tpms/</guid>
-	<description><![CDATA[​Microsoft is investigating a bug triggering security alerts on systems with a Trusted Platform Module (TPM) processor after enabling BitLocker. [...]]]></description>
  </item>
 
 </channel>
