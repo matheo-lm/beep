@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 16 Jan 2025 13:03:22 EST</pubDate>
+        <pubDate>Thu, 16 Jan 2025 13:58:48 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US cracks down on North Korean IT worker army with more sanctions</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-cracks-down-on-north-korean-it-worker-army-with-more-sanctions/</link>
+        <pubDate>Thu, 16 Jan 2025 13:48:43 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-cracks-down-on-north-korean-it-worker-army-with-more-sanctions/</guid>
+	<description><![CDATA[The U.S. Treasury Department has sanctioned a network of individuals and front companies linked to North Korea's Ministry of National Defense that have generated revenue via illegal remote IT work schemes. [...]]]></description>
+ </item>
+
  <item>
         <title>Biden signs executive order to bolster national cybersecurity</title>
         <link>https://www.bleepingcomputer.com/news/security/biden-signs-executive-order-to-bolster-national-cybersecurity/</link>
@@ -188,22 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-ends-support-for-office-apps-on-windows-10-in-october/</guid>
 	<description><![CDATA[Microsoft says it will drop support for Office apps in Windows 10 after the operating system reaches its end of support on October 14. [...]]]></description>
- </item>
-
- <item>
-        <title>Over 660,000 Rsync servers exposed to code execution attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/over-660-000-rsync-servers-exposed-to-code-execution-attacks/</link>
-        <pubDate>Wed, 15 Jan 2025 12:00:18 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Linux]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/over-660-000-rsync-servers-exposed-to-code-execution-attacks/</guid>
-	<description><![CDATA[Over 660,000 exposed Rsync servers are potentially vulnerable to six new vulnerabilities, including a critical-severity heap-buffer overflow flaw that allows remote code execution on servers. [...]]]></description>
  </item>
 
 </channel>
