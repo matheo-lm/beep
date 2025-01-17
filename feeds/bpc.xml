@@ -11,11 +11,55 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 17 Jan 2025 11:00:34 EST</pubDate>
+        <pubDate>Fri, 17 Jan 2025 11:59:22 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft fixes Office 365 apps crashing on Windows Server systems</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-office-365-apps-crashing-on-windows-server-systems/</link>
+        <pubDate>Fri, 17 Jan 2025 11:59:18 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-office-365-apps-crashing-on-windows-server-systems/</guid>
+	<description><![CDATA[​Microsoft has fixed a known issue that caused Microsoft 365 applications and Classic Outlook to crash on Windows Server 2016 or Windows Server 2019 systems. [...]]]></description>
+ </item>
+
+ <item>
+        <title>US sanctions Chinese firm, hacker behind telecom and Treasury hacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-sanctions-chinese-firm-hacker-behind-telecom-and-treasury-hacks/</link>
+        <pubDate>Fri, 17 Jan 2025 11:57:01 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-sanctions-chinese-firm-hacker-behind-telecom-and-treasury-hacks/</guid>
+	<description><![CDATA[The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) has sanctioned Yin Kecheng, a Shanghai-based hacker for his role in the recent Treasury breach and a company associated with the Salt Typhoon threat group. [...]]]></description>
+ </item>
+
+ <item>
+        <title>FCC orders telecoms to secure their networks after Salt Tyhpoon hacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/fcc-orders-telecoms-to-secure-their-networks-after-salt-tyhpoon-hacks/</link>
+        <pubDate>Fri, 17 Jan 2025 11:05:29 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fcc-orders-telecoms-to-secure-their-networks-after-salt-tyhpoon-hacks/</guid>
+	<description><![CDATA[The Federal Communications Commission (FCC) has ordered U.S. telecommunications carriers to secure their networks following last year's Salt Typhoon security breaches. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft starts force upgrading Windows 11 22H2, 23H3 devices</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-force-upgrading-windows-11-22h2-23h3-devices/</link>
@@ -160,34 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/mfa-failures-the-worst-is-yet-to-come/</guid>
 	<description><![CDATA[This article delves into the rising tide of MFA failures, the alarming role of generative AI in amplifying these attacks, the growing user discontent weakening our defenses, and the glaring vulnerabilities being frequently exploited. The storm is building, and the worst is yet to come. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers leak configs and VPN credentials for 15,000 FortiGate devices</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-leak-configs-and-vpn-credentials-for-15-000-fortigate-devices/</link>
-        <pubDate>Wed, 15 Jan 2025 21:57:23 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-leak-configs-and-vpn-credentials-for-15-000-fortigate-devices/</guid>
-	<description><![CDATA[A new hacking group has leaked the configuration files, IP addresses, and VPN credentials for over 15,000 FortiGate devices for free on the dark web, exposing a great deal of sensitive technical information to other cybercriminals. [...]]]></description>
- </item>
-
- <item>
-        <title>SAP fixes critical vulnerabilities in NetWeaver application servers</title>
-        <link>https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-netweaver-application-servers/</link>
-        <pubDate>Wed, 15 Jan 2025 17:02:15 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-netweaver-application-servers/</guid>
-	<description><![CDATA[SAP has fixed two critical vulnerabilities affecting NetWeaver web application server that could be exploited to escalate privileges and access restricted information. [...]]]></description>
  </item>
 
 </channel>
