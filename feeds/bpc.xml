@@ -11,7 +11,7 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 17 Jan 2025 08:05:21 EST</pubDate>
+        <pubDate>Fri, 17 Jan 2025 09:02:53 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
@@ -105,8 +105,8 @@
  </item>
 
  <item>
-        <title>FTC sues GoDaddy for years of poor hosting security practices</title>
-        <link>https://www.bleepingcomputer.com/news/security/ftc-sues-godaddy-for-years-of-poor-hosting-security-practices/</link>
+        <title>FTC orders GoDaddy to fix poor web hosting security practices</title>
+        <link>https://www.bleepingcomputer.com/news/security/ftc-orders-godaddy-to-fix-poor-web-hosting-security-practices/</link>
         <pubDate>Thu, 16 Jan 2025 11:09:19 -0500</pubDate>
         <dc:creator>Sergiu Gatlan</dc:creator>
 
@@ -114,7 +114,7 @@
         <category><![CDATA[Security]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/security/ftc-sues-godaddy-for-years-of-poor-hosting-security-practices/</guid>
+        <guid>https://www.bleepingcomputer.com/news/security/ftc-orders-godaddy-to-fix-poor-web-hosting-security-practices/</guid>
 	<description><![CDATA[The Federal Trade Commission (FTC) will require web hosting giant GoDaddy to implement basic security protections, including HTTPS APIs and mandatory multi-factor authentication, to settle charges that it failed to secure its hosting services against attacks since 2018. [...]]]></description>
  </item>
 
@@ -190,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-shares-guidance-for-microsoft-expanded-logging-capabilities/</guid>
 	<description><![CDATA[​CISA shared guidance for government agencies and enterprises on using expanded cloud logs in their Microsoft 365 tenants as part of their forensic and compliance investigations. [...]]]></description>
- </item>
-
- <item>
-        <title>MikroTik botnet uses misconfigured SPF DNS records to spread malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/mikrotik-botnet-uses-misconfigured-spf-dns-records-to-spread-malware/</link>
-        <pubDate>Wed, 15 Jan 2025 15:04:45 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/mikrotik-botnet-uses-misconfigured-spf-dns-records-to-spread-malware/</guid>
-	<description><![CDATA[A newly discovered botnet of 13,000 MikroTik devices uses a misconfiguration in domain name server records to bypass email protections and deliver malware by spoofing roughly 20,000 web domains. [...]]]></description>
  </item>
 
 </channel>
