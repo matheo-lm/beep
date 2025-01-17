@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 17 Jan 2025 09:02:53 EST</pubDate>
+        <pubDate>Fri, 17 Jan 2025 10:00:21 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft starts force upgrading Windows 11 22H2, 23H3 devices</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-force-upgrading-windows-11-22h2-23h3-devices/</link>
+        <pubDate>Fri, 17 Jan 2025 09:55:16 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-force-upgrading-windows-11-22h2-23h3-devices/</guid>
+	<description><![CDATA[​Microsoft has started the forced rollout of Windows 11 24H2 to eligible, non-managed systems running the Home and Pro editions of Windows 11 22H2 and 23H2. [...]]]></description>
+ </item>
+
  <item>
         <title>GDPR complaints filed against TikTok, Temu for sending user data to China</title>
         <link>https://www.bleepingcomputer.com/news/security/gdpr-complaints-filed-against-tiktok-temu-for-sending-user-data-to-china/</link>
@@ -174,22 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/sap-fixes-critical-vulnerabilities-in-netweaver-application-servers/</guid>
 	<description><![CDATA[SAP has fixed two critical vulnerabilities affecting NetWeaver web application server that could be exploited to escalate privileges and access restricted information. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA shares guidance for Microsoft expanded logging capabilities</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-shares-guidance-for-microsoft-expanded-logging-capabilities/</link>
-        <pubDate>Wed, 15 Jan 2025 15:39:16 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-shares-guidance-for-microsoft-expanded-logging-capabilities/</guid>
-	<description><![CDATA[​CISA shared guidance for government agencies and enterprises on using expanded cloud logs in their Microsoft 365 tenants as part of their forensic and compliance investigations. [...]]]></description>
  </item>
 
 </channel>
