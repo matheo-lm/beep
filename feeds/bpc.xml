@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 19 Jan 2025 11:02:05 EST</pubDate>
+        <pubDate>Sun, 19 Jan 2025 12:02:01 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>TikTok shuts down in the US as Trump throws the company a lifeline</title>
+        <link>https://www.bleepingcomputer.com/news/software/tiktok-shuts-down-in-the-us-as-trump-throws-the-company-a-lifeline/</link>
+        <pubDate>Sun, 19 Jan 2025 11:56:49 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Software]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/software/tiktok-shuts-down-in-the-us-as-trump-throws-the-company-a-lifeline/</guid>
+	<description><![CDATA[TikTok shut down in the U.S. late Saturday night following the Supreme Court's decision to uphold the law that banned the company over national security concerns. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Star Blizzard hackers abuse WhatsApp to target high-value diplomats</title>
+        <link>https://www.bleepingcomputer.com/news/security/star-blizzard-hackers-abuse-whatsapp-to-target-high-value-diplomats/</link>
+        <pubDate>Sun, 19 Jan 2025 10:23:46 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/star-blizzard-hackers-abuse-whatsapp-to-target-high-value-diplomats/</guid>
+	<description><![CDATA[Russian nation-state actor Star Blizzard has been running a new spear-phishing campaign to compromise WhatsApp accounts of targets in government, diplomacy, defense policy, international relations, and Ukraine aid organizations. [...]]]></description>
+ </item>
+
  <item>
         <title>FTC orders GM to stop collecting and selling driver’s data</title>
         <link>https://www.bleepingcomputer.com/news/legal/ftc-orders-gm-to-stop-collecting-and-selling-drivers-data/</link>
@@ -160,34 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/gdpr-complaints-filed-against-tiktok-temu-for-sending-user-data-to-china/</guid>
 	<description><![CDATA[Non-profit privacy advocacy group "None of Your Business" (noyb) has filed six complaints against TikTok, AliExpress, SHEIN, Temu, WeChat, and Xiaomi, for unlawfully transferring European user's data to China and infringing European Union's general data protection regulation (GDPR). [...]]]></description>
- </item>
-
- <item>
-        <title>W3 Total Cache plugin flaw exposes 1 million WordPress sites to attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/w3-total-cache-plugin-flaw-exposes-1-million-wordpress-sites-to-attacks/</link>
-        <pubDate>Thu, 16 Jan 2025 15:36:43 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/w3-total-cache-plugin-flaw-exposes-1-million-wordpress-sites-to-attacks/</guid>
-	<description><![CDATA[A severe flaw in the W3 Total Cache plugin installed on more than one million WordPress sites could give attackers access to various information, including metadata on cloud-based apps. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft expands testing of Windows 11 admin protection feature</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-expands-testing-of-windows-11-admin-protection-feature/</link>
-        <pubDate>Thu, 16 Jan 2025 15:13:32 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-expands-testing-of-windows-11-admin-protection-feature/</guid>
-	<description><![CDATA[Microsoft has expanded its Windows 11 administrator protection tests, allowing Insiders to enable the security feature from the Windows Security settings. [...]]]></description>
  </item>
 
 </channel>
