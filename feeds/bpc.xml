@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 20 Jan 2025 12:02:23 EST</pubDate>
+        <pubDate>Mon, 20 Jan 2025 12:59:31 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft fixes Windows Server 2022 bug breaking device boot</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2022-bug-breaking-device-boot/</link>
+        <pubDate>Mon, 20 Jan 2025 12:29:20 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2022-bug-breaking-device-boot/</guid>
+	<description><![CDATA[Microsoft has fixed a bug that was causing some Windows Server 2022 systems with two or more NUMA nodes to fail to start up. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft shares temp fix for Outlook crashing when writing emails</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temp-fix-for-outlook-crashing-when-writing-emails/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-sanctions-chinese-firm-hacker-behind-telecom-and-treasury-hacks/</guid>
 	<description><![CDATA[The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) has sanctioned Yin Kecheng, a Shanghai-based hacker for his role in the recent Treasury breach and a company associated with the Salt Typhoon threat group. [...]]]></description>
- </item>
-
- <item>
-        <title>FCC orders telecoms to secure their networks after Salt Tyhpoon hacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/fcc-orders-telecoms-to-secure-their-networks-after-salt-tyhpoon-hacks/</link>
-        <pubDate>Fri, 17 Jan 2025 11:05:29 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fcc-orders-telecoms-to-secure-their-networks-after-salt-tyhpoon-hacks/</guid>
-	<description><![CDATA[The Federal Communications Commission (FCC) has ordered U.S. telecommunications carriers to secure their networks following last year's Salt Typhoon security breaches. [...]]]></description>
  </item>
 
 </channel>
