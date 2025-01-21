@@ -11,7 +11,7 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 21 Jan 2025 08:03:55 EST</pubDate>
+        <pubDate>Tue, 21 Jan 2025 08:58:33 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
@@ -174,20 +174,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/otelier-data-breach-exposes-info-hotel-reservations-of-millions/</guid>
 	<description><![CDATA[Hotel management platform Otelier suffered a data breach after threat actors breached its Amazon S3 cloud storage to steal millions of guests' personal information and reservations for well-known hotel brands like Marriott, Hilton, and Hyatt. [...]]]></description>
- </item>
-
- <item>
-        <title>Malicious PyPi package steals Discord auth tokens from devs</title>
-        <link>https://www.bleepingcomputer.com/news/security/malicious-pypi-package-steals-discord-auth-tokens-from-devs/</link>
-        <pubDate>Fri, 17 Jan 2025 14:16:28 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/malicious-pypi-package-steals-discord-auth-tokens-from-devs/</guid>
-	<description><![CDATA[A malicious package named 'pycord-self' on the Python package index (PyPI) targets Discord developers to steal authentication tokens and plant a backdoor for remote control over the system. [...]]]></description>
  </item>
 
 </channel>
