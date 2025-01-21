@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Thu, 16 Jan 2025 21:18:48 +0000</lastBuildDate>
@@ -69,7 +69,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/01/chinese-innovations-spawn-wave-of-toll-phishing-via-sms/feed/</wfw:commentRss>
-			<slash:comments>29</slash:comments>
+			<slash:comments>30</slash:comments>
 		
 		
 			</item>
@@ -685,5 +685,5 @@ Object Caching 261/261 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-21 04:44:36 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-21 05:22:26 by W3 Total Cache
 -->
