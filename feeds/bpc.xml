@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 21 Jan 2025 10:59:34 EST</pubDate>
+        <pubDate>Tue, 21 Jan 2025 12:00:47 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>7-Zip fixes bug that bypasses Windows MoTW security warnings, patch now</title>
+        <link>https://www.bleepingcomputer.com/news/security/7-zip-fixes-bug-that-bypasses-the-windows-motw-security-mechanism-patch-now/</link>
+        <pubDate>Tue, 21 Jan 2025 11:05:10 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/7-zip-fixes-bug-that-bypasses-the-windows-motw-security-mechanism-patch-now/</guid>
+	<description><![CDATA[​A high-severity vulnerability in the 7-Zip file archiver allows attackers to bypass the Mark of the Web (MotW) Windows security feature and execute code on users' computers when extracting malicious files from nested archives. [...]]]></description>
+ </item>
+
  <item>
         <title>Ransomware gangs pose as IT support in Microsoft Teams phishing attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/ransomware-gangs-pose-as-it-support-in-microsoft-teams-phishing-attacks/</link>
