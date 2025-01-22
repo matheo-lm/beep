@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 22 Jan 2025 10:59:29 EST</pubDate>
+        <pubDate>Wed, 22 Jan 2025 12:01:55 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Conduent confirms cybersecurity incident behind recent outage</title>
+        <link>https://www.bleepingcomputer.com/news/security/conduent-confirms-cybersecurity-incident-behind-recent-outage/</link>
+        <pubDate>Wed, 22 Jan 2025 11:56:49 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/conduent-confirms-cybersecurity-incident-behind-recent-outage/</guid>
+	<description><![CDATA[American business services giant and government contractor Conduent confirmed today that a recent outage resulted from what it described as a "cyber security incident." [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 11 24H2 now also offered to all eligible Windows 10 PCs</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-expands-windows-11-24h2-rollout-to-eligible-windows-10-pcs/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/criminal-ip-teams-up-with-onthehub-for-digital-education-cybersecurity/</guid>
 	<description><![CDATA[AI SPERA announced today that it has partnered with education platform OnTheHub to provide its integrated cybersecurity solution, Criminal IP, to students and educational institutions. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Exchange 2016 and 2019 reach end of support in October</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-reach-end-of-support-in-october/</link>
-        <pubDate>Mon, 20 Jan 2025 15:11:45 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-reach-end-of-support-in-october/</guid>
-	<description><![CDATA[​Microsoft has reminded admins that Exchange 2016 and Exchange 2019 will reach the end of extended support in October and shared guidance for those who need to decommission outdated servers. [...]]]></description>
  </item>
 
 </channel>
