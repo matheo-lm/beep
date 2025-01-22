@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 22 Jan 2025 16:00:53 EST</pubDate>
+        <pubDate>Wed, 22 Jan 2025 17:02:39 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cloudflare CDN flaw leaks user location data, even through secure chat apps</title>
+        <link>https://www.bleepingcomputer.com/news/security/cloudflare-cdn-flaw-leaks-user-location-data-even-through-secure-chat-apps/</link>
+        <pubDate>Wed, 22 Jan 2025 16:32:26 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-cdn-flaw-leaks-user-location-data-even-through-secure-chat-apps/</guid>
+	<description><![CDATA[A security researcher discovered a flaw in Cloudflare's content delivery network (CDN), which could expose a person's general location by simply sending them an image on platforms like Signal and Discord. [...]]]></description>
+ </item>
+
  <item>
         <title>Telegram captcha tricks you into running malicious PowerShell scripts</title>
         <link>https://www.bleepingcomputer.com/news/security/telegram-captcha-tricks-you-into-running-malicious-powershell-scripts/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-previews-game-assist-in-game-browser-in-edge-stable/</guid>
 	<description><![CDATA[​Microsoft has announced that Game Assist, its recently unveiled in-game browser, is now also available in preview for Microsoft Edge Stable users. [...]]]></description>
- </item>
-
- <item>
-        <title>Bitbucket services “hard down” due to major worldwide outage</title>
-        <link>https://www.bleepingcomputer.com/news/technology/bitbucket-services-hard-down-due-to-major-worldwide-outage/</link>
-        <pubDate>Tue, 21 Jan 2025 12:23:53 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/technology/bitbucket-services-hard-down-due-to-major-worldwide-outage/</guid>
-	<description><![CDATA[Bitbucket is investigating a massive outage affecting Atlassian Bitbucket Cloud customers worldwide, with the company saying its cloud services are "hard down." [...]]]></description>
  </item>
 
 </channel>

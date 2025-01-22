@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Wed, 22 Jan 2025 15:46:11 +0000</lastBuildDate>
@@ -70,7 +70,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/01/mastercard-dns-error-went-unnoticed-for-years/feed/</wfw:commentRss>
-			<slash:comments>17</slash:comments>
+			<slash:comments>22</slash:comments>
 		
 		
 			</item>
@@ -184,7 +184,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/01/microsoft-happy-2025-heres-161-security-updates/feed/</wfw:commentRss>
-			<slash:comments>21</slash:comments>
+			<slash:comments>22</slash:comments>
 		
 		
 			</item>
@@ -690,8 +690,8 @@
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 264/264 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-22 15:56:05 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-22 16:32:35 by W3 Total Cache
 -->
