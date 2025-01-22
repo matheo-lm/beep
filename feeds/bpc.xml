@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 22 Jan 2025 10:02:05 EST</pubDate>
+        <pubDate>Wed, 22 Jan 2025 10:59:29 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 11 24H2 now also offered to all eligible Windows 10 PCs</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-expands-windows-11-24h2-rollout-to-eligible-windows-10-pcs/</link>
+        <pubDate>Wed, 22 Jan 2025 10:19:04 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-expands-windows-11-24h2-rollout-to-eligible-windows-10-pcs/</guid>
+	<description><![CDATA[Microsoft says Windows 11 24H2 has entered the broad deployment phase and is now available to all seekers via Windows Update. [...]]]></description>
+ </item>
+
+ <item>
+        <title>IPany VPN breached in supply-chain attack to push custom malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/ipany-vpn-breached-in-supply-chain-attack-to-push-custom-malware/</link>
+        <pubDate>Wed, 22 Jan 2025 10:11:48 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ipany-vpn-breached-in-supply-chain-attack-to-push-custom-malware/</guid>
+	<description><![CDATA[South Korean VPN provider IPany was breached in a supply chain attack by the "PlushDaemon" China-aligned hacking group, who compromised the company's VPN installer to deploy the custom 'SlowStepper' malware. [...]]]></description>
+ </item>
+
  <item>
         <title>Use this AI chatbot prompt to create a password-exclusion list</title>
         <link>https://www.bleepingcomputer.com/news/security/use-this-ai-chatbot-prompt-to-create-a-password-exclusion-list/</link>
@@ -160,34 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-reach-end-of-support-in-october/</guid>
 	<description><![CDATA[​Microsoft has reminded admins that Exchange 2016 and Exchange 2019 will reach the end of extended support in October and shared guidance for those who need to decommission outdated servers. [...]]]></description>
- </item>
-
- <item>
-        <title>HPE investigates breach as hacker claims to steal source code</title>
-        <link>https://www.bleepingcomputer.com/news/security/hewlett-packard-enterprise-investigates-new-breach-claims/</link>
-        <pubDate>Mon, 20 Jan 2025 14:06:38 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hewlett-packard-enterprise-investigates-new-breach-claims/</guid>
-	<description><![CDATA[Hewlett Packard Enterprise (HPE) is investigating claims of a new breach after a threat actor said they stole documents from the company's developer environments. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Windows Server 2022 bug breaking device boot</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2022-bug-breaking-device-boot/</link>
-        <pubDate>Mon, 20 Jan 2025 12:29:20 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2022-bug-breaking-device-boot/</guid>
-	<description><![CDATA[Microsoft has fixed a bug that was causing some Windows Server 2022 systems with two or more NUMA nodes to fail to start up. [...]]]></description>
  </item>
 
 </channel>

@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Thu, 16 Jan 2025 21:18:48 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 22 Jan 2025 15:46:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,61 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>MasterCard DNS Error Went Unnoticed for Years</title>
+		<link>https://krebsonsecurity.com/2025/01/mastercard-dns-error-went-unnoticed-for-years/</link>
+					<comments>https://krebsonsecurity.com/2025/01/mastercard-dns-error-went-unnoticed-for-years/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Wed, 22 Jan 2025 15:24:41 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[How to Break Into Security]]></category>
+		<category><![CDATA[akam.ne]]></category>
+		<category><![CDATA[akam.net]]></category>
+		<category><![CDATA[Akamai]]></category>
+		<category><![CDATA[awsdns-06.ne]]></category>
+		<category><![CDATA[az.mastercard.com]]></category>
+		<category><![CDATA[Azure]]></category>
+		<category><![CDATA[Bugcrowd]]></category>
+		<category><![CDATA[CloudFlare]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[mastercard]]></category>
+		<category><![CDATA[Philippe Caturegli]]></category>
+		<category><![CDATA[Seralys]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70117</guid>
+
+					<description><![CDATA[The payment card giant MasterCard just fixed a glaring error in its domain name server settings that could have allowed anyone to intercept or divert Internet traffic for the company by registering an unused domain name. The misconfiguration persisted for nearly five years until a security researcher spent $300 to register the domain and prevent it from being grabbed by cybercriminals.]]></description>
+										<content:encoded><![CDATA[<p>The payment card giant <strong>MasterCard</strong> just fixed a glaring error in its domain name server settings that could have allowed anyone to intercept or divert Internet traffic for the company by registering an unused domain name. The misconfiguration persisted for nearly five years until a security researcher spent $300 to register the domain and prevent it from being grabbed by cybercriminals.</p>
+<div id="attachment_70128" style="width: 677px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70128" decoding="async" class="size-full wp-image-70128" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/akamne.png" alt="" width="667" height="478" /><p id="caption-attachment-70128" class="wp-caption-text">A DNS lookup on the domain az.mastercard.com on Jan. 14, 2025 shows the mistyped domain name a22-65.akam.ne.</p></div>
+<p>From June 30, 2020 until January 14, 2025, one of the core Internet servers that MasterCard uses to direct traffic for portions of the mastercard.com network was misnamed. MasterCard.com relies on five shared Domain Name System (DNS) servers at the Internet infrastructure provider <strong>Akamai </strong>[DNS acts as a kind of Internet phone book, by translating website names to numeric Internet addresses that are easier for computers to manage].</p>
+<p>All of the Akamai DNS server names that MasterCard uses are supposed to end in &#8220;akam.net&#8221; but one of them was misconfigured to rely on the domain &#8220;<strong>akam.ne</strong>.&#8221;</p>
+<p>This tiny but potentially critical typo was discovered recently by <strong>Philippe Caturegli</strong>, founder of the security consultancy <a href="https://www.seralys.com/" target="_blank" rel="noopener">Seralys</a>. Caturegli said he guessed that nobody had yet registered the domain akam.ne, which is under the purview of the top-level domain authority for the West Africa nation of <a href="https://en.wikipedia.org/wiki/Niger" target="_blank" rel="noopener">Niger</a>.</p>
+<p>Caturegli said it took $300 and nearly three months of waiting to secure the domain with the registry in Niger. After enabling a DNS server on akam.ne, he noticed hundreds of thousands of DNS requests hitting his server each day from locations around the globe. Apparently, MasterCard wasn&#8217;t the only organization that had fat-fingered a DNS entry to include &#8220;akam.ne,&#8221; but they were by far the largest.</p>
+<p>Had he enabled an email server on his new domain akam.ne, Caturegli likely would have received wayward emails directed toward mastercard.com or other affected domains. If he&#8217;d abused his access, he probably could have <a href="https://krebsonsecurity.com/2024/08/local-networks-go-global-when-domain-names-collide/" target="_blank" rel="noopener">obtained website encryption certificates (SSL/TLS certs)</a> that were authorized to accept and relay web traffic for affected websites. He may even have been able to <a href="https://krebsonsecurity.com/2020/02/dangerous-domain-corp-com-goes-up-for-sale/" target="_blank" rel="noopener">passively receive Microsoft Windows authentication credentials</a> from employee computers at affected companies.</p>
+<p>But the researcher said he didn&#8217;t attempt to do any of that. Instead, he alerted MasterCard that the domain was theirs if they wanted it, copying this author on his notifications. A few hours later, MasterCard acknowledged the mistake, but said there was never any real threat to the security of its operations.</p>
+<p>&#8220;We have looked into the matter and there was not a risk to our systems,&#8221; a MasterCard spokesperson wrote. &#8220;This typo has now been corrected.&#8221;</p>
+<p>Meanwhile, Caturegli received a request submitted through <strong>Bugcrowd</strong>, a program that offers financial rewards and recognition to security researchers who find flaws and work privately with the affected vendor to fix them. The message suggested his public disclosure of the MasterCard DNS error via <a href="https://www.linkedin.com/feed/update/urn:li:activity:7285038365236682753/" target="_blank" rel="noopener">a post on LinkedIn</a> (after he&#8217;d secured the akam.ne domain) was not aligned with ethical security practices, and passed on a request from MasterCard to have the post removed.</p>
+<div id="attachment_70126" style="width: 718px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70126" decoding="async" loading="lazy" class="size-full wp-image-70126" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/mastercard-response.png" alt="" width="708" height="855" /><p id="caption-attachment-70126" class="wp-caption-text">MasterCard&#8217;s request to Caturegli, a.k.a. &#8220;Titon&#8221; on infosec.exchange.</p></div>
+<p>Caturegli said while he does have an account on Bugcrowd, he has never submitted anything through the Bugcrowd program, and that he reported this issue directly to MasterCard.</p>
+<p>&#8220;I did not disclose this issue through Bugcrowd,&#8221; Caturegli wrote in reply. &#8220;Before making any public disclosure, I ensured that the affected domain was registered to prevent exploitation, mitigating any risk to MasterCard or its customers. This action, which we took at our own expense, demonstrates our commitment to ethical security practices and responsible disclosure.&#8221; <span id="more-70117"></span></p>
+<p>Most organizations have at least two authoritative domain name servers, but some handle so many DNS requests that they need to spread the load over additional DNS server domains. In MasterCard&#8217;s case, that number is five, so it stands to reason that if an attacker managed to seize control over just one of those domains they would only be able to see about one-fifth of the overall DNS requests coming in.</p>
+<p>But Caturegli said the reality is that many Internet users are relying at least to some degree on public traffic forwarders or DNS resolvers like <strong>Cloudflare</strong> and <strong>Google</strong>.</p>
+<p>&#8220;So all we need is for one of these resolvers to query our name server and cache the result,&#8221; Caturegli said. By setting their DNS server records with a long TTL or &#8220;Time To Live&#8221; &#8212; a setting that can adjust the lifespan of data packets on a network &#8212; an attacker&#8217;s poisoned instructions for the target domain can be propagated by large cloud providers.</p>
+<p>&#8220;With a long TTL, we may reroute a LOT more than just 1/5 of the traffic,&#8221; he said.</p>
+<p>The researcher said he&#8217;d hoped that the credit card giant might thank him, or at least offer to cover the cost of buying the domain.</p>
+<p>&#8220;We obviously disagree with this assessment,&#8221; Caturegli wrote in <a href="https://www.linkedin.com/feed/update/urn:li:activity:7285038365236682753?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7285038365236682753%2C7285289297706909697%29&amp;dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287285289297706909697%2Curn%3Ali%3Aactivity%3A7285038365236682753%29" target="_blank" rel="noopener">a follow-up post</a> on LinkedIn regarding MasterCard&#8217;s public statement. &#8220;But we’ll let you judge— here are some of the DNS lookups we recorded before reporting the issue.&#8221;</p>
+<div id="attachment_70125" style="width: 800px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70125" decoding="async" loading="lazy" class="size-full wp-image-70125" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/mastercard-domains.png" alt="" width="790" height="561" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/01/mastercard-domains.png 790w, https://krebsonsecurity.com/wp-content/uploads/2025/01/mastercard-domains-768x545.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/01/mastercard-domains-782x555.png 782w, https://krebsonsecurity.com/wp-content/uploads/2025/01/mastercard-domains-100x70.png 100w" sizes="(max-width: 790px) 100vw, 790px" /><p id="caption-attachment-70125" class="wp-caption-text">Caturegli posted this screenshot of MasterCard domains that were potentially at risk from the misconfigured domain.</p></div>
+<p>As the screenshot above shows, the misconfigured DNS server Caturegli found involved the MasterCard subdomain <strong>az.mastercard.com</strong>. It is not clear exactly how this subdomain is used by MasterCard, however their naming conventions suggest the domains correspond to production servers at Microsoft&#8217;s <strong>Azure</strong> cloud service. Caturegli said the domains all resolve to Internet addresses at Microsoft.</p>
+<p>&#8220;Don’t be like Mastercard,&#8221; Caturegli concluded in his LinkedIn post. &#8220;Don’t dismiss risk, and don’t let your marketing team handle security disclosures.&#8221;</p>
+<p>One final note: The domain akam.ne has been registered previously &#8212; in December 2016 by someone using the email address um-i-delo@yandex.ru. The Russian search giant Yandex reports this user account belongs to an &#8220;Ivan I.&#8221; from Moscow. Passive DNS records from <a href="https://www.domaintools.com" target="_blank" rel="noopener">DomainTools.com</a> show that between 2016 and 2018 the domain was connected to an Internet server in Germany, and that the domain was left to expire in 2018.</p>
+<p>This is interesting given <a href="https://www.linkedin.com/feed/update/urn:li:activity:7285038365236682753?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7285038365236682753%2C7285221445796835329%29&amp;replyUrn=urn%3Ali%3Acomment%3A%28activity%3A7285038365236682753%2C7285223757982363648%29&amp;dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287285221445796835329%2Curn%3Ali%3Aactivity%3A7285038365236682753%29&amp;dashReplyUrn=urn%3Ali%3Afsd_comment%3A%287285223757982363648%2Curn%3Ali%3Aactivity%3A7285038365236682753%29" target="_blank" rel="noopener">a comment on Caturegli&#8217;s LinkedIn post from an ex-Cloudflare employee</a> who linked to a report he co-authored on a similar typo domain apparently registered in 2017 for organizations that may have mistyped their AWS DNS server as &#8220;<strong>awsdns-06.ne</strong>&#8221; instead of &#8220;<strong>awsdns-06.net</strong>.&#8221; DomainTools reports that this typo domain also was registered to a Yandex user (playlotto@yandex.ru), and was hosted at the same German ISP &#8212; Team Internet (AS61969).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/01/mastercard-dns-error-went-unnoticed-for-years/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Chinese Innovations Spawn Wave of Toll Phishing Via SMS</title>
 		<link>https://krebsonsecurity.com/2025/01/chinese-innovations-spawn-wave-of-toll-phishing-via-sms/</link>
 					<comments>https://krebsonsecurity.com/2025/01/chinese-innovations-spawn-wave-of-toll-phishing-via-sms/#comments</comments>
@@ -51,7 +106,7 @@
 										<content:encoded><![CDATA[<p>Residents across the United States are being inundated with text messages purporting to come from toll road operators like <strong>E-ZPass</strong>, warning that recipients face fines if a delinquent toll fee remains unpaid. Researchers say the surge in SMS spam coincides with new features added to a popular commercial phishing kit sold in China that makes it simple to set up convincing lures spoofing toll road operators in multiple U.S. states.</p>
 <p>Last week, the <strong>Massachusetts Department of Transportation</strong> (MassDOT) <a href="https://www.ezdrivema.com/About-EzdriveMA/Smishing-Alert" target="_blank" rel="noopener">warned residents</a> to be on the lookout for a new SMS phishing or &#8220;smishing&#8221; scam targeting users of <strong>EZDriveMA</strong>, MassDOT&#8217;s all electronic tolling program. Those who fall for the scam are asked to provide payment card data, and eventually will be asked to supply a one-time password sent via SMS or a mobile authentication app.</p>
 <p>Reports of similar SMS phishing attacks against customers of other U.S. state-run toll facilities surfaced around the same time as the MassDOT alert. People in Florida reported receiving SMS phishing that spoofed <strong>Sunpass</strong>, Florida&#8217;s prepaid toll program.</p>
-<div id="attachment_70096" style="width: 503px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70096" decoding="async" class="size-full wp-image-70096" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/lighthouse-ezdrive.png" alt="" width="493" height="683" /><p id="caption-attachment-70096" class="wp-caption-text">This phishing module for spoofing MassDOT&#8217;s EZDrive toll system was offered on Jan. 10, 2025 by a China-based SMS phishing service called &#8220;Lighthouse.&#8221;</p></div>
+<div id="attachment_70096" style="width: 503px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70096" decoding="async" loading="lazy" class="size-full wp-image-70096" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/lighthouse-ezdrive.png" alt="" width="493" height="683" /><p id="caption-attachment-70096" class="wp-caption-text">This phishing module for spoofing MassDOT&#8217;s EZDrive toll system was offered on Jan. 10, 2025 by a China-based SMS phishing service called &#8220;Lighthouse.&#8221;</p></div>
 <p>In Texas, residents said they received text messages about unpaid tolls with the <strong>North Texas Toll Authority</strong>. Similar reports came from readers in California, Colorado, Connecticut, Minnesota, and Washington. This is by no means a comprehensive list.</p>
 <div id="attachment_70097" style="width: 503px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70097" decoding="async" loading="lazy" class="size-full wp-image-70097" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/lighthouse-ntta.png" alt="" width="493" height="683" /><p id="caption-attachment-70097" class="wp-caption-text">A new module from the Lighthouse SMS phishing kit released Jan. 14 targets customers of the North Texas Toll Authority (NTTA).</p></div>
 <p>In each case, the emergence of these SMS phishing attacks coincided with the release of new phishing kit capabilities that closely mimic these toll operator websites as they appear on mobile devices. Notably, none of the phishing pages will even load unless the website detects that the visitor is coming from a mobile device.</p>
@@ -628,62 +683,15 @@
 		
 		
 			</item>
-		<item>
-		<title>U.S. Offered $10M for Hacker Just Arrested by Russia</title>
-		<link>https://krebsonsecurity.com/2024/12/u-s-offered-10m-for-hacker-just-arrested-by-russia/</link>
-					<comments>https://krebsonsecurity.com/2024/12/u-s-offered-10m-for-hacker-just-arrested-by-russia/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Wed, 04 Dec 2024 14:08:45 +0000</pubDate>
-				<category><![CDATA[Ne'er-Do-Well News]]></category>
-		<category><![CDATA[Aleksandr Ermakov]]></category>
-		<category><![CDATA[Boriselcin]]></category>
-		<category><![CDATA[Daryna Antoniuk]]></category>
-		<category><![CDATA[Intel 471]]></category>
-		<category><![CDATA[Mikhail Lenin]]></category>
-		<category><![CDATA[Mikhail Matveev]]></category>
-		<category><![CDATA[Mikhail Shefel]]></category>
-		<category><![CDATA[rescator]]></category>
-		<category><![CDATA[Shtazi-IT]]></category>
-		<category><![CDATA[Sugarlocker]]></category>
-		<category><![CDATA[Wazawaka]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69698</guid>
-
-					<description><![CDATA[In January 2022, KrebsOnSecurity identified a Russian man named Mikhail Matveev as "Wazawaka," a cybercriminal who was deeply involved in the formation and operation of multiple ransomware groups. The U.S. government indicted Matveev as a top ransomware purveyor a year later, offering $10 million for information leading to his arrest. Last week, the Russian government reportedly arrested Matveev and charged him with creating malware used to extort companies.]]></description>
-										<content:encoded><![CDATA[<p>In January 2022, KrebsOnSecurity identified a Russian man named <strong>Mikhail Matveev</strong> as &#8220;<strong>Wazawaka</strong>,&#8221; a cybercriminal who was deeply involved in the formation and operation of multiple ransomware groups. The U.S. government indicted Matveev as a top ransomware purveyor a year later, offering $10 million for information leading to his arrest. Last week, the Russian government reportedly arrested Matveev and charged him with creating malware used to extort companies.</p>
-<div id="attachment_63686" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-63686" decoding="async" loading="lazy" class=" wp-image-63686" src="https://krebsonsecurity.com/wp-content/uploads/2023/05/fbiwanted-matveev.png" alt="" width="748" height="734" srcset="https://krebsonsecurity.com/wp-content/uploads/2023/05/fbiwanted-matveev.png 804w, https://krebsonsecurity.com/wp-content/uploads/2023/05/fbiwanted-matveev-768x754.png 768w, https://krebsonsecurity.com/wp-content/uploads/2023/05/fbiwanted-matveev-782x767.png 782w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-63686" class="wp-caption-text">An FBI wanted poster for Matveev.</p></div>
-<p>Matveev, a.k.a. &#8220;Wazawaka&#8221; and &#8220;<strong>Boriselcin</strong>&#8221; worked with at least three different ransomware gangs that extorted hundreds of millions of dollars from companies, schools, hospitals and government agencies, U.S. prosecutors allege.</p>
-<p>Russia&#8217;s interior ministry last week issued <a href="https://t.me/mvd39/5931" target="_blank" rel="noopener">a statement</a> saying a 32-year-old hacker had been charged with violating domestic laws against the creation and use of malicious software. The announcement didn&#8217;t name the accused, but the Russian state news agency <em>RIA Novosti</em> <a href="https://ria.ru/20241129/sud-1986456557.html" target="_blank" rel="noopener">cited</a> anonymous sources saying the man detained is Matveev.</p>
-<p>Matveev did not respond to requests for comment. <strong>Daryna Antoniuk</strong> at <em>TheRecord</em> <a href="https://therecord.media/wazawaka-mikhail-matveev-reportedly-arrested-russia" target="_blank" rel="noopener">reports</a> that a security researcher said on Sunday they had contacted Wazawaka, who confirmed being charged and said he&#8217;d paid two fines, had his cryptocurrency confiscated, and is currently out on bail pending trial.</p>
-<p>Matveev&#8217;s hacker identities were remarkably open and talkative on numerous cybercrime forums. Shortly after <a href="https://krebsonsecurity.com/2022/01/who-is-the-network-access-broker-wazawaka/" target="_blank" rel="noopener">being identified as Wazawaka by KrebsOnSecurity in 2022</a>, Matveev <a href="https://krebsonsecurity.com/2022/02/wazawaka-goes-waka-waka/" target="_blank" rel="noopener">published multiple selfie videos on Twitter/X</a> where he acknowledged using the Wazawaka moniker and mentioned several security researchers by name (including this author). More recently, Matveev&#8217;s X profile (@ransomboris) <a href="https://x.com/LucasKatashi/status/1716815224874140121" target="_blank" rel="noopener">posted</a> a picture of a t-shirt that features the U.S. government&#8217;s &#8220;Wanted&#8221; poster for him.</p>
-<div id="attachment_69704" style="width: 597px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69704" decoding="async" loading="lazy" class="size-full wp-image-69704" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/matveev-wanted-tshirt.png" alt="" width="587" height="815" /><p id="caption-attachment-69704" class="wp-caption-text">An image tweeted by Matveev showing the Justice Department&#8217;s wanted poster for him on a t-shirt. image: x.com/vxunderground</p></div>
-<p>The golden rule of cybercrime in Russia has always been that as long as you never hack, extort or steal from Russian citizens or companies, you have little to fear of arrest. Wazawaka claimed he zealously adhered to this rule as a personal and professional mantra.</p>
-<p>&#8220;Don&#8217;t shit where you live, travel local, and don&#8217;t go abroad,&#8221; Wazawaka wrote in January 2021 on the Russian-language cybercrime forum Exploit. &#8220;Mother Russia will help you. Love your country, and you will always get away with everything.&#8221;<span id="more-69698"></span></p>
-<p>Still, Wazawaka may not have always stuck to that rule. At several points throughout his career, Wazawaka claimed he made good money stealing accounts from drug dealers on darknet narcotics bazaars.</p>
-<p>Cyber intelligence firm <a href="https://www.intel471.com" target="_blank" rel="noopener">Intel 471</a> said Matveev&#8217;s arrest raises more questions than answers, and that Russia&#8217;s motivation here likely goes beyond what&#8217;s happening on the surface.</p>
-<p>&#8220;It&#8217;s possible this is a shakedown by Kaliningrad authorities of a local internet thug who has tens of millions of dollars in cryptocurrency,&#8221; Intel 471 wrote in an analysis published Dec. 2. &#8220;The country’s ingrained, institutional corruption dictates that if dues aren’t paid, trouble will come knocking. But it’s usually a problem money can fix.</p>
-<p>Intel 471 says while Russia’s court system is opaque, Matveev will likely be open about the proceedings, particularly if he pays a toll and is granted passage to continue his destructive actions.</p>
-<p>&#8220;Unfortunately, none of this would mark meaningful progress against ransomware,&#8221; they concluded.</p>
-<p>Although Russia traditionally hasn&#8217;t put a lot of effort into going after cybercriminals within its borders, it has brought a series of charges against alleged ransomware actors this year. In January, four men tied to the REvil ransomware group were sentenced to lengthy prison terms. The men were among <a href="https://krebsonsecurity.com/2022/01/at-request-of-u-s-russia-rounds-up-14-revil-ransomware-affiliates/" target="_blank" rel="noopener">14 suspected REvil members rounded up by Russia</a> in the weeks before Russia invaded Ukraine in 2022.</p>
-<p>Earlier this year, Russian authorities arrested at least two men for allegedly operating the short-lived <strong>Sugarlocker</strong> ransomware program in 2021. <strong>Aleksandr Ermakov</strong> and <strong>Mikhail Shefel</strong> (now legally <strong>Mikhail Lenin</strong>) <a href="https://krebsonsecurity.com/2024/01/who-is-alleged-medibank-hacker-aleksandr-ermakov/" target="_blank" rel="noopener">ran a security consulting business called <strong>Shtazi-IT</strong></a>. Shortly before his arrest, Ermakov became the first ever cybercriminal sanctioned by Australia, which alleged he stole and leaked data on nearly 10 million customers of the Australian health giant Medibank.</p>
-<p>In December 2023, KrebsOnSecurity <a href="https://krebsonsecurity.com/2023/12/ten-years-later-new-clues-in-the-target-breach/" target="_blank" rel="noopener">identified Lenin as &#8220;<strong>Rescator</strong>,&#8221;</a> the nickname used by the cybercriminal responsible for selling more than 100 million payment cards stolen from customers of Target and Home Depot in 2013 and 2014. Last month, Shefel <a href="https://krebsonsecurity.com/2024/11/an-interview-with-the-target-home-depot-hacker/" target="_blank" rel="noopener">admitted in an interview with KrebsOnSecurity</a> that he was Rescator, and claimed his arrest in the Sugarlocker case was payback for reporting the son of his former boss to the police.</p>
-<p>Ermakov was sentenced to two years probation. But on the same day my interview with Lenin was published here, a Moscow court declared him insane, and ordered him to undergo compulsory medical treatment, The Record&#8217;s Antoniuk notes.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2024/12/u-s-offered-10m-for-hacker-just-arrested-by-russia/feed/</wfw:commentRss>
-			<slash:comments>14</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 136/417 objects using memcached
-Page Caching using memcached 
-Database Caching 3/26 queries in 0.051 seconds using memcached
+Object Caching 264/264 objects using memcached
+Page Caching using memcached (User agent is rejected) 
+Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-22 09:55:00 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-22 11:01:03 by W3 Total Cache
 -->
