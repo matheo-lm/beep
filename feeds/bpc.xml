@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 22 Jan 2025 14:58:39 EST</pubDate>
+        <pubDate>Wed, 22 Jan 2025 16:00:53 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Telegram captcha tricks you into running malicious PowerShell scripts</title>
+        <link>https://www.bleepingcomputer.com/news/security/telegram-captcha-tricks-you-into-running-malicious-powershell-scripts/</link>
+        <pubDate>Wed, 22 Jan 2025 15:35:44 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/telegram-captcha-tricks-you-into-running-malicious-powershell-scripts/</guid>
+	<description><![CDATA[Threat actors on X are exploiting the news around Ross Ulbricht to direct unsuspecting users to a Telegram channel that tricks them into executing PowerShell code that infects them with malware. [...]]]></description>
+ </item>
+
  <item>
         <title>Cisco warns of denial of service flaw with PoC exploit code</title>
         <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-denial-of-service-flaw-with-poc-exploit-code/</link>
@@ -174,34 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/technology/bitbucket-services-hard-down-due-to-major-worldwide-outage/</guid>
 	<description><![CDATA[Bitbucket is investigating a massive outage affecting Atlassian Bitbucket Cloud customers worldwide, with the company saying its cloud services are "hard down." [...]]]></description>
- </item>
-
- <item>
-        <title>7-Zip fixes bug that bypasses Windows MoTW security warnings, patch now</title>
-        <link>https://www.bleepingcomputer.com/news/security/7-zip-fixes-bug-that-bypasses-the-windows-motw-security-mechanism-patch-now/</link>
-        <pubDate>Tue, 21 Jan 2025 11:05:10 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/7-zip-fixes-bug-that-bypasses-the-windows-motw-security-mechanism-patch-now/</guid>
-	<description><![CDATA[​A high-severity vulnerability in the 7-Zip file archiver allows attackers to bypass the Mark of the Web (MotW) Windows security feature and execute code on users' computers when extracting malicious files from nested archives. [...]]]></description>
- </item>
-
- <item>
-        <title>Ransomware gangs pose as IT support in Microsoft Teams phishing attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/ransomware-gangs-pose-as-it-support-in-microsoft-teams-phishing-attacks/</link>
-        <pubDate>Tue, 21 Jan 2025 10:59:29 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ransomware-gangs-pose-as-it-support-in-microsoft-teams-phishing-attacks/</guid>
-	<description><![CDATA[Ransomware gangs are increasingly adopting email bombing followed by posing as tech support in Microsoft Teams calls to trick employees into allowing remote control and install malware that provides access to the company network. [...]]]></description>
  </item>
 
 </channel>
