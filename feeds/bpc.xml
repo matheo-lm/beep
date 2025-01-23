@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 23 Jan 2025 13:00:37 EST</pubDate>
+        <pubDate>Thu, 23 Jan 2025 13:58:18 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>QNAP fixes six Rsync vulnerabilities in NAS backup, recovery app</title>
+        <link>https://www.bleepingcomputer.com/news/security/qnap-fixes-six-rsync-vulnerabilities-in-hbs-nas-backup-recovery-app/</link>
+        <pubDate>Thu, 23 Jan 2025 13:30:26 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/qnap-fixes-six-rsync-vulnerabilities-in-hbs-nas-backup-recovery-app/</guid>
+	<description><![CDATA[QNAP has fixed six rsync vulnerabilities that could let attackers gain remote code execution on unpatched Network Attached Storage (NAS) devices. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New Android Identity Check locks settings outside trusted locations</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-android-identity-check-locks-settings-outside-trusted-locations/</link>
+        <pubDate>Thu, 23 Jan 2025 13:00:00 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-android-identity-check-locks-settings-outside-trusted-locations/</guid>
+	<description><![CDATA[Google has announced a new Android "Identity Check" security feature that lock sensitive settings behind biometric authentication when outside a trusted location. [...]]]></description>
+ </item>
+
  <item>
         <title>Brave Search now lets users ‘Rerank’ results from favorite sites</title>
         <link>https://www.bleepingcomputer.com/news/technology/brave-search-now-lets-users-rerank-results-from-favorite-sites/</link>
@@ -168,34 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/conduent-confirms-cybersecurity-incident-behind-recent-outage/</guid>
 	<description><![CDATA[American business services giant and government contractor Conduent confirmed today that a recent outage resulted from what it described as a "cyber security incident." [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 24H2 now also offered to all eligible Windows 10 PCs</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-expands-windows-11-24h2-rollout-to-eligible-windows-10-pcs/</link>
-        <pubDate>Wed, 22 Jan 2025 10:19:04 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-expands-windows-11-24h2-rollout-to-eligible-windows-10-pcs/</guid>
-	<description><![CDATA[Microsoft says Windows 11 24H2 has entered the broad deployment phase and is now available to all seekers via Windows Update. [...]]]></description>
- </item>
-
- <item>
-        <title>IPany VPN breached in supply-chain attack to push custom malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/ipany-vpn-breached-in-supply-chain-attack-to-push-custom-malware/</link>
-        <pubDate>Wed, 22 Jan 2025 10:11:48 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ipany-vpn-breached-in-supply-chain-attack-to-push-custom-malware/</guid>
-	<description><![CDATA[South Korean VPN provider IPany was breached in a supply chain attack by the "PlushDaemon" China-aligned hacking group, who compromised the company's VPN installer to deploy the custom 'SlowStepper' malware. [...]]]></description>
  </item>
 
 </channel>
