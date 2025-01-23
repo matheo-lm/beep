@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 23 Jan 2025 13:58:18 EST</pubDate>
+        <pubDate>Thu, 23 Jan 2025 15:03:03 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google launches customizable Web Store for Enterprise extensions</title>
+        <link>https://www.bleepingcomputer.com/news/google/google-launches-customizable-web-store-for-enterprise-extensions/</link>
+        <pubDate>Thu, 23 Jan 2025 14:42:43 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/google/google-launches-customizable-web-store-for-enterprise-extensions/</guid>
+	<description><![CDATA[Google has officially launched its Chrome Web Store for Enterprises, allowing organizations to create a curated list of extensions that can be installed in employees' web browsers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hundreds of fake Reddit sites push Lumma Stealer malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/hundreds-of-fake-reddit-sites-push-lumma-stealer-malware/</link>
+        <pubDate>Thu, 23 Jan 2025 14:05:34 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hundreds-of-fake-reddit-sites-push-lumma-stealer-malware/</guid>
+	<description><![CDATA[Hackers are distributing close to 1,000 web pages mimicking Reddit and the WeTransfer file sharing service that lead to downloading the Lumma Stealer malware. [...]]]></description>
+ </item>
+
  <item>
         <title>QNAP fixes six Rsync vulnerabilities in NAS backup, recovery app</title>
         <link>https://www.bleepingcomputer.com/news/security/qnap-fixes-six-rsync-vulnerabilities-in-hbs-nas-backup-recovery-app/</link>
@@ -158,48 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/telegram-captcha-tricks-you-into-running-malicious-powershell-scripts/</guid>
 	<description><![CDATA[Threat actors on X are exploiting the news around Ross Ulbricht to direct unsuspecting users to a Telegram channel that tricks them into executing PowerShell code that infects them with malware. [...]]]></description>
- </item>
-
- <item>
-        <title>Cisco warns of denial of service flaw with PoC exploit code</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-denial-of-service-flaw-with-poc-exploit-code/</link>
-        <pubDate>Wed, 22 Jan 2025 13:47:56 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisco-warns-of-denial-of-service-flaw-with-poc-exploit-code/</guid>
-	<description><![CDATA[Cisco has released security updates to patch a ClamAV denial-of-service (DoS) vulnerability, which has proof-of-concept (PoC) exploit code. [...]]]></description>
- </item>
-
- <item>
-        <title>PowerSchool hacker claims they stole data of 62 million students</title>
-        <link>https://www.bleepingcomputer.com/news/security/powerschool-hacker-claims-they-stole-data-of-62-million-students/</link>
-        <pubDate>Wed, 22 Jan 2025 12:39:06 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/powerschool-hacker-claims-they-stole-data-of-62-million-students/</guid>
-	<description><![CDATA[The hacker who breached education tech giant PowerSchool claimed in an extortion demand that they stole the personal data of 62.4 million students and 9.5 million teachers. [...]]]></description>
- </item>
-
- <item>
-        <title>Conduent confirms cybersecurity incident behind recent outage</title>
-        <link>https://www.bleepingcomputer.com/news/security/conduent-confirms-cybersecurity-incident-behind-recent-outage/</link>
-        <pubDate>Wed, 22 Jan 2025 11:56:49 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/conduent-confirms-cybersecurity-incident-behind-recent-outage/</guid>
-	<description><![CDATA[American business services giant and government contractor Conduent confirmed today that a recent outage resulted from what it described as a "cyber security incident." [...]]]></description>
  </item>
 
 </channel>
