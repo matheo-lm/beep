@@ -11,11 +11,53 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 23 Jan 2025 09:58:54 EST</pubDate>
+        <pubDate>Thu, 23 Jan 2025 11:00:11 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>SonicWall warns of SMA1000 RCE flaw exploited in zero-day attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-rce-flaw-exploited-in-zero-day-attacks/</link>
+        <pubDate>Thu, 23 Jan 2025 10:45:02 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-rce-flaw-exploited-in-zero-day-attacks/</guid>
+	<description><![CDATA[SonicWall is warning about a pre-authentication deserialization vulnerability in SonicWall SMA1000 Appliance Management Console (AMC) and Central Management Console (CMC), with reports that it has been exploited as a zero-day in attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Stealthy 'Magic Packet' malware targets Juniper VPN gateways</title>
+        <link>https://www.bleepingcomputer.com/news/security/stealthy-magic-packet-malware-targets-juniper-vpn-gateways/</link>
+        <pubDate>Thu, 23 Jan 2025 10:26:36 -0500</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/stealthy-magic-packet-malware-targets-juniper-vpn-gateways/</guid>
+	<description><![CDATA[A malicious campaign has been specifically targeting Juniper edge devices, many acting as VPN gateways, with malware dubbed J-magic that starts a reverse shell only if it detects a "magic packet" in the network traffic. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Tesla EV charger hacked twice on second day of Pwn2Own Tokyo</title>
+        <link>https://www.bleepingcomputer.com/news/security/tesla-ev-charger-hacked-twice-on-second-day-of-pwn2own-tokyo/</link>
+        <pubDate>Thu, 23 Jan 2025 10:24:11 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/tesla-ev-charger-hacked-twice-on-second-day-of-pwn2own-tokyo/</guid>
+	<description><![CDATA[​Security researchers hacked Tesla's Wall Connector electric vehicle charger twice on the second day of the Pwn2Own Automotive 2025 hacking contest. [...]]]></description>
+ </item>
+
  <item>
         <title>Critical zero-days impact premium WordPress real estate plugins</title>
         <link>https://www.bleepingcomputer.com/news/security/critical-zero-days-impact-premium-wordpress-real-estate-plugins/</link>
@@ -154,38 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-16-zero-days-on-first-day-of-pwn2own-automotive-2025/</guid>
 	<description><![CDATA[On the first day of Pwn2Own Automotive 2025, security researchers exploited 16 unique zero-days and collected $382,750 in cash awards. [...]]]></description>
- </item>
-
- <item>
-        <title>Cloudflare mitigated a record-breaking 5.6 Tbps DDoS attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/cloudflare-mitigated-a-record-breaking-56-tbps-ddos-attack/</link>
-        <pubDate>Tue, 21 Jan 2025 16:04:09 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-mitigated-a-record-breaking-56-tbps-ddos-attack/</guid>
-	<description><![CDATA[The largest distributed denial-of-service (DDoS) attack to date peaked at 5.6 terabits per second and came from a Mirai-based botnet with 13,000 compromised devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Fake Homebrew Google ads target Mac users with malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/fake-homebrew-google-ads-target-mac-users-with-malware/</link>
-        <pubDate>Tue, 21 Jan 2025 14:58:20 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Apple]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fake-homebrew-google-ads-target-mac-users-with-malware/</guid>
-	<description><![CDATA[Hackers are once again abusing Google ads to spread malware, using a fake Homebrew website to infect Macs and Linux devices with an infostealer that steals credentials, browser data, and cryptocurrency wallets. [...]]]></description>
  </item>
 
 </channel>
