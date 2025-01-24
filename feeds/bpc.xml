@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 24 Jan 2025 11:01:40 EST</pubDate>
+        <pubDate>Fri, 24 Jan 2025 11:59:48 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hacker infects 18,000 "script kiddies" with fake malware builder</title>
+        <link>https://www.bleepingcomputer.com/news/security/hacker-infects-18-000-script-kiddies-with-fake-malware-builder/</link>
+        <pubDate>Fri, 24 Jan 2025 11:34:40 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hacker-infects-18-000-script-kiddies-with-fake-malware-builder/</guid>
+	<description><![CDATA[A threat actor targeted low-skilled hackers, known as "script kiddies," with a fake malware builder that secretly infected them with a backdoor to steal data and take over computers. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: Outdated Exchange servers fail to auto-mitigate security bugs</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-outdated-exchange-servers-fail-to-auto-mitigate-security-bugs/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/stealthy-magic-packet-malware-targets-juniper-vpn-gateways/</guid>
 	<description><![CDATA[A malicious campaign has been specifically targeting Juniper edge devices, many acting as VPN gateways, with malware dubbed J-magic that starts a reverse shell only if it detects a "magic packet" in the network traffic. [...]]]></description>
- </item>
-
- <item>
-        <title>Tesla EV charger hacked twice on second day of Pwn2Own Tokyo</title>
-        <link>https://www.bleepingcomputer.com/news/security/tesla-ev-charger-hacked-twice-on-second-day-of-pwn2own-tokyo/</link>
-        <pubDate>Thu, 23 Jan 2025 10:24:11 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/tesla-ev-charger-hacked-twice-on-second-day-of-pwn2own-tokyo/</guid>
-	<description><![CDATA[​Security researchers hacked Tesla's Wall Connector electric vehicle charger twice on the second day of the Pwn2Own Automotive 2025 hacking contest. [...]]]></description>
  </item>
 
 </channel>
