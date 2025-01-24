@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 24 Jan 2025 10:00:31 EST</pubDate>
+        <pubDate>Fri, 24 Jan 2025 11:01:40 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: Outdated Exchange servers fail to auto-mitigate security bugs</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-outdated-exchange-servers-fail-to-auto-mitigate-security-bugs/</link>
+        <pubDate>Fri, 24 Jan 2025 10:26:27 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-outdated-exchange-servers-fail-to-auto-mitigate-security-bugs/</guid>
+	<description><![CDATA[Microsoft says outdated Exchange servers cannot receive new emergency mitigation definitions because an Office Configuration Service certificate type is being deprecated. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Managed Detection and Response – How are you monitoring?</title>
+        <link>https://www.bleepingcomputer.com/news/security/managed-detection-and-response-how-are-you-monitoring/</link>
+        <pubDate>Fri, 24 Jan 2025 09:02:11 -0500</pubDate>
+        <dc:creator>Sponsored by Smarttech247</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/managed-detection-and-response-how-are-you-monitoring/</guid>
+	<description><![CDATA[Security Information and Event Management (SIEM) systems are now a critical component of enterprise security. Learn more from Smarttech247 about how its VisionX + Splunk solution can help secure your organization. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers get $886,250 for 49 zero-days at Pwn2Own Automotive 2025</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-get-886-250-for-49-zero-days-at-pwn2own-automotive-2025/</link>
@@ -174,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/tesla-ev-charger-hacked-twice-on-second-day-of-pwn2own-tokyo/</guid>
 	<description><![CDATA[​Security researchers hacked Tesla's Wall Connector electric vehicle charger twice on the second day of the Pwn2Own Automotive 2025 hacking contest. [...]]]></description>
- </item>
-
- <item>
-        <title>Critical zero-days impact premium WordPress real estate plugins</title>
-        <link>https://www.bleepingcomputer.com/news/security/critical-zero-days-impact-premium-wordpress-real-estate-plugins/</link>
-        <pubDate>Wed, 22 Jan 2025 17:59:46 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/critical-zero-days-impact-premium-wordpress-real-estate-plugins/</guid>
-	<description><![CDATA[The RealHome theme and the Easy Real Estate plugins for WordPress are vulnerable to two critical severity flaws that allow unauthenticated users to gain administrative privileges. [...]]]></description>
  </item>
 
 </channel>
