@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 24 Jan 2025 11:59:48 EST</pubDate>
+        <pubDate>Fri, 24 Jan 2025 13:00:49 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Subaru Starlink flaw let hackers hijack cars in US and Canada</title>
+        <link>https://www.bleepingcomputer.com/news/security/subaru-starlink-flaw-let-hackers-hijack-cars-in-us-and-canada/</link>
+        <pubDate>Fri, 24 Jan 2025 12:35:36 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/subaru-starlink-flaw-let-hackers-hijack-cars-in-us-and-canada/</guid>
+	<description><![CDATA[Security researchers have discovered an arbitrary account takeover flaw in Subaru's Starlink service that could let attackers track, control, and hijack vehicles in the United States, Canada, and Japan using just a license plate. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hackers use Windows RID hijacking to create hidden admin account</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-use-windows-rid-hijacking-to-create-hidden-admin-account/</link>
+        <pubDate>Fri, 24 Jan 2025 12:25:38 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-use-windows-rid-hijacking-to-create-hidden-admin-account/</guid>
+	<description><![CDATA[A North Korean threat group has been using a technique called RID hijacking that tricks Windows into treating a low-privileged account as one with administrator permissions. [...]]]></description>
+ </item>
+
  <item>
         <title>Hacker infects 18,000 "script kiddies" with fake malware builder</title>
         <link>https://www.bleepingcomputer.com/news/security/hacker-infects-18-000-script-kiddies-with-fake-malware-builder/</link>
@@ -176,34 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-hackers-still-exploiting-older-ivanti-bugs-to-breach-networks/</guid>
 	<description><![CDATA[CISA and the FBI warned today that attackers are still exploiting Ivanti Cloud Service Appliances (CSA) security flaws patched since September to breach vulnerable networks. [...]]]></description>
- </item>
-
- <item>
-        <title>SonicWall warns of SMA1000 RCE flaw exploited in zero-day attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-rce-flaw-exploited-in-zero-day-attacks/</link>
-        <pubDate>Thu, 23 Jan 2025 10:45:02 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-rce-flaw-exploited-in-zero-day-attacks/</guid>
-	<description><![CDATA[SonicWall is warning about a pre-authentication deserialization vulnerability in SonicWall SMA1000 Appliance Management Console (AMC) and Central Management Console (CMC), with reports that it has been exploited as a zero-day in attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Stealthy 'Magic Packet' malware targets Juniper VPN gateways</title>
-        <link>https://www.bleepingcomputer.com/news/security/stealthy-magic-packet-malware-targets-juniper-vpn-gateways/</link>
-        <pubDate>Thu, 23 Jan 2025 10:26:36 -0500</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/stealthy-magic-packet-malware-targets-juniper-vpn-gateways/</guid>
-	<description><![CDATA[A malicious campaign has been specifically targeting Juniper edge devices, many acting as VPN gateways, with malware dubbed J-magic that starts a reverse shell only if it detects a "magic packet" in the network traffic. [...]]]></description>
  </item>
 
 </channel>
