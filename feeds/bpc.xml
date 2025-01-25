@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 25 Jan 2025 14:58:22 EST</pubDate>
+        <pubDate>Sat, 25 Jan 2025 16:00:31 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>PayPal to pay $2 million settlement over 2022 data breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/paypal-to-pay-2-million-settlement-over-2022-data-breach/</link>
+        <pubDate>Sat, 25 Jan 2025 10:15:25 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/paypal-to-pay-2-million-settlement-over-2022-data-breach/</guid>
+	<description><![CDATA[New York State has announced a $2,000,000 settlement with PayPal over charges it failed to comply with the state's cybersecurity regulations, leading to a 2022 data breach. [...]]]></description>
+ </item>
+
  <item>
         <title>Zyxel warns of bad signature update causing firewall boot loops</title>
         <link>https://www.bleepingcomputer.com/news/security/zyxel-warns-of-bad-signature-update-causing-firewall-boot-loops/</link>
@@ -176,38 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hundreds-of-fake-reddit-sites-push-lumma-stealer-malware/</guid>
 	<description><![CDATA[Hackers are distributing close to 1,000 web pages mimicking Reddit and the WeTransfer file sharing service that lead to downloading the Lumma Stealer malware. [...]]]></description>
- </item>
-
- <item>
-        <title>QNAP fixes six Rsync vulnerabilities in NAS backup, recovery app</title>
-        <link>https://www.bleepingcomputer.com/news/security/qnap-fixes-six-rsync-vulnerabilities-in-hbs-nas-backup-recovery-app/</link>
-        <pubDate>Thu, 23 Jan 2025 13:30:26 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/qnap-fixes-six-rsync-vulnerabilities-in-hbs-nas-backup-recovery-app/</guid>
-	<description><![CDATA[QNAP has fixed six rsync vulnerabilities that could let attackers gain remote code execution on unpatched Network Attached Storage (NAS) devices. [...]]]></description>
- </item>
-
- <item>
-        <title>New Android Identity Check locks settings outside trusted locations</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-android-identity-check-locks-settings-outside-trusted-locations/</link>
-        <pubDate>Thu, 23 Jan 2025 13:00:00 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-android-identity-check-locks-settings-outside-trusted-locations/</guid>
-	<description><![CDATA[Google has announced a new Android "Identity Check" security feature that lock sensitive settings behind biometric authentication when outside a trusted location. [...]]]></description>
  </item>
 
 </channel>
