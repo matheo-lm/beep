@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 26 Jan 2025 11:02:55 EST</pubDate>
+        <pubDate>Sun, 26 Jan 2025 11:58:27 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>UnitedHealth now says 190 million impacted by 2024 data breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/unitedhealth-now-says-190-million-impacted-by-2024-data-breach/</link>
+        <pubDate>Sun, 26 Jan 2025 11:29:17 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/unitedhealth-now-says-190-million-impacted-by-2024-data-breach/</guid>
+	<description><![CDATA[UnitedHealth has revealed that 190 million Americans had their personal and healthcare data stolen in the Change Healthcare ransomware attack, nearly doubling the previously disclosed figure. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Ransomware gang uses SSH tunnels for stealthy VMware ESXi access</title>
+        <link>https://www.bleepingcomputer.com/news/security/ransomware-gang-uses-ssh-tunnels-for-stealthy-vmware-esxi-access/</link>
+        <pubDate>Sun, 26 Jan 2025 10:19:29 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ransomware-gang-uses-ssh-tunnels-for-stealthy-vmware-esxi-access/</guid>
+	<description><![CDATA[Ransomware actors targeting ESXi bare metal hypervisors are leveraging SSH tunneling to persist on the system while remaining undetected. [...]]]></description>
+ </item>
+
  <item>
         <title>TalkTalk investigates breach after data for sale on hacking forum</title>
         <link>https://www.bleepingcomputer.com/news/security/talktalk-investigates-breach-after-data-for-sale-on-hacking-forum/</link>
@@ -162,36 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-get-886-250-for-49-zero-days-at-pwn2own-automotive-2025/</guid>
 	<description><![CDATA[​The Pwn2Own Automotive 2025 hacking contest has ended with security researchers collecting $886,250 after exploiting 49 zero-days. [...]]]></description>
- </item>
-
- <item>
-        <title>FBI: North Korean IT workers steal source code to extort employers</title>
-        <link>https://www.bleepingcomputer.com/news/security/fbi-north-korean-it-workers-steal-source-code-to-extort-employers/</link>
-        <pubDate>Thu, 23 Jan 2025 15:55:12 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fbi-north-korean-it-workers-steal-source-code-to-extort-employers/</guid>
-	<description><![CDATA[The FBI warned today that North Korean IT workers are abusing their access to steal source code and extort U.S. companies that have been tricked into hiring them. [...]]]></description>
- </item>
-
- <item>
-        <title>Google launches customizable Web Store for Enterprise extensions</title>
-        <link>https://www.bleepingcomputer.com/news/google/google-launches-customizable-web-store-for-enterprise-extensions/</link>
-        <pubDate>Thu, 23 Jan 2025 14:42:43 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/google/google-launches-customizable-web-store-for-enterprise-extensions/</guid>
-	<description><![CDATA[Google has officially launched its Chrome Web Store for Enterprises, allowing organizations to create a curated list of extensions that can be installed in employees' web browsers. [...]]]></description>
  </item>
 
 </channel>
