@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 27 Jan 2025 12:01:48 EST</pubDate>
+        <pubDate>Mon, 27 Jan 2025 13:03:06 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers steal $85 million worth of cryptocurrency from Phemex</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-steal-85-million-worth-of-cryptocurrency-from-phemex/</link>
+        <pubDate>Mon, 27 Jan 2025 13:03:02 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-steal-85-million-worth-of-cryptocurrency-from-phemex/</guid>
+	<description><![CDATA[The Phemex crypto exchange suffered a massive security breach on Thursday where threat actors stole over $85 million worth of cryptocurrency. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft Teams phishing attack alerts coming to everyone next month</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-attack-alerts-coming-to-everyone-next-month/</link>
+        <pubDate>Mon, 27 Jan 2025 12:43:27 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-attack-alerts-coming-to-everyone-next-month/</guid>
+	<description><![CDATA[Microsoft reminded Microsoft 365 admins that its new brand impersonation protection feature for Teams Chat will be available for all customers by mid-February 2025. [...]]]></description>
+ </item>
+
  <item>
         <title>Clone2Leak attacks exploit Git flaws to steal credentials</title>
         <link>https://www.bleepingcomputer.com/news/security/clone2leak-attacks-exploit-git-flaws-to-steal-credentials/</link>
@@ -176,34 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-outdated-exchange-servers-fail-to-auto-mitigate-security-bugs/</guid>
 	<description><![CDATA[Microsoft says outdated Exchange servers cannot receive new emergency mitigation definitions because an Office Configuration Service certificate type is being deprecated. [...]]]></description>
- </item>
-
- <item>
-        <title>Managed Detection and Response – How are you monitoring?</title>
-        <link>https://www.bleepingcomputer.com/news/security/managed-detection-and-response-how-are-you-monitoring/</link>
-        <pubDate>Fri, 24 Jan 2025 09:02:11 -0500</pubDate>
-        <dc:creator>Sponsored by Smarttech247</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/managed-detection-and-response-how-are-you-monitoring/</guid>
-	<description><![CDATA[Security Information and Event Management (SIEM) systems are now a critical component of enterprise security. Learn more from Smarttech247 about how its VisionX + Splunk solution can help secure your organization. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers get $886,250 for 49 zero-days at Pwn2Own Automotive 2025</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-get-886-250-for-49-zero-days-at-pwn2own-automotive-2025/</link>
-        <pubDate>Fri, 24 Jan 2025 08:00:37 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-get-886-250-for-49-zero-days-at-pwn2own-automotive-2025/</guid>
-	<description><![CDATA[​The Pwn2Own Automotive 2025 hacking contest has ended with security researchers collecting $886,250 after exploiting 49 zero-days. [...]]]></description>
  </item>
 
 </channel>
