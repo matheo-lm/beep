@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 27 Jan 2025 14:01:37 EST</pubDate>
+        <pubDate>Mon, 27 Jan 2025 15:02:43 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Apple fixes this year’s first actively exploited zero-day bug</title>
+        <link>https://www.bleepingcomputer.com/news/security/apple-fixes-this-years-first-actively-exploited-zero-day-bug/</link>
+        <pubDate>Mon, 27 Jan 2025 14:17:00 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apple-fixes-this-years-first-actively-exploited-zero-day-bug/</guid>
+	<description><![CDATA[​Apple has released security updates to fix this year's first zero-day vulnerability, tagged as actively exploited in attacks targeting iPhone users. [...]]]></description>
+ </item>
+
  <item>
         <title>EU sanctions Russian GRU hackers for cyberattacks against Estonia</title>
         <link>https://www.bleepingcomputer.com/news/security/eu-sanctions-russian-gru-hackers-for-cyberattacks-against-estonia/</link>
@@ -192,22 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/subaru-starlink-flaw-let-hackers-hijack-cars-in-us-and-canada/</guid>
 	<description><![CDATA[Security researchers have discovered an arbitrary account takeover flaw in Subaru's Starlink service that could let attackers track, control, and hijack vehicles in the United States, Canada, and Japan using just a license plate. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers use Windows RID hijacking to create hidden admin account</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-use-windows-rid-hijacking-to-create-hidden-admin-account/</link>
-        <pubDate>Fri, 24 Jan 2025 12:25:38 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-use-windows-rid-hijacking-to-create-hidden-admin-account/</guid>
-	<description><![CDATA[A North Korean threat group has been using a technique called RID hijacking that tricks Windows into treating a low-privileged account as one with administrator permissions. [...]]]></description>
  </item>
 
 </channel>
