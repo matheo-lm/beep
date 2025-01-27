@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 27 Jan 2025 16:00:58 EST</pubDate>
+        <pubDate>Mon, 27 Jan 2025 17:01:26 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>DeepSeek halts new signups amid "large-scale" cyberattack</title>
+        <link>https://www.bleepingcomputer.com/news/security/deepseek-halts-new-signups-amid-large-scale-cyberattack/</link>
+        <pubDate>Mon, 27 Jan 2025 17:01:18 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/deepseek-halts-new-signups-amid-large-scale-cyberattack/</guid>
+	<description><![CDATA[Chinese AI platform DeepSeek has disabled registrations on it DeepSeek-V3 chat platform due to an ongoing "large-scale" cyberattack targeting its services. [...]]]></description>
+ </item>
+
  <item>
         <title>Bitwarden makes it harder to hack password vaults without MFA</title>
         <link>https://www.bleepingcomputer.com/news/security/bitwarden-makes-it-harder-to-hack-password-vaults-without-mfa/</link>
@@ -194,22 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/paypal-to-pay-2-million-settlement-over-2022-data-breach/</guid>
 	<description><![CDATA[New York State has announced a $2,000,000 settlement with PayPal over charges it failed to comply with the state's cybersecurity regulations, leading to a 2022 data breach. [...]]]></description>
- </item>
-
- <item>
-        <title>Zyxel warns of bad signature update causing firewall boot loops</title>
-        <link>https://www.bleepingcomputer.com/news/security/zyxel-warns-of-bad-signature-update-causing-firewall-boot-loops/</link>
-        <pubDate>Fri, 24 Jan 2025 15:39:00 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/zyxel-warns-of-bad-signature-update-causing-firewall-boot-loops/</guid>
-	<description><![CDATA[Zyxel is warning that a bad security signature update is causing critical errors for USG FLEX or ATP Series firewalls, including putting the device into a boot loop. [...]]]></description>
  </item>
 
 </channel>
