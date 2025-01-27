@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 27 Jan 2025 13:03:06 EST</pubDate>
+        <pubDate>Mon, 27 Jan 2025 14:01:37 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>EU sanctions Russian GRU hackers for cyberattacks against Estonia</title>
+        <link>https://www.bleepingcomputer.com/news/security/eu-sanctions-russian-gru-hackers-for-cyberattacks-against-estonia/</link>
+        <pubDate>Mon, 27 Jan 2025 13:51:33 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/eu-sanctions-russian-gru-hackers-for-cyberattacks-against-estonia/</guid>
+	<description><![CDATA[The European Union sanctioned three hackers, part of Unit 29155 of Russia's military intelligence service (GRU), for their involvement in cyberattacks targeting Estonia's government agencies in 2020. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 24H2 preview brings new taskbar features</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-preview-brings-new-taskbar-features/</link>
+        <pubDate>Mon, 27 Jan 2025 13:26:11 -0500</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-preview-brings-new-taskbar-features/</guid>
+	<description><![CDATA[Windows 11 taskbar is testing a new feature that helps you understand the current power state of your laptop's battery, including showing the battery percentage directly on the taskbar. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers steal $85 million worth of cryptocurrency from Phemex</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-steal-85-million-worth-of-cryptocurrency-from-phemex/</link>
@@ -178,36 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-use-windows-rid-hijacking-to-create-hidden-admin-account/</guid>
 	<description><![CDATA[A North Korean threat group has been using a technique called RID hijacking that tricks Windows into treating a low-privileged account as one with administrator permissions. [...]]]></description>
- </item>
-
- <item>
-        <title>Hacker infects 18,000 "script kiddies" with fake malware builder</title>
-        <link>https://www.bleepingcomputer.com/news/security/hacker-infects-18-000-script-kiddies-with-fake-malware-builder/</link>
-        <pubDate>Fri, 24 Jan 2025 11:34:40 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hacker-infects-18-000-script-kiddies-with-fake-malware-builder/</guid>
-	<description><![CDATA[A threat actor targeted low-skilled hackers, known as "script kiddies," with a fake malware builder that secretly infected them with a backdoor to steal data and take over computers. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Outdated Exchange servers fail to auto-mitigate security bugs</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-outdated-exchange-servers-fail-to-auto-mitigate-security-bugs/</link>
-        <pubDate>Fri, 24 Jan 2025 10:26:27 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-outdated-exchange-servers-fail-to-auto-mitigate-security-bugs/</guid>
-	<description><![CDATA[Microsoft says outdated Exchange servers cannot receive new emergency mitigation definitions because an Office Configuration Service certificate type is being deprecated. [...]]]></description>
  </item>
 
 </channel>
