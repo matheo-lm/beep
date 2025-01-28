@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 28 Jan 2025 10:02:27 EST</pubDate>
+        <pubDate>Tue, 28 Jan 2025 11:03:03 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>PowerSchool starts notifying victims of massive data breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/powerschool-starts-notifying-victims-of-massive-data-breach/</link>
+        <pubDate>Tue, 28 Jan 2025 10:43:31 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Education]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/powerschool-starts-notifying-victims-of-massive-data-breach/</guid>
+	<description><![CDATA[Education software giant PowerSchool has started notifying individuals in the U.S. and Canada whose personal data was exposed in a late December 2024 cyberattack. [...]]]></description>
+ </item>
+
+ <item>
+        <title>What's Yours is Mine: Is Your Business Ready for Cryptojacking Attacks?</title>
+        <link>https://www.bleepingcomputer.com/news/security/whats-yours-is-mine-is-your-business-ready-for-cryptojacking-attacks/</link>
+        <pubDate>Tue, 28 Jan 2025 10:01:11 -0500</pubDate>
+        <dc:creator>Sponsored by Pentera</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/whats-yours-is-mine-is-your-business-ready-for-cryptojacking-attacks/</guid>
+	<description><![CDATA[Cryptojacking may be stealthy, but its impact is anything but. From inflated cloud bills to sluggish performance, it's a threat that companies can't ignore. Learn more from Pentera about how automated security validation can protect your org from these threats. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft tests Edge Scareware Blocker to block tech support scams</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-edge-scareware-blocker-to-block-tech-support-scams/</link>
@@ -178,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/unitedhealth-now-says-190-million-impacted-by-2024-data-breach/</guid>
 	<description><![CDATA[UnitedHealth has revealed that 190 million Americans had their personal and healthcare data stolen in the Change Healthcare ransomware attack, nearly doubling the previously disclosed figure. [...]]]></description>
- </item>
-
- <item>
-        <title>Ransomware gang uses SSH tunnels for stealthy VMware ESXi access</title>
-        <link>https://www.bleepingcomputer.com/news/security/ransomware-gang-uses-ssh-tunnels-for-stealthy-vmware-esxi-access/</link>
-        <pubDate>Sun, 26 Jan 2025 10:19:29 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ransomware-gang-uses-ssh-tunnels-for-stealthy-vmware-esxi-access/</guid>
-	<description><![CDATA[Ransomware actors targeting ESXi bare metal hypervisors are leveraging SSH tunneling to persist on the system while remaining undetected. [...]]]></description>
  </item>
 
 </channel>
