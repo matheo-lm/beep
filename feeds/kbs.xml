@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Tue, 28 Jan 2025 02:50:10 +0000</lastBuildDate>
@@ -22,7 +22,7 @@
 	<item>
 		<title>A Tumultuous Week for Federal Cybersecurity Efforts</title>
 		<link>https://krebsonsecurity.com/2025/01/a-tumultuous-week-for-federal-cybersecurity-efforts/</link>
-					<comments>https://krebsonsecurity.com/2025/01/a-tumultuous-week-for-federal-cybersecurity-efforts/#respond</comments>
+					<comments>https://krebsonsecurity.com/2025/01/a-tumultuous-week-for-federal-cybersecurity-efforts/#comments</comments>
 		
 		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
 		<pubDate>Tue, 28 Jan 2025 02:50:10 +0000</pubDate>
@@ -84,7 +84,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/01/a-tumultuous-week-for-federal-cybersecurity-efforts/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 			</item>
@@ -715,9 +715,9 @@
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 267/267 objects using memcached
+Object Caching 266/267 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-27 22:24:49 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-27 23:35:13 by W3 Total Cache
 -->
