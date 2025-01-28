@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 28 Jan 2025 15:01:50 EST</pubDate>
+        <pubDate>Tue, 28 Jan 2025 16:00:06 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google to kill Chrome Sync on older Chrome browser versions</title>
+        <link>https://www.bleepingcomputer.com/news/google/google-to-kill-chrome-sync-on-older-chrome-browser-versions/</link>
+        <pubDate>Tue, 28 Jan 2025 15:44:57 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/google/google-to-kill-chrome-sync-on-older-chrome-browser-versions/</guid>
+	<description><![CDATA[Google announced that the Chrome Sync feature will be discontinued in early 2025 for Chrome versions older than four years. [...]]]></description>
+ </item>
+
  <item>
         <title>Garmin GPS watches crashing, stuck in triangle 'reboot loop'</title>
         <link>https://www.bleepingcomputer.com/news/technology/garmin-gps-watches-crashing-stuck-in-triangle-reboot-loop/</link>
@@ -198,38 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/eu-sanctions-russian-gru-hackers-for-cyberattacks-against-estonia/</guid>
 	<description><![CDATA[The European Union sanctioned three hackers, part of Unit 29155 of Russia's military intelligence service (GRU), for their involvement in cyberattacks targeting Estonia's government agencies in 2020. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 24H2 preview brings new taskbar features</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-preview-brings-new-taskbar-features/</link>
-        <pubDate>Mon, 27 Jan 2025 13:26:11 -0500</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-preview-brings-new-taskbar-features/</guid>
-	<description><![CDATA[Windows 11 taskbar is testing a new feature that helps you understand the current power state of your laptop's battery, including showing the battery percentage directly on the taskbar. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers steal $85 million worth of cryptocurrency from Phemex</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-steal-85-million-worth-of-cryptocurrency-from-phemex/</link>
-        <pubDate>Mon, 27 Jan 2025 13:03:02 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-steal-85-million-worth-of-cryptocurrency-from-phemex/</guid>
-	<description><![CDATA[The Phemex crypto exchange suffered a massive security breach on Thursday where threat actors stole over $85 million worth of cryptocurrency. [...]]]></description>
  </item>
 
 </channel>
