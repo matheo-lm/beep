@@ -11,13 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 28 Jan 2025 13:01:24 EST</pubDate>
+        <pubDate>Tue, 28 Jan 2025 14:01:32 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
  <item>
-        <title>New Apple CPU side-channel attacks steals data from browsers</title>
+        <title>Garmin GPS watches crashing, stuck in triangle 'reboot loop'</title>
+        <link>https://www.bleepingcomputer.com/news/technology/garmin-gps-watches-crashing-stuck-in-triangle-reboot-loop/</link>
+        <pubDate>Tue, 28 Jan 2025 13:39:52 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/technology/garmin-gps-watches-crashing-stuck-in-triangle-reboot-loop/</guid>
+	<description><![CDATA[Garmin users are reporting that their watches crash when using apps that require GPS access and then get stuck in a reboot loop, showing a blue triangle logo. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New Apple CPU side-channel attacks steal data from browsers</title>
         <link>https://www.bleepingcomputer.com/news/security/new-apple-cpu-side-channel-attack-steals-data-from-browsers/</link>
         <pubDate>Tue, 28 Jan 2025 13:00:00 -0500</pubDate>
         <dc:creator>Bill Toulas</dc:creator>
@@ -216,22 +230,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-steal-85-million-worth-of-cryptocurrency-from-phemex/</guid>
 	<description><![CDATA[The Phemex crypto exchange suffered a massive security breach on Thursday where threat actors stole over $85 million worth of cryptocurrency. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft Teams phishing attack alerts coming to everyone next month</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-attack-alerts-coming-to-everyone-next-month/</link>
-        <pubDate>Mon, 27 Jan 2025 12:43:27 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-attack-alerts-coming-to-everyone-next-month/</guid>
-	<description><![CDATA[Microsoft reminded Microsoft 365 admins that its new brand impersonation protection feature for Teams Chat will be available for all customers by mid-February 2025. [...]]]></description>
  </item>
 
 </channel>
