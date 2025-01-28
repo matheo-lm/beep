@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 28 Jan 2025 09:02:33 EST</pubDate>
+        <pubDate>Tue, 28 Jan 2025 10:02:27 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft tests Edge Scareware Blocker to block tech support scams</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-edge-scareware-blocker-to-block-tech-support-scams/</link>
+        <pubDate>Tue, 28 Jan 2025 09:30:52 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-edge-scareware-blocker-to-block-tech-support-scams/</guid>
+	<description><![CDATA[Microsoft has started testing a new "scareware blocker" feature for the Edge web browser on Windows PCs, which uses machine learning (ML) to detect tech support scams. [...]]]></description>
+ </item>
+
  <item>
         <title>DeepSeek halts new signups amid "large-scale" cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/deepseek-halts-new-signups-amid-large-scale-cyberattack/</link>
@@ -178,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ransomware-gang-uses-ssh-tunnels-for-stealthy-vmware-esxi-access/</guid>
 	<description><![CDATA[Ransomware actors targeting ESXi bare metal hypervisors are leveraging SSH tunneling to persist on the system while remaining undetected. [...]]]></description>
- </item>
-
- <item>
-        <title>TalkTalk investigates breach after data for sale on hacking forum</title>
-        <link>https://www.bleepingcomputer.com/news/security/talktalk-investigates-breach-after-data-for-sale-on-hacking-forum/</link>
-        <pubDate>Sat, 25 Jan 2025 16:23:24 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/talktalk-investigates-breach-after-data-for-sale-on-hacking-forum/</guid>
-	<description><![CDATA[UK telecommunications company TalkTalk is investigating a third-party supplier data breach after a threat actor began selling alleged customer data on a hacking forum. [...]]]></description>
  </item>
 
 </channel>
