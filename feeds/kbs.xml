@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 22 Jan 2025 15:46:11 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 28 Jan 2025 02:50:10 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,75 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>A Tumultuous Week for Federal Cybersecurity Efforts</title>
+		<link>https://krebsonsecurity.com/2025/01/a-tumultuous-week-for-federal-cybersecurity-efforts/</link>
+					<comments>https://krebsonsecurity.com/2025/01/a-tumultuous-week-for-federal-cybersecurity-efforts/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Tue, 28 Jan 2025 02:50:10 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Alfa Bank]]></category>
+		<category><![CDATA[David Sacks]]></category>
+		<category><![CDATA[House Judiciary Committee's Select Subcommittee on the Weaponization of the Federal Government]]></category>
+		<category><![CDATA[Jack Goldsmith]]></category>
+		<category><![CDATA[Joe Hall]]></category>
+		<category><![CDATA[John Durham]]></category>
+		<category><![CDATA[Lawfare]]></category>
+		<category><![CDATA[Melania Trump]]></category>
+		<category><![CDATA[Michael Sussman]]></category>
+		<category><![CDATA[President Trump]]></category>
+		<category><![CDATA[Quinta Jurecic]]></category>
+		<category><![CDATA[Rep. Jim Jordan]]></category>
+		<category><![CDATA[United States Council on Transnational Organized Crime]]></category>
+		<category><![CDATA[World Liberty Financial]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70172</guid>
+
+					<description><![CDATA[President Trump last week issued a flurry of executive orders that upended a number of government initiatives focused on improving the nation's cybersecurity posture. The president fired all advisors from the Department of Homeland Security's Cyber Safety Review Board, called for the creation of a strategic cryptocurrency reserve, and voided a Biden administration action that sought to reduce the risks that artificial intelligence poses to consumers, workers and national security.]]></description>
+										<content:encoded><![CDATA[<div id="attachment_70185" style="width: 761px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70185" decoding="async" class=" wp-image-70185" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/whitehousenight.png" alt="" width="751" height="495" /><p id="caption-attachment-70185" class="wp-caption-text">Image: Shutterstock. Greg Meland.</p></div>
+<p><strong>President Trump</strong> last week issued a flurry of executive orders that upended a number of government initiatives focused on improving the nation&#8217;s cybersecurity posture. The president fired all advisors from the Department of Homeland Security&#8217;s Cyber Safety Review Board, called for the creation of a strategic cryptocurrency reserve, and voided a Biden administration action that sought to reduce the risks that artificial intelligence poses to consumers, workers and national security.</p>
+<p>On his first full day back in the White House, Trump dismissed all 15 advisory committee members of the <a href="https://en.wikipedia.org/wiki/Cyber_Safety_Review_Board" target="_blank" rel="noopener">Cyber Safety Review Board</a> (CSRB), a nonpartisan government entity established in February 2022 with a mandate to investigate the causes of major cybersecurity events. The CSRB has so far produced three detailed reports, including an analysis of the <a href="https://www.wired.com/story/log4j-log4shell/" target="_blank" rel="noopener">Log4Shell vulnerability</a> crisis, attacks from <a href="https://krebsonsecurity.com/tag/lapsus/" target="_blank" rel="noopener">the cybercrime group LAPSUS$</a>, and the 2023 <a href="https://www.cisa.gov/resources-tools/resources/CSRB-Review-Summer-2023-MEO-Intrusion" target="_blank" rel="noopener">Microsoft Exchange Online breach</a>.</p>
+<p>The CSRB was in the midst of an inquiry into cyber intrusions uncovered recently across a broad spectrum of U.S. telecommunications providers at the hands of Chinese state-sponsored hackers. One of the CSRB&#8217;s most recognizable names is <strong>Chris Krebs </strong>(no relation), the former director of the <strong>Cybersecurity and Infrastructure Security Agency</strong> (CISA). Krebs was fired by President Trump in November 2020 for declaring the presidential contest was the most secure in American history, and for refuting Trump&#8217;s false claims of election fraud.</p>
+<p>South Dakota Governor <strong>Kristi Noem</strong>, confirmed by the U.S. Senate last week as the new director of the DHS, criticized CISA at her confirmation hearing, <em>TheRecord</em> <a href="https://therecord.media/kristi-noem-cisa-smaller-nimble?utm_medium=email&amp;_hsenc=p2ANqtz-80A9JU5jFUojRnewo-h4MRW17b74bMAW6oR5rGLelMqQ7jRJp3Ors1qYeq5RFK2jrpXM9V5J2o-RGJSorsePm_8KCvoZ8nFsrOw8h_pdBDQggry0c&amp;_hsmi=343361648&amp;utm_content=343361495&amp;utm_source=hs_email" target="_blank" rel="noopener">reports</a>.</p>
+<p>Noem told lawmakers CISA needs to be &#8220;much more effective, smaller, more nimble, to really fulfill their mission,&#8221; which she said should be focused on hardening federal IT systems and hunting for digital intruders. Noem said the agency&#8217;s work on fighting misinformation shows it has &#8220;gotten far off mission&#8221; and involved &#8220;using their resources in ways that was never intended.&#8221;</p>
+<p>&#8220;The misinformation and disinformation that they have stuck their toe into and meddled with, should be refocused back onto what their job is,&#8221; she said.</p>
+<p><strong>Moses Frost</strong>, a cybersecurity instructor with the SANS Institute, compared the sacking of the CSRB members to firing all of the experts at the <strong>National Transportation Safety Board</strong> (NTSB) while they&#8217;re in the middle of an investigation into a string of airline disasters.</p>
+<p>&#8220;I don’t recall seeing an &#8216;NTSB Board&#8217; being fired during the middle of a plane crash investigation,&#8221; Frost said in a recent SANS newsletter. &#8220;I can say that the attackers in the phone companies will not stop because the review board has gone away. We do need to figure out how these attacks occurred, and CISA did appear to be doing some good for the vast majority of the federal systems.&#8221;</p>
+<p>Speaking of transportation, <em>The Record</em> notes that Transportation Security Administration chief <strong>David Pekoske</strong> <a href="https://therecord.media/tsa-chief-behind-cyber-directives-ousted-trump-administration?utm_medium=email&amp;_hsenc=p2ANqtz-_a5PHD4Ff2FlOiHIlYbcfVNbftiTItDbxlH5TxzCLZicEcan3et6L6nmVmhC57_5AXp-a1k45WwHO6jbVxejLlMjPtTTdVzGtbreDzSl6fzHhGdkg&amp;_hsmi=343497657&amp;utm_content=343496082&amp;utm_source=hs_email" target="_blank" rel="noopener">was fired</a> despite overseeing critical cybersecurity improvements across pipeline, rail and aviation sectors. Pekoske was appointed by Trump in 2017 and had his 5-year tenure renewed in 2022 by former President Joe Biden.</p>
+<h2>AI &amp; CRYPTOCURRENCY</h2>
+<p>Shortly after being sworn in for a second time, Trump voided a Biden executive order that focused on supporting research and development in artificial intelligence. The previous administration&#8217;s order on AI was crafted with an eye toward managing <a href="https://www.ic3.gov/PSA/2024/PSA241203" target="_blank" rel="noopener">the safety and security risks introduced by the technology</a>. But a <a href="https://www.whitehouse.gov/fact-sheets/2025/01/fact-sheet-president-donald-j-trump-takes-action-to-enhance-americas-ai-leadership/" target="_blank" rel="noopener">statement</a> released by the White House said Biden&#8217;s approach to AI had hindered development, and that the United States would support AI systems that are &#8220;free from ideological bias or engineered social agendas,&#8221; to maintain leadership.</p>
+<p>The Trump administration issued <a href="https://www.whitehouse.gov/fact-sheets/2025/01/fact-sheet-executive-order-to-establish-united-states-leadership-in-digital-financial-technology/" target="_blank" rel="noopener">its own executive order on AI</a>, which calls for an &#8220;AI Action Plan&#8221; to be led by the assistant to the president for science and technology, the White House &#8220;AI &amp; crypto czar,&#8221; and the national security advisor. It also directs the White House to revise and reissue policies to federal agencies on the government&#8217;s acquisition and governance of AI &#8220;to ensure that harmful barriers to America&#8217;s AI leadership are eliminated.&#8221;</p>
+<p>Trump&#8217;s AI &amp; crypto czar is <strong>David Sacks</strong>, an entrepreneur and Silicon Valley venture capitalist who argues that the Biden administration&#8217;s approach to AI and cryptocurrency has driven innovation overseas. Sacks recently asserted that non-fungible cryptocurrency tokens and memecoins are neither securities nor commodities, but rather should be treated as &#8220;collectibles&#8221; like baseball cards and stamps.</p>
+<p><span class="s1">There is already a legal definition of collectibles under the U.S. tax code that applies to things like art or antiques, which can be be subject to high capital gains taxes. But <strong>Joe Hall</strong>, a capital markets attorney and partner at Davis Polk, <a href="https://finance.yahoo.com/news/crypto-czar-david-sacks-says-224508277.html?guccounter=1&amp;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAAL0Zay1PbdGAe14O3Q6FoNdB1zkg6wbzSRDfb7oPUC6Wd6zrQ6vU2RRSCVbDRAzdKV-8hUw3m5wdMKoCzprArK-YuIyoeEjJwTP3ZNk1AoW8dVIhp4KFD3-c9i7NrrUPaY3u2e2yLSFfzlqeJDnJ55BTbyBLHx9pM_KywC0pCxWf" target="_blank" rel="noopener">told <em>Fortune</em></a> there are</span> no market regulations that apply to collectibles under U.S. securities law. Hall said Sacks’ comments “suggest a viewpoint that it would not be appropriate to regulate these things the way we regulate securities.”</p>
+<p>The new administration&#8217;s position makes sense considering that the Trump family is deeply and personally invested in a number of recent memecoin ventures that have attracted billions from investors. President Trump and First Lady Melania Trump each launched their own vanity memecoins this month, dubbed <strong>$TRUMP</strong> and <strong>$MELANIA</strong>.</p>
+<p><em>The Wall Street Journal</em> <a href="https://www.wsj.com/finance/trump-meme-coin-crypto-explained-c881afff" target="_blank" rel="noopener">reported Thursday</a> the market capitalization of $TRUMP stood at about $7 billion, down from a peak of near $15 billion, while $MELANIA is hovering somewhere in the $460 million mark. Just two months before the 2024 election, Trump&#8217;s three sons debuted a cryptocurrency token called <strong>World Liberty Financial</strong>.</p>
+<p>Despite maintaining a considerable personal stake in how cryptocurrency is regulated, Trump issued <a href="https://www.whitehouse.gov/fact-sheets/2025/01/fact-sheet-executive-order-to-establish-united-states-leadership-in-digital-financial-technology/" target="_blank" rel="noopener">an executive order on January 23</a> calling for a working group to be chaired by Sacks that would develop &#8220;a federal regulatory framework governing digital assets, including stablecoins,&#8221; and evaluate the creation of a &#8220;strategic national digital assets stockpile.&#8221;</p>
+<p>Translation: Using taxpayer dollars to prop up the speculative, volatile, and highly risky cryptocurrency industry, which has been marked by endless scams, rug-pulls, 8-figure cyber heists, rampant fraud, and unrestrained innovations in money laundering.<span id="more-70172"></span></p>
+<h2>WEAPONIZATION &amp; DISINFORMATION</h2>
+<p>Prior to the election, President Trump frequently vowed to use a second term to exact retribution against his perceived enemies. Part of that promise materialized in an executive order Trump issued last week titled &#8220;<a href="https://www.whitehouse.gov/presidential-actions/2025/01/ending-the-weaponization-of-the-federal-government/" target="_blank" rel="noopener">Ending the Weaponization of the Federal Government</a>,&#8221; which decried &#8220;an unprecedented, third-world weaponization of prosecutorial power to upend the democratic process,&#8221; in the prosecution of more than 1,500 people who invaded the U.S. Capitol on Jan. 6, 2021.</p>
+<p>On Jan. 21, Trump <a href="https://www.nbcnews.com/politics/justice-department/trump-set-pardon-defendants-stormed-capitol-jan-6-2021-rcna187735" target="_blank" rel="noopener">commuted the sentences</a> of several leaders of the Proud Boys and Oath Keepers who were convicted of seditious conspiracy. He also issued &#8220;a full, complete and unconditional pardon to all other individuals convicted of offenses related to events that occurred at or near the United States Capitol on January 6, 2021,&#8221; which include those who assaulted law enforcement officers.</p>
+<p>The New York Times <a href="https://www.nytimes.com/2025/01/20/us/politics/weaponization-government-executive-order-trump.html" target="_blank" rel="noopener">reports</a> &#8220;the language of the document suggests — but does not explicitly state — that the Trump administration review will examine the actions of local district attorneys or state officials, such as the district attorneys in Manhattan or Fulton County, Ga., or the New York attorney general, all of whom filed cases against President Trump.&#8221;</p>
+<p>Another Trump order called &#8220;<a href="https://www.whitehouse.gov/presidential-actions/2025/01/restoring-freedom-of-speech-and-ending-federal-censorship/" target="_blank" rel="noopener">Restoring Freedom of Speech and Ending Federal Censorship</a>&#8221; asserts:</p>
+<p>&#8220;Over the last 4 years, the previous administration trampled free speech rights by censoring Americans’ speech on online platforms, often by exerting substantial coercive pressure on third parties, such as social media companies, to moderate, deplatform, or otherwise suppress speech that the Federal Government did not approve,&#8221; the Trump administration alleged. &#8220;Under the guise of combatting &#8216;misinformation,&#8217; &#8216;disinformation,&#8217; and &#8216;malinformation,&#8217; the Federal Government infringed on the constitutionally protected speech rights of American citizens across the United States in a manner that advanced the Government’s preferred narrative about significant matters of public debate.&#8221;</p>
+<p>Both of these executive orders have <a href="https://bsky.app/profile/katestarbird.bsky.social/post/3kdu7ucy3jd2f" target="_blank" rel="noopener">potential implications</a> for security, privacy and civil liberties activists who have sought to track conspiracy theories and raise awareness about disinformation efforts on social media coming from U.S. adversaries.</p>
+<p>In the wake of the 2020 election, Republicans created the <strong>House Judiciary Committee&#8217;s Select Subcommittee on the Weaponization of the Federal Government</strong>. Led by GOP <strong>Rep. Jim Jordan</strong> of Ohio, the committee&#8217;s stated purpose was to investigate alleged collusion between the Biden administration and tech companies to unconstitutionally shut down political speech.</p>
+<p>The GOP committee focused much of its ire at members of the short-lived <a href="https://en.wikipedia.org/wiki/Disinformation_Governance_Board" target="_blank" rel="noopener">Disinformation Governance Board</a>, an advisory board to DHS created in 2022 (the &#8220;combating misinformation, disinformation, and malinformation&#8221; quote from Trump&#8217;s executive order is a reference to the board&#8217;s stated mission). Conservative groups seized on social media posts made by the director of the board, who <a href="https://www.npr.org/2022/05/21/1100438703/dhs-disinformation-board-nina-jankowicz" target="_blank" rel="noopener">resigned</a> after facing death threats. The board was dissolved by DHS soon after.</p>
+<p>In his first administration, President Trump created a special prosecutor to probe the origins of the FBI&#8217;s investigation into possible collusion between the Trump campaign and Russian operatives seeking to influence the 2016 election. Part of that inquiry examined evidence gathered by some of the world’s most renowned cybersecurity experts who identified <a href="https://krebsonsecurity.com/2021/09/lawsuits-indictments-revive-trump-alfa-bank-story/" target="_blank" rel="noopener">frequent and unexplained communications</a> between an email server used by the <strong>Trump Organization</strong> and <strong>Alfa Bank</strong>, one of Russia’s largest financial institutions.</p>
+<p>Trump&#8217;s Special Prosecutor <strong>John Durham</strong> later subpoenaed and/or deposed dozens of security experts who&#8217;d collected, viewed or merely commented on the data. Similar harassment and deposition demands would come from lawyers for Alfa Bank. Durham ultimately indicted <strong>Michael Sussman</strong>, the former federal cybercrime prosecutor who reported the oddity to the FBI. Sussman was acquitted in May 2022. Last week, Trump appointed Durham to lead the U.S. attorney&#8217;s office in Brooklyn, NY.</p>
+<p><strong>Quinta Jurecic</strong> at <em>Lawfare</em> <a href="https://www.lawfaremedia.org/article/what-do-trump-s-weaponization-and-censorship-executive-orders-actually-do" target="_blank" rel="noopener">notes</a> that while the executive actions are ominous, they are also vague, and could conceivably generate either a campaign of retaliation, or nothing at all.</p>
+<p>&#8220;The two orders establish that there will be investigations but leave open the questions of what kind of investigations, what will be investigated, how long this will take, and what the consequences might be,&#8221; Jurecic wrote. &#8220;It is difficult to draw firm conclusions as to what to expect. Whether this ambiguity is intentional or the result of sloppiness or disagreement within Trump’s team, it has at least one immediate advantage as far as the president is concerned: generating fear among the broad universe of potential subjects of those investigations.&#8221;</p>
+<p>On Friday, Trump moved <a href="https://www.lawfaremedia.org/article/trump-fired-17-inspectors-general-was-it-legal" target="_blank" rel="noopener">to fire at least 17 inspectors general</a>, the government watchdogs who conduct audits and investigations of executive branch actions, and who often uncover instances of government waste, fraud and abuse. Lawfare&#8217;s <strong>Jack Goldsmith</strong> argues that the removals are probably legal even though Trump defied a 2022 law that required congressional notice of the terminations, which Trump did not give.</p>
+<p>&#8220;Trump probably acted lawfully, I think, because the notice requirement is probably unconstitutional,&#8221; Goldsmith wrote. &#8220;The real bite in the 2022 law, however, comes in the limitations it places on Trump’s power <em>to replace</em> the terminated IGs—limitations that I believe are constitutional. This aspect of the law will make it hard, but not impossible, for Trump to put loyalists atop the dozens of vacant IG offices around the executive branch. The ultimate fate of IG independence during Trump 2.0, however, depends less on legal protections than on whether Congress, which traditionally protects IGs, stands up for them now. Don’t hold your breath.&#8221;</p>
+<p>Among the many Biden administration executive orders revoked by President Trump last week was an action from December 2021 establishing the <strong>United States Council on Transnational Organized Crime</strong>, which is charged with advising the White House on a range of criminal activities, including drug and weapons trafficking, migrant smuggling, human trafficking, cybercrime, intellectual property theft, money laundering, wildlife and timber trafficking, illegal fishing, and illegal mining.</p>
+<p>So far, the White House doesn&#8217;t appear to have revoked <a href="https://web.archive.org/web/20250117143627/https://www.whitehouse.gov/briefing-room/presidential-actions/2025/01/16/executive-order-on-strengthening-and-promoting-innovation-in-the-nations-cybersecurity/" target="_blank" rel="noopener">an executive order</a> that former President Biden issued less than a week before President Trump took office. On Jan. 16, 2025, Biden released a directive that focused on improving the security of federal agencies and contractors, and giving the government more power to sanction the hackers who target critical infrastructure.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/01/a-tumultuous-week-for-federal-cybersecurity-efforts/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>MasterCard DNS Error Went Unnoticed for Years</title>
 		<link>https://krebsonsecurity.com/2025/01/mastercard-dns-error-went-unnoticed-for-years/</link>
 					<comments>https://krebsonsecurity.com/2025/01/mastercard-dns-error-went-unnoticed-for-years/#comments</comments>
@@ -44,7 +113,7 @@
 
 					<description><![CDATA[The payment card giant MasterCard just fixed a glaring error in its domain name server settings that could have allowed anyone to intercept or divert Internet traffic for the company by registering an unused domain name. The misconfiguration persisted for nearly five years until a security researcher spent $300 to register the domain and prevent it from being grabbed by cybercriminals.]]></description>
 										<content:encoded><![CDATA[<p>The payment card giant <strong>MasterCard</strong> just fixed a glaring error in its domain name server settings that could have allowed anyone to intercept or divert Internet traffic for the company by registering an unused domain name. The misconfiguration persisted for nearly five years until a security researcher spent $300 to register the domain and prevent it from being grabbed by cybercriminals.</p>
-<div id="attachment_70128" style="width: 677px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70128" decoding="async" class="size-full wp-image-70128" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/akamne.png" alt="" width="667" height="478" /><p id="caption-attachment-70128" class="wp-caption-text">A DNS lookup on the domain az.mastercard.com on Jan. 14, 2025 shows the mistyped domain name a22-65.akam.ne.</p></div>
+<div id="attachment_70128" style="width: 677px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70128" decoding="async" loading="lazy" class="size-full wp-image-70128" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/akamne.png" alt="" width="667" height="478" /><p id="caption-attachment-70128" class="wp-caption-text">A DNS lookup on the domain az.mastercard.com on Jan. 14, 2025 shows the mistyped domain name a22-65.akam.ne.</p></div>
 <p>From June 30, 2020 until January 14, 2025, one of the core Internet servers that MasterCard uses to direct traffic for portions of the mastercard.com network was misnamed. MasterCard.com relies on five shared Domain Name System (DNS) servers at the Internet infrastructure provider <strong>Akamai </strong>[DNS acts as a kind of Internet phone book, by translating website names to numeric Internet addresses that are easier for computers to manage].</p>
 <p>All of the Akamai DNS server names that MasterCard uses are supposed to end in &#8220;akam.net&#8221; but one of them was misconfigured to rely on the domain &#8220;<strong>akam.ne</strong>.&#8221;</p>
 <p>This tiny but potentially critical typo was discovered recently by <strong>Philippe Caturegli</strong>, founder of the security consultancy <a href="https://www.seralys.com/" target="_blank" rel="noopener">Seralys</a>. Caturegli said he guessed that nobody had yet registered the domain akam.ne, which is under the purview of the top-level domain authority for the West Africa nation of <a href="https://en.wikipedia.org/wiki/Niger" target="_blank" rel="noopener">Niger</a>.</p>
@@ -640,58 +709,15 @@
 		
 		
 			</item>
-		<item>
-		<title>Patch Tuesday, December 2024 Edition</title>
-		<link>https://krebsonsecurity.com/2024/12/patch-tuesday-december-2024-edition/</link>
-					<comments>https://krebsonsecurity.com/2024/12/patch-tuesday-december-2024-edition/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Wed, 11 Dec 2024 01:53:13 +0000</pubDate>
-				<category><![CDATA[Other]]></category>
-		<category><![CDATA[Adam Barnett]]></category>
-		<category><![CDATA[CVE-2024-49112]]></category>
-		<category><![CDATA[CVE-2024-49138]]></category>
-		<category><![CDATA[Fortra]]></category>
-		<category><![CDATA[Immersive Labs]]></category>
-		<category><![CDATA[LDAP]]></category>
-		<category><![CDATA[Lightweight Directory Access Protocol]]></category>
-		<category><![CDATA[Microsoft Patch Tuesday December 2024]]></category>
-		<category><![CDATA[Rapid7]]></category>
-		<category><![CDATA[Rob Reeves]]></category>
-		<category><![CDATA[Tenable]]></category>
-		<category><![CDATA[Tyler Reguly]]></category>
-		<category><![CDATA[Windows Common Log File System (CLFS) driver]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69721</guid>
-
-					<description><![CDATA[Microsoft today released updates to plug at least 70 security holes in Windows and Windows software, including one vulnerability that is already being exploited in active attacks. The zero-day seeing exploitation involves CVE-2024-49138, a security weakness in the Windows Common… <span class="read-more"><a href="https://krebsonsecurity.com/2024/12/patch-tuesday-december-2024-edition/">Read More &#187;</a></span>]]></description>
-										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today released updates to plug at least 70 security holes in <strong>Windows</strong> and Windows software, including one vulnerability that is already being exploited in active attacks.</p>
-<p><img decoding="async" loading="lazy" class="aligncenter  wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="749" height="527" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /></p>
-<p>The zero-day seeing exploitation involves <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-49138" target="_blank" rel="noopener">CVE-2024-49138</a>, a security weakness in the <strong>Windows Common Log File System</strong> (CLFS) driver &#8212; used by applications to write transaction logs &#8212; that could let an authenticated attacker gain &#8220;system&#8221; level privileges on a vulnerable Windows device.</p>
-<p>The security firm <strong>Rapid7</strong> notes there have been a series of zero-day elevation of privilege flaws in CLFS over the past few years.</p>
-<p>&#8220;Ransomware authors who have abused previous CLFS vulnerabilities will be only too pleased to get their hands on a fresh one,&#8221; wrote <strong>Adam Barnett</strong>, lead software engineer at Rapid7. &#8220;Expect more CLFS zero-day vulnerabilities to emerge in the future, at least until Microsoft performs a full replacement of the aging CLFS codebase instead of offering spot fixes for specific flaws.&#8221;</p>
-<p>Elevation of privilege vulnerabilities accounted for 29% of the 1,009 security bugs Microsoft has patched so far in 2024, according to a year-end tally by <strong>Tenable</strong>; nearly 40 percent of those bugs were weaknesses that could let attackers run malicious code on the vulnerable device.<span id="more-69721"></span></p>
-<p><strong>Rob Reeves</strong>, principal security engineer at <strong>Immersive Labs</strong>, called special attention to <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-49112" target="_blank" rel="noopener">CVE-2024-49112</a>, a remote code execution flaw in the <strong>Lightweight Directory Access Protocol</strong> (LDAP) service <em>on every version of Windows since Windows 7. </em>CVE-2024-49112 has been assigned a CVSS (badness) score of 9.8 out of 10.</p>
-<p>&#8220;LDAP is most commonly seen on servers that are Domain Controllers inside a Windows network and LDAP must be exposed to other servers and clients within an enterprise environment for the domain to function,&#8221; Reeves said. &#8220;Microsoft hasn’t released specific information about the vulnerability at present, but has indicated that the attack complexity is low and authentication is not required.&#8221;</p>
-<p><strong>Tyler Reguly</strong> at the security firm <strong>Fortra</strong> had a slightly different 2024 patch tally for Microsoft, at 1,088 vulnerabilities, which he said was surprisingly similar to the 1,063 vulnerabilities resolved in 2023 and the 1,119 vulnerabilities resolved in 2022.</p>
-<p>&#8220;If nothing else, we can say that Microsoft is consistent,&#8221; Reguly said. &#8220;While it would be nice to see the number of vulnerabilities each year decreasing, at least consistency lets us know what to expect.&#8221;</p>
-<p>If you&#8217;re a Windows end user and your system is not set up to automatically install updates, please take a minute this week to run Windows Update, preferably after backing up your system and/or important data.</p>
-<p>System admins should keep an eye on <a href="https://www.askwoody.com" target="_blank" rel="noopener">AskWoody.com</a>, which usually has the details if any of the Patch Tuesday fixes are causing problems. In the meantime, if you run into any problems applying this month&#8217;s fixes, please drop a note about in the comments below.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2024/12/patch-tuesday-december-2024-edition/feed/</wfw:commentRss>
-			<slash:comments>12</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 264/264 objects using memcached
-Page Caching using memcached 
+Object Caching 267/267 objects using memcached
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-27 21:17:55 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-27 22:01:15 by W3 Total Cache
 -->
