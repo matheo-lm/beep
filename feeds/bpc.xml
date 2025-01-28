@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 28 Jan 2025 12:02:17 EST</pubDate>
+        <pubDate>Tue, 28 Jan 2025 13:01:24 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Apple CPU side-channel attacks steals data from browsers</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-apple-cpu-side-channel-attack-steals-data-from-browsers/</link>
+        <pubDate>Tue, 28 Jan 2025 13:00:00 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-apple-cpu-side-channel-attack-steals-data-from-browsers/</guid>
+	<description><![CDATA[A team of security researchers has disclosed new side-channel vulnerabilities in modern Apple processors that could steal sensitive information from web browsers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Engineering giant Smiths Group discloses security breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/engineering-giant-smiths-group-discloses-security-breach/</link>
+        <pubDate>Tue, 28 Jan 2025 12:28:15 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/engineering-giant-smiths-group-discloses-security-breach/</guid>
+	<description><![CDATA[London-based engineering giant Smiths Group disclosed a security breach after unknown attackers gained access to the company's systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Signal will let you sync old messages when linking new devices</title>
         <link>https://www.bleepingcomputer.com/news/security/signal-will-let-you-sync-old-messages-when-linking-new-devices/</link>
@@ -200,20 +232,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-attack-alerts-coming-to-everyone-next-month/</guid>
 	<description><![CDATA[Microsoft reminded Microsoft 365 admins that its new brand impersonation protection feature for Teams Chat will be available for all customers by mid-February 2025. [...]]]></description>
- </item>
-
- <item>
-        <title>Clone2Leak attacks exploit Git flaws to steal credentials</title>
-        <link>https://www.bleepingcomputer.com/news/security/clone2leak-attacks-exploit-git-flaws-to-steal-credentials/</link>
-        <pubDate>Mon, 27 Jan 2025 11:36:38 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/clone2leak-attacks-exploit-git-flaws-to-steal-credentials/</guid>
-	<description><![CDATA[A set of three distinct but related attacks, dubbed 'Clone2Leak,' can leak credentials by exploiting how Git and its credential helpers handle authentication requests. [...]]]></description>
  </item>
 
 </channel>

@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 28 Jan 2025 02:50:10 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 28 Jan 2025 17:02:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -59,7 +59,7 @@
 <p>Shortly after being sworn in for a second time, Trump voided a Biden executive order that focused on supporting research and development in artificial intelligence. The previous administration&#8217;s order on AI was crafted with an eye toward managing <a href="https://www.ic3.gov/PSA/2024/PSA241203" target="_blank" rel="noopener">the safety and security risks introduced by the technology</a>. But a <a href="https://www.whitehouse.gov/fact-sheets/2025/01/fact-sheet-president-donald-j-trump-takes-action-to-enhance-americas-ai-leadership/" target="_blank" rel="noopener">statement</a> released by the White House said Biden&#8217;s approach to AI had hindered development, and that the United States would support AI systems that are &#8220;free from ideological bias or engineered social agendas,&#8221; to maintain leadership.</p>
 <p>The Trump administration issued <a href="https://www.whitehouse.gov/fact-sheets/2025/01/fact-sheet-executive-order-to-establish-united-states-leadership-in-digital-financial-technology/" target="_blank" rel="noopener">its own executive order on AI</a>, which calls for an &#8220;AI Action Plan&#8221; to be led by the assistant to the president for science and technology, the White House &#8220;AI &amp; crypto czar,&#8221; and the national security advisor. It also directs the White House to revise and reissue policies to federal agencies on the government&#8217;s acquisition and governance of AI &#8220;to ensure that harmful barriers to America&#8217;s AI leadership are eliminated.&#8221;</p>
 <p>Trump&#8217;s AI &amp; crypto czar is <strong>David Sacks</strong>, an entrepreneur and Silicon Valley venture capitalist who argues that the Biden administration&#8217;s approach to AI and cryptocurrency has driven innovation overseas. Sacks recently asserted that non-fungible cryptocurrency tokens and memecoins are neither securities nor commodities, but rather should be treated as &#8220;collectibles&#8221; like baseball cards and stamps.</p>
-<p><span class="s1">There is already a legal definition of collectibles under the U.S. tax code that applies to things like art or antiques, which can be be subject to high capital gains taxes. But <strong>Joe Hall</strong>, a capital markets attorney and partner at Davis Polk, <a href="https://finance.yahoo.com/news/crypto-czar-david-sacks-says-224508277.html?guccounter=1&amp;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAAL0Zay1PbdGAe14O3Q6FoNdB1zkg6wbzSRDfb7oPUC6Wd6zrQ6vU2RRSCVbDRAzdKV-8hUw3m5wdMKoCzprArK-YuIyoeEjJwTP3ZNk1AoW8dVIhp4KFD3-c9i7NrrUPaY3u2e2yLSFfzlqeJDnJ55BTbyBLHx9pM_KywC0pCxWf" target="_blank" rel="noopener">told <em>Fortune</em></a> there are</span> no market regulations that apply to collectibles under U.S. securities law. Hall said Sacks’ comments “suggest a viewpoint that it would not be appropriate to regulate these things the way we regulate securities.”</p>
+<p><span class="s1">There is already a legal definition of collectibles under the U.S. tax code that applies to things like art or antiques, which can be subject to high capital gains taxes. But <strong>Joe Hall</strong>, a capital markets attorney and partner at Davis Polk, <a href="https://finance.yahoo.com/news/crypto-czar-david-sacks-says-224508277.html?guccounter=1&amp;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAAL0Zay1PbdGAe14O3Q6FoNdB1zkg6wbzSRDfb7oPUC6Wd6zrQ6vU2RRSCVbDRAzdKV-8hUw3m5wdMKoCzprArK-YuIyoeEjJwTP3ZNk1AoW8dVIhp4KFD3-c9i7NrrUPaY3u2e2yLSFfzlqeJDnJ55BTbyBLHx9pM_KywC0pCxWf" target="_blank" rel="noopener">told <em>Fortune</em></a> there are</span> no market regulations that apply to collectibles under U.S. securities law. Hall said Sacks’ comments “suggest a viewpoint that it would not be appropriate to regulate these things the way we regulate securities.”</p>
 <p>The new administration&#8217;s position makes sense considering that the Trump family is deeply and personally invested in a number of recent memecoin ventures that have attracted billions from investors. President Trump and First Lady Melania Trump each launched their own vanity memecoins this month, dubbed <strong>$TRUMP</strong> and <strong>$MELANIA</strong>.</p>
 <p><em>The Wall Street Journal</em> <a href="https://www.wsj.com/finance/trump-meme-coin-crypto-explained-c881afff" target="_blank" rel="noopener">reported Thursday</a> the market capitalization of $TRUMP stood at about $7 billion, down from a peak of near $15 billion, while $MELANIA is hovering somewhere in the $460 million mark. Just two months before the 2024 election, Trump&#8217;s three sons debuted a cryptocurrency token called <strong>World Liberty Financial</strong>.</p>
 <p>Despite maintaining a considerable personal stake in how cryptocurrency is regulated, Trump issued <a href="https://www.whitehouse.gov/fact-sheets/2025/01/fact-sheet-executive-order-to-establish-united-states-leadership-in-digital-financial-technology/" target="_blank" rel="noopener">an executive order on January 23</a> calling for a working group to be chaired by Sacks that would develop &#8220;a federal regulatory framework governing digital assets, including stablecoins,&#8221; and evaluate the creation of a &#8220;strategic national digital assets stockpile.&#8221;</p>
@@ -84,7 +84,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/01/a-tumultuous-week-for-federal-cybersecurity-efforts/feed/</wfw:commentRss>
-			<slash:comments>30</slash:comments>
+			<slash:comments>36</slash:comments>
 		
 		
 			</item>
@@ -716,8 +716,8 @@
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 267/267 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-28 11:55:43 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-28 12:46:25 by W3 Total Cache
 -->
