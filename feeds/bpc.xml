@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 29 Jan 2025 14:02:00 EST</pubDate>
+        <pubDate>Wed, 29 Jan 2025 15:02:54 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Laravel admin package Voyager vulnerable to one-click RCE flaw</title>
+        <link>https://www.bleepingcomputer.com/news/security/laravel-admin-package-voyager-vulnerable-to-one-click-rce-flaw/</link>
+        <pubDate>Wed, 29 Jan 2025 14:27:19 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/laravel-admin-package-voyager-vulnerable-to-one-click-rce-flaw/</guid>
+	<description><![CDATA[Three vulnerabilities discovered in the open-source PHP package Voyager for managing Laravel applications could be used for remote code execution attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft investigates Microsoft 365 outage affecting users, admins</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-microsoft-365-outage-affecting-users-admins/</link>
@@ -31,8 +45,8 @@
  </item>
 
  <item>
-        <title>FBI seizes domains for Cracked.io, Nulled.to hacking forums</title>
-        <link>https://www.bleepingcomputer.com/news/security/fbi-seizes-domains-for-crackedio-nulledto-hacking-forums/</link>
+        <title>FBI seizes Cracked.io, Nulled.to hacking forums in Operation Talent</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-seizes-crackedio-nulledto-hacking-forums-in-operation-talent/</link>
         <pubDate>Wed, 29 Jan 2025 12:30:09 -0500</pubDate>
         <dc:creator>Sergiu Gatlan</dc:creator>
 
@@ -40,7 +54,7 @@
         <category><![CDATA[Security]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/security/fbi-seizes-domains-for-crackedio-nulledto-hacking-forums/</guid>
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-seizes-crackedio-nulledto-hacking-forums-in-operation-talent/</guid>
 	<description><![CDATA[The FBI has seized the domains for the infamous Cracked.io and Nulled.to hacking forums, which are known for their focus on cybercrime, password theft, cracking, and credential stuffing attacks. [...]]]></description>
  </item>
 
@@ -174,38 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-apple-cpu-side-channel-attack-steals-data-from-browsers/</guid>
 	<description><![CDATA[A team of security researchers has disclosed new side-channel vulnerabilities in modern Apple processors that could steal sensitive information from web browsers. [...]]]></description>
- </item>
-
- <item>
-        <title>Engineering giant Smiths Group discloses security breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/engineering-giant-smiths-group-discloses-security-breach/</link>
-        <pubDate>Tue, 28 Jan 2025 12:28:15 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/engineering-giant-smiths-group-discloses-security-breach/</guid>
-	<description><![CDATA[London-based engineering giant Smiths Group disclosed a security breach after unknown attackers gained access to the company's systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Signal will let you sync old messages when linking new devices</title>
-        <link>https://www.bleepingcomputer.com/news/security/signal-will-let-you-sync-old-messages-when-linking-new-devices/</link>
-        <pubDate>Tue, 28 Jan 2025 11:27:02 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/signal-will-let-you-sync-old-messages-when-linking-new-devices/</guid>
-	<description><![CDATA[Signal is finally adding a new feature that allows users to synchronize their old message history from their primary iOS or Android devices to newly linked devices like desktops and iPads. [...]]]></description>
  </item>
 
 </channel>
