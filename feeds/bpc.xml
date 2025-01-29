@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 29 Jan 2025 13:00:17 EST</pubDate>
+        <pubDate>Wed, 29 Jan 2025 14:02:00 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft investigates Microsoft 365 outage affecting users, admins</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-microsoft-365-outage-affecting-users-admins/</link>
+        <pubDate>Wed, 29 Jan 2025 13:55:27 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-microsoft-365-outage-affecting-users-admins/</guid>
+	<description><![CDATA[Microsoft is investigating an ongoing outage preventing users and admins from accessing some Microsoft 365 services and the admin center. [...]]]></description>
+ </item>
+
  <item>
         <title>FBI seizes domains for Cracked.io, Nulled.to hacking forums</title>
         <link>https://www.bleepingcomputer.com/news/security/fbi-seizes-domains-for-crackedio-nulledto-hacking-forums/</link>
@@ -192,22 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/signal-will-let-you-sync-old-messages-when-linking-new-devices/</guid>
 	<description><![CDATA[Signal is finally adding a new feature that allows users to synchronize their old message history from their primary iOS or Android devices to newly linked devices like desktops and iPads. [...]]]></description>
- </item>
-
- <item>
-        <title>PowerSchool starts notifying victims of massive data breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/powerschool-starts-notifying-victims-of-massive-data-breach/</link>
-        <pubDate>Tue, 28 Jan 2025 10:43:31 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Education]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/powerschool-starts-notifying-victims-of-massive-data-breach/</guid>
-	<description><![CDATA[Education software giant PowerSchool has started notifying individuals in the U.S. and Canada whose personal data was exposed in a late December 2024 cyberattack. [...]]]></description>
  </item>
 
 </channel>
