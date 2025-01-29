@@ -11,11 +11,53 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 29 Jan 2025 09:00:46 EST</pubDate>
+        <pubDate>Wed, 29 Jan 2025 10:00:00 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Uncover Hidden Browsing Threats: Get a Free Risk Assessment for GenAI, Identity, Web, and SaaS Risks</title>
+        <link>https://www.bleepingcomputer.com/news/security/uncover-hidden-browsing-threats-get-a-free-risk-assessment-for-genai-identity-web-and-saas-risks/</link>
+        <pubDate>Wed, 29 Jan 2025 09:59:56 -0500</pubDate>
+        <dc:creator>Sponsored by LayerX</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/uncover-hidden-browsing-threats-get-a-free-risk-assessment-for-genai-identity-web-and-saas-risks/</guid>
+	<description><![CDATA[As GenAI tools and SaaS platforms become a staple component in the employee toolkit, the risks associated with data exposure, identity vulnerabilities, and unmonitored browsing behavior have skyrocketed. Learn how a complimentary LayerX risk assessment can help identify, assess, and address browsing and SaaS risks in your workplace. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hackers exploit critical unpatched flaw in Zyxel CPE devices</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-unpatched-flaw-in-zyxel-cpe-devices/</link>
+        <pubDate>Wed, 29 Jan 2025 09:42:14 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-unpatched-flaw-in-zyxel-cpe-devices/</guid>
+	<description><![CDATA[Hackers are exploiting a critical command injection vulnerability in Zyxel CPE Series devices that is currently tracked as CVE-2024-40891 and remains unpatched since last July. [...]]]></description>
+ </item>
+
+ <item>
+        <title>January Windows 10 preview update force installs new Outlook</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/january-windows-10-preview-update-force-installs-new-outlook/</link>
+        <pubDate>Wed, 29 Jan 2025 09:11:30 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/january-windows-10-preview-update-force-installs-new-outlook/</guid>
+	<description><![CDATA[Microsoft has started force-installing the new Outlook email client on Windows 10 systems for users who deploy this month's KB5050081 non-security preview update. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 11 KB5050094 update fixes bugs causing audio issues</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5050094-update-fixes-bugs-causing-audio-issues/</link>
@@ -166,36 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-edge-scareware-blocker-to-block-tech-support-scams/</guid>
 	<description><![CDATA[Microsoft has started testing a new "scareware blocker" feature for the Edge web browser on Windows PCs, which uses machine learning (ML) to detect tech support scams. [...]]]></description>
- </item>
-
- <item>
-        <title>DeepSeek halts new signups amid "large-scale" cyberattack</title>
-        <link>https://www.bleepingcomputer.com/news/security/deepseek-halts-new-signups-amid-large-scale-cyberattack/</link>
-        <pubDate>Mon, 27 Jan 2025 17:01:18 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/deepseek-halts-new-signups-amid-large-scale-cyberattack/</guid>
-	<description><![CDATA[Chinese AI platform DeepSeek has disabled registrations on its DeepSeek-V3 chat platform due to an ongoing "large-scale" cyberattack targeting its services. [...]]]></description>
- </item>
-
- <item>
-        <title>Bitwarden makes it harder to hack password vaults without MFA</title>
-        <link>https://www.bleepingcomputer.com/news/security/bitwarden-makes-it-harder-to-hack-password-vaults-without-mfa/</link>
-        <pubDate>Mon, 27 Jan 2025 16:00:54 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/bitwarden-makes-it-harder-to-hack-password-vaults-without-mfa/</guid>
-	<description><![CDATA[Open-source password manager Bitwarden is adding an extra layer of security for accounts that are not protected by two-factor authentication, requiring email verification before allowing access to accounts. [...]]]></description>
  </item>
 
 </channel>
