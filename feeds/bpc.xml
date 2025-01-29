@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 29 Jan 2025 06:59:53 EST</pubDate>
+        <pubDate>Wed, 29 Jan 2025 08:05:32 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 11 KB5050094 update fixes bugs causing audio issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5050094-update-fixes-bugs-causing-audio-issues/</link>
+        <pubDate>Wed, 29 Jan 2025 08:00:29 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5050094-update-fixes-bugs-causing-audio-issues/</guid>
+	<description><![CDATA[​Microsoft has released the optional KB5050094 Preview cumulative update for Windows 11 24H2 with 28 bug fixes and changes, including fixes for bugs causing audio playback issues on systems with USB audio device drivers. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers exploiting flaws in SimpleHelp RMM to breach networks</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-exploiting-flaws-in-simplehelp-rmm-to-breach-networks/</link>
@@ -182,36 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/bitwarden-makes-it-harder-to-hack-password-vaults-without-mfa/</guid>
 	<description><![CDATA[Open-source password manager Bitwarden is adding an extra layer of security for accounts that are not protected by two-factor authentication, requiring email verification before allowing access to accounts. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: January Windows security updates break audio playback</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-january-windows-security-updates-break-audio-playback/</link>
-        <pubDate>Mon, 27 Jan 2025 15:39:16 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-january-windows-security-updates-break-audio-playback/</guid>
-	<description><![CDATA[​Microsoft has confirmed that the January 2025 Windows security updates are breaking audio playback on some systems with external DACs (digital-to-analog converters). [...]]]></description>
- </item>
-
- <item>
-        <title>Apple fixes this year’s first actively exploited zero-day bug</title>
-        <link>https://www.bleepingcomputer.com/news/security/apple-fixes-this-years-first-actively-exploited-zero-day-bug/</link>
-        <pubDate>Mon, 27 Jan 2025 14:17:00 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Apple]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/apple-fixes-this-years-first-actively-exploited-zero-day-bug/</guid>
-	<description><![CDATA[​Apple has released security updates to fix this year's first zero-day vulnerability, tagged as actively exploited in attacks targeting iPhone users. [...]]]></description>
  </item>
 
 </channel>

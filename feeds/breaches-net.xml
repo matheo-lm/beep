@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description>The Office of Inadequate Security</description>
-	<lastBuildDate>Tue, 28 Jan 2025 19:37:36 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 29 Jan 2025 12:28:30 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,45 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>How Interlock Ransomware Infects Healthcare Organizations</title>
+		<link>https://databreaches.net/2025/01/29/how-interlock-ransomware-infects-healthcare-organizations/</link>
+					<comments>https://databreaches.net/2025/01/29/how-interlock-ransomware-infects-healthcare-organizations/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Wed, 29 Jan 2025 12:28:30 +0000</pubDate>
+				<category><![CDATA[Commentaries and Analyses]]></category>
+		<category><![CDATA[Health Data]]></category>
+		<category><![CDATA[Malware]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=120141</guid>
+
+					<description><![CDATA[The Hacker News reports on Interlock: The Interlock ransomware group begins its attack with a strategic and highly deceptive method known as a Drive-by Compromise. This technique allows the group to gain initial access to targeted systems by exploiting unsuspecting users, often through carefully designed phishing websites. Initial Attack of the Ransomware# The attack starts...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/01/29/how-interlock-ransomware-infects-healthcare-organizations/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Ransomware attack kept ENGlobal out of some systems for 6 weeks</title>
+		<link>https://databreaches.net/2025/01/29/ransomware-attack-kept-englobal-out-of-some-systems-for-6-weeks/</link>
+					<comments>https://databreaches.net/2025/01/29/ransomware-attack-kept-englobal-out-of-some-systems-for-6-weeks/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Wed, 29 Jan 2025 12:28:02 +0000</pubDate>
+				<category><![CDATA[Business Sector]]></category>
+		<category><![CDATA[Federal]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[U.S.]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=120145</guid>
+
+					<description><![CDATA[Jonathan Greig reports: Officials at a large energy industry and federal government contractor were locked out of company financial systems for six weeks due to a recent ransomware attack. ENGlobal Corporation revealed the extended disruptions in an update to the U.S. Securities and Exchange Commission on Monday evening. “The cybersecurity incident limited the Company’s ability to access...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/01/29/ransomware-attack-kept-englobal-out-of-some-systems-for-6-weeks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Attorney General James Secures $450,000 from Companies Selling Home Security Cameras that Failed to Secure Private Videos</title>
 		<link>https://databreaches.net/2025/01/28/attorney-general-james-secures-450000-from-companies-selling-home-security-cameras-that-failed-to-secure-private-videos/</link>
 					<comments>https://databreaches.net/2025/01/28/attorney-general-james-secures-450000-from-companies-selling-home-security-cameras-that-failed-to-secure-private-videos/#respond</comments>
@@ -179,46 +218,6 @@
 					<description><![CDATA[Oleh Pavliuk and Yevhen Kizilov report: Slovak Prime Minister Robert Fico has said that Slovakia&#8217;s national insurance company has suffered a &#8220;massive cyberattack&#8221; and claimed, without any evidence, that Ukraine was involved. Source: European Pravda with reference to Dennik N Details: At an emergency press conference on Friday, 24 January, Fico said the cyberattack had started at noon...]]></description>
 		
 					<wfw:commentRss>https://databreaches.net/2025/01/25/slovak-pm-accuses-ukraine-without-any-evidence-of-involvement-in-alleged-massive-cyberattack/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>UnitedHealth estimates 190M people impacted by Change Healthcare cyberattack</title>
-		<link>https://databreaches.net/2025/01/25/unitedhealth-estimates-190m-people-impacted-by-change-healthcare-cyberattack/</link>
-					<comments>https://databreaches.net/2025/01/25/unitedhealth-estimates-190m-people-impacted-by-change-healthcare-cyberattack/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Sat, 25 Jan 2025 12:27:33 +0000</pubDate>
-				<category><![CDATA[Health Data]]></category>
-		<category><![CDATA[Malware]]></category>
-		<category><![CDATA[Of Note]]></category>
-		<category><![CDATA[Subcontractor]]></category>
-		<category><![CDATA[U.S.]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=120104</guid>
-
-					<description><![CDATA[Paige Minemyer reports: Change Healthcare now estimates that 190 million people were impacted in the massive cyberattack that took down its services nearly a year ago. UnitedHealth Group, Change&#8217;s parent company, said in a statement to Fierce Healthcare that the &#8220;vast majority&#8221; of people impacted have received an individual or substitute notice about the breach....]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/01/25/unitedhealth-estimates-190m-people-impacted-by-change-healthcare-cyberattack/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>US Justice Department drops case against Texas doctor charged with leaking transgender care data</title>
-		<link>https://databreaches.net/2025/01/25/us-justice-department-drops-case-against-texas-doctor-charged-with-leaking-transgender-care-data/</link>
-					<comments>https://databreaches.net/2025/01/25/us-justice-department-drops-case-against-texas-doctor-charged-with-leaking-transgender-care-data/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Sat, 25 Jan 2025 12:26:50 +0000</pubDate>
-				<category><![CDATA[Health Data]]></category>
-		<category><![CDATA[Insider]]></category>
-		<category><![CDATA[U.S.]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=120106</guid>
-
-					<description><![CDATA[Prosecutors may have dropped the case against Dr. Eithan Haim, but his conduct is a reminder of the insider threat. AP reports: Federal prosecutors on Friday dropped the case against a Texas doctor who called himself a whistleblower on transgender care for minors and was accused of illegally obtaining private information on patients who weren&#8217;t under his care. The...]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/01/25/us-justice-department-drops-case-against-texas-doctor-charged-with-leaking-transgender-care-data/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
