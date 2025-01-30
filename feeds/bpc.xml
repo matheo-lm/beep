@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 30 Jan 2025 11:02:01 EST</pubDate>
+        <pubDate>Thu, 30 Jan 2025 12:02:32 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>DeepSeek exposes database with over 1 million chat records</title>
+        <link>https://www.bleepingcomputer.com/news/security/deepseek-exposes-database-with-over-1-million-chat-records/</link>
+        <pubDate>Thu, 30 Jan 2025 11:16:02 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/deepseek-exposes-database-with-over-1-million-chat-records/</guid>
+	<description><![CDATA[DeepSeek, the Chinese AI startup known for its DeepSeek-R1 LLM model, has publicly exposed two databases containing sensitive user and operational information. [...]]]></description>
+ </item>
+
  <item>
         <title>The Advantages of Cloud-Based Remote Desktop versus RDP over VPN</title>
         <link>https://www.bleepingcomputer.com/news/security/the-advantages-of-cloud-based-remote-desktop-versus-rdp-over-vpn/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11s-start-menu-is-getting-iphone-and-android-integration/</guid>
 	<description><![CDATA[Windows 11's Start menu is getting a big update with full-fledged Android and iPhone integration, allowing users improved access to users' mobile texts and images from their computers. [...]]]></description>
- </item>
-
- <item>
-        <title>Uncover Hidden Browsing Threats: Get a Free Risk Assessment for GenAI, Identity, Web, and SaaS Risks</title>
-        <link>https://www.bleepingcomputer.com/news/security/uncover-hidden-browsing-threats-get-a-free-risk-assessment-for-genai-identity-web-and-saas-risks/</link>
-        <pubDate>Wed, 29 Jan 2025 09:59:56 -0500</pubDate>
-        <dc:creator>Sponsored by LayerX</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/uncover-hidden-browsing-threats-get-a-free-risk-assessment-for-genai-identity-web-and-saas-risks/</guid>
-	<description><![CDATA[As GenAI tools and SaaS platforms become a staple component in the employee toolkit, the risks associated with data exposure, identity vulnerabilities, and unmonitored browsing behavior have skyrocketed. Learn how a complimentary LayerX risk assessment can help identify, assess, and address browsing and SaaS risks in your workplace. [...]]]></description>
  </item>
 
 </channel>
