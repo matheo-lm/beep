@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 30 Jan 2025 08:05:36 EST</pubDate>
+        <pubDate>Thu, 30 Jan 2025 09:02:19 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft lifts Windows 11 update block for PCs with gaming issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-update-block-for-pcs-with-gaming-issues/</link>
+        <pubDate>Thu, 30 Jan 2025 08:53:40 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Gaming]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-update-block-for-pcs-with-gaming-issues/</guid>
+	<description><![CDATA[Microsoft has removed a safeguard hold that prevented devices with Auto HDR enabled from installing the Windows 11 2024 Update due to gaming issues. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Police seizes Cracked and Nulled hacking forum servers, arrests suspects</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-seizes-cracked-and-nulled-hacking-forum-servers-arrests-suspects/</link>
+        <pubDate>Thu, 30 Jan 2025 08:47:03 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-seizes-cracked-and-nulled-hacking-forum-servers-arrests-suspects/</guid>
+	<description><![CDATA[Europol and German law enforcement confirmed the arrest of two suspects and the seizure of 17 servers in Operation Talent, which took down Cracked and Nulled, two of the largest hacking forums with over 10 million users. [...]]]></description>
+ </item>
+
  <item>
         <title>Time Bandit ChatGPT jailbreak bypasses safeguards on sensitive topics</title>
         <link>https://www.bleepingcomputer.com/news/security/time-bandit-chatgpt-jailbreak-bypasses-safeguards-on-sensitive-topics/</link>
@@ -172,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5050094-update-fixes-bugs-causing-audio-issues/</guid>
 	<description><![CDATA[​Microsoft has released the optional KB5050094 Preview cumulative update for Windows 11 24H2 with 28 bug fixes and changes, including fixes for bugs causing audio playback issues on systems with USB audio device drivers. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers exploiting flaws in SimpleHelp RMM to breach networks</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-exploiting-flaws-in-simplehelp-rmm-to-breach-networks/</link>
-        <pubDate>Tue, 28 Jan 2025 16:49:41 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploiting-flaws-in-simplehelp-rmm-to-breach-networks/</guid>
-	<description><![CDATA[Hackers are believed to be exploiting recently fixed SimpleHelp Remote Monitoring and Management (RMM) software vulnerabilities to gain initial access to target networks. [...]]]></description>
  </item>
 
 </channel>
