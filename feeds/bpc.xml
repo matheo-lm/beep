@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 30 Jan 2025 09:02:19 EST</pubDate>
+        <pubDate>Thu, 30 Jan 2025 10:00:01 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Syncjacking attack hijacks devices using Chrome extensions</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-syncjacking-attack-hijacks-devices-using-chrome-extensions/</link>
+        <pubDate>Thu, 30 Jan 2025 09:33:33 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-syncjacking-attack-hijacks-devices-using-chrome-extensions/</guid>
+	<description><![CDATA[A new attack called 'Browser Syncjacking' demonstrates the possibility of using a seemingly benign Chrome extension to take over a victim's device through the browser. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft lifts Windows 11 update block for PCs with gaming issues</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-update-block-for-pcs-with-gaming-issues/</link>
@@ -188,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/january-windows-10-preview-update-force-installs-new-outlook/</guid>
 	<description><![CDATA[Microsoft has started force-installing the new Outlook email client on Windows 10 systems for users who deploy this month's KB5050081 non-security preview update. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 KB5050094 update fixes bugs causing audio issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5050094-update-fixes-bugs-causing-audio-issues/</link>
-        <pubDate>Wed, 29 Jan 2025 08:00:29 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5050094-update-fixes-bugs-causing-audio-issues/</guid>
-	<description><![CDATA[​Microsoft has released the optional KB5050094 Preview cumulative update for Windows 11 24H2 with 28 bug fixes and changes, including fixes for bugs causing audio playback issues on systems with USB audio device drivers. [...]]]></description>
  </item>
 
 </channel>
