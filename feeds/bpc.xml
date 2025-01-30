@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 30 Jan 2025 07:03:53 EST</pubDate>
+        <pubDate>Thu, 30 Jan 2025 08:05:36 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Time Bandit ChatGPT jailbreak bypasses safeguards on sensitive topics</title>
+        <link>https://www.bleepingcomputer.com/news/security/time-bandit-chatgpt-jailbreak-bypasses-safeguards-on-sensitive-topics/</link>
+        <pubDate>Thu, 30 Jan 2025 07:00:00 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/time-bandit-chatgpt-jailbreak-bypasses-safeguards-on-sensitive-topics/</guid>
+	<description><![CDATA[A ChatGPT jailbreak flaw, dubbed "Time Bandit," allows you to bypass OpenAI's safety guidelines when asking for detailed instructions on sensitive topics, including the creation of weapons, information on nuclear topics, and malware creation. [...]]]></description>
+ </item>
+
  <item>
         <title>New Aquabotv3 botnet malware targets Mitel command injection flaw</title>
         <link>https://www.bleepingcomputer.com/news/security/new-aquabotv3-botnet-malware-targets-mitel-command-injection-flaw/</link>
@@ -172,20 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-exploiting-flaws-in-simplehelp-rmm-to-breach-networks/</guid>
 	<description><![CDATA[Hackers are believed to be exploiting recently fixed SimpleHelp Remote Monitoring and Management (RMM) software vulnerabilities to gain initial access to target networks. [...]]]></description>
- </item>
-
- <item>
-        <title>Google to kill Chrome Sync on older Chrome browser versions</title>
-        <link>https://www.bleepingcomputer.com/news/google/google-to-kill-chrome-sync-on-older-chrome-browser-versions/</link>
-        <pubDate>Tue, 28 Jan 2025 15:44:57 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/google/google-to-kill-chrome-sync-on-older-chrome-browser-versions/</guid>
-	<description><![CDATA[Google announced that the Chrome Sync feature will be discontinued in early 2025 for Chrome versions older than four years. [...]]]></description>
  </item>
 
 </channel>
