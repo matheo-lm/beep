@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Thu, 30 Jan 2025 17:34:07 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 30 Jan 2025 18:42:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -57,7 +57,7 @@
 <p>In 2023, Suncity’s CEO was <a href="https://www.smh.com.au/business/companies/ex-suncity-boss-alvin-chau-jailed-for-18-years-in-macau-20230118-p5cdmj.html" target="_blank" rel="noopener">sentenced to 18 years in prison</a> on charges of fraud, illegal gambling, and “<a href="https://en.wikipedia.org/wiki/Triad_(organized_crime)" target="_blank" rel="noopener">triad</a> offenses,” i.e. working with Chinese transnational organized crime syndicates. Suncity is alleged to have built an underground banking system that <a href="https://macaonews.org/news/city/former-suncity-boss-alvin-chau-sentenced-to-18-years-in-prison/" target="_blank" rel="noopener">laundered billions of dollars for criminals</a>.</p>
 <p>It is likely the gambling sites coming through Funnull are abusing top casino brands as part of their money laundering schemes. In reporting on Silent Push&#8217;s October report, <em>TechCrunch</em> <a href="https://techcrunch.com/2024/10/22/researchers-link-polyfill-supply-chain-attack-to-huge-network-of-copycat-gambling-sites/" target="_blank" rel="noopener">obtained</a> a comment from Bwin, one of the casinos being advertised en masse through Funnull, and Bwin said those websites did not belong to them.</p>
 <p>Gambling is illegal in China except in Macau, a special administrative region of China. Silent Push researchers say Funnull may be helping online gamblers in China evade the Communist party&#8217;s &#8220;Great Firewall,&#8221; which blocks access to gambling destinations.</p>
-<p>Silent Push&#8217;s <strong>Zach Edwards</strong> said that upon revisiting Funnull&#8217;s infrastructure again this month, they found dozens of the same Amazon and Microsoft cloud Internet addresses still forwarding Funnull traffic through a dizzying chain of auto-generated domain names before redirecting malicious or phishous websites.</p>
+<p>Silent Push&#8217;s <strong>Zach Edwards</strong> said that upon <a href="https://www.silentpush.com/blog/infrastructure-laundering/" target="_blank" rel="noopener">revisiting Funnull&#8217;s infrastructure again this month</a>, they found dozens of the same Amazon and Microsoft cloud Internet addresses still forwarding Funnull traffic through a dizzying chain of auto-generated domain names before redirecting malicious or phishous websites.</p>
 <p>Edwards said Funnull is a textbook example of an increasing trend Silent Push calls &#8220;infrastructure laundering,&#8221; wherein crooks selling cybercrime services will relay some or all of their malicious traffic through U.S. cloud providers.</p>
 <p>&#8220;It&#8217;s crucial for global hosting companies based in the West to wake up to the fact that extremely low quality and suspicious web hosts based out of China are deliberately renting IP space from multiple companies and then mapping those IPs to their criminal client websites,&#8221; Edwards told KrebsOnSecurity. &#8220;We need these major hosts to create internal policies so that if they are renting IP space to one entity, who further rents it to host numerous criminal websites, all of those IPs should be reclaimed and the CDN who purchased them should be banned from future IP rentals or purchases.&#8221;</p>
 <div id="attachment_70232" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70232" decoding="async" loading="lazy" class=" wp-image-70232" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/suncity-funnull.png" alt="" width="750" height="370" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/01/suncity-funnull.png 958w, https://krebsonsecurity.com/wp-content/uploads/2025/01/suncity-funnull-768x379.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/01/suncity-funnull-782x386.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-70232" class="wp-caption-text">A Suncity gambling site promoted via Funnull. The sites feature a prompt for a Tether/USDT deposit program.</p></div>
@@ -700,8 +700,8 @@
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 258/258 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-30 12:58:19 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-30 13:44:58 by W3 Total Cache
 -->
