@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 30 Jan 2025 10:00:01 EST</pubDate>
+        <pubDate>Thu, 30 Jan 2025 11:02:01 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>The Advantages of Cloud-Based Remote Desktop versus RDP over VPN</title>
+        <link>https://www.bleepingcomputer.com/news/security/the-advantages-of-cloud-based-remote-desktop-versus-rdp-over-vpn/</link>
+        <pubDate>Thu, 30 Jan 2025 10:11:19 -0500</pubDate>
+        <dc:creator>Sponsored by TruGrid</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/the-advantages-of-cloud-based-remote-desktop-versus-rdp-over-vpn/</guid>
+	<description><![CDATA[Remote work is now an essential part of many businesses, requiring organizations to rethink how they provide secure and efficient access to corporate resources. Learn from TruGrid about the advantages of cloud-based RDP versus RDP over VPN, especially in the context of security, performance, and cost-effectiveness. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Major GitHub outage affects pull requests and other services</title>
+        <link>https://www.bleepingcomputer.com/news/technology/major-github-outage-affects-pull-requests-and-other-services/</link>
+        <pubDate>Thu, 30 Jan 2025 10:06:05 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/technology/major-github-outage-affects-pull-requests-and-other-services/</guid>
+	<description><![CDATA[​GitHub is mitigating an ongoing incident causing problems with multiple services, including performing pull requests, creating or viewing issues, and even viewing repositories and commits. [...]]]></description>
+ </item>
+
  <item>
         <title>New Syncjacking attack hijacks devices using Chrome extensions</title>
         <link>https://www.bleepingcomputer.com/news/security/new-syncjacking-attack-hijacks-devices-using-chrome-extensions/</link>
@@ -176,34 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/uncover-hidden-browsing-threats-get-a-free-risk-assessment-for-genai-identity-web-and-saas-risks/</guid>
 	<description><![CDATA[As GenAI tools and SaaS platforms become a staple component in the employee toolkit, the risks associated with data exposure, identity vulnerabilities, and unmonitored browsing behavior have skyrocketed. Learn how a complimentary LayerX risk assessment can help identify, assess, and address browsing and SaaS risks in your workplace. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers exploit critical unpatched flaw in Zyxel CPE devices</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-unpatched-flaw-in-zyxel-cpe-devices/</link>
-        <pubDate>Wed, 29 Jan 2025 09:42:14 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-unpatched-flaw-in-zyxel-cpe-devices/</guid>
-	<description><![CDATA[Hackers are exploiting a critical command injection vulnerability in Zyxel CPE Series devices that is currently tracked as CVE-2024-40891 and remains unpatched since last July. [...]]]></description>
- </item>
-
- <item>
-        <title>January Windows 10 preview update force installs new Outlook</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/january-windows-10-preview-update-force-installs-new-outlook/</link>
-        <pubDate>Wed, 29 Jan 2025 09:11:30 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/january-windows-10-preview-update-force-installs-new-outlook/</guid>
-	<description><![CDATA[Microsoft has started force-installing the new Outlook email client on Windows 10 systems for users who deploy this month's KB5050081 non-security preview update. [...]]]></description>
  </item>
 
 </channel>
