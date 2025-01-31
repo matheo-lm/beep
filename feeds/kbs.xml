@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Fri, 31 Jan 2025 18:35:56 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 31 Jan 2025 19:25:45 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,7 @@
 	<item>
 		<title>FBI, Dutch Police Disrupt &#8216;Manipulaters&#8217; Phishing Gang</title>
 		<link>https://krebsonsecurity.com/2025/01/fbi-dutch-police-disrupt-manipulaters-phishing-gang/</link>
-					<comments>https://krebsonsecurity.com/2025/01/fbi-dutch-police-disrupt-manipulaters-phishing-gang/#respond</comments>
+					<comments>https://krebsonsecurity.com/2025/01/fbi-dutch-police-disrupt-manipulaters-phishing-gang/#comments</comments>
 		
 		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
 		<pubDate>Fri, 31 Jan 2025 18:35:32 +0000</pubDate>
@@ -59,7 +59,7 @@
 <p>&#8220;Those payments would instead be redirected to a financial account the perpetrators controlled, resulting in significant losses to victims,&#8221; the DOJ wrote. &#8220;These tools were also used to acquire victim user credentials and utilize those credentials to further these fraudulent schemes. The seizure of these domains is intended to disrupt the ongoing activity of these groups and stop the proliferation of these tools within the cybercriminal community.&#8221;</p>
 <div id="attachment_67010" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-67010" decoding="async" loading="lazy" class=" wp-image-67010" src="https://krebsonsecurity.com/wp-content/uploads/2024/04/manipulaters-o365.png" alt="" width="748" height="291" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/04/manipulaters-o365.png 1097w, https://krebsonsecurity.com/wp-content/uploads/2024/04/manipulaters-o365-768x299.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/04/manipulaters-o365-782x304.png 782w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-67010" class="wp-caption-text">Manipulaters advertisement for “Office 365 Private Page with Antibot” phishing kit sold via Heartsender. “Antibot” refers to functionality that attempts to evade automated detection techniques, keeping a phish deployed and accessible as long as possible. Image: DomainTools.</p></div>
 <p>KrebsOnSecurity first wrote about The Manipulaters <a href="https://krebsonsecurity.com/2015/05/phishing-gang-is-audacious-manipulator/" target="_blank" rel="noopener">in May 2015</a>, mainly because their ads at the time were blanketing a number of popular cybercrime forums, and because they were fairly open and brazen about what they were doing &#8212; even who they were in real life.</p>
-<p>We caught up with The Manipulaters again in 2021, with <a href="https://krebsonsecurity.com/2021/09/fudco-spam-empire-tied-to-pakistani-software-firm/" target="_blank" rel="noopener">a story</a> that found the core employees had started a web coding company in Lahore called <strong>WeCodeSolutions</strong> &#8212; presumably as a way to account for their considerable Heartsender income. That piece examined how WeCodeSolutions employees had all doxed themselves on Facebook by posting employee pictures from company parties each year featuring a large cake with the words <strong>FudCo</strong> written in icing.<span id="more-70250"></span></p>
+<p>We caught up with The Manipulaters again in 2021, with <a href="https://krebsonsecurity.com/2021/09/fudco-spam-empire-tied-to-pakistani-software-firm/" target="_blank" rel="noopener">a story</a> that found the core employees had started a web coding company in Lahore called <strong>WeCodeSolutions</strong> &#8212; presumably as a way to account for their considerable Heartsender income. That piece examined how WeCodeSolutions employees had all doxed themselves on Facebook by posting pictures from company parties each year featuring a large cake with the words <strong>FudCo</strong> written in icing.<span id="more-70250"></span></p>
 <p>A <a href="https://krebsonsecurity.com/2024/04/the-manipulaters-improve-phishing-still-fail-at-opsec/" target="_blank" rel="noopener">follow-up story last year</a> about The Manipulaters prompted messages from various WeCodeSolutions employees who pleaded with this publication to remove stories about them. The Saim Raza identity told KrebsOnSecurity they were recently released from jail after being arrested and charged by local police, although they declined to elaborate on the charges.</p>
 <p>The Manipulaters never seemed to care much about protecting their own identities, so it&#8217;s not surprising that they were unable or unwilling to protect their own customers. In <a href="https://www.domaintools.com/resources/blog/the-resurgence-of-the-manipulaters-team-breaking-heartsenders?utm_source=Krebs-on-Security" target="_blank" rel="noopener">an analysis</a> released last year, <strong>DomainTools.com</strong> found the web-hosted version of Heartsender leaked an extraordinary amount of user information to unauthenticated users, including customer credentials and email records from Heartsender employees.</p>
 <div id="attachment_56860" style="width: 761px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-56860" decoding="async" loading="lazy" class=" wp-image-56860" src="https://krebsonsecurity.com/wp-content/uploads/2021/09/fudcocake.png" alt="" width="751" height="773" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/09/fudcocake.png 834w, https://krebsonsecurity.com/wp-content/uploads/2021/09/fudcocake-768x790.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/09/fudcocake-782x805.png 782w" sizes="(max-width: 751px) 100vw, 751px" /><p id="caption-attachment-56860" class="wp-caption-text">Almost every year since their founding, The Manipulaters have posted a picture of a FudCo cake from a company party celebrating its anniversary.</p></div>
@@ -67,12 +67,12 @@
 <p>&#8220;Ironically, the Manipulaters may create more short-term risk to their own customers than law enforcement,&#8221; DomainTools wrote. &#8220;The data table &#8216;User Feedbacks&#8217; (sic) exposes what appear to be customer authentication tokens, user identifiers, and even a customer support request that exposes root-level SMTP credentials–all visible by an unauthenticated user on a Manipulaters-controlled domain.&#8221;</p>
 <p>Police in The Netherlands said the investigation into the owners and customers of the service is ongoing.</p>
 <p>&#8220;The Cybercrime Team is on the trail of a number of buyers of the tools,&#8221; the Dutch national police said. &#8220;Presumably, these buyers also include Dutch nationals. The investigation into the makers and buyers of this phishing software has not yet been completed with the seizure of the servers and domains.&#8221;</p>
-<p>U.S. authorities this week also joined law enforcement in Australia, France, Greece, Italy, Romania, Spain in seizing a number of domains for several long-running cybercrime forums and services, including <strong>Cracked</strong> and <strong>Nulled</strong>. According to <a href="https://www.europol.europa.eu/media-press/newsroom/news/law-enforcement-takes-down-two-largest-cybercrime-forums-in-world" target="_blank" rel="noopener">a statement</a> from the European police agency <strong>Europol</strong>, the two communities attracted more than 10 million users in total.</p>
+<p>U.S. authorities this week also joined law enforcement in Australia, France, Greece, Italy, Romania and Spain in seizing a number of domains for several long-running cybercrime forums and services, including <strong>Cracked</strong> and <strong>Nulled</strong>. According to <a href="https://www.europol.europa.eu/media-press/newsroom/news/law-enforcement-takes-down-two-largest-cybercrime-forums-in-world" target="_blank" rel="noopener">a statement</a> from the European police agency <strong>Europol</strong>, the two communities attracted more than 10 million users in total.</p>
 <p>Other domains seized as part of &#8220;<strong>Operation Talent</strong>&#8221; included <strong>Sellix</strong>, an e-commerce platform that was frequently used by cybercrime forum members to buy and sell illicit goods and services.</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/01/fbi-dutch-police-disrupt-manipulaters-phishing-gang/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>2</slash:comments>
 		
 		
 			</item>
@@ -210,7 +210,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/01/a-tumultuous-week-for-federal-cybersecurity-efforts/feed/</wfw:commentRss>
-			<slash:comments>98</slash:comments>
+			<slash:comments>100</slash:comments>
 		
 		
 			</item>
@@ -660,8 +660,8 @@
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 257/257 objects using memcached
-Page Caching using memcached 
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-01-31 13:36:54 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-01-31 14:58:13 by W3 Total Cache
 -->
