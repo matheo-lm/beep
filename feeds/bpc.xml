@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 30 Jan 2025 19:10:57 EST</pubDate>
+        <pubDate>Thu, 30 Jan 2025 20:29:28 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>KuCoin to pay nearly $300 million in penalties after guilty plea</title>
+        <link>https://www.bleepingcomputer.com/news/cryptocurrency/kucoin-to-pay-nearly-300-million-in-penalties-after-guilty-plea/</link>
+        <pubDate>Thu, 30 Jan 2025 19:18:21 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[CryptoCurrency]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/cryptocurrency/kucoin-to-pay-nearly-300-million-in-penalties-after-guilty-plea/</guid>
+	<description><![CDATA[KuCoin's operator, PEKEN Global Limited, pleaded guilty to operating an unlicensed money-transmitting business and agreed to pay $297 million in penalties to settle charges in the U.S. [...]]]></description>
+ </item>
+
  <item>
         <title>Backdoor found in two healthcare patient monitors, linked to IP in China</title>
         <link>https://www.bleepingcomputer.com/news/security/backdoor-found-in-two-healthcare-patient-monitors-linked-to-ip-in-china/</link>
@@ -198,20 +214,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/solana-pumpfun-tool-dogwiftool-compromised-to-drain-wallets/</guid>
 	<description><![CDATA[DogWifTools has disclosed on its official Discord channel that its software has been compromised by a supply chain attack that impacted its Windows client, infecting users with malware. [...]]]></description>
- </item>
-
- <item>
-        <title>Laravel admin package Voyager vulnerable to one-click RCE flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/laravel-admin-package-voyager-vulnerable-to-one-click-rce-flaw/</link>
-        <pubDate>Wed, 29 Jan 2025 14:27:19 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/laravel-admin-package-voyager-vulnerable-to-one-click-rce-flaw/</guid>
-	<description><![CDATA[Three vulnerabilities discovered in the open-source PHP package Voyager for managing Laravel applications could be used for remote code execution attacks. [...]]]></description>
  </item>
 
 </channel>
