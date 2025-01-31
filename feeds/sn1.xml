@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Wed, 29 Jan 2025 07:06:09 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 31 Jan 2025 13:24:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,105 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>Phishing on X &#124; High Profile Account Targeting Campaign Returns, Promoting Cryptocurrency Scams</title>
+		<link>https://www.sentinelone.com/labs/phishing-on-x-high-profile-account-targeting-campaign-returns/</link>
+		
+		<dc:creator><![CDATA[Tom Hegel, Jim Walter &amp; Alex Delamotte]]></dc:creator>
+		<pubDate>Fri, 31 Jan 2025 14:55:46 +0000</pubDate>
+				<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[phishing]]></category>
+		<category><![CDATA[Scam]]></category>
+		<category><![CDATA[twitter]]></category>
+		<category><![CDATA[x]]></category>
+		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=113618</guid>
+
+					<description><![CDATA[SentinelLABS has observed an active phishing campaign targeting high-profile X accounts to hijack and exploit them for fraudulent activity.]]></description>
+										<content:encoded><![CDATA[<h2>Executive Summary</h2>
+<ul>
+<li>An active phishing campaign is targeting high-profile X accounts in an attempt to hijack and exploit them for fraudulent activity.</li>
+<li>This campaign has been observed targeting a variety of individual and organization accounts such as U.S. political figures, leading international journalists, an X employee, large technology organizations, cryptocurrency organizations, and owners of valuable, short usernames.</li>
+<li>SentinelLABS’ analysis links this activity to a similar operation from last year that successfully compromised multiple accounts to spread scam content with financial objectives. While the activity detailed here is centered around X/Twitter accounts, this actor is not limited to a single social platform, and can be observed directing attention to other popular services as well, while seemingly pursuing the same financial objectives.</li>
+</ul>
+<p>If you’ve encountered similar suspicious activity, SentinelLABS would love to hear from you — please reach out to the team at <a href="mailto:ThreatTips@sentinelone.com" target="_blank" rel="noopener noreferrer">ThreatTips@sentinelone.com</a>.</p>
+<h2>Account Compromise Process</h2>
+<p>Thanks to tips from targets and collaboration with industry partners, SentinelLABS has observed a variety of phishing lures tied to this campaign over the past few weeks. One example is the classic account login notice. The links in the email received by the target are not legitimate and lead to credential phishing sites. Other observed lures use copyright violation themes. However, SentinelLABS notes that directly phishing users may not be the only access method employed by this attacker.</p>
+<figure id="attachment_113633" aria-describedby="caption-attachment-113633" style="width: 760px" class="wp-caption alignnone"><img fetchpriority="high" decoding="async" class="wp-image-113633 size-full" src="https://www.sentinelone.com/wp-content/uploads/2025/01/new-login-phishing-email.jpg" alt="" width="760" height="1320" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/new-login-phishing-email.jpg 760w, https://www.sentinelone.com/wp-content/uploads/2025/01/new-login-phishing-email-173x300.jpg 173w, https://www.sentinelone.com/wp-content/uploads/2025/01/new-login-phishing-email-590x1024.jpg 590w" sizes="(max-width: 760px) 100vw, 760px" /><figcaption id="caption-attachment-113633" class="wp-caption-text">An X ‘new login’-themed phishing email</figcaption></figure>
+<p>In recent cases, we observed the actor abusing Google&#8217;s &#8220;AMP Cache&#8221; domain <code>cdn.ampproject[.]org</code> to evade email detections and redirect the user to a phishing domain:</p>
+<pre>https://cdn.ampproject[.]org/c/s/x-recoverysupport.com/reset/?username=[X-USERNAME]</pre>
+<p>This ultimately leads the targets to an actor-made phishing website seeking X account credentials:</p>
+<figure id="attachment_113632" aria-describedby="caption-attachment-113632" style="width: 684px" class="wp-caption alignnone"><img decoding="async" class="wp-image-113632 size-full" src="https://www.sentinelone.com/wp-content/uploads/2025/01/x-creds-phishing-page.jpg" alt="" width="684" height="792" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/x-creds-phishing-page.jpg 684w, https://www.sentinelone.com/wp-content/uploads/2025/01/x-creds-phishing-page-259x300.jpg 259w" sizes="(max-width: 684px) 100vw, 684px" /><figcaption id="caption-attachment-113632" class="wp-caption-text">X credential phishing page</figcaption></figure>
+<p>In the copyright infringement lure scenario, the user will first visit an Action Needed page before being prompted to enter credentials:</p>
+<figure id="attachment_113631" aria-describedby="caption-attachment-113631" style="width: 1514px" class="wp-caption alignnone"><img decoding="async" class="size-full wp-image-113631" src="https://www.sentinelone.com/wp-content/uploads/2025/01/x-fake-copyright-infringement.jpg" alt="" width="1514" height="786" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/x-fake-copyright-infringement.jpg 1514w, https://www.sentinelone.com/wp-content/uploads/2025/01/x-fake-copyright-infringement-300x156.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/x-fake-copyright-infringement-1024x532.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/x-fake-copyright-infringement-768x399.jpg 768w" sizes="(max-width: 1514px) 100vw, 1514px" /><figcaption id="caption-attachment-113631" class="wp-caption-text">X fake copyright infringement page</figcaption></figure>
+<p>Once an account is taken over, the attacker swiftly locks out the legitimate owner and begins posting fraudulent cryptocurrency opportunities or links to external sites designed to lure additional targets, often with a crypto theft-related theme. Ultimately, compromising high-profile accounts enables the attacker to reach a broader audience of potential secondary victims, maximizing their financial gains.</p>
+<h2>Widespread Activity</h2>
+<p>In recent activity associated with this campaign, the domain <code>securelogins-x[.]com</code> has been used to deliver emails and <code>x-recoverysupport[.]com</code> to host phishing pages. Our observations indicate a level of informality and flexibility of infrastructure use – meaning any of these domains can be considered email delivery or phishing page hosting.</p>
+<p>An overall collection of recent activity can be observed hosted on <code>84.38.130[.]20</code>, an IP associated with a Belize-based VPS service called Dataclub. The domains themselves have been predominantly registered through Turkish hosting provider Turkticaret.</p>
+<p>Inspecting the DNS history of <code>84.38.130[.]20</code> leads to a variety of interestingly related domains. As shown below, the cluster of activity began in mid-2024 and continues today. While this is only one phishing page hosting IP, it provides a good perspective of the length of this activity and its ability to avoid much attention for over a year.</p>
+<figure id="attachment_113630" aria-describedby="caption-attachment-113630" style="width: 1558px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113630" src="https://www.sentinelone.com/wp-content/uploads/2025/01/validin-infrastructure-analysis.jpg" alt="" width="1558" height="886" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/validin-infrastructure-analysis.jpg 1558w, https://www.sentinelone.com/wp-content/uploads/2025/01/validin-infrastructure-analysis-300x171.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/validin-infrastructure-analysis-1024x582.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/validin-infrastructure-analysis-768x437.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/01/validin-infrastructure-analysis-1536x873.jpg 1536w" sizes="auto, (max-width: 1558px) 100vw, 1558px" /><figcaption id="caption-attachment-113630" class="wp-caption-text">Validin Infrastructure Analysis Timeline</figcaption></figure>
+<p>Our observations suggest that the attacker is highly adaptable, continuously exploring new techniques while maintaining a clear financial motive. The targeting appears constrained, yet opportunistic. Notably, past public reports have attributed related activity to Turkish-speaking actors based on language phishing page source comment language. At this time, we do not attribute this campaign to a specific country or any widely-tracked threat actor.</p>
+<p>Some of the malicious sites and content hosted across <code>84.38.130[.]20</code> are built using the FASTPANEL DIRECT service.</p>
+<figure id="attachment_113629" aria-describedby="caption-attachment-113629" style="width: 1046px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113629" src="https://www.sentinelone.com/wp-content/uploads/2025/01/FASTPANEL-landing-page.jpg" alt="" width="1046" height="836" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/FASTPANEL-landing-page.jpg 1046w, https://www.sentinelone.com/wp-content/uploads/2025/01/FASTPANEL-landing-page-300x240.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/FASTPANEL-landing-page-1024x818.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/FASTPANEL-landing-page-768x614.jpg 768w" sizes="auto, (max-width: 1046px) 100vw, 1046px" /><figcaption id="caption-attachment-113629" class="wp-caption-text">FASTPANEL landing page on buy-tanai[.]com</figcaption></figure>
+<p>FASTPANEL is a website hosting and building service that specializes in rapid building and management of websites. While FASTPANEL is not a malicious service, it is frequently abused by bad actors due to the ease of use, rapid scalability, and relatively low cost. FASTPANEL is routinely utilized by drainer gains and phishing campaigns, and is also included in associated guides and tutorials distributed throughout cybercrime communication channels.</p>
+<figure id="attachment_113628" aria-describedby="caption-attachment-113628" style="width: 1556px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113628" src="https://www.sentinelone.com/wp-content/uploads/2025/01/example-discussion-FASTPANEL.jpg" alt="" width="1556" height="664" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/example-discussion-FASTPANEL.jpg 1556w, https://www.sentinelone.com/wp-content/uploads/2025/01/example-discussion-FASTPANEL-300x128.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/example-discussion-FASTPANEL-1024x437.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/example-discussion-FASTPANEL-768x328.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/01/example-discussion-FASTPANEL-1536x655.jpg 1536w" sizes="auto, (max-width: 1556px) 100vw, 1556px" /><figcaption id="caption-attachment-113628" class="wp-caption-text">Example discussion of FASTPANEL (RU crime forum)</figcaption></figure>
+<p>Of the sites hosted on <code>84.38.130[.]20</code>, the <code>buy-tanai[.]com</code> and <code>emotionai[.]live</code> sites still present the FASTPANEL landing pages as of this writing.</p>
+<h2>Publicly Linkable Activity</h2>
+<h3>Emerging Account Intrusions</h3>
+<p>While we have not yet established a high-confidence link, a recent compromise of a Tor Project account closely mirrors our observations. On January 30, 2025, the official X account for the Tor Project was breached. While it is possible that the same threat actor is responsible, we lack sufficient evidence to confirm the connection as of this writing.</p>
+<figure id="attachment_113627" aria-describedby="caption-attachment-113627" style="width: 1534px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113627" src="https://www.sentinelone.com/wp-content/uploads/2025/01/x-tor-project-potential-comp.jpg" alt="" width="1534" height="1018" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/x-tor-project-potential-comp.jpg 1534w, https://www.sentinelone.com/wp-content/uploads/2025/01/x-tor-project-potential-comp-300x199.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/x-tor-project-potential-comp-1024x680.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/x-tor-project-potential-comp-768x510.jpg 768w" sizes="auto, (max-width: 1534px) 100vw, 1534px" /><figcaption id="caption-attachment-113627" class="wp-caption-text">X post from The Tor Project account on January 30, 2025 advising users of a potential compromise</figcaption></figure>
+<figure id="attachment_113626" aria-describedby="caption-attachment-113626" style="width: 1522px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="wp-image-113626 size-full" src="https://www.sentinelone.com/wp-content/uploads/2025/01/tor-project-account-comp-notice.jpg" alt="" width="1522" height="762" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/tor-project-account-comp-notice.jpg 1522w, https://www.sentinelone.com/wp-content/uploads/2025/01/tor-project-account-comp-notice-300x150.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/tor-project-account-comp-notice-1024x513.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/tor-project-account-comp-notice-768x385.jpg 768w" sizes="auto, (max-width: 1522px) 100vw, 1522px" /><figcaption id="caption-attachment-113626" class="wp-caption-text">Tor Project account compromise notice</figcaption></figure>
+<p>The Decentralized Autonomous Wireless Network (DAWN) was another victim of this type of attack. The threat actor <a href="https://coinpedia.org/news/dawn-internets-x-account-hacked-phishing-scams-target-users-via-telegram/" target="_blank" rel="noopener noreferrer">leveraged</a> the compromised DAWN-related social media accounts to lure victims into entering credentials into phishing pages targeting X and Telegram credentials.</p>
+<figure id="attachment_113625" aria-describedby="caption-attachment-113625" style="width: 1354px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113625" src="https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post.jpg" alt="" width="1354" height="1358" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post.jpg 1354w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post-300x300.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post-1021x1024.jpg 1021w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post-150x150.jpg 150w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post-768x770.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post-50x50.jpg 50w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post-24x24.jpg 24w" sizes="auto, (max-width: 1354px) 100vw, 1354px" /><figcaption id="caption-attachment-113625" class="wp-caption-text">DAWN X Posts</figcaption></figure>
+<p>The compromise of DAWN’s X accounts goes back to mid-January 2025.</p>
+<figure id="attachment_113624" aria-describedby="caption-attachment-113624" style="width: 960px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113624" src="https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-rewards-comp-post.jpg" alt="" width="960" height="1106" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-rewards-comp-post.jpg 960w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-rewards-comp-post-260x300.jpg 260w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-rewards-comp-post-889x1024.jpg 889w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-rewards-comp-post-768x885.jpg 768w" sizes="auto, (max-width: 960px) 100vw, 960px" /><figcaption id="caption-attachment-113624" class="wp-caption-text">January 14, 2025 &#8211; DAWN rewards compromise post</figcaption></figure>
+<h3>Crypto-Themed Project Placeholders</h3>
+<p>In some cases, we’ve observed cryptocurrency themed projects seemingly acting as placeholders for future use, or direct pump-and-dump schemes. In one example, <code>buy-tanai[.]com</code> was <a href="https://pump.fun/coin/G8pMUeoRVVDQu2hJSzxNPBGWtgtt5BjQ9nCT2BmVpump" target="_blank" rel="noopener noreferrer">pitched</a> as such: “<i>$TANA AI. Dawn&#8217;s AI project, Tana is the first AI-powered LP and trading agent, now live on the Solana blockchain.”</i></p>
+<figure id="attachment_113623" aria-describedby="caption-attachment-113623" style="width: 1516px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113623" src="https://www.sentinelone.com/wp-content/uploads/2025/01/tana-ai-pump-fun.jpg" alt="" width="1516" height="338" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/tana-ai-pump-fun.jpg 1516w, https://www.sentinelone.com/wp-content/uploads/2025/01/tana-ai-pump-fun-300x67.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/tana-ai-pump-fun-1024x228.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/tana-ai-pump-fun-768x171.jpg 768w" sizes="auto, (max-width: 1516px) 100vw, 1516px" /><figcaption id="caption-attachment-113623" class="wp-caption-text">Tana AI (TANA) on Pump[.]fun</figcaption></figure>
+<p>The domain<code>buy-tanai[.]com</code> currently displays default FASTPANEL landing pages, suggesting it — along with other similar domains — is being staged for future attacks. Since FASTPANEL-managed sites can be rapidly updated, these domains serve as adaptable templates for phishing campaigns.</p>
+<p>Notably, TANA AI (TANA) was launched by Dawn in mid-January to promote AI-driven trading and liquidity provision in the cryptocurrency market. Despite losing most of its initial value within days, the currency remains actively traded across multiple decentralized exchanges.</p>
+<p>Given the crypto-related nature of these domains, it is likely that threat actors are using them as flexible phishing infrastructure. By keeping them as blank templates, they can quickly modify hosted content to align with ongoing campaigns as needed.</p>
+<h3>Crimeware Relations</h3>
+<p>Several other domains share overlaps in both use and unique infrastructure details, yet they represent a fork from the previously described high-profile social media profile attacks, including:</p>
+<ul>
+<li aria-level="1">dataoptimix[.]com</li>
+<li aria-level="1">gamecodestudios[.]com</li>
+<li aria-level="1">shortwayscooter[.]com</li>
+</ul>
+<p>The domain <code>shortwayscooter[.]com</code> <a href="https://x.com/JAMESWT_MHT/status/1883780543797723223" target="_blank" rel="noopener noreferrer">hosts</a> fake captchas that deliver the DanaBot banking trojan. DataOptimix is branded as a generative AI solution, though there are few details about what the service does.</p>
+<figure id="attachment_113622" aria-describedby="caption-attachment-113622" style="width: 1474px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113622" src="https://www.sentinelone.com/wp-content/uploads/2025/01/dataoptimix.jpg" alt="" width="1474" height="1236" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/dataoptimix.jpg 1474w, https://www.sentinelone.com/wp-content/uploads/2025/01/dataoptimix-300x252.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/dataoptimix-1024x859.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/dataoptimix-768x644.jpg 768w" sizes="auto, (max-width: 1474px) 100vw, 1474px" /><figcaption id="caption-attachment-113622" class="wp-caption-text">DataOptimix</figcaption></figure>
+<h3>Historical Connections</h3>
+<p>In mid-2024, a campaign used related infrastructure in similar phishing messages, including those which <a href="https://www.sportskeeda.com/us/streamers/news-linus-sebastian-responds-linus-tech-tips-official-x-account-got-hacked" target="_blank" rel="noopener noreferrer">compromised the Linus Tech Tips</a> Twitter account along with several other high profile users. At the time, @LinusTech had roughly 1.8million followers, which may represent the highest profile account successfully hijacked and linked to this actor.</p>
+<figure id="attachment_113621" aria-describedby="caption-attachment-113621" style="width: 852px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113621" src="https://www.sentinelone.com/wp-content/uploads/2025/01/linus-tech-tips-compromise.jpg" alt="" width="852" height="1556" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/linus-tech-tips-compromise.jpg 852w, https://www.sentinelone.com/wp-content/uploads/2025/01/linus-tech-tips-compromise-164x300.jpg 164w, https://www.sentinelone.com/wp-content/uploads/2025/01/linus-tech-tips-compromise-561x1024.jpg 561w, https://www.sentinelone.com/wp-content/uploads/2025/01/linus-tech-tips-compromise-768x1403.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/01/linus-tech-tips-compromise-841x1536.jpg 841w" sizes="auto, (max-width: 852px) 100vw, 852px" /><figcaption id="caption-attachment-113621" class="wp-caption-text">Linus Tech Tips Twitter compromise</figcaption></figure>
+<h2>Conclusion</h2>
+<p>The cryptocurrency landscape offers financially-motivated threat actors multiple opportunities for profit and fraud. While marketing for coins and tokens has long been irreverent and meme-driven, recent developments have further blurred the line between legitimate projects and scams. </p>
+<p>A striking example occurred in January 2025, when the X account of the late crypto-enthusiast and antivirus founder John McAfee was reactivated to promote a new coin, <a href="https://cryptoslate.com/john-mcafee-reborn-as-ai-memecoin-and-chatbot-with-27-million-market-cap/" target="_blank" rel="noopener noreferrer">$AIntivirus</a>. The marketing style and brand voice of this purportedly legitimate token closely resemble tactics used in known scam campaigns, highlighting how easily crypto enthusiasts can be misled in an already murky ecosystem.</p>
+<p>To safeguard your X account, we strongly recommend using a unique password, enabling two-factor authentication (2FA), and avoiding credential sharing with third-party services. Be especially cautious of messages containing links to account alerts or security notices. Always verify URLs before clicking, and if a password reset is needed, initiate it directly through the official website or app rather than relying on unsolicited links.</p>
+<p>If you’ve encountered similar suspicious activity, we’d love to hear from you. Contact SentinelLABS at <a href="mailto:ThreatTips@sentinelone.com" target="_blank" rel="noopener noreferrer">ThreatTips@sentinelone.com</a>.</p>
+<h2>Indicators of Compromise</h2>
+<p><b>Domains</b><br />
+violationcenter-x[.]com<br />
+protection-x[.]com<br />
+violationappeal-x[.]com<br />
+infringe-x[.]com<br />
+rewards-dawn[.]com<br />
+buy-tanai[.]com<br />
+dataoptimix[.]com<br />
+gamecodestudios[.]com<br />
+shortwayscooter[.]com<br />
+x-logincheck[.]com<br />
+x-suspiciouslogin[.]com<br />
+x-loginhelp[.]com<br />
+x-accountcenter[.]com<br />
+x-recoveraccount[.]com<br />
+x-passwordrecovery[.]com<br />
+x-changealerts[.]com</p>
+<p><b>SHA-1</b><br />
+e2221e5c58a1a976e59fe1062c6db36d4951b81e &#8211; PHP file containing URL associated with X credential phishing activity</p>
+]]></content:encoded>
+					
+		
+		
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/01/Phishing-on-X-High-Profile-Account-Targeting-Campaign-Returns-Promoting-Cryptocurrency-Scams-2.jpg" length="95469" type="image/jpeg" />	</item>
+		<item>
 		<title>LABScon24 Replay &#124; Follow the Money: Uncovering the Incorporation and the CCP’s Ownership of Chinese Firms Investing in the USA</title>
 		<link>https://www.sentinelone.com/labs/labscon24-replay-follow-the-money-uncovering-the-incorporation-and-the-ccps-ownership-of-chinese-firms-investing-in-the-usa/</link>
 		
@@ -36,7 +135,7 @@
 <p>The research presented by <a href="https://www.labscon.io/speakers/elly-rostoum/" target="_blank" rel="noopener">Elly Rostoum</a> in this LABScon 2024 keynote address tracks the incorporation structures and ownership of the 672 Chinese firms undertaking FDI globally.</p>
 <p>Taking the audience on a journey from how Chinese FDI triggers &#8211; and sometimes fails to trigger &#8211;  American national security concerns to the complex ownership structure of Chinese businesses operating within the U.S., Elly Rostoum reveals how the Chinese government has been able to evade American national security reviews by instrumentalizing investment through 3rd &amp; 4th+ level subsidiaries, private equity, and holding companies.</p>
 <p>While much policy and attention has been focused on the investments of Chinese state-owned enterprises, Elly Rostoum argues that the real threat is “within” and buried in the details: seemingly “American” businesses that are ultimately owned by Chinese investment companies.</p>
-<p><iframe src="https://www.youtube.com/embed/glyHKbaS4Fs" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe loading="lazy" src="https://www.youtube.com/embed/glyHKbaS4Fs" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <h2>About the Author</h2>
 <p><a href="https://www.ellyrostoum.com/" target="_blank" rel="noopener">Elly Rostoum</a> is a former U.S. Intelligence Analyst and National Security Council staffer at the White House. She is the Managing Director of the Alperovitch Institute for Cybersecurity Studies at Johns Hopkins University, where she teaches courses on national security vulnerabilities of critical and emerging technologies, intelligence, public policy, strategic studies, and energy markets; with a regional expertise covering China and the Middle East.</p>
 <h2>About LABScon</h2>
@@ -62,7 +161,7 @@
 <p>In this highly-engaging talk, Martin Wendiggensen details how he set out to study the election and collected tens of thousands of hours of footage from YouTube and television as well as hundreds of thousands of news articles, blog posts, and social media content. This collection was then analyzed with a multi-modal AI pipeline. The results indicated that the small amount of AI-content received no engagement and had no impact.</p>
 <p>Instead, Taiwanese billionaires earning most of their money in China mounted a concerted effort to buy or set up local news outlets in Taiwan in the run-up to the election. Conducting a large-scale analysis of these outlets’ output uncovered interesting results. Their viewership, numbering in the millions, presented slanted narratives aligned with the Beijing-friendly KMT and a new emergent third party. While losing the presidential election, these two parties managed to wrest control of Taiwan’s parliament and are set to have a major impact on the country’s foreign and domestic policies.</p>
 <p>This presentation guides the audience through Chinese and local disinformation efforts in the Taiwanese election, highlighting the main lessons that can be drawn from them to safeguard future elections. Along the way, Martin explains the research methodology and toolbox that leverages open-source AI to fight disinformation.</p>
-<p><iframe src="https://www.youtube.com/embed/d1nlYJW44nc" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe loading="lazy" src="https://www.youtube.com/embed/d1nlYJW44nc" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <h2>About the Author</h2>
 <p>Martin Wendiggensen is a PhD candidate and lecturer at the Alperovitch Institute, focusing on Great Power Competition in Cyberspace, especially competition around AI and state-sponsored information operations. He has conducted research at NATO as well as the University of Mannheim, and applied his knowledge in Artificial Intelligence at his own small startup, which won contracts to monitor electoral environments. Currently, he is conducting research on AI-generated content using Advanced Research Computing at Johns Hopkins SAIS.</p>
 <h2>About LABScon</h2>
@@ -87,7 +186,7 @@
 										<content:encoded><![CDATA[<p>In his Keynote talk at LABScon 24, Max Smeets explores how ransomware operators build a unique relationship between themselves and their victims. In contrast to most other threat actors, ransomware operators rely on and leverage public visibility into their activities. Unlike APTs and other threat actors that prize stealth, ransomware gangs seek to publicize their attacks in order to convince future victims that they are trustworthy enough to deliver on their promises &#8211; providing a decryptor and deleting stolen data &#8211; if paid.</p>
 <p>In &#8216;The Ransomware Trust Paradox&#8217;, Max observes that this notion of trust is not only a prerequisite for ransomware gangs&#8217; profitability but also relies on media and security vendor reporting. Detailing the mechanisms by which ransomware operators establish trust, build brand awareness, and foster a reputation for reliability, this talk is essential viewing for anyone reporting on crimeware activities.</p>
 <p>Max calls for the establishment of a reporting code of ethics for threat intelligence and the media, and a shift in policy to undermine the trust dynamics between threat actors and their victims.</p>
-<p><iframe src="https://www.youtube.com/embed/Ktlz7Xfp-CE&amp;t=4s" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe loading="lazy" src="https://www.youtube.com/embed/Ktlz7Xfp-CE&amp;t=4s" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <h2>About the Author</h2>
 <p>Max Smeets is the author of Ransom War: How Cyber Crime Became a Threat to National Security and No Shortcuts: Why States Struggle to Develop a Military Cyber Force. Max is Co-director of <a href="https://virtual-routes.org/" target="_blank" rel="noopener noreferrer">Virtual Routes</a> and Senior Researcher at ETH Zurich.</p>
 <h2>About LABScon</h2>
@@ -777,239 +876,5 @@ b5d8e690a75f07e7d3e18fcc5b86bfe2362a3300 | ScreenLocker
 		
 		
 		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/11/DPRK-Front-v3-ftr.jpg" length="503118" type="image/jpeg" />	</item>
-		<item>
-		<title>BlueNoroff Hidden Risk &#124; Threat Actor Targets Macs with Fake Crypto News and Novel Persistence</title>
-		<link>https://www.sentinelone.com/labs/bluenoroff-hidden-risk-threat-actor-targets-macs-with-fake-crypto-news-and-novel-persistence/</link>
-		
-		<dc:creator><![CDATA[Raffaele Sabato, Phil Stokes &amp; Tom Hegel]]></dc:creator>
-		<pubDate>Thu, 07 Nov 2024 10:55:47 +0000</pubDate>
-				<category><![CDATA[DPRK]]></category>
-		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=108328</guid>
-
-					<description><![CDATA[SentinelLabs has observed a suspected DPRK threat actor targeting Crypto-related businesses with novel multi-stage malware.]]></description>
-										<content:encoded><![CDATA[<h2>Executive Summary</h2>
-<ul>
-<li aria-level="1">SentinelLabs has observed a suspected DPRK threat actor targeting Crypto-related businesses with novel multi-stage malware.</li>
-<li aria-level="1">We assess with high confidence that the same actor is responsible for earlier attacks attributed to BlueNoroff and the RustDoor/ThiefBucket and RustBucket campaigns.</li>
-<li aria-level="1">SentinelLabs observed the use of a novel persistence mechanism abusing the Zsh configuration file <code>zshenv</code>.</li>
-<li aria-level="1">The campaign, which we dubbed ‘Hidden Risk’, uses emails propagating fake news about cryptocurrency trends to infect targets via a malicious application disguised as a PDF file.</li>
-</ul>
-<h2>Overview</h2>
-<p>Cryptocurrency-related businesses have been targets of North Korean-affiliated threat actors for some time now, with multiple campaigns aiming to steal funds and/or insert backdoor malware into targets. In April 2023, <a href="https://www.jamf.com/blog/bluenoroff-apt-targets-macos-rustbucket-malware/" target="_blank" rel="noopener noreferrer">researchers</a> detailed an APT campaign targeting macOS users with multi-stage malware that culminated in a Rust backdoor capable of downloading and executing further malware on infected devices. ‘RustBucket’, as they labeled it, was attributed with strong confidence to the BlueNoroff APT. In May 2023, ESET researchers discovered a second RustBucket variant targeting macOS users, followed by Elastic’s <a href="https://www.elastic.co/security-labs/DPRK-strikes-using-a-new-variant-of-rustbucket" target="_blank" rel="noopener noreferrer">discovery</a> in July that year of a third variant that included a LaunchAgent for persistence. In November 2023, Elastic also <a href="https://www.elastic.co/security-labs/elastic-catches-dprk-passing-out-kandykorn" target="_blank" rel="noopener noreferrer">reported</a> on another DPRK campaign targeting blockchain engineers of a crypto exchange platform with KandyKorn malware. Further analysis by SentinelLabs was able to <a href="https://www.sentinelone.com/blog/dprk-crypto-theft-macos-rustbucket-droppers-pivot-to-deliver-kandykorn-payloads/" target="_blank" rel="noopener noreferrer">connect</a> the KandyKorn and RustBucket campaigns.</p>
-<p>In early September 2024, the FBI began <a href="https://www.ic3.gov/PSA/2024/PSA240903" target="_blank" rel="noopener noreferrer">warning</a> that North Korea was conducting “highly tailored, difficult-to-detect social engineering campaigns against employees of decentralized finance (&#8220;DeFi&#8221;), cryptocurrency, and similar businesses to deploy malware and steal company cryptocurrency”. Researchers from <a href="https://www.jamf.com/blog/jamf-threat-labs-observes-targeted-attacks-amid-fbi-warnings/" target="_blank" rel="noopener noreferrer">Jamf</a> subsequently followed up on this report a few weeks later detailing an attack attempt that deployed malware masquerading as a Visual Studio updater.</p>
-<p>In October 2024, SentinelLabs observed a phishing attempt on a crypto-related industry that delivered a dropper application and a payload bearing many of the hallmarks of these previous attacks. We believe the campaign likely began as early as July 2024 and uses email and PDF lures with fake news headlines or stories about crypto-related topics. We dubbed this campaign ‘Hidden Risk’ and detail its operation and indicators of compromise below, including the use of a novel persistence mechanism abusing the zshenv configuration file.</p>
-<h2>Infection Vector</h2>
-<p>Initial infection is achieved via phishing email containing a link to a malicious application. The application is disguised as a link to a PDF document relating to a cryptocurrency topic such as “Hidden Risk Behind New Surge of Bitcoin Price”, “Altcoin Season 2.0-The Hidden Gems to Watch” and “New Era for Stablecoins and DeFi, CeFi”.</p>
-<p>The emails hijack the name of a real person in an unrelated industry as a sender and purport to be forwarding a message from a well-known crypto social media influencer. In the case of the ‘Hidden Risk’ pdf, the threat actors copied a <a href="https://ijsra.net/sites/default/files/IJSRA-2024-1296.pdf" target="_blank" rel="noopener noreferrer">genuine research paper</a> entitled ‘Bitcoin ETF: Opportunities and risk’ by an academic associated with the University of Texas and hosted online by the International Journal of Science and Research Archive (IJSRA).</p>
-<figure id="attachment_108341" aria-describedby="caption-attachment-108341" style="width: 1789px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-108341" src="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_4.jpg" alt="The fake PDF displayed to targets (left) and the original source document hosted online (right)" width="1789" height="614" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_4.jpg 1789w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_4-300x103.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_4-1024x351.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_4-768x264.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_4-1536x527.jpg 1536w" sizes="auto, (max-width: 1789px) 100vw, 1789px" /><figcaption id="caption-attachment-108341" class="wp-caption-text">The fake PDF displayed to targets (left) and the original source document hosted online (right)</figcaption></figure>
-<p>Unlike earlier campaigns attributed to BlueNoroff, the Hidden Risk campaign uses an unsophisticated phishing email that does not engage the recipient with contextually-relevant content, such as reference to personal or work-related information.</p>
-<p>Also of note is that the sender domain in our observed incident, <code>kalpadvisory[.]com</code>, has been <a href="https://www.reddit.com/r/IndianStockMarket/comments/1c3rema/incessant_spam_calls_from_kalp_advisory_and_others/" target="_blank" rel="noopener noreferrer">noted</a> for spamming among online communities involved in the Indian stock market.</p>
-<figure id="attachment_108336" aria-describedby="caption-attachment-108336" style="width: 1574px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-108336" src="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_9.jpg" alt="Social media users complain about spam calls from Kalp Advisory" width="1574" height="1024" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_9.jpg 1574w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_9-300x195.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_9-1024x666.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_9-768x500.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_9-1536x999.jpg 1536w" sizes="auto, (max-width: 1574px) 100vw, 1574px" /><figcaption id="caption-attachment-108336" class="wp-caption-text">Social media users complain about spam calls from Kalp Advisory</figcaption></figure>
-<p>The ‘open’ link in the phishing email hides a URL to another domain, <code>delphidigital[.]org</code>. The full URL currently serves a benign form of the Bitcoin ETF document with titles that differ over time. However, at some point, this URL has or does switch to serving the first stage of a malicious application bundle entitled ‘Hidden Risk Behind New Surge of Bitcoin Price.app’ (<code>3f17c5a7d1e7fd138163d8039e614b8a967a56cb</code>).</p>
-<figure id="attachment_108345" aria-describedby="caption-attachment-108345" style="width: 1674px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-108345" src="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_14.jpg" alt="Application icon for the Stage 1 dropper" width="1674" height="650" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_14.jpg 1674w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_14-300x116.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_14-1024x398.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_14-768x298.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_14-1536x596.jpg 1536w" sizes="auto, (max-width: 1674px) 100vw, 1674px" /><figcaption id="caption-attachment-108345" class="wp-caption-text">Application icon for the Stage 1 dropper</figcaption></figure>
-<h2>First Stage | “Bait and Switch” Dropper Application Replaces PDF</h2>
-<p>The first stage is a Mac application written in Swift displaying the same name as the expected PDF, “Hidden Risk Behind New Surge of Bitcoin Price.app”. The application bundle has the bundle identifier <code>Education.LessonOne</code> and contains a universal architecture (i.e., arm64 and x86-64) Mach-O executable named <code>LessonOne</code>.</p>
-<p>The application bundle was signed and notarized on 19 October, 2024 with the Apple Developer ID “Avantis Regtech Private Limited (2S8XHJ7948)”. The signature has since been revoked by Apple.</p>
-<figure id="attachment_108337" aria-describedby="caption-attachment-108337" style="width: 1892px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-108337" src="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_8.jpg" alt="Code signing details for the Hidden Risk Behind New Surge of Bitcoin Price.app" width="1892" height="1004" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_8.jpg 1892w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_8-300x159.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_8-1024x543.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_8-768x408.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_8-1536x815.jpg 1536w" sizes="auto, (max-width: 1892px) 100vw, 1892px" /><figcaption id="caption-attachment-108337" class="wp-caption-text">Code signing details for the Hidden Risk Behind New Surge of Bitcoin Price.app</figcaption></figure>
-<p>On launch, the application downloads the decoy “Hidden Risk” pdf file from a Google Drive share and opens it using the default macOS PDF viewer (typically Preview). Similar TTPs were previously reported by researchers at <a href="https://www.kandji.io/blog/todoswift-disguises-malware-download-behind-bitcoin-pdf" target="_blank" rel="noopener">Kandji</a> in August. The PDF is written into a temporary file before being moved to <code>/Users/Shared</code> using NSFileManager’s <a href="https://developer.apple.com/documentation/foundation/nsfilemanager/1414750-moveitematurl" target="_blank" rel="noopener noreferrer">moveItemAtURL:toURL:error</a> method.</p>
-<p>The malware then downloads and executes a malicious x86-64 binary sourced from <code>matuaner[.]com</code> via a URL hard-coded into the Stage 1 binary. Since by default macOS won’t allow an application to download from an insecure HTTP protocol, the application’s <code>Info.plist</code> specifies this domain in the dictionary for its <a href="https://developer.apple.com/documentation/bundleresources/information_property_list/nsapptransportsecurity/" target="_blank" rel="noopener noreferrer">NSAppTransportSecurity</a> key and sets the <code>NSExceptionAllowsInsecureHTTPLoads</code> value to “true”.</p>
-<figure id="attachment_108348" aria-describedby="caption-attachment-108348" style="width: 1200px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-108348" src="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_11.jpg" alt="The Stage 1’s Info.plist adds the C2 domain as an exception for Apple’s App Transport Security settings" width="1200" height="646" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_11.jpg 1200w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_11-300x162.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_11-1024x551.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_11-768x413.jpg 768w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /><figcaption id="caption-attachment-108348" class="wp-caption-text">The Stage 1’s <em>Info.plist</em> adds the C2 domain as an exception for Apple’s App Transport Security settings</figcaption></figure>
-<p>The <code>Info.plist</code> also indicates that the application was built on a macOS 14.2 Sonoma machine but will run on both Intel and Apple silicon Macs with macOS 12 Monterey or later.</p>
-<h2>Second Stage | ‘growth’ x86-64 Mach-O Backdoor</h2>
-<p>The malicious binary downloaded by the first stage dropper is a single architecture Mach-O x86-64 executable (<code>7e07765bf8ee2d0b2233039623016d6dfb610a6d</code>), meaning that although the parent dropper will execute on both Intel and Apple silicon machines, the Stage 2 will only run on Intel architecture Macs or Apple silicon devices with the <a href="https://www.sentinelone.com/blog/why-your-macos-edr-solution-shouldnt-be-running-under-rosetta-2/" target="_blank" rel="noopener noreferrer">Rosetta emulation framework</a> installed. The binary, written in C++, has the name ‘growth’, weighs in at around 5.1 MB and is not code signed at all (SentinelLabs was able to share the file for researchers <a href="https://www.virustotal.com/gui/file/bd2aa5805b76f272b43a595b3d73e29d0fc4647e15e87950b8f904ea26dcf053/detection" target="_blank" rel="noopener">here</a>).</p>
-<p>The executable contains a number of identifiable functions, which we outline below, with the overall objective being to act as a backdoor to execute remote commands.</p>
-<figure id="attachment_108347" aria-describedby="caption-attachment-108347" style="width: 1638px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-108347" src="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_12.jpg" alt="Some interesting functions in the 'growth' binary" width="1638" height="516" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_12.jpg 1638w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_12-300x95.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_12-1024x323.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_12-768x242.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_12-1536x484.jpg 1536w" sizes="auto, (max-width: 1638px) 100vw, 1638px" /><figcaption id="caption-attachment-108347" class="wp-caption-text">Some interesting functions in the &#8216;growth&#8217; binary</figcaption></figure>
-<p>On execution, the ‘growth’ binary performs the following actions.</p>
-<ol>
-<li aria-level="1">Calls the <code>sym.install_char__char_</code> function to install persistence. We discuss this in the next section.</li>
-<li aria-level="1">Runs several commands to gather environmental information from the host and generate a random UUID of length 16. These commands include <code>sw_vers ProductVersion</code>, <code>sysctl hw.model</code> and <code>sysctl kern.boottime</code>.</li>
-<li aria-level="1">Calculates the current date and time and performs <code>ps aux</code> to list running processes.</li>
-<li aria-level="1">Sends the string “ci”, the random UUID and the gathered host data to a remote server using the <code>DoPost</code> function and awaits the C2 response.</li>
-<li aria-level="1">Uses the <code>ProcessRequest</code> function to parse the response. If the first byte in the response is <b>0x31</b>, it sends the string “cs”, the random UUID and the value <b>-1</b> using <code>DoPost</code> and exits. If the first byte in the response is <b>0x30</b>, it executes the <code>SaveAndExec</code> function, sends the string “cs”, the random UUID and the value <b>0</b> using <code>DoPost</code>. The <code>SaveAndExec</code> function reads the C2 response, parses it, saves it into a random, hidden file at <code>/Users/Shared/.XXXXXX</code>, and executes it.
-<p><figure id="attachment_108346" aria-describedby="caption-attachment-108346" style="width: 1704px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-108346" src="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_13.jpg" alt="The ProcessRequest function parses the C2 response" width="1704" height="608" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_13.jpg 1704w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_13-300x107.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_13-1024x365.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_13-768x274.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_13-1536x548.jpg 1536w" sizes="auto, (max-width: 1704px) 100vw, 1704px" /><figcaption id="caption-attachment-108346" class="wp-caption-text">The <em>ProcessRequest</em> function parses the C2 response</figcaption></figure></li>
-<li aria-level="1">Sleeps for 60 seconds and starts the flow again from step 3.</li>
-</ol>
-<p>The <code>DoPost</code> function is used to make the HTTP Post request to the C2 using <code>libcurl</code>. The first argument is the C2 URL, the second argument is the data sent in the body of the POST request, and the third argument is the data pointer passed to the write callback.</p>
-<figure id="attachment_108340" aria-describedby="caption-attachment-108340" style="width: 1258px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-108340" src="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_5.jpg" alt="The DoPost function constructs and sends the http request" width="1258" height="1035" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_5.jpg 1258w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_5-300x247.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_5-1024x842.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_5-768x632.jpg 768w" sizes="auto, (max-width: 1258px) 100vw, 1258px" /><figcaption id="caption-attachment-108340" class="wp-caption-text">The <em>DoPost</em> function constructs and sends the HTTP request</figcaption></figure>
-<p>We have previously <a href="https://www.sentinelone.com/blog/bluenoroff-how-dprks-macos-rustbucket-seeks-to-evade-analysis-and-detection/" target="_blank" rel="noopener noreferrer">noted</a> that this same User-Agent string, <code>mozilla/4.0 (compatible; msie 8.0; windows nt 5.1; trident/4.0)</code>, appeared in RustBucket malware in 2023. The User-Agent string also uses <code>cur1-agent</code> (using a 1 in place of the l in “curl”) as <a href="https://www.elastic.co/security-labs/DPRK-strikes-using-a-new-variant-of-rustbucket" target="_blank" rel="noopener noreferrer">reported</a> by Elastic, a fairly unique indicator we have not observed elsewhere.</p>
-<p>We also see similarities in the way that earlier malware parsed the response from the C2, essentially comparing one of two values as decision logic between awaiting further response, exiting or reading and writing a remote command to file. The <code>ProcessRequest</code> function used for this purpose was also the name of an <a href="https://www.sentinelone.com/blog/dprk-crypto-theft-macos-rustbucket-droppers-pivot-to-deliver-kandykorn-payloads/" target="_blank" rel="noopener noreferrer">ObjCShellz</a> payload observed in a previous campaign.</p>
-<p>The <code>SaveAndExec</code> function is responsible for executing any commands received from the C2. This function takes two parameters, the payload received and the length of the payload. The function parses the malicious payload and calculates indices related to the presence of the characters “#” and the “:”, receiving data from the C2 in the form <code>0#\0:command</code>.</p>
-<figure id="attachment_108339" aria-describedby="caption-attachment-108339" style="width: 872px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-108339" src="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_6.jpg" alt="SaveAndExec function parses the received script for embedded commands" width="872" height="580" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_6.jpg 872w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_6-300x200.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_6-768x511.jpg 768w" sizes="auto, (max-width: 872px) 100vw, 872px" /><figcaption id="caption-attachment-108339" class="wp-caption-text"><em>SaveAndExec</em> function parses the received script for embedded commands</figcaption></figure>
-<p>Based on the calculated indices, it creates a random file name of length 6 and writes the received command as a hidden file to <code>/Users/Shared/.%s</code>. It then uses <code>chmod 0x777</code> to set the permissions of the file to world read, write and execute, and finally executes it via <code>popen</code>.</p>
-<figure id="attachment_108338" aria-describedby="caption-attachment-108338" style="width: 1064px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-108338" src="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_7.jpg" alt="The SaveAndExec function changes the file’s permissions and then executes it" width="1064" height="720" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_7.jpg 1064w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_7-300x203.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_7-1024x693.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_7-768x520.jpg 768w" sizes="auto, (max-width: 1064px) 100vw, 1064px" /><figcaption id="caption-attachment-108338" class="wp-caption-text">The <em>SaveAndExec</em> function changes the file’s permissions and then executes it</figcaption></figure>
-<h2>Persistence via Zshenv</h2>
-<p>The backdoor’s operation is functionally similar to previous malware attributed to this threat actor, but what makes it especially interesting is the persistence mechanism, which abuses the Zshenv configuration file.</p>
-<p>Zshenv is one of several optional configuration files used by the Zsh shell. At the user level, it sits as a hidden file in the Home directory, <code>~/.zshenv</code>. A system wide version can also be located at <code>/etc/zshenv</code>. If it exists, the file is sourced for all Zsh sessions, including interactive and non-interactive shells, non-login shells and scripts. It is also read before all other Zsh startup files.</p>
-<p>Interestingly, previous malware samples used by the same threat actor have referenced <a href="https://www.jamf.com/blog/jamf-threat-labs-observes-targeted-attacks-amid-fbi-warnings/" target="_blank" rel="noopener noreferrer">zsh_env</a> in their naming convention, but not actually used the mechanism. In an <a href="https://www.jamf.com/blog/jamf-threat-labs-observes-targeted-attacks-amid-fbi-warnings/" target="_blank" rel="noopener noreferrer">earlier campaign</a>, BlueNoroff used the <code>~/.zshrc</code> config file to achieve persistence. However, this is a less reliable form of persistence since the file is only sourced when a user launches an interactive Terminal session or subsession from an existing console.</p>
-<p>Infecting the host with a malicious Zshenv file allows for a more powerful form of persistence. While this technique is not unknown, it is the first time we have observed it used in the wild by malware authors. It has particular value on modern versions of macOS since Apple <a href="https://www.sentinelone.com/blog/apples-macos-ventura-7-new-security-changes-to-be-aware-of/" target="_blank" rel="noopener noreferrer">introduced user notifications</a> for background Login Items as of macOS 13 Ventura. Apple’s notification aims to warn users when a persistence method is installed, particularly oft-abused LaunchAgents and LaunchDaemons. Abusing Zshenv, however, does not trigger such a notification in current versions of macOS.</p>
-<p>In the binary, installation of the persistence mechanism is handled by the <code>sym.install_char__char_</code> function. The mechanism checks for a hidden touch file (zero byte) in the <code>/tmp/</code> folder called <code>.zsh_init_success</code>. If the file does not exist, then the &#8216;growth&#8217; binary is called and the touch file is created.</p>
-<figure id="attachment_108343" aria-describedby="caption-attachment-108343" style="width: 1195px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-108343" src="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_16.jpg" alt="Contents of the malicious ~/.zshenv, executed for every Zsh session" width="1195" height="281" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_16.jpg 1195w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_16-300x71.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_16-1024x241.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_16-768x181.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_16-221x51.jpg 221w" sizes="auto, (max-width: 1195px) 100vw, 1195px" /><figcaption id="caption-attachment-108343" class="wp-caption-text">Contents of the malicious <em>~/.zshenv</em>, executed for every Zsh session</figcaption></figure>
-<h2>Network Infrastructure</h2>
-<p>Analysis of the actor operated and controlled network infrastructure associated with the Hidden Risk campaign further corroborates our confidence in attribution to DPRK’s BlueNoroff threat actor. Additionally, infrastructure analysis provides new insight into an extensive cluster of activity over the last year plus, and provides further links to industry reporting mentioned above, and <a href="https://x.com/500mk500/status/1826552762995187893" target="_blank" rel="noopener noreferrer">others in the community</a>.</p>
-<p>Over recent months, the actor has built a network of connected infrastructure often themed around their cryptocurrency interests, methods of delivering malware lures, and mimicking legitimate Web3, cryptocurrency, fintech, and investment organizations to appear legitimate. NameCheap is the predominant domain registrar being abused. Virtual server hosting services such as Quickpacket, Routerhosting, Hostwinds, and others are the most commonly used based on our observations.</p>
-<p>Various methods of pivoting across network infrastructures and services can be used to connect the Hidden Risk campaign to domains themed around the following organizations, indicating the actors interest in potential targeting and spoofing for targeting on other organizations.</p>
-<div style="overflow-x: auto;">
-<table style="border-collapse: collapse; width: 100%; height: 120px;">
-<tbody>
-<tr style="height: 24px;">
-<td style="width: 50.0%; height: 24px;">Cryptocurrency Technologies</td>
-<td style="width: 50.0%; height: 24px;">Delphi Digital, Solana Labs, Douro Labs, bitsCrunch, Caladan</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 50.0%; height: 24px;">Investment and Capital Entities</td>
-<td style="width: 50.0%; height: 24px;">Maelstrom Fund, Selini Capital, Flori Ventures, ARK Invest, Long Journey Ventures</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 50.0%; height: 24px;">Generic IT/Communication</td>
-<td style="width: 50.0%; height: 24px;">Virtual Meetings (Zoom, generic), Software Updates (macOS, browsers, generic)</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>When examining the infrastructure of the campaign detailed above in infrastructure analysis tools such as Validin, we can identify clear relations between the initial stage 1 delivery domain (<code>matuaner[.]com</code>) and the IPs <code>45.61.135[.]105</code> and <code>172.86.108[.]47</code>. These two IPs, in combination with an overlapping certificate use, link to a variety of domains that open the door to the larger and longer running history of BlueNoroff activity (green lines), and additional lesser confidence infrastructure to explore further (orange dotted lines).</p>
-<figure id="attachment_108344" aria-describedby="caption-attachment-108344" style="width: 1220px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="magnify" src="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_15.jpg" alt="Pivoting from sample delivery to initial set of infrastructure" width="1220" height="1082" /><figcaption id="caption-attachment-108344" class="wp-caption-text">Pivoting from sample delivery to initial set of infrastructure</figcaption></figure>
-<p>Additional valuable pivoting can be achieved by analyzing attributes like DNS TXT records linked to domains that the actor may be using for phishing email delivery. For instance, we’ve observed the actor abusing email marketing automation tools, such as Brevo, where they go so far as to verify domain ownership to <a href="https://help.brevo.com/hc/en-us/articles/12163873383186-Authenticate-your-domain-with-Brevo-Brevo-code-DKIM-record-DMARC-record" target="_blank" rel="noopener noreferrer">meet email authentication standards</a>—an effort to bypass spam and phishing detection filters.</p>
-<figure id="attachment_108349" aria-describedby="caption-attachment-108349" style="width: 1016px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="magnify" src="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_10.jpg" alt="Pivoting initial infrastructure to wider set, though DNS TXT Records" width="1016" height="1048" /><figcaption id="caption-attachment-108349" class="wp-caption-text">Pivoting initial infrastructure to wider set, though DNS TXT Records</figcaption></figure>
-<p>Beyond direct pivoting based on infrastructure and overlapping response data, we also identified additional domains registered using similar methods that reflect previous organization naming themes across various top level domains (TLDs), though these domains have not yet been linked to any known actor activity. For instance, by analyzing bulk domain search datasets, we found related but non-pivotable domains based on &#8220;Selini Capital,&#8221; such as <code>selinicapital[.]network</code>. This approach has proven effective in uncovering additional BlueNoroff domains linked to the Hidden Risk activity cluster.</p>
-<p>Example Regular Expression: <code>/s+e+l+i+n+i+c+a+p+i+t+a+l+\.[a-z0-9-]+/</code></p>
-<figure id="attachment_108350" aria-describedby="caption-attachment-108350" style="width: 1861px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-108350" src="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_1.jpg" alt="Bulk domain scanning, past 180 days, showing registration summary" width="1861" height="1417" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_1.jpg 1861w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_1-300x228.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_1-1024x780.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_1-768x585.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief_1-1536x1170.jpg 1536w" sizes="auto, (max-width: 1861px) 100vw, 1861px" /><figcaption id="caption-attachment-108350" class="wp-caption-text">Bulk domain scanning, past 180 days, showing registration summary</figcaption></figure>
-<p>The extensive collection of BlueNoroff infrastructure we&#8217;ve gathered over the years, recently expanded through the latest Hidden Risk campaign activity, prevents us from detailing every unique pivoting method as this actor continues to evolve. As with all quality threat intelligence, our goal is to aid defenders while carefully managing the exposure of our tracking techniques to the actor. However, we are sharing a broader set of associated infrastructure in the Indicator of Compromise section below.</p>
-<h2>Conclusion</h2>
-<p>Over the last 12 months or so, North Korean cyber actors have engaged in a series of campaigns against crypto-related industries, many of which involved extensive &#8216;grooming&#8217; of targets via social media. We observe that the Hidden Risk campaign diverts from this strategy taking a more traditional and cruder, though not necessarily any less effective, email phishing approach. Despite the bluntness of the initial infection method, other hallmarks of previous DPRK-backed campaigns are evident, both in terms of observed malware artifacts and associated network infrastructure, as discussed extensively throughout this post.</p>
-<p>We might speculate that heightened attention on previous DRPK campaigns could have reduced the effectiveness of previous &#8216;social media grooming&#8217; attempts, perhaps as a result of intended targets in DeFi, ETF and other crypto-related industries becoming more wary, but it is equally likely that such state-backed threat actors have sufficient resources to pursue multiple strategies simultaneously.</p>
-<p>One factor that is relatively consistent throughout many of these campaigns is that the threat actors are seemingly able to acquire or hijack valid Apple &#8216;identified developer&#8217; accounts at will, have their malware notarized by Apple, and bypass macOS Gatekeeper and other built-in Apple security technologies. In light of this and the general increase in macOS crimeware observed across the security industry, we encourage all macOS users, but particularly those in organizational settings, to harden their security and increase their awareness of potential risks.</p>
-<h2>Indicators of Compromise</h2>
-<div style="font-size: 0.8em;">
-<div style="overflow-x: auto;">
-<table style="border-collapse: collapse; width: 100%; height: 120px;">
-<tbody>
-<tr style="height: 24px;">
-<td style="width: 55.0%; height: 24px;"><strong>SHA1</strong></td>
-<td style="width: 15.0%; height: 24px;"><strong>Function</strong></td>
-<td style="width: 15.0%; height: 24px;"><strong>File</strong></td>
-<td style="width: 15.0%; height: 24px;"><strong>Arch</strong></td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 55.0%; height: 24px;">05c178891ca1e65af53bbcfdbec573da3f74d176</td>
-<td style="width: 15.0%; height: 24px;">Dropper</td>
-<td style="width: 15.0%; height: 24px;">Macho</td>
-<td style="width: 15.0%; height: 24px;">arm64</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 55.0%; height: 24px;">3f17c5a7d1e7fd138163d8039e614b8a967a56cb</td>
-<td style="width: 15.0%; height: 24px;">Dropper</td>
-<td style="width: 15.0%; height: 24px;">App</td>
-<td style="width: 15.0%; height: 24px;">Universal</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 55.0%; height: 24px;">7e07765bf8ee2d0b2233039623016d6dfb610a6d</td>
-<td style="width: 15.0%; height: 24px;">Backdoor</td>
-<td style="width: 15.0%; height: 24px;">Macho</td>
-<td style="width: 15.0%; height: 24px;">x86_64</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 55.0%; height: 24px;">baf4da6b89b7d7cbf24c9deef5984ef9dfd52e6a</td>
-<td style="width: 15.0%; height: 24px;">Dropper</td>
-<td style="width: 15.0%; height: 24px;">Macho</td>
-<td style="width: 15.0%; height: 24px;">Universal</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 55.0%; height: 24px;">e5d97afa5f1501b3d5ec1a471dc8a3b8e2a84fdb</td>
-<td style="width: 15.0%; height: 24px;">Dropper</td>
-<td style="width: 15.0%; height: 24px;">Macho</td>
-<td style="width: 15.0%; height: 24px;">x86_64</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><b>IP Addresses</b><br />
-23[.]254.253[.]75<br />
-45[.]61.128[.]122<br />
-45[.]61.135[.]105<br />
-45[.]61.140[.]26<br />
-139[.]99.66[.]103<br />
-144[.]172.74[.]23<br />
-144[.]172.74[.]141<br />
-172[.]86.102[.]98<br />
-172[.]86.108[.]47<br />
-216[.]107.136[.]10</p>
-<p><b>Domains</b><br />
-analysis.arkinvst[.]com<br />
-appleaccess[.]pro<br />
-arkinvst[.]com<br />
-atajerefoods[.]com<br />
-buy2x[.]com<br />
-calendly[.]caladan[.]video<br />
-cardiagnostic[.]net<br />
-cmt[.]ventures<br />
-community.edwardcaputo[.]shop<br />
-community.kevinaraujo[.]shop<br />
-community.selincapital[.]com<br />
-community.selincapital[.]com<br />
-customer-app[.]xyz<br />
-delphidigital[.]org<br />
-doc.solanalab[.]org<br />
-dourolab[.]xyz<br />
-drogueriasanjose[.]net<br />
-edwardcaputo[.]shop<br />
-email.sellinicapital[.]com<br />
-evalaskatours[.]com<br />
-happyz[.]one<br />
-hwsrv-1225327.hostwindsdns[.]com<br />
-info.ankanimatoka[.]com<br />
-info.customer-app[.]xyz<br />
-kevinaraujo[.]shop<br />
-maelstromfund[.]org<br />
-maelstroms[.]fund<br />
-matuaner[.]com<br />
-mbupdate.linkpc[.]net<br />
-mc.tvdhoenn[.]net<br />
-meet.caladan[.]video<br />
-meet.caladangroup[.]xyz<br />
-meet.hananetwork[.]video<br />
-meet.selinicapital[.]info<br />
-meet.selinicapital[.]online<br />
-meet.selinicapital[.]xyz<br />
-meet.sellinicapital[.]com<br />
-meeting.sellinicapital[.]com<br />
-meeting.zoom-client[.]com<br />
-mg21.1056[.]uk<br />
-nodnote.com<br />
-online.selinicapital[.]info<br />
-online.zoom-client[.]com<br />
-panda95sg[.]asia<br />
-pixelmonmmo[.]net<br />
-presentations[.]life<br />
-selincapital[.]com<br />
-selinicapital[.]info<br />
-selinicapital[.]network<br />
-selinicapital[.]online<br />
-sellinicapital[.]com<br />
-sendmailed[.]com<br />
-sendmailer[.]org<br />
-shh5.baranftw[.]xyz<br />
-tvdhoenn[.]net<br />
-verify.selinicapital[.]info<br />
-versionupdate.dns[.]army<br />
-www.buy2x[.]com<br />
-www.delphidigital[.]org<br />
-www.frameworks[.]ventures<br />
-www.happyz[.]one<br />
-www.huspot[.]blog<br />
-www.maelstromfund[.]org<br />
-www.panda95sg[.]asia<br />
-www.prismlab[.]xyz<br />
-www.sellinicapital[.]com<br />
-www.sendmailed[.]com<br />
-www.sendmailer[.]org<br />
-www.yoannturp[.]xyz<br />
-xu10.1056[.]uk<br />
-zoom-client[.]com</p>
-</div>
-]]></content:encoded>
-					
-		
-		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/11/BNThief-feature.jpg" length="376259" type="image/jpeg" />	</item>
 	</channel>
 </rss>
