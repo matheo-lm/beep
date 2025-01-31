@@ -363,6 +363,32 @@
       "categories": [],
       "isoDate": "2024-12-19T19:03:00.000Z",
       "tag": "exploits"
+    },
+    {
+      "creator": "Google Project Zero (noreply@blogger.com)",
+      "title": "Windows Bug Class: Accessing Trapped COM Objects with IDispatch",
+      "link": "https://googleprojectzero.blogspot.com/2025/01/windows-bug-class-accessing-trapped-com.html",
+      "pubDate": "2025-01-30T09:57:00.001-08:00",
+      "dc:creator": "Google Project Zero (noreply@blogger.com)",
+      "content": "Posted by James Forshaw, Google Project Zero\n\nObject orientated remoting technologies such as DCOM and .NET Remoting make it very easy to develop an object-orientated interface to a service which can cross process and security boundaries. T[...]",
+      "contentSnippet": "Posted by James Forshaw, Google Project Zero\n\nObject orientated remoting technologies such as DCOM and .NET Remoting make it very easy to develop an object-orientated interface to a service which can cross process and security boundaries. T[...]",
+      "guid": "https://googleprojectzero.blogspot.com/2025/01/windows-bug-class-accessing-trapped-com.html",
+      "categories": [],
+      "isoDate": "2025-01-30T17:57:00.000Z",
+      "tag": "exploits"
+    },
+    {
+      "creator": "Google Project Zero (noreply@blogger.com)",
+      "title": "Windows Exploitation Tricks: Trapping Virtual Memory Access (2025 Update)",
+      "link": "https://googleprojectzero.blogspot.com/2025/01/windows-exploitation-tricks-trapping.html",
+      "pubDate": "2025-01-30T09:57:00.000-08:00",
+      "dc:creator": "Google Project Zero (noreply@blogger.com)",
+      "content": "Posted by James Forshaw, Google Project Zero\n\nBack in 2021 I wrote a blog post about various ways you can build a virtual memory access trap primitive on Windows. The goal was to cause a reader or writer of a virtual memory address to halt [...]",
+      "contentSnippet": "Posted by James Forshaw, Google Project Zero\n\nBack in 2021 I wrote a blog post about various ways you can build a virtual memory access trap primitive on Windows. The goal was to cause a reader or writer of a virtual memory address to halt [...]",
+      "guid": "https://googleprojectzero.blogspot.com/2025/01/windows-exploitation-tricks-trapping.html",
+      "categories": [],
+      "isoDate": "2025-01-30T17:57:00.000Z",
+      "tag": "exploits"
     }
   ]
 }
