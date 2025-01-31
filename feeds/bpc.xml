@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 31 Jan 2025 05:58:35 EST</pubDate>
+        <pubDate>Fri, 31 Jan 2025 07:02:02 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Police dismantles HeartSender cybercrime marketplace network</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-dismantles-heartsender-cybercrime-marketplace-network/</link>
+        <pubDate>Fri, 31 Jan 2025 06:56:57 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-dismantles-heartsender-cybercrime-marketplace-network/</guid>
+	<description><![CDATA[​Law enforcement authorities in the United States and the Netherlands have seized 39 domains and associated servers used by the HeartSender phishing gang operating out of Pakistan. [...]]]></description>
+ </item>
+
  <item>
         <title>KuCoin to pay nearly $300 million in penalties after guilty plea</title>
         <link>https://www.bleepingcomputer.com/news/cryptocurrency/kucoin-to-pay-nearly-300-million-in-penalties-after-guilty-plea/</link>
@@ -198,22 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-aquabotv3-botnet-malware-targets-mitel-command-injection-flaw/</guid>
 	<description><![CDATA[A new variant of the Mirai-based botnet malware Aquabot has been observed actively exploiting CVE-2024-41710, a command injection vulnerability in Mitel SIP phones. [...]]]></description>
- </item>
-
- <item>
-        <title>Solana Pump.fun tool DogWifTool compromised to drain wallets</title>
-        <link>https://www.bleepingcomputer.com/news/security/solana-pumpfun-tool-dogwiftool-compromised-to-drain-wallets/</link>
-        <pubDate>Wed, 29 Jan 2025 19:33:11 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/solana-pumpfun-tool-dogwiftool-compromised-to-drain-wallets/</guid>
-	<description><![CDATA[DogWifTools has disclosed on its official Discord channel that its software has been compromised by a supply chain attack that impacted its Windows client, infecting users with malware. [...]]]></description>
  </item>
 
 </channel>
