@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 31 Jan 2025 08:02:18 EST</pubDate>
+        <pubDate>Fri, 31 Jan 2025 09:00:47 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US healthcare provider data breach impacts 1 million patients</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-healthcare-provider-data-breach-impacts-1-million-patients/</link>
+        <pubDate>Fri, 31 Jan 2025 08:18:29 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-healthcare-provider-data-breach-impacts-1-million-patients/</guid>
+	<description><![CDATA[Community Health Center (CHC), a leading Connecticut healthcare provider, is notifying over 1 million patients that their personal and health information was stolen in an October breach. [...]]]></description>
+ </item>
+
  <item>
         <title>Police dismantles HeartSender cybercrime marketplace network</title>
         <link>https://www.bleepingcomputer.com/news/security/police-dismantles-heartsender-cybercrime-marketplace-network/</link>
@@ -184,34 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/police-seizes-cracked-and-nulled-hacking-forum-servers-arrests-suspects/</guid>
 	<description><![CDATA[Europol and German law enforcement confirmed the arrest of two suspects and the seizure of 17 servers in Operation Talent, which took down Cracked and Nulled, two of the largest hacking forums with over 10 million users. [...]]]></description>
- </item>
-
- <item>
-        <title>Time Bandit ChatGPT jailbreak bypasses safeguards on sensitive topics</title>
-        <link>https://www.bleepingcomputer.com/news/security/time-bandit-chatgpt-jailbreak-bypasses-safeguards-on-sensitive-topics/</link>
-        <pubDate>Thu, 30 Jan 2025 07:00:00 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/time-bandit-chatgpt-jailbreak-bypasses-safeguards-on-sensitive-topics/</guid>
-	<description><![CDATA[A ChatGPT jailbreak flaw, dubbed "Time Bandit," allows you to bypass OpenAI's safety guidelines when asking for detailed instructions on sensitive topics, including the creation of weapons, information on nuclear topics, and malware creation. [...]]]></description>
- </item>
-
- <item>
-        <title>New Aquabotv3 botnet malware targets Mitel command injection flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-aquabotv3-botnet-malware-targets-mitel-command-injection-flaw/</link>
-        <pubDate>Wed, 29 Jan 2025 19:55:06 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-aquabotv3-botnet-malware-targets-mitel-command-injection-flaw/</guid>
-	<description><![CDATA[A new variant of the Mirai-based botnet malware Aquabot has been observed actively exploiting CVE-2024-41710, a command injection vulnerability in Mitel SIP phones. [...]]]></description>
  </item>
 
 </channel>
