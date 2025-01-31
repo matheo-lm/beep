@@ -11,14 +11,56 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 31 Jan 2025 10:01:01 EST</pubDate>
+        <pubDate>Fri, 31 Jan 2025 11:02:29 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
  <item>
+        <title>Indian tech giant Tata Technologies hit by ransomware attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/indian-tech-giant-tata-technologies-hit-by-ransomware-attack/</link>
+        <pubDate>Fri, 31 Jan 2025 11:02:22 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/indian-tech-giant-tata-technologies-hit-by-ransomware-attack/</guid>
+	<description><![CDATA[Tata Technologies Ltd. had to suspend some of its IT services following a ransomware attack that impacted the company network. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Globe Life data breach may impact an additional 850,000 clients</title>
+        <link>https://www.bleepingcomputer.com/news/security/globe-life-data-breach-may-impact-an-additional-850-000-clients/</link>
+        <pubDate>Fri, 31 Jan 2025 10:24:38 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/globe-life-data-breach-may-impact-an-additional-850-000-clients/</guid>
+	<description><![CDATA[Insurance giant Globe Life finished the investigation into the data breach it suffered last June and says that the incident may have impacted an additional 850,000 customers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Mizuno USA says hackers stayed in its network for two months</title>
+        <link>https://www.bleepingcomputer.com/news/security/mizuno-usa-says-hackers-stayed-in-its-network-for-two-months/</link>
+        <pubDate>Fri, 31 Jan 2025 10:12:06 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/mizuno-usa-says-hackers-stayed-in-its-network-for-two-months/</guid>
+	<description><![CDATA[​Mizuno USA, a subsidiary of Mizuno Corporation, one of the world's largest sporting goods manufacturers, confirmed in data breach notification letters that unknown attackers stole files from its network between August and October 2024. [...]]]></description>
+ </item>
+
+ <item>
         <title>US healthcare provider data breach impacts 1 million patients</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-healthcare-provider-data-breach-impacts-1-million-patients/</link>
+        <link>https://www.bleepingcomputer.com/news/security/data-breach-at-us-healthcare-provider-chc-impacts-1-million-patients/</link>
         <pubDate>Fri, 31 Jan 2025 08:18:29 -0500</pubDate>
         <dc:creator>Sergiu Gatlan</dc:creator>
 
@@ -28,7 +70,7 @@
         <category><![CDATA[Healthcare]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/security/us-healthcare-provider-data-breach-impacts-1-million-patients/</guid>
+        <guid>https://www.bleepingcomputer.com/news/security/data-breach-at-us-healthcare-provider-chc-impacts-1-million-patients/</guid>
 	<description><![CDATA[Community Health Center (CHC), a leading Connecticut healthcare provider, is notifying over 1 million patients that their personal and health information was stolen in an October breach. [...]]]></description>
  </item>
 
@@ -170,36 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-syncjacking-attack-hijacks-devices-using-chrome-extensions/</guid>
 	<description><![CDATA[A new attack called 'Browser Syncjacking' demonstrates the possibility of using a seemingly benign Chrome extension to take over a victim's device through the browser. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft lifts Windows 11 update block for PCs with gaming issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-update-block-for-pcs-with-gaming-issues/</link>
-        <pubDate>Thu, 30 Jan 2025 08:53:40 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Gaming]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-update-block-for-pcs-with-gaming-issues/</guid>
-	<description><![CDATA[Microsoft has removed a safeguard hold that prevented devices with Auto HDR enabled from installing the Windows 11 2024 Update due to gaming issues. [...]]]></description>
- </item>
-
- <item>
-        <title>Police seizes Cracked and Nulled hacking forum servers, arrests suspects</title>
-        <link>https://www.bleepingcomputer.com/news/security/police-seizes-cracked-and-nulled-hacking-forum-servers-arrests-suspects/</link>
-        <pubDate>Thu, 30 Jan 2025 08:47:03 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/police-seizes-cracked-and-nulled-hacking-forum-servers-arrests-suspects/</guid>
-	<description><![CDATA[Europol and German law enforcement confirmed the arrest of two suspects and the seizure of 17 servers in Operation Talent, which took down Cracked and Nulled, two of the largest hacking forums with over 10 million users. [...]]]></description>
  </item>
 
 </channel>
