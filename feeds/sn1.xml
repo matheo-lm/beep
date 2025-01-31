@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Fri, 31 Jan 2025 15:54:11 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 31 Jan 2025 16:50:13 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -95,22 +95,23 @@
 <p>If you’ve encountered similar suspicious activity, we’d love to hear from you. Contact SentinelLABS at <a href="mailto:ThreatTips@sentinelone.com" target="_blank" rel="noopener noreferrer">ThreatTips@sentinelone.com</a>.</p>
 <h2>Indicators of Compromise</h2>
 <p><b>Domains</b><br />
-violationcenter-x[.]com<br />
-protection-x[.]com<br />
-violationappeal-x[.]com<br />
-infringe-x[.]com<br />
-rewards-dawn[.]com<br />
 buy-tanai[.]com<br />
 dataoptimix[.]com<br />
 gamecodestudios[.]com<br />
+infringe-x[.]com<br />
+protection-x[.]com<br />
+rewards-dawn[.]com<br />
+securelogins-x[.]xyz<br />
 shortwayscooter[.]com<br />
-x-logincheck[.]com<br />
-x-suspiciouslogin[.]com<br />
-x-loginhelp[.]com<br />
+violationappeal-x[.]com<br />
+violationcenter-x[.]com<br />
 x-accountcenter[.]com<br />
-x-recoveraccount[.]com<br />
+x-changealerts[.]com<br />
+x-logincheck[.]com<br />
+x-loginhelp[.]com<br />
 x-passwordrecovery[.]com<br />
-x-changealerts[.]com</p>
+x-recoveraccount[.]com<br />
+x-suspiciouslogin[.]com</p>
 <p><b>SHA-1</b><br />
 e2221e5c58a1a976e59fe1062c6db36d4951b81e &#8211; PHP file containing URL associated with X credential phishing activity</p>
 ]]></content:encoded>
