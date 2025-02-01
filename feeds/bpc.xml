@@ -11,11 +11,29 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 01 Feb 2025 11:58:01 EST</pubDate>
+        <pubDate>Sat, 01 Feb 2025 13:00:49 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google says hackers abuse Gemini AI to empower their attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-says-hackers-abuse-gemini-ai-to-empower-their-attacks/</link>
+        <pubDate>Sat, 01 Feb 2025 12:14:35 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-says-hackers-abuse-gemini-ai-to-empower-their-attacks/</guid>
+	<description><![CDATA[Multiple state-sponsored groups are experimenting with the AI-powered Gemini assistant from Google to increase productivity and to conduct research on potential infrastructure for attacks or for reconnaissance on targets. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft improves text contrast for all Windows Chromium browsers</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-improves-text-contrast-for-all-windows-chromium-browsers/</link>
@@ -182,34 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/deepseek-exposes-database-with-over-1-million-chat-records/</guid>
 	<description><![CDATA[DeepSeek, the Chinese AI startup known for its DeepSeek-R1 LLM model, has publicly exposed two databases containing sensitive user and operational information. [...]]]></description>
- </item>
-
- <item>
-        <title>The Advantages of Cloud-Based Remote Desktop versus RDP over VPN</title>
-        <link>https://www.bleepingcomputer.com/news/security/the-advantages-of-cloud-based-remote-desktop-versus-rdp-over-vpn/</link>
-        <pubDate>Thu, 30 Jan 2025 10:11:19 -0500</pubDate>
-        <dc:creator>Sponsored by TruGrid</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/the-advantages-of-cloud-based-remote-desktop-versus-rdp-over-vpn/</guid>
-	<description><![CDATA[Remote work is now an essential part of many businesses, requiring organizations to rethink how they provide secure and efficient access to corporate resources. Learn from TruGrid about the advantages of cloud-based RDP versus RDP over VPN, especially in the context of security, performance, and cost-effectiveness. [...]]]></description>
- </item>
-
- <item>
-        <title>Major GitHub outage affects pull requests and other services</title>
-        <link>https://www.bleepingcomputer.com/news/technology/major-github-outage-affects-pull-requests-and-other-services/</link>
-        <pubDate>Thu, 30 Jan 2025 10:06:05 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/technology/major-github-outage-affects-pull-requests-and-other-services/</guid>
-	<description><![CDATA[​GitHub is mitigating an ongoing incident causing problems with multiple services, including performing pull requests, creating or viewing issues, and even viewing repositories and commits. [...]]]></description>
  </item>
 
 </channel>
