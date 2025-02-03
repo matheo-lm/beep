@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 03 Feb 2025 06:00:29 EST</pubDate>
+        <pubDate>Mon, 03 Feb 2025 07:01:34 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>PyPI adds project archiving system to stop malicious updates</title>
+        <link>https://www.bleepingcomputer.com/news/security/pypi-adds-project-archiving-system-to-stop-malicious-updates/</link>
+        <pubDate>Sun, 02 Feb 2025 10:32:59 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/pypi-adds-project-archiving-system-to-stop-malicious-updates/</guid>
+	<description><![CDATA[The Python Package Index (PyPI) has announced the introduction of 'Project Archival,' a new system that allows publishers to archive their projects, indicating to the users that no updates are to be expected. [...]]]></description>
+ </item>
+
  <item>
         <title>Google says hackers abuse Gemini AI to empower their attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/google-says-hackers-abuse-gemini-ai-to-empower-their-attacks/</link>
@@ -168,38 +182,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-blocked-236-million-risky-android-apps-from-play-store-in-2024/</guid>
 	<description><![CDATA[Google blocked 2.3 million Android app submissions to the Play Store in 2024 due to violations of its policies that made them potentially risky for users. [...]]]></description>
- </item>
-
- <item>
-        <title>Ransomware attack disrupts New York blood donation giant</title>
-        <link>https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-new-york-blood-donation-giant/</link>
-        <pubDate>Thu, 30 Jan 2025 12:53:13 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-new-york-blood-donation-giant/</guid>
-	<description><![CDATA[​The New York Blood Center (NYBC), one of the world's largest independent blood collection and distribution organizations, says a Sunday ransomware attack forced it to reschedule some appointments. [...]]]></description>
- </item>
-
- <item>
-        <title>DeepSeek exposes database with over 1 million chat records</title>
-        <link>https://www.bleepingcomputer.com/news/security/deepseek-exposes-database-with-over-1-million-chat-records/</link>
-        <pubDate>Thu, 30 Jan 2025 11:16:02 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/deepseek-exposes-database-with-over-1-million-chat-records/</guid>
-	<description><![CDATA[DeepSeek, the Chinese AI startup known for its DeepSeek-R1 LLM model, has publicly exposed two databases containing sensitive user and operational information. [...]]]></description>
  </item>
 
 </channel>
