@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 03 Feb 2025 11:02:47 EST</pubDate>
+        <pubDate>Mon, 03 Feb 2025 11:58:35 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>DeepSeek AI tools impersonated by infostealer malware on PyPI</title>
+        <link>https://www.bleepingcomputer.com/news/security/deepseek-ai-tools-impersonated-by-infostealer-malware-on-pypi/</link>
+        <pubDate>Mon, 03 Feb 2025 11:33:23 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/deepseek-ai-tools-impersonated-by-infostealer-malware-on-pypi/</guid>
+	<description><![CDATA[Threat actors are taking advantage of the rise in popularity of the DeepSeek to promote two malicious infostealer packages on the Python Package Index (PyPI), where they impersonated developer tools for the AI platform. [...]]]></description>
+ </item>
+
  <item>
         <title>PyPI adds project archiving system to stop malicious updates</title>
         <link>https://www.bleepingcomputer.com/news/security/pypi-adds-project-archiving-system-to-stop-malicious-updates/</link>
@@ -164,24 +180,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/backdoor-found-in-two-healthcare-patient-monitors-linked-to-ip-in-china/</guid>
 	<description><![CDATA[The US Cybersecurity and Infrastructure Security Agency (CISA) is warning that Contec CMS8000 devices, a widely used healthcare patient monitoring device, include a backdoor that quietly sends patient data to a remote IP address and downloads and executes files on the device. [...]]]></description>
- </item>
-
- <item>
-        <title>Google blocked 2.36 million risky Android apps from Play Store in 2024</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-blocked-236-million-risky-android-apps-from-play-store-in-2024/</link>
-        <pubDate>Thu, 30 Jan 2025 15:57:47 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-blocked-236-million-risky-android-apps-from-play-store-in-2024/</guid>
-	<description><![CDATA[Google blocked 2.3 million Android app submissions to the Play Store in 2024 due to violations of its policies that made them potentially risky for users. [...]]]></description>
  </item>
 
 </channel>
