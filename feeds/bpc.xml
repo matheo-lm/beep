@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 04 Feb 2025 16:01:32 EST</pubDate>
+        <pubDate>Tue, 04 Feb 2025 16:58:21 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Zyxel won’t patch newly exploited flaws in end-of-life routers</title>
+        <link>https://www.bleepingcomputer.com/news/security/zyxel-wont-patch-newly-exploited-flaws-in-end-of-life-routers/</link>
+        <pubDate>Tue, 04 Feb 2025 16:22:52 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/zyxel-wont-patch-newly-exploited-flaws-in-end-of-life-routers/</guid>
+	<description><![CDATA[Zyxel has issued a security advisory about actively exploited flaws in CPE Series devices, warning that it has no plans to issue fixing patches and urging users to move to actively supported models. [...]]]></description>
+ </item>
+
  <item>
         <title>Google Play, Apple App Store apps caught stealing crypto wallets</title>
         <link>https://www.bleepingcomputer.com/news/mobile/google-play-apple-app-store-apps-caught-stealing-crypto-wallets/</link>
@@ -202,22 +218,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/casio-uk-online-store-hacked-to-steal-customer-credit-cards/</guid>
 	<description><![CDATA[Casio UK's e-shop at casio.co.uk was hacked to include malicious scripts that stole credit card and customer information between January 14 and 24, 2025. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft kills off Defender 'Privacy Protection' VPN feature</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-kills-off-defender-privacy-protection-vpn-feature/</link>
-        <pubDate>Mon, 03 Feb 2025 12:27:36 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-kills-off-defender-privacy-protection-vpn-feature/</guid>
-	<description><![CDATA[Microsoft announced it is killing off its Privacy Protection VPN feature in the Microsoft Defender app at the end of the month to focus on other features. [...]]]></description>
  </item>
 
 </channel>
