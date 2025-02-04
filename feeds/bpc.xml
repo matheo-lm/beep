@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 04 Feb 2025 09:02:07 EST</pubDate>
+        <pubDate>Tue, 04 Feb 2025 09:58:20 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>7-Zip MotW bypass exploited in zero-day attacks against Ukraine</title>
+        <link>https://www.bleepingcomputer.com/news/security/7-zip-motw-bypass-exploited-in-zero-day-attacks-against-ukraine/</link>
+        <pubDate>Tue, 04 Feb 2025 09:43:07 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/7-zip-motw-bypass-exploited-in-zero-day-attacks-against-ukraine/</guid>
+	<description><![CDATA[A 7-Zip vulnerability allowing attackers to bypass the Mark of the Web (MotW) Windows security feature was exploited by Russian hackers as a zero-day since September 2024. [...]]]></description>
+ </item>
+
  <item>
         <title>GrubHub data breach impacts customers, drivers, and merchants</title>
         <link>https://www.bleepingcomputer.com/news/security/grubhub-data-breach-impacts-customers-drivers-and-merchants/</link>
@@ -166,34 +180,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-says-hackers-abuse-gemini-ai-to-empower-their-attacks/</guid>
 	<description><![CDATA[Multiple state-sponsored groups are experimenting with the AI-powered Gemini assistant from Google to increase productivity and to conduct research on potential infrastructure for attacks or for reconnaissance on targets. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft improves text contrast for all Windows Chromium browsers</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-improves-text-contrast-for-all-windows-chromium-browsers/</link>
-        <pubDate>Fri, 31 Jan 2025 12:36:00 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-improves-text-contrast-for-all-windows-chromium-browsers/</guid>
-	<description><![CDATA[​Microsoft says it improved the contrast of text rendered in all Chromium-based web browsers on Windows, making it more readable on some displays. [...]]]></description>
- </item>
-
- <item>
-        <title>Indian tech giant Tata Technologies hit by ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/indian-tech-giant-tata-technologies-hit-by-ransomware-attack/</link>
-        <pubDate>Fri, 31 Jan 2025 11:02:22 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/indian-tech-giant-tata-technologies-hit-by-ransomware-attack/</guid>
-	<description><![CDATA[Tata Technologies Ltd. had to suspend some of its IT services following a ransomware attack that impacted the company network. [...]]]></description>
  </item>
 
 </channel>
