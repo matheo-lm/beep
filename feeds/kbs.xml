@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 04 Feb 2025 17:44:08 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 04 Feb 2025 18:04:53 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -60,7 +60,7 @@
 <p>The Cracked forum administrator went by the nicknames &#8220;<strong>FlorainN</strong>&#8221; and &#8220;<strong>StarkRDP</strong>&#8221; on multiple cybercrime forums. Meanwhile, a <a href="https://www.linkedin.com/in/florian-m-095a0183/" target="_blank" rel="noopener">LinkedIn profile</a> for a <strong>Florian M</strong>. from Germany refers to this person as the co-founder of Sellix and founder of 1337 Services GmbH.</p>
 <p>Northdata&#8217;s business profile for 1337 Services GmbH shows the company is controlled by two individuals: 32-year-old <strong>Florian Marzahl</strong> and <strong>Finn Alexander Grimpe</strong>, 28.</p>
 <div id="attachment_70281" style="width: 759px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-70281" decoding="async" loading="lazy" class="wp-image-70281" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH.png" alt="" width="749" height="312" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH.png 2234w, https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH-768x320.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH-1536x639.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH-2048x853.png 2048w, https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH-782x326.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></a><p id="caption-attachment-70281" class="wp-caption-text">An organization chart showing the owners of 1337 Services GmbH as Florian Marzahl and Finn Grimpe. Image: Northdata.com.</p></div>
-<p>Neither Marzahl nor Grimpe responded to requests for comment. But Grimpe&#8217;s first name is interesting because it corresponds to the nickname chosen by the founder of Nulled, who goes by the moniker &#8220;<strong>Finn</strong>&#8221; and &#8220;<a href="https://github.com/finndev" target="_blank" rel="noopener">Finndev</a>.&#8221; NorthData reveals that Grimpe was the founder of a German entity called <strong>DreamDrive GmbH</strong>, which rented out <a href="https://web.archive.org/web/20210627121102/https://dreamdrive-rent.de/" target="_blank" rel="noopener">high-end sports cars and motorcycles</a>.</p>
+<p>Neither Marzahl nor Grimpe responded to requests for comment. But Grimpe&#8217;s first name is interesting because it corresponds to the nickname chosen by the founder of Nulled, who goes by the monikers &#8220;<a href="https://web.archive.org/web/20150224213016/http://www.finn.lu/" target="_blank" rel="noopener">Finn</a>&#8221; and &#8220;<a href="https://github.com/finndev" target="_blank" rel="noopener">Finndev</a>.&#8221; NorthData reveals that Grimpe was the founder of a German entity called <strong>DreamDrive GmbH</strong>, which rented out <a href="https://web.archive.org/web/20210627121102/https://dreamdrive-rent.de/" target="_blank" rel="noopener">high-end sports cars and motorcycles</a>.</p>
 <p>According to the cyber intelligence firm <a href="https://www.intel471.com" target="_blank" rel="noopener">Intel 471</a>, a user named Finndev registered on multiple cybercrime forums, including <strong>Raidforums</strong> [<a href="https://krebsonsecurity.com/2022/04/raidforums-get-raided-alleged-admin-arrested/" target="_blank" rel="noopener">seized by the FBI in 2022</a>], <strong>Void[.]to</strong>, and <strong>vDOS</strong>, a DDoS-for-hire service that was <a href="https://krebsonsecurity.com/2016/09/alleged-vdos-proprietors-arrested-in-israel/" target="_blank" rel="noopener">shut down in 2016 after its founders were arrested</a>.</p>
 <p>The email address used for those accounts was <strong>f.grimpe@gmail.com</strong>. <a href="https://www.domaintools.com" target="_blank" rel="noopener">DomainTools.com</a> reports f.grimpe@gmail.com was used to register at least nine domain names, including <strong>nulled[.]lol</strong> and <strong>nulled[.]it</strong>. Neither of these domains were among those seized in Operation Talent.</p>
 <p>Intel471 finds the user FlorainN registered across multiple cybercrime forums using the email address <strong>olivia.messla@outlook.de</strong>. The breach tracking service <a href="https://www.constella.ai" target="_blank" rel="noopener">Constella Intelligence</a> says this email address used the same password (and slight variations of it) across many accounts online &#8212; including at hacker forums &#8212; and that the same password was used in connection with dozens of other email addresses, such as <strong>florianmarzahl@hotmail.de, </strong>and <strong>fmarzahl137@gmail.com</strong>.<span id="more-70279"></span></p>
@@ -651,8 +651,8 @@
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 259/259 objects using memcached
-Page Caching using memcached 
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-02-04 12:47:12 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-02-04 14:00:13 by W3 Total Cache
 -->
