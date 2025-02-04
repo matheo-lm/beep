@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 04 Feb 2025 12:03:10 EST</pubDate>
+        <pubDate>Tue, 04 Feb 2025 12:59:57 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Chinese cyberspies use new SSH backdoor in network device hacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/chinese-cyberspies-use-new-ssh-backdoor-in-network-device-hacks/</link>
+        <pubDate>Tue, 04 Feb 2025 12:39:40 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/chinese-cyberspies-use-new-ssh-backdoor-in-network-device-hacks/</guid>
+	<description><![CDATA[A Chinese hacking group is hijacking the SSH daemon on network appliances by injecting malware into the process for persistent access and covert operations. [...]]]></description>
+ </item>
+
  <item>
         <title>Netgear warns users to patch critical WiFi router vulnerabilities</title>
         <link>https://www.bleepingcomputer.com/news/security/netgear-warns-users-to-patch-critical-wifi-router-vulnerabilities/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/deepseek-ai-tools-impersonated-by-infostealer-malware-on-pypi/</guid>
 	<description><![CDATA[Threat actors are taking advantage of the rise in popularity of the DeepSeek to promote two malicious infostealer packages on the Python Package Index (PyPI), where they impersonated developer tools for the AI platform. [...]]]></description>
- </item>
-
- <item>
-        <title>PyPI adds project archiving system to stop malicious updates</title>
-        <link>https://www.bleepingcomputer.com/news/security/pypi-adds-project-archiving-system-to-stop-malicious-updates/</link>
-        <pubDate>Sun, 02 Feb 2025 10:32:59 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/pypi-adds-project-archiving-system-to-stop-malicious-updates/</guid>
-	<description><![CDATA[The Python Package Index (PyPI) has announced the introduction of 'Project Archival,' a new system that allows publishers to archive their projects, indicating to the users that no updates are to be expected. [...]]]></description>
  </item>
 
 </channel>

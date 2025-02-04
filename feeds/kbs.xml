@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Fri, 31 Jan 2025 19:25:45 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 04 Feb 2025 17:44:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,65 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Who&#8217;s Behind the Seized Forums &#8216;Cracked&#8217; &#038; &#8216;Nulled&#8217;?</title>
+		<link>https://krebsonsecurity.com/2025/02/whos-behind-the-seized-forums-cracked-nulled/</link>
+					<comments>https://krebsonsecurity.com/2025/02/whos-behind-the-seized-forums-cracked-nulled/#comments</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Tue, 04 Feb 2025 17:09:16 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Breadcrumbs]]></category>
+		<category><![CDATA[1337 Services Gmbh]]></category>
+		<category><![CDATA[AS210558]]></category>
+		<category><![CDATA[Constella Intelligence]]></category>
+		<category><![CDATA[Cracked]]></category>
+		<category><![CDATA[domaintools]]></category>
+		<category><![CDATA[DreamDrive GmbH]]></category>
+		<category><![CDATA[Finn Alexander Grimpe]]></category>
+		<category><![CDATA[finn@shoppy.gg]]></category>
+		<category><![CDATA[finndev]]></category>
+		<category><![CDATA[floriaN]]></category>
+		<category><![CDATA[Florian Marzahl]]></category>
+		<category><![CDATA[HRB 164175]]></category>
+		<category><![CDATA[Intel 471]]></category>
+		<category><![CDATA[Lucas Sohn]]></category>
+		<category><![CDATA[Northdata.com]]></category>
+		<category><![CDATA[Nulled]]></category>
+		<category><![CDATA[olivia.messla@outlook.de]]></category>
+		<category><![CDATA[Operation Talent]]></category>
+		<category><![CDATA[Sellix]]></category>
+		<category><![CDATA[Shoppy Ecommerce Ltd]]></category>
+		<category><![CDATA[StarkRDP]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70279</guid>
+
+					<description><![CDATA[The FBI joined authorities across Europe last week in seizing domain names for Cracked and Nulled, English-language cybercrime forums with millions of users that trafficked in stolen data, hacking tools and malware. An investigation into the history of these communities shows their apparent co-founders quite openly operate an Internet service provider and a pair of e-commerce platforms catering to buyers and sellers on both forums.]]></description>
+										<content:encoded><![CDATA[<p>The <strong>FBI</strong> joined authorities across Europe last week in seizing domain names for <strong>Cracked</strong> and <strong>Nulled</strong>, English-language cybercrime forums with millions of users that trafficked in stolen data, hacking tools and malware. An investigation into the history of these communities shows their apparent co-founders quite openly operate an Internet service provider and a pair of e-commerce platforms catering to buyers and sellers on both forums.</p>
+<div id="attachment_70283" style="width: 755px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70283" decoding="async" class=" wp-image-70283" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/cracked-to.png" alt="" width="745" height="774" /><p id="caption-attachment-70283" class="wp-caption-text">In this 2019 post from Cracked, a forum moderator told the author of the post (Buddie) that the owner of the RDP service was the founder of Nulled, a.k.a. &#8220;Finndev.&#8221; Image: Ke-la.com.</p></div>
+<p>On Jan. 30, the <strong>U.S. Department of Justice</strong> <a href="https://www.justice.gov/opa/pr/cracked-and-nulled-marketplaces-disrupted-international-cyber-operation" target="_blank" rel="noopener">said</a> it seized eight domain names that were used to operate Cracked, a cybercrime forum that sprang up in 2018 and attracted more than four million users. The DOJ said the law enforcement action, dubbed <a href="https://www.europol.europa.eu/media-press/newsroom/news/law-enforcement-takes-down-two-largest-cybercrime-forums-in-world" target="_blank" rel="noopener">Operation Talent</a>, also seized domains tied to <strong>Sellix</strong>, Cracked&#8217;s payment processor.</p>
+<p>In addition, the government seized the domain names for two popular anonymity services that were heavily advertised on Cracked and Nulled and allowed customers to rent virtual servers: <a href="https://web.archive.org/web/20210924052821/https://starkrdp.io/imprint.php" target="_blank" rel="noopener">StarkRDP[.]io</a>, and <a href="https://web.archive.org/web/20210306133432/https://rdp.sh/imprint" target="_blank" rel="noopener">rdp[.]sh</a>.</p>
+<p>Those archived webpages show both RDP services were owned by an entity called <strong>1337 Services Gmbh</strong>. According to <a href="https://www.northdata.com/1337%20Services%20GmbH,%20Hamburg/HRB%20164175" target="_blank" rel="noopener">corporate records</a> compiled by <strong>Northdata.com</strong>, 1337 Services GmbH is also known as <a href="https://web.archive.org/web/20211215172634/https://as210558.net/" target="_blank" rel="noopener"><strong>AS210558</strong></a> and is incorporated in Hamburg, Germany.</p>
+<p>The Cracked forum administrator went by the nicknames &#8220;<strong>FlorainN</strong>&#8221; and &#8220;<strong>StarkRDP</strong>&#8221; on multiple cybercrime forums. Meanwhile, a <a href="https://www.linkedin.com/in/florian-m-095a0183/" target="_blank" rel="noopener">LinkedIn profile</a> for a <strong>Florian M</strong>. from Germany refers to this person as the co-founder of Sellix and founder of 1337 Services GmbH.</p>
+<p>Northdata&#8217;s business profile for 1337 Services GmbH shows the company is controlled by two individuals: 32-year-old <strong>Florian Marzahl</strong> and <strong>Finn Alexander Grimpe</strong>, 28.</p>
+<div id="attachment_70281" style="width: 759px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-70281" decoding="async" loading="lazy" class="wp-image-70281" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH.png" alt="" width="749" height="312" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH.png 2234w, https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH-768x320.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH-1536x639.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH-2048x853.png 2048w, https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH-782x326.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></a><p id="caption-attachment-70281" class="wp-caption-text">An organization chart showing the owners of 1337 Services GmbH as Florian Marzahl and Finn Grimpe. Image: Northdata.com.</p></div>
+<p>Neither Marzahl nor Grimpe responded to requests for comment. But Grimpe&#8217;s first name is interesting because it corresponds to the nickname chosen by the founder of Nulled, who goes by the moniker &#8220;<strong>Finn</strong>&#8221; and &#8220;<a href="https://github.com/finndev" target="_blank" rel="noopener">Finndev</a>.&#8221; NorthData reveals that Grimpe was the founder of a German entity called <strong>DreamDrive GmbH</strong>, which rented out <a href="https://web.archive.org/web/20210627121102/https://dreamdrive-rent.de/" target="_blank" rel="noopener">high-end sports cars and motorcycles</a>.</p>
+<p>According to the cyber intelligence firm <a href="https://www.intel471.com" target="_blank" rel="noopener">Intel 471</a>, a user named Finndev registered on multiple cybercrime forums, including <strong>Raidforums</strong> [<a href="https://krebsonsecurity.com/2022/04/raidforums-get-raided-alleged-admin-arrested/" target="_blank" rel="noopener">seized by the FBI in 2022</a>], <strong>Void[.]to</strong>, and <strong>vDOS</strong>, a DDoS-for-hire service that was <a href="https://krebsonsecurity.com/2016/09/alleged-vdos-proprietors-arrested-in-israel/" target="_blank" rel="noopener">shut down in 2016 after its founders were arrested</a>.</p>
+<p>The email address used for those accounts was <strong>f.grimpe@gmail.com</strong>. <a href="https://www.domaintools.com" target="_blank" rel="noopener">DomainTools.com</a> reports f.grimpe@gmail.com was used to register at least nine domain names, including <strong>nulled[.]lol</strong> and <strong>nulled[.]it</strong>. Neither of these domains were among those seized in Operation Talent.</p>
+<p>Intel471 finds the user FlorainN registered across multiple cybercrime forums using the email address <strong>olivia.messla@outlook.de</strong>. The breach tracking service <a href="https://www.constella.ai" target="_blank" rel="noopener">Constella Intelligence</a> says this email address used the same password (and slight variations of it) across many accounts online &#8212; including at hacker forums &#8212; and that the same password was used in connection with dozens of other email addresses, such as <strong>florianmarzahl@hotmail.de, </strong>and <strong>fmarzahl137@gmail.com</strong>.<span id="more-70279"></span></p>
+<p>The Justice Department said the Nulled marketplace had more than five million members, and has been selling stolen login credentials, stolen identification documents and hacking services, as well as tools for carrying out cybercrime and fraud, since 2016.</p>
+<p>Perhaps fittingly, both Cracked and Nulled have been hacked over the years, exposing countless private messages between forum users. A review of those messages archived by Intel 471 showed that dozens of early forum members referred privately to Finndev as the owner of <strong>shoppy[.]gg</strong>, an e-commerce platform that caters to the same clientele as Sellix.</p>
+<p>Shoppy was not targeted as part of Operation Talent, and its website remains online. Northdata <a href="https://www.northdata.com/Shoppy%20Ecommerce%20Ltd%C2%B7,%20Gan-Ner/ICA-515912517" target="_blank" rel="noopener">reports</a> that Shoppy&#8217;s business name &#8212; <strong>Shoppy Ecommerce Ltd.</strong> &#8212; is registered at an address in Gan-Ner, Israel, but there is no ownership information about this entity. Shoppy did not respond to requests for comment.</p>
+<p>Constella found that a user named Shoppy registered on Cracked in 2019 using the email address <strong>finn@shoppy[.]gg</strong>. Constella says that email address is tied to <a href="https://x.com/shoppyecommerce" target="_blank" rel="noopener">a Twitter/X account</a> for Shoppy Ecommerce in Israel.</p>
+<p>The DOJ said one of the alleged administrators of Nulled, a 29-year-old Argentinian national named <strong>Lucas Sohn</strong>, was arrested in Spain. The government has not announced any other arrests or charges associated with Operation Talent.</p>
+<p>Indeed, both StarkRDP and FloraiN have posted to their accounts on <strong>Telegram</strong> that there were no charges levied against the proprietors of 1337 Services GmbH. FlorainN told former customers they were in the process of moving to a new name and domain for StarkRDP, where existing accounts and balances would be transferred.</p>
+<p>&#8220;StarkRDP has always been operating by the law and is not involved in any of these alleged crimes and the legal process will confirm this,&#8221; the StarkRDP Telegram account wrote on January 30. &#8220;All of your servers are safe and they have not been collected in this operation. The only things that were seized is the website server and our domain. Unfortunately, no one can tell who took it and with whom we can talk about it. Therefore, we will restart operation soon, under a different name, to close the chapter [of] &#8216;StarkRDP.'&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/02/whos-behind-the-seized-forums-cracked-nulled/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>FBI, Dutch Police Disrupt &#8216;Manipulaters&#8217; Phishing Gang</title>
 		<link>https://krebsonsecurity.com/2025/01/fbi-dutch-police-disrupt-manipulaters-phishing-gang/</link>
 					<comments>https://krebsonsecurity.com/2025/01/fbi-dutch-police-disrupt-manipulaters-phishing-gang/#comments</comments>
@@ -49,7 +108,7 @@
 
 					<description><![CDATA[The FBI and authorities in The Netherlands this week seized a number of servers and domains for a hugely popular spam and malware dissemination service operating out of Pakistan. The proprietors of the service, who use the collective nickname "The Manipulaters," have been the subject of three stories published here since 2015. The FBI said the main clientele are organized crime groups that try to trick victim companies into making payments to a third party.]]></description>
 										<content:encoded><![CDATA[<p>The FBI and authorities in The Netherlands this week seized dozens of servers and domains for a hugely popular spam and malware dissemination service operating out of Pakistan. The proprietors of the service, who use the collective nickname &#8220;<strong>The Manipulaters</strong>,&#8221; have been the subject of three stories published here since 2015. The FBI said the main clientele are organized crime groups that try to trick victim companies into making payments to a third party.</p>
-<div id="attachment_56857" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-56857" decoding="async" class=" wp-image-56857" src="https://krebsonsecurity.com/wp-content/uploads/2021/09/ftexploit.png" alt="" width="749" height="530" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/09/ftexploit.png 1208w, https://krebsonsecurity.com/wp-content/uploads/2021/09/ftexploit-768x544.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/09/ftexploit-782x553.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/09/ftexploit-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-56857" class="wp-caption-text">One of several current Fudtools sites run by the principals of The Manipulators.</p></div>
+<div id="attachment_56857" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-56857" decoding="async" loading="lazy" class=" wp-image-56857" src="https://krebsonsecurity.com/wp-content/uploads/2021/09/ftexploit.png" alt="" width="749" height="530" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/09/ftexploit.png 1208w, https://krebsonsecurity.com/wp-content/uploads/2021/09/ftexploit-768x544.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/09/ftexploit-782x553.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/09/ftexploit-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-56857" class="wp-caption-text">One of several current Fudtools sites run by the principals of The Manipulators.</p></div>
 <p>On January 29, the FBI and the Dutch national police seized the technical infrastructure for a cybercrime service marketed under the brands <strong>Heartsender</strong>, <strong>Fudpage</strong> and <strong>Fudtools</strong> (and many other &#8220;fud&#8221; variations). The &#8220;fud&#8221; bit stands for &#8220;Fully Un-Detectable,&#8221; and it refers to cybercrime resources that will evade detection by security tools like antivirus software or anti-spam appliances.</p>
 <p>The Dutch authorities <a href="https://www.politie.nl/nieuws/2025/januari/27/09-verstoringsactie-deelt-klap-uit-aan-crimineel-cybernetwerk-heartsender.html" target="_blank" rel="noopener">said</a> 39 servers and domains abroad were seized, and that the servers contained millions of records from victims worldwide &#8212; including at least 100,000 records pertaining to Dutch citizens.</p>
 <p>A <a href="https://www.justice.gov/usao-sdtx/pr/cybercrime-websites-selling-hacking-tools-transnational-organized-crime-groups-seized" target="_blank" rel="noopener">statement</a> from the <strong>U.S. Department of Justice</strong> refers to the cybercrime group as <strong>Saim Raza</strong>, after a pseudonym The Manipulaters communally used to promote their spam, malware and phishing services on social media.</p>
@@ -585,83 +644,15 @@
 		
 		
 			</item>
-		<item>
-		<title>Web Hacking Service &#8216;Araneida&#8217; Tied to Turkish IT Firm</title>
-		<link>https://krebsonsecurity.com/2024/12/web-hacking-service-araneida-tied-to-turkish-it-firm/</link>
-					<comments>https://krebsonsecurity.com/2024/12/web-hacking-service-araneida-tied-to-turkish-it-firm/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Thu, 19 Dec 2024 17:07:30 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Breadcrumbs]]></category>
-		<category><![CDATA[Ne'er-Do-Well News]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[Acunetix]]></category>
-		<category><![CDATA[Altug Sara]]></category>
-		<category><![CDATA[altugsara321@gmail.com]]></category>
-		<category><![CDATA[Araneida Scanner]]></category>
-		<category><![CDATA[Bilitro Yazilim]]></category>
-		<category><![CDATA[domaintools]]></category>
-		<category><![CDATA[Fin7]]></category>
-		<category><![CDATA[Invicti Security]]></category>
-		<category><![CDATA[Matt Sciberras]]></category>
-		<category><![CDATA[Neil Roseman]]></category>
-		<category><![CDATA[ori0nbusiness@protonmail.com]]></category>
-		<category><![CDATA[Silent Push]]></category>
-		<category><![CDATA[U.S. Department of Health and Human Services]]></category>
-		<category><![CDATA[Zach Edwards]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69811</guid>
-
-					<description><![CDATA[Cybercriminals are selling hundreds of thousands of credential sets stolen with the help of a cracked version of Acunetix, a powerful commercial web app vulnerability scanner, new research finds. The cracked software is being resold as a cloud-based attack tool by at least two different services, one of which KrebsOnSecurity traced to an information technology firm based in Turkey.]]></description>
-										<content:encoded><![CDATA[<p>Cybercriminals are selling hundreds of thousands of credential sets stolen with the help of a cracked version of <strong>Acunetix</strong>, a powerful commercial web app vulnerability scanner, new research finds. The cracked software is being resold as a cloud-based attack tool by at least two different services, one of which KrebsOnSecurity traced to an information technology firm based in Turkey.</p>
-<div id="attachment_69895" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69895" decoding="async" loading="lazy" class=" wp-image-69895" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/araneida-scanner.png" alt="" width="749" height="562" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/12/araneida-scanner.png 1126w, https://krebsonsecurity.com/wp-content/uploads/2024/12/araneida-scanner-768x576.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/12/araneida-scanner-782x587.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-69895" class="wp-caption-text">Araneida Scanner.</p></div>
-<p>Cyber threat analysts at <strong>Silent Push</strong> said they recently received reports from a partner organization that identified an aggressive scanning effort against their website using an Internet address previously associated with a campaign by <a href="https://resources.prodaft.com/fin7-cybercrime-gang" target="_blank" rel="noopener">FIN7</a>, a notorious Russia-based hacking group.</p>
-<p>But on closer inspection they discovered the address contained an HTML title of &#8220;<strong>Araneida Customer Panel</strong>,&#8221; and found they could search on that text string to find dozens of unique addresses hosting the same service.</p>
-<p>It soon became apparent that Araneida was being resold as a cloud-based service using a cracked version of Acunetix, allowing paying customers to conduct offensive reconnaissance on potential target websites, scrape user data, and find vulnerabilities for exploitation.</p>
-<p>Silent Push also learned Araneida bundles its service with a robust proxy offering, so that customer scans appear to come from Internet addresses that are randomly selected from a large pool of available traffic relays.</p>
-<p>The makers of Acunetix, Texas-based application security vendor <strong>Invicti Security</strong>, confirmed Silent Push&#8217;s findings, saying someone had figured out how to crack the free trial version of the software so that it runs without a valid license key.</p>
-<p>&#8220;We have been playing cat and mouse for a while with these guys,&#8221; said <strong>Matt Sciberras</strong>, chief information security officer at Invicti.</p>
-<p>Silent Push said Araneida is being advertised by an eponymous user on multiple cybercrime forums. The service&#8217;s Telegram channel boasts nearly 500 subscribers and explains how to use the tool for malicious purposes.</p>
-<p>In a &#8220;Fun Facts&#8221; list posted to the channel in late September, Araneida said their service was used to take over more than 30,000 websites in just six months, and that one customer used it to buy a Porsche with the payment card data (&#8220;dumps&#8221;) they sold.</p>
-<div id="attachment_69898" style="width: 668px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69898" decoding="async" loading="lazy" class=" wp-image-69898" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/araneida-tg.png" alt="" width="658" height="273" /><p id="caption-attachment-69898" class="wp-caption-text">Araneida Scanner&#8217;s Telegram channel bragging about how customers are using the service for cybercrime.</p></div>
-<p>“They are constantly bragging with their community about the crimes that are being committed, how it’s making criminals money,” said <strong>Zach Edwards</strong>, a senior threat researcher at Silent Push. “They are also selling bulk data and dumps which appear to have been acquired with this tool or due to vulnerabilities found with the tool.”</p>
-<p>Silent Push also found a cracked version of Acunetix was powering at least 20 instances of a similar cloud-based vulnerability testing service catering to Mandarin speakers, but they were unable to find any apparently related sales threads about them on the dark web.</p>
-<p>Rumors of a cracked version of Acunetix being used by attackers surfaced <a href="https://x.com/FalconFeedsio/status/1665690661377691649" target="_blank" rel="noopener">in June 2023 on Twitter/X</a>, when researchers <a href="https://x.com/TLP_R3D/status/1665777020767293447" target="_blank" rel="noopener">first posited a connection between observed scanning activity and Araneida</a>.</p>
-<p>According to <a href="https://www.hhs.gov/sites/default/files/china-based-threat-actor-profiles-tlpclear.pdf" target="_blank" rel="noopener">an August 2023 report</a> (PDF) from the <strong>U.S. Department of Health and Human Services</strong> (HHS), Acunetix (presumably a cracked version) is among several tools used by <a href="https://krebsonsecurity.com/2020/09/chinese-antivirus-firm-was-part-of-apt41-supply-chain-attack/" target="_blank" rel="noopener">APT 41</a>, a prolific Chinese state-sponsored hacking group.<span id="more-69811"></span></p>
-<h2>THE TURKISH CONNECTION</h2>
-<p>Silent Push notes that the website where Araneida is being sold &#8212; <strong>araneida[.]co</strong> &#8212; first came online in February 2023. But a review of this Araneida nickname on the cybercrime forums shows they have been active in the criminal hacking scene since at least 2018.</p>
-<p>A search in the threat intelligence platform <a href="https://www.intel471.com" target="_blank" rel="noopener">Intel 471</a> shows a user by the name Araneida promoted the scanner on two cybercrime forums since 2022, including <strong>Breached</strong> and <strong>Nulled</strong>. In 2022, Araneida told fellow Breached members they could be reached on Discord at the username &#8220;<strong>Ornie#9811</strong>.&#8221;</p>
-<p>According to Intel 471, this same Discord account was advertised in 2019 by a person on the cybercrime forum <strong>Cracked</strong> who used the monikers &#8220;<strong>ORN</strong>&#8221; and &#8220;<strong>ori0n</strong>.&#8221; The user &#8220;ori0n&#8221; mentioned in several posts that they could be reached on Telegram at the username &#8220;<strong>@sirorny</strong>.&#8221;</p>
-<div id="attachment_69912" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69912" decoding="async" loading="lazy" class=" wp-image-69912" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/orn-araneida.png" alt="" width="749" height="411" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/12/orn-araneida.png 1002w, https://krebsonsecurity.com/wp-content/uploads/2024/12/orn-araneida-768x422.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/12/orn-araneida-782x429.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-69912" class="wp-caption-text">Orn advertising Araneida Scanner in Feb. 2023 on the forum Cracked. Image: Ke-la.com.</p></div>
-<p>The Sirorny Telegram identity also was referenced as a point of contact for a current user on the cybercrime forum Nulled who is selling website development services, and who references araneida[.]co as one of their projects. That user, &#8220;<strong>Exorn</strong>,&#8221; has posts dating back to August 2018.</p>
-<p>In early 2020, Exorn promoted a website called &#8220;<strong>orndorks[.]com</strong>,&#8221; which they described as a service for automating the scanning for web-based vulnerabilities. A passive DNS lookup on this domain at <a href="https://www.domaintools.com" target="_blank" rel="noopener">DomainTools.com</a> shows that its email records pointed to the address <strong>ori0nbusiness@protonmail.com</strong>.</p>
-<p><a href="https://www.constella.ai" target="_blank" rel="noopener">Constella Intelligence</a>, a company that tracks information exposed in data breaches, finds this email address was used to register an account at <strong>Breachforums</strong> in July 2024 under the nickname &#8220;<strong>Ornie</strong>.&#8221; Constella also finds the same email registered at the website netguard[.]codes in 2021 using the password &#8220;<strong>ceza2003</strong>&#8221; [full disclosure: Constella is currently an advertiser on KrebsOnSecurity].</p>
-<p>A search on the password ceza2003 in Constella finds roughly a dozen email addresses that used it in an exposed data breach, most of them featuring some variation on the name &#8220;<strong>altugsara</strong>,&#8221; including <strong>altugsara321@gmail.com</strong>. Constella further finds altugsara321@gmail.com was used to create an account at the cybercrime community <strong>RaidForums</strong> under the username &#8220;<strong>ori0n</strong>,&#8221; from an Internet address in Istanbul.</p>
-<p>According to DomainTools, altugsara321@gmail.com was used in 2020 to register the domain name <strong>altugsara[.]com</strong>. <a href="https://web.archive.org/web/20211125114845/http://altugsara.com/" target="_blank" rel="noopener">Archive.org&#8217;s history for that domain</a> shows that in 2021 it featured a website for a then 18-year-old <strong>Altuğ Şara</strong> from Ankara, Turkey.</p>
-<div id="attachment_69893" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69893" decoding="async" loading="lazy" class="size-full wp-image-69893" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/altugsaradotcom.png" alt="" width="749" height="345" /><p id="caption-attachment-69893" class="wp-caption-text">Archive.org&#8217;s recollection of what altugsara dot com looked like in 2021.</p></div>
-<p><strong>LinkedIn</strong> finds this same <strong>altugsara[.]com</strong> domain listed in the &#8220;contact info&#8221; section of <a href="https://www.linkedin.com/in/altu%C4%9F-%C5%9Fara-58957b212/" target="_blank" rel="noopener">a profile</a> for an <strong>Altug Sara</strong> from Ankara, who says he has worked the past two years as a senior software developer for a Turkish IT firm called <strong>Bilitro Yazilim</strong>.</p>
-<p>Neither Altug Sara nor Bilitro Yazilim responded to requests for comment.</p>
-<p>Invicti&#8217;s website states that it has offices in Ankara, but the company&#8217;s CEO said none of their employees recognized either name.</p>
-<p>&#8220;We do have a small team in Ankara, but as far as I know we have no connection to the individual other than the fact that they are also in Ankara,&#8221; Invicti CEO <strong>Neil Roseman</strong> told KrebsOnSecurity.</p>
-<p>Researchers at Silent Push say despite Araneida using a seemingly endless supply of proxies to mask the true location of its users, it is a fairly &#8220;noisy&#8221; scanner that will kick off a large volume of requests to various API endpoints, and make requests to random URLs associated with different content management systems.</p>
-<p>What&#8217;s more, the cracked version of Acunetix being resold to cybercriminals invokes legacy Acunetix SSL certificates on active control panels, which Silent Push says provides a solid pivot for finding some of this infrastructure, particularly from the Chinese threat actors.</p>
-<p>Further reading: <a href="https://www.silentpush.com/blog/araneida-scanner-acunetix" target="_blank" rel="noopener">Silent Push&#8217;s research on Araneida Scanner</a>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2024/12/web-hacking-service-araneida-tied-to-turkish-it-firm/feed/</wfw:commentRss>
-			<slash:comments>11</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 257/257 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Object Caching 259/259 objects using memcached
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-02-04 11:56:04 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-02-04 12:47:12 by W3 Total Cache
 -->
