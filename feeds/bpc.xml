@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 05 Feb 2025 14:02:11 EST</pubDate>
+        <pubDate>Wed, 05 Feb 2025 15:02:48 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA orders agencies to patch Linux kernel bug exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-orders-agencies-to-patch-linux-kernel-bug-exploited-in-attacks/</link>
+        <pubDate>Wed, 05 Feb 2025 13:58:29 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-orders-agencies-to-patch-linux-kernel-bug-exploited-in-attacks/</guid>
+	<description><![CDATA[​CISA has ordered federal agencies to secure their systems within three weeks against a high-severity Linux kernel flaw actively exploited in attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers spoof Microsoft ADFS login pages to steal credentials</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-spoof-microsoft-adfs-login-pages-to-steal-credentials/</link>
@@ -188,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/how-hackers-target-your-active-directory-with-breached-vpn-passwords/</guid>
 	<description><![CDATA[As the gateways to corporate networks, VPNs are an attractive target for attackers. Learn from Specops Software about how hackers use compromised VPN passwords and how you can protect your organization. [...]]]></description>
- </item>
-
- <item>
-        <title>7-Zip MotW bypass exploited in zero-day attacks against Ukraine</title>
-        <link>https://www.bleepingcomputer.com/news/security/7-zip-motw-bypass-exploited-in-zero-day-attacks-against-ukraine/</link>
-        <pubDate>Tue, 04 Feb 2025 09:43:07 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/7-zip-motw-bypass-exploited-in-zero-day-attacks-against-ukraine/</guid>
-	<description><![CDATA[A 7-Zip vulnerability allowing attackers to bypass the Mark of the Web (MotW) Windows security feature was exploited by Russian hackers as a zero-day since September 2024. [...]]]></description>
  </item>
 
 </channel>
