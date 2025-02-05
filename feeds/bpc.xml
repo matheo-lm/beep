@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 05 Feb 2025 13:03:38 EST</pubDate>
+        <pubDate>Wed, 05 Feb 2025 14:02:11 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers spoof Microsoft ADFS login pages to steal credentials</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-spoof-microsoft-adfs-login-pages-to-steal-credentials/</link>
+        <pubDate>Wed, 05 Feb 2025 13:41:27 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-spoof-microsoft-adfs-login-pages-to-steal-credentials/</guid>
+	<description><![CDATA[A help desk phishing campaign targets an organization's Microsoft Active Directory Federation Services (ADFS) using spoofed login pages to steal credentials and bypass multi-factor authentication (MFA) protections. [...]]]></description>
+ </item>
+
+ <item>
+        <title>AMD fixes bug that lets hackers load malicious microcode patches</title>
+        <link>https://www.bleepingcomputer.com/news/security/amd-fixes-bug-that-lets-hackers-load-malicious-microcode-patches/</link>
+        <pubDate>Wed, 05 Feb 2025 13:30:05 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/amd-fixes-bug-that-lets-hackers-load-malicious-microcode-patches/</guid>
+	<description><![CDATA[​AMD has released mitigation and firmware updates to address a high-severity vulnerability that can be exploited to load malicious CPU microcode on unpatched devices. [...]]]></description>
+ </item>
+
  <item>
         <title>CISA tags Microsoft .NET and Apache OFBiz bugs as exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/cisa-tags-microsoft-net-and-apache-ofbiz-bugs-as-exploited-in-attacks/</link>
@@ -174,34 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/7-zip-motw-bypass-exploited-in-zero-day-attacks-against-ukraine/</guid>
 	<description><![CDATA[A 7-Zip vulnerability allowing attackers to bypass the Mark of the Web (MotW) Windows security feature was exploited by Russian hackers as a zero-day since September 2024. [...]]]></description>
- </item>
-
- <item>
-        <title>GrubHub data breach impacts customers, drivers, and merchants</title>
-        <link>https://www.bleepingcomputer.com/news/security/grubhub-data-breach-impacts-customers-drivers-and-merchants/</link>
-        <pubDate>Tue, 04 Feb 2025 04:24:46 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/grubhub-data-breach-impacts-customers-drivers-and-merchants/</guid>
-	<description><![CDATA[​Food delivery company GrubHub disclosed a data breach impacting the personal information of an undisclosed number of customers, merchants, and drivers after attackers breached its systems using a service provider account. [...]]]></description>
- </item>
-
- <item>
-        <title>First Apple-notarized porn app available to iPhone users in Europe</title>
-        <link>https://www.bleepingcomputer.com/news/apple/first-apple-notarized-porn-app-available-to-iphone-users-in-europe/</link>
-        <pubDate>Mon, 03 Feb 2025 19:11:02 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Apple]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/apple/first-apple-notarized-porn-app-available-to-iphone-users-in-europe/</guid>
-	<description><![CDATA[The first Apple-notarized porn app, "Hot Tub," is now available to iPhone users in Europe through the alternative app marketplace, AltStore PAL. [...]]]></description>
  </item>
 
 </channel>
