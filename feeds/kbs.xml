@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Tue, 04 Feb 2025 18:04:53 +0000</lastBuildDate>
@@ -324,7 +324,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/01/mastercard-dns-error-went-unnoticed-for-years/feed/</wfw:commentRss>
-			<slash:comments>105</slash:comments>
+			<slash:comments>106</slash:comments>
 		
 		
 			</item>
@@ -651,8 +651,8 @@
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 259/259 objects using memcached
-Page Caching using memcached 
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-02-04 20:49:08 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-02-04 22:55:53 by W3 Total Cache
 -->
