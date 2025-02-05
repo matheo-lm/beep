@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 05 Feb 2025 16:00:06 EST</pubDate>
+        <pubDate>Wed, 05 Feb 2025 17:01:41 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Robocallers posing as FCC fraud prevention team call FCC staff</title>
+        <link>https://www.bleepingcomputer.com/news/security/robocallers-posing-as-fcc-fraud-prevention-team-call-fcc-staff/</link>
+        <pubDate>Wed, 05 Feb 2025 16:26:23 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/robocallers-posing-as-fcc-fraud-prevention-team-call-fcc-staff/</guid>
+	<description><![CDATA[The FCC has proposed a $4,492,500 fine against VoIP service provider Telnyx for allegedly allowing customers to make robocalls posing as fictitious FCC "Fraud Prevention Team," by failing to comply with Know Your Customer (KYC) rules. However, Telnyx says the FCC is mistaken and denies the accusations. [...]]]></description>
+ </item>
+
  <item>
         <title>Ransomware payments fell by 35% in 2024, totalling $813,550,000</title>
         <link>https://www.bleepingcomputer.com/news/security/ransomware-payments-fell-by-35-percent-in-2024-totalling-813-550-000/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/netgear-warns-users-to-patch-critical-wifi-router-vulnerabilities/</guid>
 	<description><![CDATA[Netgear has fixed two critical remote code execution and authentication bypass vulnerabilities affecting multiple WiFi routers and warned customers to update their devices to the latest firmware as soon as possible. [...]]]></description>
- </item>
-
- <item>
-        <title>California man steals $50 million using fake investment sites, gets 7 years</title>
-        <link>https://www.bleepingcomputer.com/news/security/california-man-steals-50-million-using-fake-investment-sites-gets-7-years/</link>
-        <pubDate>Tue, 04 Feb 2025 10:05:36 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/california-man-steals-50-million-using-fake-investment-sites-gets-7-years/</guid>
-	<description><![CDATA[A 59-year-old man from Irvine, California, was sentenced to 87 months in prison for his involvement in an investor fraud ring that stole $50 million between 2012 and October 2020. [...]]]></description>
  </item>
 
 </channel>
