@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 05 Feb 2025 10:03:18 EST</pubDate>
+        <pubDate>Wed, 05 Feb 2025 11:03:16 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Spain arrests suspected hacker of US and Spanish military agencies</title>
+        <link>https://www.bleepingcomputer.com/news/legal/spain-arrests-suspected-hacker-of-us-and-spanish-military-agencies/</link>
+        <pubDate>Wed, 05 Feb 2025 10:37:41 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Legal]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/legal/spain-arrests-suspected-hacker-of-us-and-spanish-military-agencies/</guid>
+	<description><![CDATA[The Spanish police have arrested a suspected hacker in Alicante for allegedly conducting 40 cyberattacks targeting critical public and private organizations, including the Guardia Civil, the Ministry of Defense, NATO, the US Army, and various universities. [...]]]></description>
+ </item>
+
+ <item>
+        <title>How attackers abuse S3 Bucket Namesquatting — And How to Stop Them</title>
+        <link>https://www.bleepingcomputer.com/news/security/how-attackers-abuse-s3-bucket-namesquatting-and-how-to-stop-them/</link>
+        <pubDate>Wed, 05 Feb 2025 10:00:10 -0500</pubDate>
+        <dc:creator>Sponsored by Varonis</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/how-attackers-abuse-s3-bucket-namesquatting-and-how-to-stop-them/</guid>
+	<description><![CDATA[AWS S3 bucket names are global with predictable names that can be exploited in "S3 bucket namesquatting" attacks to access or hijack S3 buckets. In this article, Varonis explains how these attacks work and how you can prevent them. [...]]]></description>
+ </item>
+
  <item>
         <title>Zyxel won’t patch newly exploited flaws in end-of-life routers</title>
         <link>https://www.bleepingcomputer.com/news/security/zyxel-wont-patch-newly-exploited-flaws-in-end-of-life-routers/</link>
@@ -172,38 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/amazon-redshift-gets-new-default-settings-to-prevent-data-breaches/</guid>
 	<description><![CDATA[Amazon has announced key security enhancements for Redshift, a popular data warehousing solution, to help prevent data exposures due to misconfigurations and insecure default settings. [...]]]></description>
- </item>
-
- <item>
-        <title>Google fixes Android kernel zero-day exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-fixes-android-kernel-zero-day-exploited-in-attacks/</link>
-        <pubDate>Mon, 03 Feb 2025 15:10:22 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-fixes-android-kernel-zero-day-exploited-in-attacks/</guid>
-	<description><![CDATA[The February 2025 Android security updates patch 48 vulnerabilities, including a zero-day kernel vulnerability that has been exploited in the wild. [...]]]></description>
- </item>
-
- <item>
-        <title>Canadian charged with stealing $65 million using DeFI crypto exploits</title>
-        <link>https://www.bleepingcomputer.com/news/security/canadian-charged-with-stealing-65-million-using-defi-crypto-exploits/</link>
-        <pubDate>Mon, 03 Feb 2025 14:20:29 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/canadian-charged-with-stealing-65-million-using-defi-crypto-exploits/</guid>
-	<description><![CDATA[The U.S. Justice Department has charged a Canadian man with stealing roughly $65 million after exploiting two decentralized finance (DeFI) protocols. [...]]]></description>
  </item>
 
 </channel>
