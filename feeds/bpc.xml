@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 06 Feb 2025 11:00:41 EST</pubDate>
+        <pubDate>Thu, 06 Feb 2025 12:00:30 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Critical Cisco ISE bug can let attackers run commands as root</title>
+        <link>https://www.bleepingcomputer.com/news/security/critical-cisco-ise-bug-can-let-attackers-run-commands-as-root/</link>
+        <pubDate>Thu, 06 Feb 2025 11:40:19 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critical-cisco-ise-bug-can-let-attackers-run-commands-as-root/</guid>
+	<description><![CDATA[Cisco has fixed two critical Identity Services Engine (ISE) vulnerabilities that can let attackers with read-only admin privileges bypass authorization and run commands as root. [...]]]></description>
+ </item>
+
+ <item>
+        <title>DDoS attacks reportedly behind DayZ and Arma network outages</title>
+        <link>https://www.bleepingcomputer.com/news/security/ddos-attacks-reportedly-behind-dayz-and-arma-network-outages/</link>
+        <pubDate>Thu, 06 Feb 2025 11:09:19 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Gaming]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ddos-attacks-reportedly-behind-dayz-and-arma-network-outages/</guid>
+	<description><![CDATA[An ongoing distributed denial of service (DDoS) attack targets Bohemia Interactive's infrastructure, preventing players of DayZ and Arma Reforger from playing the games online. [...]]]></description>
+ </item>
+
  <item>
         <title>British engineering firm IMI discloses breach, shares no details</title>
         <link>https://www.bleepingcomputer.com/news/security/british-engineering-firm-imi-discloses-breach-shares-no-details/</link>
@@ -162,38 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/how-attackers-abuse-s3-bucket-namesquatting-and-how-to-stop-them/</guid>
 	<description><![CDATA[AWS S3 bucket names are global with predictable names that can be exploited in "S3 bucket namesquatting" attacks to access or hijack S3 buckets. In this article, Varonis explains how these attacks work and how you can prevent them. [...]]]></description>
- </item>
-
- <item>
-        <title>Zyxel won’t patch newly exploited flaws in end-of-life routers</title>
-        <link>https://www.bleepingcomputer.com/news/security/zyxel-wont-patch-newly-exploited-flaws-in-end-of-life-routers/</link>
-        <pubDate>Tue, 04 Feb 2025 16:22:52 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Hardware]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/zyxel-wont-patch-newly-exploited-flaws-in-end-of-life-routers/</guid>
-	<description><![CDATA[Zyxel has issued a security advisory about actively exploited flaws in CPE Series devices, warning that it has no plans to issue fixing patches and urging users to move to actively supported models. [...]]]></description>
- </item>
-
- <item>
-        <title>Crypto-stealing apps found in Apple App Store for the first time</title>
-        <link>https://www.bleepingcomputer.com/news/mobile/crypto-stealing-apps-found-in-apple-app-store-for-the-first-time/</link>
-        <pubDate>Tue, 04 Feb 2025 15:16:19 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Mobile]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/mobile/crypto-stealing-apps-found-in-apple-app-store-for-the-first-time/</guid>
-	<description><![CDATA[A new campaign dubbed 'SparkCat' has been uncovered, targeting the cryptocurrency wallet recovery phrases of Android and iOS users using optical character recognition (OCR) stealers. [...]]]></description>
  </item>
 
 </channel>
