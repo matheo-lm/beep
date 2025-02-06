@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 06 Feb 2025 09:02:30 EST</pubDate>
+        <pubDate>Thu, 06 Feb 2025 10:00:28 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>British engineering firm IMI discloses breach, shares no details</title>
+        <link>https://www.bleepingcomputer.com/news/security/british-engineering-firm-imi-discloses-breach-shares-no-details/</link>
+        <pubDate>Thu, 06 Feb 2025 09:36:11 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/british-engineering-firm-imi-discloses-breach-shares-no-details/</guid>
+	<description><![CDATA[British-based engineering firm IMI plc has disclosed a security breach after unknown attackers hacked into the company's systems. [...]]]></description>
+ </item>
+
  <item>
         <title>New Microsoft script updates Windows media with bootkit malware fixes</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/new-microsoft-script-updates-windows-media-with-bootkit-malware-fixes/</link>
@@ -180,34 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/mobile/crypto-stealing-apps-found-in-apple-app-store-for-the-first-time/</guid>
 	<description><![CDATA[A new campaign dubbed 'SparkCat' has been uncovered, targeting the cryptocurrency wallet recovery phrases of Android and iOS users using optical character recognition (OCR) stealers. [...]]]></description>
- </item>
-
- <item>
-        <title>Cyber agencies share security guidance for network edge devices</title>
-        <link>https://www.bleepingcomputer.com/news/security/cyber-agencies-share-security-guidance-for-network-edge-devices/</link>
-        <pubDate>Tue, 04 Feb 2025 13:24:20 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cyber-agencies-share-security-guidance-for-network-edge-devices/</guid>
-	<description><![CDATA[Five Eyes cybersecurity agencies in the UK, Australia, Canada, New Zealand, and the U.S. have issued guidance urging makers of network edge devices and appliances to improve forensic visibility to help defenders detect attacks and investigate breaches. [...]]]></description>
- </item>
-
- <item>
-        <title>Chinese cyberspies use new SSH backdoor in network device hacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/chinese-cyberspies-use-new-ssh-backdoor-in-network-device-hacks/</link>
-        <pubDate>Tue, 04 Feb 2025 12:39:40 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/chinese-cyberspies-use-new-ssh-backdoor-in-network-device-hacks/</guid>
-	<description><![CDATA[A Chinese hacking group is hijacking the SSH daemon on network appliances by injecting malware into the process for persistent access and covert operations. [...]]]></description>
  </item>
 
 </channel>
