@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 06 Feb 2025 13:01:37 EST</pubDate>
+        <pubDate>Thu, 06 Feb 2025 14:00:26 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Kimsuky hackers use new custom RDP Wrapper for remote access</title>
+        <link>https://www.bleepingcomputer.com/news/security/kimsuky-hackers-use-new-custom-rdp-wrapper-for-remote-access/</link>
+        <pubDate>Thu, 06 Feb 2025 13:55:22 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/kimsuky-hackers-use-new-custom-rdp-wrapper-for-remote-access/</guid>
+	<description><![CDATA[The North Korean hacking group known as Kimsuky was observed in recent attacks using a custom-built RDP Wrapper and proxy tools to directly access infected machines. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Critical RCE bug in Microsoft Outlook now exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/critical-rce-bug-in-microsoft-outlook-now-exploited-in-attacks/</link>
+        <pubDate>Thu, 06 Feb 2025 13:17:57 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critical-rce-bug-in-microsoft-outlook-now-exploited-in-attacks/</guid>
+	<description><![CDATA[CISA warned U.S. federal agencies on Thursday to secure their systems against ongoing attacks targeting a critical Microsoft Outlook remote code execution (RCE) vulnerability. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers exploit SimpleHelp RMM flaws to deploy Sliver malware</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-simplehelp-rmm-flaws-to-deploy-sliver-malware/</link>
@@ -176,36 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-tags-microsoft-net-and-apache-ofbiz-bugs-as-exploited-in-attacks/</guid>
 	<description><![CDATA[The US Cybersecurity & Infrastructure Security Agency (CISA) has added four vulnerabilities to its Known Exploited Vulnerabilities catalog, urging federal agencies and large organizations to apply the available security updates as soon as possible. [...]]]></description>
- </item>
-
- <item>
-        <title>Spain arrests suspected hacker of US and Spanish military agencies</title>
-        <link>https://www.bleepingcomputer.com/news/legal/spain-arrests-suspected-hacker-of-us-and-spanish-military-agencies/</link>
-        <pubDate>Wed, 05 Feb 2025 10:37:41 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Legal]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/legal/spain-arrests-suspected-hacker-of-us-and-spanish-military-agencies/</guid>
-	<description><![CDATA[The Spanish police have arrested a suspected hacker in Alicante for allegedly conducting 40 cyberattacks targeting critical public and private organizations, including the Guardia Civil, the Ministry of Defense, NATO, the US Army, and various universities. [...]]]></description>
- </item>
-
- <item>
-        <title>How attackers abuse S3 Bucket Namesquatting — And How to Stop Them</title>
-        <link>https://www.bleepingcomputer.com/news/security/how-attackers-abuse-s3-bucket-namesquatting-and-how-to-stop-them/</link>
-        <pubDate>Wed, 05 Feb 2025 10:00:10 -0500</pubDate>
-        <dc:creator>Sponsored by Varonis</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/how-attackers-abuse-s3-bucket-namesquatting-and-how-to-stop-them/</guid>
-	<description><![CDATA[AWS S3 bucket names are global with predictable names that can be exploited in "S3 bucket namesquatting" attacks to access or hijack S3 buckets. In this article, Varonis explains how these attacks work and how you can prevent them. [...]]]></description>
  </item>
 
 </channel>
