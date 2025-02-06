@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 06 Feb 2025 15:01:08 EST</pubDate>
+        <pubDate>Thu, 06 Feb 2025 15:59:44 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft says attackers use exposed ASP.NET keys to deploy malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-says-attackers-use-exposed-aspnet-keys-to-deploy-malware/</link>
+        <pubDate>Thu, 06 Feb 2025 15:59:41 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-says-attackers-use-exposed-aspnet-keys-to-deploy-malware/</guid>
+	<description><![CDATA[Microsoft warns that attackers are deploying malware in ViewState code injection attacks using static ASP. NET machine keys found online. [...]]]></description>
+ </item>
+
  <item>
         <title>Kimsuky hackers use new custom RDP Wrapper for remote access</title>
         <link>https://www.bleepingcomputer.com/news/security/kimsuky-hackers-use-new-custom-rdp-wrapper-for-remote-access/</link>
@@ -178,34 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-spoof-microsoft-adfs-login-pages-to-steal-credentials/</guid>
 	<description><![CDATA[A help desk phishing campaign targets an organization's Microsoft Active Directory Federation Services (ADFS) using spoofed login pages to steal credentials and bypass multi-factor authentication (MFA) protections. [...]]]></description>
- </item>
-
- <item>
-        <title>AMD fixes bug that lets hackers load malicious microcode patches</title>
-        <link>https://www.bleepingcomputer.com/news/security/amd-fixes-bug-that-lets-hackers-load-malicious-microcode-patches/</link>
-        <pubDate>Wed, 05 Feb 2025 13:30:05 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/amd-fixes-bug-that-lets-hackers-load-malicious-microcode-patches/</guid>
-	<description><![CDATA[​AMD has released mitigation and firmware updates to address a high-severity vulnerability that can be exploited to load malicious CPU microcode on unpatched devices. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA tags Microsoft .NET and Apache OFBiz bugs as exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-tags-microsoft-net-and-apache-ofbiz-bugs-as-exploited-in-attacks/</link>
-        <pubDate>Wed, 05 Feb 2025 11:45:33 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-tags-microsoft-net-and-apache-ofbiz-bugs-as-exploited-in-attacks/</guid>
-	<description><![CDATA[The US Cybersecurity & Infrastructure Security Agency (CISA) has added four vulnerabilities to its Known Exploited Vulnerabilities catalog, urging federal agencies and large organizations to apply the available security updates as soon as possible. [...]]]></description>
  </item>
 
 </channel>
