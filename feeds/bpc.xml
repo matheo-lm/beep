@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 07 Feb 2025 11:00:46 EST</pubDate>
+        <pubDate>Fri, 07 Feb 2025 12:00:57 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US health system notifies 882,000 patients of August 2023 breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-health-system-notifies-882-000-patients-of-august-2023-breach/</link>
+        <pubDate>Fri, 07 Feb 2025 11:44:32 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-health-system-notifies-882-000-patients-of-august-2023-breach/</guid>
+	<description><![CDATA[Hospital Sisters Health System notified over 882,000 patients that an August 2023 cyberattack led to a data breach that exposed their personal and health information. [...]]]></description>
+ </item>
+
  <item>
         <title>Cloudflare outage caused by botched blocking of phishing URL</title>
         <link>https://www.bleepingcomputer.com/news/security/cloudflare-outage-caused-by-botched-blocking-of-phishing-url/</link>
@@ -180,22 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/british-engineering-firm-imi-discloses-breach-shares-no-details/</guid>
 	<description><![CDATA[British-based engineering firm IMI plc has disclosed a security breach after unknown attackers hacked into the company's systems. [...]]]></description>
- </item>
-
- <item>
-        <title>New Microsoft script updates Windows media with bootkit malware fixes</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/new-microsoft-script-updates-windows-media-with-bootkit-malware-fixes/</link>
-        <pubDate>Wed, 05 Feb 2025 18:16:04 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/new-microsoft-script-updates-windows-media-with-bootkit-malware-fixes/</guid>
-	<description><![CDATA[Microsoft has released a PowerShell script to help Windows users and admins update bootable media so it utilizes the new "Windows UEFI CA 2023" certificate before the mitigations of the BlackLotus UEFI bootkit are enforced later this year. [...]]]></description>
  </item>
 
 </channel>
