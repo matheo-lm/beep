@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 07 Feb 2025 08:05:34 EST</pubDate>
+        <pubDate>Fri, 07 Feb 2025 08:58:30 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft shares workaround for Windows security update issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-windows-security-update-issues/</link>
+        <pubDate>Fri, 07 Feb 2025 08:53:25 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-windows-security-update-issues/</guid>
+	<description><![CDATA[Microsoft has shared a workaround for users affected by a known issue that blocks Windows security updates from deploying on some Windows 11 24H2 systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft has finally fixed Date &amp; Time bug in Windows 11</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-has-finally-fixed-date-and-time-bug-in-windows-11/</link>
@@ -182,22 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/robocallers-posing-as-fcc-fraud-prevention-team-call-fcc-staff/</guid>
 	<description><![CDATA[The FCC has proposed a $4,492,500 fine against VoIP service provider Telnyx for allegedly allowing customers to make robocalls posing as fictitious FCC "Fraud Prevention Team," by failing to comply with Know Your Customer (KYC) rules. However, Telnyx says the FCC is mistaken and denies the accusations. [...]]]></description>
- </item>
-
- <item>
-        <title>Ransomware payments fell by 35% in 2024, totalling $813,550,000</title>
-        <link>https://www.bleepingcomputer.com/news/security/ransomware-payments-fell-by-35-percent-in-2024-totalling-813-550-000/</link>
-        <pubDate>Wed, 05 Feb 2025 15:34:56 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ransomware-payments-fell-by-35-percent-in-2024-totalling-813-550-000/</guid>
-	<description><![CDATA[Payments to ransomware actors decreased 35% year-over-year in 2024, totaling $813.55 million, down from $1.25 billion recorded in 2023. [...]]]></description>
  </item>
 
 </channel>
