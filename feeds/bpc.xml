@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 07 Feb 2025 09:58:44 EST</pubDate>
+        <pubDate>Fri, 07 Feb 2025 11:00:46 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cloudflare outage caused by botched blocking of phishing URL</title>
+        <link>https://www.bleepingcomputer.com/news/security/cloudflare-outage-caused-by-botched-blocking-of-phishing-url/</link>
+        <pubDate>Fri, 07 Feb 2025 10:44:59 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-outage-caused-by-botched-blocking-of-phishing-url/</guid>
+	<description><![CDATA[An attempt to block a phishing URL in Cloudflare's R2 object storage platform backfired yesterday, triggering a widespread outage that brought down multiple services for nearly an hour. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft shares workaround for Windows security update issues</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-windows-security-update-issues/</link>
@@ -182,22 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/new-microsoft-script-updates-windows-media-with-bootkit-malware-fixes/</guid>
 	<description><![CDATA[Microsoft has released a PowerShell script to help Windows users and admins update bootable media so it utilizes the new "Windows UEFI CA 2023" certificate before the mitigations of the BlackLotus UEFI bootkit are enforced later this year. [...]]]></description>
- </item>
-
- <item>
-        <title>Robocallers posing as FCC fraud prevention team call FCC staff</title>
-        <link>https://www.bleepingcomputer.com/news/security/robocallers-posing-as-fcc-fraud-prevention-team-call-fcc-staff/</link>
-        <pubDate>Wed, 05 Feb 2025 16:26:23 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/robocallers-posing-as-fcc-fraud-prevention-team-call-fcc-staff/</guid>
-	<description><![CDATA[The FCC has proposed a $4,492,500 fine against VoIP service provider Telnyx for allegedly allowing customers to make robocalls posing as fictitious FCC "Fraud Prevention Team," by failing to comply with Know Your Customer (KYC) rules. However, Telnyx says the FCC is mistaken and denies the accusations. [...]]]></description>
  </item>
 
 </channel>
