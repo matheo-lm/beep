@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Thu, 06 Feb 2025 21:12:30 +0000</lastBuildDate>
@@ -66,7 +66,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/02/experts-flag-security-privacy-risks-in-deepseek-ai-app/feed/</wfw:commentRss>
-			<slash:comments>12</slash:comments>
+			<slash:comments>13</slash:comments>
 		
 		
 			</item>
@@ -664,9 +664,9 @@
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 264/266 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Object Caching 265/265 objects using memcached
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-02-06 23:00:10 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-02-06 23:37:21 by W3 Total Cache
 -->
