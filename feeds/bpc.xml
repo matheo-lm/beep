@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 07 Feb 2025 13:01:10 EST</pubDate>
+        <pubDate>Fri, 07 Feb 2025 14:02:51 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers exploit Cityworks RCE bug to breach Microsoft IIS servers</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-cityworks-rce-bug-to-breach-microsoft-iis-servers/</link>
+        <pubDate>Fri, 07 Feb 2025 13:42:44 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-cityworks-rce-bug-to-breach-microsoft-iis-servers/</guid>
+	<description><![CDATA[Software vendor Trimble is warning that hackers are exploiting a Cityworks deserialization vulnerability to remotely execute commands on IIS servers and deploy Cobalt Strike beacons for initial network access. [...]]]></description>
+ </item>
+
  <item>
         <title>US health system notifies 882,000 patients of August 2023 breach</title>
         <link>https://www.bleepingcomputer.com/news/security/us-health-system-notifies-882-000-patients-of-august-2023-breach/</link>
