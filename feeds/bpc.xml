@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 08 Feb 2025 12:01:46 EST</pubDate>
+        <pubDate>Sat, 08 Feb 2025 13:03:02 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Massive brute force attack uses 2.8 million IPs to target VPN devices</title>
+        <link>https://www.bleepingcomputer.com/news/security/massive-brute-force-attack-uses-28-million-ips-to-target-vpn-devices/</link>
+        <pubDate>Sat, 08 Feb 2025 10:15:25 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/massive-brute-force-attack-uses-28-million-ips-to-target-vpn-devices/</guid>
+	<description><![CDATA[A large-scale brute force password attack using almost 2.8 million IP addresses is underway, attempting to guess the credentials for a wide range of networking devices, including those from Palo Alto Networks, Ivanti, and SonicWall. [...]]]></description>
+ </item>
+
  <item>
         <title>HPE notifies employees of data breach after Russian Office 365 hack</title>
         <link>https://www.bleepingcomputer.com/news/security/hpe-notifies-employees-of-data-breach-after-russian-office-365-hack/</link>
@@ -178,36 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-simplehelp-rmm-flaws-to-deploy-sliver-malware/</guid>
 	<description><![CDATA[Hackers are targeting vulnerable SimpleHelp RMM clients to create administrator accounts, drop backdoors, and potentially lay the groundwork for ransomware attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Critical Cisco ISE bug can let attackers run commands as root</title>
-        <link>https://www.bleepingcomputer.com/news/security/critical-cisco-ise-bug-can-let-attackers-run-commands-as-root/</link>
-        <pubDate>Thu, 06 Feb 2025 11:40:19 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/critical-cisco-ise-bug-can-let-attackers-run-commands-as-root/</guid>
-	<description><![CDATA[Cisco has fixed two critical Identity Services Engine (ISE) vulnerabilities that can let attackers with read-only admin privileges bypass authorization and run commands as root. [...]]]></description>
- </item>
-
- <item>
-        <title>DDoS attacks reportedly behind DayZ and Arma network outages</title>
-        <link>https://www.bleepingcomputer.com/news/security/ddos-attacks-reportedly-behind-dayz-and-arma-network-outages/</link>
-        <pubDate>Thu, 06 Feb 2025 11:09:19 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Gaming]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ddos-attacks-reportedly-behind-dayz-and-arma-network-outages/</guid>
-	<description><![CDATA[An ongoing distributed denial of service (DDoS) attack targets Bohemia Interactive's infrastructure, preventing players of DayZ and Arma Reforger from playing the games online. [...]]]></description>
  </item>
 
 </channel>
