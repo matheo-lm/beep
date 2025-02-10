@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 10 Feb 2025 11:01:08 EST</pubDate>
+        <pubDate>Mon, 10 Feb 2025 12:02:23 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Police arrests 4 Phobos ransomware suspects, seizes 8Base sites</title>
+        <link>https://www.bleepingcomputer.com/news/legal/police-arrests-4-phobos-ransomware-suspects-seizes-8base-sites/</link>
+        <pubDate>Mon, 10 Feb 2025 11:51:03 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Legal]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/legal/police-arrests-4-phobos-ransomware-suspects-seizes-8base-sites/</guid>
+	<description><![CDATA[A global law enforcement operation targeting the Phobos ransomware gang has led to the arrest of four suspected hackers in Phuket, Thailand, and the seizure of 8Base's dark web sites. The suspects are accused of conducting cyberattacks on over 1,000 victims worldwide. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Cyberattack disrupts Lee newspapers' operations across the US</title>
+        <link>https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-lee-newspapers-operations-across-the-us/</link>
+        <pubDate>Mon, 10 Feb 2025 11:44:45 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-lee-newspapers-operations-across-the-us/</guid>
+	<description><![CDATA[Lee Enterprises, one of the largest newspaper groups in the United States, says a cyberattack that hit its systems caused an outage last week and impacted its operations. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft raises rewards for Copilot AI bug bounty program</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-raises-rewards-for-copilot-ai-bug-bounty-program/</link>
@@ -148,38 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-windows-security-update-issues/</guid>
 	<description><![CDATA[Microsoft has shared a workaround for users affected by a known issue that blocks Windows security updates from deploying on some Windows 11 24H2 systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft has finally fixed Date &amp; Time bug in Windows 11</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-has-finally-fixed-date-and-time-bug-in-windows-11/</link>
-        <pubDate>Fri, 07 Feb 2025 06:40:05 -0500</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-has-finally-fixed-date-and-time-bug-in-windows-11/</guid>
-	<description><![CDATA[Windows 11's January 28 optional update has fixed a long-standing issue in Windows 11 24H2 that prevents non-admin users from changing their time zone in Date & Time Settings. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft Edge update adds AI-powered Scareware Blocker</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-update-adds-ai-powered-scareware-blocker/</link>
-        <pubDate>Fri, 07 Feb 2025 06:15:26 -0500</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-update-adds-ai-powered-scareware-blocker/</guid>
-	<description><![CDATA[Microsoft Edge 133 is now rolling out globally, and it ships with several improvements, including a new scareware blocker feature. In addition, Microsoft is updating the backend of the Downloads UI with performance improvements. [...]]]></description>
  </item>
 
 </channel>
