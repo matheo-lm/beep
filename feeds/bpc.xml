@@ -11,11 +11,29 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 10 Feb 2025 09:01:13 EST</pubDate>
+        <pubDate>Mon, 10 Feb 2025 10:00:37 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft raises rewards for Copilot AI bug bounty program</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-raises-rewards-for-copilot-ai-bug-bounty-program/</link>
+        <pubDate>Mon, 10 Feb 2025 10:00:34 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-raises-rewards-for-copilot-ai-bug-bounty-program/</guid>
+	<description><![CDATA[​Microsoft announced over the weekend that it has expanded its Microsoft Copilot (AI) bug bounty program and increased payouts for moderate severity vulnerabilities. [...]]]></description>
+ </item>
+
  <item>
         <title>Brave now lets you inject custom JavaScript to tweak websites</title>
         <link>https://www.bleepingcomputer.com/news/software/brave-now-lets-you-inject-custom-javascript-to-tweak-websites/</link>
@@ -162,22 +180,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-update-adds-ai-powered-scareware-blocker/</guid>
 	<description><![CDATA[Microsoft Edge 133 is now rolling out globally, and it ships with several improvements, including a new scareware blocker feature. In addition, Microsoft is updating the backend of the Downloads UI with performance improvements. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft says attackers use exposed ASP.NET keys to deploy malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-says-attackers-use-exposed-aspnet-keys-to-deploy-malware/</link>
-        <pubDate>Thu, 06 Feb 2025 15:59:41 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-says-attackers-use-exposed-aspnet-keys-to-deploy-malware/</guid>
-	<description><![CDATA[Microsoft warns that attackers are deploying malware in ViewState code injection attacks using static ASP. NET machine keys found online. [...]]]></description>
  </item>
 
 </channel>
