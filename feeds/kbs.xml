@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Sun, 09 Feb 2025 15:15:33 +0000</lastBuildDate>
@@ -168,7 +168,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/02/teen-on-musks-doge-team-graduated-from-the-com/feed/</wfw:commentRss>
-			<slash:comments>95</slash:comments>
+			<slash:comments>97</slash:comments>
 		
 		
 			</item>
@@ -219,7 +219,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/02/experts-flag-security-privacy-risks-in-deepseek-ai-app/feed/</wfw:commentRss>
-			<slash:comments>29</slash:comments>
+			<slash:comments>30</slash:comments>
 		
 		
 			</item>
@@ -771,5 +771,5 @@ Object Caching 278/278 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-02-09 21:36:06 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-02-09 23:24:29 by W3 Total Cache
 -->
