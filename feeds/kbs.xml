@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Sun, 09 Feb 2025 15:15:33 +0000</lastBuildDate>
@@ -168,7 +168,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/02/teen-on-musks-doge-team-graduated-from-the-com/feed/</wfw:commentRss>
-			<slash:comments>99</slash:comments>
+			<slash:comments>101</slash:comments>
 		
 		
 			</item>
@@ -219,7 +219,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/02/experts-flag-security-privacy-risks-in-deepseek-ai-app/feed/</wfw:commentRss>
-			<slash:comments>30</slash:comments>
+			<slash:comments>31</slash:comments>
 		
 		
 			</item>
@@ -528,7 +528,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/01/mastercard-dns-error-went-unnoticed-for-years/feed/</wfw:commentRss>
-			<slash:comments>106</slash:comments>
+			<slash:comments>107</slash:comments>
 		
 		
 			</item>
@@ -771,5 +771,5 @@ Object Caching 278/278 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-02-10 01:57:34 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-02-10 05:25:50 by W3 Total Cache
 -->
