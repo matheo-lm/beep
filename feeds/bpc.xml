@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 10 Feb 2025 14:01:51 EST</pubDate>
+        <pubDate>Mon, 10 Feb 2025 15:02:02 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Sky ECC encrypted service distributors arrested in Spain, Netherlands</title>
+        <link>https://www.bleepingcomputer.com/news/legal/sky-ecc-encrypted-service-distributors-arrested-in-spain-netherlands/</link>
+        <pubDate>Mon, 10 Feb 2025 15:01:58 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/legal/sky-ecc-encrypted-service-distributors-arrested-in-spain-netherlands/</guid>
+	<description><![CDATA[Four distributors of the encrypted communications service Sky ECC, used extensively by criminals, were arrested in Spain and the Netherlands. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Apple fixes zero-day exploited in 'extremely sophisticated' attacks</title>
+        <link>https://www.bleepingcomputer.com/news/apple/apple-fixes-zero-day-exploited-in-extremely-sophisticated-attacks/</link>
+        <pubDate>Mon, 10 Feb 2025 14:08:45 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Apple]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/apple/apple-fixes-zero-day-exploited-in-extremely-sophisticated-attacks/</guid>
+	<description><![CDATA[Apple has released emergency security updates to patch a zero-day vulnerability that the company says was exploited in targeted and "extremely sophisticated" attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Hacker pleads guilty to SIM swap attack on US SEC X account</title>
         <link>https://www.bleepingcomputer.com/news/security/hacker-pleads-guilty-to-sim-swap-attack-on-us-sec-x-account/</link>
@@ -164,36 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-health-system-notifies-882-000-patients-of-august-2023-breach/</guid>
 	<description><![CDATA[Hospital Sisters Health System notified over 882,000 patients that an August 2023 cyberattack led to a data breach that exposed their personal and health information. [...]]]></description>
- </item>
-
- <item>
-        <title>Cloudflare outage caused by botched blocking of phishing URL</title>
-        <link>https://www.bleepingcomputer.com/news/security/cloudflare-outage-caused-by-botched-blocking-of-phishing-url/</link>
-        <pubDate>Fri, 07 Feb 2025 10:44:59 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-outage-caused-by-botched-blocking-of-phishing-url/</guid>
-	<description><![CDATA[An attempt to block a phishing URL in Cloudflare's R2 object storage platform backfired yesterday, triggering a widespread outage that brought down multiple services for nearly an hour. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft shares workaround for Windows security update issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-windows-security-update-issues/</link>
-        <pubDate>Fri, 07 Feb 2025 08:53:25 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-windows-security-update-issues/</guid>
-	<description><![CDATA[Microsoft has shared a workaround for users affected by a known issue that blocks Windows security updates from deploying on some Windows 11 24H2 systems. [...]]]></description>
  </item>
 
 </channel>
