@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 11 Feb 2025 08:59:45 EST</pubDate>
+        <pubDate>Tue, 11 Feb 2025 09:58:56 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US sanctions LockBit ransomware’s bulletproof hosting provider</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-sanctions-lockbit-ransomwares-bulletproof-hosting-provider/</link>
+        <pubDate>Tue, 11 Feb 2025 09:24:43 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-sanctions-lockbit-ransomwares-bulletproof-hosting-provider/</guid>
+	<description><![CDATA[​The United States, Australia, and the United Kingdom have sanctioned Zservers, a Russia-based bulletproof hosting (BPH) services provider, for supplying essential attack infrastructure for the LockBit ransomware gang. [...]]]></description>
+ </item>
+
  <item>
         <title>Over 12,000 KerioControl firewalls exposed to exploited RCE flaw</title>
         <link>https://www.bleepingcomputer.com/news/security/over-12-000-keriocontrol-firewalls-exposed-to-exploited-rce-flaw/</link>
@@ -166,34 +180,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/massive-brute-force-attack-uses-28-million-ips-to-target-vpn-devices/</guid>
 	<description><![CDATA[A large-scale brute force password attack using almost 2.8 million IP addresses is underway, attempting to guess the credentials for a wide range of networking devices, including those from Palo Alto Networks, Ivanti, and SonicWall. [...]]]></description>
- </item>
-
- <item>
-        <title>HPE notifies employees of data breach after Russian Office 365 hack</title>
-        <link>https://www.bleepingcomputer.com/news/security/hpe-notifies-employees-of-data-breach-after-russian-office-365-hack/</link>
-        <pubDate>Fri, 07 Feb 2025 14:21:16 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hpe-notifies-employees-of-data-breach-after-russian-office-365-hack/</guid>
-	<description><![CDATA[Hewlett Packard Enterprise (HPE) is notifying employees whose data was stolen from the company's Office 365 email environment by Russian state-sponsored hackers in a May 2023 cyberattack. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers exploit Cityworks RCE bug to breach Microsoft IIS servers</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-cityworks-rce-bug-to-breach-microsoft-iis-servers/</link>
-        <pubDate>Fri, 07 Feb 2025 13:42:44 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-cityworks-rce-bug-to-breach-microsoft-iis-servers/</guid>
-	<description><![CDATA[Software vendor Trimble is warning that hackers are exploiting a Cityworks deserialization vulnerability to remotely execute commands on IIS servers and deploy Cobalt Strike beacons for initial network access. [...]]]></description>
  </item>
 
 </channel>
