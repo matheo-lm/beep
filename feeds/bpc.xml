@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 11 Feb 2025 11:02:33 EST</pubDate>
+        <pubDate>Tue, 11 Feb 2025 12:00:37 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Russian military hackers deploy malicious Windows activators in Ukraine</title>
+        <link>https://www.bleepingcomputer.com/news/security/russian-military-hackers-deploy-malicious-windows-activators-in-ukraine/</link>
+        <pubDate>Tue, 11 Feb 2025 11:44:59 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/russian-military-hackers-deploy-malicious-windows-activators-in-ukraine/</guid>
+	<description><![CDATA[The Sandworm Russian military cyber-espionage group is targeting Windows users in Ukraine with trojanized Microsoft Key Management Service (KMS) activators and fake Windows updates. [...]]]></description>
+ </item>
+
+ <item>
+        <title>SonicWall firewall exploit lets hackers hijack VPN sessions, patch now</title>
+        <link>https://www.bleepingcomputer.com/news/security/sonicwall-firewall-exploit-lets-hackers-hijack-vpn-sessions-patch-now/</link>
+        <pubDate>Tue, 11 Feb 2025 10:56:34 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-firewall-exploit-lets-hackers-hijack-vpn-sessions-patch-now/</guid>
+	<description><![CDATA[Security researchers at Bishop Fox have published complete exploitation details for the CVE-2024-53704 vulnerability that allows bypassing the authentication mechanism in certain versions of the SonicOS SSLVPN application. [...]]]></description>
+ </item>
+
  <item>
         <title>US indicts 8Base ransomware operators for Phobos encryption attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/us-indicts-8base-ransomware-operators-for-phobos-encryption-attacks/</link>
@@ -182,20 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/a-cybersecurity-leaders-guide-to-secval-in-2025/</guid>
 	<description><![CDATA[Are your defenses truly battle-tested? Security validation ensures you're not just hoping your security works—it proves it. Learn more from Pentera on how to validate against ransomware, credential threats, and unpatched vulnerabilities in the GOAT Guide. [...]]]></description>
- </item>
-
- <item>
-        <title>Massive brute force attack uses 2.8 million IPs to target VPN devices</title>
-        <link>https://www.bleepingcomputer.com/news/security/massive-brute-force-attack-uses-28-million-ips-to-target-vpn-devices/</link>
-        <pubDate>Sat, 08 Feb 2025 10:15:25 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/massive-brute-force-attack-uses-28-million-ips-to-target-vpn-devices/</guid>
-	<description><![CDATA[A large-scale brute force password attack using almost 2.8 million IP addresses is underway, attempting to guess the credentials for a wide range of networking devices, including those from Palo Alto Networks, Ivanti, and SonicWall. [...]]]></description>
  </item>
 
 </channel>
