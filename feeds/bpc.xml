@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 11 Feb 2025 14:00:52 EST</pubDate>
+        <pubDate>Tue, 11 Feb 2025 15:00:32 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 10 KB5051974 update force installs new Microsoft Outlook app</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5051974-update-force-installs-new-microsoft-outlook-app/</link>
+        <pubDate>Tue, 11 Feb 2025 14:32:57 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5051974-update-force-installs-new-microsoft-outlook-app/</guid>
+	<description><![CDATA[Microsoft has released the KB5051974 cumulative update for Windows 10 22H2 and Windows 10 21H2, which automatically installs the new Outlook for Windows app and fixes a memory leak bug. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft February 2025 Patch Tuesday fixes 4 zero-days, 55 flaws</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-february-2025-patch-tuesday-fixes-4-zero-days-55-flaws/</link>
@@ -196,38 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/legal/police-arrests-2-phobos-ransomware-suspects-seizes-8base-sites/</guid>
 	<description><![CDATA[A global law enforcement operation targeting the Phobos ransomware gang has led to the arrest of two suspected hackers in Phuket, Thailand, and the seizure of 8Base's dark web sites. The suspects are accused of conducting cyberattacks on over 1,000 victims worldwide. [...]]]></description>
- </item>
-
- <item>
-        <title>Cyberattack disrupts Lee newspapers' operations across the US</title>
-        <link>https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-lee-newspapers-operations-across-the-us/</link>
-        <pubDate>Mon, 10 Feb 2025 11:44:45 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-lee-newspapers-operations-across-the-us/</guid>
-	<description><![CDATA[Lee Enterprises, one of the largest newspaper groups in the United States, says a cyberattack that hit its systems caused an outage last week and impacted its operations. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft raises rewards for Copilot AI bug bounty program</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-raises-rewards-for-copilot-ai-bug-bounty-program/</link>
-        <pubDate>Mon, 10 Feb 2025 10:00:34 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-raises-rewards-for-copilot-ai-bug-bounty-program/</guid>
-	<description><![CDATA[​Microsoft announced over the weekend that it has expanded its Microsoft Copilot (AI) bug bounty program and increased payouts for moderate severity vulnerabilities. [...]]]></description>
  </item>
 
 </channel>
