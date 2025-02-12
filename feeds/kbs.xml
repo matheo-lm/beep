@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Sun, 09 Feb 2025 15:15:33 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 12 Feb 2025 04:58:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,56 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Microsoft Patch Tuesday, February 2025 Edition</title>
+		<link>https://krebsonsecurity.com/2025/02/microsoft-patch-tuesday-february-2025-edition/</link>
+					<comments>https://krebsonsecurity.com/2025/02/microsoft-patch-tuesday-february-2025-edition/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Wed, 12 Feb 2025 04:58:37 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Time to Patch]]></category>
+		<category><![CDATA[Adam Barnett]]></category>
+		<category><![CDATA[adobe]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[CVE-2024-38193]]></category>
+		<category><![CDATA[CVE-2025-21377]]></category>
+		<category><![CDATA[CVE-2025-21391]]></category>
+		<category><![CDATA[CVE-2025-21418]]></category>
+		<category><![CDATA[Google Chrome]]></category>
+		<category><![CDATA[Microsoft 365 Copilot]]></category>
+		<category><![CDATA[Microsoft Patch Tuesday February 2025]]></category>
+		<category><![CDATA[Rapid7]]></category>
+		<category><![CDATA[sans internet storm center]]></category>
+		<category><![CDATA[Satnam Narang]]></category>
+		<category><![CDATA[Tenable]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70396</guid>
+
+					<description><![CDATA[Microsoft today issued security updates to fix at least 56 vulnerabilities in its Windows operating systems and supported software, including two zero-day flaws that are being actively exploited.]]></description>
+										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today issued security updates to fix at least 56 vulnerabilities in its Windows operating systems and supported software, including two zero-day flaws that are being actively exploited.</p>
+<p><img decoding="async" class="aligncenter  wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="749" height="527" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p>All supported Windows operating systems will receive an update this month for a buffer overflow vulnerability that carries the catchy name <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21418" target="_blank" rel="noopener">CVE-2025-21418</a>. This patch should be a priority for enterprises, as Microsoft says it is being exploited, has low attack complexity, and no requirements for user interaction.</p>
+<p><strong>Tenable</strong> senior staff research engineer <strong>Satnam Narang</strong> noted that since 2022, there have been nine elevation of privilege vulnerabilities in this same Windows component &#8212; three each year &#8212; including one in 2024 that was exploited in the wild as a zero day (CVE-2024-38193).</p>
+<p>&#8220;CVE-2024-38193 was exploited by the North Korean APT group known as Lazarus Group to implant a new version of the FudModule rootkit in order to maintain persistence and stealth on compromised systems,&#8221; Narang said. &#8220;At this time, it is unclear if CVE-2025-21418 was also exploited by Lazarus Group.&#8221;</p>
+<p>The other zero-day, <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21391" target="_blank" rel="noopener">CVE-2025-21391</a>, is an elevation of privilege vulnerability in Windows Storage that could be used to delete files on a targeted system. Microsoft&#8217;s advisory on this bug references something called “CWE-59: Improper Link Resolution Before File Access,&#8221; says no user interaction is required, and that the attack complexity is low.</p>
+<p><strong>Adam Barnett</strong>, lead software engineer at <strong>Rapid7</strong>, said although the advisory provides scant detail, and even offers some vague reassurance that &#8216;an attacker would only be able to delete targeted files on a system,&#8217; it would be a mistake to assume that the impact of deleting arbitrary files would be limited to data loss or denial of service.</p>
+<p>&#8220;As long ago as 2022, ZDI researchers set out how a motivated attacker could parlay arbitrary file deletion into full SYSTEM access using techniques which also involve creative misuse of symbolic links,&#8221;Barnett wrote.<span id="more-70396"></span></p>
+<p>One vulnerability patched today that was publicly disclosed earlier is <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21377" target="_blank" rel="noopener">CVE-2025-21377</a>, another weakness that could allow an attacker to elevate their privileges on a vulnerable Windows system. Specifically, this is yet another Windows flaw that can be used to steal NTLMv2 hashes &#8212; essentially allowing an attacker to authenticate as the targeted user without having to log in.</p>
+<p>According to Microsoft, minimal user interaction with a malicious file is needed to exploit CVE-2025-21377, including selecting, inspecting or &#8220;performing an action other than opening or executing the file.&#8221;</p>
+<p>&#8220;This trademark linguistic ducking and weaving may be Microsoft’s way of saying &#8216;if we told you any more, we’d give the game away,'&#8221; Barnett said. &#8220;Accordingly, Microsoft assesses exploitation as more likely.&#8221;</p>
+<p>The <a href="https://isc.sans.edu/diary/Microsoft%20February%202025%20Patch%20Tuesday/31674" target="_blank" rel="noopener">SANS Internet Storm Center</a> has a handy list of all the Microsoft patches released today, indexed by severity. Windows enterprise administrators would do well to keep an eye on <a href="http://www.askwoody.com" target="_blank" rel="noopener">askwoody.com</a>, which often has the scoop on any patches causing problems.</p>
+<p>It&#8217;s getting harder to buy Windows software that isn&#8217;t also bundled with Microsoft&#8217;s flagship Copilot artificial intelligence (AI) feature. Last month Microsoft started bundling Copilot with <strong>Microsoft Office 365</strong>, which Redmond has since rebranded as &#8220;<strong>Microsoft 365 Copilot</strong>.&#8221; Ostensibly to offset the costs of its substantial AI investments, Microsoft also jacked up prices from 22 percent to 30 percent for upcoming license renewals and new subscribers.</p>
+<p>Office-watch.com <a href="https://office-watch.com/2025/microsoft-365-classic/" target="_blank" rel="noopener">writes</a> that existing Office 365 users who are paying an annual cloud license do have the option of &#8220;Microsoft 365 Classic,&#8221; an AI-free subscription at a lower price, but that many customers are not offered the option until they attempt to cancel their existing Office subscription.</p>
+<p>In other security patch news, <strong>Apple</strong> has shipped iOS 18.3.1, which fixes a <a href="https://support.apple.com/en-us/122174">zero day</a> vulnerability (CVE-2025-24200) that is showing up in attacks.</p>
+<p><strong>Adobe</strong> has issued security updates that fix a total of 45 vulnerabilities across <strong>InDesign</strong>, <strong>Commerce</strong>, <strong>Substance 3D</strong> <strong>Stager</strong>, <strong>InCopy</strong>, <strong>Illustrator</strong>, <strong>Substance 3D Designer</strong> and <strong>Photoshop Elements</strong>.</p>
+<p><strong>Chris Goettl</strong> at <strong>Ivanti</strong> notes that <strong>Google Chrome</strong> is shipping an update today which will trigger updates for Chromium based browsers including <strong>Microsoft Edge</strong>, so be on the lookout for Chrome and Edge updates as we proceed through the week.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/02/microsoft-patch-tuesday-february-2025-edition/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Teen on Musk&#8217;s DOGE Team Graduated from &#8216;The Com&#8217;</title>
 		<link>https://krebsonsecurity.com/2025/02/teen-on-musks-doge-team-graduated-from-the-com/</link>
 					<comments>https://krebsonsecurity.com/2025/02/teen-on-musks-doge-team-graduated-from-the-com/#comments</comments>
@@ -57,7 +107,7 @@
 <p><em>Wired</em> first <a href="https://archive.ph/HCCA4" target="_blank" rel="noopener">reported on Feb. 2</a> that one of the technologists on Musk&#8217;s crew is a 19-year-old high school graduate named <strong>Edward Coristine</strong>, who reportedly goes by the nickname &#8220;Big Balls&#8221; online. One of the companies Coristine founded, <strong>Tesla.Sexy LLC</strong>, was set up in 2021, when he would have been around 16 years old.</p>
 <p>&#8220;Tesla.Sexy LLC controls dozens of web domains, including at least two Russian-registered domains,&#8221; <em>Wired</em> reported. &#8220;One of those domains, which is still active, offers a service called Helfie, which is an AI bot for Discord servers targeting the Russian market. While the operation of a Russian website would not violate US sanctions preventing Americans doing business with Russian companies, it could potentially be a factor in a security clearance review.&#8221;</p>
 <p>Mr. Coristine has not responded to requests for comment. In <a href="https://archive.ph/VAD48" target="_blank" rel="noopener">a follow-up story</a> this week, <em>Wired</em> found that someone using a Telegram handle tied to Coristine solicited a DDoS-for-hire service in 2022, and that he worked for a short time at a company that specializes in protecting customers from DDoS attacks.</p>
-<div id="attachment_70369" style="width: 647px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70369" decoding="async" class="size-full wp-image-70369" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/coristine.png" alt="" width="637" height="636" /><p id="caption-attachment-70369" class="wp-caption-text">A profile photo from Coristine&#8217;s WhatsApp account.</p></div>
+<div id="attachment_70369" style="width: 647px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70369" decoding="async" loading="lazy" class="size-full wp-image-70369" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/coristine.png" alt="" width="637" height="636" /><p id="caption-attachment-70369" class="wp-caption-text">A profile photo from Coristine&#8217;s WhatsApp account.</p></div>
 <p>Internet routing records <a href="https://bgp.he.net/net/23.133.104.0/24#_whois" target="_blank" rel="noopener">show</a> that Coristine runs an Internet service provider called <strong>Packetware</strong> (AS400495). Also known as &#8220;<strong>DiamondCDN</strong>,&#8221; Packetware <a href="https://bgp.he.net/net/23.133.104.0/24#_dnsrecords" target="_blank" rel="noopener">currently hosts</a> tesla[.]sexy and diamondcdn[.]com, among other domains.</p>
 <p>DiamondCDN was advertised and claimed by someone who used the nickname &#8220;<strong>Rivage</strong>&#8221; on several Com-based Discord channels over the years. A review of chat logs from some of those channels show other members frequently referred to Rivage as &#8220;Edward.&#8221;</p>
 <p>From late 2020 to late 2024, Rivage&#8217;s conversations would show up in multiple Com chat servers that are closely monitored by security companies. In November 2022, Rivage could be seen requesting recommendations for a reliable and powerful DDoS-for-hire service.</p>
@@ -646,130 +696,15 @@
 		
 		
 			</item>
-		<item>
-		<title>A Day in the Life of a Prolific Voice Phishing Crew</title>
-		<link>https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/</link>
-					<comments>https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Tue, 07 Jan 2025 23:41:53 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Latest Warnings]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[Web Fraud 2.0]]></category>
-		<category><![CDATA[800-275-2273]]></category>
-		<category><![CDATA[Allison Nixon]]></category>
-		<category><![CDATA[Aristotle]]></category>
-		<category><![CDATA[autodoxers]]></category>
-		<category><![CDATA[Coinbase]]></category>
-		<category><![CDATA[Crypto Chameleon]]></category>
-		<category><![CDATA[Discord]]></category>
-		<category><![CDATA[domaintools]]></category>
-		<category><![CDATA[Lookout]]></category>
-		<category><![CDATA[Mark Cuban]]></category>
-		<category><![CDATA[Okta]]></category>
-		<category><![CDATA[Perm]]></category>
-		<category><![CDATA[Shark Tank]]></category>
-		<category><![CDATA[Star Fraud]]></category>
-		<category><![CDATA[Stotle]]></category>
-		<category><![CDATA[telegram]]></category>
-		<category><![CDATA[Trezor]]></category>
-		<category><![CDATA[Unit 221B]]></category>
-		<category><![CDATA[voice phishing]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69922</guid>
-
-					<description><![CDATA[Besieged by scammers seeking to phish user accounts over the telephone, Apple and Google frequently caution that they will never reach out unbidden to users this way. However, new details about the internal operations of a prolific voice phishing gang show the group routinely abuses legitimate services at Apple and Google to force a variety of outbound communications to their users, including emails, automated phone calls and system-level messages sent to all signed-in devices.]]></description>
-										<content:encoded><![CDATA[<p>Besieged by scammers seeking to phish user accounts over the telephone, <strong>Apple</strong> and <strong>Google</strong> frequently caution that they will never reach out unbidden to users this way. However, new details about the internal operations of a prolific voice phishing gang show the group routinely abuses legitimate services at Apple and Google to force a variety of outbound communications to their users, including emails, automated phone calls and system-level messages sent to all signed-in devices.</p>
-<div id="attachment_69859" style="width: 711px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69859" decoding="async" loading="lazy" class="size-full wp-image-69859" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/thumb-mobile.png" alt="" width="701" height="413" /><p id="caption-attachment-69859" class="wp-caption-text">Image: Shutterstock, iHaMoo.</p></div>
-<p>KrebsOnSecurity recently told the saga of a cryptocurrency investor named <strong>Tony</strong> who was robbed of more than $4.7 million in <a href="https://krebsonsecurity.com/2024/12/how-to-lose-a-fortune-with-just-one-bad-click/" target="_blank" rel="noopener">an elaborate voice phishing attack</a>. In Tony&#8217;s ordeal, the crooks appear to have initially contacted him via <strong>Google Assistant</strong>, an AI-based service that can engage in two-way conversations. The phishers also abused legitimate Google services to send Tony an email from google.com, and to send a Google account recovery prompt to all of his signed-in devices.</p>
-<p>Today&#8217;s story pivots off of Tony&#8217;s heist and new details shared by a scammer to explain how these voice phishing groups are abusing a legitimate Apple telephone support line to generate &#8220;account confirmation&#8221; message prompts from Apple to their customers.</p>
-<p>Before we get to the Apple scam in detail, we need to revisit Tony&#8217;s case. The phishing domain used to steal roughly $4.7 million in cryptocurrencies from Tony was <strong>verify-trezor[.]io</strong>. This domain was featured in <a href="https://www.lookout.com/threat-intelligence/article/cryptochameleon-fcc-phishing-kit" target="_blank" rel="noopener">a writeup from February 2024</a> by the security firm <strong>Lookout</strong>, which found it was one of dozens being used by a prolific and audacious voice phishing group it dubbed &#8220;<strong>Crypto Chameleon</strong>.&#8221;</p>
-<p>Crypto Chameleon was brazenly trying to voice phish employees at the <strong>U.S. Federal Communications Commission</strong> (FCC), as well as those working at the cryptocurrency exchanges <strong>Coinbase</strong> and <strong>Binance</strong>. Lookout researchers discovered multiple voice phishing groups were using a new phishing kit that closely mimicked the single sign-on pages for <strong>Okta</strong> and other authentication providers.</p>
-<p>As we&#8217;ll see in a moment, that phishing kit is operated and rented out by a cybercriminal known as &#8220;<strong>Perm</strong>&#8221; a.k.a. &#8220;<strong>Annie</strong>.&#8221; Perm is the current administrator of <strong>Star Fraud</strong>, one of the more consequential cybercrime communities on Telegram and one that has emerged as a foundry of innovation in voice phishing attacks.</p>
-<p>A review of the many messages that Perm posted to Star Fraud and other Telegram channels showed they worked closely with another cybercriminal who went by the handles &#8220;<strong>Aristotle</strong>&#8221; and just &#8220;<strong>Stotle</strong>.&#8221;</p>
-<p>It is not clear what caused the rift, but at some point last year Stotle decided to turn on his erstwhile business partner Perm, sharing extremely detailed videos, tutorials and secrets that shed new light on how these phishing panels operate.</p>
-<p>Stotle explained that the division of spoils from each robbery is decided in advance by all participants. Some co-conspirators will be paid a set fee for each call, while others are promised a percentage of any overall amount stolen. The person in charge of managing or renting out the phishing panel to others will generally take a percentage of each theft, which in Perm&#8217;s case is 10 percent.</p>
-<p>When the phishing group settles on a target of interest, the scammers will create and join a new <strong>Discord</strong> channel. This allows each logged on member to share what is currently on their screen, and these screens are tiled in a series of boxes so that everyone can see all other call participant screens at once.</p>
-<p>Each participant in the call has a specific role, including:</p>
-<p>-The Caller: The person speaking and trying to social engineer the target.<br />
--The Operator: The individual managing the phishing panel, silently moving the victim from page to page.<br />
--The Drainer: The person who logs into compromised accounts to drain the victim&#8217;s funds.<br />
--The Owner: The phishing panel owner, who will frequently listen in on and participate in scam calls.</p>
-<h2>&#8216;OKAY, SO THIS REALLY IS APPLE&#8217;</h2>
-<p>In one video of a live voice phishing attack shared by Stotle, scammers using Perm&#8217;s panel targeted a musician in California. Throughout the video, we can see Perm monitoring the conversation and operating the phishing panel in the upper right corner of the screen.</p>
-<div style="text-align: center;"><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/F44un1_y2fs?si=fmYxbcLS3TDtHjrs" width="750" height="315" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></div>
-<p>In the first step of the attack, they <a href="https://krebsonsecurity.com/2024/03/recent-mfa-bombing-attacks-targeting-apple-users/" target="_blank" rel="noopener">peppered the target&#8217;s Apple device with notifications from Apple</a> by attempting to reset his password. Then a &#8220;<strong>Michael Keen</strong>&#8221; called him, spoofing Apple&#8217;s phone number and saying they were with Apple&#8217;s account recovery team.</p>
-<p>The target told Michael that someone was trying to change his password, which Michael calmly explained they would investigate. Michael said he was going to send a prompt to the man&#8217;s device, and proceeded to place a call to an automated line that answered as Apple support saying, &#8220;I&#8217;d like to send a consent notification to your Apple devices. Do I have permission to do that?&#8221;</p>
-<p>In this segment of the video, we can see the operator of the panel is calling the real Apple customer support phone number <strong>800-275-2273</strong>, but they are doing so by spoofing the target&#8217;s phone number (the victim&#8217;s number is redacted in the video above). That&#8217;s because calling this support number from a phone number tied to an Apple account and selecting &#8220;1&#8221; for &#8220;yes&#8221; will then send an alert from Apple that displays the following message on all associated devices:</p>
-<div id="attachment_70000" style="width: 403px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70000" decoding="async" loading="lazy" class="size-full wp-image-70000" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/appleconfirmation.png" alt="" width="393" height="448" /><p id="caption-attachment-70000" class="wp-caption-text">Calling the Apple support number 800-275-2273 from a phone number tied to an Apple account will cause a prompt similar to this one to appear on all connected Apple devices.</p></div>
-<p>KrebsOnSecurity asked two different security firms to test this using the caller ID spoofing service shown in Perm&#8217;s video, and sure enough calling that 800 number for Apple by spoofing my phone number as the source caused the Apple Account Confirmation to pop up on all of my signed-in Apple devices.</p>
-<p>In essence, the voice phishers are using an automated Apple phone support line to send notifications from Apple and to trick people into thinking they&#8217;re really talking with Apple. The phishing panel video leaked by Stotle shows this technique fooled the target, who felt completely at ease that he was talking to Apple after receiving the support prompt on his iPhone.</p>
-<p>&#8220;Okay, so this really is Apple,&#8221; the man said after receiving the alert from Apple. &#8220;Yeah, that&#8217;s definitely not me trying to reset my password.&#8221;</p>
-<p>&#8220;Not a problem, we can go ahead and take care of this today,&#8221; Michael replied. &#8220;I&#8217;ll go ahead and prompt your device with the steps to close out this ticket. Before I do that, I do highly suggest that you change your password in the settings app of your device.&#8221;</p>
-<p>The target said they weren&#8217;t sure exactly how to do that. Michael replied &#8220;no problem,&#8221; and then described how to change the account password, which the man said he did on his own device. At this point, the musician was still in control of his iCloud account.</p>
-<p>&#8220;Password is changed,&#8221; the man said. &#8220;I don&#8217;t know what that was, but I appreciate the call.&#8221;</p>
-<p>&#8220;Yup,&#8221; Michael replied, setting up the killer blow. &#8220;I&#8217;ll go ahead and prompt you with the next step to close out this ticket. Please give me one moment.&#8221;</p>
-<p>The target then received a text message that referenced information about his account, stating that he was in a support call with Michael. Included in the message was a link to a website that mimicked Apple&#8217;s iCloud login page &#8212; <strong>17505-apple[.]com</strong>. Once the target navigated to the phishing page, the video showed Perm&#8217;s screen in the upper right corner opening the phishing page from their end.</p>
-<p>&#8220;Oh okay, now I log in with my Apple ID?,&#8221; the man asked.</p>
-<p>&#8220;Yup, then just follow the steps it requires, and if you need any help, just let me know,&#8221; Michael replied.</p>
-<p>As the victim typed in their Apple password and one-time passcode at the fake Apple site, Perm&#8217;s screen could be seen in the background logging into the victim&#8217;s iCloud account.</p>
-<p>It&#8217;s unclear whether the phishers were able to steal any cryptocurrency from the victim in this case, who did not respond to requests for comment. However, shortly after this video was recorded, someone leaked several music recordings stolen from the victim&#8217;s iCloud account.</p>
-<p>At the conclusion of the call, Michael offered to configure the victim&#8217;s Apple profile so that any further changes to the account would need to happen in person at a physical Apple store. This appears to be one of several scripted ploys used by these voice phishers to gain and maintain the target&#8217;s confidence.</p>
-<p>A tutorial shared by Stotle titled &#8220;Social Engineering Script&#8221; includes a number of tips for scam callers that can help establish trust or a rapport with their prey. When the callers are impersonating Coinbase employees, for example, they will offer to sign the user up for the company&#8217;s free security email newsletter.</p>
-<p>&#8220;Also, for your security, we are able to subscribe you to Coinbase Bytes, which will basically give you updates to your email about data breaches and updates to your Coinbase account,&#8221; the script reads. &#8220;So we should have gone ahead and successfully subscribed you, and you should have gotten an email confirmation. Please let me know if that is the case. Alright, perfect.&#8221;</p>
-<p>In reality, all they are doing is entering the target&#8217;s email address into Coinbase&#8217;s public email newsletter signup page, but it&#8217;s a remarkably effective technique because it demonstrates to the would-be victim that the caller has the ability to send emails from Coinbase.com.</p>
-<p>Asked to comment for this story, Apple said there has been no breach, hack, or technical exploit of iCloud or Apple services, and that the company is continuously adding new protections to address new and emerging threats. For example, it said it has implemented rate limiting for multi-factor authentication requests, which <a href="https://krebsonsecurity.com/2024/03/recent-mfa-bombing-attacks-targeting-apple-users/" target="_blank" rel="noopener">have been abused by voice phishing groups to impersonate Apple</a>.</p>
-<p>Apple said its representatives will never ask users to provide their password, device passcode, or two-factor authentication code or to enter it into a web page, even if it looks like an official Apple website. If a user receives a message or call that claims to be from Apple, <a href="https://support.apple.com/en-us/120569" target="_blank" rel="noopener">here is what the user should expect</a>.</p>
-<p><span id="more-69922"></span></p>
-<h2>AUTODOXERS</h2>
-<p>According to Stotle, the target lists used by their phishing callers originate mostly from a few crypto-related data breaches, including the 2022 and <a href="https://blog.trezor.io/trezor-security-update-stay-vigilant-against-potential-phishing-attack-bb05015a21f8?gi=4a9e1da3b8b2" target="_blank" rel="noopener">2024 breaches</a> involving user account data stolen from cryptocurrency hardware wallet vendor <strong>Trezor</strong>.</p>
-<p>Perm&#8217;s group and other crypto phishing gangs rely on a mix of homemade code and third-party data broker services to refine their target lists. Known as &#8220;<strong>autodoxers</strong>,&#8221; these tools help phishing gangs quickly automate the acquisition and/or verification of personal data on a target prior to each call attempt.</p>
-<div id="attachment_69998" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69998" decoding="async" loading="lazy" class=" wp-image-69998" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/vbals-autodoxer.png" alt="" width="748" height="592" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/01/vbals-autodoxer.png 1067w, https://krebsonsecurity.com/wp-content/uploads/2025/01/vbals-autodoxer-768x607.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/01/vbals-autodoxer-782x619.png 782w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-69998" class="wp-caption-text">One &#8220;autodoxer&#8221; service advertised on Telegram that promotes a range of voice phishing tools and services.</p></div>
-<p>Stotle said their autodoxer used a Telegram bot that leverages hacked accounts at consumer data brokers to gather a wealth of information about their targets, including their full Social Security number, date of birth, current and previous addresses, employer, and the names of family members.</p>
-<p>The autodoxers are used to verify that each email address on a target list has an active account at Coinbase or another cryptocurrency exchange, ensuring that the attackers don&#8217;t waste time calling people who have no cryptocurrency to steal.</p>
-<p>Some of these autodoxer tools also will check the value of the target&#8217;s home address at property search services online, and then sort the target lists so that the wealthiest are at the top.</p>
-<h2>CRYPTO THIEVES IN THE SHARK TANK</h2>
-<p>Stotle&#8217;s messages on Discord and Telegram show that a phishing group renting Perm&#8217;s panel voice-phished tens of thousands of dollars worth of cryptocurrency from the billionaire <strong>Mark Cuban</strong>.</p>
-<p>&#8220;I was an idiot,&#8221; Cuban told KrebsOnsecurity when asked about <a href="https://www.dallasnews.com/business/2024/06/23/mark-cubans-public-email-was-hacked-after-receiving-call-from-a-fake-google-rep/?outputType=amp" target="_blank" rel="noopener">the June 2024 attack</a>, which he first disclosed in a short-lived post on Twitter/X. &#8220;We were shooting Shark Tank and I was rushing between pitches.&#8221;</p>
-<div id="attachment_70008" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70008" decoding="async" loading="lazy" class=" wp-image-70008" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/sharktank.png" alt="" width="749" height="435" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/01/sharktank.png 780w, https://krebsonsecurity.com/wp-content/uploads/2025/01/sharktank-768x446.png 768w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-70008" class="wp-caption-text">Image: Shutterstock, ssi77.</p></div>
-<p>Cuban said he first received a notice from Google that someone had tried to log in to his account. Then he got a call from what appeared to be a Google phone number. Cuban said he ignored several of these emails and calls until he decided they probably wouldn&#8217;t stop unless he answered.</p>
-<p>&#8220;So I answered, and wasn&#8217;t paying enough attention,&#8221; he said. &#8220;They asked for the circled number that comes up on the screen. Like a moron, I gave it to them, and they were in.&#8221;</p>
-<p>Unfortunately for Cuban, somewhere in his inbox were the secret &#8220;seed phrases&#8221; protecting two of his cryptocurrency accounts, and armed with those credentials the crooks were able to drain his funds. All told, the thieves managed to steal roughly $43,000 worth of cryptocurrencies from Cuban&#8217;s wallets &#8212; a relatively small heist for this crew.</p>
-<p>&#8220;They must have done some keyword searches,&#8221; once inside his Gmail account, Cuban said. &#8220;I had sent myself an email I had forgotten about that had my seed words for 2 accounts that weren&#8217;t very active any longer. I had moved almost everything but some smaller balances to Coinbase.&#8221;</p>
-<h2>LIFE IS A GAME: MONEY IS HOW WE KEEP SCORE</h2>
-<p>Cybercriminals involved in voice phishing communities on Telegram are universally obsessed with their crypto holdings, mainly because in this community one&#8217;s demonstrable wealth is primarily what confers social status. It is not uncommon to see members sizing one another up using a verbal shorthand of &#8220;figs,&#8221; as in figures of crypto wealth.</p>
-<p>For example, a low-level caller with no experience will sometimes be mockingly referred to as a 3fig or 3f, as in a person with less than $1,000 to their name. Salaries for callers are often also referenced this way, e.g. &#8220;Weekly salary: 5f.&#8221;</p>
-<div id="attachment_70058" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70058" decoding="async" loading="lazy" class=" wp-image-70058" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/howitstartedhowitsgoing.png" alt="" width="749" height="416" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/01/howitstartedhowitsgoing.png 1265w, https://krebsonsecurity.com/wp-content/uploads/2025/01/howitstartedhowitsgoing-768x426.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/01/howitstartedhowitsgoing-782x434.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-70058" class="wp-caption-text">This meme shared by Stotle uses humor to depict an all-too-common pathway for voice phishing callers, who are often minors recruited from gaming networks like Minecraft and Roblox. The image that Lookout used in its blog post for Crypto Chameleon can be seen in the lower right hooded figure.</p></div>
-<p>Voice phishing groups frequently require new members to provide &#8220;proof of funds&#8221; &#8212; screenshots of their crypto holdings, ostensibly to demonstrate they are not penniless &#8212; before they&#8217;re allowed to join.</p>
-<p>This proof of funds (POF) demand is typical among thieves selling high-dollar items, because it tends to cut down on the time-wasting inquiries from criminals who can&#8217;t afford what&#8217;s for sale anyway. But it has become so common in cybercrime communities that there are now several services designed to create fake POF images and videos, allowing customers to brag about large crypto holdings without actually possessing said wealth.</p>
-<p>Several of the phishing panel videos shared by Stotle feature audio that suggests co-conspirators were practicing responses to certain call scenarios, while other members of the phishing group critiqued them or tried disrupt their social engineering by being verbally abusive.</p>
-<p>These groups will organize and operate for a few weeks, but tend to disintegrate when one member of the conspiracy decides to steal some or all of the loot, referred to in these communities as &#8220;snaking&#8221; others out of their agreed-upon sums. Almost invariably, the phishing groups will splinter apart over the drama caused by one of these snaking events, and individual members eventually will then re-form a new phishing group.</p>
-<p><strong>Allison Nixon</strong> is the chief research officer for <a href="https://www.unit221b.com" target="_blank" rel="noopener">Unit 221B</a>, a cybersecurity firm in New York that has worked on a number of investigations involving these voice phishing groups. Nixon said the constant snaking within the voice phishing circles points to a psychological self-selection phenomenon that is in desperate need of academic study.</p>
-<p>&#8220;In short, a person whose moral compass lets them rob old people will also be a bad business partner,&#8221; Nixon said. &#8220;This is another fundamental flaw in this ecosystem and why most groups end in betrayal. This structural problem is great for journalists and the police too. Lots of snitching.&#8221;</p>
-<h2>POINTS FOR BRAZENNESS</h2>
-<p>Asked about the size of Perm&#8217;s phishing enterprise, Stotle said there were dozens of distinct phishing groups paying to use Perm&#8217;s panel. He said each group was assigned their own subdomain on Perm&#8217;s main &#8220;command and control server,&#8221; which naturally uses the domain name <strong>commandandcontrolserver[.]com</strong>.</p>
-<p>A review of that domain&#8217;s history via <strong>DomainTools.com</strong> shows there are at least 57 separate subdomains scattered across commandandcontrolserver[.]com and two other related control domains &#8212; <strong>thebackendserver[.]com</strong> and <strong>lookoutsucks[.]com</strong>. That latter domain was created and deployed shortly after Lookout published its blog post on Crypto Chameleon.</p>
-<p>The <a href="https://urlscan.io/search/#page.url%3A%22captcha%3Forigin%3D%22" target="_blank" rel="noopener">dozens of phishing domains that phone home to these control servers</a> are all kept offline when they are not actively being used in phishing attacks. A social engineering training guide shared by Stotle explains this practice minimizes the chances that a phishing domain will get &#8220;redpaged,&#8221; a reference to the default red warning pages served by Google Chrome or Firefox whenever someone tries to visit a site that&#8217;s been flagged for phishing or distributing malware.</p>
-<p>What&#8217;s more, while the phishing sites are live their operators typically place a CAPTCHA challenge in front of the main page to prevent security services from scanning and flagging the sites as malicious.</p>
-<p>It may seem odd that so many cybercriminal groups operate so openly on instant collaboration networks like Telegram and Discord. After all, this blog is replete with stories about cybercriminals getting caught thanks to personal details they inadvertently leaked or disclosed themselves.</p>
-<p>Nixon said the relative openness of these cybercrime communities makes them inherently risky, but it also allows for the rapid formation and recruitment of new potential co-conspirators. Moreover, today&#8217;s English-speaking cybercriminals tend to be <a href="https://krebsonsecurity.com/2024/10/lamborghini-carjackers-lured-by-243m-cyberheist/" target="_blank" rel="noopener">more afraid of getting home invaded or mugged by fellow cyber thieves</a> than they are of being arrested by authorities.</p>
-<p>&#8220;The biggest structural threat to the online criminal ecosystem is not the police or researchers, it is fellow criminals,&#8221; Nixon said. &#8220;To protect them from themselves, every criminal forum and marketplace has a reputation system, even though they know it&#8217;s a major liability when the police come. That is why I am not worried as we see criminals migrate to various &#8216;encrypted&#8217; platforms that promise to ignore the police. To protect themselves better against the law, they have to ditch their protections against fellow criminals and that&#8217;s not going to happen.&#8221;</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/feed/</wfw:commentRss>
-			<slash:comments>39</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 278/278 objects using memcached
+Object Caching 262/262 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-02-11 23:00:48 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-02-11 23:59:10 by W3 Total Cache
 -->
