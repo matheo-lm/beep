@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 12 Feb 2025 14:01:55 EST</pubDate>
+        <pubDate>Wed, 12 Feb 2025 14:59:43 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Sarcoma ransomware claims breach at giant PCB maker Unimicron</title>
+        <link>https://www.bleepingcomputer.com/news/security/sarcoma-ransomware-claims-breach-at-giant-pcb-maker-unimicron/</link>
+        <pubDate>Wed, 12 Feb 2025 14:24:28 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sarcoma-ransomware-claims-breach-at-giant-pcb-maker-unimicron/</guid>
+	<description><![CDATA[A relatively new ransomware operation named 'Sarcoma' has claimed responsibility for an attack against the Unimicron printed circuit boards (PCB) maker in Taiwan. [...]]]></description>
+ </item>
+
  <item>
         <title>DPRK hackers dupe targets into typing PowerShell commands as admin</title>
         <link>https://www.bleepingcomputer.com/news/security/dprk-hackers-dupe-targets-into-typing-powershell-commands-as-admin/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-indicts-8base-ransomware-operators-for-phobos-encryption-attacks/</guid>
 	<description><![CDATA[The U.S. Justice Department announced the names of two Phobos ransomware affiliates arrested yesterday in Thailand, charging them on 11 counts due to their involvement in more than a thousand cyberattacks. [...]]]></description>
- </item>
-
- <item>
-        <title>US sanctions LockBit ransomware’s bulletproof hosting provider</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-sanctions-lockbit-ransomwares-bulletproof-hosting-provider/</link>
-        <pubDate>Tue, 11 Feb 2025 09:24:43 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-sanctions-lockbit-ransomwares-bulletproof-hosting-provider/</guid>
-	<description><![CDATA[​The United States, Australia, and the United Kingdom have sanctioned Zservers, a Russia-based bulletproof hosting (BPH) services provider, for supplying essential attack infrastructure for the LockBit ransomware gang. [...]]]></description>
  </item>
 
 </channel>
