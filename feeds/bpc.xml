@@ -11,11 +11,69 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 12 Feb 2025 12:02:01 EST</pubDate>
+        <pubDate>Wed, 12 Feb 2025 13:01:27 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ivanti fixes three critical flaws in Connect Secure &amp; Policy Secure</title>
+        <link>https://www.bleepingcomputer.com/news/security/ivanti-fixes-three-critical-flaws-in-connect-secure-and-policy-secure/</link>
+        <pubDate>Wed, 12 Feb 2025 12:26:14 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ivanti-fixes-three-critical-flaws-in-connect-secure-and-policy-secure/</guid>
+	<description><![CDATA[Ivanti has released security updates for Ivanti Connect Secure (ICS), Ivanti Policy Secure (IPS), and Ivanti Secure Access Client (ISAC) to address multiple vulnerabilities, including three critical severity problems. [...]]]></description>
+ </item>
+
+ <item>
+        <title>BadPilot network hacking campaign fuels Russian SandWorm attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/badpilot-network-hacking-campaign-fuels-russian-sandworm-attacks/</link>
+        <pubDate>Wed, 12 Feb 2025 12:00:00 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/badpilot-network-hacking-campaign-fuels-russian-sandworm-attacks/</guid>
+	<description><![CDATA[A subgroup of the Russian state-sponsored hacking group APT44, also known as 'Seashell Blizzard' and 'Sandworm', has been targeting critical organizations and governments in a multi-year campaign dubbed 'BadPilot.' [...]]]></description>
+ </item>
+
+ <item>
+        <title>Beyond VPN: How TruGrid Simplifies RDP Deployment, Security, and Compliance</title>
+        <link>https://www.bleepingcomputer.com/news/security/beyond-vpn-how-trugrid-simplifies-rdp-deployment-security-and-compliance/</link>
+        <pubDate>Wed, 12 Feb 2025 10:01:11 -0500</pubDate>
+        <dc:creator>Sponsored by TruGrid</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/beyond-vpn-how-trugrid-simplifies-rdp-deployment-security-and-compliance/</guid>
+	<description><![CDATA[Cloud-based RDP Remote Desktop Protocol solutions offer a centralized dashboard to manage user access, security policies, and monitor usage from one location. Learn more from TruGrid about how their SecureRDP platform provides a secure, scalable, and cost-efficient alternative to VPN-based RDP implementations. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Google fixes flaw that could unmask YouTube users' email addresses</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-fixes-flaw-that-could-unmask-youtube-users-email-addresses/</link>
+        <pubDate>Wed, 12 Feb 2025 06:00:00 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-fixes-flaw-that-could-unmask-youtube-users-email-addresses/</guid>
+	<description><![CDATA[Google has fixed two vulnerabilities that, when chained together, could expose the email addresses of YouTube accounts, causing a massive privacy breach for those using the site anonymously. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 10 KB5051974 update force installs new Microsoft Outlook app</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5051974-update-force-installs-new-microsoft-outlook-app/</link>
@@ -134,82 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-sanctions-lockbit-ransomwares-bulletproof-hosting-provider/</guid>
 	<description><![CDATA[​The United States, Australia, and the United Kingdom have sanctioned Zservers, a Russia-based bulletproof hosting (BPH) services provider, for supplying essential attack infrastructure for the LockBit ransomware gang. [...]]]></description>
- </item>
-
- <item>
-        <title>Over 12,000 KerioControl firewalls exposed to exploited RCE flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/over-12-000-keriocontrol-firewalls-exposed-to-exploited-rce-flaw/</link>
-        <pubDate>Mon, 10 Feb 2025 18:58:17 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/over-12-000-keriocontrol-firewalls-exposed-to-exploited-rce-flaw/</guid>
-	<description><![CDATA[Over twelve thousand GFI KerioControl firewall instances are exposed to a critical remote code execution vulnerability tracked as CVE-2024-52875. [...]]]></description>
- </item>
-
- <item>
-        <title>Sky ECC encrypted service distributors arrested in Spain, Netherlands</title>
-        <link>https://www.bleepingcomputer.com/news/legal/sky-ecc-encrypted-service-distributors-arrested-in-spain-netherlands/</link>
-        <pubDate>Mon, 10 Feb 2025 15:01:58 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/legal/sky-ecc-encrypted-service-distributors-arrested-in-spain-netherlands/</guid>
-	<description><![CDATA[Four distributors of the encrypted communications service Sky ECC, used extensively by criminals, were arrested in Spain and the Netherlands. [...]]]></description>
- </item>
-
- <item>
-        <title>Apple fixes zero-day exploited in 'extremely sophisticated' attacks</title>
-        <link>https://www.bleepingcomputer.com/news/apple/apple-fixes-zero-day-exploited-in-extremely-sophisticated-attacks/</link>
-        <pubDate>Mon, 10 Feb 2025 14:08:45 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Apple]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/apple/apple-fixes-zero-day-exploited-in-extremely-sophisticated-attacks/</guid>
-	<description><![CDATA[Apple has released emergency security updates to patch a zero-day vulnerability that the company says was exploited in targeted and "extremely sophisticated" attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Hacker pleads guilty to SIM swap attack on US SEC X account</title>
-        <link>https://www.bleepingcomputer.com/news/security/hacker-pleads-guilty-to-sim-swap-attack-on-us-sec-x-account/</link>
-        <pubDate>Mon, 10 Feb 2025 13:46:43 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hacker-pleads-guilty-to-sim-swap-attack-on-us-sec-x-account/</guid>
-	<description><![CDATA[Today, an Alabama man pleaded guilty to hijacking the U.S. Securities and Exchange Commission (SEC) account on X in a January 2024 SIM swapping attack. [...]]]></description>
- </item>
-
- <item>
-        <title>Police arrests 2 Phobos ransomware suspects, seizes 8Base sites</title>
-        <link>https://www.bleepingcomputer.com/news/legal/police-arrests-2-phobos-ransomware-suspects-seizes-8base-sites/</link>
-        <pubDate>Mon, 10 Feb 2025 11:51:03 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Legal]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/legal/police-arrests-2-phobos-ransomware-suspects-seizes-8base-sites/</guid>
-	<description><![CDATA[A global law enforcement operation targeting the Phobos ransomware gang has led to the arrest of two suspected hackers in Phuket, Thailand, and the seizure of 8Base's dark web sites. The suspects are accused of conducting cyberattacks on over 1,000 victims worldwide. [...]]]></description>
  </item>
 
 </channel>
