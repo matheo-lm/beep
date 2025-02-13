@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 13 Feb 2025 09:01:55 EST</pubDate>
+        <pubDate>Thu, 13 Feb 2025 10:02:07 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Chinese espionage tools deployed in RA World ransomware attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/chinese-espionage-tools-deployed-in-ra-world-ransomware-attack/</link>
+        <pubDate>Thu, 13 Feb 2025 09:31:54 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/chinese-espionage-tools-deployed-in-ra-world-ransomware-attack/</guid>
+	<description><![CDATA[A China-based threat actor, tracked as Emperor Dragonfly and commonly associated with cybercriminal endeavors, has been observed using in a ransomware attack a toolset previously attributed to espionage actors. [...]]]></description>
+ </item>
+
  <item>
         <title>zkLend loses $9.5M in crypto heist, asks hacker to return 90%</title>
         <link>https://www.bleepingcomputer.com/news/cryptocurrency/zklend-loses-95m-in-crypto-heist-asks-hacker-to-return-90-percent/</link>
@@ -174,38 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fortinet-discloses-second-firewall-auth-bypass-patched-in-january/</guid>
 	<description><![CDATA[Fortinet has disclosed a second authentication bypass vulnerability that was fixed as part of a January 2025 update for FortiOS and FortiProxy devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 KB5051987 &amp; KB5051989 cumulative updates released</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5051987-and-kb5051989-cumulative-updates-released/</link>
-        <pubDate>Tue, 11 Feb 2025 13:53:19 -0500</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5051987-and-kb5051989-cumulative-updates-released/</guid>
-	<description><![CDATA[Microsoft has released Windows 11 KB5051987 and KB5051989 cumulative updates for versions 24H2 and 23H2 to fix security vulnerabilities and issues. [...]]]></description>
- </item>
-
- <item>
-        <title>Russian military hackers deploy malicious Windows activators in Ukraine</title>
-        <link>https://www.bleepingcomputer.com/news/security/russian-military-hackers-deploy-malicious-windows-activators-in-ukraine/</link>
-        <pubDate>Tue, 11 Feb 2025 11:44:59 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/russian-military-hackers-deploy-malicious-windows-activators-in-ukraine/</guid>
-	<description><![CDATA[The Sandworm Russian military cyber-espionage group is targeting Windows users in Ukraine with trojanized Microsoft Key Management Service (KMS) activators and fake Windows updates. [...]]]></description>
  </item>
 
 </channel>
