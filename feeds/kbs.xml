@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 12 Feb 2025 04:58:37 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 13 Feb 2025 20:14:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,49 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Nearly a Year Later, Mozilla is Still Promoting OneRep</title>
+		<link>https://krebsonsecurity.com/2025/02/nearly-a-year-later-mozilla-is-still-promoting-onerep/</link>
+					<comments>https://krebsonsecurity.com/2025/02/nearly-a-year-later-mozilla-is-still-promoting-onerep/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Thu, 13 Feb 2025 20:14:47 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Dimitiri Shelest]]></category>
+		<category><![CDATA[firefox]]></category>
+		<category><![CDATA[Mozilla]]></category>
+		<category><![CDATA[Mozilla Monitor Plus]]></category>
+		<category><![CDATA[Nuwber]]></category>
+		<category><![CDATA[OneRep]]></category>
+		<category><![CDATA[Radaris]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70392</guid>
+
+					<description><![CDATA[In mid-March 2024, KrebsOnSecurity revealed that the founder of the personal data removal service Onerep also founded dozens of people-search companies. Shortly after that investigation was published, Mozilla said it would stop bundling Onerep with the Firefox browser and wind down its partnership. But nearly a year later, Mozilla is still promoting it to Firefox users.]]></description>
+										<content:encoded><![CDATA[<p>In mid-March 2024, KrebsOnSecurity revealed that the founder of the personal data removal service <strong>Onerep</strong> also founded dozens of people-search companies. Shortly after that investigation was published, <strong>Mozilla</strong> said it would stop bundling Onerep with the <strong>Firefox</strong> browser and wind down its partnership with the company. But nearly a year later, Mozilla is still promoting it to Firefox users.</p>
+<p>Mozilla offers Onerep to Firefox users on a subscription basis as part of <a href="https://www.mozilla.org/en-US/about/legal/terms/subscription-services/" target="_blank" rel="noopener">Mozilla Monitor Plus</a>. Launched in 2018 under the name <a href="https://en.wikipedia.org/wiki/Firefox_Monitor" target="_blank" rel="noopener">Firefox Monitor</a>, Mozilla Monitor also checks data from the website <a href="https://haveibeenpwned.com/" target="_blank" rel="noopener">Have I Been Pwned?</a> to let users know when their email addresses or password are leaked in data breaches.</p>
+<p>The ink on that partnership agreement had barely dried before KrebsOnSecurity <a href="https://krebsonsecurity.com/2024/03/ceo-of-data-privacy-company-onerep-com-founded-dozens-of-people-search-firms/" target="_blank" rel="noopener">published a story</a> showing that Onerep’s Belarusian CEO and founder <strong>Dimitiri Shelest</strong> launched dozens of people-search services since 2010, including a still-active data broker called <strong>Nuwber</strong> that sells background reports on people. This seemed to contradict Onerep&#8217;s stated motto, &#8220;We believe that no one should compromise personal online security and get a profit from it.”</p>
+<p>Shelest released <a href="https://krebsonsecurity.com/wp-content/uploads/2024/03/Dimitri-Shelest-Letter-_-Comment-on-Krebs-article-3.20.24-1.pdf" target="_blank" rel="noopener">a lengthy statement</a> (PDF) wherein he acknowledged maintaining an ownership stake in <strong>Nuwber</strong>, a consumer data broker he founded in 2015 — around the same time he started Onerep.</p>
+<div id="attachment_66783" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-66783" decoding="async" class=" wp-image-66783" src="https://krebsonsecurity.com/wp-content/uploads/2024/03/onerep-shellest.png" alt="" width="750" height="439" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/03/onerep-shellest.png 1275w, https://krebsonsecurity.com/wp-content/uploads/2024/03/onerep-shellest-768x450.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/03/onerep-shellest-782x458.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-66783" class="wp-caption-text">Onerep.com CEO and founder Dimitri Shelest, as pictured on the &#8220;about&#8221; page of onerep.com.</p></div>
+<p>Shelest maintained that Nuwber has “zero cross-over or information-sharing with Onerep,” and said any other old domains that may be found and associated with his name are no longer being operated by him.</p>
+<p>“I get it,” Shelest wrote. “My affiliation with a people search business may look odd from the outside. In truth, if I hadn’t taken that initial path with a deep dive into how people search sites work, Onerep wouldn’t have the best tech and team in the space. Still, I now appreciate that we did not make this more clear in the past and I’m aiming to do better in the future.”</p>
+<p>When asked to comment on the findings, Mozilla said then that although customer data was never at risk, the outside financial interests and activities of Onerep&#8217;s CEO did not align with their values.</p>
+<p>&#8220;We&#8217;re working now to solidify a transition plan that will provide customers with a seamless experience and will continue to put their interests first,&#8221; Mozilla <a href="https://krebsonsecurity.com/2024/03/mozilla-drops-onerep-after-ceo-admits-to-running-people-search-networks/" target="_blank" rel="noopener">said</a>.</p>
+<p>In October 2024, Mozilla published a statement saying the search for a different provider was taking longer than anticipated.</p>
+<p>&#8220;While we continue to evaluate vendors, finding a technically excellent and values-aligned partner takes time,&#8221; Mozilla <a href="https://support.mozilla.org/en-US/kb/securing-new-partner-monitor-plus" target="_blank" rel="noopener">wrote</a>. &#8220;While we continue this search, Onerep will remain the backend provider, ensuring that we can maintain uninterrupted services while we continue evaluating new potential partners that align more closely with Mozilla’s values and user expectations. We are conducting thorough diligence to find the right vendor.&#8221;</p>
+<p>Asked for an update, Mozilla said the search for a replacement partner continues.</p>
+<p>&#8220;The work’s ongoing but we haven’t found the right alternative yet,&#8221; Mozilla said in an emailed statement. &#8220;Our customers’ data remains safe, and since the product provides a lot of value to our subscribers, we’ll continue to offer it during this process.”</p>
+<p>It&#8217;s a win-win for Mozilla that they&#8217;ve received accolades for their principled response while continuing to partner with Onerep almost a year later. But if it takes so long to find a suitable replacement, what does that say about the personal data removal industry itself?<span id="more-70392"></span></p>
+<p>Onerep appears to be working in partnership with another problematic people-search service: <strong>Radaris</strong>, which has a history of ignoring opt-out requests or failing to honor them. A week before breaking the story about Onerep, KrebsOnSecurity <a href="https://krebsonsecurity.com/2024/03/a-close-up-look-at-the-consumer-data-broker-radaris/" target="_blank" rel="noopener">published research</a> showing the co-founders of Radaris were two native Russian brothers who&#8217;d built a vast network of affiliate marketing programs and consumer data broker services.</p>
+<p>Lawyers for the Radaris co-founders threatened to sue KrebsOnSecurity unless that story was retracted in full, claiming the founders were in fact Ukrainian and that our reporting had defamed the brothers by associating them with the actions of Radaris. Instead, we published <a href="https://krebsonsecurity.com/2024/06/krebsonsecurity-threatened-with-defamation-lawsuit-over-fake-radaris-ceo/" target="_blank" rel="noopener">a follow-up investigation</a> which showed that not only did the brothers from Russia create Radaris, for many years they issued press releases quoting a fictitious CEO seeking money from investors.</p>
+<p>Several readers have shared emails they received from Radaris after attempting to remove their personal data, and those messages show Radaris has been promoting Onerep.</p>
+<div id="attachment_70413" style="width: 760px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/02/onerep-radaris-email.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-70413" decoding="async" loading="lazy" class="wp-image-70413" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/onerep-radaris-email.png" alt="" width="750" height="316" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/02/onerep-radaris-email.png 1402w, https://krebsonsecurity.com/wp-content/uploads/2025/02/onerep-radaris-email-768x324.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/02/onerep-radaris-email-782x330.png 782w" sizes="(max-width: 750px) 100vw, 750px" /></a><p id="caption-attachment-70413" class="wp-caption-text">An email from Radaris promoting Onerep.</p></div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/02/nearly-a-year-later-mozilla-is-still-promoting-onerep/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Microsoft Patch Tuesday, February 2025 Edition</title>
 		<link>https://krebsonsecurity.com/2025/02/microsoft-patch-tuesday-february-2025-edition/</link>
 					<comments>https://krebsonsecurity.com/2025/02/microsoft-patch-tuesday-february-2025-edition/#comments</comments>
@@ -46,7 +89,7 @@
 
 					<description><![CDATA[Microsoft today issued security updates to fix at least 56 vulnerabilities in its Windows operating systems and supported software, including two zero-day flaws that are being actively exploited.]]></description>
 										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today issued security updates to fix at least 56 vulnerabilities in its Windows operating systems and supported software, including two zero-day flaws that are being actively exploited.</p>
-<p><img decoding="async" class="aligncenter  wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="749" height="527" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter  wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="749" height="527" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /></p>
 <p>All supported Windows operating systems will receive an update this month for a buffer overflow vulnerability that carries the catchy name <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21418" target="_blank" rel="noopener">CVE-2025-21418</a>. This patch should be a priority for enterprises, as Microsoft says it is being exploited, has low attack complexity, and no requirements for user interaction.</p>
 <p><strong>Tenable</strong> senior staff research engineer <strong>Satnam Narang</strong> noted that since 2022, there have been nine elevation of privilege vulnerabilities in this same Windows component &#8212; three each year &#8212; including one in 2024 that was exploited in the wild as a zero day (CVE-2024-38193).</p>
 <p>&#8220;CVE-2024-38193 was exploited by the North Korean APT group known as Lazarus Group to implant a new version of the FudModule rootkit in order to maintain persistence and stealth on compromised systems,&#8221; Narang said. &#8220;At this time, it is unclear if CVE-2025-21418 was also exploited by Lazarus Group.&#8221;</p>
@@ -636,75 +679,15 @@
 		
 		
 			</item>
-		<item>
-		<title>Microsoft: Happy 2025. Here&#8217;s 161 Security Updates</title>
-		<link>https://krebsonsecurity.com/2025/01/microsoft-happy-2025-heres-161-security-updates/</link>
-					<comments>https://krebsonsecurity.com/2025/01/microsoft-happy-2025-heres-161-security-updates/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Tue, 14 Jan 2025 22:50:00 +0000</pubDate>
-				<category><![CDATA[Latest Warnings]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[Time to Patch]]></category>
-		<category><![CDATA[Adam Barnett]]></category>
-		<category><![CDATA[Ben Hopkins]]></category>
-		<category><![CDATA[Bitlocker]]></category>
-		<category><![CDATA[CVE-2024-49142]]></category>
-		<category><![CDATA[CVE-2025-21186]]></category>
-		<category><![CDATA[CVE-2025-21210]]></category>
-		<category><![CDATA[CVE-2025-21298]]></category>
-		<category><![CDATA[CVE-2025-21311]]></category>
-		<category><![CDATA[CVE-2025-21333]]></category>
-		<category><![CDATA[CVE-2025-21334]]></category>
-		<category><![CDATA[CVE-2025-21335]]></category>
-		<category><![CDATA[CVE-2025-21366]]></category>
-		<category><![CDATA[CVE-2025-21395]]></category>
-		<category><![CDATA[Kev Breen]]></category>
-		<category><![CDATA[Microsoft Access]]></category>
-		<category><![CDATA[Microsoft Patch Tuesday January 2025]]></category>
-		<category><![CDATA[Rapid7]]></category>
-		<category><![CDATA[Satnam Narang]]></category>
-		<category><![CDATA[unpatched.ai]]></category>
-		<category><![CDATA[Windows 11]]></category>
-		<category><![CDATA[Windows Hyper-V]]></category>
-		<category><![CDATA[Windows NTLMv1]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70070</guid>
-
-					<description><![CDATA[Microsoft today unleashed updates to plug a whopping 161 security vulnerabilities in Windows and related software, including three "zero-day" weaknesses that are already under active attack. Redmond's inaugural Patch Tuesday of 2025 bundles more fixes than the company has shipped in one go since 2017.]]></description>
-										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today unleashed updates to plug a whopping 161 security vulnerabilities in <strong>Windows</strong> and related software, including three &#8220;zero-day&#8221; weaknesses that are already under active attack. Redmond&#8217;s inaugural Patch Tuesday of 2025 bundles more fixes than the company has shipped in one go since 2017.</p>
-<p><img decoding="async" loading="lazy" class="aligncenter wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
-<p><strong>Rapid7</strong>&#8216;s <strong>Adam Barnett</strong> says January marks the fourth consecutive month where Microsoft has published zero-day vulnerabilities on Patch Tuesday without evaluating any of them as critical severity at time of publication. Today also saw the publication of nine critical remote code execution (RCE) vulnerabilities.</p>
-<p>The Microsoft flaws already seeing active attacks include <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21333" target="_blank" rel="noopener">CVE-2025-21333</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21334" target="_blank" rel="noopener">CVE-2025-21334</a> and, you guessed it&#8211; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21335" target="_blank" rel="noopener">CVE-2025-21335</a>. These are sequential because all reside in <strong>Windows Hyper-V</strong>, a component that is heavily embedded in modern <strong>Windows 11</strong> operating systems and used for security features including device guard and credential guard.</p>
-<p>Tenable&#8217;s <strong>Satnam Narang</strong> says little is known about the in-the-wild exploitation of these flaws, apart from the fact that they are all &#8220;privilege escalation&#8221; vulnerabilities. Narang said we tend to see a lot of elevation of privilege bugs exploited in the wild as zero-days in Patch Tuesday because it&#8217;s not always initial access to a system that&#8217;s a challenge for attackers as they have various avenues in their pursuit.</p>
-<p>&#8220;As elevation of privilege bugs, they’re being used as part of post-compromise activity, where an attacker has already accessed a target system,&#8221; he said. &#8220;It&#8217;s kind of like if an attacker is able to enter a secure building, they’re unable to access more secure parts of the facility because they have to prove that they have clearance. In this case, they’re able to trick the system into believing they should have clearance.&#8221;<span id="more-70070"></span></p>
-<p>Several bugs addressed today earned CVSS (threat rating) scores of 9.8 out of a possible 10, including <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21298" target="_blank" rel="noopener">CVE-2025-21298</a>, a weakness in Windows that could allow attackers to run arbitrary code by getting a target to open a malicious <strong>.rtf</strong> file, documents typically opened on Office applications like Microsoft Word. Microsoft has rated this flaw &#8220;exploitation more likely.&#8221;</p>
-<p><strong>Ben Hopkins</strong> at <strong>Immersive Labs</strong> called attention to the <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21311" target="_blank" rel="noopener">CVE-2025-21311</a>, a 9.8 &#8220;critical&#8221; bug in <strong>Windows NTLMv1</strong> (NT LAN Manager version 1), an older Microsoft authentication protocol that is still used by many organizations.</p>
-<p>&#8220;What makes this vulnerability so impactful is the fact that it is remotely exploitable, so attackers can reach the compromised machine(s) over the internet, and the attacker does not need significant knowledge or skills to achieve repeatable success with the same payload across any vulnerable component,&#8221; Hopkins wrote.</p>
-<p><strong>Kev Breen</strong> at Immersive points to an interesting flaw (<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21210" target="_blank" rel="noopener">CVE-2025-21210</a>) that Microsoft fixed in its full disk encryption suite <strong>Bitlocker</strong> that the software giant has dubbed &#8220;exploitation more likely.&#8221; Specifically, this bug holds out the possibility that in some situations the hibernation image created when one closes the laptop lid on an open Windows session may not be fully encrypted and could be recovered in plain text.</p>
-<p>&#8220;Hibernation images are used when a laptop goes to sleep and contains the contents that were stored in RAM at the moment the device powered down,&#8221; Breen noted. &#8220;This presents a significant potential impact as RAM can contain sensitive data (such as passwords, credentials and PII) that may have been in open documents or browser sessions and can all be recovered with free tools from hibernation files.&#8221;</p>
-<p>Tenable&#8217;s Narang also highlighted a trio of vulnerabilities in <strong>Microsoft Access</strong> fixed this month and credited to Unpatched.ai, a security research effort that is aided by artificial intelligence looking for vulnerabilities in code. Tracked as <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21186" target="_blank" rel="noopener">CVE-2025-21186</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21366" target="_blank" rel="noopener">CVE-2025-21366</a>, and <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21395" target="_blank" rel="noopener">CVE-2025-21395</a>, these are remote code execution bugs that are exploitable if an attacker convinces a target to download and run a malicious file through social engineering. Unpatched.ai was also credited with discovering a flaw in the December 2024 Patch Tuesday release (<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-49142" target="_blank" rel="noopener">CVE-2024-49142</a>).</p>
-<p>&#8220;Automated vulnerability detection using AI has garnered a lot of attention recently, so it’s noteworthy to see this service being credited with finding bugs in Microsoft products,&#8221; Narang observed. &#8220;It may be the first of many in 2025.&#8221;</p>
-<p>If you&#8217;re a Windows user who has automatic updates turned off and haven&#8217;t updated in a while, it&#8217;s probably time to play catch up. Please consider backing up important files and/or the entire hard drive before updating. And if you run into any problems installing this month&#8217;s patch batch, drop a line in the comments below, please.</p>
-<p>Further reading on today&#8217;s patches from Microsoft:</p>
-<p><a href="https://www.tenable.com/blog/microsofts-january-2025-patch-tuesday-157-cves-cve-2025-21333-cve-2025-21334-cve-2025-21335" target="_blank" rel="noopener">Tenable blog</a></p>
-<p><a href="https://isc.sans.edu/forums/diary/Microsoft%20January%202025%20Patch%20Tuesday/31590/" target="_blank" rel="noopener">SANS Internet Storm Center</a></p>
-<p><a href="https://www.askwoody.com" target="_blank" rel="noopener">Ask Woody</a></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/01/microsoft-happy-2025-heres-161-security-updates/feed/</wfw:commentRss>
-			<slash:comments>27</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 262/262 objects using memcached
-Page Caching using memcached 
+Object Caching 253/253 objects using memcached
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-02-13 14:59:41 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-02-13 16:00:08 by W3 Total Cache
 -->
