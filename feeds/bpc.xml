@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 13 Feb 2025 11:58:14 EST</pubDate>
+        <pubDate>Thu, 13 Feb 2025 12:59:45 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hacker leaks account data of 12 million Zacks Investment users</title>
+        <link>https://www.bleepingcomputer.com/news/security/hacker-leaks-account-data-of-12-million-zacks-investment-users/</link>
+        <pubDate>Thu, 13 Feb 2025 12:39:36 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hacker-leaks-account-data-of-12-million-zacks-investment-users/</guid>
+	<description><![CDATA[Zacks Investment Research (Zacks) last year reportedly suffered another data breach that exposed sensitive information related to roughly 12 million accounts. [...]]]></description>
+ </item>
+
  <item>
         <title>Chinese espionage tools deployed in RA World ransomware attack</title>
         <link>https://www.bleepingcomputer.com/news/security/chinese-espionage-tools-deployed-in-ra-world-ransomware-attack/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-february-2025-patch-tuesday-fixes-4-zero-days-55-flaws/</guid>
 	<description><![CDATA[Today is Microsoft's February 2025 Patch Tuesday, which includes security updates for 55 flaws, including four zero-day vulnerabilities, with two actively exploited in attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Fortinet discloses second firewall auth bypass patched in January</title>
-        <link>https://www.bleepingcomputer.com/news/security/fortinet-discloses-second-firewall-auth-bypass-patched-in-january/</link>
-        <pubDate>Tue, 11 Feb 2025 13:56:13 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fortinet-discloses-second-firewall-auth-bypass-patched-in-january/</guid>
-	<description><![CDATA[Fortinet has disclosed a second authentication bypass vulnerability that was fixed as part of a January 2025 update for FortiOS and FortiProxy devices. [...]]]></description>
  </item>
 
 </channel>
