@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 12 Feb 2025 18:00:56 EST</pubDate>
+        <pubDate>Wed, 12 Feb 2025 19:08:34 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>zkLend loses $9.5M in crypto heist, asks hacker to return 90%</title>
+        <link>https://www.bleepingcomputer.com/news/cryptocurrency/zklend-loses-95m-in-crypto-heist-asks-hacker-to-return-90-percent/</link>
+        <pubDate>Wed, 12 Feb 2025 18:08:09 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[CryptoCurrency]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/cryptocurrency/zklend-loses-95m-in-crypto-heist-asks-hacker-to-return-90-percent/</guid>
+	<description><![CDATA[Decentralized money lender zkLend suffered a breach where threat actors exploited a smart contract flaw to steal 3,600 Ethereum, worth $9.5 million at the time. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Surge in attacks exploiting old ThinkPHP and ownCloud flaws</title>
+        <link>https://www.bleepingcomputer.com/news/security/surge-in-attacks-exploiting-old-thinkphp-and-owncloud-flaws/</link>
+        <pubDate>Wed, 12 Feb 2025 18:04:03 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/surge-in-attacks-exploiting-old-thinkphp-and-owncloud-flaws/</guid>
+	<description><![CDATA[Increased hacker activity has been observed in attempts to compromise poorly maintained devices that are vulnerable to older security issues from 2022 and 2023. [...]]]></description>
+ </item>
+
  <item>
         <title>Sarcoma ransomware claims breach at giant PCB maker Unimicron</title>
         <link>https://www.bleepingcomputer.com/news/security/sarcoma-ransomware-claims-breach-at-giant-pcb-maker-unimicron/</link>
@@ -176,36 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/russian-military-hackers-deploy-malicious-windows-activators-in-ukraine/</guid>
 	<description><![CDATA[The Sandworm Russian military cyber-espionage group is targeting Windows users in Ukraine with trojanized Microsoft Key Management Service (KMS) activators and fake Windows updates. [...]]]></description>
- </item>
-
- <item>
-        <title>SonicWall firewall exploit lets hackers hijack VPN sessions, patch now</title>
-        <link>https://www.bleepingcomputer.com/news/security/sonicwall-firewall-exploit-lets-hackers-hijack-vpn-sessions-patch-now/</link>
-        <pubDate>Tue, 11 Feb 2025 10:56:34 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-firewall-exploit-lets-hackers-hijack-vpn-sessions-patch-now/</guid>
-	<description><![CDATA[Security researchers at Bishop Fox have published complete exploitation details for the CVE-2024-53704 vulnerability that allows bypassing the authentication mechanism in certain versions of the SonicOS SSLVPN application. [...]]]></description>
- </item>
-
- <item>
-        <title>US indicts 8Base ransomware operators for Phobos encryption attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-indicts-8base-ransomware-operators-for-phobos-encryption-attacks/</link>
-        <pubDate>Tue, 11 Feb 2025 10:42:16 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-indicts-8base-ransomware-operators-for-phobos-encryption-attacks/</guid>
-	<description><![CDATA[The U.S. Justice Department announced the names of two Phobos ransomware affiliates arrested yesterday in Thailand, charging them on 11 counts due to their involvement in more than a thousand cyberattacks. [...]]]></description>
  </item>
 
 </channel>
