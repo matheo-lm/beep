@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 13 Feb 2025 17:58:37 EST</pubDate>
+        <pubDate>Thu, 13 Feb 2025 19:11:01 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>whoAMI attacks give hackers code execution on Amazon EC2 instances</title>
+        <link>https://www.bleepingcomputer.com/news/security/whoami-attacks-give-hackers-code-execution-on-amazon-ec2-instances/</link>
+        <pubDate>Thu, 13 Feb 2025 18:35:26 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Cloud]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/whoami-attacks-give-hackers-code-execution-on-amazon-ec2-instances/</guid>
+	<description><![CDATA[Security researchers discovered a name confusion attack that allows access to an Amazon Web Services account to anyone that publishes an Amazon Machine Image (AMI) with a specific name. [...]]]></description>
+ </item>
+
  <item>
         <title>Dutch Police seizes 127 XHost servers, dismantles bulletproof hoster</title>
         <link>https://www.bleepingcomputer.com/news/legal/dutch-police-seizes-127-xhost-servers-dismantles-bulletproof-hoster/</link>
@@ -172,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-fixes-flaw-that-could-unmask-youtube-users-email-addresses/</guid>
 	<description><![CDATA[Google has fixed two vulnerabilities that, when chained together, could expose the email addresses of YouTube accounts, causing a massive privacy breach for those using the site anonymously. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 10 KB5051974 update force installs new Microsoft Outlook app</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5051974-update-force-installs-new-microsoft-outlook-app/</link>
-        <pubDate>Tue, 11 Feb 2025 14:32:57 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5051974-update-force-installs-new-microsoft-outlook-app/</guid>
-	<description><![CDATA[Microsoft has released the KB5051974 cumulative update for Windows 10 22H2 and Windows 10 21H2, which automatically installs the new Outlook for Windows app and fixes a memory leak bug. [...]]]></description>
  </item>
 
 </channel>
