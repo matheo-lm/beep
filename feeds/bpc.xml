@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 14 Feb 2025 09:02:35 EST</pubDate>
+        <pubDate>Fri, 14 Feb 2025 10:01:00 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>PostgreSQL flaw exploited as zero-day in BeyondTrust breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/postgresql-flaw-exploited-as-zero-day-in-beyondtrust-breach/</link>
+        <pubDate>Fri, 14 Feb 2025 09:15:47 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/postgresql-flaw-exploited-as-zero-day-in-beyondtrust-breach/</guid>
+	<description><![CDATA[​Rapid7's vulnerability research team says attackers exploited a PostgreSQL security flaw as a zero-day to breach the network of privileged access management company BeyondTrust in December. [...]]]></description>
+ </item>
+
  <item>
         <title>Chinese hackers breach more US telecoms via unpatched Cisco routers</title>
         <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-more-us-telecoms-via-unpatched-cisco-routers/</link>
@@ -172,20 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ivanti-fixes-three-critical-flaws-in-connect-secure-and-policy-secure/</guid>
 	<description><![CDATA[Ivanti has released security updates for Ivanti Connect Secure (ICS), Ivanti Policy Secure (IPS), and Ivanti Secure Access Client (ISAC) to address multiple vulnerabilities, including three critical severity problems. [...]]]></description>
- </item>
-
- <item>
-        <title>BadPilot network hacking campaign fuels Russian SandWorm attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/badpilot-network-hacking-campaign-fuels-russian-sandworm-attacks/</link>
-        <pubDate>Wed, 12 Feb 2025 12:00:00 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/badpilot-network-hacking-campaign-fuels-russian-sandworm-attacks/</guid>
-	<description><![CDATA[A subgroup of the Russian state-sponsored hacking group APT44, also known as 'Seashell Blizzard' and 'Sandworm', has been targeting critical organizations and governments in a multi-year campaign dubbed 'BadPilot.' [...]]]></description>
  </item>
 
 </channel>
