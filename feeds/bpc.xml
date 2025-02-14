@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 14 Feb 2025 07:03:31 EST</pubDate>
+        <pubDate>Fri, 14 Feb 2025 08:01:50 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Chinese hackers breach more US telecoms via unpatched Cisco routers</title>
+        <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-more-us-telecoms-via-unpatched-cisco-routers/</link>
+        <pubDate>Fri, 14 Feb 2025 07:56:41 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-more-us-telecoms-via-unpatched-cisco-routers/</guid>
+	<description><![CDATA[China's Salt Typhoon hackers are still actively targeting telecoms worldwide and have breached more U.S. telecommunications providers via unpatched Cisco IOS XE network devices. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes bug causing Windows Server 2025 boot errors</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-server-2025-boot-errors/</link>
@@ -172,20 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/badpilot-network-hacking-campaign-fuels-russian-sandworm-attacks/</guid>
 	<description><![CDATA[A subgroup of the Russian state-sponsored hacking group APT44, also known as 'Seashell Blizzard' and 'Sandworm', has been targeting critical organizations and governments in a multi-year campaign dubbed 'BadPilot.' [...]]]></description>
- </item>
-
- <item>
-        <title>Beyond VPN: How TruGrid Simplifies RDP Deployment, Security, and Compliance</title>
-        <link>https://www.bleepingcomputer.com/news/security/beyond-vpn-how-trugrid-simplifies-rdp-deployment-security-and-compliance/</link>
-        <pubDate>Wed, 12 Feb 2025 10:01:11 -0500</pubDate>
-        <dc:creator>Sponsored by TruGrid</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/beyond-vpn-how-trugrid-simplifies-rdp-deployment-security-and-compliance/</guid>
-	<description><![CDATA[Cloud-based RDP Remote Desktop Protocol solutions offer a centralized dashboard to manage user access, security policies, and monitor usage from one location. Learn more from TruGrid about how their SecureRDP platform provides a secure, scalable, and cost-efficient alternative to VPN-based RDP implementations. [...]]]></description>
  </item>
 
 </channel>
