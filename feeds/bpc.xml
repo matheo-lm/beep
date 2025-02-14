@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 14 Feb 2025 16:01:31 EST</pubDate>
+        <pubDate>Fri, 14 Feb 2025 17:00:31 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers exploit authentication bypass in Palo Alto Networks PAN-OS</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-authentication-bypass-in-palo-alto-networks-pan-os/</link>
+        <pubDate>Fri, 14 Feb 2025 16:20:08 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-authentication-bypass-in-palo-alto-networks-pan-os/</guid>
+	<description><![CDATA[Hackers are launching attacks against Palo Alto Networks PAN-OS firewalls by exploiting a recently fixed vulnerability (CVE-2025-0108) that allows bypassing authentication. [...]]]></description>
+ </item>
+
  <item>
         <title>SonicWall firewall bug leveraged in attacks after PoC exploit release</title>
         <link>https://www.bleepingcomputer.com/news/security/sonicwall-firewall-bug-leveraged-in-attacks-after-poc-exploit-release/</link>
@@ -160,34 +174,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/cryptocurrency/zklend-loses-95m-in-crypto-heist-asks-hacker-to-return-90-percent/</guid>
 	<description><![CDATA[Decentralized money lender zkLend suffered a breach where threat actors exploited a smart contract flaw to steal 3,600 Ethereum, worth $9.5 million at the time. [...]]]></description>
- </item>
-
- <item>
-        <title>Surge in attacks exploiting old ThinkPHP and ownCloud flaws</title>
-        <link>https://www.bleepingcomputer.com/news/security/surge-in-attacks-exploiting-old-thinkphp-and-owncloud-flaws/</link>
-        <pubDate>Wed, 12 Feb 2025 18:04:03 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/surge-in-attacks-exploiting-old-thinkphp-and-owncloud-flaws/</guid>
-	<description><![CDATA[Increased hacker activity has been observed in attempts to compromise poorly maintained devices that are vulnerable to older security issues from 2022 and 2023. [...]]]></description>
- </item>
-
- <item>
-        <title>Sarcoma ransomware claims breach at giant PCB maker Unimicron</title>
-        <link>https://www.bleepingcomputer.com/news/security/sarcoma-ransomware-claims-breach-at-giant-pcb-maker-unimicron/</link>
-        <pubDate>Wed, 12 Feb 2025 14:24:28 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sarcoma-ransomware-claims-breach-at-giant-pcb-maker-unimicron/</guid>
-	<description><![CDATA[A relatively new ransomware operation named 'Sarcoma' has claimed responsibility for an attack against the Unimicron printed circuit boards (PCB) maker in Taiwan. [...]]]></description>
  </item>
 
 </channel>
