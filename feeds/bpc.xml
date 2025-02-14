@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 14 Feb 2025 11:58:19 EST</pubDate>
+        <pubDate>Fri, 14 Feb 2025 13:02:52 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Malicious PirateFi game infects Steam users with Vidar malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-piratefi-game-infects-steam-users-with-vidar-malware/</link>
+        <pubDate>Fri, 14 Feb 2025 12:32:32 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Gaming]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-piratefi-game-infects-steam-users-with-vidar-malware/</guid>
+	<description><![CDATA[A free-to-play game named PirateFi in the Steam store has been distributing the Vidar infostealing malware to unsuspecting users. [...]]]></description>
+ </item>
+
  <item>
         <title>PostgreSQL flaw exploited as zero-day in BeyondTrust breach</title>
         <link>https://www.bleepingcomputer.com/news/security/postgresql-flaw-exploited-as-zero-day-in-beyondtrust-breach/</link>
@@ -172,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/dprk-hackers-dupe-targets-into-typing-powershell-commands-as-admin/</guid>
 	<description><![CDATA[North Korean state actor 'Kimsuky' (aka 'Emerald Sleet' or 'Velvet Chollima') has been observed using a new tactic inspired from the now widespread ClickFix campaigns. [...]]]></description>
- </item>
-
- <item>
-        <title>Ivanti fixes three critical flaws in Connect Secure &amp; Policy Secure</title>
-        <link>https://www.bleepingcomputer.com/news/security/ivanti-fixes-three-critical-flaws-in-connect-secure-and-policy-secure/</link>
-        <pubDate>Wed, 12 Feb 2025 12:26:14 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ivanti-fixes-three-critical-flaws-in-connect-secure-and-policy-secure/</guid>
-	<description><![CDATA[Ivanti has released security updates for Ivanti Connect Secure (ICS), Ivanti Policy Secure (IPS), and Ivanti Secure Access Client (ISAC) to address multiple vulnerabilities, including three critical severity problems. [...]]]></description>
  </item>
 
 </channel>
