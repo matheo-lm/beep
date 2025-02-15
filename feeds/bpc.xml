@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 15 Feb 2025 10:00:31 EST</pubDate>
+        <pubDate>Sat, 15 Feb 2025 10:58:04 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: Hackers steal emails in device code phishing attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-hackers-steal-emails-in-device-code-phishing-attacks/</link>
+        <pubDate>Sat, 15 Feb 2025 10:22:34 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-hackers-steal-emails-in-device-code-phishing-attacks/</guid>
+	<description><![CDATA[An active campaign from a threat actor potentially linked to Russia is targeting Microsoft 365 accounts of individuals at organizations of interest using device code phishing. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers exploit authentication bypass in Palo Alto Networks PAN-OS</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-authentication-bypass-in-palo-alto-networks-pan-os/</link>
@@ -158,22 +172,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/chinese-espionage-tools-deployed-in-ra-world-ransomware-attack/</guid>
 	<description><![CDATA[A China-based threat actor, tracked as Emperor Dragonfly and commonly associated with cybercriminal endeavors, has been observed using in a ransomware attack a toolset previously attributed to espionage actors. [...]]]></description>
- </item>
-
- <item>
-        <title>zkLend loses $9.5M in crypto heist, asks hacker to return 90%</title>
-        <link>https://www.bleepingcomputer.com/news/cryptocurrency/zklend-loses-95m-in-crypto-heist-asks-hacker-to-return-90-percent/</link>
-        <pubDate>Wed, 12 Feb 2025 18:08:09 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[CryptoCurrency]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/cryptocurrency/zklend-loses-95m-in-crypto-heist-asks-hacker-to-return-90-percent/</guid>
-	<description><![CDATA[Decentralized money lender zkLend suffered a breach where threat actors exploited a smart contract flaw to steal 3,600 Ethereum, worth $9.5 million at the time. [...]]]></description>
  </item>
 
 </channel>
