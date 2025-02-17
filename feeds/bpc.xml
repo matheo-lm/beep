@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 16 Feb 2025 18:00:11 EST</pubDate>
+        <pubDate>Sun, 16 Feb 2025 19:11:16 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google Chrome's AI-powered security feature rolls out to everyone</title>
+        <link>https://www.bleepingcomputer.com/news/google/google-chromes-ai-powered-security-feature-rolls-out-to-everyone/</link>
+        <pubDate>Sun, 16 Feb 2025 19:01:10 -0500</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/google/google-chromes-ai-powered-security-feature-rolls-out-to-everyone/</guid>
+	<description><![CDATA[Google Chrome has updated the existing "Enhanced protection" feature with AI to offer "real-time" protection against dangerous websites, downloads and extensions.  [...]]]></description>
+ </item>
+
+ <item>
+        <title>New FinalDraft malware abuses Outlook mail service for stealthy comms</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-finaldraft-malware-abuses-outlook-mail-service-for-stealthy-comms/</link>
+        <pubDate>Sun, 16 Feb 2025 10:15:30 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-finaldraft-malware-abuses-outlook-mail-service-for-stealthy-comms/</guid>
+	<description><![CDATA[A new malware called FinalDraft has been using Outlook email drafts for command-and-control communication in attacks against a ministry in a South American country. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: Hackers steal emails in device code phishing attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-hackers-steal-emails-in-device-code-phishing-attacks/</link>
@@ -130,48 +160,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/whoami-attacks-give-hackers-code-execution-on-amazon-ec2-instances/</guid>
 	<description><![CDATA[Security researchers discovered a name confusion attack that allows access to an Amazon Web Services account to anyone that publishes an Amazon Machine Image (AMI) with a specific name. [...]]]></description>
- </item>
-
- <item>
-        <title>Dutch Police seizes 127 XHost servers, dismantles bulletproof hoster</title>
-        <link>https://www.bleepingcomputer.com/news/legal/dutch-police-seizes-127-xhost-servers-dismantles-bulletproof-hoster/</link>
-        <pubDate>Thu, 13 Feb 2025 13:26:30 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/legal/dutch-police-seizes-127-xhost-servers-dismantles-bulletproof-hoster/</guid>
-	<description><![CDATA[The Dutch Police (Politie) dismantled the ZServers/XHost bulletproof hosting operation after taking offline 127 servers used by the illegal platform. [...]]]></description>
- </item>
-
- <item>
-        <title>Hacker leaks account data of 12 million Zacks Investment users</title>
-        <link>https://www.bleepingcomputer.com/news/security/hacker-leaks-account-data-of-12-million-zacks-investment-users/</link>
-        <pubDate>Thu, 13 Feb 2025 12:39:36 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hacker-leaks-account-data-of-12-million-zacks-investment-users/</guid>
-	<description><![CDATA[Zacks Investment Research (Zacks) last year reportedly suffered another data breach that exposed sensitive information related to roughly 12 million accounts. [...]]]></description>
- </item>
-
- <item>
-        <title>Chinese espionage tools deployed in RA World ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/chinese-espionage-tools-deployed-in-ra-world-ransomware-attack/</link>
-        <pubDate>Thu, 13 Feb 2025 09:31:54 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/chinese-espionage-tools-deployed-in-ra-world-ransomware-attack/</guid>
-	<description><![CDATA[A China-based threat actor, tracked as Emperor Dragonfly and commonly associated with cybercriminal endeavors, has been observed using in a ransomware attack a toolset previously attributed to espionage actors. [...]]]></description>
  </item>
 
 </channel>
