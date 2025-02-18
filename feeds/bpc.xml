@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 18 Feb 2025 15:01:40 EST</pubDate>
+        <pubDate>Tue, 18 Feb 2025 15:58:55 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Venture capital giant Insight Partners hit by cyberattack</title>
+        <link>https://www.bleepingcomputer.com/news/security/venture-capital-giant-insight-partners-hit-by-cyberattack/</link>
+        <pubDate>Tue, 18 Feb 2025 15:33:43 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/venture-capital-giant-insight-partners-hit-by-cyberattack/</guid>
+	<description><![CDATA[New York-based venture capital and private equity firm Insight Partners has disclosed that its systems were breached in January following a social engineering attack. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft reminds admins to prepare for WSUS driver sync deprecation</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-prepare-for-wsus-driver-sync-deprecation/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fintech-giant-finastra-notifies-victims-of-october-data-breach/</guid>
 	<description><![CDATA[Financial technology giant Finastra is notifying victims of a data breach after their personal information was stolen by unknown attackers who first breached its systems in October 2024. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft rolls out BIOS update that fixes ASUS blue screen issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-bios-update-that-fixes-asus-blue-screen-issues/</link>
-        <pubDate>Mon, 17 Feb 2025 06:25:43 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-bios-update-that-fixes-asus-blue-screen-issues/</guid>
-	<description><![CDATA[More ASUS customers can now install Windows 11 24H2 after applying a BIOS update that resolves blue screen of death (BSOD) issues acknowledged in October. [...]]]></description>
  </item>
 
 </channel>
