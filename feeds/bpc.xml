@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 18 Feb 2025 14:01:08 EST</pubDate>
+        <pubDate>Tue, 18 Feb 2025 15:01:40 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft reminds admins to prepare for WSUS driver sync deprecation</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-prepare-for-wsus-driver-sync-deprecation/</link>
+        <pubDate>Tue, 18 Feb 2025 14:20:55 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-prepare-for-wsus-driver-sync-deprecation/</guid>
+	<description><![CDATA[Microsoft once again reminded IT administrators that driver synchronization in Windows Server Update Services (WSUS) will be deprecated on April 18, just 60 days from now. [...]]]></description>
+ </item>
+
  <item>
         <title>Chinese hackers abuse Microsoft APP-v tool to evade antivirus</title>
         <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-abuse-microsoft-app-v-tool-to-evade-antivirus/</link>
@@ -174,36 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-bios-update-that-fixes-asus-blue-screen-issues/</guid>
 	<description><![CDATA[More ASUS customers can now install Windows 11 24H2 after applying a BIOS update that resolves blue screen of death (BSOD) issues acknowledged in October. [...]]]></description>
- </item>
-
- <item>
-        <title>Google Chrome's AI-powered security feature rolls out to everyone</title>
-        <link>https://www.bleepingcomputer.com/news/google/google-chromes-ai-powered-security-feature-rolls-out-to-everyone/</link>
-        <pubDate>Sun, 16 Feb 2025 19:01:10 -0500</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/google/google-chromes-ai-powered-security-feature-rolls-out-to-everyone/</guid>
-	<description><![CDATA[Google Chrome has updated the existing "Enhanced protection" feature with AI to offer "real-time" protection against dangerous websites, downloads and extensions.  [...]]]></description>
- </item>
-
- <item>
-        <title>New FinalDraft malware abuses Outlook mail service for stealthy comms</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-finaldraft-malware-abuses-outlook-mail-service-for-stealthy-comms/</link>
-        <pubDate>Sun, 16 Feb 2025 10:15:30 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-finaldraft-malware-abuses-outlook-mail-service-for-stealthy-comms/</guid>
-	<description><![CDATA[A new malware called FinalDraft has been using Outlook email drafts for command-and-control communication in attacks against a ministry in a South American country. [...]]]></description>
  </item>
 
 </channel>
