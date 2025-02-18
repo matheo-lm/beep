@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Thu, 13 Feb 2025 20:14:47 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 18 Feb 2025 18:37:26 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,95 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>How Phished Data Turns into Apple &#038; Google Wallets</title>
+		<link>https://krebsonsecurity.com/2025/02/how-phished-data-turns-into-apple-google-wallets/</link>
+					<comments>https://krebsonsecurity.com/2025/02/how-phished-data-turns-into-apple-google-wallets/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Tue, 18 Feb 2025 18:37:26 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[All About Skimmers]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Web Fraud 2.0]]></category>
+		<category><![CDATA[Andy Chandler]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[CSIS Security Group]]></category>
+		<category><![CDATA[Ford Merrill]]></category>
+		<category><![CDATA[ghost tap]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Grant Smith]]></category>
+		<category><![CDATA[iMessage]]></category>
+		<category><![CDATA[M3AAWG]]></category>
+		<category><![CDATA[RCS]]></category>
+		<category><![CDATA[Resecurity]]></category>
+		<category><![CDATA[SecAlliance]]></category>
+		<category><![CDATA[smishing]]></category>
+		<category><![CDATA[ThreatFabric]]></category>
+		<category><![CDATA[ZNFC]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70276</guid>
+
+					<description><![CDATA[Carding -- the underground business of stealing, selling and swiping stolen payment card data -- has long been the dominion of Russia-based hackers. Happily, the broad deployment of more secure chip-based payment cards in the United States has weakened the carding market. But a flurry of innovation from cybercrime groups in China is breathing new life into the carding industry, by turning phished card data into mobile wallets that can be used online and at main street stores.]]></description>
+										<content:encoded><![CDATA[<p>Carding &#8212; the underground business of stealing, selling and swiping stolen payment card data &#8212; has long been the dominion of Russia-based hackers. Happily, the broad deployment of more secure chip-based payment cards in the United States has weakened the carding market. But a flurry of innovation from cybercrime groups in China is breathing new life into the carding industry, by turning phished card data into mobile wallets that can be used online and at main street stores.</p>
+<div id="attachment_70443" style="width: 490px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70443" decoding="async" class="size-full wp-image-70443" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/tollpassphishing.png" alt="" width="480" height="630" /><p id="caption-attachment-70443" class="wp-caption-text">An image from one Chinese phishing group&#8217;s Telegram channel shows various toll road phish kits available.</p></div>
+<p>If you own a mobile phone, the chances are excellent that at some point in the past two years it has received at least one phishing message that spoofs the <strong>U.S. Postal Service</strong> to supposedly collect some outstanding delivery fee, or an SMS that pretends to be a local toll road operator warning of a delinquent toll fee.</p>
+<p>These messages are being sent through sophisticated phishing kits sold by several cybercriminals based in mainland China. And they are not traditional SMS phishing or &#8220;<strong>smishing</strong>&#8221; messages, as they bypass the mobile networks entirely. Rather, the missives are sent through the <strong>Apple iMessage</strong> service and through <a href="https://en.wikipedia.org/wiki/Rich_Communication_Services" target="_blank" rel="noopener">RCS</a>, the functionally equivalent technology on <strong>Google</strong> phones.</p>
+<p>People who enter their payment card data at one of these sites will be told their financial institution needs to verify the small transaction by sending a one-time passcode to the customer&#8217;s mobile device. In reality, that code will be sent by the victim&#8217;s financial institution to verify that the user indeed wishes to link their card information to a mobile wallet.</p>
+<p>If the victim then provides that one-time code, the phishers will link the card data to a new mobile wallet from Apple or Google, loading the wallet onto a mobile phone that the scammers control.</p>
+<h2>CARDING REINVENTED</h2>
+<p><strong>Ford Merrill</strong> works in security research at <a href="https://www.secalliance.com/" target="_blank" rel="noopener">SecAlliance</a>, a <a href="https://www.csis.com/" target="_blank" rel="noopener">CSIS Security Group</a> company. Merrill has been studying the evolution of several China-based smishing gangs, and found that most of them feature helpful and informative video tutorials in their sales accounts on Telegram. Those videos show the thieves are loading multiple stolen digital wallets on a single mobile device, and then selling those phones in bulk for hundreds of dollars apiece.</p>
+<p>&#8220;Who says carding is dead?,&#8221; said Merrill, who presented about his findings at the <a href="https://www.m3aawg.org/upcoming-meetings" target="_blank" rel="noopener">M3AAWG</a> security conference in Lisbon earlier today. &#8220;This is the best mag stripe cloning device ever. This threat actor is saying you need to buy at least 10 phones, and they&#8217;ll air ship them to you.&#8221;</p>
+<p>One promotional video shows stacks of milk crates stuffed full of phones for sale. A closer inspection reveals that each phone is affixed with a handwritten notation that typically references the date its mobile wallets were added, the number of wallets on the device, and the initials of the seller.</p>
+<div id="attachment_70436" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70436" decoding="async" loading="lazy" class=" wp-image-70436" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/phishingphones.png" alt="" width="749" height="567" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/02/phishingphones.png 1160w, https://krebsonsecurity.com/wp-content/uploads/2025/02/phishingphones-768x581.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/02/phishingphones-782x591.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-70436" class="wp-caption-text">An image from the Telegram channel for a popular Chinese smishing kit vendor shows 10 mobile phones for sale, each loaded with 4-6 digital wallets from different UK financial institutions.</p></div>
+<p>Merrill said one common way criminal groups in China are cashing out with these stolen mobile wallets involves setting up fake e-commerce businesses on <strong>Stripe</strong> or <strong>Zelle</strong> and running transactions through those entities &#8212; often for amounts totaling between $100 and $500.</p>
+<p>Merrill said that when these phishing groups first began operating in earnest two years ago, they would wait between 60 to 90 days before selling the phones or using them for fraud. But these days that waiting period is more like just seven to ten days, he said.</p>
+<p>&#8220;When they first installed this, the actors were very patient,&#8221; he said. &#8220;Nowadays, they only wait like 10 days before [the wallets] are hit hard and fast.&#8221;<span id="more-70276"></span></p>
+<h2>GHOST TAP</h2>
+<p>Criminals also can cash out mobile wallets by obtaining real point-of-sale terminals and using tap-to-pay on phone after phone. But they also offer a more cutting-edge mobile fraud technology: Merrill found that at least one of the Chinese phishing groups sells an Android app called &#8220;<strong>ZNFC</strong>&#8221; that can relay a valid NFC transaction to anywhere in the world. The user simply waves their phone at a local payment terminal that accepts Apple or Google pay, and the app relays an NFC transaction over the Internet from a phone in China.</p>
+<div style="text-align: center;"><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/ekqZjPAxB4c?si=hYLqGPIBrNthAg9_" width="750" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<p>&#8220;The software can work from anywhere in the world,&#8221; Merrill said. &#8220;These guys provide the software for $500 a month, and it can relay both NFC enabled tap-to-pay as well as any digital wallet. The even have 24-hour support.&#8221;</p>
+<p>The rise of so-called &#8220;ghost tap&#8221; mobile software was <a href="https://www.threatfabric.com/blogs/ghost-tap-new-cash-out-tactic-with-nfc-relay" target="_blank" rel="noopener">first documented in November 2024</a> by security experts at <strong>ThreatFabric</strong>. <strong>Andy Chandler</strong>, the company&#8217;s chief commercial officer, said their researchers have since identified a number of criminal groups from different regions of the world latching on to this scheme.</p>
+<p>Chandler said those include organized crime gangs in Europe that are using similar mobile wallet and NFC attacks to take money out of ATMs made to work with smartphones.</p>
+<p>&#8220;No one is talking about it, but we&#8217;re now seeing ten different methodologies using the same modus operandi, and none of them are doing it the same,&#8221; Chandler said. &#8220;This is much bigger than the banks are prepared to say.&#8221;</p>
+<p>A November 2024 story in the Singapore daily <em>The Straits Times</em> <a href="https://www.straitstimes.com/singapore/scam-syndicates-sending-foreigners-into-singapore-to-cheat-retailers-like-apple-store-and-best-denki" target="_blank" rel="noopener">reported</a> authorities there arrested three foreign men who were recruited in their home countries via social messaging platforms, and given ghost tap apps with which to purchase expensive items from retailers, including mobile phones, jewelry, and gold bars.</p>
+<p>&#8220;Since Nov 4, at least 10 victims who had fallen for e-commerce scams have reported unauthorised transactions totaling more than $100,000 on their credit cards for purchases such as electronic products, like iPhones and chargers, and jewelry in Singapore,&#8221; <em>The Straits Times</em> wrote, noting that in another case with a similar modus operandi, the police arrested a Malaysian man and woman on Nov 8.</p>
+<div id="attachment_70459" style="width: 863px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70459" decoding="async" loading="lazy" class="size-full wp-image-70459" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/thestraitstimes.png" alt="" width="853" height="567" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/02/thestraitstimes.png 853w, https://krebsonsecurity.com/wp-content/uploads/2025/02/thestraitstimes-768x510.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/02/thestraitstimes-782x520.png 782w" sizes="(max-width: 853px) 100vw, 853px" /><p id="caption-attachment-70459" class="wp-caption-text">Three individuals charged with using ghost tap software at an electronics store in Singapore. Image: The Straits Times.</p></div>
+<h2>ADVANCED PHISHING TECHNIQUES</h2>
+<p>According to Merrill, the phishing pages that spoof the USPS and various toll road operators are powered by several innovations designed to maximize the extraction of victim data.</p>
+<p>For example, a would-be smishing victim might enter their personal and financial information, but then decide the whole thing is scam before actually submitting the data. In this case, anything typed into the data fields of the phishing page will be captured in real time, regardless of whether the visitor actually clicks the &#8220;submit&#8221; button.</p>
+<p>Merrill said people who submit payment card data to these phishing sites often are then told their card can&#8217;t be processed, and urged to use a different card. This technique, he said, sometimes allows the phishers to steal more than one mobile wallet per victim.</p>
+<p>Many phishing websites expose victim data by storing the stolen information directly on the phishing domain. But Merrill said these Chinese phishing kits will forward all victim data to a back-end database operated by the phishing kit vendors. That way, even when the smishing sites get taken down for fraud, the stolen data is still safe and secure.</p>
+<p>Another important innovation is the use of mass-created Apple and Google user accounts through which these phishers send their spam messages. One of the Chinese phishing groups posted images on their Telegram sales channels showing how these robot Apple and Google accounts are loaded onto Apple and Google phones, and arranged snugly next to each other in an expansive, multi-tiered rack that sits directly in front of the phishing service operator.</p>
+<div id="attachment_70435" style="width: 528px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70435" decoding="async" loading="lazy" class="size-full wp-image-70435" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/phonesashtray.png" alt="" width="518" height="688" /><p id="caption-attachment-70435" class="wp-caption-text">The ashtray says: You&#8217;ve been phishing all night.</p></div>
+<p>In other words, the smishing websites are powered by real human operators as long as new messages are being sent. Merrill said the criminals appear to send only a few dozen messages at a time, likely because completing the scam takes manual work by the human operators in China. After all, most one-time codes used for mobile wallet provisioning are generally only good for a few minutes before they expire.</p>
+<p>Notably, none of the phishing sites spoofing the toll operators or postal services will load in a regular Web browser; they will only render if they detect that a visitor is coming from a mobile device.</p>
+<p>&#8220;One of the reasons they want you to be on a mobile device is they want you to be on the same device that is going to receive the one-time code,&#8221; Merrill said. &#8220;They also want to minimize the chances you will leave. And if they want to get that mobile tokenization and grab your one-time code, they need a live operator.&#8221;</p>
+<p>Merrill found the Chinese phishing kits feature another innovation that makes it simple for customers to turn stolen card details into a mobile wallet: They programmatically take the card data supplied by the phishing victim and convert it into a digital image of a real payment card that matches that victim&#8217;s financial institution. That way, attempting to enroll a stolen card into Apple Pay, for example, becomes as easy as scanning the fabricated card image with an iPhone.</p>
+<div id="attachment_70439" style="width: 407px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70439" decoding="async" loading="lazy" class="size-full wp-image-70439" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/phish-cabelas.png" alt="" width="397" height="488" /><p id="caption-attachment-70439" class="wp-caption-text">An ad from a Chinese SMS phishing group&#8217;s Telegram channel showing how the service converts stolen card data into an image of the stolen card.</p></div>
+<p>&#8220;The phone isn&#8217;t smart enough to know whether it&#8217;s a real card or just an image,&#8221; Merrill said. &#8220;So it scans the card into Apple Pay, which says okay we need to verify that you&#8217;re the owner of the card by sending a one-time code.&#8221;</p>
+<h2>PROFITS</h2>
+<p>How profitable are these mobile phishing kits? The best guess so far comes from data gathered by other security researchers who&#8217;ve been tracking these advanced Chinese phishing vendors.</p>
+<p>In August 2023, the security firm Resecurity <a href="https://www.resecurity.com/blog/article/smishing-triad-targeted-usps-and-us-citizens-for-data-theft" target="_blank" rel="noopener">discovered a vulnerability</a> in one popular Chinese phish kit vendor&#8217;s platform that exposed the personal and financial data of phishing victims. Resecurity dubbed the group the <strong>Smishing Triad</strong>, and found the gang had harvested 108,044 payment cards across 31 phishing domains (3,485 cards per domain).</p>
+<p>In August 2024, security researcher <strong>Grant Smith</strong> gave <a href="https://www.youtube.com/watch?v=gLOv67LlIQs&amp;list=PL9fPq3eQfaaB2scbXRczwvjVH0ckX4bwt&amp;index=14" target="_blank" rel="noopener">a presentation</a> at the DEFCON security conference about tracking down the Smishing Triad after scammers spoofing the U.S. Postal Service <a href="https://www.wired.com/story/usps-scam-text-smishing-triad/" target="_blank" rel="noopener">duped his wife</a>. By identifying a different vulnerability in the gang&#8217;s phishing kit, Smith said he was able to see that people entered 438,669 unique credit cards in 1,133 phishing domains (387 cards per domain).</p>
+<p>Based on his research, Merrill said it&#8217;s reasonable to expect between $100 and $500 in losses on each card that is turned into a mobile wallet. Merrill said they observed nearly 33,000 unique domains tied to these Chinese smishing groups during the year between the publication of Resecurity&#8217;s research and Smith&#8217;s DEFCON talk.</p>
+<p>Using a median number of 1,935 cards per domain and a conservative loss of $250 per card, that comes out to about $15 billion in fraudulent charges over a year.</p>
+<p>Merrill was reluctant to say whether he&#8217;d identified additional security vulnerabilities in any of the phishing kits sold by the Chinese groups, noting that the phishers quickly fixed the vulnerabilities that were detailed publicly by Resecurity and Smith.</p>
+<h2>FIGHTING BACK</h2>
+<p>Adoption of touchless payments took off in the United States after the Coronavirus pandemic emerged, and many financial institutions in the United States were eager to make it simple for customers to link payment cards to mobile wallets. Thus, the authentication requirement for doing so defaulted to sending the customer a one-time code via SMS.</p>
+<p>Experts say the continued reliance on one-time codes for onboarding mobile wallets has fostered this new wave of carding. KrebsOnSecurity interviewed a security executive from a large European financial institution who spoke on condition of anonymity because they were not authorized to speak to the press.</p>
+<p>That expert said the lag between the phishing of victim card data and its eventual use for fraud has left many financial institutions struggling to correlate the causes of their losses.</p>
+<p>&#8220;That&#8217;s part of why the industry as a whole has been caught by surprise,&#8221; the expert said. &#8220;A lot of people are asking, how this is possible now that we&#8217;ve tokenized a plaintext process. We&#8217;ve never seen the volume of sending and people responding that we&#8217;re seeing with these phishers.&#8221;</p>
+<p>To improve the security of digital wallet provisioning, some banks in Europe and Asia require customers to log in to the bank&#8217;s mobile app before they can link a digital wallet to their device.</p>
+<p>Addressing the ghost tap threat may require updates to contactless payment terminals, to better identify NFC transactions that are being relayed from another device. But experts say it&#8217;s unrealistic to expect retailers will be eager to replace existing payment terminals before their expected lifespans expire.</p>
+<p>And of course Apple and Google have an increased role to play as well, given that their accounts are being created en masse and used to blast out these smishing messages. Both companies could easily tell which of their devices suddenly have 7-10 different mobile wallets added from 7-10 different people around the world. They could also recommend that financial institutions use more secure authentication methods for mobile wallet provisioning.</p>
+<p>Neither Apple nor Google responded to requests for comment on this story.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/02/how-phished-data-turns-into-apple-google-wallets/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Nearly a Year Later, Mozilla is Still Promoting OneRep</title>
 		<link>https://krebsonsecurity.com/2025/02/nearly-a-year-later-mozilla-is-still-promoting-onerep/</link>
 					<comments>https://krebsonsecurity.com/2025/02/nearly-a-year-later-mozilla-is-still-promoting-onerep/#comments</comments>
@@ -41,7 +130,7 @@
 <p>Mozilla offers Onerep to Firefox users on a subscription basis as part of <a href="https://www.mozilla.org/en-US/about/legal/terms/subscription-services/" target="_blank" rel="noopener">Mozilla Monitor Plus</a>. Launched in 2018 under the name <a href="https://en.wikipedia.org/wiki/Firefox_Monitor" target="_blank" rel="noopener">Firefox Monitor</a>, Mozilla Monitor also checks data from the website <a href="https://haveibeenpwned.com/" target="_blank" rel="noopener">Have I Been Pwned?</a> to let users know when their email addresses or password are leaked in data breaches.</p>
 <p>The ink on that partnership agreement had barely dried before KrebsOnSecurity <a href="https://krebsonsecurity.com/2024/03/ceo-of-data-privacy-company-onerep-com-founded-dozens-of-people-search-firms/" target="_blank" rel="noopener">published a story</a> showing that Onerep’s Belarusian CEO and founder <strong>Dimitiri Shelest</strong> launched dozens of people-search services since 2010, including a still-active data broker called <strong>Nuwber</strong> that sells background reports on people. This seemed to contradict Onerep&#8217;s stated motto, &#8220;We believe that no one should compromise personal online security and get a profit from it.”</p>
 <p>Shelest released <a href="https://krebsonsecurity.com/wp-content/uploads/2024/03/Dimitri-Shelest-Letter-_-Comment-on-Krebs-article-3.20.24-1.pdf" target="_blank" rel="noopener">a lengthy statement</a> (PDF) wherein he acknowledged maintaining an ownership stake in <strong>Nuwber</strong>, a consumer data broker he founded in 2015 — around the same time he started Onerep.</p>
-<div id="attachment_66783" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-66783" decoding="async" class=" wp-image-66783" src="https://krebsonsecurity.com/wp-content/uploads/2024/03/onerep-shellest.png" alt="" width="750" height="439" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/03/onerep-shellest.png 1275w, https://krebsonsecurity.com/wp-content/uploads/2024/03/onerep-shellest-768x450.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/03/onerep-shellest-782x458.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-66783" class="wp-caption-text">Onerep.com CEO and founder Dimitri Shelest, as pictured on the &#8220;about&#8221; page of onerep.com.</p></div>
+<div id="attachment_66783" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-66783" decoding="async" loading="lazy" class=" wp-image-66783" src="https://krebsonsecurity.com/wp-content/uploads/2024/03/onerep-shellest.png" alt="" width="750" height="439" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/03/onerep-shellest.png 1275w, https://krebsonsecurity.com/wp-content/uploads/2024/03/onerep-shellest-768x450.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/03/onerep-shellest-782x458.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-66783" class="wp-caption-text">Onerep.com CEO and founder Dimitri Shelest, as pictured on the &#8220;about&#8221; page of onerep.com.</p></div>
 <p>Shelest maintained that Nuwber has “zero cross-over or information-sharing with Onerep,” and said any other old domains that may be found and associated with his name are no longer being operated by him.</p>
 <p>“I get it,” Shelest wrote. “My affiliation with a people search business may look odd from the outside. In truth, if I hadn’t taken that initial path with a deep dive into how people search sites work, Onerep wouldn’t have the best tech and team in the space. Still, I now appreciate that we did not make this more clear in the past and I’m aiming to do better in the future.”</p>
 <p>When asked to comment on the findings, Mozilla said then that although customer data was never at risk, the outside financial interests and activities of Onerep&#8217;s CEO did not align with their values.</p>
@@ -625,69 +714,15 @@
 		
 		
 			</item>
-		<item>
-		<title>Chinese Innovations Spawn Wave of Toll Phishing Via SMS</title>
-		<link>https://krebsonsecurity.com/2025/01/chinese-innovations-spawn-wave-of-toll-phishing-via-sms/</link>
-					<comments>https://krebsonsecurity.com/2025/01/chinese-innovations-spawn-wave-of-toll-phishing-via-sms/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Thu, 16 Jan 2025 21:18:48 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Latest Warnings]]></category>
-		<category><![CDATA[Web Fraud 2.0]]></category>
-		<category><![CDATA[@chenlun]]></category>
-		<category><![CDATA[CSIS Security Group]]></category>
-		<category><![CDATA[EZDriveMA]]></category>
-		<category><![CDATA[fbi]]></category>
-		<category><![CDATA[Ford Merrill]]></category>
-		<category><![CDATA[ic3]]></category>
-		<category><![CDATA[iMessage]]></category>
-		<category><![CDATA[Lighthouse]]></category>
-		<category><![CDATA[MassDOT]]></category>
-		<category><![CDATA[North Texas Toll Authority]]></category>
-		<category><![CDATA[RCS]]></category>
-		<category><![CDATA[SecAlliance]]></category>
-		<category><![CDATA[smishing]]></category>
-		<category><![CDATA[SMS phishing]]></category>
-		<category><![CDATA[Sunpass]]></category>
-		<category><![CDATA[The Toll Roads]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70091</guid>
-
-					<description><![CDATA[Residents across the United States are being inundated with text messages purporting to come from toll road operators like E-ZPass, warning that recipients face fines if a delinquent toll fee remains unpaid. Researchers say the surge in SMS spam coincides with new features added to a popular commercial phishing kit sold in China that makes it simple to set up convincing lures spoofing toll road operators in multiple U.S. states.]]></description>
-										<content:encoded><![CDATA[<p>Residents across the United States are being inundated with text messages purporting to come from toll road operators like <strong>E-ZPass</strong>, warning that recipients face fines if a delinquent toll fee remains unpaid. Researchers say the surge in SMS spam coincides with new features added to a popular commercial phishing kit sold in China that makes it simple to set up convincing lures spoofing toll road operators in multiple U.S. states.</p>
-<p>Last week, the <strong>Massachusetts Department of Transportation</strong> (MassDOT) <a href="https://www.ezdrivema.com/About-EzdriveMA/Smishing-Alert" target="_blank" rel="noopener">warned residents</a> to be on the lookout for a new SMS phishing or &#8220;smishing&#8221; scam targeting users of <strong>EZDriveMA</strong>, MassDOT&#8217;s all electronic tolling program. Those who fall for the scam are asked to provide payment card data, and eventually will be asked to supply a one-time password sent via SMS or a mobile authentication app.</p>
-<p>Reports of similar SMS phishing attacks against customers of other U.S. state-run toll facilities surfaced around the same time as the MassDOT alert. People in Florida reported receiving SMS phishing that spoofed <strong>Sunpass</strong>, Florida&#8217;s prepaid toll program.</p>
-<div id="attachment_70096" style="width: 503px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70096" decoding="async" loading="lazy" class="size-full wp-image-70096" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/lighthouse-ezdrive.png" alt="" width="493" height="683" /><p id="caption-attachment-70096" class="wp-caption-text">This phishing module for spoofing MassDOT&#8217;s EZDrive toll system was offered on Jan. 10, 2025 by a China-based SMS phishing service called &#8220;Lighthouse.&#8221;</p></div>
-<p>In Texas, residents said they received text messages about unpaid tolls with the <strong>North Texas Toll Authority</strong>. Similar reports came from readers in California, Colorado, Connecticut, Minnesota, and Washington. This is by no means a comprehensive list.</p>
-<div id="attachment_70097" style="width: 503px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70097" decoding="async" loading="lazy" class="size-full wp-image-70097" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/lighthouse-ntta.png" alt="" width="493" height="683" /><p id="caption-attachment-70097" class="wp-caption-text">A new module from the Lighthouse SMS phishing kit released Jan. 14 targets customers of the North Texas Toll Authority (NTTA).</p></div>
-<p>In each case, the emergence of these SMS phishing attacks coincided with the release of new phishing kit capabilities that closely mimic these toll operator websites as they appear on mobile devices. Notably, none of the phishing pages will even load unless the website detects that the visitor is coming from a mobile device.</p>
-<p><strong>Ford Merrill</strong> works in security research at <a href="https://www.secalliance.com" target="_blank" rel="noopener">SecAlliance</a>, a <a href="https://www.csis.com" target="_blank" rel="noopener">CSIS Security Group</a> company. Merrill said the volume of SMS phishing attacks spoofing toll road operators skyrocketed after the New Year, when at least one Chinese cybercriminal group known for selling sophisticated SMS phishing kits began offering new phishing pages designed to spoof toll operators in various U.S. states.</p>
-<p>According to Merrill, multiple China-based cybercriminals are selling distinct SMS-based phishing kits that each have hundreds or thousands of customers. The ultimate goal of these kits, he said, is to phish enough information from victims that their payment cards can be added to mobile wallets and used to buy goods at physical stores, online, or to launder money through shell companies.<span id="more-70091"></span></p>
-<div id="attachment_70098" style="width: 503px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70098" decoding="async" loading="lazy" class="size-full wp-image-70098" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/lighthouse-tollroads.png" alt="" width="493" height="683" /><p id="caption-attachment-70098" class="wp-caption-text">A component of the Chinese SMS phishing kit Lighthouse made to target customers of The Toll Roads, which refers to several state routes through Orange County, Calif.</p></div>
-<p>Merrill said the different purveyors of these SMS phishing tools traditionally have impersonated shipping companies, customs authorities, and even governments with tax refund lures and visa or immigration renewal scams targeting people who may be living abroad or new to a country.</p>
-<p>&#8220;What we&#8217;re seeing with these tolls scams is just a continuation of the Chinese smishing groups rotating from package redelivery schemes to toll road scams,&#8221; Merrill said. &#8220;Every one of us by now is sick and tired of receiving these package smishing attacks, so now it&#8217;s a new twist on an existing scam.”</p>
-<p>In October 2023, KrebsOnSecurity wrote about <a href="https://krebsonsecurity.com/2023/10/phishers-spoof-usps-12-other-natl-postal-services/" target="_blank" rel="noopener">a massive uptick in SMS phishing scams targeting <strong>U.S. Postal Service</strong> customers</a>. That story revealed the surge was tied to innovations introduced by &#8220;<strong>Chenlun</strong>,&#8221; a mainland China-based proprietor of a popular phishing kit and service. At the time, Chenlun had just introduced new phishing pages made to impersonate postal services in the United States and at least a dozen other countries.</p>
-<p>SMS phishing kits are hardly new, but Merrill said Chinese smishing groups recently have introduced innovations in deliverability, by more seamlessly integrating their spam messages with Apple&#8217;s <strong>iMessage</strong> technology, and with <a href="https://support.google.com/messages/answer/7189714?hl=en" target="_blank" rel="noopener">RCS</a>, the equivalent &#8220;rich text&#8221; messaging capability built into <strong>Android</strong> devices.</p>
-<p>“While traditional smishing kits relied heavily on SMS for delivery, nowadays the actors make heavy use of iMessage and RCS because telecom operators can’t filter them and they likely have a higher success rate with these delivery channels,” he said.</p>
-<p>It remains unclear how the phishers have selected their targets, or from where their data may be sourced. A notice from MassDOT cautions that &#8220;the targeted phone numbers seem to be chosen at random and are not uniquely associated with an account or usage of toll roads.&#8221;</p>
-<p>Indeed, one reader shared on Mastodon yesterday that they&#8217;d received one of these SMS phishing attacks spoofing a local toll operator, when they didn&#8217;t even own a vehicle.</p>
-<p>Targeted or not, these phishing websites are dangerous because they are operated dynamically in real-time by criminals. If you receive one of these messages, just ignore it or delete it, but please do not visit the phishing site. The FBI asks that before you bin the missives, consider filing a complaint with the agency&#8217;s <a href="https://www.ic3.gov" target="_blank" rel="noopener">Internet Crime Complaint Center</a> (IC3), including the phone number where the text originated, and the website listed within the text.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/01/chinese-innovations-spawn-wave-of-toll-phishing-via-sms/feed/</wfw:commentRss>
-			<slash:comments>34</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 253/253 objects using memcached
-Page Caching using memcached 
+Object Caching 254/257 objects using memcached
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-02-18 12:03:16 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-02-18 13:55:05 by W3 Total Cache
 -->
