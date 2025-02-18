@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 18 Feb 2025 11:01:14 EST</pubDate>
+        <pubDate>Tue, 18 Feb 2025 12:02:58 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Compliance Isn’t Security: Why a Checklist Won’t Stop Cyberattacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/compliance-isnt-security-why-a-checklist-wont-stop-cyberattacks/</link>
+        <pubDate>Tue, 18 Feb 2025 11:28:02 -0500</pubDate>
+        <dc:creator>Sponsored by Pentera</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/compliance-isnt-security-why-a-checklist-wont-stop-cyberattacks/</guid>
+	<description><![CDATA[Think you're safe because you're compliant? Think again. Recent studies continue to highlight the concerning trend that compliance with major security frameworks does not necessarily prevent data breaches. Learn more from Pentera on how automated security validation bridges the security gaps. [...]]]></description>
+ </item>
+
  <item>
         <title>Lee Enterprises newspaper disruptions caused by ransomware attack</title>
         <link>https://www.bleepingcomputer.com/news/security/lee-enterprises-newspaper-disruptions-caused-by-ransomware-attack/</link>
@@ -162,20 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-hackers-steal-emails-in-device-code-phishing-attacks/</guid>
 	<description><![CDATA[An active campaign from a threat actor potentially linked to Russia is targeting Microsoft 365 accounts of individuals at organizations of interest using device code phishing. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers exploit authentication bypass in Palo Alto Networks PAN-OS</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-authentication-bypass-in-palo-alto-networks-pan-os/</link>
-        <pubDate>Fri, 14 Feb 2025 16:20:08 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-authentication-bypass-in-palo-alto-networks-pan-os/</guid>
-	<description><![CDATA[Hackers are launching attacks against Palo Alto Networks PAN-OS firewalls by exploiting a recently fixed vulnerability (CVE-2025-0108) that allows bypassing authentication. [...]]]></description>
  </item>
 
 </channel>
