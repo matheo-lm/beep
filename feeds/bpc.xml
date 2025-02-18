@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 18 Feb 2025 07:04:02 EST</pubDate>
+        <pubDate>Tue, 18 Feb 2025 08:03:13 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Lee Enterprises newspaper disruptions caused by ransomware attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/lee-enterprises-newspaper-disruptions-caused-by-ransomware-attack/</link>
+        <pubDate>Tue, 18 Feb 2025 07:35:35 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/lee-enterprises-newspaper-disruptions-caused-by-ransomware-attack/</guid>
+	<description><![CDATA[Newspaper publishing giant Lee Enterprises has confirmed that a ransomware attack is behind ongoing disruptions impacting the group's operations for over two weeks. [...]]]></description>
+ </item>
+
  <item>
         <title>Chase will soon block Zelle payments to sellers on social media</title>
         <link>https://www.bleepingcomputer.com/news/security/chase-will-soon-block-zelle-payments-to-sellers-on-social-media/</link>
@@ -148,36 +162,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-authentication-bypass-in-palo-alto-networks-pan-os/</guid>
 	<description><![CDATA[Hackers are launching attacks against Palo Alto Networks PAN-OS firewalls by exploiting a recently fixed vulnerability (CVE-2025-0108) that allows bypassing authentication. [...]]]></description>
- </item>
-
- <item>
-        <title>SonicWall firewall bug leveraged in attacks after PoC exploit release</title>
-        <link>https://www.bleepingcomputer.com/news/security/sonicwall-firewall-bug-leveraged-in-attacks-after-poc-exploit-release/</link>
-        <pubDate>Fri, 14 Feb 2025 13:13:10 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-firewall-bug-leveraged-in-attacks-after-poc-exploit-release/</guid>
-	<description><![CDATA[Attackers are now targeting an authentication bypass vulnerability affecting SonicWall firewalls shortly after the release of proof-of-concept (PoC) exploit code. [...]]]></description>
- </item>
-
- <item>
-        <title>PirateFi game on Steam caught installing password-stealing malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/piratefi-game-on-steam-caught-installing-password-stealing-malware/</link>
-        <pubDate>Fri, 14 Feb 2025 12:32:32 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Gaming]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/piratefi-game-on-steam-caught-installing-password-stealing-malware/</guid>
-	<description><![CDATA[A free-to-play game named PirateFi in the Steam store has been distributing the Vidar infostealing malware to unsuspecting users. [...]]]></description>
  </item>
 
 </channel>
