@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 18 Feb 2025 17:00:38 EST</pubDate>
+        <pubDate>Tue, 18 Feb 2025 17:59:55 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>WinRAR 7.10 boosts Windows privacy by stripping MoTW data</title>
+        <link>https://www.bleepingcomputer.com/news/security/winrar-710-boosts-windows-privacy-by-stripping-motw-data/</link>
+        <pubDate>Tue, 18 Feb 2025 17:57:39 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/winrar-710-boosts-windows-privacy-by-stripping-motw-data/</guid>
+	<description><![CDATA[WinRAR 7.10 was released yesterday with numerous features, such as larger memory pages, a dark mode, and the ability to fine-tune how Windows Mark-of-the-Web flags are propagated when extracting files. [...]]]></description>
+ </item>
+
  <item>
         <title>Cracked Garry’s Mod, BeamNG.drive games infect gamers with miners</title>
         <link>https://www.bleepingcomputer.com/news/security/cracked-garrys-mod-beamngdrive-games-infect-gamers-with-miners/</link>
@@ -192,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-spots-xcsset-macos-malware-variant-used-for-crypto-theft/</guid>
 	<description><![CDATA[A new variant of the XCSSET macOS modular malware has emerged in attacks that target users' sensitive information, including digital wallets and data from the legitimate Notes app. [...]]]></description>
- </item>
-
- <item>
-        <title>Fintech giant Finastra notifies victims of October data breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/fintech-giant-finastra-notifies-victims-of-october-data-breach/</link>
-        <pubDate>Mon, 17 Feb 2025 09:21:27 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fintech-giant-finastra-notifies-victims-of-october-data-breach/</guid>
-	<description><![CDATA[Financial technology giant Finastra is notifying victims of a data breach after their personal information was stolen by unknown attackers who first breached its systems in October 2024. [...]]]></description>
  </item>
 
 </channel>
