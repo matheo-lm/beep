@@ -11,11 +11,53 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 18 Feb 2025 12:02:58 EST</pubDate>
+        <pubDate>Tue, 18 Feb 2025 13:00:48 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Chinese hackers abuse Microsoft APP-v tool to evade antivirus</title>
+        <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-abuse-microsoft-app-v-tool-to-evade-antivirus/</link>
+        <pubDate>Tue, 18 Feb 2025 13:00:32 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/chinese-hackers-abuse-microsoft-app-v-tool-to-evade-antivirus/</guid>
+	<description><![CDATA[The Chinese APT hacking group "Mustang Panda" has been spotted abusing the Microsoft Application Virtualization Injector utility as a LOLBIN to inject malicious payloads into legitimate processes to evade detection by antivirus software. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New OpenSSH flaws expose SSH servers to MiTM and DoS attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-openssh-flaws-expose-ssh-servers-to-mitm-and-dos-attacks/</link>
+        <pubDate>Tue, 18 Feb 2025 12:07:56 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-openssh-flaws-expose-ssh-servers-to-mitm-and-dos-attacks/</guid>
+	<description><![CDATA[OpenSSH has released security updates addressing two vulnerabilities, a machine-in-the-middle (MitM) and a denial of service flaw, with one of the flaws introduced over a decade ago. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Juniper patches critical auth bypass in Session Smart routers</title>
+        <link>https://www.bleepingcomputer.com/news/security/juniper-patches-critical-auth-bypass-in-session-smart-routers/</link>
+        <pubDate>Tue, 18 Feb 2025 12:07:27 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/juniper-patches-critical-auth-bypass-in-session-smart-routers/</guid>
+	<description><![CDATA[​Juniper Networks has patched a critical vulnerability that allows attackers to bypass authentication and take over Session Smart Router (SSR) devices. [...]]]></description>
+ </item>
+
  <item>
         <title>Compliance Isn’t Security: Why a Checklist Won’t Stop Cyberattacks</title>
         <link>https://www.bleepingcomputer.com/news/security/compliance-isnt-security-why-a-checklist-wont-stop-cyberattacks/</link>
@@ -162,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-finaldraft-malware-abuses-outlook-mail-service-for-stealthy-comms/</guid>
 	<description><![CDATA[A new malware called FinalDraft has been using Outlook email drafts for command-and-control communication in attacks against a ministry in a South American country. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Hackers steal emails in device code phishing attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-hackers-steal-emails-in-device-code-phishing-attacks/</link>
-        <pubDate>Sat, 15 Feb 2025 10:22:34 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-hackers-steal-emails-in-device-code-phishing-attacks/</guid>
-	<description><![CDATA[An active campaign from a threat actor potentially linked to Russia is targeting Microsoft 365 accounts of individuals at organizations of interest using device code phishing. [...]]]></description>
  </item>
 
 </channel>
