@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 19 Feb 2025 06:00:06 EST</pubDate>
+        <pubDate>Wed, 19 Feb 2025 07:04:59 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Russian phishing campaigns exploit Signal's device-linking feature</title>
+        <link>https://www.bleepingcomputer.com/news/security/russian-phishing-campaigns-exploit-signals-device-linking-feature/</link>
+        <pubDate>Wed, 19 Feb 2025 06:59:51 -0500</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/russian-phishing-campaigns-exploit-signals-device-linking-feature/</guid>
+	<description><![CDATA[Russian threat actors have been launching phishing campaigns that exploit the legitimate "Linked Devices" feature in the Signal messaging app to gain unauthorized access to accounts of interest. [...]]]></description>
+ </item>
+
  <item>
         <title>WinRAR 7.10 boosts Windows privacy by stripping MoTW data</title>
         <link>https://www.bleepingcomputer.com/news/security/winrar-710-boosts-windows-privacy-by-stripping-motw-data/</link>
@@ -192,22 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/x-now-blocks-signal-contact-links-flags-them-as-malicious/</guid>
 	<description><![CDATA[Social media platform X (formerly Twitter) is now blocking links to "Signal.me," a URL used by the Signal encrypted messaging to share your account info with another person. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft spots XCSSET macOS malware variant used for crypto theft</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-spots-xcsset-macos-malware-variant-used-for-crypto-theft/</link>
-        <pubDate>Mon, 17 Feb 2025 11:04:51 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Apple]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-spots-xcsset-macos-malware-variant-used-for-crypto-theft/</guid>
-	<description><![CDATA[A new variant of the XCSSET macOS modular malware has emerged in attacks that target users' sensitive information, including digital wallets and data from the legitimate Notes app. [...]]]></description>
  </item>
 
 </channel>
