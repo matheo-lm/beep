@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 19 Feb 2025 11:58:54 EST</pubDate>
+        <pubDate>Wed, 19 Feb 2025 13:02:48 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New FrigidStealer infostealer infects Macs via fake browser updates</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-frigidstealer-infostealer-infects-macs-via-fake-browser-updates/</link>
+        <pubDate>Wed, 19 Feb 2025 12:42:39 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-frigidstealer-infostealer-infects-macs-via-fake-browser-updates/</guid>
+	<description><![CDATA[The FakeUpdate malware campaigns are increasingly becoming muddled, with two additional cybercrime groups tracked as TA2726 and TA2727, running campaigns that push a new macOS infostealer malware called FrigidStealer. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Australian fertility services giant Genea hit by security breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/australian-fertility-services-giant-genea-hit-by-security-breach/</link>
+        <pubDate>Wed, 19 Feb 2025 12:40:32 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/australian-fertility-services-giant-genea-hit-by-security-breach/</guid>
+	<description><![CDATA[​Genea, one of Australia's largest fertility services providers, disclosed that unknown attackers breached its network and accessed data stored on compromised systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Palo Alto Networks tags new firewall bug as exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/palo-alto-networks-tags-new-firewall-bug-as-exploited-in-attacks/</link>
@@ -174,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/compliance-isnt-security-why-a-checklist-wont-stop-cyberattacks/</guid>
 	<description><![CDATA[Think you're safe because you're compliant? Think again. Recent studies continue to highlight the concerning trend that compliance with major security frameworks does not necessarily prevent data breaches. Learn more from Pentera on how automated security validation bridges the security gaps. [...]]]></description>
- </item>
-
- <item>
-        <title>Lee Enterprises newspaper disruptions caused by ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/lee-enterprises-newspaper-disruptions-caused-by-ransomware-attack/</link>
-        <pubDate>Tue, 18 Feb 2025 07:35:35 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/lee-enterprises-newspaper-disruptions-caused-by-ransomware-attack/</guid>
-	<description><![CDATA[Newspaper publishing giant Lee Enterprises has confirmed that a ransomware attack is behind ongoing disruptions impacting the group's operations for over two weeks. [...]]]></description>
  </item>
 
 </channel>
