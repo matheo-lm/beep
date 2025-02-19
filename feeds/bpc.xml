@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 19 Feb 2025 09:59:33 EST</pubDate>
+        <pubDate>Wed, 19 Feb 2025 10:58:40 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Palo Alto Networks tags new firewall bug as exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/palo-alto-networks-tags-new-firewall-bug-as-exploited-in-attacks/</link>
+        <pubDate>Wed, 19 Feb 2025 10:38:29 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/palo-alto-networks-tags-new-firewall-bug-as-exploited-in-attacks/</guid>
+	<description><![CDATA[Palo Alto Networks warns that hackers are actively exploiting a critical authentication bypass flaw (CVE-2025-0108) in PAN-OS firewalls, chaining it with two other vulnerabilities to breach devices in active attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>The Browser Blind Spot: Why Your Browser is the Next Cybersecurity Battleground</title>
+        <link>https://www.bleepingcomputer.com/news/security/the-browser-blind-spot-why-your-browser-is-the-next-cybersecurity-battleground/</link>
+        <pubDate>Wed, 19 Feb 2025 10:02:12 -0500</pubDate>
+        <dc:creator>Sponsored by Keep Aware</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/the-browser-blind-spot-why-your-browser-is-the-next-cybersecurity-battleground/</guid>
+	<description><![CDATA[For years, defensive security strategies have focused on three core areas: network, endpoint, and email. Meanwhile, the browser, sits across all of them. This article examines three key areas where attackers focus their efforts and how browser-based attacks are evolving. [...]]]></description>
+ </item>
+
  <item>
         <title>Russian phishing campaigns exploit Signal's device-linking feature</title>
         <link>https://www.bleepingcomputer.com/news/security/russian-phishing-campaigns-exploit-signals-device-linking-feature/</link>
@@ -160,36 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/lee-enterprises-newspaper-disruptions-caused-by-ransomware-attack/</guid>
 	<description><![CDATA[Newspaper publishing giant Lee Enterprises has confirmed that a ransomware attack is behind ongoing disruptions impacting the group's operations for over two weeks. [...]]]></description>
- </item>
-
- <item>
-        <title>Chase will soon block Zelle payments to sellers on social media</title>
-        <link>https://www.bleepingcomputer.com/news/security/chase-will-soon-block-zelle-payments-to-sellers-on-social-media/</link>
-        <pubDate>Mon, 17 Feb 2025 15:29:50 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/chase-will-soon-block-zelle-payments-to-sellers-on-social-media/</guid>
-	<description><![CDATA[JPMorgan Chase Bank (Chase) will soon start blocking Zelle payments to social media contacts to combat a significant rise in online scams utilizing the service for fraud. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft to remove the Location History feature in Windows</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-to-remove-the-location-history-feature-in-windows/</link>
-        <pubDate>Mon, 17 Feb 2025 13:50:37 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-to-remove-the-location-history-feature-in-windows/</guid>
-	<description><![CDATA[Microsoft announced the deprecation of the Location History feature from Windows, which let applications like the Cortana virtual assistant to fetch location history of the device. [...]]]></description>
  </item>
 
 </channel>
