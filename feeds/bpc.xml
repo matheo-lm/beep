@@ -11,7 +11,7 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 19 Feb 2025 09:01:11 EST</pubDate>
+        <pubDate>Wed, 19 Feb 2025 09:59:33 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
@@ -31,8 +31,8 @@
  </item>
 
  <item>
-        <title>WinRAR 7.10 boosts Windows privacy by stripping MoTW data</title>
-        <link>https://www.bleepingcomputer.com/news/security/winrar-710-boosts-windows-privacy-by-stripping-motw-data/</link>
+        <title>New WinRAR version strips Windows metadata to increase privacy</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-winrar-version-strips-windows-metadata-to-increase-privacy/</link>
         <pubDate>Tue, 18 Feb 2025 17:57:39 -0500</pubDate>
         <dc:creator>Lawrence Abrams</dc:creator>
 
@@ -42,7 +42,7 @@
         <category><![CDATA[Software]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/security/winrar-710-boosts-windows-privacy-by-stripping-motw-data/</guid>
+        <guid>https://www.bleepingcomputer.com/news/security/new-winrar-version-strips-windows-metadata-to-increase-privacy/</guid>
 	<description><![CDATA[WinRAR 7.10 was released yesterday with numerous features, such as larger memory pages, a dark mode, and the ability to fine-tune how Windows Mark-of-the-Web flags are propagated when extracting files. [...]]]></description>
  </item>
 
@@ -190,22 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-to-remove-the-location-history-feature-in-windows/</guid>
 	<description><![CDATA[Microsoft announced the deprecation of the Location History feature from Windows, which let applications like the Cortana virtual assistant to fetch location history of the device. [...]]]></description>
- </item>
-
- <item>
-        <title>X now blocks Signal contact links, flags them as malicious</title>
-        <link>https://www.bleepingcomputer.com/news/security/x-now-blocks-signal-contact-links-flags-them-as-malicious/</link>
-        <pubDate>Mon, 17 Feb 2025 12:39:55 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/x-now-blocks-signal-contact-links-flags-them-as-malicious/</guid>
-	<description><![CDATA[Social media platform X (formerly Twitter) is now blocking links to "Signal.me," a URL used by the Signal encrypted messaging to share your account info with another person. [...]]]></description>
  </item>
 
 </channel>
