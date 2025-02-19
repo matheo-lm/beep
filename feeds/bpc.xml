@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 19 Feb 2025 14:58:28 EST</pubDate>
+        <pubDate>Wed, 19 Feb 2025 16:00:13 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA and FBI: Ghost ransomware breached orgs in 70 countries</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-and-fbi-ghost-ransomware-breached-orgs-in-70-countries/</link>
+        <pubDate>Wed, 19 Feb 2025 15:55:05 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-and-fbi-ghost-ransomware-breached-orgs-in-70-countries/</guid>
+	<description><![CDATA[CISA and the FBI said attackers deploying Ghost ransomware have breached victims from multiple industry sectors across over 70 countries, including critical infrastructure organizations. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Phishing attack hides JavaScript using invisible Unicode trick</title>
+        <link>https://www.bleepingcomputer.com/news/security/phishing-attack-hides-javascript-using-invisible-unicode-trick/</link>
+        <pubDate>Wed, 19 Feb 2025 15:14:09 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/phishing-attack-hides-javascript-using-invisible-unicode-trick/</guid>
+	<description><![CDATA[A new JavaScript obfuscation method utilizing invisible Unicode characters to represent binary values is being actively abused in phishing attacks targeting affiliates of an American political action committee (PAC). [...]]]></description>
+ </item>
+
  <item>
         <title>New FrigidStealer infostealer infects Macs via fake browser updates</title>
         <link>https://www.bleepingcomputer.com/news/security/new-frigidstealer-infostealer-infects-macs-via-fake-browser-updates/</link>
@@ -164,48 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/chinese-hackers-abuse-microsoft-app-v-tool-to-evade-antivirus/</guid>
 	<description><![CDATA[The Chinese APT hacking group "Mustang Panda" has been spotted abusing the Microsoft Application Virtualization Injector utility as a LOLBIN to inject malicious payloads into legitimate processes to evade detection by antivirus software. [...]]]></description>
- </item>
-
- <item>
-        <title>New OpenSSH flaws expose SSH servers to MiTM and DoS attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-openssh-flaws-expose-ssh-servers-to-mitm-and-dos-attacks/</link>
-        <pubDate>Tue, 18 Feb 2025 12:07:56 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-openssh-flaws-expose-ssh-servers-to-mitm-and-dos-attacks/</guid>
-	<description><![CDATA[OpenSSH has released security updates addressing two vulnerabilities, a man-in-the-middle (MitM) and a denial of service flaw, with one of the flaws introduced over a decade ago. [...]]]></description>
- </item>
-
- <item>
-        <title>Juniper patches critical auth bypass in Session Smart routers</title>
-        <link>https://www.bleepingcomputer.com/news/security/juniper-patches-critical-auth-bypass-in-session-smart-routers/</link>
-        <pubDate>Tue, 18 Feb 2025 12:07:27 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/juniper-patches-critical-auth-bypass-in-session-smart-routers/</guid>
-	<description><![CDATA[​Juniper Networks has patched a critical vulnerability that allows attackers to bypass authentication and take over Session Smart Router (SSR) devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Compliance Isn’t Security: Why a Checklist Won’t Stop Cyberattacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/compliance-isnt-security-why-a-checklist-wont-stop-cyberattacks/</link>
-        <pubDate>Tue, 18 Feb 2025 11:28:02 -0500</pubDate>
-        <dc:creator>Sponsored by Pentera</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/compliance-isnt-security-why-a-checklist-wont-stop-cyberattacks/</guid>
-	<description><![CDATA[Think you're safe because you're compliant? Think again. Recent studies continue to highlight the concerning trend that compliance with major security frameworks does not necessarily prevent data breaches. Learn more from Pentera on how automated security validation bridges the security gaps. [...]]]></description>
  </item>
 
 </channel>
