@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 20 Feb 2025 15:02:42 EST</pubDate>
+        <pubDate>Thu, 20 Feb 2025 15:58:46 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Black Basta ransomware gang's internal chat logs leak online</title>
+        <link>https://www.bleepingcomputer.com/news/security/black-basta-ransomware-gang-s-internal-chat-logs-leak-online/</link>
+        <pubDate>Thu, 20 Feb 2025 15:48:32 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/black-basta-ransomware-gang-s-internal-chat-logs-leak-online/</guid>
+	<description><![CDATA[An unknown leaker has released what they claim to be an archive of internal Matrix chat logs belonging to the Black Basta ransomware operation. [...]]]></description>
+ </item>
+
  <item>
         <title>US healthcare org pays $11M settlement over alleged cybersecurity lapses</title>
         <link>https://www.bleepingcomputer.com/news/security/us-healthcare-org-pays-11m-settlement-over-alleged-cybersecurity-lapses/</link>
@@ -178,34 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/australian-fertility-services-giant-genea-hit-by-security-breach/</guid>
 	<description><![CDATA[​Genea, one of Australia's largest fertility services providers, disclosed that unknown attackers breached its network and accessed data stored on compromised systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Palo Alto Networks tags new firewall bug as exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/palo-alto-networks-tags-new-firewall-bug-as-exploited-in-attacks/</link>
-        <pubDate>Wed, 19 Feb 2025 10:38:29 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/palo-alto-networks-tags-new-firewall-bug-as-exploited-in-attacks/</guid>
-	<description><![CDATA[Palo Alto Networks warns that hackers are actively exploiting a critical authentication bypass flaw (CVE-2025-0108) in PAN-OS firewalls, chaining it with two other vulnerabilities to breach devices in active attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>The Browser Blind Spot: Why Your Browser is the Next Cybersecurity Battleground</title>
-        <link>https://www.bleepingcomputer.com/news/security/the-browser-blind-spot-why-your-browser-is-the-next-cybersecurity-battleground/</link>
-        <pubDate>Wed, 19 Feb 2025 10:02:12 -0500</pubDate>
-        <dc:creator>Sponsored by Keep Aware</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/the-browser-blind-spot-why-your-browser-is-the-next-cybersecurity-battleground/</guid>
-	<description><![CDATA[For years, defensive security strategies have focused on three core areas: network, endpoint, and email. Meanwhile, the browser, sits across all of them. This article examines three key areas where attackers focus their efforts and how browser-based attacks are evolving. [...]]]></description>
  </item>
 
 </channel>
