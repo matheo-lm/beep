@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 20 Feb 2025 09:01:43 EST</pubDate>
+        <pubDate>Thu, 20 Feb 2025 11:03:07 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Integrating LLMs into security operations using Wazuh</title>
+        <link>https://www.bleepingcomputer.com/news/security/integrating-llms-into-security-operations-using-wazuh/</link>
+        <pubDate>Thu, 20 Feb 2025 10:01:11 -0500</pubDate>
+        <dc:creator>Sponsored by Wazuh</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/integrating-llms-into-security-operations-using-wazuh/</guid>
+	<description><![CDATA[Large Language Models (LLMs) can provide many benefits to security professionals by helping them analyze logs, detect phishing attacks, or offering threat intelligence. Learn from Wazuh how to incorporate an LLM, like ChatGPT, into its open source security platform. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft fixes Power Pages zero-day bug exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-fixes-power-pages-zero-day-bug-exploited-in-attacks/</link>
+        <pubDate>Thu, 20 Feb 2025 09:34:14 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Cloud]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-fixes-power-pages-zero-day-bug-exploited-in-attacks/</guid>
+	<description><![CDATA[Microsoft has issued a security bulletin for a high-severity elevation of privilege vulnerability in Power Pages, which hackers exploited as a zero-day in attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft testing fix for Windows 11 bug breaking SSH connections</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bug-breaking-ssh-connections/</link>
@@ -158,40 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/russian-phishing-campaigns-exploit-signals-device-linking-feature/</guid>
 	<description><![CDATA[Russian threat actors have been launching phishing campaigns that exploit the legitimate "Linked Devices" feature in the Signal messaging app to gain unauthorized access to accounts of interest. [...]]]></description>
- </item>
-
- <item>
-        <title>New WinRAR version strips Windows metadata to increase privacy</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-winrar-version-strips-windows-metadata-to-increase-privacy/</link>
-        <pubDate>Tue, 18 Feb 2025 17:57:39 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-winrar-version-strips-windows-metadata-to-increase-privacy/</guid>
-	<description><![CDATA[WinRAR 7.10 was released yesterday with numerous features, such as larger memory pages, a dark mode, and the ability to fine-tune how Windows Mark-of-the-Web flags are propagated when extracting files. [...]]]></description>
- </item>
-
- <item>
-        <title>Cracked Garry’s Mod, BeamNG.drive games infect gamers with miners</title>
-        <link>https://www.bleepingcomputer.com/news/security/cracked-garrys-mod-beamngdrive-games-infect-gamers-with-miners/</link>
-        <pubDate>Tue, 18 Feb 2025 16:25:24 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-        <category><![CDATA[Gaming]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cracked-garrys-mod-beamngdrive-games-infect-gamers-with-miners/</guid>
-	<description><![CDATA[A large-scale malware campaign dubbed "StaryDobry" has been targeting gamers worldwide with trojanized versions of cracked games such as Garry's Mod, BeamNG.drive, and Dyson Sphere Program. [...]]]></description>
  </item>
 
 </channel>
