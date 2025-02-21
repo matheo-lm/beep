@@ -11,7 +11,7 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 21 Feb 2025 07:05:02 EST</pubDate>
+        <pubDate>Fri, 21 Feb 2025 08:05:01 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
@@ -176,22 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/phishing-attack-hides-javascript-using-invisible-unicode-trick/</guid>
 	<description><![CDATA[A new JavaScript obfuscation method utilizing invisible Unicode characters to represent binary values is being actively abused in phishing attacks targeting affiliates of an American political action committee (PAC). [...]]]></description>
- </item>
-
- <item>
-        <title>New FrigidStealer infostealer infects Macs via fake browser updates</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-frigidstealer-infostealer-infects-macs-via-fake-browser-updates/</link>
-        <pubDate>Wed, 19 Feb 2025 12:42:39 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Apple]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-frigidstealer-infostealer-infects-macs-via-fake-browser-updates/</guid>
-	<description><![CDATA[The FakeUpdate malware campaigns are increasingly becoming muddled, with two additional cybercrime groups tracked as TA2726 and TA2727, running campaigns that push a new macOS infostealer malware called FrigidStealer. [...]]]></description>
  </item>
 
 </channel>
