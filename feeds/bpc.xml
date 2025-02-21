@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 21 Feb 2025 10:59:09 EST</pubDate>
+        <pubDate>Fri, 21 Feb 2025 11:58:03 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hacker steals record $1.46 billion from Bybit ETH cold wallet</title>
+        <link>https://www.bleepingcomputer.com/news/security/hacker-steals-record-146-billion-from-bybit-eth-cold-wallet/</link>
+        <pubDate>Fri, 21 Feb 2025 11:41:59 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hacker-steals-record-146-billion-from-bybit-eth-cold-wallet/</guid>
+	<description><![CDATA[Cryptocurrency exchange Bybit revealed today that an unknown attacker stole over $1.46 billion worth of cryptocurrency from one of its ETH cold wallets. [...]]]></description>
+ </item>
+
  <item>
         <title>CISA flags Craft CMS code injection flaw as exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/cisa-flags-craft-cms-code-injection-flaw-as-exploited-in-attacks/</link>
@@ -178,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-nailaolocker-ransomware-used-against-eu-healthcare-orgs/</guid>
 	<description><![CDATA[A previously undocumented ransomware payload named NailaoLocker has been spotted in attacks targeting European healthcare organizations between June and October 2024. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA and FBI: Ghost ransomware breached orgs in 70 countries</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-and-fbi-ghost-ransomware-breached-orgs-in-70-countries/</link>
-        <pubDate>Wed, 19 Feb 2025 15:55:05 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-and-fbi-ghost-ransomware-breached-orgs-in-70-countries/</guid>
-	<description><![CDATA[CISA and the FBI said attackers deploying Ghost ransomware have breached victims from multiple industry sectors across over 70 countries, including critical infrastructure organizations. [...]]]></description>
  </item>
 
 </channel>
