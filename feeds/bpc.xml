@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 21 Feb 2025 10:01:36 EST</pubDate>
+        <pubDate>Fri, 21 Feb 2025 10:59:09 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA flags Craft CMS code injection flaw as exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-flags-craft-cms-code-injection-flaw-as-exploited-in-attacks/</link>
+        <pubDate>Fri, 21 Feb 2025 10:57:50 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-flags-craft-cms-code-injection-flaw-as-exploited-in-attacks/</guid>
+	<description><![CDATA[The U.S. Cybersecurity & Infrastructure Security Agency (CISA) warns that a Craft CMS remote code execution flaw is being exploited in attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Apple pulls iCloud end-to-end encryption feature in the UK</title>
+        <link>https://www.bleepingcomputer.com/news/security/apple-pulls-icloud-end-to-end-encryption-feature-in-the-uk/</link>
+        <pubDate>Fri, 21 Feb 2025 10:40:22 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apple-pulls-icloud-end-to-end-encryption-feature-in-the-uk/</guid>
+	<description><![CDATA[Apple will no longer offer iCloud end-to-end encryption in the United Kingdom after the government requested a backdoor to access Apple customers' encrypted cloud data. [...]]]></description>
+ </item>
+
  <item>
         <title>Apiiro unveils free scanner to detect malicious code merges</title>
         <link>https://www.bleepingcomputer.com/news/security/apiiro-unveils-free-scanner-to-detect-malicious-code-merges/</link>
@@ -162,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-and-fbi-ghost-ransomware-breached-orgs-in-70-countries/</guid>
 	<description><![CDATA[CISA and the FBI said attackers deploying Ghost ransomware have breached victims from multiple industry sectors across over 70 countries, including critical infrastructure organizations. [...]]]></description>
- </item>
-
- <item>
-        <title>Phishing attack hides JavaScript using invisible Unicode trick</title>
-        <link>https://www.bleepingcomputer.com/news/security/phishing-attack-hides-javascript-using-invisible-unicode-trick/</link>
-        <pubDate>Wed, 19 Feb 2025 15:14:09 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/phishing-attack-hides-javascript-using-invisible-unicode-trick/</guid>
-	<description><![CDATA[A new JavaScript obfuscation method utilizing invisible Unicode characters to represent binary values is being actively abused in phishing attacks targeting affiliates of an American political action committee (PAC). [...]]]></description>
  </item>
 
 </channel>
