@@ -11,11 +11,29 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 21 Feb 2025 13:03:38 EST</pubDate>
+        <pubDate>Fri, 21 Feb 2025 14:00:31 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>SpyLend Android malware downloaded 100,000 times from Google Play</title>
+        <link>https://www.bleepingcomputer.com/news/security/spylend-android-malware-downloaded-100-000-times-from-google-play/</link>
+        <pubDate>Fri, 21 Feb 2025 13:45:23 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/spylend-android-malware-downloaded-100-000-times-from-google-play/</guid>
+	<description><![CDATA[An Android malware app called SpyLend has been downloaded over 100,000 times from Google Play, where it masqueraded as a financial tool but became a predatory loan app for those in India. [...]]]></description>
+ </item>
+
  <item>
         <title>Hacker steals record $1.46 billion from Bybit ETH cold wallet</title>
         <link>https://www.bleepingcomputer.com/news/security/hacker-steals-record-146-billion-from-bybit-eth-cold-wallet/</link>
@@ -180,20 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/darcula-phaas-can-now-auto-generate-phishing-kits-for-any-brand/</guid>
 	<description><![CDATA[The Darcula phishing-as-a-service (PhaaS) platform is preparing to release its third major version, with one of the highlighted features, the ability to create do-it-yourself phishing kits to target any brand. [...]]]></description>
- </item>
-
- <item>
-        <title>New NailaoLocker ransomware used against EU healthcare orgs</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-nailaolocker-ransomware-used-against-eu-healthcare-orgs/</link>
-        <pubDate>Thu, 20 Feb 2025 03:00:00 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-nailaolocker-ransomware-used-against-eu-healthcare-orgs/</guid>
-	<description><![CDATA[A previously undocumented ransomware payload named NailaoLocker has been spotted in attacks targeting European healthcare organizations between June and October 2024. [...]]]></description>
  </item>
 
 </channel>
