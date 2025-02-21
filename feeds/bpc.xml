@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 21 Feb 2025 16:01:10 EST</pubDate>
+        <pubDate>Fri, 21 Feb 2025 16:58:50 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google Chrome disables uBlock Origin for some in Manifest v3 rollout</title>
+        <link>https://www.bleepingcomputer.com/news/google/google-chrome-disables-ublock-origin-for-some-in-manifest-v3-rollout/</link>
+        <pubDate>Fri, 21 Feb 2025 16:23:36 -0500</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/google/google-chrome-disables-ublock-origin-for-some-in-manifest-v3-rollout/</guid>
+	<description><![CDATA[Google continues its rollout of gradually disabling uBlock Origin and other Manifest V2-based extensions in the Chrome web browser as part of its efforts to push users to Manifest V3-based extensions. [...]]]></description>
+ </item>
+
  <item>
         <title>SpyLend Android malware downloaded 100,000 times from Google Play</title>
         <link>https://www.bleepingcomputer.com/news/security/spylend-android-malware-downloaded-100-000-times-from-google-play/</link>
@@ -184,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bug-breaking-ssh-connections/</guid>
 	<description><![CDATA[Microsoft is now testing a fix for a longstanding known issue that is breaking SSH connections on some Windows 11 22H2 and 23H2 systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Darcula PhaaS can now auto-generate phishing kits for any brand</title>
-        <link>https://www.bleepingcomputer.com/news/security/darcula-phaas-can-now-auto-generate-phishing-kits-for-any-brand/</link>
-        <pubDate>Thu, 20 Feb 2025 06:00:00 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/darcula-phaas-can-now-auto-generate-phishing-kits-for-any-brand/</guid>
-	<description><![CDATA[The Darcula phishing-as-a-service (PhaaS) platform is preparing to release its third major version, with one of the highlighted features, the ability to create do-it-yourself phishing kits to target any brand. [...]]]></description>
  </item>
 
 </channel>
