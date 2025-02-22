@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 22 Feb 2025 15:02:56 EST</pubDate>
+        <pubDate>Sat, 22 Feb 2025 16:02:00 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Beware: PayPal "New Address" feature abused to send phishing emails</title>
+        <link>https://www.bleepingcomputer.com/news/security/beware-paypal-new-address-feature-abused-to-send-phishing-emails/</link>
+        <pubDate>Sat, 22 Feb 2025 16:01:57 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/beware-paypal-new-address-feature-abused-to-send-phishing-emails/</guid>
+	<description><![CDATA[An ongoing PayPal email scam exploits the platform's address settings to send fake purchase notifications, tricking users into granting remote access to scammers [...]]]></description>
+ </item>
+
+ <item>
+        <title>Fake CS2 tournament streams used to steal crypto, Steam accounts</title>
+        <link>https://www.bleepingcomputer.com/news/security/fake-cs2-tournament-streams-used-to-steal-crypto-steam-accounts/</link>
+        <pubDate>Sat, 22 Feb 2025 10:17:27 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+        <category><![CDATA[Gaming]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fake-cs2-tournament-streams-used-to-steal-crypto-steam-accounts/</guid>
+	<description><![CDATA[Threat actors are exploiting major Counter-Strike 2 (CS2) competitions, like IEM Katowice 2025 and PGL Cluj-Napoca 2025, to defraud gamers and steal their Steam accounts and cryptocurrency. [...]]]></description>
+ </item>
+
  <item>
         <title>Google Chrome disables uBlock Origin for some in Manifest v3 rollout</title>
         <link>https://www.bleepingcomputer.com/news/google/google-chrome-disables-ublock-origin-for-some-in-manifest-v3-rollout/</link>
@@ -168,38 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/integrating-llms-into-security-operations-using-wazuh/</guid>
 	<description><![CDATA[Large Language Models (LLMs) can provide many benefits to security professionals by helping them analyze logs, detect phishing attacks, or offering threat intelligence. Learn from Wazuh how to incorporate an LLM, like ChatGPT, into its open source security platform. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Power Pages zero-day bug exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-fixes-power-pages-zero-day-bug-exploited-in-attacks/</link>
-        <pubDate>Thu, 20 Feb 2025 09:34:14 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Cloud]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-fixes-power-pages-zero-day-bug-exploited-in-attacks/</guid>
-	<description><![CDATA[Microsoft has issued a security bulletin for a high-severity elevation of privilege vulnerability in Power Pages, which hackers exploited as a zero-day in attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft testing fix for Windows 11 bug breaking SSH connections</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bug-breaking-ssh-connections/</link>
-        <pubDate>Thu, 20 Feb 2025 08:19:54 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bug-breaking-ssh-connections/</guid>
-	<description><![CDATA[Microsoft is now testing a fix for a longstanding known issue that is breaking SSH connections on some Windows 11 22H2 and 23H2 systems. [...]]]></description>
  </item>
 
 </channel>
