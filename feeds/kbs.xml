@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Tue, 18 Feb 2025 18:37:26 +0000</lastBuildDate>
@@ -350,7 +350,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/02/teen-on-musks-doge-team-graduated-from-the-com/feed/</wfw:commentRss>
-			<slash:comments>162</slash:comments>
+			<slash:comments>163</slash:comments>
 		
 		
 			</item>
@@ -721,8 +721,8 @@
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 256/256 objects using memcached
-Page Caching using memcached 
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-02-21 21:57:34 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-02-22 01:56:13 by W3 Total Cache
 -->
