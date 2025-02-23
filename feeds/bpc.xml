@@ -11,7 +11,7 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 23 Feb 2025 09:01:53 EST</pubDate>
+        <pubDate>Sun, 23 Feb 2025 10:00:38 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
@@ -186,20 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/salt-typhoon-uses-jumbledpath-malware-to-spy-on-us-telecom-networks/</guid>
 	<description><![CDATA[The Chinese state-sponsored Salt Typhoon hacking group uses a custom utility called JumbledPath to stealthily monitor network traffic and potentially capture sensitive data in cyberattacks on U.S. telecommunication providers. [...]]]></description>
- </item>
-
- <item>
-        <title>Integrating LLMs into security operations using Wazuh</title>
-        <link>https://www.bleepingcomputer.com/news/security/integrating-llms-into-security-operations-using-wazuh/</link>
-        <pubDate>Thu, 20 Feb 2025 10:01:11 -0500</pubDate>
-        <dc:creator>Sponsored by Wazuh</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/integrating-llms-into-security-operations-using-wazuh/</guid>
-	<description><![CDATA[Large Language Models (LLMs) can provide many benefits to security professionals by helping them analyze logs, detect phishing attacks, or offering threat intelligence. Learn from Wazuh how to incorporate an LLM, like ChatGPT, into its open source security platform. [...]]]></description>
  </item>
 
 </channel>
