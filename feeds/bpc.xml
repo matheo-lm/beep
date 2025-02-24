@@ -11,11 +11,29 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 23 Feb 2025 22:59:20 EST</pubDate>
+        <pubDate>Mon, 24 Feb 2025 00:01:54 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google Cloud introduces quantum-safe digital signatures in KMS</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-cloud-introduces-quantum-safe-digital-signatures-in-kms/</link>
+        <pubDate>Sun, 23 Feb 2025 10:09:19 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Cloud]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-cloud-introduces-quantum-safe-digital-signatures-in-kms/</guid>
+	<description><![CDATA[Google Cloud has introduced quantum-safe digital signatures to its Cloud Key Management Service (Cloud KMS), making them available in preview. [...]]]></description>
+ </item>
+
  <item>
         <title>Beware: PayPal "New Address" feature abused to send phishing emails</title>
         <link>https://www.bleepingcomputer.com/news/security/beware-paypal-new-address-feature-abused-to-send-phishing-emails/</link>
@@ -172,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-healthcare-org-pays-11m-settlement-over-alleged-cybersecurity-lapses/</guid>
 	<description><![CDATA[Health Net Federal Services (HNFS) and its parent company, Centene Corporation, have agreed to pay $11,253,400 to settle allegations that HNFS falsely certified compliance with cybersecurity requirements under its Defense Health Agency (DHA) TRICARE contract. [...]]]></description>
- </item>
-
- <item>
-        <title>Chinese hackers use custom malware to spy on US telecom networks</title>
-        <link>https://www.bleepingcomputer.com/news/security/salt-typhoon-uses-jumbledpath-malware-to-spy-on-us-telecom-networks/</link>
-        <pubDate>Thu, 20 Feb 2025 11:11:59 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/salt-typhoon-uses-jumbledpath-malware-to-spy-on-us-telecom-networks/</guid>
-	<description><![CDATA[The Chinese state-sponsored Salt Typhoon hacking group uses a custom utility called JumbledPath to stealthily monitor network traffic and potentially capture sensitive data in cyberattacks on U.S. telecommunication providers. [...]]]></description>
  </item>
 
 </channel>
