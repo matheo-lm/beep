@@ -11,14 +11,28 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 24 Feb 2025 14:58:58 EST</pubDate>
+        <pubDate>Mon, 24 Feb 2025 15:58:58 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
  <item>
-        <title>Microsoft launches ad-supported Office apps for Windows users</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-sneaks-out-ad-supported-office-apps-for-windows-users/</link>
+        <title>Russia warns financial sector of major IT service provider hack</title>
+        <link>https://www.bleepingcomputer.com/news/security/russia-warns-financial-sector-of-major-it-service-provider-hack/</link>
+        <pubDate>Mon, 24 Feb 2025 15:48:51 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/russia-warns-financial-sector-of-major-it-service-provider-hack/</guid>
+	<description><![CDATA[Russia's National Coordination Center for Computer Incidents (NKTsKI) is warning organizations in the country's credit and financial sector about a breach at LANIT, a major Russian IT service and software provider. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft tests ad-supported Office apps for Windows users</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-ad-supported-office-apps-for-windows-users/</link>
         <pubDate>Mon, 24 Feb 2025 14:53:51 -0500</pubDate>
         <dc:creator>Sergiu Gatlan</dc:creator>
 
@@ -26,8 +40,8 @@
         <category><![CDATA[Microsoft]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-sneaks-out-ad-supported-office-apps-for-windows-users/</guid>
-	<description><![CDATA[Microsoft has released ad-supported versions of its Office desktop apps, which have limited features but allow Windows users to edit their documents for free. [...]]]></description>
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-ad-supported-office-apps-for-windows-users/</guid>
+	<description><![CDATA[Microsoft has released ad-supported versions of its Office desktop apps, which have limited features but allow Windows users to edit their documents. [...]]]></description>
  </item>
 
  <item>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hacker-steals-record-146-billion-from-bybit-eth-cold-wallet/</guid>
 	<description><![CDATA[Cryptocurrency exchange Bybit revealed today that an unknown attacker stole over $1.46 billion worth of cryptocurrency from one of its ETH cold wallets. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA flags Craft CMS code injection flaw as exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-flags-craft-cms-code-injection-flaw-as-exploited-in-attacks/</link>
-        <pubDate>Fri, 21 Feb 2025 10:57:50 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-flags-craft-cms-code-injection-flaw-as-exploited-in-attacks/</guid>
-	<description><![CDATA[The U.S. Cybersecurity & Infrastructure Security Agency (CISA) warns that a Craft CMS remote code execution flaw is being exploited in attacks. [...]]]></description>
  </item>
 
 </channel>
