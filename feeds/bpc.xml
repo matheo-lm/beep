@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 24 Feb 2025 11:58:13 EST</pubDate>
+        <pubDate>Mon, 24 Feb 2025 12:59:39 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Botnet targets Basic Auth in Microsoft 365 password spray attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/botnet-targets-basic-auth-in-microsoft-365-password-spray-attacks/</link>
+        <pubDate>Mon, 24 Feb 2025 12:49:26 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/botnet-targets-basic-auth-in-microsoft-365-password-spray-attacks/</guid>
+	<description><![CDATA[A massive botnet of over 130,000 compromised devices is conducting password-spray attacks against Microsoft 365 (M365) accounts worldwide, attempting to confirm credentials. [...]]]></description>
+ </item>
+
  <item>
         <title>North Korean hackers linked to $1.5 billion ByBit crypto heist</title>
         <link>https://www.bleepingcomputer.com/news/security/north-korean-hackers-linked-to-15-billion-bybit-crypto-heist/</link>
@@ -174,22 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/apple-pulls-icloud-end-to-end-encryption-feature-in-the-uk/</guid>
 	<description><![CDATA[Apple will no longer offer iCloud end-to-end encryption in the United Kingdom after the government requested a backdoor to access Apple customers' encrypted cloud data. [...]]]></description>
- </item>
-
- <item>
-        <title>Apiiro unveils free scanner to detect malicious code merges</title>
-        <link>https://www.bleepingcomputer.com/news/security/apiiro-unveils-free-scanner-to-detect-malicious-code-merges/</link>
-        <pubDate>Thu, 20 Feb 2025 16:04:40 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/apiiro-unveils-free-scanner-to-detect-malicious-code-merges/</guid>
-	<description><![CDATA[Security researchers at Apiiro have released two free, open-source tools designed to detect and block malicious code before they are added to software projects to curb supply chain attacks. [...]]]></description>
  </item>
 
 </channel>
