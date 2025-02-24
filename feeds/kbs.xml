@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Sun, 23 Feb 2025 23:20:30 +0000</lastBuildDate>
@@ -149,7 +149,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/02/trump-2-0-brings-cuts-to-cyber-consumer-protections/feed/</wfw:commentRss>
-			<slash:comments>18</slash:comments>
+			<slash:comments>25</slash:comments>
 		
 		
 			</item>
@@ -803,5 +803,5 @@ Object Caching 292/292 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-02-24 07:46:43 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-02-24 08:38:17 by W3 Total Cache
 -->
