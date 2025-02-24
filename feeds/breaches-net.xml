@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description></description>
-	<lastBuildDate>Mon, 24 Feb 2025 11:30:03 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 24 Feb 2025 16:07:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,25 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>UK: More details emerge about ransomware attack on HCRG by Medusa</title>
+		<link>https://databreaches.net/2025/02/24/uk-more-details-emerge-about-ransomware-attack-on-hcrg-by-medusa/</link>
+					<comments>https://databreaches.net/2025/02/24/uk-more-details-emerge-about-ransomware-attack-on-hcrg-by-medusa/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Mon, 24 Feb 2025 16:07:57 +0000</pubDate>
+				<category><![CDATA[Health Data]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Non-U.S.]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=120612</guid>
+
+					<description><![CDATA[In a recent report in The Register about an attack by Medusa on HCRG in the U.K., Iain Thomson reported, &#8220;For now, then, HCRG is still operational &#8211; a stark contrast to what happened in Texas last year, when the University Medical Center in Lubbock was forced to severely limit operations and turn away ambulances following...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/02/24/uk-more-details-emerge-about-ransomware-attack-on-hcrg-by-medusa/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>No need to hack when it&#8217;s leaking, Monday edition: TeammateApp</title>
 		<link>https://databreaches.net/2025/02/24/no-need-to-hack-when-its-leaking-monday-edition-teammateapp/</link>
 					<comments>https://databreaches.net/2025/02/24/no-need-to-hack-when-its-leaking-monday-edition-teammateapp/#respond</comments>
@@ -186,27 +205,6 @@
 					<description><![CDATA[Marine Pichon and Alexis Bonnefoi of Orange Cyberdefense report: Last year, Orange Cyberdefense’s CERT investigated a series of incidents from an unknown threat actor leveraging both ShadowPad and PlugX. Tracked as Green Nailao (“Nailao” meaning “cheese” in Chinese – a topic our World Watch CTI team holds in high regard), the campaign impacted several European organizations, including in the healthcare vertical, during...]]></description>
 		
 					<wfw:commentRss>https://databreaches.net/2025/02/20/meet-nailaolocker-a-ransomware-distributed-in-europe-by-shadowpad-and-plugx-backdoors/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Signals of Trouble: Multiple Russia-Aligned Threat Actors Actively Targeting Signal Messenger</title>
-		<link>https://databreaches.net/2025/02/20/signals-of-trouble-multiple-russia-aligned-threat-actors-actively-targeting-signal-messenger/</link>
-					<comments>https://databreaches.net/2025/02/20/signals-of-trouble-multiple-russia-aligned-threat-actors-actively-targeting-signal-messenger/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Thu, 20 Feb 2025 14:10:08 +0000</pubDate>
-				<category><![CDATA[Commentaries and Analyses]]></category>
-		<category><![CDATA[cyberwar]]></category>
-		<category><![CDATA[Of Note]]></category>
-		<category><![CDATA[Phishing]]></category>
-		<category><![CDATA[Signal]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=120555</guid>
-
-					<description><![CDATA[Dan Black of Google&#8217;s Threat Intelligence Group writes: Google Threat Intelligence Group (GTIG) has observed increasing efforts from several Russia state-aligned threat actors to compromise Signal Messenger accounts used by individuals of interest to Russia&#8217;s intelligence services. While this emerging operational interest has likely been sparked by wartime demands to gain access to sensitive government...]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/02/20/signals-of-trouble-multiple-russia-aligned-threat-actors-actively-targeting-signal-messenger/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

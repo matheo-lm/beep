@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 24 Feb 2025 10:59:00 EST</pubDate>
+        <pubDate>Mon, 24 Feb 2025 11:58:13 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>North Korean hackers linked to $1.5 billion ByBit crypto heist</title>
+        <link>https://www.bleepingcomputer.com/news/security/north-korean-hackers-linked-to-15-billion-bybit-crypto-heist/</link>
+        <pubDate>Mon, 24 Feb 2025 11:22:58 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/north-korean-hackers-linked-to-15-billion-bybit-crypto-heist/</guid>
+	<description><![CDATA[​Over the weekend, blockchain security companies and experts have linked North Korea's Lazarus hacking group to the theft of over $1.5 billion from cryptocurrency exchange Bybit. [...]]]></description>
+ </item>
+
  <item>
         <title>Exploits for unpatched Parallels Desktop flaw give root on Macs</title>
         <link>https://www.bleepingcomputer.com/news/security/exploits-for-unpatched-parallels-desktop-flaw-give-root-on-macs/</link>
@@ -174,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/apiiro-unveils-free-scanner-to-detect-malicious-code-merges/</guid>
 	<description><![CDATA[Security researchers at Apiiro have released two free, open-source tools designed to detect and block malicious code before they are added to software projects to curb supply chain attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Black Basta ransomware gang's internal chat logs leak online</title>
-        <link>https://www.bleepingcomputer.com/news/security/black-basta-ransomware-gang-s-internal-chat-logs-leak-online/</link>
-        <pubDate>Thu, 20 Feb 2025 15:48:32 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/black-basta-ransomware-gang-s-internal-chat-logs-leak-online/</guid>
-	<description><![CDATA[An unknown leaker has released what they claim to be an archive of internal Matrix chat logs belonging to the Black Basta ransomware operation. [...]]]></description>
  </item>
 
 </channel>
