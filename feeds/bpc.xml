@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 24 Feb 2025 13:58:10 EST</pubDate>
+        <pubDate>Mon, 24 Feb 2025 14:58:58 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft launches ad-supported Office apps for Windows users</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-sneaks-out-ad-supported-office-apps-for-windows-users/</link>
+        <pubDate>Mon, 24 Feb 2025 14:53:51 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-sneaks-out-ad-supported-office-apps-for-windows-users/</guid>
+	<description><![CDATA[Microsoft has released ad-supported versions of its Office desktop apps, which have limited features but allow Windows users to edit their documents for free. [...]]]></description>
+ </item>
+
  <item>
         <title>Australia bans all Kaspersky products on government systems</title>
         <link>https://www.bleepingcomputer.com/news/security/australia-bans-all-kaspersky-products-on-government-systems/</link>
@@ -192,22 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-flags-craft-cms-code-injection-flaw-as-exploited-in-attacks/</guid>
 	<description><![CDATA[The U.S. Cybersecurity & Infrastructure Security Agency (CISA) warns that a Craft CMS remote code execution flaw is being exploited in attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Apple pulls iCloud end-to-end encryption feature in the UK</title>
-        <link>https://www.bleepingcomputer.com/news/security/apple-pulls-icloud-end-to-end-encryption-feature-in-the-uk/</link>
-        <pubDate>Fri, 21 Feb 2025 10:40:22 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Apple]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/apple-pulls-icloud-end-to-end-encryption-feature-in-the-uk/</guid>
-	<description><![CDATA[Apple will no longer offer iCloud end-to-end encryption in the United Kingdom after the government requested a backdoor to access Apple customers' encrypted cloud data. [...]]]></description>
  </item>
 
 </channel>
