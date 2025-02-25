@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 25 Feb 2025 16:58:32 EST</pubDate>
+        <pubDate>Tue, 25 Feb 2025 17:58:05 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Have I Been Pwned adds 284M accounts stolen by infostealer malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/have-i-been-pwned-adds-284m-accounts-stolen-by-infostealer-malware/</link>
+        <pubDate>Tue, 25 Feb 2025 17:07:50 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/have-i-been-pwned-adds-284m-accounts-stolen-by-infostealer-malware/</guid>
+	<description><![CDATA[​The Have I Been Pwned data breach notification service has added over 284 million accounts stolen by information stealer malware and found on a Telegram channel. [...]]]></description>
+ </item>
+
  <item>
         <title>Firefox continues Manifest V2 support as Chrome disables MV2 ad-blockers</title>
         <link>https://www.bleepingcomputer.com/news/security/firefox-continues-manifest-v2-support-as-chrome-disables-mv2-ad-blockers/</link>
@@ -196,20 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/australia-bans-all-kaspersky-products-on-government-systems/</guid>
 	<description><![CDATA[The Australian government has banned all Kaspersky Lab products and web services from its systems and devices following an analysis that claims the company poses a significant security risk to the country. [...]]]></description>
- </item>
-
- <item>
-        <title>Botnet targets Basic Auth in Microsoft 365 password spray attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/botnet-targets-basic-auth-in-microsoft-365-password-spray-attacks/</link>
-        <pubDate>Mon, 24 Feb 2025 12:49:26 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/botnet-targets-basic-auth-in-microsoft-365-password-spray-attacks/</guid>
-	<description><![CDATA[A massive botnet of over 130,000 compromised devices is conducting password-spray attacks against Microsoft 365 (M365) accounts worldwide, attempting to confirm credentials. [...]]]></description>
  </item>
 
 </channel>
