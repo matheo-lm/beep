@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Thu, 20 Feb 2025 19:45:44 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 24 Feb 2025 15:45:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,225 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>Ghostwriter &#124; New Campaign Targets Ukrainian Government and Belarusian Opposition</title>
+		<link>https://www.sentinelone.com/labs/ghostwriter-new-campaign-targets-ukrainian-government-and-belarusian-opposition/</link>
+		
+		<dc:creator><![CDATA[Tom Hegel]]></dc:creator>
+		<pubDate>Tue, 25 Feb 2025 10:55:52 +0000</pubDate>
+				<category><![CDATA[Belarus]]></category>
+		<category><![CDATA[Russia]]></category>
+		<category><![CDATA[Ukraine]]></category>
+		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=114319</guid>
+
+					<description><![CDATA[Latest Ghostwriter campaign brings Belarusian opposition into its sights for the first time as it continues weaponizing XLS docs to drop malware.]]></description>
+										<content:encoded><![CDATA[<h2>Executive Summary</h2>
+<ul>
+<li aria-level="1">SentinelLABS has observed a campaign targeting opposition activists in Belarus as well as Ukrainian military and government organizations.</li>
+<li aria-level="1">The campaign has been in preparation since July-August 2024 and entered the active phase in November-December 2024.</li>
+<li aria-level="1">Recent malware samples and command-and-control (C2) infrastructure activity indicate that the operation remains active in recent days.</li>
+<li aria-level="1">SentinelLABS assesses that this cluster of threat activity is an extension of the long-running Ghostwriter campaign identified in previous public reporting.</li>
+</ul>
+<h2>Ghostwriter | Background</h2>
+<p>Ghostwriter is a long-running campaign likely active since 2016 and subsequently described in various public reports throughout 2020 to 2024. The actor behind Ghostwriter campaigns is closely linked with Belarusian government espionage efforts, while most commonly reported under the APT names <a href="https://cloud.google.com/blog/topics/threat-intelligence/unc1151-linked-to-belarus-government/" target="_blank" rel="noopener noreferrer">UNC1151</a> (Mandiant) or <a href="https://cert.gov.ua/search/UAC-0057" target="_blank" rel="noopener noreferrer">UAC-0057</a> (CERT-UA). Some public reports may use the term &#8220;Ghostwriter APT&#8221; interchangeably to refer to both the threat actor and its associated campaigns.</p>
+<p>Previous <a href="https://www.cardiff.ac.uk/__data/assets/pdf_file/0005/2699483/Ghostwriter-Report-Final.pdf" target="_blank" rel="noopener noreferrer">research</a> on the evolution of Ghostwriter noted how it operated successfully across a range of platforms, blending information manipulation with hacking to target a number of European countries. Reporting throughout 2022 to 2024 described <a href="https://cert.gov.ua/article/6280159" target="_blank" rel="noopener noreferrer">activity</a> in which malicious Excel documents were used to deliver PicassoLoader and Cobalt Strike payloads. Observed document lures were themed around issues pertaining to the Ukraine military and the <a href="https://cyble.com/blog/unc1151-strikes-again-unveiling-their-tactics-against-ukraines-ministry-of-defence/" target="_blank" rel="noopener noreferrer">likely targeting</a> of the Ministry of Defense.</p>
+<p>SentinelLABS has observed new activity with multiple weaponized Excel documents containing lures pertaining to the interests of the Ukraine government, the Ukraine military and domestic Belarusian opposition. While some of the TTPs we have observed overlap with previous reporting, others are new, including adaptations of previously observed payloads such as PicassoLoader.</p>
+<h2>Weaponized XLS 1 | &#8220;Political Prisoners in Minsk Courts&#8221;</h2>
+<p>SentinelLABS analyzed an attack that started with a Google Drive shared document landing in the target’s inbox. The email originated from an account using the name “Vladimir Nikiforech” (<code>vladimir.nikiforeach@gmail[.]com</code>). The email link pointed to a downloadable RAR archive, which according to the internal timestamps was created on 2025-01-14 00:47:54, containing a malicious Excel workbook (<code>ebb30fd99c2e6cbae392c337df5876759e53730d</code>) with the file name <code>политзаключенные(по судам минска).xls</code> (“Political prisoners (across courts of Minsk).xls”).</p>
+<p>The title of the lure indicates an interesting shift in Ghostwriter targeting. Although attribution for the 2021 Ghostwriter campaign <a href="https://www.cardiff.ac.uk/__data/assets/pdf_file/0005/2699483/Ghostwriter-Report-Final.pdf" target="_blank" rel="noopener noreferrer">pointed to</a> the Belarus state, this is the first time we have seen lures directly aimed at Belarus government opposition. The timing of the attack could have been motivated by the presidential election that <a href="https://en.wikipedia.org/wiki/2025_Belarusian_presidential_election" target="_blank" rel="noopener noreferrer">took place</a> shortly after on Jan 26, 2025.</p>
+<p>The XLS document contains an obfuscated VBA macro which is activated when the document is opened and the user allows Office macros to run.</p>
+<figure id="attachment_114850" aria-describedby="caption-attachment-114850" style="width: 1837px" class="wp-caption aligncenter"><img fetchpriority="high" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3.jpg" alt="Obfuscated macro inside the XLS spreadsheet" width="1837" height="752" class="size-full wp-image-114850" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3.jpg 1837w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3-300x123.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3-1024x419.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3-768x314.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3-1536x629.jpg 1536w" sizes="(max-width: 1837px) 100vw, 1837px" /><figcaption id="caption-attachment-114850" class="wp-caption-text">Obfuscated macro inside the XLS spreadsheet</figcaption></figure>
+<p>On execution, the macro writes a file to <code>%Temp%\Realtek(r)Audio.dll</code>.</p>
+<p>The DLL file is loaded with the following command line invocation:</p>
+<pre>
+C:\Windows\System32\regsvr32.exe /u /s "C:\Temp\Realtek(r)Audio.dll”
+</pre>
+<p>This starts the standard Windows process <code>regsvr32.exe</code>, which calls the <code>DllUnregisterServer</code> function implemented inside the DLL; the function then loads and executes the .NET assembly described next.</p>
+<p>Analysis of <code>Dwnldr.dll</code> shows that it is a DLL file with a .NET assembly embedded inside. The file is protected with <a href="https://mkaring.github.io/ConfuserEx/" target="_blank" rel="noopener noreferrer">ConfuserEx</a> &#8211; a publicly available tool that helps to obfuscate .NET programs and observed in previous Ghostwriter campaigns.</p>
+<p>The DLL file hosts a payload that appears to be a simplified variant of PicassoDownloader, a malware family also linked to Ghostwriter activity. The internal filename (<code>Dwnldr.dll</code>) was previously used by the Ghostwriter threat actor; however, this variant bears only high-level similarities to previous versions, with significant changes to the underlying code, possibly to make it a cheaper and more expendable tool.</p>
+<p>As a part of application protection provided by the obfuscator, the Downloader creates a copy of itself in memory, and then modifies it. It does so by decrypting additional code of the assembly. It also uses a clever evasion technique, altering its own PE header in memory and breaking internal links to the .NET assembly. This makes it impossible for security products to parse it as a .NET module.</p>
+<p>During code execution, after the protection layer passes control to core functionality, the Downloader writes a decoy Excel workbook file to <code>%AppData%\Roaming\Microsoft\temp.xlsx</code> and downloads additional file(s) from the Web.</p>
+<p>The <code>temp.xlsx</code> decoy file (<code>18151b3801bd716b5a33cfc85dbdc4ba84a00314</code>) is immediately opened in Excel in an attempt to make the victim believe that it contains the original content of the <code>политзаключенные (по судам минска).xls</code> file.</p>
+<figure id="attachment_114854" aria-describedby="caption-attachment-114854" style="width: 1999px" class="wp-caption aligncenter"><img decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11.jpg" alt="Decoy document containing lists of people with criminal charges, prosecutors’ and judges’ names" width="1999" height="803" class="size-full wp-image-114854" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11-300x121.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11-1024x411.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11-768x309.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11-1536x617.jpg 1536w" sizes="(max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-114854" class="wp-caption-text">Decoy document containing lists of people with criminal charges, prosecutors’ and judges’ names</figcaption></figure>
+<p>The spreadsheet contains the names of people with criminal charges along with the names of prosecutors and judges: content that invites the reader to believe it could be leaked from a government source. However, the information was already in the public domain and can be found on the website of a proscribed Belarusian human rights organization, <a href="https://prisoners.spring96.org/ru/list" target="_blank" rel="noopener noreferrer">Spring96</a>.</p>
+<p>Once the decoy Excel file is opened, the Downloader attempts to fetch the next stage from the following URL:</p>
+<pre>
+https://everythingandthedog[.]shop/petsblog/2020/2/25/tips-for-taking-difficult-dogs-on-a-walk.jpg
+</pre>
+<figure id="attachment_114852" aria-describedby="caption-attachment-114852" style="width: 720px" class="wp-caption aligncenter"><img decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_13.jpg" alt="The JPG image file fetched from the C2" width="720" height="960" class="size-full wp-image-114852" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_13.jpg 720w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_13-225x300.jpg 225w" sizes="(max-width: 720px) 100vw, 720px" /><figcaption id="caption-attachment-114852" class="wp-caption-text">The JPG image file fetched from the C2</figcaption></figure>
+<p>We note that the <code>.shop</code> top level domain was also reported in other Ghostwriter activity seen in 2024.</p>
+<p>When the malware issues the HTTP request, it uses a hardcoded User-Agent string:</p>
+<pre>
+Mozilla/5.0 (<b>Macintosh; Intel Mac OS X 10_15_7</b>) AppleWebKit/555.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+</pre>
+<p>The fetched file (<code>8d2bb96e69df059f279d97989690ce3e556a8318</code>) is a benign JPEG file, originating from publicly available photo stock, with no extra payload or any hidden cave where code could be embedded. We confirmed that an identical file can be found online, located on a web site that is nearly identical to the one used by attackers. It would seem the attackers not only reused the JPG file contents from a legitimate website but also copied its original URL, changing only the top level domain:</p>
+<pre>
+https://www.everythingandthedog<b>.com</b>/petsblog/2020/2/25/tips-for-taking-difficult-dogs-on-a-walk.
+</pre>
+<p>Once the file is downloaded, it is renamed and then saved to <code>%APPDATA%\Roaming\Microsoft\SystemCertificates\CertificateCenter.dll</code>.</p>
+<p>Later, it is registered to load during autostart by leveraging the Registry Run key:</p>
+<pre>
+HKCU\System\Software\Microsoft\Windows\CurrentVersion\Run\Microsoft Certificate Center
+</pre>
+<p>with its value pointing to expanded environment variable string:</p>
+<pre>
+rundll32.exe C:\Users\<Username>\AppData\Roaming\Microsoft\SystemCertificates\CertificateCenter.dll,#1
+</pre>
+<p>This Registry entry makes <code>rundll32.exe</code> load the DLL and execute its exported function with ordinal 1 whenever a user logs on.</p>
+<figure id="attachment_114847" aria-describedby="caption-attachment-114847" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_6.jpg" alt="Overview of the malware stages for Weaponized XLS 1" width="1999" height="1180" class="size-full wp-image-114847" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_6.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_6-300x177.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_6-1024x604.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_6-768x453.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_6-1536x907.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-114847" class="wp-caption-text">Overview of the malware stages for Weaponized XLS 1</figcaption></figure>
+<p>During our analysis we only observed the benign JPG file being downloaded. However, based on the code analysis, we believe that the real targets receive an actual DLL. We assume that such a targeted payload delivery process is carefully controlled by the attackers and that they deliver the payload only after confirming the requesting client&#8217;s profile (browser user agent, IP address of the client, and matching time of the operation window). <a href="https://www.fortinet.com/blog/threat-research/menace-unleashed-excel-file-deploys-cobalt-strike-at-ukraine" target="_blank" rel="noopener noreferrer">Research</a> in a previous campaign found that a Cobalt Strike payload was delivered to targets only if the host IP was located in Ukraine.</p>
+<p>Given the timing and targeting of the attack, we hypothesized that it may not have been an isolated incident. Further research led us to discover other samples closely resembling Weaponized XLS 1, suggesting that multiple attacks using the same techniques had been planned or executed. The samples used in these suspected attacks are described below.</p>
+<h2>Weaponized XLS 2 | Ukraine Gov “Anti-Corruption Initiative”</h2>
+<p>A file bearing the Ukrainian name <code>Zrazok.xls</code> (“Sample.xls”) is an XLS file (<code>301ffdf0c7b67e01fd2119c321e7ae09b7835afc</code>) with an obfuscated VBA macro embedded. However, the script code and obfuscation technique are different from the case we discussed earlier.</p>
+<p>For this script, the attackers used a popular obfuscator tool called <a href="https://github.com/sevagas/macro_pack" target="_blank" rel="noopener noreferrer">Macropack</a>, an open-source but seemingly abandoned project originally developed for red-teaming and penetration testing exercises.</p>
+<figure id="attachment_114845" aria-describedby="caption-attachment-114845" style="width: 1837px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_8.jpg" alt="Macropack-obfuscated VBA macro found inside the spreadsheet" width="1837" height="752" class="size-full wp-image-114845" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_8.jpg 1837w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_8-300x123.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_8-1024x419.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_8-768x314.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_8-1536x629.jpg 1536w" sizes="auto, (max-width: 1837px) 100vw, 1837px" /><figcaption id="caption-attachment-114845" class="wp-caption-text">Macropack-obfuscated VBA macro found inside the spreadsheet</figcaption></figure>
+<p>As in the previous case, once the macro code is executed, the .NET ConfuserEx-obfuscated Downloader DLL (written to <code>%AppData%\Roaming\Microsoft\bruhdll32.dll</code>) is loaded with <code>rundll32.exe</code> and respective commandline arguments to run an exported function. After this, the new module drops a decoy XLS file and opens it with Excel.</p>
+<figure id="attachment_114851" aria-describedby="caption-attachment-114851" style="width: 1790px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_2.jpg" alt="The decoy document prepared for a Ukrainian reader (an action plan for anti-corruption initiative in government organisations in Ukraine)" width="1790" height="1255" class="size-full wp-image-114851" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_2.jpg 1790w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_2-300x210.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_2-1024x718.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_2-768x538.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_2-1536x1077.jpg 1536w" sizes="auto, (max-width: 1790px) 100vw, 1790px" /><figcaption id="caption-attachment-114851" class="wp-caption-text">The decoy document prepared for a Ukrainian reader (an action plan for anti-corruption initiative in government organisations in Ukraine)</figcaption></figure>
+<p>This module attempts to download the next stage from the following URL (unavailable at the time of writing):</p>
+<pre>
+https://sciencealert[.]shop/images/2024/11/black-hole-coronaxx.jpg
+</pre>
+<p>When the malware issues the HTTP request it uses a hardcoded User-Agent string that differs slightly from the previous case:</p>
+<pre>
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+</pre>
+<p>Notably, this file (<code>52e894acf0e14d27f8997d2174c1f40d6d87bba9</code>) was previously uploaded to <a href="https://www.virustotal.com/gui/file/4497bb70ca95b115d7be403141e34f7fb06070b8dd6ccf034d9a71c1c48826e4/details" target="_blank" rel="noopener noreferrer">VirusTotal</a> on December 19, 2024.</p>
+<figure id="attachment_114846" aria-describedby="caption-attachment-114846" style="width: 1024px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_7.jpg" alt="Image file fetched from the malicious URL" width="1024" height="415" class="size-full wp-image-114846" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_7.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_7-300x122.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_7-768x311.jpg 768w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption id="caption-attachment-114846" class="wp-caption-text">Image file fetched from the malicious URL</figcaption></figure>
+<p>As with the previous case, the image file and its URL path appear to be copied from a public blog, published on Nov 16, 2024:</p>
+<pre>
+https://www.sciencealert.com/scientists-reveal-the-shape-of-a-black-holes-corona-for-the-very-first-time
+</pre>
+<p>Again, the file name and the path on the malicious server were nearly identical to the legitimate one, with the actor changing only the top level domain from <code>.com</code> to <code>.shop</code>.</p>
+<pre>
+https://www.sciencealert.com/images/2024/11/black-hole-coronaxx.jpg
+</pre>
+<p>In this case, the downloaded file is expected to be an archive in a GZIP format. Once downloaded, the malware decompresses it and saves it to the following location:</p>
+<pre>
+%APPDATA%\Roaming\Microsoft\SystemCertificates\CertificateCenter.dll
+</pre>
+<p>It also creates an additional text config file at:</p>
+<pre>
+%APPDATA%\Roaming\Microsoft\SystemCertificates\config
+</pre>
+<p>The config file contains the following data:</p>
+<pre>
+&lt;Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"&gt;
+ &lt;PropertyGroup&gt;
+  &lt;AssemblyName&gt;Certificate&lt;/AssemblyName&gt;
+  &lt;OutputPath&gt;Bin\&lt;/OutputPath&gt;
+ &lt;/PropertyGroup&gt;
+ &lt;ItemGroup&gt;
+  &lt;Compile Include="CertificateCenter.dll" /&gt;
+ &lt;/ItemGroup&gt;
+ &lt;Target Name="Build"&gt;
+  &lt;MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" /&gt;
+  &lt;Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" /&gt;
+ &lt;/Target&gt;
+&lt;/Project&gt;
+</pre>
+<p>The config file is used by the Downloader to execute <code>MSBuild.exe</code>, instructing it to build a new application:</p>
+<pre>
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe %AppData%\Roaming\Microsoft\SystemCertificates\config
+</pre>
+<p>This suggests that the <code>CertificateCenter.dll</code> file is not a binary as the file extension would suggest but rather contains program source code. The command, if successful, produces an executable file in the following location:</p>
+<pre>
+%AppData%\Roaming\Microsoft\SystemCertificates\Bin\Certificate.exe
+</pre>
+<p>and likely contains the next stage of the infection chain.</p>
+<figure id="attachment_114848" aria-describedby="caption-attachment-114848" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_5.jpg" alt="Overview of the malware stages for Weaponized XLS 2" width="1999" height="1621" class="size-full wp-image-114848" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_5.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_5-300x243.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_5-1024x830.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_5-768x623.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_5-1536x1246.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-114848" class="wp-caption-text">Overview of the malware stages for Weaponized XLS 2</figcaption></figure>
+<h2>Weaponized XLS 3 | &#8220;Supplies for Ukraine Armed Forces&#8221;</h2>
+<p>A file bearing the Ukrainian name <code>Донесення 5 реч - зразок.xls</code> (“Report 5 items &#8211; sample.xls”) is an XLS file (<code>9d110879d101bcaec7accc3001295a53dc33371f</code>) hosting another VBA payload obfuscated with Macropack.</p>
+<p>As in the previous cases, once the macro code is executed, the .NET ConfuserEx-obfuscated Downloader DLL (written to <code>%AppData%\Roaming\Microsoft\bruhdll32.dll</code>) is loaded with <code>rundll32.exe</code> and respective commandline arguments to run an exported function. After this, the new module drops a decoy XLS file on disk and opens it with Excel.</p>
+<figure id="attachment_114849" aria-describedby="caption-attachment-114849" style="width: 1989px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_4.jpg" alt="The decoy document prepared for a Ukrainian reader (a report template for the Ukrainian armed forces supplies)" width="1989" height="1256" class="size-full wp-image-114849" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_4.jpg 1989w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_4-300x189.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_4-1024x647.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_4-768x485.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_4-1536x970.jpg 1536w" sizes="auto, (max-width: 1989px) 100vw, 1989px" /><figcaption id="caption-attachment-114849" class="wp-caption-text">The decoy document prepared for a Ukrainian reader (a report template for the Ukrainian armed forces supplies)</figcaption></figure>
+<p>Again, the malware uses the same payload retrieval technique and downloads a JPG file from yet another <code>.shop</code> domain:</p>
+<pre>
+https://cookingwithbooks[.]shop/images/qwerty.jpg
+</pre>
+<p>The URL is unavailable at the time of writing, but data from VirusTotal indicates that the downloaded file is identical to the black hole image described above in the Weaponized XLS 2 section. The malware logic is also identical with Weaponized XLS 2.</p>
+<h2>Weaponized XLS 4 &amp; 5 | Variations on a Theme</h2>
+<p>In addition to the previous findings, we discovered further related XLS files that were similarly weaponized. The files <code>Донесення 5 реч фонд зборів- зразок.xls</code> (“Report 5 items collection fund- sample.xls”; <code>2c06c01f9261fe80b627695a0ed746aa8f1f3744</code>) and <code>Додаток 8 реч новий.xls</code> (“Addition 8 items new &#8211; sample.xls”; <code>853da593d2a489c2bd72a284a362d7c68c3a4d4c</code>) were first uploaded from Ukraine in Feb 2025.</p>
+<p>Both files contain a Macropack-obfuscated VBA macro; however, they differ in structure. Functionally, both drop a DLL to the previously noted path <code>%AppData%\Roaming\Microsoft\bruhdll32.dll</code>.</p>
+<p>Again, the DLL is loaded with <code>rundll32.exe</code> and respective command line arguments to execute an exported function. Next, the victim sees a decoy workbook open in Excel.</p>
+<p><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_12.jpg" alt="" width="1816" height="1138" class="aligncenter size-full wp-image-114853" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_12.jpg 1816w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_12-300x188.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_12-1024x642.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_12-768x481.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_12-1536x963.jpg 1536w" sizes="auto, (max-width: 1816px) 100vw, 1816px" /><br />
+<figure id="attachment_114855" aria-describedby="caption-attachment-114855" style="width: 1868px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_10.jpg" alt="The decoy documents prepared for a Ukrainian reader (a report template for the Ukrainian armed forces supplies)" width="1868" height="1142" class="size-full wp-image-114855" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_10.jpg 1868w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_10-300x183.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_10-1024x626.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_10-768x470.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_10-1536x939.jpg 1536w" sizes="auto, (max-width: 1868px) 100vw, 1868px" /><figcaption id="caption-attachment-114855" class="wp-caption-text">The decoy documents prepared for a Ukrainian reader (a report template for the Ukrainian armed forces supplies)</figcaption></figure></p>
+<p>The decoys are similar and the obfuscation technique, code structure, and the embedded URL are common to both:</p>
+<pre>
+https://pigglywigglystores[.]shop/wp-content/themes/fp-wp-j-piggly-wiggly-nc/resources/images/logo/logo.png
+</pre>
+<p>The User-Agent string in the HTTP request, however, is different, with the operating system and architectures specified as “Windows NT 10.0; Win64; x64”.</p>
+<pre>
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.71
+</pre>
+<p>These variants of the malware also contain another embedded .NET DLL, internally referred to as LibCMD from the original filename <code>LibCMD.dll</code> (<code>4ae6b8adc980ba8a212b838f3ca6a9718d9a3757</code>). This is a small file, whose purpose is simply to start <code>cmd.exe</code> and connect to stdin/stdout.</p>
+<p>The file contains a tampered PE link timestamp. It is never saved to disk; instead, it is loaded dynamically in memory as a .NET assembly and executed.</p>
+<figure id="attachment_114844" aria-describedby="caption-attachment-114844" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_9.jpg" alt="Overview of the malware stages for Weaponized XLS 4 &amp; 5" width="1999" height="1621" class="size-full wp-image-114844" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_9.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_9-300x243.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_9-1024x830.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_9-768x623.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_9-1536x1246.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-114844" class="wp-caption-text">Overview of the malware stages for Weaponized XLS 4 &amp; 5</figcaption></figure>
+<h2>Attribution</h2>
+<p>Analysis of techniques used by threat actors can often be helpful in establishing the origin of the attack and the malware it uses. In this case, the obfuscation techniques are quite specific across all the samples we analyzed, allowing us to establish a medium confidence link between them and a malware cluster known as PicassoLoader, a downloader toolkit.</p>
+<p>PicassoLoader has been used in cyber attacks targeting government, military, and civilian entities in Ukraine and Poland and is exclusively associated with the Ghostwriter threat actor (<i>aka</i> UNC1151, UAC-0057, Blue Dev 4, Moonscape, TA445).</p>
+<p>Throughout 2024, Ghostwriter has repeatedly used a combination of Excel workbooks containing Macropack-obfuscated VBA macros and dropped embedded .NET downloaders obfuscated with ConfuserEx. In our case, the Downloader malware appears to be a simplified implementation of the PicassoLoader.</p>
+<h2>Conclusion</h2>
+<p>The Ghostwriter threat actor has been consistently active in the past years and continues its attempts to compromise targets aligned with the interests of Belarus and its closest ally, Russia. It has mounted multiple attacks reported by CERT UA and other security researchers throughout 2024.</p>
+<p>While Belarus doesn’t actively participate in military campaigns in the war in Ukraine, cyber threat actors associated with it appear to have no reservation about conducting cyberespionage operations against Ukrainian targets.</p>
+<p>The campaign described in this publication also serves as confirmation that Ghostwriter is closely tied with the interests of the Belarusian government waging an aggressive pursuit of its opposition and organizations associated with it.</p>
+<p>We would like to express our thanks to partners in the region, including <a href="https://resident.ngo/" target="_blank" rel="noopener noreferrer">RESIDENT.NGO</a> and others who remain unnamed, for their invaluable collaboration. </p>
+<p>Organizations that believe they may have been targeted by threat actors involved in this campaign are invited to reach out to the SentinelLABS team via <a href="mailto:ThreatTips@sentinelone.com" target="_blank" rel="noopener noreferrer">ThreatTips@sentinelone.com</a>.</p>
+<h2>Indicators of Compromise</h2>
+<div style="font-size:0.9em">
+<b>Weaponized Excel Workbooks and Decoys</b></p>
+<div style="overflow-x:auto;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;"><strong>SHA-1</strong></td>
+<td style="width: 35.0%; height: 24px;"><strong>File Name</strong></td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">18151b3801bd716b5a33cfc85dbdc4ba84a00314</td>
+<td style="width: 35.0%; height: 24px;">temp.xlsx</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">2c06c01f9261fe80b627695a0ed746aa8f1f3744</td>
+<td style="width: 35.0%; height: 24px;">Донесення 5 реч фонд зборів- зразок.xls</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">301ffdf0c7b67e01fd2119c321e7ae09b7835afc</td>
+<td style="width: 35.0%; height: 24px;">Zrazok.xls</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">853da593d2a489c2bd72a284a362d7c68c3a4d4c</td>
+<td style="width: 35.0%; height: 24px;">Додаток 8 реч новий.xls</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">9d110879d101bcaec7accc3001295a53dc33371f</td>
+<td style="width: 35.0%; height: 24px;">Донесення 5 реч &#8211; зразок.xls</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">ebb30fd99c2e6cbae392c337df5876759e53730d</td>
+<td style="width: 35.0%; height: 24px;">политзаключенные (по судам минска).xls</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><b>Downloaders</b><br />
+18bcc91ad3eed529d44926f4ae65acf44480f39d<br />
+64fca582cb69d9dc2afb1b432df58fb32ac18ca1<br />
+7261ad5d4e760aa88df94b734bc44598a090852a<br />
+9fa00a4ee4e95bc50a3919d2d3c0be2a567d8845<br />
+e5ebc7deca1ff1f0a4b1462d37ef813dad8413a6</p>
+<p><b>LibCMD helper file</b><br />
+4ae6b8adc980ba8a212b838f3ca6a9718d9a3757</p>
+<p><b>C2 Domains</b><br />
+americandeliriumsociety[.]shop<br />
+cookingwithbooks[.]shop<br />
+everythingandthedog[.]shop<br />
+pigglywigglystores[.]shop<br />
+sciencealert[.]shop
+</div>
+]]></content:encoded>
+					
+		
+		
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter-ftr.jpg" length="411675" type="image/jpeg" />	</item>
+		<item>
 		<title>Censorship as a Service &#124; Leak Reveals Public-Private Collaboration to Monitor Chinese Cyberspace</title>
 		<link>https://www.sentinelone.com/labs/censorship-as-a-service-leak-reveals-public-private-collaboration-to-monitor-chinese-cyberspace/</link>
 		
@@ -726,184 +945,5 @@ e2221e5c58a1a976e59fe1062c6db36d4951b81e &#8211; PHP file containing URL associa
 		
 		
 		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/11/Cristina-ftr.jpg" length="595795" type="image/jpeg" />	</item>
-		<item>
-		<title>CyberVolk &#124; A Deep Dive into the Hacktivists, Tools and Ransomware Fueling Pro-Russian Cyber Attacks</title>
-		<link>https://www.sentinelone.com/labs/cybervolk-a-deep-dive-into-the-hacktivists-tools-and-ransomware-fueling-pro-russian-cyber-attacks/</link>
-		
-		<dc:creator><![CDATA[Jim Walter]]></dc:creator>
-		<pubDate>Mon, 25 Nov 2024 10:55:10 +0000</pubDate>
-				<category><![CDATA[Hacktivism]]></category>
-		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=108943</guid>
-
-					<description><![CDATA[A loose collective of mostly low-skilled actors, CyberVolk absorbs and adapts a wide array of destructive malware for use against political targets.]]></description>
-										<content:encoded><![CDATA[<h2>Executive Summary</h2>
-<ul>
-<li aria-level="1">CyberVolk/GLORIAMIST is a hacktivist collective originating in India with pro-Russia leanings. Between June and October 2024, CyberVolk claimed responsibility for multiple ransomware attacks.</li>
-<li aria-level="1">The main objective of CyberVolk and related groups is to leverage geopolitical issues to launch and justify attacks on public and government entities, primarily in the service of Russian government interests.</li>
-<li aria-level="1">SentinelLabs has observed a shared codebase used by CyberVolk, AzzaSec and DoubleFace’s ransomware. Additionally, CyberVolk has promoted other ransomware families like HexaLocker and Parano. These groups and the tools they leverage are all closely intertwined.</li>
-<li aria-level="1">These hacktivist groups are extremely dynamic and volatile. In-fighting, threats, and inflated political-posturing are common, leading to fragmentation and the rapid re-shaping of the hacktivist threat landscape.</li>
-</ul>
-<h2>Introduction</h2>
-<p>CyberVolk is a politically motivated hacktivist collective which launched its own RaaS in June 2024. The group uses both DDoS and ransomware attacks in its efforts to undermine and disrupt the operations of those opposed to Russian interests.</p>
-<p>The group has become an increasingly prominent player within the cybercrime ecosystem, adopting and repurposing existing commodity malware to advance its causes. Highly-skilled actors within the collective expand and revise such tools, effectively making them more sophisticated as they move through various hands.</p>
-<p>The CyberVolk collective is a prime example of how readily threat actors can access and deploy dangerous ransomware builders such as AzzaSec, Diamond, LockBit, Chaos and others. This adaptability makes the group highly dynamic and increasingly challenging to track.</p>
-<p>In this post, we provide an overview of a number of ransomware families within the context of CyberVolk’s operations, breaking down the increasingly blurred lines between tools and group affiliations. Understanding the shifting nature of dynamic hacktivist collectives like CyberVolk can help organizations prepare and fortify their defenses.</p>
-<h2>The Origins of CyberVolk Ransomware</h2>
-<p>CyberVolk is a <a href="https://threatmon.io/blog/cybervolk-ransomware-technical-malware-analysis/" target="_blank" rel="noopener noreferrer">pro-India/pro-Russia</a> “hacktivist” group that has been actively targeting entities in multiple countries. In its current form, it emerged during May 2024. Prior to this, the group was known by a few different names, including GLORIAMIST, GLORIAMIST India and Solntsevskaya Bratva. CyberVolk exploits current geopolitical issues, focused on launching and justifying its attacks on public and government entities.</p>
-<p><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_1-1.jpg" alt="" width="540" height="302" class="aligncenter size-full wp-image-109360" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_1-1.jpg 540w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_1-1-300x168.jpg 300w" sizes="auto, (max-width: 540px) 100vw, 540px" /></p>
-<p>While the group claims alliances with other broad groups such as <a href="https://www.sentinelone.com/blog/lapsus-data-breach/" target="_blank" rel="noopener noreferrer">LAPSUS$</a>, <a href="https://www.sentinelone.com/labs/hacktivism-and-state-sponsored-knock-offs-attributing-deceptive-hack-and-leak-operations/" target="_blank" rel="noopener noreferrer">Anonymous</a>, and the <a href="https://threatmon.io/blog/digital-war-in-the-middle-east-cyber-threats-in-israel-iran-conflict/" target="_blank" rel="noopener noreferrer">Moroccan</a> <a href="https://threatmon.io/blog/digital-war-in-the-middle-east-cyber-threats-in-israel-iran-conflict/" target="_blank" rel="noopener noreferrer">Dragons</a>, it has also been associated with <a href="https://www.sentinelone.com/labs/noname05716-the-pro-russian-hacktivist-group-targeting-nato/" target="_blank" rel="noopener noreferrer">NONAME057(16)</a> and other RU-friendly, DDoS-focused, groups. However, CyberVolk has also <a href="https://www.rapid7.com/blog/post/2024/10/03/ransomware-groups-demystified-cybervolk-ransomware/" target="_blank" rel="noopener noreferrer">embraced ransomware</a> as a tool to further its cause, with self-branded ransomware payloads as well as alliances with associated ransomware families, namely Doubleface, HexaLocker, and the Parano family.</p>
-<p>CyberVolk’s branded ransomware is derived from the AzzaSec (<i>aka</i> AzzaSecurity) ransomware code. <a href="https://threatmon.io/blog/darkwebs-new-favorite-azzasec-ransomware/" target="_blank" rel="noopener noreferrer">AzzaSec</a> is a pro-Russia, anti-Israel, and anti-Ukraine hacktivist group that emerged in February of 2024. It has claimed alliances with some of the same groups linked to CyberVolk such as <a href="https://www.sentinelone.com/labs/noname05716-the-pro-russian-hacktivist-group-targeting-nato/" target="_blank" rel="noopener noreferrer">NONAME057(16)</a>. Initially conducting DDoS and defacement attacks, the group later expanded into extortion and ransomware.</p>
-<figure id="attachment_109345" aria-describedby="caption-attachment-109345" style="width: 560px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-109345" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_30.jpg" alt="June 2024 Release of AzzaSec Ransomware" width="560" height="571" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_30.jpg 560w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_30-294x300.jpg 294w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_30-50x50.jpg 50w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_30-24x24.jpg 24w" sizes="auto, (max-width: 560px) 100vw, 560px" /><figcaption id="caption-attachment-109345" class="wp-caption-text">June 2024 Release of AzzaSec Ransomware</figcaption></figure>
-<p>In June, the source-code for “AzzaSec Ransom” was leaked and subsequently adopted and adapted by multiple groups aligned with AzzaSec’s mission. Prior to its disbandment in August of 2024, AzzaSec operated under a ransomware-as-a-service (RaaS) model and pushed out multiple iterations of its Windows-centric ransomware.</p>
-<figure id="attachment_109308" aria-describedby="caption-attachment-109308" style="width: 499px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_42.jpg" alt="AzzaSec “disbandment” announcement, August 2024" width="499" height="731" class="size-full wp-image-109308" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_42.jpg 499w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_42-205x300.jpg 205w" sizes="auto, (max-width: 499px) 100vw, 499px" /><figcaption id="caption-attachment-109308" class="wp-caption-text">AzzaSec “disbandment” announcement, August 2024</figcaption></figure>
-<h2>Post-AzzaSec | The Rise of CyberVolk’s RaaS Operations</h2>
-<p>The CyberVolk-branded RaaS was announced in late June 2024.</p>
-<figure id="attachment_109347" aria-describedby="caption-attachment-109347" style="width: 755px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_20.jpg" alt="CyberVolk Ransomware Announcement, June 2024" width="755" height="385" class="size-full wp-image-109347" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_20.jpg 755w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_20-300x153.jpg 300w" sizes="auto, (max-width: 755px) 100vw, 755px" /><figcaption id="caption-attachment-109347" class="wp-caption-text">CyberVolk Ransomware Announcement, June 2024</figcaption></figure>
-<p>The CyberVolk-modified ransomware’s development is credited to<code> @ghostdoor_maldev</code> and is based on the earlier AzzaSec Ransomware code. The Windows-specific payloads are written in C++. Upon execution, the payloads drop bitmap images (files with extension <code>.bmp</code>) into <code>%temp%</code> folder, and display them, prior to any encryption occurring. The ransomware will terminate any running processes belonging to either Microsoft Management Console (MMC) or Task Manager.</p>
-<figure id="attachment_109302" aria-describedby="caption-attachment-109302" style="width: 568px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_8.jpg" alt="CyberVolk Ransomware MMC processes and Task Manager Termination" width="568" height="206" class="size-full wp-image-109302" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_8.jpg 568w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_8-300x109.jpg 300w" sizes="auto, (max-width: 568px) 100vw, 568px" /><figcaption id="caption-attachment-109302" class="wp-caption-text">CyberVolk Ransomware MMC processes and Task Manager Termination</figcaption></figure>
-<p>Early versions of CyberVolk Ransomware used the AES algorithm for file encryption and the SHA512 algorithm for key generation. This was later updated to “ChaCha20-Poly1305 + AES + RSA + Quantum resistant algorithms” according to posts on the group&#8217;s Telegram.</p>
-<figure id="attachment_109326" aria-describedby="caption-attachment-109326" style="width: 1661px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_26.jpg" alt="CyberVolk wallpaper with countdown timer" width="1661" height="876" class="size-full wp-image-109326" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_26.jpg 1661w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_26-300x158.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_26-1024x540.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_26-768x405.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_26-1536x810.jpg 1536w" sizes="auto, (max-width: 1661px) 100vw, 1661px" /><figcaption id="caption-attachment-109326" class="wp-caption-text">CyberVolk wallpaper with countdown timer</figcaption></figure>
-<p>The payment screen used by CyberVolk Ransomware displays the decryption timer along with payment details. CyberVolk ransomware supports BTC and USDT payments. Across all the functional samples we analyzed, the timeout value was set to 5 hours, with the ransom amount set to $1000.00 (equivalent in BTC or USDT). A ransom note named <code>CyberVolk_Readme.txt</code> containing the same contact details presented in the wallpaper and payment screens is also dropped to disk. Telegram contact details are provided as well.</p>
-<figure id="attachment_109348" aria-describedby="caption-attachment-109348" style="width: 746px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/cybervolk28.jpg" alt="CyberVolk ransom note" width="746" height="224" class="size-full wp-image-109348" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/cybervolk28.jpg 746w, https://www.sentinelone.com/wp-content/uploads/2024/11/cybervolk28-300x90.jpg 300w" sizes="auto, (max-width: 746px) 100vw, 746px" /><figcaption id="caption-attachment-109348" class="wp-caption-text">CyberVolk ransom note</figcaption></figure>
-<p>The <code>.CyberVolk</code> extension is added to affected files:</p>
-<figure id="attachment_109350" aria-describedby="caption-attachment-109350" style="width: 621px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_23.jpg" alt="CyberVolk-encrypted files" width="621" height="430" class="size-full wp-image-109350" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_23.jpg 621w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_23-300x208.jpg 300w" sizes="auto, (max-width: 621px) 100vw, 621px" /><figcaption id="caption-attachment-109350" class="wp-caption-text">CyberVolk-encrypted files</figcaption></figure>
-<p>The decryption timer is controlled via a <code>time.dat</code> file written to <code>%appdata%\Roaming</code> directory. The timeout is set to 5 hours in CyberVolk samples analyzed by SentinelOne. This functionality is mirrored in the Invisible Ransom payloads as well, as they are based on the same codebase (AzzaSec Ransom).</p>
-<figure id="attachment_109328" aria-describedby="caption-attachment-109328" style="width: 708px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_24.jpg" alt="Decryption timer in CyberVolk" width="708" height="233" class="size-full wp-image-109328" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_24.jpg 708w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_24-300x99.jpg 300w" sizes="auto, (max-width: 708px) 100vw, 708px" /><figcaption id="caption-attachment-109328" class="wp-caption-text">Decryption timer in CyberVolk</figcaption></figure>
-<p>The <code>time.dat</code> file stores the defined timeout value in seconds. Default builds of Invisible Ransom (or CyberVolk) will write <code>time.dat</code> with a value of <strong>17967</strong> seconds (roughly 5 hours).</p>
-<p>CyberVolk has continued to utilize their branded ransomware payloads, more recently in attacks against entities in Japan, and hype up these attacks across their various channels (e.g., Telegram, X, Discord). These campaigns were part of “#OpJP” which extended through October. Victims of “#OpJP” include:</p>
-<ul>
-<li aria-level="1">The Japan Foundation</li>
-<li aria-level="1">Japan Oceanographic Data Center (JODC)</li>
-<li aria-level="1">The Japan Meteorological Agency (JMA)</li>
-<li aria-level="1">Tokyo Global Information System Centre</li>
-</ul>
-<figure id="attachment_109351" aria-describedby="caption-attachment-109351" style="width: 523px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_43.jpg" alt="CyberVolk and #OpJP (Targeting Japan)" width="523" height="445" class="size-full wp-image-109351" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_43.jpg 523w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_43-300x255.jpg 300w" sizes="auto, (max-width: 523px) 100vw, 523px" /><figcaption id="caption-attachment-109351" class="wp-caption-text">CyberVolk and #OpJP (Targeting Japan)</figcaption></figure>
-<h2>CyberVolk Associates | Invisible/Doubleface Team Ransomware</h2>
-<p>Invisible or Doubleface ransomware is associated with “Doubleface Team” (<i>aka</i> Double Alliance). This group emerged in August-September 2024 as a convergence of associates within CyberVolk, Doubleface, and Moroccan Black Cyber Army. CyberVolk began promoting Doubleface on September 22, 2024.</p>
-<figure id="attachment_109342" aria-describedby="caption-attachment-109342" style="width: 493px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_11.jpg" alt="September 22 DoubleAlliance / CyberVolk posting" width="493" height="404" class="size-full wp-image-109342" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_11.jpg 493w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_11-300x246.jpg 300w" sizes="auto, (max-width: 493px) 100vw, 493px" /><figcaption id="caption-attachment-109342" class="wp-caption-text">September 22 DoubleAlliance / CyberVolk posting</figcaption></figure>
-<p>Invisible/Doubleface ransomware payloads function in an identical manner to CyberVolk-branded ransomware samples. This includes duplication of the 5-hour timeout setting and active wallpaper modification used for input of the decryption key and displaying payment details. Both ransomware families are derived from the same AzzaSec Ransomware code base.</p>
-<figure id="attachment_109311" aria-describedby="caption-attachment-109311" style="width: 1065px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_4.jpg" alt="Invisible/Doubleface ransomware wallpaper" width="1065" height="545" class="size-full wp-image-109311" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_4.jpg 1065w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_4-300x154.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_4-1024x524.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_4-768x393.jpg 768w" sizes="auto, (max-width: 1065px) 100vw, 1065px" /><figcaption id="caption-attachment-109311" class="wp-caption-text">Invisible/Doubleface ransomware wallpaper</figcaption></figure>
-<h3>Invisible/Doubleface Source</h3>
-<p>The source code/builder for Invisible has been leaked publicly and distributed through various channels, mainly Telegram. As stated previously, both Invisible and CyberVolk’s payloads as of this writing are based on the same code, observed in AzzaSec Ransomware.</p>
-<figure id="attachment_109336" aria-describedby="caption-attachment-109336" style="width: 972px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_17.jpg" alt="Invisible Ransom source files" width="972" height="350" class="size-full wp-image-109336" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_17.jpg 972w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_17-300x108.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_17-768x277.jpg 768w" sizes="auto, (max-width: 972px) 100vw, 972px" /><figcaption id="caption-attachment-109336" class="wp-caption-text">Invisible Ransom source files</figcaption></figure>
-<p>The archive contains the full Visual Studio project and source code for building new Invisible Ransom payloads, along with some already compiled samples/stubs.</p>
-<p>The file <code>ransom.cpp</code> contains the main logic for the ransomware payload. It contains all the global variables including ransomware note template data, orchestrates all the encryption tasks, and handles any process termination or manipulation. The main <code>ransom.cpp</code> handles calls out to <code>Cryptographic.cpp</code> to process encryption tasks, including the implementation of AES/RSA (via <code>aes.cpp</code> and <code>rsa.cpp</code> respectively).</p>
-<p>Similar to earlier AzzaSec ransomware examples, these payloads encrypt files via AES, then manage encryption keys and wrapping via RSA. The current implementation indicates AES-256 for file encryption, and RSA-2048 for wrapping the keys. Each file is encrypted via AES-256 (EncFile function in <code>Cryptographic.cpp</code>) with the AES key then encrypted via RSA-2048.</p>
-<figure id="attachment_109313" aria-describedby="caption-attachment-109313" style="width: 1398px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_38.jpg" alt="Encrypting files in Invisible Ransom" width="1398" height="916" class="size-full wp-image-109313" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_38.jpg 1398w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_38-300x197.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_38-1024x671.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_38-768x503.jpg 768w" sizes="auto, (max-width: 1398px) 100vw, 1398px" /><figcaption id="caption-attachment-109313" class="wp-caption-text">Encrypting files in Invisible Ransom</figcaption></figure>
-<p>We can also see the implementation of the ransom countdown mechanism in <code>ransom.cpp</code>. As with CyberVolk Ransom, the default timeout period is 5 hours. This is initially set via the <code>timeLeft</code> variable in <code>ransom.cpp</code></p>
-<p>The timer writes a <code>time.dat</code> file to <code>%appdata%\Roaming</code> as we saw with CyberVolk. The 5 hour time limit for these samples is read from this path. In theory, this file could be manipulated to alter the timeout.</p>
-<figure id="attachment_109331" aria-describedby="caption-attachment-109331" style="width: 741px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_21.jpg" alt="Timer code in Invisible Ransom, referencing time.dat" width="741" height="361" class="size-full wp-image-109331" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_21.jpg 741w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_21-300x146.jpg 300w" sizes="auto, (max-width: 741px) 100vw, 741px" /><figcaption id="caption-attachment-109331" class="wp-caption-text">Timer code in Invisible Ransom, referencing time.dat</figcaption></figure>
-<p>The <code>ransom.cpp</code> source file also contains the template for the ransom notes, which are written to the same path from which the ransomware is executed as <code>InvisibleReadMe.txt</code>.</p>
-<figure id="attachment_109387" aria-describedby="caption-attachment-109387" style="width: 744px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_7cut.jpg" alt="Invisible Ransom ransom note template in “ransom.cpp”" width="744" height="95" class="size-full wp-image-109387" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_7cut.jpg 744w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_7cut-300x38.jpg 300w" sizes="auto, (max-width: 744px) 100vw, 744px" /><figcaption id="caption-attachment-109387" class="wp-caption-text">Invisible Ransom&#8217;s ransom note template in “ransom.cpp”</figcaption></figure>
-<p>The termination of MMC processes and Task Manager is also present in the Invisible Ransom source (as we also see with CyberVolk samples)</p>
-<h2>“Lock. Demand. Dominate” | HexaLocker Ransomware</h2>
-<p>HexaLocker is a ransomware family that first appeared in July 2024. HexaLocker is closely associated with <a href="https://www.sentinelone.com/blog/lapsus-data-breach/" target="_blank" rel="noopener noreferrer">LAPSUS$</a>, reportedly having been originally developed by “ZZART3XX”, a proclaimed former associate of the group. HexaLocker payloads are written in <a href="https://www.sentinelone.com/labs/alphagolang-a-step-by-step-go-malware-reversing-methodology-for-ida-pro/" target="_blank" rel="noopener noreferrer">Golang</a>. As of this writing, we have only observed payloads targeting Windows systems.</p>
-<p>On July 22, CyberVolk first referenced HexaLocker via one of Holy League’s posts. The Holy League is a loosely affiliated group of 70+ members born out of protest against Spain and <a href="https://www.reuters.com/technology/cybersecurity/three-pro-russian-hackers-arrested-spain-over-cyberattacks-2024-07-20/" target="_blank" rel="noopener noreferrer">associated arrests</a> of members of <a href="https://www.sentinelone.com/labs/noname05716-the-pro-russian-hacktivist-group-targeting-nato/" target="_blank" rel="noopener noreferrer">NONAME057(16)</a>. HexaLocker’s posts and branding are all laden with their “Lock. Demand. Dominate” slogan.</p>
-<p>In September 2024, HexaLocker launched a new Telegram channel after previous ones had been banned or removed. The updated channel contains details on their ongoing existence along with screenshots of the current HexaLocker panel.</p>
-<figure id="attachment_109306" aria-describedby="caption-attachment-109306" style="width: 869px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_44.jpg" alt="HexaLocker Telegram message" width="869" height="295" class="size-full wp-image-109306" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_44.jpg 869w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_44-300x102.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_44-768x261.jpg 768w" sizes="auto, (max-width: 869px) 100vw, 869px" /><figcaption id="caption-attachment-109306" class="wp-caption-text">HexaLocker Telegram message</figcaption></figure>
-<p>Throughout October 2024, CyberVolk’s communication channels continued to echo messaging from HexaLocker. This includes HexaLocker’s solicitations for help in continuing to progress with HexaLocker. On October 2, 2024, HexaLocker posted an update asking for help but also teasing new features in the pipeline. These include:</p>
-<ul>
-<li aria-level="1">Stronger anti-debug/anti-analysis features</li>
-<li aria-level="1">Advanced obfuscations (crypting/packing)</li>
-<li aria-level="1">Inclusion of EDR/XDR/AV-Killer</li>
-<li aria-level="1">Permanent AMSI bypass</li>
-<li aria-level="1">Improved process-injection</li>
-<li aria-level="1">Remote Thread Hijacking</li>
-<li aria-level="1">UAC Bypass improvements</li>
-<li aria-level="1">Self-deletion</li>
-</ul>
-<p>Interesting developments continued with HexaLocker throughout October 2024. On October 4th, the group posted an update with a video demo claiming that an “EDR Killer” and AMSI/WD Bypass features had been added. This was followed on October 6th with an update stating that UAC bypasses had been added to the product.</p>
-<p>On October 20, 2024, the actor behind the HexaLocker Telegram channel (ZZART3XX) posted their intention to officially leave and denounce LAPSUS$ as well as any peripheral affiliations. This includes the maintenance of the HexaLocker project and all the relationships and alliances that revolve around it.</p>
-<p>In this announcement, the author also indicated that they would be offering HexaLocker source code, including its web panel, along with “LAPSUS$ Ransomware” source for sale.</p>
-<figure id="attachment_109320" aria-describedby="caption-attachment-109320" style="width: 500px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_31.jpg" alt="HexaLocker “shut down” posting via Telegram" width="500" height="487" class="size-full wp-image-109320" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_31.jpg 500w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_31-300x292.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_31-50x50.jpg 50w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_31-24x24.jpg 24w" sizes="auto, (max-width: 500px) 100vw, 500px" /><figcaption id="caption-attachment-109320" class="wp-caption-text">HexaLocker “shut down” posting via Telegram</figcaption></figure>
-<p>This was followed the next day on October 21 with offers to sell HexaLocker and the panel infrastructure, along with associated “LAPSUS$ Ransomware”. These messages were echoed across HexaLocker, Holy League, and LAPSUS$-aligned channels.</p>
-<p>The overt promotion of HexaLocker within CyberVolk channels has ceased since the HexaLocker shutdown announcement.</p>
-<h2>Parano Ransomware Within the CyberVolk Collective</h2>
-<p>In late October 2024, various identities in the CyberVolk community began promoting the release of Parano Ransomware v1. This appears to be another affiliation for the CyberVolk collective.</p>
-<figure id="attachment_109353" aria-describedby="caption-attachment-109353" style="width: 617px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_15.jpg" alt="October 2024 Parano Ransomware Announcement by CyberVolk" width="617" height="528" class="size-full wp-image-109353" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_15.jpg 617w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_15-300x257.jpg 300w" sizes="auto, (max-width: 617px) 100vw, 617px" /><figcaption id="caption-attachment-109353" class="wp-caption-text">October 2024 Parano Ransomware Announcement by CyberVolk</figcaption></figure>
-<p>According to the announcement, Parano Ransomware comes with a $400.00 USD price tag per single payload/stub. The ransomware features strong anti-analysis and anti-debugging features, and uses a combination of AES-128 and RSA-4096 for key management. </p>
-<p>The Parano malware family extends beyond ransomware, also including “Parano Checker” and &#8220;Parano Stealer”, a commodity, Python-based, infostealer. The malware attempts to gather and exfiltrate browser data, Discord details, crypto wallet information and keys, along with other related software and system diagnostic details. The data can be exfiltrated via Discord webhook to a channel or location of the attacker&#8217;s choosing.</p>
-<figure id="attachment_109355" aria-describedby="caption-attachment-109355" style="width: 516px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_35.jpg" alt="Parano Stealer Announcement, October 2024" width="516" height="475" class="size-full wp-image-109355" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_35.jpg 516w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_35-300x276.jpg 300w" sizes="auto, (max-width: 516px) 100vw, 516px" /><figcaption id="caption-attachment-109355" class="wp-caption-text">Parano Stealer Announcement, October 2024</figcaption></figure>
-<p>Parano Checker is a reconnaissance and info-gathering tool capable of navigating targets and helping to isolate interesting ingress points or data repositories, or assist with dictionary/brute force attacks on certain interfaces (e.g., CPanel and WordPress login panels).</p>
-<p>At the time of writing, we have not observed the executable variations of Parano (<i>aka</i> Paraodeus Ransomware) in the wild. The author has shared a non-malicious Python-based demo of a “ScreenLocker”. As it stands, the nature of the relationship between CyberVolk and the Parano ecosystem is still evolving.</p>
-<h2>Beyond Ransomware | CyberVolk Stealers and Webshells</h2>
-<p>In addition to ransomware and other disruptive attacks, CyberVolk develops and distributes infostealer malware and webshells. The group announced the new webshell in late October 2024.</p>
-<figure id="attachment_109318" aria-describedby="caption-attachment-109318" style="width: 469px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_33.jpg" alt="CyberVolk Webshell announcement (Telegram)" width="469" height="552" class="size-full wp-image-109318" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_33.jpg 469w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_33-255x300.jpg 255w" sizes="auto, (max-width: 469px) 100vw, 469px" /><figcaption id="caption-attachment-109318" class="wp-caption-text">CyberVolk Webshell announcement (Telegram)</figcaption></figure>
-<p>The CyberVolk webshell is distributed as a standard PHP file with the actual malicious code base64-encoded inside its body.</p>
-<figure id="attachment_109325" aria-describedby="caption-attachment-109325" style="width: 981px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="magnify" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_27.jpg" alt="CyberVolk Webshell decoded" width="981" height="545" class="size-full wp-image-109325" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_27.jpg 981w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_27-300x167.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_27-768x427.jpg 768w" sizes="auto, (max-width: 981px) 100vw, 981px" /><figcaption id="caption-attachment-109325" class="wp-caption-text">CyberVolk Webshell decoded</figcaption></figure>
-<p>The publicly <a href="https://x.com/FalconFeedsio/status/1838244850669392307/photo/1" target="_blank" rel="noopener noreferrer">released</a> version of the CyberVolk webshell provides multiple functions. The current version of the webshell allows for files to be uploaded, renamed, and downloaded. Further, attackers can traverse directories on the target server and gather environmental details.</p>
-<p>“CyberVolk Stealer” is distributed in the form of a Python script and is based on LBX-Grabber, an existing Python information stealer, which is in turn built into <a href="https://www.cyfirma.com/research/blx-stealer/" target="_blank" rel="noopener noreferrer">BLX-Stealer</a>. Specifically, CyberVolk is derived from the LBX-Grabber component.</p>
-<figure id="attachment_109309" aria-describedby="caption-attachment-109309" style="width: 1764px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_41.jpg" alt="CyberVolk Stealer Python Script" width="1764" height="1034" class="size-full wp-image-109309" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_41.jpg 1764w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_41-300x176.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_41-1024x600.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_41-768x450.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_41-1536x900.jpg 1536w" sizes="auto, (max-width: 1764px) 100vw, 1764px" /><figcaption id="caption-attachment-109309" class="wp-caption-text">CyberVolk Stealer Python Script</figcaption></figure>
-<p>CyberVolk Stealer attempts to gather various types of data from the system, then exfiltrates the data via Discord. Version 1 of the stealer was announced in September 2024. Core features include robust gathering of browser, discord, game and crypto wallet data. The stealer targets multiple browsers and numerous wallets.</p>
-<figure id="attachment_109304" aria-describedby="caption-attachment-109304" style="width: 663px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_6.jpg" alt="CyberVolk Stealer identifying sensitive data" width="663" height="533" class="size-full wp-image-109304" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_6.jpg 663w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_6-300x241.jpg 300w" sizes="auto, (max-width: 663px) 100vw, 663px" /><figcaption id="caption-attachment-109304" class="wp-caption-text">CyberVolk Stealer identifying sensitive data</figcaption></figure>
-<h2>Telegram Exit and Weaponized Bans</h2>
-<p>In early November 2024, CyberVolk, and numerous affiliated groups, vanished from Telegram as a result of a mass ban of hacktivist groups. The last significant posts to the CyberVolk Telegram channels were on November 3, 2024.</p>
-<p>The group subsequently announced, via Twitter/X, that it would only be using the X platform going forward. The Twitter/X account for DoubleFace, <code>@DoubleFace_Team</code>, made a similar announcement around the same time.</p>
-<figure id="attachment_109322" aria-describedby="caption-attachment-109322" style="width: 1260px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_3.jpg" alt="Telegram ban updates on X" width="1260" height="346" class="size-full wp-image-109322" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_3.jpg 1260w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_3-300x82.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_3-1024x281.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_3-768x211.jpg 768w" sizes="auto, (max-width: 1260px) 100vw, 1260px" /><figcaption id="caption-attachment-109322" class="wp-caption-text">Telegram ban updates on X</figcaption></figure>
-<p>Telegram channels belonging to CyberVolk and numerous allies appear to have been banned maliciously. We have observed specific actors claiming responsibility for attempting to close and/or extort channels belonging to AzzaSec and DoubleFace amongst others.</p>
-<p>In September, some users began threatening to have rival hacktivist group channels including CyberVolk, APTZone, Doubleface, AzzaSec and others banned.</p>
-<figure id="attachment_109341" aria-describedby="caption-attachment-109341" style="width: 1586px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_12.jpg" alt="September 14, 2024 - “Matteo” targeting CyberVolk/APTZone with bans" width="1586" height="886" class="size-full wp-image-109341" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_12.jpg 1586w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_12-300x168.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_12-1024x572.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_12-768x429.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_12-1536x858.jpg 1536w" sizes="auto, (max-width: 1586px) 100vw, 1586px" /><figcaption id="caption-attachment-109341" class="wp-caption-text">September 14, 2024 &#8211; “Matteo” targeting CyberVolk/APTZone with bans</figcaption></figure>
-<p>On November 16, 2024, RipperSec posted their ‘perspective’ on the banning of multiple hacktivist channels, indicating that some prior members of AzzaSec and Doubleface were attempting to exhort other channels under the threat of a Telegram ban.</p>
-<figure id="attachment_109334" aria-describedby="caption-attachment-109334" style="width: 675px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_19.jpg" alt="November 13, 2024 RipperSec Telegram Post" width="675" height="294" class="size-full wp-image-109334" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_19.jpg 675w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_19-300x131.jpg 300w" sizes="auto, (max-width: 675px) 100vw, 675px" /><figcaption id="caption-attachment-109334" class="wp-caption-text">November 13, 2024 RipperSec Telegram Post</figcaption></figure>
-<p>This was highlighted in another post on November 13, 2024 in the “Hunt3r Kill3rs” Telegram channel. In this post, an actor referring to AzzaSec claimed “they didn’t close nobody’s channels, all the channels got closed by me”. The post went on to advise others receiving extortion threats to ignore them. “I’m the only one that is closing the hacktivist community’s channels and groups”, the actor claimed.</p>
-<figure id="attachment_109333" aria-describedby="caption-attachment-109333" style="width: 529px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_2.jpg" alt="November 13, 2024 posting in Hunt3r Kill3rs Telegram Channel" width="529" height="324" class="size-full wp-image-109333" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_2.jpg 529w, https://www.sentinelone.com/wp-content/uploads/2024/11/CyberVolk_2-300x184.jpg 300w" sizes="auto, (max-width: 529px) 100vw, 529px" /><figcaption id="caption-attachment-109333" class="wp-caption-text">November 13, 2024 posting in Hunt3r Kill3rs Telegram Channel</figcaption></figure>
-<p>This weaponization of the Telegram <a href="https://securityintelligence.com/articles/what-telegrams-recent-policy-shift-means-for-cyber-crime/" target="_blank" rel="noopener noreferrer">Terms-of-Service</a> is increasing in parallel with threat actor groups moving off Telegram to seek more clandestine and secure communication channels in response to increased <a href="https://apnews.com/article/telegram-pavel-durov-arrest-2c8015c102cce23c23d55c6ca82641c5" target="_blank" rel="noopener noreferrer">scrutiny</a> and declining trust in the platform after the arrest of Telegram founder Pavel Durov.</p>
-<h2>Conclusion</h2>
-<p>The number of ransomware families associated with the CyberVolk hacktivist group highlights the ability of this group to rapidly pivot, building upon existing tools to suit their needs and further their causes. Though primarily composed of lower-skilled threat actors that reach for and use whatever works for them, we continue to see how quickly the group is able to move and adapt.</p>
-<p>The reuse of tools like AzzaSec Ransom, Diamond RW, and even more established ones like LockBit and Chaos, demonstrates just how dynamic these affiliations and alliances between hacktivist groups can be. Not only are such groups touting new tools within short time frames only to abandon them and pivot to something else later, the number of hacktivist groups is also growing. Infighting and tensions amongst them are also fuel for the rates of growth and change &#8211; as alliances crumble or shift, the threat environment stays highly volatile and dynamic, making it more difficult for cyber defenders to track their activities consistently.</p>
-<p>As groups like CyberVolk leverage openly-available commodity tools with high potential for causing damage, they continue to add more layers of complexity, expanding and revising the tools as they are passed around within the collective. Ransomware operations will only get muddier and increase how much cybersecurity teams will need to monitor in order to stay up to date on the happenings within the cybercrime ecosystem.</p>
-<h2>Indicators of Compromise</h2>
-<div style="font-size:0.8em">
-<p><strong>CyberVolk</strong><br />
-0ce59e479ec6eacd3a44ed3de2dc572676e5b2dd<br />
-16bf55122bbb6073cc1d77ce23e2a8e6052f9ec1 | Stealer<br />
-3bf6a90017bf22083ab735ecf3f8589a3f220e53 | Ransom note<br />
-5d8bed459f55a37e2fcb801d04de337a01c5d623 | Ransom note<br />
-813c510fb2463ecc6dff7795ef96744ca82544b3 | Webshell<br />
-b958fb7241cc9675b8dd967b02df6a6ad92de52d<br />
-c70d2350cbac3d0abeb896adcce2fcf243943633 | Webshell<br />
-eae366ee4a7c19a87bc5ab9360f4333907a6a387<br />
-f5d0c94b2be91342dc01ecf2f89e7e6f21a74b90</p>
-<p><strong>AzzaSec</strong><br />
-5499da31260a4aa75eea46c1d4aa6559074749a8 | Ransomware (src)</p>
-<p><strong>Invisible / Doubleface Team</strong><br />
-197d5c9c5cbf53ed3e78d53a008b6ad665fa3e4c<br />
-1f325950a7a8e1a2050e954f33d2c3774510bd6e<br />
-59e293623e4fb828a29fb982d5ac9a4f993abc3b<br />
-d35da3f4e36eebf36a130bc7e0182fc4c35cf551 | Archive</p>
-<p><strong>HexaLocker</strong><br />
-11288fb54c6f2ed4d8cddfb004c754e5e9c35ad5<br />
-4c24fdf504af452fb7245db33bfc1dc4f72c04a8<br />
-4f8e1e7bfd484cf312fdc77e8687086f6f6007c<br />
-7ba4eb7842730bbc82fc129a3f3d4a239ac436c2<br />
-84dacf9da57d9d69c2ca711831895bf185834b8c<br />
-904f46ef4c66ccf844bf31d37c11298fb7f65157<br />
-93334882ff3c03c42b1179d9db0c165c99145369<br />
-a4b7ef2ca1d5fda318505cac6757b5313b47eeac<br />
-b6a9c5692b76f2defc1c170bdce0e41d91d706db<br />
-be581fc1f430dd6855effd9e54429c5c5fcb9f8c | Ransom note<br />
-cd8f934fa7ba7817bb62f0e4b968b3f124355b60</p>
-<p><strong>PDBs</strong> </p>
-<pre>
-C:/Users/zzart/Desktop/HexaLocker RaaS/crypter.go
-C:/Users/zzart/Desktop/MalwareDeveloppement/HexaLocker RaaS/decrypt_key.go
-C:/Users/zzart/Desktop/MalwareDeveloppement/HexaLocker RaaS/crypterV1.go
-</pre>
-<p><strong>DNS</strong><br />
-darkslategray-baboon-853641[.]hostingersite[.]com</p>
-<p><strong>LAPSUS$/HexaLocker</strong><br />
-481830db2daf40607748bd9624e970781e7f4408<br />
-e1d8993ef4bbc8d2aa331262e5422d91865acc4f</p>
-<p><strong>Parano</strong><br />
-3ce26f45f5da58ab75b4d1cecc78c3bbe275f708 | Stealer (archive)<br />
-4581b30e6f5946a570963cd76dc79beaa8bcf1c3 | ScreenLocker<br />
-91abb7fadf847f3810bbe0734e3c31d5dc7bce6d | ScreenLocker<br />
-b5d8e690a75f07e7d3e18fcc5b86bfe2362a3300 | ScreenLocker
-</div>
-]]></content:encoded>
-					
-		
-		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/11/cybervolk_v2-ftr.jpg" length="900294" type="image/jpeg" />	</item>
 	</channel>
 </rss>
