@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description></description>
-	<lastBuildDate>Mon, 24 Feb 2025 16:07:57 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 25 Feb 2025 12:59:32 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,24 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>RansomHub sends a letter to the editor.  Really.</title>
+		<link>https://databreaches.net/2025/02/25/ransomhub-sends-a-letter-to-the-editor-really/</link>
+					<comments>https://databreaches.net/2025/02/25/ransomhub-sends-a-letter-to-the-editor-really/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Tue, 25 Feb 2025 12:59:32 +0000</pubDate>
+				<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Of Note]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=120644</guid>
+
+					<description><![CDATA[On February 17, DataBreaches reported that the RansomHub ransomware group claimed responsibility for an attack on the Sault Ste. Marie Tribe of Chippewa Indians. RansomHub claimed to have “temporarily locked” the tribe’s infrastructure and to have acquired 119 GB of files (501, 211 files).  The post included statements by RansomHub as seen on their dark...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/02/25/ransomhub-sends-a-letter-to-the-editor-really/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>UK: More details emerge about ransomware attack on HCRG by Medusa</title>
 		<link>https://databreaches.net/2025/02/24/uk-more-details-emerge-about-ransomware-attack-on-hcrg-by-medusa/</link>
 					<comments>https://databreaches.net/2025/02/24/uk-more-details-emerge-about-ransomware-attack-on-hcrg-by-medusa/#respond</comments>
@@ -186,25 +204,6 @@
 					<description><![CDATA[Another day, another massive leak. Researcher Jeremiah Fowler reports that he found unsecured data with 1,674,218 records belonging to DM Clinical Research. DM Clinical Research is a Texas-based network of more than 24 multi-therapeutic clinical trial sites involved in research on vaccines, internal medicine, pediatrics, gastroenterology, psychiatry, neurology, women’s health, and more. DM Clinical Research&#8217;s...]]></description>
 		
 					<wfw:commentRss>https://databreaches.net/2025/02/20/no-need-to-hack-when-its-leaking-thursday-edition-dm-clinical-research/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Meet NailaoLocker: a ransomware distributed in Europe by ShadowPad and PlugX backdoors</title>
-		<link>https://databreaches.net/2025/02/20/meet-nailaolocker-a-ransomware-distributed-in-europe-by-shadowpad-and-plugx-backdoors/</link>
-					<comments>https://databreaches.net/2025/02/20/meet-nailaolocker-a-ransomware-distributed-in-europe-by-shadowpad-and-plugx-backdoors/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Thu, 20 Feb 2025 14:18:08 +0000</pubDate>
-				<category><![CDATA[Commentaries and Analyses]]></category>
-		<category><![CDATA[Malware]]></category>
-		<category><![CDATA[Of Note]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=120560</guid>
-
-					<description><![CDATA[Marine Pichon and Alexis Bonnefoi of Orange Cyberdefense report: Last year, Orange Cyberdefense’s CERT investigated a series of incidents from an unknown threat actor leveraging both ShadowPad and PlugX. Tracked as Green Nailao (“Nailao” meaning “cheese” in Chinese – a topic our World Watch CTI team holds in high regard), the campaign impacted several European organizations, including in the healthcare vertical, during...]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/02/20/meet-nailaolocker-a-ransomware-distributed-in-europe-by-shadowpad-and-plugx-backdoors/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
