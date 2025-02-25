@@ -11,14 +11,30 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 25 Feb 2025 11:59:43 EST</pubDate>
+        <pubDate>Tue, 25 Feb 2025 13:01:57 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
  <item>
-        <title>US drug testing firm says data breach impacted 3.3 million people</title>
-        <link>https://www.bleepingcomputer.com/news/security/disa-global-says-data-breach-impacted-33-million-people/</link>
+        <title>New Auto-Color Linux backdoor targets North American govts, universities</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-auto-color-linux-backdoor-targets-north-american-govts-universities/</link>
+        <pubDate>Tue, 25 Feb 2025 12:51:42 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Linux]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-auto-color-linux-backdoor-targets-north-american-govts-universities/</guid>
+	<description><![CDATA[A previously undocumented Linux backdoor dubbed 'Auto-Color' was observed in attacks between November and December 2024, targeting universities and government organizations in North America and Asia. [...]]]></description>
+ </item>
+
+ <item>
+        <title>US drug testing firm DISA says data breach impacts 3.3 million people</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-drug-testing-firm-disa-says-data-breach-impacts-33-million-people/</link>
         <pubDate>Tue, 25 Feb 2025 11:44:33 -0500</pubDate>
         <dc:creator>Bill Toulas</dc:creator>
 
@@ -26,7 +42,7 @@
         <category><![CDATA[Security]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/security/disa-global-says-data-breach-impacted-33-million-people/</guid>
+        <guid>https://www.bleepingcomputer.com/news/security/us-drug-testing-firm-disa-says-data-breach-impacts-33-million-people/</guid>
 	<description><![CDATA[DISA Global Solutions, a leading US background screening and drug and alcohol testing firm, has suffered a data breach impacting 3.3 million people. [...]]]></description>
  </item>
 
@@ -182,20 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-cloud-introduces-quantum-safe-digital-signatures-in-kms/</guid>
 	<description><![CDATA[Google Cloud has introduced quantum-safe digital signatures to its Cloud Key Management Service (Cloud KMS), making them available in preview. [...]]]></description>
- </item>
-
- <item>
-        <title>Beware: PayPal "New Address" feature abused to send phishing emails</title>
-        <link>https://www.bleepingcomputer.com/news/security/beware-paypal-new-address-feature-abused-to-send-phishing-emails/</link>
-        <pubDate>Sat, 22 Feb 2025 16:01:57 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/beware-paypal-new-address-feature-abused-to-send-phishing-emails/</guid>
-	<description><![CDATA[An ongoing PayPal email scam exploits the platform's address settings to send fake purchase notifications, tricking users into granting remote access to scammers [...]]]></description>
  </item>
 
 </channel>
