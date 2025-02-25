@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 25 Feb 2025 15:00:24 EST</pubDate>
+        <pubDate>Tue, 25 Feb 2025 15:58:15 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Firefox continues Manifest V2 support as Chrome disables MV2 ad-blockers</title>
+        <link>https://www.bleepingcomputer.com/news/security/firefox-continues-manifest-v2-support-as-chrome-disables-mv2-ad-blockers/</link>
+        <pubDate>Tue, 25 Feb 2025 15:28:01 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/firefox-continues-manifest-v2-support-as-chrome-disables-mv2-ad-blockers/</guid>
+	<description><![CDATA[Mozilla has renewed its promise to continue supporting Manifest V2 extensions alongside Manifest V3, giving users the freedom to use the extensions they want in their browser. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft fixes Entra ID authentication issue caused by DNS change</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-entra-id-authentication-issue-caused-by-dns-change/</link>
+        <pubDate>Tue, 25 Feb 2025 15:17:00 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-entra-id-authentication-issue-caused-by-dns-change/</guid>
+	<description><![CDATA[Microsoft has fixed an issue that caused Entra ID DNS authentication failures when using the company's Seamless SSO and Microsoft Entra Connect Sync. [...]]]></description>
+ </item>
+
  <item>
         <title>GitVenom attacks abuse hundreds of GitHub repos to steal crypto</title>
         <link>https://www.bleepingcomputer.com/news/security/gitvenom-attacks-abuse-hundreds-of-github-repos-to-steal-crypto/</link>
@@ -180,36 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/botnet-targets-basic-auth-in-microsoft-365-password-spray-attacks/</guid>
 	<description><![CDATA[A massive botnet of over 130,000 compromised devices is conducting password-spray attacks against Microsoft 365 (M365) accounts worldwide, attempting to confirm credentials. [...]]]></description>
- </item>
-
- <item>
-        <title>North Korean hackers linked to $1.5 billion ByBit crypto heist</title>
-        <link>https://www.bleepingcomputer.com/news/security/north-korean-hackers-linked-to-15-billion-bybit-crypto-heist/</link>
-        <pubDate>Mon, 24 Feb 2025 11:22:58 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/north-korean-hackers-linked-to-15-billion-bybit-crypto-heist/</guid>
-	<description><![CDATA[​Over the weekend, blockchain security companies and experts have linked North Korea's Lazarus hacking group to the theft of over $1.5 billion from cryptocurrency exchange Bybit. [...]]]></description>
- </item>
-
- <item>
-        <title>Exploits for unpatched Parallels Desktop flaw give root on Macs</title>
-        <link>https://www.bleepingcomputer.com/news/security/exploits-for-unpatched-parallels-desktop-flaw-give-root-on-macs/</link>
-        <pubDate>Mon, 24 Feb 2025 10:48:50 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/exploits-for-unpatched-parallels-desktop-flaw-give-root-on-macs/</guid>
-	<description><![CDATA[Two different exploits for an unpatched Parallels Desktop privilege elevation vulnerability have been publicly disclosed, allowing users to gain root access on impacted Mac devices. [...]]]></description>
  </item>
 
 </channel>
