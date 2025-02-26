@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 26 Feb 2025 10:01:30 EST</pubDate>
+        <pubDate>Wed, 26 Feb 2025 11:00:24 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>EncryptHub breaches 618 orgs to deploy infostealers, ransomware</title>
+        <link>https://www.bleepingcomputer.com/news/security/encrypthub-breaches-618-orgs-to-deploy-infostealers-ransomware/</link>
+        <pubDate>Wed, 26 Feb 2025 10:31:21 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/encrypthub-breaches-618-orgs-to-deploy-infostealers-ransomware/</guid>
+	<description><![CDATA[A threat actor tracked as 'EncryptHub,' aka Larva-208,  has been targeting organizations worldwide with spear-phishing and social engineering attacks to gain access to corporate networks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Five best practices for securing Active Directory service accounts</title>
+        <link>https://www.bleepingcomputer.com/news/security/five-best-practices-for-securing-active-directory-service-accounts/</link>
+        <pubDate>Wed, 26 Feb 2025 10:01:11 -0500</pubDate>
+        <dc:creator>Sponsored by Specops Software</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/five-best-practices-for-securing-active-directory-service-accounts/</guid>
+	<description><![CDATA[Windows Active Directory (AD) service accounts are prime cyber-attack targets due to their elevated privileges and automated/continuous access to important systems. Learn from Specops Software about five best practices to help secure your Active Directory service accounts. [...]]]></description>
+ </item>
+
  <item>
         <title>Australian IVF giant Genea breached by Termite ransomware gang</title>
         <link>https://www.bleepingcomputer.com/news/security/australian-ivf-giant-genea-breached-by-termite-ransomware-gang/</link>
@@ -176,22 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-drug-testing-firm-disa-says-data-breach-impacts-33-million-people/</guid>
 	<description><![CDATA[DISA Global Solutions, a leading US background screening and drug and alcohol testing firm, has suffered a data breach impacting 3.3 million people. [...]]]></description>
- </item>
-
- <item>
-        <title>Anthropic's Claude 3.7 Sonnet is here and results are insane</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-37-sonnet-is-here-and-results-are-insane/</link>
-        <pubDate>Tue, 25 Feb 2025 08:07:57 -0500</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-37-sonnet-is-here-and-results-are-insane/</guid>
-	<description><![CDATA[Anthropic has started rolling out Claude 3.7 Sonnet, the company's most advanced model and the first hybrid reasoning model it has shipped. [...]]]></description>
  </item>
 
 </channel>
