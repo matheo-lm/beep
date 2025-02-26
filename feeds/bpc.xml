@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 26 Feb 2025 00:59:30 EST</pubDate>
+        <pubDate>Wed, 26 Feb 2025 01:58:43 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 11 KB5052093 update released with 33 changes and fixes</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5052093-update-released-with-33-changes-and-fixes/</link>
+        <pubDate>Wed, 26 Feb 2025 01:43:34 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5052093-update-released-with-33-changes-and-fixes/</guid>
+	<description><![CDATA[Microsoft has released the February 2025 preview cumulative update for Windows 11 24H2, with 33 improvements and fixes for multiple issues, including SSH and File Explorer bugs and the volume jumping to 100% when waking the PC from sleep. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 24H2 upgrades now blocked for some AutoCAD users</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-upgrades-now-blocked-for-some-autocad-users/</link>
+        <pubDate>Wed, 26 Feb 2025 01:12:45 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-upgrades-now-blocked-for-some-autocad-users/</guid>
+	<description><![CDATA[Microsoft has introduced a new Windows 11 24H2 upgrade block for systems with AutoCAD 2022, addressing compatibility issues that prevent the program from launching. [...]]]></description>
+ </item>
+
  <item>
         <title>Have I Been Pwned adds 284M accounts stolen by infostealer malware</title>
         <link>https://www.bleepingcomputer.com/news/security/have-i-been-pwned-adds-284m-accounts-stolen-by-infostealer-malware/</link>
@@ -176,40 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/russia-warns-financial-sector-of-major-it-service-provider-hack/</guid>
 	<description><![CDATA[Russia's National Coordination Center for Computer Incidents (NKTsKI) is warning organizations in the country's credit and financial sector about a breach at LANIT, a major Russian IT service and software provider. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft tests ad-supported Office apps for Windows users</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-ad-supported-office-apps-for-windows-users/</link>
-        <pubDate>Mon, 24 Feb 2025 14:53:51 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-ad-supported-office-apps-for-windows-users/</guid>
-	<description><![CDATA[Microsoft has released ad-supported versions of its Office desktop apps, which have limited features but allow Windows users to edit their documents. [...]]]></description>
- </item>
-
- <item>
-        <title>Australia bans all Kaspersky products on government systems</title>
-        <link>https://www.bleepingcomputer.com/news/security/australia-bans-all-kaspersky-products-on-government-systems/</link>
-        <pubDate>Mon, 24 Feb 2025 13:12:56 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Government]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/australia-bans-all-kaspersky-products-on-government-systems/</guid>
-	<description><![CDATA[The Australian government has banned all Kaspersky Lab products and web services from its systems and devices following an analysis that claims the company poses a significant security risk to the country. [...]]]></description>
  </item>
 
 </channel>
