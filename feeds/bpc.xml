@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 26 Feb 2025 18:01:36 EST</pubDate>
+        <pubDate>Wed, 26 Feb 2025 19:10:36 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Southern Water says Black Basta ransomware attack cost £4.5M in expenses</title>
+        <link>https://www.bleepingcomputer.com/news/security/southern-water-says-black-basta-ransomware-attack-cost-45m-in-expenses/</link>
+        <pubDate>Wed, 26 Feb 2025 18:50:29 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/southern-water-says-black-basta-ransomware-attack-cost-45m-in-expenses/</guid>
+	<description><![CDATA[United Kingdom water supplier Southern Water has disclosed that it incurred costs of £4.5 million ($5.7M) due to a cyberattack it suffered in February 2024. [...]]]></description>
+ </item>
+
+ <item>
+        <title>GrassCall malware campaign drains crypto wallets via fake job interviews</title>
+        <link>https://www.bleepingcomputer.com/news/security/grasscall-malware-campaign-drains-crypto-wallets-via-fake-job-interviews/</link>
+        <pubDate>Wed, 26 Feb 2025 18:27:20 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/grasscall-malware-campaign-drains-crypto-wallets-via-fake-job-interviews/</guid>
+	<description><![CDATA[A recent social engineering campaign targeted job seekers in the Web3 space with fake job interviews through a malicious "GrassCall" meeting app that installs information-stealing malware to steal cryptocurrency wallets. [...]]]></description>
+ </item>
+
  <item>
         <title>VSCode extensions with 9 million installs pulled over security risks</title>
         <link>https://www.bleepingcomputer.com/news/security/vscode-extensions-with-9-million-installs-pulled-over-security-risks/</link>
@@ -174,36 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/have-i-been-pwned-adds-284m-accounts-stolen-by-infostealer-malware/</guid>
 	<description><![CDATA[​The Have I Been Pwned data breach notification service has added over 284 million accounts stolen by information stealer malware and found on a Telegram channel. [...]]]></description>
- </item>
-
- <item>
-        <title>Firefox continues Manifest V2 support as Chrome disables MV2 ad-blockers</title>
-        <link>https://www.bleepingcomputer.com/news/security/firefox-continues-manifest-v2-support-as-chrome-disables-mv2-ad-blockers/</link>
-        <pubDate>Tue, 25 Feb 2025 15:28:01 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/firefox-continues-manifest-v2-support-as-chrome-disables-mv2-ad-blockers/</guid>
-	<description><![CDATA[Mozilla has renewed its promise to continue supporting Manifest V2 extensions alongside Manifest V3, giving users the freedom to use the extensions they want in their browser. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Entra ID authentication issue caused by DNS change</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-entra-id-authentication-issue-caused-by-dns-change/</link>
-        <pubDate>Tue, 25 Feb 2025 15:17:00 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-entra-id-authentication-issue-caused-by-dns-change/</guid>
-	<description><![CDATA[Microsoft has fixed an issue that caused Entra ID DNS authentication failures when using the company's Seamless SSO and Microsoft Entra Connect Sync. [...]]]></description>
  </item>
 
 </channel>
