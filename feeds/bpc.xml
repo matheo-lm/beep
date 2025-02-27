@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 27 Feb 2025 08:05:14 EST</pubDate>
+        <pubDate>Thu, 27 Feb 2025 09:02:13 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft fixes Outlook drag-and-drop broken by Windows updates</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-drag-and-drop-broken-by-windows-updates/</link>
+        <pubDate>Thu, 27 Feb 2025 08:42:02 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-drag-and-drop-broken-by-windows-updates/</guid>
+	<description><![CDATA[​Microsoft has fixed a known issue that broke email and calendar drag-and-drop in classic Outlook after installing recent updates on Windows 24H2 systems. [...]]]></description>
+ </item>
+
  <item>
         <title>FBI confirms Lazarus hackers were behind $1.5B Bybit crypto heist</title>
         <link>https://www.bleepingcomputer.com/news/security/fbi-confirms-lazarus-hackers-were-behind-15b-bybit-crypto-heist/</link>
@@ -176,34 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-45-spotted-in-android-beta-launch-imminent/</guid>
 	<description><![CDATA[OpenAI's newest model, GPT-4.5, is coming sooner than we expected. A new reference has been spotted on ChatGPT's Android app that points to a model called "GPT-4.5 research preview," but it looks like it will initially be limited to those with a Pro subscription. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 KB5052093 update released with 33 changes and fixes</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5052093-update-released-with-33-changes-and-fixes/</link>
-        <pubDate>Wed, 26 Feb 2025 01:43:34 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5052093-update-released-with-33-changes-and-fixes/</guid>
-	<description><![CDATA[Microsoft has released the February 2025 preview cumulative update for Windows 11 24H2, with 33 improvements and fixes for multiple issues, including SSH and File Explorer bugs and the volume jumping to 100% when waking the PC from sleep. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 24H2 upgrades now blocked for some AutoCAD users</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-upgrades-now-blocked-for-some-autocad-users/</link>
-        <pubDate>Wed, 26 Feb 2025 01:12:45 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-upgrades-now-blocked-for-some-autocad-users/</guid>
-	<description><![CDATA[Microsoft has introduced a new Windows 11 24H2 upgrade block for systems with AutoCAD 2022, addressing compatibility issues that prevent the program from launching. [...]]]></description>
  </item>
 
 </channel>
