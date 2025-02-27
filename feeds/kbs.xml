@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Thu, 27 Feb 2025 04:05:00 +0000</lastBuildDate>
@@ -60,7 +60,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/02/u-s-soldier-charged-in-att-hack-searched-can-hacking-be-treason/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
+			<slash:comments>4</slash:comments>
 		
 		
 			</item>
@@ -775,9 +775,9 @@
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 285/291 objects using memcached
-Page Caching using memcached (User agent is rejected) 
-Database Caching 2/7 queries in 0.001 seconds using memcached
+Object Caching 285/285 objects using memcached
+Page Caching using memcached 
+Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-02-27 14:00:07 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-02-27 14:26:42 by W3 Total Cache
 -->
