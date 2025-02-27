@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 27 Feb 2025 11:59:44 EST</pubDate>
+        <pubDate>Thu, 27 Feb 2025 13:00:38 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Over 49,000 misconfigured building access systems exposed online</title>
+        <link>https://www.bleepingcomputer.com/news/security/over-49-000-misconfigured-building-access-systems-exposed-online/</link>
+        <pubDate>Thu, 27 Feb 2025 13:00:26 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/over-49-000-misconfigured-building-access-systems-exposed-online/</guid>
+	<description><![CDATA[Researchers discovered 49,000 misconfigured and exposed Access Management Systems (AMS) across multiple industries and countries, which could compromise privacy and physical security in critical sectors. [...]]]></description>
+ </item>
+
  <item>
         <title>Belgium probes if Chinese hackers breached its intelligence service</title>
         <link>https://www.bleepingcomputer.com/news/security/belgium-probes-if-chinese-hackers-breached-its-intelligence-service/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/five-best-practices-for-securing-active-directory-service-accounts/</guid>
 	<description><![CDATA[Windows Active Directory (AD) service accounts are prime cyber-attack targets due to their elevated privileges and automated/continuous access to important systems. Learn from Specops Software about five best practices to help secure your Active Directory service accounts. [...]]]></description>
- </item>
-
- <item>
-        <title>Australian IVF giant Genea breached by Termite ransomware gang</title>
-        <link>https://www.bleepingcomputer.com/news/security/australian-ivf-giant-genea-breached-by-termite-ransomware-gang/</link>
-        <pubDate>Wed, 26 Feb 2025 08:31:05 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/australian-ivf-giant-genea-breached-by-termite-ransomware-gang/</guid>
-	<description><![CDATA[​The Termite ransomware gang has claimed responsibility for stealing sensitive healthcare data in a recent breach of Genea, one of Australia's largest fertility services providers. [...]]]></description>
  </item>
 
 </channel>
