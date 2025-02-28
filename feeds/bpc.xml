@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 28 Feb 2025 12:00:43 EST</pubDate>
+        <pubDate>Fri, 28 Feb 2025 12:59:10 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Police arrests suspects tied to AI-generated CSAM distribution ring</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-arrests-suspects-linked-to-ai-generated-csam-distribution-ring/</link>
+        <pubDate>Fri, 28 Feb 2025 12:59:06 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-arrests-suspects-linked-to-ai-generated-csam-distribution-ring/</guid>
+	<description><![CDATA[Law enforcement agencies from 19 countries have arrested 25 suspects linked to a criminal ring that was distributing child sexual abuse material (CSAM) generated using artificial intelligence (AI). [...]]]></description>
+ </item>
+
  <item>
         <title>Serbian police used Cellebrite zero-day hack to unlock Android phones</title>
         <link>https://www.bleepingcomputer.com/news/security/serbian-police-used-cellebrite-zero-day-hack-to-unlock-android-phones/</link>
@@ -180,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/southern-water-says-black-basta-ransomware-attack-cost-45m-in-expenses/</guid>
 	<description><![CDATA[United Kingdom water supplier Southern Water has disclosed that it incurred costs of £4.5 million ($5.7M) due to a cyberattack it suffered in February 2024. [...]]]></description>
- </item>
-
- <item>
-        <title>GrassCall malware campaign drains crypto wallets via fake job interviews</title>
-        <link>https://www.bleepingcomputer.com/news/security/grasscall-malware-campaign-drains-crypto-wallets-via-fake-job-interviews/</link>
-        <pubDate>Wed, 26 Feb 2025 18:27:20 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/grasscall-malware-campaign-drains-crypto-wallets-via-fake-job-interviews/</guid>
-	<description><![CDATA[A recent social engineering campaign targeted job seekers in the Web3 space with fake job interviews through a malicious "GrassCall" meeting app that installs information-stealing malware to steal cryptocurrency wallets. [...]]]></description>
  </item>
 
 </channel>
