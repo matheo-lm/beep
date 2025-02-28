@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Fri, 28 Feb 2025 17:59:44 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 28 Feb 2025 20:14:58 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,60 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Notorious Malware, Spam Host &#8220;Prospero&#8221; Moves to Kaspersky Lab</title>
+		<link>https://krebsonsecurity.com/2025/02/notorious-malware-spam-host-prospero-moves-to-kaspersky-lab/</link>
+					<comments>https://krebsonsecurity.com/2025/02/notorious-malware-spam-host-prospero-moves-to-kaspersky-lab/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Fri, 28 Feb 2025 20:14:58 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Alfa Bank]]></category>
+		<category><![CDATA[BEARHOST]]></category>
+		<category><![CDATA[GootLoader]]></category>
+		<category><![CDATA[Interisle Consulting Group]]></category>
+		<category><![CDATA[Intrinsec]]></category>
+		<category><![CDATA[Kaspersky Lab]]></category>
+		<category><![CDATA[Kentik]]></category>
+		<category><![CDATA[Prospero OOO]]></category>
+		<category><![CDATA[Securehost]]></category>
+		<category><![CDATA[Silent Push]]></category>
+		<category><![CDATA[SocGholish]]></category>
+		<category><![CDATA[spamhaus]]></category>
+		<category><![CDATA[Zach Edwards]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70525</guid>
+
+					<description><![CDATA[One of the most notorious providers of abuse-friendly "bulletproof" web hosting for cybercriminals has started routing its operations through networks run by the Russian antivirus and security firm Kaspersky Lab, KrebsOnSecurity has learned.]]></description>
+										<content:encoded><![CDATA[<p>One of the most notorious providers of abuse-friendly &#8220;bulletproof&#8221; web hosting for cybercriminals has started routing its operations through networks run by the Russian antivirus and security firm <strong>Kaspersky Lab</strong>, KrebsOnSecurity has learned.</p>
+<p>Security experts say the Russia-based service provider <strong>Prospero OOO </strong>(the triple O is the Russian version of &#8220;LLC&#8221;) has long been a persistent source of malicious software, botnet controllers, and <a href="https://urlscan.io/search/#page.asn%3Aas200593" target="_blank" rel="noopener">a torrent of phishing websites</a>. Last year, the French security firm <strong>Intrinsec</strong> <a href="https://www.intrinsec.com/prospero-proton66-tracing-uncovering-the-links-between-bulletproof-networks/" target="_blank" rel="noopener">detailed</a> Prospero&#8217;s connections to bulletproof services advertised on Russian cybercrime forums under the names <strong>Securehost</strong> and <strong>BEARHOST</strong>.</p>
+<div id="attachment_70550" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70550" decoding="async" class=" wp-image-70550" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/bearhost.png" alt="" width="749" height="492" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/02/bearhost.png 902w, https://krebsonsecurity.com/wp-content/uploads/2025/02/bearhost-768x504.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/02/bearhost-782x513.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-70550" class="wp-caption-text">The bulletproof hosting provider BEARHOST. This screenshot has been machine-translated from Russian. Image: Ke-la.com.</p></div>
+<p>Bulletproof hosts are so named when they earn or cultivate a reputation for ignoring legal demands and abuse complaints. And BEARHOST has been cultivating its reputation since at least 2019.</p>
+<p>&#8220;If you need a server for a botnet, for malware, brute, scan, phishing, fakes and any other tasks, please contact us,&#8221; BEARHOST&#8217;s ad on one forum advises. &#8220;We completely ignore all abuses without exception, including SPAMHAUS and other organizations.&#8221;</p>
+<p>Intrinsec found Prospero has courted some of Russia&#8217;s nastiest cybercrime groups, hosting control servers for multiple ransomware gangs over the past two years. Intrinsec said its analysis showed Prospero frequently hosts malware operations such as <a href="https://www.reliaquest.com/blog/new-python-socgholish-infection-chain/" target="_blank" rel="noopener">SocGholish</a> and <a href="https://redcanary.com/threat-detection-report/threats/gootloader/" target="_blank" rel="noopener">GootLoader</a>, which are spread primarily via fake browser updates on hacked websites and often lay the groundwork for more serious cyber intrusions &#8212; including ransomware.</p>
+<div id="attachment_70548" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70548" decoding="async" loading="lazy" class=" wp-image-70548" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/fakeupdates.png" alt="" width="749" height="361" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/02/fakeupdates.png 1121w, https://krebsonsecurity.com/wp-content/uploads/2025/02/fakeupdates-768x371.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/02/fakeupdates-782x377.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-70548" class="wp-caption-text">A fake browser update page pushing mobile malware. Image: Intrinsec.</p></div>
+<p>BEARHOST prides itself on the ability to evade blocking by <a href="https://www.spamhaus.org" target="_blank" rel="noopener">Spamhaus</a>, an organization that many Internet service providers around the world rely on to help identify and block sources of malware and spam. Earlier this week, Spamhaus said it <a href="https://www.cidr-report.org/cgi-bin/as-report?as=AS200593" target="_blank" rel="noopener">noticed</a> that Prospero was suddenly connecting to the Internet by routing through networks operated by Kaspersky Lab in Moscow.</p>
+<p>Kaspersky did not respond to repeated requests for comment.</p>
+<p>Kaspersky began selling antivirus and security software in the United States in 2005, and the company&#8217;s malware researchers have earned accolades from the security community for many important discoveries over the years. But in September 2017, the Department of Homeland Security (DHS) barred U.S. federal agencies from using Kaspersky software, mandating its removal within 90 days.<span id="more-70525"></span></p>
+<p>Cybersecurity reporter <strong>Kim Zetter</strong> notes that DHS didn&#8217;t cite any specific justification for its ban in 2017, but media reports quoting anonymous government officials referenced two incidents. Zetter wrote:</p>
+<blockquote><p>According to one story, an NSA contractor developing offensive hacking tools for the spy agency had Kaspersky software installed on his home computer where he was developing the tools, and the software detected the source code as malicious code and extracted it from his computer, as antivirus software is designed to do. A second story claimed that Israeli spies caught Russian government hackers using Kaspersky software to search customer systems for files containing U.S. secrets.</p>
+<p>Kaspersky denied that anyone used its software to search for secret information on customer machines and said that the tools on the NSA worker&#8217;s machine were detected in the same way that all antivirus software detects files it deems suspicious and then quarantines or extracts them for analysis. Once Kaspersky discovered that the code its antivirus software detected on the NSA worker&#8217;s machine were not malicious programs but source code in development by the U.S. government for its hacking operations, CEO Eugene Kaspersky says he ordered workers to delete the code.</p></blockquote>
+<p>Last year, the U.S. Commerce Department <a href="https://www.zetter-zeroday.com/kaspersky-lab-closing-u-s-division-laying-off-workers-2/" target="_blank" rel="noopener">banned the sale of Kaspersky software in the U.S.</a> effective July 20, 2024. U.S. officials argued the ban was needed because Russian law requires domestic companies to cooperate in all official investigations, and thus the Russian government could force Kaspersky to secretly gather intelligence on its behalf.</p>
+<p>Phishing data gathered last year by the <strong>Interisle Consulting Group</strong> ranked hosting networks by their size and concentration of spambot hosts, and <a href="https://www.cybercrimeinfocenter.org/spam-activity-in-hosting-networks-december-february-2024" target="_blank" rel="noopener">found</a> Prospero had a higher spam score than any other provider by far.</p>
+<div id="attachment_70549" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70549" decoding="async" loading="lazy" class=" wp-image-70549" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/cidr-as200593.png" alt="" width="748" height="483" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/02/cidr-as200593.png 896w, https://krebsonsecurity.com/wp-content/uploads/2025/02/cidr-as200593-768x495.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/02/cidr-as200593-782x504.png 782w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-70549" class="wp-caption-text">AS209030, owned by Kaspersky Lab, is providing connectivity to the bulletproof host Prospero (AS200593). Image: cidr-report.org.</p></div>
+<p>It remains unclear why Kaspersky is providing transit to Prospero. <strong>Doug Madory</strong>, director of Internet analysis at <strong>Kentik</strong>, said routing records show the relationship between Prospero and Kaspersky started at the beginning of December 2024.</p>
+<p>Madory said Kaspersky&#8217;s network appears to be <a href="https://www.cidr-report.org/cgi-bin/as-report?as=AS209030&amp;v=4&amp;view=2.0" target="_blank" rel="noopener">hosting several financial institutions</a>, including Russia&#8217;s largest &#8212; <strong>Alfa-Bank</strong>. Kaspersky sells services to help protect customers from distributed denial-of-service (DDoS) attacks, and Madory said it could be that Prospero is simply purchasing that protection from Kaspersky.</p>
+<p>But if that is the case, it doesn&#8217;t make the situation any better, said <strong>Zach Edwards</strong>, a senior threat researcher at the security firm <strong>Silent Push</strong>.</p>
+<p>&#8220;In some ways, providing DDoS protection to a well-known bulletproof hosting provider may be even worse than just allowing them to connect to the rest of the Internet over your infrastructure,&#8221; Edwards said.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/02/notorious-malware-spam-host-prospero-moves-to-kaspersky-lab/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>U.S. Soldier Charged in AT&#038;T Hack Searched &#8220;Can Hacking Be Treason&#8221;</title>
 		<link>https://krebsonsecurity.com/2025/02/u-s-soldier-charged-in-att-hack-searched-can-hacking-be-treason/</link>
 					<comments>https://krebsonsecurity.com/2025/02/u-s-soldier-charged-in-att-hack-searched-can-hacking-be-treason/#comments</comments>
@@ -37,7 +91,7 @@
 
 					<description><![CDATA[A U.S. Army soldier who pleaded guilty last week to leaking phone records for high-ranking U.S. government officials searched online for non-extradition countries and for an answer to the question "can hacking be treason?" prosecutors in the case said Wednesday. The government disclosed the details in a court motion to keep the defendant in custody until he is discharged from the military.]]></description>
 										<content:encoded><![CDATA[<p>A U.S. Army soldier who pleaded guilty last week to leaking phone records for high-ranking U.S. government officials searched online for non-extradition countries and for an answer to the question &#8220;can hacking be treason?&#8221; prosecutors in the case said Wednesday. The government disclosed the details in a court motion to keep the defendant in custody until he is discharged from the military.</p>
-<div id="attachment_69974" style="width: 757px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69974" decoding="async" class=" wp-image-69974" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/camwagenius-selfie.png" alt="" width="747" height="740" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/12/camwagenius-selfie.png 779w, https://krebsonsecurity.com/wp-content/uploads/2024/12/camwagenius-selfie-768x761.png 768w" sizes="(max-width: 747px) 100vw, 747px" /><p id="caption-attachment-69974" class="wp-caption-text">One of several selfies on the Facebook page of Cameron Wagenius.</p></div>
+<div id="attachment_69974" style="width: 757px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-69974" decoding="async" loading="lazy" class=" wp-image-69974" src="https://krebsonsecurity.com/wp-content/uploads/2024/12/camwagenius-selfie.png" alt="" width="747" height="740" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/12/camwagenius-selfie.png 779w, https://krebsonsecurity.com/wp-content/uploads/2024/12/camwagenius-selfie-768x761.png 768w" sizes="(max-width: 747px) 100vw, 747px" /><p id="caption-attachment-69974" class="wp-caption-text">One of several selfies on the Facebook page of Cameron Wagenius.</p></div>
 <p><strong>Cameron John Wagenius</strong>, 21, was <a href="https://krebsonsecurity.com/2024/12/u-s-army-soldier-arrested-in-att-verizon-extortions/" target="_blank" rel="noopener">arrested</a> near the Army base in Fort Cavazos, Texas on Dec. 20, and charged with two criminal counts of unlawful transfer of confidential phone records. Wagenius was a communications specialist at a U.S. Army base in South Korea, who secretly went by the nickname <strong>Kiberphant0m</strong> and was part of a trio of criminal hackers that extorted dozens of companies last year over stolen data.</p>
 <p>At the end of 2023, malicious hackers learned that many companies had uploaded sensitive customer records to accounts at the cloud data storage service <strong>Snowflake</strong> that were protected with little more than a username and password (no multi-factor authentication needed). After scouring darknet markets for stolen Snowflake account credentials, the hackers began raiding the data storage repositories used by some of the world&#8217;s largest corporations.</p>
 <p>Among those was <strong>AT&amp;T</strong>, which disclosed in July that cybercriminals had stolen personal information and phone and text message records for roughly 110 million people — nearly all of its customers. AT&amp;T <a href="https://www.wired.com/story/atandt-paid-hacker-300000-to-delete-stolen-call-records/" target="_blank" rel="noopener">reportedly</a> paid a hacker $370,000 to delete stolen phone records. More than 160 other Snowflake customers were relieved of data, including TicketMaster, Lending Tree, Advance Auto Parts and Neiman Marcus.</p>
@@ -60,7 +114,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/02/u-s-soldier-charged-in-att-hack-searched-can-hacking-be-treason/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
+			<slash:comments>9</slash:comments>
 		
 		
 			</item>
@@ -700,84 +754,15 @@
 		
 		
 			</item>
-		<item>
-		<title>Infrastructure Laundering: Blending in with the Cloud</title>
-		<link>https://krebsonsecurity.com/2025/01/infrastructure-laundering-blending-in-with-the-cloud/</link>
-					<comments>https://krebsonsecurity.com/2025/01/infrastructure-laundering-blending-in-with-the-cloud/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Thu, 30 Jan 2025 17:10:08 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Ne'er-Do-Well News]]></category>
-		<category><![CDATA[Time to Patch]]></category>
-		<category><![CDATA[Web Fraud 2.0]]></category>
-		<category><![CDATA[ACB Group]]></category>
-		<category><![CDATA[Amazon AWS]]></category>
-		<category><![CDATA[Anjie CDN]]></category>
-		<category><![CDATA[Crowell & Moring LLP]]></category>
-		<category><![CDATA[Fangneng CDN]]></category>
-		<category><![CDATA[Funnull]]></category>
-		<category><![CDATA[infrastructure laundering]]></category>
-		<category><![CDATA[Microsoft Azure]]></category>
-		<category><![CDATA[NETSCOUT]]></category>
-		<category><![CDATA[NoName057(16)]]></category>
-		<category><![CDATA[polyfill]]></category>
-		<category><![CDATA[Richard Hummel]]></category>
-		<category><![CDATA[Silent Push]]></category>
-		<category><![CDATA[Suncity Group]]></category>
-		<category><![CDATA[U.S. Department of Commerce]]></category>
-		<category><![CDATA[Zach Edwards]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70065</guid>
-
-					<description><![CDATA[In an effort to blend in and make their malicious traffic tougher to block, hosting firms catering to cybercriminals in China and Russia increasingly are funneling their operations through major U.S. cloud providers. Research published this week on one such outfit -- a sprawling network tied to Chinese organized crime gangs and aptly named "Funnull" -- highlights a persistent whac-a-mole problem facing cloud services.]]></description>
-										<content:encoded><![CDATA[<div id="attachment_70230" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70230" decoding="async" loading="lazy" class=" wp-image-70230" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss.png" alt="" width="749" height="452" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss.png 1319w, https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss-768x463.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss-782x472.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-70230" class="wp-caption-text">Image: Shutterstock, ArtHead.</p></div>
-<p>In an effort to blend in and make their malicious traffic tougher to block, hosting firms catering to cybercriminals in China and Russia increasingly are funneling their operations through major U.S. cloud providers. Research published this week on one such outfit &#8212; a sprawling network tied to Chinese organized crime gangs and aptly named &#8220;<strong>Funnull</strong>&#8221; &#8212; highlights a persistent whac-a-mole problem facing cloud services.</p>
-<p>In October 2024, the security firm <strong>Silent Push</strong> published a <a href="https://www.silentpush.com/blog/triad-nexus-funnull/" target="_blank" rel="noopener">lengthy analysis</a> of how <strong>Amazon AWS</strong> and <strong>Microsoft Azure</strong> were providing services to Funnull, a two-year-old Chinese content delivery network that hosts a wide variety of fake trading apps, <a href="https://krebsonsecurity.com/2022/07/massive-losses-define-epidemic-of-pig-butchering/" target="_blank" rel="noopener">pig butchering scams</a>, gambling websites, and retail phishing pages.</p>
-<p>Funnull made headlines last summer after it acquired the domain name <strong>polyfill[.]io</strong>, previously the home of a widely-used open source code library that allowed older browsers to handle advanced functions that weren&#8217;t natively supported. There were still tens of thousands of legitimate domains linking to the Polyfill domain at the time of its acquisition, and Funnull soon after <a href="https://arstechnica.com/security/2024/07/384000-sites-link-to-code-library-caught-performing-supply-chain-attack/" target="_blank" rel="noopener">conducted a supply-chain attack that redirected visitors to malicious sites</a>.</p>
-<p>Silent Push&#8217;s October 2024 report found a vast number of domains hosted via Funnull promoting gambling sites that bear the logo of the <strong>Suncity Group</strong>, a Chinese entity named in <a href="https://www.unodc.org/roseap/uploads/documents/Publications/2024/Casino_Underground_Banking_Report_2024.pdf" target="_blank" rel="noopener">a 2024 UN report</a> (PDF) for laundering millions of dollars for the North Korean <a href="https://en.wikipedia.org/wiki/Lazarus_Group" target="_blank" rel="noopener">Lazarus Group</a>.</p>
-<p>In 2023, Suncity’s CEO was <a href="https://www.smh.com.au/business/companies/ex-suncity-boss-alvin-chau-jailed-for-18-years-in-macau-20230118-p5cdmj.html" target="_blank" rel="noopener">sentenced to 18 years in prison</a> on charges of fraud, illegal gambling, and “<a href="https://en.wikipedia.org/wiki/Triad_(organized_crime)" target="_blank" rel="noopener">triad</a> offenses,” i.e. working with Chinese transnational organized crime syndicates. Suncity is alleged to have built an underground banking system that <a href="https://macaonews.org/news/city/former-suncity-boss-alvin-chau-sentenced-to-18-years-in-prison/" target="_blank" rel="noopener">laundered billions of dollars for criminals</a>.</p>
-<p>It is likely the gambling sites coming through Funnull are abusing top casino brands as part of their money laundering schemes. In reporting on Silent Push&#8217;s October report, <em>TechCrunch</em> <a href="https://techcrunch.com/2024/10/22/researchers-link-polyfill-supply-chain-attack-to-huge-network-of-copycat-gambling-sites/" target="_blank" rel="noopener">obtained</a> a comment from Bwin, one of the casinos being advertised en masse through Funnull, and Bwin said those websites did not belong to them.</p>
-<p>Gambling is illegal in China except in Macau, a special administrative region of China. Silent Push researchers say Funnull may be helping online gamblers in China evade the Communist party&#8217;s &#8220;Great Firewall,&#8221; which blocks access to gambling destinations.</p>
-<p>Silent Push&#8217;s <strong>Zach Edwards</strong> said that upon <a href="https://www.silentpush.com/blog/infrastructure-laundering/" target="_blank" rel="noopener">revisiting Funnull&#8217;s infrastructure again this month</a>, they found dozens of the same Amazon and Microsoft cloud Internet addresses still forwarding Funnull traffic through a dizzying chain of auto-generated domain names before redirecting malicious or phishous websites.</p>
-<p>Edwards said Funnull is a textbook example of an increasing trend Silent Push calls &#8220;infrastructure laundering,&#8221; wherein crooks selling cybercrime services will relay some or all of their malicious traffic through U.S. cloud providers.</p>
-<p>&#8220;It&#8217;s crucial for global hosting companies based in the West to wake up to the fact that extremely low quality and suspicious web hosts based out of China are deliberately renting IP space from multiple companies and then mapping those IPs to their criminal client websites,&#8221; Edwards told KrebsOnSecurity. &#8220;We need these major hosts to create internal policies so that if they are renting IP space to one entity, who further rents it to host numerous criminal websites, all of those IPs should be reclaimed and the CDN who purchased them should be banned from future IP rentals or purchases.&#8221;</p>
-<div id="attachment_70232" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70232" decoding="async" loading="lazy" class=" wp-image-70232" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/suncity-funnull.png" alt="" width="750" height="370" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/01/suncity-funnull.png 958w, https://krebsonsecurity.com/wp-content/uploads/2025/01/suncity-funnull-768x379.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/01/suncity-funnull-782x386.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-70232" class="wp-caption-text">A Suncity gambling site promoted via Funnull. The sites feature a prompt for a Tether/USDT deposit program.</p></div>
-<p>Reached for comment, Amazon referred this reporter to a statement Silent Push included in <a href="https://www.silentpush.com/blog/infrastructure-laundering" target="_blank" rel="noopener">a report released today</a>. Amazon said AWS was already aware of the Funnull addresses tracked by Silent Push, and that it had suspended all known accounts linked to the activity.</p>
-<p>Amazon said that contrary to implications in the Silent Push report, it has every reason to aggressively police its network against this activity, noting the accounts tied to Funnull used &#8220;fraudulent methods to temporarily acquire infrastructure, for which it never pays. Thus, AWS incurs damages as a result of the abusive activity.&#8221;</p>
-<p>&#8220;When AWS&#8217;s automated or manual systems detect potential abuse, or when we receive reports of potential abuse, we act quickly to investigate and take action to stop any prohibited activity,&#8221; Amazon&#8217;s statement continues. &#8220;In the event anyone suspects that AWS resources are being used for abusive activity, we encourage them to report it to AWS Trust &amp; Safety using the <a href="https://support.aws.amazon.com/#/contacts/report-abuse" target="_blank" rel="noopener">report abuse form</a>. In this case, the authors of the report never notified AWS of the findings of their research via our easy-to-find security and abuse reporting channels. Instead, AWS first learned of their research from a journalist to whom the researchers had provided a draft.&#8221;</p>
-<p>Microsoft likewise said it takes such abuse seriously, and encouraged others to report suspicious activity found on its network.</p>
-<p>&#8220;We are committed to protecting our customers against this kind of activity and actively enforce acceptable use policies when violations are detected,&#8221; Microsoft said in a written statement. &#8220;We encourage <a href="https://protect.checkpoint.com/v2/r01/___https://msrc.microsoft.com/report/___.YzJ1OndlY29tbXVuaWNhdGlvbnM6YzpvOjQwMWQyNWE1OWIxMDNiNWUyZGQ5ZmY2MmZiYTMxMTNiOjc6NDRlNzoyZDg4NzY5MmI4MGVmYWY2M2NmZWVjOGMxMjhkNTRhYjhmODc4Mzk3MjJkYjdkMTEzMjk0MDdmMzA4NDUxNDczOmg6VDpG" target="_blank" rel="noopener">reporting</a> suspicious activity to Microsoft so we can investigate and take appropriate actions.&#8221;<span id="more-70065"></span></p>
-<p><strong>Richard Hummel</strong> is threat intelligence lead at <strong>NETSCOUT</strong>. Hummel said it used to be that &#8220;noisy&#8221; and frequently disruptive malicious traffic &#8212; such as automated application layer attacks, and &#8220;brute force&#8221; efforts to crack passwords or find vulnerabilities in websites &#8212; came mostly from botnets, or large collections of hacked devices.</p>
-<p>But he said the vast majority of the infrastructure used to funnel this type of traffic is now proxied through major cloud providers, which can make it difficult for organizations to block at the network level.</p>
-<p>&#8220;From a defenders point of view, you can&#8217;t wholesale block cloud providers, because a single IP can host thousands or tens of thousands of domains,&#8221; Hummel said.</p>
-<p>In May 2024, KrebsOnSecurity published <a href="https://krebsonsecurity.com/2024/05/stark-industries-solutions-an-iron-hammer-in-the-cloud/" target="_blank" rel="noopener">a deep dive on Stark Industries Solutions</a>, an ISP that materialized at the start of Russia&#8217;s invasion of Ukraine and has been used as a global proxy network that conceals the true source of cyberattacks and disinformation campaigns against enemies of Russia. Experts said much of the malicious traffic  traversing Stark&#8217;s network (e.g. vulnerability scanning and password brute force attacks) was being bounced through U.S.-based cloud providers.</p>
-<p>Stark&#8217;s network has been a favorite of the Russian hacktivist group called <strong>NoName057(16)</strong>, which frequently launches huge distributed denial-of-service (DDoS) attacks against a variety of targets seen as opposed to Moscow. Hummel said NoName&#8217;s history suggests they are adept at cycling through new cloud provider accounts, making anti-abuse efforts into a game of whac-a-mole.</p>
-<p>&#8220;It almost doesn&#8217;t matter if the cloud provider is on point and takes it down because the bad guys will just spin up a new one,&#8221; he said. &#8220;Even if they&#8217;re only able to use it for an hour, they&#8217;ve already done their damage. It&#8217;s a really difficult problem.&#8221;</p>
-<p>Edwards said Amazon declined to specify whether the banned Funnull users were operating using compromised accounts or stolen payment card data, or something else.</p>
-<p>&#8220;I&#8217;m surprised they wanted to lean into &#8216;We&#8217;ve caught this 1,200+ times and have taken these down!&#8217; and yet didn&#8217;t connect that each of those IPs was mapped to [the same] Chinese CDN,&#8221; he said. &#8220;We&#8217;re just thankful Amazon confirmed that account mules are being used for this and it isn&#8217;t some front-door relationship. We haven&#8217;t heard the same thing from Microsoft but it&#8217;s very likely that the same thing is happening.&#8221;</p>
-<p>Funnull wasn&#8217;t always a bulletproof hosting network for scam sites. Prior to 2022, the network was known as <strong>Anjie CDN</strong>, based in the Philippines. One of Anjie&#8217;s properties was a website called <strong>funnull[.]app</strong>. Loading that domain reveals a pop-up message by the original Anjie CDN owner, who said their operations had been seized by an entity known as <strong>Fangneng CDN</strong> and <strong>ACB Group</strong>, the parent company of Funnull.</p>
-<div id="attachment_70228" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70228" decoding="async" loading="lazy" class=" wp-image-70228" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/funnull-app.png" alt="" width="749" height="533" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/01/funnull-app.png 1079w, https://krebsonsecurity.com/wp-content/uploads/2025/01/funnull-app-768x546.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/01/funnull-app-782x556.png 782w, https://krebsonsecurity.com/wp-content/uploads/2025/01/funnull-app-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-70228" class="wp-caption-text">A machine-translated message from the former owner of Anjie CDN, a Chinese content delivery network that is now Funnull.</p></div>
-<p>&#8220;After I got into trouble, the company was managed by my family,&#8221; the message explains. &#8220;Because my family was isolated and helpless, they were persuaded by villains to sell the company. Recently, many companies have contacted my family and threatened them, believing that Fangneng CDN used penetration and mirroring technology through customer domain names to steal member information and financial transactions, and stole customer programs by renting and selling servers. This matter has nothing to do with me and my family. Please contact Fangneng CDN to resolve it.&#8221;</p>
-<p>In January 2024, the <strong>U.S. Department of Commerce</strong> issued <a href="https://www.federalregister.gov/documents/2024/01/29/2024-01580/taking-additional-steps-to-address-the-national-emergency-with-respect-to-significant-malicious" target="_blank" rel="noopener">a proposed rule</a> that would require cloud providers to create a &#8220;Customer Identification Program&#8221; that includes procedures to collect data sufficient to determine whether each potential customer is a foreign or U.S. person.</p>
-<p>According to the law firm <strong>Crowell &amp; Moring LLP</strong>, the Commerce rule also would require &#8220;infrastructure as a service&#8221; (IaaS) providers to report knowledge of any transactions with foreign persons that might allow the foreign entity to train a large AI model with potential capabilities that could be used in malicious cyber-enabled activity.</p>
-<p>&#8220;The proposed rulemaking has garnered global attention, as its cross-border data collection requirements are unprecedented in the cloud computing space,&#8221; Crowell <a href="https://www.crowell.com/en/insights/client-alerts/who-iaas-your-foreign-customer-department-of-commerce-proposes-foreign-customer-identification-requirements-for-us-iaas-providers" target="_blank" rel="noopener">wrote</a>. &#8220;To the extent the U.S. alone imposes these requirements, there is concern that U.S. IaaS providers could face a competitive disadvantage, as U.S. allies have not yet announced similar foreign customer identification requirements.&#8221;</p>
-<p>It remains unclear if the new White House administration will push forward with the requirements. The Commerce action was mandated as part of an executive order President Trump issued a day before leaving office in January 2021.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/01/infrastructure-laundering-blending-in-with-the-cloud/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 285/285 objects using memcached
+Object Caching 283/283 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-02-28 14:55:05 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-02-28 15:56:09 by W3 Total Cache
 -->
