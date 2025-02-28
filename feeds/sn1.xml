@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Mon, 24 Feb 2025 15:45:08 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 28 Feb 2025 10:31:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -179,6 +179,7 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 <p>The Ghostwriter threat actor has been consistently active in the past years and continues its attempts to compromise targets aligned with the interests of Belarus and its closest ally, Russia. It has mounted multiple attacks reported by CERT UA and other security researchers throughout 2024.</p>
 <p>While Belarus doesn’t actively participate in military campaigns in the war in Ukraine, cyber threat actors associated with it appear to have no reservation about conducting cyberespionage operations against Ukrainian targets.</p>
 <p>The campaign described in this publication also serves as confirmation that Ghostwriter is closely tied with the interests of the Belarusian government waging an aggressive pursuit of its opposition and organizations associated with it.</p>
+<div id="threattips"></div>
 <p>We would like to express our thanks to partners in the region, including <a href="https://resident.ngo/" target="_blank" rel="noopener noreferrer">RESIDENT.NGO</a> and others who remain unnamed, for their invaluable collaboration. </p>
 <p>Organizations that believe they may have been targeted by threat actors involved in this campaign are invited to reach out to the SentinelLABS team via <a href="mailto:ThreatTips@sentinelone.com" target="_blank" rel="noopener noreferrer">ThreatTips@sentinelone.com</a>.</p>
 <h2>Indicators of Compromise</h2>
