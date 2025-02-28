@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 28 Feb 2025 12:59:10 EST</pubDate>
+        <pubDate>Fri, 28 Feb 2025 14:01:00 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Qilin ransomware claims attack at Lee Enterprises, leaks stolen data</title>
+        <link>https://www.bleepingcomputer.com/news/security/qilin-ransomware-claims-attack-at-lee-enterprises-leaks-stolen-data/</link>
+        <pubDate>Fri, 28 Feb 2025 13:20:31 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/qilin-ransomware-claims-attack-at-lee-enterprises-leaks-stolen-data/</guid>
+	<description><![CDATA[The Qilin ransomware gang has claimed responsibility for the attack at Lee Enterprises that disrupted operations on February 3, leaking samples of data they claim was stolen from the company. [...]]]></description>
+ </item>
+
  <item>
         <title>Police arrests suspects tied to AI-generated CSAM distribution ring</title>
         <link>https://www.bleepingcomputer.com/news/security/police-arrests-suspects-linked-to-ai-generated-csam-distribution-ring/</link>
@@ -180,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fbi-confirms-lazarus-hackers-were-behind-15b-bybit-crypto-heist/</guid>
 	<description><![CDATA[FBI has confirmed that North Korean hackers stole $1.5 billion from cryptocurrency exchange Bybit on Friday in the largest crypto heist recorded until now. [...]]]></description>
- </item>
-
- <item>
-        <title>Southern Water says Black Basta ransomware attack cost £4.5M in expenses</title>
-        <link>https://www.bleepingcomputer.com/news/security/southern-water-says-black-basta-ransomware-attack-cost-45m-in-expenses/</link>
-        <pubDate>Wed, 26 Feb 2025 18:50:29 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/southern-water-says-black-basta-ransomware-attack-cost-45m-in-expenses/</guid>
-	<description><![CDATA[United Kingdom water supplier Southern Water has disclosed that it incurred costs of £4.5 million ($5.7M) due to a cyberattack it suffered in February 2024. [...]]]></description>
  </item>
 
 </channel>
