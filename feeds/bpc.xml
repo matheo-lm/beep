@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 28 Feb 2025 09:59:31 EST</pubDate>
+        <pubDate>Fri, 28 Feb 2025 11:02:32 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft confirms it's killing off Skype in May, after 14 years</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-its-killing-off-skype-in-may-after-14-years/</link>
+        <pubDate>Fri, 28 Feb 2025 10:12:17 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-its-killing-off-skype-in-may-after-14-years/</guid>
+	<description><![CDATA[Microsoft has confirmed that the Skype video call and messaging service will be shut down in May, 14 years after replacing the Windows Live Messenger. [...]]]></description>
+ </item>
+
  <item>
         <title>Vo1d malware botnet grows to 1.6 million Android TVs worldwide</title>
         <link>https://www.bleepingcomputer.com/news/security/vo1d-malware-botnet-grows-to-16-million-android-tvs-worldwide/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/vscode-extensions-with-9-million-installs-pulled-over-security-risks/</guid>
 	<description><![CDATA[Microsoft has removed two popular VSCode extensions, 'Material Theme - Free' and  'Material Theme Icons - Free,' from the Visual Studio Marketplace for allegedly containing malicious code. [...]]]></description>
- </item>
-
- <item>
-        <title>PyPi package with 100K installs pirated music from Deezer for years</title>
-        <link>https://www.bleepingcomputer.com/news/security/pypi-package-with-100k-installs-pirated-music-from-deezer-for-years/</link>
-        <pubDate>Wed, 26 Feb 2025 11:59:36 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/pypi-package-with-100k-installs-pirated-music-from-deezer-for-years/</guid>
-	<description><![CDATA[A malicious PyPi package named 'automslc'  has been downloaded over 100,000 times from the Python Package Index since 2019, abusing hard-coded credentials to pirate music from the Deezer streaming service. [...]]]></description>
  </item>
 
 </channel>
