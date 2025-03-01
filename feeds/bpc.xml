@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 01 Mar 2025 13:58:43 EST</pubDate>
+        <pubDate>Sat, 01 Mar 2025 14:58:32 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ransomware gangs exploit Paragon Partition Manager bug in BYOVD attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/ransomware-gangs-exploit-paragon-partition-manager-bug-in-byovd-attacks/</link>
+        <pubDate>Sat, 01 Mar 2025 10:17:27 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ransomware-gangs-exploit-paragon-partition-manager-bug-in-byovd-attacks/</guid>
+	<description><![CDATA[Microsoft had discovered five Paragon Partition Manager BioNTdrv.sys driver flaws, with one used by ransomware gangs in zero-day attacks to gain SYSTEM privileges in Windows. [...]]]></description>
+ </item>
+
  <item>
         <title>U.S. recovers $31 million stolen in 2021 Uranium Finance hack</title>
         <link>https://www.bleepingcomputer.com/news/cryptocurrency/us-recovers-31-million-stolen-in-2021-uranium-finance-hack/</link>
@@ -182,20 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/suspected-desorden-hacker-arrested-for-breaching-90-organizations/</guid>
 	<description><![CDATA[A suspected cyber criminal believed to have extorted companies under the name "DESORDEN Group" or "ALTDOS" has been arrested in Thailand for leaking the stolen data of over 90 organizations worldwide. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Outlook drag-and-drop broken by Windows updates</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-drag-and-drop-broken-by-windows-updates/</link>
-        <pubDate>Thu, 27 Feb 2025 08:42:02 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-drag-and-drop-broken-by-windows-updates/</guid>
-	<description><![CDATA[​Microsoft has fixed a known issue that broke email and calendar drag-and-drop in classic Outlook after installing recent updates on Windows 24H2 systems. [...]]]></description>
  </item>
 
 </channel>
