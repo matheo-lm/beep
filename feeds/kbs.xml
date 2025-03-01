@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Fri, 28 Feb 2025 20:14:58 +0000</lastBuildDate>
@@ -760,9 +760,9 @@
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 233/340 objects using memcached
-Page Caching using memcached 
+Object Caching 142/430 objects using memcached
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-03-01 02:29:52 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-03-01 04:00:06 by W3 Total Cache
 -->
