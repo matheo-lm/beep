@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Sat, 01 Mar 2025 15:03:51 +0000</lastBuildDate>
@@ -71,7 +71,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/02/notorious-malware-spam-host-prospero-moves-to-kaspersky-lab/feed/</wfw:commentRss>
-			<slash:comments>8</slash:comments>
+			<slash:comments>9</slash:comments>
 		
 		
 			</item>
@@ -766,5 +766,5 @@ Object Caching 283/283 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-03-01 19:57:14 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-03-02 09:38:20 by W3 Total Cache
 -->
