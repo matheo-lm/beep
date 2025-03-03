@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 03 Mar 2025 12:02:27 EST</pubDate>
+        <pubDate>Mon, 03 Mar 2025 13:01:22 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA tags Windows, Cisco vulnerabilities as actively exploited</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-tags-windows-and-cisco-vulnerabilities-as-actively-exploited/</link>
+        <pubDate>Mon, 03 Mar 2025 12:51:14 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-tags-windows-and-cisco-vulnerabilities-as-actively-exploited/</guid>
+	<description><![CDATA[CISA has warned US federal agencies to secure their systems against attacks exploiting vulnerabilities in Cisco and Windows systems. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New ClickFix attack deploys Havoc C2 via Microsoft Sharepoint</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-clickfix-attack-deploys-havoc-c2-via-microsoft-sharepoint/</link>
+        <pubDate>Mon, 03 Mar 2025 12:33:52 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-clickfix-attack-deploys-havoc-c2-via-microsoft-sharepoint/</guid>
+	<description><![CDATA[A newly uncovered ClickFix phishing campaign is tricking victims into executing malicious PowerShell commands that deploy the Havok post-exploitation framework for remote access to compromised devices. [...]]]></description>
+ </item>
+
  <item>
         <title>UK watchdog probes TikTok and Reddit over child privacy concerns</title>
         <link>https://www.bleepingcomputer.com/news/security/uk-watchdog-probes-tiktok-and-reddit-over-child-privacy-concerns/</link>
@@ -148,38 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-its-killing-off-skype-in-may-after-14-years/</guid>
 	<description><![CDATA[Microsoft has confirmed that the Skype video call and messaging service will be shut down in May, 14 years after replacing the Windows Live Messenger. [...]]]></description>
- </item>
-
- <item>
-        <title>Vo1d malware botnet grows to 1.6 million Android TVs worldwide</title>
-        <link>https://www.bleepingcomputer.com/news/security/vo1d-malware-botnet-grows-to-16-million-android-tvs-worldwide/</link>
-        <pubDate>Thu, 27 Feb 2025 17:49:12 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Hardware]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/vo1d-malware-botnet-grows-to-16-million-android-tvs-worldwide/</guid>
-	<description><![CDATA[A new variant of the Vo1d malware botnet has grown to 1,590,299 infected Android TV devices across 226 countries, recruiting devices as part of anonymous proxy server networks. [...]]]></description>
- </item>
-
- <item>
-        <title>Privacy tech firms warn France’s encryption and VPN laws threaten privacy</title>
-        <link>https://www.bleepingcomputer.com/news/security/privacy-tech-firms-warn-frances-encryption-and-vpn-laws-threaten-privacy/</link>
-        <pubDate>Thu, 27 Feb 2025 15:54:16 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/privacy-tech-firms-warn-frances-encryption-and-vpn-laws-threaten-privacy/</guid>
-	<description><![CDATA[Privacy-focused email provider Tuta (previously Tutanota) and the VPN Trust Initiative (VTI) are raising concerns over proposed laws in France set to backdoor encrypted messaging systems and restrict internet access. [...]]]></description>
  </item>
 
 </channel>
