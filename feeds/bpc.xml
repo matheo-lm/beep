@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 03 Mar 2025 09:00:38 EST</pubDate>
+        <pubDate>Mon, 03 Mar 2025 10:02:18 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft links recent Microsoft 365 outage to buggy update</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-links-recent-microsoft-365-outage-to-buggy-update/</link>
+        <pubDate>Mon, 03 Mar 2025 09:37:00 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-links-recent-microsoft-365-outage-to-buggy-update/</guid>
+	<description><![CDATA[​Microsoft says a coding issue is behind a now-resolved Microsoft 365 outage over the weekend that affected Outlook and Exchange Online authentication. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Nearly 12,000 API keys and passwords found in AI training dataset</title>
+        <link>https://www.bleepingcomputer.com/news/security/nearly-12-000-api-keys-and-passwords-found-in-ai-training-dataset/</link>
+        <pubDate>Sun, 02 Mar 2025 10:23:36 -0500</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/nearly-12-000-api-keys-and-passwords-found-in-ai-training-dataset/</guid>
+	<description><![CDATA[Close to 12,000 valid secrets that include API keys and passwords have been found in the Common Crawl dataset used for training multiple artificial intelligence models. [...]]]></description>
+ </item>
+
  <item>
         <title>Ransomware gangs exploit Paragon Partition Manager bug in BYOVD attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/ransomware-gangs-exploit-paragon-partition-manager-bug-in-byovd-attacks/</link>
@@ -138,64 +166,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/privacy-tech-firms-warn-frances-encryption-and-vpn-laws-threaten-privacy/</guid>
 	<description><![CDATA[Privacy-focused email provider Tuta (previously Tutanota) and the VPN Trust Initiative (VTI) are raising concerns over proposed laws in France set to backdoor encrypted messaging systems and restrict internet access. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft names cybercriminals behind AI deepfake network</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-names-cybercriminals-behind-ai-deepfake-network/</link>
-        <pubDate>Thu, 27 Feb 2025 13:15:46 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-names-cybercriminals-behind-ai-deepfake-network/</guid>
-	<description><![CDATA[Microsoft has named multiple threat actors part of a cybercrime gang accused of developing malicious tools capable of bypassing generative AI guardrails to generate celebrity deepfakes and other illicit content. [...]]]></description>
- </item>
-
- <item>
-        <title>Over 49,000 misconfigured building access systems exposed online</title>
-        <link>https://www.bleepingcomputer.com/news/security/over-49-000-misconfigured-building-access-systems-exposed-online/</link>
-        <pubDate>Thu, 27 Feb 2025 13:00:26 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/over-49-000-misconfigured-building-access-systems-exposed-online/</guid>
-	<description><![CDATA[Researchers discovered 49,000 misconfigured and exposed Access Management Systems (AMS) across multiple industries and countries, which could compromise privacy and physical security in critical sectors. [...]]]></description>
- </item>
-
- <item>
-        <title>Belgium probes if Chinese hackers breached its intelligence service</title>
-        <link>https://www.bleepingcomputer.com/news/security/belgium-probes-chinese-hack-behind-intelligence-service-breach/</link>
-        <pubDate>Thu, 27 Feb 2025 11:59:39 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/belgium-probes-chinese-hack-behind-intelligence-service-breach/</guid>
-	<description><![CDATA[​The Belgian federal prosecutor's office is investigating whether Chinese hackers were behind a breach of the country's State Security Service (VSSE). [...]]]></description>
- </item>
-
- <item>
-        <title>Suspected Desorden hacker arrested for breaching 90 organizations</title>
-        <link>https://www.bleepingcomputer.com/news/security/suspected-desorden-hacker-arrested-for-breaching-90-organizations/</link>
-        <pubDate>Thu, 27 Feb 2025 10:49:09 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/suspected-desorden-hacker-arrested-for-breaching-90-organizations/</guid>
-	<description><![CDATA[A suspected cyber criminal believed to have extorted companies under the name "DESORDEN Group" or "ALTDOS" has been arrested in Thailand for leaking the stolen data of over 90 organizations worldwide. [...]]]></description>
  </item>
 
 </channel>
