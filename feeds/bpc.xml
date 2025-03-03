@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 03 Mar 2025 14:58:28 EST</pubDate>
+        <pubDate>Mon, 03 Mar 2025 15:58:58 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Rubrik rotates authentication keys after log server breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/rubrik-rotates-authentication-keys-after-log-server-breach/</link>
+        <pubDate>Mon, 03 Mar 2025 15:53:52 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/rubrik-rotates-authentication-keys-after-log-server-breach/</guid>
+	<description><![CDATA[Rubrik disclosed last month that one of its servers hosting log files was breached, causing the company to rotate potentially leaked authentication keys. [...]]]></description>
+ </item>
+
  <item>
         <title>DHS says CISA will not stop monitoring Russian cyber threats</title>
         <link>https://www.bleepingcomputer.com/news/security/dhs-says-cisa-will-not-stop-monitoring-russian-cyber-threats/</link>
@@ -176,24 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/police-arrests-suspects-linked-to-ai-generated-csam-distribution-ring/</guid>
 	<description><![CDATA[Law enforcement agencies from 19 countries have arrested 25 suspects linked to a criminal ring that was distributing child sexual abuse material (CSAM) generated using artificial intelligence (AI). [...]]]></description>
- </item>
-
- <item>
-        <title>Serbian police used Cellebrite zero-day hack to unlock Android phones</title>
-        <link>https://www.bleepingcomputer.com/news/security/serbian-police-used-cellebrite-zero-day-hack-to-unlock-android-phones/</link>
-        <pubDate>Fri, 28 Feb 2025 11:27:18 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/serbian-police-used-cellebrite-zero-day-hack-to-unlock-android-phones/</guid>
-	<description><![CDATA[Serbian authorities have reportedly used an Android zero-day exploit chain developed by Cellebrite to unlock the device of a student activist in the country and attempt to install spyware. [...]]]></description>
  </item>
 
 </channel>
