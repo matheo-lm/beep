@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 04 Mar 2025 09:58:44 EST</pubDate>
+        <pubDate>Tue, 04 Mar 2025 11:02:14 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Polish Space Agency offline as it recovers from cyberattack</title>
+        <link>https://www.bleepingcomputer.com/news/security/polish-space-agency-offline-as-it-recovers-from-cyberattack/</link>
+        <pubDate>Tue, 04 Mar 2025 10:32:01 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/polish-space-agency-offline-as-it-recovers-from-cyberattack/</guid>
+	<description><![CDATA[​The Polish Space Agency (POLSA) has been offline since it disconnected its systems from the Internet over the weekend to contain a breach of its IT infrastructure. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hunters International ransomware claims attack on Tata Technologies</title>
+        <link>https://www.bleepingcomputer.com/news/security/hunters-international-ransomware-claims-attack-on-tata-technologies/</link>
+        <pubDate>Tue, 04 Mar 2025 10:04:54 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hunters-international-ransomware-claims-attack-on-tata-technologies/</guid>
+	<description><![CDATA[The Hunters International ransomware gang has claimed responsibility for a January cyberattack attack on Tata Technologies, stating they stole 1.4TB of data from the company. [...]]]></description>
+ </item>
+
  <item>
         <title>Broadcom fixes three VMware zero-days exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/broadcom-fixes-three-vmware-zero-days-exploited-in-attacks/</link>
@@ -160,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/nearly-12-000-api-keys-and-passwords-found-in-ai-training-dataset/</guid>
 	<description><![CDATA[Close to 12,000 valid secrets that include API keys and passwords have been found in the Common Crawl dataset used for training multiple artificial intelligence models. [...]]]></description>
- </item>
-
- <item>
-        <title>Ransomware gangs exploit Paragon Partition Manager bug in BYOVD attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/ransomware-gangs-exploit-paragon-partition-manager-bug-in-byovd-attacks/</link>
-        <pubDate>Sat, 01 Mar 2025 10:17:27 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ransomware-gangs-exploit-paragon-partition-manager-bug-in-byovd-attacks/</guid>
-	<description><![CDATA[Microsoft had discovered five Paragon Partition Manager BioNTdrv.sys driver flaws, with one used by ransomware gangs in zero-day attacks to gain SYSTEM privileges in Windows. [...]]]></description>
  </item>
 
 </channel>
