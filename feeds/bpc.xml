@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 04 Mar 2025 15:00:49 EST</pubDate>
+        <pubDate>Tue, 04 Mar 2025 16:00:28 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Eleven11bot botnet infects 86,000 devices for DDoS attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-eleven11bot-botnet-infects-86-000-devices-for-ddos-attacks/</link>
+        <pubDate>Tue, 04 Mar 2025 15:10:04 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-eleven11bot-botnet-infects-86-000-devices-for-ddos-attacks/</guid>
+	<description><![CDATA[A new botnet malware named 'Eleven11bot' has infected over 86,000 IoT devices, primarily security cameras and network video recorders (NVRs), to conduct DDoS attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Cisco warns of Webex for BroadWorks flaw exposing credentials</title>
         <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-webex-for-broadworks-flaw-exposing-credentials/</link>
@@ -192,34 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-clickfix-attack-deploys-havoc-c2-via-microsoft-sharepoint/</guid>
 	<description><![CDATA[A newly uncovered ClickFix phishing campaign is tricking victims into executing malicious PowerShell commands that deploy the Havok post-exploitation framework for remote access to compromised devices. [...]]]></description>
- </item>
-
- <item>
-        <title>UK watchdog probes TikTok and Reddit over child privacy concerns</title>
-        <link>https://www.bleepingcomputer.com/news/security/uk-watchdog-probes-tiktok-and-reddit-over-child-privacy-concerns/</link>
-        <pubDate>Mon, 03 Mar 2025 11:22:09 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/uk-watchdog-probes-tiktok-and-reddit-over-child-privacy-concerns/</guid>
-	<description><![CDATA[On Monday, the United Kingdom's privacy watchdog announced that it is investigating TikTok, Reddit, and Imgur because of privacy concerns about how they are processing children's data. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft links recent Microsoft 365 outage to buggy update</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-links-recent-microsoft-365-outage-to-buggy-update/</link>
-        <pubDate>Mon, 03 Mar 2025 09:37:00 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-links-recent-microsoft-365-outage-to-buggy-update/</guid>
-	<description><![CDATA[​Microsoft says a coding issue is behind a now-resolved Microsoft 365 outage over the weekend that affected Outlook and Exchange Online authentication. [...]]]></description>
  </item>
 
 </channel>
