@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 04 Mar 2025 13:02:45 EST</pubDate>
+        <pubDate>Tue, 04 Mar 2025 14:00:21 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cisco warns of Webex for BroadWorks flaw exposing credentials</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-webex-for-broadworks-flaw-exposing-credentials/</link>
+        <pubDate>Tue, 04 Mar 2025 13:40:08 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisco-warns-of-webex-for-broadworks-flaw-exposing-credentials/</guid>
+	<description><![CDATA[Cisco warned customers today of a vulnerability in Webex for BroadWorks that could let unauthenticated attackers access credentials remotely. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Google expands Android AI scam detection to more Pixel devices</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-expands-android-ai-scam-detection-to-more-pixel-devices/</link>
+        <pubDate>Tue, 04 Mar 2025 12:00:00 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-expands-android-ai-scam-detection-to-more-pixel-devices/</guid>
+	<description><![CDATA[Google has announced an increased rollout of new AI-powered scam detection features on Android to help protect users from increasingly sophisticated phone and text social engineering scams. [...]]]></description>
+ </item>
+
  <item>
         <title>New polyglot malware hits aviation, satellite communication firms</title>
         <link>https://www.bleepingcomputer.com/news/security/new-polyglot-malware-hits-aviation-satellite-communication-firms/</link>
@@ -188,20 +220,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-links-recent-microsoft-365-outage-to-buggy-update/</guid>
 	<description><![CDATA[​Microsoft says a coding issue is behind a now-resolved Microsoft 365 outage over the weekend that affected Outlook and Exchange Online authentication. [...]]]></description>
- </item>
-
- <item>
-        <title>Nearly 12,000 API keys and passwords found in AI training dataset</title>
-        <link>https://www.bleepingcomputer.com/news/security/nearly-12-000-api-keys-and-passwords-found-in-ai-training-dataset/</link>
-        <pubDate>Sun, 02 Mar 2025 10:23:36 -0500</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/nearly-12-000-api-keys-and-passwords-found-in-ai-training-dataset/</guid>
-	<description><![CDATA[Close to 12,000 valid secrets that include API keys and passwords have been found in the Common Crawl dataset used for training multiple artificial intelligence models. [...]]]></description>
  </item>
 
 </channel>
