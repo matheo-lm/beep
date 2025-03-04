@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 04 Mar 2025 17:01:40 EST</pubDate>
+        <pubDate>Tue, 04 Mar 2025 18:02:50 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft Teams tactics, malware connect Black Basta, Cactus ransomware</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-teams-tactics-malware-connect-black-basta-cactus-ransomware/</link>
+        <pubDate>Tue, 04 Mar 2025 17:47:42 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-teams-tactics-malware-connect-black-basta-cactus-ransomware/</guid>
+	<description><![CDATA[New research has uncovered further links between the Black Basta and Cactus ransomware gangs, with members of both groups utilizing the same social engineering attacks and the BackConnect proxy malware for post-exploitation access to corporate networks. [...]]]></description>
+ </item>
+
  <item>
         <title>New Eleven11bot botnet infects 86,000 devices for DDoS attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/new-eleven11bot-botnet-infects-86-000-devices-for-ddos-attacks/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-tags-windows-and-cisco-vulnerabilities-as-actively-exploited/</guid>
 	<description><![CDATA[CISA has warned US federal agencies to secure their systems against attacks exploiting vulnerabilities in Cisco and Windows systems. [...]]]></description>
- </item>
-
- <item>
-        <title>New ClickFix attack deploys Havoc C2 via Microsoft Sharepoint</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-clickfix-attack-deploys-havoc-c2-via-microsoft-sharepoint/</link>
-        <pubDate>Mon, 03 Mar 2025 12:33:52 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-clickfix-attack-deploys-havoc-c2-via-microsoft-sharepoint/</guid>
-	<description><![CDATA[A newly uncovered ClickFix phishing campaign is tricking victims into executing malicious PowerShell commands that deploy the Havok post-exploitation framework for remote access to compromised devices. [...]]]></description>
  </item>
 
 </channel>
