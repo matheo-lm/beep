@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 05 Mar 2025 11:59:32 EST</pubDate>
+        <pubDate>Wed, 05 Mar 2025 13:01:44 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US charges Chinese hackers linked to critical infrastructure breaches</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-charges-chinese-hackers-linked-to-critical-infrastructure-breaches/</link>
+        <pubDate>Wed, 05 Mar 2025 12:23:48 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-charges-chinese-hackers-linked-to-critical-infrastructure-breaches/</guid>
+	<description><![CDATA[The US Justice Department has charged Chinese state security officers along with APT27 and i-Soon hackers for network breaches and cyberattacks that have targeted victims globally since 2011. [...]]]></description>
+ </item>
+
  <item>
         <title>BadBox malware disrupted on 500K infected Android devices</title>
         <link>https://www.bleepingcomputer.com/news/security/badbox-malware-disrupted-on-500k-infected-android-devices/</link>
@@ -188,22 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hunters-international-ransomware-claims-attack-on-tata-technologies/</guid>
 	<description><![CDATA[The Hunters International ransomware gang has claimed responsibility for a January cyberattack attack on Tata Technologies, stating they stole 1.4TB of data from the company. [...]]]></description>
- </item>
-
- <item>
-        <title>Broadcom fixes three VMware zero-days exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/broadcom-fixes-three-vmware-zero-days-exploited-in-attacks/</link>
-        <pubDate>Tue, 04 Mar 2025 08:23:08 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/broadcom-fixes-three-vmware-zero-days-exploited-in-attacks/</guid>
-	<description><![CDATA[Broadcom warned customers today about three VMware zero-days, tagged as exploited in attacks and reported by the Microsoft Threat Intelligence Center. [...]]]></description>
  </item>
 
 </channel>
