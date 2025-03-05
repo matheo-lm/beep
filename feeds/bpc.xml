@@ -11,11 +11,29 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 05 Mar 2025 15:00:45 EST</pubDate>
+        <pubDate>Wed, 05 Mar 2025 16:01:49 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Open-source tool 'Rayhunter' helps users detect Stingray attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/open-source-tool-rayhunter-helps-users-detect-stingray-attacks/</link>
+        <pubDate>Wed, 05 Mar 2025 15:36:35 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/open-source-tool-rayhunter-helps-users-detect-stingray-attacks/</guid>
+	<description><![CDATA[The Electronic Frontier Foundation (EFF) has released a free, open-source tool named Rayhunter that is designed to detect cell-site simulators (CSS), also known as IMSI catchers or Stingrays. [...]]]></description>
+ </item>
+
  <item>
         <title>Silk Typhoon hackers now target IT supply chains to breach networks</title>
         <link>https://www.bleepingcomputer.com/news/security/silk-typhoon-hackers-now-target-it-supply-chains-to-breach-networks/</link>
@@ -176,34 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-expands-android-ai-scam-detection-to-more-pixel-devices/</guid>
 	<description><![CDATA[Google has announced an increased rollout of new AI-powered scam detection features on Android to help protect users from increasingly sophisticated phone and text social engineering scams. [...]]]></description>
- </item>
-
- <item>
-        <title>New polyglot malware hits aviation, satellite communication firms</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-polyglot-malware-hits-aviation-satellite-communication-firms/</link>
-        <pubDate>Tue, 04 Mar 2025 11:17:18 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-polyglot-malware-hits-aviation-satellite-communication-firms/</guid>
-	<description><![CDATA[A previously undocumented polyglot malware is being deployed in attacks against aviation, satellite communication, and critical transportation organizations in the United Arab Emirates. [...]]]></description>
- </item>
-
- <item>
-        <title>Polish Space Agency offline as it recovers from cyberattack</title>
-        <link>https://www.bleepingcomputer.com/news/security/polish-space-agency-offline-as-it-recovers-from-cyberattack/</link>
-        <pubDate>Tue, 04 Mar 2025 10:32:01 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/polish-space-agency-offline-as-it-recovers-from-cyberattack/</guid>
-	<description><![CDATA[​The Polish Space Agency (POLSA) has been offline since it disconnected its systems from the Internet over the weekend to contain a breach of its IT infrastructure. [...]]]></description>
  </item>
 
 </channel>
