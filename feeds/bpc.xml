@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 05 Mar 2025 13:01:44 EST</pubDate>
+        <pubDate>Wed, 05 Mar 2025 13:59:16 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Silk Typhoon hackers now target IT supply chains to breach networks</title>
+        <link>https://www.bleepingcomputer.com/news/security/silk-typhoon-hackers-now-target-it-supply-chains-to-breach-networks/</link>
+        <pubDate>Wed, 05 Mar 2025 13:18:39 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Cloud]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/silk-typhoon-hackers-now-target-it-supply-chains-to-breach-networks/</guid>
+	<description><![CDATA[Microsoft warns that Chinese cyber-espionage threat group 'Silk Typhoon' has shifted its tactics, now targeting remote management tools and cloud services in supply chain attacks that give them access to downstream customers. [...]]]></description>
+ </item>
+
  <item>
         <title>US charges Chinese hackers linked to critical infrastructure breaches</title>
         <link>https://www.bleepingcomputer.com/news/security/us-charges-chinese-hackers-linked-to-critical-infrastructure-breaches/</link>
@@ -188,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/polish-space-agency-offline-as-it-recovers-from-cyberattack/</guid>
 	<description><![CDATA[​The Polish Space Agency (POLSA) has been offline since it disconnected its systems from the Internet over the weekend to contain a breach of its IT infrastructure. [...]]]></description>
- </item>
-
- <item>
-        <title>Hunters International ransomware claims attack on Tata Technologies</title>
-        <link>https://www.bleepingcomputer.com/news/security/hunters-international-ransomware-claims-attack-on-tata-technologies/</link>
-        <pubDate>Tue, 04 Mar 2025 10:04:54 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hunters-international-ransomware-claims-attack-on-tata-technologies/</guid>
-	<description><![CDATA[The Hunters International ransomware gang has claimed responsibility for a January cyberattack attack on Tata Technologies, stating they stole 1.4TB of data from the company. [...]]]></description>
  </item>
 
 </channel>
