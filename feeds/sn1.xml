@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Fri, 28 Feb 2025 10:31:52 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 03 Mar 2025 07:45:36 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,31 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>LABScon24 Replay &#124; Farmyard Gossip: The Foreign Footprint in US Agriculture</title>
+		<link>https://www.sentinelone.com/labs/labscon24-replay-farmyard-gossip-the-foreign-footprint-in-us-agriculture/</link>
+		
+		<dc:creator><![CDATA[LABScon]]></dc:creator>
+		<pubDate>Wed, 05 Mar 2025 14:00:02 +0000</pubDate>
+				<category><![CDATA[labscon24]]></category>
+		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=115077</guid>
+
+					<description><![CDATA[Kristin Del Rosso &#038; Madeleine Devost explore the growing trend of foreign ownership of farmland and its implications for national security.]]></description>
+										<content:encoded><![CDATA[<p>Who really owns America’s farmland, and why does it matter? In this deep dive into the secretive world of foreign investment in U.S. agricultural land, Kristin Del Rosso and Madeleine Devost explore the growing trend of foreign ownership, which has surged by 50% since 2017, and its profound implications for national security. Using the USDA’s data, the presenters shed light on how these investments could potentially impact everything from local economies to national defense.</p>
+<p>The talk dives into the complexities of the USDA’s data collection methods, revealing how manual processes and outdated systems obscure the true extent of foreign ownership. It also discusses the critical role of the Committee on Foreign Investment in the United States (CFIUS) in safeguarding national interests, and the urgent need for improved data sharing and automation between CFIUS and the USDA.</p>
+<p>Through real-life examples, including controversial land purchases near sensitive military sites, Kristin and Madeleineillustrate the potential risks and propose actionable recommendations to enhance transparency and security.</p>
+<p><iframe src="https://www.youtube.com/embed/0rsgZfj6MGE" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<h2>About the Authors</h2>
+<p><a href="https://www.linkedin.com/in/kristindelrosso/" target="_blank" rel="noopener noreferrer">Kristin Del Rosso</a> is co-founder and managing director of DevSec, a research firm that provides advanced analytics blended with cyber investigation techniques to support analytics, investigations, and intelligence enrichment in novel ways. Prior to DevSec, she worked as the Public Sector Field CTO at Sophos, and has a background in security product management, threat intelligence, and reverse engineering.</p>
+<p><a href="https://www.linkedin.com/in/madeleine-d-338805186/" target="_blank" rel="noopener noreferrer">Madeleine Devost</a> is an intelligence analyst at Nisos focusing on open-source investigations. Prior to Nisos, she worked as a threat intelligence and investigations consultant for a number of firms including Excivity, RiskIQ and Microsoft.</p>
+<h2>About LABScon</h2>
+<p>This presentation was featured live at <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon</a> 2024, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLABS.</p>
+<p>Keep up with all the latest on <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon 2025</a> here.</p>
+]]></content:encoded>
+					
+		
+		
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/farmyard_gossip-ftr.jpg" length="576096" type="image/jpeg" />	</item>
+		<item>
 		<title>Ghostwriter &#124; New Campaign Targets Ukrainian Government and Belarusian Opposition</title>
 		<link>https://www.sentinelone.com/labs/ghostwriter-new-campaign-targets-ukrainian-government-and-belarusian-opposition/</link>
 		
@@ -64,7 +89,7 @@ C:\Windows\System32\regsvr32.exe /u /s "C:\Temp\Realtek(r)Audio.dll”
 <pre>
 https://everythingandthedog[.]shop/petsblog/2020/2/25/tips-for-taking-difficult-dogs-on-a-walk.jpg
 </pre>
-<figure id="attachment_114852" aria-describedby="caption-attachment-114852" style="width: 720px" class="wp-caption aligncenter"><img decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_13.jpg" alt="The JPG image file fetched from the C2" width="720" height="960" class="size-full wp-image-114852" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_13.jpg 720w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_13-225x300.jpg 225w" sizes="(max-width: 720px) 100vw, 720px" /><figcaption id="caption-attachment-114852" class="wp-caption-text">The JPG image file fetched from the C2</figcaption></figure>
+<figure id="attachment_114852" aria-describedby="caption-attachment-114852" style="width: 720px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_13.jpg" alt="The JPG image file fetched from the C2" width="720" height="960" class="size-full wp-image-114852" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_13.jpg 720w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_13-225x300.jpg 225w" sizes="auto, (max-width: 720px) 100vw, 720px" /><figcaption id="caption-attachment-114852" class="wp-caption-text">The JPG image file fetched from the C2</figcaption></figure>
 <p>We note that the <code>.shop</code> top level domain was also reported in other Ghostwriter activity seen in 2024.</p>
 <p>When the malware issues the HTTP request, it uses a hardcoded User-Agent string:</p>
 <pre>
@@ -917,34 +942,5 @@ e2221e5c58a1a976e59fe1062c6db36d4951b81e &#8211; PHP file containing URL associa
 		
 		
 		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/12/pkfail-ftr.jpg" length="539312" type="image/jpeg" />	</item>
-		<item>
-		<title>LABScon24 Replay &#124; A 30-Year Journey from Compilation Student to Decompilation Pioneer</title>
-		<link>https://www.sentinelone.com/labs/labscon24-replay-a-30-year-journey-from-compilation-student-to-decompilation-pioneer/</link>
-		
-		<dc:creator><![CDATA[LABScon]]></dc:creator>
-		<pubDate>Tue, 26 Nov 2024 14:00:02 +0000</pubDate>
-				<category><![CDATA[Decompilers]]></category>
-		<category><![CDATA[labscon24]]></category>
-		<category><![CDATA[Malware Analysis]]></category>
-		<category><![CDATA[tools]]></category>
-		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=109618</guid>
-
-					<description><![CDATA[Dr. Cristina Cifuentes, known as the Mother of Decompilation, reflects on three decades of innovation in reverse engineering in her LABScon 2024 keynote.]]></description>
-										<content:encoded><![CDATA[<p>In 1990, Cristina Cifuentes worked on a machine code interpreter for the Modula-2 programming language as part of her Compilers project. That summer, she integrated it into a mixed GPM Modula-2 compiler/interpreter for the 8086 processor. This gave her hands-on experience with assembly language and the process of converting intermediate representations into executable code, laying the groundwork for her later research.</p>
-<p>In 1994, she submitted a PhD thesis entitled <i>Reverse Compilation Techniques</i>. The work involved analyzing 80286 DOS binaries, studying assembly language, mapping groups of instructions into graphs, tracing parameters and data flows, and understanding how compilers optimized code. Her groundbreaking research introduced techniques that, while initially a niche academic endeavor, gained significant traction in the 2000s with the rising focus on application security and need to reverse engineer malware</p>
-<p>In this keynote, Dr Cifuentes reflects on her pioneering PhD work, the evolution of decompilation technology over the past three decades, its adoption in commercial applications, and its role in developing tools for malware analysis.</p>
-<p>Through this retrospective, she connects the foundational research of her early career with its enduring impact on cybersecurity today.</p>
-<p><iframe loading="lazy" src="https://www.youtube.com/embed/wo3xEa2elp4" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<h2>About the Author</h2>
-<p>Dr Cristina Cifuentes is Vice President of Oracle’s Software Assurance organization. Cristina’s passion for tackling the big issues in the field of Program Analysis began with her doctoral work in binary decompilation at the Queensland University of Technology, which led to her being named the Mother of Decompilation for her contributions to this domain.</p>
-<p>Before she joined Oracle and Sun Microsystems, Cristina held academic posts at major Australian Universities, co-edited Going Digital, a landmark book on Cybersecurity, and served on the executive committees of ACM SIGPLAN and IEEE Reverse Engineering.</p>
-<h2>About LABScon</h2>
-<p>This presentation was featured live at <a href="https://www.sentinelone.com/blog/labscon24-highlights-examining-the-latest-in-cybersecurity-trends-challenges/" target="_blank" rel="noopener noreferrer">LABScon 2024</a>, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLabs.</p>
-<p>Keep up with all the latest on <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon 2025</a> here.</p>
-]]></content:encoded>
-					
-		
-		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/11/Cristina-ftr.jpg" length="595795" type="image/jpeg" />	</item>
 	</channel>
 </rss>

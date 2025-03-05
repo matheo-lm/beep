@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 05 Mar 2025 08:06:25 EST</pubDate>
+        <pubDate>Wed, 05 Mar 2025 09:02:03 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Toronto Zoo shares update on last year's ransomware attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/toronto-zoo-shares-update-on-last-years-ransomware-attack/</link>
+        <pubDate>Wed, 05 Mar 2025 08:36:55 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/toronto-zoo-shares-update-on-last-years-ransomware-attack/</guid>
+	<description><![CDATA[The Toronto Zoo, the largest zoo in Canada, has provided more information about the data stolen during a ransomware attack in January 2024. [...]]]></description>
+ </item>
+
  <item>
         <title>Fake BianLian ransom notes mailed to US CEOs in postal mail scam</title>
         <link>https://www.bleepingcomputer.com/news/security/fake-bianlian-ransom-notes-mailed-to-us-ceos-in-postal-mail-scam/</link>
@@ -174,36 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/rubrik-rotates-authentication-keys-after-log-server-breach/</guid>
 	<description><![CDATA[Rubrik disclosed last month that one of its servers hosting log files was breached, causing the company to rotate potentially leaked authentication keys. [...]]]></description>
- </item>
-
- <item>
-        <title>DHS says CISA will not stop monitoring Russian cyber threats</title>
-        <link>https://www.bleepingcomputer.com/news/security/dhs-says-cisa-will-not-stop-monitoring-russian-cyber-threats/</link>
-        <pubDate>Mon, 03 Mar 2025 14:22:00 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Government]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/dhs-says-cisa-will-not-stop-monitoring-russian-cyber-threats/</guid>
-	<description><![CDATA[The US Cybersecurity and Infrastructure Security Agency says that media reports about it being directed to no longer follow or report on Russian cyber activity are untrue, and its mission remains unchanged. [...]]]></description>
- </item>
-
- <item>
-        <title>New Microsoft 365 outage impacts Teams, causes call failures</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/new-microsoft-365-outage-impacts-teams-causes-call-failures/</link>
-        <pubDate>Mon, 03 Mar 2025 13:52:32 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/new-microsoft-365-outage-impacts-teams-causes-call-failures/</guid>
-	<description><![CDATA[Microsoft is investigating a new Microsoft 365 outage that is affecting Teams customers and causing call failures. [...]]]></description>
  </item>
 
 </channel>
