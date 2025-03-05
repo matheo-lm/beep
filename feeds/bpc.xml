@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 05 Mar 2025 10:02:19 EST</pubDate>
+        <pubDate>Wed, 05 Mar 2025 11:02:36 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>YouTube warns of AI-generated video of its CEO used in phishing attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/youtube-warns-of-ai-generated-video-of-its-ceo-used-in-phishing-attacks/</link>
+        <pubDate>Wed, 05 Mar 2025 10:27:56 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/youtube-warns-of-ai-generated-video-of-its-ceo-used-in-phishing-attacks/</guid>
+	<description><![CDATA[YouTube warns that scammers are using an AI-generated video featuring the company's CEO in phishing attacks to steal creators' credentials. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Look up: The new frontier of cyberthreats is in the sky</title>
+        <link>https://www.bleepingcomputer.com/news/security/look-up-the-new-frontier-of-cyberthreats-is-in-the-sky/</link>
+        <pubDate>Wed, 05 Mar 2025 10:01:11 -0500</pubDate>
+        <dc:creator>Sponsored by Acronis</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/look-up-the-new-frontier-of-cyberthreats-is-in-the-sky/</guid>
+	<description><![CDATA[With  increased unidentified drone sightings worldwide, some are concerned they pose a cybersecurity risk. Learn more from Acronis about these risks and a real attack on a Taiwan drone manufacturer. [...]]]></description>
+ </item>
+
  <item>
         <title>Toronto Zoo shares update on last year's ransomware attack</title>
         <link>https://www.bleepingcomputer.com/news/security/toronto-zoo-shares-update-on-last-years-ransomware-attack/</link>
@@ -160,34 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/broadcom-fixes-three-vmware-zero-days-exploited-in-attacks/</guid>
 	<description><![CDATA[Broadcom warned customers today about three VMware zero-days, tagged as exploited in attacks and reported by the Microsoft Threat Intelligence Center. [...]]]></description>
- </item>
-
- <item>
-        <title>Google fixes Android zero-day exploited by Serbian authorities </title>
-        <link>https://www.bleepingcomputer.com/news/security/google-fixes-android-zero-days-exploited-in-targeted-attacks/</link>
-        <pubDate>Tue, 04 Mar 2025 06:38:22 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-fixes-android-zero-days-exploited-in-targeted-attacks/</guid>
-	<description><![CDATA[Google has released patches for 43 vulnerabilities in Android's March 2025 security update, including two zero-days. Serbian authorities have used one of the zero-days to unlock confiscated devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Rubrik rotates authentication keys after log server breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/rubrik-rotates-authentication-keys-after-log-server-breach/</link>
-        <pubDate>Mon, 03 Mar 2025 15:53:52 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/rubrik-rotates-authentication-keys-after-log-server-breach/</guid>
-	<description><![CDATA[Rubrik disclosed last month that one of its servers hosting log files was breached, causing the company to rotate potentially leaked authentication keys. [...]]]></description>
  </item>
 
 </channel>
