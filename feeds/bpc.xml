@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 04 Mar 2025 20:28:32 EST</pubDate>
+        <pubDate>Tue, 04 Mar 2025 21:23:27 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Fake BianLian ransom notes mailed to US CEOs in postal mail scam</title>
+        <link>https://www.bleepingcomputer.com/news/security/fake-bianlian-ransom-notes-mailed-to-us-ceos-in-postal-mail-scam/</link>
+        <pubDate>Tue, 04 Mar 2025 21:18:20 -0500</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fake-bianlian-ransom-notes-mailed-to-us-ceos-in-postal-mail-scam/</guid>
+	<description><![CDATA[Scammers are impersonating the BianLian ransomware gang in fake ransom notes sent to US companies via snail mail through the United States Postal Service. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft Teams tactics, malware connect Black Basta, Cactus ransomware</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-teams-tactics-malware-connect-black-basta-cactus-ransomware/</link>
@@ -190,22 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/new-microsoft-365-outage-impacts-teams-causes-call-failures/</guid>
 	<description><![CDATA[Microsoft is investigating a new Microsoft 365 outage that is affecting Teams customers and causing call failures. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA tags Windows, Cisco vulnerabilities as actively exploited</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-tags-windows-and-cisco-vulnerabilities-as-actively-exploited/</link>
-        <pubDate>Mon, 03 Mar 2025 12:51:14 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-tags-windows-and-cisco-vulnerabilities-as-actively-exploited/</guid>
-	<description><![CDATA[CISA has warned US federal agencies to secure their systems against attacks exploiting vulnerabilities in Cisco and Windows systems. [...]]]></description>
  </item>
 
 </channel>
