@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 06 Mar 2025 11:59:43 EST</pubDate>
+        <pubDate>Thu, 06 Mar 2025 13:01:32 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ethereum private key stealer on PyPI downloaded over 1,000 times</title>
+        <link>https://www.bleepingcomputer.com/news/security/ethereum-private-key-stealer-on-pypi-downloaded-over-1-000-times/</link>
+        <pubDate>Thu, 06 Mar 2025 12:11:16 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ethereum-private-key-stealer-on-pypi-downloaded-over-1-000-times/</guid>
+	<description><![CDATA[A malicious Python Package Index (PyPI)  package named "set-utils" has been stealing Ethereum private keys through intercepted wallet creation functions and exfiltrating them via the Polygon blockchain. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft 365 apps will prompt users to back up files in OneDrive</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-apps-will-prompt-users-to-back-up-files-in-onedrive/</link>
@@ -178,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/toronto-zoo-shares-update-on-last-years-ransomware-attack/</guid>
 	<description><![CDATA[The Toronto Zoo, the largest zoo in Canada, has provided more information about the data stolen during a ransomware attack in January 2024. [...]]]></description>
- </item>
-
- <item>
-        <title>Fake BianLian ransom notes mailed to US CEOs in postal mail scam</title>
-        <link>https://www.bleepingcomputer.com/news/security/fake-bianlian-ransom-notes-mailed-to-us-ceos-in-postal-mail-scam/</link>
-        <pubDate>Tue, 04 Mar 2025 21:18:20 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fake-bianlian-ransom-notes-mailed-to-us-ceos-in-postal-mail-scam/</guid>
-	<description><![CDATA[Scammers are impersonating the BianLian ransomware gang in fake ransom notes sent to US companies via snail mail through the United States Postal Service. [...]]]></description>
  </item>
 
 </channel>
