@@ -11,11 +11,53 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 06 Mar 2025 10:00:05 EST</pubDate>
+        <pubDate>Thu, 06 Mar 2025 11:02:28 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft 365 apps will prompt users to back up files in OneDrive</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-apps-will-prompt-users-to-back-up-files-in-onedrive/</link>
+        <pubDate>Thu, 06 Mar 2025 10:52:00 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-apps-will-prompt-users-to-back-up-files-in-onedrive/</guid>
+	<description><![CDATA[Starting mid-March 2025, Microsoft will start prompting users of its Microsoft 365 apps for Windows to back up their files to OneDrive. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Over 37,000 VMware ESXi servers vulnerable to ongoing attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/over-37-000-vmware-esxi-servers-vulnerable-to-ongoing-attacks/</link>
+        <pubDate>Thu, 06 Mar 2025 10:39:37 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/over-37-000-vmware-esxi-servers-vulnerable-to-ongoing-attacks/</guid>
+	<description><![CDATA[Over 37,000 internet-exposed VMware ESXi instances are vulnerable to CVE-2025-22224, a critical out-of-bounds write flaw that is actively exploited in the wild. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Free vCISO Course: Turning MSPs and MSSPs into Cybersecurity Powerhouses</title>
+        <link>https://www.bleepingcomputer.com/news/security/free-vciso-course-turning-msps-and-mssps-into-cybersecurity-powerhouses/</link>
+        <pubDate>Thu, 06 Mar 2025 10:02:12 -0500</pubDate>
+        <dc:creator>Sponsored by Cynomi</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/free-vciso-course-turning-msps-and-mssps-into-cybersecurity-powerhouses/</guid>
+	<description><![CDATA[The vCISO Academy is a free learning platform to equip service providers with training needed to build and expand their vCISO offerings. Learn more from Cynomi on how the Academy helps you launch or expand your vCISO services. [...]]]></description>
+ </item>
+
  <item>
         <title>Malicious Chrome extensions can spoof password managers in new attack</title>
         <link>https://www.bleepingcomputer.com/news/security/malicious-chrome-extensions-can-spoof-password-managers-in-new-attack/</link>
@@ -150,34 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fake-bianlian-ransom-notes-mailed-to-us-ceos-in-postal-mail-scam/</guid>
 	<description><![CDATA[Scammers are impersonating the BianLian ransomware gang in fake ransom notes sent to US companies via snail mail through the United States Postal Service. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft Teams tactics, malware connect Black Basta, Cactus ransomware</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-teams-tactics-malware-connect-black-basta-cactus-ransomware/</link>
-        <pubDate>Tue, 04 Mar 2025 17:47:42 -0500</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-teams-tactics-malware-connect-black-basta-cactus-ransomware/</guid>
-	<description><![CDATA[New research has uncovered further links between the Black Basta and Cactus ransomware gangs, with members of both groups utilizing the same social engineering attacks and the BackConnect proxy malware for post-exploitation access to corporate networks. [...]]]></description>
- </item>
-
- <item>
-        <title>New Eleven11bot botnet infects 86,000 devices for DDoS attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-eleven11bot-botnet-infects-86-000-devices-for-ddos-attacks/</link>
-        <pubDate>Tue, 04 Mar 2025 15:10:04 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-eleven11bot-botnet-infects-86-000-devices-for-ddos-attacks/</guid>
-	<description><![CDATA[A new botnet malware named 'Eleven11bot' has infected over 86,000 IoT devices, primarily security cameras and network video recorders (NVRs), to conduct DDoS attacks. [...]]]></description>
  </item>
 
 </channel>
