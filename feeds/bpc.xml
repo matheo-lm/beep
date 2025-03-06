@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 06 Mar 2025 08:59:47 EST</pubDate>
+        <pubDate>Thu, 06 Mar 2025 10:00:05 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Malicious Chrome extensions can spoof password managers in new attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-chrome-extensions-can-spoof-password-managers-in-new-attack/</link>
+        <pubDate>Thu, 06 Mar 2025 09:19:53 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-chrome-extensions-can-spoof-password-managers-in-new-attack/</guid>
+	<description><![CDATA[A newly devised "polymorphic" attack allows malicious Chrome extensions to morph into browser extensions, including password managers, crypto wallets, and banking apps, to steal sensitive information. [...]]]></description>
+ </item>
+
  <item>
         <title>Open-source tool 'Rayhunter' helps users detect Stingray attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/open-source-tool-rayhunter-helps-users-detect-stingray-attacks/</link>
@@ -162,20 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-eleven11bot-botnet-infects-86-000-devices-for-ddos-attacks/</guid>
 	<description><![CDATA[A new botnet malware named 'Eleven11bot' has infected over 86,000 IoT devices, primarily security cameras and network video recorders (NVRs), to conduct DDoS attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Cisco warns of Webex for BroadWorks flaw exposing credentials</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-webex-for-broadworks-flaw-exposing-credentials/</link>
-        <pubDate>Tue, 04 Mar 2025 13:40:08 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisco-warns-of-webex-for-broadworks-flaw-exposing-credentials/</guid>
-	<description><![CDATA[Cisco warned customers today of a vulnerability in Webex for BroadWorks that could let unauthenticated attackers access credentials remotely. [...]]]></description>
  </item>
 
 </channel>
