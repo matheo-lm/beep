@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 07 Mar 2025 08:05:35 EST</pubDate>
+        <pubDate>Fri, 07 Mar 2025 08:58:27 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Data breach at Japanese telecom giant NTT hits 18,000 companies</title>
+        <link>https://www.bleepingcomputer.com/news/security/data-breach-at-japanese-telecom-giant-ntt-hits-18-000-companies/</link>
+        <pubDate>Fri, 07 Mar 2025 08:48:21 -0500</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/data-breach-at-japanese-telecom-giant-ntt-hits-18-000-companies/</guid>
+	<description><![CDATA[Japanese telecommunication services provider NTT Communications Corporation (NTT) is warning almost 18,000 corporate customers that their information was compromised during a cybersecurity incident. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: North Korean hackers join Qilin ransomware gang</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-north-korean-hackers-now-deploying-qilin-ransomware/</link>
@@ -182,22 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/open-source-tool-rayhunter-helps-users-detect-stingray-attacks/</guid>
 	<description><![CDATA[The Electronic Frontier Foundation (EFF) has released a free, open-source tool named Rayhunter that is designed to detect cell-site simulators (CSS), also known as IMSI catchers or Stingrays. [...]]]></description>
- </item>
-
- <item>
-        <title>Silk Typhoon hackers now target IT supply chains to breach networks</title>
-        <link>https://www.bleepingcomputer.com/news/security/silk-typhoon-hackers-now-target-it-supply-chains-to-breach-networks/</link>
-        <pubDate>Wed, 05 Mar 2025 13:18:39 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Cloud]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/silk-typhoon-hackers-now-target-it-supply-chains-to-breach-networks/</guid>
-	<description><![CDATA[Microsoft warns that Chinese cyber-espionage threat group 'Silk Typhoon' has shifted its tactics, now targeting remote management tools and cloud services in supply chain attacks that give them access to downstream customers. [...]]]></description>
  </item>
 
 </channel>
