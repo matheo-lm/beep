@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 07 Mar 2025 13:58:07 EST</pubDate>
+        <pubDate>Fri, 07 Mar 2025 15:02:35 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US seizes $23 million in crypto stolen via password manager breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-seizes-23-million-in-crypto-stolen-via-password-manager-breach/</link>
+        <pubDate>Fri, 07 Mar 2025 14:13:07 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-seizes-23-million-in-crypto-stolen-via-password-manager-breach/</guid>
+	<description><![CDATA[U.S. authorities have seized over $23 million in cryptocurrency linked to the theft of $150 million from a Ripple crypto wallet in January 2024. Investigators believe hackers who breached LastPass in 2022 were behind the attack. [...]]]></description>
+ </item>
+
  <item>
         <title>Unpatched Edimax IP camera flaw actively exploited in botnet attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/unpatched-edimax-ip-camera-flaw-actively-exploited-in-botnet-attacks/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/over-37-000-vmware-esxi-servers-vulnerable-to-ongoing-attacks/</guid>
 	<description><![CDATA[Over 37,000 internet-exposed VMware ESXi instances are vulnerable to CVE-2025-22224, a critical out-of-bounds write flaw that is actively exploited in the wild. [...]]]></description>
- </item>
-
- <item>
-        <title>Free vCISO Course: Turning MSPs and MSSPs into Cybersecurity Powerhouses</title>
-        <link>https://www.bleepingcomputer.com/news/security/free-vciso-course-turning-msps-and-mssps-into-cybersecurity-powerhouses/</link>
-        <pubDate>Thu, 06 Mar 2025 10:02:12 -0500</pubDate>
-        <dc:creator>Sponsored by Cynomi</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/free-vciso-course-turning-msps-and-mssps-into-cybersecurity-powerhouses/</guid>
-	<description><![CDATA[The vCISO Academy is a free learning platform to equip service providers with training needed to build and expand their vCISO offerings. Learn more from Cynomi on how the Academy helps you launch or expand your vCISO services. [...]]]></description>
  </item>
 
 </channel>
