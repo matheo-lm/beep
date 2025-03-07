@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 07 Mar 2025 07:04:36 EST</pubDate>
+        <pubDate>Fri, 07 Mar 2025 08:05:35 EST</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: North Korean hackers join Qilin ransomware gang</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-north-korean-hackers-now-deploying-qilin-ransomware/</link>
+        <pubDate>Fri, 07 Mar 2025 07:10:18 -0500</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-north-korean-hackers-now-deploying-qilin-ransomware/</guid>
+	<description><![CDATA[Microsoft says a North Korean hacking group tracked as Moonstone Sleet has deployed Qilin ransomware payloads in a limited number of attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft says malvertising campaign impacted 1 million PCs</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-says-malvertising-campaign-impacted-1-million-pcs/</link>
@@ -182,20 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/silk-typhoon-hackers-now-target-it-supply-chains-to-breach-networks/</guid>
 	<description><![CDATA[Microsoft warns that Chinese cyber-espionage threat group 'Silk Typhoon' has shifted its tactics, now targeting remote management tools and cloud services in supply chain attacks that give them access to downstream customers. [...]]]></description>
- </item>
-
- <item>
-        <title>US charges Chinese hackers linked to critical infrastructure breaches</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-charges-chinese-hackers-linked-to-critical-infrastructure-breaches/</link>
-        <pubDate>Wed, 05 Mar 2025 12:23:48 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-charges-chinese-hackers-linked-to-critical-infrastructure-breaches/</guid>
-	<description><![CDATA[The US Justice Department has charged Chinese state security officers along with APT27 and i-Soon hackers for network breaches and cyberattacks that have targeted victims globally since 2011. [...]]]></description>
  </item>
 
 </channel>
