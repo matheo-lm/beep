@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Fri, 07 Mar 2025 13:31:02 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 08 Mar 2025 01:20:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,58 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Feds Link $150M Cyberheist to 2022 LastPass Hacks</title>
+		<link>https://krebsonsecurity.com/2025/03/feds-link-150m-cyberheist-to-2022-lastpass-hacks/</link>
+					<comments>https://krebsonsecurity.com/2025/03/feds-link-150m-cyberheist-to-2022-lastpass-hacks/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Sat, 08 Mar 2025 01:20:05 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[Chris Larsen]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[Karim Toubba]]></category>
+		<category><![CDATA[lastpass breach]]></category>
+		<category><![CDATA[Nick Bax]]></category>
+		<category><![CDATA[Ripple]]></category>
+		<category><![CDATA[Taylor Monahan]]></category>
+		<category><![CDATA[U.S. Secret Service]]></category>
+		<category><![CDATA[ZachXBT]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70634</guid>
+
+					<description><![CDATA[In September 2023, KrebsOnSecurity published findings from security researchers who concluded that a series of six-figure cyberheists across dozens of victims resulted from thieves cracking master passwords stolen from the password manager service LastPass in 2022. In a court filing this week, U.S. federal agents investigating a spectacular $150 million cryptocurrency heist said they had reached the same conclusion.]]></description>
+										<content:encoded><![CDATA[<p>In September 2023, KrebsOnSecurity published findings from security researchers who concluded that a series of six-figure cyberheists across dozens of victims resulted from thieves cracking master passwords stolen from the password manager service <strong>LastPass</strong> in 2022. In a court filing this week, U.S. federal agents investigating a spectacular $150 million cryptocurrency heist said they had reached the same conclusion.</p>
+<p><img decoding="async" class="aligncenter size-medium wp-image-31264" src="https://krebsonsecurity.com/wp-content/uploads/2015/06/lastpass-580x132.png" alt="" width="580" height="132" srcset="https://krebsonsecurity.com/wp-content/uploads/2015/06/lastpass-580x132.png 580w, https://krebsonsecurity.com/wp-content/uploads/2015/06/lastpass.png 808w" sizes="(max-width: 580px) 100vw, 580px" /></p>
+<p>On March 6, federal prosecutors in northern California said they seized approximately $24 million worth of cryptocurrencies that were clawed back following a $150 million cyberheist on Jan. 30, 2024. The complaint refers to the person robbed only as &#8220;Victim-1,&#8221; but according to blockchain security research <strong>ZachXBT</strong> the theft was perpetrated against <strong>Chris Larsen</strong>, the co-founder of the cryptocurrency platform <strong>Ripple</strong>.</p>
+<p>ZachXBT was the <a href="https://x.com/zachxbt/status/1752694489905528943" target="_blank" rel="noopener">first to report on the heist</a>, of which approximately $24 million was frozen by the feds before it could be withdrawn. This week&#8217;s action by the government merely allows investigators to officially seize the frozen funds.</p>
+<p>But there is an important conclusion in this seizure document: It basically says the <strong>U.S. Secret Service</strong> and the <strong>FBI</strong> agree with the findings of <a href="https://krebsonsecurity.com/2023/09/experts-fear-crooks-are-cracking-keys-stolen-in-lastpass-breach/" target="_blank" rel="noopener">the LastPass breach story published here in September 2023</a>. That piece quoted security researchers who said they were witnessing six-figure crypto heists several times each month that they believed all appeared to be the result of crooks cracking master passwords for the password vaults stolen from LastPass in 2022.</p>
+<p>&#8220;The Federal Bureau of Investigation has been investigating these data breaches, and law enforcement agents investigating the instant case have spoken with FBI agents about their investigation,&#8221; reads the seizure complaint, which was written by a U.S. Secret Service agent. &#8220;From those conversations, law enforcement agents in this case learned that the stolen data and passwords that were stored in several victims’ online password manager accounts were used to illegally, and without authorization, access the victims’ electronic accounts and steal information, cryptocurrency, and other data.&#8221;</p>
+<p>The document continues:</p>
+<p>&#8220;Based on this investigation, law enforcement had probable cause to believe the same attackers behind the above-described commercial online password manager attack used a stolen password held in Victim 1’s online password manager account and, without authorization, accessed his cryptocurrency wallet/account.&#8221;</p>
+<p>Working with dozens of victims, security researchers <strong>Nick Bax</strong> and <strong>Taylor Monahan</strong> found that none of the six-figure cyberheist victims appeared to have suffered the sorts of attacks that typically preface a high-dollar crypto theft, such as the compromise of one’s email and/or mobile phone accounts, or SIM-swapping attacks.</p>
+<p>They discovered the victims all had something else in common: Each had at one point stored their cryptocurrency seed phrase &#8212; the secret code that lets anyone gain access to your cryptocurrency holdings &#8212; in the &#8220;Secure Notes&#8221; area of their LastPass account prior to the 2022 breaches at the company.</p>
+<p>Bax and Monahan found another common theme with these robberies: They all followed a similar pattern of cashing out, rapidly moving stolen funds to a dizzying number of drop accounts scattered across various cryptocurrency exchanges.</p>
+<p>According to the government, a similar level of complexity was present in the $150 million heist against the Ripple co-founder last year.</p>
+<p>&#8220;The scale of a theft and rapid dissipation of funds would have required the efforts of multiple malicious actors, and was consistent with the online password manager breaches and attack on other victims whose cryptocurrency was stolen,&#8221; the government wrote. &#8220;For these reasons, law enforcement agents believe the cryptocurrency stolen from Victim 1 was committed by the same attackers who conducted the attack on the online password manager, and cryptocurrency thefts from other similarly situated victims.&#8221;</p>
+<p>Reached for comment, LastPass said it has seen no definitive proof &#8212; from federal investigators or others &#8212; that the cyberheists in question were linked to the LastPass breaches.</p>
+<p>&#8220;Since we initially disclosed this incident back in 2022, LastPass has worked in close cooperation with multiple representatives from law enforcement,&#8221; LastPass said in a written statement. &#8220;To date, our law enforcement partners have not made us aware of any conclusive evidence that connects any crypto thefts to our incident. In the meantime, we have been investing heavily in enhancing our security measures and will continue to do so.&#8221;<span id="more-70634"></span></p>
+<p>On August 25, 2022, <strong>LastPass CEO Karim Toubba</strong> told users the company had detected unusual activity in its software development environment, and that the intruders stole some source code and proprietary LastPass technical information. On Sept. 15, 2022, LastPass said an investigation into the August breach determined the attacker did not access any customer data or password vaults.</p>
+<p>But on Nov. 30, 2022, LastPass notified customers about another, far more serious security incident that the company said leveraged data stolen in the August breach. LastPass disclosed that criminal hackers had compromised encrypted copies of some password vaults, as well as other personal information.</p>
+<p>Experts say the breach would have given thieves &#8220;offline&#8221; access to encrypted password vaults, theoretically allowing them all the time in the world to try to crack some of the weaker master passwords using powerful systems that can attempt millions of password guesses per second.</p>
+<p>Researchers found that many of the cyberheist victims had chosen master passwords with relatively low complexity, and were among LastPass&#8217;s oldest customers. That&#8217;s because legacy LastPass users were more likely to have master passwords that were protected with far fewer &#8220;iterations,&#8221; which refers to the number of times your password is run through the company&#8217;s encryption routines. In general, the more iterations, the longer it takes an offline attacker to crack your master password.</p>
+<p>Over the years, LastPass forced new users to pick longer and more complex master passwords, and they increased the number of iterations on multiple occasions by several orders of magnitude. But researchers found strong indications that LastPass never succeeded in upgrading many of its older customers to the newer password requirements and protections.</p>
+<p>Asked about LastPass&#8217;s continuing denials, Bax said that after the initial warning in our 2023 story, he naively hoped people would migrate their funds to new cryptocurrency wallets.</p>
+<p>&#8220;While some did, the continued thefts underscore how much more needs to be done,&#8221; Bax told KrebsOnSecurity. &#8220;It&#8217;s validating to see the Secret Service and FBI corroborate our findings, but I’d much rather see fewer of these hacks in the first place. ZachXBT and <a href="https://x.com/_SEAL_Org/status/1868805837311074576" target="_blank" rel="noopener">SEAL 911 reported yet another wave of thefts</a> as recently as December, showing the threat is still very real.&#8221;</p>
+<p>Monahan said LastPass still hasn’t alerted their customers that their secrets—especially those stored in “Secure Notes”—may be at risk.</p>
+<p>&#8220;Its been two and a half years since LastPass was first breached [and] hundreds of millions of dollars has been stolen from individuals and companies around the globe,&#8221; Monahan said. &#8220;They could have encouraged users to rotate their credentials. They could’ve prevented millions and millions of dollars from being stolen by these threat actors. But  instead they chose to deny that their customers were are risk and blame the victims instead.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/03/feds-link-150m-cyberheist-to-2022-lastpass-hacks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Who is the DOGE and X Technician Branden Spikes?</title>
 		<link>https://krebsonsecurity.com/2025/03/who-is-the-doge-and-x-technician-branden-spikes/</link>
 					<comments>https://krebsonsecurity.com/2025/03/who-is-the-doge-and-x-technician-branden-spikes/#comments</comments>
@@ -55,7 +107,7 @@
 
 					<description><![CDATA[At 49, Branden Spikes isn't just one of the oldest technologists who has been involved in Elon Musk's Department of Government Efficiency (DOGE). As the current director of information technology at X/Twitter and an early hire at PayPal, Zip2, Tesla and SpaceX, Spikes is also among Musk's most loyal employees. Here's a closer look at this trusted Musk lieutenant, whose Russian ex-wife was once married to Elon's cousin.]]></description>
 										<content:encoded><![CDATA[<p>At 49, <strong>Branden Spikes</strong> isn&#8217;t just one of the oldest technologists who has been involved in Elon Musk&#8217;s <strong>Department of Government Efficiency</strong> (DOGE). As the current director of information technology at <strong>X/Twitter</strong> and an early hire at <strong>PayPal</strong>, <strong>Zip2</strong>,<strong> Tesla</strong> and <strong>SpaceX</strong>, Spikes is also among Musk&#8217;s most loyal employees. Here&#8217;s a closer look at this trusted Musk lieutenant, whose Russian ex-wife was once married to Elon&#8217;s cousin.</p>
-<div id="attachment_70586" style="width: 601px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70586" decoding="async" class="size-full wp-image-70586" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/x-spikes.png" alt="" width="591" height="533" /><p id="caption-attachment-70586" class="wp-caption-text">The profile of Branden Spikes on X.</p></div>
+<div id="attachment_70586" style="width: 601px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70586" decoding="async" loading="lazy" class="size-full wp-image-70586" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/x-spikes.png" alt="" width="591" height="533" /><p id="caption-attachment-70586" class="wp-caption-text">The profile of Branden Spikes on X.</p></div>
 <p>When President Trump took office again in January, he put the world&#8217;s richest man &#8212; Elon Musk &#8212; in charge of the <strong>U.S. Digital Service</strong>, and renamed the organization as DOGE. The group is reportedly staffed by <a href="https://www.nytimes.com/interactive/2025/02/27/us/politics/doge-staff-list.html" target="_blank" rel="noopener">at least 50 technologists</a>, many of whom have ties to Musk&#8217;s companies.</p>
 <p>DOGE has been enabling the president&#8217;s ongoing mass layoffs and firings of federal workers, largely by seizing control over computer systems and government data for a multitude of federal agencies, including the Social Security Administration, the Department of Homeland Security, the Office of Personnel Management, and the Treasury Department.</p>
 <p>It is difficult to find another person connected to DOGE who has stronger ties to Musk than Branden Spikes. A native of California, Spikes initially teamed up with Musk in 1997 as a lead systems engineer for the software company Zip2, the first major venture for Musk. In 1999, Spikes was hired as director of IT at PayPal, and in 2002 he became just the fourth person hired at SpaceX.</p>
@@ -732,74 +784,15 @@ tsarinahome.com</p>
 		
 		
 			</item>
-		<item>
-		<title>Who&#8217;s Behind the Seized Forums &#8216;Cracked&#8217; &#038; &#8216;Nulled&#8217;?</title>
-		<link>https://krebsonsecurity.com/2025/02/whos-behind-the-seized-forums-cracked-nulled/</link>
-					<comments>https://krebsonsecurity.com/2025/02/whos-behind-the-seized-forums-cracked-nulled/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Tue, 04 Feb 2025 17:09:16 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Breadcrumbs]]></category>
-		<category><![CDATA[1337 Services Gmbh]]></category>
-		<category><![CDATA[AS210558]]></category>
-		<category><![CDATA[Constella Intelligence]]></category>
-		<category><![CDATA[Cracked]]></category>
-		<category><![CDATA[domaintools]]></category>
-		<category><![CDATA[DreamDrive GmbH]]></category>
-		<category><![CDATA[Finn Alexander Grimpe]]></category>
-		<category><![CDATA[finn@shoppy.gg]]></category>
-		<category><![CDATA[finndev]]></category>
-		<category><![CDATA[floriaN]]></category>
-		<category><![CDATA[Florian Marzahl]]></category>
-		<category><![CDATA[HRB 164175]]></category>
-		<category><![CDATA[Intel 471]]></category>
-		<category><![CDATA[Lucas Sohn]]></category>
-		<category><![CDATA[Northdata.com]]></category>
-		<category><![CDATA[Nulled]]></category>
-		<category><![CDATA[olivia.messla@outlook.de]]></category>
-		<category><![CDATA[Operation Talent]]></category>
-		<category><![CDATA[Sellix]]></category>
-		<category><![CDATA[Shoppy Ecommerce Ltd]]></category>
-		<category><![CDATA[StarkRDP]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70279</guid>
-
-					<description><![CDATA[The FBI joined authorities across Europe last week in seizing domain names for Cracked and Nulled, English-language cybercrime forums with millions of users that trafficked in stolen data, hacking tools and malware. An investigation into the history of these communities shows their apparent co-founders quite openly operate an Internet service provider and a pair of e-commerce platforms catering to buyers and sellers on both forums.]]></description>
-										<content:encoded><![CDATA[<p>The <strong>FBI</strong> joined authorities across Europe last week in seizing domain names for <strong>Cracked</strong> and <strong>Nulled</strong>, English-language cybercrime forums with millions of users that trafficked in stolen data, hacking tools and malware. An investigation into the history of these communities shows their apparent co-founders quite openly operate an Internet service provider and a pair of e-commerce platforms catering to buyers and sellers on both forums.</p>
-<div id="attachment_70283" style="width: 755px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70283" decoding="async" loading="lazy" class=" wp-image-70283" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/cracked-to.png" alt="" width="745" height="774" /><p id="caption-attachment-70283" class="wp-caption-text">In this 2019 post from Cracked, a forum moderator told the author of the post (Buddie) that the owner of the RDP service was the founder of Nulled, a.k.a. &#8220;Finndev.&#8221; Image: Ke-la.com.</p></div>
-<p>On Jan. 30, the <strong>U.S. Department of Justice</strong> <a href="https://www.justice.gov/opa/pr/cracked-and-nulled-marketplaces-disrupted-international-cyber-operation" target="_blank" rel="noopener">said</a> it seized eight domain names that were used to operate Cracked, a cybercrime forum that sprang up in 2018 and attracted more than four million users. The DOJ said the law enforcement action, dubbed <a href="https://www.europol.europa.eu/media-press/newsroom/news/law-enforcement-takes-down-two-largest-cybercrime-forums-in-world" target="_blank" rel="noopener">Operation Talent</a>, also seized domains tied to <strong>Sellix</strong>, Cracked&#8217;s payment processor.</p>
-<p>In addition, the government seized the domain names for two popular anonymity services that were heavily advertised on Cracked and Nulled and allowed customers to rent virtual servers: <a href="https://web.archive.org/web/20210924052821/https://starkrdp.io/imprint.php" target="_blank" rel="noopener">StarkRDP[.]io</a>, and <a href="https://web.archive.org/web/20210306133432/https://rdp.sh/imprint" target="_blank" rel="noopener">rdp[.]sh</a>.</p>
-<p>Those archived webpages show both RDP services were owned by an entity called <strong>1337 Services Gmbh</strong>. According to <a href="https://www.northdata.com/1337%20Services%20GmbH,%20Hamburg/HRB%20164175" target="_blank" rel="noopener">corporate records</a> compiled by <strong>Northdata.com</strong>, 1337 Services GmbH is also known as <a href="https://web.archive.org/web/20211215172634/https://as210558.net/" target="_blank" rel="noopener"><strong>AS210558</strong></a> and is incorporated in Hamburg, Germany.</p>
-<p>The Cracked forum administrator went by the nicknames &#8220;<strong>FlorainN</strong>&#8221; and &#8220;<strong>StarkRDP</strong>&#8221; on multiple cybercrime forums. Meanwhile, a <a href="https://www.linkedin.com/in/florian-m-095a0183/" target="_blank" rel="noopener">LinkedIn profile</a> for a <strong>Florian M</strong>. from Germany refers to this person as the co-founder of Sellix and founder of 1337 Services GmbH.</p>
-<p>Northdata&#8217;s business profile for 1337 Services GmbH shows the company is controlled by two individuals: 32-year-old <strong>Florian Marzahl</strong> and <strong>Finn Alexander Grimpe</strong>, 28.</p>
-<div id="attachment_70281" style="width: 759px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-70281" decoding="async" loading="lazy" class="wp-image-70281" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH.png" alt="" width="749" height="312" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH.png 2234w, https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH-768x320.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH-1536x639.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH-2048x853.png 2048w, https://krebsonsecurity.com/wp-content/uploads/2025/02/1337servicesGmbH-782x326.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></a><p id="caption-attachment-70281" class="wp-caption-text">An organization chart showing the owners of 1337 Services GmbH as Florian Marzahl and Finn Grimpe. Image: Northdata.com.</p></div>
-<p>Neither Marzahl nor Grimpe responded to requests for comment. But Grimpe&#8217;s first name is interesting because it corresponds to the nickname chosen by the founder of Nulled, who goes by the monikers &#8220;<a href="https://web.archive.org/web/20150224213016/http://www.finn.lu/" target="_blank" rel="noopener">Finn</a>&#8221; and &#8220;<a href="https://github.com/finndev" target="_blank" rel="noopener">Finndev</a>.&#8221; NorthData reveals that Grimpe was the founder of a German entity called <strong>DreamDrive GmbH</strong>, which rented out <a href="https://web.archive.org/web/20210627121102/https://dreamdrive-rent.de/" target="_blank" rel="noopener">high-end sports cars and motorcycles</a>.</p>
-<p>According to the cyber intelligence firm <a href="https://www.intel471.com" target="_blank" rel="noopener">Intel 471</a>, a user named Finndev registered on multiple cybercrime forums, including <strong>Raidforums</strong> [<a href="https://krebsonsecurity.com/2022/04/raidforums-get-raided-alleged-admin-arrested/" target="_blank" rel="noopener">seized by the FBI in 2022</a>], <strong>Void[.]to</strong>, and <strong>vDOS</strong>, a DDoS-for-hire service that was <a href="https://krebsonsecurity.com/2016/09/alleged-vdos-proprietors-arrested-in-israel/" target="_blank" rel="noopener">shut down in 2016 after its founders were arrested</a>.</p>
-<p>The email address used for those accounts was <strong>f.grimpe@gmail.com</strong>. <a href="https://www.domaintools.com" target="_blank" rel="noopener">DomainTools.com</a> reports f.grimpe@gmail.com was used to register at least nine domain names, including <strong>nulled[.]lol</strong> and <strong>nulled[.]it</strong>. Neither of these domains were among those seized in Operation Talent.</p>
-<p>Intel471 finds the user FlorainN registered across multiple cybercrime forums using the email address <strong>olivia.messla@outlook.de</strong>. The breach tracking service <a href="https://www.constella.ai" target="_blank" rel="noopener">Constella Intelligence</a> says this email address used the same password (and slight variations of it) across many accounts online &#8212; including at hacker forums &#8212; and that the same password was used in connection with dozens of other email addresses, such as <strong>florianmarzahl@hotmail.de, </strong>and <strong>fmarzahl137@gmail.com</strong>.<span id="more-70279"></span></p>
-<p>The Justice Department said the Nulled marketplace had more than five million members, and has been selling stolen login credentials, stolen identification documents and hacking services, as well as tools for carrying out cybercrime and fraud, since 2016.</p>
-<p>Perhaps fittingly, both Cracked and Nulled have been hacked over the years, exposing countless private messages between forum users. A review of those messages archived by Intel 471 showed that dozens of early forum members referred privately to Finndev as the owner of <strong>shoppy[.]gg</strong>, an e-commerce platform that caters to the same clientele as Sellix.</p>
-<p>Shoppy was not targeted as part of Operation Talent, and its website remains online. Northdata <a href="https://www.northdata.com/Shoppy%20Ecommerce%20Ltd%C2%B7,%20Gan-Ner/ICA-515912517" target="_blank" rel="noopener">reports</a> that Shoppy&#8217;s business name &#8212; <strong>Shoppy Ecommerce Ltd.</strong> &#8212; is registered at an address in Gan-Ner, Israel, but there is no ownership information about this entity. Shoppy did not respond to requests for comment.</p>
-<p>Constella found that a user named Shoppy registered on Cracked in 2019 using the email address <strong>finn@shoppy[.]gg</strong>. Constella says that email address is tied to <a href="https://x.com/shoppyecommerce" target="_blank" rel="noopener">a Twitter/X account</a> for Shoppy Ecommerce in Israel.</p>
-<p>The DOJ said one of the alleged administrators of Nulled, a 29-year-old Argentinian national named <strong>Lucas Sohn</strong>, was arrested in Spain. The government has not announced any other arrests or charges associated with Operation Talent.</p>
-<p>Indeed, both StarkRDP and FloraiN have posted to their accounts on <strong>Telegram</strong> that there were no charges levied against the proprietors of 1337 Services GmbH. FlorainN told former customers they were in the process of moving to a new name and domain for StarkRDP, where existing accounts and balances would be transferred.</p>
-<p>&#8220;StarkRDP has always been operating by the law and is not involved in any of these alleged crimes and the legal process will confirm this,&#8221; the StarkRDP Telegram account wrote on January 30. &#8220;All of your servers are safe and they have not been collected in this operation. The only things that were seized is the website server and our domain. Unfortunately, no one can tell who took it and with whom we can talk about it. Therefore, we will restart operation soon, under a different name, to close the chapter [of] &#8216;StarkRDP.'&#8221;</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/02/whos-behind-the-seized-forums-cracked-nulled/feed/</wfw:commentRss>
-			<slash:comments>16</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 294/294 objects using memcached
+Object Caching 280/280 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-03-07 19:05:12 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-03-07 20:25:03 by W3 Total Cache
 -->
