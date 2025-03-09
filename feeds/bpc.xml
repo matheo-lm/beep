@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 09 Mar 2025 13:00:27 EDT</pubDate>
+        <pubDate>Sun, 09 Mar 2025 14:01:45 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US cities warn of wave of unpaid parking phishing texts</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/</link>
+        <pubDate>Sun, 09 Mar 2025 11:20:31 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/</guid>
+	<description><![CDATA[US cities are warning of an ongoing mobile phishing campaign pretending to be texts from the city's parking violation departments about unpaid parking invoices, that if unpaid, will incur an additional $35 fine per day. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New Chirp tool uses audio tones to transfer data between devices</title>
+        <link>https://www.bleepingcomputer.com/news/software/new-chirp-tool-uses-audio-tones-to-transfer-data-between-devices/</link>
+        <pubDate>Sun, 09 Mar 2025 10:14:24 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/software/new-chirp-tool-uses-audio-tones-to-transfer-data-between-devices/</guid>
+	<description><![CDATA[A new open-source tool named 'Chirp' transmits data, such as text messages, between computers (and smartphones) through different audio tones. [...]]]></description>
+ </item>
+
  <item>
         <title>Developer guilty of using kill switch to sabotage employer's systems</title>
         <link>https://www.bleepingcomputer.com/news/security/developer-guilty-of-using-kill-switch-to-sabotage-employers-systems/</link>
@@ -162,36 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-says-malvertising-campaign-impacted-1-million-pcs/</guid>
 	<description><![CDATA[​Microsoft has taken down an undisclosed number of GitHub repositories used in a massive malvertising campaign that impacted almost one million devices worldwide. [...]]]></description>
- </item>
-
- <item>
-        <title>Ransomware gang encrypted network from a webcam to bypass EDR</title>
-        <link>https://www.bleepingcomputer.com/news/security/ransomware-gang-encrypted-network-from-a-webcam-to-bypass-edr/</link>
-        <pubDate>Thu, 06 Mar 2025 15:31:35 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ransomware-gang-encrypted-network-from-a-webcam-to-bypass-edr/</guid>
-	<description><![CDATA[The Akira ransomware gang was spotted using an unsecured webcam to launch encryption attacks on a victim's network, effectively circumventing Endpoint Detection and Response (EDR), which was blocking the encryptor in Windows. [...]]]></description>
- </item>
-
- <item>
-        <title>US seizes domain of Garantex crypto exchange used by ransomware gangs</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-seizes-domain-of-garantex-crypto-exchange-used-by-ransomware-gangs/</link>
-        <pubDate>Thu, 06 Mar 2025 14:07:53 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-seizes-domain-of-garantex-crypto-exchange-used-by-ransomware-gangs/</guid>
-	<description><![CDATA[The U.S. Secret Service has seized the domain of the sanctioned Russian cryptocurrency exchange Garantex in collaboration with the Department of Justice's Criminal Division, the FBI, and Europol. [...]]]></description>
  </item>
 
 </channel>
