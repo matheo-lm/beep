@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description></description>
-	<lastBuildDate>Sat, 08 Mar 2025 13:31:34 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 09 Mar 2025 15:48:03 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,24 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Akira ransomware gang used an unsecured webcam to bypass EDR</title>
+		<link>https://databreaches.net/2025/03/09/akira-ransomware-gang-used-an-unsecured-webcam-to-bypass-edr/</link>
+					<comments>https://databreaches.net/2025/03/09/akira-ransomware-gang-used-an-unsecured-webcam-to-bypass-edr/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Sun, 09 Mar 2025 15:48:03 +0000</pubDate>
+				<category><![CDATA[Commentaries and Analyses]]></category>
+		<category><![CDATA[Malware]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=120842</guid>
+
+					<description><![CDATA[The Akira ransomware gang exploited an unsecured webcam to bypass EDR and launch encryption attacks on a victim’s network. Pierluigi Paganini reports: Cybersecurity researchers at S-RM team discovered a novel attack technique used by the Akira ransomware gang. The ransomware group used an unsecured webcam to encrypt systems within a target’s network, bypassing Endpoint Detection...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/03/09/akira-ransomware-gang-used-an-unsecured-webcam-to-bypass-edr/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>SSK Plastic Surgery discloses it experienced a hack and extortion attempt in 2024</title>
 		<link>https://databreaches.net/2025/03/08/ssk-plastic-surgery-discloses-it-experienced-a-hack-and-extortion-attempt-in-2024/</link>
 					<comments>https://databreaches.net/2025/03/08/ssk-plastic-surgery-discloses-it-experienced-a-hack-and-extortion-attempt-in-2024/#respond</comments>
@@ -184,24 +202,6 @@
 					<description><![CDATA[Chinese Law Enforcement and Intelligence Services Leveraged China’s Reckless and Indiscriminate Hacker-for-Hire Ecosystem, Including the ‘APT 27’ Group, to Suppress Free Speech and Dissent Globally and to Steal Data from Numerous Organizations Worldwide Note: View the indictments in U.S. v. Wu Haibo et al., U.S. v. Yin Kecheng, U.S. v. Zhou Shuai et al. here. The Justice Department, FBI, Naval...]]></description>
 		
 					<wfw:commentRss>https://databreaches.net/2025/03/06/justice-department-charges-12-chinese-contract-hackers-and-law-enforcement-officers-in-global-computer-intrusion-campaigns/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>NHS investigates API flaw that exposed patient data</title>
-		<link>https://databreaches.net/2025/03/06/nhs-investigates-api-flaw-that-exposed-patient-data/</link>
-					<comments>https://databreaches.net/2025/03/06/nhs-investigates-api-flaw-that-exposed-patient-data/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Thu, 06 Mar 2025 11:31:56 +0000</pubDate>
-				<category><![CDATA[Health Data]]></category>
-		<category><![CDATA[Non-U.S.]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=120815</guid>
-
-					<description><![CDATA[Teiss reports: The National Health Service (NHS) is investigating claims that an application programming interface (API) vulnerability at private healthcare provider Medefer left patient data exposed. The issue, initially raised by an IT whistleblower, has prompted scrutiny from the NHS, which has stated it will take further action if necessary. Medefer, a virtual healthcare provider...]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/03/06/nhs-investigates-api-flaw-that-exposed-patient-data/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
