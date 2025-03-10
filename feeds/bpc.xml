@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 10 Mar 2025 14:03:06 EDT</pubDate>
+        <pubDate>Mon, 10 Mar 2025 15:02:45 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft shares guidance on upcoming Publisher deprecation</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-guidance-on-upcoming-publisher-deprecation/</link>
+        <pubDate>Mon, 10 Mar 2025 14:15:37 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-guidance-on-upcoming-publisher-deprecation/</guid>
+	<description><![CDATA[Microsoft has published guidance for users of Microsoft Publisher as it will no longer be supported after October 2026 and removed from Microsoft 365. [...]]]></description>
+ </item>
+
  <item>
         <title>FTC will send $25.5 million to victims of tech support scams</title>
         <link>https://www.bleepingcomputer.com/news/security/ftc-will-send-255-million-to-victims-of-tech-support-scams/</link>
@@ -174,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-seizes-23-million-in-crypto-stolen-via-password-manager-breach/</guid>
 	<description><![CDATA[U.S. authorities have seized over $23 million in cryptocurrency linked to the theft of $150 million from a Ripple crypto wallet in January 2024. Investigators believe hackers who breached LastPass in 2022 were behind the attack. [...]]]></description>
- </item>
-
- <item>
-        <title>Unpatched Edimax IP camera flaw actively exploited in botnet attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/unpatched-edimax-ip-camera-flaw-actively-exploited-in-botnet-attacks/</link>
-        <pubDate>Fri, 07 Mar 2025 13:36:48 -0500</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/unpatched-edimax-ip-camera-flaw-actively-exploited-in-botnet-attacks/</guid>
-	<description><![CDATA[A critical command injection vulnerability impacting the Edimax IC-7100 IP camera is currently being exploited by botnet malware to compromise devices. [...]]]></description>
  </item>
 
 </channel>
