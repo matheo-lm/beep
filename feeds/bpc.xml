@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 10 Mar 2025 08:01:52 EDT</pubDate>
+        <pubDate>Mon, 10 Mar 2025 09:07:17 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft lifts Windows 11 update block for some AutoCAD users</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-update-block-for-some-autocad-users/</link>
+        <pubDate>Mon, 10 Mar 2025 09:02:12 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-update-block-for-some-autocad-users/</guid>
+	<description><![CDATA[Microsoft has removed a compatibility hold that prevented some AutoCAD users from installing the Windows 11 2024 Update due to launch and crash issues. [...]]]></description>
+ </item>
+
  <item>
         <title>US cities warn of wave of unpaid parking phishing texts</title>
         <link>https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/</link>
@@ -158,38 +172,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/data-breach-at-japanese-telecom-giant-ntt-hits-18-000-companies/</guid>
 	<description><![CDATA[Japanese telecommunication services provider NTT Communications Corporation (NTT) is warning almost 18,000 corporate customers that their information was compromised during a cybersecurity incident. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: North Korean hackers join Qilin ransomware gang</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-north-korean-hackers-now-deploying-qilin-ransomware/</link>
-        <pubDate>Fri, 07 Mar 2025 07:10:18 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-north-korean-hackers-now-deploying-qilin-ransomware/</guid>
-	<description><![CDATA[Microsoft says a North Korean hacking group tracked as Moonstone Sleet has deployed Qilin ransomware payloads in a limited number of attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft says malvertising campaign impacted 1 million PCs</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-says-malvertising-campaign-impacted-1-million-pcs/</link>
-        <pubDate>Thu, 06 Mar 2025 15:53:36 -0500</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-says-malvertising-campaign-impacted-1-million-pcs/</guid>
-	<description><![CDATA[​Microsoft has taken down an undisclosed number of GitHub repositories used in a massive malvertising campaign that impacted almost one million devices worldwide. [...]]]></description>
  </item>
 
 </channel>
