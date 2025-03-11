@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 11 Mar 2025 14:00:24 EDT</pubDate>
+        <pubDate>Tue, 11 Mar 2025 15:01:46 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Apple fixes WebKit zero-day exploited in ‘extremely sophisticated’ attacks</title>
+        <link>https://www.bleepingcomputer.com/news/apple/apple-fixes-webkit-zero-day-exploited-in-extremely-sophisticated-attacks/</link>
+        <pubDate>Tue, 11 Mar 2025 14:43:35 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Apple]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/apple/apple-fixes-webkit-zero-day-exploited-in-extremely-sophisticated-attacks/</guid>
+	<description><![CDATA[Apple has released emergency security updates to patch a zero-day bug the company describes as exploited in "extremely sophisticated" attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 10 KB5053606 update fixes broken SSH connections</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5053606-update-fixes-broken-ssh-connections/</link>
+        <pubDate>Tue, 11 Mar 2025 14:31:32 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5053606-update-fixes-broken-ssh-connections/</guid>
+	<description><![CDATA[Microsoft has released the KB5053606 cumulative update for Windows 10 22H2 and Windows 10 21H2, which fixes numerous bugs, including one preventing SSH connections. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft March 2025 Patch Tuesday fixes 7 zero-days, 57 flaws</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2025-patch-tuesday-fixes-7-zero-days-57-flaws/</link>
@@ -178,50 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-guidance-on-upcoming-publisher-deprecation/</guid>
 	<description><![CDATA[Microsoft has published guidance for users of Microsoft Publisher as it will no longer be supported after October 2026 and removed from Microsoft 365. [...]]]></description>
- </item>
-
- <item>
-        <title>FTC will send $25.5 million to victims of tech support scams</title>
-        <link>https://www.bleepingcomputer.com/news/security/ftc-will-send-255-million-to-victims-of-tech-support-scams/</link>
-        <pubDate>Mon, 10 Mar 2025 12:58:36 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ftc-will-send-255-million-to-victims-of-tech-support-scams/</guid>
-	<description><![CDATA[​Later this week, the Federal Trade Commission (FTC) will start distributing over $25.5 million in refunds to those misled by tech support companies Restoro and Reimage's scare tactics. [...]]]></description>
- </item>
-
- <item>
-        <title>Swiss critical sector faces new 24-hour cyberattack reporting rule</title>
-        <link>https://www.bleepingcomputer.com/news/security/swiss-critical-sector-faces-new-24-hour-cyberattack-reporting-rule/</link>
-        <pubDate>Mon, 10 Mar 2025 11:47:26 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/swiss-critical-sector-faces-new-24-hour-cyberattack-reporting-rule/</guid>
-	<description><![CDATA[Switzerland's National Cybersecurity Centre (NCSC) has announced a new reporting obligation for critical infrastructure organizations in the country, requiring them to report cyberattacks to the agency within 24 hours of their discovery. [...]]]></description>
- </item>
-
- <item>
-        <title>Google paid $12 million in bug bounties last year to security researchers</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-paid-12-million-in-bug-bounties-last-year-to-security-researchers/</link>
-        <pubDate>Mon, 10 Mar 2025 11:36:01 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-paid-12-million-in-bug-bounties-last-year-to-security-researchers/</guid>
-	<description><![CDATA[Google paid almost $12 million in bug bounty rewards to 660 security researchers who reported security bugs through the company's Vulnerability Reward Program (VRP) in 2024. [...]]]></description>
  </item>
 
 </channel>
