@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 11 Mar 2025 12:00:03 EDT</pubDate>
+        <pubDate>Tue, 11 Mar 2025 13:03:05 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft replacing Remote Desktop app with Windows App in May</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-replacing-remote-desktop-app-with-windows-app-in-may/</link>
+        <pubDate>Tue, 11 Mar 2025 12:27:53 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-replacing-remote-desktop-app-with-windows-app-in-may/</guid>
+	<description><![CDATA[Microsoft announced that it will drop support for the Remote Desktop app (available via the Microsoft Store) on May 27 and replace it with its new Windows App. [...]]]></description>
+ </item>
+
+ <item>
+        <title>MassJacker malware uses 778,000 wallets to steal cryptocurrency</title>
+        <link>https://www.bleepingcomputer.com/news/security/massjacker-malware-uses-778-000-wallets-to-steal-cryptocurrency/</link>
+        <pubDate>Tue, 11 Mar 2025 12:06:36 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/massjacker-malware-uses-778-000-wallets-to-steal-cryptocurrency/</guid>
+	<description><![CDATA[A newly discovered clipboard hijacking operation dubbed 'MassJacker' uses at least 778,531 cryptocurrency wallet addresses to steal digital assets from compromised computers. [...]]]></description>
+ </item>
+
  <item>
         <title>Critical PHP RCE vulnerability mass exploited in new attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/critical-php-rce-vulnerability-mass-exploited-in-new-attacks/</link>
@@ -188,20 +218,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-update-block-for-some-autocad-users/</guid>
 	<description><![CDATA[Microsoft has removed a compatibility hold that prevented some AutoCAD users from installing the Windows 11 2024 Update due to launch and crash issues. [...]]]></description>
- </item>
-
- <item>
-        <title>US cities warn of wave of unpaid parking phishing texts</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/</link>
-        <pubDate>Sun, 09 Mar 2025 11:20:31 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/</guid>
-	<description><![CDATA[US cities are warning of an ongoing mobile phishing campaign pretending to be texts from the city's parking violation departments about unpaid parking invoices, that if unpaid, will incur an additional $35 fine per day. [...]]]></description>
  </item>
 
 </channel>
