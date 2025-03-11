@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 11 Mar 2025 10:03:02 EDT</pubDate>
+        <pubDate>Tue, 11 Mar 2025 10:59:41 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Critical PHP RCE vulnerability mass exploited in new attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/critical-php-rce-vulnerability-mass-exploited-in-new-attacks/</link>
+        <pubDate>Tue, 11 Mar 2025 10:26:58 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critical-php-rce-vulnerability-mass-exploited-in-new-attacks/</guid>
+	<description><![CDATA[Threat intelligence company GreyNoise warns that a critical PHP remote code execution vulnerability that impacts Windows systems is now under mass exploitation. [...]]]></description>
+ </item>
+
+ <item>
+        <title>The AI race: Dark AI is in the lead, but good AI is catching up</title>
+        <link>https://www.bleepingcomputer.com/news/security/the-ai-race-dark-ai-is-in-the-lead-but-good-ai-is-catching-up/</link>
+        <pubDate>Tue, 11 Mar 2025 10:05:33 -0400</pubDate>
+        <dc:creator>Sponsored by Acronis</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/the-ai-race-dark-ai-is-in-the-lead-but-good-ai-is-catching-up/</guid>
+	<description><![CDATA[Cybercriminals are using AI for help in planning and conducting cyberattacks—but cybersecurity vendors are fighting back. Learn from Acronis Threat Research Unit about how AI-powered security solutions are closing the gap in the battle against AI-driven cyber threats. [...]]]></description>
+ </item>
+
  <item>
         <title>PowerSchool previously hacked in August, months before data breach</title>
         <link>https://www.bleepingcomputer.com/news/security/powerschool-previously-hacked-in-august-months-before-data-breach/</link>
@@ -47,7 +75,7 @@
  </item>
 
  <item>
-        <title>X hit by ‘massive cyberattack’ amid Dark Storm’s DDoS claims</title>
+        <title>X hit by 'massive cyberattack' amid Dark Storm's DDoS claims</title>
         <link>https://www.bleepingcomputer.com/news/security/x-hit-by-massive-cyberattack-amid-dark-storms-ddos-claims/</link>
         <pubDate>Mon, 10 Mar 2025 16:07:33 -0400</pubDate>
         <dc:creator>Lawrence Abrams</dc:creator>
@@ -174,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-cities-warn-of-wave-of-unpaid-parking-phishing-texts/</guid>
 	<description><![CDATA[US cities are warning of an ongoing mobile phishing campaign pretending to be texts from the city's parking violation departments about unpaid parking invoices, that if unpaid, will incur an additional $35 fine per day. [...]]]></description>
- </item>
-
- <item>
-        <title>New Chirp tool uses audio tones to transfer data between devices</title>
-        <link>https://www.bleepingcomputer.com/news/software/new-chirp-tool-uses-audio-tones-to-transfer-data-between-devices/</link>
-        <pubDate>Sun, 09 Mar 2025 10:14:24 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/software/new-chirp-tool-uses-audio-tones-to-transfer-data-between-devices/</guid>
-	<description><![CDATA[A new open-source tool named 'Chirp' transmits data, such as text messages, between computers (and smartphones) through different audio tones. [...]]]></description>
  </item>
 
 </channel>
