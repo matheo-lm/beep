@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 11 Mar 2025 13:03:05 EDT</pubDate>
+        <pubDate>Tue, 11 Mar 2025 14:00:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft March 2025 Patch Tuesday fixes 7 zero-days, 57 flaws</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2025-patch-tuesday-fixes-7-zero-days-57-flaws/</link>
+        <pubDate>Tue, 11 Mar 2025 13:45:15 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2025-patch-tuesday-fixes-7-zero-days-57-flaws/</guid>
+	<description><![CDATA[Today is Microsoft's March 2025 Patch Tuesday, which includes security updates for 57 flaws, including six actively exploited zero-day vulnerabilities. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 KB5053598 &amp; KB5053602 cumulative updates released</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5053598-and-kb5053602-cumulative-updates-released/</link>
+        <pubDate>Tue, 11 Mar 2025 13:30:08 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5053598-and-kb5053602-cumulative-updates-released/</guid>
+	<description><![CDATA[Microsoft has released Windows 11 KB5053598 and KB5053602  cumulative updates for versions 24H2 and 23H2 to fix security vulnerabilities and issues. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft replacing Remote Desktop app with Windows App in May</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-replacing-remote-desktop-app-with-windows-app-in-may/</link>
@@ -190,34 +222,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-paid-12-million-in-bug-bounties-last-year-to-security-researchers/</guid>
 	<description><![CDATA[Google paid almost $12 million in bug bounty rewards to 660 security researchers who reported security bugs through the company's Vulnerability Reward Program (VRP) in 2024. [...]]]></description>
- </item>
-
- <item>
-        <title>Quantum leap: Passwords in the new era of computing security</title>
-        <link>https://www.bleepingcomputer.com/news/security/quantum-leap-passwords-in-the-new-era-of-computing-security/</link>
-        <pubDate>Mon, 10 Mar 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by Specops Software</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/quantum-leap-passwords-in-the-new-era-of-computing-security/</guid>
-	<description><![CDATA[Quantum computing threatens to break traditional encryption, putting sensitive data at risk. Learn more from Specops Software about the risks of quantum computing and how to prepare for them. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft lifts Windows 11 update block for some AutoCAD users</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-update-block-for-some-autocad-users/</link>
-        <pubDate>Mon, 10 Mar 2025 09:02:12 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-update-block-for-some-autocad-users/</guid>
-	<description><![CDATA[Microsoft has removed a compatibility hold that prevented some AutoCAD users from installing the Windows 11 2024 Update due to launch and crash issues. [...]]]></description>
  </item>
 
 </channel>
