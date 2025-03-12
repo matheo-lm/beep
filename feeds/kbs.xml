@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Wed, 12 Mar 2025 13:43:08 +0000</lastBuildDate>
@@ -58,7 +58,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/03/microsoft-6-zero-days-in-march-2025-patch-tuesday/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>3</slash:comments>
 		
 		
 			</item>
@@ -95,7 +95,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/03/alleged-co-founder-of-garantex-arrested-in-india/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
+			<slash:comments>10</slash:comments>
 		
 		
 			</item>
@@ -670,5 +670,5 @@ Object Caching 265/265 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-03-12 12:13:26 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-03-12 13:46:55 by W3 Total Cache
 -->
