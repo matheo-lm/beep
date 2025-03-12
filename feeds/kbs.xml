@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 11 Mar 2025 16:49:02 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 11 Mar 2025 23:53:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,49 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Microsoft: 6 Zero-Days in March 2025 Patch Tuesday</title>
+		<link>https://krebsonsecurity.com/2025/03/microsoft-6-zero-days-in-march-2025-patch-tuesday/</link>
+					<comments>https://krebsonsecurity.com/2025/03/microsoft-6-zero-days-in-march-2025-patch-tuesday/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Tue, 11 Mar 2025 23:53:01 +0000</pubDate>
+				<category><![CDATA[Security Tools]]></category>
+		<category><![CDATA[Time to Patch]]></category>
+		<category><![CDATA[Adam Barnett]]></category>
+		<category><![CDATA[CVE-2025-24983]]></category>
+		<category><![CDATA[CVE-2025-24984]]></category>
+		<category><![CDATA[CVE-2025-24985]]></category>
+		<category><![CDATA[CVE-2025-24991]]></category>
+		<category><![CDATA[CVE-2025-24993]]></category>
+		<category><![CDATA[CVE-2025-26633]]></category>
+		<category><![CDATA[ESET]]></category>
+		<category><![CDATA[Filip Jurčacko]]></category>
+		<category><![CDATA[Rapid7]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70681</guid>
+
+					<description><![CDATA[Microsoft today issued more than 50 security updates for its various Windows operating systems, including fixes for a whopping six zero-day vulnerabilities that are already seeing active exploitation.]]></description>
+										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today issued more than 50 security updates for its various <strong>Windows</strong> operating systems, including fixes for a whopping <em>six zero-day vulnerabilities</em> that are already seeing active exploitation.</p>
+<p><img decoding="async" class="aligncenter wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p>Two of the zero-day flaws include <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24991" target="_blank" rel="noopener">CVE-2025-24991</a> and <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24993" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24993&amp;source=gmail&amp;ust=1741811978241000&amp;usg=AOvVaw08YeX5TKKSxWlXHXx6FFHl">CVE-2025-24993</a>, both vulnerabilities in <strong>NTFS</strong>, the default file system for Windows and Windows Server. Both require the attacker to trick a target into mounting a malicious virtual hard disk. CVE-2025-24993 would lead to the possibility of local code execution, while CVE-2025-24991 could cause NTFS to disclose portions of memory.</p>
+<p>Microsoft credits researchers at <strong>ESET</strong> with reporting the zero-day bug labeled <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24983" target="_blank" rel="noopener">CVE-2025-24983</a>, an elevation of privilege vulnerability in older versions of Windows. ESET said the exploit was deployed via the <a href="https://www.kaspersky.com/about/press-releases/kaspersky-uncovers-pipemagic-backdoor-attacks-businesses-through-fake-chatgpt-application" target="_blank" rel="noopener">PipeMagic backdoor</a>, capable of exfiltrating data and enabling remote access to the machine.</p>
+<p>ESET&#8217;s <strong>Filip</strong> <b>Jurčacko </b>said the exploit in the wild targets only older versions of Windows OS: Windows 8.1 and Server 2012 R2. Although still used by millions, security support for these products ended more than a year ago, and mainstream support ended years ago. However, ESET notes the vulnerability itself also is present in newer Windows OS versions, including <strong>Windows 10 build 1809</strong> and the still-supported <strong>Windows Server 2016</strong>.</p>
+<p>Rapid7&#8217;s lead software engineer <strong>Adam Barnett</strong> said <strong>Windows 11</strong> and <strong>Server 2019</strong> onwards are not listed as receiving patches, so are presumably not vulnerable.</p>
+<p>&#8220;It’s not clear why newer Windows products dodged this particular bullet,&#8221; Barnett wrote. &#8220;The Windows 32 subsystem is still presumably alive and well, since there is no apparent mention of its demise on the Windows client OS deprecated features list.&#8221;<span id="more-70681"></span></p>
+<p>The zero-day flaw <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24984" target="_blank" rel="noopener">CVE-2025-24984</a> is another NTFS weakness that can be exploited by inserting a malicious USB drive into a Windows computer. Barnett said Microsoft&#8217;s advisory for this bug doesn&#8217;t quite join the dots, but successful exploitation appears to mean that portions of heap memory could be improperly dumped into a log file, which could then be combed through by an attacker hungry for privileged information.</p>
+<p>&#8220;A relatively low CVSSv3 base score of 4.6 reflects the practical difficulties of real-world exploitation, but a motivated attacker can sometimes achieve extraordinary results starting from the smallest of toeholds, and Microsoft does rate this vulnerability as important on its own proprietary severity ranking scale,&#8221; Barnett said.</p>
+<p>Another zero-day fixed this month &#8212; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24985" target="_blank" rel="noopener">CVE-2025-24985</a> &#8212; could allow attackers to install malicious code. As with the NTFS bugs, this one requires that the user mount a malicious virtual hard drive.</p>
+<p>The final zero-day this month is <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-26633" target="_blank" rel="noopener">CVE-2025-26633</a>, a weakness in the <strong>Microsoft Management Console</strong>, a component of Windows that gives system administrators a way to configure and monitor the system. Exploiting this flaw requires the target to open a malicious file.</p>
+<p>This month&#8217;s bundle of patch love from Redmond also addresses six other vulnerabilities Microsoft has rated &#8220;critical,&#8221; meaning that malware or malcontents could exploit them to seize control over vulnerable PCs with no help from users.</p>
+<p>Barnett observed that this is now the sixth consecutive month where Microsoft has published zero-day vulnerabilities on Patch Tuesday without evaluating any of them as critical severity at time of publication.</p>
+<p>The <a href="https://isc.sans.edu/forums/diary/Microsoft%20Patch%20Tuesday%3A%20March%202025/31756/" target="_blank" rel="noopener">SANS Internet Storm Center</a> has a useful list of all the Microsoft patches released today, indexed by severity. Windows enterprise administrators would do well to keep an eye on <a href="http://www.askwoody.com/" target="_blank" rel="noopener">askwoody.com</a>, which often has the scoop on any patches causing problems. Please consider backing up your data before updating, and leave a comment below if you experience any issues applying this month&#8217;s updates.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/03/microsoft-6-zero-days-in-march-2025-patch-tuesday/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Alleged Co-Founder of Garantex Arrested in India</title>
 		<link>https://krebsonsecurity.com/2025/03/alleged-co-founder-of-garantex-arrested-in-india/</link>
 					<comments>https://krebsonsecurity.com/2025/03/alleged-co-founder-of-garantex-arrested-in-india/#comments</comments>
@@ -38,7 +81,7 @@
 
 					<description><![CDATA[Authorities in India today arrested the alleged co-founder of Garantex, a cryptocurrency exchange sanctioned by the U.S. government in 2022 for facilitating tens of billions of dollars in money laundering by transnational criminal and cybercriminal organizations. Sources close to the investigation told KrebsOnSecurity the Lithuanian national Aleksej Besciokov, 46, was apprehended while vacationing on the coast of India with his family.]]></description>
 										<content:encoded><![CDATA[<p>Authorities in India today arrested the alleged co-founder of <strong>Garantex</strong>, a cryptocurrency exchange sanctioned by the U.S. government in 2022 for facilitating tens of billions of dollars in money laundering by transnational criminal and cybercriminal organizations. Sources close to the investigation told KrebsOnSecurity the Lithuanian national <strong>Aleksej Besciokov</strong>, 46, was apprehended while vacationing on the coast of India with his family.</p>
-<div id="attachment_70665" style="width: 472px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70665" decoding="async" class=" wp-image-70665" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/Besciokov_Photo.png" alt="" width="462" height="552" /><p id="caption-attachment-70665" class="wp-caption-text">Aleksej Bešciokov, &#8220;proforg,&#8221; &#8220;iram&#8221;. Image: U.S. Secret Service.</p></div>
+<div id="attachment_70665" style="width: 472px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70665" decoding="async" loading="lazy" class=" wp-image-70665" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/Besciokov_Photo.png" alt="" width="462" height="552" /><p id="caption-attachment-70665" class="wp-caption-text">Aleksej Bešciokov, &#8220;proforg,&#8221; &#8220;iram&#8221;. Image: U.S. Secret Service.</p></div>
 <p>On March 7, the <strong>U.S. Department of Justice</strong> (DOJ) unsealed <a href="https://www.justice.gov/media/1392316/dl" target="_blank" rel="noopener">an indictment</a> against Besciokov and the other alleged co-founder of Garantex, <strong>Aleksandr Mira Serda</strong>, 40, a Russian national living in the United Arab Emirates.</p>
 <p>Launched in 2019, Garantex was <a href="https://home.treasury.gov/news/press-releases/jy0701" target="_blank" rel="noopener">first sanctioned</a> by the U.S. Treasury Office of Foreign Assets Control in April 2022 for receiving hundreds of millions in criminal proceeds, including funds used to facilitate hacking, ransomware, terrorism and drug trafficking. Since those penalties were levied, Garantex has processed more than $60 billion, according to the blockchain analysis company <strong>Elliptic.</strong></p>
 <p>&#8220;Garantex has been used in sanctions evasion by Russian elites, as well as to launder proceeds of crime including ransomware, darknet market trade and thefts attributed to North Korea’s Lazarus Group,&#8221; Elliptic wrote in <a href="https://www.elliptic.co/blog/elliptic-in-action-garantex" target="_blank" rel="noopener">a blog post</a>. &#8220;Garantex has also been implicated in enabling Russian oligarchs to move their wealth out of the country, following the invasion of Ukraine.&#8221;</p>
@@ -617,168 +660,15 @@ tsarinahome.com</p>
 		
 		
 			</item>
-		<item>
-		<title>Teen on Musk&#8217;s DOGE Team Graduated from &#8216;The Com&#8217;</title>
-		<link>https://krebsonsecurity.com/2025/02/teen-on-musks-doge-team-graduated-from-the-com/</link>
-					<comments>https://krebsonsecurity.com/2025/02/teen-on-musks-doge-team-graduated-from-the-com/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Sat, 08 Feb 2025 00:32:53 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Ne'er-Do-Well News]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[AS400495]]></category>
-		<category><![CDATA[BackConnect Security LLC]]></category>
-		<category><![CDATA[Curtis Gervais]]></category>
-		<category><![CDATA[DiamondCDN]]></category>
-		<category><![CDATA[Director of National Intelligence]]></category>
-		<category><![CDATA[DOGE]]></category>
-		<category><![CDATA[Dstat]]></category>
-		<category><![CDATA[Edward Coristine]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[Eric Taylor]]></category>
-		<category><![CDATA[Marshal Webb]]></category>
-		<category><![CDATA[Neuralink]]></category>
-		<category><![CDATA[Packetware]]></category>
-		<category><![CDATA[Path Networks]]></category>
-		<category><![CDATA[President Trump]]></category>
-		<category><![CDATA[Rivage]]></category>
-		<category><![CDATA[Tesla Sexy LLC]]></category>
-		<category><![CDATA[The Com]]></category>
-		<category><![CDATA[Tucker Preston]]></category>
-		<category><![CDATA[wired]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70358</guid>
-
-					<description><![CDATA[Wired reported this week that a 19-year-old working for Elon Musk's so-called Department of Government Efficiency (DOGE) was given access to sensitive US government systems even though his past association with cybercrime communities should have precluded him from gaining the necessary security clearances to do so. As today's story explores, the DOGE teen is a former denizen of 'The Com,' an archipelago of Discord and Telegram chat channels that function as a kind of distributed cybercriminal social network for facilitating instant collaboration.]]></description>
-										<content:encoded><![CDATA[<p><em>Wired</em> reported this week that a 19-year-old working for <strong>Elon Musk</strong>&#8216;s so-called <strong>Department of Government Efficiency</strong> (DOGE) was given access to sensitive US government systems even though his past association with cybercrime communities should have precluded him from gaining the necessary security clearances to do so. As today&#8217;s story explores, the DOGE teen is a former denizen of &#8216;<strong>The Com</strong>,&#8217; an archipelago of Discord and Telegram chat channels that function as a kind of distributed cybercriminal social network for facilitating instant collaboration.</p>
-<p>Since President Trump&#8217;s second inauguration, Musk&#8217;s DOGE team has gained access to a truly staggering amount of personal and sensitive data on American citizens, moving quickly to seize control over databases at the <strong>U.S. Treasury</strong>, the <strong>Office of Personnel Management</strong>, the <strong>Department of Education</strong>, and the <strong>Department of Health and Human Resources</strong>, among others.</p>
-<p><em>Wired</em> first <a href="https://archive.ph/HCCA4" target="_blank" rel="noopener">reported on Feb. 2</a> that one of the technologists on Musk&#8217;s crew is a 19-year-old high school graduate named <strong>Edward Coristine</strong>, who reportedly goes by the nickname &#8220;Big Balls&#8221; online. One of the companies Coristine founded, <strong>Tesla.Sexy LLC</strong>, was set up in 2021, when he would have been around 16 years old.</p>
-<p>&#8220;Tesla.Sexy LLC controls dozens of web domains, including at least two Russian-registered domains,&#8221; <em>Wired</em> reported. &#8220;One of those domains, which is still active, offers a service called Helfie, which is an AI bot for Discord servers targeting the Russian market. While the operation of a Russian website would not violate US sanctions preventing Americans doing business with Russian companies, it could potentially be a factor in a security clearance review.&#8221;</p>
-<p>Mr. Coristine has not responded to requests for comment. In <a href="https://archive.ph/VAD48" target="_blank" rel="noopener">a follow-up story</a> this week, <em>Wired</em> found that someone using a Telegram handle tied to Coristine solicited a DDoS-for-hire service in 2022, and that he worked for a short time at a company that specializes in protecting customers from DDoS attacks.</p>
-<div id="attachment_70369" style="width: 647px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70369" decoding="async" loading="lazy" class="size-full wp-image-70369" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/coristine.png" alt="" width="637" height="636" /><p id="caption-attachment-70369" class="wp-caption-text">A profile photo from Coristine&#8217;s WhatsApp account.</p></div>
-<p>Internet routing records <a href="https://bgp.he.net/net/23.133.104.0/24#_whois" target="_blank" rel="noopener">show</a> that Coristine runs an Internet service provider called <strong>Packetware</strong> (AS400495). Also known as &#8220;<strong>DiamondCDN</strong>,&#8221; Packetware <a href="https://bgp.he.net/net/23.133.104.0/24#_dnsrecords" target="_blank" rel="noopener">currently hosts</a> tesla[.]sexy and diamondcdn[.]com, among other domains.</p>
-<p>DiamondCDN was advertised and claimed by someone who used the nickname &#8220;<strong>Rivage</strong>&#8221; on several Com-based Discord channels over the years. A review of chat logs from some of those channels show other members frequently referred to Rivage as &#8220;Edward.&#8221;</p>
-<p>From late 2020 to late 2024, Rivage&#8217;s conversations would show up in multiple Com chat servers that are closely monitored by security companies. In November 2022, Rivage could be seen requesting recommendations for a reliable and powerful DDoS-for-hire service.</p>
-<p>Rivage made that request in the cybercrime channel &#8220;<strong>Dstat</strong>,&#8221; a core Com hub where users could buy and sell attack services. <a href="https://www.bleepingcomputer.com/news/security/ddos-site-dstatcc-seized-and-two-suspects-arrested-in-germany/" target="_blank" rel="noopener">Dstat’s website dstat[.]cc was seized</a> in 2024 as part of “Operation PowerOFF,” an international law enforcement action against DDoS services.</p>
-<p>Coristine&#8217;s LinkedIn profile said that in 2022 he worked at an anti-DDoS company called <strong>Path Networks</strong>, which <em>Wired</em> generously described as a &#8220;network monitoring firm known for hiring reformed blackhat hackers.&#8221; <em>Wired</em> wrote:</p>
-<p>&#8220;At Path Network, Coristine worked as a systems engineer from April to June of 2022, according to his now-deleted LinkedIn résumé. Path has at times listed as employees <strong>Eric Taylor</strong>, also known as Cosmo the God, a well-known former cybercriminal and member of the hacker group UGNazis, as well as Matthew Flannery, an Australian convicted hacker whom police allege was a member of the hacker group LulzSec. It’s unclear whether Coristine worked at Path concurrently with those hackers, and WIRED found no evidence that either Coristine or other Path employees engaged in illegal activity while at the company.&#8221;</p>
-<p>The founder of Path is a young man named <strong>Marshal Webb</strong>. I wrote about Webb back in 2016, in a story about a DDoS defense company he co-founded called <strong>BackConnect Security LLC</strong>. On September 20, 2016, KrebsOnSecurity published data showing that the company <a href="https://krebsonsecurity.com/2016/09/ddos-mitigation-firm-has-history-of-hijacks/" target="_blank" rel="noopener">had a history of hijacking Internet address space that belonged to others</a>.</p>
-<p>Less than 24 hours after that story ran, KrebsOnSecurity.com was <a href="https://krebsonsecurity.com/2016/09/krebsonsecurity-hit-with-record-ddos/" target="_blank" rel="noopener">hit with the biggest DDoS attack the Internet had ever seen at the time</a>. That sustained attack <a href="https://krebsonsecurity.com/2016/09/the-democratization-of-censorship/" target="_blank" rel="noopener">kept this site offline for nearly 4 days</a>.</p>
-<p>The other founder of BackConnect Security LLC was <strong>Tucker Preston</strong>, a Georgia man who <a href="https://krebsonsecurity.com/2020/01/ddos-mitigation-firm-founder-admits-to-ddos/" target="_blank" rel="noopener">pleaded guilty in 2020</a> to paying a DDoS-for-hire service to launch attacks against others.</p>
-<p>The aforementioned Path employee Eric Taylor <a href="https://krebsonsecurity.com/2017/02/men-who-sent-swat-team-heroin-to-my-home-sentenced/" target="_blank" rel="noopener">pleaded guilty in 2017</a> to charges including <a href="http://krebsonsecurity.com/2013/03/the-world-has-no-room-for-cowards/" target="_blank" rel="noopener">an attack on our home in 2013</a>. Taylor was among several men involved in making a false report to my local police department about a supposed hostage situation at our residence in Virginia. In response, a heavily-armed police force surrounded my home and put me in handcuffs at gunpoint before the police realized it was all a dangerous hoax known as &#8220;swatting.&#8221;</p>
-<p>CosmoTheGod rocketed to Internet infamy in 2013 when he and a number of other hackers <a href="https://krebsonsecurity.com/2013/03/credit-reports-sold-for-cheap-in-the-underweb/" target="_blank" rel="noopener">set up the Web site exposed[dot]su</a>, which “doxed” dozens of public officials and celebrities by publishing the address, Social Security numbers and other personal information on the former First Lady Michelle Obama, the then-director of the FBI and the U.S. attorney general, among others. The group also swatted many of the people they doxed.</p>
-<p><em>Wired</em> noted that Coristine only worked at Path for a few months in 2022, but the story didn&#8217;t mention why his tenure was so short. A screenshot shared on the website <a href="https://www.pathtruths.com" target="_blank" rel="noopener">pathtruths.com</a> includes a snippet of conversations in June 2022 between Path employees discussing Coristine&#8217;s firing.</p>
-<p>According to that record, Path founder Marshal Webb dismissed Coristine for leaking internal documents to a competitor. Not long after Coristine&#8217;s termination, someone leaked an abundance of internal Path documents and conversations. Among other things, those chats revealed that one of Path&#8217;s technicians was a Canadian man named <strong>Curtis Gervais</strong> who was convicted in 2017 of <a href="https://krebsonsecurity.com/2017/09/canadian-man-gets-9-months-detention-for-serial-swattings-bomb-threats/" target="_blank" rel="noopener">perpetrating dozens of swatting attacks and fake bomb threats</a> &#8212; including at least two attempts against our home in 2014.</p>
-<div id="attachment_70370" style="width: 595px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70370" decoding="async" loading="lazy" class="size-full wp-image-70370" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/pathchat.png" alt="" width="585" height="808" /><p id="caption-attachment-70370" class="wp-caption-text">A snippet of text from an internal Path chat room, wherein members discuss the reason for Coristine&#8217;s termination: Allegedly, leaking internal company information. Source: Pathtruths.com.</p></div>
-<p><span id="more-70358"></span></p>
-<p>On May 11, 2024, Rivage posted on a Discord channel for a DDoS protection service that is chiefly marketed to members of The Com. Rivage expressed frustration with his time spent on Com-based communities, suggesting that its profitability had been oversold.</p>
-<p>&#8220;I don&#8217;t think there&#8217;s a lot of money to be made in the com,&#8221; Rivage lamented. &#8220;I&#8217;m not buying Heztner [servers] to set up some com VPN.&#8221;</p>
-<p>Rivage largely stopped posting messages on Com channels after that. <em>Wired</em> reports that Coristine subsequently spent three months last summer working at <strong>Neuralink</strong>, Elon Musk&#8217;s brain implant startup.</p>
-<p>The trouble with all this is that even if someone sincerely intends to exit The Com after years of consorting with cybercriminals, they are often still subject to personal attacks, harassment and hacking long after they have left the scene.</p>
-<p>That&#8217;s because a huge part of Com culture involves harassing, swatting and hacking other members of the community. These internecine attacks are often for financial gain, but just as frequently they are perpetrated by cybercrime groups to exact retribution from or assert dominance over rival gangs.</p>
-<p>Experts say it is extremely difficult for former members of violent street gangs to gain a security clearance needed to view sensitive or classified information held by the U.S. government. That&#8217;s because ex-gang members are highly susceptible to extortion and coercion from current members of the same gang, and that alone presents an unacceptable security risk for intelligence agencies.</p>
-<p>And make no mistake: The Com is the English-language cybercriminal hacking equivalent of a violent street gang. KrebsOnSecurity has published numerous stories detailing how feuds within the community <a href="https://krebsonsecurity.com/2022/09/violence-as-a-service-brickings-firebombings-shootings-for-hire/" target="_blank" rel="noopener">periodically spill over into real-world violence</a>.</p>
-<p>When Coristine&#8217;s name surfaced in <em>Wired</em>&#8216;s report this week, members of The Com immediately took notice. In the following segment from a February 5, 2025 chat in a Com-affiliated hosting provider, members criticized Rivage&#8217;s skills, and discussed harassing his family and notifying authorities about incriminating accusations that may or may not be true.</p>
-<blockquote><p>2025-02-05 16:29:44 UTC vperked#0 they got this nigga on indiatimes man<br />
-2025-02-05 16:29:46 UTC alexaloo#0 Their cropping is worse than AI could have done<br />
-2025-02-05 16:29:48 UTC hebeatsme#0 bro who is that<br />
-2025-02-05 16:29:53 UTC hebeatsme#0 yalla re talking about<br />
-2025-02-05 16:29:56 UTC xewdy#0 edward<br />
-2025-02-05 16:29:56 UTC .yarrb#0 rivagew<br />
-2025-02-05 16:29:57 UTC vperked#0 Rivarge<br />
-2025-02-05 16:29:57 UTC xewdy#0 diamondcdm<br />
-2025-02-05 16:29:59 UTC vperked#0 i cant spell it<br />
-2025-02-05 16:30:00 UTC hebeatsme#0 rivage<br />
-2025-02-05 16:30:08 UTC .yarrb#0 yes<br />
-2025-02-05 16:30:14 UTC hebeatsme#0 i have him added<br />
-2025-02-05 16:30:20 UTC hebeatsme#0 hes on discord still<br />
-2025-02-05 16:30:47 UTC .yarrb#0 hes focused on stroking zaddy elon<br />
-2025-02-05 16:30:47 UTC vperked#0 https://en.wikipedia.org/wiki/Edward_Coristine<br />
-2025-02-05 16:30:50 UTC vperked#0 no fucking way<br />
-2025-02-05 16:30:53 UTC vperked#0 they even made a wiki for him<br />
-2025-02-05 16:30:55 UTC vperked#0 LOOOL<br />
-2025-02-05 16:31:05 UTC hebeatsme#0 no way<br />
-2025-02-05 16:31:08 UTC hebeatsme#0 hes not a good dev either<br />
-2025-02-05 16:31:14 UTC hebeatsme#0 like????<br />
-2025-02-05 16:31:22 UTC hebeatsme#0 has to be fake<br />
-2025-02-05 16:31:24 UTC xewdy#0 and theyre saying ts<br />
-2025-02-05 16:31:29 UTC xewdy#0 like ok bro<br />
-2025-02-05 16:31:51 UTC .yarrb#0 now i wanna know what all the other devs are like&#8230;<br />
-2025-02-05 16:32:00 UTC vperked#0 &#8220;`Coristine used the moniker &#8220;bigballs&#8221; on LinkedIn and @Edwardbigballer on Twitter, according to The Daily Dot.[&#8220;`<br />
-2025-02-05 16:32:05 UTC vperked#0 LOL<br />
-2025-02-05 16:32:06 UTC hebeatsme#0 lmfaooo<br />
-2025-02-05 16:32:07 UTC vperked#0 bro<br />
-2025-02-05 16:32:10 UTC hebeatsme#0 bro<br />
-2025-02-05 16:32:17 UTC hebeatsme#0 has to be fake right<br />
-2025-02-05 16:32:22 UTC .yarrb#0 does it mention Rivage?<br />
-2025-02-05 16:32:23 UTC xewdy#0 He previously worked for NeuraLink, a brain computer interface company led by Elon Musk<br />
-2025-02-05 16:32:26 UTC xewdy#0 bro what<br />
-2025-02-05 16:32:27 UTC alexaloo#0 I think your current occupation gives you a good insight of what probably goes on<br />
-2025-02-05 16:32:29 UTC hebeatsme#0 bullshit man<br />
-2025-02-05 16:32:33 UTC xewdy#0 this nigga got hella secrets<br />
-2025-02-05 16:32:37 UTC hebeatsme#0 rivage couldnt print hello world<br />
-2025-02-05 16:32:42 UTC hebeatsme#0 if his life was on the line<br />
-2025-02-05 16:32:50 UTC xewdy#0 nigga worked for neuralink<br />
-2025-02-05 16:32:54 UTC hebeatsme#0 bullshit<br />
-2025-02-05 16:33:06 UTC Nashville Dispatch ##0000 ||@PD Ping||<br />
-2025-02-05 16:33:07 UTC hebeatsme#0 must have killed all those test pigs with some bugs<br />
-2025-02-05 16:33:24 UTC hebeatsme#0 ur telling me the rivage who failed to start a company<br />
-2025-02-05 16:33:28 UTC hebeatsme#0 https://cdn.camp<br />
-2025-02-05 16:33:32 UTC hebeatsme#0 who didnt pay for servers<br />
-2025-02-05 16:33:34 UTC hebeatsme#0 ?<br />
-2025-02-05 16:33:42 UTC hebeatsme#0 was too cheap<br />
-2025-02-05 16:33:44 UTC vperked#0 yes<br />
-2025-02-05 16:33:50 UTC hebeatsme#0 like??<br />
-2025-02-05 16:33:53 UTC hebeatsme#0 it aint adding up<br />
-2025-02-05 16:33:56 UTC alexaloo#0 He just needed to find his calling idiot.<br />
-2025-02-05 16:33:58 UTC alexaloo#0 He found it.<br />
-2025-02-05 16:33:59 UTC hebeatsme#0 bro<br />
-2025-02-05 16:34:01 UTC alexaloo#0 Cope in a river dude<br />
-2025-02-05 16:34:04 UTC hebeatsme#0 he cant make good money right<br />
-2025-02-05 16:34:08 UTC hebeatsme#0 doge is about efficiency<br />
-2025-02-05 16:34:11 UTC hebeatsme#0 he should make $1/he<br />
-2025-02-05 16:34:15 UTC hebeatsme#0 $1/hr<br />
-2025-02-05 16:34:25 UTC hebeatsme#0 and be whipped for better code<br />
-2025-02-05 16:34:26 UTC vperked#0 prolly makes more than us<br />
-2025-02-05 16:34:35 UTC vperked#0 with his dad too<br />
-2025-02-05 16:34:52 UTC hebeatsme#0 time to report him for fraud<br />
-2025-02-05 16:34:54 UTC hebeatsme#0 to donald trump<br />
-2025-02-05 16:35:04 UTC hebeatsme#0 rivage participated in sim swap hacks in 2018<br />
-2025-02-05 16:35:08 UTC hebeatsme#0 put that on his wiki<br />
-2025-02-05 16:35:10 UTC hebeatsme#0 thanks<br />
-2025-02-05 16:35:15 UTC hebeatsme#0 and in 2021<br />
-2025-02-05 16:35:17 UTC hebeatsme#0 thanks<br />
-2025-02-05 16:35:19 UTC chainofcommand#0 i dont think they&#8217;ll care tbh</p></blockquote>
-<p>Given the speed with which Musk&#8217;s DOGE team was allowed access to such critical government databases, it strains credulity that Coristine could have been properly cleared beforehand. After all, he&#8217;d recently been dismissed from a job <em>for allegedly leaking internal company information to outsiders</em>.</p>
-<p>According to the national security adjudication <a href="https://www.dni.gov/files/NCSC/documents/Regulations/SEAD-4-Adjudicative-Guidelines-U.pdf" target="_blank" rel="noopener">guidelines</a> (PDF) released by the <strong>Director of National Intelligence</strong> (DNI), eligibility determinations take into account a person&#8217;s stability, trustworthiness, reliability, discretion, character, honesty, judgment, and ability to protect classified information.</p>
-<p>The DNI policy further states that &#8220;eligibility for covered individuals shall be granted only when facts and circumstances indicate that eligibility is clearly consistent with the national security interests of the United States, and any doubt shall be resolved in favor of national security.&#8221;</p>
-<p>On Thursday, 25-year-old DOGE staff member <strong>Marko Elez</strong> resigned after being linked to a deleted social media account that advocated racism and eugenics. Elez resigned after <em>The Wall Street Journal</em> <a href="https://www.wsj.com/tech/doge-staffer-resigns-over-racist-posts-d9f11a93" target="_blank" rel="noopener">asked</a> the White House about his connection to the account.</p>
-<p>&#8220;Just for the record, I was racist before it was cool,” the account posted in July. &#8220;You could not pay me to marry outside of my ethnicity,” the account wrote on X in September. &#8220;Normalize Indian hate,&#8221; the account wrote the same month, in reference to a post noting the prevalence of people from India in Silicon Valley.</p>
-<p>Elez&#8217;s resignation came a day after the Department of Justice agreed to limit the number of DOGE employees who have access to federal payment systems. The DOJ said access would be limited to two people, Elez and <strong>Tom Krause</strong>, the CEO of a company called Cloud Software Group.</p>
-<p>Earlier today, Musk <a href="https://thehill.com/business/5133430-elon-musk-doge-staffer-racist-posts/" target="_blank" rel="noopener">said he planned to rehire Elez</a> after <strong>President Trump</strong> and <strong>Vice President JD Vance</strong> reportedly endorsed the idea. Speaking at The White House today, Trump said he wasn&#8217;t concerned about the security of personal information and other data accessed by DOGE, adding that he was &#8220;very proud of the job that this group of young people&#8221; are doing.</p>
-<p>A White House official <a href="https://www.reuters.com/world/us/staffer-with-elon-musks-doge-amplified-white-supremacists-online-2025-02-07/" target="_blank" rel="noopener">told</a> <em>Reuters</em> on Wednesday that Musk and his engineers have appropriate security clearances and are operating in &#8220;full compliance with federal law, appropriate security clearances, and as employees of the relevant agencies, not as outside advisors or entities.&#8221;</p>
-<p><em>NPR</em> <a href="https://www.npr.org/2025/02/07/nx-s1-5288988/doge-elon-musk-staff-trump" target="_blank" rel="noopener">reports</a> Trump added that his administration&#8217;s cost-cutting efforts would soon turn to the Education Department and the Pentagon, &#8220;where he suggested without evidence that there could be &#8216;trillions&#8217; of dollars in wasted spending within the $6.75 trillion the federal government spent in fiscal year 2024.&#8221;</p>
-<p>GOP leaders in the Republican-controlled House and Senate have largely shrugged about Musk&#8217;s ongoing efforts to seize control over federal databases, dismantle agencies mandated by Congress, freeze federal spending on a range of already-appropriated government programs, and threaten workers with layoffs.</p>
-<p>Meanwhile, multiple parties have sued to stop DOGE&#8217;s activities. ABC News <a href="https://abcnews.go.com/US/judge-decide-block-doge-accessing-sensitive-labor-department/story?id=118575362" target="_blank" rel="noopener">says</a> a federal judge was to rule today on whether DOGE should be blocked from accessing Department of Labor records, following a lawsuit alleging Musk&#8217;s team sought to illegally access highly sensitive data, including medical information, from the federal government.</p>
-<p>At least 13 state attorneys general say they plan to file a lawsuit to stop DOGE from accessing federal payment systems containing Americans&#8217; sensitive personal information, <a href="https://www.mychamplainvalley.com/news/local-news/vermont-joins-lawsuit-over-doge-access-to-government-payment-system/" target="_blank" rel="noopener">reports</a> <em>The Associated Press</em>.</p>
-<p>Reuters <a href="https://www.reuters.com/world/us/us-treasury-temporarily-agrees-limit-doge-access-amid-privacy-lawsuit-2025-02-06/" target="_blank" rel="noopener">reported Thursday</a> that the U.S. Treasury Department had agreed not to give Musk&#8217;s team access to its payment systems while a judge is hearing arguments in a lawsuit by employee unions and retirees alleging Musk illegally searched those records.</p>
-<p><em>Ars Technica</em> <a href="https://arstechnica.com/tech-policy/2025/02/lawsuit-tries-to-block-doges-access-to-student-loan-data/" target="_blank" rel="noopener">writes</a> that The Department of Education (DoE) was sued Friday by a California student association demanding an &#8220;immediate stop&#8221; to DOGE&#8217;s &#8220;unlawfully&#8221; digging through student loan data to potentially dismantle the DoE.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/02/teen-on-musks-doge-team-graduated-from-the-com/feed/</wfw:commentRss>
-			<slash:comments>170</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 277/277 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Object Caching 263/266 objects using memcached
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-03-11 19:02:07 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-03-11 19:53:25 by W3 Total Cache
 -->
