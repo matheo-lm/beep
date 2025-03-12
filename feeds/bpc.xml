@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 12 Mar 2025 06:02:22 EDT</pubDate>
+        <pubDate>Wed, 12 Mar 2025 06:58:29 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: Recent Windows updates make USB printers print random text</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-usb-printers-print-random-text-after-recent-windows-updates/</link>
+        <pubDate>Wed, 12 Mar 2025 06:53:25 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-usb-printers-print-random-text-after-recent-windows-updates/</guid>
+	<description><![CDATA[Microsoft says that some USB printers will start printing random text after installing Windows updates released since late January 2025. [...]]]></description>
+ </item>
+
  <item>
         <title>North Korean Lazarus hackers infect hundreds via npm packages</title>
         <link>https://www.bleepingcomputer.com/news/security/north-korean-lazarus-hackers-infect-hundreds-via-npm-packages/</link>
@@ -194,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/x-hit-by-massive-cyberattack-amid-dark-storms-ddos-claims/</guid>
 	<description><![CDATA[The Dark Storm hacktivist group claims to be behind DDoS attacks causing multiple X worldwide outages on Monday, leading the company to enable DDoS protections from Cloudflare. [...]]]></description>
- </item>
-
- <item>
-        <title>US govt says Americans lost record $12.5 billion to fraud in 2024</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-govt-says-americans-lost-record-125-billion-to-fraud-in-2024/</link>
-        <pubDate>Mon, 10 Mar 2025 15:05:59 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-govt-says-americans-lost-record-125-billion-to-fraud-in-2024/</guid>
-	<description><![CDATA[The U.S. Federal Trade Commission (FTC) said today that Americans lost a record $12.5 billion to fraud last year, a 25% increase over the previous year. [...]]]></description>
  </item>
 
 </channel>
