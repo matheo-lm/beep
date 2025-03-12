@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Wed, 05 Mar 2025 23:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 11 Mar 2025 17:06:15 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,31 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>LABScon24 Replay &#124; Resilience and Protection in the Windows Ecosystem</title>
+		<link>https://www.sentinelone.com/labs/labscon24-replay-resilience-and-protection-in-the-windows-ecosystem/</link>
+		
+		<dc:creator><![CDATA[LABScon]]></dc:creator>
+		<pubDate>Wed, 12 Mar 2025 13:00:47 +0000</pubDate>
+				<category><![CDATA[labscon24]]></category>
+		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=115081</guid>
+
+					<description><![CDATA[Kim Zetter interviews David Weston on topics such as the fallout from the CrowdStrike outage, Windows Recall and improving Microsoft security. ]]></description>
+										<content:encoded><![CDATA[<p>In this exclusive interview at LABScon 2024, award-winning investigative journalist Kim Zetter and Microsoft VP of Enterprise and OS Security David Weston discuss Microsoft kernel security, the CrowdStrike outage, AI, and how Microsoft plans to improve the resilience and security of the Windows ecosystem.</p>
+<p>As the world&#8217;s data has increasingly become associated with Microsoft infrastructure and exposed to Microsoft products, threat actors have focused their efforts on exploiting security weaknesses in the vendor&#8217;s operating system. Weston and Zetter explore how this has led Microsoft to raise the priority of security at the engineering level, even at the expense of curtailing operating system features.</p>
+<p>In addition, the conversation ranges over how the CrowdStrike outage of 2024 led Microsoft to a new focus on resilience and to the development of a user mode API to restrict access to the kernel to third party products. Weston also discusses the need for security vendors to implement secure deployment practices to better protect customers from rogue updates and tackles questions around the use of AI and the controversial Windows Recall feature.</p>
+<p><iframe src="https://www.youtube.com/embed/7ne9e0YUrQI" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<h2>About the Authors</h2>
+<p><a href="https://www.linkedin.com/in/dwizzzle/" target="_blank" rel="noopener noreferrer">David Weston</a> is the Vice President of enterprise and OS security at Microsoft where he is responsible for the security engineering of Windows, Azure Linux, XBOX, Windows Server, the Azure OS as well as the Offensive Security Research &amp; Engineering Team.</p>
+<p><a href="https://www.zetter-zeroday.com/" target="_blank" rel="noopener noreferrer">Kim Zetter</a> is an award-winning investigative journalist who has covered cybersecurity and national security for more than a decade, most notably for WIRED, where she wrote for thirteen years, and more recently for the New York Times Magazine, Politico, Washington Post, Motherboard, and Yahoo News. She has been voted one of the top ten security journalists in the country by security professionals and her journalism peers.</p>
+<h2>About LABScon</h2>
+<p>This presentation was featured live at <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon</a> 2024, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLABS.</p>
+<p>Keep up with all the latest on <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon 2025</a> here.</p>
+]]></content:encoded>
+					
+		
+		
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/weston-ftr.jpg" length="596345" type="image/jpeg" />	</item>
+		<item>
 		<title>LABScon24 Replay &#124; Farmyard Gossip: The Foreign Footprint in US Agriculture</title>
 		<link>https://www.sentinelone.com/labs/labscon24-replay-farmyard-gossip-the-foreign-footprint-in-us-agriculture/</link>
 		
@@ -83,7 +108,7 @@ C:\Windows\System32\regsvr32.exe /u /s "C:\Temp\Realtek(r)Audio.dll”
 <p>As a part of application protection provided by the obfuscator, the Downloader creates a copy of itself in memory, and then modifies it. It does so by decrypting additional code of the assembly. It also uses a clever evasion technique, altering its own PE header in memory and breaking internal links to the .NET assembly. This makes it impossible for security products to parse it as a .NET module.</p>
 <p>During code execution, after the protection layer passes control to core functionality, the Downloader writes a decoy Excel workbook file to <code>%AppData%\Roaming\Microsoft\temp.xlsx</code> and downloads additional file(s) from the Web.</p>
 <p>The <code>temp.xlsx</code> decoy file (<code>18151b3801bd716b5a33cfc85dbdc4ba84a00314</code>) is immediately opened in Excel in an attempt to make the victim believe that it contains the original content of the <code>политзаключенные (по судам минска).xls</code> file.</p>
-<figure id="attachment_114854" aria-describedby="caption-attachment-114854" style="width: 1999px" class="wp-caption aligncenter"><img decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11.jpg" alt="Decoy document containing lists of people with criminal charges, prosecutors’ and judges’ names" width="1999" height="803" class="size-full wp-image-114854" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11-300x121.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11-1024x411.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11-768x309.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11-1536x617.jpg 1536w" sizes="(max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-114854" class="wp-caption-text">Decoy document containing lists of people with criminal charges, prosecutors’ and judges’ names</figcaption></figure>
+<figure id="attachment_114854" aria-describedby="caption-attachment-114854" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11.jpg" alt="Decoy document containing lists of people with criminal charges, prosecutors’ and judges’ names" width="1999" height="803" class="size-full wp-image-114854" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11-300x121.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11-1024x411.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11-768x309.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_11-1536x617.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-114854" class="wp-caption-text">Decoy document containing lists of people with criminal charges, prosecutors’ and judges’ names</figcaption></figure>
 <p>The spreadsheet contains the names of people with criminal charges along with the names of prosecutors and judges: content that invites the reader to believe it could be leaked from a government source. However, the information was already in the public domain and can be found on the website of a proscribed Belarusian human rights organization, <a href="https://prisoners.spring96.org/ru/list" target="_blank" rel="noopener noreferrer">Spring96</a>.</p>
 <p>Once the decoy Excel file is opened, the Downloader attempts to fetch the next stage from the following URL:</p>
 <pre>
@@ -914,33 +939,5 @@ e2221e5c58a1a976e59fe1062c6db36d4951b81e &#8211; PHP file containing URL associa
 		
 		
 		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/11/Op-Digital-Eye-ftr.jpg" length="524719" type="image/jpeg" />	</item>
-		<item>
-		<title>LABScon24 Replay &#124; PKfail: Supply-Chain Failures in Secure Boot Key Management</title>
-		<link>https://www.sentinelone.com/labs/labscon24-replay-pkfail-supply-chain-failures-in-secure-boot-key-management/</link>
-		
-		<dc:creator><![CDATA[LABScon]]></dc:creator>
-		<pubDate>Tue, 03 Dec 2024 16:15:30 +0000</pubDate>
-				<category><![CDATA[labscon24]]></category>
-		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=110004</guid>
-
-					<description><![CDATA[Binarly’s Alex Matrosov and Fabio Pagani present PKfail, a firmware supply-chain security issue affecting major device vendors and hundreds of device models.]]></description>
-										<content:encoded><![CDATA[<p>Modern computing heavily relies on establishing and maintaining trust, which begins with trusted foundations and extends through operating systems and applications in a chain-like manner. This ensures that end users can confidently rely on the integrity of the underlying hardware, firmware, and software.</p>
-<p>One of the most prevalent mechanisms for enforcing trust in the UEFI firmware ecosystem is Secure Boot, which ensures that only digitally signed and verified software is executed during the system boot process, safeguarding against attacks on “external” firmware components and boot loaders. A key component of Secure Boot is the Platform Key (PK), the root-of-trust key used for managing the cryptographic material that validates external components and bootloaders before execution.</p>
-<p>Given its critical role, one would expect all best practices for cryptographic key management to be meticulously followed, but that has not always been the case. </p>
-<p>In this talk, Binarly’s Alex Matrosov and Fabio Pagani unveil PKfail, a firmware supply-chain security issue affecting major device vendors and hundreds of device models. PKfail is the result of shipping default test keys included by IBVs in their reference implementation—a problem known since 2016 but clearly forgotten by the firmware industry.</p>
-<p>Given these test keys leaked during various data breaches in the past few years, an attacker can leverage PKfail to completely bypass Secure Boot on affected devices. As Alex and Fabio  demonstrate in the presentation, PKfail makes it extremely straightforward to bootkit affected devices and to launch advanced firmware-level threats, such as BlackLotus.</p>
-<p>The speakers also offer a retrospective industry-wide analysis on PKfail, based on their extensive dataset of UEFI firmware images, spanning hundreds of product lines marketed over the past decade.</p>
-<p><iframe loading="lazy" src="https://www.youtube.com/embed/lTA2r_5kNhU" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<h2>About the Authors</h2>
-<p><a href="https://www.labscon.io/speakers/alex-matrosov/" rel="noopener" target="_blank">Alex Matrosov</a> is CEO and Founder of <a href="https://www.binarly.io/" rel="noopener" target="_blank">Binarly Inc</a>. where he builds an AI-powered platform to protect devices against emerging firmware threats. Alex has over two decades of experience with reverse engineering, advanced malware analysis, firmware security, and exploitation techniques.</p>
-<p><a href="https://www.labscon.io/speakers/fabio-pagani/" rel="noopener" target="_blank">Fabio Pagani</a> is a Vulnerability Research Lead at Binarly, where he works at the intersection of static and dynamic analysis techniques to help secure the UEFI ecosystem. As part of the Binarly REsearch team, he discovered LogoFAIL and helped affected vendors to identify and mitigate this vulnerability.</p>
-<h2>About LABScon</h2>
-<p>This presentation was featured live at <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon</a> 2024, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLabs.</p>
-<p>Keep up with all the latest on <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon 2025</a> here.</p>
-]]></content:encoded>
-					
-		
-		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/12/pkfail-ftr.jpg" length="539312" type="image/jpeg" />	</item>
 	</channel>
 </rss>
