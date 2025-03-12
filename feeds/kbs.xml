@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 11 Mar 2025 23:53:01 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 12 Mar 2025 13:43:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,7 @@
 	<item>
 		<title>Microsoft: 6 Zero-Days in March 2025 Patch Tuesday</title>
 		<link>https://krebsonsecurity.com/2025/03/microsoft-6-zero-days-in-march-2025-patch-tuesday/</link>
-					<comments>https://krebsonsecurity.com/2025/03/microsoft-6-zero-days-in-march-2025-patch-tuesday/#respond</comments>
+					<comments>https://krebsonsecurity.com/2025/03/microsoft-6-zero-days-in-march-2025-patch-tuesday/#comments</comments>
 		
 		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
 		<pubDate>Tue, 11 Mar 2025 23:53:01 +0000</pubDate>
@@ -58,7 +58,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/03/microsoft-6-zero-days-in-march-2025-patch-tuesday/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 			</item>
@@ -122,9 +122,9 @@
 					<description><![CDATA[In September 2023, KrebsOnSecurity published findings from security researchers who concluded that a series of six-figure cyberheists across dozens of victims resulted from thieves cracking master passwords stolen from the password manager service LastPass in 2022. In a court filing this week, U.S. federal agents investigating a spectacular $150 million cryptocurrency heist said they had reached the same conclusion.]]></description>
 										<content:encoded><![CDATA[<p>In September 2023, KrebsOnSecurity published findings from security researchers who concluded that a series of six-figure cyberheists across dozens of victims resulted from thieves cracking master passwords stolen from the password manager service <strong>LastPass</strong> in 2022. In a court filing this week, U.S. federal agents investigating a spectacular $150 million cryptocurrency heist said they had reached the same conclusion.</p>
 <p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-31264" src="https://krebsonsecurity.com/wp-content/uploads/2015/06/lastpass-580x132.png" alt="" width="580" height="132" srcset="https://krebsonsecurity.com/wp-content/uploads/2015/06/lastpass-580x132.png 580w, https://krebsonsecurity.com/wp-content/uploads/2015/06/lastpass.png 808w" sizes="(max-width: 580px) 100vw, 580px" /></p>
-<p>On March 6, federal prosecutors in northern California said they seized approximately $24 million worth of cryptocurrencies that were clawed back following a $150 million cyberheist on Jan. 30, 2024. The complaint refers to the person robbed only as &#8220;Victim-1,&#8221; but according to blockchain security researcher <strong>ZachXBT</strong> the theft was perpetrated against <strong>Chris Larsen</strong>, the co-founder of the cryptocurrency platform <strong>Ripple</strong>.</p>
-<p>ZachXBT was the <a href="https://x.com/zachxbt/status/1752694489905528943" target="_blank" rel="noopener">first to report on the heist</a>, of which approximately $24 million was frozen by the feds before it could be withdrawn. This week&#8217;s action by the government merely allows investigators to officially seize the frozen funds.</p>
-<p>But there is an important conclusion in this seizure document: It basically says the <strong>U.S. Secret Service</strong> and the <strong>FBI</strong> agree with the findings of <a href="https://krebsonsecurity.com/2023/09/experts-fear-crooks-are-cracking-keys-stolen-in-lastpass-breach/" target="_blank" rel="noopener">the LastPass breach story published here in September 2023</a>. That piece quoted security researchers who said they were witnessing six-figure crypto heists several times each month that they believed all appeared to be the result of crooks cracking master passwords for the password vaults stolen from LastPass in 2022.</p>
+<p>On March 6, federal prosecutors in northern California said they seized approximately $24 million worth of cryptocurrencies that were clawed back following a $150 million cyberheist on Jan. 30, 2024. The complaint refers to the person robbed only as &#8220;Victim-1,&#8221; but according to blockchain security researcher <strong>ZachXBT</strong> the theft was perpetrated against <strong>Chris Larsen</strong>, the co-founder of the cryptocurrency platform <strong>Ripple</strong>. ZachXBT was the <a href="https://x.com/zachxbt/status/1752694489905528943" target="_blank" rel="noopener">first to report on the heist</a>.</p>
+<p>This week&#8217;s action by the government merely allows investigators to officially seize the frozen funds. But there is an important conclusion in this seizure document: It basically says the <strong>U.S. Secret Service</strong> and the <strong>FBI</strong> agree with the findings of <a href="https://krebsonsecurity.com/2023/09/experts-fear-crooks-are-cracking-keys-stolen-in-lastpass-breach/" target="_blank" rel="noopener">the LastPass breach story published here in September 2023</a>.</p>
+<p>That piece quoted security researchers who said they were witnessing six-figure crypto heists several times each month that all appeared to be the result of crooks cracking master passwords for the password vaults stolen from LastPass in 2022.</p>
 <p>&#8220;The Federal Bureau of Investigation has been investigating these data breaches, and law enforcement agents investigating the instant case have spoken with FBI agents about their investigation,&#8221; reads the seizure complaint, which was written by a U.S. Secret Service agent. &#8220;From those conversations, law enforcement agents in this case learned that the stolen data and passwords that were stored in several victims’ online password manager accounts were used to illegally, and without authorization, access the victims’ electronic accounts and steal information, cryptocurrency, and other data.&#8221;</p>
 <p>The document continues:</p>
 <p>&#8220;Based on this investigation, law enforcement had probable cause to believe the same attackers behind the above-described commercial online password manager attack used a stolen password held in Victim 1’s online password manager account and, without authorization, accessed his cryptocurrency wallet/account.&#8221;</p>
@@ -147,7 +147,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/03/feds-link-150m-cyberheist-to-2022-lastpass-hacks/feed/</wfw:commentRss>
-			<slash:comments>60</slash:comments>
+			<slash:comments>54</slash:comments>
 		
 		
 			</item>
@@ -667,8 +667,8 @@ tsarinahome.com</p>
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 265/265 objects using memcached
-Page Caching using memcached 
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-03-12 08:23:26 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-03-12 10:03:33 by W3 Total Cache
 -->
