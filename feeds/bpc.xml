@@ -11,11 +11,71 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 12 Mar 2025 10:00:20 EDT</pubDate>
+        <pubDate>Wed, 12 Mar 2025 11:03:05 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Mozilla warns users to update Firefox before certificate expires</title>
+        <link>https://www.bleepingcomputer.com/news/software/mozilla-warns-users-to-update-firefox-before-certificate-expires/</link>
+        <pubDate>Wed, 12 Mar 2025 11:01:53 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Software]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/software/mozilla-warns-users-to-update-firefox-before-certificate-expires/</guid>
+	<description><![CDATA[Mozilla is warning Firefox users to update their browsers to the latest version to avoid facing disruption and security risks caused by the upcoming expiration of one of the company's root certificates. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft patches Windows Kernel zero-day exploited since 2023</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-windows-kernel-zero-day-exploited-since-2023/</link>
+        <pubDate>Wed, 12 Mar 2025 10:30:54 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-windows-kernel-zero-day-exploited-since-2023/</guid>
+	<description><![CDATA[Slovak cybersecurity company ESET says a newly patched zero-day vulnerability in the Windows Win32 Kernel Subsystem has been exploited in attacks since March 2023. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Browser-Based Data Leaks: 3 Biggest Data Security Challenges Today</title>
+        <link>https://www.bleepingcomputer.com/news/security/browser-based-data-leaks-3-biggest-data-security-challenges-today/</link>
+        <pubDate>Wed, 12 Mar 2025 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by Keep Aware</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/browser-based-data-leaks-3-biggest-data-security-challenges-today/</guid>
+	<description><![CDATA[Traditional Data Loss Prevention (DLP) solutions weren't built for today's browser-driven workplace. Now sensitive data moves moves through SaaS apps, AI tools, and personal accounts, bypassing legacy security controls. Learn from Keep Aware how real-time browser security can stop data leaks before they happen. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Chinese cyberspies backdoor Juniper routers for stealthy access</title>
+        <link>https://www.bleepingcomputer.com/news/security/chinese-cyberspies-backdoor-juniper-routers-for-stealthy-access/</link>
+        <pubDate>Wed, 12 Mar 2025 10:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/chinese-cyberspies-backdoor-juniper-routers-for-stealthy-access/</guid>
+	<description><![CDATA[Chinese hackers are deploying custom backdoors on Juniper Networks Junos OS MX routers that have reached end-of-life (EoL) and no longer receive security updates. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: Recent Windows updates make USB printers print random text</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-usb-printers-print-random-text-after-recent-windows-updates/</link>
@@ -150,50 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/critical-php-rce-vulnerability-mass-exploited-in-new-attacks/</guid>
 	<description><![CDATA[Threat intelligence company GreyNoise warns that a critical PHP remote code execution vulnerability that impacts Windows systems is now under mass exploitation. [...]]]></description>
- </item>
-
- <item>
-        <title>The AI race: Dark AI is in the lead, but good AI is catching up</title>
-        <link>https://www.bleepingcomputer.com/news/security/the-ai-race-dark-ai-is-in-the-lead-but-good-ai-is-catching-up/</link>
-        <pubDate>Tue, 11 Mar 2025 10:05:33 -0400</pubDate>
-        <dc:creator>Sponsored by Acronis</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/the-ai-race-dark-ai-is-in-the-lead-but-good-ai-is-catching-up/</guid>
-	<description><![CDATA[Cybercriminals are using AI for help in planning and conducting cyberattacks—but cybersecurity vendors are fighting back. Learn from Acronis Threat Research Unit about how AI-powered security solutions are closing the gap in the battle against AI-driven cyber threats. [...]]]></description>
- </item>
-
- <item>
-        <title>PowerSchool previously hacked in August, months before data breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/powerschool-previously-hacked-in-august-months-before-data-breach/</link>
-        <pubDate>Tue, 11 Mar 2025 09:42:53 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Education]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/powerschool-previously-hacked-in-august-months-before-data-breach/</guid>
-	<description><![CDATA[PowerSchool has published a long-awaited CrowdStrike investigation into its massive December 2024 data breach, which determined that the company was previously hacked over 4 months earlier, in August, and then again in September. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA tags critical Ivanti EPM flaws as actively exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-tags-critical-ivanti-epm-flaws-as-actively-exploited-in-attacks/</link>
-        <pubDate>Tue, 11 Mar 2025 09:01:04 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-tags-critical-ivanti-epm-flaws-as-actively-exploited-in-attacks/</guid>
-	<description><![CDATA[CISA warned U.S. federal agencies to secure their networks against attacks exploiting three critical vulnerabilities affecting Ivanti Endpoint Manager (EPM) appliances. [...]]]></description>
  </item>
 
 </channel>
