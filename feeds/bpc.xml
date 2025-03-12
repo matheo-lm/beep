@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 12 Mar 2025 14:58:19 EDT</pubDate>
+        <pubDate>Wed, 12 Mar 2025 16:02:30 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA: Medusa ransomware hit over 300 critical infrastructure orgs</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-300-critical-infrastructure-orgs/</link>
+        <pubDate>Wed, 12 Mar 2025 15:26:29 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-300-critical-infrastructure-orgs/</guid>
+	<description><![CDATA[CISA says the Medusa ransomware operation has impacted over 300 organizations in critical infrastructure sectors in the United States until last month. [...]]]></description>
+ </item>
+
  <item>
         <title>New North Korean Android spyware slips onto Google Play</title>
         <link>https://www.bleepingcomputer.com/news/security/new-north-korean-android-spyware-slips-onto-google-play/</link>
@@ -198,20 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5053598-and-kb5053602-cumulative-updates-released/</guid>
 	<description><![CDATA[Microsoft has released Windows 11 KB5053598 and KB5053602  cumulative updates for versions 24H2 and 23H2 to fix security vulnerabilities and issues. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft replacing Remote Desktop app with Windows App in May</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-replacing-remote-desktop-app-with-windows-app-in-may/</link>
-        <pubDate>Tue, 11 Mar 2025 12:27:53 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-replacing-remote-desktop-app-with-windows-app-in-may/</guid>
-	<description><![CDATA[Microsoft announced that it will drop support for the Remote Desktop app (available via the Microsoft Store) on May 27 and replace it with its new Windows App. [...]]]></description>
  </item>
 
 </channel>
