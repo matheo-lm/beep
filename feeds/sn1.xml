@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Tue, 11 Mar 2025 17:06:15 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 12 Mar 2025 15:56:53 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -29,12 +29,12 @@
 		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=115081</guid>
 
 					<description><![CDATA[Kim Zetter interviews David Weston on topics such as the fallout from the CrowdStrike outage, Windows Recall and improving Microsoft security. ]]></description>
-										<content:encoded><![CDATA[<p>In this exclusive interview at LABScon 2024, award-winning investigative journalist Kim Zetter and Microsoft VP of Enterprise and OS Security David Weston discuss Microsoft kernel security, the CrowdStrike outage, AI, and how Microsoft plans to improve the resilience and security of the Windows ecosystem.</p>
+										<content:encoded><![CDATA[<p>In this exclusive interview at LABScon 2024, award-winning investigative journalist Kim Zetter and Microsoft Corporate VP Enterprise and OS Security David Weston discuss Microsoft kernel security, the CrowdStrike outage, AI, and how Microsoft plans to improve the resilience and security of the Windows ecosystem.</p>
 <p>As the world&#8217;s data has increasingly become associated with Microsoft infrastructure and exposed to Microsoft products, threat actors have focused their efforts on exploiting security weaknesses in the vendor&#8217;s operating system. Weston and Zetter explore how this has led Microsoft to raise the priority of security at the engineering level, even at the expense of curtailing operating system features.</p>
 <p>In addition, the conversation ranges over how the CrowdStrike outage of 2024 led Microsoft to a new focus on resilience and to the development of a user mode API to restrict access to the kernel to third party products. Weston also discusses the need for security vendors to implement secure deployment practices to better protect customers from rogue updates and tackles questions around the use of AI and the controversial Windows Recall feature.</p>
 <p><iframe src="https://www.youtube.com/embed/7ne9e0YUrQI" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <h2>About the Authors</h2>
-<p><a href="https://www.linkedin.com/in/dwizzzle/" target="_blank" rel="noopener noreferrer">David Weston</a> is the Vice President of enterprise and OS security at Microsoft where he is responsible for the security engineering of Windows, Azure Linux, XBOX, Windows Server, the Azure OS as well as the Offensive Security Research &amp; Engineering Team.</p>
+<p><a href="https://www.linkedin.com/in/dwizzzle/" target="_blank" rel="noopener noreferrer">David Weston</a> is Corporate Vice President, Enterprise and OS Security at Microsoft where he is responsible for the security engineering of Windows, Azure Linux, XBOX, Windows Server, the Azure OS as well as the Offensive Security Research &amp; Engineering Team.</p>
 <p><a href="https://www.zetter-zeroday.com/" target="_blank" rel="noopener noreferrer">Kim Zetter</a> is an award-winning investigative journalist who has covered cybersecurity and national security for more than a decade, most notably for WIRED, where she wrote for thirteen years, and more recently for the New York Times Magazine, Politico, Washington Post, Motherboard, and Yahoo News. She has been voted one of the top ten security journalists in the country by security professionals and her journalism peers.</p>
 <h2>About LABScon</h2>
 <p>This presentation was featured live at <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon</a> 2024, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLABS.</p>
