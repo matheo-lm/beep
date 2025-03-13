@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description></description>
-	<lastBuildDate>Wed, 12 Mar 2025 19:01:52 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 12 Mar 2025 21:33:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,24 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>#StopRansomware: Medusa Ransomware</title>
+		<link>https://databreaches.net/2025/03/13/stopransomware-medusa-ransomware/</link>
+					<comments>https://databreaches.net/2025/03/13/stopransomware-medusa-ransomware/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Thu, 13 Mar 2025 11:00:07 +0000</pubDate>
+				<category><![CDATA[Commentaries and Analyses]]></category>
+		<category><![CDATA[Malware]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=120879</guid>
+
+					<description><![CDATA[Release Date: March 12, 2025 Alert Code: AA25-071A Summary Note: This joint Cybersecurity Advisory is part of an ongoing #StopRansomware effort to publish advisories for network defenders detailing various ransomware variants and ransomware threat actors. These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/03/13/stopransomware-medusa-ransomware/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Takeaways from our investigation on AI-powered school surveillance</title>
 		<link>https://databreaches.net/2025/03/12/takeaways-from-our-investigation-on-ai-powered-school-surveillance/</link>
 					<comments>https://databreaches.net/2025/03/12/takeaways-from-our-investigation-on-ai-powered-school-surveillance/#respond</comments>
@@ -189,24 +207,6 @@
 					<description><![CDATA[The Akira ransomware gang exploited an unsecured webcam to bypass EDR and launch encryption attacks on a victim’s network. Pierluigi Paganini reports: Cybersecurity researchers at S-RM team discovered a novel attack technique used by the Akira ransomware gang. The ransomware group used an unsecured webcam to encrypt systems within a target’s network, bypassing Endpoint Detection...]]></description>
 		
 					<wfw:commentRss>https://databreaches.net/2025/03/09/akira-ransomware-gang-used-an-unsecured-webcam-to-bypass-edr/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>SSK Plastic Surgery discloses it experienced a hack and extortion attempt in 2024</title>
-		<link>https://databreaches.net/2025/03/08/ssk-plastic-surgery-discloses-it-experienced-a-hack-and-extortion-attempt-in-2024/</link>
-					<comments>https://databreaches.net/2025/03/08/ssk-plastic-surgery-discloses-it-experienced-a-hack-and-extortion-attempt-in-2024/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Sat, 08 Mar 2025 13:31:34 +0000</pubDate>
-				<category><![CDATA[Hack]]></category>
-		<category><![CDATA[Health Data]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=120819</guid>
-
-					<description><![CDATA[Another plastic surgery practice has revealed that it was the victim of a cyberattack with an extortion demand. SSK Plastic Surgery in California recently notified the California Attorney General&#8217;s Office of an incident. The state&#8217;s website indicates that SSK Plastic Surgery reported that the breach occurred on March 20, 2024 and was discovered or ended...]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/03/08/ssk-plastic-surgery-discloses-it-experienced-a-hack-and-extortion-attempt-in-2024/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
