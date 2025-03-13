@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 13 Mar 2025 11:02:02 EDT</pubDate>
+        <pubDate>Thu, 13 Mar 2025 12:01:48 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ClickFix attack delivers infostealers, RATs in fake Booking.com emails</title>
+        <link>https://www.bleepingcomputer.com/news/security/clickfix-attack-delivers-infostealers-rats-in-fake-bookingcom-emails/</link>
+        <pubDate>Thu, 13 Mar 2025 11:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/clickfix-attack-delivers-infostealers-rats-in-fake-bookingcom-emails/</guid>
+	<description><![CDATA[Microsoft is warning that an ongoing phishing campaign impersonating Booking.com is using ClickFix social engineering attacks to infect hospitality workers with various malware, including infostealers and RATs. [...]]]></description>
+ </item>
+
  <item>
         <title>Red Report 2025: Unmasking a 3X Spike in Credential Theft and Debunking the AI Hype</title>
         <link>https://www.bleepingcomputer.com/news/security/red-report-2025-unmasking-a-3x-spike-in-credential-theft-and-debunking-the-ai-hype/</link>
@@ -178,22 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/north-korean-lazarus-hackers-infect-hundreds-via-npm-packages/</guid>
 	<description><![CDATA[Six malicious packages have been identified on npm (Node package manager) linked to the notorious North Korean hacking group Lazarus. [...]]]></description>
- </item>
-
- <item>
-        <title>Apple fixes WebKit zero-day exploited in ‘extremely sophisticated’ attacks</title>
-        <link>https://www.bleepingcomputer.com/news/apple/apple-fixes-webkit-zero-day-exploited-in-extremely-sophisticated-attacks/</link>
-        <pubDate>Tue, 11 Mar 2025 14:43:35 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Apple]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/apple/apple-fixes-webkit-zero-day-exploited-in-extremely-sophisticated-attacks/</guid>
-	<description><![CDATA[Apple has released emergency security updates to patch a zero-day bug the company describes as exploited in "extremely sophisticated" attacks. [...]]]></description>
  </item>
 
 </channel>
