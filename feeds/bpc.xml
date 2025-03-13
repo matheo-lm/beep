@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 13 Mar 2025 09:06:37 EDT</pubDate>
+        <pubDate>Thu, 13 Mar 2025 10:01:43 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Red Report 2025: Unmasking a 3X Spike in Credential Theft and Debunking the AI Hype</title>
+        <link>https://www.bleepingcomputer.com/news/security/red-report-2025-unmasking-a-3x-spike-in-credential-theft-and-debunking-the-ai-hype/</link>
+        <pubDate>Thu, 13 Mar 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Picus Security</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/red-report-2025-unmasking-a-3x-spike-in-credential-theft-and-debunking-the-ai-hype/</guid>
+	<description><![CDATA[Credential theft surged 3× in a year—but AI-powered malware? More hype than reality. The Red Report 2025 by Picus Labs reveals attackers still rely on proven tactics like stealth & automation to execute the "perfect heist." [...]]]></description>
+ </item>
+
  <item>
         <title>Facebook discloses FreeType 2 flaw exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/facebook-discloses-freetype-2-flaw-exploited-in-attacks/</link>
@@ -180,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/apple/apple-fixes-webkit-zero-day-exploited-in-extremely-sophisticated-attacks/</guid>
 	<description><![CDATA[Apple has released emergency security updates to patch a zero-day bug the company describes as exploited in "extremely sophisticated" attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 10 KB5053606 update fixes broken SSH connections</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5053606-update-fixes-broken-ssh-connections/</link>
-        <pubDate>Tue, 11 Mar 2025 14:31:32 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5053606-update-fixes-broken-ssh-connections/</guid>
-	<description><![CDATA[Microsoft has released the KB5053606 cumulative update for Windows 10 22H2 and Windows 10 21H2, which fixes numerous bugs, including one preventing SSH connections. [...]]]></description>
  </item>
 
 </channel>
