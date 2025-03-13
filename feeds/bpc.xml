@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 13 Mar 2025 12:01:48 EDT</pubDate>
+        <pubDate>Thu, 13 Mar 2025 13:02:49 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Juniper patches bug that let Chinese cyberspies backdoor routers</title>
+        <link>https://www.bleepingcomputer.com/news/security/juniper-patches-bug-that-let-chinese-cyberspies-backdoor-routers-since-mid-2024/</link>
+        <pubDate>Thu, 13 Mar 2025 12:40:07 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/juniper-patches-bug-that-let-chinese-cyberspies-backdoor-routers-since-mid-2024/</guid>
+	<description><![CDATA[​Juniper Networks has released emergency security updates to patch a Junos OS vulnerability exploited by Chinese hackers to backdoor routers for stealthy access. [...]]]></description>
+ </item>
+
+ <item>
+        <title>GitLab patches critical authentication bypass vulnerabilities</title>
+        <link>https://www.bleepingcomputer.com/news/security/gitlab-patches-critical-authentication-bypass-vulnerabilities/</link>
+        <pubDate>Thu, 13 Mar 2025 12:13:28 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/gitlab-patches-critical-authentication-bypass-vulnerabilities/</guid>
+	<description><![CDATA[GitLab released security updates for Community Edition (CE) and Enterprise Edition (EE), fixing nine vulnerabilities, among which two critical severity ruby-saml library authentication bypass flaws. [...]]]></description>
+ </item>
+
  <item>
         <title>ClickFix attack delivers infostealers, RATs in fake Booking.com emails</title>
         <link>https://www.bleepingcomputer.com/news/security/clickfix-attack-delivers-infostealers-rats-in-fake-bookingcom-emails/</link>
@@ -162,36 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/chinese-cyberspies-backdoor-juniper-routers-for-stealthy-access/</guid>
 	<description><![CDATA[Chinese hackers are deploying custom backdoors on Juniper Networks Junos OS MX routers that have reached end-of-life (EoL) and no longer receive security updates. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Recent Windows updates make USB printers print random text</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-usb-printers-print-random-text-after-recent-windows-updates/</link>
-        <pubDate>Wed, 12 Mar 2025 06:53:25 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-usb-printers-print-random-text-after-recent-windows-updates/</guid>
-	<description><![CDATA[Microsoft says that some USB printers will start printing random text after installing Windows updates released since late January 2025. [...]]]></description>
- </item>
-
- <item>
-        <title>North Korean Lazarus hackers infect hundreds via npm packages</title>
-        <link>https://www.bleepingcomputer.com/news/security/north-korean-lazarus-hackers-infect-hundreds-via-npm-packages/</link>
-        <pubDate>Tue, 11 Mar 2025 16:42:19 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/north-korean-lazarus-hackers-infect-hundreds-via-npm-packages/</guid>
-	<description><![CDATA[Six malicious packages have been identified on npm (Node package manager) linked to the notorious North Korean hacking group Lazarus. [...]]]></description>
  </item>
 
 </channel>
