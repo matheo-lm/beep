@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 13 Mar 2025 15:01:46 EDT</pubDate>
+        <pubDate>Thu, 13 Mar 2025 16:02:40 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New SuperBlack ransomware exploits Fortinet auth bypass flaws</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-superblack-ransomware-exploits-fortinet-auth-bypass-flaws/</link>
+        <pubDate>Thu, 13 Mar 2025 15:57:33 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-superblack-ransomware-exploits-fortinet-auth-bypass-flaws/</guid>
+	<description><![CDATA[A new ransomware operator named 'Mora_001' is exploiting two Fortinet vulnerabilities to gain unauthorized access to firewall appliances and deploy a custom ransomware strain dubbed SuperBlack. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows Notepad to get AI text summarization in Windows 11</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-notepad-to-get-ai-text-summarization-in-windows-11/</link>
+        <pubDate>Thu, 13 Mar 2025 15:45:55 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-notepad-to-get-ai-text-summarization-in-windows-11/</guid>
+	<description><![CDATA[Microsoft is now testing an AI-powered text summarization feature in Notepad and a Snipping Tool "Draw & Hold" feature that helps draw perfect shapes. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft says button to restore classic Outlook is broken</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-button-to-restore-classic-outlook-is-broken/</link>
@@ -160,50 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/software/mozilla-warns-users-to-update-firefox-before-certificate-expires/</guid>
 	<description><![CDATA[Mozilla is warning Firefox users to update their browsers to the latest version to avoid facing disruption and security risks caused by the upcoming expiration of one of the company's root certificates. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft patches Windows Kernel zero-day exploited since 2023</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-windows-kernel-zero-day-exploited-since-2023/</link>
-        <pubDate>Wed, 12 Mar 2025 10:30:54 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-windows-kernel-zero-day-exploited-since-2023/</guid>
-	<description><![CDATA[Slovak cybersecurity company ESET says a newly patched zero-day vulnerability in the Windows Win32 Kernel Subsystem has been exploited in attacks since March 2023. [...]]]></description>
- </item>
-
- <item>
-        <title>Browser-Based Data Leaks: 3 Biggest Data Security Challenges Today</title>
-        <link>https://www.bleepingcomputer.com/news/security/browser-based-data-leaks-3-biggest-data-security-challenges-today/</link>
-        <pubDate>Wed, 12 Mar 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by Keep Aware</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/browser-based-data-leaks-3-biggest-data-security-challenges-today/</guid>
-	<description><![CDATA[Traditional Data Loss Prevention (DLP) solutions weren't built for today's browser-driven workplace. Now sensitive data moves moves through SaaS apps, AI tools, and personal accounts, bypassing legacy security controls. Learn from Keep Aware how real-time browser security can stop data leaks before they happen. [...]]]></description>
- </item>
-
- <item>
-        <title>Chinese cyberspies backdoor Juniper routers for stealthy access</title>
-        <link>https://www.bleepingcomputer.com/news/security/chinese-cyberspies-backdoor-juniper-routers-for-stealthy-access/</link>
-        <pubDate>Wed, 12 Mar 2025 10:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/chinese-cyberspies-backdoor-juniper-routers-for-stealthy-access/</guid>
-	<description><![CDATA[Chinese hackers are deploying custom backdoors on Juniper Networks Junos OS MX routers that have reached end-of-life (EoL) and no longer receive security updates. [...]]]></description>
  </item>
 
 </channel>
