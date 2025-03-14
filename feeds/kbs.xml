@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 12 Mar 2025 13:43:08 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 14 Mar 2025 22:15:27 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,52 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>ClickFix: How to Infect Your PC in Three Easy Steps</title>
+		<link>https://krebsonsecurity.com/2025/03/clickfix-how-to-infect-your-pc-in-three-easy-steps/</link>
+					<comments>https://krebsonsecurity.com/2025/03/clickfix-how-to-infect-your-pc-in-three-easy-steps/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Fri, 14 Mar 2025 22:15:27 +0000</pubDate>
+				<category><![CDATA[Other]]></category>
+		<category><![CDATA[Arctic Wolf]]></category>
+		<category><![CDATA[booking.com]]></category>
+		<category><![CDATA[ClickFix]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Google Chrome]]></category>
+		<category><![CDATA[Microsoft Office]]></category>
+		<category><![CDATA[Microsoft Windows]]></category>
+		<category><![CDATA[mshta.exe]]></category>
+		<category><![CDATA[proofpoint]]></category>
+		<category><![CDATA[U.S. Department of Health and Human Services]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70700</guid>
+
+					<description><![CDATA[A clever malware deployment scheme first spotted in targeted attacks last year has now gone mainstream. In this scam, dubbed "ClickFix," the visitor to a hacked or malicious website is asked to distinguish themselves from bots by pressing a combination of keyboard keys that causes Microsoft Windows to download password-stealing malware.]]></description>
+										<content:encoded><![CDATA[<p>A clever malware deployment scheme <a href="https://krebsonsecurity.com/2024/09/this-windows-powershell-phish-has-scary-potential/" target="_blank" rel="noopener">first spotted in targeted attacks last year</a> has now gone mainstream. In this scam, dubbed &#8220;<strong>ClickFix</strong>,&#8221; the visitor to a hacked or malicious website is asked to distinguish themselves from bots by pressing a combination of keyboard keys that causes <strong>Microsoft Windows</strong> to download password-stealing malware.</p>
+<p>ClickFix attacks mimic the &#8220;Verify You are a Human&#8221; tests that many websites use to separate real visitors from content-scraping bots. This particular scam usually starts with a website popup that looks something like this:</p>
+<div id="attachment_68856" style="width: 793px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-68856" decoding="async" class="size-full wp-image-68856" src="https://krebsonsecurity.com/wp-content/uploads/2024/09/verifyhuman.png" alt="" width="783" height="397" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/09/verifyhuman.png 783w, https://krebsonsecurity.com/wp-content/uploads/2024/09/verifyhuman-768x389.png 768w" sizes="(max-width: 783px) 100vw, 783px" /><p id="caption-attachment-68856" class="wp-caption-text">This malware attack pretends to be a CAPTCHA intended to separate humans from bots.</p></div>
+<p>Clicking the &#8220;I&#8217;m not a robot&#8221; button generates a pop-up message asking the user to take three sequential steps to prove their humanity.</p>
+<div id="attachment_70703" style="width: 634px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70703" decoding="async" loading="lazy" class="wp-image-70703 size-full" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/verifsteps.png" alt="" width="624" height="339" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/03/verifsteps.png 624w, https://krebsonsecurity.com/wp-content/uploads/2025/03/verifsteps-370x200.png 370w" sizes="(max-width: 624px) 100vw, 624px" /><p id="caption-attachment-70703" class="wp-caption-text">Executing this series of keypresses prompts Windows to download password-stealing malware.</p></div>
+<p>Step 1 involves simultaneously pressing the keyboard key with the Windows icon and the letter &#8220;R,&#8221; which opens a Windows &#8220;Run&#8221; prompt that will execute any specified program that is already installed on the system.</p>
+<p>Step 2 asks the user to press the &#8220;CTRL&#8221; key and the letter &#8220;V&#8221; at the same time, which pastes malicious code from the site&#8217;s virtual clipboard.</p>
+<p>Step 3 — pressing the “Enter” key — causes Windows to download and launch malicious code through &#8220;<strong>mshta.exe</strong>,&#8221; a Windows program designed to run Microsoft HTML application files.</p>
+<p>&#8220;This campaign delivers multiple families of commodity malware, including XWorm, Lumma stealer, VenomRAT, AsyncRAT, Danabot, and NetSupport RAT,&#8221; <strong>Microsoft</strong> wrote in <a href="https://www.microsoft.com/en-us/security/blog/2025/03/13/phishing-campaign-impersonates-booking-com-delivers-a-suite-of-credential-stealing-malware/" target="_blank" rel="noopener">a blog post</a> on Thursday. &#8220;Depending on the specific payload, the specific code launched through mshta.exe varies. Some samples have downloaded PowerShell, JavaScript, and portable executable (PE) content.&#8221;</p>
+<p>According to Microsoft, hospitality workers are being tricked into downloading credential-stealing malware by cybercriminals impersonating <strong>Booking.com</strong>. The company said attackers have been sending malicious emails impersonating Booking.com, often referencing negative guest reviews, requests from prospective guests, or online promotion opportunities &#8212; all in a bid to convince people to step through one of these ClickFix attacks.<span id="more-70700"></span></p>
+<p>In November 2024, KrebsOnSecurity reported that hundreds of hotels that use booking.com had been subject to targeted phishing attacks. Some of those lures worked, and allowed thieves to <a href="https://krebsonsecurity.com/2024/11/booking-com-phishers-may-leave-you-with-reservations/" target="_blank" rel="noopener">gain control over booking.com accounts</a>. From there, they sent out phishing messages asking for financial information from people who&#8217;d just booked travel through the company&#8217;s app.</p>
+<p>Earlier this month, the security firm <strong>Arctic Wolf</strong> <a href="https://arcticwolf.com/resources/blog/healthcare-sector-targeted-by-fake-captcha-attack-on-hep2go-to-deliver-infostealer-malware/" target="_blank" rel="noopener">warned</a> about ClickFix attacks targeting people working in the healthcare sector. The company said those attacks leveraged malicious code stitched into the widely used physical therapy video site HEP2go that redirected visitors to a ClickFix prompt.</p>
+<p>An <a href="https://www.hhs.gov/sites/default/files/clickfix-attacks-sector-alert-tlpclear.pdf" target="_blank" rel="noopener">alert</a> (PDF) released in October 2024 by the <strong>U.S. Department of Health and Human Services</strong> warned that the ClickFix attack can take many forms, including fake <strong>Google Chrome</strong> error pages and popups that spoof <strong>Facebook</strong>.</p>
+<div id="attachment_70706" style="width: 1182px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70706" decoding="async" loading="lazy" class="size-full wp-image-70706" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/hhs-clickfix.png" alt="" width="1172" height="745" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/03/hhs-clickfix.png 1172w, https://krebsonsecurity.com/wp-content/uploads/2025/03/hhs-clickfix-768x488.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/03/hhs-clickfix-782x497.png 782w" sizes="(max-width: 1172px) 100vw, 1172px" /><p id="caption-attachment-70706" class="wp-caption-text">ClickFix tactic used by malicious websites impersonating Google Chrome, Facebook, PDFSimpli, and reCAPTCHA. Source: Sekoia.</p></div>
+<p>The ClickFix attack &#8212; and its reliance on mshta.exe &#8212; is reminiscent of phishing techniques employed for years that hid exploits inside <strong>Microsoft Office</strong> <strong>macros</strong>. Malicious macros became such a common malware threat that Microsoft was forced to start blocking macros by default in Office documents that try to download content from the web.</p>
+<p>Alas, the email security vendor <strong>Proofpoint</strong> has <a href="https://www.proofpoint.com/us/blog/threat-insight/security-brief-clickfix-social-engineering-technique-floods-threat-landscape" target="_blank" rel="noopener">documented</a> plenty of ClickFix attacks via phishing emails that include HTML attachments spoofing Microsoft Office files. When opened, the attachment displays an image of Microsoft Word document with a pop-up error message directing users to click the &#8220;Solution&#8221; or &#8220;How to Fix&#8221; button.</p>
+<div id="attachment_70707" style="width: 759px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/03/proofpoint-clickfix.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-70707" decoding="async" loading="lazy" class="wp-image-70707" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/proofpoint-clickfix.png" alt="" width="749" height="278" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/03/proofpoint-clickfix.png 1294w, https://krebsonsecurity.com/wp-content/uploads/2025/03/proofpoint-clickfix-768x285.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/03/proofpoint-clickfix-782x290.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></a><p id="caption-attachment-70707" class="wp-caption-text">HTML files containing ClickFix instructions. Examples for attachments named “Report_” (on the left) and “scan_doc_” (on the right). Image: Proofpoint.</p></div>
+<p>Organizations that wish to do so can take advantage of <a href="https://m.majorgeeks.com/content/page/disable_run_command.html" target="_blank" rel="noopener">Microsoft Group Policy restrictions</a> to prevent Windows from executing the &#8220;run&#8221; command when users hit the Windows key and the &#8220;R&#8221; key simultaneously.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/03/clickfix-how-to-infect-your-pc-in-three-easy-steps/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Microsoft: 6 Zero-Days in March 2025 Patch Tuesday</title>
 		<link>https://krebsonsecurity.com/2025/03/microsoft-6-zero-days-in-march-2025-patch-tuesday/</link>
 					<comments>https://krebsonsecurity.com/2025/03/microsoft-6-zero-days-in-march-2025-patch-tuesday/#comments</comments>
@@ -42,7 +88,7 @@
 
 					<description><![CDATA[Microsoft today issued more than 50 security updates for its various Windows operating systems, including fixes for a whopping six zero-day vulnerabilities that are already seeing active exploitation.]]></description>
 										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today issued more than 50 security updates for its various <strong>Windows</strong> operating systems, including fixes for a whopping <em>six zero-day vulnerabilities</em> that are already seeing active exploitation.</p>
-<p><img decoding="async" class="aligncenter wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
 <p>Two of the zero-day flaws include <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24991" target="_blank" rel="noopener">CVE-2025-24991</a> and <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24993" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24993&amp;source=gmail&amp;ust=1741811978241000&amp;usg=AOvVaw08YeX5TKKSxWlXHXx6FFHl">CVE-2025-24993</a>, both vulnerabilities in <strong>NTFS</strong>, the default file system for Windows and Windows Server. Both require the attacker to trick a target into mounting a malicious virtual hard disk. CVE-2025-24993 would lead to the possibility of local code execution, while CVE-2025-24991 could cause NTFS to disclose portions of memory.</p>
 <p>Microsoft credits researchers at <strong>ESET</strong> with reporting the zero-day bug labeled <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24983" target="_blank" rel="noopener">CVE-2025-24983</a>, an elevation of privilege vulnerability in older versions of Windows. ESET said the exploit was deployed via the <a href="https://www.kaspersky.com/about/press-releases/kaspersky-uncovers-pipemagic-backdoor-attacks-businesses-through-fake-chatgpt-application" target="_blank" rel="noopener">PipeMagic backdoor</a>, capable of exfiltrating data and enabling remote access to the machine.</p>
 <p>ESET&#8217;s <strong>Filip</strong> <b>Jurčacko </b>said the exploit in the wild targets only older versions of Windows OS: Windows 8.1 and Server 2012 R2. Although still used by millions, security support for these products ended more than a year ago, and mainstream support ended years ago. However, ESET notes the vulnerability itself also is present in newer Windows OS versions, including <strong>Windows 10 build 1809</strong> and the still-supported <strong>Windows Server 2016</strong>.</p>
@@ -610,65 +656,15 @@ tsarinahome.com</p>
 		
 		
 			</item>
-		<item>
-		<title>Microsoft Patch Tuesday, February 2025 Edition</title>
-		<link>https://krebsonsecurity.com/2025/02/microsoft-patch-tuesday-february-2025-edition/</link>
-					<comments>https://krebsonsecurity.com/2025/02/microsoft-patch-tuesday-february-2025-edition/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Wed, 12 Feb 2025 04:58:37 +0000</pubDate>
-				<category><![CDATA[Other]]></category>
-		<category><![CDATA[Time to Patch]]></category>
-		<category><![CDATA[Adam Barnett]]></category>
-		<category><![CDATA[adobe]]></category>
-		<category><![CDATA[apple]]></category>
-		<category><![CDATA[CVE-2024-38193]]></category>
-		<category><![CDATA[CVE-2025-21377]]></category>
-		<category><![CDATA[CVE-2025-21391]]></category>
-		<category><![CDATA[CVE-2025-21418]]></category>
-		<category><![CDATA[Google Chrome]]></category>
-		<category><![CDATA[Microsoft 365 Copilot]]></category>
-		<category><![CDATA[Microsoft Patch Tuesday February 2025]]></category>
-		<category><![CDATA[Rapid7]]></category>
-		<category><![CDATA[sans internet storm center]]></category>
-		<category><![CDATA[Satnam Narang]]></category>
-		<category><![CDATA[Tenable]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70396</guid>
-
-					<description><![CDATA[Microsoft today issued security updates to fix at least 56 vulnerabilities in its Windows operating systems and supported software, including two zero-day flaws that are being actively exploited.]]></description>
-										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today issued security updates to fix at least 56 vulnerabilities in its Windows operating systems and supported software, including two zero-day flaws that are being actively exploited.</p>
-<p><img decoding="async" loading="lazy" class="aligncenter  wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="749" height="527" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /></p>
-<p>All supported Windows operating systems will receive an update this month for a buffer overflow vulnerability that carries the catchy name <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21418" target="_blank" rel="noopener">CVE-2025-21418</a>. This patch should be a priority for enterprises, as Microsoft says it is being exploited, has low attack complexity, and no requirements for user interaction.</p>
-<p><strong>Tenable</strong> senior staff research engineer <strong>Satnam Narang</strong> noted that since 2022, there have been nine elevation of privilege vulnerabilities in this same Windows component &#8212; three each year &#8212; including one in 2024 that was exploited in the wild as a zero day (CVE-2024-38193).</p>
-<p>&#8220;CVE-2024-38193 was exploited by the North Korean APT group known as Lazarus Group to implant a new version of the FudModule rootkit in order to maintain persistence and stealth on compromised systems,&#8221; Narang said. &#8220;At this time, it is unclear if CVE-2025-21418 was also exploited by Lazarus Group.&#8221;</p>
-<p>The other zero-day, <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21391" target="_blank" rel="noopener">CVE-2025-21391</a>, is an elevation of privilege vulnerability in Windows Storage that could be used to delete files on a targeted system. Microsoft&#8217;s advisory on this bug references something called “CWE-59: Improper Link Resolution Before File Access,&#8221; says no user interaction is required, and that the attack complexity is low.</p>
-<p><strong>Adam Barnett</strong>, lead software engineer at <strong>Rapid7</strong>, said although the advisory provides scant detail, and even offers some vague reassurance that &#8216;an attacker would only be able to delete targeted files on a system,&#8217; it would be a mistake to assume that the impact of deleting arbitrary files would be limited to data loss or denial of service.</p>
-<p>&#8220;As long ago as 2022, ZDI researchers set out how a motivated attacker could parlay arbitrary file deletion into full SYSTEM access using techniques which also involve creative misuse of symbolic links,&#8221;Barnett wrote.<span id="more-70396"></span></p>
-<p>One vulnerability patched today that was publicly disclosed earlier is <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21377" target="_blank" rel="noopener">CVE-2025-21377</a>, another weakness that could allow an attacker to elevate their privileges on a vulnerable Windows system. Specifically, this is yet another Windows flaw that can be used to steal NTLMv2 hashes &#8212; essentially allowing an attacker to authenticate as the targeted user without having to log in.</p>
-<p>According to Microsoft, minimal user interaction with a malicious file is needed to exploit CVE-2025-21377, including selecting, inspecting or &#8220;performing an action other than opening or executing the file.&#8221;</p>
-<p>&#8220;This trademark linguistic ducking and weaving may be Microsoft’s way of saying &#8216;if we told you any more, we’d give the game away,'&#8221; Barnett said. &#8220;Accordingly, Microsoft assesses exploitation as more likely.&#8221;</p>
-<p>The <a href="https://isc.sans.edu/diary/Microsoft%20February%202025%20Patch%20Tuesday/31674" target="_blank" rel="noopener">SANS Internet Storm Center</a> has a handy list of all the Microsoft patches released today, indexed by severity. Windows enterprise administrators would do well to keep an eye on <a href="http://www.askwoody.com" target="_blank" rel="noopener">askwoody.com</a>, which often has the scoop on any patches causing problems.</p>
-<p>It&#8217;s getting harder to buy Windows software that isn&#8217;t also bundled with Microsoft&#8217;s flagship Copilot artificial intelligence (AI) feature. Last month Microsoft started bundling Copilot with <strong>Microsoft Office 365</strong>, which Redmond has since rebranded as &#8220;<strong>Microsoft 365 Copilot</strong>.&#8221; Ostensibly to offset the costs of its substantial AI investments, Microsoft also jacked up prices from 22 percent to 30 percent for upcoming license renewals and new subscribers.</p>
-<p>Office-watch.com <a href="https://office-watch.com/2025/microsoft-365-classic/" target="_blank" rel="noopener">writes</a> that existing Office 365 users who are paying an annual cloud license do have the option of &#8220;Microsoft 365 Classic,&#8221; an AI-free subscription at a lower price, but that many customers are not offered the option until they attempt to cancel their existing Office subscription.</p>
-<p>In other security patch news, <strong>Apple</strong> has shipped iOS 18.3.1, which fixes a <a href="https://support.apple.com/en-us/122174">zero day</a> vulnerability (CVE-2025-24200) that is showing up in attacks.</p>
-<p><strong>Adobe</strong> has issued security updates that fix a total of 45 vulnerabilities across <strong>InDesign</strong>, <strong>Commerce</strong>, <strong>Substance 3D</strong> <strong>Stager</strong>, <strong>InCopy</strong>, <strong>Illustrator</strong>, <strong>Substance 3D Designer</strong> and <strong>Photoshop Elements</strong>.</p>
-<p><strong>Chris Goettl</strong> at <strong>Ivanti</strong> notes that <strong>Google Chrome</strong> is shipping an update today which will trigger updates for Chromium based browsers including <strong>Microsoft Edge</strong>, so be on the lookout for Chrome and Edge updates as we proceed through the week.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/02/microsoft-patch-tuesday-february-2025-edition/feed/</wfw:commentRss>
-			<slash:comments>19</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 265/265 objects using memcached
+Object Caching 271/271 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-03-14 17:55:03 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-03-14 18:55:10 by W3 Total Cache
 -->
