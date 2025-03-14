@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 14 Mar 2025 12:03:26 EDT</pubDate>
+        <pubDate>Fri, 14 Mar 2025 13:00:17 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ransomware gang creates tool to automate VPN brute-force attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/black-basta-ransomware-creates-automated-tool-to-brute-force-vpns/</link>
+        <pubDate>Fri, 14 Mar 2025 12:55:10 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/black-basta-ransomware-creates-automated-tool-to-brute-force-vpns/</guid>
+	<description><![CDATA[The Black Basta ransomware operation created an automated brute-forcing framework dubbed 'BRUTED' to breach edge networking devices like firewalls and VPNs. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Cisco IOS XR vulnerability lets attackers crash BGP on routers</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisco-vulnerability-lets-attackers-crash-bgp-on-ios-xr-routers/</link>
+        <pubDate>Fri, 14 Mar 2025 12:44:44 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisco-vulnerability-lets-attackers-crash-bgp-on-ios-xr-routers/</guid>
+	<description><![CDATA[Cisco has patched a denial of service (DoS) vulnerability that lets attackers crash the Border Gateway Protocol (BGP) process on IOS XR routers with a single BGP update message. [...]]]></description>
+ </item>
+
  <item>
         <title>Suspected LockBit ransomware dev extradited to United States</title>
         <link>https://www.bleepingcomputer.com/news/security/suspected-lockbit-ransomware-dev-extradited-to-united-states/</link>
@@ -158,20 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/facebook-discloses-freetype-2-flaw-exploited-in-attacks/</guid>
 	<description><![CDATA[Facebook is warning that a FreeType vulnerability in all versions up to 2.13 can lead to arbitrary code execution, with reports that the flaw has been exploited in attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA: Medusa ransomware hit over 300 critical infrastructure orgs</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-300-critical-infrastructure-orgs/</link>
-        <pubDate>Wed, 12 Mar 2025 15:26:29 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-300-critical-infrastructure-orgs/</guid>
-	<description><![CDATA[CISA says the Medusa ransomware operation has impacted over 300 organizations in critical infrastructure sectors in the United States until last month. [...]]]></description>
  </item>
 
 </channel>
