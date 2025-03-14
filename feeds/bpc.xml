@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 14 Mar 2025 10:00:48 EDT</pubDate>
+        <pubDate>Fri, 14 Mar 2025 11:03:07 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Suspected LockBit ransomware dev extradited to United States</title>
+        <link>https://www.bleepingcomputer.com/news/security/suspected-lockbit-ransomware-dev-extradited-to-united-states/</link>
+        <pubDate>Fri, 14 Mar 2025 10:22:52 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/suspected-lockbit-ransomware-dev-extradited-to-united-states/</guid>
+	<description><![CDATA[A dual Russian-Israeli national, suspected of being a key developer for the LockBit ransomware operation, has been extradited to the United States to face charges. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft apologizes for removing VSCode extensions used by millions</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-apologizes-for-removing-vscode-extensions-used-by-millions/</link>
@@ -156,24 +172,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-300-critical-infrastructure-orgs/</guid>
 	<description><![CDATA[CISA says the Medusa ransomware operation has impacted over 300 organizations in critical infrastructure sectors in the United States until last month. [...]]]></description>
- </item>
-
- <item>
-        <title>New North Korean Android spyware slips onto Google Play</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-north-korean-android-spyware-slips-onto-google-play/</link>
-        <pubDate>Wed, 12 Mar 2025 13:35:10 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-north-korean-android-spyware-slips-onto-google-play/</guid>
-	<description><![CDATA[A new Android spyware named 'KoSpy' is linked to North Korean threat actors who have infiltrated Google Play and third-party app store APKPure through at least five malicious apps. [...]]]></description>
  </item>
 
 </channel>
