@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Fri, 14 Mar 2025 22:15:27 +0000</lastBuildDate>
@@ -61,7 +61,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/03/clickfix-how-to-infect-your-pc-in-three-easy-steps/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+			<slash:comments>3</slash:comments>
 		
 		
 			</item>
@@ -666,5 +666,5 @@ Object Caching 271/271 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-03-14 19:23:27 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-03-14 22:10:06 by W3 Total Cache
 -->
