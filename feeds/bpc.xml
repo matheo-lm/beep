@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 16 Mar 2025 14:01:09 EDT</pubDate>
+        <pubDate>Sun, 16 Mar 2025 15:01:53 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Fake "Security Alert" issues on GitHub use OAuth app to hijack accounts</title>
+        <link>https://www.bleepingcomputer.com/news/security/fake-security-alert-issues-on-github-use-oauth-app-to-hijack-accounts/</link>
+        <pubDate>Sun, 16 Mar 2025 14:36:11 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fake-security-alert-issues-on-github-use-oauth-app-to-hijack-accounts/</guid>
+	<description><![CDATA[A widespread phishing campaign has targeted nearly 12,000 GitHub repositories with fake "Security Alert" issues, tricking developers into authorizing a malicious OAuth app that grants attackers full control over their accounts and code. [...]]]></description>
+ </item>
+
  <item>
         <title>Malicious Adobe, DocuSign OAuth apps target Microsoft 365 accounts</title>
         <link>https://www.bleepingcomputer.com/news/security/malicious-adobe-docusign-oauth-apps-target-microsoft-365-accounts/</link>
@@ -158,20 +172,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-notepad-to-get-ai-text-summarization-in-windows-11/</guid>
 	<description><![CDATA[Microsoft is now testing an AI-powered text summarization feature in Notepad and a Snipping Tool "Draw & Hold" feature that helps draw perfect shapes. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft says button to restore classic Outlook is broken</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-button-to-restore-classic-outlook-is-broken/</link>
-        <pubDate>Thu, 13 Mar 2025 13:51:21 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-button-to-restore-classic-outlook-is-broken/</guid>
-	<description><![CDATA[​Microsoft is investigating a known issue that causes the new Outlook email client to crash when users click the "Go to classic Outlook" button, which should help them switch back to the classic Outlook. [...]]]></description>
  </item>
 
 </channel>
