@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 16 Mar 2025 11:00:47 EDT</pubDate>
+        <pubDate>Sun, 16 Mar 2025 12:01:04 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Malicious Adobe, DocuSign OAuth apps target Microsoft 365 accounts</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-adobe-docusign-oauth-apps-target-microsoft-365-accounts/</link>
+        <pubDate>Sun, 16 Mar 2025 10:19:29 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-adobe-docusign-oauth-apps-target-microsoft-365-accounts/</guid>
+	<description><![CDATA[Cybercriminals are promoting malicious Microsoft OAuth apps that masquerade as Adobe and DocuSign apps to deliver malware and steal Microsoft 365 accounts credentials. [...]]]></description>
+ </item>
+
  <item>
         <title>New Akira ransomware decryptor cracks encryptions keys using GPUs</title>
         <link>https://www.bleepingcomputer.com/news/security/gpu-powered-akira-ransomware-decryptor-released-on-github/</link>
@@ -158,34 +172,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-button-to-restore-classic-outlook-is-broken/</guid>
 	<description><![CDATA[​Microsoft is investigating a known issue that causes the new Outlook email client to crash when users click the "Go to classic Outlook" button, which should help them switch back to the classic Outlook. [...]]]></description>
- </item>
-
- <item>
-        <title>Juniper patches bug that let Chinese cyberspies backdoor routers</title>
-        <link>https://www.bleepingcomputer.com/news/security/juniper-patches-bug-that-let-chinese-cyberspies-backdoor-routers-since-mid-2024/</link>
-        <pubDate>Thu, 13 Mar 2025 12:40:07 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/juniper-patches-bug-that-let-chinese-cyberspies-backdoor-routers-since-mid-2024/</guid>
-	<description><![CDATA[​Juniper Networks has released emergency security updates to patch a Junos OS vulnerability exploited by Chinese hackers to backdoor routers for stealthy access. [...]]]></description>
- </item>
-
- <item>
-        <title>GitLab patches critical authentication bypass vulnerabilities</title>
-        <link>https://www.bleepingcomputer.com/news/security/gitlab-patches-critical-authentication-bypass-vulnerabilities/</link>
-        <pubDate>Thu, 13 Mar 2025 12:13:28 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/gitlab-patches-critical-authentication-bypass-vulnerabilities/</guid>
-	<description><![CDATA[GitLab released security updates for Community Edition (CE) and Enterprise Edition (EE), fixing nine vulnerabilities, among which two critical severity ruby-saml library authentication bypass flaws. [...]]]></description>
  </item>
 
 </channel>
