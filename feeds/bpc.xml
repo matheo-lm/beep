@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 15 Mar 2025 23:10:21 EDT</pubDate>
+        <pubDate>Sun, 16 Mar 2025 00:01:03 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Akira ransomware decryptor cracks encryptions keys using GPUs</title>
+        <link>https://www.bleepingcomputer.com/news/security/gpu-powered-akira-ransomware-decryptor-released-on-github/</link>
+        <pubDate>Sat, 15 Mar 2025 10:16:26 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/gpu-powered-akira-ransomware-decryptor-released-on-github/</guid>
+	<description><![CDATA[Security researcher Yohanes Nugroho has released a decryptor for the Linux variant of Akira ransomware, which utilizes GPU power to retrieve the decryption key and unlock files for free. [...]]]></description>
+ </item>
+
  <item>
         <title>Coinbase phishing email tricks users with fake wallet migration</title>
         <link>https://www.bleepingcomputer.com/news/security/coinbase-phishing-email-tricks-users-with-fake-wallet-migration/</link>
@@ -172,34 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/gitlab-patches-critical-authentication-bypass-vulnerabilities/</guid>
 	<description><![CDATA[GitLab released security updates for Community Edition (CE) and Enterprise Edition (EE), fixing nine vulnerabilities, among which two critical severity ruby-saml library authentication bypass flaws. [...]]]></description>
- </item>
-
- <item>
-        <title>ClickFix attack delivers infostealers, RATs in fake Booking.com emails</title>
-        <link>https://www.bleepingcomputer.com/news/security/clickfix-attack-delivers-infostealers-rats-in-fake-bookingcom-emails/</link>
-        <pubDate>Thu, 13 Mar 2025 11:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/clickfix-attack-delivers-infostealers-rats-in-fake-bookingcom-emails/</guid>
-	<description><![CDATA[Microsoft is warning that an ongoing phishing campaign impersonating Booking.com is using ClickFix social engineering attacks to infect hospitality workers with various malware, including infostealers and RATs. [...]]]></description>
- </item>
-
- <item>
-        <title>Red Report 2025: Unmasking a 3X Spike in Credential Theft and Debunking the AI Hype</title>
-        <link>https://www.bleepingcomputer.com/news/security/red-report-2025-unmasking-a-3x-spike-in-credential-theft-and-debunking-the-ai-hype/</link>
-        <pubDate>Thu, 13 Mar 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Picus Security</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/red-report-2025-unmasking-a-3x-spike-in-credential-theft-and-debunking-the-ai-hype/</guid>
-	<description><![CDATA[Credential theft surged 3× in a year—but AI-powered malware? More hype than reality. The Red Report 2025 by Picus Labs reveals attackers still rely on proven tactics like stealth & automation to execute the "perfect heist." [...]]]></description>
  </item>
 
 </channel>
