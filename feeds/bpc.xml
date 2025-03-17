@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 17 Mar 2025 16:00:02 EDT</pubDate>
+        <pubDate>Mon, 17 Mar 2025 17:00:26 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>BlackLock ransomware claims nearly 50 attacks in two months</title>
+        <link>https://www.bleepingcomputer.com/news/security/blacklock-ransomware-claims-nearly-50-attacks-in-two-months/</link>
+        <pubDate>Mon, 17 Mar 2025 16:40:19 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/blacklock-ransomware-claims-nearly-50-attacks-in-two-months/</guid>
+	<description><![CDATA[A ransomware-as-a-service (RaaS) operation called 'BlackLock' has emerged as one of the more active ransomware operations of 2025. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Telegram CEO leaves France temporarily as criminal probe continues</title>
+        <link>https://www.bleepingcomputer.com/news/security/telegram-ceo-leaves-france-temporarily-as-criminal-probe-continues/</link>
+        <pubDate>Mon, 17 Mar 2025 16:13:31 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/telegram-ceo-leaves-france-temporarily-as-criminal-probe-continues/</guid>
+	<description><![CDATA[French authorities have allowed Pavel Durov, Telegram's CEO and founder, to temporarily leave the country while criminal activity on the messaging platform is still under investigation. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: New RAT malware used for crypto theft, reconnaissance</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-new-rat-malware-used-for-crypto-theft-reconnaissance/</link>
@@ -31,7 +59,7 @@
 
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-new-rat-malware-used-for-crypto-theft-reconnaissance/</guid>
-	<description><![CDATA[​Microsoft has discovered a new remote access trojan (RAT) that employs "sophisticated techniques" to avoid detection, ensure persistence, and extract sensitive information data. [...]]]></description>
+	<description><![CDATA[​Microsoft has discovered a new remote access trojan (RAT) that employs "sophisticated techniques" to avoid detection, maintain persistence, and extract sensitive data. [...]]]></description>
  </item>
 
  <item>
@@ -160,34 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/week-long-exchange-online-outage-causes-email-failures-delays/</guid>
 	<description><![CDATA[Microsoft says it partially mitigated a week-long Exchange Online outage causing delays or failures when sending or receiving email messages. [...]]]></description>
- </item>
-
- <item>
-        <title>Ransomware gang creates tool to automate VPN brute-force attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/black-basta-ransomware-creates-automated-tool-to-brute-force-vpns/</link>
-        <pubDate>Fri, 14 Mar 2025 12:55:10 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/black-basta-ransomware-creates-automated-tool-to-brute-force-vpns/</guid>
-	<description><![CDATA[The Black Basta ransomware operation created an automated brute-forcing framework dubbed 'BRUTED' to breach edge networking devices like firewalls and VPNs. [...]]]></description>
- </item>
-
- <item>
-        <title>Cisco IOS XR vulnerability lets attackers crash BGP on routers</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisco-vulnerability-lets-attackers-crash-bgp-on-ios-xr-routers/</link>
-        <pubDate>Fri, 14 Mar 2025 12:44:44 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisco-vulnerability-lets-attackers-crash-bgp-on-ios-xr-routers/</guid>
-	<description><![CDATA[Cisco has patched a denial of service (DoS) vulnerability that lets attackers crash the Border Gateway Protocol (BGP) process on IOS XR routers with a single BGP update message. [...]]]></description>
  </item>
 
 </channel>
