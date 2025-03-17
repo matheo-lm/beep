@@ -11,11 +11,45 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 17 Mar 2025 14:00:28 EDT</pubDate>
+        <pubDate>Mon, 17 Mar 2025 14:59:28 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: New RAT malware used for crypto theft, reconnaissance</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-new-rat-malware-used-for-crypto-theft-reconnaissance/</link>
+        <pubDate>Mon, 17 Mar 2025 14:59:24 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-new-rat-malware-used-for-crypto-theft-reconnaissance/</guid>
+	<description><![CDATA[​Microsoft has discovered a new remote access trojan (RAT) that employs "sophisticated techniques" to avoid detection, ensure persistence, and extract sensitive information data. [...]]]></description>
+ </item>
+
+ <item>
+        <title>OKX suspends DEX aggregator after Lazarus hackers try to launder funds</title>
+        <link>https://www.bleepingcomputer.com/news/security/okx-suspends-dex-aggregator-after-lazarus-hackers-try-to-launder-funds/</link>
+        <pubDate>Mon, 17 Mar 2025 14:23:58 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/okx-suspends-dex-aggregator-after-lazarus-hackers-try-to-launder-funds/</guid>
+	<description><![CDATA[OKX Web3 has decided to suspend its DEX aggregator services to implement security upgrades following reports of abuse by the notorious North Korean Lazarus hackers, who recently conducted a $1.5 billion crypto heist. [...]]]></description>
+ </item>
+
  <item>
         <title>Supply chain attack on popular GitHub Action exposes CI/CD secrets</title>
         <link>https://www.bleepingcomputer.com/news/security/supply-chain-attack-on-popular-github-action-exposes-ci-cd-secrets/</link>
@@ -154,22 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisco-vulnerability-lets-attackers-crash-bgp-on-ios-xr-routers/</guid>
 	<description><![CDATA[Cisco has patched a denial of service (DoS) vulnerability that lets attackers crash the Border Gateway Protocol (BGP) process on IOS XR routers with a single BGP update message. [...]]]></description>
- </item>
-
- <item>
-        <title>Suspected LockBit ransomware dev extradited to United States</title>
-        <link>https://www.bleepingcomputer.com/news/security/suspected-lockbit-ransomware-dev-extradited-to-united-states/</link>
-        <pubDate>Fri, 14 Mar 2025 10:22:52 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/suspected-lockbit-ransomware-dev-extradited-to-united-states/</guid>
-	<description><![CDATA[A dual Russian-Israeli national, suspected of being a key developer for the LockBit ransomware operation, has been extradited to the United States to face charges. [...]]]></description>
  </item>
 
 </channel>
