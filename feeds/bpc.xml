@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 17 Mar 2025 11:01:27 EDT</pubDate>
+        <pubDate>Mon, 17 Mar 2025 12:00:06 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Supply chain attack on popular GitHub Action exposes CI/CD secrets</title>
+        <link>https://www.bleepingcomputer.com/news/security/supply-chain-attack-on-popular-github-action-exposes-ci-cd-secrets/</link>
+        <pubDate>Mon, 17 Mar 2025 11:24:46 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/supply-chain-attack-on-popular-github-action-exposes-ci-cd-secrets/</guid>
+	<description><![CDATA[A supply chain attack on the widely used 'tj-actions/changed-files' GitHub Action, used by 23,000 repositories, potentially allowed threat actors to steal CI/CD secrets from GitHub Actions build logs. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: March Windows updates mistakenly uninstall Copilot</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-march-windows-updates-mistakenly-uninstall-copilot/</link>
@@ -156,22 +170,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/suspected-lockbit-ransomware-dev-extradited-to-united-states/</guid>
 	<description><![CDATA[A dual Russian-Israeli national, suspected of being a key developer for the LockBit ransomware operation, has been extradited to the United States to face charges. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft apologizes for removing VSCode extensions used by millions</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-apologizes-for-removing-vscode-extensions-used-by-millions/</link>
-        <pubDate>Thu, 13 Mar 2025 16:53:11 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-apologizes-for-removing-vscode-extensions-used-by-millions/</guid>
-	<description><![CDATA[Microsoft has reinstated the 'Material Theme - Free' and 'Material Theme Icons - Free' extensions on the Visual Studio Marketplace after finding that the obfuscated code they contained wasn't actually malicious. [...]]]></description>
  </item>
 
 </channel>
