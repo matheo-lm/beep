@@ -11,11 +11,45 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 18 Mar 2025 13:01:02 EDT</pubDate>
+        <pubDate>Tue, 18 Mar 2025 14:02:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Malicious Android 'Vapor' apps on Google Play installed 60 million times</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-android-vapor-apps-on-google-play-installed-60-million-times/</link>
+        <pubDate>Tue, 18 Mar 2025 13:52:53 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-android-vapor-apps-on-google-play-installed-60-million-times/</guid>
+	<description><![CDATA[Over 300 malicious Android applications downloaded 60 million items from Google Play acted as adware or attempted to steal credentials and credit card information. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New Windows zero-day exploited by 11 state hacking groups since 2017</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-windows-zero-day-exploited-by-11-state-hacking-groups-since-2017/</link>
+        <pubDate>Tue, 18 Mar 2025 13:11:24 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-windows-zero-day-exploited-by-11-state-hacking-groups-since-2017/</guid>
+	<description><![CDATA[At least 11 state-backed hacking groups from North Korea, Iran, Russia, and China have been exploiting a new Windows vulnerability in data theft and cyber espionage zero-day attacks since 2017. [...]]]></description>
+ </item>
+
  <item>
         <title>Google to purchase Wiz for $32 billion in cloud security play</title>
         <link>https://www.bleepingcomputer.com/news/security/google-to-purchase-wiz-for-32-billion-in-cloud-security-play/</link>
@@ -164,20 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fake-security-alert-issues-on-github-use-oauth-app-to-hijack-accounts/</guid>
 	<description><![CDATA[A widespread phishing campaign has targeted nearly 12,000 GitHub repositories with fake "Security Alert" issues, tricking developers into authorizing a malicious OAuth app that grants attackers full control over their accounts and code. [...]]]></description>
- </item>
-
- <item>
-        <title>Malicious Adobe, DocuSign OAuth apps target Microsoft 365 accounts</title>
-        <link>https://www.bleepingcomputer.com/news/security/malicious-adobe-docusign-oauth-apps-target-microsoft-365-accounts/</link>
-        <pubDate>Sun, 16 Mar 2025 10:19:29 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/malicious-adobe-docusign-oauth-apps-target-microsoft-365-accounts/</guid>
-	<description><![CDATA[Cybercriminals are promoting malicious Microsoft OAuth apps that masquerade as Adobe and DocuSign apps to deliver malware and steal Microsoft 365 accounts credentials. [...]]]></description>
  </item>
 
 </channel>
