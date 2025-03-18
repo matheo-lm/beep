@@ -11,11 +11,29 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 18 Mar 2025 10:02:48 EDT</pubDate>
+        <pubDate>Tue, 18 Mar 2025 11:02:11 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Blockchain gaming platform WEMIX hacked to steal $6.1 million</title>
+        <link>https://www.bleepingcomputer.com/news/security/blockchain-gaming-platform-wemix-hacked-to-steal-61-million/</link>
+        <pubDate>Tue, 18 Mar 2025 10:11:36 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+        <category><![CDATA[Gaming]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/blockchain-gaming-platform-wemix-hacked-to-steal-61-million/</guid>
+	<description><![CDATA[Blockchain gaming platform WEMIX suffered a cyberattack last month, allowing threat actors to steal 8,654,860 WEMIX tokens, valued at approximately $6,100,000 at the time. [...]]]></description>
+ </item>
+
  <item>
         <title>Telegram CEO leaves France temporarily as criminal probe continues</title>
         <link>https://www.bleepingcomputer.com/news/security/telegram-ceo-leaves-france-temporarily-as-criminal-probe-continues/</link>
@@ -146,34 +164,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/gpu-powered-akira-ransomware-decryptor-released-on-github/</guid>
 	<description><![CDATA[Security researcher Yohanes Nugroho has released a decryptor for the Linux variant of Akira ransomware, which utilizes GPU power to retrieve the decryption key and unlock files for free. [...]]]></description>
- </item>
-
- <item>
-        <title>Coinbase phishing email tricks users with fake wallet migration</title>
-        <link>https://www.bleepingcomputer.com/news/security/coinbase-phishing-email-tricks-users-with-fake-wallet-migration/</link>
-        <pubDate>Fri, 14 Mar 2025 18:35:29 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/coinbase-phishing-email-tricks-users-with-fake-wallet-migration/</guid>
-	<description><![CDATA[A large-scale Coinbase phishing attack poses as a mandatory wallet migration, tricking recipients into setting up a new wallet with a pre-generated recovery phrase controlled by attackers. [...]]]></description>
- </item>
-
- <item>
-        <title>Week-long Exchange Online outage causes email failures, delays</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/week-long-exchange-online-outage-causes-email-failures-delays/</link>
-        <pubDate>Fri, 14 Mar 2025 14:59:27 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/week-long-exchange-online-outage-causes-email-failures-delays/</guid>
-	<description><![CDATA[Microsoft says it partially mitigated a week-long Exchange Online outage causing delays or failures when sending or receiving email messages. [...]]]></description>
  </item>
 
 </channel>
