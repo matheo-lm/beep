@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 18 Mar 2025 11:02:11 EDT</pubDate>
+        <pubDate>Tue, 18 Mar 2025 12:00:45 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google to purchase Wiz for $32 billion in cloud security play</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-to-purchase-wiz-for-32-billion-in-cloud-security-play/</link>
+        <pubDate>Tue, 18 Mar 2025 12:00:40 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-to-purchase-wiz-for-32-billion-in-cloud-security-play/</guid>
+	<description><![CDATA[Google has announced it entered into a definitive agreement to acquire Wiz, a leading cloud security platform, for $32 billion in an all-cash transaction. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Critical AMI MegaRAC bug can let attackers hijack, brick servers</title>
+        <link>https://www.bleepingcomputer.com/news/security/critical-ami-megarac-bug-can-let-attackers-hijack-brick-servers/</link>
+        <pubDate>Tue, 18 Mar 2025 11:29:35 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critical-ami-megarac-bug-can-let-attackers-hijack-brick-servers/</guid>
+	<description><![CDATA[​A new critical severity vulnerability found in American Megatrends International's MegaRAC Baseboard Management Controller (BMC) software can let attackers hijack and potentially brick vulnerable servers. [...]]]></description>
+ </item>
+
  <item>
         <title>Blockchain gaming platform WEMIX hacked to steal $6.1 million</title>
         <link>https://www.bleepingcomputer.com/news/security/blockchain-gaming-platform-wemix-hacked-to-steal-61-million/</link>
@@ -150,20 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/malicious-adobe-docusign-oauth-apps-target-microsoft-365-accounts/</guid>
 	<description><![CDATA[Cybercriminals are promoting malicious Microsoft OAuth apps that masquerade as Adobe and DocuSign apps to deliver malware and steal Microsoft 365 accounts credentials. [...]]]></description>
- </item>
-
- <item>
-        <title>New Akira ransomware decryptor cracks encryptions keys using GPUs</title>
-        <link>https://www.bleepingcomputer.com/news/security/gpu-powered-akira-ransomware-decryptor-released-on-github/</link>
-        <pubDate>Sat, 15 Mar 2025 10:16:26 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/gpu-powered-akira-ransomware-decryptor-released-on-github/</guid>
-	<description><![CDATA[Security researcher Yohanes Nugroho has released a decryptor for the Linux variant of Akira ransomware, which utilizes GPU power to retrieve the decryption key and unlock files for free. [...]]]></description>
  </item>
 
 </channel>
