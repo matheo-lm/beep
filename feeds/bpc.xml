@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 18 Mar 2025 17:59:26 EDT</pubDate>
+        <pubDate>Tue, 18 Mar 2025 18:58:33 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Sperm donation giant California Cryobank warns of a data breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/sperm-donation-giant-california-cryobank-warns-of-a-data-breach/</link>
+        <pubDate>Tue, 18 Mar 2025 18:53:25 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sperm-donation-giant-california-cryobank-warns-of-a-data-breach/</guid>
+	<description><![CDATA[US sperm donor giant California Cryobank is warning customers it suffered a data breach that exposed customers' personal information. [...]]]></description>
+ </item>
+
  <item>
         <title>GitHub Action hack likely led to another in cascading supply chain attack</title>
         <link>https://www.bleepingcomputer.com/news/security/github-action-hack-likely-led-to-another-in-cascading-supply-chain-attack/</link>
@@ -184,20 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/supply-chain-attack-on-popular-github-action-exposes-ci-cd-secrets/</guid>
 	<description><![CDATA[A supply chain attack on the widely used 'tj-actions/changed-files' GitHub Action, used by 23,000 repositories, potentially allowed threat actors to steal CI/CD secrets from GitHub Actions build logs. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: March Windows updates mistakenly uninstall Copilot</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-march-windows-updates-mistakenly-uninstall-copilot/</link>
-        <pubDate>Mon, 17 Mar 2025 09:39:20 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-march-windows-updates-mistakenly-uninstall-copilot/</guid>
-	<description><![CDATA[​Microsoft says the March 2025 Windows cumulative updates automatically and mistakenly remove the AI-powered Copilot digital assistant from some Windows 10 and Windows 11 systems. [...]]]></description>
  </item>
 
 </channel>
