@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 18 Mar 2025 14:58:15 EDT</pubDate>
+        <pubDate>Tue, 18 Mar 2025 16:00:30 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Western Alliance Bank notifies 21,899 customers of data breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/western-alliance-bank-notifies-21-899-customers-of-data-breach/</link>
+        <pubDate>Tue, 18 Mar 2025 15:50:25 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/western-alliance-bank-notifies-21-899-customers-of-data-breach/</guid>
+	<description><![CDATA[Arizona-based Western Alliance Bank is notifying nearly 22,000 customers their personal information was stolen in October after a third-party vendor's secure file transfer software was breached. [...]]]></description>
+ </item>
+
  <item>
         <title>Malicious Android 'Vapor' apps on Google Play installed 60 million times</title>
         <link>https://www.bleepingcomputer.com/news/security/malicious-android-vapor-apps-on-google-play-installed-60-million-times/</link>
@@ -184,20 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/critical-rce-flaw-in-apache-tomcat-actively-exploited-in-attacks/</guid>
 	<description><![CDATA[A critical remote code execution (RCE) vulnerability in Apache Tomcat tracked as CVE-2025-24813 is actively exploited in the wild, enabling attackers to take over servers with a simple PUT request. [...]]]></description>
- </item>
-
- <item>
-        <title>Fake "Security Alert" issues on GitHub use OAuth app to hijack accounts</title>
-        <link>https://www.bleepingcomputer.com/news/security/fake-security-alert-issues-on-github-use-oauth-app-to-hijack-accounts/</link>
-        <pubDate>Sun, 16 Mar 2025 14:36:11 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fake-security-alert-issues-on-github-use-oauth-app-to-hijack-accounts/</guid>
-	<description><![CDATA[A widespread phishing campaign has targeted nearly 12,000 GitHub repositories with fake "Security Alert" issues, tricking developers into authorizing a malicious OAuth app that grants attackers full control over their accounts and code. [...]]]></description>
  </item>
 
 </channel>
