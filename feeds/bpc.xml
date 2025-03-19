@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 19 Mar 2025 13:01:50 EDT</pubDate>
+        <pubDate>Wed, 19 Mar 2025 14:02:15 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Arcane infostealer infects YouTube, Discord users via game cheats</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-arcane-infostealer-infects-youtube-discord-users-via-game-cheats/</link>
+        <pubDate>Wed, 19 Mar 2025 13:52:08 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-arcane-infostealer-infects-youtube-discord-users-via-game-cheats/</guid>
+	<description><![CDATA[A newly discovered information-stealing malware called Arcane is stealing extensive user data, including VPN account credentials, gaming clients, messaging apps, and information stored in web browsers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft fixes Windows update bug that uninstalled Copilot</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-bug-that-wiped-out-copilot/</link>
+        <pubDate>Wed, 19 Mar 2025 13:23:52 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-bug-that-wiped-out-copilot/</guid>
+	<description><![CDATA[Microsoft has fixed a bug causing the March 2025 Windows cumulative updates to mistakenly uninstall the AI-powered Copilot digital assistant from some Windows 10 and Windows 11 systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Click Profit blocked by the FTC over alleged e-commerce scams</title>
         <link>https://www.bleepingcomputer.com/news/legal/click-profit-blocked-by-the-ftc-over-alleged-e-commerce-scams/</link>
@@ -29,7 +57,7 @@
 
 
         <guid>https://www.bleepingcomputer.com/news/legal/click-profit-blocked-by-the-ftc-over-alleged-e-commerce-scams/</guid>
-	<description><![CDATA[The Federal Trade Commission (FTC) in the U.S. has taken action against Click Profit for allegedly deceiving consumers with false promises of guaranteed passive income through AI-powered online stores. [...]]]></description>
+	<description><![CDATA[The US Federal Trade Commission (FTC) has taken action against the "Click Profit" business opportunity platform for allegedly earning $14 million while deceiving consumers with false promises of guaranteed passive income through online stores. [...]]]></description>
  </item>
 
  <item>
@@ -180,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/blockchain-gaming-platform-wemix-hacked-to-steal-61-million/</guid>
 	<description><![CDATA[Blockchain gaming platform WEMIX suffered a cyberattack last month, allowing threat actors to steal 8,654,860 WEMIX tokens, valued at approximately $6,100,000 at the time. [...]]]></description>
- </item>
-
- <item>
-        <title>Telegram CEO leaves France temporarily as criminal probe continues</title>
-        <link>https://www.bleepingcomputer.com/news/security/telegram-ceo-leaves-france-temporarily-as-criminal-probe-continues/</link>
-        <pubDate>Mon, 17 Mar 2025 16:13:31 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/telegram-ceo-leaves-france-temporarily-as-criminal-probe-continues/</guid>
-	<description><![CDATA[French authorities have allowed Pavel Durov, Telegram's CEO and founder, to temporarily leave the country while criminal activity on the messaging platform is still under investigation. [...]]]></description>
  </item>
 
 </channel>
