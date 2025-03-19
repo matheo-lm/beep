@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 19 Mar 2025 16:02:14 EDT</pubDate>
+        <pubDate>Wed, 19 Mar 2025 17:02:31 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ukrainian military targeted in new Signal spear-phishing attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/ukrainian-military-targeted-in-new-signal-spear-phishing-attacks/</link>
+        <pubDate>Wed, 19 Mar 2025 16:30:40 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ukrainian-military-targeted-in-new-signal-spear-phishing-attacks/</guid>
+	<description><![CDATA[Ukraine's Computer Emergency Response Team (CERT-UA) is warning about highly targeted attacks employing compromised Signal accounts to send malware to employees of defense industry firms and members of the country's army forces. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft Exchange Online outage affects Outlook web users</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-affects-outlook-web-users/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-windows-zero-day-exploited-by-11-state-hacking-groups-since-2017/</guid>
 	<description><![CDATA[At least 11 state-backed hacking groups from North Korea, Iran, Russia, and China have been exploiting a new Windows vulnerability in data theft and cyber espionage zero-day attacks since 2017. [...]]]></description>
- </item>
-
- <item>
-        <title>Google to purchase Wiz for $32 billion in cloud security play</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-to-purchase-wiz-for-32-billion-in-cloud-security-play/</link>
-        <pubDate>Tue, 18 Mar 2025 12:00:40 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-to-purchase-wiz-for-32-billion-in-cloud-security-play/</guid>
-	<description><![CDATA[Google has announced it entered into a definitive agreement to acquire Wiz, a leading cloud security platform, for $32 billion in an all-cash transaction. [...]]]></description>
  </item>
 
 </channel>
