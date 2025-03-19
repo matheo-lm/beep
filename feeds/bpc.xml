@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 19 Mar 2025 11:00:05 EDT</pubDate>
+        <pubDate>Wed, 19 Mar 2025 12:02:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>WhatsApp patched zero-click flaw exploited in Paragon spyware attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/whatsapp-patched-zero-day-flaw-used-in-paragon-spyware-attacks/</link>
+        <pubDate>Wed, 19 Mar 2025 12:02:20 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/whatsapp-patched-zero-day-flaw-used-in-paragon-spyware-attacks/</guid>
+	<description><![CDATA[WhatsApp has patched a zero-click, zero-day vulnerability used to install Paragon's Graphite spyware following reports from security researchers at the University of Toronto's Citizen Lab. [...]]]></description>
+ </item>
+
  <item>
         <title>Why it's time for phishing prevention to move beyond email</title>
         <link>https://www.bleepingcomputer.com/news/security/why-its-time-for-phishing-prevention-to-move-beyond-email/</link>
@@ -182,22 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-new-rat-malware-used-for-crypto-theft-reconnaissance/</guid>
 	<description><![CDATA[​Microsoft has discovered a new remote access trojan (RAT) that employs "sophisticated techniques" to avoid detection, maintain persistence, and extract sensitive data. [...]]]></description>
- </item>
-
- <item>
-        <title>OKX suspends DEX aggregator after Lazarus hackers try to launder funds</title>
-        <link>https://www.bleepingcomputer.com/news/security/okx-suspends-dex-aggregator-after-lazarus-hackers-try-to-launder-funds/</link>
-        <pubDate>Mon, 17 Mar 2025 14:23:58 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/okx-suspends-dex-aggregator-after-lazarus-hackers-try-to-launder-funds/</guid>
-	<description><![CDATA[OKX Web3 has decided to suspend its DEX aggregator services to implement security upgrades following reports of abuse by the notorious North Korean Lazarus hackers, who recently conducted a $1.5 billion crypto heist. [...]]]></description>
  </item>
 
 </channel>
