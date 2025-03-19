@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 19 Mar 2025 10:01:12 EDT</pubDate>
+        <pubDate>Wed, 19 Mar 2025 11:00:05 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Why it's time for phishing prevention to move beyond email</title>
+        <link>https://www.bleepingcomputer.com/news/security/why-its-time-for-phishing-prevention-to-move-beyond-email/</link>
+        <pubDate>Wed, 19 Mar 2025 10:03:51 -0400</pubDate>
+        <dc:creator>Sponsored by Push Security</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/why-its-time-for-phishing-prevention-to-move-beyond-email/</guid>
+	<description><![CDATA[While phishing has evolved, email security hasn't kept up. Attackers now bypass MFA & detection tools with advanced phishing kits, making credential theft harder to prevent. Learn how Push Security's browser-based security stops attacks as they happen. [...]]]></description>
+ </item>
+
  <item>
         <title>Sperm donation giant California Cryobank warns of a data breach</title>
         <link>https://www.bleepingcomputer.com/news/security/sperm-donation-giant-california-cryobank-warns-of-a-data-breach/</link>
@@ -184,20 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/okx-suspends-dex-aggregator-after-lazarus-hackers-try-to-launder-funds/</guid>
 	<description><![CDATA[OKX Web3 has decided to suspend its DEX aggregator services to implement security upgrades following reports of abuse by the notorious North Korean Lazarus hackers, who recently conducted a $1.5 billion crypto heist. [...]]]></description>
- </item>
-
- <item>
-        <title>Supply chain attack on popular GitHub Action exposes CI/CD secrets</title>
-        <link>https://www.bleepingcomputer.com/news/security/supply-chain-attack-on-popular-github-action-exposes-ci-cd-secrets/</link>
-        <pubDate>Mon, 17 Mar 2025 11:24:46 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/supply-chain-attack-on-popular-github-action-exposes-ci-cd-secrets/</guid>
-	<description><![CDATA[A supply chain attack on the widely used 'tj-actions/changed-files' GitHub Action, used by 23,000 repositories, potentially allowed threat actors to steal CI/CD secrets from GitHub Actions build logs. [...]]]></description>
  </item>
 
 </channel>
