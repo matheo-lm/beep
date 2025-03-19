@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 19 Mar 2025 14:58:36 EDT</pubDate>
+        <pubDate>Wed, 19 Mar 2025 16:02:14 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft Exchange Online outage affects Outlook web users</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-affects-outlook-web-users/</link>
+        <pubDate>Wed, 19 Mar 2025 15:34:05 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-affects-outlook-web-users/</guid>
+	<description><![CDATA[​Microsoft is investigating an ongoing outage preventing Outlook on the web users from accessing their Exchange Online mailboxes. [...]]]></description>
+ </item>
+
  <item>
         <title>New Arcane infostealer infects YouTube, Discord users via game cheats</title>
         <link>https://www.bleepingcomputer.com/news/security/new-arcane-infostealer-infects-youtube-discord-users-via-game-cheats/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-to-purchase-wiz-for-32-billion-in-cloud-security-play/</guid>
 	<description><![CDATA[Google has announced it entered into a definitive agreement to acquire Wiz, a leading cloud security platform, for $32 billion in an all-cash transaction. [...]]]></description>
- </item>
-
- <item>
-        <title>Critical AMI MegaRAC bug can let attackers hijack, brick servers</title>
-        <link>https://www.bleepingcomputer.com/news/security/critical-ami-megarac-bug-can-let-attackers-hijack-brick-servers/</link>
-        <pubDate>Tue, 18 Mar 2025 11:29:35 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/critical-ami-megarac-bug-can-let-attackers-hijack-brick-servers/</guid>
-	<description><![CDATA[​A new critical severity vulnerability found in American Megatrends International's MegaRAC Baseboard Management Controller (BMC) software can let attackers hijack and potentially brick vulnerable servers. [...]]]></description>
  </item>
 
 </channel>
