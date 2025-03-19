@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 19 Mar 2025 17:02:31 EDT</pubDate>
+        <pubDate>Wed, 19 Mar 2025 17:58:54 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Pennsylvania education union data breach hit 500,000 people</title>
+        <link>https://www.bleepingcomputer.com/news/security/pennsylvania-education-union-data-breach-hit-500-000-people/</link>
+        <pubDate>Wed, 19 Mar 2025 17:38:25 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/pennsylvania-education-union-data-breach-hit-500-000-people/</guid>
+	<description><![CDATA[The Pennsylvania State Education Association (PSEA), the largest public-sector union in Pennsylvania, is notifying over half a million individuals that attackers stole their personal information in a July 2024 security breach. [...]]]></description>
+ </item>
+
  <item>
         <title>Ukrainian military targeted in new Signal spear-phishing attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/ukrainian-military-targeted-in-new-signal-spear-phishing-attacks/</link>
@@ -174,22 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/malicious-android-vapor-apps-on-google-play-installed-60-million-times/</guid>
 	<description><![CDATA[Over 300 malicious Android applications downloaded 60 million items from Google Play acted as adware or attempted to steal credentials and credit card information. [...]]]></description>
- </item>
-
- <item>
-        <title>New Windows zero-day exploited by 11 state hacking groups since 2017</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-windows-zero-day-exploited-by-11-state-hacking-groups-since-2017/</link>
-        <pubDate>Tue, 18 Mar 2025 13:11:24 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-windows-zero-day-exploited-by-11-state-hacking-groups-since-2017/</guid>
-	<description><![CDATA[At least 11 state-backed hacking groups from North Korea, Iran, Russia, and China have been exploiting a new Windows vulnerability in data theft and cyber espionage zero-day attacks since 2017. [...]]]></description>
  </item>
 
 </channel>
