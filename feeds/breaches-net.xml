@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description></description>
-	<lastBuildDate>Thu, 20 Mar 2025 18:31:03 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 20 Mar 2025 20:38:54 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,28 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Security Researcher Comments on HIPAA Security Rule</title>
+		<link>https://databreaches.net/2025/03/20/security-researcher-comments-on-hipaa-security-rule/</link>
+					<comments>https://databreaches.net/2025/03/20/security-researcher-comments-on-hipaa-security-rule/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Thu, 20 Mar 2025 20:38:54 +0000</pubDate>
+				<category><![CDATA[Commentaries and Analyses]]></category>
+		<category><![CDATA[HIPAA]]></category>
+		<category><![CDATA[Of Note]]></category>
+		<category><![CDATA[good faith]]></category>
+		<category><![CDATA[notification]]></category>
+		<category><![CDATA[responsible disclosure]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=120982</guid>
+
+					<description><![CDATA[As long-time readers know, DataBreaches has occasionally run into difficulties when trying to helpfully notify entities of their data leaks or breaches. In other cases, independent researchers have also reported frustration with trying to get entities to respond to responsible disclosures. More often than not, initial attempts at disclosure are ignored or go to spam...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/03/20/security-researcher-comments-on-hipaa-security-rule/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Department of Defense civilian employee pleads guilty to taking classified documents</title>
 		<link>https://databreaches.net/2025/03/20/department-of-defense-civilian-employee-pleads-guilty-to-taking-classified-documents/</link>
 					<comments>https://databreaches.net/2025/03/20/department-of-defense-civilian-employee-pleads-guilty-to-taking-classified-documents/#respond</comments>
@@ -184,25 +206,6 @@
 					<description><![CDATA[Jayant Chakravarti reports: The Australian financial regulator has filed a lawsuit against FIIG Securities, accusing the leading investment and financing company of lacking adequate cybersecurity controls to stop a threat actor from stealing confidential personal information of 18,000 customers. The Australian Securities and Investments Commission said it decided to sue Brisbane-headquartered FIIG Securities in Federal Court after...]]></description>
 		
 					<wfw:commentRss>https://databreaches.net/2025/03/18/australia-sues-fiig-investment-firm-in-cyber-wake-up-call/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Alleged Data Breach at Korea Aerospace Research Institute Sparks Major Investigation</title>
-		<link>https://databreaches.net/2025/03/18/alleged-data-breach-at-korea-aerospace-research-institute-sparks-major-investigation/</link>
-					<comments>https://databreaches.net/2025/03/18/alleged-data-breach-at-korea-aerospace-research-institute-sparks-major-investigation/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Tue, 18 Mar 2025 11:46:00 +0000</pubDate>
-				<category><![CDATA[Insider]]></category>
-		<category><![CDATA[Miscellaneous]]></category>
-		<category><![CDATA[Non-U.S.]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=120953</guid>
-
-					<description><![CDATA[In today&#8217;s reminder of the insider threat, Jung Suk-yee reports that employees of the Korea Aerospace Research Institute (KARI) are being investigated by the Daejeon Metropolitan Police Agency for leaking sensitive technology: The investigation, which has captured national attention, involves a suspected breach of data related to South Korea&#8217;s ambitious Nuri space launch vehicle project....]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/03/18/alleged-data-breach-at-korea-aerospace-research-institute-sparks-major-investigation/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
