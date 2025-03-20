@@ -11,11 +11,67 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 20 Mar 2025 09:59:22 EDT</pubDate>
+        <pubDate>Thu, 20 Mar 2025 10:58:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>WordPress security plugin WP Ghost vulnerable to remote code execution bug</title>
+        <link>https://www.bleepingcomputer.com/news/security/wordpress-security-plugin-wp-ghost-vulnerable-to-remote-code-execution-bug/</link>
+        <pubDate>Thu, 20 Mar 2025 10:58:55 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/wordpress-security-plugin-wp-ghost-vulnerable-to-remote-code-execution-bug/</guid>
+	<description><![CDATA[Popular WordPress security plugin WP Ghost is vulnerable to a critical severity flaw that could allow unauthenticated attackers to remotely execute code and hijack servers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>GitHub Action supply chain attack exposed secrets in 218 repos</title>
+        <link>https://www.bleepingcomputer.com/news/security/github-action-supply-chain-attack-exposed-secrets-in-218-repos/</link>
+        <pubDate>Thu, 20 Mar 2025 10:34:57 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/github-action-supply-chain-attack-exposed-secrets-in-218-repos/</guid>
+	<description><![CDATA[The compromise of GitHub Action tj-actions/changed-files has impacted only a small percentage of the 23,000 projects using it, with it estimated that only 218 repositories exposed secrets due to the supply chain attack. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft lifts Windows 11 upgrade block after Asphalt 8 crash fix</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-upgrade-block-after-asphalt-8-crash-fix/</link>
+        <pubDate>Thu, 20 Mar 2025 10:23:08 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-upgrade-block-after-asphalt-8-crash-fix/</guid>
+	<description><![CDATA[Microsoft has lifted an upgrade block that prevented Asphalt 8: Airborne players from upgrading their systems to Windows 11 24H2 due to compatibility issues. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Is it time to retire 'one-off' pen tests for continuous testing?</title>
+        <link>https://www.bleepingcomputer.com/news/security/is-it-time-to-retire-one-off-pen-tests-for-continuous-testing/</link>
+        <pubDate>Thu, 20 Mar 2025 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by Outpost24</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/is-it-time-to-retire-one-off-pen-tests-for-continuous-testing/</guid>
+	<description><![CDATA[Annual pentests can leave security gaps that attackers can exploit for months. Learn more from Outpost24 about why continuous penetration testing (PTaaS) offers real-time detection, remediation, and stronger protection. [...]]]></description>
+ </item>
+
  <item>
         <title>HellCat hackers go on a worldwide Jira hacking spree</title>
         <link>https://www.bleepingcomputer.com/news/security/hellcat-hackers-go-on-a-worldwide-jira-hacking-spree/</link>
@@ -144,48 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/legal/click-profit-blocked-by-the-ftc-over-alleged-e-commerce-scams/</guid>
 	<description><![CDATA[The US Federal Trade Commission (FTC) has taken action against the "Click Profit" business opportunity platform for allegedly earning $14 million while deceiving consumers with false promises of guaranteed passive income through online stores. [...]]]></description>
- </item>
-
- <item>
-        <title>WhatsApp patched zero-click flaw exploited in Paragon spyware attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/whatsapp-patched-zero-day-flaw-used-in-paragon-spyware-attacks/</link>
-        <pubDate>Wed, 19 Mar 2025 12:02:20 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/whatsapp-patched-zero-day-flaw-used-in-paragon-spyware-attacks/</guid>
-	<description><![CDATA[WhatsApp has patched a zero-click, zero-day vulnerability used to install Paragon's Graphite spyware following reports from security researchers at the University of Toronto's Citizen Lab. [...]]]></description>
- </item>
-
- <item>
-        <title>Why it's time for phishing prevention to move beyond email</title>
-        <link>https://www.bleepingcomputer.com/news/security/why-its-time-for-phishing-prevention-to-move-beyond-email/</link>
-        <pubDate>Wed, 19 Mar 2025 10:03:51 -0400</pubDate>
-        <dc:creator>Sponsored by Push Security</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/why-its-time-for-phishing-prevention-to-move-beyond-email/</guid>
-	<description><![CDATA[While phishing has evolved, email security hasn't kept up. Attackers now bypass MFA & detection tools with advanced phishing kits, making credential theft harder to prevent. Learn how Push Security's browser-based security stops attacks as they happen. [...]]]></description>
- </item>
-
- <item>
-        <title>Sperm donation giant California Cryobank warns of a data breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/sperm-donation-giant-california-cryobank-warns-of-a-data-breach/</link>
-        <pubDate>Tue, 18 Mar 2025 18:53:25 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sperm-donation-giant-california-cryobank-warns-of-a-data-breach/</guid>
-	<description><![CDATA[US sperm donor giant California Cryobank is warning customers it suffered a data breach that exposed customers' personal information. [...]]]></description>
  </item>
 
 </channel>
