@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 20 Mar 2025 15:00:32 EDT</pubDate>
+        <pubDate>Thu, 20 Mar 2025 15:59:47 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>VSCode extensions found downloading early-stage ransomware</title>
+        <link>https://www.bleepingcomputer.com/news/security/vscode-extensions-found-downloading-early-stage-ransomware/</link>
+        <pubDate>Thu, 20 Mar 2025 15:54:42 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/vscode-extensions-found-downloading-early-stage-ransomware/</guid>
+	<description><![CDATA[Two malicious VSCode Marketplace extensions were found deploying in-development ransomware from a remote server, exposing critical gaps in Microsoft's review process. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Critical Cisco Smart Licensing Utility flaws now exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/critical-cisco-smart-licensing-utility-flaws-now-exploited-in-attacks/</link>
+        <pubDate>Thu, 20 Mar 2025 15:05:09 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critical-cisco-smart-licensing-utility-flaws-now-exploited-in-attacks/</guid>
+	<description><![CDATA[Attackers have started targeting Cisco Smart Licensing Utility (CSLU) instances unpatched against a vulnerability exposing a built-in backdoor admin account. [...]]]></description>
+ </item>
+
  <item>
         <title>RansomHub ransomware uses new Betruger ‘multi-function’ backdoor</title>
         <link>https://www.bleepingcomputer.com/news/security/ransomhub-ransomware-uses-new-betruger-multi-function-backdoor/</link>
@@ -172,34 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ukrainian-military-targeted-in-new-signal-spear-phishing-attacks/</guid>
 	<description><![CDATA[Ukraine's Computer Emergency Response Team (CERT-UA) is warning about highly targeted attacks employing compromised Signal accounts to send malware to employees of defense industry firms and members of the country's army forces. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft Exchange Online outage affects Outlook web users</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-affects-outlook-web-users/</link>
-        <pubDate>Wed, 19 Mar 2025 15:34:05 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-affects-outlook-web-users/</guid>
-	<description><![CDATA[​Microsoft is investigating an ongoing outage preventing Outlook on the web users from accessing their Exchange Online mailboxes. [...]]]></description>
- </item>
-
- <item>
-        <title>New Arcane infostealer infects YouTube, Discord users via game cheats</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-arcane-infostealer-infects-youtube-discord-users-via-game-cheats/</link>
-        <pubDate>Wed, 19 Mar 2025 13:52:08 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-arcane-infostealer-infects-youtube-discord-users-via-game-cheats/</guid>
-	<description><![CDATA[A newly discovered information-stealing malware called Arcane is stealing extensive user data, including VPN account credentials, gaming clients, messaging apps, and information stored in web browsers. [...]]]></description>
  </item>
 
 </channel>
