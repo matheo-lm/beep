@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 20 Mar 2025 09:06:41 EDT</pubDate>
+        <pubDate>Thu, 20 Mar 2025 09:59:22 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>HellCat hackers go on a worldwide Jira hacking spree</title>
+        <link>https://www.bleepingcomputer.com/news/security/hellcat-hackers-go-on-a-worldwide-jira-hacking-spree/</link>
+        <pubDate>Thu, 20 Mar 2025 09:44:15 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hellcat-hackers-go-on-a-worldwide-jira-hacking-spree/</guid>
+	<description><![CDATA[Swiss global solutions provider Ascom has confirmed a cyberattack on its IT infrastructure as a hacker group known as Hellcat targets Jira servers worldwide using compromised credentials. [...]]]></description>
+ </item>
+
  <item>
         <title>Malware campaign 'DollyWay' breached 20,000 WordPress sites</title>
         <link>https://www.bleepingcomputer.com/news/security/malware-campaign-dollyway-breached-20-000-wordpress-sites/</link>
@@ -172,34 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/sperm-donation-giant-california-cryobank-warns-of-a-data-breach/</guid>
 	<description><![CDATA[US sperm donor giant California Cryobank is warning customers it suffered a data breach that exposed customers' personal information. [...]]]></description>
- </item>
-
- <item>
-        <title>GitHub Action hack likely led to another in cascading supply chain attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/github-action-hack-likely-led-to-another-in-cascading-supply-chain-attack/</link>
-        <pubDate>Tue, 18 Mar 2025 16:03:50 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/github-action-hack-likely-led-to-another-in-cascading-supply-chain-attack/</guid>
-	<description><![CDATA[A cascading supply chain attack that began with the compromise of the "reviewdog/action-setup@v1" GitHub Action is believed to have led to the recent breach of "tj-actions/changed-files" that leaked CI/CD secrets. [...]]]></description>
- </item>
-
- <item>
-        <title>Western Alliance Bank notifies 21,899 customers of data breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/western-alliance-bank-notifies-21-899-customers-of-data-breach/</link>
-        <pubDate>Tue, 18 Mar 2025 15:50:25 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/western-alliance-bank-notifies-21-899-customers-of-data-breach/</guid>
-	<description><![CDATA[Arizona-based Western Alliance Bank is notifying nearly 22,000 customers their personal information was stolen in October after a third-party vendor's secure file transfer software was breached. [...]]]></description>
  </item>
 
 </channel>
