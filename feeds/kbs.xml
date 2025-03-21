@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Thu, 20 Mar 2025 12:49:27 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 21 Mar 2025 18:21:19 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -655,7 +655,7 @@ tsarinahome.com</p>
 <h2>GHOST TAP</h2>
 <p>Criminals also can cash out mobile wallets by obtaining real point-of-sale terminals and using tap-to-pay on phone after phone. But they also offer a more cutting-edge mobile fraud technology: Merrill found that at least one of the Chinese phishing groups sells an Android app called &#8220;<strong>ZNFC</strong>&#8221; that can relay a valid NFC transaction to anywhere in the world. The user simply waves their phone at a local payment terminal that accepts Apple or Google pay, and the app relays an NFC transaction over the Internet from a phone in China.</p>
 <div style="text-align: center;"><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/ekqZjPAxB4c?si=hYLqGPIBrNthAg9_" width="750" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-<p>&#8220;The software can work from anywhere in the world,&#8221; Merrill said. &#8220;These guys provide the software for $500 a month, and it can relay both NFC enabled tap-to-pay as well as any digital wallet. The even have 24-hour support.&#8221;</p>
+<p>&#8220;The software can work from anywhere in the world,&#8221; Merrill said. &#8220;These guys provide the software for $500 a month, and it can relay both NFC enabled tap-to-pay as well as any digital wallet. They even have 24-hour support.&#8221;</p>
 <p>The rise of so-called &#8220;ghost tap&#8221; mobile software was <a href="https://www.threatfabric.com/blogs/ghost-tap-new-cash-out-tactic-with-nfc-relay" target="_blank" rel="noopener">first documented in November 2024</a> by security experts at <strong>ThreatFabric</strong>. <strong>Andy Chandler</strong>, the company&#8217;s chief commercial officer, said their researchers have since identified a number of criminal groups from different regions of the world latching on to this scheme.</p>
 <p>Chandler said those include organized crime gangs in Europe that are using similar mobile wallet and NFC attacks to take money out of ATMs made to work with smartphones.</p>
 <p>&#8220;No one is talking about it, but we&#8217;re now seeing ten different methodologies using the same modus operandi, and none of them are doing it the same,&#8221; Chandler said. &#8220;This is much bigger than the banks are prepared to say.&#8221;</p>
@@ -708,5 +708,5 @@ Object Caching 283/283 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-03-21 14:00:36 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-03-21 14:55:36 by W3 Total Cache
 -->
