@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 20 Mar 2025 18:59:23 EDT</pubDate>
+        <pubDate>Thu, 20 Mar 2025 20:11:01 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Veeam RCE bug lets domain users hack backup servers, patch now</title>
+        <link>https://www.bleepingcomputer.com/news/security/veeam-rce-bug-lets-domain-users-hack-backup-servers-patch-now/</link>
+        <pubDate>Thu, 20 Mar 2025 19:30:38 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/veeam-rce-bug-lets-domain-users-hack-backup-servers-patch-now/</guid>
+	<description><![CDATA[Veeam has patched a critical remote code execution vulnerability tracked as CVE-2025-23120 in its Backup & Replication software that impacts domain-joined installations. [...]]]></description>
+ </item>
+
  <item>
         <title>CISA tags NAKIVO backup flaw as actively exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/cisa-tags-nakivo-backup-flaw-as-actively-exploited-in-attacks/</link>
@@ -186,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/kali-linux-20251a-released-with-1-new-tool-annual-theme-refresh/</guid>
 	<description><![CDATA[Kali Linux has released version 2025.1a, the first version of 2025, with one new tool, desktop changes, and a theme refresh. [...]]]></description>
- </item>
-
- <item>
-        <title>Pennsylvania education union data breach hit 500,000 people</title>
-        <link>https://www.bleepingcomputer.com/news/security/pennsylvania-education-union-data-breach-hit-500-000-people/</link>
-        <pubDate>Wed, 19 Mar 2025 17:38:25 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/pennsylvania-education-union-data-breach-hit-500-000-people/</guid>
-	<description><![CDATA[The Pennsylvania State Education Association (PSEA), the largest public-sector union in Pennsylvania, is notifying over half a million individuals that attackers stole their personal information in a July 2024 security breach. [...]]]></description>
  </item>
 
 </channel>
