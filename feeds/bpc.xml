@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 21 Mar 2025 16:02:55 EDT</pubDate>
+        <pubDate>Fri, 21 Mar 2025 16:59:11 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Oracle denies breach after hacker claims theft of 6 million data records</title>
+        <link>https://www.bleepingcomputer.com/news/security/oracle-denies-data-breach-after-hacker-claims-theft-of-6-million-data-records/</link>
+        <pubDate>Fri, 21 Mar 2025 16:43:51 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/oracle-denies-data-breach-after-hacker-claims-theft-of-6-million-data-records/</guid>
+	<description><![CDATA[Oracle denies it was breached after a threat actor claimed to be selling 6 million data records allegedly stolen from the company's Oracle Cloud federated SSO login servers [...]]]></description>
+ </item>
+
  <item>
         <title>Fake Semrush ads used to steal SEO professionals’ Google accounts</title>
         <link>https://www.bleepingcomputer.com/news/security/fake-semrush-ads-used-to-steal-seo-professionals-google-accounts/</link>
@@ -178,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/wordpress-security-plugin-wp-ghost-vulnerable-to-remote-code-execution-bug/</guid>
 	<description><![CDATA[Popular WordPress security plugin WP Ghost is vulnerable to a critical severity flaw that could allow unauthenticated attackers to remotely execute code and hijack servers. [...]]]></description>
- </item>
-
- <item>
-        <title>GitHub Action supply chain attack exposed secrets in 218 repos</title>
-        <link>https://www.bleepingcomputer.com/news/security/github-action-supply-chain-attack-exposed-secrets-in-218-repos/</link>
-        <pubDate>Thu, 20 Mar 2025 10:34:57 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/github-action-supply-chain-attack-exposed-secrets-in-218-repos/</guid>
-	<description><![CDATA[The compromise of GitHub Action tj-actions/changed-files has impacted only a small percentage of the 23,000 projects using it, with it estimated that only 218 repositories exposed secrets due to the supply chain attack. [...]]]></description>
  </item>
 
 </channel>
