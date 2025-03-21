@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 21 Mar 2025 12:59:25 EDT</pubDate>
+        <pubDate>Fri, 21 Mar 2025 14:01:28 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Fake Semrush ads used to steal SEO professionals’ Google accounts</title>
+        <link>https://www.bleepingcomputer.com/news/security/fake-semrush-ads-used-to-steal-seo-professionals-google-accounts/</link>
+        <pubDate>Fri, 21 Mar 2025 13:16:09 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fake-semrush-ads-used-to-steal-seo-professionals-google-accounts/</guid>
+	<description><![CDATA[A new phishing campaign is targeting SEO professionals with malicious Semrush Google Ads that aim to steal their Google account credentials. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft: Exchange Online bug mistakenly quarantines user emails</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-bug-mistakenly-quarantines-user-emails/</link>
+        <pubDate>Fri, 21 Mar 2025 13:10:50 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-bug-mistakenly-quarantines-user-emails/</guid>
+	<description><![CDATA[Microsoft is investigating an Exchange Online bug causing anti-spam systems to mistakenly quarantine some users' emails. [...]]]></description>
+ </item>
+
  <item>
         <title>US removes sanctions against Tornado Cash crypto mixer</title>
         <link>https://www.bleepingcomputer.com/news/security/us-removes-sanctions-against-tornado-cash-crypto-mixer/</link>
@@ -174,34 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-windows-11-upgrade-block-after-asphalt-8-crash-fix/</guid>
 	<description><![CDATA[Microsoft has lifted an upgrade block that prevented Asphalt 8: Airborne players from upgrading their systems to Windows 11 24H2 due to compatibility issues. [...]]]></description>
- </item>
-
- <item>
-        <title>Is it time to retire 'one-off' pen tests for continuous testing?</title>
-        <link>https://www.bleepingcomputer.com/news/security/is-it-time-to-retire-one-off-pen-tests-for-continuous-testing/</link>
-        <pubDate>Thu, 20 Mar 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by Outpost24</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/is-it-time-to-retire-one-off-pen-tests-for-continuous-testing/</guid>
-	<description><![CDATA[Annual pentests can leave security gaps that attackers can exploit for months. Learn more from Outpost24 about why continuous penetration testing (PTaaS) offers real-time detection, remediation, and stronger protection. [...]]]></description>
- </item>
-
- <item>
-        <title>HellCat hackers go on a worldwide Jira hacking spree</title>
-        <link>https://www.bleepingcomputer.com/news/security/hellcat-hackers-go-on-a-worldwide-jira-hacking-spree/</link>
-        <pubDate>Thu, 20 Mar 2025 09:44:15 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hellcat-hackers-go-on-a-worldwide-jira-hacking-spree/</guid>
-	<description><![CDATA[Swiss global solutions provider Ascom has confirmed a cyberattack on its IT infrastructure as a hacker group known as Hellcat targets Jira servers worldwide using compromised credentials. [...]]]></description>
  </item>
 
 </channel>
