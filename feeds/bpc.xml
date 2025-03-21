@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 21 Mar 2025 09:05:56 EDT</pubDate>
+        <pubDate>Fri, 21 Mar 2025 09:59:36 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Steam pulls game demo infecting Windows with info-stealing malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/steam-pulls-game-demo-infecting-windows-with-info-stealing-malware/</link>
+        <pubDate>Fri, 21 Mar 2025 09:24:23 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Gaming]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/steam-pulls-game-demo-infecting-windows-with-info-stealing-malware/</guid>
+	<description><![CDATA[Valve has removed a game titled 'Sniper: Phantom's Resolution' from the Steam store following multiple user reports that indicated its demo installer actually infected their systems with information stealing malware. [...]]]></description>
+ </item>
+
  <item>
         <title>Veeam RCE bug lets domain users hack backup servers, patch now</title>
         <link>https://www.bleepingcomputer.com/news/security/veeam-rce-bug-lets-domain-users-hack-backup-servers-patch-now/</link>
@@ -170,20 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hellcat-hackers-go-on-a-worldwide-jira-hacking-spree/</guid>
 	<description><![CDATA[Swiss global solutions provider Ascom has confirmed a cyberattack on its IT infrastructure as a hacker group known as Hellcat targets Jira servers worldwide using compromised credentials. [...]]]></description>
- </item>
-
- <item>
-        <title>Malware campaign 'DollyWay' breached 20,000 WordPress sites</title>
-        <link>https://www.bleepingcomputer.com/news/security/malware-campaign-dollyway-breached-20-000-wordpress-sites/</link>
-        <pubDate>Wed, 19 Mar 2025 19:12:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/malware-campaign-dollyway-breached-20-000-wordpress-sites/</guid>
-	<description><![CDATA[A malware operation dubbed 'DollyWay' has been underway since 2016, compromising over 20,000 WordPress sites globally to redirect users to malicious sites. [...]]]></description>
  </item>
 
 </channel>
