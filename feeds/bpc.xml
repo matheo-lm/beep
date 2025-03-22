@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 22 Mar 2025 09:59:38 EDT</pubDate>
+        <pubDate>Sat, 22 Mar 2025 11:00:23 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft Trust Signing service abused to code-sign malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-trust-signing-service-abused-to-code-sign-malware/</link>
+        <pubDate>Sat, 22 Mar 2025 10:30:04 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-trust-signing-service-abused-to-code-sign-malware/</guid>
+	<description><![CDATA[Cybercriminals are abusing Microsoft's Trusted Signing platform to code-sign malware executables with short-lived three-day certificates. [...]]]></description>
+ </item>
+
  <item>
         <title>Coinbase was primary target of recent GitHub Actions breaches</title>
         <link>https://www.bleepingcomputer.com/news/security/coinbase-was-primary-target-of-recent-github-actions-breaches/</link>
@@ -162,36 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/critical-cisco-smart-licensing-utility-flaws-now-exploited-in-attacks/</guid>
 	<description><![CDATA[Attackers have started targeting Cisco Smart Licensing Utility (CSLU) instances unpatched against a vulnerability exposing a built-in backdoor admin account. [...]]]></description>
- </item>
-
- <item>
-        <title>RansomHub ransomware uses new Betruger ‘multi-function’ backdoor</title>
-        <link>https://www.bleepingcomputer.com/news/security/ransomhub-ransomware-uses-new-betruger-multi-function-backdoor/</link>
-        <pubDate>Thu, 20 Mar 2025 12:31:28 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ransomhub-ransomware-uses-new-betruger-multi-function-backdoor/</guid>
-	<description><![CDATA[Security researchers have linked a new backdoor dubbed Betruger, deployed in several recent ransomware attacks, to an affiliate of the RansomHub operation. [...]]]></description>
- </item>
-
- <item>
-        <title>UK urges critical orgs to adopt quantum cryptography by 2035</title>
-        <link>https://www.bleepingcomputer.com/news/security/uk-urges-critical-orgs-to-adopt-quantum-cryptography-by-2035/</link>
-        <pubDate>Thu, 20 Mar 2025 12:23:47 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/uk-urges-critical-orgs-to-adopt-quantum-cryptography-by-2035/</guid>
-	<description><![CDATA[The UK's National Cyber Security Centre (NCSC) has published specific timelines on migrating to post-quantum cryptography (PQC), dictating that critical organizations should complete migration by 2035. [...]]]></description>
  </item>
 
 </channel>
