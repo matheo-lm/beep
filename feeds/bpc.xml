@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 21 Mar 2025 19:00:12 EDT</pubDate>
+        <pubDate>Fri, 21 Mar 2025 20:10:56 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Coinbase was primary target of recent GitHub Actions breaches</title>
+        <link>https://www.bleepingcomputer.com/news/security/coinbase-was-primary-target-of-recent-github-actions-breaches/</link>
+        <pubDate>Fri, 21 Mar 2025 19:35:17 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/coinbase-was-primary-target-of-recent-github-actions-breaches/</guid>
+	<description><![CDATA[Researchers have determined that Coinbase was the primary target in a recent GitHub Actions cascading supply chain attack that compromised secrets in hundreds of repositories. [...]]]></description>
+ </item>
+
  <item>
         <title>Oracle denies breach after hacker claims theft of 6 million data records</title>
         <link>https://www.bleepingcomputer.com/news/security/oracle-denies-data-breach-after-hacker-claims-theft-of-6-million-data-records/</link>
@@ -178,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/uk-urges-critical-orgs-to-adopt-quantum-cryptography-by-2035/</guid>
 	<description><![CDATA[The UK's National Cyber Security Centre (NCSC) has published specific timelines on migrating to post-quantum cryptography (PQC), dictating that critical organizations should complete migration by 2035. [...]]]></description>
- </item>
-
- <item>
-        <title>WordPress security plugin WP Ghost vulnerable to remote code execution bug</title>
-        <link>https://www.bleepingcomputer.com/news/security/wordpress-security-plugin-wp-ghost-vulnerable-to-remote-code-execution-bug/</link>
-        <pubDate>Thu, 20 Mar 2025 10:58:55 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/wordpress-security-plugin-wp-ghost-vulnerable-to-remote-code-execution-bug/</guid>
-	<description><![CDATA[Popular WordPress security plugin WP Ghost is vulnerable to a critical severity flaw that could allow unauthenticated attackers to remotely execute code and hijack servers. [...]]]></description>
  </item>
 
 </channel>
