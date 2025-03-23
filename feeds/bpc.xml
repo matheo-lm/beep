@@ -11,14 +11,42 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 23 Mar 2025 15:59:37 EDT</pubDate>
+        <pubDate>Sun, 23 Mar 2025 17:01:07 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
  <item>
-        <title>Microsoft Trust Signing service abused to code-sign malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-trust-signing-service-abused-to-code-sign-malware/</link>
+        <title>FBI warnings are true—fake file converters do push malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-warnings-are-true-fake-file-converters-do-push-malware/</link>
+        <pubDate>Sun, 23 Mar 2025 10:09:19 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-warnings-are-true-fake-file-converters-do-push-malware/</guid>
+	<description><![CDATA[The FBI is warning that fake online document converters are being used to steal people's information and, in worst-case scenarios, lead to ransomware attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Cloudflare now blocks all unencrypted traffic to its API endpoints</title>
+        <link>https://www.bleepingcomputer.com/news/security/cloudflare-now-blocks-all-unencrypted-traffic-to-its-api-endpoints/</link>
+        <pubDate>Sat, 22 Mar 2025 11:35:46 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-now-blocks-all-unencrypted-traffic-to-its-api-endpoints/</guid>
+	<description><![CDATA[Cloudflare announced that it closed all HTTP connections and it is now accepting only secure, HTTPS connections for api.cloudflare.com. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft Trusted Signing service abused to code-sign malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-trusted-signing-service-abused-to-code-sign-malware/</link>
         <pubDate>Sat, 22 Mar 2025 10:30:04 -0400</pubDate>
         <dc:creator>Lawrence Abrams</dc:creator>
 
@@ -26,7 +54,7 @@
         <category><![CDATA[Security]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-trust-signing-service-abused-to-code-sign-malware/</guid>
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-trusted-signing-service-abused-to-code-sign-malware/</guid>
 	<description><![CDATA[Cybercriminals are abusing Microsoft's Trusted Signing platform to code-sign malware executables with short-lived three-day certificates. [...]]]></description>
  </item>
 
@@ -148,34 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-tags-nakivo-backup-flaw-as-actively-exploited-in-attacks/</guid>
 	<description><![CDATA[CISA has warned U.S. federal agencies to secure their networks against attacks exploiting a high-severity vulnerability in NAKIVO's Backup & Replication software. [...]]]></description>
- </item>
-
- <item>
-        <title>VSCode extensions found downloading early-stage ransomware</title>
-        <link>https://www.bleepingcomputer.com/news/security/vscode-extensions-found-downloading-early-stage-ransomware/</link>
-        <pubDate>Thu, 20 Mar 2025 15:54:42 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/vscode-extensions-found-downloading-early-stage-ransomware/</guid>
-	<description><![CDATA[Two malicious VSCode Marketplace extensions were found deploying in-development ransomware from a remote server, exposing critical gaps in Microsoft's review process. [...]]]></description>
- </item>
-
- <item>
-        <title>Critical Cisco Smart Licensing Utility flaws now exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/critical-cisco-smart-licensing-utility-flaws-now-exploited-in-attacks/</link>
-        <pubDate>Thu, 20 Mar 2025 15:05:09 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/critical-cisco-smart-licensing-utility-flaws-now-exploited-in-attacks/</guid>
-	<description><![CDATA[Attackers have started targeting Cisco Smart Licensing Utility (CSLU) instances unpatched against a vulnerability exposing a built-in backdoor admin account. [...]]]></description>
  </item>
 
 </channel>
