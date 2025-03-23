@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Fri, 21 Mar 2025 20:52:40 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 23 Mar 2025 18:38:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -48,7 +48,7 @@
 <p>&#8220;These offenders have been traveling nationwide, using stolen credit card information to purchase gift cards and launder funds,&#8221; Knox County Chief Deputy <strong>Bernie Lyon</strong> wrote. &#8220;During Monday’s operation, we recovered gift cards valued at over $23,000, all bought with unsuspecting victims’ information.&#8221;</p>
 <p>Asked for specifics about the mobile devices seized from the suspects, Lyon said &#8220;tap-to-pay fraud involves a group <em>utilizing Android phones to conduct Apple Pay transactions</em> utilizing stolen or compromised credit/debit card information,&#8221; [emphasis added].</p>
 <p>Lyon declined to offer additional specifics about the mechanics of the scam, citing an ongoing investigation.</p>
-<p><strong>Ford Merrill</strong> works in security research at <a href="https://www.secalliance.com/" target="_blank" rel="noopener">SecAlliance</a>, a <a href="https://www.csis.com/" target="_blank" rel="noopener">CSIS Security Group</a> company. Merrill said there aren&#8217;t many valid use cases for Android phones to transmit Apple Pay transactions. That is, he said, unless they are running a custom Android app that KrebsOnSecurity wrote about last month as a part of <a href="https://krebsonsecurity.com/2025/02/how-phished-data-turns-into-apple-google-wallets/" target="_blank" rel="noopener">a deep dive into the sprawling operations of China-based phishing cartels</a> that are breathing new life into the payment card fraud industry (a.k.a. &#8220;carding&#8221;).</p>
+<p><strong>Ford Merrill</strong> works in security research at <a href="https://www.secalliance.com/" target="_blank" rel="noopener">SecAlliance</a>, a <a href="https://www.csis.com/" target="_blank" rel="noopener">CSIS Security Group</a> company. Merrill said there aren&#8217;t many valid use cases for Android phones to transmit Apple Pay transactions. That is, he said, unless they are running a custom Android app that KrebsOnSecurity wrote about last month as part of <a href="https://krebsonsecurity.com/2025/02/how-phished-data-turns-into-apple-google-wallets/" target="_blank" rel="noopener">a deep dive into the operations of China-based phishing cartels</a> that are breathing new life into the payment card fraud industry (a.k.a. &#8220;carding&#8221;).</p>
 <p>How are these China-based phishing groups obtaining stolen payment card data and then loading it onto Google and Apple phones? It all starts with phishing.</p>
 <p>If you own a mobile phone, the chances are excellent that at some point in the past two years it has received at least one phishing message that spoofs the <strong>U.S. Postal Service</strong> to supposedly collect some outstanding delivery fee, or an SMS that pretends to be a local toll road operator warning of a delinquent toll fee.</p>
 <p>These messages are being sent through sophisticated phishing kits sold by several cybercriminals based in mainland China. And they are not traditional SMS phishing or “<strong>smishing</strong>” messages, as they bypass the mobile networks entirely. Rather, the missives are sent through the <strong>Apple iMessage</strong> service and through <a href="https://en.wikipedia.org/wiki/Rich_Communication_Services" target="_blank" rel="noopener">RCS</a>, the functionally equivalent technology on <strong>Google</strong> phones.</p>
@@ -677,5 +677,5 @@ Object Caching 271/271 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-03-23 14:02:29 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-03-23 14:57:32 by W3 Total Cache
 -->
