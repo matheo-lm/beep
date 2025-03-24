@@ -11,11 +11,53 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 24 Mar 2025 12:02:02 EDT</pubDate>
+        <pubDate>Mon, 24 Mar 2025 13:03:11 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Police arrests 300 suspects linked to African cybercrime rings</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-arrests-300-suspects-linked-to-african-cybercrime-rings/</link>
+        <pubDate>Mon, 24 Mar 2025 12:17:45 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-arrests-300-suspects-linked-to-african-cybercrime-rings/</guid>
+	<description><![CDATA[African law enforcement authorities have arrested 306 suspects as part of 'Operation Red Card,' an INTERPOL-led international crackdown targeting cross-border cybercriminal networks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Critical flaw in Next.js lets hackers bypass authorization</title>
+        <link>https://www.bleepingcomputer.com/news/security/critical-flaw-in-nextjs-lets-hackers-bypass-authorization/</link>
+        <pubDate>Mon, 24 Mar 2025 12:15:32 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critical-flaw-in-nextjs-lets-hackers-bypass-authorization/</guid>
+	<description><![CDATA[A critical severity vulnerability has been discovered in the Next.js open-source web development framework, potentially allowing attackers to bypass authorization checks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hidden Threats: How Microsoft 365 Backups Store Risks for Future Attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/hidden-threats-how-microsoft-365-backups-store-risks-for-future-attacks/</link>
+        <pubDate>Mon, 24 Mar 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Acronis</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hidden-threats-how-microsoft-365-backups-store-risks-for-future-attacks/</guid>
+	<description><![CDATA[Acronis Threat Research found 2M+ malicious URLs & 5,000+ malware instances in Microsoft 365 backup data—demonstrating how built-in security isn't always enough. Don't let threats persist in your cloud data. Strengthen your defenses. [...]]]></description>
+ </item>
+
  <item>
         <title>Google Gemini's Astra (screen sharing) rolls out on Android for some users</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-geminis-astra-screen-sharing-rolls-out-on-android-for-some-users/</link>
@@ -132,52 +174,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-bug-mistakenly-quarantines-user-emails/</guid>
 	<description><![CDATA[Microsoft is investigating an Exchange Online bug causing anti-spam systems to mistakenly quarantine some users' emails. [...]]]></description>
- </item>
-
- <item>
-        <title>US removes sanctions against Tornado Cash crypto mixer</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-removes-sanctions-against-tornado-cash-crypto-mixer/</link>
-        <pubDate>Fri, 21 Mar 2025 11:34:52 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-removes-sanctions-against-tornado-cash-crypto-mixer/</guid>
-	<description><![CDATA[The U.S. Department of Treasury announced today that it has removed sanctions against the Tornado Cash cryptocurrency mixer, which North Korean Lazarus hackers used to launder hundreds of millions stolen in multiple crypto heists. [...]]]></description>
- </item>
-
- <item>
-        <title>Steam pulls game demo infecting Windows with info-stealing malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/steam-pulls-game-demo-infecting-windows-with-info-stealing-malware/</link>
-        <pubDate>Fri, 21 Mar 2025 09:24:23 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Gaming]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/steam-pulls-game-demo-infecting-windows-with-info-stealing-malware/</guid>
-	<description><![CDATA[Valve has removed a game titled 'Sniper: Phantom's Resolution' from the Steam store following multiple user reports that indicated its demo installer actually infected their systems with information stealing malware. [...]]]></description>
- </item>
-
- <item>
-        <title>Veeam RCE bug lets domain users hack backup servers, patch now</title>
-        <link>https://www.bleepingcomputer.com/news/security/veeam-rce-bug-lets-domain-users-hack-backup-servers-patch-now/</link>
-        <pubDate>Thu, 20 Mar 2025 19:30:38 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/veeam-rce-bug-lets-domain-users-hack-backup-servers-patch-now/</guid>
-	<description><![CDATA[Veeam has patched a critical remote code execution vulnerability tracked as CVE-2025-23120 in its Backup & Replication software that impacts domain-joined installations. [...]]]></description>
  </item>
 
 </channel>
