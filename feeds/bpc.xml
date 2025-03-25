@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 25 Mar 2025 14:02:26 EDT</pubDate>
+        <pubDate>Tue, 25 Mar 2025 14:58:06 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Windows zero-day leaks NTLM hashes, gets unofficial patch</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-windows-zero-day-leaks-ntlm-hashes-gets-unofficial-patch/</link>
+        <pubDate>Tue, 25 Mar 2025 14:22:38 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-windows-zero-day-leaks-ntlm-hashes-gets-unofficial-patch/</guid>
+	<description><![CDATA[Free unofficial patches are available for a new Windows zero-day vulnerability that can let remote attackers steal NTLM credentials by tricking targets into viewing malicious files in Windows Explorer. [...]]]></description>
+ </item>
+
  <item>
         <title>EncryptHub linked to MMC zero-day attacks on Windows systems</title>
         <link>https://www.bleepingcomputer.com/news/security/encrypthub-linked-to-zero-day-attacks-targeting-windows-systems/</link>
@@ -174,22 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hidden-threats-how-microsoft-365-backups-store-risks-for-future-attacks/</guid>
 	<description><![CDATA[Acronis Threat Research found 2M+ malicious URLs & 5,000+ malware instances in Microsoft 365 backup data—demonstrating how built-in security isn't always enough. Don't let threats persist in your cloud data. Strengthen your defenses. [...]]]></description>
- </item>
-
- <item>
-        <title>Google Gemini's Astra (screen sharing) rolls out on Android for some users</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-geminis-astra-screen-sharing-rolls-out-on-android-for-some-users/</link>
-        <pubDate>Mon, 24 Mar 2025 00:08:37 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/google-geminis-astra-screen-sharing-rolls-out-on-android-for-some-users/</guid>
-	<description><![CDATA[At MWC 2025, Google confirmed it was working on screen and video share capabilities for Gemini Live, codenamed "Project Astra". At that time, Google promised that the feature would begin rolling out soon, and now some users have spotted it in the wild. [...]]]></description>
  </item>
 
 </channel>
