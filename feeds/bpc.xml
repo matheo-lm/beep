@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 25 Mar 2025 14:58:06 EDT</pubDate>
+        <pubDate>Tue, 25 Mar 2025 16:02:20 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cloudflare R2 service outage caused by password rotation error</title>
+        <link>https://www.bleepingcomputer.com/news/security/cloudflare-r2-service-outage-caused-by-password-rotation-error/</link>
+        <pubDate>Tue, 25 Mar 2025 15:47:07 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Cloud]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-r2-service-outage-caused-by-password-rotation-error/</guid>
+	<description><![CDATA[Cloudflare has announced that its R2 object storage and dependent services experienced an outage lasting 1 hour and 7 minutes, causing 100% write and 35% read failures globally. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Broadcom warns of authentication bypass in VMware Windows Tools</title>
+        <link>https://www.bleepingcomputer.com/news/security/broadcom-warns-of-authentication-bypass-in-vmware-windows-tools/</link>
+        <pubDate>Tue, 25 Mar 2025 15:17:28 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/broadcom-warns-of-authentication-bypass-in-vmware-windows-tools/</guid>
+	<description><![CDATA[Broadcom released security updates today to fix a high-severity authentication bypass vulnerability in VMware Tools for Windows. [...]]]></description>
+ </item>
+
  <item>
         <title>New Windows zero-day leaks NTLM hashes, gets unofficial patch</title>
         <link>https://www.bleepingcomputer.com/news/security/new-windows-zero-day-leaks-ntlm-hashes-gets-unofficial-patch/</link>
@@ -162,34 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/police-arrests-300-suspects-linked-to-african-cybercrime-rings/</guid>
 	<description><![CDATA[African law enforcement authorities have arrested 306 suspects as part of 'Operation Red Card,' an INTERPOL-led international crackdown targeting cross-border cybercriminal networks. [...]]]></description>
- </item>
-
- <item>
-        <title>Critical flaw in Next.js lets hackers bypass authorization</title>
-        <link>https://www.bleepingcomputer.com/news/security/critical-flaw-in-nextjs-lets-hackers-bypass-authorization/</link>
-        <pubDate>Mon, 24 Mar 2025 12:15:32 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/critical-flaw-in-nextjs-lets-hackers-bypass-authorization/</guid>
-	<description><![CDATA[A critical severity vulnerability has been discovered in the Next.js open-source web development framework, potentially allowing attackers to bypass authorization checks. [...]]]></description>
- </item>
-
- <item>
-        <title>Hidden Threats: How Microsoft 365 Backups Store Risks for Future Attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/hidden-threats-how-microsoft-365-backups-store-risks-for-future-attacks/</link>
-        <pubDate>Mon, 24 Mar 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Acronis</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hidden-threats-how-microsoft-365-backups-store-risks-for-future-attacks/</guid>
-	<description><![CDATA[Acronis Threat Research found 2M+ malicious URLs & 5,000+ malware instances in Microsoft 365 backup data—demonstrating how built-in security isn't always enough. Don't let threats persist in your cloud data. Strengthen your defenses. [...]]]></description>
  </item>
 
 </channel>
