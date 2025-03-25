@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 25 Mar 2025 12:02:17 EDT</pubDate>
+        <pubDate>Tue, 25 Mar 2025 13:01:38 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>EncryptHub linked to zero-day attacks targeting Windows systems</title>
+        <link>https://www.bleepingcomputer.com/news/security/encrypthub-linked-to-zero-day-attacks-targeting-windows-systems/</link>
+        <pubDate>Tue, 25 Mar 2025 12:51:32 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/encrypthub-linked-to-zero-day-attacks-targeting-windows-systems/</guid>
+	<description><![CDATA[A threat actor known as EncryptHub has been linked to Windows zero-day attacks exploiting a Microsoft Management Console vulnerability patched this month. [...]]]></description>
+ </item>
+
  <item>
         <title>Browser-in-the-Browser attacks target CS2 players' Steam accounts</title>
         <link>https://www.bleepingcomputer.com/news/security/browser-in-the-browser-attacks-target-cs2-players-steam-accounts/</link>
@@ -174,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/google-geminis-astra-screen-sharing-rolls-out-on-android-for-some-users/</guid>
 	<description><![CDATA[At MWC 2025, Google confirmed it was working on screen and video share capabilities for Gemini Live, codenamed "Project Astra". At that time, Google promised that the feature would begin rolling out soon, and now some users have spotted it in the wild. [...]]]></description>
- </item>
-
- <item>
-        <title>FBI warnings are true—fake file converters do push malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/fbi-warnings-are-true-fake-file-converters-do-push-malware/</link>
-        <pubDate>Sun, 23 Mar 2025 10:09:19 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fbi-warnings-are-true-fake-file-converters-do-push-malware/</guid>
-	<description><![CDATA[The FBI is warning that fake online document converters are being used to steal people's information and, in worst-case scenarios, lead to ransomware attacks. [...]]]></description>
  </item>
 
 </channel>
