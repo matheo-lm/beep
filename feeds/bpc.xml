@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 25 Mar 2025 09:04:51 EDT</pubDate>
+        <pubDate>Tue, 25 Mar 2025 10:03:03 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Android malware uses Microsoft’s .NET MAUI to evade detection</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-android-malware-uses-microsofts-net-maui-to-evade-detection/</link>
+        <pubDate>Tue, 25 Mar 2025 09:52:53 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-android-malware-uses-microsofts-net-maui-to-evade-detection/</guid>
+	<description><![CDATA[New Android malware campaigns use Microsoft's cross-platform framework .NET MAUI while disguising as legitimate services to evade detection. [...]]]></description>
+ </item>
+
  <item>
         <title>23andMe files for bankruptcy, customers advised to delete DNA data</title>
         <link>https://www.bleepingcomputer.com/news/security/23andme-files-for-bankruptcy-customers-advised-to-delete-dna-data/</link>
@@ -156,34 +172,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fbi-warnings-are-true-fake-file-converters-do-push-malware/</guid>
 	<description><![CDATA[The FBI is warning that fake online document converters are being used to steal people's information and, in worst-case scenarios, lead to ransomware attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Cloudflare now blocks all unencrypted traffic to its API endpoints</title>
-        <link>https://www.bleepingcomputer.com/news/security/cloudflare-now-blocks-all-unencrypted-traffic-to-its-api-endpoints/</link>
-        <pubDate>Sat, 22 Mar 2025 11:35:46 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-now-blocks-all-unencrypted-traffic-to-its-api-endpoints/</guid>
-	<description><![CDATA[Cloudflare announced that it closed all HTTP connections and it is now accepting only secure, HTTPS connections for api.cloudflare.com. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft Trusted Signing service abused to code-sign malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-trusted-signing-service-abused-to-code-sign-malware/</link>
-        <pubDate>Sat, 22 Mar 2025 10:30:04 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-trusted-signing-service-abused-to-code-sign-malware/</guid>
-	<description><![CDATA[Cybercriminals are abusing Microsoft's Trusted Signing platform to code-sign malware executables with short-lived three-day certificates. [...]]]></description>
  </item>
 
 </channel>
