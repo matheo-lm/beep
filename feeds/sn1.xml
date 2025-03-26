@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Wed, 12 Mar 2025 15:56:53 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 25 Mar 2025 17:02:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,31 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>LABScon24 Replay &#124; Kryptina RaaS: From Unsellable Cast-off to Enterprise Ransomware</title>
+		<link>https://www.sentinelone.com/labs/labscon24-replay-kryptina-raas-from-unsellable-cast-off-to-enterprise-ransomware/</link>
+		
+		<dc:creator><![CDATA[LABScon]]></dc:creator>
+		<pubDate>Wed, 26 Mar 2025 13:00:16 +0000</pubDate>
+				<category><![CDATA[labscon24]]></category>
+		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=115093</guid>
+
+					<description><![CDATA[Jim Walter reveals how a recent leak provided insight into how Kryptina RaaS has been adapted for use in enterprise attacks. ]]></description>
+										<content:encoded><![CDATA[<p>Kryptina RaaS is a Linux-focused RaaS platform &amp; service that started life as an unsellable giveaway. However, large-scale ransomware operations are now adopting the platform to extend their reach into Linux and cloud environments.</p>
+<p>In this talk, Jim Walter reveals how a recent leak from a Mallox ransomware-affiliated actor’s staging server provided insight into how Kryptina has been adapted for use in enterprise attacks.</p>
+<p>The presentation focuses on recent developments and provides an understanding of why threat actors are attracted to the Kryptina platform, and what this means in the context of victims and targeting.</p>
+<p>Jim also dissects what was included in the May 2024 Mallox leak and improvements and modifications that threat actors have made to the Kryptina platform.</p>
+<p><iframe src="https://www.youtube.com/embed/SobaTW71C-A" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<h2>About the Author</h2>
+<p>Jim Walter is a Senior Threat Researcher at SentinelOne focusing on evolving trends, actors, and tactics within the thriving ecosystem of cybercrime and crimeware. He specializes in the discovery and analysis of emerging cybercrime “services” and evolving communication channels leveraged by mid-level criminal organizations.</p>
+<h2>About LABScon</h2>
+<p>This presentation was featured live at <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon</a> 2024, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLABS.</p>
+<p>Keep up with all the latest on <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon 2025</a> here.</p>
+]]></content:encoded>
+					
+		
+		
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/Jim-LABScon24-ftr.jpg" length="73546" type="image/jpeg" />	</item>
+		<item>
 		<title>LABScon24 Replay &#124; Resilience and Protection in the Windows Ecosystem</title>
 		<link>https://www.sentinelone.com/labs/labscon24-replay-resilience-and-protection-in-the-windows-ecosystem/</link>
 		
@@ -96,7 +121,7 @@
 <p>SentinelLABS analyzed an attack that started with a Google Drive shared document landing in the target’s inbox. The email originated from an account using the name “Vladimir Nikiforech” (<code>vladimir.nikiforeach@gmail[.]com</code>). The email link pointed to a downloadable RAR archive, which according to the internal timestamps was created on 2025-01-14 00:47:54, containing a malicious Excel workbook (<code>ebb30fd99c2e6cbae392c337df5876759e53730d</code>) with the file name <code>политзаключенные(по судам минска).xls</code> (“Political prisoners (across courts of Minsk).xls”).</p>
 <p>The title of the lure indicates an interesting shift in Ghostwriter targeting. Although attribution for the 2021 Ghostwriter campaign <a href="https://www.cardiff.ac.uk/__data/assets/pdf_file/0005/2699483/Ghostwriter-Report-Final.pdf" target="_blank" rel="noopener noreferrer">pointed to</a> the Belarus state, this is the first time we have seen lures directly aimed at Belarus government opposition. The timing of the attack could have been motivated by the presidential election that <a href="https://en.wikipedia.org/wiki/2025_Belarusian_presidential_election" target="_blank" rel="noopener noreferrer">took place</a> shortly after on Jan 26, 2025.</p>
 <p>The XLS document contains an obfuscated VBA macro which is activated when the document is opened and the user allows Office macros to run.</p>
-<figure id="attachment_114850" aria-describedby="caption-attachment-114850" style="width: 1837px" class="wp-caption aligncenter"><img fetchpriority="high" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3.jpg" alt="Obfuscated macro inside the XLS spreadsheet" width="1837" height="752" class="size-full wp-image-114850" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3.jpg 1837w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3-300x123.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3-1024x419.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3-768x314.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3-1536x629.jpg 1536w" sizes="(max-width: 1837px) 100vw, 1837px" /><figcaption id="caption-attachment-114850" class="wp-caption-text">Obfuscated macro inside the XLS spreadsheet</figcaption></figure>
+<figure id="attachment_114850" aria-describedby="caption-attachment-114850" style="width: 1837px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3.jpg" alt="Obfuscated macro inside the XLS spreadsheet" width="1837" height="752" class="size-full wp-image-114850" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3.jpg 1837w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3-300x123.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3-1024x419.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3-768x314.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter_3-1536x629.jpg 1536w" sizes="auto, (max-width: 1837px) 100vw, 1837px" /><figcaption id="caption-attachment-114850" class="wp-caption-text">Obfuscated macro inside the XLS spreadsheet</figcaption></figure>
 <p>On execution, the macro writes a file to <code>%Temp%\Realtek(r)Audio.dll</code>.</p>
 <p>The DLL file is loaded with the following command line invocation:</p>
 <pre>
@@ -619,325 +644,5 @@ e2221e5c58a1a976e59fe1062c6db36d4951b81e &#8211; PHP file containing URL associa
 		
 		
 		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/12/Kymberlee-ftr.jpg" length="621118" type="image/jpeg" />	</item>
-		<item>
-		<title>Operation Digital Eye &#124; Chinese APT Compromises Critical Digital Infrastructure via Visual Studio Code Tunnels</title>
-		<link>https://www.sentinelone.com/labs/operation-digital-eye-chinese-apt-compromises-critical-digital-infrastructure-via-visual-studio-code-tunnels/</link>
-		
-		<dc:creator><![CDATA[Aleksandar Milenkoski &amp; Luigi Martire (Tinexta Cyber)]]></dc:creator>
-		<pubDate>Tue, 10 Dec 2024 10:55:33 +0000</pubDate>
-				<category><![CDATA[China]]></category>
-		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=109526</guid>
-
-					<description><![CDATA[Threat actors abused Visual Studio Code and Microsoft Azure infrastructure to target large business-to-business IT service providers in Southern Europe.]]></description>
-										<content:encoded><![CDATA[<h2>Executive Summary</h2>
-<ul>
-<li aria-level="1">From late June to mid-July 2024, a suspected China-nexus threat actor targeted large business-to-business IT service providers in Southern Europe, an activity cluster that we dubbed ‘Operation Digital Eye’.</li>
-<li aria-level="1">The intrusions could have enabled the adversaries to establish strategic footholds and compromise downstream entities. SentinelLabs and Tinexta Cyber detected and interrupted the activities in their initial phases.</li>
-<li aria-level="1">The threat actors used a lateral movement capability indicative of the presence of a shared vendor or digital quartermaster maintaining and provisioning tooling within the Chinese APT ecosystem.</li>
-<li aria-level="1">The threat actors abused Visual Studio Code and Microsoft Azure infrastructure for C2 purposes, attempting to evade detection by making malicious activities appear legitimate.</li>
-<li aria-level="1">Our visibility suggests that the abuse of Visual Studio Code for C2 purposes had been relatively rare in the wild prior to this campaign. Operation Digital Eye marks the first instance of a suspected Chinese APT group using this technique that we have directly observed.</li>
-</ul>
-<h2>Overview</h2>
-<p>Tinexta Cyber and SentinelLabs have been tracking threat activities targeting business-to-business IT service providers in Southern Europe. Based on the malware, infrastructure, techniques used, victimology, and the timing of the activities, we assess that it is highly likely these attacks were conducted by a China-nexus threat actor with cyberespionage motivations.</p>
-<p>The relationships between European countries and China are complex, characterized by cooperation, competition, and underlying tensions in areas such as trade, investment, and technology. Suspected China-linked cyberespionage groups <a href="https://cert.europa.eu/static/files/TLP-CLEAR-JointPublication-23-01.pdf" target="_blank" rel="noopener noreferrer">frequently</a> <a href="https://cert.europa.eu/publications/threat-intelligence/cb24-08/" target="_blank" rel="noopener noreferrer">target</a> public and private organizations across Europe to gather strategic intelligence, gain competitive advantages, and advance geopolitical, economic, and technological interests.</p>
-<p>The attack campaign, which we have dubbed Operation Digital Eye, took place from late June to mid-July 2024, lasting approximately three weeks. The targeted organizations provide solutions for managing data, infrastructure, and cybersecurity for clients across various industries, making them prime targets for cyberespionage actors.</p>
-<p>A sustained presence within these organizations would provide the Operation Digital Eye actors with a strategic foothold, creating opportunities for intrusions across the digital supply chain and enabling them to exert control over critical IT processes within the downstream compromised entities. The attacks were detected and disrupted during their initial phases.</p>
-<p>The exact group behind Operation Digital Eye remains unclear due to the extensive <a href="https://www.sentinelone.com/labs/chinese-entanglement-dll-hijacking-in-the-asian-gambling-sector/" target="_blank" rel="noopener noreferrer">sharing</a> of malware, operational playbooks, and infrastructure management processes within the Chinese threat landscape. The threat actors used a pass-the-hash capability, likely originating from the same source as closed-source custom Mimikatz modifications observed exclusively in suspected Chinese cyberespionage activities, such as <a href="https://www.cybereason.com/blog/research/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers" target="_blank" rel="noopener noreferrer">Operation Soft Cell</a> and <a href="https://www.sentinelone.com/labs/operation-tainted-love-chinese-apts-target-telcos-in-new-attacks/" target="_blank" rel="noopener noreferrer">Operation Tainted Love</a>. The malware and tooling used in these campaigns have been <a href="https://github.com/yt0ng/cracking_softcell/blob/main/Cracking_SOFTCLL_TLP_WHITE.pdf" target="_blank" rel="noopener noreferrer">linked </a>to several distinct Chinese APT groups. We collectively refer to these custom Mimikatz modifications as mimCN.</p>
-<p>The long-term evolution and versioning of mimCN samples, along with notable features such as instructions left for a separate team of operators, suggest the involvement of a shared vendor or digital quartermaster responsible for the active maintenance and provisioning of tooling. This function within the Chinese APT ecosystem, corroborated by the <a href="https://www.sentinelone.com/labs/unmasking-i-soon-the-leak-that-revealed-chinas-cyber-operations/" target="_blank" rel="noopener noreferrer">I-Soon leak</a>, likely plays a key role in facilitating China-nexus cyberespionage operations.</p>
-<p>The abuse of <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">Visual Studio Code</a> <a href="https://code.visualstudio.com/docs/remote/tunnels" target="_blank" rel="noopener noreferrer">Remote Tunnels</a> for C2 purposes is central to this campaign. Originally designed to enable remote development, this technology provides full endpoint access, including command execution and filesystem manipulation. Additionally, Visual Studio Code tunneling involves executables signed by Microsoft and Microsoft Azure network infrastructure, both of which are often not closely monitored and are typically allowed by application controls and firewall rules. As a result, this technique may be challenging to detect and could evade security defenses. Combined with the full endpoint access it provides, this makes Visual Studio Code tunneling an attractive and powerful capability for threat actors to exploit.</p>
-<p>Tinexta Cyber and SentinelLabs have notified Microsoft about the abuse of Visual Studio Code and Azure infrastructure in connection with Operation Digital Eye.</p>
-<h2>Infection Vector and Attack Progression</h2>
-<p>The attackers used SQL (Structured Query Language) injection as an initial access vector to infiltrate Internet-facing web and database servers. <code>User-Agent</code> request headers in the web traffic logs we retrieved indicate that the attackers used the <a href="https://sqlmap.org/" target="_blank" rel="noopener noreferrer">sqlmap</a> tool to automate the detection and exploitation of SQL injection vulnerabilities.</p>
-<p>To establish an initial foothold and maintain persistent access, the threat actors deployed a PHP-based webshell. Relatively simple in design and implementation, the webshell uses the <a href="https://www.php.net/manual/en/function.assert.php" target="_blank" rel="noopener noreferrer">assert</a> function to execute attacker-provided PHP code. Its implementation does not resemble any other webshells we are familiar with. We track this webshell under the name PHPsert.</p>
-<p>To disguise the files implementing PHPsert and attempt to evade detection based on filesystem activity, the attackers used custom names tailored to the infiltrated environments, making the filenames appear legitimate. This included using the local language and terms that aligned with the technological context of the targeted organizations.</p>
-<p>After establishing an initial foothold, the threat actors conducted reconnaissance using a variety of third-party tools and built-in Windows utilities, such as <a href="https://joeware.net/freetools/tools/getuserinfo/index.htm" target="_blank" rel="noopener noreferrer">GetUserInfo</a> and <code>ping</code>. They also deployed the <code>local.exe</code> tool, which is part of the Microsoft Windows NT Resource Kit and allows for viewing user group memberships.</p>
-<p>To steal credentials, the attackers used the <code>CreateDump</code> tool to <a href="https://lolbas-project.github.io/lolbas/OtherMSBinaries/Createdump/" target="_blank" rel="noopener noreferrer">extract</a> memory allocated to the Local Security Authority Subsystem Service (LSASS) process and exfiltrate credentials. <code>CreateDump</code> is part of the Microsoft .NET Framework distribution. The threat actors also retrieved credentials from the Security Account Manager (SAM) database, which they extracted from the Windows Registry using the <code>reg save</code> <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg-save" target="_blank" rel="noopener noreferrer">command</a>.</p>
-<p>The threat actors frequently named the files they deployed using the pattern <code>do.*</code>. Examples include <code>do.log</code> (output from <code>ping</code> commands), <code>do.exe</code> (the <code>CreateDump</code> tool), and <code>do.bat</code> (a script that executes and deletes the <code>CreateDump</code> executable).</p>
-<p>From the initially compromised endpoints, the attackers moved laterally across the internal network, primarily using RDP (Remote Desktop Protocol) connections and pass-the-hash techniques. For the pass-the-hash attacks, they used a custom modified version of Mimikatz, implemented in an executable named <code>bK2o.exe</code>.</p>
-<p>In addition to the PHPsert webshell, the threat actors used two methods for remote command execution: SSH access, enabled by deploying <code>authorized_keys</code> files containing public keys for authentication, and Visual Studio Code Remote Tunnels.</p>
-<p>Visual Studio Code Remote Tunnels, based on Microsoft’s <a href="https://learn.microsoft.com/en-us/azure/developer/dev-tunnels/overview" target="_blank" rel="noopener noreferrer">dev tunnel</a> technology, enable developers to access and work on remote systems. This access includes the command terminal and file system, allowing activities such as command execution and file editing. The Operation Digital Eye actors abused this functionality to maintain persistent backdoor access to compromised systems.</p>
-<p>In an attempt to evade detection based on filesystem activity, the threat actors used <code>%SystemRoot%\Temp</code> and <code>%ProgramData%\Visual Studio Code</code> as their primary working directories for storing tools and data. <code>%SystemRoot%\Temp</code> is a directory where Windows stores temporary files and is often monitored with less scrutiny. <code>%ProgramData%\Visual Studio Code</code> was intended to appear as a legitimate directory associated with Visual Studio Code.</p>
-<p>The intrusions were detected and interrupted before the attackers could proceed to further phases, such as exfiltrating data.</p>
-<h2>Abuse of Visual Studio Code</h2>
-<p>The threat actors deployed a portable Visual Studio Code executable named <code>code.exe</code>, which is digitally signed by Microsoft, and used the <a href="https://github.com/winsw/winsw" target="_blank" rel="noopener noreferrer">winsw</a> tool to run it as a Windows service. The <code>winsw</code> configuration file we retrieved indicates that the attackers created a service named <code>Visual Studio Code Service</code>, which executes <code>code.exe</code> with the <code>tunnel</code> command-line parameter at every system startup.</p>
-<p>The configuration file reveals a pragmatic approach by the threat actors, who likely modified a <a href="https://github.com/winsw/winsw/blob/v3/samples/complete.xml" target="_blank" rel="noopener noreferrer">publicly available</a> <code>winsw</code> configuration. This is suggested by the use of the <code>myapp</code> service identifier and the <code>%BASE%\logs</code> directory for storing <code>winsw</code> log files, both of which appear in the public configuration file as well as in the one we retrieved.</p>
-<figure id="attachment_109546" aria-describedby="caption-attachment-109546" style="width: 852px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye13.jpg" alt="winsw configuration file" width="852" height="396" class="size-full wp-image-109546" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye13.jpg 852w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye13-300x139.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye13-768x357.jpg 768w" sizes="auto, (max-width: 852px) 100vw, 852px" /><figcaption id="caption-attachment-109546" class="wp-caption-text">winsw configuration file</figcaption></figure>
-<p>The <code>tunnel</code> parameter instructs Visual Studio Code to create a dev tunnel and act as a server to which remote users can connect. After <a href="https://learn.microsoft.com/en-us/azure/developer/dev-tunnels/security" target="_blank" rel="noopener noreferrer">authenticating</a> to the tunnel with a Microsoft or GitHub account, remote users can access the endpoint running the Visual Studio Code server, either through the Visual Studio Code desktop application or the browser-based version, <a href="https://vscode.dev/" target="_blank" rel="noopener noreferrer">vscode.dev</a>.</p>
-<p>After creating the dev tunnels, the threat actors authenticated using GitHub accounts and accessed the compromised endpoints through the browser-based version of Visual Studio Code. We have no knowledge of whether the threat actors used self-registered or compromised GitHub accounts to authenticate to the tunnels.</p>
-<h2>Network Infrastructure</h2>
-<p>The Operation Digital Eye actors used infrastructure located exclusively within Europe, sourced from the provider M247 and the Cloud platform Microsoft Azure. This was likely part of a deliberate strategy. Since the targeted organizations are based and operate within Europe, the attackers may have aimed to minimize suspicion by aligning their infrastructure&#8217;s location with that of their targets. Additionally, Cloud infrastructure commonly used in legitimate IT workflows, such as Microsoft Azure, is often not closely monitored and is frequently allowed through firewall restrictions. By leveraging public Cloud infrastructure for malicious purposes, the attackers made the traffic appear legitimate, which can be challenging to detect and may evade security defenses.</p>
-<p>In the initial phases of the attacks, the threat actors used the server with IP address <code>146.70.161[.]78</code> to establish initial access by detecting and exploiting SQL injection vulnerabilities, and the server with IP address <code>185.76.78[.]117</code> to operate the PHPsert webshell. Both IP addresses are allocated to the infrastructure provider M247 and are located in Poland and Italy, respectively.</p>
-<p>In the later phases of the attacks, the threat actors used the server with IP address <code>4.232.170[.]137</code> for C2 purposes when remotely accessing compromised endpoints via the SSH protocol. This server is part of Microsoft&#8217;s Azure infrastructure in the <code>Italy North</code> <a href="https://learn.microsoft.com/en-us/azure/virtual-machines/regions" target="_blank" rel="noopener noreferrer">datacenter region</a> (<a href="https://www.microsoft.com/en-us/download/details.aspx?id=56519" target="_blank" rel="noopener noreferrer">Azure IP range</a>: <code>4.232.128[.]0/18</code>, <a href="https://learn.microsoft.com/en-us/azure/virtual-network/service-tags-overview" target="_blank" rel="noopener noreferrer">service tag</a>: <code>AzureCloud.italynorth</code>). We currently have no information on whether the threat actors used self-registered or compromised Azure credentials to access and manage the Azure resources and services.</p>
-<p>The abuse of Visual Studio Code tunneling for C2 purposes also relies on Microsoft Azure infrastructure. Creating and hosting a dev tunnel requires connecting to a Microsoft Azure server with a domain of <code>*.[clusterID].devtunnels.ms</code>, where <code>[clusterID]</code> corresponds to the Azure region of the endpoint running the Visual Studio Code server, <a href="https://global.rel.tunnels.api.visualstudio.com/api/v1/clusters" target="_blank" rel="noopener noreferrer">such as</a> <code>euw</code> for <code>West Europe</code>. In Operation Digital Eye, the creation of dev tunnels involved establishing connections to the server with the domain <code>[REDACTED].euw.devtunnels[.]ms</code>, which resolved to the IP address <code>20.103.221[.]187</code>. This server is part of Microsoft&#8217;s Azure infrastructure in the <code>West Europe</code> datacenter region (Azure IP range: <code>20.103.0[.]0/16</code>, service tag: <code>AzureCloud.westeurope</code>).</p>
-<h2>The PHPsert Webshell</h2>
-<p>PHPsert executes attacker-provided PHP code using the <a href="https://www.php.net/manual/en/function.assert.php" target="_blank" rel="noopener noreferrer">assert</a> function, which, in PHP versions prior to 8.0.0, interprets and runs parameter strings as PHP code. To hinder static analysis and evade detection, the webshell uses various code obfuscation techniques, including XOR encoding, hexadecimal character representation, string concatenation, and randomized variable names.</p>
-<figure id="attachment_109540" aria-describedby="caption-attachment-109540" style="width: 664px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye3.jpg" alt="PHPsert implementation" width="664" height="434" class="size-full wp-image-109540" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye3.jpg 664w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye3-300x196.jpg 300w" sizes="auto, (max-width: 664px) 100vw, 664px" /><figcaption id="caption-attachment-109540" class="wp-caption-text">PHPsert implementation</figcaption></figure>
-<p>The PHPsert webshell operates as follows:</p>
-<ul>
-<li aria-level="1">PHPsert instantiates a class with a single regular method, which XOR-decodes and concatenates hexadecimal characters to generate the string <code>assert</code>. The class&#8217;s destructor (the magic method <code>__destruct</code>) uses this string to invoke the <code>assert</code> function, passing attacker-provided PHP code as a parameter.</li>
-<li aria-level="1">The webshell retrieves the attacker-provided PHP code from an HTTP POST request parameter, for example, <code>momomomo</code>. If the <code>id</code> parameter is present in the request URL, PHPsert decodes the Base64-encoded value of the POST parameter. If the <code>id</code> parameter is absent, the webshell uses the raw value of the parameter.</li>
-<li aria-level="1">Finally, when PHPsert finishes executing, the class&#8217;s destructor is invoked, which in turn calls the <code>assert</code> function to execute the attacker-provided PHP code.</li>
-</ul>
-<p>We identified multiple PHPsert variants, which have been submitted to malware sharing platforms since May 2023, from various locations including Japan, Singapore, Peru, Taiwan, Iran, Korea, and the Philippines. These variants show only minor differences in their implementation, such as varying variable names and POST request parameters like <code>mr6</code>, <code>brute</code>, and <code>qq</code>. Our analysis suggests that PHPsert is deployed not only as a standalone PHP file but is also integrated into various types of web content, including web text editors and content management systems.</p>
-<p>One of the PHPsert variants contains commented-out code snippets and comments in simplified Chinese that describe nearby code. These comments and snippets are not present in the PHPsert versions observed in Operation Digital Eye, nor in any of the webshell’s other variants. Below are the code comments, all of which are machine-translated from simplified Chinese:</p>
-<ul>
-<li aria-level="1"><code>结果是"assert"</code>, which translates to <code>The result is "assert"</code>.</li>
-<li aria-level="1"><code>验证 $this->rg 是否安全</code>, which translates to <code>Verify that $this->rg is safe</code>.</li>
-<li aria-level="1"><code>验证和清理用户输入</code>, which translates to <code>Validating and sanitizing user input</code>.</li>
-</ul>
-<p><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye14.jpg" alt="" width="382" height="196" class="aligncenter size-full wp-image-109545" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye14.jpg 382w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye14-300x154.jpg 300w" sizes="auto, (max-width: 382px) 100vw, 382px" /><br />
-<img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye2.jpg" alt="" width="580" height="119" class="aligncenter size-full wp-image-109541" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye2.jpg 580w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye2-300x62.jpg 300w" sizes="auto, (max-width: 580px) 100vw, 580px" /><br />
-<figure id="attachment_109548" aria-describedby="caption-attachment-109548" style="width: 671px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye11.jpg" alt="PHPsert code snippets with comments in Chinese" width="671" height="45" class="size-full wp-image-109548" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye11.jpg 671w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye11-300x20.jpg 300w" sizes="auto, (max-width: 671px) 100vw, 671px" /><figcaption id="caption-attachment-109548" class="wp-caption-text">PHPsert code snippets with comments in Chinese</figcaption></figure></p>
-<p>The presence of these comments, along with the indicators of removed code across PHPsert variants, suggests the potential involvement of Chinese-speaking developers who may have been simplifying the webshell&#8217;s execution logic.</p>
-<h2>Pass-the-Hash Capability</h2>
-<p>The <code>bK2o.exe</code> executable (a custom modified version of Mimikatz used in Operation Digital Eye for pass-the-hash attacks) enables the execution of processes within a user&#8217;s security context by leveraging a compromised NTLM password hash, bypassing the need for the user’s actual password. To achieve this, <code>bK2o.exe</code> overwrites memory of the LSASS process. The tool supports the following command-line parameters:</p>
-<ul>
-<li aria-level="1"><code>/c</code>: The process to execute; defaults to <code>cmd.exe</code> if not provided.</li>
-<li aria-level="1"><code>/u</code>: The user’s username.</li>
-<li aria-level="1"><code>/d</code>: The user’s domain.</li>
-<li aria-level="1"><code>/h</code>: The NTLM password hash.</li>
-</ul>
-<p><code>bK2o.exe</code> implements a pass-the-hash technique by overwriting LSASS memory in a manner similar to Mimikatz, with its implementation partially overlapping with Mimikatz functions such as <code>kuhl_m_sekurlsa_pth_luid</code> and <code>kuhl_m_sekurlsa_msv_enum_cred_callback_pth</code>. In summary, <code>bK2o.exe</code> performs the following:</p>
-<ul>
-<li aria-level="1"><a href="https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-createprocesswithlogonw" target="_blank" rel="noopener noreferrer">Creates</a> a suspended process in a new logon session, specifying the attacker-provided process, username, domain, and an empty password.</li>
-<li aria-level="1">Based on the session’s locally unique identifier (LUID), locates and extracts from the LSASS process memory an encrypted credential data blob containing the user’s NTLM hash and the encryption keys required to decrypt the blob.</li>
-<li aria-level="1">Decrypts the data blob, overwrites the user’s NTLM hash with the attacker-provided hash, and re-encrypts the data blob.</li>
-<li aria-level="1">Resumes the suspended process.</li>
-</ul>
-<figure id="attachment_109535" aria-describedby="caption-attachment-109535" style="width: 749px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye8.jpg" alt="bK2o.exe creates a new process and retrieves the logon session’s LUID" width="749" height="527" class="size-full wp-image-109535" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye8.jpg 749w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye8-300x211.jpg 300w" sizes="auto, (max-width: 749px) 100vw, 749px" /><figcaption id="caption-attachment-109535" class="wp-caption-text">bK2o.exe creates a new process and retrieves the logon session’s LUID</figcaption></figure>
-<p>To navigate LSASS memory, <code>bK2o.exe</code> uses code signatures, represented as byte sequences in hexadecimal format. These sequences correspond to known LSASS instructions, which serve as navigation points within the memory.</p>
-<p>To hinder static analysis and evade detection, <code>bK2o.exe</code> obfuscates code signatures and strings by constructing them dynamically on the stack at runtime, instead of storing them as static data.</p>
-<figure id="attachment_109542" aria-describedby="caption-attachment-109542" style="width: 382px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye17.jpg" alt="bK2o.exe constructs the string lsasrv.dll on the stack" width="382" height="181" class="size-full wp-image-109542" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye17.jpg 382w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye17-300x142.jpg 300w" sizes="auto, (max-width: 382px) 100vw, 382px" /><figcaption id="caption-attachment-109542" class="wp-caption-text">bK2o.exe constructs the string lsasrv.dll on the stack</figcaption></figure>
-<figure id="attachment_109538" aria-describedby="caption-attachment-109538" style="width: 314px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye5.jpg" alt="bK2o.exe constructs the code signature 33 ff 41 89 37 4c 8b f3 [...] on the stack" width="314" height="121" class="size-full wp-image-109538" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye5.jpg 314w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye5-300x116.jpg 300w" sizes="auto, (max-width: 314px) 100vw, 314px" /><figcaption id="caption-attachment-109538" class="wp-caption-text">bK2o.exe constructs the code signature 33 ff 41 89 37 4c 8b f3 [&#8230;] on the stack</figcaption></figure>
-<h2>From Operation Digital Eye to Tainted Love and Soft Cell</h2>
-<p>We identified two additional samples uploaded to malware sharing platforms that construct code signatures on the stack, which we refer to as <code><code>wsx1.exe</code></code> and <code>wsx1.exe</code>. Like <code>bK2o.exe</code>, both <code>wsx.exe</code> and <code>wsx1.exe</code> are custom modified versions of Mimikatz and implement pass-the-hash functionality.</p>
-<p>Substantial code segments in <code>wsx.exe</code> and <code>wsx1.exe</code>, which implement the construction of code signatures on the stack, overlap with those in <code>bK2o.exe</code>, including identical <code>mov</code> instruction operand sizes and values. This suggests that <code>wsx.exe</code>, <code>wsx1.exe</code>, and <code>bK2o.exe</code> are highly likely derived from the same source.</p>
-<p><figure id="attachment_109549" aria-describedby="caption-attachment-109549" style="width: 442px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye10.jpg" alt="Code segment in bK2o.exe" width="442" height="542" class="size-full wp-image-109549" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye10.jpg 442w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye10-245x300.jpg 245w" sizes="auto, (max-width: 442px) 100vw, 442px" /><figcaption id="caption-attachment-109549" class="wp-caption-text">Code segment in bK2o.exe</figcaption></figure><br />
-<figure id="attachment_109550" aria-describedby="caption-attachment-109550" style="width: 473px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye1.jpg" alt="Code segment in wsx1.exe" width="473" height="562" class="size-full wp-image-109550" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye1.jpg 473w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye1-252x300.jpg 252w" sizes="auto, (max-width: 473px) 100vw, 473px" /><figcaption id="caption-attachment-109550" class="wp-caption-text">Code segment in wsx1.exe</figcaption></figure></p>
-<p>In turn, we observed overlaps between <code>wsx.exe</code>, <code>wsx1.exe</code>, and mim221 components. mim221 is a versioned and well-maintained credential theft tool, also a custom modified version of Mimikatz, which SentinelLabs observed in <a href="https://www.sentinelone.com/labs/operation-tainted-love-chinese-apts-target-telcos-in-new-attacks/" target="_blank" rel="noopener noreferrer">Operation Tainted Love</a> — a campaign targeting telecommunication providers in the Middle East in 2023.</p>
-<p>We attributed Operation Tainted Love to a suspected Chinese cyberespionage group within the nexus of Granite Typhoon (formerly known as Gallium) and APT41, while acknowledging the possibility of tool sharing among Chinese state-sponsored threat actors and the potential involvement of a shared vendor or digital quartermaster. We assess that mim221 represents an evolution of tooling <a href="https://www.cybereason.com/blog/research/deadringer-exposing-chinese-threat-actors-targeting-major-telcos" target="_blank" rel="noopener noreferrer">associated</a> with <a href="https://www.cybereason.com/blog/research/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers" target="_blank" rel="noopener noreferrer">Operation Soft Cell</a>, such as <a href="https://www.virustotal.com/gui/file/65ea5f7750f44d98f1077397b906b2611781579a2ae6def44a4de5b41265a9b9/details" target="_blank" rel="noopener noreferrer">simplify_32.exe</a>. Operation Soft Cell, which targeted telecommunication providers in 2017 and 2018, has been <a href="https://www.bleepingcomputer.com/news/security/microsoft-warns-of-gallium-threat-group-attacking-global-telcos/" target="_blank" rel="noopener noreferrer">linked</a> to Granite Typhoon, and possible <a href="https://github.com/yt0ng/cracking_softcell/blob/main/Cracking_SOFTCLL_TLP_WHITE.pdf" target="_blank" rel="noopener noreferrer">connections</a> between the Soft Cell actors and APT41 have also been suggested.</p>
-<p>mim221 has a multi-component architecture, with a single executable staging three components — <code>pc.dll</code>, <code>AddSecurityPackage64.dll</code>, and <code>getHashFlsa64.dll</code> — using techniques such as decryption, injection, and reflective image loading. These components share several overlaps with <code>bK2o.exe</code>, <code>wsx.exe</code>, and <code>wsx1.exe</code>.</p>
-<p>To hinder static analysis, some mim221 components also obfuscate strings by constructing them on the stack at runtime. Additionally, the mim221 components <code>AddSecurityPackage64.dll</code> and <code>getHashFlsa64.dll</code> implement error logging similar to that of <code>wsx.exe</code> and <code>wsx1.exe</code>, including identical custom error messages, a consistent output format, and the same English-language errors.</p>
-<p><figure id="attachment_109534" aria-describedby="caption-attachment-109534" style="width: 311px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye9.jpg" alt="Error messages in mim221" width="311" height="110" class="size-full wp-image-109534" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye9.jpg 311w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye9-300x106.jpg 300w" sizes="auto, (max-width: 311px) 100vw, 311px" /><figcaption id="caption-attachment-109534" class="wp-caption-text">Error messages in mim221</figcaption></figure><br />
-<figure id="attachment_109544" aria-describedby="caption-attachment-109544" style="width: 331px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye15.jpg" alt="Error messages in wsx.exe and wsx1.exe" width="331" height="109" class="size-full wp-image-109544" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye15.jpg 331w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye15-300x99.jpg 300w" sizes="auto, (max-width: 331px) 100vw, 331px" /><figcaption id="caption-attachment-109544" class="wp-caption-text">Error messages in wsx.exe and wsx1.exe</figcaption></figure></p>
-<p>In addition, RTTI (Run-Time Type Information) information stored in <code>wsx.exe</code>, <code>wsx1.exe</code>, and the mim221 component <code>getHashFlsa64.dll</code> reveals that classes with the same names are declared across these executables. We have not observed these class names in open-source or publicly available tooling.</p>
-<figure id="attachment_109537" aria-describedby="caption-attachment-109537" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye6.jpg" alt="Class names (those present in more than one executable are highlighted in bold)" width="1999" height="1621" class="size-full wp-image-109537" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye6.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye6-300x243.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye6-1024x830.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye6-768x623.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye6-1536x1246.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-109537" class="wp-caption-text">Class names (those present in more than one executable are highlighted in bold)</figcaption></figure>
-<h2>mimCN | A Collection of China-Nexus APT Tools</h2>
-<p>Due to the previously discussed overlaps between <code>bK2o.exe</code> (used in Operation Digital Eye), <code>wsx.exe</code>, <code>wsx1.exe</code>, mim221 components (used in Operation Tainted Love), and <code>simplify_32.exe</code> (used in Operation Soft Cell), we collectively refer to this collection of tools as mimCN.</p>
-<figure id="attachment_109543" aria-describedby="caption-attachment-109543" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye16.jpg" alt="The mimCN samples bK2o.exe, wsx.exe, wsx1.exe, and mim221" width="1999" height="895" class="size-full wp-image-109543" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye16.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye16-300x134.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye16-1024x458.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye16-768x344.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye16-1536x688.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-109543" class="wp-caption-text">The mimCN samples bK2o.exe, wsx.exe, wsx1.exe, and mim221</figcaption></figure>
-<p>We include in the mimCN tool collection not only the previously mentioned tools but also any other custom modifications of Mimikatz that have overlaps with other mimCN executables, suggesting they may originate from the same source. Such overlaps include shared code-signing certificates and the use of unique custom error messages or obfuscation techniques.</p>
-<p>To date, we have observed mimCN tools exclusively in the context of suspected Chinese APT activities. Although the compilation timestamps of the mimCN samples observed in these intrusions could have been manipulated, the proximity of the timestamps to when the activities occurred suggests that they are likely authentic.</p>
-<div style="font-size:0.8em">
-<div style="overflow-x:auto;">
-<table style="border-collapse: collapse; width: 100%; height: 120px;">
-<tbody>
-<tr style="height: 24px;">
-<td style="width: 20.0%; height: 24px;"><strong>Operation</strong></td>
-<td style="width: 40.0%; height: 24px;"><strong>mimCN sample</strong></td>
-<td style="width: 40.0%; height: 24px;"><strong>Compilation timestamp (UTC)</strong></td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 20.0%; height: 24px;">Digital Eye</td>
-<td style="width: 40.0%; height: 24px;">bK2o.exe</td>
-<td style="width: 40.0%; height: 24px;">Thu May 30 08:47:56 2024</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 20.0%; height: 24px;">Tainted Love</td>
-<td style="width: 40.0%; height: 24px;">mim221 (pc.exe)</td>
-<td style="width: 40.0%; height: 24px;">Thu Jun 09 08:02:12 2022</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 20.0%; height: 24px;">Tainted Love</td>
-<td style="width: 40.0%; height: 24px;">mim221 (AddSecurityPackage64.dll)</td>
-<td style="width: 40.0%; height: 24px;">Thu Jun 09 08:01:46 2022</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 20.0%; height: 24px;">Tainted Love</td>
-<td style="width: 40.0%; height: 24px;">mim221 (pc.dll)</td>
-<td style="width: 40.0%; height: 24px;">Tue Jun 07 16:55:05 2022</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 20.0%; height: 24px;">Tainted Love</td>
-<td style="width: 40.0%; height: 24px;">mim221 (getHashFlsa64.dll)</td>
-<td style="width: 40.0%; height: 24px;">Fri May 27 20:56:26 2022</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 20.0%; height: 24px;">Soft Cell</td>
-<td style="width: 40.0%; height: 24px;">simplify_32.exe</td>
-<td style="width: 40.0%; height: 24px;">Tue Nov 20 03:54:21 2018</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<figure id="attachment_109547" aria-describedby="caption-attachment-109547" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye12.jpg" alt="Use of mimCN samples" width="1999" height="668" class="size-full wp-image-109547" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye12.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye12-300x100.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye12-1024x342.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye12-768x257.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye12-1536x513.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-109547" class="wp-caption-text">Use of mimCN samples</figcaption></figure>
-<p>Further, unique usage instructions found in some mimCN samples, such as <code>[ERROR]Please input command. eg, /cmd:xxx</code>  and <code>[ERROR]Please input ip. eg, /ip:xx.XXX.xx.x or /ip:xxx.com</code>, suggest the involvement of a dedicated development team that is leaving instructions for a separate group of operators. Combined with the presence of overlapping mimCN samples across various intrusions attributed to China-nexus APT groups and distributed over years, this suggests that mimCN is likely the product of an entity responsible for maintaining and provisioning tools to multiple clusters within the Chinese APT ecosystem.</p>
-<h2>Attribution Analysis</h2>
-<p>We assess that Operation Digital Eye was highly likely conducted by a China-nexus cluster with cyberespionage motivations. The specific group responsible remains unclear due to the extensive sharing of malware, operational playbooks, and infrastructure management processes among Chinese APT clusters. Our assessment is based on a collective consideration of multiple indicators, including the malware, infrastructure, and techniques used, victimology, and the timing of the activities.</p>
-<h3>Malware</h3>
-<p>A variant of the PHPsert webshell contains code comments in simplified Chinese. This suggests the potential involvement of Chinese-speaking developers. Further, the custom Mimikatz modification <code>bK2o.exe</code> used in Operation Digital Eye is part of the mimCN collection and shares implementation overlaps with other custom Mimikatz modifications, suggesting a common origin. These tools have been observed exclusively in the context of suspected Chinese APT activities, such as <a href="https://www.cybereason.com/blog/research/operation-soft-cell-a-worldwide-campaign-against-telecommunications-providers" target="_blank" rel="noopener noreferrer">Operation Soft Cell</a> and <a href="https://www.sentinelone.com/labs/operation-tainted-love-chinese-apts-target-telcos-in-new-attacks/" target="_blank" rel="noopener noreferrer">Operation Tainted Love</a>. Malware and tooling used in these operations have been associated with the suspected Chinese APT groups Granite Typhoon and APT41, and <a href="https://github.com/yt0ng/cracking_softcell/blob/main/Cracking_SOFTCLL_TLP_WHITE.pdf" target="_blank" rel="noopener noreferrer">possible connections</a> to other China-nexus groups, such as APT10 and Lucky Mouse have also been suggested.</p>
-<p>The mimCN tool collection suggests the presence of a shared vendor or digital quartermaster responsible for the sustained development and provisioning of tools to groups within the Chinese APT ecosystem. This function is <a href="https://go.recordedfuture.com/hubfs/reports/cta-2023-1107.pdf" target="_blank" rel="noopener noreferrer">suspected</a> to play a significant role in the Chinese threat landscape. The <a href="https://www.sentinelone.com/labs/unmasking-i-soon-the-leak-that-revealed-chinas-cyber-operations/" target="_blank" rel="noopener noreferrer">I-Soon leak</a>, which offers rare insight into China’s cyberespionage activities, provides supporting evidence for the existence of digital quartermasters within this landscape.</p>
-<h3>Infrastructure</h3>
-<p>While not exclusive to Chinese APT groups, the use of M247 infrastructure, as seen in Operation Digital Eye, has been common among them in recent years. One example is the <a href="https://www.sentinelone.com/labs/sandman-apt-china-based-adversaries-embrace-lua/" target="_blank" rel="noopener noreferrer">M247 infrastructure attributed</a> to the suspected Chinese cluster STORM-0866 (also known as Red Dev 40), with which the <a href="https://www.sentinelone.com/labs/sandman-apt-a-mystery-group-targeting-telcos-with-a-luajit-toolkit/" target="_blank" rel="noopener noreferrer">Sandman APT group</a> is associated.</p>
-<p>Additionally, the use of Cloud services and resources located in geographic proximity to the targeted organizations in Operation Digital Eye suggests a carefully planned and targeted infrastructure management approach. In this context, we suspect the potential involvement of third-party entities tasked with administering and provisioning infrastructure, a practice that has become <a href="https://cloud.google.com/blog/topics/threat-intelligence/china-nexus-espionage-orb-networks/" target="_blank" rel="noopener noreferrer">increasingly common</a> in the Chinese APT ecosystem in recent years.</p>
-<h3>Abuse of Visual Studio Code</h3>
-<p>Our visibility into threat actor activities suggests that the abuse of Visual Studio Code tunneling for C2 purposes was relatively rare in the wild before Operation Digital Eye.</p>
-<p>Previous <a href="https://venturebeat.com/security/crowdstrike-2024-report-exposes-north-koreas-covert-workforce-in-u-s-tech-firms/" target="_blank" rel="noopener noreferrer">research</a> indicates that, starting in 2023, a suspected North Korean group has used Visual Studio Remote Tunnels to maintain persistence in compromised networks. Additionally, in October 2024, Cyble released a <a href="https://cyble.com/blog/silent-intrusion-unraveling-the-sophisticated-attack-leveraging-vs-code-for-unauthorized-access/" target="_blank" rel="noopener noreferrer">report</a> documenting unattributed activity in which threat actors distributed a <a href="https://www.sentinelone.com/labs/who-needs-macros-threat-actors-pivot-to-abusing-explorer-and-other-lolbins-via-windows-shortcuts/" target="_blank" rel="noopener noreferrer">Windows Shortcut</a> (LNK) file to deploy Visual Studio Code and activate its tunneling feature to establish remote access.</p>
-<p>As of this writing, the only publicly disclosed use of this technique around the time of Operation Digital Eye has been attributed to a suspected Chinese APT group. In September 2024, Unit 42 published a <a href="https://unit42.paloaltonetworks.com/stately-taurus-abuses-vscode-southeast-asian-espionage/" target="_blank" rel="noopener noreferrer">report</a> on a campaign targeting government entities in Southeast Asia, in which threat actors used Visual Studio Code as a backdoor. The campaign was attributed to Stately Taurus (also known as Mustang Panda). The exact timeline of the campaign is unclear, with mid-August 2024 being the only reference point explicitly mentioned in the Unit 42 report. Based on this, we suspect that Operation Digital Eye occurred prior to this activity.</p>
-<p>We did not observe any overlaps in TTPs between Operation Digital Eye and the activity reported by Unit 42, except for the abuse of Visual Studio Code. We recognize the possibility that distinct Chinese APT clusters may share operational playbooks that include leveraging Visual Studio Code for C2 purposes.</p>
-<h3>Temporal Analysis</h3>
-<p>Our analysis of timestamps marking the dates and times of operator activity in the targeted organizations showed that all activities occurred on workdays (Monday to Friday). Additionally, converting the timestamps from their original time zones, Coordinated Universal Time (UTC) and Central European Summer Time (CEST, UTC+2), to China Standard Time (CST, UTC+8) revealed that the operators were primarily active during typical working hours in China, mostly between 9 a.m. and 9 p.m. CST.</p>
-<p>This suggests a potentially state-sanctioned operation. The &#8216;996&#8217; work schedule (9 a.m. to 9 p.m. CST, six days a week) has been common in China’s technology sector, but it was <a href="https://www.reuters.com/world/china/chinese-authorities-say-overtime-996-policy-is-illegal-2021-08-27/" target="_blank" rel="noopener noreferrer">ruled illegal</a> by the Supreme People&#8217;s Court in 2021. As a result, state employees are almost certainly restricted to weekday work, typically between 9 a.m. and 9 p.m., aligning closely with our observations from the timestamp analysis.</p>
-<p>The figure below shows the total number of connections established by the threat actors to Visual Studio Code tunnels throughout Operation Digital Eye, broken down by hour of the day. The data is presented in both the original time zone (CEST) and in China Standard Time (CST, CEST+6). We observed minimal to no activity between 10 p.m. and 9 a.m. CST, as well as between 11 a.m. and 1 p.m. CST, which aligns with the typical daily working hours in China, including the midday lunch break.</p>
-<figure id="attachment_109536" aria-describedby="caption-attachment-109536" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye7.jpg" alt="Number of established connections to Visual Studio Code tunnels" width="1999" height="704" class="size-full wp-image-109536" srcset="https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye7.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye7-300x106.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye7-1024x361.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye7-768x270.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2024/11/Op_Digital_Eye7-1536x541.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-109536" class="wp-caption-text">Number of established connections to Visual Studio Code tunnels</figcaption></figure>
-<h2>Conclusions</h2>
-<p>Operation Digital Eye highlights the persistent threat posed by Chinese cyberespionage groups to European entities, with these threat actors continuing to focus on high-value targets. The campaign underscores the strategic nature of this threat, as breaching organizations that provide data, infrastructure, and cybersecurity solutions to other industries gives the attackers a foothold in the digital supply chain, enabling them to extend their reach to downstream entities.</p>
-<p>The abuse of Visual Studio Code Remote Tunnels in this campaign illustrates how Chinese APT groups often rely on practical, solution-oriented approaches to evade detection. By leveraging a trusted development tool and infrastructure, the threat actors aimed to disguise their malicious activities as legitimate. The exploitation of widely used technologies, which security teams may not scrutinize closely, presents a growing challenge for organizations. For defenders, this calls for a reevaluation of traditional security approaches and the implementation of robust detection mechanisms to identify such evasive techniques in real time.</p>
-<p>Lateral movement capabilities observed in Operation Digital Eye, linked to custom Mimikatz modifications used in previous campaigns, indicate the potential involvement of shared vendors or digital quartermasters and the important function they serve in the Chinese APT ecosystem. These centralized entities provide continuity and adaptability to cyberespionage operations, equipping threat actors with consistently updated tools and evolving tactics as they target new victims.</p>
-<h2>Indicators of Compromise</h2>
-<div style="font-size:0.8em">
-<b>SHA1 Hashes</b></p>
-<div style="overflow-x:auto;">
-<table style="border-collapse: collapse; width: 100%; height: 120px;">
-<tbody>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;"><strong>Value</strong></td>
-<td style="width: 35.0%; height: 24px;"><strong>Note</strong></td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">0be9dd709d7d68887a92c793881dd4a010796e95</td>
-<td style="width: 35.0%; height: 24px;">The CreateDump tool (do.exe)</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">213f06ed5ac9e688816b4bbe73bf507994949964</td>
-<td style="width: 35.0%; height: 24px;">The GetUserInfo tool</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">289f3bfe297923507cf4c26ca500ae01819c6a95</td>
-<td style="width: 35.0%; height: 24px;">The local.exe tool</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">2e2cf8a4a0e7decceb8e22536b13173479da0d13</td>
-<td style="width: 35.0%; height: 24px;">PHPsert variant</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">3035d8846d7a9f309f2d24daba6ac33ad99524fc</td>
-<td style="width: 35.0%; height: 24px;">PHPsert variant</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">399776991a094e1ee78b2a915bf4491e67c04ec7</td>
-<td style="width: 35.0%; height: 24px;">PHPsert variant</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">3a688c844259822c51ceb3aea508303c4a654eb3</td>
-<td style="width: 35.0%; height: 24px;">PHPsert variant</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">4d6947a19dd9a420c22fee39fac8b4df95a47569</td>
-<td style="width: 35.0%; height: 24px;">PHPsert variant</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">63cea28d927f8e629377399fa08a9cb4fd0c6238</td>
-<td style="width: 35.0%; height: 24px;">PHPsert variant</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">6549e50645bb1c02e4972651d335a75cb6d5aa74</td>
-<td style="width: 35.0%; height: 24px;">PHPsert variant</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">7941909fd5c1277c6f7baf21e484c9e59ea454ee</td>
-<td style="width: 35.0%; height: 24px;">mimCN (bK2o.exe)</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">7cb7bcb9187f8faf47fd77cf1213ab3fe2350a77</td>
-<td style="width: 35.0%; height: 24px;">mimCN (simplify_32.exe)</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">82b1cb9b69d5f05bb20852322fb3c2c00bce9134</td>
-<td style="width: 35.0%; height: 24px;">mimCN (wsx.exe)</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">83ca53c95705352ff60149b0b17a686956e23172</td>
-<td style="width: 35.0%; height: 24px;">PHPsert variant</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">a9d6d0c47728094feb794ad7e25c253737633140</td>
-<td style="width: 35.0%; height: 24px;">Visual Studio Code (code.exe)</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">b2811cb4d0afe13d2722093039a72588c348dcfd</td>
-<td style="width: 35.0%; height: 24px;">PHPsert variant</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">c0e03fce8f7f51e91da79f773aa870f0897b0ee2</td>
-<td style="width: 35.0%; height: 24px;">PHPsert variant</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">cb6726fb3f7952ede04ed22d2c72389255991827</td>
-<td style="width: 35.0%; height: 24px;">PHPsert variant</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">d57fa43944676c56e66f4b20ffa3d82048e354fd</td>
-<td style="width: 35.0%; height: 24px;">PHPsert variant</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">e572380ab95c4ab5a87f701d4654d3386911b387</td>
-<td style="width: 35.0%; height: 24px;">do.bat</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 65.0%; height: 24px;">e8a8d8fa7122c1592a314343b45bac2c213bb57d</td>
-<td style="width: 35.0%; height: 24px;">mimCN (wsx1.exe)</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><b>IP Addresses</b></p>
-<div style="overflow-x:auto;">
-<table style="border-collapse: collapse; width: 100%; height: 120px;">
-<tbody>
-<tr style="height: 24px;">
-<td style="width: 38.0%;   height: 24px;"><strong>Value</strong></td>
-<td style="width: 62.0%;   height: 24px;"><strong>Note</strong></td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 38.0%;   height: 24px;">146.70.161[.]78</td>
-<td style="width: 62.0%;   height: 24px;">Server used for initial access (SQL injection attack)</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 38.0%;   height: 24px;">185.76.78[.]117</td>
-<td style="width: 62.0%;   height: 24px;">C2 server (PHPsert webshells)</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 38.0%;   height: 24px;">20.103.221[.]187</td>
-<td style="width: 62.0%;   height: 24px;">Visual Studio Code dev tunnel</td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 38.0%;   height: 24px;">4.232.170[.]137</td>
-<td style="width: 62.0%;   height: 24px;">C2 server (SSH access)</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><b>Domains</b></p>
-<div style="overflow-x:auto;">
-<table style="border-collapse: collapse; width: 100%; height: 120px;">
-<tbody>
-<tr style="height: 24px;">
-<td style="width: 38.0%;   height: 24px;"><strong>Value</strong></td>
-<td style="width: 62.0%;   height: 24px;"><strong>Note</strong></td>
-</tr>
-<tr style="height: 24px;">
-<td style="width: 38.0%;   height: 24px;">[REDACTED].euw.devtunnels[.]ms</td>
-<td style="width: 62.0%;   height: 24px;">Visual Studio Code dev tunnel</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-]]></content:encoded>
-					
-		
-		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/11/Op-Digital-Eye-ftr.jpg" length="524719" type="image/jpeg" />	</item>
 	</channel>
 </rss>

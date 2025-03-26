@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 26 Mar 2025 08:01:59 EDT</pubDate>
+        <pubDate>Wed, 26 Mar 2025 09:05:09 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: Recent Windows updates cause Remote Desktop issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-remote-desktop-issues/</link>
+        <pubDate>Wed, 26 Mar 2025 08:19:56 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-remote-desktop-issues/</guid>
+	<description><![CDATA[Microsoft says that some customers might experience Remote Desktop and RDS connection issues after installing recent Windows updates released since January 2025. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New npm attack poisons local packages with backdoors</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-npm-attack-poisons-local-packages-with-backdoors/</link>
+        <pubDate>Wed, 26 Mar 2025 08:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-npm-attack-poisons-local-packages-with-backdoors/</guid>
+	<description><![CDATA[Two malicious packages were discovered on npm (Node package manager) that covertly patch legitimate, locally installed packages to inject a persistent reverse shell backdoor. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 11 update breaks Veeam recovery, causes connection errors</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-update-breaks-veeam-recovery-causes-connection-errors/</link>
@@ -168,34 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/23andme-files-for-bankruptcy-customers-advised-to-delete-dna-data/</guid>
 	<description><![CDATA[​California-based genetic testing provider 23andMe has filed for Chapter 11 bankruptcy and plans to sell its assets following years of financial struggles. [...]]]></description>
- </item>
-
- <item>
-        <title>New VanHelsing ransomware targets Windows, ARM, ESXi systems</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-vanhelsing-ransomware-targets-windows-arm-esxi-systems/</link>
-        <pubDate>Mon, 24 Mar 2025 15:43:53 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-vanhelsing-ransomware-targets-windows-arm-esxi-systems/</guid>
-	<description><![CDATA[A new multi-platform ransomware-as-a-service (RaaS) operation named VanHelsing has emerged, targeting Windows, Linux, BSD, ARM, and ESXi systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Cyberattack takes down Ukrainian state railway’s online services</title>
-        <link>https://www.bleepingcomputer.com/news/security/cyberattack-takes-down-ukrainian-state-railways-online-services/</link>
-        <pubDate>Mon, 24 Mar 2025 14:25:09 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cyberattack-takes-down-ukrainian-state-railways-online-services/</guid>
-	<description><![CDATA[Ukrzaliznytsia, Ukraine's national railway operator, has been hit by a massive cyberattack that disrupted online services for buying tickets both through mobile apps and the website. [...]]]></description>
  </item>
 
 </channel>
