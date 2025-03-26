@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 26 Mar 2025 15:59:52 EDT</pubDate>
+        <pubDate>Wed, 26 Mar 2025 16:58:47 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Oracle customers confirm data stolen in alleged cloud breach is valid</title>
+        <link>https://www.bleepingcomputer.com/news/security/oracle-customers-confirm-data-stolen-in-alleged-cloud-breach-is-valid/</link>
+        <pubDate>Wed, 26 Mar 2025 16:20:57 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/oracle-customers-confirm-data-stolen-in-alleged-cloud-breach-is-valid/</guid>
+	<description><![CDATA[Despite Oracle denying a breach of its Oracle Cloud federated SSO login servers and the theft of account data for 6 million people, BleepingComputer has confirmed with multiple companies that associated data samples shared by the threat actor are valid. [...]]]></description>
+ </item>
+
  <item>
         <title>StreamElements discloses third-party data breach after hacker leaks data</title>
         <link>https://www.bleepingcomputer.com/news/security/streamelements-discloses-third-party-data-breach-after-hacker-leaks-data/</link>
@@ -139,8 +153,6 @@
         
         <category><![CDATA[Microsoft]]></category>
 
-        <category><![CDATA[Technology]]></category>
-
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-update-breaks-veeam-recovery-causes-connection-errors/</guid>
 	<description><![CDATA[Microsoft and Veeam are investigating a known issue that triggers connection errors on Windows 11 24H2 systems when restoring from Veeam Recovery Media. [...]]]></description>
@@ -190,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cloudflare-r2-service-outage-caused-by-password-rotation-error/</guid>
 	<description><![CDATA[Cloudflare has announced that its R2 object storage and dependent services experienced an outage lasting 1 hour and 7 minutes, causing 100% write and 35% read failures globally. [...]]]></description>
- </item>
-
- <item>
-        <title>Broadcom warns of authentication bypass in VMware Windows Tools</title>
-        <link>https://www.bleepingcomputer.com/news/security/broadcom-warns-of-authentication-bypass-in-vmware-windows-tools/</link>
-        <pubDate>Tue, 25 Mar 2025 15:17:28 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/broadcom-warns-of-authentication-bypass-in-vmware-windows-tools/</guid>
-	<description><![CDATA[Broadcom released security updates today to fix a high-severity authentication bypass vulnerability in VMware Tools for Windows. [...]]]></description>
  </item>
 
 </channel>
