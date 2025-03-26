@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 26 Mar 2025 03:02:56 EDT</pubDate>
+        <pubDate>Wed, 26 Mar 2025 04:00:08 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 11 update breaks Veeam recovery, causes connection errors</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-update-breaks-veeam-recovery-causes-connection-errors/</link>
+        <pubDate>Wed, 26 Mar 2025 03:39:59 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-update-breaks-veeam-recovery-causes-connection-errors/</guid>
+	<description><![CDATA[Microsoft and Veeam are investigating a known issue that triggers connection errors on Windows 11 24H2 systems when restoring from Veeam Recovery Media. [...]]]></description>
+ </item>
+
  <item>
         <title>Google fixes Chrome zero-day exploited in espionage campaign</title>
         <link>https://www.bleepingcomputer.com/news/security/google-fixes-chrome-zero-day-exploited-in-espionage-campaign/</link>
