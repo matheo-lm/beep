@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 26 Mar 2025 12:01:55 EDT</pubDate>
+        <pubDate>Wed, 26 Mar 2025 13:02:40 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Claude is testing ChatGPT-like Deep Research feature Compass</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-is-testing-chatgpt-like-deep-research-feature-compass/</link>
+        <pubDate>Wed, 26 Mar 2025 12:10:07 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-is-testing-chatgpt-like-deep-research-feature-compass/</guid>
+	<description><![CDATA[Claude could be getting a ChatGPT-like Deep Research feature called Compass. You can tell Claude's Compass what you need, and the AI agent will take care of everything. [...]]]></description>
+ </item>
+
  <item>
         <title>The 7 technology trends that could replace passwords</title>
         <link>https://www.bleepingcomputer.com/news/security/the-7-technology-trends-that-could-replace-passwords/</link>
@@ -192,22 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/encrypthub-linked-to-zero-day-attacks-targeting-windows-systems/</guid>
 	<description><![CDATA[A threat actor known as EncryptHub has been linked to Windows zero-day attacks exploiting a Microsoft Management Console vulnerability patched this month. [...]]]></description>
- </item>
-
- <item>
-        <title>Browser-in-the-Browser attacks target CS2 players' Steam accounts</title>
-        <link>https://www.bleepingcomputer.com/news/security/browser-in-the-browser-attacks-target-cs2-players-steam-accounts/</link>
-        <pubDate>Tue, 25 Mar 2025 11:52:09 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Gaming]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/browser-in-the-browser-attacks-target-cs2-players-steam-accounts/</guid>
-	<description><![CDATA[A new phishing campaign targets Counter-Strike 2 players utilizing Browser-in-the-Browser (BitB) attacks that display a realistic window that mimics Steam's login page. [...]]]></description>
  </item>
 
 </channel>
