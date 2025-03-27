@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 27 Mar 2025 09:59:24 EDT</pubDate>
+        <pubDate>Thu, 27 Mar 2025 10:58:50 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Mozilla warns Windows users of critical Firefox sandbox escape flaw</title>
+        <link>https://www.bleepingcomputer.com/news/security/mozilla-warns-windows-users-of-critical-firefox-sandbox-escape-flaw/</link>
+        <pubDate>Thu, 27 Mar 2025 10:48:40 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/mozilla-warns-windows-users-of-critical-firefox-sandbox-escape-flaw/</guid>
+	<description><![CDATA[Mozilla has released Firefox 136.0.4 to patch a critical security vulnerability that can let attackers escape the web browser's sandbox on Windows systems. [...]]]></description>
+ </item>
+
+ <item>
+        <title>WhatsApp's Meta AI is now rolling out in Europe, and it can't be turned off</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/whatsapps-meta-ai-is-now-rolling-out-in-europe-and-it-cant-be-turned-off/</link>
+        <pubDate>Thu, 27 Mar 2025 10:31:26 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/whatsapps-meta-ai-is-now-rolling-out-in-europe-and-it-cant-be-turned-off/</guid>
+	<description><![CDATA[You can't escape AI in WhatsApp even if you are based in one of the 41 European countries. Today, more people are seeing the Meta AI chatbot being added to WhatsApp. [...]]]></description>
+ </item>
+
  <item>
         <title>Recent Windows Server 2025 updates cause Remote Desktop freezes</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/recent-windows-server-2025-updates-cause-remote-desktop-freezes/</link>
@@ -176,34 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/redcurl-cyberspies-create-ransomware-to-encrypt-hyper-v-servers/</guid>
 	<description><![CDATA[A threat actor named 'RedCurl,' known for stealthy corporate espionage operations since 2018, is now using a ransomware encryptor designed to target Hyper-V virtual machines. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Recent Windows updates cause Remote Desktop issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-remote-desktop-issues/</link>
-        <pubDate>Wed, 26 Mar 2025 08:19:56 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-remote-desktop-issues/</guid>
-	<description><![CDATA[Microsoft says that some customers might experience Remote Desktop and RDS connection issues after installing recent Windows updates released since January 2025. [...]]]></description>
- </item>
-
- <item>
-        <title>New npm attack poisons local packages with backdoors</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-npm-attack-poisons-local-packages-with-backdoors/</link>
-        <pubDate>Wed, 26 Mar 2025 08:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-npm-attack-poisons-local-packages-with-backdoors/</guid>
-	<description><![CDATA[Two malicious packages were discovered on npm (Node package manager) that covertly patch legitimate, locally installed packages to inject a persistent reverse shell backdoor. [...]]]></description>
  </item>
 
 </channel>
