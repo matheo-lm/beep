@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 27 Mar 2025 11:59:18 EDT</pubDate>
+        <pubDate>Thu, 27 Mar 2025 13:00:23 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: New Windows scheduled task will launch Office apps faster</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-scheduled-task-will-launch-office-apps-faster/</link>
+        <pubDate>Thu, 27 Mar 2025 13:00:19 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-scheduled-task-will-launch-office-apps-faster/</guid>
+	<description><![CDATA[​In May, Microsoft plans to roll out a new Windows scheduled task that launches automatically to help Microsoft Office apps load faster. [...]]]></description>
+ </item>
+
+ <item>
+        <title>The 4 WordPress flaws hackers targeted the most in Q1 2025</title>
+        <link>https://www.bleepingcomputer.com/news/security/the-four-wordpress-flaws-hackers-targeted-the-most-in-q1-2025/</link>
+        <pubDate>Thu, 27 Mar 2025 12:29:27 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/the-four-wordpress-flaws-hackers-targeted-the-most-in-q1-2025/</guid>
+	<description><![CDATA[A new report sheds light on the most targeted WordPress plugin vulnerabilities hackers used in the first quarter of 2025 to compromise sites. [...]]]></description>
+ </item>
+
  <item>
         <title>Mozilla warns Windows users of critical Firefox sandbox escape flaw</title>
         <link>https://www.bleepingcomputer.com/news/security/mozilla-warns-windows-users-of-critical-firefox-sandbox-escape-flaw/</link>
@@ -43,7 +71,7 @@
 
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/whatsapps-meta-ai-is-now-rolling-out-in-europe-and-it-cant-be-turned-off/</guid>
-	<description><![CDATA[You can't escape AI in WhatsApp even if you are based in one of the 41 European countries. Today, more people are seeing the Meta AI chatbot being added to WhatsApp. [...]]]></description>
+	<description><![CDATA[You can't escape Meta AI in WhatsApp even if you are based in one of the 41 European countries, with the feature now rolling out to more devices. [...]]]></description>
  </item>
 
  <item>
@@ -178,34 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/the-7-technology-trends-that-could-replace-passwords/</guid>
 	<description><![CDATA[230M stolen passwords met complexity requirements—and were still compromised. Passwords aren't going away for now, but there are new technologies that may increasingly replace them. Learn more from Specops Software about how to protect your passwords. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes printing issues caused by January Windows updates</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-printing-issues-caused-by-january-windows-updates/</link>
-        <pubDate>Wed, 26 Mar 2025 10:30:40 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-printing-issues-caused-by-january-windows-updates/</guid>
-	<description><![CDATA[Microsoft has fixed a known issue causing some USB printers to start printing random text after installing Windows updates released since late January 2025. [...]]]></description>
- </item>
-
- <item>
-        <title>RedCurl cyberspies create ransomware to encrypt Hyper-V servers</title>
-        <link>https://www.bleepingcomputer.com/news/security/redcurl-cyberspies-create-ransomware-to-encrypt-hyper-v-servers/</link>
-        <pubDate>Wed, 26 Mar 2025 10:06:11 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/redcurl-cyberspies-create-ransomware-to-encrypt-hyper-v-servers/</guid>
-	<description><![CDATA[A threat actor named 'RedCurl,' known for stealthy corporate espionage operations since 2018, is now using a ransomware encryptor designed to target Hyper-V virtual machines. [...]]]></description>
  </item>
 
 </channel>
