@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 27 Mar 2025 07:00:51 EDT</pubDate>
+        <pubDate>Thu, 27 Mar 2025 08:00:10 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Dozens of solar inverter flaws could be exploited to attack power grids</title>
+        <link>https://www.bleepingcomputer.com/news/security/dozens-of-solar-inverter-flaws-could-be-exploited-to-attack-power-grids/</link>
+        <pubDate>Thu, 27 Mar 2025 08:00:05 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/dozens-of-solar-inverter-flaws-could-be-exploited-to-attack-power-grids/</guid>
+	<description><![CDATA[Dozens of vulnerabilities in products from three leading makers of solar inverters, Sungrow, Growatt, and SMA, could be exploited to control devices or execute code remotely on the vendor's cloud platform. [...]]]></description>
+ </item>
+
  <item>
         <title>UK fines software provider £3.07 million for 2022 ransomware breach</title>
         <link>https://www.bleepingcomputer.com/news/security/uk-fines-software-provider-307-million-for-2022-ransomware-breach/</link>
@@ -174,36 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-update-breaks-veeam-recovery-causes-connection-errors/</guid>
 	<description><![CDATA[Microsoft and Veeam are investigating a known issue that triggers connection errors on Windows 11 24H2 systems when restoring from Veeam Recovery Media. [...]]]></description>
- </item>
-
- <item>
-        <title>Google fixes Chrome zero-day exploited in espionage campaign</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-fixes-chrome-zero-day-exploited-in-espionage-campaign/</link>
-        <pubDate>Wed, 26 Mar 2025 02:42:48 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-fixes-chrome-zero-day-exploited-in-espionage-campaign/</guid>
-	<description><![CDATA[​Google has fixed a high-severity Chrome zero-day vulnerability exploited to escape the browser's sandbox and deploy malware in espionage attacks targeting Russian media outlets and government organizations. [...]]]></description>
- </item>
-
- <item>
-        <title>CrushFTP warns users to patch unauthenticated access flaw immediately</title>
-        <link>https://www.bleepingcomputer.com/news/security/crushftp-warns-users-to-patch-unauthenticated-access-flaw-immediately/</link>
-        <pubDate>Tue, 25 Mar 2025 16:11:04 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/crushftp-warns-users-to-patch-unauthenticated-access-flaw-immediately/</guid>
-	<description><![CDATA[CrushFTP warned customers of an unauthenticated HTTP(S) port access vulnerability and urged them to patch their servers immediately. [...]]]></description>
  </item>
 
 </channel>
