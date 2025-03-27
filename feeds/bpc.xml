@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 27 Mar 2025 14:01:06 EDT</pubDate>
+        <pubDate>Thu, 27 Mar 2025 14:58:36 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Chinese FamousSparrow hackers deploy upgraded malware in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/chinese-famoussparrow-hackers-deploy-upgraded-malware-in-attacks/</link>
+        <pubDate>Thu, 27 Mar 2025 14:38:23 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/chinese-famoussparrow-hackers-deploy-upgraded-malware-in-attacks/</guid>
+	<description><![CDATA[A China-linked cyberespionage group known as 'FamousSparrow' was observed using a new modular version of its signature backdoor 'SparrowDoor' against a US-based trade organization. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 KB5053656 update released with 38 changes and fixes</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5053656-update-released-with-38-changes-and-fixes/</link>
+        <pubDate>Thu, 27 Mar 2025 14:21:34 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5053656-update-released-with-38-changes-and-fixes/</guid>
+	<description><![CDATA[​​Microsoft has released the KB5053656 preview cumulative update for Windows 11 24H2 with 38 changes, including real-time translation on AMD and Intel-powered Copilot+ PCs and fixes for authentication and blue-screen issues. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: New Windows scheduled task will launch Office apps faster</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-scheduled-task-will-launch-office-apps-faster/</link>
@@ -162,50 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/streamelements-discloses-third-party-data-breach-after-hacker-leaks-data/</guid>
 	<description><![CDATA[Cloud-based streaming company StreamElements confirms it suffered a data breach at a third-party service provider after a threat actor leaked samples of stolen data on a hacking forum. [...]]]></description>
- </item>
-
- <item>
-        <title>New Atlantis AIO platform automates credential stuffing on 140 services</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-atlantis-aio-automates-credential-stuffing-on-140-services/</link>
-        <pubDate>Wed, 26 Mar 2025 13:44:03 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-atlantis-aio-automates-credential-stuffing-on-140-services/</guid>
-	<description><![CDATA[A new cybercrime platform named 'Atlantis AIO' provides an automated credential stuffing service against 140 online platforms, including email services, e-commerce sites, banks, and VPNs. [...]]]></description>
- </item>
-
- <item>
-        <title>Claude is testing ChatGPT-like Deep Research feature Compass</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-is-testing-chatgpt-like-deep-research-feature-compass/</link>
-        <pubDate>Wed, 26 Mar 2025 12:10:07 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-is-testing-chatgpt-like-deep-research-feature-compass/</guid>
-	<description><![CDATA[Claude could be getting a ChatGPT-like Deep Research feature called Compass. You can tell Claude's Compass what you need, and the AI agent will take care of everything. [...]]]></description>
- </item>
-
- <item>
-        <title>The 7 technology trends that could replace passwords</title>
-        <link>https://www.bleepingcomputer.com/news/security/the-7-technology-trends-that-could-replace-passwords/</link>
-        <pubDate>Wed, 26 Mar 2025 11:16:33 -0400</pubDate>
-        <dc:creator>Sponsored by Specops Software</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/the-7-technology-trends-that-could-replace-passwords/</guid>
-	<description><![CDATA[230M stolen passwords met complexity requirements—and were still compromised. Passwords aren't going away for now, but there are new technologies that may increasingly replace them. Learn more from Specops Software about how to protect your passwords. [...]]]></description>
  </item>
 
 </channel>
