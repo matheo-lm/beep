@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 28 Mar 2025 10:59:52 EDT</pubDate>
+        <pubDate>Fri, 28 Mar 2025 11:59:52 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Ubuntu Linux security bypasses require manual mitigations</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-ubuntu-linux-security-bypasses-require-manual-mitigations/</link>
+        <pubDate>Fri, 28 Mar 2025 11:14:34 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Linux]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-ubuntu-linux-security-bypasses-require-manual-mitigations/</guid>
+	<description><![CDATA[Three security bypasses have been discovered in Ubuntu Linux's unprivileged user namespace restrictions, which could be enable a local attacker to exploit vulnerabilities in kernel components. [...]]]></description>
+ </item>
+
  <item>
         <title>Oracle Health breach compromises patient data at US hospitals</title>
         <link>https://www.bleepingcomputer.com/news/security/oracle-health-breach-compromises-patient-data-at-us-hospitals/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/software/vivaldi-integrates-proton-vpn-into-the-browser-to-fight-web-tracking/</guid>
 	<description><![CDATA[Vivaldi has announced the integration of Proton VPN directly into its browser without requiring add-on downloads or plugin activations, allowing users to protect their data against 'Big Tech' surveillance for free. [...]]]></description>
- </item>
-
- <item>
-        <title>Dozens of solar inverter flaws could be exploited to attack power grids</title>
-        <link>https://www.bleepingcomputer.com/news/security/dozens-of-solar-inverter-flaws-could-be-exploited-to-attack-power-grids/</link>
-        <pubDate>Thu, 27 Mar 2025 08:00:05 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/dozens-of-solar-inverter-flaws-could-be-exploited-to-attack-power-grids/</guid>
-	<description><![CDATA[Dozens of vulnerabilities in products from three leading makers of solar inverters, Sungrow, Growatt, and SMA, could be exploited to control devices or execute code remotely on the vendor's cloud platform. [...]]]></description>
  </item>
 
 </channel>
