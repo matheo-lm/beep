@@ -11,7 +11,7 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 28 Mar 2025 14:00:01 EDT</pubDate>
+        <pubDate>Fri, 28 Mar 2025 15:02:40 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
@@ -188,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/the-four-wordpress-flaws-hackers-targeted-the-most-in-q1-2025/</guid>
 	<description><![CDATA[A new report sheds light on the most targeted WordPress plugin vulnerabilities hackers used in the first quarter of 2025 to compromise sites. [...]]]></description>
- </item>
-
- <item>
-        <title>Mozilla warns Windows users of critical Firefox sandbox escape flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/mozilla-warns-windows-users-of-critical-firefox-sandbox-escape-flaw/</link>
-        <pubDate>Thu, 27 Mar 2025 10:48:40 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/mozilla-warns-windows-users-of-critical-firefox-sandbox-escape-flaw/</guid>
-	<description><![CDATA[Mozilla has released Firefox 136.0.4 to patch a critical security vulnerability that can let attackers escape the web browser's sandbox on Windows systems. [...]]]></description>
  </item>
 
 </channel>
