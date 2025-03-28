@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 27 Mar 2025 19:01:51 EDT</pubDate>
+        <pubDate>Thu, 27 Mar 2025 20:11:10 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hijacked Microsoft Stream classic domain "spams" SharePoint sites</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/hijacked-microsoft-stream-classic-domain-spams-sharepoint-sites/</link>
+        <pubDate>Thu, 27 Mar 2025 19:11:05 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/hijacked-microsoft-stream-classic-domain-spams-sharepoint-sites/</guid>
+	<description><![CDATA[The legacy domain for Microsoft Stream was hijacked to show a fake Amazon site promoting a Thailand casino, causing all SharePoint sites with old embedded videos to display it as spam. [...]]]></description>
+ </item>
+
  <item>
         <title>Infostealer campaign compromises 10 npm packages, targets devs</title>
         <link>https://www.bleepingcomputer.com/news/security/infostealer-campaign-compromises-10-npm-packages-targets-devs/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/oracle-customers-confirm-data-stolen-in-alleged-cloud-breach-is-valid/</guid>
 	<description><![CDATA[Despite Oracle denying a breach of its Oracle Cloud federated SSO login servers and the theft of account data for 6 million people, BleepingComputer has confirmed with multiple companies that associated data samples shared by the threat actor are valid. [...]]]></description>
- </item>
-
- <item>
-        <title>StreamElements discloses third-party data breach after hacker leaks data</title>
-        <link>https://www.bleepingcomputer.com/news/security/streamelements-discloses-third-party-data-breach-after-hacker-leaks-data/</link>
-        <pubDate>Wed, 26 Mar 2025 14:42:51 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/streamelements-discloses-third-party-data-breach-after-hacker-leaks-data/</guid>
-	<description><![CDATA[Cloud-based streaming company StreamElements confirms it suffered a data breach at a third-party service provider after a threat actor leaked samples of stolen data on a hacking forum. [...]]]></description>
  </item>
 
 </channel>
