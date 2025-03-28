@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 28 Mar 2025 11:59:52 EDT</pubDate>
+        <pubDate>Fri, 28 Mar 2025 12:58:30 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Phishing-as-a-service operation uses DNS-over-HTTPS for evasion</title>
+        <link>https://www.bleepingcomputer.com/news/security/phishing-as-a-service-operation-uses-dns-over-https-for-evasion/</link>
+        <pubDate>Fri, 28 Mar 2025 12:33:17 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/phishing-as-a-service-operation-uses-dns-over-https-for-evasion/</guid>
+	<description><![CDATA[A newly discovered phishing-as-a-service (PhaaS) operation that researchers call Morphing Meerkat, has been using the DNS over HTTPS (DoH) protocol to evade detection. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft fixes button that restores classic Outlook client</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-button-that-restores-classic-outlook-client/</link>
+        <pubDate>Fri, 28 Mar 2025 12:14:49 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-button-that-restores-classic-outlook-client/</guid>
+	<description><![CDATA[Microsoft resolved an issue that caused the new Outlook email client to crash when users clicked a button designed to switch back to classic Outlook. [...]]]></description>
+ </item>
+
  <item>
         <title>New Ubuntu Linux security bypasses require manual mitigations</title>
         <link>https://www.bleepingcomputer.com/news/security/new-ubuntu-linux-security-bypasses-require-manual-mitigations/</link>
@@ -176,36 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/whatsapps-meta-ai-is-now-rolling-out-in-europe-and-it-cant-be-turned-off/</guid>
 	<description><![CDATA[You can't escape Meta AI in WhatsApp even if you are based in one of the 41 European countries, with the feature now rolling out to more devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Recent Windows Server 2025 updates cause Remote Desktop freezes</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/recent-windows-server-2025-updates-cause-remote-desktop-freezes/</link>
-        <pubDate>Thu, 27 Mar 2025 09:59:20 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/recent-windows-server-2025-updates-cause-remote-desktop-freezes/</guid>
-	<description><![CDATA[​Microsoft says a known issue is causing Remote Desktop freezes on Windows Server 2025 systems after installing security updates released since the February 2025 Patch Tuesday. [...]]]></description>
- </item>
-
- <item>
-        <title>Vivaldi integrates Proton VPN into the browser to fight web tracking</title>
-        <link>https://www.bleepingcomputer.com/news/software/vivaldi-integrates-proton-vpn-into-the-browser-to-fight-web-tracking/</link>
-        <pubDate>Thu, 27 Mar 2025 09:39:30 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Software]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/software/vivaldi-integrates-proton-vpn-into-the-browser-to-fight-web-tracking/</guid>
-	<description><![CDATA[Vivaldi has announced the integration of Proton VPN directly into its browser without requiring add-on downloads or plugin activations, allowing users to protect their data against 'Big Tech' surveillance for free. [...]]]></description>
  </item>
 
 </channel>
