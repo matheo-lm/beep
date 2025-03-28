@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 28 Mar 2025 12:58:30 EDT</pubDate>
+        <pubDate>Fri, 28 Mar 2025 14:00:01 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>OpenAI now pays researchers $100,000 for critical vulnerabilities</title>
+        <link>https://www.bleepingcomputer.com/news/security/openai-now-pays-researchers-100-000-for-critical-vulnerabilities/</link>
+        <pubDate>Fri, 28 Mar 2025 13:54:48 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/openai-now-pays-researchers-100-000-for-critical-vulnerabilities/</guid>
+	<description><![CDATA[Artificial intelligence company OpenAI has announced a fivefold increase in the maximum bug bounty rewards for "exceptional and differentiated" critical security vulnerabilities from $20,000 to $100,000. [...]]]></description>
+ </item>
+
  <item>
         <title>Phishing-as-a-service operation uses DNS-over-HTTPS for evasion</title>
         <link>https://www.bleepingcomputer.com/news/security/phishing-as-a-service-operation-uses-dns-over-https-for-evasion/</link>
@@ -188,22 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/mozilla-warns-windows-users-of-critical-firefox-sandbox-escape-flaw/</guid>
 	<description><![CDATA[Mozilla has released Firefox 136.0.4 to patch a critical security vulnerability that can let attackers escape the web browser's sandbox on Windows systems. [...]]]></description>
- </item>
-
- <item>
-        <title>WhatsApp's Meta AI is now rolling out in Europe, and it can't be turned off</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/whatsapps-meta-ai-is-now-rolling-out-in-europe-and-it-cant-be-turned-off/</link>
-        <pubDate>Thu, 27 Mar 2025 10:31:26 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/whatsapps-meta-ai-is-now-rolling-out-in-europe-and-it-cant-be-turned-off/</guid>
-	<description><![CDATA[You can't escape Meta AI in WhatsApp even if you are based in one of the 41 European countries, with the feature now rolling out to more devices. [...]]]></description>
  </item>
 
 </channel>
