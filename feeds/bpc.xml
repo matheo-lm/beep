@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 31 Mar 2025 12:58:41 EDT</pubDate>
+        <pubDate>Mon, 31 Mar 2025 14:04:13 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers abuse WordPress MU-Plugins to hide malicious code</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-abuse-wordpress-mu-plugins-to-hide-malicious-code/</link>
+        <pubDate>Mon, 31 Mar 2025 13:06:04 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-abuse-wordpress-mu-plugins-to-hide-malicious-code/</guid>
+	<description><![CDATA[Hackers are utilizing the WordPress mu-plugins ("Must-Use Plugins") directory to stealthily run malicious code on every page while evading detection. [...]]]></description>
+ </item>
+
  <item>
         <title>North Korean hackers adopt ClickFix attacks to target crypto firms</title>
         <link>https://www.bleepingcomputer.com/news/security/north-korean-hackers-adopt-clickfix-attacks-to-target-crypto-firms/</link>
@@ -164,22 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-ubuntu-linux-security-bypasses-require-manual-mitigations/</guid>
 	<description><![CDATA[Three security bypasses have been discovered in Ubuntu Linux's unprivileged user namespace restrictions, which could be enable a local attacker to exploit vulnerabilities in kernel components. [...]]]></description>
- </item>
-
- <item>
-        <title>Oracle Health breach compromises patient data at US hospitals</title>
-        <link>https://www.bleepingcomputer.com/news/security/oracle-health-breach-compromises-patient-data-at-us-hospitals/</link>
-        <pubDate>Fri, 28 Mar 2025 10:13:58 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/oracle-health-breach-compromises-patient-data-at-us-hospitals/</guid>
-	<description><![CDATA[A breach at Oracle Health impacts multiple US healthcare organizations and hospitals after a threat actor stole patient data from legacy servers. [...]]]></description>
  </item>
 
 </channel>
