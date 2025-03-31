@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Tue, 25 Mar 2025 17:02:57 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 28 Mar 2025 22:51:43 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,32 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>LABScon24 Replay &#124; A Walking Red Flag (With Yellow Stars)</title>
+		<link>https://www.sentinelone.com/labs/labscon24-replay-a-walking-red-flag-with-yellow-stars/</link>
+		
+		<dc:creator><![CDATA[LABScon]]></dc:creator>
+		<pubDate>Mon, 31 Mar 2025 13:00:23 +0000</pubDate>
+				<category><![CDATA[labscon24]]></category>
+		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=115097</guid>
+
+					<description><![CDATA[Dakota Cary and Eugenio Benincasa explore China's CTF ecosystem, highlighting competitions held by the Ministry of State Security and the PLA.]]></description>
+										<content:encoded><![CDATA[<p>APT40 used CTFs at Hainan University to recruit hackers and source software vulnerabilities for operations. Jiangsu MSS received vulnerabilities from the Tianfu Cup. iSoon hosted their own CTF before their files were leaked on Github. Chinese intelligence cutouts tried to pitch US participants at RealWorldCTF. The list goes on.</p>
+<p>A diverse ecosystem of CTFs exists in China and it has, until now, been largely ignored. Since 2017 when the PRC government issued rules to bolster cybersecurity competitions, incorporate them into talent cultivation and training programs, and limit the amount of money to be paid out in rewards, China’s security ecosystem has launched more than 150 unique competitions. Including competitions that are held annually, the number of events since 2017 exceeds 400.</p>
+<p>Not all these competitions are software vulnerability competitions like Tianfu Cup—in fact, few are. Most are aimed at talent cultivation and recruiting, and many are hosted by the military, the intelligence services, or other arms of the state.</p>
+<p>This talk explores the diversity of China’s CTF ecosystem, its major leagues and events, and the annual number of participants across society. It highlights competitions held expressly by the Ministry of State Security and the PLA—delving into the competitions’ particulars. Defenders with appropriate CTI collection capabilities will better understand how to target their collection efforts on specific individuals in China.</p>
+<p><iframe src="https://www.youtube.com/embed/YjKsGZkYOsE" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<h2>About the Authors</h2>
+<p>Dakota Cary is a strategic advisory consultant at SentinelOne. His reports examine artificial intelligence and cybersecurity research at Chinese universities, the People’s Liberation Army’s efforts to automate software vulnerability discovery, and new policies to improve China’s cybersecurity-talent pipeline. Prior to SentinelOne, he was a research analyst at Georgetown University’s Center for Security and Emerging Technology on the CyberAI Project.</p>
+<p>Eugenio Benincasa is a Senior Cyberdefense Researcher at the Center for Security Studies (CSS) at ETH Zurich. Prior to joining CSS, Eugenio worked as a Threat Analyst at the Italian Presidency of the Council of Ministers in Rome and as a Research Fellow at the think tank Pacific Forum in Honolulu, where he focused on cybersecurity issues. He also worked as a Crime Analyst at the New York City Police Department (NYPD).</p>
+<h2>About LABScon</h2>
+<p>This presentation was featured live at <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon</a> 2024, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLABS.</p>
+<p>Keep up with all the latest on <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon 2025</a> here.</p>
+]]></content:encoded>
+					
+		
+		
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/Dakota_LABScon24-ftr.jpg" length="613749" type="image/jpeg" />	</item>
+		<item>
 		<title>LABScon24 Replay &#124; Kryptina RaaS: From Unsellable Cast-off to Enterprise Ransomware</title>
 		<link>https://www.sentinelone.com/labs/labscon24-replay-kryptina-raas-from-unsellable-cast-off-to-enterprise-ransomware/</link>
 		
@@ -82,7 +108,7 @@
 										<content:encoded><![CDATA[<p>Who really owns America’s farmland, and why does it matter? In this deep dive into the secretive world of foreign investment in U.S. agricultural land, Kristin Del Rosso and Madeleine Devost explore the growing trend of foreign ownership, which has surged by 50% since 2017, and its profound implications for national security. Using the USDA’s data, the presenters shed light on how these investments could potentially impact everything from local economies to national defense.</p>
 <p>The talk dives into the complexities of the USDA’s data collection methods, revealing how manual processes and outdated systems obscure the true extent of foreign ownership. It also discusses the critical role of the Committee on Foreign Investment in the United States (CFIUS) in safeguarding national interests, and the urgent need for improved data sharing and automation between CFIUS and the USDA.</p>
 <p>Through real-life examples, including controversial land purchases near sensitive military sites, Kristin and Madeleine illustrate the potential risks and propose actionable recommendations to enhance transparency and security.</p>
-<p><iframe src="https://www.youtube.com/embed/0rsgZfj6MGE" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe loading="lazy" src="https://www.youtube.com/embed/0rsgZfj6MGE" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <h2>About the Authors</h2>
 <p><a href="https://www.linkedin.com/in/kristindelrosso/" target="_blank" rel="noopener noreferrer">Kristin Del Rosso</a> is co-founder and managing director of DevSec, a research firm that provides advanced analytics blended with cyber investigation techniques to support analytics, investigations, and intelligence enrichment in novel ways. Prior to DevSec, she worked as the Public Sector Field CTO at Sophos, and has a background in security product management, threat intelligence, and reverse engineering.</p>
 <p><a href="https://www.linkedin.com/in/madeleine-d-338805186/" target="_blank" rel="noopener noreferrer">Madeleine Devost</a> is an intelligence analyst at Nisos focusing on open-source investigations. Prior to Nisos, she worked as a threat intelligence and investigations consultant for a number of firms including Excivity, RiskIQ and Microsoft.</p>
@@ -619,30 +645,5 @@ e2221e5c58a1a976e59fe1062c6db36d4951b81e &#8211; PHP file containing URL associa
 		
 		
 		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/12/Max_Smeets_ftr.jpg" length="561135" type="image/jpeg" />	</item>
-		<item>
-		<title>LABScon24 Replay &#124; Let Them Eat Cake: “Secure by Upgrade” Software is a National Security Threat</title>
-		<link>https://www.sentinelone.com/labs/labscon24-replay-let-them-eat-cake-secure-by-upgrade-software-is-a-national-security-threat/</link>
-		
-		<dc:creator><![CDATA[LABScon]]></dc:creator>
-		<pubDate>Wed, 18 Dec 2024 14:49:14 +0000</pubDate>
-				<category><![CDATA[LABScon]]></category>
-		<category><![CDATA[labscon24]]></category>
-		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=111195</guid>
-
-					<description><![CDATA[Kymberlee Price reveals the technical chaos facing SMBs as they struggle with solutions aimed at bigger fish in the face of expanding crimeware.]]></description>
-										<content:encoded><![CDATA[<p>Ransomware is doing more to change the security landscape than the last 20 years of Secure Development Lifecycle, DevSecOps, Zero Days, Breaches, or any corporate memo. Pair this with predatory pricing models from software vendors that sell security features as add-on products in premium or enterprise tier licenses, and you’ve got a perfect storm that hits small and medium sized businesses (SMBs) the hardest.</p>
-<p>In this hard-hitting talk, <a href="https://www.linkedin.com/in/kymberleeprice/" rel="noopener" target="_blank">Kymberlee Price</a> reveals the technical chaos facing the US’s largest employment sector: SMBs. With restricted budgets, a lack of expertise, no access to consumer reports by which to clearly compare products, and a SaaS industry that makes basic security features like SSO a premium add-on, many businesses remain easy pickings for threat actors in a rapidly expanding crimeware landscape.</p>
-<p>Why should we care about this, is it really a national threat, and what can a bunch of security engineers do about it?</p>
-<p><iframe loading="lazy" src="https://www.youtube.com/embed/cmsBUq1vcxc" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<h2>About the Author</h2>
-<p>Kymberlee Price is a dynamic engineering leader and public speaker known for developing high-performing multidisciplinary teams responsible for the security and integrity of software products, services, and infrastructure. A recognized expert in the information security industry, she has extensive experience in product security incident response and investigations, coordinated vulnerability disclosure and bug bounties, Secure Development Lifecycle (SDL), and Open Source Security strategy. Kymberlee speaks regularly at conferences around the world and is currently on the content review board for Black Hat USA and LocoMocoSec.</p>
-<h2>About LABScon</h2>
-<p>This presentation was featured live at <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon</a> 2024, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLabs.</p>
-<p>Keep up with all the latest on <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon 2025</a> here.</p>
-]]></content:encoded>
-					
-		
-		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/12/Kymberlee-ftr.jpg" length="621118" type="image/jpeg" />	</item>
 	</channel>
 </rss>
