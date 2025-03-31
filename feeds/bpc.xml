@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 31 Mar 2025 14:04:13 EDT</pubDate>
+        <pubDate>Mon, 31 Mar 2025 14:59:14 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Phishing platform 'Lucid' behind wave of iOS, Android SMS attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/phishing-platform-lucid-behind-wave-of-ios-android-sms-attacks/</link>
+        <pubDate>Mon, 31 Mar 2025 14:49:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/phishing-platform-lucid-behind-wave-of-ios-android-sms-attacks/</guid>
+	<description><![CDATA[A phishing-as-a-service (PhaaS) platform named 'Lucid' has been targeting 169 entities in 88 countries using well-crafted messages sent on iMessage (iOS) and RCS (Android). [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers abuse WordPress MU-Plugins to hide malicious code</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-abuse-wordpress-mu-plugins-to-hide-malicious-code/</link>
@@ -162,22 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-button-that-restores-classic-outlook-client/</guid>
 	<description><![CDATA[Microsoft resolved an issue that caused the new Outlook email client to crash when users clicked a button designed to switch back to classic Outlook. [...]]]></description>
- </item>
-
- <item>
-        <title>New Ubuntu Linux security bypasses require manual mitigations</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-ubuntu-linux-security-bypasses-require-manual-mitigations/</link>
-        <pubDate>Fri, 28 Mar 2025 11:14:34 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Linux]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-ubuntu-linux-security-bypasses-require-manual-mitigations/</guid>
-	<description><![CDATA[Three security bypasses have been discovered in Ubuntu Linux's unprivileged user namespace restrictions, which could be enable a local attacker to exploit vulnerabilities in kernel components. [...]]]></description>
  </item>
 
 </channel>
