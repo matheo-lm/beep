@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 31 Mar 2025 17:02:29 EDT</pubDate>
+        <pubDate>Mon, 31 Mar 2025 17:59:35 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>OpenAI says Deep Research is coming to ChatGPT free "very soon"</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-deep-research-is-coming-to-chatgpt-free-very-soon/</link>
+        <pubDate>Mon, 31 Mar 2025 17:34:26 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-deep-research-is-coming-to-chatgpt-free-very-soon/</guid>
+	<description><![CDATA[OpenAI has confirmed that its powerful AI agent "Deep Research" will begin rolling out to free users "very soon." At the moment, Deep Research is available only for Plus and Enterprise customers. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft uses AI to find flaws in GRUB2, U-Boot, Barebox bootloaders</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-uses-ai-to-find-flaws-in-grub2-u-boot-barebox-bootloaders/</link>
@@ -168,20 +184,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/openai-now-pays-researchers-100-000-for-critical-vulnerabilities/</guid>
 	<description><![CDATA[Artificial intelligence company OpenAI has announced a fivefold increase in the maximum bug bounty rewards for "exceptional and differentiated" critical security vulnerabilities from $20,000 to $100,000. [...]]]></description>
- </item>
-
- <item>
-        <title>Phishing-as-a-service operation uses DNS-over-HTTPS for evasion</title>
-        <link>https://www.bleepingcomputer.com/news/security/phishing-as-a-service-operation-uses-dns-over-https-for-evasion/</link>
-        <pubDate>Fri, 28 Mar 2025 12:33:17 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/phishing-as-a-service-operation-uses-dns-over-https-for-evasion/</guid>
-	<description><![CDATA[A newly discovered phishing-as-a-service (PhaaS) operation that researchers call Morphing Meerkat, has been using the DNS over HTTPS (DoH) protocol to evade detection. [...]]]></description>
  </item>
 
 </channel>
