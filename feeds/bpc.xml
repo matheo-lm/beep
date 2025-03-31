@@ -11,11 +11,31 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 31 Mar 2025 14:59:14 EDT</pubDate>
+        <pubDate>Mon, 31 Mar 2025 16:02:01 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft uses AI to find flaws in GRUB2, U-Boot, Barebox bootloaders</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-uses-ai-to-find-flaws-in-grub2-u-boot-barebox-bootloaders/</link>
+        <pubDate>Mon, 31 Mar 2025 15:56:49 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Linux]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-uses-ai-to-find-flaws-in-grub2-u-boot-barebox-bootloaders/</guid>
+	<description><![CDATA[Microsoft used its AI-powered Security Copilot to discover 20 previously unknown vulnerabilities in the GRUB2, U-Boot, and Barebox open-source bootloaders. [...]]]></description>
+ </item>
+
  <item>
         <title>Phishing platform 'Lucid' behind wave of iOS, Android SMS attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/phishing-platform-lucid-behind-wave-of-ios-android-sms-attacks/</link>
@@ -162,20 +182,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/phishing-as-a-service-operation-uses-dns-over-https-for-evasion/</guid>
 	<description><![CDATA[A newly discovered phishing-as-a-service (PhaaS) operation that researchers call Morphing Meerkat, has been using the DNS over HTTPS (DoH) protocol to evade detection. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes button that restores classic Outlook client</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-button-that-restores-classic-outlook-client/</link>
-        <pubDate>Fri, 28 Mar 2025 12:14:49 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-button-that-restores-classic-outlook-client/</guid>
-	<description><![CDATA[Microsoft resolved an issue that caused the new Outlook email client to crash when users clicked a button designed to switch back to classic Outlook. [...]]]></description>
  </item>
 
 </channel>
