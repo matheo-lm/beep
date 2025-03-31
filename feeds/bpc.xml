@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 31 Mar 2025 10:03:20 EDT</pubDate>
+        <pubDate>Mon, 31 Mar 2025 12:02:02 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>North Korean hackers adopt ClickFix attacks to target crypto firms</title>
+        <link>https://www.bleepingcomputer.com/news/security/north-korean-hackers-adopt-clickfix-attacks-to-target-crypto-firms/</link>
+        <pubDate>Mon, 31 Mar 2025 11:56:54 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/north-korean-hackers-adopt-clickfix-attacks-to-target-crypto-firms/</guid>
+	<description><![CDATA[The notorious North Korean Lazarus hacking group has reportedly adopted 'ClickFix' tactics to deploy malware targeting job seekers in the cryptocurrency industry, particularly centralized finance (CeFi). [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft tests new Windows 11 tool to remotely fix boot crashes</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-quick-machine-recovery-tool-to-fix-boot-crashes/</link>
@@ -164,20 +180,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/oracle-health-breach-compromises-patient-data-at-us-hospitals/</guid>
 	<description><![CDATA[A breach at Oracle Health impacts multiple US healthcare organizations and hospitals after a threat actor stole patient data from legacy servers. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Remote Desktop issues caused by Windows updates</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-issues-caused-by-windows-updates/</link>
-        <pubDate>Fri, 28 Mar 2025 07:41:42 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-issues-caused-by-windows-updates/</guid>
-	<description><![CDATA[Microsoft has fixed a known issue that caused problems with Remote Desktop and RDS connections after installing Windows updates released since January 2025. [...]]]></description>
  </item>
 
 </channel>
