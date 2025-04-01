@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 01 Apr 2025 08:03:25 EDT</pubDate>
+        <pubDate>Tue, 01 Apr 2025 09:06:30 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Critical auth bypass bug in CrushFTP now exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/critical-auth-bypass-bug-in-crushftp-now-exploited-in-attacks/</link>
+        <pubDate>Tue, 01 Apr 2025 08:46:21 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critical-auth-bypass-bug-in-crushftp-now-exploited-in-attacks/</guid>
+	<description><![CDATA[Attackers are now targeting a critical authentication bypass vulnerability in the CrushFTP file transfer software using exploits based on publicly available proof-of-concept code. [...]]]></description>
+ </item>
+
  <item>
         <title>VMware Workstation auto-updates broken after Broadcom URL redirect</title>
         <link>https://www.bleepingcomputer.com/news/software/vmware-workstation-auto-updates-broken-after-broadcom-url-redirect/</link>
@@ -170,20 +184,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/cryptocurrency/us-seized-82-million-in-crypto-linked-to-romance-baiting-scams/</guid>
 	<description><![CDATA[The U.S. Department of Justice (DOJ) has seized over $8.2 million worth of USDT (Tether) cryptocurrency that was stolen via 'romance baiting' scams. [...]]]></description>
- </item>
-
- <item>
-        <title>Retail giant Sam’s Club investigates Clop ransomware breach claims</title>
-        <link>https://www.bleepingcomputer.com/news/security/retail-giant-sams-club-investigates-clop-ransomware-breach-claims/</link>
-        <pubDate>Fri, 28 Mar 2025 15:30:29 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/retail-giant-sams-club-investigates-clop-ransomware-breach-claims/</guid>
-	<description><![CDATA[​Sam's Club, an American warehouse supermarket chain owned by U.S. retail giant Walmart, is investigating claims of a Clop ransomware breach. [...]]]></description>
  </item>
 
 </channel>
