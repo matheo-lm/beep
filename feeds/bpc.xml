@@ -11,11 +11,29 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 01 Apr 2025 09:06:30 EDT</pubDate>
+        <pubDate>Tue, 01 Apr 2025 10:00:45 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Apple backports zero-day patches to older iPhones and Macs</title>
+        <link>https://www.bleepingcomputer.com/news/security/apple-backports-zero-day-patches-to-older-iphones-and-macs/</link>
+        <pubDate>Tue, 01 Apr 2025 09:35:33 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apple-backports-zero-day-patches-to-older-iphones-and-macs/</guid>
+	<description><![CDATA[Apple has released security updates that backport fixes for actively exploited vulnerabilities that were exploited as zero-days to older versions of its operating systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Critical auth bypass bug in CrushFTP now exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/critical-auth-bypass-bug-in-crushftp-now-exploited-in-attacks/</link>
