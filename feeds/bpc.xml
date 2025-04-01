@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 01 Apr 2025 10:00:45 EDT</pubDate>
+        <pubDate>Tue, 01 Apr 2025 10:59:13 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google rolls out easy end-to-end encryption for Gmail business users</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-rolls-out-easy-end-to-end-encryption-for-gmail-business-users/</link>
+        <pubDate>Tue, 01 Apr 2025 10:39:03 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-rolls-out-easy-end-to-end-encryption-for-gmail-business-users/</guid>
+	<description><![CDATA[​Google has started rolling out a new end-to-end encryption (E2EE) model for Gmail enterprise users, making it easier to send encrypted emails to any recipient. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Nearly 24,000 IPs behind wave of Palo Alto Global Protect scans</title>
+        <link>https://www.bleepingcomputer.com/news/security/nearly-24-000-ips-behind-wave-of-palo-alto-global-protect-scans/</link>
+        <pubDate>Tue, 01 Apr 2025 10:31:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/nearly-24-000-ips-behind-wave-of-palo-alto-global-protect-scans/</guid>
+	<description><![CDATA[A significant spike in scanning activity targeting Palo Alto Network GlobalProtect login portals has been observed, with researchers concerned it may be a prelude to an upcoming attack or flaw being exploited. [...]]]></description>
+ </item>
+
  <item>
         <title>Apple backports zero-day patches to older iPhones and Macs</title>
         <link>https://www.bleepingcomputer.com/news/security/apple-backports-zero-day-patches-to-older-iphones-and-macs/</link>
@@ -186,22 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsofts-killing-script-used-to-avoid-microsoft-account-in-windows-11/</guid>
 	<description><![CDATA[Microsoft has removed the 'BypassNRO.cmd' script from Windows 11 preview builds, which allowed users to bypass the requirement to use a Microsoft Account when installing the operating system. [...]]]></description>
- </item>
-
- <item>
-        <title>U.S. seized $8.2 million in crypto linked to 'Romance Baiting' scams</title>
-        <link>https://www.bleepingcomputer.com/news/cryptocurrency/us-seized-82-million-in-crypto-linked-to-romance-baiting-scams/</link>
-        <pubDate>Sat, 29 Mar 2025 10:23:46 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[CryptoCurrency]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/cryptocurrency/us-seized-82-million-in-crypto-linked-to-romance-baiting-scams/</guid>
-	<description><![CDATA[The U.S. Department of Justice (DOJ) has seized over $8.2 million worth of USDT (Tether) cryptocurrency that was stolen via 'romance baiting' scams. [...]]]></description>
  </item>
 
 </channel>
