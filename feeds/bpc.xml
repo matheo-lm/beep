@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 01 Apr 2025 13:02:39 EDT</pubDate>
+        <pubDate>Tue, 01 Apr 2025 13:59:01 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>We Smell a (DC)Rat: Revealing a Sophisticated Malware Delivery Chain</title>
+        <link>https://www.bleepingcomputer.com/news/security/we-smell-a-dcrat-revealing-a-sophisticated-malware-delivery-chain/</link>
+        <pubDate>Tue, 01 Apr 2025 13:30:00 -0400</pubDate>
+        <dc:creator>Sponsored by Acronis</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/we-smell-a-dcrat-revealing-a-sophisticated-malware-delivery-chain/</guid>
+	<description><![CDATA[A RAR file, a fake summons, and a Nietzsche quote—all part of a multi-stage malware chain delivering DCRat & Rhadamanthys. Acronis TRU breaks down how attackers use VBS, batch, and PowerShell scripts to slip past defenses. [...]]]></description>
+ </item>
+
  <item>
         <title>Apple fined €150 million over App Tracking Transparency issues</title>
         <link>https://www.bleepingcomputer.com/news/apple/apple-fined-150-million-over-app-tracking-transparency-issues/</link>
@@ -198,24 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-quick-machine-recovery-tool-to-fix-boot-crashes/</guid>
 	<description><![CDATA[Microsoft has begun testing a new Windows 11 tool called Quick Machine Recovery, which is designed to remotely deploy fixes for buggy drivers and configurations that prevent the operating system from starting. [...]]]></description>
- </item>
-
- <item>
-        <title>New Crocodilus malware steals Android users’ crypto wallet keys</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-crocodilus-malware-steals-android-users-crypto-wallet-keys/</link>
-        <pubDate>Sun, 30 Mar 2025 10:17:19 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-crocodilus-malware-steals-android-users-crypto-wallet-keys/</guid>
-	<description><![CDATA[A newly discovered Android malware dubbed Crocodilus tricks users into providing the seed phrase for the cryptocurrency wallet using a warning to back up the key to avoid losing access. [...]]]></description>
  </item>
 
 </channel>
