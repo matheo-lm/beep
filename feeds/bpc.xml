@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 01 Apr 2025 12:00:04 EDT</pubDate>
+        <pubDate>Tue, 01 Apr 2025 13:02:39 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Apple fined €150 million over App Tracking Transparency issues</title>
+        <link>https://www.bleepingcomputer.com/news/apple/apple-fined-150-million-over-app-tracking-transparency-issues/</link>
+        <pubDate>Tue, 01 Apr 2025 12:37:28 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Apple]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/apple/apple-fined-150-million-over-app-tracking-transparency-issues/</guid>
+	<description><![CDATA[Autorité de la concurrence, France's antitrust watchdog, has fined Apple €150 million ($162 million) for using the App Tracking Transparency privacy framework to abuse its dominant market position in mobile app advertising on its devices. [...]]]></description>
+ </item>
+
  <item>
         <title>Google rolls out easy end-to-end encryption for Gmail business users</title>
         <link>https://www.bleepingcomputer.com/news/security/google-rolls-out-easy-end-to-end-encryption-for-gmail-business-users/</link>
@@ -202,20 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-crocodilus-malware-steals-android-users-crypto-wallet-keys/</guid>
 	<description><![CDATA[A newly discovered Android malware dubbed Crocodilus tricks users into providing the seed phrase for the cryptocurrency wallet using a warning to back up the key to avoid losing access. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft's killing script used to avoid Microsoft Account in Windows 11</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsofts-killing-script-used-to-avoid-microsoft-account-in-windows-11/</link>
-        <pubDate>Sun, 30 Mar 2025 08:16:24 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsofts-killing-script-used-to-avoid-microsoft-account-in-windows-11/</guid>
-	<description><![CDATA[Microsoft has removed the 'BypassNRO.cmd' script from Windows 11 preview builds, which allowed users to bypass the requirement to use a Microsoft Account when installing the operating system. [...]]]></description>
  </item>
 
 </channel>
