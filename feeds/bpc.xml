@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 02 Apr 2025 09:09:13 EDT</pubDate>
+        <pubDate>Wed, 02 Apr 2025 10:02:28 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Counterfeit Android devices found preloaded With Triada malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/counterfeit-android-devices-found-preloaded-with-triada-malware/</link>
+        <pubDate>Wed, 02 Apr 2025 09:57:23 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/counterfeit-android-devices-found-preloaded-with-triada-malware/</guid>
+	<description><![CDATA[A new version of the Triada trojan has been discovered preinstalled on thousands of new Android devices, allowing threat actors to steal data as soon as they are set up. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Cisco warns of CSLU backdoor admin account used in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-cslu-backdoor-admin-account-used-in-attacks/</link>
+        <pubDate>Wed, 02 Apr 2025 09:19:06 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisco-warns-of-cslu-backdoor-admin-account-used-in-attacks/</guid>
+	<description><![CDATA[Cisco warns admins to patch a critical Cisco Smart Licensing Utility (CSLU) vulnerability, which exposes a built-in backdoor admin account now used in attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>New Windows 11 trick lets you bypass Microsoft Account requirement</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/new-windows-11-trick-lets-you-bypass-microsoft-account-requirement/</link>
@@ -162,54 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-deep-research-is-coming-to-chatgpt-free-very-soon/</guid>
 	<description><![CDATA[OpenAI has confirmed that its powerful AI agent "Deep Research" will begin rolling out to free users "very soon." At the moment, Deep Research is available only for Plus and Enterprise customers. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft uses AI to find flaws in GRUB2, U-Boot, Barebox bootloaders</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-uses-ai-to-find-flaws-in-grub2-u-boot-barebox-bootloaders/</link>
-        <pubDate>Mon, 31 Mar 2025 15:56:49 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Linux]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-uses-ai-to-find-flaws-in-grub2-u-boot-barebox-bootloaders/</guid>
-	<description><![CDATA[Microsoft used its AI-powered Security Copilot to discover 20 previously unknown vulnerabilities in the GRUB2, U-Boot, and Barebox open-source bootloaders. [...]]]></description>
- </item>
-
- <item>
-        <title>Phishing platform 'Lucid' behind wave of iOS, Android SMS attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/phishing-platform-lucid-behind-wave-of-ios-android-sms-attacks/</link>
-        <pubDate>Mon, 31 Mar 2025 14:49:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/phishing-platform-lucid-behind-wave-of-ios-android-sms-attacks/</guid>
-	<description><![CDATA[A phishing-as-a-service (PhaaS) platform named 'Lucid' has been targeting 169 entities in 88 countries using well-crafted messages sent on iMessage (iOS) and RCS (Android). [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers abuse WordPress MU-Plugins to hide malicious code</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-abuse-wordpress-mu-plugins-to-hide-malicious-code/</link>
-        <pubDate>Mon, 31 Mar 2025 13:06:04 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-abuse-wordpress-mu-plugins-to-hide-malicious-code/</guid>
-	<description><![CDATA[Hackers are utilizing the WordPress mu-plugins ("Must-Use Plugins") directory to stealthily run malicious code on every page while evading detection. [...]]]></description>
  </item>
 
 </channel>
