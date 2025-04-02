@@ -11,13 +11,57 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 02 Apr 2025 10:02:28 EDT</pubDate>
+        <pubDate>Wed, 02 Apr 2025 11:02:47 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
  <item>
-        <title>Counterfeit Android devices found preloaded With Triada malware</title>
+        <title>ChatGPT is down worldwide with something went wrong error</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-down-worldwide-with-something-went-wrong-error/</link>
+        <pubDate>Wed, 02 Apr 2025 10:48:31 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-down-worldwide-with-something-went-wrong-error/</guid>
+	<description><![CDATA[ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity issues worldwide. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Police shuts down KidFlix child sexual exploitation platform</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-shuts-down-kidflix-child-sexual-exploitation-platform/</link>
+        <pubDate>Wed, 02 Apr 2025 10:05:10 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-shuts-down-kidflix-child-sexual-exploitation-platform/</guid>
+	<description><![CDATA[Kidflix, one of the largest platforms used to host, share, and stream child sexual abuse material (CSAM) on the dark web, was shut down on March 11 following a joint action coordinated by German law enforcement. [...]]]></description>
+ </item>
+
+ <item>
+        <title>The Reality Behind Security Control Failures—And How to Prevent Them</title>
+        <link>https://www.bleepingcomputer.com/news/security/the-reality-behind-security-control-failures-and-how-to-prevent-them/</link>
+        <pubDate>Wed, 02 Apr 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by OnDefend</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/the-reality-behind-security-control-failures-and-how-to-prevent-them/</guid>
+	<description><![CDATA[Most orgs only discover their security controls failed after a breach. With OnDefend's continuous validation, you can test, measure, and prove your defenses work—before attackers exploit blind spots. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Counterfeit Android devices found preloaded with Triada malware</title>
         <link>https://www.bleepingcomputer.com/news/security/counterfeit-android-devices-found-preloaded-with-triada-malware/</link>
         <pubDate>Wed, 02 Apr 2025 09:57:23 -0400</pubDate>
         <dc:creator>Bill Toulas</dc:creator>
@@ -164,36 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/critical-auth-bypass-bug-in-crushftp-now-exploited-in-attacks/</guid>
 	<description><![CDATA[Attackers are now targeting a critical authentication bypass vulnerability in the CrushFTP file transfer software using exploits based on publicly available proof-of-concept code. [...]]]></description>
- </item>
-
- <item>
-        <title>VMware Workstation auto-updates broken after Broadcom URL redirect</title>
-        <link>https://www.bleepingcomputer.com/news/software/vmware-workstation-auto-updates-broken-after-broadcom-url-redirect/</link>
-        <pubDate>Mon, 31 Mar 2025 18:55:30 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/software/vmware-workstation-auto-updates-broken-after-broadcom-url-redirect/</guid>
-	<description><![CDATA[VMware Workstation users report that the software's automatic update functionality is broken after Broadcom redirected the download URL to its generic support page, triggering certificate errors. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI says Deep Research is coming to ChatGPT free "very soon"</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-deep-research-is-coming-to-chatgpt-free-very-soon/</link>
-        <pubDate>Mon, 31 Mar 2025 17:34:26 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-deep-research-is-coming-to-chatgpt-free-very-soon/</guid>
-	<description><![CDATA[OpenAI has confirmed that its powerful AI agent "Deep Research" will begin rolling out to free users "very soon." At the moment, Deep Research is available only for Plus and Enterprise customers. [...]]]></description>
  </item>
 
 </channel>
