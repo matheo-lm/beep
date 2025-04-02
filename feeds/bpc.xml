@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 02 Apr 2025 15:00:09 EDT</pubDate>
+        <pubDate>Wed, 02 Apr 2025 18:59:30 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Genetic data site openSNP to close and delete data over privacy concerns</title>
+        <link>https://www.bleepingcomputer.com/news/security/genetic-data-site-opensnp-to-close-and-delete-data-over-privacy-concerns/</link>
+        <pubDate>Wed, 02 Apr 2025 17:09:06 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/genetic-data-site-opensnp-to-close-and-delete-data-over-privacy-concerns/</guid>
+	<description><![CDATA[The openSNP project, a platform for sharing genetic and phenotypic data, will shut down on April 30, 2025, and delete all user submissions over privacy concerns and the risk of misuse by authoritarian governments. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Verizon Call Filter API flaw exposed customers' incoming call history</title>
+        <link>https://www.bleepingcomputer.com/news/security/verizon-call-filter-api-flaw-exposed-customers-incoming-call-history/</link>
+        <pubDate>Wed, 02 Apr 2025 15:47:54 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/verizon-call-filter-api-flaw-exposed-customers-incoming-call-history/</guid>
+	<description><![CDATA[A vulnerability in Verizon's Call Filter feature allowed customers to access the incoming call logs for another Verizon Wireless number through an unsecured API request. [...]]]></description>
+ </item>
+
  <item>
         <title>GitHub expands security tools after 39 million secrets leaked in 2024</title>
         <link>https://www.bleepingcomputer.com/news/security/github-expands-security-tools-after-39-million-secrets-leaked-in-2024/</link>
@@ -162,34 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/north-korean-it-worker-army-expands-operations-in-europe/</guid>
 	<description><![CDATA[​North Korea's IT workers have expanded operations beyond the United States and are now increasingly targeting organizations across Europe. [...]]]></description>
- </item>
-
- <item>
-        <title>We Smell a (DC)Rat: Revealing a Sophisticated Malware Delivery Chain</title>
-        <link>https://www.bleepingcomputer.com/news/security/we-smell-a-dcrat-revealing-a-sophisticated-malware-delivery-chain/</link>
-        <pubDate>Tue, 01 Apr 2025 13:30:00 -0400</pubDate>
-        <dc:creator>Sponsored by Acronis</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/we-smell-a-dcrat-revealing-a-sophisticated-malware-delivery-chain/</guid>
-	<description><![CDATA[A RAR file, a fake summons, and a Nietzsche quote—all part of a multi-stage malware chain delivering DCRat & Rhadamanthys. Acronis TRU breaks down how attackers use VBS, batch, and PowerShell scripts to slip past defenses. [...]]]></description>
- </item>
-
- <item>
-        <title>Apple fined €150 million over App Tracking Transparency issues</title>
-        <link>https://www.bleepingcomputer.com/news/apple/apple-fined-150-million-over-app-tracking-transparency-issues/</link>
-        <pubDate>Tue, 01 Apr 2025 12:37:28 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Apple]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/apple/apple-fined-150-million-over-app-tracking-transparency-issues/</guid>
-	<description><![CDATA[Autorité de la concurrence, France's antitrust watchdog, has fined Apple €150 million ($162 million) for using the App Tracking Transparency privacy framework to abuse its dominant market position in mobile app advertising on its devices. [...]]]></description>
  </item>
 
 </channel>
