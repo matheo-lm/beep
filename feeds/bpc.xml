@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 02 Apr 2025 14:02:35 EDT</pubDate>
+        <pubDate>Wed, 02 Apr 2025 15:00:09 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>GitHub expands security tools after 39 million secrets leaked in 2024</title>
+        <link>https://www.bleepingcomputer.com/news/security/github-expands-security-tools-after-39-million-secrets-leaked-in-2024/</link>
+        <pubDate>Wed, 02 Apr 2025 14:24:54 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/github-expands-security-tools-after-39-million-secrets-leaked-in-2024/</guid>
+	<description><![CDATA[Over 39 million secrets like API keys and account credentials were leaked on GitHub throughout 2024, exposing organizations and users to significant security risks. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft adds hotpatching support to Windows 11 Enterprise</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-hotpatching-support-to-windows-11-enterprise/</link>
@@ -176,36 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/apple/apple-fined-150-million-over-app-tracking-transparency-issues/</guid>
 	<description><![CDATA[Autorité de la concurrence, France's antitrust watchdog, has fined Apple €150 million ($162 million) for using the App Tracking Transparency privacy framework to abuse its dominant market position in mobile app advertising on its devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Google rolls out easy end-to-end encryption for Gmail business users</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-rolls-out-easy-end-to-end-encryption-for-gmail-business-users/</link>
-        <pubDate>Tue, 01 Apr 2025 10:39:03 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-rolls-out-easy-end-to-end-encryption-for-gmail-business-users/</guid>
-	<description><![CDATA[​Google has started rolling out a new end-to-end encryption (E2EE) model for Gmail enterprise users, making it easier to send encrypted emails to any recipient. [...]]]></description>
- </item>
-
- <item>
-        <title>Nearly 24,000 IPs behind wave of Palo Alto Global Protect scans</title>
-        <link>https://www.bleepingcomputer.com/news/security/nearly-24-000-ips-behind-wave-of-palo-alto-global-protect-scans/</link>
-        <pubDate>Tue, 01 Apr 2025 10:31:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/nearly-24-000-ips-behind-wave-of-palo-alto-global-protect-scans/</guid>
-	<description><![CDATA[A significant spike in scanning activity targeting Palo Alto Network GlobalProtect login portals has been observed, with researchers concerned it may be a prelude to an upcoming attack or flaw being exploited. [...]]]></description>
  </item>
 
 </channel>
