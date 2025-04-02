@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 02 Apr 2025 12:01:56 EDT</pubDate>
+        <pubDate>Wed, 02 Apr 2025 12:59:27 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Royal Mail investigates data leak claims, no impact on operations</title>
+        <link>https://www.bleepingcomputer.com/news/security/royal-mail-investigates-data-leak-claims-no-impact-on-operations/</link>
+        <pubDate>Wed, 02 Apr 2025 12:34:08 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/royal-mail-investigates-data-leak-claims-no-impact-on-operations/</guid>
+	<description><![CDATA[​Royal Mail is investigating claims of a security breach after a threat actor leaked over 144GB of data allegedly stolen from the company's systems. [...]]]></description>
+ </item>
+
  <item>
         <title>ChatGPT is down worldwide with something went wrong error</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-down-worldwide-with-something-went-wrong-error/</link>
@@ -194,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/apple-backports-zero-day-patches-to-older-iphones-and-macs/</guid>
 	<description><![CDATA[Apple has released security updates that backport fixes for actively exploited vulnerabilities that were exploited as zero-days to older versions of its operating systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Critical auth bypass bug in CrushFTP now exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/critical-auth-bypass-bug-in-crushftp-now-exploited-in-attacks/</link>
-        <pubDate>Tue, 01 Apr 2025 08:46:21 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/critical-auth-bypass-bug-in-crushftp-now-exploited-in-attacks/</guid>
-	<description><![CDATA[Attackers are now targeting a critical authentication bypass vulnerability in the CrushFTP file transfer software using exploits based on publicly available proof-of-concept code. [...]]]></description>
  </item>
 
 </channel>
