@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 03 Apr 2025 11:02:00 EDT</pubDate>
+        <pubDate>Thu, 03 Apr 2025 12:58:38 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Texas State Bar warns of data breach after INC ransomware claims attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/texas-state-bar-warns-of-data-breach-after-inc-ransomware-claims-attack/</link>
+        <pubDate>Thu, 03 Apr 2025 11:43:17 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/texas-state-bar-warns-of-data-breach-after-inc-ransomware-claims-attack/</guid>
+	<description><![CDATA[The State Bar of Texas is warning it suffered a data breach after the INC ransomware gang claimed to have breached the organization and began leaking samples of stolen data. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Oracle privately confirms Cloud breach to customers</title>
+        <link>https://www.bleepingcomputer.com/news/security/oracle-privately-confirms-cloud-breach-to-customers/</link>
+        <pubDate>Thu, 03 Apr 2025 11:26:45 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/oracle-privately-confirms-cloud-breach-to-customers/</guid>
+	<description><![CDATA[Oracle has finally acknowledged to some customers that attackers have stolen old client credentials after breaching a "legacy environment" last used in 2017. [...]]]></description>
+ </item>
+
  <item>
         <title>Recent GitHub supply chain attack traced to leaked SpotBugs token</title>
         <link>https://www.bleepingcomputer.com/news/security/recent-github-supply-chain-attack-traced-to-leaked-spotbugs-token/</link>
@@ -178,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisco-warns-of-cslu-backdoor-admin-account-used-in-attacks/</guid>
 	<description><![CDATA[Cisco warns admins to patch a critical Cisco Smart Licensing Utility (CSLU) vulnerability, which exposes a built-in backdoor admin account now used in attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>New Windows 11 trick lets you bypass Microsoft Account requirement</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/new-windows-11-trick-lets-you-bypass-microsoft-account-requirement/</link>
-        <pubDate>Tue, 01 Apr 2025 17:33:04 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/new-windows-11-trick-lets-you-bypass-microsoft-account-requirement/</guid>
-	<description><![CDATA[A previously unknown trick lets you easily bypass using a Microsoft Account in Windows 11, just as Microsoft tries to make it harder to use local accounts. [...]]]></description>
  </item>
 
 </channel>
