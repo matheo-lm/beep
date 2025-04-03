@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 03 Apr 2025 12:58:38 EDT</pubDate>
+        <pubDate>Thu, 03 Apr 2025 13:59:36 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ivanti patches Connect Secure zero-day exploited since mid-March</title>
+        <link>https://www.bleepingcomputer.com/news/security/ivanti-patches-connect-secure-zero-day-exploited-since-mid-march/</link>
+        <pubDate>Thu, 03 Apr 2025 13:43:34 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ivanti-patches-connect-secure-zero-day-exploited-since-mid-march/</guid>
+	<description><![CDATA[Ivanti has released security updates to patch a critical Connect Secure remote code execution vulnerability exploited by a China-linked espionage actor to deploy malware since at least mid-March 2025. [...]]]></description>
+ </item>
+
  <item>
         <title>Texas State Bar warns of data breach after INC ransomware claims attack</title>
         <link>https://www.bleepingcomputer.com/news/security/texas-state-bar-warns-of-data-breach-after-inc-ransomware-claims-attack/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/counterfeit-android-devices-found-preloaded-with-triada-malware/</guid>
 	<description><![CDATA[A new version of the Triada trojan has been discovered preinstalled on thousands of new Android devices, allowing threat actors to steal data as soon as they are set up. [...]]]></description>
- </item>
-
- <item>
-        <title>Cisco warns of CSLU backdoor admin account used in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-cslu-backdoor-admin-account-used-in-attacks/</link>
-        <pubDate>Wed, 02 Apr 2025 09:19:06 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisco-warns-of-cslu-backdoor-admin-account-used-in-attacks/</guid>
-	<description><![CDATA[Cisco warns admins to patch a critical Cisco Smart Licensing Utility (CSLU) vulnerability, which exposes a built-in backdoor admin account now used in attacks. [...]]]></description>
  </item>
 
 </channel>
