@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 03 Apr 2025 14:59:11 EDT</pubDate>
+        <pubDate>Thu, 03 Apr 2025 16:03:09 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA warns of Fast Flux DNS evasion used by cybercrime gangs</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-fast-flux-dns-evasion-used-by-cybercrime-gangs/</link>
+        <pubDate>Thu, 03 Apr 2025 15:37:59 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-fast-flux-dns-evasion-used-by-cybercrime-gangs/</guid>
+	<description><![CDATA[CISA, the FBI, the NSA, and international cybersecurity agencies are calling on organizations and DNS providers to mitigate the "Fast Flux" cybercrime evasion technique used by state-sponsored threat actors and ransomware gangs. [...]]]></description>
+ </item>
+
  <item>
         <title>Ivanti patches Connect Secure zero-day exploited since mid-March</title>
         <link>https://www.bleepingcomputer.com/news/security/ivanti-patches-connect-secure-zero-day-exploited-since-mid-march/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/police-shuts-down-kidflix-child-sexual-exploitation-platform/</guid>
 	<description><![CDATA[Kidflix, one of the largest platforms used to host, share, and stream child sexual abuse material (CSAM) on the dark web, was shut down on March 11 following a joint action coordinated by German law enforcement. [...]]]></description>
- </item>
-
- <item>
-        <title>The Reality Behind Security Control Failures—And How to Prevent Them</title>
-        <link>https://www.bleepingcomputer.com/news/security/the-reality-behind-security-control-failures-and-how-to-prevent-them/</link>
-        <pubDate>Wed, 02 Apr 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by OnDefend</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/the-reality-behind-security-control-failures-and-how-to-prevent-them/</guid>
-	<description><![CDATA[Most orgs only discover their security controls failed after a breach. With OnDefend's continuous validation, you can test, measure, and prove your defenses work—before attackers exploit blind spots. [...]]]></description>
  </item>
 
 </channel>
