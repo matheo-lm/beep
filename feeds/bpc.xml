@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 05 Apr 2025 10:59:23 EDT</pubDate>
+        <pubDate>Sat, 05 Apr 2025 12:02:17 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Coinbase to fix 2FA account activity entry freaking out users</title>
+        <link>https://www.bleepingcomputer.com/news/security/coinbase-to-fix-2fa-account-activity-entry-freaking-out-users/</link>
+        <pubDate>Sat, 05 Apr 2025 11:36:45 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/coinbase-to-fix-2fa-account-activity-entry-freaking-out-users/</guid>
+	<description><![CDATA[Coinbase is fixing an incorrect account activity message that freaks out customers and makes them think their credentials were compromised. [...]]]></description>
+ </item>
+
+ <item>
+        <title>WinRAR flaw bypasses Windows Mark of the Web security alerts</title>
+        <link>https://www.bleepingcomputer.com/news/security/winrar-flaw-bypasses-windows-mark-of-the-web-security-alerts/</link>
+        <pubDate>Sat, 05 Apr 2025 10:14:28 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/winrar-flaw-bypasses-windows-mark-of-the-web-security-alerts/</guid>
+	<description><![CDATA[A vulnerability in the WinRAR file archiver solution could be exploited to bypass the Mark of the Web (MotW) security warning and execute arbitrary code on a Windows machine. [...]]]></description>
+ </item>
+
  <item>
         <title>Port of Seattle says ransomware breach impacts 90,000 people</title>
         <link>https://www.bleepingcomputer.com/news/security/port-of-seattle-says-ransomware-breach-impacts-90-000-people/</link>
@@ -160,48 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ivanti-patches-connect-secure-zero-day-exploited-since-mid-march/</guid>
 	<description><![CDATA[Ivanti has released security updates to patch a critical Connect Secure remote code execution vulnerability exploited by a China-linked espionage actor to deploy malware since at least mid-March 2025. [...]]]></description>
- </item>
-
- <item>
-        <title>Texas State Bar warns of data breach after INC ransomware claims attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/texas-state-bar-warns-of-data-breach-after-inc-ransomware-claims-attack/</link>
-        <pubDate>Thu, 03 Apr 2025 11:43:17 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/texas-state-bar-warns-of-data-breach-after-inc-ransomware-claims-attack/</guid>
-	<description><![CDATA[The State Bar of Texas is warning it suffered a data breach after the INC ransomware gang claimed to have breached the organization and began leaking samples of stolen data. [...]]]></description>
- </item>
-
- <item>
-        <title>Oracle privately confirms Cloud breach to customers</title>
-        <link>https://www.bleepingcomputer.com/news/security/oracle-privately-confirms-cloud-breach-to-customers/</link>
-        <pubDate>Thu, 03 Apr 2025 11:26:45 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/oracle-privately-confirms-cloud-breach-to-customers/</guid>
-	<description><![CDATA[Oracle has finally acknowledged to some customers that attackers have stolen old client credentials after breaching a "legacy environment" last used in 2017. [...]]]></description>
- </item>
-
- <item>
-        <title>Recent GitHub supply chain attack traced to leaked SpotBugs token</title>
-        <link>https://www.bleepingcomputer.com/news/security/recent-github-supply-chain-attack-traced-to-leaked-spotbugs-token/</link>
-        <pubDate>Thu, 03 Apr 2025 10:46:50 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/recent-github-supply-chain-attack-traced-to-leaked-spotbugs-token/</guid>
-	<description><![CDATA[A cascading supply chain attack on GitHub that targeted Coinbase in March has now been traced back to a single token stolen from a SpotBugs workflow, which allowed a threat actor to compromise multiple GitHub projects. [...]]]></description>
  </item>
 
 </channel>
