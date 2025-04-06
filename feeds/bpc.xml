@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 06 Apr 2025 10:02:02 EDT</pubDate>
+        <pubDate>Sun, 06 Apr 2025 10:58:07 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>OpenAI tests watermarking for ChatGPT-4o Image Generation model</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-tests-watermarking-for-chatgpt-4o-image-generation-model/</link>
+        <pubDate>Sun, 06 Apr 2025 10:56:43 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-tests-watermarking-for-chatgpt-4o-image-generation-model/</guid>
+	<description><![CDATA[OpenAI is reportedly testing a new "watermark" for the Image Generation model, which is a part of the ChatGPT 4o model. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Carding tool abusing WooCommerce API downloaded 34K times on PyPI</title>
+        <link>https://www.bleepingcomputer.com/news/security/carding-tool-abusing-woocommerce-api-downloaded-34k-times-on-pypi/</link>
+        <pubDate>Sun, 06 Apr 2025 10:17:27 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/carding-tool-abusing-woocommerce-api-downloaded-34k-times-on-pypi/</guid>
+	<description><![CDATA[A newly discovered malicious PyPi package named 'disgrasya' that abuses legitimate WooCommerce stores for validating stolen credit cards has been downloaded over 34,000 times from the open-source package platform. [...]]]></description>
+ </item>
+
  <item>
         <title>Coinbase to fix 2FA account activity entry freaking out users</title>
         <link>https://www.bleepingcomputer.com/news/security/coinbase-to-fix-2fa-account-activity-entry-freaking-out-users/</link>
@@ -162,34 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-testing-windows-11-taskbar-icon-scaling/</guid>
 	<description><![CDATA[​Microsoft is testing a new taskbar icon scaling feature that automatically scales down Windows taskbar icons to show more apps when it gets too overcrowded. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA warns of Fast Flux DNS evasion used by cybercrime gangs</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-fast-flux-dns-evasion-used-by-cybercrime-gangs/</link>
-        <pubDate>Thu, 03 Apr 2025 15:37:59 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-fast-flux-dns-evasion-used-by-cybercrime-gangs/</guid>
-	<description><![CDATA[CISA, the FBI, the NSA, and international cybersecurity agencies are calling on organizations and DNS providers to mitigate the "Fast Flux" cybercrime evasion technique used by state-sponsored threat actors and ransomware gangs. [...]]]></description>
- </item>
-
- <item>
-        <title>Ivanti patches Connect Secure zero-day exploited since mid-March</title>
-        <link>https://www.bleepingcomputer.com/news/security/ivanti-patches-connect-secure-zero-day-exploited-since-mid-march/</link>
-        <pubDate>Thu, 03 Apr 2025 13:43:34 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ivanti-patches-connect-secure-zero-day-exploited-since-mid-march/</guid>
-	<description><![CDATA[Ivanti has released security updates to patch a critical Connect Secure remote code execution vulnerability exploited by a China-linked espionage actor to deploy malware since at least mid-March 2025. [...]]]></description>
  </item>
 
 </channel>
