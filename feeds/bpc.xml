@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 06 Apr 2025 16:01:55 EDT</pubDate>
+        <pubDate>Sun, 06 Apr 2025 17:00:14 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>E-ZPass toll payment texts return in massive phishing wave</title>
+        <link>https://www.bleepingcomputer.com/news/security/toll-payment-text-scam-returns-in-massive-phishing-wave/</link>
+        <pubDate>Sun, 06 Apr 2025 11:20:31 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/toll-payment-text-scam-returns-in-massive-phishing-wave/</guid>
+	<description><![CDATA[An ongoing phishing campaign impersonating E-ZPass and other toll agencies has surged recently, with recipients receiving multiple iMessage and SMS texts to steal personal and credit card information. [...]]]></description>
+ </item>
+
  <item>
         <title>OpenAI tests watermarking for ChatGPT-4o Image Generation model</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-tests-watermarking-for-chatgpt-4o-image-generation-model/</link>
@@ -178,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hunters-international-rebrands-as-world-leaks-in-shift-to-data-extortion/</guid>
 	<description><![CDATA[The Hunters International Ransomware-as-a-Service (RaaS) operation is shutting down and rebranding with plans to switch to data theft and extortion-only attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft starts testing Windows 11 taskbar icon scaling</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-testing-windows-11-taskbar-icon-scaling/</link>
-        <pubDate>Thu, 03 Apr 2025 16:04:17 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-testing-windows-11-taskbar-icon-scaling/</guid>
-	<description><![CDATA[​Microsoft is testing a new taskbar icon scaling feature that automatically scales down Windows taskbar icons to show more apps when it gets too overcrowded. [...]]]></description>
  </item>
 
 </channel>
