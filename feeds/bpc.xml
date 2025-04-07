@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 07 Apr 2025 15:01:22 EDT</pubDate>
+        <pubDate>Mon, 07 Apr 2025 16:02:00 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft delays WSUS driver sync deprecation indefinitely</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-delays-wsus-driver-sync-deprecation-indefinitely/</link>
+        <pubDate>Mon, 07 Apr 2025 15:36:49 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-delays-wsus-driver-sync-deprecation-indefinitely/</guid>
+	<description><![CDATA[Microsoft announced today that, based on customer feedback, it will indefinitely delay removing driver synchronization in Windows Server Update Services (WSUS). [...]]]></description>
+ </item>
+
  <item>
         <title>Six arrested for AI-powered investment scams that stole $20 million</title>
         <link>https://www.bleepingcomputer.com/news/security/six-arrested-for-ai-powered-investment-scams-that-stole-20-million/</link>
@@ -194,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/winrar-flaw-bypasses-windows-mark-of-the-web-security-alerts/</guid>
 	<description><![CDATA[A vulnerability in the WinRAR file archiver solution could be exploited to bypass the Mark of the Web (MotW) security warning and execute arbitrary code on a Windows machine. [...]]]></description>
- </item>
-
- <item>
-        <title>Port of Seattle says ransomware breach impacts 90,000 people</title>
-        <link>https://www.bleepingcomputer.com/news/security/port-of-seattle-says-ransomware-breach-impacts-90-000-people/</link>
-        <pubDate>Fri, 04 Apr 2025 13:26:38 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/port-of-seattle-says-ransomware-breach-impacts-90-000-people/</guid>
-	<description><![CDATA[​Port of Seattle, the U.S. government agency overseeing Seattle's seaport and airport, is notifying roughly 90,000 individuals of a data breach after their personal information was stolen in an August 2024 ransomware attack. [...]]]></description>
  </item>
 
 </channel>
