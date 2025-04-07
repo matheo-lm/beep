@@ -11,11 +11,53 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 07 Apr 2025 10:01:17 EDT</pubDate>
+        <pubDate>Mon, 07 Apr 2025 12:02:09 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Food giant WK Kellogg discloses data breach linked to Clop ransomware</title>
+        <link>https://www.bleepingcomputer.com/news/security/food-giant-wk-kellogg-discloses-data-breach-linked-to-clop-ransomware/</link>
+        <pubDate>Mon, 07 Apr 2025 11:56:51 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/food-giant-wk-kellogg-discloses-data-breach-linked-to-clop-ransomware/</guid>
+	<description><![CDATA[US food giant WK Kellogg Co is warning employees and vendors that company data was stolen during the 2024 Cleo data theft attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 24H2 blocked on PCs with code-obfuscation driver BSODs</title>
+        <link>https://www.bleepingcomputer.com/news/security/windows-11-24h2-blocked-on-pcs-with-code-obfuscation-driver-bsods/</link>
+        <pubDate>Mon, 07 Apr 2025 11:32:32 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/windows-11-24h2-blocked-on-pcs-with-code-obfuscation-driver-bsods/</guid>
+	<description><![CDATA[Microsoft has introduced a new Windows 11 24H2 safeguard hold for systems running security or enterprise software using SenseShield Technology's sprotect.sys driver. [...]]]></description>
+ </item>
+
+ <item>
+        <title>This $16 AdGuard plan protects your whole family from malicious ads</title>
+        <link>https://www.bleepingcomputer.com/news/security/this-16-adguard-plan-protects-your-whole-family-from-malicious-ads/</link>
+        <pubDate>Mon, 07 Apr 2025 08:11:19 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/this-16-adguard-plan-protects-your-whole-family-from-malicious-ads/</guid>
+	<description><![CDATA[You have until April 27 at 11:59 p.m. PT to grab lifetime access to AdGuard's privacy and ad-blocking tools for just $15.97 (reg. $169)—remember to enter code FAMPLAN at checkout for this limited-time discount. [...]]]></description>
+ </item>
+
  <item>
         <title>E-ZPass toll payment texts return in massive phishing wave</title>
         <link>https://www.bleepingcomputer.com/news/security/toll-payment-text-scam-returns-in-massive-phishing-wave/</link>
@@ -166,34 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-20-chatgpt-plus-is-now-free-for-students-until-the-end-of-may/</guid>
 	<description><![CDATA[ChatGPT Plus subscription is now free, but only if you're a student based out of the United States of America and Canada. [...]]]></description>
- </item>
-
- <item>
-        <title>Max severity RCE flaw discovered in widely used Apache Parquet</title>
-        <link>https://www.bleepingcomputer.com/news/security/max-severity-rce-flaw-discovered-in-widely-used-apache-parquet/</link>
-        <pubDate>Thu, 03 Apr 2025 17:29:10 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/max-severity-rce-flaw-discovered-in-widely-used-apache-parquet/</guid>
-	<description><![CDATA[A maximum severity remote code execution (RCE) vulnerability has been discovered impacting all versions of Apache Parquet up to and including 1.15.0. [...]]]></description>
- </item>
-
- <item>
-        <title>Hunters International shifts from ransomware to pure data extortion</title>
-        <link>https://www.bleepingcomputer.com/news/security/hunters-international-rebrands-as-world-leaks-in-shift-to-data-extortion/</link>
-        <pubDate>Thu, 03 Apr 2025 17:06:10 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hunters-international-rebrands-as-world-leaks-in-shift-to-data-extortion/</guid>
-	<description><![CDATA[The Hunters International Ransomware-as-a-Service (RaaS) operation is shutting down and rebranding with plans to switch to data theft and extortion-only attacks. [...]]]></description>
  </item>
 
 </channel>
