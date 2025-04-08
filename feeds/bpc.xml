@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 08 Apr 2025 09:58:28 EDT</pubDate>
+        <pubDate>Tue, 08 Apr 2025 10:59:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>AWS rolls out ML-KEM to secure TLS from quantum threats</title>
+        <link>https://www.bleepingcomputer.com/news/security/aws-rolls-out-ml-kem-to-secure-tls-from-quantum-threats/</link>
+        <pubDate>Tue, 08 Apr 2025 10:54:53 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Cloud]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/aws-rolls-out-ml-kem-to-secure-tls-from-quantum-threats/</guid>
+	<description><![CDATA[Amazon Web Services (AWS) has added support for the ML-KEM post-quantum key encapsulation mechanism to AWS Key Management Service (KMS), AWS Certificate Manager (ACM), and AWS Secrets Manager, making TLS connections more secure. [...]]]></description>
+ </item>
+
  <item>
         <title>EncryptHub's dual life: Cybercriminal vs Windows bug-bounty researcher</title>
         <link>https://www.bleepingcomputer.com/news/security/encrypthubs-dual-life-cybercriminal-vs-windows-bug-bounty-researcher/</link>
@@ -194,36 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/carding-tool-abusing-woocommerce-api-downloaded-34k-times-on-pypi/</guid>
 	<description><![CDATA[A newly discovered malicious PyPi package named 'disgrasya' that abuses legitimate WooCommerce stores for validating stolen credit cards has been downloaded over 34,000 times from the open-source package platform. [...]]]></description>
- </item>
-
- <item>
-        <title>Coinbase to fix 2FA account activity entry freaking out users</title>
-        <link>https://www.bleepingcomputer.com/news/security/coinbase-to-fix-2fa-account-activity-entry-freaking-out-users/</link>
-        <pubDate>Sat, 05 Apr 2025 11:36:45 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/coinbase-to-fix-2fa-account-activity-entry-freaking-out-users/</guid>
-	<description><![CDATA[Coinbase is fixing an incorrect account activity message that freaks out customers and makes them think their credentials were compromised. [...]]]></description>
- </item>
-
- <item>
-        <title>WinRAR flaw bypasses Windows Mark of the Web security alerts</title>
-        <link>https://www.bleepingcomputer.com/news/security/winrar-flaw-bypasses-windows-mark-of-the-web-security-alerts/</link>
-        <pubDate>Sat, 05 Apr 2025 10:14:28 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/winrar-flaw-bypasses-windows-mark-of-the-web-security-alerts/</guid>
-	<description><![CDATA[A vulnerability in the WinRAR file archiver solution could be exploited to bypass the Mark of the Web (MotW) security warning and execute arbitrary code on a Windows machine. [...]]]></description>
  </item>
 
 </channel>
