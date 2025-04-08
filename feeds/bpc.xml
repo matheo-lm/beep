@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 08 Apr 2025 10:59:59 EDT</pubDate>
+        <pubDate>Tue, 08 Apr 2025 12:04:00 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Mirai botnet behind surge in TVT DVR exploitation</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-mirai-botnet-behind-surge-in-tvt-dvr-exploitation/</link>
+        <pubDate>Tue, 08 Apr 2025 11:33:42 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-mirai-botnet-behind-surge-in-tvt-dvr-exploitation/</guid>
+	<description><![CDATA[A significant spike in exploitation attempts targeting TVT NVMS9000 DVRs has been detected, peaking on April 3, 2025, with over 2,500 unique IPs scanning for vulnerable devices. [...]]]></description>
+ </item>
+
  <item>
         <title>AWS rolls out ML-KEM to secure TLS from quantum threats</title>
         <link>https://www.bleepingcomputer.com/news/security/aws-rolls-out-ml-kem-to-secure-tls-from-quantum-threats/</link>
