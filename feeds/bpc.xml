@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 08 Apr 2025 14:58:34 EDT</pubDate>
+        <pubDate>Tue, 08 Apr 2025 15:59:46 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: Windows CLFS zero-day exploited by ransomware gang</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-windows-clfs-zero-day-exploited-by-ransomware-gang/</link>
+        <pubDate>Tue, 08 Apr 2025 15:05:17 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-windows-clfs-zero-day-exploited-by-ransomware-gang/</guid>
+	<description><![CDATA[Microsoft says the RansomEXX ransomware gang has been exploiting a high-severity zero-day flaw in the Windows Common Log File System to gain SYSTEM privileges on victims' systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft April 2025 Patch Tuesday fixes exploited zero-day, 134 flaws</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2025-patch-tuesday-fixes-exploited-zero-day-134-flaws/</link>
@@ -210,20 +226,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/malicious-vscode-extensions-infect-windows-with-cryptominers/</guid>
 	<description><![CDATA[Nine VSCode extensions on Microsoft's Visual Studio Code Marketplace pose as legitimate development tools while infecting users with the XMRig cryptominer to mine Ethereum and Monero. [...]]]></description>
- </item>
-
- <item>
-        <title>Food giant WK Kellogg discloses data breach linked to Clop ransomware</title>
-        <link>https://www.bleepingcomputer.com/news/security/food-giant-wk-kellogg-discloses-data-breach-linked-to-clop-ransomware/</link>
-        <pubDate>Mon, 07 Apr 2025 11:56:51 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/food-giant-wk-kellogg-discloses-data-breach-linked-to-clop-ransomware/</guid>
-	<description><![CDATA[US food giant WK Kellogg Co is warning employees and vendors that company data was stolen during the 2024 Cleo data theft attacks. [...]]]></description>
  </item>
 
 </channel>
