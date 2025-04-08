@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 08 Apr 2025 12:04:00 EDT</pubDate>
+        <pubDate>Tue, 08 Apr 2025 13:02:16 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>WhatsApp flaw can let attackers run malicious code on Windows PCs</title>
+        <link>https://www.bleepingcomputer.com/news/security/whatsapp-flaw-can-let-attackers-run-malicious-code-on-windows-pcs/</link>
+        <pubDate>Tue, 08 Apr 2025 12:21:58 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/whatsapp-flaw-can-let-attackers-run-malicious-code-on-windows-pcs/</guid>
+	<description><![CDATA[Meta warned Windows users to update the WhatsApp messaging app to the latest version to patch a vulnerability that can let attackers execute malicious code on their devices. [...]]]></description>
+ </item>
+
  <item>
         <title>New Mirai botnet behind surge in TVT DVR exploitation</title>
         <link>https://www.bleepingcomputer.com/news/security/new-mirai-botnet-behind-surge-in-tvt-dvr-exploitation/</link>
@@ -210,20 +224,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-tests-watermarking-for-chatgpt-4o-image-generation-model/</guid>
 	<description><![CDATA[OpenAI is reportedly testing a new "watermark" for the Image Generation model, which is a part of the ChatGPT 4o model. [...]]]></description>
- </item>
-
- <item>
-        <title>Carding tool abusing WooCommerce API downloaded 34K times on PyPI</title>
-        <link>https://www.bleepingcomputer.com/news/security/carding-tool-abusing-woocommerce-api-downloaded-34k-times-on-pypi/</link>
-        <pubDate>Sun, 06 Apr 2025 10:17:27 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/carding-tool-abusing-woocommerce-api-downloaded-34k-times-on-pypi/</guid>
-	<description><![CDATA[A newly discovered malicious PyPi package named 'disgrasya' that abuses legitimate WooCommerce stores for validating stolen credit cards has been downloaded over 34,000 times from the open-source package platform. [...]]]></description>
  </item>
 
 </channel>
