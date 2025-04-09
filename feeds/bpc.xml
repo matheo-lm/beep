@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 09 Apr 2025 11:04:29 EDT</pubDate>
+        <pubDate>Wed, 09 Apr 2025 12:01:02 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CentreStack RCE exploited as zero-day to breach file sharing servers</title>
+        <link>https://www.bleepingcomputer.com/news/security/centrestack-rce-exploited-as-zero-day-to-breach-file-sharing-servers/</link>
+        <pubDate>Wed, 09 Apr 2025 11:38:30 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/centrestack-rce-exploited-as-zero-day-to-breach-file-sharing-servers/</guid>
+	<description><![CDATA[Hackers exploited a vulnerability in Gladinet CentreStack's secure file-sharing software as a zero-day since March to breach storage servers [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft investigates global Exchange Admin Center outage</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-global-exchange-admin-center-outage/</link>
@@ -204,20 +218,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/whatsapp-flaw-can-let-attackers-run-malicious-code-on-windows-pcs/</guid>
 	<description><![CDATA[Meta warned Windows users to update the WhatsApp messaging app to the latest version to patch a vulnerability that can let attackers execute malicious code on their devices. [...]]]></description>
- </item>
-
- <item>
-        <title>New Mirai botnet behind surge in TVT DVR exploitation</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-mirai-botnet-behind-surge-in-tvt-dvr-exploitation/</link>
-        <pubDate>Tue, 08 Apr 2025 11:33:42 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-mirai-botnet-behind-surge-in-tvt-dvr-exploitation/</guid>
-	<description><![CDATA[A significant spike in exploitation attempts targeting TVT NVMS9000 DVRs has been detected, peaking on April 3, 2025, with over 2,500 unique IPs scanning for vulnerable devices. [...]]]></description>
  </item>
 
 </channel>
