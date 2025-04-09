@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Fri, 28 Mar 2025 22:51:43 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 09 Apr 2025 14:49:36 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,205 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>AkiraBot &#124; AI-Powered Bot Bypasses CAPTCHAs, Spams Websites At Scale</title>
+		<link>https://www.sentinelone.com/labs/akirabot-ai-powered-bot-bypasses-captchas-spams-websites-at-scale/</link>
+		
+		<dc:creator><![CDATA[Alex Delamotte &amp; Jim Walter]]></dc:creator>
+		<pubDate>Wed, 09 Apr 2025 15:00:36 +0000</pubDate>
+				<category><![CDATA[MalSpam]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=117809</guid>
+
+					<description><![CDATA[AkiraBot uses OpenAI to generate custom outreach messages to spam chat widgets and website contact forms at scale.]]></description>
+										<content:encoded><![CDATA[<h2>Executive Summary</h2>
+<ul>
+<li aria-level="1">AkiraBot is a framework used to spam website chats and contact forms <em>en masse</em> to promote a low-quality SEO service.</li>
+<li aria-level="1">SentinelLABS assesses that AkiraBot has targeted more than 400,000 websites and successfully spammed at least 80,000 websites since September 2024.</li>
+<li aria-level="1">The bot uses OpenAI to generate custom outreach messages based on the purpose of the website.</li>
+<li aria-level="1">The framework is modular and sophisticated compared to typical spam tools, employing multiple CAPTCHA bypass mechanisms &amp; network detection evasion techniques.</li>
+</ul>
+<h2>Overview</h2>
+<p>Whenever a new form of digital communications becomes prevalent, actors inevitably adopt it for spam to try to profit from unsuspecting users. Email has been the perennial choice for spam delivery, but the prevalence of new communications platforms has expanded the spam attack surface considerably.</p>
+<p>This report explores AkiraBot, a Python framework that targets small to medium sized business website contact forms and chat widgets. AkiraBot is designed to post AI-generated spam messages tailored to the targeted website’s content that shill the services for a dubious Search Engine Optimization (SEO) network. The use of LLM-generated content likely helps these messages bypass spam filters, as the spam content is different each time a message is generated. The framework also rotates which attacker-controlled domain is supplied in the messages, further complicating spam filtering efforts.</p>
+<p>The bot creator has invested significant effort into evading CAPTCHA filters as well as avoiding network detections by relying on a proxy service generally marketed towards advertisers–though the service has had considerable interest and use by cybercriminal actors.</p>
+<p>AkiraBot is not related to the ransomware group Akira; this name was chosen due to the bot’s consistent use of domains that use “Akira” as the SEO service brand.</p>
+<h2>Script Execution and Website Feature Targeting</h2>
+<p>SentinelLABS identified several archives containing scripts related to this framework with file timestamps dating back to September 2024. The oldest archive refers to the bot as Shopbot, likely a reference to its targeting of websites using Shopify. As the tool evolved, the targeting expanded to include websites built using GoDaddy and Wix, as well as generic website contact forms, which includes websites built using Squarespace, and likely other technologies. These technologies are primarily used by small- to medium-sized businesses for their ease in enabling website development with integrations for eCommerce, website content management, and business service offerings.</p>
+<p>There are many versions of this tool with file timestamps in the archives indicating activity between September 2024 to present. Each version uses one of two hardcoded OpenAI API keys and the same proxy credentials and test sites, which links the archives despite the disparate naming conventions. We identified AkiraBot-related archives that had the following root directory names:</p>
+<ul>
+<li aria-level="1">bubble_working_clone</li>
+<li aria-level="1">fingerprints-server</li>
+<li aria-level="1">GoDaddy</li>
+<li aria-level="1">NextCaptcha and FastCaptcha</li>
+<li aria-level="1">NextCaptchaBot-v6</li>
+<li aria-level="1">override</li>
+<li aria-level="1">petar_bot</li>
+<li aria-level="1">shopbotpyv2</li>
+<li aria-level="1">SHOPIFY_SYSTEM_UPDATED</li>
+<li aria-level="1">updatedpybot</li>
+<li aria-level="1">wix</li>
+<li aria-level="1">wixbot</li>
+<li aria-level="1">WORKING_FOLDER</li>
+</ul>
+<p>Additionally, logs from the tool reveal that the operator ran it from the following paths, suggesting that they are most likely using Windows Server systems based on the Administrator username being the most prevalent:</p>
+<pre>
+ 	C:/Users/Administrator/Desktop/
+ 	C:/Users/Administrator/Downloads/
+ 	C:/Users/Usuario/Desktop/ - only appears in the archive named GoDaddy
+</pre>
+<p>Originally, AkiraBot spammed website contact forms enticing the site owner to purchase SEO services. Newer versions of AkiraBot have also targeted the Live Chat widgets integrated into many websites, including Reamaze widgets.</p>
+<figure id="attachment_117818" aria-describedby="caption-attachment-117818" style="width: 929px" class="wp-caption aligncenter"><img fetchpriority="high" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_6.jpg" alt="_submit_old_website function in v14.py" width="929" height="363" class="size-full wp-image-117818" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_6.jpg 929w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_6-300x117.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_6-768x300.jpg 768w" sizes="(max-width: 929px) 100vw, 929px" /><figcaption id="caption-attachment-117818" class="wp-caption-text"><em>_submit_old_website</em> function in <em>v14.py</em></figcaption></figure>
+<p>The bot has a GUI that shows success metrics and lets the operator choose a target list to run against. The GUI lets the operator customize how many threads are running at once, a feature the bot uses to target many sites concurrently.</p>
+<figure id="attachment_117827" aria-describedby="caption-attachment-117827" style="width: 1002px" class="wp-caption aligncenter"><img decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_18.jpg" alt="AkiraBot GUI" width="1002" height="749" class="size-full wp-image-117827" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_18.jpg 1002w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_18-300x224.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_18-768x574.jpg 768w" sizes="(max-width: 1002px) 100vw, 1002px" /><figcaption id="caption-attachment-117827" class="wp-caption-text">AkiraBot GUI</figcaption></figure>
+<h3>Spam Message Generation</h3>
+<p>Searching for websites referencing AkiraBot domains shows that the bot previously spammed websites in a way that the message was indexed by search engines.</p>
+<figure id="attachment_117836" aria-describedby="caption-attachment-117836" style="width: 669px" class="wp-caption aligncenter"><img decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_10.jpg" alt="Google search results containing useakira[.]com" width="669" height="566" class="size-full wp-image-117836" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_10.jpg 669w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_10-300x254.jpg 300w" sizes="(max-width: 669px) 100vw, 669px" /><figcaption id="caption-attachment-117836" class="wp-caption-text">Google search results containing <em>useakira[.]com</em></figcaption></figure>
+<figure id="attachment_117824" aria-describedby="caption-attachment-117824" style="width: 1208px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_20.jpg" alt="Spam comment on website from 2023 and content from AkiraBot templates.txt file" width="1208" height="578" class="size-full wp-image-117824" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_20.jpg 1208w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_20-300x144.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_20-1024x490.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_20-768x367.jpg 768w" sizes="auto, (max-width: 1208px) 100vw, 1208px" /><figcaption id="caption-attachment-117824" class="wp-caption-text">Spam comment on website from 2023 and content from AkiraBot <em>templates.txt</em> file</figcaption></figure>
+<p>AkiraBot creates custom spam messages for targeted websites by processing a template that contains a generic outline of the type of message the bot should send.</p>
+<figure id="attachment_117834" aria-describedby="caption-attachment-117834" style="width: 1038px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_12.jpg" alt="Spam message template" width="1038" height="342" class="size-full wp-image-117834" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_12.jpg 1038w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_12-300x99.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_12-1024x337.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_12-768x253.jpg 768w" sizes="auto, (max-width: 1038px) 100vw, 1038px" /><figcaption id="caption-attachment-117834" class="wp-caption-text">Spam message template</figcaption></figure>
+<p>The template is processed by a prompt sent to the OpenAI chat API to generate a customized outreach message based on the contents of the website. The OpenAI client uses model gpt-4o-mini and is assigned the role &#8220;<i>You are a helpful assistant that generates marketing messages.</i>&#8221; and the prompt instructs the LLM to replace the variables <code>&lt;WEBSITE_NAME></code> and <code>&lt;KEYWORD></code> with the site name provided at runtime.</p>
+<figure id="attachment_117832" aria-describedby="caption-attachment-117832" style="width: 1186px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_14.jpg" alt="AI Chat prompt from v10.py" width="1186" height="677" class="size-full wp-image-117832" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_14.jpg 1186w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_14-300x171.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_14-1024x585.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_14-768x438.jpg 768w" sizes="auto, (max-width: 1186px) 100vw, 1186px" /><figcaption id="caption-attachment-117832" class="wp-caption-text">AI Chat prompt from <em>v10.py</em></figcaption></figure>
+<p>The <code>&lt;KEYWORD></code> is generated by processing the <code>{context}</code> variable, which contains text scraped from the targeted website via <a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">BeautifulSoup</a>, a library that transforms raw HTML code into human–or LLM–readable text.</p>
+<figure id="attachment_117817" aria-describedby="caption-attachment-117817" style="width: 1059px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_7.jpg" alt="AkiraBot generate_message function" width="1059" height="680" class="size-full wp-image-117817" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_7.jpg 1059w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_7-300x193.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_7-1024x658.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_7-768x493.jpg 768w" sizes="auto, (max-width: 1059px) 100vw, 1059px" /><figcaption id="caption-attachment-117817" class="wp-caption-text">AkiraBot&#8217;s <em>generate_message</em> function</figcaption></figure>
+<p>The resulting message includes a brief description of the targeted website, making the message seem curated. The benefit of generating each message using an LLM is that the message content is unique and filtering against spam becomes more difficult compared to using a consistent message template which can trivially be filtered.</p>
+<figure id="attachment_117835" aria-describedby="caption-attachment-117835" style="width: 1059px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_11.jpg" alt="Logged AI-generated outreach messages in submissions.csv" width="1059" height="670" class="size-full wp-image-117835" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_11.jpg 1059w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_11-300x190.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_11-1024x648.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_11-768x486.jpg 768w" sizes="auto, (max-width: 1059px) 100vw, 1059px" /><figcaption id="caption-attachment-117835" class="wp-caption-text">Logged AI-generated outreach messages in <em>submissions.csv</em></figcaption></figure>
+<h2>CAPTCHA Bypass &amp; Network Evasion Techniques</h2>
+<h3>CAPTCHA Bypass</h3>
+<p>AkiraBot puts significant emphasis on evading CAPTCHAs so that it can spam websites at scale. The targeted CAPTCHA services include hCAPTCHA and reCAPTCHA, including Cloudflare’s hCAPTCHA service in certain versions of the tool.</p>
+<p>We identified an archive with files for CAPTCHA-related servers and browser fingerprints, which allow the bot’s web traffic to mimic a legitimate end user. The archives contain a fingerprint server that runs on the same system as the other AkiraBot tools and intercepts the website loading processes using Selenium <a href="https://www.selenium.dev/documentation/webdriver/" target="_blank" rel="noopener noreferrer">WebDriver</a>, an automation framework that simulates user browsing activity.</p>
+<p>The <code>inject.js</code> script injects code into the targeted website’s Document Object Model (DOM) which enables the tool to modify how the website loads in real time and change behaviors. <code>inject.js</code> manipulates values in the session via a headless Chrome instance that makes the session appear like an end user’s browser to the webserver. The script modifies multiple browser attributes that webservers use to identify the nature of the browser viewing the website, including:</p>
+<ul>
+<li aria-level="1">Audio Context and Voice engines, which are used to profile whether a session is headless or a real browser</li>
+<li aria-level="1">Graphics rendering, including canvas and WebGL attributes</li>
+<li aria-level="1">Installed fonts</li>
+<li aria-level="1"><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator" target="_blank" rel="noopener noreferrer">Navigator</a> objects, which provide a wealth of profiling information, such as browser type, operating system &amp; architecture, geolocation, hardware details, languages installed, and browser privacy settings</li>
+<li aria-level="1">System memory, storage, and CPU profile</li>
+<li aria-level="1">Timezone</li>
+</ul>
+<p>The bot uses several CAPTCHA bypassing services, including Capsolver, FastCaptcha, and NextCaptcha, which are failover services for when browser emulation is insufficient to interact with the targeted website.</p>
+<figure id="attachment_117819" aria-describedby="caption-attachment-117819" style="width: 1254px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_4.jpg" alt="FastCaptcha token generator function in v10.py" width="1254" height="630" class="size-full wp-image-117819" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_4.jpg 1254w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_4-300x151.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_4-1024x514.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_4-768x386.jpg 768w" sizes="auto, (max-width: 1254px) 100vw, 1254px" /><figcaption id="caption-attachment-117819" class="wp-caption-text">FastCaptcha token generator function in <em>v10.py</em></figcaption></figure>
+<p>AkiraBot also runs a headless Chrome instance to refresh values for <a href="https://support.reamaze.com/kb/automation/enable-ai-spam-filtering-for-chat-and-email-channels" target="_blank" rel="noopener noreferrer">Reamaze</a> tokens periodically. Reamaze provides websites with customer support chat integrations, making this another targeted feature. The service also offers spam filters for chats on its platform, indicating that this is a known vector for spam attacks.</p>
+<figure id="attachment_117821" aria-describedby="caption-attachment-117821" style="width: 736px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_23.jpg" alt="Reamaze token handling function" width="736" height="419" class="size-full wp-image-117821" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_23.jpg 736w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_23-300x171.jpg 300w" sizes="auto, (max-width: 736px) 100vw, 736px" /><figcaption id="caption-attachment-117821" class="wp-caption-text">Reamaze token handling function</figcaption></figure>
+<h3>Network Evasion Techniques</h3>
+<p>AkiraBot uses many different proxy hosts to evade network detections and diversify the source of where its traffic comes from. In each archive SentinelLABS analyzed, AkiraBot used the SmartProxy service. SmartProxy’s website claims that its proxies are ethically sourced and that they provide data center, mobile, and residential proxies. Each version of the bot uses the same proxy credentials, suggesting the same actor is behind each iteration.</p>
+<figure id="attachment_117826" aria-describedby="caption-attachment-117826" style="width: 649px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_19.jpg" alt="get_random_proxy function in The_NextCaptcha_Bot.py" width="649" height="288" class="size-full wp-image-117826" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_19.jpg 649w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_19-300x133.jpg 300w" sizes="auto, (max-width: 649px) 100vw, 649px" /><figcaption id="caption-attachment-117826" class="wp-caption-text"><em>get_random_proxy</em> function in <em>The_NextCaptcha_Bot.py</em></figcaption></figure>
+<p>While SmartProxy is a service that seems to operate within legal boundaries, it is worth noting that it has regularly had the attention of cybercriminals. The BlackBasta ransomware leaks referenced an exchange of SmartProxy credentials, for example.</p>
+<figure id="attachment_117828" aria-describedby="caption-attachment-117828" style="width: 1216px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_17.jpg" alt="SmartProxy credentials from BlackBasta leaks" width="1216" height="306" class="size-full wp-image-117828" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_17.jpg 1216w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_17-300x75.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_17-1024x258.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_17-768x193.jpg 768w" sizes="auto, (max-width: 1216px) 100vw, 1216px" /><figcaption id="caption-attachment-117828" class="wp-caption-text">SmartProxy credentials from BlackBasta leaks</figcaption></figure>
+<h2>Logging &amp; Success</h2>
+<p>AkiraBot logs its spam progress to <code>submissions.csv</code>, which sometimes includes the AI-generated spam message contents as well. The <code>submissions.csv</code> file from the January 2025 archives show more than 80,000 unique domains that were successfully spammed. The script also logs failed attempts in <code>failed.txt</code> and <code>failed_old.txt</code>. The January 2025 archives showed that only 11,000 domains had failed, including previous runs of the tool. We analyzed all <code>submissions.csv</code> files; deduplicating the results revealed that more than 420,000 unique domains were targeted in total.</p>
+<p>Two versions of AkiraBot used a Telegram bot for logging success metrics. The scripts <code>monitor.py</code> and <code>monitor_random.py</code> would collect success metrics from the bot and post them to a Telegram channel via API.</p>
+<figure id="attachment_117823" aria-describedby="caption-attachment-117823" style="width: 853px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_21.jpg" alt="Telegram sending functionality in monitor.py" width="853" height="403" class="size-full wp-image-117823" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_21.jpg 853w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_21-300x142.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_21-768x363.jpg 768w" sizes="auto, (max-width: 853px) 100vw, 853px" /><figcaption id="caption-attachment-117823" class="wp-caption-text">Telegram sending functionality in <em>monitor.py</em></figcaption></figure>
+<h2>Telegram Detail</h2>
+<p>The Telegram functionality, contained in the <code>monitor.py</code> and <code>monitor_random.py</code> scripts, is tied into proxy rotation and CAPTCHA defeat features contained within the bundled JavaScript file <code>script.js</code>.  The <code>monitor.py</code> script utilizes <code>pyautogui</code> to paste the contents of <code>script.js</code> into a browser developer console by scripting CTRL+SHIFT+J, followed by the paste command, eventually executing the JavaScript within the browser console.</p>
+<figure id="attachment_117837" aria-describedby="caption-attachment-117837" style="width: 337px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_1.jpg" alt="pyautogui actions in monitor.py" width="337" height="369" class="size-full wp-image-117837" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_1.jpg 337w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_1-274x300.jpg 274w" sizes="auto, (max-width: 337px) 100vw, 337px" /><figcaption id="caption-attachment-117837" class="wp-caption-text"><em>pyautogui</em> actions in <em>monitor.py</em></figcaption></figure>
+<p>The pasted and executed JavaScript is then responsible for attempting CAPTCHA refreshes and defeats on targeted URLs, reporting the status returned to a JSON file, <code>stats.json</code>. If a proxy rotation is required, to aid further in refreshing the CAPTCHA defeat attempts on a given URL, the <code>monitor.py</code> script handles this as well, rotating the used proxy though the iproxyonline service (<code>fxdx[.]in</code>).</p>
+<p>Proxy rotation is generally enabled to avoid geographic or IP-based restrictions when repeatedly attempting to refresh and defeat CAPTCHAs. The Telegram status updates specifically report on proxy rotations and CAPTCHA submissions. Some versions of these scripts have the proxy rotation section commented out, indicating that it is an optional feature.</p>
+<figure id="attachment_118102" aria-describedby="caption-attachment-118102" style="width: 702px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_22v2.jpg" alt="Telegram message submission + proxy rotation status in monitor.py" width="702" height="564" class="size-full wp-image-118102" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_22v2.jpg 702w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_22v2-300x241.jpg 300w" sizes="auto, (max-width: 702px) 100vw, 702px" /><figcaption id="caption-attachment-118102" class="wp-caption-text">Telegram message submission + proxy rotation status in <em>monitor.py</em></figcaption></figure>
+<p>All of the analyzed <code>monitor.py</code> and <code>monitor_random.py</code> scripts contain the same Telegram token and <code>chat_id</code> combination.</p>
+<figure id="attachment_118103" aria-describedby="caption-attachment-118103" style="width: 502px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_15v2.jpg" alt=" Telegram bot data in monitor.py" width="502" height="108" class="size-full wp-image-118103" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_15v2.jpg 502w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_15v2-300x65.jpg 300w" sizes="auto, (max-width: 502px) 100vw, 502px" /><figcaption id="caption-attachment-118103" class="wp-caption-text">Telegram bot data in <em>monitor.py</em></figcaption></figure>
+<p>This Telegram <code>chat_id</code> is associated with the following Telegram user data:</p>
+<pre>
+(bot) username: htscasdasdadwoobot
+Firstname: Shadow / hts
+LastName: a_zarkawi
+</pre>
+<figure id="attachment_117829" aria-describedby="caption-attachment-117829" style="width: 511px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_16.jpg" alt="HTS Telegram bot referenced in monitor.py scripts" width="511" height="239" class="size-full wp-image-117829" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_16.jpg 511w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_16-300x140.jpg 300w" sizes="auto, (max-width: 511px) 100vw, 511px" /><figcaption id="caption-attachment-117829" class="wp-caption-text">HTS Telegram bot referenced in monitor.py scripts</figcaption></figure>
+<h2>Infrastructure</h2>
+<p>The spam messages frequently rotate the domain used, likely in an attempt to avoid detection. The oldest domain in use is <code>akirateam[.]com</code>, which was registered in January 2022 on a Germany-based IP, <code>91.195.240[.]94</code>, without further updates until March 2023. The second oldest domain is <code>goservicewrap[.]com</code>, which was registered in April 2024 and resolved to <code>86.38.202[.]110</code>, a Hostinger IP in Cyprus.</p>
+<p>Several AkiraBot domains have interesting connections through historical DNS activity. The subdomain <code>mail.servicewrap-go[.]com</code> briefly shared a CNAME record pointing to <code>77980.bodis[.]com</code>, which is associated with various malicious activities, including a 2023 malvertising <a href="https://blog.sucuri.net/2023/07/malicious-injection-redirects-traffic-to-parked-domain.html" target="_blank" rel="noopener noreferrer">campaign</a>. This domain also received communications from several Windows executable files that were detected as various banking trojans.</p>
+<p>An odd relationship stood out in anchor links referencing <code>77980.bodis[.]com</code>: the website <code>unj[.]digital</code> contained anchor links from December 2024 through February 2025 pointing to <code>77980.bodis[.]com</code>. UNJ Digital&#8217;s website describes itself as a digital marketing and software development firm. The subdomain <code>smtp.unj[.]digital</code> also has a CNAME record pointing to <code>77980.bodis[.]com</code>, fortifying a connection between these hosts. While the website now highlights offering digital content services, as of late 2024 the site showed a focus on increasing marketing revenue.</p>
+<figure id="attachment_117815" aria-describedby="caption-attachment-117815" style="width: 894px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_9.jpg" alt="Screenshot of content on unj[.]digital circa October 2024" width="894" height="672" class="size-full wp-image-117815" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_9.jpg 894w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_9-300x226.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_9-768x577.jpg 768w" sizes="auto, (max-width: 894px) 100vw, 894px" /><figcaption id="caption-attachment-117815" class="wp-caption-text">Screenshot of content on <em>unj[.]digital</em> circa October 2024</figcaption></figure>
+<figure id="attachment_117833" aria-describedby="caption-attachment-117833" style="width: 894px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_13.jpg" alt="Screenshot of content on unj[.]digital circa March 2025" width="894" height="672" class="size-full wp-image-117833" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_13.jpg 894w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_13-300x226.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_13-768x577.jpg 768w" sizes="auto, (max-width: 894px) 100vw, 894px" /><figcaption id="caption-attachment-117833" class="wp-caption-text">Screenshot of content on <em>unj[.]digital</em> circa March 2025</figcaption></figure>
+<h2>Akira and ServiceWrap SEO</h2>
+<p>AkiraBot uses two distinct themes in their SEO offering domain naming conventions: <a href="https://www.trustpilot.com/review/useakira.com" target="_blank" rel="noopener noreferrer">Akira</a> and <a href="https://www.trustpilot.com/review/servicewrapgo.com" target="_blank" rel="noopener noreferrer">ServiceWrap</a>. Reviews for both services on TrustPilot are similar: many 5-star reviews with similar, potentially AI-generated contents, and the occasional 1-star review complaining that the site is either a scam or has spammed the person leaving the review.</p>
+<p>The 5-star reviews tend to follow a pattern where the reviewer has one previous review that was made 1-5 days before the Akira or ServiceWrap review. The review themes are very similar across these 5-star reviews, though the contents and structure are always unique. We believe the actor may be generating some fake reviews, though it is difficult to say with certainty.</p>
+<p><figure id="attachment_117816" aria-describedby="caption-attachment-117816" style="width: 572px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_8.jpg" alt="Trustpilot review for servicewrapgo[.]com" width="572" height="275" class="size-full wp-image-117816" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_8.jpg 572w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_8-300x144.jpg 300w" sizes="auto, (max-width: 572px) 100vw, 572px" /><figcaption id="caption-attachment-117816" class="wp-caption-text">Trustpilot review for <em>servicewrapgo[.]com</em></figcaption></figure><br />
+<figure id="attachment_117825" aria-describedby="caption-attachment-117825" style="width: 572px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_2.jpg" alt="Trustpilot review for useakira[.]com" width="572" height="507" class="size-full wp-image-117825" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_2.jpg 572w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_2-300x266.jpg 300w" sizes="auto, (max-width: 572px) 100vw, 572px" /><figcaption id="caption-attachment-117825" class="wp-caption-text">Trustpilot review for <em>useakira[.]com</em></figcaption></figure><br />
+<figure id="attachment_117820" aria-describedby="caption-attachment-117820" style="width: 572px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_3.jpg" alt="Trustpilot review for useakira[.]com" width="572" height="455" class="size-full wp-image-117820" srcset="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_3.jpg 572w, https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot_3-300x239.jpg 300w" sizes="auto, (max-width: 572px) 100vw, 572px" /><figcaption id="caption-attachment-117820" class="wp-caption-text">Trustpilot review for useakira[.]com</figcaption></figure></p>
+<h2>Conclusion</h2>
+<p>AkiraBot is a sprawling framework that has undergone multiple iterations to integrate new spamming target technologies and evade website defenses. We expect this campaign to continue to evolve as website hosting providers adapt defenses to deter spam. The author or authors have invested significant effort in this bot’s ability to bypass commonly used CAPTCHA technologies, which demonstrates that the operators are motivated to violate service provider protections.</p>
+<p>AkiraBot’s use of LLM-generated spam message content demonstrates the emerging challenges that AI poses to defending websites against spam attacks. The easiest indicators to block are the rotating set of domains used to sell the Akira and ServiceWrap SEO offerings, as there is no longer a consistent approach in the spam message contents as there were with previous campaigns selling the services of these firms.</p>
+<p>SentinelLABS thanks the OpenAI security team for their collaboration and continued efforts in deterring bad actors from abusing their services. The OpenAI team shared the following response following their investigation:</p>
+<p><em>“We&#8217;re grateful to SentinelOne for sharing their research. Distributing output from our services for spam is against our policies. The API key involved is disabled, and we’re continuing to investigate and will disable any associated assets. We take misuse seriously and are continually improving our systems to detect abuse.”</em></p>
+<h2>Indicators of Compromise</h2>
+<p><b>Akira &amp; ServiceWrap Domains</b><br />
+akirateam[.]com<br />
+beservicewrap[.]pro<br />
+firstpageprofs[.]com<br />
+getkira[.]info<br />
+go-servicewrap[.]com<br />
+gogoservicewrap[.]com<br />
+goservicewrap[.]com<br />
+joinnowkira[.]org<br />
+joinnowservicewraps[.]pro<br />
+joinservicewrap[.]com<br />
+joinuseakira[.]com<br />
+kiraone[.]info<br />
+letsgetcustomers[.]com<br />
+loveservice-wrap[.]com<br />
+mybkira[.]info<br />
+onlyforyoursite[.]com<br />
+searchengineboosters[.]com<br />
+service-wrap[.]com<br />
+servicewrap-go[.]com<br />
+servicewrap[.]pro<br />
+servicewrapgo[.]com<br />
+servicewrapone[.]com<br />
+theakirateam[.]com<br />
+toakira[.]pro<br />
+topservice-wrap[.]pro<br />
+topservicewrap[.]com<br />
+usekiara[.]com<br />
+useproakira[.]com<br />
+usethatakira[.]com<br />
+wantkiara[.]info<br />
+wearetherealpros[.]com<br />
+wejoinkir[.]vip<br />
+wethekira[.]shop<br />
+wetheservicewrap[.]pro</p>
+<p><b>AkiraBot Tool Archive SHA-1</b><br />
+09ec44b6d3555a0397142b4308825483b479bf5a<br />
+0de065d58b367ffb28ce53bc1dc023f95a6d0b89<br />
+13de9fcd4e7c36d32594924975b7ef2b91614556<br />
+2322964ea57312747ae9d1e918811201a0c86e9c<br />
+253684ea43cb0456a6fec5728e1091ff8fcb27cf<br />
+36b4e424ce8082d7606bb9f677f97c0f594f254d<br />
+3a443c72995254400da30fe203f3fbf287629969<br />
+3a7cc815b921166006f31c1065dadfeb8d5190e6<br />
+4d24dd5c166fa471554ed781180e353e6b9642b7<br />
+51ec20e5356bbebd43c03faae56fca4c3bbe318e<br />
+55affc664472c4657c8534e0508636394eac8828<br />
+5620b527dfc71e2ee7efb2e22a0441b60fd67b84<br />
+5fde3180373c420cfa5cfdea7f227a1e1fe6936c<br />
+62e66bae4b892593009d5261d898356b6d0be3ef<br />
+6b65c296d9e1cda5af2f7dab94ce8e163b2a4ca8<br />
+6c56b986893dd1de83151510f4b6260613c5fbb9<br />
+6f342ff77cd43921210d144a403b8abb1e541a8b<br />
+7129194c63ae262c814da8045879aed7a037f196<br />
+71464c4f145c9a43ade999d385a9260aabcbf66d<br />
+730192b0f62e37d4d57bae9ff14ec8671fbf051e<br />
+769aa6ab69154ca87ccba0535e0180a985c21a0c<br />
+76aab3ab0f3f16cf30d7913ff767f67a116ff1e7<br />
+853fde052316be7887474996538b31f6ac0c3963<br />
+9d43494c6f87414c67533cce5ec86754311631fc<br />
+9f6ed2427e959e92eb1699024f457d87fa7b5279<br />
+aa72065673dc543e6bf627c7479bfe8a5e42a9c4<br />
+aac26242f4209bc59c82c8f223fcf2f152ce44bc<br />
+b643a1f2c4eb436db26763d5e2527f6bebe8bcbf<br />
+bbd754e36aee4702b9f20b90d509248945add4ea<br />
+cb194612ed003eaf8d8cf6ed3731f21f3edeb161<br />
+cc63ee921c29f47612096c34d6ee3ef244b33db2<br />
+e12c6911997d7c2af5550b7e989f1dc57b6733b8<br />
+eae675812c4274502051d6f2d36348f77a8464a0<br />
+f1c7c5d0870fd0abb7e419f2c2ba8df42fa74667<br />
+f2e71c9cbc4a18482a11ca3f54f2c958973360b4<br />
+fb7fdcc2fe11e95065a0ce9041348984427ca0f4</p>
+]]></content:encoded>
+					
+		
+		
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot-ftr.jpg" length="614617" type="image/jpeg" />	</item>
+		<item>
 		<title>LABScon24 Replay &#124; A Walking Red Flag (With Yellow Stars)</title>
 		<link>https://www.sentinelone.com/labs/labscon24-replay-a-walking-red-flag-with-yellow-stars/</link>
 		
@@ -33,7 +232,7 @@
 <p>A diverse ecosystem of CTFs exists in China and it has, until now, been largely ignored. Since 2017 when the PRC government issued rules to bolster cybersecurity competitions, incorporate them into talent cultivation and training programs, and limit the amount of money to be paid out in rewards, China’s security ecosystem has launched more than 150 unique competitions. Including competitions that are held annually, the number of events since 2017 exceeds 400.</p>
 <p>Not all these competitions are software vulnerability competitions like Tianfu Cup—in fact, few are. Most are aimed at talent cultivation and recruiting, and many are hosted by the military, the intelligence services, or other arms of the state.</p>
 <p>This talk explores the diversity of China’s CTF ecosystem, its major leagues and events, and the annual number of participants across society. It highlights competitions held expressly by the Ministry of State Security and the PLA—delving into the competitions’ particulars. Defenders with appropriate CTI collection capabilities will better understand how to target their collection efforts on specific individuals in China.</p>
-<p><iframe src="https://www.youtube.com/embed/YjKsGZkYOsE" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe loading="lazy" src="https://www.youtube.com/embed/YjKsGZkYOsE" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <h2>About the Authors</h2>
 <p>Dakota Cary is a strategic advisory consultant at SentinelOne. His reports examine artificial intelligence and cybersecurity research at Chinese universities, the People’s Liberation Army’s efforts to automate software vulnerability discovery, and new policies to improve China’s cybersecurity-talent pipeline. Prior to SentinelOne, he was a research analyst at Georgetown University’s Center for Security and Emerging Technology on the CyberAI Project.</p>
 <p>Eugenio Benincasa is a Senior Cyberdefense Researcher at the Center for Security Studies (CSS) at ETH Zurich. Prior to joining CSS, Eugenio worked as a Threat Analyst at the Italian Presidency of the Council of Ministers in Rome and as a Research Fellow at the think tank Pacific Forum in Honolulu, where he focused on cybersecurity issues. He also worked as a Crime Analyst at the New York City Police Department (NYPD).</p>
@@ -59,7 +258,7 @@
 <p>In this talk, Jim Walter reveals how a recent leak from a Mallox ransomware-affiliated actor’s staging server provided insight into how Kryptina has been adapted for use in enterprise attacks.</p>
 <p>The presentation focuses on recent developments and provides an understanding of why threat actors are attracted to the Kryptina platform, and what this means in the context of victims and targeting.</p>
 <p>Jim also dissects what was included in the May 2024 Mallox leak and improvements and modifications that threat actors have made to the Kryptina platform.</p>
-<p><iframe src="https://www.youtube.com/embed/SobaTW71C-A" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe loading="lazy" src="https://www.youtube.com/embed/SobaTW71C-A" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <h2>About the Author</h2>
 <p>Jim Walter is a Senior Threat Researcher at SentinelOne focusing on evolving trends, actors, and tactics within the thriving ecosystem of cybercrime and crimeware. He specializes in the discovery and analysis of emerging cybercrime “services” and evolving communication channels leveraged by mid-level criminal organizations.</p>
 <h2>About LABScon</h2>
@@ -83,7 +282,7 @@
 										<content:encoded><![CDATA[<p>In this exclusive interview at LABScon 2024, award-winning investigative journalist Kim Zetter and Microsoft Corporate VP Enterprise and OS Security David Weston discuss Microsoft kernel security, the CrowdStrike outage, AI, and how Microsoft plans to improve the resilience and security of the Windows ecosystem.</p>
 <p>As the world&#8217;s data has increasingly become associated with Microsoft infrastructure and exposed to Microsoft products, threat actors have focused their efforts on exploiting security weaknesses in the vendor&#8217;s operating system. Weston and Zetter explore how this has led Microsoft to raise the priority of security at the engineering level, even at the expense of curtailing operating system features.</p>
 <p>In addition, the conversation ranges over how the CrowdStrike outage of 2024 led Microsoft to a new focus on resilience and to the development of a user mode API to restrict access to the kernel to third party products. Weston also discusses the need for security vendors to implement secure deployment practices to better protect customers from rogue updates and tackles questions around the use of AI and the controversial Windows Recall feature.</p>
-<p><iframe src="https://www.youtube.com/embed/7ne9e0YUrQI" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe loading="lazy" src="https://www.youtube.com/embed/7ne9e0YUrQI" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 <h2>About the Authors</h2>
 <p><a href="https://www.linkedin.com/in/dwizzzle/" target="_blank" rel="noopener noreferrer">David Weston</a> is Corporate Vice President, Enterprise and OS Security at Microsoft where he is responsible for the security engineering of Windows, Azure Linux, XBOX, Windows Server, the Azure OS as well as the Offensive Security Research &amp; Engineering Team.</p>
 <p><a href="https://www.zetter-zeroday.com/" target="_blank" rel="noopener noreferrer">Kim Zetter</a> is an award-winning investigative journalist who has covered cybersecurity and national security for more than a decade, most notably for WIRED, where she wrote for thirteen years, and more recently for the New York Times Magazine, Politico, Washington Post, Motherboard, and Yahoo News. She has been voted one of the top ten security journalists in the country by security professionals and her journalism peers.</p>
@@ -620,30 +819,5 @@ e2221e5c58a1a976e59fe1062c6db36d4951b81e &#8211; PHP file containing URL associa
 		
 		
 		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/01/martin_w_labscon24_soc.jpg" length="572656" type="image/jpeg" />	</item>
-		<item>
-		<title>LABScon24 Replay &#124; The Ransomware Trust Paradox</title>
-		<link>https://www.sentinelone.com/labs/labscon24-replay-the-ransomware-trust-paradox/</link>
-		
-		<dc:creator><![CDATA[LABScon]]></dc:creator>
-		<pubDate>Thu, 19 Dec 2024 14:00:12 +0000</pubDate>
-				<category><![CDATA[LABScon]]></category>
-		<category><![CDATA[labscon24]]></category>
-		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=110935</guid>
-
-					<description><![CDATA[Max Smeets explores how ransomware groups leverage public reporting and why we must disrupt the trust dynamic between threat actors and victims.]]></description>
-										<content:encoded><![CDATA[<p>In his Keynote talk at LABScon 24, Max Smeets explores how ransomware operators build a unique relationship between themselves and their victims. In contrast to most other threat actors, ransomware operators rely on and leverage public visibility into their activities. Unlike APTs and other threat actors that prize stealth, ransomware gangs seek to publicize their attacks in order to convince future victims that they are trustworthy enough to deliver on their promises &#8211; providing a decryptor and deleting stolen data &#8211; if paid.</p>
-<p>In &#8216;The Ransomware Trust Paradox&#8217;, Max observes that this notion of trust is not only a prerequisite for ransomware gangs&#8217; profitability but also relies on media and security vendor reporting. Detailing the mechanisms by which ransomware operators establish trust, build brand awareness, and foster a reputation for reliability, this talk is essential viewing for anyone reporting on crimeware activities.</p>
-<p>Max calls for the establishment of a reporting code of ethics for threat intelligence and the media, and a shift in policy to undermine the trust dynamics between threat actors and their victims.</p>
-<p><iframe loading="lazy" src="https://www.youtube.com/embed/Ktlz7Xfp-CE&amp;t=4s" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<h2>About the Author</h2>
-<p>Max Smeets is the author of Ransom War: How Cyber Crime Became a Threat to National Security and No Shortcuts: Why States Struggle to Develop a Military Cyber Force. Max is Co-director of <a href="https://virtual-routes.org/" target="_blank" rel="noopener noreferrer">Virtual Routes</a> and Senior Researcher at ETH Zurich.</p>
-<h2>About LABScon</h2>
-<p>This presentation was featured live at <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon</a> 2024, an immersive 3-day conference bringing together the world&#8217;s top cybersecurity minds, hosted by SentinelOne&#8217;s research arm, SentinelLabs.</p>
-<p>Keep up with all the latest on <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon 2025</a> here.</p>
-]]></content:encoded>
-					
-		
-		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2024/12/Max_Smeets_ftr.jpg" length="561135" type="image/jpeg" />	</item>
 	</channel>
 </rss>

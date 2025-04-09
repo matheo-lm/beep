@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 09 Apr 2025 10:01:52 EDT</pubDate>
+        <pubDate>Wed, 09 Apr 2025 11:04:29 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft investigates global Exchange Admin Center outage</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-global-exchange-admin-center-outage/</link>
+        <pubDate>Wed, 09 Apr 2025 10:39:13 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-global-exchange-admin-center-outage/</guid>
+	<description><![CDATA[Microsoft is investigating an ongoing outage that is blocking admins worldwide from accessing the Exchange Admin Center (EAC). [...]]]></description>
+ </item>
+
+ <item>
+        <title>Who's calling? The threat of AI-powered vishing attacks </title>
+        <link>https://www.bleepingcomputer.com/news/security/whos-calling-the-threat-of-ai-powered-vishing-attacks/</link>
+        <pubDate>Wed, 09 Apr 2025 10:07:17 -0400</pubDate>
+        <dc:creator>Sponsored by Specops Software</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/whos-calling-the-threat-of-ai-powered-vishing-attacks/</guid>
+	<description><![CDATA[AI is making voice phishing (vishing) more dangerous than ever, with scammers cloning voices in seconds to trick employees into handing over their credentials. Learn how to defend your organization with Specops Secure Service Desk. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: April 2025 updates break Windows Hello on some PCs</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2025-updates-break-windows-hello-on-some-pcs/</link>
@@ -190,22 +218,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-mirai-botnet-behind-surge-in-tvt-dvr-exploitation/</guid>
 	<description><![CDATA[A significant spike in exploitation attempts targeting TVT NVMS9000 DVRs has been detected, peaking on April 3, 2025, with over 2,500 unique IPs scanning for vulnerable devices. [...]]]></description>
- </item>
-
- <item>
-        <title>AWS rolls out ML-KEM to secure TLS from quantum threats</title>
-        <link>https://www.bleepingcomputer.com/news/security/aws-rolls-out-ml-kem-to-secure-tls-from-quantum-threats/</link>
-        <pubDate>Tue, 08 Apr 2025 10:54:53 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Cloud]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/aws-rolls-out-ml-kem-to-secure-tls-from-quantum-threats/</guid>
-	<description><![CDATA[Amazon Web Services (AWS) has added support for the ML-KEM post-quantum key encapsulation mechanism to AWS Key Management Service (KMS), AWS Certificate Manager (ACM), and AWS Secrets Manager, making TLS connections more secure. [...]]]></description>
  </item>
 
 </channel>
