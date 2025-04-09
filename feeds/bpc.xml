@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 09 Apr 2025 18:02:00 EDT</pubDate>
+        <pubDate>Wed, 09 Apr 2025 18:59:10 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 11 tests sharing apps screen and files with Copilot AI</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-tests-sharing-apps-screen-and-files-with-copilot-ai/</link>
+        <pubDate>Wed, 09 Apr 2025 18:42:47 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-tests-sharing-apps-screen-and-files-with-copilot-ai/</guid>
+	<description><![CDATA[Copilot on Windows 11 is testing OS-level integration that would allow you to share your favourite apps' screen with Copilot. [...]]]></description>
+ </item>
+
  <item>
         <title>Google takes on Cursor with Firebase Studio, its AI builder for vibe coding</title>
         <link>https://www.bleepingcomputer.com/news/google/google-takes-on-cursor-with-firebase-studio-its-ai-builder-for-vibe-coding/</link>
@@ -200,22 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-auth-issues-on-windows-server-windows-11-24h2/</guid>
 	<description><![CDATA[Microsoft has fixed a known issue causing authentication problems when Credential Guard is enabled on systems using the Kerberos PKINIT pre-auth security protocol. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Windows CLFS zero-day exploited by ransomware gang</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-windows-clfs-zero-day-exploited-by-ransomware-gang/</link>
-        <pubDate>Tue, 08 Apr 2025 15:05:17 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-windows-clfs-zero-day-exploited-by-ransomware-gang/</guid>
-	<description><![CDATA[Microsoft says the RansomEXX ransomware gang has been exploiting a high-severity zero-day flaw in the Windows Common Log File System to gain SYSTEM privileges on victims' systems. [...]]]></description>
  </item>
 
 </channel>
