@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 09 Apr 2025 15:02:09 EDT</pubDate>
+        <pubDate>Wed, 09 Apr 2025 16:00:17 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Oracle says "obsolete servers" hacked, denies cloud breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/oracle-says-obsolete-servers-hacked-denies-cloud-breach/</link>
+        <pubDate>Wed, 09 Apr 2025 15:12:51 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/oracle-says-obsolete-servers-hacked-denies-cloud-breach/</guid>
+	<description><![CDATA[Oracle finally confirmed in email notifications sent to customers that a hacker stole and leaked credentials that were stolen from what it described as "two obsolete servers." [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 April update unexpectedly creates new 'inetpub' folder</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-april-update-unexpectedly-creates-new-inetpub-folder/</link>
+        <pubDate>Wed, 09 Apr 2025 15:04:30 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-april-update-unexpectedly-creates-new-inetpub-folder/</guid>
+	<description><![CDATA[Microsoft's April 2025 Patch Tuesday updates are strangely creating an empty "inetpub" folder in the root of the C:&#092; drive, even on systems that do not have Internet Information Services (IIS) installed. [...]]]></description>
+ </item>
+
  <item>
         <title>Critical FortiSwitch flaw lets hackers change admin passwords remotely</title>
         <link>https://www.bleepingcomputer.com/news/security/critical-fortiswitch-flaw-lets-hackers-change-admin-passwords-remotely/</link>
@@ -188,36 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5055518-update-fixes-random-text-when-printing/</guid>
 	<description><![CDATA[Microsoft has released the KB5055518 cumulative update for Windows 10 22H2 and Windows 10 21H2, with nine changes or fixes. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 KB5055523 &amp; KB5055528  cumulative updates released</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5055523-and-kb5055528-cumulative-updates-released/</link>
-        <pubDate>Tue, 08 Apr 2025 13:33:08 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5055523-and-kb5055528-cumulative-updates-released/</guid>
-	<description><![CDATA[Microsoft has released Windows 11 KB5055523 and KB5055528 cumulative updates for versions 24H2 and 23H2 to fix security vulnerabilities and issues. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers lurked in Treasury OCC’s systems since June 2023 breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-lurked-in-treasury-occs-systems-since-june-2023-breach/</link>
-        <pubDate>Tue, 08 Apr 2025 13:29:23 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-lurked-in-treasury-occs-systems-since-june-2023-breach/</guid>
-	<description><![CDATA[Unknown attackers who breached the Treasury's Office of the Comptroller of the Currency (OCC) in June 2023 gained access to over 150,000 emails. [...]]]></description>
  </item>
 
 </channel>
