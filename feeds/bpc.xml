@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 09 Apr 2025 12:01:02 EDT</pubDate>
+        <pubDate>Wed, 09 Apr 2025 13:01:38 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Critical FortiSwitch flaw lets hackers change admin passwords remotely</title>
+        <link>https://www.bleepingcomputer.com/news/security/critical-fortiswitch-flaw-lets-hackers-change-admin-passwords-remotely/</link>
+        <pubDate>Wed, 09 Apr 2025 12:09:14 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critical-fortiswitch-flaw-lets-hackers-change-admin-passwords-remotely/</guid>
+	<description><![CDATA[Fortinet has released security patches for a critical vulnerability in its FortiSwitch devices that can be exploited to change administrator passwords remotely. [...]]]></description>
+ </item>
+
  <item>
         <title>CentreStack RCE exploited as zero-day to breach file sharing servers</title>
         <link>https://www.bleepingcomputer.com/news/security/centrestack-rce-exploited-as-zero-day-to-breach-file-sharing-servers/</link>
@@ -204,20 +218,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-lurked-in-treasury-occs-systems-since-june-2023-breach/</guid>
 	<description><![CDATA[Unknown attackers who breached the Treasury's Office of the Comptroller of the Currency (OCC) in June 2023 gained access to over 150,000 emails. [...]]]></description>
- </item>
-
- <item>
-        <title>WhatsApp flaw can let attackers run malicious code on Windows PCs</title>
-        <link>https://www.bleepingcomputer.com/news/security/whatsapp-flaw-can-let-attackers-run-malicious-code-on-windows-pcs/</link>
-        <pubDate>Tue, 08 Apr 2025 12:21:58 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/whatsapp-flaw-can-let-attackers-run-malicious-code-on-windows-pcs/</guid>
-	<description><![CDATA[Meta warned Windows users to update the WhatsApp messaging app to the latest version to patch a vulnerability that can let attackers execute malicious code on their devices. [...]]]></description>
  </item>
 
 </channel>
