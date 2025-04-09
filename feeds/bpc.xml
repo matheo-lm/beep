@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 09 Apr 2025 16:59:03 EDT</pubDate>
+        <pubDate>Wed, 09 Apr 2025 18:02:00 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google takes on Cursor with Firebase Studio, its AI builder for vibe coding</title>
+        <link>https://www.bleepingcomputer.com/news/google/google-takes-on-cursor-with-firebase-studio-its-ai-builder-for-vibe-coding/</link>
+        <pubDate>Wed, 09 Apr 2025 17:21:30 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/google/google-takes-on-cursor-with-firebase-studio-its-ai-builder-for-vibe-coding/</guid>
+	<description><![CDATA[Google has quietly launched Firebase Studio, which is a cloud-based AI-powered integrated development environment that lets you build full-fledged apps using prompts. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers target SSRF bugs in EC2-hosted sites to steal AWS credentials</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-target-ssrf-bugs-in-ec2-hosted-sites-to-steal-aws-credentials/</link>
@@ -200,22 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-windows-clfs-zero-day-exploited-by-ransomware-gang/</guid>
 	<description><![CDATA[Microsoft says the RansomEXX ransomware gang has been exploiting a high-severity zero-day flaw in the Windows Common Log File System to gain SYSTEM privileges on victims' systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft April 2025 Patch Tuesday fixes exploited zero-day, 134 flaws</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2025-patch-tuesday-fixes-exploited-zero-day-134-flaws/</link>
-        <pubDate>Tue, 08 Apr 2025 13:50:45 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2025-patch-tuesday-fixes-exploited-zero-day-134-flaws/</guid>
-	<description><![CDATA[Today is Microsoft's April 2025 Patch Tuesday, which includes security updates for 134 flaws, including one actively exploited zero-day vulnerability. [...]]]></description>
  </item>
 
 </channel>
