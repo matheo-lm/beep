@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Fri, 04 Apr 2025 18:01:24 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 09 Apr 2025 03:09:36 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,55 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Patch Tuesday, April 2025 Edition</title>
+		<link>https://krebsonsecurity.com/2025/04/patch-tuesday-april-2025-edition/</link>
+					<comments>https://krebsonsecurity.com/2025/04/patch-tuesday-april-2025-edition/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Wed, 09 Apr 2025 03:09:36 +0000</pubDate>
+				<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[Security Tools]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Time to Patch]]></category>
+		<category><![CDATA[Chris Goettl]]></category>
+		<category><![CDATA[CLFS]]></category>
+		<category><![CDATA[Common Log File System]]></category>
+		<category><![CDATA[CVE-2025-26671]]></category>
+		<category><![CDATA[CVE-2025-27480]]></category>
+		<category><![CDATA[CVE-2025-27482]]></category>
+		<category><![CDATA[CVE-2025-29824]]></category>
+		<category><![CDATA[Ivanti]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Satnam Narang]]></category>
+		<category><![CDATA[windows]]></category>
+		<category><![CDATA[Windows Remote Desktop Services]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70933</guid>
+
+					<description><![CDATA[Microsoft today released updates to plug at least 121 security holes in its Windows operating systems and software, including one vulnerability that is already being exploited in the wild. Eleven of those flaws earned Microsoft's most-dire "critical" rating, meaning malware or malcontents could exploit them with little to no interaction from Windows users.]]></description>
+										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today released updates to plug at least 121 security holes in its <strong>Windows</strong> operating systems and software, including one vulnerability that is already being exploited in the wild. Eleven of those flaws earned Microsoft&#8217;s most-dire &#8220;critical&#8221; rating, meaning malware or malcontents could exploit them with little to no interaction from Windows users.</p>
+<p><img decoding="async" class="aligncenter  wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="750" height="528" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<p>The zero-day flaw already seeing exploitation is <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-29824" target="_blank" rel="noopener">CVE-2025-29824</a>, a local elevation of privilege bug in the Windows <strong>Common Log File System</strong> (CLFS) driver.  Microsoft rates it as &#8220;important,&#8221; but as <strong>Chris Goettl</strong> from <strong>Ivanti</strong> points out, risk-based prioritization warrants treating it as critical.</p>
+<p>This CLFS component of Windows is no stranger to Patch Tuesday: According to Tenable&#8217;s <strong>Satnam Narang</strong>, since 2022 Microsoft has patched 32 CLFS vulnerabilities &#8212; averaging 10 per year &#8212; with six of them exploited in the wild. The <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-49138" target="_blank" rel="noopener">last CLFS zero-day</a> was <a href="https://krebsonsecurity.com/2024/12/patch-tuesday-december-2024-edition/" target="_blank" rel="noopener">patched in December 2024</a>.</p>
+<p>Narang notes that while flaws allowing attackers to install arbitrary code are consistently top overall Patch Tuesday features, the data is reversed for zero-day exploitation.</p>
+<p>&#8220;For the past two years, elevation of privilege flaws have led the pack and, so far in 2025, account for over half of all zero-days exploited,&#8221; Narang wrote.<span id="more-70933"></span></p>
+<p>Rapid7&#8217;s <strong>Adam Barnett</strong> warns that any Windows defenders responsible for an <a href="https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol" target="_blank" rel="noopener">LDAP server</a> — which means almost any organization with a non-trivial Microsoft footprint — should add <span class="il">patching</span> for the critical flaw <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-26663" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-26663&amp;source=gmail&amp;ust=1744231709116000&amp;usg=AOvVaw3moAqrbzoHqolAikc6dYLo">CVE-2025-26663</a> to their to-do list.</p>
+<p>&#8220;With no privileges required, no need for user interaction, and code execution presumably in the context of the LDAP server itself, successful exploitation would be an attractive shortcut to any attacker,&#8221; Barnett said. &#8220;Anyone wondering if today is a re-run of December 2024 <span class="il">Patch</span> <span class="il">Tuesday</span> can take some small solace in the fact that the worst of the <a href="https://www.rapid7.com/blog/post/2024/12/10/patch-tuesday-december-2024/#ldap-critical-rce" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://www.rapid7.com/blog/post/2024/12/10/patch-tuesday-december-2024/%23ldap-critical-rce&amp;source=gmail&amp;ust=1744231709116000&amp;usg=AOvVaw2C4e66FL53_LrZBhrndLUw">trio of LDAP critical RCEs published at the end of last year</a> was likely easier to exploit than today’s example, since today’s CVE-2025-26663 requires that an attacker win a race condition. Despite that, Microsoft still expects that exploitation is more likely.&#8221;</p>
+<p>Among the critical updates Microsoft patched this month are remote code execution flaws in <strong>Windows Remote Desktop </strong>services (RDP), including <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-26671" target="_blank" rel="noopener">CVE-2025-26671</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-27480" target="_blank" rel="noopener">CVE-2025-27480</a> and <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-27482" target="_blank" rel="noopener">CVE-2025-27482</a>; only the latter two are rated &#8220;critical,&#8221; and Microsoft marked both of them as “Exploitation More Likely.&#8221;</p>
+<p>Perhaps the most widespread vulnerabilities fixed this month were in web browsers. <strong>Google Chrome</strong> <a href="https://chromereleases.googleblog.com/" target="_blank" rel="noopener">updated</a> to fix 13 flaws this week, and <strong>Mozilla Firefox </strong>fixed <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2025-20/" target="_blank" rel="noopener">eight bugs</a>, with possibly more updates coming later this week for <strong>Microsoft</strong> <strong>Edge</strong>.</p>
+<p>As it tends to do on Patch Tuesdays, <strong>Adobe</strong> has <a href="https://helpx.adobe.com/security/security-bulletin.html" target="_blank" rel="noopener">released 12 updates</a> resolving 54 security holes across a range of products, including <strong>ColdFusion</strong>, <strong>Adobe Commerce</strong>, <strong>Experience Manager Forms</strong>, <strong>After Effects</strong>, <strong>Media Encoder</strong>, <strong>Bridge</strong>, <strong>Premiere Pro</strong>, <strong>Photoshop</strong>, <strong>Animate</strong>, <strong>AEM Screens</strong>, and <strong>FrameMaker</strong>.</p>
+<p><strong>Apple</strong> users may need to patch as well. On March 31, Apple released a huge security update (more than three gigabytes in size) to fix issues in a range of their products, including <a href="https://www.bleepingcomputer.com/news/security/apple-backports-zero-day-patches-to-older-iphones-and-macs/" target="_blank" rel="noopener">at least one zero-day flaw</a>.</p>
+<p>And in case you missed it, on March 31, 2025 <strong>Apple</strong> released <a href="https://support.apple.com/en-us/100100?is=1ef7934f6635b02395adcab09a0c1b24bf0ea745b648bfe87189de8aadc7300b" target="_blank" rel="noopener">a rather large batch of security updates</a> for a wide range of their products, from <strong>macOS</strong> to the<strong> iOS</strong> operating systems on <strong>iPhones</strong> and <strong>iPads</strong>.</p>
+<p>Earlier today, Microsoft included a note saying <strong>Windows 10</strong> security updates weren&#8217;t available but would be released as soon as possible. It appears from browsing <a href="https://www.askwoody.com/2025/april-2025-updates-out/" target="_blank" rel="noopener">askwoody.com</a> that this snafu has since been rectified. Either way, if you run into complications applying any of these updates please leave a note about it in the comments below, because the chances are good that someone else had the same problem.</p>
+<p>As ever, please consider backing up your data and or devices prior to updating, which makes it far less complicated to undo a software update gone awry. For more granular details on today&#8217;s Patch Tuesday, check out the <a href="https://isc.sans.edu/forums/diary/Microsoft%20April%202025%20Patch%20Tuesday/31838/">SANS Internet Storm Center&#8217;s roundup</a>. Microsoft&#8217;s update guide for April 2025 <a href="https://msrc.microsoft.com/update-guide/releaseNote/2025-Apr" target="_blank" rel="noopener">is here</a>.</p>
+<p>For more details on Patch Tuesday, check out the write-ups from <a href="https://www.action1.com/patch-tuesday/patch-tuesday-april-2025/?vyj" target="_blank" rel="noopener">Action1</a> and <a href="https://www.automox.com/blog/patch-tuesday-april-2025" target="_blank" rel="noopener">Automox</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/04/patch-tuesday-april-2025-edition/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Cyber Forensic Expert in 2,000+ Cases Faces FBI Probe</title>
 		<link>https://krebsonsecurity.com/2025/04/cyber-forensic-expert-in-2000-cases-faces-fbi-probe/</link>
 					<comments>https://krebsonsecurity.com/2025/04/cyber-forensic-expert-in-2000-cases-faces-fbi-probe/#comments</comments>
@@ -45,7 +94,7 @@
 
 					<description><![CDATA[A Minnesota cybersecurity and computer forensics expert whose testimony has featured in thousands of courtroom trials over the past 30 years is facing questions about his credentials and an inquiry from the Federal Bureau of Investigation (FBI). Legal experts say the inquiry could be grounds to reopen a number of adjudicated cases in which the expert's testimony may have been pivotal.]]></description>
 										<content:encoded><![CDATA[<p>A Minnesota cybersecurity and computer forensics expert whose testimony has featured in thousands of courtroom trials over the past 30 years is facing questions about his credentials and an inquiry from the <strong>Federal Bureau of Investigation</strong> (FBI). Legal experts say the inquiry could be grounds to reopen a number of adjudicated cases in which the expert&#8217;s testimony may have been pivotal.</p>
-<div id="attachment_70889" style="width: 827px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70889" decoding="async" class="size-full wp-image-70889" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/marklanterman-linkedin.png" alt="" width="817" height="597" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/03/marklanterman-linkedin.png 817w, https://krebsonsecurity.com/wp-content/uploads/2025/03/marklanterman-linkedin-768x561.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/03/marklanterman-linkedin-782x571.png 782w" sizes="(max-width: 817px) 100vw, 817px" /><p id="caption-attachment-70889" class="wp-caption-text">One might conclude from reading Mr. Lanterman&#8217;s LinkedIn profile that has a degree from Harvard University.</p></div>
+<div id="attachment_70889" style="width: 827px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70889" decoding="async" loading="lazy" class="size-full wp-image-70889" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/marklanterman-linkedin.png" alt="" width="817" height="597" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/03/marklanterman-linkedin.png 817w, https://krebsonsecurity.com/wp-content/uploads/2025/03/marklanterman-linkedin-768x561.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/03/marklanterman-linkedin-782x571.png 782w" sizes="(max-width: 817px) 100vw, 817px" /><p id="caption-attachment-70889" class="wp-caption-text">One might conclude from reading Mr. Lanterman&#8217;s LinkedIn profile that has a degree from Harvard University.</p></div>
 <p><strong><a href="https://www.linkedin.com/in/marklanterman" target="_blank" rel="noopener">Mark Lanterman</a></strong> is a former investigator for the U.S. Secret Service Electronics Crimes Task Force who founded the Minneapolis consulting firm <strong>Computer Forensic Services</strong> (CFS). The CFS website says Lanterman&#8217;s 30-year career has seen him testify as an expert in more than 2,000 cases, with experience in cases involving sexual harassment and workplace claims, theft of intellectual property and trade secrets, white-collar crime, and class action lawsuits.</p>
 <p>Or at least it did until last month, when Lanterman&#8217;s profile and work history were quietly removed from the CFS website. The removal came after <strong>Hennepin County Attorney&#8217;s Office</strong> <a href="https://www.hennepinattorney.org/news/news/2025/March/lanterman-disclosure" target="_blank" rel="noopener">said</a> it was notifying parties to ten pending cases that they were unable to verify Lanterman&#8217;s educational and employment background. The county attorney also said the FBI is now investigating the allegations.</p>
 <p>Those allegations were raised by <strong>Sean Harrington</strong>, an attorney and forensics examiner based in Prescott, Wisconsin. Harrington alleged that Lanterman lied under oath in court on multiple occasions when he testified that he has a Bachelor of Science and a Master&#8217;s degree in computer science from the now-defunct <strong>Upsala College</strong>, and that he completed his postgraduate work in cybersecurity at <strong>Harvard University</strong>.</p>
@@ -598,107 +647,15 @@ This story explores a slew of recent actions by the Trump administration that th
 		
 		
 			</item>
-		<item>
-		<title>Who is the DOGE and X Technician Branden Spikes?</title>
-		<link>https://krebsonsecurity.com/2025/03/who-is-the-doge-and-x-technician-branden-spikes/</link>
-					<comments>https://krebsonsecurity.com/2025/03/who-is-the-doge-and-x-technician-branden-spikes/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Fri, 07 Mar 2025 00:54:40 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Branden Spikes]]></category>
-		<category><![CDATA[California Russian Association]]></category>
-		<category><![CDATA[Congress of Russian Americans]]></category>
-		<category><![CDATA[Constellation of Humanity]]></category>
-		<category><![CDATA[Cyberinc]]></category>
-		<category><![CDATA[Department of Government Efficiency]]></category>
-		<category><![CDATA[Diana Fishman]]></category>
-		<category><![CDATA[Donald J. Trump]]></category>
-		<category><![CDATA[Elon Musk]]></category>
-		<category><![CDATA[Inc.]]></category>
-		<category><![CDATA[Ivan Y. Podvalov]]></category>
-		<category><![CDATA[Jacqueline Sweet]]></category>
-		<category><![CDATA[Maye Musk]]></category>
-		<category><![CDATA[Natalia Haldeman]]></category>
-		<category><![CDATA[Natalia Spikes]]></category>
-		<category><![CDATA[Radaris]]></category>
-		<category><![CDATA[Reeve Haldeman]]></category>
-		<category><![CDATA[Russian American Media]]></category>
-		<category><![CDATA[Russian Heritage Foundation]]></category>
-		<category><![CDATA[Russian Orthodox Church Outside of Russia]]></category>
-		<category><![CDATA[Scott Haldeman]]></category>
-		<category><![CDATA[SpaceX]]></category>
-		<category><![CDATA[Spikes Security]]></category>
-		<category><![CDATA[U.S. Digital Service]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70579</guid>
-
-					<description><![CDATA[At 49, Branden Spikes isn't just one of the oldest technologists who has been involved in Elon Musk's Department of Government Efficiency (DOGE). As the current director of information technology at X/Twitter and an early hire at PayPal, Zip2, Tesla and SpaceX, Spikes is also among Musk's most loyal employees. Here's a closer look at this trusted Musk lieutenant, whose Russian ex-wife was once married to Elon's cousin.]]></description>
-										<content:encoded><![CDATA[<p>At 49, <strong>Branden Spikes</strong> isn&#8217;t just one of the oldest technologists who has been involved in Elon Musk&#8217;s <strong>Department of Government Efficiency</strong> (DOGE). As the current director of information technology at <strong>X/Twitter</strong> and an early hire at <strong>PayPal</strong>, <strong>Zip2</strong>,<strong> Tesla</strong> and <strong>SpaceX</strong>, Spikes is also among Musk&#8217;s most loyal employees. Here&#8217;s a closer look at this trusted Musk lieutenant, whose Russian ex-wife was once married to Elon&#8217;s cousin.</p>
-<div id="attachment_70586" style="width: 601px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70586" decoding="async" loading="lazy" class="size-full wp-image-70586" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/x-spikes.png" alt="" width="591" height="533" /><p id="caption-attachment-70586" class="wp-caption-text">The profile of Branden Spikes on X.</p></div>
-<p>When President Trump took office again in January, he put the world&#8217;s richest man &#8212; Elon Musk &#8212; in charge of the <strong>U.S. Digital Service</strong>, and renamed the organization as DOGE. The group is reportedly staffed by <a href="https://www.nytimes.com/interactive/2025/02/27/us/politics/doge-staff-list.html" target="_blank" rel="noopener">at least 50 technologists</a>, many of whom have ties to Musk&#8217;s companies.</p>
-<p>DOGE has been enabling the president&#8217;s ongoing mass layoffs and firings of federal workers, largely by seizing control over computer systems and government data for a multitude of federal agencies, including the Social Security Administration, the Department of Homeland Security, the Office of Personnel Management, and the Treasury Department.</p>
-<p>It is difficult to find another person connected to DOGE who has stronger ties to Musk than Branden Spikes. A native of California, Spikes initially teamed up with Musk in 1997 as a lead systems engineer for the software company Zip2, the first major venture for Musk. In 1999, Spikes was hired as director of IT at PayPal, and in 2002 he became just the fourth person hired at SpaceX.</p>
-<p>In 2012, Spikes launched <strong>Spikes Security</strong>, a software product that sought to create a compartmentalized or &#8220;sandboxed&#8221; web browser that could insulate the user from malware attacks. A review of spikes.com in the Wayback Machine shows that as far back as 1998, Musk could be seen joining Spikes for team matches in the online games Quake and Quake II. In 2016, Spikes Security was merged with another security suite called Aurionpro, with the combined company renamed Cyberinc.</p>
-<div id="attachment_70608" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70608" decoding="async" loading="lazy" class=" wp-image-70608" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/spikesquake.png" alt="" width="748" height="682" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/03/spikesquake.png 879w, https://krebsonsecurity.com/wp-content/uploads/2025/03/spikesquake-768x700.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/03/spikesquake-782x713.png 782w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-70608" class="wp-caption-text">A snapshot of spikes.com from 1998 shows Elon Musk&#8217;s profile in Spike&#8217;s clan for the games Quake and Quake II.</p></div>
-<p>Spikes&#8217;s <a href="https://www.linkedin.com/in/brandenspikes/" target="_blank" rel="noopener">LinkedIn profile</a> says he was appointed head of IT at X in February 2025. And although his name shows up on none of the lists of DOGE employees circulated by various media outlets, multiple sources told KrebsOnSecurity that Spikes was working with DOGE and operates within Musk&#8217;s inner circle of trust.</p>
-<p>In a conversation with KrebsOnSecurity, Spikes said he is dedicated to his country and to saving it from what he sees as certain ruin.</p>
-<p>&#8220;Myself, I was raised by a southern conservative family in California and I strongly believe in America and her future,&#8221; Spikes said. &#8220;This is why I volunteered for two months in DC recently to help DOGE save us from certain bankruptcy.&#8221;</p>
-<p>Spikes told KrebsOnSecurity that he recently decided to head back home and focus on his job as director of IT at X.</p>
-<p>&#8220;I loved it, but ultimately I did not want to leave my hometown and family back in California,&#8221; Spikes said of his tenure at DOGE. &#8220;After a couple of months it became clear that to continue helping I would need to move to DC and commit a lot more time, so I politely bowed out.&#8221;</p>
-<p>Prior to founding Spikes Security, Branden Spikes was married to a native Russian woman named <strong>Natalia</strong> whom he&#8217;d met at a destination wedding in South America in 2003.</p>
-<p>Branden and Natalia&#8217;s names are both on the registration records for the domain name <strong>orangetearoom[.]com</strong>. This domain, which DomainTools.com says was originally registered by Branden in 2009, is the home of a tax-exempt charity in Los Angeles called the <a href="https://web.archive.org/web/20141221061648/http://www.russiancalifornia.org/" target="_blank" rel="noopener"><strong>California Russian Association</strong></a>.</p>
-<p>Here is a photo from a 2011 event organized by the California Russian Association, showing Branden and Natalia at one of its &#8220;White Nights&#8221; charity fundraisers:</p>
-<div id="attachment_70585" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70585" decoding="async" loading="lazy" class=" wp-image-70585" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/spikes-heritage.png" alt="" width="749" height="564" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/03/spikes-heritage.png 777w, https://krebsonsecurity.com/wp-content/uploads/2025/03/spikes-heritage-768x578.png 768w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-70585" class="wp-caption-text">Branden and Natalia Spikes, on left, in 2011. The man on the far right is Ivan Y. Podvalov, a board member of the Kremlin-aligned Congress of Russian Americans (CRA). The man in the center is Feodor Yakimoff, director of operations at the Transib Global Sourcing Group, and chairman of the Russian Imperial Charity Balls, which works in concert with the Russian Heritage Foundation.</p></div>
-<p>In 2011, the Spikes couple got divorced, and Natalia changed her last name to Haldeman. That is not her maiden name, which appears to be &#8220;Libina.&#8221; Rather, Natalia acquired the surname Haldeman in 1998, when she married Elon Musk&#8217;s cousin.</p>
-<p><strong>Reeve Haldeman</strong> is the son of <strong>Scott Haldeman</strong>, who is the brother of Elon Musk&#8217;s mother, <strong>Maye Musk</strong>. Divorce records show Reeve and Natalia <a href="https://unicourt.com/case/ca-ora2-haldeman-v-haldeman-609208" target="_blank" rel="noopener">officially terminated</a> their marriage in 2007. Reeve Haldeman did not respond to a request for comment.<span id="more-70579"></span></p>
-<p>A review of other domain names connected to Natalia Haldeman&#8217;s email address show she has registered more than a dozen domains over the years that are tied to the California Russian Association, and an apparently related entity called the <strong>Russian Heritage Foundation, Inc.</strong>:</p>
-<p>russianamericans.org<br />
-russianamericanstoday.com<br />
-russianamericanstoday.org<br />
-russiancalifornia.org<br />
-russianheritagefoundation.com<br />
-russianheritagefoundation.org<br />
-russianwhitenights.com<br />
-russianwhitenights.org<br />
-theforafoundation.org<br />
-thegoldentearoom.com<br />
-therussianheritagefoundation.org<br />
-tsarinahome.com</p>
-<p>Ms. Haldeman did not respond to requests for comment. Her name and contact information appears in the registration records for these domains dating back to 2010, and <a href="https://projects.propublica.org/nonprofits/organizations/452775704 California Russian Foundation" target="_blank" rel="noopener">a document</a> published by <em>ProPublica</em> show that by 2016 Natalia Haldeman was appointed CEO of the California Russian Foundation.</p>
-<p>The domain name that bears both Branden&#8217;s and Natalia&#8217;s names &#8212; orangetearoom.com &#8212; features photos of Ms. Haldeman at fundraising events for the Russian foundation through 2014. Additional photos of her and many of the same people can be seen through 2023 at another domain she registered in 2010 &#8212; <strong>russianheritagefoundation.com</strong>.</p>
-<div id="attachment_70630" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70630" decoding="async" loading="lazy" class=" wp-image-70630" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/haldeman-mayemusk-1.png" alt="" width="750" height="429" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/03/haldeman-mayemusk-1.png 1258w, https://krebsonsecurity.com/wp-content/uploads/2025/03/haldeman-mayemusk-1-768x439.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/03/haldeman-mayemusk-1-782x447.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-70630" class="wp-caption-text">A photo from Natalia Haldeman&#8217;s Facebook page shows her mother (left) pictured with Maye Musk, Elon Musk&#8217;s mother, in 2022.</p></div>
-<p>The photo of Branden and Natalia above is from one such event in 2011 (tied to russianwhitenights.org, another Haldeman domain). The person on the right in that image &#8212; <strong>Ivan Y. Podvalov</strong> &#8212; appears in many fundraising event photos published by the foundation over the past decade. Podvalov is a board member of the <strong>Congress of Russian Americans</strong> (CRA), a nonprofit group that is known for vehemently opposing U.S. financial and legal sanctions against Russia.</p>
-<p>Writing for <em>The Insider</em> in 2022, journalist <strong>Diana Fishman</strong> described how the CRA has engaged in outright political lobbying, noting that the organization in June 2014 sent a letter to President Obama and the secretary of the United Nations, calling for an end to the &#8220;large-scale US intervention in Ukraine and the campaign to isolate Russia.&#8221;</p>
-<p>&#8220;The US military contingents must be withdrawn immediately from the Eastern European region, and NATO&#8217;s enlargement efforts and provocative actions against Russia must cease,” the message read.</p>
-<p>The Insider said the CRA director sent another two letters, this time to President Donald Trump, in 2017 and 2018.</p>
-<p>&#8220;One was a request not to sign a law expanding sanctions against Russia,&#8221; Fishman <a href="https://theins.ru/en/politics/256825" target="_blank" rel="noopener">wrote</a>. &#8220;The other regretted the expulsion of 60 Russian diplomats from the United States and urged not to jump to conclusions on Moscow&#8217;s involvement in the poisoning of Sergei Skripal.&#8221;</p>
-<p>The nonprofit tracking website CauseIQ.com <a href="https://www.causeiq.com/organizations/russian-heritage-foundation,831537424/" target="_blank" rel="noopener">reports</a> that The Russian Heritage Foundation, Inc. is now known as <strong>Constellation of Humanity</strong>.</p>
-<p>The Russian Heritage Foundation and the California Russian Association both promote the interests of <a href="https://cepa.org/article/an-unorthodox-russian-vision-of-heaven-and-hell/" target="_blank" rel="noopener">the Russian Orthodox Church</a>. <a href="https://web.archive.org/web/20141119232054/http://www.russiancalifornia.org/russian-orthodox-church-orange-county/" target="_blank" rel="noopener">This page</a> indexed by Archive.org from russiancalifornia.org shows The California Russian Foundation organized a community effort to establish an Orthodox church in Orange County, Calif.</p>
-<p>A press release from the <strong>Russian Orthodox Church Outside of Russia</strong> (ROCOR) shows that in 2021 the Russian Heritage Foundation <a href="https://www.rocorstudies.org/2021/03/09/russian-heritage-foundation-supports-our-work/" target="_blank" rel="noopener">donated money</a> to organize a conference for the Russian Orthodox Church in Serbia.</p>
-<p>A review of the &#8220;<a href="https://orangetearoom.com/index.php/network/about-us" target="_blank" rel="noopener">Partners</a>&#8221; listed on the Spikes&#8217; jointly registered domain &#8212; orangetearoom.com &#8212; shows the organization worked with a marketing company called <strong>Russian American Media</strong>. <a href="https://krebsonsecurity.com/2024/03/a-close-up-look-at-the-consumer-data-broker-radaris/" target="_blank" rel="noopener">Reporting by KrebsOnSecurity last year</a> showed that Russian American Media also partners with the problematic people-search service <strong>Radaris</strong>, which was formed by two native Russian brothers in Massachusetts who have built a fleet of consumer data brokers and Russian affiliate programs.</p>
-<p>When asked about his ex-wife&#8217;s history, Spikes said she has a good heart and bears no ill-will toward anyone.</p>
-<p>&#8220;I attended several of Natalia&#8217;s social events over the years we were together and can assure you that she&#8217;s got the best intentions with those,&#8221; Spikes told KrebsOnSecurity. &#8220;There&#8217;s no funny business going on. It is just a way for those friendly immigrants to find resources amongst each other to help get settled in and chase the American dream. I mean, they&#8217;re not unlike the immigrants from other countries who come to America and try to find each other and help each other find others who speak the language and share in the building of their businesses here in America.&#8221;</p>
-<p>Spikes said his own family roots go back deeply into American history, sharing that his 6th great grandfather was Alexander Hamilton on his mom&#8217;s side, and Jessie James on his dad&#8217;s side.</p>
-<p>&#8220;My family roots are about as American as you can get,&#8221; he said. &#8220;I&#8217;ve also been entrusted with building and safeguarding Elon&#8217;s companies since 1999 and have a keen eye (as you do) for bad actors, so have enough perspective to tell you that Natalia has no bad blood and that she loves America.&#8221;</p>
-<p>Of course, this perspective comes from someone who has the utmost regard for the interests of the &#8220;special government employee&#8221; Mr. Musk, who has been bragging about tossing entire federal agencies into the &#8220;wood chipper,&#8221; and who recently <a href="https://apnews.com/article/musk-chainsaw-trump-doge-6568e9e0cfc42ad6cdcfd58a409eb312" target="_blank" rel="noopener">wielded an actual chainsaw</a> on stage while referring to it as the &#8220;chainsaw for bureaucracy.&#8221;</p>
-<p>&#8220;Elon&#8217;s intentions are good and you can trust him,&#8221; Spikes assured.</p>
-<p>A special note of thanks for research assistance goes to <strong>Jacqueline Sweet</strong>, an independent investigative journalist whose work has been published in The Guardian, Rolling Stone, POLITICO and The Intercept.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/03/who-is-the-doge-and-x-technician-branden-spikes/feed/</wfw:commentRss>
-			<slash:comments>58</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 271/271 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Object Caching 252/252 objects using memcached
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-04-08 22:25:02 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-04-08 23:12:13 by W3 Total Cache
 -->
