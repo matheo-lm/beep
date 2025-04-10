@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 10 Apr 2025 13:01:02 EDT</pubDate>
+        <pubDate>Thu, 10 Apr 2025 14:02:12 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft releases emergency update to fix Office 2016 crashes</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-update-to-fix-office-2016-crashes/</link>
+        <pubDate>Thu, 10 Apr 2025 13:57:07 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-update-to-fix-office-2016-crashes/</guid>
+	<description><![CDATA[​Microsoft has released an out-of-band Office update to fix a known issue that caused Word, Excel, and Outlook to crash after installing the KB5002700 security update for Office 2016. [...]]]></description>
+ </item>
+
+ <item>
+        <title>OpenAI wants ChatGPT to know you over your life with new Memory update</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-wants-chatgpt-to-know-you-over-your-life-with-new-memory-update/</link>
+        <pubDate>Thu, 10 Apr 2025 13:30:42 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-wants-chatgpt-to-know-you-over-your-life-with-new-memory-update/</guid>
+	<description><![CDATA[OpenAI is giving ChatGPT's memory feature its biggest upgrade yet, allowing the AI to know you better by referencing all your past conversations. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: Licensing issue blocks Microsoft 365 Family for some users</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-licensing-issue-blocks-microsoft-365-family-for-some-users/</link>
@@ -192,34 +222,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/critical-fortiswitch-flaw-lets-hackers-change-admin-passwords-remotely/</guid>
 	<description><![CDATA[Fortinet has released security patches for a critical vulnerability in its FortiSwitch devices that can be exploited to change administrator passwords remotely. [...]]]></description>
- </item>
-
- <item>
-        <title>CentreStack RCE exploited as zero-day to breach file sharing servers</title>
-        <link>https://www.bleepingcomputer.com/news/security/centrestack-rce-exploited-as-zero-day-to-breach-file-sharing-servers/</link>
-        <pubDate>Wed, 09 Apr 2025 11:38:30 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/centrestack-rce-exploited-as-zero-day-to-breach-file-sharing-servers/</guid>
-	<description><![CDATA[Hackers exploited a vulnerability in Gladinet CentreStack's secure file-sharing software as a zero-day since March to breach storage servers [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft investigates global Exchange Admin Center outage</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-global-exchange-admin-center-outage/</link>
-        <pubDate>Wed, 09 Apr 2025 10:39:13 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-global-exchange-admin-center-outage/</guid>
-	<description><![CDATA[Microsoft is investigating an ongoing outage that is blocking admins worldwide from accessing the Exchange Admin Center (EAC). [...]]]></description>
  </item>
 
 </channel>
