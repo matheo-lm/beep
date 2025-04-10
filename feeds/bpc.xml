@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 10 Apr 2025 15:02:25 EDT</pubDate>
+        <pubDate>Thu, 10 Apr 2025 16:01:37 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers exploit WordPress plugin auth bypass hours after disclosure</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-wordpress-plugin-auth-bypass-hours-after-disclosure/</link>
+        <pubDate>Thu, 10 Apr 2025 15:11:22 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-wordpress-plugin-auth-bypass-hours-after-disclosure/</guid>
+	<description><![CDATA[Hackers started exploiting a high-severity flaw that allows bypassing authentication in the OttoKit (formerly SureTriggers) plugin for WordPress just hours after public disclosure. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft releases emergency update to fix Office 2016 crashes</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-update-to-fix-office-2016-crashes/</link>
@@ -194,34 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/oracle-says-obsolete-servers-hacked-denies-cloud-breach/</guid>
 	<description><![CDATA[Oracle finally confirmed in email notifications sent to customers that a hacker stole and leaked credentials that were stolen from what it described as "two obsolete servers." [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 April update unexpectedly creates new 'inetpub' folder</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-april-update-unexpectedly-creates-new-inetpub-folder/</link>
-        <pubDate>Wed, 09 Apr 2025 15:04:30 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-april-update-unexpectedly-creates-new-inetpub-folder/</guid>
-	<description><![CDATA[Microsoft's April 2025 Patch Tuesday updates are strangely creating an empty "inetpub" folder in the root of the C:&#092; drive, even on systems that do not have Internet Information Services (IIS) installed. [...]]]></description>
- </item>
-
- <item>
-        <title>Critical FortiSwitch flaw lets hackers change admin passwords remotely</title>
-        <link>https://www.bleepingcomputer.com/news/security/critical-fortiswitch-flaw-lets-hackers-change-admin-passwords-remotely/</link>
-        <pubDate>Wed, 09 Apr 2025 12:09:14 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/critical-fortiswitch-flaw-lets-hackers-change-admin-passwords-remotely/</guid>
-	<description><![CDATA[Fortinet has released security patches for a critical vulnerability in its FortiSwitch devices that can be exploited to change administrator passwords remotely. [...]]]></description>
  </item>
 
 </channel>
