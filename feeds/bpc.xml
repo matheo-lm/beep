@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 10 Apr 2025 09:06:33 EDT</pubDate>
+        <pubDate>Thu, 10 Apr 2025 09:58:52 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Sensata Technologies hit by ransomware attack impacting operations</title>
+        <link>https://www.bleepingcomputer.com/news/security/sensata-technologies-hit-by-ransomware-attack-impacting-operations/</link>
+        <pubDate>Thu, 10 Apr 2025 09:23:34 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sensata-technologies-hit-by-ransomware-attack-impacting-operations/</guid>
+	<description><![CDATA[Sensata Technologies (known as Sensata) has suffered a ransomware attack last weekend that encrypted parts of the company network and disrupted operations. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Flipper Zero maker unveils ‘Busy Bar,’ a new ADHD productivity tool</title>
+        <link>https://www.bleepingcomputer.com/news/technology/flipper-zero-maker-unveils-busy-bar-a-new-adhd-productivity-tool/</link>
+        <pubDate>Thu, 10 Apr 2025 09:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Technology]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/technology/flipper-zero-maker-unveils-busy-bar-a-new-adhd-productivity-tool/</guid>
+	<description><![CDATA[Flipper Devices, the company behind the popular Flipper Zero, has launched an open-source productivity tool called Busy Bar, designed to help reduce distractions for people with ADHD. [...]]]></description>
+ </item>
+
  <item>
         <title>ChatGPT's o4-mini, o4-mini-high and o3 spotted ahead of release</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-o4-mini-o4-mini-high-and-o3-spotted-ahead-of-release/</link>
@@ -188,36 +218,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/phishing-kits-now-vet-victims-in-real-time-before-stealing-credentials/</guid>
 	<description><![CDATA[Phishing actors are employing a new evasion tactic called  'Precision-Validated Phishing' that only shows fake login forms when a user enters an email address that the threat actors specifically targeted. [...]]]></description>
- </item>
-
- <item>
-        <title>Police detains Smokeloader malware customers, seizes servers</title>
-        <link>https://www.bleepingcomputer.com/news/security/police-detains-smokeloader-malware-customers-seizes-servers/</link>
-        <pubDate>Wed, 09 Apr 2025 09:33:56 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/police-detains-smokeloader-malware-customers-seizes-servers/</guid>
-	<description><![CDATA[In follow-up activity for Operation Endgame, law enforcement tracked down Smokeloader botnet's customers and detained at least five individuals. [...]]]></description>
- </item>
-
- <item>
-        <title>Fake Microsoft Office add-in tools push malware via SourceForge</title>
-        <link>https://www.bleepingcomputer.com/news/security/fake-microsoft-office-add-in-tools-push-malware-via-sourceforge/</link>
-        <pubDate>Tue, 08 Apr 2025 16:53:33 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fake-microsoft-office-add-in-tools-push-malware-via-sourceforge/</guid>
-	<description><![CDATA[Threat actors are abusing SourceForge to distribute fake Microsoft add-ins that install malware on victims' computers to both mine and steal cryptocurrency. [...]]]></description>
  </item>
 
 </channel>
