@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Thu, 10 Apr 2025 15:31:58 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Apr 2025 16:06:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,7 @@
 	<item>
 		<title>China-based SMS Phishing Triad Pivots to Banks</title>
 		<link>https://krebsonsecurity.com/2025/04/china-based-sms-phishing-triad-pivots-to-banks/</link>
-					<comments>https://krebsonsecurity.com/2025/04/china-based-sms-phishing-triad-pivots-to-banks/#respond</comments>
+					<comments>https://krebsonsecurity.com/2025/04/china-based-sms-phishing-triad-pivots-to-banks/#comments</comments>
 		
 		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
 		<pubDate>Thu, 10 Apr 2025 15:31:58 +0000</pubDate>
@@ -57,7 +57,7 @@
 <div id="attachment_70947" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70947" decoding="async" class=" wp-image-70947" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/wall-o-phones.png" alt="" width="750" height="762" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/wall-o-phones.png 868w, https://krebsonsecurity.com/wp-content/uploads/2025/04/wall-o-phones-768x780.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/wall-o-phones-782x794.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-70947" class="wp-caption-text">An image of an iPhone device farm shared on Telegram by one of the Smishing Triad members. Image: Prodaft.</p></div>
 <p>If you own a mobile device, the chances are excellent that at some point in the past two years you&#8217;ve received at least one instant message that warns of a delinquent toll road fee, or a wayward package from the <strong>U.S. Postal Service </strong>(USPS). Those who click the promoted link are brought to a website that spoofs the USPS or a local toll road operator and asks for payment card information.</p>
 <p>The site will then complain that the visitor&#8217;s bank needs to &#8220;verify&#8221; the transaction by sending a one-time code via SMS. In reality, the bank is sending that code to the mobile number on file for their customer because the fraudsters have just attempted to enroll that victim&#8217;s card details into a mobile wallet.</p>
-<p>If the visitor supplies that one-time code, their payment card is then added to a new mobile wallet on an Apple or Google device that is physically controlled by the phishers. The phishing gangs typically load <a href="https://krebsonsecurity.com/wp-content/uploads/2025/02/phishingphones.png" target="_blank" rel="noopener">multiple stolen digital wallets onto a single Apple or Android device</a>, and then sell those phones in bulk to scammers who use them for fraudulent e-commerce and tap-to-pay transactions.</p>
+<p>If the visitor supplies that one-time code, their payment card is then added to a new mobile wallet on an Apple or Google device that is physically controlled by the phishers. The phishing gangs typically load <a href="https://krebsonsecurity.com/wp-content/uploads/2025/02/phishingphones.png" target="_blank" rel="noopener">multiple stolen cards to digital wallets on a single Apple or Android device</a>, and then sell those phones in bulk to scammers who use them for fraudulent e-commerce and tap-to-pay transactions.</p>
 <div id="attachment_70953" style="width: 759px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/04/mobwalletimage.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-70953" decoding="async" loading="lazy" class="wp-image-70953" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/mobwalletimage.png" alt="" width="749" height="396" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/mobwalletimage.png 1322w, https://krebsonsecurity.com/wp-content/uploads/2025/04/mobwalletimage-768x405.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/mobwalletimage-782x413.png 782w, https://krebsonsecurity.com/wp-content/uploads/2025/04/mobwalletimage-267x140.png 267w" sizes="(max-width: 749px) 100vw, 749px" /></a><p id="caption-attachment-70953" class="wp-caption-text">A screenshot of the administrative panel for a smishing kit. On the left is the (test) data entered at the phishing site. On the right we can see the phishing kit has superimposed the supplied card number onto an image of a payment card. When the phishing kit scans that created card image into Apple or Google Pay, it triggers the victim&#8217;s bank to send a one-time code. Image: Ford Merrill.</p></div>
 <p>The moniker &#8220;Smishing Triad&#8221; comes from <strong>Resecurity</strong>, which was among <a href="https://www.resecurity.com/blog/article/smishing-triad-targeted-usps-and-us-citizens-for-data-theft" target="_blank" rel="noopener">the first to report in August 2023</a> on the emergence of three distinct mobile phishing groups based in China that appeared to share some infrastructure and innovative phishing techniques. But it is a bit of a misnomer because the phishing lures blasted out by these groups are not SMS or text messages in the conventional sense.</p>
 <p>Rather, they are sent via <strong>iMessage</strong> to <strong>Apple</strong> device users, and via RCS on <strong>Google Android</strong> devices. Thus, the missives bypass the mobile phone networks entirely and enjoy near 100 percent delivery rate (at least until Apple and Google suspend the spammy accounts).</p>
@@ -89,7 +89,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/04/china-based-sms-phishing-triad-pivots-to-banks/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>1</slash:comments>
 		
 		
 			</item>
@@ -679,5 +679,5 @@ Object Caching 266/266 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-04-10 12:00:04 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-04-10 13:00:11 by W3 Total Cache
 -->
