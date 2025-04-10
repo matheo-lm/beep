@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 10 Apr 2025 09:58:52 EDT</pubDate>
+        <pubDate>Thu, 10 Apr 2025 10:59:19 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Claude copies ChatGPT with $200 Max plan, but users aren't happy</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-copies-chatgpt-with-200-max-plan-but-users-arent-happy/</link>
+        <pubDate>Thu, 10 Apr 2025 10:36:23 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-copies-chatgpt-with-200-max-plan-but-users-arent-happy/</guid>
+	<description><![CDATA[Claude has a new subscription tier called "MAX," but it costs a whopping $200 per month, and users aren't happy with how the company enforces rate limits. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Russian hackers attack Western military mission using malicious drive</title>
+        <link>https://www.bleepingcomputer.com/news/security/russian-hackers-attack-western-military-mission-using-malicious-drive/</link>
+        <pubDate>Thu, 10 Apr 2025 10:23:04 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/russian-hackers-attack-western-military-mission-using-malicious-drive/</guid>
+	<description><![CDATA[The Russian state-backed hacking group Gamaredon (aka "Shuckworm") has been targeting a military mission of a Western country in Ukraine in attacks likely deployed from removable drives. [...]]]></description>
+ </item>
+
  <item>
         <title>Sensata Technologies hit by ransomware attack impacting operations</title>
         <link>https://www.bleepingcomputer.com/news/security/sensata-technologies-hit-by-ransomware-attack-impacting-operations/</link>
@@ -190,34 +220,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/whos-calling-the-threat-of-ai-powered-vishing-attacks/</guid>
 	<description><![CDATA[AI is making voice phishing (vishing) more dangerous than ever, with scammers cloning voices in seconds to trick employees into handing over their credentials. Learn how to defend your organization with Specops Secure Service Desk. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: April 2025 updates break Windows Hello on some PCs</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2025-updates-break-windows-hello-on-some-pcs/</link>
-        <pubDate>Wed, 09 Apr 2025 10:01:49 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2025-updates-break-windows-hello-on-some-pcs/</guid>
-	<description><![CDATA[Microsoft says some Windows users might be unable to log into their accounts via Windows Hello after installing the April 2025 security updates. [...]]]></description>
- </item>
-
- <item>
-        <title>Phishing kits now vet victims in real-time before stealing credentials</title>
-        <link>https://www.bleepingcomputer.com/news/security/phishing-kits-now-vet-victims-in-real-time-before-stealing-credentials/</link>
-        <pubDate>Wed, 09 Apr 2025 09:49:33 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/phishing-kits-now-vet-victims-in-real-time-before-stealing-credentials/</guid>
-	<description><![CDATA[Phishing actors are employing a new evasion tactic called  'Precision-Validated Phishing' that only shows fake login forms when a user enters an email address that the threat actors specifically targeted. [...]]]></description>
  </item>
 
 </channel>
