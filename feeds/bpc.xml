@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 11 Apr 2025 11:59:06 EDT</pubDate>
+        <pubDate>Fri, 11 Apr 2025 13:00:03 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Western Sydney University discloses security breaches, data leak</title>
+        <link>https://www.bleepingcomputer.com/news/security/western-sydney-university-discloses-security-breaches-data-leak/</link>
+        <pubDate>Fri, 11 Apr 2025 12:29:52 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Education]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/western-sydney-university-discloses-security-breaches-data-leak/</guid>
+	<description><![CDATA[Western Sydney University (WSU) announced two security incidents that exposed personal information belonging to members of its community. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Fortinet: Hackers retain access to patched FortiGate VPNs using symlinks</title>
+        <link>https://www.bleepingcomputer.com/news/security/fortinet-hackers-retain-access-to-patched-fortigate-vpns-using-symlinks/</link>
+        <pubDate>Fri, 11 Apr 2025 12:08:54 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fortinet-hackers-retain-access-to-patched-fortigate-vpns-using-symlinks/</guid>
+	<description><![CDATA[Fortinet warns that threat actors use a post-exploitation technique that helps them maintain read-only access to previously compromised FortiGate VPN devices even after the original attack vector was patched. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: Windows 'inetpub' folder created by security fix, don’t delete</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-windows-inetpub-folder-created-by-security-fix-dont-delete/</link>
@@ -180,36 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/russian-hackers-attack-western-military-mission-using-malicious-drive/</guid>
 	<description><![CDATA[The Russian state-backed hacking group Gamaredon (aka "Shuckworm") has been targeting a military mission of a Western country in Ukraine in attacks likely deployed from removable drives. [...]]]></description>
- </item>
-
- <item>
-        <title>Sensata Technologies hit by ransomware attack impacting operations</title>
-        <link>https://www.bleepingcomputer.com/news/security/sensata-technologies-hit-by-ransomware-attack-impacting-operations/</link>
-        <pubDate>Thu, 10 Apr 2025 09:23:34 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sensata-technologies-hit-by-ransomware-attack-impacting-operations/</guid>
-	<description><![CDATA[Sensata Technologies (known as Sensata) has suffered a ransomware attack last weekend that encrypted parts of the company network and disrupted operations. [...]]]></description>
- </item>
-
- <item>
-        <title>Flipper Zero maker unveils ‘Busy Bar,’ a new ADHD productivity tool</title>
-        <link>https://www.bleepingcomputer.com/news/technology/flipper-zero-maker-unveils-busy-bar-a-new-adhd-productivity-tool/</link>
-        <pubDate>Thu, 10 Apr 2025 09:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Technology]]></category>
-
-        <category><![CDATA[Hardware]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/technology/flipper-zero-maker-unveils-busy-bar-a-new-adhd-productivity-tool/</guid>
-	<description><![CDATA[Flipper Devices, the company behind the popular Flipper Zero, has launched an open-source productivity tool called Busy Bar, designed to help reduce distractions for people with ADHD. [...]]]></description>
  </item>
 
 </channel>
