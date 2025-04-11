@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 11 Apr 2025 14:59:19 EDT</pubDate>
+        <pubDate>Fri, 11 Apr 2025 16:01:44 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft Defender will isolate undiscovered endpoints to block attacks</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-will-isolate-undiscovered-endpoints-to-block-attacks/</link>
+        <pubDate>Fri, 11 Apr 2025 15:13:45 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-will-isolate-undiscovered-endpoints-to-block-attacks/</guid>
+	<description><![CDATA[Microsoft is testing a new Defender for Endpoint capability that will block traffic to and from undiscovered endpoints to thwart attackers' lateral network movement attempts. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft starts final Windows Recall testing before rollout</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-final-windows-recall-testing-before-rollout/</link>
@@ -194,22 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-licensing-issue-blocks-microsoft-365-family-for-some-users/</guid>
 	<description><![CDATA[Microsoft is investigating a potential licensing issue blocking access to Microsoft 365 services for some customers with Family subscriptions. [...]]]></description>
- </item>
-
- <item>
-        <title>Claude copies ChatGPT with $200 Max plan, but users aren't happy</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-copies-chatgpt-with-200-max-plan-but-users-arent-happy/</link>
-        <pubDate>Thu, 10 Apr 2025 10:36:23 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-copies-chatgpt-with-200-max-plan-but-users-arent-happy/</guid>
-	<description><![CDATA[Claude has a new subscription tier called "MAX," but it costs a whopping $200 per month, and users aren't happy with how the company enforces rate limits. [...]]]></description>
  </item>
 
 </channel>
