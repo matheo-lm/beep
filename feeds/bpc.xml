@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 11 Apr 2025 08:04:41 EDT</pubDate>
+        <pubDate>Fri, 11 Apr 2025 09:07:43 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft Edge is now up to 9% faster</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-is-now-up-to-9-percent-faster/</link>
+        <pubDate>Fri, 11 Apr 2025 09:07:38 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-is-now-up-to-9-percent-faster/</guid>
+	<description><![CDATA[The Chromium-based Microsoft Edge has seen up to 9% performance improvements following the release of version 134. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Ransomware attack cost IKEA operator in Eastern Europe  $23 million</title>
+        <link>https://www.bleepingcomputer.com/news/security/ransomware-attack-cost-ikea-operator-in-eastern-europe-23-million/</link>
+        <pubDate>Fri, 11 Apr 2025 08:24:37 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ransomware-attack-cost-ikea-operator-in-eastern-europe-23-million/</guid>
+	<description><![CDATA[Fourlis Group, the operator of IKEA stores in Greece, Cyprus, Romania, and Bulgaria, has informed that the ransomware attack it suffered just before Black Friday on November 27, 2024, caused losses estimated to €20 million ($22.8M). [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers exploit WordPress plugin auth bypass hours after disclosure</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-wordpress-plugin-auth-bypass-hours-after-disclosure/</link>
@@ -164,50 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-tests-sharing-apps-screen-and-files-with-copilot-ai/</guid>
 	<description><![CDATA[Copilot on Windows 11 is testing OS-level integration that would allow you to share your favourite apps' screen with Copilot. [...]]]></description>
- </item>
-
- <item>
-        <title>Google takes on Cursor with Firebase Studio, its AI builder for vibe coding</title>
-        <link>https://www.bleepingcomputer.com/news/google/google-takes-on-cursor-with-firebase-studio-its-ai-builder-for-vibe-coding/</link>
-        <pubDate>Wed, 09 Apr 2025 17:21:30 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/google/google-takes-on-cursor-with-firebase-studio-its-ai-builder-for-vibe-coding/</guid>
-	<description><![CDATA[Google has quietly launched Firebase Studio, which is a cloud-based AI-powered integrated development environment that lets you build full-fledged apps using prompts. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers target SSRF bugs in EC2-hosted sites to steal AWS credentials</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-target-ssrf-bugs-in-ec2-hosted-sites-to-steal-aws-credentials/</link>
-        <pubDate>Wed, 09 Apr 2025 16:58:59 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-target-ssrf-bugs-in-ec2-hosted-sites-to-steal-aws-credentials/</guid>
-	<description><![CDATA[A targeted campaign exploited Server-Side Request Forgery (SSRF) vulnerabilities in websites hosted on AWS EC2 instances to extract EC2 Metadata, which could include Identity and Access Management (IAM) credentials from the IMDSv1 endpoint. [...]]]></description>
- </item>
-
- <item>
-        <title>Oracle says "obsolete servers" hacked, denies cloud breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/oracle-says-obsolete-servers-hacked-denies-cloud-breach/</link>
-        <pubDate>Wed, 09 Apr 2025 15:12:51 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/oracle-says-obsolete-servers-hacked-denies-cloud-breach/</guid>
-	<description><![CDATA[Oracle finally confirmed in email notifications sent to customers that a hacker stole and leaked credentials that were stolen from what it described as "two obsolete servers." [...]]]></description>
  </item>
 
 </channel>
