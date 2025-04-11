@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description></description>
-	<lastBuildDate>Thu, 10 Apr 2025 20:01:32 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 11 Apr 2025 02:12:17 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,60 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>No need to hack when it&#8217;s leaking: SavantCare edition</title>
+		<link>https://databreaches.net/2025/04/11/no-need-to-hack-when-its-leaking-savantcare-edition/</link>
+					<comments>https://databreaches.net/2025/04/11/no-need-to-hack-when-its-leaking-savantcare-edition/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Fri, 11 Apr 2025 10:39:35 +0000</pubDate>
+				<category><![CDATA[Exposure]]></category>
+		<category><![CDATA[Health Data]]></category>
+		<category><![CDATA[HIPAA]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=121185</guid>
+
+					<description><![CDATA[Today&#8217;s concerning leak is brought to you by SavantCare. The leak was discovered by an independent researcher who first reported it on his blog yesterday. In his report, @JayeLTee states that he found exposed data that included data from SavantCare employee chats.  &#8220;Over two-thirds of the 308 users on the chat were for SavantCare, a...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/04/11/no-need-to-hack-when-its-leaking-savantcare-edition/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>In Secret Meeting, China Acknowledged Role in U.S. Infrastructure Hacks</title>
+		<link>https://databreaches.net/2025/04/11/in-secret-meeting-china-acknowledged-role-in-u-s-infrastructure-hacks/</link>
+					<comments>https://databreaches.net/2025/04/11/in-secret-meeting-china-acknowledged-role-in-u-s-infrastructure-hacks/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Fri, 11 Apr 2025 10:38:00 +0000</pubDate>
+				<category><![CDATA[cyberwar]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=121240</guid>
+
+					<description><![CDATA[Dustin Volz reports: Chinese officials acknowledged in a secret December meeting that Beijing was behind a widespread series of alarming cyberattacks on U.S. infrastructure, according to people familiar with the matter, underscoring how hostilities between the two superpowers are continuing to escalate. The Chinese delegation linked years of intrusions into computer networks at U.S. ports,...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/04/11/in-secret-meeting-china-acknowledged-role-in-u-s-infrastructure-hacks/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Preservation notice sent to Radford University in widening data leak case</title>
+		<link>https://databreaches.net/2025/04/11/preservation-notice-sent-to-radford-university-in-widening-data-leak-case/</link>
+					<comments>https://databreaches.net/2025/04/11/preservation-notice-sent-to-radford-university-in-widening-data-leak-case/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Fri, 11 Apr 2025 10:37:31 +0000</pubDate>
+				<category><![CDATA[Education Sector]]></category>
+		<category><![CDATA[Insider]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=121243</guid>
+
+					<description><![CDATA[Thomas Mundy reports: Attorneys have sent a preservation notice to Radford University leaders to preserve all relevant evidence regarding a possible data breach involving former students. Former Michigan assistant football coach Matt Weiss has been federally indicted after prosecutors accused him of hacking into private accounts of student-athletes to access potentially compromising images. “When it...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/04/11/preservation-notice-sent-to-radford-university-in-widening-data-leak-case/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Physicians&#8217; billing and revenue management firm hit by LockBit</title>
 		<link>https://databreaches.net/2025/04/10/physicians-billing-and-revenue-management-firm-hit-by-lockbit/</link>
 					<comments>https://databreaches.net/2025/04/10/physicians-billing-and-revenue-management-firm-hit-by-lockbit/#respond</comments>
@@ -148,60 +202,6 @@
 		
 					<wfw:commentRss>https://databreaches.net/2025/04/09/oracles-statement-to-customers-is-still-raising-questions-about-its-disclosure-and-transparency/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>CISA, experts warn of Crush file transfer attacks after a controversial disclosure</title>
-		<link>https://databreaches.net/2025/04/09/cisa-experts-warn-of-crush-file-transfer-attacks-after-a-controversial-disclosure/</link>
-					<comments>https://databreaches.net/2025/04/09/cisa-experts-warn-of-crush-file-transfer-attacks-after-a-controversial-disclosure/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Wed, 09 Apr 2025 14:57:22 +0000</pubDate>
-				<category><![CDATA[Commentaries and Analyses]]></category>
-		<category><![CDATA[Of Note]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=121193</guid>
-
-					<description><![CDATA[Jonathan Greig reports on another vulnerability affecting file transfer software that has been exploited soon after disclosure. In this case, though, there&#8217;s some contentious statements about responsible disclosure or lack thereof. Federal cybersecurity officials as well as incident responders at cyber companies say hackers are exploiting a vulnerability within the popular file transfer tool Crush....]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/04/09/cisa-experts-warn-of-crush-file-transfer-attacks-after-a-controversial-disclosure/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>MrBeast sues former employee for stealing confidential files and installing hidden cameras in company offices</title>
-		<link>https://databreaches.net/2025/04/09/mrbeast-sues-former-employee-for-stealing-confidential-files-and-installing-hidden-cameras-in-company-offices/</link>
-					<comments>https://databreaches.net/2025/04/09/mrbeast-sues-former-employee-for-stealing-confidential-files-and-installing-hidden-cameras-in-company-offices/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Wed, 09 Apr 2025 14:56:56 +0000</pubDate>
-				<category><![CDATA[Business Sector]]></category>
-		<category><![CDATA[Insider]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=121191</guid>
-
-					<description><![CDATA[Yet another reminder of the insider threat. As seen in The Express Tribune: YouTube superstar Jimmy “MrBeast” Donaldson has filed a lawsuit against former employee Leroy Nabors, alleging theft of confidential company data and unauthorized surveillance. As reported by Dexerto, the legal complaint accuses Nabors of misappropriating trade secrets, breaching his employment contract, and secretly recording...]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/04/09/mrbeast-sues-former-employee-for-stealing-confidential-files-and-installing-hidden-cameras-in-company-offices/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Fall River schools chief: No insurance for cyberattack; says computer system remains down</title>
-		<link>https://databreaches.net/2025/04/09/fall-river-schools-chief-no-insurance-for-cyberattack-says-computer-system-remains-down/</link>
-					<comments>https://databreaches.net/2025/04/09/fall-river-schools-chief-no-insurance-for-cyberattack-says-computer-system-remains-down/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Wed, 09 Apr 2025 14:56:50 +0000</pubDate>
-				<category><![CDATA[Education Sector]]></category>
-		<category><![CDATA[Hack]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=121195</guid>
-
-					<description><![CDATA[Dan Medeiros and Emily Scherny report: The city&#8217;s public school computers will be down for the rest of the week after a cybersecurity attack infiltrated the district&#8217;s internal system — and a solution may cost the School Department out of pocket. At a joint meeting of the School Committee and City Council on Tuesday afternoon, Superintendent Tracy...]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/04/09/fall-river-schools-chief-no-insurance-for-cyberattack-says-computer-system-remains-down/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
