@@ -11,11 +11,55 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 12 Apr 2025 11:58:52 EDT</pubDate>
+        <pubDate>Sat, 12 Apr 2025 13:00:54 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Leak confirms OpenAI's GPT 4.1 is coming before GPT 5.0</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openais-gpt-41-is-coming-before-gpt-50/</link>
+        <pubDate>Sat, 12 Apr 2025 12:09:43 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openais-gpt-41-is-coming-before-gpt-50/</guid>
+	<description><![CDATA[OpenAI is working on yet another AI model, reportedly called GPT-4.1, a successor to GPT-4o. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Tycoon2FA phishing kit targets Microsoft 365 with new tricks</title>
+        <link>https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-kit-targets-microsoft-365-with-new-tricks/</link>
+        <pubDate>Sat, 12 Apr 2025 11:16:27 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-kit-targets-microsoft-365-with-new-tricks/</guid>
+	<description><![CDATA[Phishing-as-a-service (PhaaS) platform Tycoon2FA, known for bypassing multi-factor authentication on Microsoft 365 and Gmail accounts, has received updates that improve its stealth and evasion capabilities. [...]]]></description>
+ </item>
+
+ <item>
+        <title>AI-hallucinated code dependencies become new supply chain risk</title>
+        <link>https://www.bleepingcomputer.com/news/security/ai-hallucinated-code-dependencies-become-new-supply-chain-risk/</link>
+        <pubDate>Sat, 12 Apr 2025 10:19:29 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ai-hallucinated-code-dependencies-become-new-supply-chain-risk/</guid>
+	<description><![CDATA[A new class of supply chain attacks named 'slopsquatting' has emerged from the increased use of generative AI tools for coding and the model's tendency to "hallucinate" non-existent package names. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft Defender will isolate undiscovered endpoints to block attacks</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-will-isolate-undiscovered-endpoints-to-block-attacks/</link>
@@ -166,50 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-wordpress-plugin-auth-bypass-hours-after-disclosure/</guid>
 	<description><![CDATA[Hackers started exploiting a high-severity flaw that allows bypassing authentication in the OttoKit (formerly SureTriggers) plugin for WordPress just hours after public disclosure. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft releases emergency update to fix Office 2016 crashes</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-update-to-fix-office-2016-crashes/</link>
-        <pubDate>Thu, 10 Apr 2025 13:57:07 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-update-to-fix-office-2016-crashes/</guid>
-	<description><![CDATA[​Microsoft has released an out-of-band Office update to fix a known issue that caused Word, Excel, and Outlook to crash after installing the KB5002700 security update for Office 2016. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI wants ChatGPT to 'know you over your life' with new Memory update</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-wants-chatgpt-to-know-you-over-your-life-with-new-memory-update/</link>
-        <pubDate>Thu, 10 Apr 2025 13:30:42 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-wants-chatgpt-to-know-you-over-your-life-with-new-memory-update/</guid>
-	<description><![CDATA[OpenAI is giving ChatGPT's memory feature its biggest upgrade yet, allowing the AI to know you better by referencing all your past conversations. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Licensing issue blocks Microsoft 365 Family for some users</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-licensing-issue-blocks-microsoft-365-family-for-some-users/</link>
-        <pubDate>Thu, 10 Apr 2025 11:14:24 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-licensing-issue-blocks-microsoft-365-family-for-some-users/</guid>
-	<description><![CDATA[Microsoft is investigating a potential licensing issue blocking access to Microsoft 365 services for some customers with Family subscriptions. [...]]]></description>
  </item>
 
 </channel>
