@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 14 Apr 2025 11:02:06 EDT</pubDate>
+        <pubDate>Mon, 14 Apr 2025 11:59:10 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Meta to resume AI training on content shared by Europeans</title>
+        <link>https://www.bleepingcomputer.com/news/technology/meta-to-resume-ai-training-on-content-shared-by-europeans/</link>
+        <pubDate>Mon, 14 Apr 2025 11:33:44 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Technology]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/technology/meta-to-resume-ai-training-on-content-shared-by-europeans/</guid>
+	<description><![CDATA[Meta announced today that it will soon start training its artificial intelligence models using content shared by European adult users on its Facebook and Instagram social media platforms. [...]]]></description>
+ </item>
+
  <item>
         <title>Kidney dialysis firm DaVita hit by weekend ransomware attack</title>
         <link>https://www.bleepingcomputer.com/news/security/kidney-dialysis-firm-davita-hit-by-weekend-ransomware-attack/</link>
@@ -176,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-will-isolate-undiscovered-endpoints-to-block-attacks/</guid>
 	<description><![CDATA[Microsoft is testing a new Defender for Endpoint capability that will block traffic to and from undiscovered endpoints to thwart attackers' lateral network movement attempts. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft starts final Windows Recall testing before rollout</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-final-windows-recall-testing-before-rollout/</link>
-        <pubDate>Fri, 11 Apr 2025 13:13:37 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-final-windows-recall-testing-before-rollout/</guid>
-	<description><![CDATA[​Microsoft is gradually rolling out the AI-powered Windows Recall feature to Insiders in the Release Preview channel before making it generally available to all Windows users with Copilot+ PCs. [...]]]></description>
  </item>
 
 </channel>
