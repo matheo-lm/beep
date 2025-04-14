@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 14 Apr 2025 09:59:25 EDT</pubDate>
+        <pubDate>Mon, 14 Apr 2025 11:02:06 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Kidney dialysis firm DaVita hit by weekend ransomware attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/kidney-dialysis-firm-davita-hit-by-weekend-ransomware-attack/</link>
+        <pubDate>Mon, 14 Apr 2025 10:20:25 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/kidney-dialysis-firm-davita-hit-by-weekend-ransomware-attack/</guid>
+	<description><![CDATA[Kidney dialysis firm DaVita disclosed Monday it suffered a weekend ransomware attack that encrypted parts of its network and impacted some of its operations. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Enhancing your DevSecOps with Wazuh, the open source XDR platform</title>
+        <link>https://www.bleepingcomputer.com/news/security/enhancing-your-devsecops-with-wazuh-the-open-source-xdr-platform/</link>
+        <pubDate>Mon, 14 Apr 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Wazuh</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/enhancing-your-devsecops-with-wazuh-the-open-source-xdr-platform/</guid>
+	<description><![CDATA[Security shouldn't wait until the end of development. Wazuh brings real-time threat detection, compliance, and vulnerability scanning into your DevOps pipeline—powering a stronger DevSecOps strategy from day one. Learn more about how Wazuh can help secure your development cycle. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft tells Windows users to ignore 0x80070643 WinRE errors</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-tells-windows-users-to-ignore-winre-install-errors/</link>
@@ -160,36 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-final-windows-recall-testing-before-rollout/</guid>
 	<description><![CDATA[​Microsoft is gradually rolling out the AI-powered Windows Recall feature to Insiders in the Release Preview channel before making it generally available to all Windows users with Copilot+ PCs. [...]]]></description>
- </item>
-
- <item>
-        <title>Western Sydney University discloses security breaches, data leak</title>
-        <link>https://www.bleepingcomputer.com/news/security/western-sydney-university-discloses-security-breaches-data-leak/</link>
-        <pubDate>Fri, 11 Apr 2025 12:29:52 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Education]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/western-sydney-university-discloses-security-breaches-data-leak/</guid>
-	<description><![CDATA[Western Sydney University (WSU) announced two security incidents that exposed personal information belonging to members of its community. [...]]]></description>
- </item>
-
- <item>
-        <title>Fortinet: Hackers retain access to patched FortiGate VPNs using symlinks</title>
-        <link>https://www.bleepingcomputer.com/news/security/fortinet-hackers-retain-access-to-patched-fortigate-vpns-using-symlinks/</link>
-        <pubDate>Fri, 11 Apr 2025 12:08:54 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fortinet-hackers-retain-access-to-patched-fortigate-vpns-using-symlinks/</guid>
-	<description><![CDATA[Fortinet warns that threat actors use a post-exploitation technique that helps them maintain read-only access to previously compromised FortiGate VPN devices even after the original attack vector was patched. [...]]]></description>
  </item>
 
 </channel>
