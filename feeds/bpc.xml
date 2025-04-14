@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 14 Apr 2025 14:59:58 EDT</pubDate>
+        <pubDate>Mon, 14 Apr 2025 16:02:35 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cybersecurity firm buying hacker forum accounts to spy on cybercriminals</title>
+        <link>https://www.bleepingcomputer.com/news/security/cybersecurity-firm-buying-hacker-forum-accounts-to-spy-on-cybercriminals/</link>
+        <pubDate>Mon, 14 Apr 2025 15:36:34 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cybersecurity-firm-buying-hacker-forum-accounts-to-spy-on-cybercriminals/</guid>
+	<description><![CDATA[Swiss cybersecurity firm Prodaft has launched a new initiative called 'Sell your Source' where the company purchases verified and aged accounts on hacking forums to to spy on cybercriminals. [...]]]></description>
+ </item>
+
  <item>
         <title>SSL/TLS certificate lifespans reduced to 47 days by 2029</title>
         <link>https://www.bleepingcomputer.com/news/security/ssl-tls-certificate-lifespans-reduced-to-47-days-by-2029/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-kit-targets-microsoft-365-with-new-tricks/</guid>
 	<description><![CDATA[Phishing-as-a-service (PhaaS) platform Tycoon2FA, known for bypassing multi-factor authentication on Microsoft 365 and Gmail accounts, has received updates that improve its stealth and evasion capabilities. [...]]]></description>
- </item>
-
- <item>
-        <title>AI-hallucinated code dependencies become new supply chain risk</title>
-        <link>https://www.bleepingcomputer.com/news/security/ai-hallucinated-code-dependencies-become-new-supply-chain-risk/</link>
-        <pubDate>Sat, 12 Apr 2025 10:19:29 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ai-hallucinated-code-dependencies-become-new-supply-chain-risk/</guid>
-	<description><![CDATA[A new class of supply chain attacks named 'slopsquatting' has emerged from the increased use of generative AI tools for coding and the model's tendency to "hallucinate" non-existent package names. [...]]]></description>
  </item>
 
 </channel>
