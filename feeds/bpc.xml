@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 14 Apr 2025 05:59:39 EDT</pubDate>
+        <pubDate>Mon, 14 Apr 2025 06:59:52 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: Windows Server 2025 restarts break connectivity on some DCs</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2025-restarts-break-services-on-domain-controllers/</link>
+        <pubDate>Mon, 14 Apr 2025 06:54:44 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2025-restarts-break-services-on-domain-controllers/</guid>
+	<description><![CDATA[Microsoft warned IT admins that some Windows Server 2025 domain controllers might become inaccessible after a restart, causing apps and services to fail or remain unreachable. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Chrome 136 fixes 20-year browser history privacy risk</title>
+        <link>https://www.bleepingcomputer.com/news/security/chrome-136-fixes-20-year-browser-history-privacy-risk/</link>
+        <pubDate>Sun, 13 Apr 2025 10:18:28 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/chrome-136-fixes-20-year-browser-history-privacy-risk/</guid>
+	<description><![CDATA[​Google is fixing a long-standing privacy issue that, for years, enabled websites to determine users' browsing history through the previously visited links. [...]]]></description>
+ </item>
+
  <item>
         <title>Leak confirms OpenAI's GPT 4.1 is coming before GPT 5.0</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openais-gpt-41-is-coming-before-gpt-50/</link>
@@ -182,34 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-edge-browser-is-now-9-percent-faster-after-optimizations/</guid>
 	<description><![CDATA[Microsoft claims its Chromium-based Microsoft Edge has seen up to 9% performance improvements following the release of version 134. [...]]]></description>
- </item>
-
- <item>
-        <title>Ransomware attack cost IKEA operator in Eastern Europe  $23 million</title>
-        <link>https://www.bleepingcomputer.com/news/security/ransomware-attack-cost-ikea-operator-in-eastern-europe-23-million/</link>
-        <pubDate>Fri, 11 Apr 2025 08:24:37 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ransomware-attack-cost-ikea-operator-in-eastern-europe-23-million/</guid>
-	<description><![CDATA[Fourlis Group, the operator of IKEA stores in Greece, Cyprus, Romania, and Bulgaria, has informed that the ransomware attack it suffered just before Black Friday on November 27, 2024, caused losses estimated to €20 million ($22.8M). [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers exploit WordPress plugin auth bypass hours after disclosure</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-wordpress-plugin-auth-bypass-hours-after-disclosure/</link>
-        <pubDate>Thu, 10 Apr 2025 15:11:22 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-wordpress-plugin-auth-bypass-hours-after-disclosure/</guid>
-	<description><![CDATA[Hackers started exploiting a high-severity flaw that allows bypassing authentication in the OttoKit (formerly SureTriggers) plugin for WordPress just hours after public disclosure. [...]]]></description>
  </item>
 
 </channel>
