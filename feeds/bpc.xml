@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 14 Apr 2025 06:59:52 EDT</pubDate>
+        <pubDate>Mon, 14 Apr 2025 08:02:52 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: New emergency Windows updates fix AD policy issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-new-emergency-windows-updates-fix-ad-policy-issues/</link>
+        <pubDate>Mon, 14 Apr 2025 07:52:41 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-new-emergency-windows-updates-fix-ad-policy-issues/</guid>
+	<description><![CDATA[Microsoft has released emergency Windows updates to address a known issue affecting local audit logon policies in Active Directory Group Policy. [...]]]></description>
+ </item>
+
+ <item>
+        <title>OpenAI's GPT-4.1, 4.1 nano, and 4.1 mini models release imminent</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-41-41-nano-and-41-mini-models-release-imminent/</link>
+        <pubDate>Mon, 14 Apr 2025 07:33:16 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-41-41-nano-and-41-mini-models-release-imminent/</guid>
+	<description><![CDATA[According to references spotted on OpenAI's website, the Microsoft-backed AI startup is planning to launch five new models this week, including GPT-4.1, 4.1 nano, and 4.1 mini. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: Windows Server 2025 restarts break connectivity on some DCs</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2025-restarts-break-services-on-domain-controllers/</link>
@@ -162,54 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-windows-inetpub-folder-created-by-security-fix-dont-delete/</guid>
 	<description><![CDATA[Microsoft has now confirmed that an April 2025 Windows security update is creating a new empty "inetpub" folder and warned users not to delete it. [...]]]></description>
- </item>
-
- <item>
-        <title>Google's AI video generator Veo 2 is rolling out on AI Studio</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/googles-ai-video-generator-veo-2-is-rolling-out-on-ai-studio/</link>
-        <pubDate>Fri, 11 Apr 2025 10:09:44 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/googles-ai-video-generator-veo-2-is-rolling-out-on-ai-studio/</guid>
-	<description><![CDATA[Google's AI video generator tool Veo 2, which is the company's take on OpenAI's Sora, is now rolling out to some users in the United States. [...]]]></description>
- </item>
-
- <item>
-        <title>US lab testing provider exposed health data of 1.6 million people</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-lab-testing-provider-exposed-health-data-of-16-million-people/</link>
-        <pubDate>Fri, 11 Apr 2025 09:23:18 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-lab-testing-provider-exposed-health-data-of-16-million-people/</guid>
-	<description><![CDATA[Laboratory Services Cooperative (LSC) has released a statement informing it suffered a data breach where hackers stole sensitive information of roughly 1.6 million people from its systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft says Edge browser is now 9% faster after optimizations</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-edge-browser-is-now-9-percent-faster-after-optimizations/</link>
-        <pubDate>Fri, 11 Apr 2025 09:07:38 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-edge-browser-is-now-9-percent-faster-after-optimizations/</guid>
-	<description><![CDATA[Microsoft claims its Chromium-based Microsoft Edge has seen up to 9% performance improvements following the release of version 134. [...]]]></description>
  </item>
 
 </channel>
