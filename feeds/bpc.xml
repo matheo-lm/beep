@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 14 Apr 2025 16:02:35 EDT</pubDate>
+        <pubDate>Mon, 14 Apr 2025 17:00:19 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Govtech giant Conduent confirms client data stolen in January cyberattack</title>
+        <link>https://www.bleepingcomputer.com/news/security/govtech-giant-conduent-confirms-client-data-stolen-in-january-cyberattack/</link>
+        <pubDate>Mon, 14 Apr 2025 16:50:10 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/govtech-giant-conduent-confirms-client-data-stolen-in-january-cyberattack/</guid>
+	<description><![CDATA[American business services giant and government contractor Conduent disclosed today that client data was stolen in a January 2025 cyberattack. [...]]]></description>
+ </item>
+
  <item>
         <title>Cybersecurity firm buying hacker forum accounts to spy on cybercriminals</title>
         <link>https://www.bleepingcomputer.com/news/security/cybersecurity-firm-buying-hacker-forum-accounts-to-spy-on-cybercriminals/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openais-gpt-41-is-coming-before-gpt-50/</guid>
 	<description><![CDATA[OpenAI is working on yet another AI model reportedly called GPT-4.1, a successor to GPT-4o, which is expected to come before GPT 5.0 [...]]]></description>
- </item>
-
- <item>
-        <title>Tycoon2FA phishing kit targets Microsoft 365 with new tricks</title>
-        <link>https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-kit-targets-microsoft-365-with-new-tricks/</link>
-        <pubDate>Sat, 12 Apr 2025 11:16:27 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-kit-targets-microsoft-365-with-new-tricks/</guid>
-	<description><![CDATA[Phishing-as-a-service (PhaaS) platform Tycoon2FA, known for bypassing multi-factor authentication on Microsoft 365 and Gmail accounts, has received updates that improve its stealth and evasion capabilities. [...]]]></description>
  </item>
 
 </channel>
