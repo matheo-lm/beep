@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 14 Apr 2025 11:59:10 EDT</pubDate>
+        <pubDate>Mon, 14 Apr 2025 13:00:34 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New ResolverRAT malware targets pharma and healthcare orgs worldwide</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-resolverrat-malware-targets-pharma-and-healthcare-orgs-worldwide/</link>
+        <pubDate>Mon, 14 Apr 2025 12:40:23 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-resolverrat-malware-targets-pharma-and-healthcare-orgs-worldwide/</guid>
+	<description><![CDATA[A new remote access trojan (RAT) called 'ResolverRAT' is being used against organizations globally, with the malware used in recent attacks targeting the healthcare and pharmaceutical sectors. [...]]]></description>
+ </item>
+
  <item>
         <title>Meta to resume AI training on content shared by Europeans</title>
         <link>https://www.bleepingcomputer.com/news/technology/meta-to-resume-ai-training-on-content-shared-by-europeans/</link>
@@ -176,22 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ai-hallucinated-code-dependencies-become-new-supply-chain-risk/</guid>
 	<description><![CDATA[A new class of supply chain attacks named 'slopsquatting' has emerged from the increased use of generative AI tools for coding and the model's tendency to "hallucinate" non-existent package names. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft Defender will isolate undiscovered endpoints to block attacks</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-will-isolate-undiscovered-endpoints-to-block-attacks/</link>
-        <pubDate>Fri, 11 Apr 2025 15:13:45 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-will-isolate-undiscovered-endpoints-to-block-attacks/</guid>
-	<description><![CDATA[Microsoft is testing a new Defender for Endpoint capability that will block traffic to and from undiscovered endpoints to thwart attackers' lateral network movement attempts. [...]]]></description>
  </item>
 
 </channel>
