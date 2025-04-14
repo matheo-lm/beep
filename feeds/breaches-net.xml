@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description></description>
-	<lastBuildDate>Mon, 14 Apr 2025 11:07:21 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 14 Apr 2025 12:36:20 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,24 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Dialysis firm DaVita hit by ransomware attack</title>
+		<link>https://databreaches.net/2025/04/14/dialysis-firm-davita-hit-by-ransomware-attack/</link>
+					<comments>https://databreaches.net/2025/04/14/dialysis-firm-davita-hit-by-ransomware-attack/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Mon, 14 Apr 2025 12:36:20 +0000</pubDate>
+				<category><![CDATA[Health Data]]></category>
+		<category><![CDATA[Malware]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=121279</guid>
+
+					<description><![CDATA[Reuters reports: DaVita said on Monday it had become aware of a ransomware incident that has encrypted some elements of its network, prompting the dialysis firm to implement measures to limit the effect of the breach. The company discovered the cyberattack on Saturday, but added it &#8220;cannot estimate the duration or extent of the disruption...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/04/14/dialysis-firm-davita-hit-by-ransomware-attack/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>IAF jet on Myanmar relief operation faced cyber attack in air</title>
 		<link>https://databreaches.net/2025/04/14/iaf-jet-on-myanmar-relief-operation-faced-cyber-attack-in-air/</link>
 					<comments>https://databreaches.net/2025/04/14/iaf-jet-on-myanmar-relief-operation-faced-cyber-attack-in-air/#respond</comments>
@@ -186,25 +204,6 @@
 					<description><![CDATA[Leora Schertzer reports: A cyberattack on the Brunswick Medical Center has compromised personal information of patients and staff, the Pointe-Claire clinic announced on Friday. The attack targeted its IT system on March 24, the announcement said. “Despite our continued efforts, some patient health information as well as personal information about our employees and professionals was...]]></description>
 		
 					<wfw:commentRss>https://databreaches.net/2025/04/11/patient-data-leaked-from-cyberattack-on-brunswick-medical-center/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>No need to hack when it&#8217;s leaking: SavantCare edition</title>
-		<link>https://databreaches.net/2025/04/11/no-need-to-hack-when-its-leaking-savantcare-edition/</link>
-					<comments>https://databreaches.net/2025/04/11/no-need-to-hack-when-its-leaking-savantcare-edition/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Fri, 11 Apr 2025 10:39:35 +0000</pubDate>
-				<category><![CDATA[Exposure]]></category>
-		<category><![CDATA[Health Data]]></category>
-		<category><![CDATA[HIPAA]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=121185</guid>
-
-					<description><![CDATA[Today&#8217;s concerning leak is brought to you by SavantCare. The leak was discovered by an independent researcher who first reported it on his blog yesterday. In his report, @JayeLTee states that he found exposed data that included data from SavantCare employee chats.  &#8220;Over two-thirds of the 308 users on the chat were for SavantCare, a...]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/04/11/no-need-to-hack-when-its-leaking-savantcare-edition/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
