@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 14 Apr 2025 09:06:56 EDT</pubDate>
+        <pubDate>Mon, 14 Apr 2025 09:59:25 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft tells Windows users to ignore 0x80070643 WinRE errors</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-tells-windows-users-to-ignore-winre-install-errors/</link>
+        <pubDate>Mon, 14 Apr 2025 09:28:34 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-tells-windows-users-to-ignore-winre-install-errors/</guid>
+	<description><![CDATA[Microsoft says some users might see 0x80070643 installation failures when trying to deploy the April 2025 Windows Recovery Environment (WinRE) updates. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: New Windows updates fix Active Directory policy issues</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-new-emergency-windows-updates-fix-ad-policy-issues/</link>
@@ -176,22 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fortinet-hackers-retain-access-to-patched-fortigate-vpns-using-symlinks/</guid>
 	<description><![CDATA[Fortinet warns that threat actors use a post-exploitation technique that helps them maintain read-only access to previously compromised FortiGate VPN devices even after the original attack vector was patched. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Windows 'inetpub' folder created by security fix, don’t delete</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-windows-inetpub-folder-created-by-security-fix-dont-delete/</link>
-        <pubDate>Fri, 11 Apr 2025 10:32:19 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-windows-inetpub-folder-created-by-security-fix-dont-delete/</guid>
-	<description><![CDATA[Microsoft has now confirmed that an April 2025 Windows security update is creating a new empty "inetpub" folder and warned users not to delete it. [...]]]></description>
  </item>
 
 </channel>
