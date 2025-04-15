@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 15 Apr 2025 14:03:04 EDT</pubDate>
+        <pubDate>Tue, 15 Apr 2025 14:59:08 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Landmark Admin data breach impact now reaches 1.6 million people</title>
+        <link>https://www.bleepingcomputer.com/news/security/landmark-admin-data-breach-impact-now-reaches-16-million-people/</link>
+        <pubDate>Tue, 15 Apr 2025 14:33:57 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/landmark-admin-data-breach-impact-now-reaches-16-million-people/</guid>
+	<description><![CDATA[Landmark Admin has issued an update to its investigation of a cyberattack it suffered in May 2024, increasing the number of impacted individuals to 1.6 million. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Infamous message board 4chan taken down following major hack</title>
+        <link>https://www.bleepingcomputer.com/news/security/infamous-message-board-4chan-taken-down-following-major-hack/</link>
+        <pubDate>Tue, 15 Apr 2025 14:13:46 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/infamous-message-board-4chan-taken-down-following-major-hack/</guid>
+	<description><![CDATA[4chan, a notorious online forum, was taken offline earlier today after what appears to be a significant hack and has since been loading intermittently. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft blocks ActiveX by default in Microsoft 365, Office 2024</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-blocks-activex-by-default-in-microsoft-365-office-2024/</link>
@@ -180,48 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/kidney-dialysis-firm-davita-hit-by-weekend-ransomware-attack/</guid>
 	<description><![CDATA[Kidney dialysis firm DaVita disclosed Monday it suffered a weekend ransomware attack that encrypted parts of its network and impacted some of its operations. [...]]]></description>
- </item>
-
- <item>
-        <title>Enhancing your DevSecOps with Wazuh, the open source XDR platform</title>
-        <link>https://www.bleepingcomputer.com/news/security/enhancing-your-devsecops-with-wazuh-the-open-source-xdr-platform/</link>
-        <pubDate>Mon, 14 Apr 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Wazuh</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/enhancing-your-devsecops-with-wazuh-the-open-source-xdr-platform/</guid>
-	<description><![CDATA[Security shouldn't wait until the end of development. Wazuh brings real-time threat detection, compliance, and vulnerability scanning into your DevOps pipeline—powering a stronger DevSecOps strategy from day one. Learn more about how Wazuh can help secure your development cycle. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft tells Windows users to ignore 0x80070643 WinRE errors</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-tells-windows-users-to-ignore-winre-install-errors/</link>
-        <pubDate>Mon, 14 Apr 2025 09:28:34 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-tells-windows-users-to-ignore-winre-install-errors/</guid>
-	<description><![CDATA[Microsoft says some users might see 0x80070643 installation failures when trying to deploy the April 2025 Windows Recovery Environment (WinRE) updates. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: New Windows updates fix Active Directory policy issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-new-emergency-windows-updates-fix-ad-policy-issues/</link>
-        <pubDate>Mon, 14 Apr 2025 07:52:41 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-new-emergency-windows-updates-fix-ad-policy-issues/</guid>
-	<description><![CDATA[Microsoft has released emergency Windows updates to address a known issue affecting local audit logon policies in Active Directory Group Policy. [...]]]></description>
  </item>
 
 </channel>
