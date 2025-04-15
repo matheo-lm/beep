@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 15 Apr 2025 09:08:12 EDT</pubDate>
+        <pubDate>Tue, 15 Apr 2025 09:59:42 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google adds Android auto-reboot to block forensic data extractions</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-adds-android-auto-reboot-to-block-forensic-data-extractions/</link>
+        <pubDate>Tue, 15 Apr 2025 09:54:57 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-adds-android-auto-reboot-to-block-forensic-data-extractions/</guid>
+	<description><![CDATA[Google is rolling out a new security mechanism on Android devices that will automatically reboot locked, unused devices after three consecutive days of inactivity, restoring memory to an encrypted state. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft warns of CPU spikes when typing in classic Outlook</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-cpu-spikes-when-typing-in-classic-outlook/</link>
+        <pubDate>Tue, 15 Apr 2025 09:41:15 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-cpu-spikes-when-typing-in-classic-outlook/</guid>
+	<description><![CDATA[Microsoft warned Windows users of increased CPU usage when typing while using recent versions of the classic Outlook email client. [...]]]></description>
+ </item>
+
  <item>
         <title>Hertz confirms customer info, drivers' licenses stolen in data breach</title>
         <link>https://www.bleepingcomputer.com/news/security/hertz-confirms-customer-info-drivers-licenses-stolen-in-data-breach/</link>
@@ -176,34 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-41-41-nano-and-41-mini-models-release-imminent/</guid>
 	<description><![CDATA[According to references spotted on OpenAI's website, the Microsoft-backed AI startup is planning to launch five new models this week, including GPT-4.1, 4.1 nano, and 4.1 mini. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Windows Server 2025 restarts break connectivity on some DCs</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2025-restarts-break-services-on-domain-controllers/</link>
-        <pubDate>Mon, 14 Apr 2025 06:54:44 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2025-restarts-break-services-on-domain-controllers/</guid>
-	<description><![CDATA[Microsoft warned IT admins that some Windows Server 2025 domain controllers might become inaccessible after a restart, causing apps and services to fail or remain unreachable. [...]]]></description>
- </item>
-
- <item>
-        <title>Chrome 136 fixes 20-year browser history privacy risk</title>
-        <link>https://www.bleepingcomputer.com/news/security/chrome-136-fixes-20-year-browser-history-privacy-risk/</link>
-        <pubDate>Sun, 13 Apr 2025 10:18:28 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/chrome-136-fixes-20-year-browser-history-privacy-risk/</guid>
-	<description><![CDATA[​Google is fixing a long-standing privacy issue that, for years, enabled websites to determine users' browsing history through the previously visited links. [...]]]></description>
  </item>
 
 </channel>
