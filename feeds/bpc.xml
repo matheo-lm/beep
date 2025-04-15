@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 15 Apr 2025 17:01:30 EDT</pubDate>
+        <pubDate>Tue, 15 Apr 2025 18:02:57 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ChatGPT 4.1 early benchmarks compared against Google Gemini</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-41-early-benchmarks-compared-against-google-gemini/</link>
+        <pubDate>Tue, 15 Apr 2025 17:20:15 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-41-early-benchmarks-compared-against-google-gemini/</guid>
+	<description><![CDATA[ChatGPT 4.1 is now rolling out, and it's a significant leap from GPT 4o, but it fails to beat the benchmark set by Google's most powerful model, Gemini. [...]]]></description>
+ </item>
+
  <item>
         <title>Midnight Blizzard deploys new GrapeLoader malware in embassy phishing</title>
         <link>https://www.bleepingcomputer.com/news/security/midnight-blizzard-deploys-new-grapeloader-malware-in-embassy-phishing/</link>
@@ -190,22 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-resolverrat-malware-targets-pharma-and-healthcare-orgs-worldwide/</guid>
 	<description><![CDATA[A new remote access trojan (RAT) called 'ResolverRAT' is being used against organizations globally, with the malware used in recent attacks targeting the healthcare and pharmaceutical sectors. [...]]]></description>
- </item>
-
- <item>
-        <title>Meta to resume AI training on content shared by Europeans</title>
-        <link>https://www.bleepingcomputer.com/news/technology/meta-to-resume-ai-training-on-content-shared-by-europeans/</link>
-        <pubDate>Mon, 14 Apr 2025 11:33:44 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Technology]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/technology/meta-to-resume-ai-training-on-content-shared-by-europeans/</guid>
-	<description><![CDATA[Meta announced today that it will soon start training its artificial intelligence models using content shared by European adult users on its Facebook and Instagram social media platforms. [...]]]></description>
  </item>
 
 </channel>
