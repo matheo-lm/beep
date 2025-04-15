@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 15 Apr 2025 16:01:01 EDT</pubDate>
+        <pubDate>Tue, 15 Apr 2025 17:01:30 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Midnight Blizzard deploys new GrapeLoader malware in embassy phishing</title>
+        <link>https://www.bleepingcomputer.com/news/security/midnight-blizzard-deploys-new-grapeloader-malware-in-embassy-phishing/</link>
+        <pubDate>Tue, 15 Apr 2025 16:25:57 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/midnight-blizzard-deploys-new-grapeloader-malware-in-embassy-phishing/</guid>
+	<description><![CDATA[Russian state-sponsored espionage group Midnight Blizzard is behind a new spear-phishing campaign targeting diplomatic entities in Europe, including embassies. [...]]]></description>
+ </item>
+
  <item>
         <title>Landmark Admin data breach impact now reaches 1.6 million people</title>
         <link>https://www.bleepingcomputer.com/news/security/landmark-admin-data-breach-impact-now-reaches-16-million-people/</link>
@@ -192,22 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/technology/meta-to-resume-ai-training-on-content-shared-by-europeans/</guid>
 	<description><![CDATA[Meta announced today that it will soon start training its artificial intelligence models using content shared by European adult users on its Facebook and Instagram social media platforms. [...]]]></description>
- </item>
-
- <item>
-        <title>Kidney dialysis firm DaVita hit by weekend ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/kidney-dialysis-firm-davita-hit-by-weekend-ransomware-attack/</link>
-        <pubDate>Mon, 14 Apr 2025 10:20:25 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/kidney-dialysis-firm-davita-hit-by-weekend-ransomware-attack/</guid>
-	<description><![CDATA[Kidney dialysis firm DaVita disclosed Monday it suffered a weekend ransomware attack that encrypted parts of its network and impacted some of its operations. [...]]]></description>
  </item>
 
 </channel>
