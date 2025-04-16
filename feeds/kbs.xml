@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 16 Apr 2025 03:59:18 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 16 Apr 2025 13:19:25 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -48,7 +48,8 @@
 <p>&#8220;If a break in service were to occur, we anticipate multiple impacts to CVE, including deterioration of national vulnerability databases and advisories, tool vendors, incident response operations, and all manner of critical infrastructure,&#8221; Barsoum wrote.</p>
 <p>MITRE told KrebsOnSecurity the CVE website listing vulnerabilities will remain up after the funding expires, but that new CVEs won&#8217;t be added after April 16.</p>
 <div id="attachment_71017" style="width: 760px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-71017" decoding="async" loading="lazy" class="wp-image-71017" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle.png" alt="" width="750" height="335" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle.png 1926w, https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle-768x343.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle-1536x686.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle-782x349.png 782w" sizes="(max-width: 750px) 100vw, 750px" /></a><p id="caption-attachment-71017" class="wp-caption-text">A representation of how a vulnerability becomes a CVE, and how that information is consumed. Image: James Berthoty, Latio Tech, via LinkedIn.</p></div>
-<p>DHS officials did not immediately respond to a request for comment. The program is funded through DHS&#8217;s <strong>Cybersecurity &amp; Infrastructure Security Agency</strong> (CISA), which is currently facing <a href="https://krebsonsecurity.com/2025/04/trump-revenge-tour-targets-cyber-leaders-elections/" target="_blank" rel="noopener">deep budget and staffing cuts by the Trump administration</a>.<span id="more-71010"></span></p>
+<p>DHS officials did not immediately respond to a request for comment. The program is funded through DHS&#8217;s <strong>Cybersecurity &amp; Infrastructure Security Agency</strong> (CISA), which is currently facing <a href="https://krebsonsecurity.com/2025/04/trump-revenge-tour-targets-cyber-leaders-elections/" target="_blank" rel="noopener">deep budget and staffing cuts by the Trump administration</a>. The <a href="https://www.usaspending.gov/award/CONT_AWD_70RCSJ24FR0000019_7001_70RSAT20D00000001_7001" target="_blank" rel="noopener">CVE contract</a> available at USAspending.gov says the project was awarded approximately $40 million last year.<br />
+<span id="more-71010"></span></p>
 <p>Former CISA Director<strong> Jen Easterly</strong> said the CVE program is a bit like the Dewey Decimal System, but for cybersecurity.</p>
 <p>&#8220;It’s the global catalog that helps everyone—security teams, software vendors, researchers, governments—organize and talk about vulnerabilities using the same reference system,&#8221; Easterly said in <a href="https://www.linkedin.com/feed/update/urn:li:activity:7318021583191617538/" target="_blank" rel="noopener">a post on LinkedIn</a>. &#8220;Without it, everyone is using a different catalog or no catalog at all, no one knows if they’re talking about the same problem, defenders waste precious time figuring out what’s wrong, and worst of all, threat actors take advantage of the confusion.&#8221;</p>
 <p><strong>John Hammond</strong>, principal security researcher at the managed security firm <strong>Huntress</strong>, <a href="https://www.reuters.com/technology/us-funding-running-out-critical-cyber-vulnerability-database-manager-says-2025-04-15/" target="_blank" rel="noopener">told Reuters</a> he swore out loud when he heard the news that CVE&#8217;s funding was in jeopardy, and that losing the CVE program would be like losing &#8220;the language and lingo we used to address problems in cybersecurity.&#8221;</p>
@@ -59,7 +60,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/04/funding-expires-for-key-cyber-vulnerability-database/feed/</wfw:commentRss>
-			<slash:comments>21</slash:comments>
+			<slash:comments>25</slash:comments>
 		
 		
 			</item>
@@ -748,8 +749,8 @@ This story explores a slew of recent actions by the Trump administration that th
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 286/286 objects using memcached
-Page Caching using memcached 
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-04-16 09:08:41 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-04-16 09:55:07 by W3 Total Cache
 -->
