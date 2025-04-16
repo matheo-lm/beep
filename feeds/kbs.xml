@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 16 Apr 2025 13:19:25 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 16 Apr 2025 15:24:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -57,6 +57,10 @@
 <p>Several people close to the matter told KrebsOnSecurity this is not the first time the CVE program&#8217;s budget has been left in funding limbo until the last minute. Barsoum&#8217;s letter, which was apparently leaked, sounded a hopeful note, saying the government is making &#8220;considerable efforts to continue MITRE&#8217;s role in support of the program.&#8221;</p>
 <p>Tait said that without the CVE program, risk managers inside companies would need to continuously monitor many other places for information about new vulnerabilities that may jeopardize the security of their IT networks. Meaning, it may become more common that software updates get mis-prioritized, with companies having hackable software deployed for longer than they otherwise would, he said.</p>
 <p>&#8220;Hopefully they will resolve this, but otherwise the list will rapidly fall out of date and stop being useful,&#8221; he said.</p>
+<p><strong>Update, April 16, 11:00 a.m. ET:</strong> The CVE board today announced the creation of non-profit entity called <strong>The CVE Foundation </strong>that will continue the program&#8217;s work under a new, unspecified funding mechanism and organizational structure.</p>
+<p>&#8220;Since its inception, the CVE Program has operated as a U.S. government-funded initiative, with oversight and management provided under contract,&#8221; the press release reads. &#8220;While this structure has supported the program&#8217;s growth, it has also raised longstanding concerns among members of the CVE Board about the sustainability and neutrality of a globally relied-upon resource being tied to a single government sponsor.&#8221;</p>
+<p>The organization&#8217;s website, <a href="https://www.thecvefoundation.org/home" target="_blank" rel="noopener">thecvefoundation.org</a>, is less than a day old and currently hosts no content other than the press release heralding its creation. The announcement said the foundation would release more information about its structure and transition planning in the coming days.</p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-71023" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/cve-foundation.png" alt="" width="687" height="859" /></p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/04/funding-expires-for-key-cyber-vulnerability-database/feed/</wfw:commentRss>
@@ -168,7 +172,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/04/trump-revenge-tour-targets-cyber-leaders-elections/feed/</wfw:commentRss>
-			<slash:comments>38</slash:comments>
+			<slash:comments>39</slash:comments>
 		
 		
 			</item>
@@ -748,9 +752,9 @@ This story explores a slew of recent actions by the Trump administration that th
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 286/286 objects using memcached
+Object Caching 288/288 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-04-16 10:55:14 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-04-16 11:57:45 by W3 Total Cache
 -->
