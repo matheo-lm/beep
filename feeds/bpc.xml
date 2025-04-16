@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 16 Apr 2025 07:02:06 EDT</pubDate>
+        <pubDate>Wed, 16 Apr 2025 08:02:37 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft warns of blue screen crashes caused by April updates</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-blue-screen-crashes-caused-by-april-updates/</link>
+        <pubDate>Wed, 16 Apr 2025 07:21:59 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-blue-screen-crashes-caused-by-april-updates/</guid>
+	<description><![CDATA[Microsoft warned customers this week that their systems might crash with a blue screen error caused by a secure kernel fatal error after installing Windows updates released since March. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: Some devices offered Windows 11 upgrades despite Intune blocks</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-some-devices-offered-windows-11-upgrades-despite-intune-blocks/</link>
@@ -176,34 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hertz-confirms-customer-info-drivers-licenses-stolen-in-data-breach/</guid>
 	<description><![CDATA[Car rental giant Hertz Corporation warns it suffered a data breach after customer data for its Hertz, Thrifty, and Dollar brands was stolen in the Cleo zero-day data theft attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Govtech giant Conduent confirms client data stolen in January cyberattack</title>
-        <link>https://www.bleepingcomputer.com/news/security/govtech-giant-conduent-confirms-client-data-stolen-in-january-cyberattack/</link>
-        <pubDate>Mon, 14 Apr 2025 16:50:10 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/govtech-giant-conduent-confirms-client-data-stolen-in-january-cyberattack/</guid>
-	<description><![CDATA[American business services giant and government contractor Conduent disclosed today that client data was stolen in a January 2025 cyberattack. [...]]]></description>
- </item>
-
- <item>
-        <title>Cybersecurity firm buying hacker forum accounts to spy on cybercriminals</title>
-        <link>https://www.bleepingcomputer.com/news/security/cybersecurity-firm-buying-hacker-forum-accounts-to-spy-on-cybercriminals/</link>
-        <pubDate>Mon, 14 Apr 2025 15:36:34 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cybersecurity-firm-buying-hacker-forum-accounts-to-spy-on-cybercriminals/</guid>
-	<description><![CDATA[Swiss cybersecurity firm Prodaft has launched a new initiative called 'Sell your Source' where the company purchases verified and aged accounts on hacking forums to to spy on cybercriminals. [...]]]></description>
  </item>
 
 </channel>
