@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 16 Apr 2025 16:01:40 EDT</pubDate>
+        <pubDate>Wed, 16 Apr 2025 17:02:18 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Over 16,000 Fortinet devices compromised with symlink backdoor</title>
+        <link>https://www.bleepingcomputer.com/news/security/over-16-000-fortinet-devices-compromised-with-symlink-backdoor/</link>
+        <pubDate>Wed, 16 Apr 2025 16:47:04 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/over-16-000-fortinet-devices-compromised-with-symlink-backdoor/</guid>
+	<description><![CDATA[Over 16,000 internet-exposed Fortinet devices have been detected as compromised with a new symlink backdoor that allows read-only access to sensitive files on previously compromised devices. [...]]]></description>
+ </item>
+
  <item>
         <title>Google blocked over 5 billion ads in 2024 amid rise in AI-powered scams</title>
         <link>https://www.bleepingcomputer.com/news/google/google-blocked-over-5-billion-ads-in-2024-amid-rise-in-ai-powered-scams/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/landmark-admin-data-breach-impact-now-reaches-16-million-people/</guid>
 	<description><![CDATA[Landmark Admin has issued an update to its investigation of a cyberattack it suffered in May 2024, increasing the number of impacted individuals to 1.6 million. [...]]]></description>
- </item>
-
- <item>
-        <title>Infamous message board 4chan taken down following major hack</title>
-        <link>https://www.bleepingcomputer.com/news/security/infamous-message-board-4chan-taken-down-following-major-hack/</link>
-        <pubDate>Tue, 15 Apr 2025 14:13:46 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/infamous-message-board-4chan-taken-down-following-major-hack/</guid>
-	<description><![CDATA[4chan, a notorious online forum, was taken offline earlier today after what appears to be a significant hack and has since been loading intermittently. [...]]]></description>
  </item>
 
 </channel>

@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=paulsblog.dev" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 16 Apr 2025 15:24:18 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 16 Apr 2025 20:28:16 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -60,11 +60,11 @@
 <p><strong>Update, April 16, 11:00 a.m. ET:</strong> The CVE board today announced the creation of non-profit entity called <strong>The CVE Foundation </strong>that will continue the program&#8217;s work under a new, unspecified funding mechanism and organizational structure.</p>
 <p>&#8220;Since its inception, the CVE Program has operated as a U.S. government-funded initiative, with oversight and management provided under contract,&#8221; the press release reads. &#8220;While this structure has supported the program&#8217;s growth, it has also raised longstanding concerns among members of the CVE Board about the sustainability and neutrality of a globally relied-upon resource being tied to a single government sponsor.&#8221;</p>
 <p>The organization&#8217;s website, <a href="https://www.thecvefoundation.org/home" target="_blank" rel="noopener">thecvefoundation.org</a>, is less than a day old and currently hosts no content other than the press release heralding its creation. The announcement said the foundation would release more information about its structure and transition planning in the coming days.</p>
-<p><img decoding="async" loading="lazy" class="aligncenter wp-image-71023" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/cve-foundation.png" alt="" width="687" height="859" /></p>
+<p><strong>Update, April 16, 4:26 p.m. ET:</strong> MITRE issued a statement today saying it &#8220;identified incremental funding to keep the programs operational. We appreciate the overwhelming support for these programs that have been expressed by the global cyber community, industry and government over the last 24 hours. The government continues to make considerable efforts to support MITRE&#8217;s role in the program and MITRE remains committed to CVE and CWE as global resources.&#8221;</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/04/funding-expires-for-key-cyber-vulnerability-database/feed/</wfw:commentRss>
-			<slash:comments>37</slash:comments>
+			<slash:comments>43</slash:comments>
 		
 		
 			</item>
@@ -172,7 +172,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/04/trump-revenge-tour-targets-cyber-leaders-elections/feed/</wfw:commentRss>
-			<slash:comments>41</slash:comments>
+			<slash:comments>45</slash:comments>
 		
 		
 			</item>
@@ -752,9 +752,9 @@ This story explores a slew of recent actions by the Trump administration that th
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 288/288 objects using memcached
-Page Caching using memcached 
+Object Caching 286/286 objects using memcached
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-04-16 16:00:03 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-04-16 17:00:03 by W3 Total Cache
 -->
