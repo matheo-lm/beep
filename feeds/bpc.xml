@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 16 Apr 2025 02:00:54 EDT</pubDate>
+        <pubDate>Wed, 16 Apr 2025 03:01:28 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>MITRE warns that funding for critical CVE program expires today</title>
+        <link>https://www.bleepingcomputer.com/news/security/mitre-warns-that-funding-for-critical-cve-program-expires-today/</link>
+        <pubDate>Wed, 16 Apr 2025 02:16:12 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/mitre-warns-that-funding-for-critical-cve-program-expires-today/</guid>
+	<description><![CDATA[MITRE Vice President Yosry Barsoum has warned that U.S. government funding for the Common Vulnerabilities and Exposures (CVE) and Common Weakness Enumeration (CWE) programs expires today, which could lead to widespread disruption across the global cybersecurity industry. [...]]]></description>
+ </item>
+
  <item>
         <title>ChatGPT 4.1 early benchmarks compared against Google Gemini</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-41-early-benchmarks-compared-against-google-gemini/</link>
@@ -190,22 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ssl-tls-certificate-lifespans-reduced-to-47-days-by-2029/</guid>
 	<description><![CDATA[The CA/Browser Forum has voted to significantly reduce the lifespan of SSL/TLS certificates over the next 4 years, with a final lifespan of just 47 days starting in 2029. [...]]]></description>
- </item>
-
- <item>
-        <title>New ResolverRAT malware targets pharma and healthcare orgs worldwide</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-resolverrat-malware-targets-pharma-and-healthcare-orgs-worldwide/</link>
-        <pubDate>Mon, 14 Apr 2025 12:40:23 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-resolverrat-malware-targets-pharma-and-healthcare-orgs-worldwide/</guid>
-	<description><![CDATA[A new remote access trojan (RAT) called 'ResolverRAT' is being used against organizations globally, with the malware used in recent attacks targeting the healthcare and pharmaceutical sectors. [...]]]></description>
  </item>
 
 </channel>
