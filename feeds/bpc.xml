@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 16 Apr 2025 13:59:42 EDT</pubDate>
+        <pubDate>Wed, 16 Apr 2025 14:58:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Apple fixes two zero-days exploited in targeted iPhone attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/apple-fixes-two-zero-days-exploited-in-targeted-iphone-attacks/</link>
+        <pubDate>Wed, 16 Apr 2025 14:06:22 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apple-fixes-two-zero-days-exploited-in-targeted-iphone-attacks/</guid>
+	<description><![CDATA[Apple released emergency security updates to patch two zero-day vulnerabilities that were used in an "extremely sophisticated attack" against specific targets' iPhones. [...]]]></description>
+ </item>
+
  <item>
         <title>Google begins unifying search country domains to Google.com</title>
         <link>https://www.bleepingcomputer.com/news/google/google-begins-unifying-search-country-domains-to-googlecom/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-blocks-activex-by-default-in-microsoft-365-office-2024/</guid>
 	<description><![CDATA[Microsoft announced it will begin disabling all ActiveX controls in Windows versions of Microsoft 365 and Office 2024 applications later this month. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Exchange 2016 and 2019 reach end of support in six months</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-reach-end-of-support-in-six-months/</link>
-        <pubDate>Tue, 15 Apr 2025 11:07:21 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-reach-end-of-support-in-six-months/</guid>
-	<description><![CDATA[​Microsoft warned that Exchange 2016 and Exchange 2019 will reach the end of support six months from now, on October 14. [...]]]></description>
  </item>
 
 </channel>
