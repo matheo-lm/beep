@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 15 Apr 2025 03:27:51 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 16 Apr 2025 03:59:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,50 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Funding Expires for Key Cyber Vulnerability Database</title>
+		<link>https://krebsonsecurity.com/2025/04/funding-expires-for-key-cyber-vulnerability-database/</link>
+					<comments>https://krebsonsecurity.com/2025/04/funding-expires-for-key-cyber-vulnerability-database/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Wed, 16 Apr 2025 03:59:18 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Common Vulnerabilities and Exposures]]></category>
+		<category><![CDATA[Corellium]]></category>
+		<category><![CDATA[CVE]]></category>
+		<category><![CDATA[CVE Numbering Authorities]]></category>
+		<category><![CDATA[Matt Tait]]></category>
+		<category><![CDATA[MITRE]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71010</guid>
+
+					<description><![CDATA[A critical resource that cybersecurity professionals worldwide rely on to identify, mitigate and fix security vulnerabilities in software and hardware is in danger of breaking down. The federally funded, non-profit research and development organization MITRE warned today that its contract to maintain the Common Vulnerabilities and Exposures (CVE) program -- which is traditionally funded each year by the Department of Homeland Security -- expires on April 16.]]></description>
+										<content:encoded><![CDATA[<p>A critical resource that cybersecurity professionals worldwide rely on to identify, mitigate and fix security vulnerabilities in software and hardware is in danger of breaking down. The federally funded, non-profit research and development organization <strong>MITRE</strong> warned today that its contract to maintain the <strong>Common Vulnerabilities and Exposures</strong> (CVE) program &#8212; which is traditionally funded each year by the Department of Homeland Security &#8212; expires on April 16.</p>
+<div id="attachment_71016" style="width: 752px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71016" decoding="async" class=" wp-image-71016" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/mitreletter.png" alt="" width="742" height="942" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/mitreletter.png 788w, https://krebsonsecurity.com/wp-content/uploads/2025/04/mitreletter-768x975.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/mitreletter-782x992.png 782w" sizes="(max-width: 742px) 100vw, 742px" /><p id="caption-attachment-71016" class="wp-caption-text">A letter from MITRE vice president Yosry Barsoum, warning that the funding for the CVE program will expire on April 16, 2025.</p></div>
+<p>Tens of thousands of security flaws in software are found and reported every year, and these vulnerabilities are eventually assigned their own unique CVE tracking number (e.g. <a href="https://www.cve.org/CVERecord?id=CVE-2024-43573" target="_blank" rel="noopener">CVE-2024-43573</a>, which is a <strong>Microsoft Windows</strong> bug that Redmond patched last year).</p>
+<p>There are hundreds of organizations &#8212; known as <strong>CVE Numbering Authorities</strong> (CNAs) &#8212; that are authorized by MITRE to bestow these CVE numbers on newly reported flaws. Many of these CNAs are country and government-specific, or tied to individual software vendors or vulnerability disclosure platforms (a.k.a. bug bounty programs).</p>
+<p>Put simply, MITRE is a critical, widely-used resource for centralizing and standardizing information on software vulnerabilities. That means the pipeline of information it supplies is plugged into an array of cybersecurity tools and services that help organizations identify and patch security holes &#8212; ideally before malware or malcontents can wriggle through them.</p>
+<p>&#8220;What the CVE lists really provide is a standardized way to describe the severity of that defect, and a centralized repository listing which versions of which products are defective and need to be updated,&#8221; said <a href="https://www.lawfaremedia.org/contributors/mtait" target="_blank" rel="noopener">Matt Tait</a>, chief operating officer of <strong>Corellium</strong>, a cybersecurity firm that sells phone-virtualization software for finding security flaws.</p>
+<p>In a letter sent today to the CVE board, MITRE Vice President <strong>Yosry Barsoum </strong>warned that on April 16, 2025, &#8220;the current contracting pathway for MITRE to develop, operate and modernize CVE and several other related programs will expire.&#8221;</p>
+<p>&#8220;If a break in service were to occur, we anticipate multiple impacts to CVE, including deterioration of national vulnerability databases and advisories, tool vendors, incident response operations, and all manner of critical infrastructure,&#8221; Barsoum wrote.</p>
+<p>MITRE told KrebsOnSecurity the CVE website listing vulnerabilities will remain up after the funding expires, but that new CVEs won&#8217;t be added after April 16.</p>
+<div id="attachment_71017" style="width: 760px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-71017" decoding="async" loading="lazy" class="wp-image-71017" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle.png" alt="" width="750" height="335" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle.png 1926w, https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle-768x343.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle-1536x686.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle-782x349.png 782w" sizes="(max-width: 750px) 100vw, 750px" /></a><p id="caption-attachment-71017" class="wp-caption-text">A representation of how a vulnerability becomes a CVE, and how that information is consumed. Image: James Berthoty, Latio Tech, via LinkedIn.</p></div>
+<p>DHS officials did not immediately respond to a request for comment. The program is funded through DHS&#8217;s <strong>Cybersecurity &amp; Infrastructure Security Agency</strong> (CISA), which is currently facing <a href="https://krebsonsecurity.com/2025/04/trump-revenge-tour-targets-cyber-leaders-elections/" target="_blank" rel="noopener">deep budget and staffing cuts by the Trump administration</a>.<span id="more-71010"></span></p>
+<p>Former CISA Director<strong> Jen Easterly</strong> said the CVE program is a bit like the Dewey Decimal System, but for cybersecurity.</p>
+<p>&#8220;It’s the global catalog that helps everyone—security teams, software vendors, researchers, governments—organize and talk about vulnerabilities using the same reference system,&#8221; Easterly said in <a href="https://www.linkedin.com/feed/update/urn:li:activity:7318021583191617538/" target="_blank" rel="noopener">a post on LinkedIn</a>. &#8220;Without it, everyone is using a different catalog or no catalog at all, no one knows if they’re talking about the same problem, defenders waste precious time figuring out what’s wrong, and worst of all, threat actors take advantage of the confusion.&#8221;</p>
+<p><strong>John Hammond</strong>, principal security researcher at the managed security firm <strong>Huntress</strong>, <a href="https://www.reuters.com/technology/us-funding-running-out-critical-cyber-vulnerability-database-manager-says-2025-04-15/" target="_blank" rel="noopener">told Reuters</a> he swore out loud when he heard the news that CVE&#8217;s funding was in jeopardy, and that losing the CVE program would be like losing &#8220;the language and lingo we used to address problems in cybersecurity.&#8221;</p>
+<p>&#8220;I really can&#8217;t help but think this is just going to hurt,&#8221; said Hammond, who posted <a href="https://www.youtube.com/watch?v=itbsfeqrRY4" target="_blank" rel="noopener">a Youtube video</a> to vent about the situation and alert others.</p>
+<p>Several people close to the matter told KrebsOnSecurity this is not the first time the CVE program&#8217;s budget has been left in funding limbo until the last minute. Barsoum&#8217;s letter, which was apparently leaked, sounded a hopeful note, saying the government is making &#8220;considerable efforts to continue MITRE&#8217;s role in support of the program.&#8221;</p>
+<p>Tait said that without the CVE program, risk managers inside companies would need to continuously monitor many other places for information about new vulnerabilities that may jeopardize the security of their IT networks. Meaning, it may become more common that software updates get mis-prioritized, with companies having hackable software deployed for longer than they otherwise would, he said.</p>
+<p>&#8220;Hopefully they will resolve this, but otherwise the list will rapidly fall out of date and stop being useful,&#8221; he said.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/04/funding-expires-for-key-cyber-vulnerability-database/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Trump Revenge Tour Targets Cyber Leaders, Elections</title>
 		<link>https://krebsonsecurity.com/2025/04/trump-revenge-tour-targets-cyber-leaders-elections/</link>
 					<comments>https://krebsonsecurity.com/2025/04/trump-revenge-tour-targets-cyber-leaders-elections/#comments</comments>
@@ -64,7 +108,7 @@
 
 					<description><![CDATA[President Trump last week revoked security clearances for Chris Krebs, the former director of the Cybersecurity and Infrastructure Security Agency (CISA) who was fired by Trump after declaring the 2020 election the most secure in U.S. history. The White House memo, which also suspended clearances for other security professionals at Krebs's employer SentinelOne, comes as CISA is facing huge funding and staffing cuts.]]></description>
 										<content:encoded><![CDATA[<p><strong>President Trump</strong> last week revoked security clearances for <strong>Chris Krebs</strong>, the former director of the <strong>Cybersecurity and Infrastructure Security Agency</strong> (CISA) who was fired by Trump after declaring the 2020 election the most secure in U.S. history. The White House memo, which also suspended clearances for other security professionals at Krebs&#8217;s employer <strong>SentinelOne</strong>, comes as CISA is facing huge funding and staffing cuts.</p>
-<div id="attachment_70987" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70987" decoding="async" class=" wp-image-70987" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/chriskrebs-gi.png" alt="" width="750" height="330" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/chriskrebs-gi.png 883w, https://krebsonsecurity.com/wp-content/uploads/2025/04/chriskrebs-gi-768x337.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/chriskrebs-gi-782x344.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-70987" class="wp-caption-text">Chris Krebs. Image: Getty Images.</p></div>
+<div id="attachment_70987" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70987" decoding="async" loading="lazy" class=" wp-image-70987" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/chriskrebs-gi.png" alt="" width="750" height="330" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/chriskrebs-gi.png 883w, https://krebsonsecurity.com/wp-content/uploads/2025/04/chriskrebs-gi-768x337.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/chriskrebs-gi-782x344.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-70987" class="wp-caption-text">Chris Krebs. Image: Getty Images.</p></div>
 <p>The extraordinary <a href="https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-addresses-risks-from-chris-krebs-and-government-censorship/" target="_blank" rel="noopener">April 9 memo</a> directs the attorney general to investigate Chris Krebs (no relation), calling him &#8220;a significant bad-faith actor who weaponized and abused his government authority.&#8221;</p>
 <p>The memo said the inquiry will include &#8220;a comprehensive evaluation of all of CISA&#8217;s activities over the last 6 years and will identify any instances where Krebs&#8217; or CISA&#8217;s conduct appears to be contrary to the administration’s commitment to free speech and ending federal censorship, including whether Krebs’ conduct was contrary to suitability standards for federal employees or involved the unauthorized dissemination of classified information.&#8221;</p>
 <p>CISA was created in 2018 during Trump&#8217;s first term, with Krebs installed as its first director. In 2020, CISA launched Rumor Control, a website that sought to rebut disinformation swirling around the 2020 election.</p>
@@ -697,58 +741,15 @@ This story explores a slew of recent actions by the Trump administration that th
 		
 		
 			</item>
-		<item>
-		<title>Microsoft: 6 Zero-Days in March 2025 Patch Tuesday</title>
-		<link>https://krebsonsecurity.com/2025/03/microsoft-6-zero-days-in-march-2025-patch-tuesday/</link>
-					<comments>https://krebsonsecurity.com/2025/03/microsoft-6-zero-days-in-march-2025-patch-tuesday/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Tue, 11 Mar 2025 23:53:01 +0000</pubDate>
-				<category><![CDATA[Security Tools]]></category>
-		<category><![CDATA[Time to Patch]]></category>
-		<category><![CDATA[Adam Barnett]]></category>
-		<category><![CDATA[CVE-2025-24983]]></category>
-		<category><![CDATA[CVE-2025-24984]]></category>
-		<category><![CDATA[CVE-2025-24985]]></category>
-		<category><![CDATA[CVE-2025-24991]]></category>
-		<category><![CDATA[CVE-2025-24993]]></category>
-		<category><![CDATA[CVE-2025-26633]]></category>
-		<category><![CDATA[ESET]]></category>
-		<category><![CDATA[Filip Jurčacko]]></category>
-		<category><![CDATA[Rapid7]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70681</guid>
-
-					<description><![CDATA[Microsoft today issued more than 50 security updates for its various Windows operating systems, including fixes for a whopping six zero-day vulnerabilities that are already seeing active exploitation.]]></description>
-										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today issued more than 50 security updates for its various <strong>Windows</strong> operating systems, including fixes for a whopping <em>six zero-day vulnerabilities</em> that are already seeing active exploitation.</p>
-<p><img decoding="async" loading="lazy" class="aligncenter wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
-<p>Two of the zero-day flaws include <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24991" target="_blank" rel="noopener">CVE-2025-24991</a> and <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24993" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24993&amp;source=gmail&amp;ust=1741811978241000&amp;usg=AOvVaw08YeX5TKKSxWlXHXx6FFHl">CVE-2025-24993</a>, both vulnerabilities in <strong>NTFS</strong>, the default file system for Windows and Windows Server. Both require the attacker to trick a target into mounting a malicious virtual hard disk. CVE-2025-24993 would lead to the possibility of local code execution, while CVE-2025-24991 could cause NTFS to disclose portions of memory.</p>
-<p>Microsoft credits researchers at <strong>ESET</strong> with reporting the zero-day bug labeled <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24983" target="_blank" rel="noopener">CVE-2025-24983</a>, an elevation of privilege vulnerability in older versions of Windows. ESET said the exploit was deployed via the <a href="https://www.kaspersky.com/about/press-releases/kaspersky-uncovers-pipemagic-backdoor-attacks-businesses-through-fake-chatgpt-application" target="_blank" rel="noopener">PipeMagic backdoor</a>, capable of exfiltrating data and enabling remote access to the machine.</p>
-<p>ESET&#8217;s <strong>Filip</strong> <b>Jurčacko </b>said the exploit in the wild targets only older versions of Windows OS: Windows 8.1 and Server 2012 R2. Although still used by millions, security support for these products ended more than a year ago, and mainstream support ended years ago. However, ESET notes the vulnerability itself also is present in newer Windows OS versions, including <strong>Windows 10 build 1809</strong> and the still-supported <strong>Windows Server 2016</strong>.</p>
-<p>Rapid7&#8217;s lead software engineer <strong>Adam Barnett</strong> said <strong>Windows 11</strong> and <strong>Server 2019</strong> onwards are not listed as receiving patches, so are presumably not vulnerable.</p>
-<p>&#8220;It’s not clear why newer Windows products dodged this particular bullet,&#8221; Barnett wrote. &#8220;The Windows 32 subsystem is still presumably alive and well, since there is no apparent mention of its demise on the Windows client OS deprecated features list.&#8221;<span id="more-70681"></span></p>
-<p>The zero-day flaw <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24984" target="_blank" rel="noopener">CVE-2025-24984</a> is another NTFS weakness that can be exploited by inserting a malicious USB drive into a Windows computer. Barnett said Microsoft&#8217;s advisory for this bug doesn&#8217;t quite join the dots, but successful exploitation appears to mean that portions of heap memory could be improperly dumped into a log file, which could then be combed through by an attacker hungry for privileged information.</p>
-<p>&#8220;A relatively low CVSSv3 base score of 4.6 reflects the practical difficulties of real-world exploitation, but a motivated attacker can sometimes achieve extraordinary results starting from the smallest of toeholds, and Microsoft does rate this vulnerability as important on its own proprietary severity ranking scale,&#8221; Barnett said.</p>
-<p>Another zero-day fixed this month &#8212; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-24985" target="_blank" rel="noopener">CVE-2025-24985</a> &#8212; could allow attackers to install malicious code. As with the NTFS bugs, this one requires that the user mount a malicious virtual hard drive.</p>
-<p>The final zero-day this month is <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-26633" target="_blank" rel="noopener">CVE-2025-26633</a>, a weakness in the <strong>Microsoft Management Console</strong>, a component of Windows that gives system administrators a way to configure and monitor the system. Exploiting this flaw requires the target to open a malicious file.</p>
-<p>This month&#8217;s bundle of patch love from Redmond also addresses six other vulnerabilities Microsoft has rated &#8220;critical,&#8221; meaning that malware or malcontents could exploit them to seize control over vulnerable PCs with no help from users.</p>
-<p>Barnett observed that this is now the sixth consecutive month where Microsoft has published zero-day vulnerabilities on Patch Tuesday without evaluating any of them as critical severity at time of publication.</p>
-<p>The <a href="https://isc.sans.edu/forums/diary/Microsoft%20Patch%20Tuesday%3A%20March%202025/31756/" target="_blank" rel="noopener">SANS Internet Storm Center</a> has a useful list of all the Microsoft patches released today, indexed by severity. Windows enterprise administrators would do well to keep an eye on <a href="http://www.askwoody.com/" target="_blank" rel="noopener">askwoody.com</a>, which often has the scoop on any patches causing problems. Please consider backing up your data before updating, and leave a comment below if you experience any issues applying this month&#8217;s updates.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/03/microsoft-6-zero-days-in-march-2025-patch-tuesday/feed/</wfw:commentRss>
-			<slash:comments>13</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 287/287 objects using memcached
+Object Caching 286/286 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-04-15 23:14:18 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-04-15 23:59:31 by W3 Total Cache
 -->
