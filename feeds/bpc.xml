@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 17 Apr 2025 14:59:24 EDT</pubDate>
+        <pubDate>Thu, 17 Apr 2025 15:59:23 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows NTLM hash leak flaw exploited in phishing attacks on governments</title>
+        <link>https://www.bleepingcomputer.com/news/security/windows-ntlm-hash-leak-flaw-exploited-in-phishing-attacks-on-governments/</link>
+        <pubDate>Thu, 17 Apr 2025 15:20:39 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/windows-ntlm-hash-leak-flaw-exploited-in-phishing-attacks-on-governments/</guid>
+	<description><![CDATA[A Windows vulnerability that exposes NTLM hashes using .library-ms files is now actively exploited by hackers in phishing campaigns targeting government entities and private companies. [...]]]></description>
+ </item>
+
  <item>
         <title>Chrome extensions with 6 million installs have hidden tracking code</title>
         <link>https://www.bleepingcomputer.com/news/security/chrome-extensions-with-6-million-installs-have-hidden-tracking-code/</link>
@@ -172,22 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/google/google-begins-unifying-search-country-domains-to-googlecom/</guid>
 	<description><![CDATA[Google has announced that it's retiring separate country code top-level domain names like google.co.uk or google.com.br and redirecting users to Google.com. [...]]]></description>
- </item>
-
- <item>
-        <title>Jira Down: Atlassian users experiencing degraded performance</title>
-        <link>https://www.bleepingcomputer.com/news/security/jira-down-atlassian-users-experiencing-degraded-performance/</link>
-        <pubDate>Wed, 16 Apr 2025 10:38:29 -0400</pubDate>
-        <dc:creator>Ax Sharma</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/jira-down-atlassian-users-experiencing-degraded-performance/</guid>
-	<description><![CDATA[Atlassian users are experiencing degraded performance amid an 'active incident' affecting multiple Jira products since morning hours today. Jira, Jira Service Management, Jira Work Management and Jira Product Discovery are among the impacted products. [...]]]></description>
  </item>
 
 </channel>
