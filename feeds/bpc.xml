@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 17 Apr 2025 09:06:21 EDT</pubDate>
+        <pubDate>Thu, 17 Apr 2025 10:00:51 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: Office 2016 and Office 2019 reach end of support in October</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-office-2016-and-office-2019-reach-end-of-support-in-october/</link>
+        <pubDate>Thu, 17 Apr 2025 09:30:01 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-office-2016-and-office-2019-reach-end-of-support-in-october/</guid>
+	<description><![CDATA[​​Microsoft has reminded customers that Office 2016 and Office 2019 will reach the end of extended support six months from now, on October 14, 2025. [...]]]></description>
+ </item>
+
  <item>
         <title>CISA warns of increased breach risks following Oracle Cloud leak</title>
         <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-increased-breach-risks-following-oracle-cloud-leak/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-blue-screen-crashes-caused-by-april-updates/</guid>
 	<description><![CDATA[Microsoft warned customers this week that their systems might crash with a blue screen error caused by a secure kernel fatal error after installing Windows updates released since March. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Some devices offered Windows 11 upgrades despite Intune blocks</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-some-devices-offered-windows-11-upgrades-despite-intune-blocks/</link>
-        <pubDate>Wed, 16 Apr 2025 06:31:48 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-some-devices-offered-windows-11-upgrades-despite-intune-blocks/</guid>
-	<description><![CDATA[Microsoft is working to fix an ongoing issue causing some users' Windows devices to be offered Windows 11 upgrades despite Intune policies preventing them. [...]]]></description>
  </item>
 
 </channel>
