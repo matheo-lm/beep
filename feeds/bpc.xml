@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 17 Apr 2025 05:59:01 EDT</pubDate>
+        <pubDate>Thu, 17 Apr 2025 06:58:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Windows Server emergency updates fix container launch issue</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/new-windows-server-emergency-updates-fix-container-launch-issue/</link>
+        <pubDate>Thu, 17 Apr 2025 06:36:47 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/new-windows-server-emergency-updates-fix-container-launch-issue/</guid>
+	<description><![CDATA[Microsoft has released emergency Windows Server updates to address a known issue preventing Windows containers from launching. [...]]]></description>
+ </item>
+
  <item>
         <title>CISA tags SonicWall VPN flaw as actively exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/cisa-tags-sonicwall-vpn-flaw-as-actively-exploited-in-attacks/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-41-early-benchmarks-compared-against-google-gemini/</guid>
 	<description><![CDATA[ChatGPT 4.1 is now rolling out, and it's a significant leap from GPT 4o, but it fails to beat the benchmark set by Google's most powerful model, Gemini. [...]]]></description>
- </item>
-
- <item>
-        <title>Midnight Blizzard deploys new GrapeLoader malware in embassy phishing</title>
-        <link>https://www.bleepingcomputer.com/news/security/midnight-blizzard-deploys-new-grapeloader-malware-in-embassy-phishing/</link>
-        <pubDate>Tue, 15 Apr 2025 16:25:57 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/midnight-blizzard-deploys-new-grapeloader-malware-in-embassy-phishing/</guid>
-	<description><![CDATA[Russian state-sponsored espionage group Midnight Blizzard is behind a new spear-phishing campaign targeting diplomatic entities in Europe, including embassies. [...]]]></description>
  </item>
 
 </channel>
