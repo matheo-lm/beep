@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 17 Apr 2025 06:58:59 EDT</pubDate>
+        <pubDate>Thu, 17 Apr 2025 08:03:52 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA warns of increased breach risks following Oracle Cloud leak</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-increased-breach-risks-following-oracle-cloud-leak/</link>
+        <pubDate>Thu, 17 Apr 2025 07:23:16 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-increased-breach-risks-following-oracle-cloud-leak/</guid>
+	<description><![CDATA[On Wednesday, CISA warned of heightened breach risks after the compromise of legacy Oracle Cloud servers earlier this year and highlighted the significant threat to enterprise networks. [...]]]></description>
+ </item>
+
  <item>
         <title>New Windows Server emergency updates fix container launch issue</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/new-windows-server-emergency-updates-fix-container-launch-issue/</link>
@@ -174,36 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-some-devices-offered-windows-11-upgrades-despite-intune-blocks/</guid>
 	<description><![CDATA[Microsoft is working to fix an ongoing issue causing some users' Windows devices to be offered Windows 11 upgrades despite Intune policies preventing them. [...]]]></description>
- </item>
-
- <item>
-        <title>MITRE warns that funding for critical CVE program expires today</title>
-        <link>https://www.bleepingcomputer.com/news/security/mitre-warns-that-funding-for-critical-cve-program-expires-today/</link>
-        <pubDate>Wed, 16 Apr 2025 02:16:12 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/mitre-warns-that-funding-for-critical-cve-program-expires-today/</guid>
-	<description><![CDATA[MITRE Vice President Yosry Barsoum has warned that U.S. government funding for the Common Vulnerabilities and Exposures (CVE) and Common Weakness Enumeration (CWE) programs expires today, which could lead to widespread disruption across the global cybersecurity industry. [...]]]></description>
- </item>
-
- <item>
-        <title>ChatGPT 4.1 early benchmarks compared against Google Gemini</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-41-early-benchmarks-compared-against-google-gemini/</link>
-        <pubDate>Tue, 15 Apr 2025 17:20:15 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-41-early-benchmarks-compared-against-google-gemini/</guid>
-	<description><![CDATA[ChatGPT 4.1 is now rolling out, and it's a significant leap from GPT 4o, but it fails to beat the benchmark set by Google's most powerful model, Gemini. [...]]]></description>
  </item>
 
 </channel>
