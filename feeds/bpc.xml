@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 17 Apr 2025 10:00:51 EDT</pubDate>
+        <pubDate>Thu, 17 Apr 2025 11:00:45 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ahold Delhaize confirms data theft after INC ransomware claims attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/ahold-delhaize-confirms-data-theft-after-inc-ransomware-claims-attack/</link>
+        <pubDate>Thu, 17 Apr 2025 10:49:09 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ahold-delhaize-confirms-data-theft-after-inc-ransomware-claims-attack/</guid>
+	<description><![CDATA[Food retail giant Ahold Delhaize confirms that data was stolen from its U.S. business systems during a November 2024 cyberattack. [...]]]></description>
+ </item>
+
+ <item>
+        <title>CTM360 Tracks Global Surge in SMS-Based Reward and Toll Scams</title>
+        <link>https://www.bleepingcomputer.com/news/security/ctm360-tracks-global-surge-in-sms-based-reward-and-toll-scams/</link>
+        <pubDate>Thu, 17 Apr 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by CTM360</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ctm360-tracks-global-surge-in-sms-based-reward-and-toll-scams/</guid>
+	<description><![CDATA[Thousands tricked by fake reward & toll scam texts. CTM360 exposes PointyPhish & TollShark—SMS phishing campaigns powered by the Darcula PhaaS platform, with 5K+ domains stealing payment info worldwide. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: Office 2016 and Office 2019 reach end of support in October</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-office-2016-and-office-2019-reach-end-of-support-in-october/</link>
@@ -174,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-extends-funding-to-ensure-no-lapse-in-critical-cve-services/</guid>
 	<description><![CDATA[CISA says the U.S. government has extended MITRE's funding to ensure no continuity issues with the critical Common Vulnerabilities and Exposures (CVE) program. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft warns of blue screen crashes caused by April updates</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-blue-screen-crashes-caused-by-april-updates/</link>
-        <pubDate>Wed, 16 Apr 2025 07:21:59 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-blue-screen-crashes-caused-by-april-updates/</guid>
-	<description><![CDATA[Microsoft warned customers this week that their systems might crash with a blue screen error caused by a secure kernel fatal error after installing Windows updates released since March. [...]]]></description>
  </item>
 
 </channel>
