@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 17 Apr 2025 17:01:39 EDT</pubDate>
+        <pubDate>Thu, 17 Apr 2025 18:00:07 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Critical Erlang/OTP SSH pre-auth RCE is 'Surprisingly Easy' to exploit, patch now</title>
+        <link>https://www.bleepingcomputer.com/news/security/critical-erlang-otp-ssh-pre-auth-rce-is-surprisingly-easy-to-exploit-patch-now/</link>
+        <pubDate>Thu, 17 Apr 2025 17:34:57 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critical-erlang-otp-ssh-pre-auth-rce-is-surprisingly-easy-to-exploit-patch-now/</guid>
+	<description><![CDATA[A critical vulnerability in the Erlang/OTP SSH, tracked as CVE-2025-32433, has been disclosed that allows for unauthenticated remote code execution on vulnerable devices. [...]]]></description>
+ </item>
+
  <item>
         <title>Entertainment services giant Legends International discloses data breach</title>
         <link>https://www.bleepingcomputer.com/news/security/entertainment-services-giant-legends-international-discloses-data-breach/</link>
@@ -168,22 +182,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/google/google-blocked-over-5-billion-ads-in-2024-amid-rise-in-ai-powered-scams/</guid>
 	<description><![CDATA[Google blocked 5.1 billion ads and suspended more than 39.2 million advertiser accounts in 2024, according to its 2024 Ads Safety Report released this week. [...]]]></description>
- </item>
-
- <item>
-        <title>Apple fixes two zero-days exploited in targeted iPhone attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/apple-fixes-two-zero-days-exploited-in-targeted-iphone-attacks/</link>
-        <pubDate>Wed, 16 Apr 2025 14:06:22 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Apple]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/apple-fixes-two-zero-days-exploited-in-targeted-iphone-attacks/</guid>
-	<description><![CDATA[Apple released emergency security updates to patch two zero-day vulnerabilities that were used in an "extremely sophisticated attack" against specific targets' iPhones. [...]]]></description>
  </item>
 
 </channel>
