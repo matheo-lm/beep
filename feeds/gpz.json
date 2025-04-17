@@ -402,6 +402,19 @@
       "categories": [],
       "isoDate": "2025-03-26T17:30:00.000Z",
       "tag": "exploits"
+    },
+    {
+      "creator": "Google Project Zero (noreply@blogger.com)",
+      "title": "The Windows Registry Adventure #6: Kernel-mode objects",
+      "link": "https://googleprojectzero.blogspot.com/2025/04/the-windows-registry-adventure-6-kernel.html",
+      "pubDate": "2025-04-16T14:19:00.000-07:00",
+      "dc:creator": "Google Project Zero (noreply@blogger.com)",
+      "content": "Posted by Mateusz Jurczyk, Google Project Zero\n\nWelcome back to the Windows Registry Adventure! In the previous installment of the series, we took a deep look into the internals of the regf hive format. Understanding this foundational aspec[...]",
+      "contentSnippet": "Posted by Mateusz Jurczyk, Google Project Zero\n\nWelcome back to the Windows Registry Adventure! In the previous installment of the series, we took a deep look into the internals of the regf hive format. Understanding this foundational aspec[...]",
+      "guid": "https://googleprojectzero.blogspot.com/2025/04/the-windows-registry-adventure-6-kernel.html",
+      "categories": [],
+      "isoDate": "2025-04-16T21:19:00.000Z",
+      "tag": "exploits"
     }
   ]
 }
