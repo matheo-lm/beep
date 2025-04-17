@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 17 Apr 2025 04:00:48 EDT</pubDate>
+        <pubDate>Thu, 17 Apr 2025 05:02:55 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA tags SonicWall VPN flaw as actively exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-tags-sonicwall-vpn-flaw-as-actively-exploited-in-attacks/</link>
+        <pubDate>Thu, 17 Apr 2025 04:54:30 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-tags-sonicwall-vpn-flaw-as-actively-exploited-in-attacks/</guid>
+	<description><![CDATA[On Wednesday, CISA warned federal agencies to secure their SonicWall Secure Mobile Access (SMA) 100 series appliances against attacks exploiting a high-severity remote code execution vulnerability. [...]]]></description>
+ </item>
+
  <item>
         <title>Over 16,000 Fortinet devices compromised with symlink backdoor</title>
         <link>https://www.bleepingcomputer.com/news/security/over-16-000-fortinet-devices-compromised-with-symlink-backdoor/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/midnight-blizzard-deploys-new-grapeloader-malware-in-embassy-phishing/</guid>
 	<description><![CDATA[Russian state-sponsored espionage group Midnight Blizzard is behind a new spear-phishing campaign targeting diplomatic entities in Europe, including embassies. [...]]]></description>
- </item>
-
- <item>
-        <title>Landmark Admin data breach impact now reaches 1.6 million people</title>
-        <link>https://www.bleepingcomputer.com/news/security/landmark-admin-data-breach-impact-now-reaches-16-million-people/</link>
-        <pubDate>Tue, 15 Apr 2025 14:33:57 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/landmark-admin-data-breach-impact-now-reaches-16-million-people/</guid>
-	<description><![CDATA[Landmark Admin has issued an update to its investigation of a cyberattack it suffered in May 2024, increasing the number of impacted individuals to 1.6 million. [...]]]></description>
  </item>
 
 </channel>
