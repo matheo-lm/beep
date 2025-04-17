@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 17 Apr 2025 15:59:23 EDT</pubDate>
+        <pubDate>Thu, 17 Apr 2025 17:01:39 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Entertainment services giant Legends International discloses data breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/entertainment-services-giant-legends-international-discloses-data-breach/</link>
+        <pubDate>Thu, 17 Apr 2025 16:51:18 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/entertainment-services-giant-legends-international-discloses-data-breach/</guid>
+	<description><![CDATA[Entertainment venue management firm Legends International warns it suffered a data breach in November 2024, which has impacted employees and people who visited venues under its management. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows NTLM hash leak flaw exploited in phishing attacks on governments</title>
         <link>https://www.bleepingcomputer.com/news/security/windows-ntlm-hash-leak-flaw-exploited-in-phishing-attacks-on-governments/</link>
@@ -170,22 +184,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/apple-fixes-two-zero-days-exploited-in-targeted-iphone-attacks/</guid>
 	<description><![CDATA[Apple released emergency security updates to patch two zero-day vulnerabilities that were used in an "extremely sophisticated attack" against specific targets' iPhones. [...]]]></description>
- </item>
-
- <item>
-        <title>Google begins unifying search country domains to Google.com</title>
-        <link>https://www.bleepingcomputer.com/news/google/google-begins-unifying-search-country-domains-to-googlecom/</link>
-        <pubDate>Wed, 16 Apr 2025 10:47:04 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/google/google-begins-unifying-search-country-domains-to-googlecom/</guid>
-	<description><![CDATA[Google has announced that it's retiring separate country code top-level domain names like google.co.uk or google.com.br and redirecting users to Google.com. [...]]]></description>
  </item>
 
 </channel>
