@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 18 Apr 2025 12:02:51 EDT</pubDate>
+        <pubDate>Fri, 18 Apr 2025 13:00:09 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FBI: Scammers pose as FBI IC3 employees to 'help' recover lost funds</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-scammers-pose-as-fbi-ic3-employees-to-help-recover-lost-funds/</link>
+        <pubDate>Fri, 18 Apr 2025 12:19:47 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-scammers-pose-as-fbi-ic3-employees-to-help-recover-lost-funds/</guid>
+	<description><![CDATA[The FBI warns that scammers posing as FBI IC3 employees are offering to "help" fraud victims recover money lost to other scammers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>ASUS warns of critical auth bypass flaw in routers using AiCloud</title>
+        <link>https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-auth-bypass-flaw-in-routers-using-aicloud/</link>
+        <pubDate>Fri, 18 Apr 2025 12:05:23 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Cloud]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-auth-bypass-flaw-in-routers-using-aicloud/</guid>
+	<description><![CDATA[ASUS is warning about an authentication bypass vulnerability in routers with AiCloud enabled that could allow remote attackers to perform unauthorized execution of functions on the device. [...]]]></description>
+ </item>
+
  <item>
         <title>SonicWall SMA VPN devices targeted in attacks since January</title>
         <link>https://www.bleepingcomputer.com/news/security/sonicwall-sma-vpn-devices-targeted-in-attacks-since-january/</link>
@@ -168,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-office-2016-and-office-2019-reach-end-of-support-in-october/</guid>
 	<description><![CDATA[​​Microsoft has reminded customers that Office 2016 and Office 2019 will reach the end of extended support six months from now, on October 14, 2025. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA warns of increased breach risks following Oracle Cloud leak</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-increased-breach-risks-following-oracle-cloud-leak/</link>
-        <pubDate>Thu, 17 Apr 2025 07:23:16 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-increased-breach-risks-following-oracle-cloud-leak/</guid>
-	<description><![CDATA[On Wednesday, CISA warned of heightened breach risks after the compromise of legacy Oracle Cloud servers earlier this year and highlighted the significant threat to enterprise networks. [...]]]></description>
  </item>
 
 </channel>
