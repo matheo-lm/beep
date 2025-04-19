@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 19 Apr 2025 17:59:58 EDT</pubDate>
+        <pubDate>Sat, 19 Apr 2025 19:00:07 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Widespread Microsoft Entra lockouts tied to new security feature rollout</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/widespread-microsoft-entra-lockouts-tied-to-new-security-feature-rollout/</link>
+        <pubDate>Sat, 19 Apr 2025 18:04:34 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/widespread-microsoft-entra-lockouts-tied-to-new-security-feature-rollout/</guid>
+	<description><![CDATA[Windows administrators from numerous organizations report widespread account lockouts triggered by false positives in the rollout of a new Microsoft Entra ID's "leaked credentials" detection app called MACE. [...]]]></description>
+ </item>
+
  <item>
         <title>New Android malware steals your credit cards for NFC relay attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/supercard-x-android-malware-use-stolen-cards-in-nfc-relay-attacks/</link>
@@ -192,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/critical-erlang-otp-ssh-pre-auth-rce-is-surprisingly-easy-to-exploit-patch-now/</guid>
 	<description><![CDATA[A critical vulnerability in the Erlang/OTP SSH, tracked as CVE-2025-32433, has been disclosed that allows for unauthenticated remote code execution on vulnerable devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Entertainment services giant Legends International discloses data breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/entertainment-services-giant-legends-international-discloses-data-breach/</link>
-        <pubDate>Thu, 17 Apr 2025 16:51:18 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/entertainment-services-giant-legends-international-discloses-data-breach/</guid>
-	<description><![CDATA[Entertainment venue management firm Legends International warns it suffered a data breach in November 2024, which has impacted employees and people who visited venues under its management. [...]]]></description>
  </item>
 
 </channel>
