@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 19 Apr 2025 15:59:13 EDT</pubDate>
+        <pubDate>Sat, 19 Apr 2025 16:59:25 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Android malware steals your credit cards for NFC relay attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/supercard-x-android-malware-use-stolen-cards-in-nfc-relay-attacks/</link>
+        <pubDate>Sat, 19 Apr 2025 11:17:28 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/supercard-x-android-malware-use-stolen-cards-in-nfc-relay-attacks/</guid>
+	<description><![CDATA[A new malware-as-a-service (MaaS) platform named 'SuperCard X' has emerged, targeting Android devices via NFC relay attacks that enable point-of-sale and ATM transactions using compromised payment card data. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Critical Erlang/OTP SSH RCE bug now has public exploits, patch now</title>
+        <link>https://www.bleepingcomputer.com/news/security/public-exploits-released-for-critical-erlang-otp-ssh-flaw-patch-now/</link>
+        <pubDate>Sat, 19 Apr 2025 10:05:15 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/public-exploits-released-for-critical-erlang-otp-ssh-flaw-patch-now/</guid>
+	<description><![CDATA[Public exploits are now available for a critical Erlang/OTP SSH vulnerability tracked as CVE-2025-32433, allowing unauthenticated attackers to remotely execute code on impacted devices. [...]]]></description>
+ </item>
+
  <item>
         <title>Google Gemini AI is getting ChatGPT-like Scheduled Actions feature</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-gemini-ai-is-getting-chatgpt-like-scheduled-actions-feature/</link>
@@ -176,34 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/entertainment-services-giant-legends-international-discloses-data-breach/</guid>
 	<description><![CDATA[Entertainment venue management firm Legends International warns it suffered a data breach in November 2024, which has impacted employees and people who visited venues under its management. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows NTLM hash leak flaw exploited in phishing attacks on governments</title>
-        <link>https://www.bleepingcomputer.com/news/security/windows-ntlm-hash-leak-flaw-exploited-in-phishing-attacks-on-governments/</link>
-        <pubDate>Thu, 17 Apr 2025 15:20:39 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/windows-ntlm-hash-leak-flaw-exploited-in-phishing-attacks-on-governments/</guid>
-	<description><![CDATA[A Windows vulnerability that exposes NTLM hashes using .library-ms files is now actively exploited by hackers in phishing campaigns targeting government entities and private companies. [...]]]></description>
- </item>
-
- <item>
-        <title>Chrome extensions with 6 million installs have hidden tracking code</title>
-        <link>https://www.bleepingcomputer.com/news/security/chrome-extensions-with-6-million-installs-have-hidden-tracking-code/</link>
-        <pubDate>Thu, 17 Apr 2025 12:50:06 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/chrome-extensions-with-6-million-installs-have-hidden-tracking-code/</guid>
-	<description><![CDATA[A set of 57 Chrome extensions with 6,000,000 users have been discovered with very risky capabilities, such as monitoring browsing behavior, accessing cookies for domains, and potentially executing remote scripts. [...]]]></description>
  </item>
 
 </channel>
