@@ -11,11 +11,55 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 21 Apr 2025 09:08:30 EDT</pubDate>
+        <pubDate>Mon, 21 Apr 2025 10:02:36 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>WordPress ad-fraud plugins generated 1.4 billion ad requests per day</title>
+        <link>https://www.bleepingcomputer.com/news/security/scallywag-ad-fraud-operation-generated-14-billion-ad-requests-per-day/</link>
+        <pubDate>Mon, 21 Apr 2025 09:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/scallywag-ad-fraud-operation-generated-14-billion-ad-requests-per-day/</guid>
+	<description><![CDATA[A large-scale ad fraud operation called 'Scallywag' is monetizing pirating and URL shortening sites through specially crafted WordPress plugins that generate billions of daily fraudulent requests. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Phishers abuse Google OAuth to spoof Google in DKIM replay attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/phishers-abuse-google-oauth-to-spoof-google-in-dkim-replay-attack/</link>
+        <pubDate>Sun, 20 Apr 2025 13:31:13 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Linux]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/phishers-abuse-google-oauth-to-spoof-google-in-dkim-replay-attack/</guid>
+	<description><![CDATA[In a rather clever attack, hackers leveraged a weakness that allowed them to send a fake email that seemed delivered from Google's systems, passing all verifications but pointing to a fraudulent page that collected logins. [...]]]></description>
+ </item>
+
+ <item>
+        <title>State-sponsored hackers embrace ClickFix social engineering tactic</title>
+        <link>https://www.bleepingcomputer.com/news/security/state-sponsored-hackers-embrace-clickfix-social-engineering-tactic/</link>
+        <pubDate>Sun, 20 Apr 2025 10:14:24 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/state-sponsored-hackers-embrace-clickfix-social-engineering-tactic/</guid>
+	<description><![CDATA[ClickFix attacks are being increasingly adopted by threat actors of all levels, with researchers now seeing multiple advanced persistent threat (APT) groups from North Korea, Iran, and Russia utilizing the tactic to breach networks. [...]]]></description>
+ </item>
+
  <item>
         <title>Widespread Microsoft Entra lockouts tied to new security feature rollout</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/widespread-microsoft-entra-lockouts-tied-to-new-security-feature-rollout/</link>
@@ -180,34 +224,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/7-steps-to-take-after-a-credential-based-cyberattack/</guid>
 	<description><![CDATA[Hackers don't break in—they log in. Credential-based attacks now fuel nearly half of all breaches. Learn how to scan your Active Directory for compromised passwords and stop attackers before they strike. [...]]]></description>
- </item>
-
- <item>
-        <title>Cisco Webex bug lets hackers gain code execution via meeting links</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisco-webex-bug-lets-hackers-gain-code-execution-via-meeting-links/</link>
-        <pubDate>Fri, 18 Apr 2025 08:09:55 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisco-webex-bug-lets-hackers-gain-code-execution-via-meeting-links/</guid>
-	<description><![CDATA[Cisco has released security updates for a high-severity Webex vulnerability that allows unauthenticated attackers to gain client-side remote code execution using malicious meeting invite links. [...]]]></description>
- </item>
-
- <item>
-        <title>Critical Erlang/OTP SSH pre-auth RCE is 'Surprisingly Easy' to exploit, patch now</title>
-        <link>https://www.bleepingcomputer.com/news/security/critical-erlang-otp-ssh-pre-auth-rce-is-surprisingly-easy-to-exploit-patch-now/</link>
-        <pubDate>Thu, 17 Apr 2025 17:34:57 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/critical-erlang-otp-ssh-pre-auth-rce-is-surprisingly-easy-to-exploit-patch-now/</guid>
-	<description><![CDATA[A critical vulnerability in the Erlang/OTP SSH, tracked as CVE-2025-32433, has been disclosed that allows for unauthenticated remote code execution on vulnerable devices. [...]]]></description>
  </item>
 
 </channel>
