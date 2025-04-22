@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 22 Apr 2025 15:00:11 EDT</pubDate>
+        <pubDate>Tue, 22 Apr 2025 15:58:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers abuse Zoom remote control feature for crypto-theft attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-abuse-zoom-remote-control-feature-for-crypto-theft-attacks/</link>
+        <pubDate>Tue, 22 Apr 2025 15:43:15 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-abuse-zoom-remote-control-feature-for-crypto-theft-attacks/</guid>
+	<description><![CDATA[A hacking group dubbed 'Elusive Comet' targets cryptocurrency users in social engineering attacks that exploit Zoom's remote control feature to trick users into granting them access to their machines. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 10 KB5055612 preview update fixes a GPU bug in WSL2</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5055612-preview-update-fixes-a-gpu-bug-in-wsl2/</link>
+        <pubDate>Tue, 22 Apr 2025 15:25:08 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5055612-preview-update-fixes-a-gpu-bug-in-wsl2/</guid>
+	<description><![CDATA[Microsoft has released the optional KB5055612 preview cumulative update for Windows 10 22H2 with two changes, including a fix for a GPU paravirtualization bug in Windows Subsystem for Linux 2 (WSL2). [...]]]></description>
+ </item>
+
  <item>
         <title>SK Telecom warns customer USIM data exposed in malware attack</title>
         <link>https://www.bleepingcomputer.com/news/security/sk-telecom-warns-customer-usim-data-exposed-in-malware-attack/</link>
@@ -162,22 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/public-exploits-released-for-critical-erlang-otp-ssh-flaw-patch-now/</guid>
 	<description><![CDATA[Public exploits are now available for a critical Erlang/OTP SSH vulnerability tracked as CVE-2025-32433, allowing unauthenticated attackers to remotely execute code on impacted devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Google Gemini AI is getting ChatGPT-like Scheduled Actions feature</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-gemini-ai-is-getting-chatgpt-like-scheduled-actions-feature/</link>
-        <pubDate>Sat, 19 Apr 2025 08:01:46 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/google-gemini-ai-is-getting-chatgpt-like-scheduled-actions-feature/</guid>
-	<description><![CDATA[Google Gemini is testing a ChatGPT-like scheduled tasks feature called "Scheduled Actions," which will allow you to create tasks that Gemini will execute later. [...]]]></description>
  </item>
 
 </channel>
