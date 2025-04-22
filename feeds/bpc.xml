@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 22 Apr 2025 10:03:21 EDT</pubDate>
+        <pubDate>Tue, 22 Apr 2025 11:02:40 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cookie-Bite attack PoC uses Chrome extension to steal session tokens</title>
+        <link>https://www.bleepingcomputer.com/news/security/cookie-bite-attack-poc-uses-chrome-extension-to-steal-session-tokens/</link>
+        <pubDate>Tue, 22 Apr 2025 11:02:35 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cookie-bite-attack-poc-uses-chrome-extension-to-steal-session-tokens/</guid>
+	<description><![CDATA[A proof-of-concept attack called "Cookie-Bite" uses a browser extension to steal browser session cookies from Azure Entra ID to bypass multi-factor authentication (MFA) protections and maintain access to cloud services like Microsoft 365, Outlook, and Teams. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft Entra account lockouts caused by user token logging mishap</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-account-lockouts-caused-by-user-token-logging-mishap/</link>
@@ -180,38 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fbi-scammers-pose-as-fbi-ic3-employees-to-help-recover-lost-funds/</guid>
 	<description><![CDATA[The FBI warns that scammers posing as FBI IC3 employees are offering to "help" fraud victims recover money lost to other scammers. [...]]]></description>
- </item>
-
- <item>
-        <title>ASUS warns of critical auth bypass flaw in routers using AiCloud</title>
-        <link>https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-auth-bypass-flaw-in-routers-using-aicloud/</link>
-        <pubDate>Fri, 18 Apr 2025 12:05:23 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Cloud]]></category>
-
-        <category><![CDATA[Hardware]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-auth-bypass-flaw-in-routers-using-aicloud/</guid>
-	<description><![CDATA[ASUS is warning about an authentication bypass vulnerability in routers with AiCloud enabled that could allow remote attackers to perform unauthorized execution of functions on the device. [...]]]></description>
- </item>
-
- <item>
-        <title>SonicWall SMA VPN devices targeted in attacks since January</title>
-        <link>https://www.bleepingcomputer.com/news/security/sonicwall-sma-vpn-devices-targeted-in-attacks-since-january/</link>
-        <pubDate>Fri, 18 Apr 2025 11:02:08 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-sma-vpn-devices-targeted-in-attacks-since-january/</guid>
-	<description><![CDATA[A remote code execution vulnerability affecting SonicWall Secure Mobile Access (SMA) appliances has been under active exploitation since at least January 2025, according to cybersecurity company Arctic Wolf. [...]]]></description>
  </item>
 
 </channel>
