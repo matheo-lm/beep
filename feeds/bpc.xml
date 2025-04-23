@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 23 Apr 2025 12:59:30 EDT</pubDate>
+        <pubDate>Wed, 23 Apr 2025 14:02:48 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>WhatsApp's new Advanced Chat Privacy protects sensitive messages</title>
+        <link>https://www.bleepingcomputer.com/news/security/whatsapps-new-advanced-chat-privacy-protects-sensitive-messages/</link>
+        <pubDate>Wed, 23 Apr 2025 13:42:34 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/whatsapps-new-advanced-chat-privacy-protects-sensitive-messages/</guid>
+	<description><![CDATA[WhatsApp has introduced a new Advanced Chat Privacy feature to protect sensitive information exchanged in private chats and group conversations. [...]]]></description>
+ </item>
+
  <item>
         <title>Blue Shield of California leaked health data of 4.7 million members to Google</title>
         <link>https://www.bleepingcomputer.com/news/security/blue-shield-of-california-leaked-health-data-of-47-million-members-to-google/</link>
@@ -188,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ripples-recommended-xrp-library-xrpljs-hacked-to-steal-wallets/</guid>
 	<description><![CDATA[The recommended Ripple cryptocurrency NPM JavaScript library named "xrpl.js" was compromised to steal XRP wallet seeds and private keys and transfer them to an attacker-controlled server, allowing threat actors to steal all the funds stored in the wallets. [...]]]></description>
- </item>
-
- <item>
-        <title>Cookie-Bite attack PoC uses Chrome extension to steal session tokens</title>
-        <link>https://www.bleepingcomputer.com/news/security/cookie-bite-attack-poc-uses-chrome-extension-to-steal-session-tokens/</link>
-        <pubDate>Tue, 22 Apr 2025 11:02:35 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cookie-bite-attack-poc-uses-chrome-extension-to-steal-session-tokens/</guid>
-	<description><![CDATA[A proof-of-concept attack called "Cookie-Bite" uses a browser extension to steal browser session cookies from Azure Entra ID to bypass multi-factor authentication (MFA) protections and maintain access to cloud services like Microsoft 365, Outlook, and Teams. [...]]]></description>
  </item>
 
 </channel>
