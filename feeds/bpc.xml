@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 23 Apr 2025 11:00:59 EDT</pubDate>
+        <pubDate>Wed, 23 Apr 2025 12:03:58 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Blue Shield of California leaked health data of 4.7 million members to Google</title>
+        <link>https://www.bleepingcomputer.com/news/security/blue-shield-of-california-leaked-health-data-of-47-million-members-to-google/</link>
+        <pubDate>Wed, 23 Apr 2025 11:38:37 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/blue-shield-of-california-leaked-health-data-of-47-million-members-to-google/</guid>
+	<description><![CDATA[Blue Shield of California disclosed it suffered a data breach after exposing protected health information of 4.7 million members to Google's analytics and advertisement platforms. [...]]]></description>
+ </item>
+
+ <item>
+        <title>FBI: US lost record $16.6 billion to cybercrime in 2024</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-us-lost-record-166-billion-to-cybercrime-in-2024/</link>
+        <pubDate>Wed, 23 Apr 2025 11:21:46 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-us-lost-record-166-billion-to-cybercrime-in-2024/</guid>
+	<description><![CDATA[The FBI says cybercriminals have stolen a record $16,6 billion in 2024, marking an increase in losses of over 33% compared to the previous year. [...]]]></description>
+ </item>
+
  <item>
         <title>ASUS releases fix for AMI bug that lets hackers brick servers</title>
         <link>https://www.bleepingcomputer.com/news/security/asus-releases-fix-for-ami-bug-that-lets-hackers-brick-servers/</link>
@@ -172,22 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cookie-bite-attack-poc-uses-chrome-extension-to-steal-session-tokens/</guid>
 	<description><![CDATA[A proof-of-concept attack called "Cookie-Bite" uses a browser extension to steal browser session cookies from Azure Entra ID to bypass multi-factor authentication (MFA) protections and maintain access to cloud services like Microsoft 365, Outlook, and Teams. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft Entra account lockouts caused by user token logging mishap</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-account-lockouts-caused-by-user-token-logging-mishap/</link>
-        <pubDate>Mon, 21 Apr 2025 12:26:19 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-account-lockouts-caused-by-user-token-logging-mishap/</guid>
-	<description><![CDATA[Microsoft confirms that the weekend Entra account lockouts were caused by the invalidation of short-lived user refresh tokens that were mistakenly logged into internal systems. [...]]]></description>
  </item>
 
 </channel>
