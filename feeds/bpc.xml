@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 23 Apr 2025 02:59:10 EDT</pubDate>
+        <pubDate>Wed, 23 Apr 2025 04:04:13 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft fixes Remote Desktop freezes caused by Windows updates</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-freezes-caused-by-windows-updates/</link>
+        <pubDate>Wed, 23 Apr 2025 03:59:09 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-freezes-caused-by-windows-updates/</guid>
+	<description><![CDATA[​Microsoft has resolved a known issue causing Remote Desktop sessions to freeze on Windows Server 2025 and Windows 11 24H2 devices. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft fixes Windows Server 2025 blue screen, install issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2025-blue-screen-and-install-issues/</link>
+        <pubDate>Wed, 23 Apr 2025 03:33:39 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2025-blue-screen-and-install-issues/</guid>
+	<description><![CDATA[Microsoft has fixed several known issues that caused Blue Screen of Death (BSOD) and installation issues on Windows Server 2025 systems with a high core count. [...]]]></description>
+ </item>
+
  <item>
         <title>Marks &amp; Spencer confirms a cyberattack as customers face delayed orders</title>
         <link>https://www.bleepingcomputer.com/news/security/marks-and-spencer-confirms-a-cyberattack-as-customers-face-delayed-orders/</link>
@@ -160,36 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/phishers-abuse-google-oauth-to-spoof-google-in-dkim-replay-attack/</guid>
 	<description><![CDATA[In a rather clever attack, hackers leveraged a weakness that allowed them to send a fake email that seemed delivered from Google's systems, passing all verifications but pointing to a fraudulent page that collected logins. [...]]]></description>
- </item>
-
- <item>
-        <title>State-sponsored hackers embrace ClickFix social engineering tactic</title>
-        <link>https://www.bleepingcomputer.com/news/security/state-sponsored-hackers-embrace-clickfix-social-engineering-tactic/</link>
-        <pubDate>Sun, 20 Apr 2025 10:14:24 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/state-sponsored-hackers-embrace-clickfix-social-engineering-tactic/</guid>
-	<description><![CDATA[ClickFix attacks are being increasingly adopted by threat actors of all levels, with researchers now seeing multiple advanced persistent threat (APT) groups from North Korea, Iran, and Russia utilizing the tactic to breach networks. [...]]]></description>
- </item>
-
- <item>
-        <title>Widespread Microsoft Entra lockouts tied to new security feature rollout</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/widespread-microsoft-entra-lockouts-tied-to-new-security-feature-rollout/</link>
-        <pubDate>Sat, 19 Apr 2025 18:04:34 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/widespread-microsoft-entra-lockouts-tied-to-new-security-feature-rollout/</guid>
-	<description><![CDATA[Windows administrators from numerous organizations report widespread account lockouts triggered by false positives in the rollout of a new Microsoft Entra ID's "leaked credentials" detection app called MACE. [...]]]></description>
  </item>
 
 </channel>
