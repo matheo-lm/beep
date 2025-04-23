@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 22 Apr 2025 18:58:18 EDT</pubDate>
+        <pubDate>Tue, 22 Apr 2025 20:11:32 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Marks &amp; Spencer confirms a cyberattack as customers face delayed orders</title>
+        <link>https://www.bleepingcomputer.com/news/security/marks-and-spencer-confirms-a-cyberattack-as-customers-face-delayed-orders/</link>
+        <pubDate>Tue, 22 Apr 2025 19:26:04 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/marks-and-spencer-confirms-a-cyberattack-as-customers-face-delayed-orders/</guid>
+	<description><![CDATA[Marks & Spencer (M&S) has disclosed that it is responding to a cyberattack over the past few days that has impacted operations, including its Click and Collect service. [...]]]></description>
+ </item>
+
  <item>
         <title>Active! Mail RCE flaw exploited in attacks on Japanese orgs</title>
         <link>https://www.bleepingcomputer.com/news/security/active-mail-rce-flaw-exploited-in-attacks-on-japanese-orgs/</link>
@@ -75,7 +89,7 @@
  </item>
 
  <item>
-        <title>Ripple’s recommended XRP library xrpl.js hacked to steal wallets</title>
+        <title>Ripple's recommended XRP library xrpl.js hacked to steal wallets</title>
         <link>https://www.bleepingcomputer.com/news/security/ripples-recommended-xrp-library-xrpljs-hacked-to-steal-wallets/</link>
         <pubDate>Tue, 22 Apr 2025 12:45:04 -0400</pubDate>
         <dc:creator>Lawrence Abrams</dc:creator>
@@ -176,22 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/widespread-microsoft-entra-lockouts-tied-to-new-security-feature-rollout/</guid>
 	<description><![CDATA[Windows administrators from numerous organizations report widespread account lockouts triggered by false positives in the rollout of a new Microsoft Entra ID's "leaked credentials" detection app called MACE. [...]]]></description>
- </item>
-
- <item>
-        <title>New Android malware steals your credit cards for NFC relay attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/supercard-x-android-malware-use-stolen-cards-in-nfc-relay-attacks/</link>
-        <pubDate>Sat, 19 Apr 2025 11:17:28 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/supercard-x-android-malware-use-stolen-cards-in-nfc-relay-attacks/</guid>
-	<description><![CDATA[A new malware-as-a-service (MaaS) platform named 'SuperCard X' has emerged, targeting Android devices via NFC relay attacks that enable point-of-sale and ATM transactions using compromised payment card data. [...]]]></description>
  </item>
 
 </channel>
