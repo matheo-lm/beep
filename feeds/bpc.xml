@@ -11,7 +11,7 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 23 Apr 2025 09:09:59 EDT</pubDate>
+        <pubDate>Wed, 23 Apr 2025 09:59:26 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
@@ -172,22 +172,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/scallywag-ad-fraud-operation-generated-14-billion-ad-requests-per-day/</guid>
 	<description><![CDATA[A large-scale ad fraud operation called 'Scallywag' is monetizing pirating and URL shortening sites through specially crafted WordPress plugins that generate billions of daily fraudulent requests. [...]]]></description>
- </item>
-
- <item>
-        <title>Phishers abuse Google OAuth to spoof Google in DKIM replay attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/phishers-abuse-google-oauth-to-spoof-google-in-dkim-replay-attack/</link>
-        <pubDate>Sun, 20 Apr 2025 13:31:13 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Linux]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/phishers-abuse-google-oauth-to-spoof-google-in-dkim-replay-attack/</guid>
-	<description><![CDATA[In a rather clever attack, hackers leveraged a weakness that allowed them to send a fake email that seemed delivered from Google's systems, passing all verifications but pointing to a fraudulent page that collected logins. [...]]]></description>
  </item>
 
 </channel>
