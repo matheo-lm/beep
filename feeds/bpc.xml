@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 23 Apr 2025 09:59:26 EDT</pubDate>
+        <pubDate>Wed, 23 Apr 2025 11:00:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ASUS releases fix for AMI bug that lets hackers brick servers</title>
+        <link>https://www.bleepingcomputer.com/news/security/asus-releases-fix-for-ami-bug-that-lets-hackers-brick-servers/</link>
+        <pubDate>Wed, 23 Apr 2025 10:50:49 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/asus-releases-fix-for-ami-bug-that-lets-hackers-brick-servers/</guid>
+	<description><![CDATA[ASUS has released security updates to address CVE-2024-54085, a maximum severity flaw that could allow attackers to hijack and potentially brick servers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Phishing detection is broken: Why most attacks feel like a zero day</title>
+        <link>https://www.bleepingcomputer.com/news/security/phishing-detection-is-broken-why-most-attacks-feel-like-a-zero-day/</link>
+        <pubDate>Wed, 23 Apr 2025 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by Push Security</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/phishing-detection-is-broken-why-most-attacks-feel-like-a-zero-day/</guid>
+	<description><![CDATA[Phishing attacks now evade email filters, proxies, and MFA — making every attack feel like a zero-day. This article from Push Security breaks down why detection is failing and how real-time, in-browser analysis can help turn the tide. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes Remote Desktop freezes caused by Windows updates</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-freezes-caused-by-windows-updates/</link>
@@ -158,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-account-lockouts-caused-by-user-token-logging-mishap/</guid>
 	<description><![CDATA[Microsoft confirms that the weekend Entra account lockouts were caused by the invalidation of short-lived user refresh tokens that were mistakenly logged into internal systems. [...]]]></description>
- </item>
-
- <item>
-        <title>WordPress ad-fraud plugins generated 1.4 billion ad requests per day</title>
-        <link>https://www.bleepingcomputer.com/news/security/scallywag-ad-fraud-operation-generated-14-billion-ad-requests-per-day/</link>
-        <pubDate>Mon, 21 Apr 2025 09:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/scallywag-ad-fraud-operation-generated-14-billion-ad-requests-per-day/</guid>
-	<description><![CDATA[A large-scale ad fraud operation called 'Scallywag' is monetizing pirating and URL shortening sites through specially crafted WordPress plugins that generate billions of daily fraudulent requests. [...]]]></description>
  </item>
 
 </channel>
