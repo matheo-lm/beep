@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 24 Apr 2025 15:59:35 EDT</pubDate>
+        <pubDate>Thu, 24 Apr 2025 17:00:01 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers abuse OAuth 2.0 workflows to hijack Microsoft 365 accounts</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-abuse-oauth-20-workflows-to-hijack-microsoft-365-accounts/</link>
+        <pubDate>Thu, 24 Apr 2025 16:24:49 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-abuse-oauth-20-workflows-to-hijack-microsoft-365-accounts/</guid>
+	<description><![CDATA[Russian threat actors have been abusing legitimate OAuth 2.0 authentication workflows to hijack Microsoft 365 accounts of employees of organizations related to Ukraine and human rights. [...]]]></description>
+ </item>
+
  <item>
         <title>Lazarus hackers breach six companies in watering hole attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/lazarus-hackers-breach-six-companies-in-watering-hole-attacks/</link>
@@ -192,22 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fbi-us-lost-record-166-billion-to-cybercrime-in-2024/</guid>
 	<description><![CDATA[The FBI says cybercriminals have stolen a record $16,6 billion in 2024, marking an increase in losses of over 33% compared to the previous year. [...]]]></description>
- </item>
-
- <item>
-        <title>ASUS releases fix for AMI bug that lets hackers brick servers</title>
-        <link>https://www.bleepingcomputer.com/news/security/asus-releases-fix-for-ami-bug-that-lets-hackers-brick-servers/</link>
-        <pubDate>Wed, 23 Apr 2025 10:50:49 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Hardware]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/asus-releases-fix-for-ami-bug-that-lets-hackers-brick-servers/</guid>
-	<description><![CDATA[ASUS has released security updates to address CVE-2024-54085, a maximum severity flaw that could allow attackers to hijack and potentially brick servers. [...]]]></description>
  </item>
 
 </channel>
