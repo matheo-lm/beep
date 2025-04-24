@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 23 Apr 2025 20:45:04 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 23 Apr 2025 23:08:46 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -65,13 +65,14 @@
 <p>&#8220;If any company got the case data that would be an unfair advantage,&#8221; Berulis said. &#8220;They could identify and fire employees and union organizers without saying why.&#8221;</p>
 <div id="attachment_71106" style="width: 454px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71106" decoding="async" loading="lazy" class="size-full wp-image-71106" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/markoelez.png" alt="" width="444" height="515" /><p id="caption-attachment-71106" class="wp-caption-text">Marko Elez, in a photo from a social media profile.</p></div>
 <p>Berulis said the other two GitHub archives that DOGE employees downloaded to NLRB systems included <strong>Integuru</strong>, a software framework designed to reverse engineer application programming interfaces (APIs) that websites use to fetch data; and a &#8220;headless&#8221; browser called <strong>Browserless</strong>, which is made for automating web-based tasks that require a pool of browsers, such as web scraping and automated testing.</p>
-<p>On February 6, someone <a href="https://github.com/markoelez/async-ip-rotator/issues/1" target="_blank" rel="noopener">posted a lengthy and detailed critique</a> of Elez&#8217;s code on the GitHub &#8220;issues&#8221; page for async-ip-rotator, calling it &#8220;insecure, unscalable and a fundamental engineering failure.&#8221;</p>
+<p>On February 6, someone <a href="https://web.archive.org/web/20250423135719/https://github.com/markoelez/async-ip-rotator/issues/1" target="_blank" rel="noopener">posted a lengthy and detailed critique</a> of Elez&#8217;s code on the GitHub &#8220;issues&#8221; page for async-ip-rotator, calling it &#8220;insecure, unscalable and a fundamental engineering failure.&#8221;</p>
 <p>&#8220;If this were a side project, it would just be bad code,&#8221; the reviewer wrote. &#8220;But if this is representative of how you build production systems, then there are much larger concerns. This implementation is fundamentally broken, and if anything similar to this is deployed in an environment handling sensitive data, it should be audited immediately.&#8221;</p>
 <p>Further reading: <a href="https://whistlebloweraid.org/wp-content/uploads/2025/04/2025_0414_Berulis-Disclosure-with-Exhibits.s.pdf" target="_blank" rel="noopener">Berulis’s complaint</a> (PDF).</p>
+<p><strong>Update 7:06 p.m. ET</strong>: Elez&#8217;s code repo was deleted after this story was published. An archived version of it <a href="https://github.com/ricci/async-ip-rotator" target="_blank" rel="noopener">is here</a>.</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/04/doge-workers-code-supports-nlrb-whistleblower/feed/</wfw:commentRss>
-			<slash:comments>12</slash:comments>
+			<slash:comments>14</slash:comments>
 		
 		
 			</item>
@@ -756,5 +757,5 @@ Object Caching 287/287 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-04-23 19:00:09 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-04-23 20:06:10 by W3 Total Cache
 -->
