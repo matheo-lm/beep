@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 24 Apr 2025 12:03:36 EDT</pubDate>
+        <pubDate>Thu, 24 Apr 2025 13:00:12 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Frederick Health data breach impacts nearly 1 million patients</title>
+        <link>https://www.bleepingcomputer.com/news/security/frederick-health-data-breach-impacts-nearly-1-million-patients/</link>
+        <pubDate>Thu, 24 Apr 2025 12:19:14 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/frederick-health-data-breach-impacts-nearly-1-million-patients/</guid>
+	<description><![CDATA[​A ransomware attack in January at Frederick Health Medical Group, a major healthcare provider in Maryland, has led to a data breach affecting nearly one million patients. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft now pays up to $30,000 for some AI vulnerabilities</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-pays-up-to-30-000-for-some-ai-vulnerabilities/</link>
@@ -178,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/phishing-detection-is-broken-why-most-attacks-feel-like-a-zero-day/</guid>
 	<description><![CDATA[Phishing attacks now evade email filters, proxies, and MFA — making every attack feel like a zero-day. This article from Push Security breaks down why detection is failing and how real-time, in-browser analysis can help turn the tide. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Remote Desktop freezes caused by Windows updates</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-freezes-caused-by-windows-updates/</link>
-        <pubDate>Wed, 23 Apr 2025 03:59:09 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-freezes-caused-by-windows-updates/</guid>
-	<description><![CDATA[​Microsoft has resolved a known issue causing Remote Desktop sessions to freeze on Windows Server 2025 and Windows 11 24H2 devices. [...]]]></description>
  </item>
 
 </channel>
