@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 24 Apr 2025 15:02:11 EDT</pubDate>
+        <pubDate>Thu, 24 Apr 2025 15:59:35 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Lazarus hackers breach six companies in watering hole attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/lazarus-hackers-breach-six-companies-in-watering-hole-attacks/</link>
+        <pubDate>Thu, 24 Apr 2025 15:13:32 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/lazarus-hackers-breach-six-companies-in-watering-hole-attacks/</guid>
+	<description><![CDATA[In a recent espionage campaign, the infamous North Korean threat group Lazarus targeted multiple organizations in the software, IT, finance, and telecommunications sectors in South Korea. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes machine learning bug flagging Adobe emails as spam</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-machine-learning-bug-flagging-adobe-emails-as-spam/</link>
@@ -194,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/asus-releases-fix-for-ami-bug-that-lets-hackers-brick-servers/</guid>
 	<description><![CDATA[ASUS has released security updates to address CVE-2024-54085, a maximum severity flaw that could allow attackers to hijack and potentially brick servers. [...]]]></description>
- </item>
-
- <item>
-        <title>Phishing detection is broken: Why most attacks feel like a zero day</title>
-        <link>https://www.bleepingcomputer.com/news/security/phishing-detection-is-broken-why-most-attacks-feel-like-a-zero-day/</link>
-        <pubDate>Wed, 23 Apr 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by Push Security</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/phishing-detection-is-broken-why-most-attacks-feel-like-a-zero-day/</guid>
-	<description><![CDATA[Phishing attacks now evade email filters, proxies, and MFA — making every attack feel like a zero-day. This article from Push Security breaks down why detection is failing and how real-time, in-browser analysis can help turn the tide. [...]]]></description>
  </item>
 
 </channel>
