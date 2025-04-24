@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 24 Apr 2025 09:59:26 EDT</pubDate>
+        <pubDate>Thu, 24 Apr 2025 10:59:04 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Interlock ransomware claims DaVita attack, leaks stolen data</title>
+        <link>https://www.bleepingcomputer.com/news/security/interlock-ransomware-claims-davita-attack-leaks-stolen-data/</link>
+        <pubDate>Thu, 24 Apr 2025 10:59:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/interlock-ransomware-claims-davita-attack-leaks-stolen-data/</guid>
+	<description><![CDATA[The Interlock ransomware gang has claimed the cyberattack on DaVita kidney dialysis firm and leaked data allegedly stolen from the organization. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Yale New Haven Health data breach affects 5.5 million patients</title>
+        <link>https://www.bleepingcomputer.com/news/security/yale-new-haven-health-data-breach-affects-55-million-patients/</link>
+        <pubDate>Thu, 24 Apr 2025 10:12:24 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/yale-new-haven-health-data-breach-affects-55-million-patients/</guid>
+	<description><![CDATA[Yale New Haven Health (YNHHS) is warning that threat actors stole the personal data of 5.5 million patients in a cyberattack earlier this month. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes bug causing incorrect 0x80070643 WinRE errors</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-incorrect-0x80070643-winre-errors/</link>
@@ -162,34 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2025-blue-screen-and-install-issues/</guid>
 	<description><![CDATA[Microsoft has fixed several known issues that caused Blue Screen of Death (BSOD) and installation issues on Windows Server 2025 systems with a high core count. [...]]]></description>
- </item>
-
- <item>
-        <title>Marks &amp; Spencer confirms a cyberattack as customers face delayed orders</title>
-        <link>https://www.bleepingcomputer.com/news/security/marks-and-spencer-confirms-a-cyberattack-as-customers-face-delayed-orders/</link>
-        <pubDate>Tue, 22 Apr 2025 19:26:04 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/marks-and-spencer-confirms-a-cyberattack-as-customers-face-delayed-orders/</guid>
-	<description><![CDATA[Marks & Spencer (M&S) has disclosed that it is responding to a cyberattack over the past few days that has impacted operations, including its Click and Collect service. [...]]]></description>
- </item>
-
- <item>
-        <title>Active! Mail RCE flaw exploited in attacks on Japanese orgs</title>
-        <link>https://www.bleepingcomputer.com/news/security/active-mail-rce-flaw-exploited-in-attacks-on-japanese-orgs/</link>
-        <pubDate>Tue, 22 Apr 2025 17:06:04 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/active-mail-rce-flaw-exploited-in-attacks-on-japanese-orgs/</guid>
-	<description><![CDATA[An Active! Mail zero-day remote code execution vulnerability is actively exploited in attacks on large organizations in Japan. [...]]]></description>
  </item>
 
 </channel>
