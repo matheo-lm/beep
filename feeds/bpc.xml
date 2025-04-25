@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 25 Apr 2025 11:02:12 EDT</pubDate>
+        <pubDate>Fri, 25 Apr 2025 12:00:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Marks &amp; Spencer pauses online orders after cyberattack</title>
+        <link>https://www.bleepingcomputer.com/news/security/marks-and-spencer-pauses-online-orders-after-cyberattack/</link>
+        <pubDate>Fri, 25 Apr 2025 11:05:09 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/marks-and-spencer-pauses-online-orders-after-cyberattack/</guid>
+	<description><![CDATA[British retailer giant Marks & Spencer (M&S) has suspended online orders while working to recover from a recently disclosed cyberattack. [...]]]></description>
+ </item>
+
  <item>
         <title>Mobile provider MTN says cyberattack compromised customer data</title>
         <link>https://www.bleepingcomputer.com/news/security/mobile-provider-mtn-says-cyberattack-compromised-customer-data/</link>
@@ -202,20 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/yale-new-haven-health-data-breach-affects-55-million-patients/</guid>
 	<description><![CDATA[Yale New Haven Health (YNHHS) is warning that threat actors stole the personal data of 5.5 million patients in a cyberattack earlier this month. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes bug causing incorrect 0x80070643 WinRE errors</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-incorrect-0x80070643-winre-errors/</link>
-        <pubDate>Thu, 24 Apr 2025 09:54:18 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-incorrect-0x80070643-winre-errors/</guid>
-	<description><![CDATA[Microsoft says it resolved a known issue causing erroneous 0x80070643 installation failure errors when deploying the April 2025 Windows Recovery Environment (WinRE) updates. [...]]]></description>
  </item>
 
 </channel>
