@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description></description>
-	<lastBuildDate>Fri, 25 Apr 2025 20:01:49 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 25 Apr 2025 20:09:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -117,9 +117,9 @@
 		
 			</item>
 		<item>
-		<title>No need to hack when it&#8217;s leaking:  Atrium Health edition (Corrected)</title>
-		<link>https://databreaches.net/2025/04/24/no-need-to-hack-when-its-leaking-atrium-health-edition/</link>
-					<comments>https://databreaches.net/2025/04/24/no-need-to-hack-when-its-leaking-atrium-health-edition/#respond</comments>
+		<title>No need to hack when it&#8217;s leaking (CORRECTED)</title>
+		<link>https://databreaches.net/2025/04/24/no-need-to-hack-when-its-leaking/</link>
+					<comments>https://databreaches.net/2025/04/24/no-need-to-hack-when-its-leaking/#respond</comments>
 		
 		<dc:creator><![CDATA[Dissent]]></dc:creator>
 		<pubDate>Thu, 24 Apr 2025 12:23:37 +0000</pubDate>
@@ -127,9 +127,9 @@
 		<category><![CDATA[Health Data]]></category>
 		<guid isPermaLink="false">https://databreaches.net/?p=121384</guid>
 
-					<description><![CDATA[Researcher Jeremiah Fowler recently discovered an unsecured database with protected health information (PHI) linked to Atrium Health in North Carolina.  As reported at WebsitePlanet, there were 21,344 records with a total size of 6.99 GB. The database appeared to be an FTP storage database. Fowler reports: The PDF documents’ metadata indicated that these were “Software...]]></description>
+					<description><![CDATA[Please note the correction at the bottom of this post. Researcher Jeremiah Fowler recently discovered an unsecured database with protected health information (PHI) that appeared to be linked to Atrium Health in North Carolina.  As reported at WebsitePlanet, there were 21,344 records with a total size of 6.99 GB. The database appeared to be an...]]></description>
 		
-					<wfw:commentRss>https://databreaches.net/2025/04/24/no-need-to-hack-when-its-leaking-atrium-health-edition/feed/</wfw:commentRss>
+					<wfw:commentRss>https://databreaches.net/2025/04/24/no-need-to-hack-when-its-leaking/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
