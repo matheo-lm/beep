@@ -11,11 +11,55 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 25 Apr 2025 10:01:37 EDT</pubDate>
+        <pubDate>Fri, 25 Apr 2025 11:02:12 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Mobile provider MTN says cyberattack compromised customer data</title>
+        <link>https://www.bleepingcomputer.com/news/security/mobile-provider-mtn-says-cyberattack-compromised-customer-data/</link>
+        <pubDate>Fri, 25 Apr 2025 10:57:05 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/mobile-provider-mtn-says-cyberattack-compromised-customer-data/</guid>
+	<description><![CDATA[African mobile giant MTN Group announced that a cybersecurity incident has compromised the personal information of some of its subscribers in certain countries. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows "inetpub" security fix can be abused to block future updates</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-inetpub-security-fix-can-be-abused-to-block-future-updates/</link>
+        <pubDate>Fri, 25 Apr 2025 10:23:39 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-inetpub-security-fix-can-be-abused-to-block-future-updates/</guid>
+	<description><![CDATA[A recent Windows security update that creates an 'inetpub' folder has introduced a new weakness allowing attackers to prevent the installation of future updates. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Baltimore City Public Schools data breach affects over 31,000 people</title>
+        <link>https://www.bleepingcomputer.com/news/security/baltimore-city-public-schools-data-breach-affects-over-31-000-people/</link>
+        <pubDate>Fri, 25 Apr 2025 10:06:23 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/baltimore-city-public-schools-data-breach-affects-over-31-000-people/</guid>
+	<description><![CDATA[​Baltimore City Public Schools notified tens of thousands of employees and students of a data breach following an incident in February when unknown attackers hacked into its network. [...]]]></description>
+ </item>
+
  <item>
         <title>SAP fixes suspected Netweaver zero-day exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/sap-fixes-suspected-netweaver-zero-day-exploited-in-attacks/</link>
@@ -172,38 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-incorrect-0x80070643-winre-errors/</guid>
 	<description><![CDATA[Microsoft says it resolved a known issue causing erroneous 0x80070643 installation failure errors when deploying the April 2025 Windows Recovery Environment (WinRE) updates. [...]]]></description>
- </item>
-
- <item>
-        <title>Linux 'io_uring' security blindspot allows stealthy rootkit attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/linux-io-uring-security-blindspot-allows-stealthy-rootkit-attacks/</link>
-        <pubDate>Thu, 24 Apr 2025 08:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Linux]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/linux-io-uring-security-blindspot-allows-stealthy-rootkit-attacks/</guid>
-	<description><![CDATA[A significant security gap in Linux runtime security caused by the 'io_uring' interface allows rootkits to operate undetected on systems while bypassing advanced Enterprise security software. [...]]]></description>
- </item>
-
- <item>
-        <title>Russian army targeted by new Android malware hidden in mapping app</title>
-        <link>https://www.bleepingcomputer.com/news/security/russian-army-targeted-by-new-android-malware-hidden-in-mapping-app/</link>
-        <pubDate>Wed, 23 Apr 2025 14:30:17 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/russian-army-targeted-by-new-android-malware-hidden-in-mapping-app/</guid>
-	<description><![CDATA[A new Android malware has been discovered hidden inside trojanized versions of the Alpine Quest mapping app, which is reportedly used by Russian soldiers as part of war zone operational planning. [...]]]></description>
  </item>
 
 </channel>
