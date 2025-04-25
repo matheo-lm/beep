@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 25 Apr 2025 04:00:04 EDT</pubDate>
+        <pubDate>Fri, 25 Apr 2025 05:01:30 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft announces fix for CPU spikes when typing in Outlook</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-fix-for-cpu-spikes-when-typing-in-outlook/</link>
+        <pubDate>Fri, 25 Apr 2025 04:10:47 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-fix-for-cpu-spikes-when-typing-in-outlook/</guid>
+	<description><![CDATA[Microsoft says it will soon fix a known issue causing CPU spikes when typing messages in recent versions of its classic Outlook email client. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers abuse OAuth 2.0 workflows to hijack Microsoft 365 accounts</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-abuse-oauth-20-workflows-to-hijack-microsoft-365-accounts/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/blue-shield-of-california-leaked-health-data-of-47-million-members-to-google/</guid>
 	<description><![CDATA[Blue Shield of California disclosed it suffered a data breach after exposing protected health information of 4.7 million members to Google's analytics and advertisement platforms. [...]]]></description>
- </item>
-
- <item>
-        <title>FBI: US lost record $16.6 billion to cybercrime in 2024</title>
-        <link>https://www.bleepingcomputer.com/news/security/fbi-us-lost-record-166-billion-to-cybercrime-in-2024/</link>
-        <pubDate>Wed, 23 Apr 2025 11:21:46 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fbi-us-lost-record-166-billion-to-cybercrime-in-2024/</guid>
-	<description><![CDATA[The FBI says cybercriminals have stolen a record $16,6 billion in 2024, marking an increase in losses of over 33% compared to the previous year. [...]]]></description>
  </item>
 
 </channel>
