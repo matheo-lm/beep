@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 25 Apr 2025 08:01:25 EDT</pubDate>
+        <pubDate>Fri, 25 Apr 2025 09:06:55 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>SAP fixes critical Netweaver flaw exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/sap-fixes-critical-netweaver-flaw-exploited-in-attacks/</link>
+        <pubDate>Fri, 25 Apr 2025 09:01:48 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sap-fixes-critical-netweaver-flaw-exploited-in-attacks/</guid>
+	<description><![CDATA[SAP has released out-of-band emergency updates for NetWeaver to fix an actively exploited remote code execution (RCE) vulnerability used to hijack servers. [...]]]></description>
+ </item>
+
  <item>
         <title>FBI seeks help to unmask Salt Typhoon hackers behind telecom breaches</title>
         <link>https://www.bleepingcomputer.com/news/security/fbi-seeks-help-to-unmask-salt-typhoon-hackers-behind-telecom-breaches/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/russian-army-targeted-by-new-android-malware-hidden-in-mapping-app/</guid>
 	<description><![CDATA[A new Android malware has been discovered hidden inside trojanized versions of the Alpine Quest mapping app, which is reportedly used by Russian soldiers as part of war zone operational planning. [...]]]></description>
- </item>
-
- <item>
-        <title>WhatsApp's new Advanced Chat Privacy protects sensitive messages</title>
-        <link>https://www.bleepingcomputer.com/news/security/whatsapps-new-advanced-chat-privacy-protects-sensitive-messages/</link>
-        <pubDate>Wed, 23 Apr 2025 13:42:34 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/whatsapps-new-advanced-chat-privacy-protects-sensitive-messages/</guid>
-	<description><![CDATA[WhatsApp has introduced a new Advanced Chat Privacy feature to protect sensitive information exchanged in private chats and group conversations. [...]]]></description>
  </item>
 
 </channel>
