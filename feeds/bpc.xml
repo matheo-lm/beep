@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 25 Apr 2025 16:59:43 EDT</pubDate>
+        <pubDate>Fri, 25 Apr 2025 17:58:25 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 11's Recall AI is now rolling out on Copilot+ PCs</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11s-recall-ai-is-now-rolling-out-on-copilot-plus-pcs/</link>
+        <pubDate>Fri, 25 Apr 2025 17:08:05 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11s-recall-ai-is-now-rolling-out-on-copilot-plus-pcs/</guid>
+	<description><![CDATA[Microsoft has confirmed that Windows Recall is rolling out to everyone with Windows 11 KB5055627 on Copilot+ PCs. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 11 KB5055627 update released with 30 new changes, fixes</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5055627-update-released-with-30-new-changes-fixes/</link>
@@ -200,20 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/frederick-health-data-breach-impacts-nearly-1-million-patients/</guid>
 	<description><![CDATA[​A ransomware attack in January at Frederick Health Medical Group, a major healthcare provider in Maryland, has led to a data breach affecting nearly one million patients. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft now pays up to $30,000 for some AI vulnerabilities</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-pays-up-to-30-000-for-some-ai-vulnerabilities/</link>
-        <pubDate>Thu, 24 Apr 2025 11:06:59 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-pays-up-to-30-000-for-some-ai-vulnerabilities/</guid>
-	<description><![CDATA[Microsoft announced an increase in bug bounty payouts to $30,000 for AI vulnerabilities found in Dynamics 365 and Power Platform services and products. [...]]]></description>
  </item>
 
 </channel>
