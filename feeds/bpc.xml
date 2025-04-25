@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 25 Apr 2025 14:58:02 EDT</pubDate>
+        <pubDate>Fri, 25 Apr 2025 15:59:43 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Craft CMS RCE exploit chain used in zero-day attacks to steal data</title>
+        <link>https://www.bleepingcomputer.com/news/security/craft-cms-rce-exploit-chain-used-in-zero-day-attacks-to-steal-data/</link>
+        <pubDate>Fri, 25 Apr 2025 15:44:35 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/craft-cms-rce-exploit-chain-used-in-zero-day-attacks-to-steal-data/</guid>
+	<description><![CDATA[Two vulnerabilities impacting Craft CMS were chained together in zero-day attacks to breach servers and steal data, with exploitation ongoing, according to CERT Orange Cyberdefense. [...]]]></description>
+ </item>
+
  <item>
         <title>Marks &amp; Spencer pauses online orders after cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/marks-and-spencer-pauses-online-orders-after-cyberattack/</link>
@@ -200,22 +214,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/interlock-ransomware-claims-davita-attack-leaks-stolen-data/</guid>
 	<description><![CDATA[The Interlock ransomware gang has claimed the cyberattack on DaVita kidney dialysis firm and leaked data allegedly stolen from the organization. [...]]]></description>
- </item>
-
- <item>
-        <title>Yale New Haven Health data breach affects 5.5 million patients</title>
-        <link>https://www.bleepingcomputer.com/news/security/yale-new-haven-health-data-breach-affects-55-million-patients/</link>
-        <pubDate>Thu, 24 Apr 2025 10:12:24 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/yale-new-haven-health-data-breach-affects-55-million-patients/</guid>
-	<description><![CDATA[Yale New Haven Health (YNHHS) is warning that threat actors stole the personal data of 5.5 million patients in a cyberattack earlier this month. [...]]]></description>
  </item>
 
 </channel>
