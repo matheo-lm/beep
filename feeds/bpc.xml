@@ -11,11 +11,71 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 27 Apr 2025 14:00:30 EDT</pubDate>
+        <pubDate>Sun, 27 Apr 2025 15:01:40 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Coinbase fixes 2FA log error making people think they were hacked</title>
+        <link>https://www.bleepingcomputer.com/news/security/coinbase-fixes-2fa-log-error-making-people-think-they-were-hacked/</link>
+        <pubDate>Sun, 27 Apr 2025 14:21:15 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/coinbase-fixes-2fa-log-error-making-people-think-they-were-hacked/</guid>
+	<description><![CDATA[Coinbase has fixed a confusing bug in its account activity logs that caused users to think their credentials were compromised. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Brave's Cookiecrumbler tool taps community to help block cookie notices</title>
+        <link>https://www.bleepingcomputer.com/news/security/braves-cookiecrumbler-tool-taps-community-to-help-block-cookie-notices/</link>
+        <pubDate>Sun, 27 Apr 2025 10:12:22 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/braves-cookiecrumbler-tool-taps-community-to-help-block-cookie-notices/</guid>
+	<description><![CDATA[Brave has open-sourceed a new tool called "Cookiecrumbler," which uses large language models (LLMs) to detect cookie consent notices and then community-driven reviews to block those that won't break site functionality. [...]]]></description>
+ </item>
+
+ <item>
+        <title>DragonForce expands ransomware model with white-label branding scheme</title>
+        <link>https://www.bleepingcomputer.com/news/security/dragonforce-expands-ransomware-model-with-white-label-branding-scheme/</link>
+        <pubDate>Sat, 26 Apr 2025 11:23:56 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/dragonforce-expands-ransomware-model-with-white-label-branding-scheme/</guid>
+	<description><![CDATA[The ransomware scene is re-organizing, with one gang known as DragonForce working to gather other operations under a cartel-like structure. [...]]]></description>
+ </item>
+
+ <item>
+        <title>WooCommerce admins targeted by fake security patches that hijack sites</title>
+        <link>https://www.bleepingcomputer.com/news/security/woocommerce-admins-targeted-by-fake-security-patches-that-hijack-sites/</link>
+        <pubDate>Sat, 26 Apr 2025 10:09:19 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/woocommerce-admins-targeted-by-fake-security-patches-that-hijack-sites/</guid>
+	<description><![CDATA[A large-scale phishing campaign targets WooCommerce users with a fake security alert urging them to download a "critical patch" that adds a Wordpress backdoor to the site. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 11's Recall AI is now rolling out on Copilot+ PCs</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-11s-recall-ai-is-now-rolling-out-on-copilot-plus-pcs/</link>
@@ -130,92 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/sap-fixes-suspected-netweaver-zero-day-exploited-in-attacks/</guid>
 	<description><![CDATA[SAP has released out-of-band emergency NetWeaver updates to fix a suspected remote code execution (RCE) zero-day flaw actively exploited to hijack servers. [...]]]></description>
- </item>
-
- <item>
-        <title>FBI seeks help to unmask Salt Typhoon hackers behind telecom breaches</title>
-        <link>https://www.bleepingcomputer.com/news/security/fbi-seeks-help-to-unmask-salt-typhoon-hackers-behind-telecom-breaches/</link>
-        <pubDate>Fri, 25 Apr 2025 05:34:59 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fbi-seeks-help-to-unmask-salt-typhoon-hackers-behind-telecom-breaches/</guid>
-	<description><![CDATA[The FBI has asked the public for information on Chinese Salt Typhoon hackers behind widespread breaches of telecommunications providers in the United States and worldwide. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft announces fix for CPU spikes when typing in Outlook</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-fix-for-cpu-spikes-when-typing-in-outlook/</link>
-        <pubDate>Fri, 25 Apr 2025 04:10:47 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-fix-for-cpu-spikes-when-typing-in-outlook/</guid>
-	<description><![CDATA[Microsoft says it will soon fix a known issue causing CPU spikes when typing messages in recent versions of its classic Outlook email client. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers abuse OAuth 2.0 workflows to hijack Microsoft 365 accounts</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-abuse-oauth-20-workflows-to-hijack-microsoft-365-accounts/</link>
-        <pubDate>Thu, 24 Apr 2025 16:24:49 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-abuse-oauth-20-workflows-to-hijack-microsoft-365-accounts/</guid>
-	<description><![CDATA[Russian threat actors have been abusing legitimate OAuth 2.0 authentication workflows to hijack Microsoft 365 accounts of employees of organizations related to Ukraine and human rights. [...]]]></description>
- </item>
-
- <item>
-        <title>Lazarus hackers breach six companies in watering hole attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/lazarus-hackers-breach-six-companies-in-watering-hole-attacks/</link>
-        <pubDate>Thu, 24 Apr 2025 15:13:32 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/lazarus-hackers-breach-six-companies-in-watering-hole-attacks/</guid>
-	<description><![CDATA[In a recent espionage campaign, the infamous North Korean threat group Lazarus targeted multiple organizations in the software, IT, finance, and telecommunications sectors in South Korea. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes machine learning bug flagging Adobe emails as spam</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-machine-learning-bug-flagging-adobe-emails-as-spam/</link>
-        <pubDate>Thu, 24 Apr 2025 15:02:07 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-machine-learning-bug-flagging-adobe-emails-as-spam/</guid>
-	<description><![CDATA[Microsoft says it mitigated a known issue in one of its machine learning (ML) models that mistakenly flagged Adobe emails in Exchange Online as spam. [...]]]></description>
- </item>
-
- <item>
-        <title>Frederick Health data breach impacts nearly 1 million patients</title>
-        <link>https://www.bleepingcomputer.com/news/security/frederick-health-data-breach-impacts-nearly-1-million-patients/</link>
-        <pubDate>Thu, 24 Apr 2025 12:19:14 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/frederick-health-data-breach-impacts-nearly-1-million-patients/</guid>
-	<description><![CDATA[​A ransomware attack in January at Frederick Health Medical Group, a major healthcare provider in Maryland, has led to a data breach affecting nearly one million patients. [...]]]></description>
  </item>
 
 </channel>
