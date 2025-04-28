@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 28 Apr 2025 12:03:06 EDT</pubDate>
+        <pubDate>Mon, 28 Apr 2025 13:01:16 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Over 1,200 SAP NetWeaver servers vulnerable to actively exploited flaw</title>
+        <link>https://www.bleepingcomputer.com/news/security/over-1-200-sap-netweaver-servers-vulnerable-to-actively-exploited-flaw/</link>
+        <pubDate>Mon, 28 Apr 2025 12:46:43 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/over-1-200-sap-netweaver-servers-vulnerable-to-actively-exploited-flaw/</guid>
+	<description><![CDATA[Over 1,200 internet-exposed SAP NetWeaver instances are vulnerable to an actively exploited maximum severity unauthenticated file upload vulnerability that allows attackers to hijack servers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Kali Linux warns of update failures after losing repo signing key</title>
+        <link>https://www.bleepingcomputer.com/news/linux/kali-linux-warns-of-update-failures-after-losing-repo-signing-key/</link>
+        <pubDate>Mon, 28 Apr 2025 12:37:58 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Linux]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/linux/kali-linux-warns-of-update-failures-after-losing-repo-signing-key/</guid>
+	<description><![CDATA[​Offensive Security warned Kali Linux users to manually install a new Kali repository signing key to avoid experiencing update failures. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes Outlook on the web search issues, failures</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-on-the-web-search-issues-failures/</link>
@@ -160,36 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/marks-and-spencer-pauses-online-orders-after-cyberattack/</guid>
 	<description><![CDATA[British retailer giant Marks & Spencer (M&S) has suspended online orders while working to recover from a recently disclosed cyberattack. [...]]]></description>
- </item>
-
- <item>
-        <title>Mobile provider MTN says cyberattack compromised customer data</title>
-        <link>https://www.bleepingcomputer.com/news/security/mobile-provider-mtn-says-cyberattack-compromised-customer-data/</link>
-        <pubDate>Fri, 25 Apr 2025 10:57:05 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/mobile-provider-mtn-says-cyberattack-compromised-customer-data/</guid>
-	<description><![CDATA[African mobile giant MTN Group announced that a cybersecurity incident has compromised the personal information of some of its subscribers in certain countries. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows "inetpub" security fix can be abused to block future updates</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-inetpub-security-fix-can-be-abused-to-block-future-updates/</link>
-        <pubDate>Fri, 25 Apr 2025 10:23:39 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-inetpub-security-fix-can-be-abused-to-block-future-updates/</guid>
-	<description><![CDATA[A recent Windows security update that creates an 'inetpub' folder has introduced a new weakness allowing attackers to prevent the installation of future updates. [...]]]></description>
  </item>
 
 </channel>
