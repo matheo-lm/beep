@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 28 Apr 2025 15:00:57 EDT</pubDate>
+        <pubDate>Mon, 28 Apr 2025 15:59:20 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hitachi Vantara takes servers offline after Akira ransomware attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/hitachi-vantara-takes-servers-offline-after-akira-ransomware-attack/</link>
+        <pubDate>Mon, 28 Apr 2025 15:39:09 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hitachi-vantara-takes-servers-offline-after-akira-ransomware-attack/</guid>
+	<description><![CDATA[Hitachi Vantara, a subsidiary of Japanese multinational conglomerate Hitachi, was forced to take servers offline over the weekend to contain an Akira ransomware attack. [...]]]></description>
+ </item>
+
  <item>
         <title>VeriSource now says February data breach impacts 4 million people</title>
         <link>https://www.bleepingcomputer.com/news/security/verisource-now-says-february-data-breach-impacts-4-million-people/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5055627-update-released-with-30-new-changes-fixes/</guid>
 	<description><![CDATA[​​Microsoft has released the KB5055627 preview cumulative update for Windows 11 24H2 with many new features gradually rolling out, and some new bug fixes for everyone. [...]]]></description>
- </item>
-
- <item>
-        <title>Craft CMS RCE exploit chain used in zero-day attacks to steal data</title>
-        <link>https://www.bleepingcomputer.com/news/security/craft-cms-rce-exploit-chain-used-in-zero-day-attacks-to-steal-data/</link>
-        <pubDate>Fri, 25 Apr 2025 15:44:35 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/craft-cms-rce-exploit-chain-used-in-zero-day-attacks-to-steal-data/</guid>
-	<description><![CDATA[Two vulnerabilities impacting Craft CMS were chained together in zero-day attacks to breach servers and steal data, with exploitation ongoing, according to CERT Orange Cyberdefense. [...]]]></description>
  </item>
 
 </channel>
