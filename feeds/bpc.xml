@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 28 Apr 2025 10:03:26 EDT</pubDate>
+        <pubDate>Mon, 28 Apr 2025 10:59:25 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cloudflare mitigates record number of DDoS attacks in 2025</title>
+        <link>https://www.bleepingcomputer.com/news/security/cloudflare-mitigates-record-number-of-ddos-attacks-in-2025/</link>
+        <pubDate>Mon, 28 Apr 2025 10:04:10 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-mitigates-record-number-of-ddos-attacks-in-2025/</guid>
+	<description><![CDATA[Internet services giant Cloudflare says it mitigated a record number of DDoS attacks in 2024, recording a massive 358% year-over-year jump and a 198% quarter-over-quarter increase. [...]]]></description>
+ </item>
+
  <item>
         <title>Coinbase fixes 2FA log error making people think they were hacked</title>
         <link>https://www.bleepingcomputer.com/news/security/coinbase-fixes-2fa-log-error-making-people-think-they-were-hacked/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/baltimore-city-public-schools-data-breach-affects-over-31-000-people/</guid>
 	<description><![CDATA[​Baltimore City Public Schools notified tens of thousands of employees and students of a data breach following an incident in February when unknown attackers hacked into its network. [...]]]></description>
- </item>
-
- <item>
-        <title>SAP fixes suspected NetWeaver zero-day exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/sap-fixes-suspected-netweaver-zero-day-exploited-in-attacks/</link>
-        <pubDate>Fri, 25 Apr 2025 09:01:48 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sap-fixes-suspected-netweaver-zero-day-exploited-in-attacks/</guid>
-	<description><![CDATA[SAP has released out-of-band emergency NetWeaver updates to fix a suspected remote code execution (RCE) zero-day flaw actively exploited to hijack servers. [...]]]></description>
  </item>
 
 </channel>
