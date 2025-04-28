@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 28 Apr 2025 10:59:25 EDT</pubDate>
+        <pubDate>Mon, 28 Apr 2025 12:03:06 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft fixes Outlook on the web search issues, failures</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-on-the-web-search-issues-failures/</link>
+        <pubDate>Mon, 28 Apr 2025 11:17:52 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-on-the-web-search-issues-failures/</guid>
+	<description><![CDATA[Microsoft is working on fully mitigating issues causing Outlook on the web and SharePoint Online users to experience delays or failures when searching. [...]]]></description>
+ </item>
+
  <item>
         <title>Cloudflare mitigates record number of DDoS attacks in 2025</title>
         <link>https://www.bleepingcomputer.com/news/security/cloudflare-mitigates-record-number-of-ddos-attacks-in-2025/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-inetpub-security-fix-can-be-abused-to-block-future-updates/</guid>
 	<description><![CDATA[A recent Windows security update that creates an 'inetpub' folder has introduced a new weakness allowing attackers to prevent the installation of future updates. [...]]]></description>
- </item>
-
- <item>
-        <title>Baltimore City Public Schools data breach affects over 31,000 people</title>
-        <link>https://www.bleepingcomputer.com/news/security/baltimore-city-public-schools-data-breach-affects-over-31-000-people/</link>
-        <pubDate>Fri, 25 Apr 2025 10:06:23 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/baltimore-city-public-schools-data-breach-affects-over-31-000-people/</guid>
-	<description><![CDATA[​Baltimore City Public Schools notified tens of thousands of employees and students of a data breach following an incident in February when unknown attackers hacked into its network. [...]]]></description>
  </item>
 
 </channel>
