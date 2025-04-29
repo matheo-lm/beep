@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 29 Apr 2025 10:02:24 EDT</pubDate>
+        <pubDate>Tue, 29 Apr 2025 11:00:57 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA tags Broadcom Fabric OS, CommVault flaws as exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-tags-broadcom-fabric-os-commvault-flaws-as-exploited-in-attacks/</link>
+        <pubDate>Tue, 29 Apr 2025 10:15:36 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-tags-broadcom-fabric-os-commvault-flaws-as-exploited-in-attacks/</guid>
+	<description><![CDATA[The U.S. Cybersecurity & Infrastructure Security Agency (CISA) is warning of Broadcom Brocade Fabric OS, Commvault web servers, and Qualitia Active! Mail clients vulnerabilities that are actively exploited in attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Google: 97 zero-days exploited in 2024, over 50% in spyware attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-97-zero-days-exploited-in-2024-over-50-percent-in-spyware-attacks/</link>
+        <pubDate>Tue, 29 Apr 2025 06:00:00 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-97-zero-days-exploited-in-2024-over-50-percent-in-spyware-attacks/</guid>
+	<description><![CDATA[Google's Threat Intelligence Group (GTIG) says attackers exploited 75 zero-day vulnerabilities in the wild last year, over 50% of which were linked to spyware attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Marks &amp; Spencer breach linked to Scattered Spider ransomware attack</title>
         <link>https://www.bleepingcomputer.com/news/security/marks-and-spencer-breach-linked-to-scattered-spider-ransomware-attack/</link>
@@ -160,36 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/dragonforce-expands-ransomware-model-with-white-label-branding-scheme/</guid>
 	<description><![CDATA[The ransomware scene is re-organizing, with one gang known as DragonForce working to gather other operations under a cartel-like structure. [...]]]></description>
- </item>
-
- <item>
-        <title>WooCommerce admins targeted by fake security patches that hijack sites</title>
-        <link>https://www.bleepingcomputer.com/news/security/woocommerce-admins-targeted-by-fake-security-patches-that-hijack-sites/</link>
-        <pubDate>Sat, 26 Apr 2025 10:09:19 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/woocommerce-admins-targeted-by-fake-security-patches-that-hijack-sites/</guid>
-	<description><![CDATA[A large-scale phishing campaign targets WooCommerce users with a fake security alert urging them to download a "critical patch" that adds a Wordpress backdoor to the site. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11's Recall AI is now rolling out on Copilot+ PCs</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11s-recall-ai-is-now-rolling-out-on-copilot-plus-pcs/</link>
-        <pubDate>Fri, 25 Apr 2025 17:08:05 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11s-recall-ai-is-now-rolling-out-on-copilot-plus-pcs/</guid>
-	<description><![CDATA[Microsoft has confirmed that Windows Recall is rolling out to everyone with Windows 11 KB5055627 on Copilot+ PCs. [...]]]></description>
  </item>
 
 </channel>
