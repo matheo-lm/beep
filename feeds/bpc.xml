@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 29 Apr 2025 15:02:48 EDT</pubDate>
+        <pubDate>Tue, 29 Apr 2025 16:02:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: Windows Server hotpatching to require subscription</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-hotpatching-to-require-subscription/</link>
+        <pubDate>Tue, 29 Apr 2025 15:47:15 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-hotpatching-to-require-subscription/</guid>
+	<description><![CDATA[Microsoft has announced that it will soon introduce paid subscriptions for Windows Server 2025 hotpatching, a service that enables admins to install security updates without restarting. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers ramp up scans for leaked Git tokens and secrets</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-ramp-up-scans-for-leaked-git-tokens-and-secrets/</link>
@@ -186,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/linux/kali-linux-warns-of-update-failures-after-losing-repo-signing-key/</guid>
 	<description><![CDATA[​Offensive Security warned Kali Linux users to manually install a new Kali repository signing key to avoid experiencing update failures. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Outlook on the web search issues, failures</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-on-the-web-search-issues-failures/</link>
-        <pubDate>Mon, 28 Apr 2025 11:17:52 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-on-the-web-search-issues-failures/</guid>
-	<description><![CDATA[Microsoft is working on fully mitigating issues causing Outlook on the web and SharePoint Online users to experience delays or failures when searching. [...]]]></description>
  </item>
 
 </channel>
