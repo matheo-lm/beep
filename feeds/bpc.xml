@@ -11,11 +11,29 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 30 Apr 2025 13:59:24 EDT</pubDate>
+        <pubDate>Wed, 30 Apr 2025 15:01:30 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>WhatsApp unveils 'Private Processing' for cloud-based AI features</title>
+        <link>https://www.bleepingcomputer.com/news/security/whatsapp-unveils-private-processing-for-cloud-based-ai-features/</link>
+        <pubDate>Wed, 30 Apr 2025 15:01:26 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Cloud]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/whatsapp-unveils-private-processing-for-cloud-based-ai-features/</guid>
+	<description><![CDATA[WhatsApp has announced the introduction of 'Private Processing,' a new technology that enables users to utilize advanced AI features by offloading tasks to privacy-preserving cloud servers. [...]]]></description>
+ </item>
+
  <item>
         <title>SonicWall: SMA100 VPN vulnerabilities now exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/sonicwall-sma100-vpn-vulnerabilities-now-exploited-in-attacks/</link>
@@ -176,34 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/apple-airborne-flaws-can-lead-to-zero-click-airplay-rce-attacks/</guid>
 	<description><![CDATA[​A set of security vulnerabilities in Apple's AirPlay Protocol and AirPlay Software Development Kit (SDK) exposed unpatched third-party and Apple devices to various attacks, including remote code execution. [...]]]></description>
- </item>
-
- <item>
-        <title>SK Telecom cyberattack: Free SIM replacements for 25 million customers</title>
-        <link>https://www.bleepingcomputer.com/news/security/sk-telecom-cyberattack-free-sim-replacements-for-25-million-customers/</link>
-        <pubDate>Tue, 29 Apr 2025 12:49:53 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sk-telecom-cyberattack-free-sim-replacements-for-25-million-customers/</guid>
-	<description><![CDATA[South Korean mobile provider SK Telecom has announced free SIM card replacements to its 25 million mobile customers following a recent USIM data breach, but only 6 million cards are available through May. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Outlook paste, blank calendar rendering issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-paste-blank-calendar-rendering-issues/</link>
-        <pubDate>Tue, 29 Apr 2025 11:45:25 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-paste-blank-calendar-rendering-issues/</guid>
-	<description><![CDATA[Microsoft has confirmed several issues affecting Microsoft 365 customers using the "paste special' option and the calendar feature in the classic Outlook email client. [...]]]></description>
  </item>
 
 </channel>
