@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 30 Apr 2025 17:02:04 EDT</pubDate>
+        <pubDate>Wed, 30 Apr 2025 18:01:14 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>WordPress plugin disguised as a security tool injects backdoor</title>
+        <link>https://www.bleepingcomputer.com/news/security/wordpress-plugin-disguised-as-a-security-tool-injects-backdoor/</link>
+        <pubDate>Wed, 30 Apr 2025 17:05:46 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/wordpress-plugin-disguised-as-a-security-tool-injects-backdoor/</guid>
+	<description><![CDATA[A new malware campaign targeting WordPress sites employs a malicious plugin disguised as a security tool to trick users into installing and trusting it. [...]]]></description>
+ </item>
+
  <item>
         <title>WhatsApp unveils 'Private Processing' for cloud-based AI features</title>
         <link>https://www.bleepingcomputer.com/news/security/whatsapp-unveils-private-processing-for-cloud-based-ai-features/</link>
@@ -178,22 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/france-ties-russian-apt28-hackers-to-12-cyberattacks-on-french-orgs/</guid>
 	<description><![CDATA[Today, the French foreign ministry blamed the APT28 hacking group linked to Russia's military intelligence service (GRU) for targeting or breaching a dozen French entities over the last four years. [...]]]></description>
- </item>
-
- <item>
-        <title>Apple 'AirBorne' flaws can lead to zero-click AirPlay RCE attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/apple-airborne-flaws-can-lead-to-zero-click-airplay-rce-attacks/</link>
-        <pubDate>Tue, 29 Apr 2025 13:32:05 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Apple]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/apple-airborne-flaws-can-lead-to-zero-click-airplay-rce-attacks/</guid>
-	<description><![CDATA[​A set of security vulnerabilities in Apple's AirPlay Protocol and AirPlay Software Development Kit (SDK) exposed unpatched third-party and Apple devices to various attacks, including remote code execution. [...]]]></description>
  </item>
 
 </channel>

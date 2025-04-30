@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 23 Apr 2025 23:08:46 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 30 Apr 2025 21:54:59 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,61 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Alleged &#8216;Scattered Spider&#8217; Member Extradited to U.S.</title>
+		<link>https://krebsonsecurity.com/2025/04/alleged-scattered-spider-member-extradited-to-u-s/</link>
+					<comments>https://krebsonsecurity.com/2025/04/alleged-scattered-spider-member-extradited-to-u-s/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Wed, 30 Apr 2025 21:54:59 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[SIM Swapping]]></category>
+		<category><![CDATA[0ktapus]]></category>
+		<category><![CDATA[Ahmed Elbadawy]]></category>
+		<category><![CDATA[Caesars]]></category>
+		<category><![CDATA[DoorDash]]></category>
+		<category><![CDATA[Evans Osiebo]]></category>
+		<category><![CDATA[Group-IB]]></category>
+		<category><![CDATA[Joel Evans]]></category>
+		<category><![CDATA[lastpass]]></category>
+		<category><![CDATA[Mailchimp]]></category>
+		<category><![CDATA[MGM]]></category>
+		<category><![CDATA[Noah Urban]]></category>
+		<category><![CDATA[Okta]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<category><![CDATA[Scattered Spider]]></category>
+		<category><![CDATA[SIM swapping]]></category>
+		<category><![CDATA[Twilio]]></category>
+		<category><![CDATA[Tyler Robert Buchanan]]></category>
+		<category><![CDATA[Tylerb]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71147</guid>
+
+					<description><![CDATA[A 23-year-old Scottish man thought to be a member of the prolific Scattered Spider cybercrime group was extradited last week from Spain to the United States, where he is facing charges of wire fraud, conspiracy and identity theft. U.S. prosecutors allege Tyler Robert Buchanan and co-conspirators hacked into dozens of companies in the United States and abroad, and that he personally controlled more than $26 million stolen from victims.]]></description>
+										<content:encoded><![CDATA[<p>A 23-year-old Scottish man thought to be a member of the prolific <strong>Scattered Spider</strong> cybercrime group was extradited last week from Spain to the United States, where he is facing charges of wire fraud, conspiracy and identity theft. U.S. prosecutors allege <strong>Tyler Robert Buchanan</strong> and co-conspirators hacked into dozens of companies in the United States and abroad, and that he personally controlled more than $26 million stolen from victims.</p>
+<p>Scattered Spider is a loosely affiliated criminal hacking group whose members have broken into and stolen data from some of the world&#8217;s largest technology companies. Buchanan was arrested in Spain last year on a warrant from the FBI, which wanted him in connection with a series of SMS-based phishing attacks in the summer of 2022 that led to intrusions at Twilio, LastPass, DoorDash, Mailchimp, and many other tech firms.</p>
+<div id="attachment_67783" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-67783" decoding="async" class=" wp-image-67783" src="https://krebsonsecurity.com/wp-content/uploads/2024/06/tylerb.png" alt="" width="748" height="308" /><p id="caption-attachment-67783" class="wp-caption-text">Tyler Buchanan, being escorted by Spanish police at the airport in Palma de Mallorca in June 2024.</p></div>
+<p>As <a href="https://krebsonsecurity.com/2024/06/alleged-boss-of-scattered-spider-hacking-group-arrested/" target="_blank" rel="noopener">first reported</a> by KrebsOnSecurity, Buchanan (a.k.a. &#8220;tylerb&#8221;) fled the United Kingdom in February 2023, after a rival cybercrime gang hired thugs to invade his home, assault his mother, and threaten to burn him with a blowtorch unless he gave up the keys to his cryptocurrency wallet. Buchanan was arrested in June 2024 at the airport in Palma de Mallorca while trying to board a flight to Italy. His extradition to the United States was <a href="https://www.bloomberg.com/news/articles/2025-04-24/scattered-spider-hacking-suspect-extradited-to-us-from-spain" target="_blank" rel="noopener">first reported</a> last week by <strong>Bloomberg</strong>.</p>
+<p>Members of Scattered Spider have been <a href="https://cyberscoop.com/youth-hacking-ring-at-the-center-of-cybercrime-spree/" target="_blank" rel="noopener">tied</a> to the 2023 ransomware attacks against <strong>MGM</strong> and <strong>Caesars</strong> casinos in Las Vegas, but it remains unclear whether Buchanan was implicated in that incident. The Justice Department&#8217;s complaint against Buchanan makes no mention of the 2023 ransomware attack.</p>
+<p>Rather, the investigation into Buchanan appears to center on the SMS phishing campaigns from 2022, and on <a href="https://krebsonsecurity.com/category/sim-swapping/" target="_blank" rel="noopener">SIM-swapping attacks</a> that siphoned funds from individual cryptocurrency investors. In a SIM-swapping attack, crooks transfer the target’s phone number to a device they control and intercept any text messages or phone calls to the victim&#8217;s device — including one-time passcodes for authentication and password reset links sent via SMS.</p>
+<p>In August 2022, KrebsOnSecurity <a href="https://krebsonsecurity.com/2022/08/how-1-time-passcodes-became-a-corporate-liability/" target="_blank" rel="noopener">reviewed data harvested in a months-long cybercrime campaign by Scattered Spider</a> involving countless SMS-based phishing attacks against employees at major corporations. The security firm <strong>Group-IB</strong> called them by a different name — <strong>0ktapus</strong>, because the group typically spoofed the identity provider <strong>Okta</strong> in their phishing messages to employees at targeted firms.</p>
+<div id="attachment_61078" style="width: 654px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-61078" decoding="async" loading="lazy" class="wp-image-61078 size-full" src="https://krebsonsecurity.com/wp-content/uploads/2022/08/twiliophish.png" alt="" width="644" height="471" /><p id="caption-attachment-61078" class="wp-caption-text">A Scattered Spider/0Ktapus SMS phishing lure sent to Twilio employees in 2022.</p></div>
+<p>The <a href="https://krebsonsecurity.com/wp-content/uploads/2025/04/tylerb-complaint.pdf" target="_blank" rel="noopener">complaint against Buchanan</a> (PDF) says the FBI tied him to the 2022 SMS phishing attacks after discovering the same username and email address was used to register numerous Okta-themed phishing domains seen in the campaign. The domain registrar <strong>NameCheap</strong> found that less than a month before the phishing spree, the account that registered those domains logged in from an Internet address in the U.K. FBI investigators said the Scottish police told them the address was leased to Buchanan from January 26, 2022 to November 7, 2022.</p>
+<p>Authorities seized at least 20 digital devices when they raided Buchanan&#8217;s residence, and on one of those devices they found usernames and passwords for employees of three different companies targeted in the phishing campaign.</p>
+<p>&#8220;The FBI’s investigation to date has gathered evidence showing that Buchanan and his co-conspirators targeted at least 45 companies in the United States and abroad, including Canada, India, and the United Kingdom,&#8221; the FBI complaint reads. &#8220;One of Buchanan&#8217;s devices contained a screenshot of Telegram messages between an account known to be used by Buchanan and other unidentified co-conspirators discussing dividing up the proceeds of SIM swapping.&#8221;<span id="more-71147"></span></p>
+<p>U.S. prosecutors allege that records obtained from Discord showed the same U.K. Internet address was used to operate a Discord account that specified a cryptocurrency wallet when asking another user to send funds. The complaint says the publicly available transaction history for that payment address shows approximately 391 bitcoin was transferred in and out of this address between October 2022 and<br />
+February 2023; 391 bitcoin is presently worth more than $26 million.</p>
+<p>In November 2024, federal prosecutors in Los Angeles <a href="https://krebsonsecurity.com/2024/11/feds-charge-five-men-in-scattered-spider-roundup/" target="_blank" rel="noopener">unsealed criminal charges against Buchanan</a> and four other alleged Scattered Spider members, including <strong>Ahmed Elbadawy</strong>, 23, of College Station, Texas; <strong>Joel Evans</strong>, 25, of Jacksonville, North Carolina; <strong>Evans Osiebo</strong>, 20, of Dallas; and <a href="https://krebsonsecurity.com/2024/01/fla-man-charged-in-sim-swapping-spree-is-key-suspect-in-hacker-groups-oktapus-scattered-spider/" target="_blank" rel="noopener"><strong>Noah Urban</strong></a>, 20, of Palm Coast, Florida. KrebsOnSecurity <a href="https://krebsonsecurity.com/2024/09/the-dark-nexus-between-harm-groups-and-the-com/" target="_blank" rel="noopener">reported last year</a> that another suspected Scattered Spider member &#8212; a 17-year-old from the United Kingdom &#8212; was arrested as part of a joint investigation with the FBI into the MGM hack.</p>
+<p>Mr. Buchanan&#8217;s court-appointed attorney did not respond to a request for comment. The accused faces charges of wire fraud conspiracy, conspiracy to obtain information by computer for private financial gain, and aggravated identity theft. Convictions on the latter charge carry a minimum sentence of two years in prison.</p>
+<p>Documents from the U.S. District Court for the Central District of California indicate Buchanan is being held without bail pending trial. A preliminary hearing in the case is slated for May 6.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/04/alleged-scattered-spider-member-extradited-to-u-s/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>DOGE Worker&#8217;s Code Supports NLRB Whistleblower</title>
 		<link>https://krebsonsecurity.com/2025/04/doge-workers-code-supports-nlrb-whistleblower/</link>
 					<comments>https://krebsonsecurity.com/2025/04/doge-workers-code-supports-nlrb-whistleblower/#comments</comments>
@@ -46,7 +101,7 @@
 
 					<description><![CDATA[A whistleblower at the National Labor Relations Board (NLRB) alleged last week that denizens of Elon Musk's Department of Government Efficiency (DOGE) siphoned gigabytes of data from the agency's sensitive case files in early March. The whistleblower said accounts created for DOGE at the NLRB downloaded three code repositories from GitHub. Further investigation into one of those code bundles shows it is remarkably similar to a program published in January 2025 by Marko Elez, a 25-year-old DOGE employee who has worked at a number of Musk's companies.]]></description>
 										<content:encoded><![CDATA[<p>A whistleblower at the <strong>National Labor Relations Board</strong> (NLRB) alleged last week that denizens of Elon Musk&#8217;s <strong>Department of Government Efficiency</strong> (DOGE) siphoned gigabytes of data from the agency&#8217;s sensitive case files in early March. The whistleblower said accounts created for DOGE at the NLRB downloaded three code repositories from <strong>GitHub</strong>. Further investigation into one of those code bundles shows it is remarkably similar to a program published in January 2025 by <strong>Marko Elez</strong>, a 25-year-old DOGE employee who has worked at a number of Musk&#8217;s companies.</p>
-<div id="attachment_71090" style="width: 758px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-71090" decoding="async" class="wp-image-71090" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds.png" alt="" width="748" height="323" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds.png 1287w, https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds-768x331.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds-782x337.png 782w" sizes="(max-width: 748px) 100vw, 748px" /></a><p id="caption-attachment-71090" class="wp-caption-text">A screenshot shared by NLRB whistleblower Daniel Berulis shows three downloads from GitHub.</p></div>
+<div id="attachment_71090" style="width: 758px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-71090" decoding="async" loading="lazy" class="wp-image-71090" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds.png" alt="" width="748" height="323" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds.png 1287w, https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds-768x331.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds-782x337.png 782w" sizes="(max-width: 748px) 100vw, 748px" /></a><p id="caption-attachment-71090" class="wp-caption-text">A screenshot shared by NLRB whistleblower Daniel Berulis shows three downloads from GitHub.</p></div>
 <p>According to <a href="https://krebsonsecurity.com/2025/04/whistleblower-doge-siphoned-nlrb-case-data/" target="_blank" rel="noopener">a whistleblower complaint</a> filed last week by <strong>Daniel J. Berulis</strong>, a 38-year-old security architect at the NLRB, officials from DOGE met with NLRB leaders on March 3 and demanded the creation of several all-powerful “tenant admin” accounts that were to be exempted from network logging activity that would otherwise keep a detailed record of all actions taken by those accounts.</p>
 <p>Berulis said the new DOGE accounts had unrestricted permission to read, copy, and alter information contained in NLRB databases. The new accounts also could restrict log visibility, delay retention, route logs elsewhere, or even remove them entirely — top-tier user privileges that neither Berulis nor his boss possessed.</p>
 <p>Berulis said he discovered one of the DOGE accounts had downloaded three external code libraries from <strong>GitHub</strong> that neither NLRB nor its contractors ever used. A “readme” file in one of the code bundles explained it was created to rotate connections through a large pool of cloud Internet addresses that serve “<em>as a proxy to generate pseudo-infinite IPs for web scraping and brute forcing</em>.” Brute force attacks involve automated login attempts that try many credential combinations in rapid sequence.</p>
@@ -689,73 +744,15 @@ This story explores a slew of recent actions by the Trump administration that th
 		
 		
 			</item>
-		<item>
-		<title>Arrests in Tap-to-Pay Scheme Powered by Phishing</title>
-		<link>https://krebsonsecurity.com/2025/03/arrests-in-tap-to-pay-scheme-powered-by-phishing/</link>
-					<comments>https://krebsonsecurity.com/2025/03/arrests-in-tap-to-pay-scheme-powered-by-phishing/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Fri, 21 Mar 2025 19:12:04 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Ne'er-Do-Well News]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[Android]]></category>
-		<category><![CDATA[Apple Pay]]></category>
-		<category><![CDATA[Bernie Lyon]]></category>
-		<category><![CDATA[CSIS Security Group]]></category>
-		<category><![CDATA[Ford Merrill]]></category>
-		<category><![CDATA[Google Apple]]></category>
-		<category><![CDATA[SecAlliance]]></category>
-		<category><![CDATA[tap-to-pay fraud]]></category>
-		<category><![CDATA[Z-NFC]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70697</guid>
-
-					<description><![CDATA[Authorities in at least two U.S. states last week independently announced arrests of Chinese nationals accused of perpetrating a novel form of tap-to-pay fraud using mobile devices. Details released by authorities so far indicate the mobile wallets being used by the scammers were created through online phishing scams, and that the accused were relying on a custom Android app to relay tap-to-pay transactions from mobile devices located in China.]]></description>
-										<content:encoded><![CDATA[<p>Authorities in at least two U.S. states last week independently announced arrests of Chinese nationals accused of perpetrating a novel form of tap-to-pay fraud using mobile devices. Details released by authorities so far indicate the mobile wallets being used by the scammers were created through online phishing scams, and that the accused were relying on a custom Android app to relay tap-to-pay transactions from mobile devices located in China.</p>
-<div id="attachment_70773" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70773" decoding="async" loading="lazy" class=" wp-image-70773" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/kcso-taptopay.png" alt="" width="748" height="413" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/03/kcso-taptopay.png 903w, https://krebsonsecurity.com/wp-content/uploads/2025/03/kcso-taptopay-768x424.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/03/kcso-taptopay-782x431.png 782w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-70773" class="wp-caption-text">Image: WLVT-8.</p></div>
-<p>Authorities in Knoxville, Tennessee last week <a href="https://knoxsheriff.org/tap-2-pay-fraud-scheme-bust/" target="_blank" rel="noopener">said</a> they arrested 11 Chinese nationals accused of buying tens of thousands of dollars worth of gift cards at local retailers with mobile wallets created through online phishing scams. The Knox County Sheriff&#8217;s office said the arrests are considered the first in the nation for a new type of tap-to-pay fraud.</p>
-<p>Responding to questions about what makes this scheme so remarkable, Knox County said that while it appears the fraudsters are simply buying gift cards, in fact they are using multiple transactions to purchase various gift cards and are plying their scam from state to state.</p>
-<p>&#8220;These offenders have been traveling nationwide, using stolen credit card information to purchase gift cards and launder funds,&#8221; Knox County Chief Deputy <strong>Bernie Lyon</strong> wrote. &#8220;During Monday’s operation, we recovered gift cards valued at over $23,000, all bought with unsuspecting victims’ information.&#8221;</p>
-<p>Asked for specifics about the mobile devices seized from the suspects, Lyon said &#8220;tap-to-pay fraud involves a group <em>utilizing Android phones to conduct Apple Pay transactions</em> utilizing stolen or compromised credit/debit card information,&#8221; [emphasis added].</p>
-<p>Lyon declined to offer additional specifics about the mechanics of the scam, citing an ongoing investigation.</p>
-<p><strong>Ford Merrill</strong> works in security research at <a href="https://www.secalliance.com/" target="_blank" rel="noopener">SecAlliance</a>, a <a href="https://www.csis.com/" target="_blank" rel="noopener">CSIS Security Group</a> company. Merrill said there aren&#8217;t many valid use cases for Android phones to transmit Apple Pay transactions. That is, he said, unless they are running a custom Android app that KrebsOnSecurity wrote about last month as part of <a href="https://krebsonsecurity.com/2025/02/how-phished-data-turns-into-apple-google-wallets/" target="_blank" rel="noopener">a deep dive into the operations of China-based phishing cartels</a> that are breathing new life into the payment card fraud industry (a.k.a. &#8220;carding&#8221;).</p>
-<p>How are these China-based phishing groups obtaining stolen payment card data and then loading it onto Google and Apple phones? It all starts with phishing.</p>
-<p>If you own a mobile phone, the chances are excellent that at some point in the past two years it has received at least one phishing message that spoofs the <strong>U.S. Postal Service</strong> to supposedly collect some outstanding delivery fee, or an SMS that pretends to be a local toll road operator warning of a delinquent toll fee.</p>
-<p>These messages are being sent through sophisticated phishing kits sold by several cybercriminals based in mainland China. And they are not traditional SMS phishing or “<strong>smishing</strong>” messages, as they bypass the mobile networks entirely. Rather, the missives are sent through the <strong>Apple iMessage</strong> service and through <a href="https://en.wikipedia.org/wiki/Rich_Communication_Services" target="_blank" rel="noopener">RCS</a>, the functionally equivalent technology on <strong>Google</strong> phones.</p>
-<p>People who enter their payment card data at one of these sites will be told their financial institution needs to verify the small transaction by sending a one-time passcode to the customer’s mobile device. In reality, that code will be sent by the victim’s financial institution in response to a request by the fraudsters to link the phished card data to a mobile wallet.</p>
-<p>If the victim then provides that one-time code, the phishers will link the card data to a new mobile wallet from Apple or Google, loading the wallet onto a mobile phone that the scammers control. These phones are then loaded with multiple stolen wallets (often between 5-10 per device) and sold in bulk to scammers on Telegram.</p>
-<div id="attachment_70436" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70436" decoding="async" loading="lazy" class=" wp-image-70436" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/phishingphones.png" alt="" width="750" height="567" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/02/phishingphones.png 1160w, https://krebsonsecurity.com/wp-content/uploads/2025/02/phishingphones-768x581.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/02/phishingphones-782x591.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-70436" class="wp-caption-text">An image from the Telegram channel for a popular Chinese smishing kit vendor shows 10 mobile phones for sale, each loaded with 5-7 digital wallets from different financial institutions.</p></div>
-<p>Merrill found that at least one of the Chinese phishing groups sells an Android app called “<strong>Z-NFC</strong>” that can relay a valid NFC transaction to anywhere in the world. The user simply waves their phone at a local payment terminal that accepts Apple or Google pay, and the app relays an NFC transaction over the Internet from a phone in China.</p>
-<p>&#8220;I would be shocked if this wasn&#8217;t the NFC relay app,&#8221; Merrill said, concerning the arrested suspects in Tennessee.</p>
-<div style="text-align: center;"><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/ekqZjPAxB4c?si=hYLqGPIBrNthAg9_" width="750" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-<p>Merrill said the Z-NFC software can work from anywhere in the world, and that one phishing gang offers the software for $500 a month.</p>
-<p>&#8220;It can relay both NFC enabled tap-to-pay as well as any digital wallet,&#8221; Merrill said. &#8220;They even have 24-hour support.&#8221;<span id="more-70697"></span></p>
-<p>On March 16, the ABC affiliate in Sacramento (<strong>ABC10</strong>), Calif. <a href="https://www.youtube.com/watch?v=dUjaj0d1T6A" target="_blank" rel="noopener">aired a segment</a> about two Chinese nationals who were arrested after using an app to run stolen credit cards at a local Target store. The news story quoted investigators saying the men were trying to buy gift cards using a mobile app that cycled through more than 80 stolen payment cards.</p>
-<p>ABC10 reported that while most of those transactions were declined, the suspects still made off with $1,400 worth of gift cards. After their arrests, both men reportedly admitted that they were being paid $250 a day to conduct the fraudulent transactions.</p>
-<p>Merrill said it&#8217;s not unusual for fraud groups to advertise this kind of work on social media networks, including TikTok.</p>
-<p>A <strong>CBS News</strong> <a href="https://www.cbsnews.com/sacramento/news/sacramento-county-credit-card-scheme-arrest-chinese-nationals/" target="_blank" rel="noopener">story</a> on the Sacramento arrests said one of the suspects tried to use 42 separate bank cards, but that 32 were declined. Even so, the man still was reportedly able to spend $855 in the transactions.</p>
-<p>Likewise, the suspect&#8217;s alleged accomplice tried 48 transactions on separate cards, finding success 11 times and spending $633, CBS reported.</p>
-<p>&#8220;It&#8217;s interesting that so many of the cards were declined,&#8221; Merrill said. &#8220;One reason this might be is that banks are getting better at detecting this type of fraud. The other could be that the cards were already used and so they were already flagged for fraud even before these guys had a chance to use them. So there could be some element of just sending these guys out to stores to see if it works, and if not they&#8217;re on their own.&#8221;</p>
-<p>Merrill&#8217;s investigation into the Telegram sales channels for these China-based phishing gangs shows their phishing sites are actively manned by fraudsters who sit in front of giant racks of Apple and Google phones that are used to send the spam and respond to replies in real time.</p>
-<p>In other words, the phishing websites are powered by real human operators as long as new messages are being sent. Merrill said the criminals appear to send only a few dozen messages at a time, likely because completing the scam takes manual work by the human operators in China. After all, most one-time codes used for mobile wallet provisioning are generally only good for a few minutes before they expire.</p>
-<p>For more on how these China-based mobile phishing groups operate, check out <a href="https://krebsonsecurity.com/2025/02/how-phished-data-turns-into-apple-google-wallets/" target="_blank" rel="noopener">How Phished Data Turns Into Apple and Google Wallets</a>.</p>
-<div id="attachment_70435" style="width: 528px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70435" decoding="async" loading="lazy" class="size-full wp-image-70435" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/phonesashtray.png" alt="" width="518" height="688" /><p id="caption-attachment-70435" class="wp-caption-text">The ashtray says: You&#8217;ve been phishing all night.</p></div>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/03/arrests-in-tap-to-pay-scheme-powered-by-phishing/feed/</wfw:commentRss>
-			<slash:comments>11</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 287/287 objects using memcached
+Object Caching 300/300 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-04-30 16:57:35 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-04-30 18:00:11 by W3 Total Cache
 -->
