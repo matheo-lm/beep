@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 30 Apr 2025 08:00:53 EDT</pubDate>
+        <pubDate>Wed, 30 Apr 2025 10:02:34 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ascension discloses new data breach after third-party hacking incident</title>
+        <link>https://www.bleepingcomputer.com/news/security/ascension-discloses-new-data-breach-after-third-party-hacking-incident/</link>
+        <pubDate>Wed, 30 Apr 2025 09:21:31 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ascension-discloses-new-data-breach-after-third-party-hacking-incident/</guid>
+	<description><![CDATA[​Ascension, one of the largest private healthcare systems in the United States, is notifying patients that their personal and health information was stolen in a December 2024 data theft attack, which affected a former business partner. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: Windows 11 24H2 updates fail with 0x80240069 errors</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-updates-fail-with-0x80240069-errors/</link>
@@ -174,34 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/marks-and-spencer-breach-linked-to-scattered-spider-ransomware-attack/</guid>
 	<description><![CDATA[Ongoing outages at British retail giant Marks & Spencer are caused by a ransomware attack believed to be conducted by threat actors known as "Scattered Spider" BleepingComputer has learned from multiple sources. [...]]]></description>
- </item>
-
- <item>
-        <title>Hitachi Vantara takes servers offline after Akira ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/hitachi-vantara-takes-servers-offline-after-akira-ransomware-attack/</link>
-        <pubDate>Mon, 28 Apr 2025 15:39:09 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hitachi-vantara-takes-servers-offline-after-akira-ransomware-attack/</guid>
-	<description><![CDATA[Hitachi Vantara, a subsidiary of Japanese multinational conglomerate Hitachi, was forced to take servers offline over the weekend to contain an Akira ransomware attack. [...]]]></description>
- </item>
-
- <item>
-        <title>VeriSource now says February data breach impacts 4 million people</title>
-        <link>https://www.bleepingcomputer.com/news/security/verisource-now-says-february-data-breach-impacts-4-million-people/</link>
-        <pubDate>Mon, 28 Apr 2025 13:54:47 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/verisource-now-says-february-data-breach-impacts-4-million-people/</guid>
-	<description><![CDATA[Employee benefits administration firm VeriSource Services is warning that a data breach exposed the personal information of four million people.  [...]]]></description>
  </item>
 
 </channel>
