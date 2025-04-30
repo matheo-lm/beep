@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 30 Apr 2025 06:01:05 EDT</pubDate>
+        <pubDate>Wed, 30 Apr 2025 07:00:40 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: Windows 11 24H2 updates fail with 0x80240069 errors</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-updates-fail-with-0x80240069-errors/</link>
+        <pubDate>Wed, 30 Apr 2025 06:45:32 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-updates-fail-with-0x80240069-errors/</guid>
+	<description><![CDATA[Microsoft has confirmed that Windows 11 24H2 feature updates via Windows Server Update Services (WSUS) are being blocked after installing the April 2025 security updates. [...]]]></description>
+ </item>
+
  <item>
         <title>Grinex exchange suspected rebrand of sanctioned Garantex crypto firm</title>
         <link>https://www.bleepingcomputer.com/news/cryptocurrency/grinex-exchange-suspected-rebrand-of-sanctioned-garantex-crypto-firm/</link>
@@ -188,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/verisource-now-says-february-data-breach-impacts-4-million-people/</guid>
 	<description><![CDATA[Employee benefits administration firm VeriSource Services is warning that a data breach exposed the personal information of four million people.  [...]]]></description>
- </item>
-
- <item>
-        <title>Over 1,200 SAP NetWeaver servers vulnerable to actively exploited flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/over-1-200-sap-netweaver-servers-vulnerable-to-actively-exploited-flaw/</link>
-        <pubDate>Mon, 28 Apr 2025 12:46:43 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/over-1-200-sap-netweaver-servers-vulnerable-to-actively-exploited-flaw/</guid>
-	<description><![CDATA[Over 1,200 internet-exposed SAP NetWeaver instances are vulnerable to an actively exploited maximum severity unauthenticated file upload vulnerability that allows attackers to hijack servers. [...]]]></description>
  </item>
 
 </channel>
