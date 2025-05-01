@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 01 May 2025 12:00:18 EDT</pubDate>
+        <pubDate>Thu, 01 May 2025 13:00:58 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Malicious PyPI packages abuse Gmail, websockets to hijack systems</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-abuse-gmail-websockets-to-hijack-systems/</link>
+        <pubDate>Thu, 01 May 2025 12:25:36 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-abuse-gmail-websockets-to-hijack-systems/</guid>
+	<description><![CDATA[Seven malicious PyPi packages were found using Gmail's SMTP servers and WebSockets for data exfiltration and remote command execution. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers abuse IPv6 networking feature to hijack software updates</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-abuse-ipv6-networking-feature-to-hijack-software-updates/</link>
@@ -178,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-hotpatching-to-require-subscription/</guid>
 	<description><![CDATA[Microsoft has announced it will require paid subscriptions for Windows Server 2025 hotpatching, a service that enables admins to install security updates without restarting. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers ramp up scans for leaked Git tokens and secrets</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-ramp-up-scans-for-leaked-git-tokens-and-secrets/</link>
-        <pubDate>Tue, 29 Apr 2025 15:02:43 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-ramp-up-scans-for-leaked-git-tokens-and-secrets/</guid>
-	<description><![CDATA[Threat actors are intensifying internet-wide scanning for Git configuration files that can reveal sensitive secrets and authentication tokens used to compromise cloud services and source code repositories. [...]]]></description>
  </item>
 
 </channel>
