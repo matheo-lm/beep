@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 01 May 2025 14:59:19 EDT</pubDate>
+        <pubDate>Thu, 01 May 2025 15:59:14 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ukrainian extradited to US for Nefilim ransomware attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/ukrainian-extradited-to-us-for-nefilim-ransomware-attacks/</link>
+        <pubDate>Thu, 01 May 2025 15:44:03 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ukrainian-extradited-to-us-for-nefilim-ransomware-attacks/</guid>
+	<description><![CDATA[A Ukrainian national has been extradited from Spain to the United States to face charges over allegedly conducting Nefilim ransomware attacks against companies. [...]]]></description>
+ </item>
+
  <item>
         <title>Harrods the next UK retailer targeted in a cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/harrods-the-next-uk-retailer-targeted-in-a-cyberattack/</link>
@@ -160,20 +174,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ascension-discloses-new-data-breach-after-third-party-hacking-incident/</guid>
 	<description><![CDATA[​Ascension, one of the largest private healthcare systems in the United States, is notifying patients that their personal and health information was stolen in a December 2024 data theft attack, which affected a former business partner. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Windows 11 24H2 updates fail with 0x80240069 errors</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-updates-fail-with-0x80240069-errors/</link>
-        <pubDate>Wed, 30 Apr 2025 06:45:32 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-updates-fail-with-0x80240069-errors/</guid>
-	<description><![CDATA[Microsoft has confirmed that Windows 11 24H2 feature updates via Windows Server Update Services (WSUS) are being blocked after installing the April 2025 security updates. [...]]]></description>
  </item>
 
 </channel>
