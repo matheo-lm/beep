@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 02 May 2025 03:00:42 EDT</pubDate>
+        <pubDate>Fri, 02 May 2025 04:01:40 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft makes all new accounts passwordless by default</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-makes-all-new-accounts-passwordless-by-default/</link>
+        <pubDate>Fri, 02 May 2025 03:21:24 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-makes-all-new-accounts-passwordless-by-default/</guid>
+	<description><![CDATA[Microsoft has announced that all new Microsoft accounts will be "passwordless by default" to secure them against password attacks such as phishing, brute force, and credential stuffing. [...]]]></description>
+ </item>
+
  <item>
         <title>Hacker 'NullBulge' pleads guilty to stealing Disney's Slack data</title>
         <link>https://www.bleepingcomputer.com/news/security/hacker-nullbulge-pleads-guilty-to-stealing-disneys-slack-data/</link>
@@ -174,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fbi-shares-massive-list-of-42-000-labhost-phishing-domains/</guid>
 	<description><![CDATA[The FBI has shared 42,000 phishing domains tied to the LabHost cybercrime platform, one of the largest global phishing-as-a-service (PhaaS) platforms that was dismantled in April 2024. [...]]]></description>
- </item>
-
- <item>
-        <title>UK retailer Co-op shuts down some IT systems after hack attempt</title>
-        <link>https://www.bleepingcomputer.com/news/security/uk-retailer-co-op-shuts-down-some-it-systems-after-hack-attempt/</link>
-        <pubDate>Wed, 30 Apr 2025 10:12:54 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/uk-retailer-co-op-shuts-down-some-it-systems-after-hack-attempt/</guid>
-	<description><![CDATA[British supermarket chain Co-op Food has confirmed to BleepingComputer via a statement that it has suffered limited operational disruption as it responds to a cyberattack. [...]]]></description>
  </item>
 
 </channel>
