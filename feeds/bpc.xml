@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 02 May 2025 14:03:12 EDT</pubDate>
+        <pubDate>Fri, 02 May 2025 15:00:08 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Magento supply chain attack compromises hundreds of e-stores</title>
+        <link>https://www.bleepingcomputer.com/news/security/magento-supply-chain-attack-compromises-hundreds-of-e-stores/</link>
+        <pubDate>Fri, 02 May 2025 14:09:55 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/magento-supply-chain-attack-compromises-hundreds-of-e-stores/</guid>
+	<description><![CDATA[A supply chain attack involving 21 backdoored Magento extensions has compromised between 500 and 1,000 e-commerce stores, including one belonging to a $40 billion multinational. [...]]]></description>
+ </item>
+
  <item>
         <title>US indicts Black Kingdom ransomware admin for Microsoft Exchange attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/us-indicts-black-kingdom-ransomware-admin-for-microsoft-exchange-attacks/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-abuse-ipv6-networking-feature-to-hijack-software-updates/</guid>
 	<description><![CDATA[A China-aligned APT threat actor named "TheWizards" abuses an IPv6 networking feature to launch adversary-in-the-middle (AitM) attacks that hijack software updates to install Windows malware. [...]]]></description>
- </item>
-
- <item>
-        <title>WordPress plugin disguised as a security tool injects backdoor</title>
-        <link>https://www.bleepingcomputer.com/news/security/wordpress-plugin-disguised-as-a-security-tool-injects-backdoor/</link>
-        <pubDate>Wed, 30 Apr 2025 17:05:46 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/wordpress-plugin-disguised-as-a-security-tool-injects-backdoor/</guid>
-	<description><![CDATA[A new malware campaign targeting WordPress sites employs a malicious plugin disguised as a security tool to trick users into installing and trusting it. [...]]]></description>
  </item>
 
 </channel>
