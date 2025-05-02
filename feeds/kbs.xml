@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 30 Apr 2025 21:54:59 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 02 May 2025 01:08:40 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,61 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>xAI Dev Leaks API Key for Private SpaceX, Tesla LLMs</title>
+		<link>https://krebsonsecurity.com/2025/05/xai-dev-leaks-api-key-for-private-spacex-tesla-llms/</link>
+					<comments>https://krebsonsecurity.com/2025/05/xai-dev-leaks-api-key-for-private-spacex-tesla-llms/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Fri, 02 May 2025 00:52:00 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[DOGE]]></category>
+		<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Carole Winqwist]]></category>
+		<category><![CDATA[Department of Government Efficiency]]></category>
+		<category><![CDATA[Eric Fourrier]]></category>
+		<category><![CDATA[General Services Administration]]></category>
+		<category><![CDATA[GitGuardian]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Grok]]></category>
+		<category><![CDATA[GSAi]]></category>
+		<category><![CDATA[Philippe Caturegli]]></category>
+		<category><![CDATA[Reuters]]></category>
+		<category><![CDATA[Seralys]]></category>
+		<category><![CDATA[SpaceX]]></category>
+		<category><![CDATA[Tesla]]></category>
+		<category><![CDATA[The Washington Post]]></category>
+		<category><![CDATA[Twitter/X]]></category>
+		<category><![CDATA[xAI]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71165</guid>
+
+					<description><![CDATA[A employee at Elon Musk's artificial intelligence company xAI leaked a private key on GitHub that for the past two months could have allowed anyone to query private xAI large language models (LLMs) which appear to have been custom made for working with internal data from Musk's companies, including SpaceX, Tesla and Twitter/X, KrebsOnSecurity has learned.]]></description>
+										<content:encoded><![CDATA[<p>An employee at Elon Musk&#8217;s artificial intelligence company <strong>xAI</strong> leaked a private key on <strong>GitHub</strong> that for the past two months could have allowed anyone to query private xAI large language models (LLMs) which appear to have been custom made for working with internal data from Musk&#8217;s companies, including <strong>SpaceX</strong>, <strong>Tesla</strong> and <strong>Twitter/X, </strong>KrebsOnSecurity has learned.</p>
+<div id="attachment_71170" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71170" decoding="async" class=" wp-image-71170" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/x-ai.png" alt="" width="748" height="497" /><p id="caption-attachment-71170" class="wp-caption-text">Image: Shutterstock, @sdx15.</p></div>
+<p><strong>Philippe Caturegli</strong>, &#8220;chief hacking officer&#8221; at the security consultancy <strong>Seralys</strong>, was <a href="https://www.linkedin.com/posts/caturegli_yo-xai-your-devs-are-leaking-api-keys-on-activity-7321566948020953088-6KXj?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAAliaMB3BQO-WOS-eUh-XU4HAd5h8pTzkI" target="_blank" rel="noopener">the first to publicize the leak</a> of credentials for an x.ai application programming interface (API) exposed in the GitHub code repository of a technical staff member at xAI.</p>
+<p>Caturegli&#8217;s post on LinkedIn caught the attention of researchers at <strong>GitGuardian</strong>, a company that specializes in detecting and remediating exposed secrets in public and proprietary environments. GitGuardian&#8217;s systems constantly scan GitHub and other code repositories for exposed API keys, and fire off automated alerts to affected users.</p>
+<p>GitGuardian&#8217;s <strong>Eric Fourrier</strong> told KrebsOnSecurity the exposed API key had access to several unreleased models of <strong>Grok</strong>, the AI chatbot developed by xAI. In total, GitGuardian found the key had access to at least 60 distinct data sets.</p>
+<p>&#8220;The credentials can be used to access the X.ai API with the identity of the user,&#8221; GitGuardian wrote in an email explaining their findings to xAI. &#8220;The associated account not only has access to public Grok models (grok-2-1212, etc) but also to what appears to be unreleased (grok-2.5V), development (research-grok-2p5v-1018), and private models (tweet-rejector, grok-spacex-2024-11-04).&#8221;</p>
+<p>Fourrier found GitGuardian had alerted the xAI employee about the exposed API key nearly two months ago &#8212; on March 2. But as of April 30, when GitGuardian directly alerted xAI&#8217;s security team to the exposure, the key was still valid and usable. xAI told GitGuardian to report the matter through its bug bounty program at <strong>HackerOne</strong>, but just a few hours later the repository containing the API key was removed from GitHub.</p>
+<p>&#8220;It looks like some of these internal LLMs were fine-tuned on SpaceX data, and some were fine-tuned with Tesla data,&#8221; Fourrier said. &#8220;I definitely don&#8217;t think a Grok model that&#8217;s fine-tuned on SpaceX data is intended to be exposed publicly.&#8221;</p>
+<p>xAI did not respond to a request for comment. Nor did the 28-year-old xAI technical staff member whose key was exposed.<span id="more-71165"></span></p>
+<p><strong>Carole Winqwist</strong> heads the research team at GitGuardian. Winquist said giving potentially hostile users free access to private LLMs is a recipe for disaster.</p>
+<p>&#8220;If you&#8217;re an attacker and you have direct access to the model and the back end interface for things like Grok, it&#8217;s definitely something you can use for further attacking,&#8221; she said. &#8220;An attacker could it use for prompt injection, to tweak the (LLM) model to serve their purposes, or try to implant code into the supply chain.&#8221;</p>
+<p>The inadvertent exposure of internal LLMs for xAI comes as Musk&#8217;s so-called <strong>Department of Government Efficiency</strong> (DOGE) has been feeding sensitive government records into artificial intelligence tools. In February, <strong>The Washington Post</strong> <a href="https://www.washingtonpost.com/nation/2025/02/06/elon-musk-doge-ai-department-education/" target="_blank" rel="noopener">reported</a> DOGE officials were feeding data from across the Education Department into AI tools to probe the agency&#8217;s programs and spending.</p>
+<p>The Post said DOGE plans to replicate this process across many departments and agencies, accessing the back-end software at different parts of the government and then using AI technology to extract and sift through information about spending on employees and programs.</p>
+<p>&#8220;Feeding sensitive data into AI software puts it into the possession of a system&#8217;s operator, increasing the chances it will be leaked or swept up in cyberattacks,&#8221; Post reporters wrote.</p>
+<p>Wired reported in March that DOGE has <a href="https://www.wired.com/story/gsai-chatbot-1500-federal-workers/" target="_blank" rel="noopener">deployed a proprietary chatbot called GSAi</a> to 1,500 federal workers at the <strong>General Services Administration</strong>, part of an effort to automate tasks previously done by humans as DOGE continues its purge of the federal workforce.</p>
+<p>A <strong>Reuters</strong> <a href="https://www.reuters.com/technology/artificial-intelligence/musks-doge-using-ai-snoop-us-federal-workers-sources-say-2025-04-08/" target="_blank" rel="noopener">report</a> last month said Trump administration officials told some U.S. government employees that DOGE is using AI to surveil at least one federal agency&#8217;s communications for hostility to President Trump and his agenda. Reuters wrote that the DOGE team has heavily deployed Musk’s Grok AI chatbot as part of their work slashing the federal government, although Reuters said it could not establish exactly how Grok was being used.</p>
+<p>Caturegli said while there is no indication that federal government or user data could be accessed through the exposed x.ai API key, these private models are likely trained on proprietary data and may unintentionally expose details related to internal development efforts at xAI, Twitter, or SpaceX.</p>
+<p>&#8220;The fact that this key was publicly exposed for two months and granted access to internal models is concerning,&#8221; Caturegli said. &#8220;This kind of long-lived credential exposure highlights weak key management and insufficient internal monitoring, raising questions about safeguards around developer access and broader operational security.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/05/xai-dev-leaks-api-key-for-private-spacex-tesla-llms/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Alleged &#8216;Scattered Spider&#8217; Member Extradited to U.S.</title>
 		<link>https://krebsonsecurity.com/2025/04/alleged-scattered-spider-member-extradited-to-u-s/</link>
 					<comments>https://krebsonsecurity.com/2025/04/alleged-scattered-spider-member-extradited-to-u-s/#comments</comments>
@@ -53,7 +108,7 @@
 					<description><![CDATA[A 23-year-old Scottish man thought to be a member of the prolific Scattered Spider cybercrime group was extradited last week from Spain to the United States, where he is facing charges of wire fraud, conspiracy and identity theft. U.S. prosecutors allege Tyler Robert Buchanan and co-conspirators hacked into dozens of companies in the United States and abroad, and that he personally controlled more than $26 million stolen from victims.]]></description>
 										<content:encoded><![CDATA[<p>A 23-year-old Scottish man thought to be a member of the prolific <strong>Scattered Spider</strong> cybercrime group was extradited last week from Spain to the United States, where he is facing charges of wire fraud, conspiracy and identity theft. U.S. prosecutors allege <strong>Tyler Robert Buchanan</strong> and co-conspirators hacked into dozens of companies in the United States and abroad, and that he personally controlled more than $26 million stolen from victims.</p>
 <p>Scattered Spider is a loosely affiliated criminal hacking group whose members have broken into and stolen data from some of the world&#8217;s largest technology companies. Buchanan was arrested in Spain last year on a warrant from the FBI, which wanted him in connection with a series of SMS-based phishing attacks in the summer of 2022 that led to intrusions at Twilio, LastPass, DoorDash, Mailchimp, and many other tech firms.</p>
-<div id="attachment_67783" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-67783" decoding="async" class=" wp-image-67783" src="https://krebsonsecurity.com/wp-content/uploads/2024/06/tylerb.png" alt="" width="748" height="308" /><p id="caption-attachment-67783" class="wp-caption-text">Tyler Buchanan, being escorted by Spanish police at the airport in Palma de Mallorca in June 2024.</p></div>
+<div id="attachment_67783" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-67783" decoding="async" loading="lazy" class=" wp-image-67783" src="https://krebsonsecurity.com/wp-content/uploads/2024/06/tylerb.png" alt="" width="748" height="308" /><p id="caption-attachment-67783" class="wp-caption-text">Tyler Buchanan, being escorted by Spanish police at the airport in Palma de Mallorca in June 2024.</p></div>
 <p>As <a href="https://krebsonsecurity.com/2024/06/alleged-boss-of-scattered-spider-hacking-group-arrested/" target="_blank" rel="noopener">first reported</a> by KrebsOnSecurity, Buchanan (a.k.a. &#8220;tylerb&#8221;) fled the United Kingdom in February 2023, after a rival cybercrime gang hired thugs to invade his home, assault his mother, and threaten to burn him with a blowtorch unless he gave up the keys to his cryptocurrency wallet. Buchanan was arrested in June 2024 at the airport in Palma de Mallorca while trying to board a flight to Italy. His extradition to the United States was <a href="https://www.bloomberg.com/news/articles/2025-04-24/scattered-spider-hacking-suspect-extradited-to-us-from-spain" target="_blank" rel="noopener">first reported</a> last week by <strong>Bloomberg</strong>.</p>
 <p>Members of Scattered Spider have been <a href="https://cyberscoop.com/youth-hacking-ring-at-the-center-of-cybercrime-spree/" target="_blank" rel="noopener">tied</a> to the 2023 ransomware attacks against <strong>MGM</strong> and <strong>Caesars</strong> casinos in Las Vegas, but it remains unclear whether Buchanan was implicated in that incident. The Justice Department&#8217;s complaint against Buchanan makes no mention of the 2023 ransomware attack.</p>
 <p>Rather, the investigation into Buchanan appears to center on the SMS phishing campaigns from 2022, and on <a href="https://krebsonsecurity.com/category/sim-swapping/" target="_blank" rel="noopener">SIM-swapping attacks</a> that siphoned funds from individual cryptocurrency investors. In a SIM-swapping attack, crooks transfer the target’s phone number to a device they control and intercept any text messages or phone calls to the victim&#8217;s device — including one-time passcodes for authentication and password reset links sent via SMS.</p>
@@ -694,65 +749,15 @@ This story explores a slew of recent actions by the Trump administration that th
 		
 		
 			</item>
-		<item>
-		<title>When Getting Phished Puts You in Mortal Danger</title>
-		<link>https://krebsonsecurity.com/2025/03/when-getting-phished-puts-you-in-mortal-danger/</link>
-					<comments>https://krebsonsecurity.com/2025/03/when-getting-phished-puts-you-in-mortal-danger/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Thu, 27 Mar 2025 16:39:49 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Russia's War on Ukraine]]></category>
-		<category><![CDATA[Artem Tamoian]]></category>
-		<category><![CDATA[DuckDuckGo]]></category>
-		<category><![CDATA[Freedom of Russia legion]]></category>
-		<category><![CDATA[Russian Volunteer Corps]]></category>
-		<category><![CDATA[Silent Push]]></category>
-		<category><![CDATA[Stark Industries Solutions Ltd]]></category>
-		<category><![CDATA[Yandex]]></category>
-		<category><![CDATA[Zach Edwards]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70785</guid>
-
-					<description><![CDATA[Many successful phishing attacks result in a financial loss or malware infection. But falling for some phishing scams, like those currently targeting Russians searching online for organizations that are fighting the Kremlin war machine, can cost you your freedom or your life.]]></description>
-										<content:encoded><![CDATA[<p>Many successful phishing attacks result in a financial loss or malware infection. But falling for some phishing scams, like those currently targeting Russians searching online for organizations that are fighting the Kremlin war machine, can cost you your freedom or your life.</p>
-<div id="attachment_70811" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70811" decoding="async" loading="lazy" class=" wp-image-70811" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/legionlibertyarmy.png" alt="" width="750" height="420" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/03/legionlibertyarmy.png 1430w, https://krebsonsecurity.com/wp-content/uploads/2025/03/legionlibertyarmy-768x430.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/03/legionlibertyarmy-782x437.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-70811" class="wp-caption-text">The real website of the Ukrainian paramilitary group &#8220;Freedom of Russia&#8221; legion. The text has been machine-translated from Russian.</p></div>
-<p>Researchers at the security firm <strong>Silent Push</strong> mapped a network of several dozen phishing domains that spoof the recruitment websites of Ukrainian paramilitary groups, as well as Ukrainian government intelligence sites.</p>
-<p>The website <strong>legiohliberty[.]army</strong> features a carbon copy of the homepage for the <a href="https://en.wikipedia.org/wiki/Freedom_of_Russia_Legion" target="_blank" rel="noopener">Freedom of Russia Legion</a> (a.k.a. &#8220;Free Russia Legion&#8221;), a three-year-old Ukraine-based paramilitary unit made up of Russian citizens who oppose Vladimir Putin and his invasion of Ukraine.</p>
-<p>The phony version of that website copies the legitimate site &#8212; <strong>legionliberty[.]army &#8212; </strong>providing an interactive <strong>Google Form</strong> where interested applicants can share their contact and personal details. The form asks visitors to provide their name, gender, age, email address and/or Telegram handle, country, citizenship, experience in the armed forces; political views; motivations for joining; and any bad habits.</p>
-<p>&#8220;Participation in such anti-war actions is considered illegal in the Russian Federation, and participating citizens are regularly charged and arrested,&#8221; Silent Push wrote in a report released today. &#8220;All observed campaigns had similar traits and shared a common objective: collecting personal information from site-visiting victims. Our team believes it is likely that this campaign is the work of either Russian Intelligence Services or a threat actor with similarly aligned motives.&#8221;</p>
-<p>Silent Push&#8217;s <strong>Zach Edwards</strong> said the fake Legion Liberty site shared multiple connections with <strong>rusvolcorps[.]net</strong>. That domain mimics the recruitment page for a Ukrainian far-right paramilitary group called the <a href="https://en.wikipedia.org/wiki/Russian_Volunteer_Corps" target="_blank" rel="noopener">Russian Volunteer Corps</a> (rusvolcorps[.]com), and uses a similar Google Forms page to collect information from would-be members.</p>
-<p>Other domains Silent Push connected to the phishing scheme include: <strong>ciagov[.]icu</strong>, which mirrors the content on the official website of the <strong>U.S. Central Intelligence Agency</strong>; and <strong>hochuzhitlife[.]com</strong>, which spoofs the <strong>Ministry of Defense of Ukraine &amp; General Directorate of Intelligence</strong> (whose actual domain is <strong>hochuzhit[.]com</strong>).</p>
-<p><img decoding="async" loading="lazy" class="aligncenter wp-image-70814" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/recruit-form.png" alt="" width="749" height="775" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/03/recruit-form.png 790w, https://krebsonsecurity.com/wp-content/uploads/2025/03/recruit-form-768x794.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/03/recruit-form-782x809.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
-<p>According to Edwards, there are no signs that these phishing sites are being advertised via email. Rather, it appears those responsible are promoting them by manipulating the search engine results shown when someone searches for one of these anti-Putin organizations.</p>
-<p>In August 2024, security researcher <strong>Artem Tamoian</strong> posted <a href="https://x.com/artemtam" target="_blank" rel="noopener">on Twitter/X</a> about how he received startlingly different results when he searched for &#8220;Freedom of Russia legion&#8221; in Russia&#8217;s largest domestic search engine <strong>Yandex</strong> versus Google.com. The top result returned by Google was the legion&#8217;s actual website, while the first result on Yandex was a phishing page targeting the group.</p>
-<p>&#8220;I think at least some of them are surely promoted via search,&#8221; Tamoian said of the phishing domains. &#8220;My first thread on that accuses Yandex, but apart from Yandex those websites are consistently ranked above legitimate in DuckDuckGo and Bing. Initially, I didn&#8217;t realize the scale of it. They keep appearing to this day.&#8221;<span id="more-70785"></span></p>
-<p>Tamoian, a native Russian who left the country in 2019, is the founder of the cyber investigation platform <a href="https://malfors.com" target="_blank" rel="noopener">malfors.com</a>. He recently discovered two other sites impersonating the Ukrainian paramilitary groups &#8212; <strong>legionliberty[.]world</strong> and <strong>rusvolcorps[.]ru</strong> &#8212; and reported both to Cloudflare. When Cloudflare responded by blocking the sites with a phishing warning, the real Internet address of these sites <a href="https://krebsonsecurity.com/wp-content/uploads/2025/03/rusvolcorps-stark.png" target="_blank" rel="noopener">was exposed</a> as belonging to a known &#8220;bulletproof hosting&#8221; network called <strong>Stark Industries Solutions Ltd</strong>.</p>
-<p>Stark Industries Solutions appeared two weeks before Russia invaded Ukraine in February 2022, materializing out of nowhere with hundreds of thousands of Internet addresses in its stable &#8212; many of them originally assigned to Russian government organizations. In May 2024, KrebsOnSecurity <a href="https://krebsonsecurity.com/2024/05/stark-industries-solutions-an-iron-hammer-in-the-cloud/" target="_blank" rel="noopener">published a deep dive on Stark</a>, which has repeatedly been used to host infrastructure for distributed denial-of-service (DDoS) attacks, phishing, malware and disinformation campaigns from Russian intelligence agencies and pro-Kremlin hacker groups.</p>
-<p>In March 2023, Russia’s Supreme Court designated the Freedom of Russia legion as a terrorist organization, meaning that Russians caught communicating with the group could face between 10 and 20 years in prison.</p>
-<p>Tamoian said those searching online for information about these paramilitary groups have become easy prey for Russian security services.</p>
-<p>&#8220;I started looking into those phishing websites, because I kept stumbling upon news that someone gets arrested for trying to join [the] Ukrainian Army or for trying to help them,&#8221; Tamoian told KrebsOnSecurity. &#8220;I have also seen reports [of] FSB contacting people impersonating Ukrainian officers, as well as using fake Telegram bots, so I thought fake websites might be an option as well.&#8221;</p>
-<div id="attachment_70810" style="width: 622px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70810" decoding="async" loading="lazy" class="size-full wp-image-70810" src="https://krebsonsecurity.com/wp-content/uploads/2025/03/legion-arrests.png" alt="" width="612" height="802" /><p id="caption-attachment-70810" class="wp-caption-text">Search results showing news articles about people in Russia being sentenced to lengthy prison terms for attempting to aid Ukrainian paramilitary groups.</p></div>
-<p>Tamoian said <a href="https://en.zona.media/article/2024/10/15/phish-trl" target="_blank" rel="noopener">reports surface regularly in Russia</a> about people being arrested for trying carry out an action requested by a &#8220;Ukrainian recruiter,&#8221; with the courts unfailingly imposing harsh sentences regardless of the defendant’s age.</p>
-<p>&#8220;This keeps happening regularly, but usually there are no details about how exactly the person gets caught,&#8221; he said. &#8220;All cases related to state treason [and] terrorism are classified, so there are barely any details.&#8221;</p>
-<p>Tamoian said while he has no direct evidence linking any of the reported arrests and convictions to these phishing sites, he is certain the sites are part of a larger campaign by the Russian government.</p>
-<p>&#8220;Considering that they keep them alive and keep spawning more, I assume it might be an efficient thing,&#8221; he said. &#8220;They are on top of DuckDuckGo and Yandex, so it unfortunately works.&#8221;</p>
-<p>Further reading: Silent Push report, <a href="https://www.silentpush.com/blog/russian-intelligence-phishing" target="_blank" rel="noopener">Russian Intelligence Targeting its Citizens and Informants</a>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/03/when-getting-phished-puts-you-in-mortal-danger/feed/</wfw:commentRss>
-			<slash:comments>12</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 300/300 objects using memcached
+Object Caching 298/298 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-05-01 18:55:21 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-05-01 21:27:32 by W3 Total Cache
 -->
