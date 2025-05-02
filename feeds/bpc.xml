@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 02 May 2025 08:02:53 EDT</pubDate>
+        <pubDate>Fri, 02 May 2025 09:09:46 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>TikTok fined €530 million for sending European user data to China</title>
+        <link>https://www.bleepingcomputer.com/news/security/tiktok-fined-530-million-for-sending-european-user-data-to-china/</link>
+        <pubDate>Fri, 02 May 2025 08:14:27 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/tiktok-fined-530-million-for-sending-european-user-data-to-china/</guid>
+	<description><![CDATA[The Irish Data Protection Commission (DPC) has fined TikTok €530 million (over $601 million) for illegally transferring the personal data of users in the European Economic Area (EEA) to China, violating the European Union's GDPR data protection regulations. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes Exchange Online bug flagging Gmail emails as spam</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-online-bug-flagging-gmail-emails-as-spam/</link>
@@ -164,34 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/whatsapp-unveils-private-processing-for-cloud-based-ai-features/</guid>
 	<description><![CDATA[WhatsApp has announced the introduction of 'Private Processing,' a new technology that enables users to utilize advanced AI features by offloading tasks to privacy-preserving cloud servers. [...]]]></description>
- </item>
-
- <item>
-        <title>SonicWall warns of more VPN flaws exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/sonicwall-sma100-vpn-vulnerabilities-now-exploited-in-attacks/</link>
-        <pubDate>Wed, 30 Apr 2025 13:23:53 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-sma100-vpn-vulnerabilities-now-exploited-in-attacks/</guid>
-	<description><![CDATA[Cybersecurity company SonicWall has warned customers that two older vulnerabilities impacting its Secure Mobile Access (SMA) appliances are now being actively exploited in attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Commvault says recent breach didn't impact customer backup data</title>
-        <link>https://www.bleepingcomputer.com/news/security/commvault-says-recent-breach-didnt-impact-customer-backup-data/</link>
-        <pubDate>Wed, 30 Apr 2025 12:20:53 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/commvault-says-recent-breach-didnt-impact-customer-backup-data/</guid>
-	<description><![CDATA[Commvault, a leading provider of data protection solutions, says a nation-state threat actor who breached its Azure environment didn't gain access to customer backup data. [...]]]></description>
  </item>
 
 </channel>
