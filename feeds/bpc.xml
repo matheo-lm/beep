@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 02 May 2025 15:00:08 EDT</pubDate>
+        <pubDate>Fri, 02 May 2025 16:59:01 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Co-op confirms data theft after DragonForce ransomware claims attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/co-op-confirms-data-theft-after-dragonforce-ransomware-claims-attack/</link>
+        <pubDate>Fri, 02 May 2025 15:52:50 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/co-op-confirms-data-theft-after-dragonforce-ransomware-claims-attack/</guid>
+	<description><![CDATA[The Co-op cyberattack is far worse than initially reported, with the company now confirming that data was stolen for a significant number of current and past customers. [...]]]></description>
+ </item>
+
  <item>
         <title>Magento supply chain attack compromises hundreds of e-stores</title>
         <link>https://www.bleepingcomputer.com/news/security/magento-supply-chain-attack-compromises-hundreds-of-e-stores/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-abuse-gmail-websockets-to-hijack-systems/</guid>
 	<description><![CDATA[Seven malicious PyPi packages were found using Gmail's SMTP servers and WebSockets for data exfiltration and remote command execution. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers abuse IPv6 networking feature to hijack software updates</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-abuse-ipv6-networking-feature-to-hijack-software-updates/</link>
-        <pubDate>Wed, 30 Apr 2025 20:33:42 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-abuse-ipv6-networking-feature-to-hijack-software-updates/</guid>
-	<description><![CDATA[A China-aligned APT threat actor named "TheWizards" abuses an IPv6 networking feature to launch adversary-in-the-middle (AitM) attacks that hijack software updates to install Windows malware. [...]]]></description>
  </item>
 
 </channel>
