@@ -11,11 +11,45 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 03 May 2025 15:00:18 EDT</pubDate>
+        <pubDate>Sat, 03 May 2025 18:58:41 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google NotebookLM is now using Gemini 2.5 Flash</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-notebooklm-is-now-using-gemini-25-flash/</link>
+        <pubDate>Sat, 03 May 2025 17:21:14 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/google-notebooklm-is-now-using-gemini-25-flash/</guid>
+	<description><![CDATA[Google NotebookLM, which is a research and note-taking AI tool, is getting upgraded to Gemini 2.5 Flash. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft ends Authenticator password autofill, moves users to Edge</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-ends-authenticator-password-autofill-moves-users-to-edge/</link>
+        <pubDate>Sat, 03 May 2025 10:16:26 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-ends-authenticator-password-autofill-moves-users-to-edge/</guid>
+	<description><![CDATA[Microsoft has announced that it will discontinue the password storage and autofill feature in the Authenticator app starting in July and will complete the deprecation in August 2025. [...]]]></description>
+ </item>
+
  <item>
         <title>Co-op confirms data theft after DragonForce ransomware claims attack</title>
         <link>https://www.bleepingcomputer.com/news/security/co-op-confirms-data-theft-after-dragonforce-ransomware-claims-attack/</link>
@@ -176,20 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/harrods-the-next-uk-retailer-targeted-in-a-cyberattack/</guid>
 	<description><![CDATA[London's iconic department store, Harrods, has confirmed it was targeted in a cyberattack, becoming the third major UK retailer to report cyberattacks in a week following incidents at M&S and the Co-op. [...]]]></description>
- </item>
-
- <item>
-        <title>Malicious PyPI packages abuse Gmail, websockets to hijack systems</title>
-        <link>https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-abuse-gmail-websockets-to-hijack-systems/</link>
-        <pubDate>Thu, 01 May 2025 12:25:36 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-abuse-gmail-websockets-to-hijack-systems/</guid>
-	<description><![CDATA[Seven malicious PyPi packages were found using Gmail's SMTP servers and WebSockets for data exfiltration and remote command execution. [...]]]></description>
  </item>
 
 </channel>
