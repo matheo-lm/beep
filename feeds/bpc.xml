@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 05 May 2025 06:58:44 EDT</pubDate>
+        <pubDate>Mon, 05 May 2025 09:09:25 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft silently fixes Start menu bug affecting Windows 10 PCs</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-silently-fixes-start-menu-bug-affecting-windows-10-pcs/</link>
+        <pubDate>Mon, 05 May 2025 07:48:57 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-silently-fixes-start-menu-bug-affecting-windows-10-pcs/</guid>
+	<description><![CDATA[Microsoft has silently fixed an issue that broke Start Menu jump lists for all apps on systems running Windows 10, version 22H2. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: Windows 11 24H2 now ready to rollout to everyone</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-now-ready-to-rollout-to-everyone/</link>
@@ -164,38 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/tiktok-fined-530-million-for-sending-european-user-data-to-china/</guid>
 	<description><![CDATA[The Irish Data Protection Commission (DPC) has fined TikTok €530 million (over $601 million) for illegally transferring the personal data of users in the European Economic Area (EEA) to China, violating the European Union's GDPR data protection regulations. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Exchange Online bug flagging Gmail emails as spam</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-online-bug-flagging-gmail-emails-as-spam/</link>
-        <pubDate>Fri, 02 May 2025 06:15:10 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-online-bug-flagging-gmail-emails-as-spam/</guid>
-	<description><![CDATA[​Microsoft has resolved an issue with a machine learning model that mistakenly flagged emails from Gmail accounts as spam in Exchange Online. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft makes all new accounts passwordless by default</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-makes-all-new-accounts-passwordless-by-default/</link>
-        <pubDate>Fri, 02 May 2025 03:21:24 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-makes-all-new-accounts-passwordless-by-default/</guid>
-	<description><![CDATA[Microsoft has announced that all new Microsoft accounts will be "passwordless by default" to secure them against password attacks such as phishing, brute force, and credential stuffing. [...]]]></description>
  </item>
 
 </channel>
