@@ -11,14 +11,44 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 05 May 2025 14:58:12 EDT</pubDate>
+        <pubDate>Mon, 05 May 2025 16:03:07 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
  <item>
-        <title>Darcula PhaaS steals 884,000 credit cards via SMS phishing texts</title>
-        <link>https://www.bleepingcomputer.com/news/security/darcula-phaas-steals-884-000-credit-cards-via-sms-phishing-texts/</link>
+        <title>Microsoft finds default Kubernetes Helm charts can expose data</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-finds-default-kubernetes-helm-charts-can-expose-data/</link>
+        <pubDate>Mon, 05 May 2025 15:17:10 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Cloud]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-finds-default-kubernetes-helm-charts-can-expose-data/</guid>
+	<description><![CDATA[Microsoft warns about the security risks posed by default configurations in Kubernetes deployments, particularly those using out-of-the-box Helm charts, which could publicly expose sensitive data. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Unofficial Signal app used by Trump officials investigates hack</title>
+        <link>https://www.bleepingcomputer.com/news/security/unofficial-signal-app-used-by-trump-officials-investigates-hack/</link>
+        <pubDate>Mon, 05 May 2025 15:11:17 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/unofficial-signal-app-used-by-trump-officials-investigates-hack/</guid>
+	<description><![CDATA[TeleMessage, an Israeli company that sells an unofficial Signal message archiving tool used by some U.S. government officials, has suspended all services after reportedly being hacked. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Darcula PhaaS steals 884,000 credit cards via phishing texts</title>
+        <link>https://www.bleepingcomputer.com/news/security/darcula-phaas-steals-884-000-credit-cards-via-phishing-texts/</link>
         <pubDate>Mon, 05 May 2025 13:31:32 -0400</pubDate>
         <dc:creator>Bill Toulas</dc:creator>
 
@@ -26,7 +56,7 @@
         <category><![CDATA[Security]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/security/darcula-phaas-steals-884-000-credit-cards-via-sms-phishing-texts/</guid>
+        <guid>https://www.bleepingcomputer.com/news/security/darcula-phaas-steals-884-000-credit-cards-via-phishing-texts/</guid>
 	<description><![CDATA[The Darcula phishing-as-a-service (PhaaS) platform stole 884,000 credit cards from 13 million clicks on malicious links sent via text messages to targets worldwide. [...]]]></description>
  </item>
 
@@ -162,36 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/co-op-confirms-data-theft-after-dragonforce-ransomware-claims-attack/</guid>
 	<description><![CDATA[The Co-op cyberattack is far worse than initially reported, with the company now confirming that data was stolen for a significant number of current and past customers. [...]]]></description>
- </item>
-
- <item>
-        <title>Magento supply chain attack compromises hundreds of e-stores</title>
-        <link>https://www.bleepingcomputer.com/news/security/magento-supply-chain-attack-compromises-hundreds-of-e-stores/</link>
-        <pubDate>Fri, 02 May 2025 14:09:55 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/magento-supply-chain-attack-compromises-hundreds-of-e-stores/</guid>
-	<description><![CDATA[A supply chain attack involving 21 backdoored Magento extensions has compromised between 500 and 1,000 e-commerce stores, including one belonging to a $40 billion multinational. [...]]]></description>
- </item>
-
- <item>
-        <title>US indicts Black Kingdom ransomware admin for Microsoft Exchange attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-indicts-black-kingdom-ransomware-admin-for-microsoft-exchange-attacks/</link>
-        <pubDate>Fri, 02 May 2025 10:32:11 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-indicts-black-kingdom-ransomware-admin-for-microsoft-exchange-attacks/</guid>
-	<description><![CDATA[A 36-year-old Yemeni national, who is believed to be the developer and primary operator of 'Black Kingdom' ransomware, has been indicted by the United States for conducting 1,500 attacks on Microsoft Exchange servers. [...]]]></description>
  </item>
 
 </channel>
