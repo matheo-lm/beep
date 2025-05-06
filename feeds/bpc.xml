@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 06 May 2025 09:08:14 EDT</pubDate>
+        <pubDate>Tue, 06 May 2025 10:01:34 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Why EASM is vital to modern digital risk protection</title>
+        <link>https://www.bleepingcomputer.com/news/security/why-easm-is-vital-to-modern-digital-risk-protection/</link>
+        <pubDate>Tue, 06 May 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Outpost24</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/why-easm-is-vital-to-modern-digital-risk-protection/</guid>
+	<description><![CDATA[You can't protect what you can't see. From shadow IT to supplier risk, modern attack surfaces are sprawling fast — and External Attack Surface Management (EASM) is how security teams take back control. Learn from Outpost24 how EASM powers proactive digital risk protection. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Google fixes actively exploited FreeType flaw on Android</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-freetype-flaw-on-android/</link>
+        <pubDate>Tue, 06 May 2025 09:33:38 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-freetype-flaw-on-android/</guid>
+	<description><![CDATA[Google has released the May 2025 security updates for Android with fixes for 45 security flaws, including an actively exploited zero-click FreeType 2 code execution vulnerability. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft unveils new AI agents that can modify Windows settings</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-unveils-new-ai-agents-that-can-modify-windows-settings/</link>
@@ -170,36 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-silently-fixes-start-menu-bug-affecting-windows-10-pcs/</guid>
 	<description><![CDATA[Microsoft has silently fixed an issue that broke Start Menu jump lists for all apps on systems running Windows 10, version 22H2. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Windows 11 24H2 now ready to rollout to everyone</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-now-ready-to-rollout-to-everyone/</link>
-        <pubDate>Mon, 05 May 2025 06:53:38 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-now-ready-to-rollout-to-everyone/</guid>
-	<description><![CDATA[​Microsoft announced over the weekend that the Windows 11 24H2 update is ready to roll out to all compatible PCs, excluding those with safeguard holds. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI document explains when to use each ChatGPT model</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-document-explains-when-to-use-each-chatgpt-model/</link>
-        <pubDate>Sun, 04 May 2025 13:59:53 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-document-explains-when-to-use-each-chatgpt-model/</guid>
-	<description><![CDATA[OpenAI admitted that it can be confusing for users to choose between all the different models, but the company has quietly published a document that makes it easier to understand ChatGPT. [...]]]></description>
  </item>
 
 </channel>
