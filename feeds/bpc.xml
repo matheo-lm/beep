@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 06 May 2025 13:01:05 EDT</pubDate>
+        <pubDate>Tue, 06 May 2025 14:00:45 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Samsung MagicINFO 9 Server RCE flaw now exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/samsung-magicinfo-9-server-rce-flaw-now-exploited-in-attacks/</link>
+        <pubDate>Tue, 06 May 2025 13:10:23 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/samsung-magicinfo-9-server-rce-flaw-now-exploited-in-attacks/</guid>
+	<description><![CDATA[Hackers are exploiting an unauthenticated remote code execution (RCE) vulnerability in the Samsung MagicINFO 9 Server to hijack devices and deploy malware. [...]]]></description>
+ </item>
+
  <item>
         <title>UK Legal Aid Agency investigates cybersecurity incident</title>
         <link>https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-investigates-cybersecurity-incident/</link>
@@ -202,20 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/darcula-phaas-steals-884-000-credit-cards-via-phishing-texts/</guid>
 	<description><![CDATA[The Darcula phishing-as-a-service (PhaaS) platform stole 884,000 credit cards from 13 million clicks on malicious links sent via text messages to targets worldwide. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft is killing Skype today, pushes users to Teams</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-is-killing-skype-today-pushes-users-to-teams/</link>
-        <pubDate>Mon, 05 May 2025 12:12:07 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-is-killing-skype-today-pushes-users-to-teams/</guid>
-	<description><![CDATA[The Skype video call and messaging service is shutting down today, 14 years after replacing Microsoft's Windows Live Messenger. [...]]]></description>
  </item>
 
 </channel>
