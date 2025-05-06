@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 06 May 2025 12:00:03 EDT</pubDate>
+        <pubDate>Tue, 06 May 2025 13:01:05 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>UK Legal Aid Agency investigates cybersecurity incident</title>
+        <link>https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-investigates-cybersecurity-incident/</link>
+        <pubDate>Tue, 06 May 2025 12:20:30 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-investigates-cybersecurity-incident/</guid>
+	<description><![CDATA[The Legal Aid Agency (LAA), an executive agency of the UK's Ministry of Justice that oversees billions in legal funding, warned law firms of a security incident and said the attackers might have accessed financial information. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Critical Langflow RCE flaw exploited to hack AI app servers</title>
+        <link>https://www.bleepingcomputer.com/news/security/critical-langflow-rce-flaw-exploited-to-hack-ai-app-servers/</link>
+        <pubDate>Tue, 06 May 2025 12:05:10 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critical-langflow-rce-flaw-exploited-to-hack-ai-app-servers/</guid>
+	<description><![CDATA[The U.S. Cybersecurity & Infrastructure Security Agency (CISA) has tagged a Langflow remote code execution vulnerability as actively exploited, urging organizations to apply security updates and mitigations as soon as possible. [...]]]></description>
+ </item>
+
  <item>
         <title>New Microsoft 365 outage impacts Teams and other services</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/new-microsoft-365-outage-impacts-teams-and-other-services/</link>
@@ -188,34 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-is-killing-skype-today-pushes-users-to-teams/</guid>
 	<description><![CDATA[The Skype video call and messaging service is shutting down today, 14 years after replacing Microsoft's Windows Live Messenger. [...]]]></description>
- </item>
-
- <item>
-        <title>UK shares security tips after major retail cyberattacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/uk-shares-security-tips-after-major-retail-cyberattacks/</link>
-        <pubDate>Mon, 05 May 2025 11:19:18 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/uk-shares-security-tips-after-major-retail-cyberattacks/</guid>
-	<description><![CDATA[Following three high-profile cyberattacks impacting major UK retailers, the country's National Cyber Security Centre (NCSC) has published guidance that all companies are advised to follow to strengthen their cybersecurity defenses. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft silently fixes Start menu bug affecting Windows 10 PCs</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-silently-fixes-start-menu-bug-affecting-windows-10-pcs/</link>
-        <pubDate>Mon, 05 May 2025 07:48:57 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-silently-fixes-start-menu-bug-affecting-windows-10-pcs/</guid>
-	<description><![CDATA[Microsoft has silently fixed an issue that broke Start Menu jump lists for all apps on systems running Windows 10, version 22H2. [...]]]></description>
  </item>
 
 </channel>
