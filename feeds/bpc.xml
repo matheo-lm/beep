@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 06 May 2025 14:00:45 EDT</pubDate>
+        <pubDate>Tue, 06 May 2025 15:00:28 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Apache Parquet exploit tool detect servers vulnerable to critical flaw</title>
+        <link>https://www.bleepingcomputer.com/news/security/apache-parquet-exploit-tool-detect-servers-vulnerable-to-critical-flaw/</link>
+        <pubDate>Tue, 06 May 2025 14:16:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apache-parquet-exploit-tool-detect-servers-vulnerable-to-critical-flaw/</guid>
+	<description><![CDATA[A proof-of-concept exploit tool has been publicly released for a maximum severity Apache Parquet vulnerability, tracked as CVE-2025-30065, making it easy to find vulnerable servers. [...]]]></description>
+ </item>
+
  <item>
         <title>Samsung MagicINFO 9 Server RCE flaw now exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/samsung-magicinfo-9-server-rce-flaw-now-exploited-in-attacks/</link>
@@ -188,34 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-finds-default-kubernetes-helm-charts-can-expose-data/</guid>
 	<description><![CDATA[Microsoft warns about the security risks posed by default configurations in Kubernetes deployments, particularly those using out-of-the-box Helm charts, which could publicly expose sensitive data. [...]]]></description>
- </item>
-
- <item>
-        <title>Unofficial Signal app used by Trump officials investigates hack</title>
-        <link>https://www.bleepingcomputer.com/news/security/unofficial-signal-app-used-by-trump-officials-investigates-hack/</link>
-        <pubDate>Mon, 05 May 2025 15:11:17 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/unofficial-signal-app-used-by-trump-officials-investigates-hack/</guid>
-	<description><![CDATA[TeleMessage, an Israeli company that sells an unofficial Signal message archiving tool used by some U.S. government officials, has suspended all services after reportedly being hacked. [...]]]></description>
- </item>
-
- <item>
-        <title>Darcula PhaaS steals 884,000 credit cards via phishing texts</title>
-        <link>https://www.bleepingcomputer.com/news/security/darcula-phaas-steals-884-000-credit-cards-via-phishing-texts/</link>
-        <pubDate>Mon, 05 May 2025 13:31:32 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/darcula-phaas-steals-884-000-credit-cards-via-phishing-texts/</guid>
-	<description><![CDATA[The Darcula phishing-as-a-service (PhaaS) platform stole 884,000 credit cards from 13 million clicks on malicious links sent via text messages to targets worldwide. [...]]]></description>
  </item>
 
 </channel>
