@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description></description>
-	<lastBuildDate>Wed, 07 May 2025 14:50:40 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 07 May 2025 16:26:30 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,25 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Defending Against UNC3944: Cybercrime Hardening Guidance from the Frontlines</title>
+		<link>https://databreaches.net/2025/05/07/defending-against-unc3944-cybercrime-hardening-guidance-from-the-frontlines/</link>
+					<comments>https://databreaches.net/2025/05/07/defending-against-unc3944-cybercrime-hardening-guidance-from-the-frontlines/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Wed, 07 May 2025 16:26:30 +0000</pubDate>
+				<category><![CDATA[Commentaries and Analyses]]></category>
+		<category><![CDATA[Malware]]></category>
+		<category><![CDATA[Of Note]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=121559</guid>
+
+					<description><![CDATA[From Mandiant: UNC3944, which overlaps with public reporting on Scattered Spider, is a financially-motivated threat actor characterized by its persistent use of social engineering and brazen communications with victims. In early operations, UNC3944 largely targeted telecommunications-related organizations to support SIM swap operations. However, after shifting to ransomware and data theft extortion in early 2023, they...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/05/07/defending-against-unc3944-cybercrime-hardening-guidance-from-the-frontlines/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Call for Public Input: Essential Cybersecurity Protections for K-12 Schools (2025-26 SY)</title>
 		<link>https://databreaches.net/2025/05/07/call-for-public-input-essential-cybersecurity-protections-for-k-12-schools-2025-26-sy/</link>
 					<comments>https://databreaches.net/2025/05/07/call-for-public-input-essential-cybersecurity-protections-for-k-12-schools-2025-26-sy/#respond</comments>
@@ -186,25 +205,6 @@
 					<description><![CDATA[It sounds like yet another K-12 school district has fallen prey to a cyberattack that it never successfully detected or thwarted quickly.  SuspectFile reports: The Fowler Elementary School District, located in Phoenix, Arizona, has reportedly fallen victim to a cyberattack involving what may be a substantial volume of sensitive data. The incident was claimed by...]]></description>
 		
 					<wfw:commentRss>https://databreaches.net/2025/05/04/data-breach-at-fowler-elementary-school-district-the-interlock-ransomware-groups-attack/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Patients left in the dark almost a year after criminals leaked sensitive medical data from Synnovis</title>
-		<link>https://databreaches.net/2025/05/04/patients-left-in-the-dark-months-almost-a-year-after-criminals-leaked-sensitive-medical-data-from-synnovis/</link>
-					<comments>https://databreaches.net/2025/05/04/patients-left-in-the-dark-months-almost-a-year-after-criminals-leaked-sensitive-medical-data-from-synnovis/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Sun, 04 May 2025 11:30:24 +0000</pubDate>
-				<category><![CDATA[Health Data]]></category>
-		<category><![CDATA[Non-U.S.]]></category>
-		<category><![CDATA[Subcontractor]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=121530</guid>
-
-					<description><![CDATA[Alexander Martin reports: More than 11 months after a ransomware group published information from a U.K. pathology services company, the affected patients still have not been informed about what data of theirs was exposed in the incident, with material about sexually transmitted infections and cancer cases being included in the leaks. The data was compromised...]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/05/04/patients-left-in-the-dark-months-almost-a-year-after-criminals-leaked-sensitive-medical-data-from-synnovis/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
