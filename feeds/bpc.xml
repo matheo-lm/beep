@@ -11,11 +11,55 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 07 May 2025 09:59:45 EDT</pubDate>
+        <pubDate>Wed, 07 May 2025 11:00:32 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Play ransomware exploited Windows logging flaw in zero-day attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/play-ransomware-exploited-windows-logging-flaw-in-zero-day-attacks/</link>
+        <pubDate>Wed, 07 May 2025 10:45:19 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/play-ransomware-exploited-windows-logging-flaw-in-zero-day-attacks/</guid>
+	<description><![CDATA[The Play ransomware gang has exploited a high-severity Windows Common Log File System flaw in zero-day attacks to gain SYSTEM privileges and deploy malware on compromised systems. [...]]]></description>
+ </item>
+
+ <item>
+        <title>NSO Group fined $167M for spyware attacks on 1,400 WhatsApp users</title>
+        <link>https://www.bleepingcomputer.com/news/legal/nso-group-fined-167m-for-spyware-attacks-on-1-400-whatsapp-users/</link>
+        <pubDate>Wed, 07 May 2025 10:09:33 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/legal/nso-group-fined-167m-for-spyware-attacks-on-1-400-whatsapp-users/</guid>
+	<description><![CDATA[A U.S. federal jury has ordered Israeli spyware vendor NSO Group to pay WhatsApp $167,254,000 in punitive damages and $444,719 in compensatory damages for a 2019 campaign that targeted 1,400 users of the communication app. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Doubling down: How Universal 2nd Factor (U2F) boosts online security</title>
+        <link>https://www.bleepingcomputer.com/news/security/doubling-down-how-universal-2nd-factor-u2f-boosts-online-security/</link>
+        <pubDate>Wed, 07 May 2025 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by Specops Software</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/doubling-down-how-universal-2nd-factor-u2f-boosts-online-security/</guid>
+	<description><![CDATA[Passwords alone aren't cutting it—31% of breaches involve stolen credentials. Learn from Specops Software about how Universal 2nd Factor (U2F) and strong password policies can work together to keep your organization secure. [...]]]></description>
+ </item>
+
  <item>
         <title>Medical device maker Masimo warns of cyberattack, manufacturing delays</title>
         <link>https://www.bleepingcomputer.com/news/security/medical-device-maker-masimo-warns-of-cyberattack-manufacturing-delays/</link>
@@ -156,38 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/why-easm-is-vital-to-modern-digital-risk-protection/</guid>
 	<description><![CDATA[You can't protect what you can't see. From shadow IT to supplier risk, modern attack surfaces are sprawling fast — and External Attack Surface Management (EASM) is how security teams take back control. Learn from Outpost24 how EASM powers proactive digital risk protection. [...]]]></description>
- </item>
-
- <item>
-        <title>Google fixes actively exploited FreeType flaw on Android</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-freetype-flaw-on-android/</link>
-        <pubDate>Tue, 06 May 2025 09:33:38 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-freetype-flaw-on-android/</guid>
-	<description><![CDATA[Google has released the May 2025 security updates for Android with fixes for 45 security flaws, including an actively exploited zero-click FreeType 2 code execution vulnerability. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft unveils new AI agents that can modify Windows settings</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-unveils-new-ai-agents-that-can-modify-windows-settings/</link>
-        <pubDate>Tue, 06 May 2025 09:00:00 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-unveils-new-ai-agents-that-can-modify-windows-settings/</guid>
-	<description><![CDATA[Today, Microsoft announced new Windows experiences for Copilot+ PCs, including AI agents that will make changing settings on your Windows computer easier. [...]]]></description>
  </item>
 
 </channel>
