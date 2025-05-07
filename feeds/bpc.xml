@@ -11,11 +11,53 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 07 May 2025 14:01:31 EDT</pubDate>
+        <pubDate>Wed, 07 May 2025 15:00:33 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>PowerSchool hacker now extorting individual school districts</title>
+        <link>https://www.bleepingcomputer.com/news/security/powerschool-hacker-now-extorting-individual-school-districts/</link>
+        <pubDate>Wed, 07 May 2025 14:25:39 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/powerschool-hacker-now-extorting-individual-school-districts/</guid>
+	<description><![CDATA[PowerSchool is warning that the hacker behind its December cyberattack is now individually extorting schools, threatening to release the previously stolen student and teacher data if a ransom is not paid. [...]]]></description>
+ </item>
+
+ <item>
+        <title>CoGUI phishing platform sent 580 million emails to steal credentials</title>
+        <link>https://www.bleepingcomputer.com/news/security/cogui-phishing-platform-sent-580-million-emails-to-steal-credentials/</link>
+        <pubDate>Wed, 07 May 2025 14:02:16 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cogui-phishing-platform-sent-580-million-emails-to-steal-credentials/</guid>
+	<description><![CDATA[A new phishing kit named 'CoGUI' sent over 580 million emails to targets between January and April 2025, aiming to steal account credentials and payment data. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hackers exploit OttoKit WordPress plugin flaw to add admin accounts</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-ottokit-wordpress-plugin-flaw-to-add-admin-accounts/</link>
+        <pubDate>Wed, 07 May 2025 11:37:48 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-ottokit-wordpress-plugin-flaw-to-add-admin-accounts/</guid>
+	<description><![CDATA[Hackers are exploiting a critical unauthenticated privilege escalation vulnerability in the OttoKit WordPress plugin to create rogue admin accounts on targeted sites. [...]]]></description>
+ </item>
+
  <item>
         <title>Play ransomware exploited Windows logging flaw in zero-day attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/play-ransomware-exploited-windows-logging-flaw-in-zero-day-attacks/</link>
@@ -144,62 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/samsung-magicinfo-9-server-rce-flaw-now-exploited-in-attacks/</guid>
 	<description><![CDATA[Hackers are exploiting an unauthenticated remote code execution (RCE) vulnerability in the Samsung MagicINFO 9 Server to hijack devices and deploy malware. [...]]]></description>
- </item>
-
- <item>
-        <title>UK Legal Aid Agency investigates cybersecurity incident</title>
-        <link>https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-investigates-cybersecurity-incident/</link>
-        <pubDate>Tue, 06 May 2025 12:20:30 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-investigates-cybersecurity-incident/</guid>
-	<description><![CDATA[The Legal Aid Agency (LAA), an executive agency of the UK's Ministry of Justice that oversees billions in legal funding, warned law firms of a security incident and said the attackers might have accessed financial information. [...]]]></description>
- </item>
-
- <item>
-        <title>Critical Langflow RCE flaw exploited to hack AI app servers</title>
-        <link>https://www.bleepingcomputer.com/news/security/critical-langflow-rce-flaw-exploited-to-hack-ai-app-servers/</link>
-        <pubDate>Tue, 06 May 2025 12:05:10 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/critical-langflow-rce-flaw-exploited-to-hack-ai-app-servers/</guid>
-	<description><![CDATA[The U.S. Cybersecurity & Infrastructure Security Agency (CISA) has tagged a Langflow remote code execution vulnerability as actively exploited, urging organizations to apply security updates and mitigations as soon as possible. [...]]]></description>
- </item>
-
- <item>
-        <title>New Microsoft 365 outage impacts Teams and other services</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/new-microsoft-365-outage-impacts-teams-and-other-services/</link>
-        <pubDate>Tue, 06 May 2025 11:31:00 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/new-microsoft-365-outage-impacts-teams-and-other-services/</guid>
-	<description><![CDATA[Microsoft is investigating a new Microsoft 365 outage affecting multiple services across North America, including the company's Teams collaboration platform. [...]]]></description>
- </item>
-
- <item>
-        <title>Why EASM is vital to modern digital risk protection</title>
-        <link>https://www.bleepingcomputer.com/news/security/why-easm-is-vital-to-modern-digital-risk-protection/</link>
-        <pubDate>Tue, 06 May 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Outpost24</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/why-easm-is-vital-to-modern-digital-risk-protection/</guid>
-	<description><![CDATA[You can't protect what you can't see. From shadow IT to supplier risk, modern attack surfaces are sprawling fast — and External Attack Surface Management (EASM) is how security teams take back control. Learn from Outpost24 how EASM powers proactive digital risk protection. [...]]]></description>
  </item>
 
 </channel>
