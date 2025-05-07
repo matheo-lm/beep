@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 07 May 2025 07:00:46 EDT</pubDate>
+        <pubDate>Wed, 07 May 2025 08:04:08 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Police takes down six DDoS-for-hire services, arrests admins</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-takes-down-six-ddos-for-hire-services-arrests-admins/</link>
+        <pubDate>Wed, 07 May 2025 07:23:37 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-takes-down-six-ddos-for-hire-services-arrests-admins/</guid>
+	<description><![CDATA[​Polish authorities have detained four suspects linked to six DDoS-for-hire platforms, believed to have facilitated thousands of attacks targeting schools, government services, businesses, and gaming platforms worldwide since 2022. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: April updates cause Windows Server auth issues</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-april-updates-cause-windows-server-auth-issues/</link>
@@ -172,36 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-pushes-fix-for-windows-11-update-0x80240069-errors/</guid>
 	<description><![CDATA[​Microsoft has fixed a known issue preventing Windows 11 24H2 feature updates from being delivered via Windows Server Update Services (WSUS) after installing the April 2025 security updates. [...]]]></description>
- </item>
-
- <item>
-        <title>New "Bring Your Own Installer" EDR bypass used in ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-bring-your-own-installer-edr-bypass-used-in-ransomware-attack/</link>
-        <pubDate>Mon, 05 May 2025 16:28:34 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-bring-your-own-installer-edr-bypass-used-in-ransomware-attack/</guid>
-	<description><![CDATA[A new "Bring Your Own Installer" EDR bypass technique is exploited in attacks to bypass SentinelOne's tamper protection feature, allowing threat actors to disable endpoint detection and response (EDR) agents to install the Babuk ransomware. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft finds default Kubernetes Helm charts can expose data</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-finds-default-kubernetes-helm-charts-can-expose-data/</link>
-        <pubDate>Mon, 05 May 2025 15:17:10 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Cloud]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-finds-default-kubernetes-helm-charts-can-expose-data/</guid>
-	<description><![CDATA[Microsoft warns about the security risks posed by default configurations in Kubernetes deployments, particularly those using out-of-the-box Helm charts, which could publicly expose sensitive data. [...]]]></description>
  </item>
 
 </channel>
