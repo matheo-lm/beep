@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 08 May 2025 14:00:50 EDT</pubDate>
+        <pubDate>Thu, 08 May 2025 15:01:20 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Malicious PyPi package hides RAT malware, targets Discord devs since 2022</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-pypi-package-hides-rat-malware-targets-discord-devs-since-2022/</link>
+        <pubDate>Thu, 08 May 2025 14:51:14 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-pypi-package-hides-rat-malware-targets-discord-devs-since-2022/</guid>
+	<description><![CDATA[A malicious Python package targeting Discord developers with remote access trojan (RAT) malware was spotted on the Python Package Index (PyPI) after more than three years. [...]]]></description>
+ </item>
+
  <item>
         <title>Kickidler employee monitoring software abused in ransomware attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/kickidler-employee-monitoring-software-abused-in-ransomware-attacks/</link>
@@ -170,36 +184,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/doubling-down-how-universal-2nd-factor-u2f-boosts-online-security/</guid>
 	<description><![CDATA[Passwords alone aren't cutting it—31% of breaches involve stolen credentials. Learn from Specops Software about how Universal 2nd Factor (U2F) and strong password policies can work together to keep your organization secure. [...]]]></description>
- </item>
-
- <item>
-        <title>Medical device maker Masimo warns of cyberattack, manufacturing delays</title>
-        <link>https://www.bleepingcomputer.com/news/security/medical-device-maker-masimo-warns-of-cyberattack-manufacturing-delays/</link>
-        <pubDate>Wed, 07 May 2025 09:39:33 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/medical-device-maker-masimo-warns-of-cyberattack-manufacturing-delays/</guid>
-	<description><![CDATA[Medical device company Masimo Corporation warns that a cyberattack is impacting production operations and causing delays in fulfilling customers' orders. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA warns of hackers targeting critical oil infrastructure</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-targeting-critical-oil-infrastructure/</link>
-        <pubDate>Wed, 07 May 2025 09:17:39 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-targeting-critical-oil-infrastructure/</guid>
-	<description><![CDATA[CISA warned critical infrastructure organizations of "unsophisticated" threat actors actively targeting the U.S. oil and natural gas sectors. [...]]]></description>
  </item>
 
 </channel>
