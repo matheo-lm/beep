@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 08 May 2025 17:58:36 EDT</pubDate>
+        <pubDate>Thu, 08 May 2025 19:01:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FBI: End-of-life routers hacked for cybercrime proxy networks</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-end-of-life-routers-hacked-for-cybercrime-proxy-networks/</link>
+        <pubDate>Thu, 08 May 2025 18:15:39 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-end-of-life-routers-hacked-for-cybercrime-proxy-networks/</guid>
+	<description><![CDATA[The FBI warns that threat actors are deploying malware on end-of-life (EoL) routers to convert them into proxies sold on the 5Socks and Anyproxy networks. [...]]]></description>
+ </item>
+
  <item>
         <title>Cisco fixes max severity IOS XE flaw letting attackers hijack devices</title>
         <link>https://www.bleepingcomputer.com/news/security/cisco-fixes-max-severity-ios-xe-flaw-letting-attackers-hijack-devices/</link>
@@ -170,20 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cogui-phishing-platform-sent-580-million-emails-to-steal-credentials/</guid>
 	<description><![CDATA[A new phishing kit named 'CoGUI' sent over 580 million emails to targets between January and April 2025, aiming to steal account credentials and payment data. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers exploit OttoKit WordPress plugin flaw to add admin accounts</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-ottokit-wordpress-plugin-flaw-to-add-admin-accounts/</link>
-        <pubDate>Wed, 07 May 2025 11:37:48 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-ottokit-wordpress-plugin-flaw-to-add-admin-accounts/</guid>
-	<description><![CDATA[Hackers are exploiting a critical unauthenticated privilege escalation vulnerability in the OttoKit WordPress plugin to create rogue admin accounts on targeted sites. [...]]]></description>
  </item>
 
 </channel>
