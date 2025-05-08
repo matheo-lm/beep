@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 08 May 2025 12:01:57 EDT</pubDate>
+        <pubDate>Thu, 08 May 2025 13:00:37 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Kickidler employee monitoring software abused in ransomware attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/kickidler-employee-monitoring-software-abused-in-ransomware-attacks/</link>
+        <pubDate>Thu, 08 May 2025 12:05:18 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/kickidler-employee-monitoring-software-abused-in-ransomware-attacks/</guid>
+	<description><![CDATA[Ransomware operations are using legitimate Kickidler employee monitoring software for reconnaissance, tracking their victims' activity, and harvesting credentials after breaching their networks. [...]]]></description>
+ </item>
+
  <item>
         <title>VC giant Insight Partners confirms investor data stolen in breach</title>
         <link>https://www.bleepingcomputer.com/news/security/vc-giant-insight-partners-confirms-investor-data-stolen-in-breach/</link>
@@ -186,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-targeting-critical-oil-infrastructure/</guid>
 	<description><![CDATA[CISA warned critical infrastructure organizations of "unsophisticated" threat actors actively targeting the U.S. oil and natural gas sectors. [...]]]></description>
- </item>
-
- <item>
-        <title>Police takes down six DDoS-for-hire services, arrests admins</title>
-        <link>https://www.bleepingcomputer.com/news/security/police-takes-down-six-ddos-for-hire-services-arrests-admins/</link>
-        <pubDate>Wed, 07 May 2025 07:23:37 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/police-takes-down-six-ddos-for-hire-services-arrests-admins/</guid>
-	<description><![CDATA[​Polish authorities have detained four suspects linked to six DDoS-for-hire platforms, believed to have facilitated thousands of attacks targeting schools, government services, businesses, and gaming platforms worldwide since 2022. [...]]]></description>
  </item>
 
 </channel>
