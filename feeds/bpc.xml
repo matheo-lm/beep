@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 08 May 2025 09:10:44 EDT</pubDate>
+        <pubDate>Thu, 08 May 2025 09:59:29 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google links new LostKeys data theft malware to Russian cyberspies</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-links-new-lostkeys-data-theft-malware-to-russian-cyberspies/</link>
+        <pubDate>Thu, 08 May 2025 09:39:15 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-links-new-lostkeys-data-theft-malware-to-russian-cyberspies/</guid>
+	<description><![CDATA[Since the start of the year, the Russian state-backed ColdRiver hacking group has been using new LostKeys malware to steal files in espionage attacks targeting Western governments, journalists, think tanks, and non-governmental organizations. [...]]]></description>
+ </item>
+
  <item>
         <title>SonicWall urges admins to patch VPN flaw exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/sonicwall-urges-admins-to-patch-vpn-flaw-exploited-in-attacks/</link>
@@ -172,20 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/police-takes-down-six-ddos-for-hire-services-arrests-admins/</guid>
 	<description><![CDATA[​Polish authorities have detained four suspects linked to six DDoS-for-hire platforms, believed to have facilitated thousands of attacks targeting schools, government services, businesses, and gaming platforms worldwide since 2022. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: April updates cause Windows Server auth issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-april-updates-cause-windows-server-auth-issues/</link>
-        <pubDate>Wed, 07 May 2025 05:55:25 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-april-updates-cause-windows-server-auth-issues/</guid>
-	<description><![CDATA[Microsoft says the April 2025 security updates are causing authentication issues on some Windows Server 2025 domain controllers. [...]]]></description>
  </item>
 
 </channel>

