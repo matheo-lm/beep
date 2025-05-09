@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Wed, 07 May 2025 21:24:16 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 09 May 2025 11:23:45 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -208,7 +208,8 @@ Demonstrating the variations in tooling use, we found that FreeDrain pages on gi
 <p>Across our monitoring, we observed dozens of variations in FreeDrain phishing pages but technically, they were all fairly simple and consistent in architecture.</p>
 <p>These phishing pages were most often:</p>
 <ul>
-<li aria-level="1">Hosted on cloud infrastructure, primarily Amazon S3 and Azure Web AppsDesigned to mimic legitimate cryptocurrency wallet interfaces (Trezor, MetaMask, Ledger, etc.)</li>
+<li aria-level="1">Hosted on cloud infrastructure, primarily Amazon S3 and Azure Web Apps</li>
+<li aria-level="1">Designed to mimic legitimate cryptocurrency wallet interfaces (Trezor, MetaMask, Ledger, etc.)</li>
 <li aria-level="1">Implemented using HTML forms or AJAX POST requests to transmit stolen credentials to attacker-controlled endpoints</li>
 </ul>
 <figure id="attachment_121006" aria-describedby="caption-attachment-121006" style="width: 1594px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_7.jpg" alt="A typical FreeDrain phishing page served from an S3 bucket, delivering only static content" width="1594" height="915" class="size-full wp-image-121006" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_7.jpg 1594w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_7-300x172.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_7-1024x588.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_7-768x441.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_7-1536x882.jpg 1536w" sizes="auto, (max-width: 1594px) 100vw, 1594px" /><figcaption id="caption-attachment-121006" class="wp-caption-text">A typical FreeDrain phishing page served from an S3 bucket, delivering only static content</figcaption></figure>
