@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 09 May 2025 12:03:21 EDT</pubDate>
+        <pubDate>Fri, 09 May 2025 13:00:35 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Chinese hackers behind attacks targeting SAP NetWeaver servers</title>
+        <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-behind-attacks-targeting-sap-netweaver-servers/</link>
+        <pubDate>Fri, 09 May 2025 12:23:08 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/chinese-hackers-behind-attacks-targeting-sap-netweaver-servers/</guid>
+	<description><![CDATA[Forescout Vedere Labs security researchers have linked ongoing attacks targeting a maximum severity vulnerability impacting SAP NetWeaver instances to a Chinese threat actor. [...]]]></description>
+ </item>
+
  <item>
         <title>Germany takes down eXch cryptocurrency exchange, seizes servers</title>
         <link>https://www.bleepingcomputer.com/news/security/germany-takes-down-exch-cryptocurrency-exchange-seizes-servers/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/lockbit-ransomware-gang-hacked-victim-negotiations-exposed/</guid>
 	<description><![CDATA[The LockBit ransomware gang has suffered a data breach after its dark web affiliate panels were defaced and replaced with a message linking to a MySQL database dump. [...]]]></description>
- </item>
-
- <item>
-        <title>PowerSchool hacker now extorting individual school districts</title>
-        <link>https://www.bleepingcomputer.com/news/security/powerschool-hacker-now-extorting-individual-school-districts/</link>
-        <pubDate>Wed, 07 May 2025 14:25:39 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/powerschool-hacker-now-extorting-individual-school-districts/</guid>
-	<description><![CDATA[PowerSchool is warning that the hacker behind its December cyberattack is now individually extorting schools, threatening to release the previously stolen student and teacher data if a ransom is not paid. [...]]]></description>
  </item>
 
 </channel>
