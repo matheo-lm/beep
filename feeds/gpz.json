@@ -415,6 +415,19 @@
       "categories": [],
       "isoDate": "2025-04-16T21:19:00.000Z",
       "tag": "exploits"
+    },
+    {
+      "creator": "Google Project Zero (noreply@blogger.com)",
+      "title": "Breaking the Sound Barrier Part I: Fuzzing CoreAudio with Mach Messages",
+      "link": "https://googleprojectzero.blogspot.com/2025/05/breaking-sound-barrier-part-i-fuzzing.html",
+      "pubDate": "2025-05-09T10:38:00.000-07:00",
+      "dc:creator": "Google Project Zero (noreply@blogger.com)",
+      "content": "\n\nGuest post by Dillon Franke, Senior Security Engineer, 20% time on Project Zero\nEvery second, highly-privileged MacOS system daemons accept and process hundreds of IPC messages. In some cases, these message handlers accept data from sandb[...]",
+      "contentSnippet": "\n\nGuest post by Dillon Franke, Senior Security Engineer, 20% time on Project Zero\nEvery second, highly-privileged MacOS system daemons accept and process hundreds of IPC messages. In some cases, these message handlers accept data from sandb[...]",
+      "guid": "https://googleprojectzero.blogspot.com/2025/05/breaking-sound-barrier-part-i-fuzzing.html",
+      "categories": [],
+      "isoDate": "2025-05-09T17:38:00.000Z",
+      "tag": "exploits"
     }
   ]
 }
