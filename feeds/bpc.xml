@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 10 May 2025 11:00:18 EDT</pubDate>
+        <pubDate>Sat, 10 May 2025 11:58:56 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft Teams will soon block screen capture during meetings</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-will-soon-block-screen-capture-during-meetings/</link>
+        <pubDate>Sat, 10 May 2025 11:22:44 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-will-soon-block-screen-capture-during-meetings/</guid>
+	<description><![CDATA[Microsoft is working on adding a new Teams feature that will prevent users from capturing screenshots of sensitive information shared during meetings. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Fake AI video generators drop new Noodlophile infostealer malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/fake-ai-video-generators-drop-new-noodlophile-infostealer-malware/</link>
+        <pubDate>Sat, 10 May 2025 10:17:27 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fake-ai-video-generators-drop-new-noodlophile-infostealer-malware/</guid>
+	<description><![CDATA[Fake AI-powered video generation tools are being used to distribute a new information-stealing malware family called 'Noodlophile,' under the guise of generated media content. [...]]]></description>
+ </item>
+
  <item>
         <title>Ascension says recent data breach affects over 430,000 patients</title>
         <link>https://www.bleepingcomputer.com/news/security/ascension-says-recent-data-breach-affects-over-430-000-patients/</link>
@@ -166,48 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/malicious-pypi-package-hides-rat-malware-targets-discord-devs-since-2022/</guid>
 	<description><![CDATA[A malicious Python package targeting Discord developers with remote access trojan (RAT) malware was spotted on the Python Package Index (PyPI) after more than three years. [...]]]></description>
- </item>
-
- <item>
-        <title>Kickidler employee monitoring software abused in ransomware attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/kickidler-employee-monitoring-software-abused-in-ransomware-attacks/</link>
-        <pubDate>Thu, 08 May 2025 12:05:18 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/kickidler-employee-monitoring-software-abused-in-ransomware-attacks/</guid>
-	<description><![CDATA[Ransomware operations are using legitimate Kickidler employee monitoring software for reconnaissance, tracking their victims' activity, and harvesting credentials after breaching their networks. [...]]]></description>
- </item>
-
- <item>
-        <title>VC giant Insight Partners confirms investor data stolen in breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/vc-giant-insight-partners-confirms-investor-data-stolen-in-breach/</link>
-        <pubDate>Thu, 08 May 2025 11:01:39 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/vc-giant-insight-partners-confirms-investor-data-stolen-in-breach/</guid>
-	<description><![CDATA[Venture capital firm Insight Partners has confirmed that sensitive data for employees and limited partners was stolen in a January 2025 cyberattack. [...]]]></description>
- </item>
-
- <item>
-        <title>Google links new LostKeys data theft malware to Russian cyberspies</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-links-new-lostkeys-data-theft-malware-to-russian-cyberspies/</link>
-        <pubDate>Thu, 08 May 2025 09:39:15 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-links-new-lostkeys-data-theft-malware-to-russian-cyberspies/</guid>
-	<description><![CDATA[Since the start of the year, the Russian state-backed ColdRiver hacking group has been using new LostKeys malware to steal files in espionage attacks targeting Western governments, journalists, think tanks, and non-governmental organizations. [...]]]></description>
  </item>
 
 </channel>
