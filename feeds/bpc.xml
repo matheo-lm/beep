@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 12 May 2025 17:02:45 EDT</pubDate>
+        <pubDate>Mon, 12 May 2025 18:01:21 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ASUS DriverHub flaw let malicious sites run commands with admin rights</title>
+        <link>https://www.bleepingcomputer.com/news/security/asus-driverhub-flaw-let-malicious-sites-run-commands-with-admin-rights/</link>
+        <pubDate>Mon, 12 May 2025 17:26:46 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/asus-driverhub-flaw-let-malicious-sites-run-commands-with-admin-rights/</guid>
+	<description><![CDATA[The ASUS DriverHub driver management utility was vulnerable to a critical remote code execution flaw that allowed malicious sites to execute commands on devices with the software installed. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 11 upgrade block lifted after Safe Exam Browser fix</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-upgrade-block-lifted-after-safe-exam-browser-fix/</link>
@@ -176,22 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fake-ai-video-generators-drop-new-noodlophile-infostealer-malware/</guid>
 	<description><![CDATA[Fake AI-powered video generation tools are being used to distribute a new information-stealing malware family called 'Noodlophile,' under the guise of generated media content. [...]]]></description>
- </item>
-
- <item>
-        <title>Ascension says recent data breach affects over 430,000 patients</title>
-        <link>https://www.bleepingcomputer.com/news/security/ascension-says-recent-data-breach-affects-over-430-000-patients/</link>
-        <pubDate>Fri, 09 May 2025 14:48:15 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ascension-says-recent-data-breach-affects-over-430-000-patients/</guid>
-	<description><![CDATA[Ascension, one of the largest private healthcare systems in the United States, has revealed that the personal and healthcare information of over 430,000 patients was exposed in a data breach disclosed last month. [...]]]></description>
  </item>
 
 </channel>
