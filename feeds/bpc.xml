@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 12 May 2025 10:01:23 EDT</pubDate>
+        <pubDate>Mon, 12 May 2025 11:02:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google to pay $1.375 billion to settle Texas data privacy violations</title>
+        <link>https://www.bleepingcomputer.com/news/legal/google-to-pay-1375-billion-to-settle-texas-data-privacy-violations/</link>
+        <pubDate>Mon, 12 May 2025 11:02:54 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Legal]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/legal/google-to-pay-1375-billion-to-settle-texas-data-privacy-violations/</guid>
+	<description><![CDATA[Google has agreed to a $1.375 billion settlement with the state of Texas over a 2022 lawsuit that alleged it had been collecting and using biometric data of millions of Texans without properly acquiring their consent. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Majority of Browser Extensions Pose Critical Security Risk, A New Report Reveals</title>
+        <link>https://www.bleepingcomputer.com/news/security/majority-of-browser-extensions-pose-critical-security-risk-a-new-report-reveals/</link>
+        <pubDate>Mon, 12 May 2025 10:36:25 -0400</pubDate>
+        <dc:creator>Sponsored by LayerX</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/majority-of-browser-extensions-pose-critical-security-risk-a-new-report-reveals/</guid>
+	<description><![CDATA[99% of enterprise users have browser extensions but over half carry high-risk permissions. LayerX's 2025 report reveals how everyday extensions expose sensitive data, and what security teams must do now. [...]]]></description>
+ </item>
+
  <item>
         <title>Bluetooth 6.1 enhances privacy with randomized RPA timing</title>
         <link>https://www.bleepingcomputer.com/news/security/bluetooth-61-enhances-privacy-with-randomized-rpa-timing/</link>
@@ -166,36 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/germany-takes-down-exch-cryptocurrency-exchange-seizes-servers/</guid>
 	<description><![CDATA[The Federal police in Germany (BKA) seized the server infrastructure and shut down the 'eXch' cryptocurrency exchange platform for alleged money laundering cybercrime proceeds. [...]]]></description>
- </item>
-
- <item>
-        <title>FBI: End-of-life routers hacked for cybercrime proxy networks</title>
-        <link>https://www.bleepingcomputer.com/news/security/fbi-end-of-life-routers-hacked-for-cybercrime-proxy-networks/</link>
-        <pubDate>Thu, 08 May 2025 18:15:39 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Hardware]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fbi-end-of-life-routers-hacked-for-cybercrime-proxy-networks/</guid>
-	<description><![CDATA[The FBI warns that threat actors are deploying malware on end-of-life (EoL) routers to convert them into proxies sold on the 5Socks and Anyproxy networks. [...]]]></description>
- </item>
-
- <item>
-        <title>Cisco fixes max severity IOS XE flaw letting attackers hijack devices</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisco-fixes-max-severity-ios-xe-flaw-letting-attackers-hijack-devices/</link>
-        <pubDate>Thu, 08 May 2025 16:53:18 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisco-fixes-max-severity-ios-xe-flaw-letting-attackers-hijack-devices/</guid>
-	<description><![CDATA[Cisco has fixed a maximum severity flaw in IOS XE Software for Wireless LAN Controllers by a hard-coded JSON Web Token (JWT) that allows an unauthenticated remote attacker to take over devices. [...]]]></description>
  </item>
 
 </channel>
