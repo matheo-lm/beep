@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 13 May 2025 09:07:47 EDT</pubDate>
+        <pubDate>Tue, 13 May 2025 10:00:40 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>M&amp;S says customer data stolen in cyberattack, forces password resets</title>
+        <link>https://www.bleepingcomputer.com/news/security/mands-says-customer-data-stolen-in-cyberattack-forces-password-resets/</link>
+        <pubDate>Tue, 13 May 2025 09:35:25 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/mands-says-customer-data-stolen-in-cyberattack-forces-password-resets/</guid>
+	<description><![CDATA[Marks and Spencer (M&S) confirms that customer data was stolen in a cyberattack last month, when ransomware was used to encrypt servers. [...]]]></description>
+ </item>
+
  <item>
         <title>ASUS DriverHub flaw let malicious sites run commands with admin rights</title>
         <link>https://www.bleepingcomputer.com/news/security/asus-driverhub-flaw-let-malicious-sites-run-commands-with-admin-rights/</link>
@@ -174,22 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-will-soon-block-screen-capture-during-meetings/</guid>
 	<description><![CDATA[Microsoft is working on adding a new Teams feature that will prevent users from capturing screenshots of sensitive information shared during meetings. [...]]]></description>
- </item>
-
- <item>
-        <title>Fake AI video generators drop new Noodlophile infostealer malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/fake-ai-video-generators-drop-new-noodlophile-infostealer-malware/</link>
-        <pubDate>Sat, 10 May 2025 10:17:27 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fake-ai-video-generators-drop-new-noodlophile-infostealer-malware/</guid>
-	<description><![CDATA[Fake AI-powered video generation tools are being used to distribute a new information-stealing malware family called 'Noodlophile,' under the guise of generated media content. [...]]]></description>
  </item>
 
 </channel>
