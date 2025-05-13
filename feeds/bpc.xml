@@ -11,11 +11,73 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 13 May 2025 13:02:01 EDT</pubDate>
+        <pubDate>Tue, 13 May 2025 14:02:03 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft May 2025 Patch Tuesday fixes 5 exploited zero-days, 72 flaws</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2025-patch-tuesday-fixes-5-exploited-zero-days-72-flaws/</link>
+        <pubDate>Tue, 13 May 2025 13:56:57 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2025-patch-tuesday-fixes-5-exploited-zero-days-72-flaws/</guid>
+	<description><![CDATA[Today is Microsoft's May 2025 Patch Tuesday, which includes security updates for 72 flaws, including five actively exploited and two publicly disclosed zero-day vulnerabilities. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 KB5058411 and KB5058405 cumulative updates released</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5058411-and-kb5058405-cumulative-updates-released/</link>
+        <pubDate>Tue, 13 May 2025 13:31:33 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5058411-and-kb5058405-cumulative-updates-released/</guid>
+	<description><![CDATA[Microsoft has released Windows 11 KB5058411 and KB5058405 cumulative updates for versions 24H2 and 23H2 to fix security vulnerabilities and issues. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Android 16 expands 'Advanced Protection' with device-level security</title>
+        <link>https://www.bleepingcomputer.com/news/security/android-16-expands-advanced-protection-with-device-level-security/</link>
+        <pubDate>Tue, 13 May 2025 13:20:42 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/android-16-expands-advanced-protection-with-device-level-security/</guid>
+	<description><![CDATA[Google is announcing improvements for the  Advanced Protection feature in Android 16 that strengthen defenses against sophisticated spyware attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 10 KB5058379 update fixes SgrmBroker errors in Event Viewer</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058379-update-fixes-sgrmbroker-errors-in-event-viewer/</link>
+        <pubDate>Tue, 13 May 2025 13:18:16 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058379-update-fixes-sgrmbroker-errors-in-event-viewer/</guid>
+	<description><![CDATA[Microsoft has released the KB5058379 cumulative update for Windows 10 22H2 and Windows 10 21H2, with four fixes and changes, including one for an SGRMBroker bug. [...]]]></description>
+ </item>
+
  <item>
         <title>Fortinet fixes critical zero-day exploited in FortiVoice attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/fortinet-fixes-critical-zero-day-exploited-in-fortivoice-attacks/</link>
@@ -158,50 +220,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/output-messenger-flaw-exploited-as-zero-day-in-espionage-attacks/</guid>
 	<description><![CDATA[A Türkiye-backed cyberespionage group exploited a zero-day vulnerability to attack Output Messenger users linked to the Kurdish military in Iraq. [...]]]></description>
- </item>
-
- <item>
-        <title>Moldova arrests suspect linked to DoppelPaymer ransomware attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/moldova-arrests-suspect-linked-to-doppelpaymer-ransomware-attacks/</link>
-        <pubDate>Mon, 12 May 2025 11:18:57 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/moldova-arrests-suspect-linked-to-doppelpaymer-ransomware-attacks/</guid>
-	<description><![CDATA[Moldovan authorities have detained a 45-year-old suspect linked to DoppelPaymer ransomware attacks targeting Dutch organizations in 2021. [...]]]></description>
- </item>
-
- <item>
-        <title>Google to pay $1.375 billion to settle Texas data privacy violations</title>
-        <link>https://www.bleepingcomputer.com/news/legal/google-to-pay-1375-billion-to-settle-texas-data-privacy-violations/</link>
-        <pubDate>Mon, 12 May 2025 11:02:54 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Legal]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/legal/google-to-pay-1375-billion-to-settle-texas-data-privacy-violations/</guid>
-	<description><![CDATA[Google has agreed to a $1.375 billion settlement with the state of Texas over a 2022 lawsuit that alleged it had been collecting and using biometric data of millions of Texans without properly acquiring their consent. [...]]]></description>
- </item>
-
- <item>
-        <title>Majority of Browser Extensions Pose Critical Security Risk, A New Report Reveals</title>
-        <link>https://www.bleepingcomputer.com/news/security/majority-of-browser-extensions-pose-critical-security-risk-a-new-report-reveals/</link>
-        <pubDate>Mon, 12 May 2025 10:36:25 -0400</pubDate>
-        <dc:creator>Sponsored by LayerX</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/majority-of-browser-extensions-pose-critical-security-risk-a-new-report-reveals/</guid>
-	<description><![CDATA[99% of enterprise users have browser extensions but over half carry high-risk permissions. LayerX's 2025 report reveals how everyday extensions expose sensitive data, and what security teams must do now. [...]]]></description>
  </item>
 
 </channel>
