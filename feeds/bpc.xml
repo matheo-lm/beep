@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 13 May 2025 11:00:08 EDT</pubDate>
+        <pubDate>Tue, 13 May 2025 11:59:47 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ivanti warns of critical Neurons for ITSM auth bypass flaw</title>
+        <link>https://www.bleepingcomputer.com/news/security/ivanti-warns-of-critical-neurons-for-itsm-auth-bypass-flaw/</link>
+        <pubDate>Tue, 13 May 2025 11:54:41 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ivanti-warns-of-critical-neurons-for-itsm-auth-bypass-flaw/</guid>
+	<description><![CDATA[​Ivanti has released security updates for its Neurons for ITSM IT service management solution that mitigate a critical authentication bypass vulnerability. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New Intel CPU flaws leak sensitive data from privileged memory</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-intel-cpu-flaws-leak-sensitive-data-from-privileged-memory/</link>
+        <pubDate>Tue, 13 May 2025 11:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-intel-cpu-flaws-leak-sensitive-data-from-privileged-memory/</guid>
+	<description><![CDATA[A new "Branch Privilege Injection" flaw in all modern Intel CPUs allows attackers to leak sensitive data from memory regions allocated to privileged software like the operating system kernel. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft will update Office apps on Windows 10 until 2028</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-will-update-office-apps-on-windows-10-until-2028/</link>
@@ -174,36 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/bluetooth-61-enhances-privacy-with-randomized-rpa-timing/</guid>
 	<description><![CDATA[The Bluetooth Special Interest Group (SIG) has announced Bluetooth Core Specification 6.1, bringing important improvements to the popular wireless communication protocol. [...]]]></description>
- </item>
-
- <item>
-        <title>ChatGPT is finally adding Download as PDF for Deep Research</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-finally-adding-download-as-pdf-for-deep-research/</link>
-        <pubDate>Sun, 11 May 2025 11:17:07 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-finally-adding-download-as-pdf-for-deep-research/</guid>
-	<description><![CDATA[ChatGPT's Deep Research, which allows you to conduct multi-step research for complex tasks, is finally getting an option to save the report as a PDF. [...]]]></description>
- </item>
-
- <item>
-        <title>iClicker site hack targeted students with malware via fake CAPTCHA</title>
-        <link>https://www.bleepingcomputer.com/news/security/iclicker-hack-targeted-students-with-malware-via-fake-captcha/</link>
-        <pubDate>Sun, 11 May 2025 10:16:26 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/iclicker-hack-targeted-students-with-malware-via-fake-captcha/</guid>
-	<description><![CDATA[The website of iClicker, a popular student engagement platform, was compromised in a ClickFix attack that used a fake CAPTCHA prompt to trick students and instructors into installing malware on their devices. [...]]]></description>
  </item>
 
 </channel>
