@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 13 May 2025 15:02:34 EDT</pubDate>
+        <pubDate>Tue, 13 May 2025 16:00:46 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Twilio denies breach following leak of alleged Steam 2FA codes</title>
+        <link>https://www.bleepingcomputer.com/news/security/twilio-denies-breach-following-leak-of-alleged-steam-2fa-codes/</link>
+        <pubDate>Tue, 13 May 2025 15:16:46 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/twilio-denies-breach-following-leak-of-alleged-steam-2fa-codes/</guid>
+	<description><![CDATA[Twilio has denied in a statement for BleepingComputer that it was breached after a threat actor claimed to be holding over 89 million Steam user records with one-time access codes. [...]]]></description>
+ </item>
+
  <item>
         <title>Ivanti fixes EPMM zero-days chained in code execution attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/ivanti-fixes-epmm-zero-days-chained-in-code-execution-attacks/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/asus-driverhub-flaw-let-malicious-sites-run-commands-with-admin-rights/</guid>
 	<description><![CDATA[The ASUS DriverHub driver management utility was vulnerable to a critical remote code execution flaw that allowed malicious sites to execute commands on devices with the software installed. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 upgrade block lifted after Safe Exam Browser fix</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-upgrade-block-lifted-after-safe-exam-browser-fix/</link>
-        <pubDate>Mon, 12 May 2025 16:42:32 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-upgrade-block-lifted-after-safe-exam-browser-fix/</guid>
-	<description><![CDATA[Microsoft has removed an upgrade block that prevented some Safe Exam Browser users from installing the Windows 11 2024 Update due to incompatibility issues. [...]]]></description>
  </item>
 
 </channel>
