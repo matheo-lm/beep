@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 13 May 2025 10:00:40 EDT</pubDate>
+        <pubDate>Tue, 13 May 2025 11:00:08 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft will update Office apps on Windows 10 until 2028</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-will-update-office-apps-on-windows-10-until-2028/</link>
+        <pubDate>Tue, 13 May 2025 10:44:47 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-will-update-office-apps-on-windows-10-until-2028/</guid>
+	<description><![CDATA[Microsoft has backtracked on its plan to end support for Office apps on Windows 10 later this year and announced that it will continue providing security updates for three more years, until 2028. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Increase Red Team Operations 10X with Adversarial Exposure Validation</title>
+        <link>https://www.bleepingcomputer.com/news/security/increase-red-team-operations-10x-with-adversarial-exposure-validation/</link>
+        <pubDate>Tue, 13 May 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Picus Security</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/increase-red-team-operations-10x-with-adversarial-exposure-validation/</guid>
+	<description><![CDATA[Red teams uncover what others miss — but they can't be everywhere, all the time. Adversarial Exposure Validation combines BAS + Automated Pentesting to extend red team impact, uncover real attack paths, and validate defenses continuously. Learn more from Picus Security on how AEV can help protect your network. [...]]]></description>
+ </item>
+
  <item>
         <title>M&amp;S says customer data stolen in cyberattack, forces password resets</title>
         <link>https://www.bleepingcomputer.com/news/security/mands-says-customer-data-stolen-in-cyberattack-forces-password-resets/</link>
@@ -174,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/iclicker-hack-targeted-students-with-malware-via-fake-captcha/</guid>
 	<description><![CDATA[The website of iClicker, a popular student engagement platform, was compromised in a ClickFix attack that used a fake CAPTCHA prompt to trick students and instructors into installing malware on their devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft Teams will soon block screen capture during meetings</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-will-soon-block-screen-capture-during-meetings/</link>
-        <pubDate>Sat, 10 May 2025 11:22:44 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-will-soon-block-screen-capture-during-meetings/</guid>
-	<description><![CDATA[Microsoft is working on adding a new Teams feature that will prevent users from capturing screenshots of sensitive information shared during meetings. [...]]]></description>
  </item>
 
 </channel>
