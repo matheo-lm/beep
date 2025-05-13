@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 13 May 2025 11:59:47 EDT</pubDate>
+        <pubDate>Tue, 13 May 2025 13:02:01 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Fortinet fixes critical zero-day exploited in FortiVoice attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/fortinet-fixes-critical-zero-day-exploited-in-fortivoice-attacks/</link>
+        <pubDate>Tue, 13 May 2025 12:46:39 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fortinet-fixes-critical-zero-day-exploited-in-fortivoice-attacks/</guid>
+	<description><![CDATA[Fortinet released security updates to patch a critical remote code execution vulnerability exploited as a zero-day in attacks targeting FortiVoice enterprise phone systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Ivanti warns of critical Neurons for ITSM auth bypass flaw</title>
         <link>https://www.bleepingcomputer.com/news/security/ivanti-warns-of-critical-neurons-for-itsm-auth-bypass-flaw/</link>
@@ -188,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/majority-of-browser-extensions-pose-critical-security-risk-a-new-report-reveals/</guid>
 	<description><![CDATA[99% of enterprise users have browser extensions but over half carry high-risk permissions. LayerX's 2025 report reveals how everyday extensions expose sensitive data, and what security teams must do now. [...]]]></description>
- </item>
-
- <item>
-        <title>Bluetooth 6.1 enhances privacy with randomized RPA timing</title>
-        <link>https://www.bleepingcomputer.com/news/security/bluetooth-61-enhances-privacy-with-randomized-rpa-timing/</link>
-        <pubDate>Sun, 11 May 2025 11:21:32 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/bluetooth-61-enhances-privacy-with-randomized-rpa-timing/</guid>
-	<description><![CDATA[The Bluetooth Special Interest Group (SIG) has announced Bluetooth Core Specification 6.1, bringing important improvements to the popular wireless communication protocol. [...]]]></description>
  </item>
 
 </channel>
