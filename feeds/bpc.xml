@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 14 May 2025 12:58:44 EDT</pubDate>
+        <pubDate>Wed, 14 May 2025 14:03:35 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ransomware gangs join ongoing SAP NetWeaver attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/ransomware-gangs-join-ongoing-sap-netweaver-attacks/</link>
+        <pubDate>Wed, 14 May 2025 13:39:41 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ransomware-gangs-join-ongoing-sap-netweaver-attacks/</guid>
+	<description><![CDATA[Ransomware gangs have joined ongoing SAP NetWeaver attacks, exploiting a maximum-severity vulnerability that allows threat actors to gain remote code execution on vulnerable servers. [...]]]></description>
+ </item>
+
  <item>
         <title>Australian Human Rights Commission leaks docs to search engines</title>
         <link>https://www.bleepingcomputer.com/news/security/australian-human-rights-commission-leaks-docs-to-search-engines/</link>
@@ -184,24 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5058411-and-kb5058405-cumulative-updates-released/</guid>
 	<description><![CDATA[Microsoft has released Windows 11 KB5058411 and KB5058405 cumulative updates for versions 24H2 and 23H2 to fix security vulnerabilities and issues. [...]]]></description>
- </item>
-
- <item>
-        <title>Android 16 expands 'Advanced Protection' with device-level security</title>
-        <link>https://www.bleepingcomputer.com/news/security/android-16-expands-advanced-protection-with-device-level-security/</link>
-        <pubDate>Tue, 13 May 2025 13:20:42 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/android-16-expands-advanced-protection-with-device-level-security/</guid>
-	<description><![CDATA[Google is announcing improvements for the  Advanced Protection feature in Android 16 that strengthen defenses against sophisticated spyware attacks. [...]]]></description>
  </item>
 
 </channel>
