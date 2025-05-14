@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 14 May 2025 09:08:37 EDT</pubDate>
+        <pubDate>Wed, 14 May 2025 10:02:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Fashion giant Dior discloses cyberattack, warns of data breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/fashion-giant-dior-discloses-cyberattack-warns-of-data-breach/</link>
+        <pubDate>Wed, 14 May 2025 09:37:35 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fashion-giant-dior-discloses-cyberattack-warns-of-data-breach/</guid>
+	<description><![CDATA[House of Dior, the French luxury fashion brand commonly referred to as Dior, has disclosed a cybersecurity incident that has exposed customer information. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Kosovo extradites BlackDB admin to face US cybercrime charges</title>
+        <link>https://www.bleepingcomputer.com/news/security/kosovo-extradites-blackdb-admin-to-face-us-cybercrime-charges/</link>
+        <pubDate>Wed, 14 May 2025 09:22:06 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/kosovo-extradites-blackdb-admin-to-face-us-cybercrime-charges/</guid>
+	<description><![CDATA[A Kosovo national has been extradited to the United States to face charges of running an online cybercrime marketplace active since 2018. [...]]]></description>
+ </item>
+
  <item>
         <title>SAP patches second zero-day flaw exploited in recent attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/sap-patches-second-zero-day-flaw-exploited-in-recent-attacks/</link>
@@ -174,50 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-intel-cpu-flaws-leak-sensitive-data-from-privileged-memory/</guid>
 	<description><![CDATA[A new "Branch Privilege Injection" flaw in all modern Intel CPUs allows attackers to leak sensitive data from memory regions allocated to privileged software like the operating system kernel. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft will update Office apps on Windows 10 until 2028</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-will-update-office-apps-on-windows-10-until-2028/</link>
-        <pubDate>Tue, 13 May 2025 10:44:47 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-will-update-office-apps-on-windows-10-until-2028/</guid>
-	<description><![CDATA[Microsoft has backtracked on its plan to end support for Office apps on Windows 10 later this year and announced that it will continue providing security updates for three more years, until 2028. [...]]]></description>
- </item>
-
- <item>
-        <title>Increase Red Team Operations 10X with Adversarial Exposure Validation</title>
-        <link>https://www.bleepingcomputer.com/news/security/increase-red-team-operations-10x-with-adversarial-exposure-validation/</link>
-        <pubDate>Tue, 13 May 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Picus Security</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/increase-red-team-operations-10x-with-adversarial-exposure-validation/</guid>
-	<description><![CDATA[Red teams uncover what others miss — but they can't be everywhere, all the time. Adversarial Exposure Validation combines BAS + Automated Pentesting to extend red team impact, uncover real attack paths, and validate defenses continuously. Learn more from Picus Security on how AEV can help protect your network. [...]]]></description>
- </item>
-
- <item>
-        <title>M&amp;S says customer data stolen in cyberattack, forces password resets</title>
-        <link>https://www.bleepingcomputer.com/news/security/mands-says-customer-data-stolen-in-cyberattack-forces-password-resets/</link>
-        <pubDate>Tue, 13 May 2025 09:35:25 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/mands-says-customer-data-stolen-in-cyberattack-forces-password-resets/</guid>
-	<description><![CDATA[Marks and Spencer (M&S) confirms that customer data was stolen in a cyberattack last month, when ransomware was used to encrypt servers. [...]]]></description>
  </item>
 
 </channel>
