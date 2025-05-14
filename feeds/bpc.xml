@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 14 May 2025 12:02:32 EDT</pubDate>
+        <pubDate>Wed, 14 May 2025 12:58:44 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Australian Human Rights Commission leaks docs to search engines</title>
+        <link>https://www.bleepingcomputer.com/news/security/australian-human-rights-commission-leaks-docs-to-search-engines/</link>
+        <pubDate>Wed, 14 May 2025 12:28:31 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/australian-human-rights-commission-leaks-docs-to-search-engines/</guid>
+	<description><![CDATA[The Australian Human Rights Commission (AHRC) disclosed a data breach incident where private documents leaked online and were indexed by major search engines. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes Linux boot issues on dual-boot Windows systems</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-linux-boot-issues-on-dual-boot-windows-systems/</link>
@@ -188,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/android-16-expands-advanced-protection-with-device-level-security/</guid>
 	<description><![CDATA[Google is announcing improvements for the  Advanced Protection feature in Android 16 that strengthen defenses against sophisticated spyware attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 10 KB5058379 update fixes SgrmBroker errors in Event Viewer</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058379-update-fixes-sgrmbroker-errors-in-event-viewer/</link>
-        <pubDate>Tue, 13 May 2025 13:18:16 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058379-update-fixes-sgrmbroker-errors-in-event-viewer/</guid>
-	<description><![CDATA[Microsoft has released the KB5058379 cumulative update for Windows 10 22H2 and Windows 10 21H2, with four fixes and changes, including one for an SGRMBroker bug. [...]]]></description>
  </item>
 
 </channel>
