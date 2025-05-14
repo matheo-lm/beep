@@ -11,11 +11,53 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 14 May 2025 10:02:59 EDT</pubDate>
+        <pubDate>Wed, 14 May 2025 11:00:57 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft fixes Linux boot issues on dual-boot Windows systems</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-linux-boot-issues-on-dual-boot-windows-systems/</link>
+        <pubDate>Wed, 14 May 2025 10:50:45 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-linux-boot-issues-on-dual-boot-windows-systems/</guid>
+	<description><![CDATA[​Microsoft has fixed a known issue preventing Linux from booting on dual-boot systems with Secure Boot enabled after installing the August 2024 Windows security updates. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Steel giant Nucor Corporation facing disruptions after cyberattack</title>
+        <link>https://www.bleepingcomputer.com/news/security/steel-giant-nucor-corporation-facing-disruptions-after-cyberattack/</link>
+        <pubDate>Wed, 14 May 2025 10:39:20 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/steel-giant-nucor-corporation-facing-disruptions-after-cyberattack/</guid>
+	<description><![CDATA[A cybersecurity incident on Nucor Corporation's systems forced the company to take offline parts of its networks and implement containment measures. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Focused Phishing: Attack Targets Victims With Trusted Sites and Live Validation</title>
+        <link>https://www.bleepingcomputer.com/news/security/focused-phishing-attack-targets-victims-with-trusted-sites-and-live-validation/</link>
+        <pubDate>Wed, 14 May 2025 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by Keep Aware</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/focused-phishing-attack-targets-victims-with-trusted-sites-and-live-validation/</guid>
+	<description><![CDATA[New phishing tactics are abusing trusted domains, real CAPTCHAs, and server-side email validation to selectively target victims with customized fake login pages. Keep Aware's latest research breaks down the full attack chain and how these zero-day phish operate. [...]]]></description>
+ </item>
+
  <item>
         <title>Fashion giant Dior discloses cyberattack, warns of data breach</title>
         <link>https://www.bleepingcomputer.com/news/security/fashion-giant-dior-discloses-cyberattack-warns-of-data-breach/</link>
@@ -160,48 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058379-update-fixes-sgrmbroker-errors-in-event-viewer/</guid>
 	<description><![CDATA[Microsoft has released the KB5058379 cumulative update for Windows 10 22H2 and Windows 10 21H2, with four fixes and changes, including one for an SGRMBroker bug. [...]]]></description>
- </item>
-
- <item>
-        <title>Fortinet fixes critical zero-day exploited in FortiVoice attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/fortinet-fixes-critical-zero-day-exploited-in-fortivoice-attacks/</link>
-        <pubDate>Tue, 13 May 2025 12:46:39 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fortinet-fixes-critical-zero-day-exploited-in-fortivoice-attacks/</guid>
-	<description><![CDATA[Fortinet released security updates to patch a critical remote code execution vulnerability exploited as a zero-day in attacks targeting FortiVoice enterprise phone systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Ivanti warns of critical Neurons for ITSM auth bypass flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/ivanti-warns-of-critical-neurons-for-itsm-auth-bypass-flaw/</link>
-        <pubDate>Tue, 13 May 2025 11:54:41 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ivanti-warns-of-critical-neurons-for-itsm-auth-bypass-flaw/</guid>
-	<description><![CDATA[​Ivanti has released security updates for its Neurons for ITSM IT service management solution that mitigate a critical authentication bypass vulnerability. [...]]]></description>
- </item>
-
- <item>
-        <title>New Intel CPU flaws leak sensitive data from privileged memory</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-intel-cpu-flaws-leak-sensitive-data-from-privileged-memory/</link>
-        <pubDate>Tue, 13 May 2025 11:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-intel-cpu-flaws-leak-sensitive-data-from-privileged-memory/</guid>
-	<description><![CDATA[A new "Branch Privilege Injection" flaw in all modern Intel CPUs allows attackers to leak sensitive data from memory regions allocated to privileged software like the operating system kernel. [...]]]></description>
  </item>
 
 </channel>
