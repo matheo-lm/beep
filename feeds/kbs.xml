@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 14 May 2025 11:57:48 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 15 May 2025 19:56:51 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,54 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Breachforums Boss to Pay $700k in Healthcare Breach</title>
+		<link>https://krebsonsecurity.com/2025/05/breachforums-boss-to-pay-700k-in-healthcare-breach/</link>
+					<comments>https://krebsonsecurity.com/2025/05/breachforums-boss-to-pay-700k-in-healthcare-breach/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Thu, 15 May 2025 19:56:51 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[BreachForums]]></category>
+		<category><![CDATA[Cipriani & Warner]]></category>
+		<category><![CDATA[Conor Brian Fitzpatrick]]></category>
+		<category><![CDATA[Jill Fertel]]></category>
+		<category><![CDATA[mark rasch]]></category>
+		<category><![CDATA[Nonstop Health]]></category>
+		<category><![CDATA[pompompurin]]></category>
+		<category><![CDATA[RaidForums]]></category>
+		<category><![CDATA[Unit 221B]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71263</guid>
+
+					<description><![CDATA[In what experts are calling a novel legal outcome, the 22-year-old former administrator of the cybercrime community Breachforums will forfeit nearly $700,000 to settle a civil lawsuit from a health insurance company whose customer data was posted for sale on the forum in 2023. Conor Brian Fitzpatrick, a.k.a. "Pompompurin," is slated for resentencing next month after pleading guilty to access device fraud and possession of child sexual abuse material (CSAM).]]></description>
+										<content:encoded><![CDATA[<p>In what experts are calling a novel legal outcome, the 22-year-old former administrator of the cybercrime community <strong>Breachforums </strong>will forfeit nearly $700,000 to settle a civil lawsuit from a health insurance company whose customer data was posted for sale on the forum in 2023. <strong>Conor Brian Fitzpatrick</strong>, a.k.a. &#8220;<strong>Pompompurin</strong>,&#8221; is slated for resentencing next month after pleading guilty to access device fraud and possession of child sexual abuse material (CSAM).</p>
+<div id="attachment_71274" style="width: 985px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71274" decoding="async" class="size-full wp-image-71274" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/breached-nonstop.png" alt="" width="975" height="364" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/breached-nonstop.png 975w, https://krebsonsecurity.com/wp-content/uploads/2025/05/breached-nonstop-768x287.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/05/breached-nonstop-782x292.png 782w" sizes="(max-width: 975px) 100vw, 975px" /><p id="caption-attachment-71274" class="wp-caption-text">A redacted screenshot of the Breachforums sales thread. Image: Ke-la.com.</p></div>
+<p>On January 18, 2023, denizens of Breachforums posted for sale tens of thousands of records &#8212; including Social Security numbers, dates of birth, addresses, and phone numbers  &#8212; stolen from <strong>Nonstop Health</strong>, an insurance provider based in Concord, Calif.</p>
+<p>Class-action attorneys sued Nonstop Health, which added Fitzpatrick as a third-party defendant to the civil litigation in November 2023, several months after he was <a href="https://krebsonsecurity.com/2023/03/feds-charge-ny-man-as-breachforums-boss-pompompurin/" target="_blank" rel="noopener">arrested by the FBI</a> and criminally charged with access device fraud and CSAM possession. In January 2025, Nonstop <a href="https://topclassactions.com/lawsuit-settlements/closed-settlements/1-6m-nonstop-administration-and-insurance-services-data-breach-class-action-settlement/" target="_blank" rel="noopener">agreed to pay $1.5 million</a> to settle the class action.</p>
+<p><strong>Jill Fertel</strong> is a former federal prosecutor who runs the cyber litigation practice at <strong>Cipriani &amp; Warner</strong>, the law firm that represented Nonstop Health. Fertel told KrebsOnSecurity this is the first and only case where a cybercriminal or anyone related to the security incident was actually named in civil litigation.</p>
+<p>&#8220;Civil plaintiffs are not at all likely to see money seized from threat actors involved in the incident to be made available to people impacted by the breach,&#8221; Fertel said. &#8220;The best we could do was make this money available to the class, but it&#8217;s still incumbent on the members of the class who are impacted to make that claim.&#8221;</p>
+<p><strong>Mark Rasch</strong> is a former federal prosecutor who now represents <strong>Unit 221B</strong>, a cybersecurity firm based in New York City. Rasch said he doesn&#8217;t doubt that the civil settlement involving Fitzpatrick&#8217;s criminal activity is a novel legal development.</p>
+<p>&#8220;It is rare in these civil cases that you know the threat actor involved in the breach, and it&#8217;s also rare that you catch them with sufficient resources to be able to pay a claim,&#8221; Rasch said.</p>
+<p>Despite admitting to possessing more than 600 CSAM images and personally operating Breachforums, Fitzpatrick was <a href="https://cyberscoop.com/jailed-breachforums-creator-admin-sentenced-to-20-years-of-supervised-release/" target="_blank" rel="noopener">sentenced in January 2024 to time served</a> and 20 years of supervised release. Federal prosecutors objected, arguing that his punishment failed to adequately reflect the seriousness of his crimes or serve as a deterrent.</p>
+<div id="attachment_71269" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71269" decoding="async" loading="lazy" class=" wp-image-71269" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/pom-csam.png" alt="" width="749" height="299" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/pom-csam.png 789w, https://krebsonsecurity.com/wp-content/uploads/2025/05/pom-csam-768x307.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/05/pom-csam-782x312.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71269" class="wp-caption-text">An excerpt from a pre-sentencing report for Fitzpatrick indicates he had more than 600 CSAM images on his devices.</p></div>
+<p>Indeed, the same month he was sentenced Fitzpatrick <a href="https://dd80b675424c132b90b3-e48385e382d2e5d17821a5e1d8e4c86b.ssl.cf1.rackcdn.com/external/sdny-24mj003-waiver-jan22024.pdf" target="_blank" rel="noopener">was rearrested</a> (PDF) for violating the terms of his release, which forbade him from using a computer that didn&#8217;t have court-required monitoring software installed.</p>
+<p>Federal prosecutors said Fitzpatrick went on Discord following his guilty plea and <a href="https://law.justia.com/cases/federal/appellate-courts/ca4/24-4102/24-4102-2025-01-21.html" target="_blank" rel="noopener">professed innocence</a> to the very crimes to which he&#8217;d pleaded guilty, stating that his plea deal was &#8220;so BS&#8221; and that he had &#8220;wanted to fight it.&#8221; The feds said Fitzpatrick also joked with his friends about selling data to foreign governments, exhorting one user to &#8220;become a foreign asset to china or russia,&#8221; and to &#8220;sell government secrets.&#8221;<span id="more-71263"></span></p>
+<p>In January 2025, a federal appeals court agreed with the government&#8217;s assessment, <a href="https://cyberscoop.com/conor-fitzpatrick-resentenced-pompompurin-breachforums/" target="_blank" rel="noopener">vacating Fitzpatrick&#8217;s sentence</a> and ordering him to be resentenced on June 3, 2025.</p>
+<p>Fitzpatrick launched BreachForums in March 2022 to replace <strong>RaidForums</strong>, a similarly popular crime forum that was <a href="https://krebsonsecurity.com/2022/04/raidforums-get-raided-alleged-admin-arrested/" target="_blank" rel="noopener">infiltrated and shut down by the FBI</a> the previous month. As administrator, his alter ego Pompompurin served as the middleman, personally reviewing all databases for sale on the forum and offering an escrow service to those interested in buying stolen data.</p>
+<div id="attachment_71270" style="width: 375px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71270" decoding="async" loading="lazy" class=" wp-image-71270" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/conorfitzpatrick-yearbook.png" alt="" width="365" height="560" /><p id="caption-attachment-71270" class="wp-caption-text">A yearbook photo of Fitzpatrick unearthed by the Yonkers Times.</p></div>
+<p>The new site quickly attracted more than 300,000 users, and facilitated the sale of databases stolen from hundreds of hacking victims, including some of the largest consumer data breaches in recent history. In May 2024, a reincarnation of Breachforums was seized by the FBI and international partners. Still more relaunches of the forum occurred after that, with <a href="https://socradar.io/breachforums-is-offline-a-new-twist-or-just-another-cyber-sheningan/" target="_blank" rel="noopener">the most recent disruption</a> last month.</p>
+<p>As KrebsOnSecurity reported last year in <a href="https://krebsonsecurity.com/2024/09/the-dark-nexus-between-harm-groups-and-the-com/" target="_blank" rel="noopener">The Dark Nexus Between Harm Groups and The Com</a>, it is increasingly common for federal investigators to find CSAM material when searching devices seized from cybercriminal suspects. While the mere possession of CSAM is a serious federal crime, not all of those caught with CSAM are necessarily creators or distributors of it. Fertel said some cybercriminal communities have been known to require new entrants to share CSAM material as a way of proving that they are not a federal investigator.</p>
+<p>&#8220;If you&#8217;re going to the darkest corners of Internet, that&#8217;s how you prove you&#8217;re not law enforcement,&#8221; Fertel said. &#8220;Law enforcement would never share that material. It would be criminal for me as a prosecutor, if I obtained and possessed those types of images.&#8221;</p>
+<p>Further reading: <a href="https://krebsonsecurity.com/wp-content/uploads/2025/05/19420931.pdf" target="_blank" rel="noopener">The settlement between Fitzpatrick and Nonstop</a> (PDF).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/05/breachforums-boss-to-pay-700k-in-healthcare-breach/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Patch Tuesday, May 2025 Edition</title>
 		<link>https://krebsonsecurity.com/2025/05/patch-tuesday-may-2025-edition/</link>
 					<comments>https://krebsonsecurity.com/2025/05/patch-tuesday-may-2025-edition/#comments</comments>
@@ -44,7 +92,7 @@
 
 					<description><![CDATA[Microsoft on Tuesday released software updates to fix at least 70 vulnerabilities in Windows and related products, including five zero-day flaws that are already seeing active exploitation. Adding to the sense of urgency with this month's patch batch from Redmond are fixes for two other weaknesses that now have public proof-of-concept exploits available.]]></description>
 										<content:encoded><![CDATA[<p><strong>Microsoft</strong> on Tuesday released software updates to fix at least 70 vulnerabilities in <strong>Windows</strong> and related products, including <em>five zero-day flaws that are already seeing active exploitation</em>. Adding to the sense of urgency with this month&#8217;s patch batch from Redmond are fixes for two other weaknesses that now have public proof-of-concept exploits available.</p>
-<p><img decoding="async" class="aligncenter  wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter  wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
 <p>Microsoft and several security firms have disclosed that attackers are exploiting a pair of bugs in the <strong>Windows Common Log File System</strong> (CLFS) driver that allow attackers to elevate their privileges on a vulnerable device. The Windows CLFS is a critical Windows component responsible for logging services, and is widely used by Windows system services and third-party applications for logging. Tracked as <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-32701" target="_blank" rel="noopener">CVE-2025-32701</a> &amp; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-32706" target="_blank" rel="noopener">CVE-2025-32706</a>, these flaws are present in all supported versions of Windows 10 and 11, as well as their server versions.</p>
 <p><strong>Kev Breen</strong>, senior director of threat research at <strong>Immersive Labs</strong>, said privilege escalation bugs assume an attacker already has initial access to a compromised host, typically through a phishing attack or by using stolen credentials. But if that access already exists, Breen said, attackers can gain access to the much more powerful Windows SYSTEM account, which can disable security tooling or even gain domain administration level permissions using credential harvesting tools.</p>
 <p>&#8220;The patch notes don&#8217;t provide technical details on how this is being exploited, and no Indicators of Compromise (IOCs) are shared, meaning the only mitigation security teams have is to apply these patches immediately,&#8221; he said. &#8220;The average time from public disclosure to exploitation at scale is less than five days, with threat actors, ransomware groups, and affiliates quick to leverage these vulnerabilities.&#8221;</p>
@@ -646,64 +694,15 @@ February 2023; 391 bitcoin is presently worth more than $26 million.</p>
 		
 		
 			</item>
-		<item>
-		<title>Patch Tuesday, April 2025 Edition</title>
-		<link>https://krebsonsecurity.com/2025/04/patch-tuesday-april-2025-edition/</link>
-					<comments>https://krebsonsecurity.com/2025/04/patch-tuesday-april-2025-edition/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Wed, 09 Apr 2025 03:09:36 +0000</pubDate>
-				<category><![CDATA[Latest Warnings]]></category>
-		<category><![CDATA[Security Tools]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[Time to Patch]]></category>
-		<category><![CDATA[Chris Goettl]]></category>
-		<category><![CDATA[CLFS]]></category>
-		<category><![CDATA[Common Log File System]]></category>
-		<category><![CDATA[CVE-2025-26671]]></category>
-		<category><![CDATA[CVE-2025-27480]]></category>
-		<category><![CDATA[CVE-2025-27482]]></category>
-		<category><![CDATA[CVE-2025-29824]]></category>
-		<category><![CDATA[Ivanti]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[Satnam Narang]]></category>
-		<category><![CDATA[windows]]></category>
-		<category><![CDATA[Windows Remote Desktop Services]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70933</guid>
-
-					<description><![CDATA[Microsoft today released updates to plug at least 121 security holes in its Windows operating systems and software, including one vulnerability that is already being exploited in the wild. Eleven of those flaws earned Microsoft's most-dire "critical" rating, meaning malware or malcontents could exploit them with little to no interaction from Windows users.]]></description>
-										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today released updates to plug at least 121 security holes in its <strong>Windows</strong> operating systems and software, including one vulnerability that is already being exploited in the wild. Eleven of those flaws earned Microsoft&#8217;s most-dire &#8220;critical&#8221; rating, meaning malware or malcontents could exploit them with little to no interaction from Windows users.</p>
-<p><img decoding="async" loading="lazy" class="aligncenter  wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="750" height="528" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 750px) 100vw, 750px" /></p>
-<p>The zero-day flaw already seeing exploitation is <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-29824" target="_blank" rel="noopener">CVE-2025-29824</a>, a local elevation of privilege bug in the Windows <strong>Common Log File System</strong> (CLFS) driver.  Microsoft rates it as &#8220;important,&#8221; but as <strong>Chris Goettl</strong> from <strong>Ivanti</strong> points out, risk-based prioritization warrants treating it as critical.</p>
-<p>This CLFS component of Windows is no stranger to Patch Tuesday: According to Tenable&#8217;s <strong>Satnam Narang</strong>, since 2022 Microsoft has patched 32 CLFS vulnerabilities &#8212; averaging 10 per year &#8212; with six of them exploited in the wild. The <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2024-49138" target="_blank" rel="noopener">last CLFS zero-day</a> was <a href="https://krebsonsecurity.com/2024/12/patch-tuesday-december-2024-edition/" target="_blank" rel="noopener">patched in December 2024</a>.</p>
-<p>Narang notes that while flaws allowing attackers to install arbitrary code are consistently top overall Patch Tuesday features, the data is reversed for zero-day exploitation.</p>
-<p>&#8220;For the past two years, elevation of privilege flaws have led the pack and, so far in 2025, account for over half of all zero-days exploited,&#8221; Narang wrote.<span id="more-70933"></span></p>
-<p>Rapid7&#8217;s <strong>Adam Barnett</strong> warns that any Windows defenders responsible for an <a href="https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol" target="_blank" rel="noopener">LDAP server</a> — which means almost any organization with a non-trivial Microsoft footprint — should add <span class="il">patching</span> for the critical flaw <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-26663" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-26663&amp;source=gmail&amp;ust=1744231709116000&amp;usg=AOvVaw3moAqrbzoHqolAikc6dYLo">CVE-2025-26663</a> to their to-do list.</p>
-<p>&#8220;With no privileges required, no need for user interaction, and code execution presumably in the context of the LDAP server itself, successful exploitation would be an attractive shortcut to any attacker,&#8221; Barnett said. &#8220;Anyone wondering if today is a re-run of December 2024 <span class="il">Patch</span> <span class="il">Tuesday</span> can take some small solace in the fact that the worst of the <a href="https://www.rapid7.com/blog/post/2024/12/10/patch-tuesday-december-2024/#ldap-critical-rce" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://www.rapid7.com/blog/post/2024/12/10/patch-tuesday-december-2024/%23ldap-critical-rce&amp;source=gmail&amp;ust=1744231709116000&amp;usg=AOvVaw2C4e66FL53_LrZBhrndLUw">trio of LDAP critical RCEs published at the end of last year</a> was likely easier to exploit than today’s example, since today’s CVE-2025-26663 requires that an attacker win a race condition. Despite that, Microsoft still expects that exploitation is more likely.&#8221;</p>
-<p>Among the critical updates Microsoft patched this month are remote code execution flaws in <strong>Windows Remote Desktop </strong>services (RDP), including <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-26671" target="_blank" rel="noopener">CVE-2025-26671</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-27480" target="_blank" rel="noopener">CVE-2025-27480</a> and <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-27482" target="_blank" rel="noopener">CVE-2025-27482</a>; only the latter two are rated &#8220;critical,&#8221; and Microsoft marked both of them as “Exploitation More Likely.&#8221;</p>
-<p>Perhaps the most widespread vulnerabilities fixed this month were in web browsers. <strong>Google Chrome</strong> <a href="https://chromereleases.googleblog.com/" target="_blank" rel="noopener">updated</a> to fix 13 flaws this week, and <strong>Mozilla Firefox </strong>fixed <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2025-20/" target="_blank" rel="noopener">eight bugs</a>, with possibly more updates coming later this week for <strong>Microsoft</strong> <strong>Edge</strong>.</p>
-<p>As it tends to do on Patch Tuesdays, <strong>Adobe</strong> has <a href="https://helpx.adobe.com/security/security-bulletin.html" target="_blank" rel="noopener">released 12 updates</a> resolving 54 security holes across a range of products, including <strong>ColdFusion</strong>, <strong>Adobe Commerce</strong>, <strong>Experience Manager Forms</strong>, <strong>After Effects</strong>, <strong>Media Encoder</strong>, <strong>Bridge</strong>, <strong>Premiere Pro</strong>, <strong>Photoshop</strong>, <strong>Animate</strong>, <strong>AEM Screens</strong>, and <strong>FrameMaker</strong>.</p>
-<p><strong>Apple</strong> users may need to patch as well. On March 31, Apple released a huge security update (more than three gigabytes in size) to fix issues in a range of their products, including <a href="https://www.bleepingcomputer.com/news/security/apple-backports-zero-day-patches-to-older-iphones-and-macs/" target="_blank" rel="noopener">at least one zero-day flaw</a>.</p>
-<p>And in case you missed it, on March 31, 2025 <strong>Apple</strong> released <a href="https://support.apple.com/en-us/100100?is=1ef7934f6635b02395adcab09a0c1b24bf0ea745b648bfe87189de8aadc7300b" target="_blank" rel="noopener">a rather large batch of security updates</a> for a wide range of their products, from <strong>macOS</strong> to the<strong> iOS</strong> operating systems on <strong>iPhones</strong> and <strong>iPads</strong>.</p>
-<p>Earlier today, Microsoft included a note saying <strong>Windows 10</strong> security updates weren&#8217;t available but would be released as soon as possible. It appears from browsing <a href="https://www.askwoody.com/2025/april-2025-updates-out/" target="_blank" rel="noopener">askwoody.com</a> that this snafu has since been rectified. Either way, if you run into complications applying any of these updates please leave a note about it in the comments below, because the chances are good that someone else had the same problem.</p>
-<p>As ever, please consider backing up your data and or devices prior to updating, which makes it far less complicated to undo a software update gone awry. For more granular details on today&#8217;s Patch Tuesday, check out the <a href="https://isc.sans.edu/forums/diary/Microsoft%20April%202025%20Patch%20Tuesday/31838/">SANS Internet Storm Center&#8217;s roundup</a>. Microsoft&#8217;s update guide for April 2025 <a href="https://msrc.microsoft.com/update-guide/releaseNote/2025-Apr" target="_blank" rel="noopener">is here</a>.</p>
-<p>For more details on Patch Tuesday, check out the write-ups from <a href="https://www.action1.com/patch-tuesday/patch-tuesday-april-2025/?vyj" target="_blank" rel="noopener">Action1</a> and <a href="https://www.automox.com/blog/patch-tuesday-april-2025" target="_blank" rel="noopener">Automox</a>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/04/patch-tuesday-april-2025-edition/feed/</wfw:commentRss>
-			<slash:comments>7</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 288/288 objects using memcached
+Object Caching 290/290 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-05-15 15:00:06 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-05-15 16:00:15 by W3 Total Cache
 -->
