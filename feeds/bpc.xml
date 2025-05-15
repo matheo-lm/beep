@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 15 May 2025 17:00:24 EDT</pubDate>
+        <pubDate>Thu, 15 May 2025 18:01:46 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 10 KB5058379 update triggers BitLocker recovery on some devices</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058379-update-triggering-bitlocker-recovery-after-install/</link>
+        <pubDate>Thu, 15 May 2025 17:38:27 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058379-update-triggering-bitlocker-recovery-after-install/</guid>
+	<description><![CDATA[The Windows 10 KB5058379 cumulative update is triggering unexpected BitLocker recovery prompts on some devices afters it's installed and the computer restarted. [...]]]></description>
+ </item>
+
  <item>
         <title>Government webmail hacked via XSS bugs in global spy campaign</title>
         <link>https://www.bleepingcomputer.com/news/security/government-webmail-hacked-via-xss-bugs-in-global-spy-campaign/</link>
@@ -194,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/australian-human-rights-commission-leaks-docs-to-search-engines/</guid>
 	<description><![CDATA[The Australian Human Rights Commission (AHRC) disclosed a data breach incident where private documents leaked online and were indexed by major search engines. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Linux boot issues on dual-boot Windows systems</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-linux-boot-issues-on-dual-boot-windows-systems/</link>
-        <pubDate>Wed, 14 May 2025 10:50:45 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-linux-boot-issues-on-dual-boot-windows-systems/</guid>
-	<description><![CDATA[​Microsoft has fixed a known issue preventing Linux from booting on dual-boot systems with Secure Boot enabled after installing the August 2024 Windows security updates. [...]]]></description>
  </item>
 
 </channel>
