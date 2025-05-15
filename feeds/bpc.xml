@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 15 May 2025 11:00:02 EDT</pubDate>
+        <pubDate>Thu, 15 May 2025 12:02:44 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 11 and Red Hat Linux hacked on first day of Pwn2Own</title>
+        <link>https://www.bleepingcomputer.com/news/security/windows-11-and-red-hat-linux-virtualbox-hacked-on-first-day-of-pwn2own/</link>
+        <pubDate>Thu, 15 May 2025 11:48:44 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/windows-11-and-red-hat-linux-virtualbox-hacked-on-first-day-of-pwn2own/</guid>
+	<description><![CDATA[On the first day of Pwn2Own Berlin 2025, security researchers were awarded $260,000 after successfully demonstrating zero-day exploits for Windows 11, Red Hat Linux, Docker Desktop, and Oracle VirtualBox. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New Tor Oniux tool anonymizes any Linux app's network traffic</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-tor-oniux-tool-anonymizes-any-linux-apps-network-traffic/</link>
+        <pubDate>Thu, 15 May 2025 11:20:06 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-tor-oniux-tool-anonymizes-any-linux-apps-network-traffic/</guid>
+	<description><![CDATA[Tor has announced Oniux, a new command-line tool for routing any Linux application securely through the Tor network for anonymized network connections. [...]]]></description>
+ </item>
+
  <item>
         <title>Malicious NPM package uses Unicode steganography to evade detection</title>
         <link>https://www.bleepingcomputer.com/news/security/malicious-npm-package-uses-unicode-steganography-to-evade-detection/</link>
@@ -174,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fashion-giant-dior-discloses-cyberattack-warns-of-data-breach/</guid>
 	<description><![CDATA[House of Dior, the French luxury fashion brand commonly referred to as Dior, has disclosed a cybersecurity incident that has exposed customer information. [...]]]></description>
- </item>
-
- <item>
-        <title>Kosovo extradites BlackDB admin to face US cybercrime charges</title>
-        <link>https://www.bleepingcomputer.com/news/security/kosovo-extradites-blackdb-admin-to-face-us-cybercrime-charges/</link>
-        <pubDate>Wed, 14 May 2025 09:22:06 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/kosovo-extradites-blackdb-admin-to-face-us-cybercrime-charges/</guid>
-	<description><![CDATA[A Kosovo national has been extradited to the United States to face charges of running an online cybercrime marketplace active since 2018. [...]]]></description>
  </item>
 
 </channel>
