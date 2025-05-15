@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 15 May 2025 12:02:44 EDT</pubDate>
+        <pubDate>Thu, 15 May 2025 12:58:39 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Nova Scotia Power confirms hackers stole customer data in cyberattack</title>
+        <link>https://www.bleepingcomputer.com/news/security/nova-scotia-power-confirms-hackers-stole-customer-data-in-cyberattack/</link>
+        <pubDate>Thu, 15 May 2025 12:38:29 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/nova-scotia-power-confirms-hackers-stole-customer-data-in-cyberattack/</guid>
+	<description><![CDATA[Nova Scotia Power confirms it suffered a data breach after threat actors stole sensitive customer data in a cybersecurity incident discovered last month. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 11 and Red Hat Linux hacked on first day of Pwn2Own</title>
         <link>https://www.bleepingcomputer.com/news/security/windows-11-and-red-hat-linux-virtualbox-hacked-on-first-day-of-pwn2own/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/focused-phishing-attack-targets-victims-with-trusted-sites-and-live-validation/</guid>
 	<description><![CDATA[New phishing tactics are abusing trusted domains, real CAPTCHAs, and server-side email validation to selectively target victims with customized fake login pages. Keep Aware's latest research breaks down the full attack chain and how these zero-day phish operate. [...]]]></description>
- </item>
-
- <item>
-        <title>Fashion giant Dior discloses cyberattack, warns of data breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/fashion-giant-dior-discloses-cyberattack-warns-of-data-breach/</link>
-        <pubDate>Wed, 14 May 2025 09:37:35 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fashion-giant-dior-discloses-cyberattack-warns-of-data-breach/</guid>
-	<description><![CDATA[House of Dior, the French luxury fashion brand commonly referred to as Dior, has disclosed a cybersecurity incident that has exposed customer information. [...]]]></description>
  </item>
 
 </channel>
