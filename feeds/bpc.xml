@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 15 May 2025 14:04:00 EDT</pubDate>
+        <pubDate>Thu, 15 May 2025 15:02:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FBI: US officials targeted in voice deepfake attacks since April</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-us-officials-targeted-in-voice-deepfake-attacks-since-april/</link>
+        <pubDate>Thu, 15 May 2025 14:22:08 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Government]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-us-officials-targeted-in-voice-deepfake-attacks-since-april/</guid>
+	<description><![CDATA[The FBI warned that cybercriminals using AI-generated audio deepfakes to target U.S. officials in voice phishing attacks that started in April. [...]]]></description>
+ </item>
+
  <item>
         <title>Nova Scotia Power confirms hackers stole customer data in cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/nova-scotia-power-confirms-hackers-stole-customer-data-in-cyberattack/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/steel-giant-nucor-corporation-facing-disruptions-after-cyberattack/</guid>
 	<description><![CDATA[A cybersecurity incident on Nucor Corporation's systems forced the company to take offline parts of its networks and implement containment measures. [...]]]></description>
- </item>
-
- <item>
-        <title>Focused Phishing: Attack Targets Victims With Trusted Sites and Live Validation</title>
-        <link>https://www.bleepingcomputer.com/news/security/focused-phishing-attack-targets-victims-with-trusted-sites-and-live-validation/</link>
-        <pubDate>Wed, 14 May 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by Keep Aware</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/focused-phishing-attack-targets-victims-with-trusted-sites-and-live-validation/</guid>
-	<description><![CDATA[New phishing tactics are abusing trusted domains, real CAPTCHAs, and server-side email validation to selectively target victims with customized fake login pages. Keep Aware's latest research breaks down the full attack chain and how these zero-day phish operate. [...]]]></description>
  </item>
 
 </channel>
