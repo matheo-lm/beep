@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 16 May 2025 11:59:37 EDT</pubDate>
+        <pubDate>Fri, 16 May 2025 13:01:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Israel arrests new suspect behind Nomad Bridge $190M crypto hack</title>
+        <link>https://www.bleepingcomputer.com/news/legal/israel-arrests-new-suspect-behind-nomad-bridge-190m-crypto-hack/</link>
+        <pubDate>Fri, 16 May 2025 12:25:50 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Legal]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/legal/israel-arrests-new-suspect-behind-nomad-bridge-190m-crypto-hack/</guid>
+	<description><![CDATA[An American-Israeli national named Osei Morrell has been arrested in Israel for his alleged involvement in exploiting the Nomad bridge smart-contract in August 2022 that allowed hackers to siphon $190 million. [...]]]></description>
+ </item>
+
  <item>
         <title>ChatGPT rolls out Codex, an AI tool for software programming</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-codex-an-ai-tool-for-software-programming/</link>
@@ -208,22 +224,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/windows-11-and-red-hat-linux-virtualbox-hacked-on-first-day-of-pwn2own/</guid>
 	<description><![CDATA[On the first day of Pwn2Own Berlin 2025, security researchers were awarded $260,000 after successfully demonstrating zero-day exploits for Windows 11, Red Hat Linux, Docker Desktop, and Oracle VirtualBox. [...]]]></description>
- </item>
-
- <item>
-        <title>New Tor Oniux tool anonymizes any Linux app's network traffic</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-tor-oniux-tool-anonymizes-any-linux-apps-network-traffic/</link>
-        <pubDate>Thu, 15 May 2025 11:20:06 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-tor-oniux-tool-anonymizes-any-linux-apps-network-traffic/</guid>
-	<description><![CDATA[Tor has announced Oniux, a new command-line tool for routing any Linux application securely through the Tor network for anonymized network connections. [...]]]></description>
  </item>
 
 </channel>
