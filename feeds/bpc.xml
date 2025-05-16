@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 15 May 2025 18:58:37 EDT</pubDate>
+        <pubDate>Thu, 15 May 2025 20:13:53 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Leak confirms OpenAI's ChatGPT will integrate MCP</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openais-chatgpt-will-integrate-mcp/</link>
+        <pubDate>Thu, 15 May 2025 19:53:37 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openais-chatgpt-will-integrate-mcp/</guid>
+	<description><![CDATA[ChatGPT is testing support for Model Context Protocol (MCP), which will allow the AI to connect to third-party services and use them as context. [...]]]></description>
+ </item>
+
+ <item>
+        <title>ChatGPT will soon record, transcribe, and summarize your meetings</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-will-soon-record-transcribe-and-summarize-your-meetings/</link>
+        <pubDate>Thu, 15 May 2025 19:09:40 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-will-soon-record-transcribe-and-summarize-your-meetings/</guid>
+	<description><![CDATA[OpenAI may be planning to challenge Microsoft Teams Copilot integration with a new "Record" feature in ChatGPT. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 10 KB5058379 update triggers BitLocker recovery on some devices</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058379-update-triggering-bitlocker-recovery-after-install/</link>
@@ -180,34 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-scattered-spider-switches-targets-to-us-retail-chains/</guid>
 	<description><![CDATA[Google warned today that hackers using Scattered Spider tactics against retail chains in the United Kingdom have also started targeting retailers in the United States. [...]]]></description>
- </item>
-
- <item>
-        <title>Ransomware gangs join ongoing SAP NetWeaver attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/ransomware-gangs-join-ongoing-sap-netweaver-attacks/</link>
-        <pubDate>Wed, 14 May 2025 13:39:41 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ransomware-gangs-join-ongoing-sap-netweaver-attacks/</guid>
-	<description><![CDATA[Ransomware gangs have joined ongoing SAP NetWeaver attacks, exploiting a maximum-severity vulnerability that allows threat actors to gain remote code execution on vulnerable servers. [...]]]></description>
- </item>
-
- <item>
-        <title>Australian Human Rights Commission leaks docs to search engines</title>
-        <link>https://www.bleepingcomputer.com/news/security/australian-human-rights-commission-leaks-docs-to-search-engines/</link>
-        <pubDate>Wed, 14 May 2025 12:28:31 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/australian-human-rights-commission-leaks-docs-to-search-engines/</guid>
-	<description><![CDATA[The Australian Human Rights Commission (AHRC) disclosed a data breach incident where private documents leaked online and were indexed by major search engines. [...]]]></description>
  </item>
 
 </channel>
