@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 16 May 2025 14:02:00 EDT</pubDate>
+        <pubDate>Fri, 16 May 2025 15:00:14 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft confirms May Windows 10 updates trigger BitLocker recovery</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-may-windows-10-updates-trigger-bitlocker-recovery/</link>
+        <pubDate>Fri, 16 May 2025 14:36:04 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-may-windows-10-updates-trigger-bitlocker-recovery/</guid>
+	<description><![CDATA[​Microsoft has confirmed that some Windows 10 and Windows 10 Enterprise LTSC 2021 systems will boot into BitLocker recovery after installing the May 2025 security updates. [...]]]></description>
+ </item>
+
  <item>
         <title>Israel arrests new suspect behind Nomad Bridge $190M crypto hack</title>
         <link>https://www.bleepingcomputer.com/news/legal/israel-arrests-new-suspect-behind-nomad-bridge-190m-crypto-hack/</link>
@@ -210,20 +224,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/nova-scotia-power-confirms-hackers-stole-customer-data-in-cyberattack/</guid>
 	<description><![CDATA[Nova Scotia Power confirms it suffered a data breach after threat actors stole sensitive customer data in a cybersecurity incident discovered last month. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 and Red Hat Linux hacked on first day of Pwn2Own</title>
-        <link>https://www.bleepingcomputer.com/news/security/windows-11-and-red-hat-linux-virtualbox-hacked-on-first-day-of-pwn2own/</link>
-        <pubDate>Thu, 15 May 2025 11:48:44 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/windows-11-and-red-hat-linux-virtualbox-hacked-on-first-day-of-pwn2own/</guid>
-	<description><![CDATA[On the first day of Pwn2Own Berlin 2025, security researchers were awarded $260,000 after successfully demonstrating zero-day exploits for Windows 11, Red Hat Linux, Docker Desktop, and Oracle VirtualBox. [...]]]></description>
  </item>
 
 </channel>
