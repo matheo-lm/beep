@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 16 May 2025 09:58:29 EDT</pubDate>
+        <pubDate>Fri, 16 May 2025 11:02:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Printer maker Procolored offered malware-laced drivers for months</title>
+        <link>https://www.bleepingcomputer.com/news/security/printer-maker-procolored-offered-malware-laced-drivers-for-months/</link>
+        <pubDate>Fri, 16 May 2025 10:56:51 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/printer-maker-procolored-offered-malware-laced-drivers-for-months/</guid>
+	<description><![CDATA[For at least half a year, the official software supplied with Procolored printers included malware in the form of a remote access trojan and a cryptocurrency stealer. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Ransomware gangs increasingly use Skitnet post-exploitation malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/ransomware-gangs-increasingly-use-skitnet-post-exploitation-malware/</link>
+        <pubDate>Fri, 16 May 2025 10:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ransomware-gangs-increasingly-use-skitnet-post-exploitation-malware/</guid>
+	<description><![CDATA[Ransomware gang members increasingly use a new malware called Skitnet ("Bossnet") to perform stealthy post-exploitation activities on breached networks. [...]]]></description>
+ </item>
+
  <item>
         <title>US charges 12 more suspects linked to $230 million crypto theft</title>
         <link>https://www.bleepingcomputer.com/news/security/us-charges-12-more-suspects-linked-to-230-million-crypto-theft/</link>
@@ -196,38 +224,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/coinbase-discloses-breach-faces-up-to-400-million-in-losses/</guid>
 	<description><![CDATA[Coinbase, a cryptocurrency exchange with over 100 million customers, has disclosed that cybercriminals working with rogue support agents stole customer data and demanded a $20 million ransom not to publish the stolen information. [...]]]></description>
- </item>
-
- <item>
-        <title>Google fixes high severity Chrome flaw with public exploit</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-fixes-high-severity-chrome-flaw-with-public-exploit/</link>
-        <pubDate>Thu, 15 May 2025 04:25:44 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-fixes-high-severity-chrome-flaw-with-public-exploit/</guid>
-	<description><![CDATA[Google has released emergency security updates to patch a high-severity Chrome vulnerability that has a public exploit and can let attackers hijack accounts. [...]]]></description>
- </item>
-
- <item>
-        <title>Google Chrome to block admin-level browser launches for better security</title>
-        <link>https://www.bleepingcomputer.com/news/google/google-chrome-to-block-admin-level-browser-launches-for-better-security/</link>
-        <pubDate>Wed, 14 May 2025 16:25:39 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/google/google-chrome-to-block-admin-level-browser-launches-for-better-security/</guid>
-	<description><![CDATA[Google is rolling out a change to Chromium that "de-elevates" Google Chrome so it does not run as an administrator to increase security in Windows. [...]]]></description>
  </item>
 
 </channel>
