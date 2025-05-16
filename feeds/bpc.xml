@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 16 May 2025 11:02:59 EDT</pubDate>
+        <pubDate>Fri, 16 May 2025 11:59:37 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ChatGPT rolls out Codex, an AI tool for software programming</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-codex-an-ai-tool-for-software-programming/</link>
+        <pubDate>Fri, 16 May 2025 11:49:22 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-codex-an-ai-tool-for-software-programming/</guid>
+	<description><![CDATA[OpenAI is rolling out 'Codex' for ChatGPT, which is an AI agent that automates and delegates programming tasks for software engineers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hackers exploit VMware ESXi, Microsoft SharePoint zero-days at Pwn2Own</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-vmware-esxi-microsoft-sharepoint-zero-days-at-pwn2own/</link>
+        <pubDate>Fri, 16 May 2025 11:23:22 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-vmware-esxi-microsoft-sharepoint-zero-days-at-pwn2own/</guid>
+	<description><![CDATA[During the second day of Pwn2Own Berlin 2025, competitors earned $435,000 after exploiting zero-day bugs in multiple products, including Microsoft SharePoint, VMware ESXi, Oracle VirtualBox, Red Hat Enterprise Linux, and Mozilla Firefox. [...]]]></description>
+ </item>
+
  <item>
         <title>Printer maker Procolored offered malware-laced drivers for months</title>
         <link>https://www.bleepingcomputer.com/news/security/printer-maker-procolored-offered-malware-laced-drivers-for-months/</link>
@@ -194,36 +224,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-tor-oniux-tool-anonymizes-any-linux-apps-network-traffic/</guid>
 	<description><![CDATA[Tor has announced Oniux, a new command-line tool for routing any Linux application securely through the Tor network for anonymized network connections. [...]]]></description>
- </item>
-
- <item>
-        <title>Malicious NPM package uses Unicode steganography to evade detection</title>
-        <link>https://www.bleepingcomputer.com/news/security/malicious-npm-package-uses-unicode-steganography-to-evade-detection/</link>
-        <pubDate>Thu, 15 May 2025 09:31:47 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/malicious-npm-package-uses-unicode-steganography-to-evade-detection/</guid>
-	<description><![CDATA[A malicious package in the Node Package Manager index uses invisible Unicode characters to hide malicious code and Google Calendar links to host the URL for the command-and-control location. [...]]]></description>
- </item>
-
- <item>
-        <title>Coinbase data breach exposes customer info and government IDs</title>
-        <link>https://www.bleepingcomputer.com/news/security/coinbase-discloses-breach-faces-up-to-400-million-in-losses/</link>
-        <pubDate>Thu, 15 May 2025 09:28:17 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/coinbase-discloses-breach-faces-up-to-400-million-in-losses/</guid>
-	<description><![CDATA[Coinbase, a cryptocurrency exchange with over 100 million customers, has disclosed that cybercriminals working with rogue support agents stole customer data and demanded a $20 million ransom not to publish the stolen information. [...]]]></description>
  </item>
 
 </channel>
