@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 17 May 2025 11:02:56 EDT</pubDate>
+        <pubDate>Sat, 17 May 2025 12:03:17 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New 'Defendnot' tool tricks Windows into disabling Microsoft Defender</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/new-defendnot-tool-tricks-windows-into-disabling-microsoft-defender/</link>
+        <pubDate>Sat, 17 May 2025 10:09:19 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/new-defendnot-tool-tricks-windows-into-disabling-microsoft-defender/</guid>
+	<description><![CDATA[A new tool called 'Defendnot' can disable Microsoft Defender on Windows devices by registering a fake antivirus product, even when no real AV is installed. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft confirms May Windows 10 updates trigger BitLocker recovery</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-may-windows-10-updates-trigger-bitlocker-recovery/</link>
@@ -194,22 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/government-webmail-hacked-via-xss-bugs-in-global-spy-campaign/</guid>
 	<description><![CDATA[Hackers are running a worldwide cyberespionage campaign dubbed 'RoundPress,' leveraging zero-day and n-day flaws in webmail servers to steal email from high-value government organizations. [...]]]></description>
- </item>
-
- <item>
-        <title>FBI: US officials targeted in voice deepfake attacks since April</title>
-        <link>https://www.bleepingcomputer.com/news/security/fbi-us-officials-targeted-in-voice-deepfake-attacks-since-april/</link>
-        <pubDate>Thu, 15 May 2025 14:22:08 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Government]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fbi-us-officials-targeted-in-voice-deepfake-attacks-since-april/</guid>
-	<description><![CDATA[The FBI warned that cybercriminals using AI-generated audio deepfakes to target U.S. officials in voice phishing attacks that started in April. [...]]]></description>
  </item>
 
 </channel>
