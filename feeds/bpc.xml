@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 19 May 2025 12:59:10 EDT</pubDate>
+        <pubDate>Mon, 19 May 2025 14:04:17 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 10 emergency updates fix BitLocker recovery issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-emergency-updates-fix-bitlocker-recovery-issues/</link>
+        <pubDate>Mon, 19 May 2025 13:59:51 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-emergency-updates-fix-bitlocker-recovery-issues/</guid>
+	<description><![CDATA[Microsoft has released out-of-band updates to fix a known issue causing Windows 10 systems to boot into BitLocker recovery after installing the May 2025 security updates. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Arla Foods confirms cyberattack disrupts production, causes delays</title>
+        <link>https://www.bleepingcomputer.com/news/security/arla-foods-confirms-cyberattack-disrupts-production-causes-delays/</link>
+        <pubDate>Mon, 19 May 2025 13:53:27 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/arla-foods-confirms-cyberattack-disrupts-production-causes-delays/</guid>
+	<description><![CDATA[Arla Foods has confirmed to BleepingComputer that it was targeted by a cyberattack that has disrupted its production operations. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft unveils Windows AI Foundry for AI-powered PC apps</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-unveils-windows-ai-foundry-for-ai-powered-pc-apps/</link>
@@ -168,34 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-codex-an-ai-tool-for-software-programming/</guid>
 	<description><![CDATA[OpenAI is rolling out 'Codex' for ChatGPT, which is an AI agent that automates and delegates programming tasks for software engineers. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers exploit VMware ESXi, Microsoft SharePoint zero-days at Pwn2Own</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-vmware-esxi-microsoft-sharepoint-zero-days-at-pwn2own/</link>
-        <pubDate>Fri, 16 May 2025 11:23:22 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-vmware-esxi-microsoft-sharepoint-zero-days-at-pwn2own/</guid>
-	<description><![CDATA[During the second day of Pwn2Own Berlin 2025, competitors earned $435,000 after exploiting zero-day bugs in multiple products, including Microsoft SharePoint, VMware ESXi, Oracle VirtualBox, Red Hat Enterprise Linux, and Mozilla Firefox. [...]]]></description>
- </item>
-
- <item>
-        <title>Printer maker Procolored offered malware-laced drivers for months</title>
-        <link>https://www.bleepingcomputer.com/news/security/printer-maker-procolored-offered-malware-laced-drivers-for-months/</link>
-        <pubDate>Fri, 16 May 2025 10:56:51 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/printer-maker-procolored-offered-malware-laced-drivers-for-months/</guid>
-	<description><![CDATA[For at least half a year, the official software supplied with Procolored printers included malware in the form of a remote access trojan and a cryptocurrency stealer. [...]]]></description>
  </item>
 
 </channel>
