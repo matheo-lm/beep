@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 19 May 2025 18:02:51 EDT</pubDate>
+        <pubDate>Mon, 19 May 2025 19:02:22 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>OpenAI plans to combine multiple models into GPT-5</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-plans-to-combine-multiple-models-into-gpt-5/</link>
+        <pubDate>Mon, 19 May 2025 18:11:51 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-plans-to-combine-multiple-models-into-gpt-5/</guid>
+	<description><![CDATA[OpenAI is planning to combine multiple products (features or models) into its next foundational model, which is called GPT-5. [...]]]></description>
+ </item>
+
  <item>
         <title>Fake KeePass password manager leads to ESXi ransomware attack</title>
         <link>https://www.bleepingcomputer.com/news/security/fake-keepass-password-manager-leads-to-esxi-ransomware-attack/</link>
@@ -178,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/new-defendnot-tool-tricks-windows-into-disabling-microsoft-defender/</guid>
 	<description><![CDATA[A new tool called 'Defendnot' can disable Microsoft Defender on Windows devices by registering a fake antivirus product, even when no real AV is installed. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft confirms May Windows 10 updates trigger BitLocker recovery</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-may-windows-10-updates-trigger-bitlocker-recovery/</link>
-        <pubDate>Fri, 16 May 2025 14:36:04 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-may-windows-10-updates-trigger-bitlocker-recovery/</guid>
-	<description><![CDATA[​Microsoft has confirmed that some Windows 10 and Windows 10 Enterprise LTSC 2021 systems will boot into BitLocker recovery after installing the May 2025 security updates. [...]]]></description>
  </item>
 
 </channel>
