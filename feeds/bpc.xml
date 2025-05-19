@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 19 May 2025 10:01:25 EDT</pubDate>
+        <pubDate>Mon, 19 May 2025 11:01:14 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Mozilla fixes Firefox zero-days exploited at hacking contest</title>
+        <link>https://www.bleepingcomputer.com/news/security/mozilla-fixes-firefox-zero-days-exploited-at-hacking-contest/</link>
+        <pubDate>Mon, 19 May 2025 10:10:56 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/mozilla-fixes-firefox-zero-days-exploited-at-hacking-contest/</guid>
+	<description><![CDATA[Mozilla released emergency security updates to address two Firefox zero-day vulnerabilities demonstrated in the recent Pwn2Own Berlin 2025 hacking competition. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hackers earn $1,078,750 for 28 zero-days at Pwn2Own Berlin</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-earn-1-078-750-for-28-zero-days-at-pwn2own-berlin/</link>
+        <pubDate>Mon, 19 May 2025 10:03:43 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-earn-1-078-750-for-28-zero-days-at-pwn2own-berlin/</guid>
+	<description><![CDATA[The Pwn2Own Berlin 2025 hacking competition has concluded, with security researchers earning $1,078,750 after exploiting 29 zero-day vulnerabilities and encountering some bug collisions. [...]]]></description>
+ </item>
+
  <item>
         <title>New 'Defendnot' tool tricks Windows into disabling Microsoft Defender</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/new-defendnot-tool-tricks-windows-into-disabling-microsoft-defender/</link>
@@ -148,68 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-tags-recently-patched-chrome-bug-as-actively-exploited-zero-day/</guid>
 	<description><![CDATA[On Thursday, CISA warned U.S. federal agencies to secure their systems against ongoing attacks exploiting a high-severity vulnerability in the Chrome web browser. [...]]]></description>
- </item>
-
- <item>
-        <title>Leak confirms OpenAI's ChatGPT will integrate MCP</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openais-chatgpt-will-integrate-mcp/</link>
-        <pubDate>Thu, 15 May 2025 19:53:37 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openais-chatgpt-will-integrate-mcp/</guid>
-	<description><![CDATA[ChatGPT is testing support for Model Context Protocol (MCP), which will allow the AI to connect to third-party services and use them as context. [...]]]></description>
- </item>
-
- <item>
-        <title>ChatGPT will soon record, transcribe, and summarize your meetings</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-will-soon-record-transcribe-and-summarize-your-meetings/</link>
-        <pubDate>Thu, 15 May 2025 19:09:40 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-will-soon-record-transcribe-and-summarize-your-meetings/</guid>
-	<description><![CDATA[OpenAI may be planning to challenge Microsoft Teams Copilot integration with a new "Record" feature in ChatGPT. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 10 KB5058379 update triggers BitLocker recovery on some devices</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058379-update-triggering-bitlocker-recovery-after-install/</link>
-        <pubDate>Thu, 15 May 2025 17:38:27 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058379-update-triggering-bitlocker-recovery-after-install/</guid>
-	<description><![CDATA[The Windows 10 KB5058379 cumulative update is triggering unexpected BitLocker recovery prompts on some devices afters it's installed and the computer restarted. [...]]]></description>
- </item>
-
- <item>
-        <title>Government webmail hacked via XSS bugs in global spy campaign</title>
-        <link>https://www.bleepingcomputer.com/news/security/government-webmail-hacked-via-xss-bugs-in-global-spy-campaign/</link>
-        <pubDate>Thu, 15 May 2025 15:14:39 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Government]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/government-webmail-hacked-via-xss-bugs-in-global-spy-campaign/</guid>
-	<description><![CDATA[Hackers are running a worldwide cyberespionage campaign dubbed 'RoundPress,' leveraging zero-day and n-day flaws in webmail servers to steal email from high-value government organizations. [...]]]></description>
  </item>
 
 </channel>
