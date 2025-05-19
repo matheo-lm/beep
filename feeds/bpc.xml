@@ -11,11 +11,57 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 19 May 2025 12:01:42 EDT</pubDate>
+        <pubDate>Mon, 19 May 2025 12:59:10 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft unveils Windows AI Foundry for AI-powered PC apps</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-unveils-windows-ai-foundry-for-ai-powered-pc-apps/</link>
+        <pubDate>Mon, 19 May 2025 12:18:26 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-unveils-windows-ai-foundry-for-ai-powered-pc-apps/</guid>
+	<description><![CDATA[Microsoft is replacing 'Copilot Runtime' with Windows AI Foundry to help developers build, experiment, and reach users with AI experiences in their apps. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft confirms new "Advanced" Settings for Windows 11</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-new-advanced-settings-for-windows-11/</link>
+        <pubDate>Mon, 19 May 2025 12:06:46 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-new-advanced-settings-for-windows-11/</guid>
+	<description><![CDATA[At the Build 2025 developer conference, Microsoft announced a new 'Advanced Settings' feature to help users and developers personalize the OS experience. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft open-sources Windows Subsystem for Linux at Build 2025</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-open-sources-windows-subsystem-for-linux-at-build-2025/</link>
+        <pubDate>Mon, 19 May 2025 12:00:00 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-open-sources-windows-subsystem-for-linux-at-build-2025/</guid>
+	<description><![CDATA[Microsoft has open-sourced the Windows Subsystem for Linux (WSL), making its source code available on GitHub, except for a few components that are part of Windows. [...]]]></description>
+ </item>
+
  <item>
         <title>UK Legal Aid Agency confirms applicant data stolen in data breach</title>
         <link>https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-confirms-applicant-data-stolen-in-data-breach/</link>
@@ -150,36 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/printer-maker-procolored-offered-malware-laced-drivers-for-months/</guid>
 	<description><![CDATA[For at least half a year, the official software supplied with Procolored printers included malware in the form of a remote access trojan and a cryptocurrency stealer. [...]]]></description>
- </item>
-
- <item>
-        <title>Ransomware gangs increasingly use Skitnet post-exploitation malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/ransomware-gangs-increasingly-use-skitnet-post-exploitation-malware/</link>
-        <pubDate>Fri, 16 May 2025 10:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ransomware-gangs-increasingly-use-skitnet-post-exploitation-malware/</guid>
-	<description><![CDATA[Ransomware gang members increasingly use a new malware called Skitnet ("Bossnet") to perform stealthy post-exploitation activities on breached networks. [...]]]></description>
- </item>
-
- <item>
-        <title>US charges 12 more suspects linked to $230 million crypto theft</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-charges-12-more-suspects-linked-to-230-million-crypto-theft/</link>
-        <pubDate>Fri, 16 May 2025 05:06:41 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-charges-12-more-suspects-linked-to-230-million-crypto-theft/</guid>
-	<description><![CDATA[Twelve more suspects were charged in a RICO conspiracy for their alleged involvement in the theft of over $230 million in cryptocurrency and laundering the funds using crypto exchanges and mixing services. [...]]]></description>
  </item>
 
 </channel>
