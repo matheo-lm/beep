@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 19 May 2025 14:59:33 EDT</pubDate>
+        <pubDate>Mon, 19 May 2025 16:00:22 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>O2 UK patches bug leaking mobile user location from call metadata</title>
+        <link>https://www.bleepingcomputer.com/news/security/o2-uk-patches-bug-leaking-mobile-user-location-from-call-metadata/</link>
+        <pubDate>Mon, 19 May 2025 15:20:04 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/o2-uk-patches-bug-leaking-mobile-user-location-from-call-metadata/</guid>
+	<description><![CDATA[A flaw in O2 UK's implementation of VoLTE and WiFi Calling technologies could allow anyone to expose the general location of a person and other identifiers by calling the target. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 10 emergency updates fix BitLocker recovery issues</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-emergency-updates-fix-bitlocker-recovery-issues/</link>
@@ -180,22 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/legal/israel-arrests-new-suspect-behind-nomad-bridge-190m-crypto-hack/</guid>
 	<description><![CDATA[An American-Israeli national namedAlexander Gurevich has been arrested in Israel for his alleged involvement in exploiting the Nomad bridge smart-contract in August 2022 that allowed hackers to siphon $190 million. [...]]]></description>
- </item>
-
- <item>
-        <title>ChatGPT rolls out Codex, an AI tool for software programming</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-codex-an-ai-tool-for-software-programming/</link>
-        <pubDate>Fri, 16 May 2025 11:49:22 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-codex-an-ai-tool-for-software-programming/</guid>
-	<description><![CDATA[OpenAI is rolling out 'Codex' for ChatGPT, which is an AI agent that automates and delegates programming tasks for software engineers. [...]]]></description>
  </item>
 
 </channel>
