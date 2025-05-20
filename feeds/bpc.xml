@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 20 May 2025 13:02:28 EDT</pubDate>
+        <pubDate>Tue, 20 May 2025 14:03:03 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>SK Telecom says malware breach lasted 3 years, impacted 27 million numbers</title>
+        <link>https://www.bleepingcomputer.com/news/security/sk-telecom-says-malware-breach-lasted-3-years-impacted-27-million-numbers/</link>
+        <pubDate>Tue, 20 May 2025 13:07:40 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sk-telecom-says-malware-breach-lasted-3-years-impacted-27-million-numbers/</guid>
+	<description><![CDATA[SK Telecom says that a recently disclosed cybersecurity incident in April, first occurred all the way back in 2022, ultimately exposing the USIM data of 27 million subscribers. [...]]]></description>
+ </item>
+
  <item>
         <title>Hazy Hawk gang exploits DNS misconfigs to hijack trusted domains</title>
         <link>https://www.bleepingcomputer.com/news/security/hazy-hawk-gang-exploits-dns-misconfigs-to-hijack-trusted-domains/</link>
@@ -206,20 +220,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/mozilla-fixes-firefox-zero-days-exploited-at-hacking-contest/</guid>
 	<description><![CDATA[Mozilla released emergency security updates to address two Firefox zero-day vulnerabilities demonstrated in the recent Pwn2Own Berlin 2025 hacking competition. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers earn $1,078,750 for 28 zero-days at Pwn2Own Berlin</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-earn-1-078-750-for-28-zero-days-at-pwn2own-berlin/</link>
-        <pubDate>Mon, 19 May 2025 10:03:43 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-earn-1-078-750-for-28-zero-days-at-pwn2own-berlin/</guid>
-	<description><![CDATA[The Pwn2Own Berlin 2025 hacking competition has concluded, with security researchers earning $1,078,750 after exploiting 29 zero-day vulnerabilities and encountering some bug collisions. [...]]]></description>
  </item>
 
 </channel>
