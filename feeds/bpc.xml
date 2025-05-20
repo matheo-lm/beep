@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 20 May 2025 14:59:56 EDT</pubDate>
+        <pubDate>Tue, 20 May 2025 16:01:26 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Premium WordPress 'Motors' theme vulnerable to admin takeover attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/premium-wordpress-motors-theme-vulnerable-to-admin-takeover-attacks/</link>
+        <pubDate>Tue, 20 May 2025 15:46:18 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/premium-wordpress-motors-theme-vulnerable-to-admin-takeover-attacks/</guid>
+	<description><![CDATA[A critical privilege escalation vulnerability has been discovered in the premium WordPress theme Motors, which allows unauthenticated attackers to hijack administrator accounts and take complete control of websites. [...]]]></description>
+ </item>
+
+ <item>
+        <title>VanHelsing ransomware builder leaked on hacking forum</title>
+        <link>https://www.bleepingcomputer.com/news/security/vanhelsing-ransomware-builder-leaked-on-hacking-forum/</link>
+        <pubDate>Tue, 20 May 2025 15:06:25 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/vanhelsing-ransomware-builder-leaked-on-hacking-forum/</guid>
+	<description><![CDATA[The VanHelsing ransomware-as-a-service operation published the source code for its affiliate panel, data leak blog, and Windows encryptor builder after an old developer tried to sell it on the RAMP cybercrime forum. [...]]]></description>
+ </item>
+
  <item>
         <title>SK Telecom says malware breach lasted 3 years, impacted 27 million numbers</title>
         <link>https://www.bleepingcomputer.com/news/security/sk-telecom-says-malware-breach-lasted-3-years-impacted-27-million-numbers/</link>
@@ -188,38 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-open-sources-windows-subsystem-for-linux-at-build-2025/</guid>
 	<description><![CDATA[Microsoft has open-sourced the Windows Subsystem for Linux (WSL), making its source code available on GitHub, except for a few components that are part of Windows. [...]]]></description>
- </item>
-
- <item>
-        <title>UK Legal Aid Agency confirms applicant data stolen in data breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-confirms-applicant-data-stolen-in-data-breach/</link>
-        <pubDate>Mon, 19 May 2025 11:10:44 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Government]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-confirms-applicant-data-stolen-in-data-breach/</guid>
-	<description><![CDATA[The United Kingdom's Legal Aid Agency (LAA) has confirmed that a recent cyberattack is more serious than first believed, with hackers stealing a large trove of sensitive applicant data in a data breach. [...]]]></description>
- </item>
-
- <item>
-        <title>Mozilla fixes Firefox zero-days exploited at hacking contest</title>
-        <link>https://www.bleepingcomputer.com/news/security/mozilla-fixes-firefox-zero-days-exploited-at-hacking-contest/</link>
-        <pubDate>Mon, 19 May 2025 10:10:56 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/mozilla-fixes-firefox-zero-days-exploited-at-hacking-contest/</guid>
-	<description><![CDATA[Mozilla released emergency security updates to address two Firefox zero-day vulnerabilities demonstrated in the recent Pwn2Own Berlin 2025 hacking competition. [...]]]></description>
  </item>
 
 </channel>
