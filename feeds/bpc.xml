@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 20 May 2025 10:00:00 EDT</pubDate>
+        <pubDate>Tue, 20 May 2025 11:00:17 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>RVTools hit in supply chain attack to deliver Bumblebee malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/rvtools-hit-in-supply-chain-attack-to-deliver-bumblebee-malware/</link>
+        <pubDate>Tue, 20 May 2025 10:39:17 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/rvtools-hit-in-supply-chain-attack-to-deliver-bumblebee-malware/</guid>
+	<description><![CDATA[The official website for the RVTools VMware management tool was taken offline in what appears to be a supply chain attack that distributed a trojanized installer to drop the Bumblebee malware loader on users' machines. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Service desks are under attack: What can you do about it?</title>
+        <link>https://www.bleepingcomputer.com/news/security/service-desks-are-under-attack-what-can-you-do-about-it/</link>
+        <pubDate>Tue, 20 May 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Specops Software</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/service-desks-are-under-attack-what-can-you-do-about-it/</guid>
+	<description><![CDATA[Service desks are on the front lines of defense—and attackers know it. Attackers are using social engineering attacks to trick agents into changing passwords, disabling MFA, and granting access. Learn more from Specops Software on how to secure your service desk. [...]]]></description>
+ </item>
+
  <item>
         <title>OpenAI plans to combine multiple models into GPT-5</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-plans-to-combine-multiple-models-into-gpt-5/</link>
@@ -178,22 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-earn-1-078-750-for-28-zero-days-at-pwn2own-berlin/</guid>
 	<description><![CDATA[The Pwn2Own Berlin 2025 hacking competition has concluded, with security researchers earning $1,078,750 after exploiting 29 zero-day vulnerabilities and encountering some bug collisions. [...]]]></description>
- </item>
-
- <item>
-        <title>New 'Defendnot' tool tricks Windows into disabling Microsoft Defender</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/new-defendnot-tool-tricks-windows-into-disabling-microsoft-defender/</link>
-        <pubDate>Sat, 17 May 2025 10:09:19 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/new-defendnot-tool-tricks-windows-into-disabling-microsoft-defender/</guid>
-	<description><![CDATA[A new tool called 'Defendnot' can disable Microsoft Defender on Windows devices by registering a fake antivirus product, even when no real AV is installed. [...]]]></description>
  </item>
 
 </channel>
