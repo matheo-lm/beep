@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 20 May 2025 16:01:26 EDT</pubDate>
+        <pubDate>Tue, 20 May 2025 17:03:03 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Mobile carrier Cellcom confirms cyberattack behind extended outages</title>
+        <link>https://www.bleepingcomputer.com/news/security/mobile-carrier-cellcom-confirms-cyberattack-behind-extended-outages/</link>
+        <pubDate>Tue, 20 May 2025 16:19:34 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/mobile-carrier-cellcom-confirms-cyberattack-behind-extended-outages/</guid>
+	<description><![CDATA[Wisconsin wireless provider Cellcom has confirmed that a cyberattack is responsible for the widespread service outage and disruptions that began on the evening of May 14, 2025. [...]]]></description>
+ </item>
+
  <item>
         <title>Premium WordPress 'Motors' theme vulnerable to admin takeover attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/premium-wordpress-motors-theme-vulnerable-to-admin-takeover-attacks/</link>
@@ -202,20 +218,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-new-advanced-settings-for-windows-11/</guid>
 	<description><![CDATA[At the Build 2025 developer conference, Microsoft announced a new 'Advanced Settings' feature to help users and developers personalize the OS experience. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft open-sources Windows Subsystem for Linux at Build 2025</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-open-sources-windows-subsystem-for-linux-at-build-2025/</link>
-        <pubDate>Mon, 19 May 2025 12:00:00 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-open-sources-windows-subsystem-for-linux-at-build-2025/</guid>
-	<description><![CDATA[Microsoft has open-sourced the Windows Subsystem for Linux (WSL), making its source code available on GitHub, except for a few components that are part of Windows. [...]]]></description>
  </item>
 
 </channel>
