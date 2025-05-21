@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 20 May 2025 21:30:30 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 20 May 2025 23:30:12 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -40,7 +40,6 @@
 		<category><![CDATA[DDoS]]></category>
 		<category><![CDATA[fbi]]></category>
 		<category><![CDATA[Forky]]></category>
-		<category><![CDATA[Jigsaw]]></category>
 		<category><![CDATA[Kaike Southier Leite]]></category>
 		<category><![CDATA[mirai]]></category>
 		<category><![CDATA[Project Shield]]></category>
@@ -54,7 +53,7 @@
 										<content:encoded><![CDATA[<p>KrebsOnSecurity last week was hit by a near record distributed denial-of-service (DDoS) attack that clocked in at more than 6.3 terabits of data per second (a terabit is one trillion bits of data). The brief attack appears to have been a test run for a massive new Internet of Things (IoT) botnet capable of launching crippling digital assaults that few web destinations can withstand. Read on for more about the botnet, the attack, and the apparent creator of this global menace.</p>
 <p><img decoding="async" class="aligncenter size-full wp-image-71312" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/ddosbomb.png" alt="" width="661" height="542" /></p>
 <p>For reference, the 6.3 Tbps attack last week was ten times the size of the assault launched against this site in 2016 by the <strong>Mirai</strong> IoT botnet, which <a href="https://krebsonsecurity.com/2016/09/the-democratization-of-censorship/" target="_blank" rel="noopener">held KrebsOnSecurity offline for nearly four days</a>. The 2016 assault was so large that <strong>Akamai</strong> &#8211; which was providing pro-bono DDoS protection for KrebsOnSecurity at the time &#8212; asked me to leave their service because the attack was causing problems for their paying customers.</p>
-<p>Since the Mirai attack, KrebsOnSecurity.com has been behind the protection of <strong>Project Shield</strong>, a free DDoS defense service that <strong>Google </strong>subsidiary <strong>Jigsaw</strong> provides to websites offering news, human rights, and election-related content. Google Security Engineer <strong>Damian Menscher</strong> told KrebsOnSecurity the May 12 attack was the largest Google has ever handled. In terms of sheer size, it is second only to a very similar attack that <strong>Cloudflare</strong> mitigated and <a href="https://blog.cloudflare.com/ddos-threat-report-for-2025-q1/#hyper-volumetric-attacks-continue-spill-into-q2" target="_blank" rel="noopener">wrote about in April</a>.</p>
+<p>Since the Mirai attack, KrebsOnSecurity.com has been behind the protection of <strong>Project Shield</strong>, a free DDoS defense service that <strong>Google</strong> provides to websites offering news, human rights, and election-related content. Google Security Engineer <strong>Damian Menscher</strong> told KrebsOnSecurity the May 12 attack was the largest Google has ever handled. In terms of sheer size, it is second only to a very similar attack that <strong>Cloudflare</strong> mitigated and <a href="https://blog.cloudflare.com/ddos-threat-report-for-2025-q1/#hyper-volumetric-attacks-continue-spill-into-q2" target="_blank" rel="noopener">wrote about in April</a>.</p>
 <p>After comparing notes with Cloudflare, Menscher said the botnet that launched both attacks bear the fingerprints of <strong>Aisuru</strong>, a digital siege machine that first surfaced less than a year ago. Menscher said the attack on KrebsOnSecurity lasted less than a minute, hurling <a href="https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/udp-reflection-attacks.html" target="_blank" rel="noopener">large UDP data packets</a> at random ports <em>at a rate of approximately 585 million data packets per second</em>.</p>
 <p>&#8220;It was the type of attack normally designed to overwhelm network links,&#8221; Menscher said, referring to the throughput connections between and among various Internet service providers (ISPs). &#8220;For most companies, this size of attack would kill them.&#8221;</p>
 <div id="attachment_71311" style="width: 759px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/05/cf-6.5ddos.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-71311" decoding="async" loading="lazy" class="wp-image-71311" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/cf-6.5ddos.png" alt="" width="749" height="340" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/cf-6.5ddos.png 906w, https://krebsonsecurity.com/wp-content/uploads/2025/05/cf-6.5ddos-768x348.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/05/cf-6.5ddos-782x355.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></a><p id="caption-attachment-71311" class="wp-caption-text">A graph depicting the 6.5 Tbps attack mitigated by Cloudflare in April 2025. Image: Cloudflare.</p></div>
@@ -96,7 +95,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/05/krebsonsecurity-hit-with-near-record-6-3-tbps-ddos/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>8</slash:comments>
 		
 		
 			</item>
@@ -707,9 +706,9 @@ February 2023; 391 bitcoin is presently worth more than $26 million.</p>
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 288/288 objects using memcached
+Object Caching 121/460 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-05-20 19:00:16 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-05-20 20:09:51 by W3 Total Cache
 -->
