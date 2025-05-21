@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 21 May 2025 14:01:44 EDT</pubDate>
+        <pubDate>Wed, 21 May 2025 14:59:23 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Russia to enforce location tracking app on all foreigners in Moscow</title>
+        <link>https://www.bleepingcomputer.com/news/government/russia-to-enforce-location-tracking-app-on-all-foreigners-in-moscow/</link>
+        <pubDate>Wed, 21 May 2025 14:24:06 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Government]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/government/russia-to-enforce-location-tracking-app-on-all-foreigners-in-moscow/</guid>
+	<description><![CDATA[The Russian government has introduced a new law that makes installing a tracking app mandatory for all foreign nationals in the Moscow region. [...]]]></description>
+ </item>
+
  <item>
         <title>3AM ransomware uses spoofed IT calls, email bombing to breach networks</title>
         <link>https://www.bleepingcomputer.com/news/security/3am-ransomware-uses-spoofed-it-calls-email-bombing-to-breach-networks/</link>
@@ -188,34 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/vanhelsing-ransomware-builder-leaked-on-hacking-forum/</guid>
 	<description><![CDATA[The VanHelsing ransomware-as-a-service operation published the source code for its affiliate panel, data leak blog, and Windows encryptor builder after an old developer tried to sell it on the RAMP cybercrime forum. [...]]]></description>
- </item>
-
- <item>
-        <title>SK Telecom says malware breach lasted 3 years, impacted 27 million numbers</title>
-        <link>https://www.bleepingcomputer.com/news/security/sk-telecom-says-malware-breach-lasted-3-years-impacted-27-million-numbers/</link>
-        <pubDate>Tue, 20 May 2025 13:07:40 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sk-telecom-says-malware-breach-lasted-3-years-impacted-27-million-numbers/</guid>
-	<description><![CDATA[SK Telecom says that a recently disclosed cybersecurity incident in April, first occurred all the way back in 2022, ultimately exposing the USIM data of 27 million subscribers. [...]]]></description>
- </item>
-
- <item>
-        <title>Hazy Hawk gang exploits DNS misconfigs to hijack trusted domains</title>
-        <link>https://www.bleepingcomputer.com/news/security/hazy-hawk-gang-exploits-dns-misconfigs-to-hijack-trusted-domains/</link>
-        <pubDate>Tue, 20 May 2025 11:57:09 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hazy-hawk-gang-exploits-dns-misconfigs-to-hijack-trusted-domains/</guid>
-	<description><![CDATA[A threat actor named 'Hazy Hawk' has been using DNS CNAME hijacking to hijack abandoned cloud endpoints of domains belonging to trusted organizations and incorporate them in large-scale scam delivery and traffic distribution systems (TDS). [...]]]></description>
  </item>
 
 </channel>
