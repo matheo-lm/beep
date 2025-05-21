@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 21 May 2025 09:59:44 EDT</pubDate>
+        <pubDate>Wed, 21 May 2025 10:59:40 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ThreatLocker Patch Management: A Security-First Approach to Closing Vulnerability Windows</title>
+        <link>https://www.bleepingcomputer.com/news/security/threatlocker-patch-management-a-security-first-approach-to-closing-vulnerability-windows/</link>
+        <pubDate>Wed, 21 May 2025 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by ThreatLocker</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/threatlocker-patch-management-a-security-first-approach-to-closing-vulnerability-windows/</guid>
+	<description><![CDATA[Patching is basic cyber hygiene — but executing it at scale, securely, and fast? That's the real challenge. ThreatLocker's Patch Management flips the script with control, visibility, and Zero Trust workflows built for today's threat landscape. [...]]]></description>
+ </item>
+
  <item>
         <title>European Union sanctions Stark Industries for enabling cyberattacks</title>
         <link>https://www.bleepingcomputer.com/news/security/european-union-sanctions-stark-industries-for-enabling-cyberattacks/</link>
@@ -186,22 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/service-desks-are-under-attack-what-can-you-do-about-it/</guid>
 	<description><![CDATA[Service desks are on the front lines of defense—and attackers know it. Attackers are using social engineering attacks to trick agents into changing passwords, disabling MFA, and granting access. Learn more from Specops Software on how to secure your service desk. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI plans to combine multiple models into GPT-5</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-plans-to-combine-multiple-models-into-gpt-5/</link>
-        <pubDate>Mon, 19 May 2025 18:11:51 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-plans-to-combine-multiple-models-into-gpt-5/</guid>
-	<description><![CDATA[OpenAI is planning to combine multiple products (features or models) into its next foundational model, which is called GPT-5. [...]]]></description>
  </item>
 
 </channel>
