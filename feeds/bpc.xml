@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 21 May 2025 16:59:31 EDT</pubDate>
+        <pubDate>Wed, 21 May 2025 18:02:02 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Russian hackers breach orgs to track aid routes to Ukraine</title>
+        <link>https://www.bleepingcomputer.com/news/security/russian-hackers-breach-orgs-to-track-aid-routes-to-ukraine/</link>
+        <pubDate>Wed, 21 May 2025 17:21:32 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/russian-hackers-breach-orgs-to-track-aid-routes-to-ukraine/</guid>
+	<description><![CDATA[A Russian state-sponsored cyberespionage campaign attributed to APT28 (Fancy Bear/Forest Blizzard) hackers has been targeting and compromising international organizations since 2022 to disrupt aid efforts to Ukraine. [...]]]></description>
+ </item>
+
  <item>
         <title>Russia to enforce location tracking app on all foreigners in Moscow</title>
         <link>https://www.bleepingcomputer.com/news/government/russia-to-enforce-location-tracking-app-on-all-foreigners-in-moscow/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/premium-wordpress-motors-theme-vulnerable-to-admin-takeover-attacks/</guid>
 	<description><![CDATA[A critical privilege escalation vulnerability has been discovered in the premium WordPress theme Motors, which allows unauthenticated attackers to hijack administrator accounts and take complete control of websites. [...]]]></description>
- </item>
-
- <item>
-        <title>VanHelsing ransomware builder leaked on hacking forum</title>
-        <link>https://www.bleepingcomputer.com/news/security/vanhelsing-ransomware-builder-leaked-on-hacking-forum/</link>
-        <pubDate>Tue, 20 May 2025 15:06:25 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/vanhelsing-ransomware-builder-leaked-on-hacking-forum/</guid>
-	<description><![CDATA[The VanHelsing ransomware-as-a-service operation published the source code for its affiliate panel, data leak blog, and Windows encryptor builder after an old developer tried to sell it on the RAMP cybercrime forum. [...]]]></description>
  </item>
 
 </channel>
