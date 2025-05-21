@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 21 May 2025 09:10:33 EDT</pubDate>
+        <pubDate>Wed, 21 May 2025 09:59:44 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>European Union sanctions Stark Industries for enabling cyberattacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/european-union-sanctions-stark-industries-for-enabling-cyberattacks/</link>
+        <pubDate>Wed, 21 May 2025 09:37:18 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/european-union-sanctions-stark-industries-for-enabling-cyberattacks/</guid>
+	<description><![CDATA[The European Union has imposed strict sanctions against web-hosting provider Stark Industries and the two individuals running it, CEO Iurie Neculiti and owner Ivan Neculiti, for enabling "destabilising activities" against the Union. [...]]]></description>
+ </item>
+
  <item>
         <title>Kettering Health hit by system-wide outage after ransomware attack</title>
         <link>https://www.bleepingcomputer.com/news/security/kettering-health-hit-by-system-wide-outage-after-ransomware-attack/</link>
@@ -147,8 +161,8 @@
  </item>
 
  <item>
-        <title>RVTools hit in supply chain attack to deliver Bumblebee malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/rvtools-hit-in-supply-chain-attack-to-deliver-bumblebee-malware/</link>
+        <title>Trojanized RVTools push Bumblebee malware in SEO poisoning campaign</title>
+        <link>https://www.bleepingcomputer.com/news/security/trojanized-rvtools-push-bumblebee-malware-in-seo-poisoning-campaign/</link>
         <pubDate>Tue, 20 May 2025 10:39:17 -0400</pubDate>
         <dc:creator>Bill Toulas</dc:creator>
 
@@ -156,7 +170,7 @@
         <category><![CDATA[Security]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/security/rvtools-hit-in-supply-chain-attack-to-deliver-bumblebee-malware/</guid>
+        <guid>https://www.bleepingcomputer.com/news/security/trojanized-rvtools-push-bumblebee-malware-in-seo-poisoning-campaign/</guid>
 	<description><![CDATA[The official website for the RVTools VMware management tool was taken offline in what appears to be a supply chain attack that distributed a trojanized installer to drop the Bumblebee malware loader on users' machines. [...]]]></description>
  </item>
 
@@ -188,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-plans-to-combine-multiple-models-into-gpt-5/</guid>
 	<description><![CDATA[OpenAI is planning to combine multiple products (features or models) into its next foundational model, which is called GPT-5. [...]]]></description>
- </item>
-
- <item>
-        <title>Fake KeePass password manager leads to ESXi ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/fake-keepass-password-manager-leads-to-esxi-ransomware-attack/</link>
-        <pubDate>Mon, 19 May 2025 17:17:33 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fake-keepass-password-manager-leads-to-esxi-ransomware-attack/</guid>
-	<description><![CDATA[Threat actors have been distributing trojanized versions of the KeePass password manager for at least eight months to install Cobalt Strike beacons, steal credentials, and ultimately, deploy ransomware on the breached network. [...]]]></description>
  </item>
 
 </channel>
