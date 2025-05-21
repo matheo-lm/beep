@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 21 May 2025 13:01:05 EDT</pubDate>
+        <pubDate>Wed, 21 May 2025 14:01:44 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>3AM ransomware uses spoofed IT calls, email bombing to breach networks</title>
+        <link>https://www.bleepingcomputer.com/news/security/3am-ransomware-uses-spoofed-it-calls-email-bombing-to-breach-networks/</link>
+        <pubDate>Wed, 21 May 2025 13:27:21 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/3am-ransomware-uses-spoofed-it-calls-email-bombing-to-breach-networks/</guid>
+	<description><![CDATA[A 3AM ransomware affiliate is conducting highly targeted attacks using email bombing and spoofed IT support calls to socially engineer employees into giving credentials for remote access to corporate systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Lumma infostealer malware operation disrupted, 2,300 domains seized</title>
         <link>https://www.bleepingcomputer.com/news/security/lumma-infostealer-malware-operation-disrupted-2-300-domains-seized/</link>
@@ -202,20 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hazy-hawk-gang-exploits-dns-misconfigs-to-hijack-trusted-domains/</guid>
 	<description><![CDATA[A threat actor named 'Hazy Hawk' has been using DNS CNAME hijacking to hijack abandoned cloud endpoints of domains belonging to trusted organizations and incorporate them in large-scale scam delivery and traffic distribution systems (TDS). [...]]]></description>
- </item>
-
- <item>
-        <title>Trojanized RVTools push Bumblebee malware in SEO poisoning campaign</title>
-        <link>https://www.bleepingcomputer.com/news/security/trojanized-rvtools-push-bumblebee-malware-in-seo-poisoning-campaign/</link>
-        <pubDate>Tue, 20 May 2025 10:39:17 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/trojanized-rvtools-push-bumblebee-malware-in-seo-poisoning-campaign/</guid>
-	<description><![CDATA[The official website for the RVTools VMware management tool was taken offline in what appears to be a supply chain attack that distributed a trojanized installer to drop the Bumblebee malware loader on users' machines. [...]]]></description>
  </item>
 
 </channel>
