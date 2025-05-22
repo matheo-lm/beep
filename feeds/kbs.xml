@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 21 May 2025 01:27:37 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 22 May 2025 21:53:21 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,67 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Oops: DanaBot Malware Devs Infected Their Own PCs</title>
+		<link>https://krebsonsecurity.com/2025/05/oops-danabot-malware-devs-infected-their-own-pcs/</link>
+					<comments>https://krebsonsecurity.com/2025/05/oops-danabot-malware-devs-infected-their-own-pcs/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Thu, 22 May 2025 21:53:21 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[Russia's War on Ukraine]]></category>
+		<category><![CDATA[Aleksandr Stepanov]]></category>
+		<category><![CDATA[Artem Aleksandrovich Kalinkin]]></category>
+		<category><![CDATA[DanaBot]]></category>
+		<category><![CDATA[DCIS]]></category>
+		<category><![CDATA[Defense Criminal Investigative Service]]></category>
+		<category><![CDATA[ESET]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[Flashpoint]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Intel 471]]></category>
+		<category><![CDATA[JimmBee]]></category>
+		<category><![CDATA[Lumen]]></category>
+		<category><![CDATA[Lumma Stealer]]></category>
+		<category><![CDATA[Maffiozi]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Onix]]></category>
+		<category><![CDATA[Paypal]]></category>
+		<category><![CDATA[proofpoint]]></category>
+		<category><![CDATA[team cyrmu]]></category>
+		<category><![CDATA[U.S. Department of Justice]]></category>
+		<category><![CDATA[Zscaler]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71351</guid>
+
+					<description><![CDATA[The U.S. government today unsealed criminal charges against 16 individuals accused of operating and selling DanaBot, a prolific strain of information-stealing malware that has been sold on Russian cybercrime forums since 2018. The FBI says a newer version of DanaBot was used for espionage, and that many of the defendants exposed their real-life identities after accidentally infecting their own systems with the malware.]]></description>
+										<content:encoded><![CDATA[<p>The U.S. government today unsealed criminal charges against 16 individuals accused of operating and selling <strong>DanaBot</strong>, a prolific strain of information-stealing malware that has been sold on Russian cybercrime forums since 2018. The <strong>FBI</strong> says a newer version of DanaBot was used for espionage, and that many of the defendants exposed their real-life identities after accidentally infecting their own systems with the malware.</p>
+<div id="attachment_71354" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71354" decoding="async" class=" wp-image-71354" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot.png" alt="" width="749" height="650" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot.png 817w, https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot-768x666.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot-782x679.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71354" class="wp-caption-text">DanaBot&#8217;s features, as promoted on its support site. Image: welivesecurity.com.</p></div>
+<p>Initially <a href="https://www.proofpoint.com/us/threat-insight/post/danabot-new-banking-trojan-surfaces-down-under-0" target="_blank" rel="noopener">spotted</a> in May 2018 by researchers at the email security firm <strong>Proofpoint</strong>, DanaBot is a malware-as-a-service platform that specializes in credential theft and banking fraud.</p>
+<p>Today, the <strong>U.S. Department of Justice</strong> unsealed a criminal complaint and indictment from 2022, which said the FBI identified at least 40 affiliates who were paying between $3,000 and $4,000 a month for access to the information stealer platform.</p>
+<p>The government says the malware infected more than 300,000 systems globally, causing estimated losses of more than $50 million. The ringleaders of the DanaBot conspiracy are named as <strong>Aleksandr Stepanov</strong>, 39, a.k.a. “<strong>JimmBee</strong>,” and <strong>Artem Aleksandrovich Kalinkin</strong>, 34, a.k.a. “<strong>Onix</strong>”, both of Novosibirsk, Russia. Kalinkin is an IT engineer for the Russian state-owned energy giant <strong>Gazprom</strong>. His Facebook profile name is &#8220;Maffiozi.&#8221;</p>
+<p>According to the FBI, there were at least two major versions of DanaBot; the first was sold between 2018 and June 2020, when the malware stopped being offered on Russian cybercrime forums. The government alleges that the second version of DanaBot &#8212; emerging in January 2021 &#8212; was provided to co-conspirators for use in targeting military, diplomatic and non-governmental organization computers in several countries, including the United States, Belarus, the United Kingdom, Germany, and Russia.</p>
+<p>&#8220;Unindicted co-conspirators would use the Espionage Variant to compromise computers around the world and steal sensitive diplomatic communications, credentials, and other data from these targeted victims,&#8221; reads a grand jury indictment dated Sept. 20, 2022. &#8220;This stolen data included financial transactions by diplomatic staff, correspondence concerning day-to-day diplomatic activity, as well as summaries of a particular country&#8217;s interactions with the United States.&#8221;</p>
+<p>The indictment says the FBI in 2022 seized servers used by the DanaBot authors to control their malware, as well as the servers that stored stolen victim data. The government said the server data also show numerous instances in which the DanaBot defendants infected their own PCs, resulting in their credential data being uploaded to stolen data repositories that were seized by the feds.</p>
+<p>&#8220;In some cases, such self-infections appeared to be deliberately done in order to test, analyze, or improve the malware,&#8221; the criminal complaint reads. &#8220;In other cases, the infections seemed to be inadvertent &#8211; one of the hazards of committing cybercrime is that criminals will sometimes infect themselves with their own malware by mistake.&#8221;<span id="more-71351"></span></p>
+<div id="attachment_71359" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71359" decoding="async" loading="lazy" class=" wp-image-71359" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/eset-danabotmap.png" alt="" width="750" height="479" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/eset-danabotmap.png 846w, https://krebsonsecurity.com/wp-content/uploads/2025/05/eset-danabotmap-768x490.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/05/eset-danabotmap-782x499.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-71359" class="wp-caption-text">Image: welivesecurity.com</p></div>
+<p>A <a href="https://www.justice.gov/usao-cdca/pr/16-defendants-federally-charged-connection-danabot-malware-scheme-infected-computers" target="_blank" rel="noopener">statement</a> from the DOJ says that as part of today&#8217;s operation, agents with the <strong>Defense Criminal Investigative Service</strong> (DCIS) seized the Danabot control servers, including dozens of virtual servers hosted in the United States. The government says it is now working with industry partners to notify DanaBot victims and help remediate infections. The statement credits a number of security firms with providing assistance to the government, including <strong>ESET</strong>, <strong>Flashpoint</strong>, <strong>Google</strong>, <strong>Intel 471</strong>, <strong>Lumen</strong>, <strong>PayPal</strong>, <strong>Proofpoint</strong>, <strong>Team CYRMU</strong>, and <strong>ZScaler</strong>.</p>
+<p>It&#8217;s not unheard of for financially-oriented malicious software to be repurposed for espionage. A variant of the <strong>ZeuS Trojan</strong>, which was used in countless online banking attacks against companies in the United States and Europe between 2007 and at least 2015, was for a time diverted to espionage tasks by its author.</p>
+<p>As detailed <a href="https://krebsonsecurity.com/2015/08/inside-the-100m-business-club-crime-gang/" target="_blank" rel="noopener">in this 2015 story,</a> the author of the ZeuS trojan created a custom version of the malware to serve purely as a spying machine, which scoured infected systems in Ukraine for specific keywords in emails and documents that would likely only be found in classified documents.</p>
+<p>The public charging of the 16 DanaBot defendants comes a day after <strong>Microsoft</strong> <a href="https://www.microsoft.com/en-us/security/blog/2025/05/21/lumma-stealer-breaking-down-the-delivery-techniques-and-capabilities-of-a-prolific-infostealer/" target="_blank" rel="noopener">joined</a> a slew of tech companies in <a href="https://www.justice.gov/opa/pr/justice-department-seizes-domains-behind-major-information-stealing-malware-operation" target="_blank" rel="noopener">disrupting the IT infrastructure</a> for another malware-as-a-service offering &#8212; <a href="https://www.welivesecurity.com/en/eset-research/eset-takes-part-global-operation-disrupt-lumma-stealer/" target="_blank" rel="noopener">Lumma Stealer</a>, which is likewise offered to affiliates under tiered subscription prices ranging from $250 to $1,000 per month. Separately, Microsoft filed a civil lawsuit to seize control over 2,300 domain names used by Lumma Stealer and its affiliates.</p>
+<p>Further reading:</p>
+<p><a href="https://www.welivesecurity.com/en/eset-research/danabot-analyzing-fallen-empire/" target="_blank" rel="noopener">Danabot: Analyzing a Fallen Empire</a></p>
+<p><a href="https://www.zscaler.com/blogs/security-research/danabot-launches-ddos-attack-against-ukrainian-ministry-defense" target="_blank" rel="noopener">ZScaler blog: DanaBot Launches DDoS Attack Against the Ukrainian Ministry of Defense</a></p>
+<p><a href="https://flashpoint.io/blog/operation-endgame-danabot-malware/" target="_blank" rel="noopener">Flashpoint: Operation Endgame DanaBot Malware</a></p>
+<p><a href="https://www.justice.gov/usao-cdca/media/1401361/dl?inline" target="_blank" rel="noopener">March 2022 criminal complaint v. Artem Aleksandrovich Kalinkin</a></p>
+<p><a href="https://www.justice.gov/usao-cdca/media/1401356/dl?inline" target="_blank" rel="noopener">September 2022 grand jury indictment naming the 16 defendants</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/05/oops-danabot-malware-devs-infected-their-own-pcs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>KrebsOnSecurity Hit With Near-Record 6.3 Tbps DDoS</title>
 		<link>https://krebsonsecurity.com/2025/05/krebsonsecurity-hit-with-near-record-6-3-tbps-ddos/</link>
 					<comments>https://krebsonsecurity.com/2025/05/krebsonsecurity-hit-with-near-record-6-3-tbps-ddos/#comments</comments>
@@ -51,7 +112,7 @@
 
 					<description><![CDATA[KrebsOnSecurity last week was hit by a near record distributed denial-of-service (DDoS) attack that clocked in at more than 6.3 terabits of data per second (a terabit is one trillion bits of data). The brief attack appears to have been a test run for a massive new Internet of Things (IoT) botnet capable of launching crippling digital assaults that few web destinations can withstand. Read on for more about the botnet, the attack, and the apparent creator of this global menace.]]></description>
 										<content:encoded><![CDATA[<p>KrebsOnSecurity last week was hit by a near record distributed denial-of-service (DDoS) attack that clocked in at more than 6.3 terabits of data per second (a terabit is one trillion bits of data). The brief attack appears to have been a test run for a massive new Internet of Things (IoT) botnet capable of launching crippling digital assaults that few web destinations can withstand. Read on for more about the botnet, the attack, and the apparent creator of this global menace.</p>
-<p><img decoding="async" class="aligncenter size-full wp-image-71312" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/ddosbomb.png" alt="" width="661" height="542" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-71312" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/ddosbomb.png" alt="" width="661" height="542" /></p>
 <p>For reference, the 6.3 Tbps attack last week was ten times the size of the assault launched against this site in 2016 by the <strong>Mirai</strong> IoT botnet, which <a href="https://krebsonsecurity.com/2016/09/the-democratization-of-censorship/" target="_blank" rel="noopener">held KrebsOnSecurity offline for nearly four days</a>. The 2016 assault was so large that <strong>Akamai</strong> &#8211; which was providing pro-bono DDoS protection for KrebsOnSecurity at the time &#8212; asked me to leave their service because the attack was causing problems for their paying customers.</p>
 <p>Since the Mirai attack, KrebsOnSecurity.com has been behind the protection of <strong>Project Shield</strong>, a free DDoS defense service that <strong>Google</strong> provides to websites offering news, human rights, and election-related content. Google Security Engineer <strong>Damian Menscher</strong> told KrebsOnSecurity the May 12 attack was the largest Google has ever handled. In terms of sheer size, it is second only to a very similar attack that <strong>Cloudflare</strong> mitigated and <a href="https://blog.cloudflare.com/ddos-threat-report-for-2025-q1/#hyper-volumetric-attacks-continue-spill-into-q2" target="_blank" rel="noopener">wrote about in April</a>.</p>
 <p>After comparing notes with Cloudflare, Menscher said the botnet that launched both attacks bears the fingerprints of <strong>Aisuru</strong>, a digital siege machine that first surfaced less than a year ago. Menscher said the attack on KrebsOnSecurity lasted less than a minute, hurling <a href="https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/udp-reflection-attacks.html" target="_blank" rel="noopener">large UDP data packets</a> at random ports <em>at a rate of approximately 585 million data packets per second</em>.</p>
@@ -95,7 +156,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/05/krebsonsecurity-hit-with-near-record-6-3-tbps-ddos/feed/</wfw:commentRss>
-			<slash:comments>26</slash:comments>
+			<slash:comments>28</slash:comments>
 		
 		
 			</item>
@@ -592,123 +653,15 @@ February 2023; 391 bitcoin is presently worth more than $26 million.</p>
 		
 		
 			</item>
-		<item>
-		<title>Trump Revenge Tour Targets Cyber Leaders, Elections</title>
-		<link>https://krebsonsecurity.com/2025/04/trump-revenge-tour-targets-cyber-leaders-elections/</link>
-					<comments>https://krebsonsecurity.com/2025/04/trump-revenge-tour-targets-cyber-leaders-elections/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Tue, 15 Apr 2025 03:27:51 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[DOGE]]></category>
-		<category><![CDATA[Latest Warnings]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[A.J. Vicens]]></category>
-		<category><![CDATA[Chris Krebs]]></category>
-		<category><![CDATA[Cyber Safety Review Board]]></category>
-		<category><![CDATA[Department of Government Efficiency]]></category>
-		<category><![CDATA[Dustin Volz]]></category>
-		<category><![CDATA[Electronic Frontier Foundation]]></category>
-		<category><![CDATA[Gen. Timothy Haugh]]></category>
-		<category><![CDATA[Heritage Foundation]]></category>
-		<category><![CDATA[Iowa Secretary of State Paul Pate]]></category>
-		<category><![CDATA[Martin Matishak]]></category>
-		<category><![CDATA[National Counterintelligence and Security Center]]></category>
-		<category><![CDATA[national security agency]]></category>
-		<category><![CDATA[Nevada Secretary of State Cisco Aguilar]]></category>
-		<category><![CDATA[Newsweek]]></category>
-		<category><![CDATA[Paul Rosenzweig]]></category>
-		<category><![CDATA[Pennsylvania Capital-Star]]></category>
-		<category><![CDATA[Raphael Satter]]></category>
-		<category><![CDATA[Reuters]]></category>
-		<category><![CDATA[Safeguard American Voter Eligibility Act (SAVE) Act]]></category>
-		<category><![CDATA[Secretary of the Commonwealth Al Schmidt]]></category>
-		<category><![CDATA[Sen. Mark Warner]]></category>
-		<category><![CDATA[Sen. Ron Wyden]]></category>
-		<category><![CDATA[Suzanne Smalley]]></category>
-		<category><![CDATA[The Guardian]]></category>
-		<category><![CDATA[The Record]]></category>
-		<category><![CDATA[The Wall Street Journal]]></category>
-		<category><![CDATA[The Washington Post]]></category>
-		<category><![CDATA[U.S. Cyber Command]]></category>
-		<category><![CDATA[U.S. Election Assistance Commission]]></category>
-		<category><![CDATA[Wendy Noble]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70970</guid>
-
-					<description><![CDATA[President Trump last week revoked security clearances for Chris Krebs, the former director of the Cybersecurity and Infrastructure Security Agency (CISA) who was fired by Trump after declaring the 2020 election the most secure in U.S. history. The White House memo, which also suspended clearances for other security professionals at Krebs's employer SentinelOne, comes as CISA is facing huge funding and staffing cuts.]]></description>
-										<content:encoded><![CDATA[<p><strong>President Trump</strong> last week revoked security clearances for <strong>Chris Krebs</strong>, the former director of the <strong>Cybersecurity and Infrastructure Security Agency</strong> (CISA) who was fired by Trump after declaring the 2020 election the most secure in U.S. history. The White House memo, which also suspended clearances for other security professionals at Krebs&#8217;s employer <strong>SentinelOne</strong>, comes as CISA is facing huge funding and staffing cuts.</p>
-<div id="attachment_70987" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70987" decoding="async" loading="lazy" class=" wp-image-70987" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/chriskrebs-gi.png" alt="" width="750" height="330" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/chriskrebs-gi.png 883w, https://krebsonsecurity.com/wp-content/uploads/2025/04/chriskrebs-gi-768x337.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/chriskrebs-gi-782x344.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-70987" class="wp-caption-text">Chris Krebs. Image: Getty Images.</p></div>
-<p>The extraordinary <a href="https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-addresses-risks-from-chris-krebs-and-government-censorship/" target="_blank" rel="noopener">April 9 memo</a> directs the attorney general to investigate Chris Krebs (no relation), calling him &#8220;a significant bad-faith actor who weaponized and abused his government authority.&#8221;</p>
-<p>The memo said the inquiry will include &#8220;a comprehensive evaluation of all of CISA&#8217;s activities over the last 6 years and will identify any instances where Krebs&#8217; or CISA&#8217;s conduct appears to be contrary to the administration’s commitment to free speech and ending federal censorship, including whether Krebs’ conduct was contrary to suitability standards for federal employees or involved the unauthorized dissemination of classified information.&#8221;</p>
-<p>CISA was created in 2018 during Trump&#8217;s first term, with Krebs installed as its first director. In 2020, CISA launched Rumor Control, a website that sought to rebut disinformation swirling around the 2020 election.</p>
-<p>That effort ran directly counter to Trump&#8217;s claims that he lost the election because it was somehow hacked and stolen. The Trump campaign and its supporters filed at least 62 lawsuits contesting the election, vote counting, and vote certification in nine states, and nearly all of those cases were dismissed or dropped for lack of evidence or standing.</p>
-<p>When the Justice Department began prosecuting people who violently attacked the U.S. Capitol on January 6, 2021, President Trump and Republican leaders shifted the narrative, claiming that Trump lost the election because the previous administration had censored conservative voices on social media.</p>
-<p>Incredibly, the president&#8217;s memo seeking to ostracize Krebs stands reality on its head, accusing Krebs of promoting the censorship of election information, &#8220;including known risks associated with certain voting practices.&#8221; Trump also alleged that Krebs &#8220;<em>falsely and baselessly denied that the 2020 election was rigged and stolen</em>, including by inappropriately and categorically dismissing widespread election malfeasance and serious vulnerabilities with voting machines&#8221; [emphasis added].</p>
-<p>Krebs did not respond to a request for comment. SentinelOne issued <a href="https://www.sentinelone.com/blog/an-official-statement-in-response-to-the-april-9-2025-executive-order/" target="_blank" rel="noopener">a statement</a> saying it would cooperate in any review of security clearances held by its personnel, which is currently fewer than 10 employees.</p>
-<p>Krebs&#8217;s former agency is now facing steep budget and staff reductions. <strong>The Record</strong> <a href="https://therecord.media/trump-administration-planning-workforce-cuts-at-cisa/" target="_blank" rel="noopener">reports</a> that CISA is looking to remove some 1,300 people by cutting about half its full-time staff and another 40% of its contractors.</p>
-<p>&#8220;The agency’s National Risk Management Center, which serves as a hub analyzing risks to cyber and critical infrastructure, is expected to see significant cuts, said two sources familiar with the plans,&#8221; The Record&#8217;s <strong>Suzanne Smalley</strong> wrote. &#8220;Some of the office’s systematic risk responsibilities will potentially be moved to the agency’s Cybersecurity Division, according to one of the sources.&#8221;</p>
-<p>CNN <a href="https://archive.ph/InCFx#selection-2323.226-2323.412" target="_blank" rel="noopener">reports</a> the Trump administration is also advancing plans to strip civil service protections from 80% of the remaining CISA employees, potentially allowing them to be fired for political reasons.</p>
-<p>The <strong>Electronic Frontier Foundation</strong> (EFF) urged professionals in the cybersecurity community to defend Krebs and SentinelOne, noting that other security companies and professionals could be the next victims of Trump&#8217;s efforts to politicize cybersecurity.</p>
-<p>&#8220;The White House must not be given free reign to turn cybersecurity professionals into political scapegoats,&#8221; the EFF <a href="https://www.eff.org/deeplinks/2025/04/cybersecurity-community-must-not-remain-silent-executive-order-attacking-former" target="_blank" rel="noopener">wrote</a>. &#8220;It is critical that the cybersecurity community now join together to denounce this chilling attack on free speech and rally behind Krebs and SentinelOne rather than cowering because they fear they will be next.&#8221;</p>
-<p>However, <strong>Reuters</strong> <a href="https://www.reuters.com/world/us/cybersecurity-industry-falls-silent-trump-turns-ire-sentinelone-2025-04-10/" target="_blank" rel="noopener">said</a> it found little sign of industry support for Krebs or SentinelOne, and that many security professionals are concerned about potentially being targeted if they speak out.</p>
-<p>&#8220;Reuters contacted 33 of the largest U.S. cybersecurity companies, including tech companies and professional services firms with large cybersecurity practices, and three industry groups, for comment on Trump&#8217;s action against SentinelOne,&#8221; wrote <strong>Raphael Satter</strong> and <strong>A.J. Vicens</strong>. &#8220;Only one offered comment on Trump&#8217;s action. The rest declined, did not respond or did not answer questions.&#8221;</p>
-<h2>CYBERCOM-PLICATIONS</h2>
-<p>On April 3, President Trump fired <strong>Gen. Timothy Haugh</strong>, the head of the <strong>National Security Agency </strong>(NSA) and the <strong>U.S. Cyber Command</strong>, as well as Haugh&#8217;s deputy, <strong>Wendy Noble</strong>. The president did so immediately after meeting in the Oval Office with far-right conspiracy theorist <a href="https://en.wikipedia.org/wiki/Laura_Loomer" target="_blank" rel="noopener">Laura Loomer</a>, who reportedly urged their dismissal. Speaking to reporters on Air Force One after news of the firings broke, Trump questioned Haugh&#8217;s loyalty.</p>
-<div id="attachment_70998" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70998" decoding="async" loading="lazy" class=" wp-image-70998" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/genhaugh-cspan.png" alt="" width="749" height="377" /><p id="caption-attachment-70998" class="wp-caption-text">Gen. Timothy Haugh. Image: C-SPAN.</p></div>
-<p>Virginia <strong>Senator Mark Warner</strong>, the top Democrat on the Senate Intelligence Committee, called it inexplicable that the administration would remove the senior leaders of NSA-CYBERCOM without cause or warning, and risk disrupting critical ongoing intelligence operations.</p>
-<p>“It is astonishing, too, that President Trump would fire the nonpartisan, experienced leader of the National Security Agency while still failing to hold any member of his team accountable for leaking classified information on a commercial messaging app – even as he apparently takes staffing direction on national security from a discredited conspiracy theorist in the Oval Office,&#8221; Warner said in a statement.</p>
-<p>On Feb. 28, The Record&#8217;s <strong>Martin Matishak</strong> <a href="https://therecord.media/hegseth-orders-cyber-command-stand-down-russia-planning" target="_blank" rel="noopener">cited</a> three sources saying Defense Secretary <strong>Pete Hegseth</strong> ordered U.S. Cyber Command to stand down from all planning against Russia, including offensive digital actions. The following day, <strong>The Guardian</strong> <a href="https://www.theguardian.com/us-news/2025/feb/28/trump-russia-hacking-cyber-security?ref=zetter-zeroday.com" target="_blank" rel="noopener">reported</a> that analysts at CISA were verbally informed that they were not to follow or report on Russian threats, even though this had previously been a main focus for the agency.</p>
-<p>A <a href="https://www.washingtonpost.com/national-security/2025/03/01/trump-putin-russia-cyber-offense-cisa" target="_blank" rel="noopener">follow-up story</a> from <strong>The Washington Post</strong> cited officials saying Cyber Command had received an order to halt active operations against Russia, but that the pause was intended to last only as long as negotiations with Russia continue.</p>
-<p>The Department of Defense responded on Twitter/X that Hegseth had &#8220;neither canceled nor delayed any cyber operations directed against malicious Russian targets and there has been no stand-down order whatsoever from that priority.&#8221;</p>
-<p>But on March 19, Reuters <a href="https://www.yahoo.com/news/exclusive-us-suspends-efforts-counter-060549726.html" target="_blank" rel="noopener">reported</a> several U.S. national security agencies have halted work on a coordinated effort to counter Russian sabotage, disinformation and cyberattacks.</p>
-<p>&#8220;Regular meetings between the National Security Council and European national security officials have gone unscheduled, and the NSC has also stopped formally coordinating efforts across U.S. agencies, including with the FBI, the Department of Homeland Security and the State Department,&#8221; Reuters reported, citing current and former officials.<span id="more-70970"></span></p>
-<h2>TARIFFS VS TYPHOONS</h2>
-<p>President&#8217;s Trump&#8217;s institution of 125% tariffs on goods from China has seen Beijing strike back with 84 percent tariffs on U.S. imports. Now, some security experts are warning that the trade war <a href="https://www.theregister.com/2025/04/10/trade_war_reaches_cyberspace/" target="_blank" rel="noopener">could spill over into a cyber conflict</a>, given China&#8217;s successful efforts to burrow into America&#8217;s critical infrastructure networks.</p>
-<p>Over the past year, a number of Chinese government-backed digital intrusions have come into focus, including a sprawling espionage campaign involving the compromise of <a href="https://www.cybersecuritydive.com/news/salt-typhoon-telecom-attacks-lax-security/736233/" target="_blank" rel="noopener">at least nine U.S. telecommunications providers</a>. Dubbed &#8220;<a href="https://www.nytimes.com/2024/10/26/us/politics/salt-typhoon-hack-what-we-know.html" target="_blank" rel="noopener">Salt Typhoon</a>&#8221; by Microsoft, these telecom intrusions were pervasive enough that CISA and the FBI in December 2024 <a href="https://www.cisa.gov/resources-tools/resources/enhanced-visibility-and-hardening-guidance-communications-infrastructure" target="_blank" rel="noopener">warned Americans</a> against communicating sensitive information over phone networks, urging people instead to use encrypted messaging apps (like Signal).</p>
-<p>The other broad ranging China-backed campaign is known as &#8220;<a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a" target="_blank" rel="noopener">Volt Typhoon</a>,&#8221; which CISA described as &#8220;state-sponsored cyber actors seeking to pre-position themselves on IT networks for disruptive or destructive cyberattacks against U.S. critical infrastructure in the event of a major crisis or conflict with the United States.&#8221;</p>
-<p>Responsibility for determining the root causes of the Salt Typhoon security debacle fell to the <a href="https://en.wikipedia.org/wiki/Cyber_Safety_Review_Board" target="_blank" rel="noopener">Cyber Safety Review Board</a> (CSRB), a nonpartisan government entity established in February 2022 with a mandate to investigate the security failures behind major cybersecurity events. But on his first full day back in the White House, President Trump dismissed all 15 CSRB advisory committee members &#8212; likely because those advisers included Chris Krebs.</p>
-<p>Last week, <strong>Sen. Ron Wyden</strong> (D-Ore.) placed a hold on Trump&#8217;s nominee to lead CISA, saying the hold would continue unless the agency published a report on the telecom industry hacks, as promised.</p>
-<div class="text__text__1FZLe text__dark-grey__3Ml43 text__regular__2N1Xr text__small__1kGq2 body__full_width__ekUdw body__small_body__2vQyf article-body__paragraph__2-BtD" data-testid="paragraph-6">
-<p>&#8220;CISA&#8217;s multi-year cover up of the phone companies&#8217; negligent cybersecurity has real consequences,&#8221; Wyden said in <a href="https://www.wyden.senate.gov/news/press-releases/wyden-places-hold-on-top-cybersecurity-nominee-to-force-release-of-important-details-on-security-threats-to-us-phone-networks" target="_blank" rel="noopener">a statement</a>. &#8220;Congress and the American people have a right to read this report.&#8221;</p>
-<p><strong>The Wall Street Journal</strong> reported last week Chinese officials acknowledged in a secret December meeting that Beijing was behind the widespread telecom industry compromises.</p>
-<p>&#8220;The Chinese official&#8217;s remarks at the December meeting were indirect and somewhat ambiguous, but most of the American delegation in the room interpreted it as a tacit admission and a warning to the U.S. about Taiwan,&#8221; The Journal&#8217;s <strong>Dustin Volz</strong> <a href="https://www.wsj.com/politics/national-security/in-secret-meeting-china-acknowledged-role-in-u-s-infrastructure-hacks-c5ab37cb" target="_blank" rel="noopener">wrote</a>, citing a former U.S. official familiar with the meeting.</p>
-<p>Meanwhile, China continues to take advantage of the mass firings of federal workers. On April 9, the <strong>National Counterintelligence and Security Center</strong> <a href="https://www.dni.gov/files/NCSC/documents/products/2025-04-08-NCSC-FBI-DCSA-OnlineTargetingUSGEmployees.pdf" target="_blank" rel="noopener">warned</a> (PDF) that Chinese intelligence entities are pursuing an online effort to recruit recently laid-off U.S. employees.</p>
-<p>&#8220;Foreign intelligence entities, particularly those in China, are targeting current and former U.S. government (USG) employees for recruitment by posing as consulting firms, corporate headhunters, think tanks, and other entities on social and professional networking sites,&#8221; the alert warns. &#8220;Their deceptive online job offers, and other virtual approaches, have become more sophisticated in targeting unwitting individuals with USG backgrounds seeking new employment.&#8221;</p>
-<div id="attachment_70985" style="width: 759px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/04/dni-china-hiring.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-70985" decoding="async" loading="lazy" class="wp-image-70985" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/dni-china-hiring.png" alt="" width="749" height="416" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/dni-china-hiring.png 1406w, https://krebsonsecurity.com/wp-content/uploads/2025/04/dni-china-hiring-768x426.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/dni-china-hiring-782x434.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></a><p id="caption-attachment-70985" class="wp-caption-text">Image: Dni.gov</p></div>
-<h2>ELECTION THREATS</h2>
-<p>As Reuters <a href="https://www.reuters.com/world/us-suspends-some-efforts-counter-russian-sabotage-trump-moves-closer-putin-2025-03-19/" target="_blank" rel="noopener">notes</a>, the FBI last month ended an effort to counter interference in U.S. elections by foreign adversaries including Russia, and put on leave staff working on the issue at the Department of Homeland Security.</p>
-<p>Meanwhile, the U.S. Senate is now considering a <a href="https://www.nytimes.com/2025/04/10/us/politics/house-citizenship-elections-save-act.html" target="_blank" rel="noopener">House-passed bill</a> dubbed the &#8220;<strong>Safeguard American Voter Eligibility (SAVE) Act</strong>,&#8221; which would order states to obtain proof of citizenship, such as a passport or a birth certificate, <a href="https://www.nytimes.com/2025/04/10/us/politics/house-citizenship-elections-save-act.html" target="_blank" rel="noopener">in person from those seeking to register to vote</a>.</p>
-<p>Critics say the SAVE Act could disenfranchise millions of voters and discourage eligible voters from registering to vote. What&#8217;s more, documented cases of voter fraud are few and far between, as is voting by non-citizens. Even the conservative <strong>Heritage Foundation</strong> acknowledges as much: An interactive &#8220;<a href="https://electionfraud.heritage.org/search" target="_blank" rel="noopener">election fraud map</a>&#8221; published by Heritage lists just 1,576 convictions or findings of voter fraud between 1982 and the present day.</p>
-<p>Nevertheless, the GOP-led House passed the SAVE Act with the help of four Democrats. Its passage in the Senate will require support from at least seven Democrats, Newsweek <a href="https://www.newsweek.com/democrats-who-could-cross-aisle-save-act-2058792" target="_blank" rel="noopener">writes</a>.</p>
-<p>In February, CISA cut roughly 130 employees, including its election security advisors. The agency also was forced to freeze all election security activities pending an internal review. The review was <a href="https://www.brennancenter.org/our-work/research-reports/how-federal-government-undermining-election-security" target="_blank" rel="noopener">reportedly</a> completed in March, but the Trump administration has said the findings would not be made public, and there is no indication of whether any cybersecurity support has been restored.</p>
-<p>Many state leaders have voiced anxiety over the administration&#8217;s cuts to CISA programs that provide assistance and threat intelligence to election security efforts. <strong>Iowa Secretary of State Paul Pate</strong> last week <a href="https://www.thegazette.com/campaigns-elections/iowas-top-elections-official-concerned-over-cybersecurity-funding-pause/" target="_blank" rel="noopener">told</a> the <strong>PBS</strong> show I<strong>owa Press</strong> he would not want to see those programs dissolve.</p>
-<p>&#8220;If those (systems) were to go away, it would be pretty serious,&#8221; Pate said. &#8220;We do count on a lot those cyber protections.&#8221;</p>
-<p>Pennsylvania&#8217;s <strong>Secretary of the Commonwealth Al Schmidt</strong> recently warned the CISA election security cuts would make elections less secure, and said no state on its own can replace federal election cybersecurity resources.</p>
-<p>The <strong>Pennsylvania Capital-Star</strong> <a href="https://penncapital-star.com/election-2025/no-state-on-its-own-can-replace-federal-election-cybersecurity-resources-pa-voting-official-says/" target="_blank" rel="noopener">reports</a> that several local election offices received bomb threats around the time polls closed on Nov. 5, and that in the week before the election a fake video showing mail-in ballots cast for Trump and Sen. Dave McCormick (R-Pa.) being destroyed and thrown away was linked to a Russian disinformation campaign.</p>
-<p>&#8220;CISA was able to quickly identify not only that it was fraudulent, but also the source of it, so that we could share with our counties and we could share with the public so confidence in the election wasn’t undermined,&#8221; Schmidt said.</p>
-<p>According to <a href="https://archive.ph/InCFx#selection-2339.13-2339.483" target="_blank" rel="noopener">CNN</a>, the administration&#8217;s actions have deeply alarmed state officials, who warn the next round of national elections will be seriously imperiled by the cuts. A bipartisan association representing 46 secretaries of state, and several individual top state election officials, have pressed the White House about how critical functions of protecting election security will perform going forward. However, CNN reports they have yet to receive clear answers.</p>
-<p>Nevada and 18 other states are suing Trump over <a href="https://www.whitehouse.gov/presidential-actions/2025/03/preserving-and-protecting-the-integrity-of-american-elections/" target="_blank" rel="noopener">an executive order he issued on March 25</a> that asserts the executive branch has broad authority over state election procedures.</p>
-<p>&#8220;None of the president’s powers allow him to change the rules of elections,&#8221; Nevada Secretary of State <strong>Cisco Aguilar</strong> wrote in <a href="https://www.msnbc.com/opinion/msnbc-opinion/nevada-18-states-are-suing-trump-election-executive-order-rcna200427" target="_blank" rel="noopener">an April 11 op-ed</a>. &#8220;That is an intentional feature of our Constitution, which the Framers built in to ensure election integrity. Despite that, Trump is seeking to upend the voter registration process; impose arbitrary deadlines on vote counting; allow an unelected and unaccountable billionaire to invade state voter rolls; and withhold congressionally approved funding for election security.&#8221;</p>
-<p>The order instructs the <strong>U.S. Election Assistance Commission</strong> to abruptly amend the voluntary federal guidelines for voting machines without going through the processes mandated by federal law. And it calls for allowing the administrator of the so-called <strong>Department of Government Efficiency</strong> (DOGE), along with DHS, to review state voter registration lists and other records to identify non-citizens.</p>
-<p>The Atlantic&#8217;s <strong>Paul Rosenzweig</strong> notes that the chief executive of the country &#8212; whose unilateral authority the Founding Fathers most feared &#8212; has literally no role in the federal election system.</p>
-<p>&#8220;Trump&#8217;s executive order on elections ignores that design entirely,&#8221; Rosenzweig <a href="https://www.theatlantic.com/ideas/archive/2025/04/trump-election-rules-changes/682394/" target="_blank" rel="noopener">wrote</a>. &#8220;He is asserting an executive-branch role in governing the mechanics of a federal election that has never before been claimed by a president. The legal theory undergirding this assertion &#8212; that the president&#8217;s authority to enforce federal law enables him to control state election activity &#8212; is as capacious as it is frightening.&#8221;</p>
-</div>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/04/trump-revenge-tour-targets-cyber-leaders-elections/feed/</wfw:commentRss>
-			<slash:comments>67</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 287/287 objects using memcached
-Page Caching using memcached 
+Object Caching 279/279 objects using memcached
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-05-22 16:59:21 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-05-22 17:57:41 by W3 Total Cache
 -->
