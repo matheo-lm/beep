@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 22 May 2025 08:04:03 EDT</pubDate>
+        <pubDate>Thu, 22 May 2025 09:08:22 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FTC finalizes order requiring GoDaddy to secure hosting services</title>
+        <link>https://www.bleepingcomputer.com/news/security/ftc-finalizes-order-requiring-godaddy-to-secure-hosting-services/</link>
+        <pubDate>Thu, 22 May 2025 08:28:02 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ftc-finalizes-order-requiring-godaddy-to-secure-hosting-services/</guid>
+	<description><![CDATA[The Federal Trade Commission (FTC) has finalized an order requiring web hosting giant GoDaddy to secure its services to settle charges of data security failures that led to several data breaches since 2018. [...]]]></description>
+ </item>
+
  <item>
         <title>Signal now blocks Microsoft Recall screenshots on Windows 11</title>
         <link>https://www.bleepingcomputer.com/news/security/signal-now-blocks-microsoft-recall-screenshots-on-windows-11/</link>
@@ -192,22 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/european-union-sanctions-stark-industries-for-enabling-cyberattacks/</guid>
 	<description><![CDATA[The European Union has imposed strict sanctions against web-hosting provider Stark Industries and the two individuals running it, CEO Iurie Neculiti and owner Ivan Neculiti, for enabling "destabilising activities" against the Union. [...]]]></description>
- </item>
-
- <item>
-        <title>Kettering Health hit by system-wide outage after ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/kettering-health-hit-by-system-wide-outage-after-ransomware-attack/</link>
-        <pubDate>Wed, 21 May 2025 07:45:08 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Healthcare]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/kettering-health-hit-by-system-wide-outage-after-ransomware-attack/</guid>
-	<description><![CDATA[Kettering Health, a healthcare network that operates 14 medical centers in Ohio, was forced to cancel inpatient and outpatient procedures following a cyberattack that caused a system-wide technology outage. [...]]]></description>
  </item>
 
 </channel>
