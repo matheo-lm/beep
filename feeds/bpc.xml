@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 22 May 2025 16:02:28 EDT</pubDate>
+        <pubDate>Thu, 22 May 2025 17:01:43 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US indicts leader of Qakbot botnet linked to ransomware attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-indicts-leader-of-qakbot-botnet-linked-to-ransomware-attacks/</link>
+        <pubDate>Thu, 22 May 2025 16:16:25 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-indicts-leader-of-qakbot-botnet-linked-to-ransomware-attacks/</guid>
+	<description><![CDATA[The U.S. government has indicted Russian national Rustam Rafailevich Gallyamov, the leader of the Qakbot botnet malware operation that compromised over 700,000 computers and enabled ransomware attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers use fake Ledger apps to steal Mac users’ seed phrases</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-use-fake-ledger-apps-to-steal-mac-users-seed-phrases/</link>
@@ -194,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/government/russia-to-enforce-location-tracking-app-on-all-foreigners-in-moscow/</guid>
 	<description><![CDATA[The Russian government has introduced a new law that makes installing a tracking app mandatory for all foreign nationals in the Moscow region. [...]]]></description>
- </item>
-
- <item>
-        <title>3AM ransomware uses spoofed IT calls, email bombing to breach networks</title>
-        <link>https://www.bleepingcomputer.com/news/security/3am-ransomware-uses-spoofed-it-calls-email-bombing-to-breach-networks/</link>
-        <pubDate>Wed, 21 May 2025 13:27:21 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/3am-ransomware-uses-spoofed-it-calls-email-bombing-to-breach-networks/</guid>
-	<description><![CDATA[A 3AM ransomware affiliate is conducting highly targeted attacks using email bombing and spoofed IT support calls to socially engineer employees into giving credentials for remote access to corporate systems. [...]]]></description>
  </item>
 
 </channel>
