@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 22 May 2025 05:01:25 EDT</pubDate>
+        <pubDate>Thu, 22 May 2025 06:03:43 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Unpatched critical bugs in Versa Concerto lead to auth bypass, RCE</title>
+        <link>https://www.bleepingcomputer.com/news/security/unpatched-critical-bugs-in-versa-concerto-lead-to-auth-bypass-rce/</link>
+        <pubDate>Thu, 22 May 2025 05:18:18 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/unpatched-critical-bugs-in-versa-concerto-lead-to-auth-bypass-rce/</guid>
+	<description><![CDATA[Critical vulnerabilities in Versa Concerto that are still unpatched could allow remote attackers to bypass authentication and execute arbitrary code on affected systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Anthropic web config hints at Claude Sonnet 4 and Opus 4</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-web-config-hints-at-claude-sonnet-4-and-opus-4/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/marks-and-spencer-faces-402-million-profit-hit-after-cyberattack/</guid>
 	<description><![CDATA[British retailer giant Marks & Spencer (M&S) is bracing for a potential profit hit of up to £300 million £300 million ($402 million) following a recent cyberattack that led to widespread operational and sales disruptions. [...]]]></description>
- </item>
-
- <item>
-        <title>Coinbase says recent data breach impacts 69,461 customers</title>
-        <link>https://www.bleepingcomputer.com/news/security/coinbase-says-recent-data-breach-impacts-69-461-customers/</link>
-        <pubDate>Wed, 21 May 2025 05:33:06 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/coinbase-says-recent-data-breach-impacts-69-461-customers/</guid>
-	<description><![CDATA[Coinbase, a cryptocurrency exchange with over 100 million customers, revealed that a recent data breach in which cybercriminals stole customer and corporate data affected 69,461 individuals [...]]]></description>
  </item>
 
 </channel>
