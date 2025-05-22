@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 22 May 2025 09:08:22 EDT</pubDate>
+        <pubDate>Thu, 22 May 2025 09:58:52 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Chinese hackers breach US local governments using Cityworks zero-day</title>
+        <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-us-local-governments-using-cityworks-zero-day/</link>
+        <pubDate>Thu, 22 May 2025 09:58:46 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Government]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-us-local-governments-using-cityworks-zero-day/</guid>
+	<description><![CDATA[Chinese-speaking hackers have exploited a now-patched Trimble Cityworks zero-day to breach multiple local governing bodies across the United States. [...]]]></description>
+ </item>
+
  <item>
         <title>FTC finalizes order requiring GoDaddy to secure hosting services</title>
         <link>https://www.bleepingcomputer.com/news/security/ftc-finalizes-order-requiring-godaddy-to-secure-hosting-services/</link>
@@ -192,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/threatlocker-patch-management-a-security-first-approach-to-closing-vulnerability-windows/</guid>
 	<description><![CDATA[Patching is basic cyber hygiene — but executing it at scale, securely, and fast? That's the real challenge. ThreatLocker's Patch Management flips the script with control, visibility, and Zero Trust workflows built for today's threat landscape. [...]]]></description>
- </item>
-
- <item>
-        <title>European Union sanctions Stark Industries for enabling cyberattacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/european-union-sanctions-stark-industries-for-enabling-cyberattacks/</link>
-        <pubDate>Wed, 21 May 2025 09:37:18 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/european-union-sanctions-stark-industries-for-enabling-cyberattacks/</guid>
-	<description><![CDATA[The European Union has imposed strict sanctions against web-hosting provider Stark Industries and the two individuals running it, CEO Iurie Neculiti and owner Ivan Neculiti, for enabling "destabilising activities" against the Union. [...]]]></description>
  </item>
 
 </channel>
