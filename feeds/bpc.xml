@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 22 May 2025 11:03:21 EDT</pubDate>
+        <pubDate>Thu, 22 May 2025 12:02:18 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Police arrests 270 dark web vendors, buyers in global crackdown</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-arrests-270-dark-web-vendors-buyers-in-global-crackdown/</link>
+        <pubDate>Thu, 22 May 2025 11:42:29 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-arrests-270-dark-web-vendors-buyers-in-global-crackdown/</guid>
+	<description><![CDATA[Police arrested 270 suspects following an international law enforcement action codenamed 'Operation RapTor' that targeted dark web vendors and customers from ten countries. [...]]]></description>
+ </item>
+
  <item>
         <title>Ivanti EPMM flaw exploited by Chinese hackers to breach govt agencies</title>
         <link>https://www.bleepingcomputer.com/news/security/ivanti-epmm-flaw-exploited-by-chinese-hackers-to-breach-govt-agencies/</link>
@@ -194,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/lumma-infostealer-malware-operation-disrupted-2-300-domains-seized/</guid>
 	<description><![CDATA[Earlier this month, a coordinated disruption action targeting the Lumma malware-as-a-service (MaaS) information stealer operation seized thousands of domains, part of its infrastructure backbone worldwide. [...]]]></description>
- </item>
-
- <item>
-        <title>Data-stealing Chrome extensions impersonate Fortinet, YouTube, VPNs</title>
-        <link>https://www.bleepingcomputer.com/news/security/data-stealing-chrome-extensions-impersonate-fortinet-youtube-vpns/</link>
-        <pubDate>Wed, 21 May 2025 11:13:34 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/data-stealing-chrome-extensions-impersonate-fortinet-youtube-vpns/</guid>
-	<description><![CDATA[A Google Chrome Web Store campaign uses over 100 malicious browser extensions that mimic legitimate tools, such as VPNs, AI assistants, and crypto utilities, to steal browser cookies and execute remote scripts secretly. [...]]]></description>
  </item>
 
 </channel>
