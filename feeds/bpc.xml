@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 22 May 2025 06:03:43 EDT</pubDate>
+        <pubDate>Thu, 22 May 2025 07:02:39 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Signal now blocks Microsoft Recall screenshots on Windows 11</title>
+        <link>https://www.bleepingcomputer.com/news/security/signal-now-blocks-microsoft-recall-screenshots-on-windows-11/</link>
+        <pubDate>Thu, 22 May 2025 06:32:23 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/signal-now-blocks-microsoft-recall-screenshots-on-windows-11/</guid>
+	<description><![CDATA[​Signal has updated its Windows app to protect users' privacy by blocking Microsoft's AI-powered Recall feature from taking screenshots of their conversations. [...]]]></description>
+ </item>
+
  <item>
         <title>Unpatched critical bugs in Versa Concerto lead to auth bypass, RCE</title>
         <link>https://www.bleepingcomputer.com/news/security/unpatched-critical-bugs-in-versa-concerto-lead-to-auth-bypass-rce/</link>
@@ -192,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/kettering-health-hit-by-system-wide-outage-after-ransomware-attack/</guid>
 	<description><![CDATA[Kettering Health, a healthcare network that operates 14 medical centers in Ohio, was forced to cancel inpatient and outpatient procedures following a cyberattack that caused a system-wide technology outage. [...]]]></description>
- </item>
-
- <item>
-        <title>Marks &amp; Spencer faces $402 million profit hit after cyberattack</title>
-        <link>https://www.bleepingcomputer.com/news/security/marks-and-spencer-faces-402-million-profit-hit-after-cyberattack/</link>
-        <pubDate>Wed, 21 May 2025 06:10:22 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/marks-and-spencer-faces-402-million-profit-hit-after-cyberattack/</guid>
-	<description><![CDATA[British retailer giant Marks & Spencer (M&S) is bracing for a potential profit hit of up to £300 million £300 million ($402 million) following a recent cyberattack that led to widespread operational and sales disruptions. [...]]]></description>
  </item>
 
 </channel>
