@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 22 May 2025 09:58:52 EDT</pubDate>
+        <pubDate>Thu, 22 May 2025 11:03:21 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ivanti EPMM flaw exploited by Chinese hackers to breach govt agencies</title>
+        <link>https://www.bleepingcomputer.com/news/security/ivanti-epmm-flaw-exploited-by-chinese-hackers-to-breach-govt-agencies/</link>
+        <pubDate>Thu, 22 May 2025 10:23:08 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ivanti-epmm-flaw-exploited-by-chinese-hackers-to-breach-govt-agencies/</guid>
+	<description><![CDATA[Chinese hackers have been exploiting a remote code execution flaw in Ivanti Endpoint Manager Mobile (EPMM) to breach high-profile organizations worldwide. [...]]]></description>
+ </item>
+
  <item>
         <title>Chinese hackers breach US local governments using Cityworks zero-day</title>
         <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-us-local-governments-using-cityworks-zero-day/</link>
@@ -194,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/data-stealing-chrome-extensions-impersonate-fortinet-youtube-vpns/</guid>
 	<description><![CDATA[A Google Chrome Web Store campaign uses over 100 malicious browser extensions that mimic legitimate tools, such as VPNs, AI assistants, and crypto utilities, to steal browser cookies and execute remote scripts secretly. [...]]]></description>
- </item>
-
- <item>
-        <title>ThreatLocker Patch Management: A Security-First Approach to Closing Vulnerability Windows</title>
-        <link>https://www.bleepingcomputer.com/news/security/threatlocker-patch-management-a-security-first-approach-to-closing-vulnerability-windows/</link>
-        <pubDate>Wed, 21 May 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by ThreatLocker</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/threatlocker-patch-management-a-security-first-approach-to-closing-vulnerability-windows/</guid>
-	<description><![CDATA[Patching is basic cyber hygiene — but executing it at scale, securely, and fast? That's the real challenge. ThreatLocker's Patch Management flips the script with control, visibility, and Zero Trust workflows built for today's threat landscape. [...]]]></description>
  </item>
 
 </channel>
