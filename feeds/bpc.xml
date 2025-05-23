@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 22 May 2025 18:58:34 EDT</pubDate>
+        <pubDate>Thu, 22 May 2025 20:12:30 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Claude 4 benchmarks show improvements, but context is still 200K</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-4-benchmarks-show-improvements-but-context-is-still-200k/</link>
+        <pubDate>Thu, 22 May 2025 19:17:10 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-4-benchmarks-show-improvements-but-context-is-still-200k/</guid>
+	<description><![CDATA[Today, OpenAI rival Anthropic announced Claude 4 models, which are significantly better than Claude 3 in benchmarks, but we're left disappointed with the same 200,000 context window limit. [...]]]></description>
+ </item>
+
  <item>
         <title>US indicts leader of Qakbot botnet linked to ransomware attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/us-indicts-leader-of-qakbot-botnet-linked-to-ransomware-attacks/</link>
@@ -192,22 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/russian-hackers-breach-orgs-to-track-aid-routes-to-ukraine/</guid>
 	<description><![CDATA[A Russian state-sponsored cyberespionage campaign attributed to APT28 (Fancy Bear/Forest Blizzard) hackers has been targeting and compromising international organizations since 2022 to disrupt aid efforts to Ukraine. [...]]]></description>
- </item>
-
- <item>
-        <title>Russia to enforce location tracking app on all foreigners in Moscow</title>
-        <link>https://www.bleepingcomputer.com/news/government/russia-to-enforce-location-tracking-app-on-all-foreigners-in-moscow/</link>
-        <pubDate>Wed, 21 May 2025 14:24:06 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Government]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/government/russia-to-enforce-location-tracking-app-on-all-foreigners-in-moscow/</guid>
-	<description><![CDATA[The Russian government has introduced a new law that makes installing a tracking app mandatory for all foreign nationals in the Moscow region. [...]]]></description>
  </item>
 
 </channel>
