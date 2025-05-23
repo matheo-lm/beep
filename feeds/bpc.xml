@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 23 May 2025 02:01:35 EDT</pubDate>
+        <pubDate>Fri, 23 May 2025 03:03:19 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Police takes down 300 servers in ransomware supply-chain crackdown</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-takes-down-300-servers-in-ransomware-supply-chain-crackdown/</link>
+        <pubDate>Fri, 23 May 2025 02:58:13 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-takes-down-300-servers-in-ransomware-supply-chain-crackdown/</guid>
+	<description><![CDATA[In the latest phase of Operation Endgame, an international law enforcement operation, national authorities from seven countries seized 300 servers and 650 domains used to launch ransomware attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Claude 4 benchmarks show improvements, but context is still 200K</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-4-benchmarks-show-improvements-but-context-is-still-200k/</link>
@@ -194,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/critical-samlify-sso-flaw-lets-attackers-log-in-as-admin/</guid>
 	<description><![CDATA[A critical Samlify authentication bypass vulnerability has been discovered that allows attackers to impersonate admin users by injecting unsigned malicious assertions into legitimately signed SAML responses. [...]]]></description>
- </item>
-
- <item>
-        <title>Russian hackers breach orgs to track aid routes to Ukraine</title>
-        <link>https://www.bleepingcomputer.com/news/security/russian-hackers-breach-orgs-to-track-aid-routes-to-ukraine/</link>
-        <pubDate>Wed, 21 May 2025 17:21:32 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/russian-hackers-breach-orgs-to-track-aid-routes-to-ukraine/</guid>
-	<description><![CDATA[A Russian state-sponsored cyberespionage campaign attributed to APT28 (Fancy Bear/Forest Blizzard) hackers has been targeting and compromising international organizations since 2022 to disrupt aid efforts to Ukraine. [...]]]></description>
  </item>
 
 </channel>
