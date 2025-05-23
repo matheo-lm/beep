@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 23 May 2025 05:02:41 EDT</pubDate>
+        <pubDate>Fri, 23 May 2025 06:00:41 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>TikTok videos now push infostealer malware in ClickFix attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/tiktok-videos-now-push-infostealer-malware-in-clickfix-attacks/</link>
+        <pubDate>Fri, 23 May 2025 05:50:34 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/tiktok-videos-now-push-infostealer-malware-in-clickfix-attacks/</guid>
+	<description><![CDATA[Cybercriminals are using TikTok videos to trick users into infecting themselves with Vidar and StealC information-stealing malware in ClickFix attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 11 Notepad gets AI-powered text writing capabilities</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-gets-ai-powered-text-writing-capabilities/</link>
@@ -192,22 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-web-config-hints-at-claude-sonnet-4-and-opus-4/</guid>
 	<description><![CDATA[Anthropic is secretly working on two new models called Claude Sonnet 4 and Opus 4, which are believed to be the company's most advanced AI models. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI hints at a big upgrade for ChatGPT Operator Agent</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-hints-at-a-big-upgrade-for-chatgpt-operator-agent/</link>
-        <pubDate>Wed, 21 May 2025 18:33:28 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-hints-at-a-big-upgrade-for-chatgpt-operator-agent/</guid>
-	<description><![CDATA[ChatGPT's Operator, which is still in research preview, will soon become a "very useful tool," according to Jerry Tworek, VP of Research at OpenAI. [...]]]></description>
  </item>
 
 </channel>
