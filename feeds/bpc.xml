@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 25 May 2025 11:58:49 EDT</pubDate>
+        <pubDate>Sun, 25 May 2025 12:59:55 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Glitch to end app hosting and user profiles on July 8</title>
+        <link>https://www.bleepingcomputer.com/news/security/glitch-to-end-app-hosting-and-user-profiles-on-july-8/</link>
+        <pubDate>Sun, 25 May 2025 10:36:48 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/glitch-to-end-app-hosting-and-user-profiles-on-july-8/</guid>
+	<description><![CDATA[Glitch has announced it is ending app hosting and user profiles on July 8, 2025, responding to changing market dynamics and extensive abuse problems that have raised operational costs. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Fake Zenmap. WinMRT sites target IT staff with Bumblebee malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/bumblebee-malware-distributed-via-zenmap-winmrt-seo-poisoning/</link>
+        <pubDate>Sat, 24 May 2025 10:26:32 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/bumblebee-malware-distributed-via-zenmap-winmrt-seo-poisoning/</guid>
+	<description><![CDATA[The Bumblebee malware SEO poisoning campaign uncovered earlier this week aimpersonating RVTools is using more typosquatting domainsi mimicking other popular open-source projects to infect devices used by IT staff. [...]]]></description>
+ </item>
+
  <item>
         <title>OpenAI confirms Operator Agent is now more accurate with o3</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-operator-agent-is-now-more-accurate-with-o3/</link>
@@ -146,66 +174,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-indicts-leader-of-qakbot-botnet-linked-to-ransomware-attacks/</guid>
 	<description><![CDATA[The U.S. government has indicted Russian national Rustam Rafailevich Gallyamov, the leader of the Qakbot botnet malware operation that compromised over 700,000 computers and enabled ransomware attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers use fake Ledger apps to steal Mac users’ seed phrases</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-use-fake-ledger-apps-to-steal-mac-users-seed-phrases/</link>
-        <pubDate>Thu, 22 May 2025 12:45:56 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-use-fake-ledger-apps-to-steal-mac-users-seed-phrases/</guid>
-	<description><![CDATA[Cybercriminal campaigns are using fake Ledger apps to target macOS users and their digital assets by deploying malware that attempts to steal seed phrases that protect access to digital cryptocurrency wallets. [...]]]></description>
- </item>
-
- <item>
-        <title>Police arrests 270 dark web vendors, buyers in global crackdown</title>
-        <link>https://www.bleepingcomputer.com/news/security/police-arrests-270-dark-web-vendors-buyers-in-global-crackdown/</link>
-        <pubDate>Thu, 22 May 2025 11:42:29 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/police-arrests-270-dark-web-vendors-buyers-in-global-crackdown/</guid>
-	<description><![CDATA[Police arrested 270 suspects following an international law enforcement action codenamed 'Operation RapTor' that targeted dark web vendors and customers from ten countries. [...]]]></description>
- </item>
-
- <item>
-        <title>Ivanti EPMM flaw exploited by Chinese hackers to breach govt agencies</title>
-        <link>https://www.bleepingcomputer.com/news/security/ivanti-epmm-flaw-exploited-by-chinese-hackers-to-breach-govt-agencies/</link>
-        <pubDate>Thu, 22 May 2025 10:23:08 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ivanti-epmm-flaw-exploited-by-chinese-hackers-to-breach-govt-agencies/</guid>
-	<description><![CDATA[Chinese hackers have been exploiting a remote code execution flaw in Ivanti Endpoint Manager Mobile (EPMM) to breach high-profile organizations worldwide. [...]]]></description>
- </item>
-
- <item>
-        <title>Chinese hackers breach US local governments using Cityworks zero-day</title>
-        <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-us-local-governments-using-cityworks-zero-day/</link>
-        <pubDate>Thu, 22 May 2025 09:58:46 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Government]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-us-local-governments-using-cityworks-zero-day/</guid>
-	<description><![CDATA[Chinese-speaking hackers have exploited a now-patched Trimble Cityworks zero-day to breach multiple local governing bodies across the United States. [...]]]></description>
  </item>
 
 </channel>
