@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 25 May 2025 17:01:39 EDT</pubDate>
+        <pubDate>Sun, 25 May 2025 18:02:32 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Leak suggests xAI is getting ready to ship Grok 3.5</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-suggests-xai-is-getting-ready-to-ship-grok-35/</link>
+        <pubDate>Sun, 25 May 2025 17:51:02 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-suggests-xai-is-getting-ready-to-ship-grok-35/</guid>
+	<description><![CDATA[xAI, founded by Elon Musk, is preparing to launch Grok 3.5, the company's next state-of-the-art AI model. [...]]]></description>
+ </item>
+
+ <item>
+        <title>ChatGPT Deep Research can now pull data from Dropbox and Box</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-deep-research-can-now-pull-data-from-dropbox-and-box/</link>
+        <pubDate>Sun, 25 May 2025 17:09:54 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-deep-research-can-now-pull-data-from-dropbox-and-box/</guid>
+	<description><![CDATA[You can now connect your Box and Dropbox accounts to Deep Research on ChatGPT and pull data, which will be used by the AI to conduct research. [...]]]></description>
+ </item>
+
  <item>
         <title>Researchers claim ChatGPT o3 bypassed shutdown in controlled test</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/researchers-claim-chatgpt-o3-bypassed-shutdown-in-controlled-test/</link>
@@ -160,36 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/police-takes-down-300-servers-in-ransomware-supply-chain-crackdown/</guid>
 	<description><![CDATA[In the latest phase of Operation Endgame, an international law enforcement operation, national authorities from seven countries seized 300 servers and 650 domains used to launch ransomware attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Claude 4 benchmarks show improvements, but context is still 200K</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-4-benchmarks-show-improvements-but-context-is-still-200k/</link>
-        <pubDate>Thu, 22 May 2025 19:17:10 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-4-benchmarks-show-improvements-but-context-is-still-200k/</guid>
-	<description><![CDATA[Today, OpenAI rival Anthropic announced Claude 4 models, which are significantly better than Claude 3 in benchmarks, but we're left disappointed with the same 200,000 context window limit. [...]]]></description>
- </item>
-
- <item>
-        <title>US indicts leader of Qakbot botnet linked to ransomware attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-indicts-leader-of-qakbot-botnet-linked-to-ransomware-attacks/</link>
-        <pubDate>Thu, 22 May 2025 16:16:25 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-indicts-leader-of-qakbot-botnet-linked-to-ransomware-attacks/</guid>
-	<description><![CDATA[The U.S. government has indicted Russian national Rustam Rafailevich Gallyamov, the leader of the Qakbot botnet malware operation that compromised over 700,000 computers and enabled ransomware attacks. [...]]]></description>
  </item>
 
 </channel>
