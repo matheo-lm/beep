@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Sat, 24 May 2025 14:33:48 +0000</lastBuildDate>
@@ -661,8 +661,8 @@ February 2023; 391 bitcoin is presently worth more than $26 million.</p>
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 279/279 objects using memcached
-Page Caching using memcached 
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-05-27 04:59:31 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-05-27 05:55:06 by W3 Total Cache
 -->
