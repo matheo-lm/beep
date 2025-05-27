@@ -6,6 +6,14 @@
     <description>The latest publicly leaked data breaches to hit Have I Been Pwned</description>
     <a10:link href="https://haveibeenpwned.com/feed/breaches/" rel="self" type="application/rss+xml" />
     <item>
+      <guid isPermaLink="false">FreeMobile</guid>
+      <link>https://haveibeenpwned.com/Breach/FreeMobile</link>
+      <title>Free - 13,926,173 breached accounts</title>
+      <description>In October 2024, &lt;a href="https://www.bleepingcomputer.com/news/security/free-frances-second-largest-isp-confirms-data-breach-after-leak/" target="_blank" rel="noopener"&gt;French ISP &amp;quot;Free&amp;quot; suffered a data breach&lt;/a&gt; which was subsequently posted for sale and later, leaked publicly. The data included 14M unique email addresses along with names, physical addresses, phone numbers, genders, dates of birth and for many records, IBAN bank account numbers. Free advised that the numbers were &amp;quot;not enough to make a direct debit from a bank&amp;quot;.</description>
+      <pubDate>Tue, 27 May 2025 07:03:21 Z</pubDate>
+      <a10:updated>2025-05-27T07:03:21Z</a10:updated>
+    </item>
+    <item>
       <guid isPermaLink="false">OperationEndgame2</guid>
       <link>https://haveibeenpwned.com/Breach/OperationEndgame2</link>
       <title>Operation Endgame 2.0 - 15,436,844 breached accounts</title>
@@ -156,14 +164,6 @@
       <description>In mid-2019, &lt;a href="https://hackread.com/e-commerce-firm-storenvy-hacked-accounts-leaked/" target="_blank" rel="noopener"&gt;the e-commerce website Storenvy suffered a data breach that exposed millions of customer records&lt;/a&gt;. A portion of the breached records were subsequently posted to a hacking forum with cracked password hashes, whilst the entire corpus of 23M rows was put up for sale. The data contained 11M unique email addresses alongside usernames, IP addresses, the user's city, gender date of birth and original salted SHA-1 password hash.</description>
       <pubDate>Sun, 16 Feb 2025 08:31:34 Z</pubDate>
       <a10:updated>2025-02-16T08:31:34Z</a10:updated>
-    </item>
-    <item>
-      <guid isPermaLink="false">DoxbinTOoDA</guid>
-      <link>https://haveibeenpwned.com/Breach/DoxbinTOoDA</link>
-      <title>Doxbin (TOoDA) - 136,461 breached accounts</title>
-      <description>In February 2025, &lt;a href="https://x.com/vxunderground/status/1889487191283474872" target="_blank" rel="noopener"&gt;the &amp;quot;doxing&amp;quot; website Doxbin was compromised by a group calling themselves &amp;quot;TOoDA&amp;quot; and the data dumped publicly&lt;/a&gt;. Included in the breach were 336k unique email addresses alongside usernames. The data was provided to HIBP by a source who requested it be attributed to &amp;quot;emo.rip&amp;quot;.</description>
-      <pubDate>Thu, 13 Feb 2025 07:18:47 Z</pubDate>
-      <a10:updated>2025-02-13T07:18:47Z</a10:updated>
     </item>
   </channel>
 </rss>
