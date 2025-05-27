@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 27 May 2025 10:02:45 EDT</pubDate>
+        <pubDate>Tue, 27 May 2025 11:02:20 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Not Every CVE Deserves a Fire Drill: Focus on What’s Exploitable</title>
+        <link>https://www.bleepingcomputer.com/news/security/not-every-cve-deserves-a-fire-drill-focus-on-whats-exploitable/</link>
+        <pubDate>Tue, 27 May 2025 10:25:31 -0400</pubDate>
+        <dc:creator>Sponsored by Picus Security</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/not-every-cve-deserves-a-fire-drill-focus-on-whats-exploitable/</guid>
+	<description><![CDATA[Not every "critical" vulnerability is a critical risk. Picus Exposure Validation cuts through the noise by testing what's actually exploitable in your environment — so you can patch what matters. [...]]]></description>
+ </item>
+
  <item>
         <title>MATLAB dev confirms ransomware attack behind service outage</title>
         <link>https://www.bleepingcomputer.com/news/security/mathworks-blames-ransomware-attack-for-ongoing-outages/</link>
@@ -180,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/glitch-to-end-app-hosting-and-user-profiles-on-july-8/</guid>
 	<description><![CDATA[Glitch has announced it is ending app hosting and user profiles on July 8, 2025, responding to changing market dynamics and extensive abuse problems that have raised operational costs. [...]]]></description>
- </item>
-
- <item>
-        <title>Fake Zenmap. WinMRT sites target IT staff with Bumblebee malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/bumblebee-malware-distributed-via-zenmap-winmrt-seo-poisoning/</link>
-        <pubDate>Sat, 24 May 2025 10:26:32 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/bumblebee-malware-distributed-via-zenmap-winmrt-seo-poisoning/</guid>
-	<description><![CDATA[The Bumblebee malware SEO poisoning campaign uncovered earlier this week aimpersonating RVTools is using more typosquatting domainsi mimicking other popular open-source projects to infect devices used by IT staff. [...]]]></description>
  </item>
 
 </channel>
