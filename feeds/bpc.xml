@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 27 May 2025 14:58:40 EDT</pubDate>
+        <pubDate>Tue, 27 May 2025 16:01:27 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Iranian pleads guilty to RobbinHood ransomware attacks, faces 30 years</title>
+        <link>https://www.bleepingcomputer.com/news/security/iranian-pleads-guilty-to-robbinhood-ransomware-attacks-faces-30-years/</link>
+        <pubDate>Tue, 27 May 2025 15:14:56 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/iranian-pleads-guilty-to-robbinhood-ransomware-attacks-faces-30-years/</guid>
+	<description><![CDATA[An Iranian national has pleaded guilty to participating in the Robbinhood ransomware operation, which was used to breach the networks, steal data, and encrypt devices of U.S. cities and organizations in an attempt to extort millions of dollars over a five-year span. [...]]]></description>
+ </item>
+
  <item>
         <title>Not Every CVE Deserves a Fire Drill: Focus on What’s Exploitable</title>
         <link>https://www.bleepingcomputer.com/news/security/not-every-cve-deserves-a-fire-drill-focus-on-whats-exploitable/</link>
@@ -180,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/researchers-claim-chatgpt-o3-bypassed-shutdown-in-controlled-test/</guid>
 	<description><![CDATA[A new report claims that OpenAI's o3 model altered a shutdown script to avoid being turned off, even when explicitly instructed to allow shutdown [...]]]></description>
- </item>
-
- <item>
-        <title>Glitch to end app hosting and user profiles on July 8</title>
-        <link>https://www.bleepingcomputer.com/news/security/glitch-to-end-app-hosting-and-user-profiles-on-july-8/</link>
-        <pubDate>Sun, 25 May 2025 10:36:48 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/glitch-to-end-app-hosting-and-user-profiles-on-july-8/</guid>
-	<description><![CDATA[Glitch has announced it is ending app hosting and user profiles on July 8, 2025, responding to changing market dynamics and extensive abuse problems that have raised operational costs. [...]]]></description>
  </item>
 
 </channel>
