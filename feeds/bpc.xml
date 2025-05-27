@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 27 May 2025 07:02:08 EDT</pubDate>
+        <pubDate>Tue, 27 May 2025 08:01:21 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Russian Void Blizzard cyberspies linked to Dutch police breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/russian-void-blizzard-cyberspies-linked-to-dutch-police-breach/</link>
+        <pubDate>Tue, 27 May 2025 07:16:03 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/russian-void-blizzard-cyberspies-linked-to-dutch-police-breach/</guid>
+	<description><![CDATA[A previously unknown Russian-backed cyberespionage group now tracked as Void Blizzard has been linked to a September 2024 Dutch police security breach. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows Server emergency update fixes Hyper-V VM freezes, restart issues</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-server-emergency-update-fixes-hyper-v-vm-freezes-restart-issues/</link>
@@ -164,36 +180,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/bumblebee-malware-distributed-via-zenmap-winmrt-seo-poisoning/</guid>
 	<description><![CDATA[The Bumblebee malware SEO poisoning campaign uncovered earlier this week aimpersonating RVTools is using more typosquatting domainsi mimicking other popular open-source projects to infect devices used by IT staff. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI confirms Operator Agent is now more accurate with o3</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-operator-agent-is-now-more-accurate-with-o3/</link>
-        <pubDate>Fri, 23 May 2025 19:10:35 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-operator-agent-is-now-more-accurate-with-o3/</guid>
-	<description><![CDATA[OpenAI says Operator Agent now uses the o3 model, which means it's now significantly better at reasoning capabilities. [...]]]></description>
- </item>
-
- <item>
-        <title>Dozens of malicious packages on NPM collect host and network data</title>
-        <link>https://www.bleepingcomputer.com/news/security/dozens-of-malicious-packages-on-npm-collect-host-and-network-data/</link>
-        <pubDate>Fri, 23 May 2025 13:37:41 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/dozens-of-malicious-packages-on-npm-collect-host-and-network-data/</guid>
-	<description><![CDATA[60 packages have been discovered in the NPM index that attempt to collect sensitive host and network data and send it to a Discord webhook controlled by the threat actor. [...]]]></description>
  </item>
 
 </channel>
