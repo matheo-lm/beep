@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 28 May 2025 12:00:10 EDT</pubDate>
+        <pubDate>Wed, 28 May 2025 12:59:43 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Botnet hacks 9,000+ ASUS routers to add persistent SSH backdoor</title>
+        <link>https://www.bleepingcomputer.com/news/security/botnet-hacks-9-000-plus-asus-routers-to-add-persistent-ssh-backdoor/</link>
+        <pubDate>Wed, 28 May 2025 12:44:36 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/botnet-hacks-9-000-plus-asus-routers-to-add-persistent-ssh-backdoor/</guid>
+	<description><![CDATA[Over 9,000 ASUS routers are compromised by a novel botnet dubbed "AyySSHush" that was also observed targeting SOHO routers from Cisco, D-Link, and Linksys. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Dark Partners cybercrime gang fuels large-scale crypto heists</title>
+        <link>https://www.bleepingcomputer.com/news/security/dark-partners-cybercrime-gang-fuels-large-scale-crypto-heists/</link>
+        <pubDate>Wed, 28 May 2025 12:39:13 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/dark-partners-cybercrime-gang-fuels-large-scale-crypto-heists/</guid>
+	<description><![CDATA[A sprawling network of fake AI, VPN, and crypto software download sites is being used by the "Dark Partner" threat actors to conduct a crypto theft attacks worldwide. [...]]]></description>
+ </item>
+
  <item>
         <title>Czechia blames China for Ministry of Foreign Affairs cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/czechia-blames-china-for-ministry-of-foreign-affairs-cyberattack/</link>
@@ -160,36 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-server-emergency-update-fixes-hyper-v-vm-freezes-restart-issues/</guid>
 	<description><![CDATA[Microsoft has released an emergency update to address a known issue causing some Hyper-V virtual machines with Windows 10, Windows 11, and Windows Server to freeze or restart unexpectedly. [...]]]></description>
- </item>
-
- <item>
-        <title>Adidas warns of data breach after customer service provider hack</title>
-        <link>https://www.bleepingcomputer.com/news/security/adidas-warns-of-data-breach-after-customer-service-provider-hack/</link>
-        <pubDate>Tue, 27 May 2025 04:29:49 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/adidas-warns-of-data-breach-after-customer-service-provider-hack/</guid>
-	<description><![CDATA[German sportswear giant Adidas disclosed a data breach after attackers hacked a customer service provider and stole some customers' data. [...]]]></description>
- </item>
-
- <item>
-        <title>Google claims users find ads in AI search 'helpful'</title>
-        <link>https://www.bleepingcomputer.com/news/google/google-claims-users-find-ads-in-ai-search-helpful/</link>
-        <pubDate>Mon, 26 May 2025 08:45:09 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/google/google-claims-users-find-ads-in-ai-search-helpful/</guid>
-	<description><![CDATA[Google AI mode and AI Overviews now have ads, which, according to the search engine giant, are "helpful." [...]]]></description>
  </item>
 
 </channel>
