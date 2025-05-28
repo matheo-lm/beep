@@ -11,11 +11,53 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 28 May 2025 18:02:09 EDT</pubDate>
+        <pubDate>Wed, 28 May 2025 19:02:39 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 10 KB5058481 update brings seconds back to calendar flyout</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058481-update-brings-seconds-back-to-calendar-flyout/</link>
+        <pubDate>Wed, 28 May 2025 18:57:26 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058481-update-brings-seconds-back-to-calendar-flyout/</guid>
+	<description><![CDATA[Microsoft has released the optional KB5058481 preview cumulative update for Windows 10 22H2 with seven changes, including restoring seconds to the time display in the calendar flyout for those who previously lost it. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 KB5058499 update rolls out new Share and Click to Do features</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5058499-update-rolls-out-new-share-and-click-to-do-features/</link>
+        <pubDate>Wed, 28 May 2025 18:19:54 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5058499-update-rolls-out-new-share-and-click-to-do-features/</guid>
+	<description><![CDATA[​​Microsoft has released the KB5058499 preview cumulative update for Windows 11 24H2 with forty-eight new features or changes, with many gradually rolling out, such as the new Windows Share feature and tje Click to Do Preview. [...]]]></description>
+ </item>
+
+ <item>
+        <title>APT41 malware abuses Google Calendar for stealthy C2 communication</title>
+        <link>https://www.bleepingcomputer.com/news/security/apt41-malware-abuses-google-calendar-for-stealthy-c2-communication/</link>
+        <pubDate>Wed, 28 May 2025 18:04:04 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apt41-malware-abuses-google-calendar-for-stealthy-c2-communication/</guid>
+	<description><![CDATA[The Chinese APT41 hacking group uses a new malware named 'ToughProgress' that abuses Google Calendar for command-and-control (C2) operations, hiding malicious activity behind a trusted cloud service. [...]]]></description>
+ </item>
+
  <item>
         <title>New PumaBot botnet brute forces SSH credentials to breach devices</title>
         <link>https://www.bleepingcomputer.com/news/security/new-pumabot-botnet-brute-forces-ssh-credentials-to-breach-devices/</link>
@@ -158,34 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/iranian-pleads-guilty-to-robbinhood-ransomware-attacks-faces-30-years/</guid>
 	<description><![CDATA[An Iranian national has pleaded guilty to participating in the Robbinhood ransomware operation, which was used to breach the networks, steal data, and encrypt devices of U.S. cities and organizations in an attempt to extort millions of dollars over a five-year span. [...]]]></description>
- </item>
-
- <item>
-        <title>Not Every CVE Deserves a Fire Drill: Focus on What’s Exploitable</title>
-        <link>https://www.bleepingcomputer.com/news/security/not-every-cve-deserves-a-fire-drill-focus-on-whats-exploitable/</link>
-        <pubDate>Tue, 27 May 2025 10:25:31 -0400</pubDate>
-        <dc:creator>Sponsored by Picus Security</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/not-every-cve-deserves-a-fire-drill-focus-on-whats-exploitable/</guid>
-	<description><![CDATA[Not every "critical" vulnerability is a critical risk. Picus Exposure Validation cuts through the noise by testing what's actually exploitable in your environment — so you can patch what matters. [...]]]></description>
- </item>
-
- <item>
-        <title>MATLAB dev confirms ransomware attack behind service outage</title>
-        <link>https://www.bleepingcomputer.com/news/security/mathworks-blames-ransomware-attack-for-ongoing-outages/</link>
-        <pubDate>Tue, 27 May 2025 09:37:25 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/mathworks-blames-ransomware-attack-for-ongoing-outages/</guid>
-	<description><![CDATA[MathWorks, a leading developer of mathematical computing and simulation software, has revealed that a recent ransomware attack is behind an ongoing service outage. [...]]]></description>
  </item>
 
 </channel>
