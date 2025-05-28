@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 28 May 2025 13:59:58 EDT</pubDate>
+        <pubDate>Wed, 28 May 2025 14:59:52 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Interlock ransomware gang deploys new NodeSnake RAT on universities</title>
+        <link>https://www.bleepingcomputer.com/news/security/interlock-ransomware-gang-deploys-new-nodesnake-rat-on-universities/</link>
+        <pubDate>Wed, 28 May 2025 14:14:01 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/interlock-ransomware-gang-deploys-new-nodesnake-rat-on-universities/</guid>
+	<description><![CDATA[The Interlock ransomware gang is deploying a previously undocumented remote access trojan (RAT) named NodeSnake against educational institutes for persistent access to corporate networks. [...]]]></description>
+ </item>
+
  <item>
         <title>Botnet hacks 9,000+ ASUS routers to add persistent SSH backdoor</title>
         <link>https://www.bleepingcomputer.com/news/security/botnet-hacks-9-000-plus-asus-routers-to-add-persistent-ssh-backdoor/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/russian-void-blizzard-cyberspies-linked-to-dutch-police-breach/</guid>
 	<description><![CDATA[A previously unknown Russian-backed cyberespionage group now tracked as Laundry Bear has been linked to a September 2024 Dutch police security breach. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows Server emergency update fixes Hyper-V VM freezes, restart issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-server-emergency-update-fixes-hyper-v-vm-freezes-restart-issues/</link>
-        <pubDate>Tue, 27 May 2025 05:25:12 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-server-emergency-update-fixes-hyper-v-vm-freezes-restart-issues/</guid>
-	<description><![CDATA[Microsoft has released an emergency update to address a known issue causing some Hyper-V virtual machines with Windows 10, Windows 11, and Windows Server to freeze or restart unexpectedly. [...]]]></description>
  </item>
 
 </channel>
