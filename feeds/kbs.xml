@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Sat, 24 May 2025 14:33:48 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 28 May 2025 17:41:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,67 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Pakistan Arrests 21 in &#8216;Heartsender&#8217; Malware Service</title>
+		<link>https://krebsonsecurity.com/2025/05/pakistan-arrests-21-in-heartsender-malware-service/</link>
+					<comments>https://krebsonsecurity.com/2025/05/pakistan-arrests-21-in-heartsender-malware-service/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Wed, 28 May 2025 17:41:47 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Breadcrumbs]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[Abdul Moiz]]></category>
+		<category><![CDATA[Adnan Munawar]]></category>
+		<category><![CDATA[Atif Hussain]]></category>
+		<category><![CDATA[Awais Rasool]]></category>
+		<category><![CDATA[Bilal Ahmad]]></category>
+		<category><![CDATA[Burhanul Haq]]></category>
+		<category><![CDATA[Dilbar Hussain]]></category>
+		<category><![CDATA[DomainTools.com]]></category>
+		<category><![CDATA[FudCo]]></category>
+		<category><![CDATA[Fudpage]]></category>
+		<category><![CDATA[Fudtools]]></category>
+		<category><![CDATA[Hamad Nawaz]]></category>
+		<category><![CDATA[HeartSender]]></category>
+		<category><![CDATA[Hussnain Haider]]></category>
+		<category><![CDATA[Muhammad Adeel Akram]]></category>
+		<category><![CDATA[Muhammad Aslam]]></category>
+		<category><![CDATA[Muhammad Nowsherwan]]></category>
+		<category><![CDATA[Muhammad Umar Irshad]]></category>
+		<category><![CDATA[National Cyber Crime Investigation Agency]]></category>
+		<category><![CDATA[NCCIA Director Abdul Ghaffar]]></category>
+		<category><![CDATA[Rameez Shahzad]]></category>
+		<category><![CDATA[Saim Raza]]></category>
+		<category><![CDATA[Scylla Intel]]></category>
+		<category><![CDATA[Syed Saim Ali Shah]]></category>
+		<category><![CDATA[Usama Farooq]]></category>
+		<category><![CDATA[Usama Mehmood]]></category>
+		<category><![CDATA[WeCodeSolutions]]></category>
+		<category><![CDATA[Yasir Ali]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71337</guid>
+
+					<description><![CDATA[Authorities in Pakistan have arrested 21 individuals accused of operating "Heartsender," a once popular spam and malware dissemination service that operated for more than a decade. The main clientele for HeartSender were organized crime groups that tried to trick victim companies into making payments to a third party, and its alleged proprietors were publicly identified by KrebsOnSecurity in 2021 after they inadvertently infected their computers with malware.]]></description>
+										<content:encoded><![CDATA[<p>Authorities in Pakistan have arrested 21 individuals accused of operating &#8220;<strong>Heartsender</strong>,&#8221; a once popular spam and malware dissemination service that operated for more than a decade. The main clientele for HeartSender were organized crime groups that tried to trick victim companies into making payments to a third party, and its alleged proprietors were publicly identified by KrebsOnSecurity in 2021 after they inadvertently infected their computers with malware.</p>
+<div id="attachment_56867" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-56867" decoding="async" class=" wp-image-56867" src="https://krebsonsecurity.com/wp-content/uploads/2021/09/fudcoteam.png" alt="" width="750" height="351" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/09/fudcoteam.png 1694w, https://krebsonsecurity.com/wp-content/uploads/2021/09/fudcoteam-768x359.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/09/fudcoteam-1536x718.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2021/09/fudcoteam-782x366.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-56867" class="wp-caption-text">Some of the core developers and sellers of Heartsender posing at a work outing in 2021. WeCodeSolutions boss Rameez Shahzad (in sunglasses) is in the center of this group photo, which was posted by employee Burhan Ul Haq, pictured just to the right of Shahzad.</p></div>
+<p>A <a href="https://www.dawn.com/news/1911691" target="_blank" rel="noopener">report</a> from the Pakistani media outlet <strong>Dawn</strong> states that authorities there arrested 21 people alleged to have operated Heartsender, a spam delivery service whose homepage openly advertised phishing kits targeting users of various Internet companies, including Microsoft 365, Yahoo, AOL, Intuit, iCloud and ID.me. Pakistan&#8217;s <strong>National Cyber Crime Investigation Agency</strong> (NCCIA) reportedly conducted raids in Lahore&#8217;s Bahria Town and Multan on May 15 and 16.</p>
+<p>The NCCIA told reporters the group’s tools were connected to more than $50m in losses in the United States alone, with European authorities investigating 63 additional cases.</p>
+<p>“This wasn’t just a scam operation &#8211; it was essentially a cybercrime university that empowered fraudsters globally,” <strong>NCCIA Director Abdul Ghaffar</strong> said at a press briefing.</p>
+<p>In January 2025, the FBI and the Dutch Police <a href="https://krebsonsecurity.com/2025/01/fbi-dutch-police-disrupt-manipulaters-phishing-gang/" target="_blank" rel="noopener">seized the technical infrastructure</a> for the cybercrime service, which was marketed under the brands Heartsender, <strong>Fudpage</strong> and <strong>Fudtools</strong> (and many other “fud” variations). The “fud” bit stands for “Fully Un-Detectable,” and it refers to cybercrime resources that will evade detection by security tools like antivirus software or anti-spam appliances.</p>
+<p>The FBI says transnational organized crime groups that purchased these services primarily used them to run business email compromise (BEC) schemes, wherein the cybercrime actors tricked victim companies into making payments to a third party.</p>
+<p>Dawn reported that those arrested included <strong>Rameez Shahzad</strong>, the alleged ringleader of the Heartsender cybercrime business, which most recently operated under the Pakistani front company <strong>WeCodeSolutions</strong>. Mr. Shahzad was named and pictured in a 2021 KrebsOnSecurity story about <a href="https://krebsonsecurity.com/2021/09/fudco-spam-empire-tied-to-pakistani-software-firm/" target="_blank" rel="noopener">a series of remarkable operational security mistakes</a> that exposed their identities and Facebook pages showing employees posing for group photos and socializing at work-related outings.<span id="more-71337"></span></p>
+<p>Prior to folding their operations behind WeCodeSolutions, Shahzad and others arrested this month operated as a web hosting group calling itself <strong>The Manipulaters</strong>. KrebsOnSecurity <a href="https://krebsonsecurity.com/2015/05/phishing-gang-is-audacious-manipulator/" target="_blank" rel="noopener">first wrote about The Manipulaters in May 2015</a>, mainly because their ads at the time were blanketing a number of popular cybercrime forums, and because they were fairly open and brazen about what they were doing — even who they were in real life.</p>
+<p>Sometime in 2019, The Manipulaters <a href="https://krebsonsecurity.com/2021/09/fudco-spam-empire-tied-to-pakistani-software-firm/" target="_blank" rel="noopener">failed to renew their core domain name</a> — manipulaters[.]com — the same one tied to so many of the company’s business operations. That domain was quickly scooped up by <a href="https://www.scyllaintel.com/" target="_blank" rel="noopener">Scylla Intel</a>, a cyber intelligence firm that specializes in connecting cybercriminals to their real-life identities. Soon after, Scylla started receiving large amounts of email correspondence intended for the group&#8217;s owners.</p>
+<p>In 2024, <strong>DomainTools.com</strong> <a href="https://krebsonsecurity.com/2024/04/the-manipulaters-improve-phishing-still-fail-at-opsec/" target="_blank" rel="noopener">found</a> the web-hosted version of Heartsender leaked an extraordinary amount of user information to unauthenticated users, including customer credentials and email records from Heartsender employees. DomainTools says the malware infections on Manipulaters PCs exposed “vast swaths of account-related data along with an outline of the group’s membership, operations, and position in the broader underground economy.”</p>
+<p>Shahzad allegedly used the alias &#8220;<strong>Saim Raza</strong>,&#8221; an identity which has contacted KrebsOnSecurity multiple times over the past decade with demands to remove stories published about the group. The Saim Raza identity most recently contacted this author in November 2024, asserting they had quit the cybercrime industry and turned over a new leaf after a brush with the Pakistani police.</p>
+<p>The arrested suspects include Rameez Shahzad, Muhammad Aslam (Rameez’s father), Atif Hussain, Muhammad Umar Irshad, Yasir Ali, Syed Saim Ali Shah, Muhammad Nowsherwan, Burhanul Haq, Adnan Munawar, Abdul Moiz, Hussnain Haider, Bilal Ahmad, Dilbar Hussain, Muhammad Adeel Akram, Awais Rasool, Usama Farooq, Usama Mehmood and Hamad Nawaz.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/05/pakistan-arrests-21-in-heartsender-malware-service/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Oops: DanaBot Malware Devs Infected Their Own PCs</title>
 		<link>https://krebsonsecurity.com/2025/05/oops-danabot-malware-devs-infected-their-own-pcs/</link>
 					<comments>https://krebsonsecurity.com/2025/05/oops-danabot-malware-devs-infected-their-own-pcs/#comments</comments>
@@ -54,7 +115,7 @@
 
 					<description><![CDATA[The U.S. government today unsealed criminal charges against 16 individuals accused of operating and selling DanaBot, a prolific strain of information-stealing malware that has been sold on Russian cybercrime forums since 2018. The FBI says a newer version of DanaBot was used for espionage, and that many of the defendants exposed their real-life identities after accidentally infecting their own systems with the malware.]]></description>
 										<content:encoded><![CDATA[<p>The U.S. government today unsealed criminal charges against 16 individuals accused of operating and selling <strong>DanaBot</strong>, a prolific strain of information-stealing malware that has been sold on Russian cybercrime forums since 2018. The <strong>FBI</strong> says a newer version of DanaBot was used for espionage, and that many of the defendants exposed their real-life identities after accidentally infecting their own systems with the malware.</p>
-<div id="attachment_71354" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71354" decoding="async" class=" wp-image-71354" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot.png" alt="" width="749" height="650" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot.png 817w, https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot-768x666.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot-782x679.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71354" class="wp-caption-text">DanaBot&#8217;s features, as promoted on its support site. Image: welivesecurity.com.</p></div>
+<div id="attachment_71354" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71354" decoding="async" loading="lazy" class=" wp-image-71354" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot.png" alt="" width="749" height="650" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot.png 817w, https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot-768x666.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot-782x679.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71354" class="wp-caption-text">DanaBot&#8217;s features, as promoted on its support site. Image: welivesecurity.com.</p></div>
 <p>Initially <a href="https://www.proofpoint.com/us/threat-insight/post/danabot-new-banking-trojan-surfaces-down-under-0" target="_blank" rel="noopener">spotted</a> in May 2018 by researchers at the email security firm <strong>Proofpoint</strong>, DanaBot is a malware-as-a-service platform that specializes in credential theft and banking fraud.</p>
 <p>Today, the <strong>U.S. Department of Justice</strong> unsealed a criminal complaint and indictment from 2022, which said the FBI identified at least 40 affiliates who were paying between $3,000 and $4,000 a month for access to the information stealer platform.</p>
 <p>The government says the malware infected more than 300,000 systems globally, causing estimated losses of more than $50 million. The ringleaders of the DanaBot conspiracy are named as <strong>Aleksandr Stepanov</strong>, 39, a.k.a. “<strong>JimmBee</strong>,” and <strong>Artem Aleksandrovich Kalinkin</strong>, 34, a.k.a. “<strong>Onix</strong>”, both of Novosibirsk, Russia. Kalinkin is an IT engineer for the Russian state-owned energy giant <strong>Gazprom</strong>. His Facebook profile name is &#8220;Maffiozi.&#8221;</p>
@@ -605,64 +666,15 @@ February 2023; 391 bitcoin is presently worth more than $26 million.</p>
 		
 		
 			</item>
-		<item>
-		<title>Funding Expires for Key Cyber Vulnerability Database</title>
-		<link>https://krebsonsecurity.com/2025/04/funding-expires-for-key-cyber-vulnerability-database/</link>
-					<comments>https://krebsonsecurity.com/2025/04/funding-expires-for-key-cyber-vulnerability-database/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Wed, 16 Apr 2025 03:59:18 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Latest Warnings]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[Common Vulnerabilities and Exposures]]></category>
-		<category><![CDATA[Corellium]]></category>
-		<category><![CDATA[CVE]]></category>
-		<category><![CDATA[CVE Numbering Authorities]]></category>
-		<category><![CDATA[Matt Tait]]></category>
-		<category><![CDATA[MITRE]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71010</guid>
-
-					<description><![CDATA[A critical resource that cybersecurity professionals worldwide rely on to identify, mitigate and fix security vulnerabilities in software and hardware is in danger of breaking down. The federally funded, non-profit research and development organization MITRE warned today that its contract to maintain the Common Vulnerabilities and Exposures (CVE) program -- which is traditionally funded each year by the Department of Homeland Security -- expires on April 16.]]></description>
-										<content:encoded><![CDATA[<p>A critical resource that cybersecurity professionals worldwide rely on to identify, mitigate and fix security vulnerabilities in software and hardware is in danger of breaking down. The federally funded, non-profit research and development organization <strong>MITRE</strong> warned today that its contract to maintain the <strong>Common Vulnerabilities and Exposures</strong> (CVE) program &#8212; which is traditionally funded each year by the Department of Homeland Security &#8212; expires on April 16.</p>
-<div id="attachment_71016" style="width: 752px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71016" decoding="async" loading="lazy" class=" wp-image-71016" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/mitreletter.png" alt="" width="742" height="942" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/mitreletter.png 788w, https://krebsonsecurity.com/wp-content/uploads/2025/04/mitreletter-768x975.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/mitreletter-782x992.png 782w" sizes="(max-width: 742px) 100vw, 742px" /><p id="caption-attachment-71016" class="wp-caption-text">A letter from MITRE vice president Yosry Barsoum, warning that the funding for the CVE program will expire on April 16, 2025.</p></div>
-<p>Tens of thousands of security flaws in software are found and reported every year, and these vulnerabilities are eventually assigned their own unique CVE tracking number (e.g. <a href="https://www.cve.org/CVERecord?id=CVE-2024-43573" target="_blank" rel="noopener">CVE-2024-43573</a>, which is a <strong>Microsoft Windows</strong> bug that Redmond patched last year).</p>
-<p>There are hundreds of organizations &#8212; known as <strong>CVE Numbering Authorities</strong> (CNAs) &#8212; that are authorized by MITRE to bestow these CVE numbers on newly reported flaws. Many of these CNAs are country and government-specific, or tied to individual software vendors or vulnerability disclosure platforms (a.k.a. bug bounty programs).</p>
-<p>Put simply, MITRE is a critical, widely-used resource for centralizing and standardizing information on software vulnerabilities. That means the pipeline of information it supplies is plugged into an array of cybersecurity tools and services that help organizations identify and patch security holes &#8212; ideally before malware or malcontents can wriggle through them.</p>
-<p>&#8220;What the CVE lists really provide is a standardized way to describe the severity of that defect, and a centralized repository listing which versions of which products are defective and need to be updated,&#8221; said <a href="https://www.lawfaremedia.org/contributors/mtait" target="_blank" rel="noopener">Matt Tait</a>, chief operating officer of <strong>Corellium</strong>, a cybersecurity firm that sells phone-virtualization software for finding security flaws.</p>
-<p>In a letter sent today to the CVE board, MITRE Vice President <strong>Yosry Barsoum </strong>warned that on April 16, 2025, &#8220;the current contracting pathway for MITRE to develop, operate and modernize CVE and several other related programs will expire.&#8221;</p>
-<p>&#8220;If a break in service were to occur, we anticipate multiple impacts to CVE, including deterioration of national vulnerability databases and advisories, tool vendors, incident response operations, and all manner of critical infrastructure,&#8221; Barsoum wrote.</p>
-<p>MITRE told KrebsOnSecurity the CVE website listing vulnerabilities will remain up after the funding expires, but that new CVEs won&#8217;t be added after April 16.</p>
-<div id="attachment_71017" style="width: 760px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-71017" decoding="async" loading="lazy" class="wp-image-71017" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle.png" alt="" width="750" height="335" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle.png 1926w, https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle-768x343.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle-1536x686.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2025/04/CVE-Lifecycle-782x349.png 782w" sizes="(max-width: 750px) 100vw, 750px" /></a><p id="caption-attachment-71017" class="wp-caption-text">A representation of how a vulnerability becomes a CVE, and how that information is consumed. Image: James Berthoty, Latio Tech, via LinkedIn.</p></div>
-<p>DHS officials did not immediately respond to a request for comment. The program is funded through DHS&#8217;s <strong>Cybersecurity &amp; Infrastructure Security Agency</strong> (CISA), which is currently facing <a href="https://krebsonsecurity.com/2025/04/trump-revenge-tour-targets-cyber-leaders-elections/" target="_blank" rel="noopener">deep budget and staffing cuts by the Trump administration</a>. The <a href="https://www.usaspending.gov/award/CONT_AWD_70RCSJ24FR0000019_7001_70RSAT20D00000001_7001" target="_blank" rel="noopener">CVE contract</a> available at USAspending.gov says the project was awarded approximately $40 million last year.<br />
-<span id="more-71010"></span></p>
-<p>Former CISA Director<strong> Jen Easterly</strong> said the CVE program is a bit like the Dewey Decimal System, but for cybersecurity.</p>
-<p>&#8220;It’s the global catalog that helps everyone—security teams, software vendors, researchers, governments—organize and talk about vulnerabilities using the same reference system,&#8221; Easterly said in <a href="https://www.linkedin.com/feed/update/urn:li:activity:7318021583191617538/" target="_blank" rel="noopener">a post on LinkedIn</a>. &#8220;Without it, everyone is using a different catalog or no catalog at all, no one knows if they’re talking about the same problem, defenders waste precious time figuring out what’s wrong, and worst of all, threat actors take advantage of the confusion.&#8221;</p>
-<p><strong>John Hammond</strong>, principal security researcher at the managed security firm <strong>Huntress</strong>, <a href="https://www.reuters.com/technology/us-funding-running-out-critical-cyber-vulnerability-database-manager-says-2025-04-15/" target="_blank" rel="noopener">told Reuters</a> he swore out loud when he heard the news that CVE&#8217;s funding was in jeopardy, and that losing the CVE program would be like losing &#8220;the language and lingo we used to address problems in cybersecurity.&#8221;</p>
-<p>&#8220;I really can&#8217;t help but think this is just going to hurt,&#8221; said Hammond, who posted <a href="https://www.youtube.com/watch?v=itbsfeqrRY4" target="_blank" rel="noopener">a Youtube video</a> to vent about the situation and alert others.</p>
-<p>Several people close to the matter told KrebsOnSecurity this is not the first time the CVE program&#8217;s budget has been left in funding limbo until the last minute. Barsoum&#8217;s letter, which was apparently leaked, sounded a hopeful note, saying the government is making &#8220;considerable efforts to continue MITRE&#8217;s role in support of the program.&#8221;</p>
-<p>Tait said that without the CVE program, risk managers inside companies would need to continuously monitor many other places for information about new vulnerabilities that may jeopardize the security of their IT networks. Meaning, it may become more common that software updates get mis-prioritized, with companies having hackable software deployed for longer than they otherwise would, he said.</p>
-<p>&#8220;Hopefully they will resolve this, but otherwise the list will rapidly fall out of date and stop being useful,&#8221; he said.</p>
-<p><strong>Update, April 16, 11:00 a.m. ET:</strong> The CVE board today announced the creation of non-profit entity called <strong>The CVE Foundation </strong>that will continue the program&#8217;s work under a new, unspecified funding mechanism and organizational structure.</p>
-<p>&#8220;Since its inception, the CVE Program has operated as a U.S. government-funded initiative, with oversight and management provided under contract,&#8221; the press release reads. &#8220;While this structure has supported the program&#8217;s growth, it has also raised longstanding concerns among members of the CVE Board about the sustainability and neutrality of a globally relied-upon resource being tied to a single government sponsor.&#8221;</p>
-<p>The organization&#8217;s website, <a href="https://www.thecvefoundation.org/home" target="_blank" rel="noopener">thecvefoundation.org</a>, is less than a day old and currently hosts no content other than the press release heralding its creation. The announcement said the foundation would release more information about its structure and transition planning in the coming days.</p>
-<p><strong>Update, April 16, 4:26 p.m. ET:</strong> MITRE issued a statement today saying it &#8220;identified incremental funding to keep the programs operational. We appreciate the overwhelming support for these programs that have been expressed by the global cyber community, industry and government over the last 24 hours. The government continues to make considerable efforts to support MITRE&#8217;s role in the program and MITRE remains committed to CVE and CWE as global resources.&#8221;</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/04/funding-expires-for-key-cyber-vulnerability-database/feed/</wfw:commentRss>
-			<slash:comments>71</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 279/279 objects using memcached
+Object Caching 298/298 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-05-28 12:54:50 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-05-28 13:59:40 by W3 Total Cache
 -->
