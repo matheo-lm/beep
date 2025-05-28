@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 28 May 2025 14:59:52 EDT</pubDate>
+        <pubDate>Wed, 28 May 2025 15:59:44 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New PumaBot botnet brute forces SSH credentials to breach devices</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-pumabot-botnet-brute-forces-ssh-credentials-to-breach-devices/</link>
+        <pubDate>Wed, 28 May 2025 15:59:38 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-pumabot-botnet-brute-forces-ssh-credentials-to-breach-devices/</guid>
+	<description><![CDATA[A newly discovered Go-based Linux botnet malware named PumaBot is brute-forcing SSH credentials on embedded IoT devices to deploy malicious payloads. [...]]]></description>
+ </item>
+
  <item>
         <title>Interlock ransomware gang deploys new NodeSnake RAT on universities</title>
         <link>https://www.bleepingcomputer.com/news/security/interlock-ransomware-gang-deploys-new-nodesnake-rat-on-universities/</link>
@@ -172,22 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/mathworks-blames-ransomware-attack-for-ongoing-outages/</guid>
 	<description><![CDATA[MathWorks, a leading developer of mathematical computing and simulation software, has revealed that a recent ransomware attack is behind an ongoing service outage. [...]]]></description>
- </item>
-
- <item>
-        <title>Russian Laundry Bear cyberspies linked to Dutch Police hack</title>
-        <link>https://www.bleepingcomputer.com/news/security/russian-void-blizzard-cyberspies-linked-to-dutch-police-breach/</link>
-        <pubDate>Tue, 27 May 2025 07:16:03 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/russian-void-blizzard-cyberspies-linked-to-dutch-police-breach/</guid>
-	<description><![CDATA[A previously unknown Russian-backed cyberespionage group now tracked as Laundry Bear has been linked to a September 2024 Dutch police security breach. [...]]]></description>
  </item>
 
 </channel>
