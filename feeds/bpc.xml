@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 29 May 2025 07:01:34 EDT</pubDate>
+        <pubDate>Thu, 29 May 2025 08:04:56 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Victoria’s Secret takes down website after security incident</title>
+        <link>https://www.bleepingcomputer.com/news/security/victorias-secret-takes-down-website-after-security-incident/</link>
+        <pubDate>Thu, 29 May 2025 07:30:41 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/victorias-secret-takes-down-website-after-security-incident/</guid>
+	<description><![CDATA[Victoria's Secret, the fashion giant, has taken down its website and some store services because of an ongoing security incident [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: Windows 11 might fail to start after installing KB5058405</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-might-fail-to-start-after-installing-kb5058405/</link>
@@ -184,22 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-wants-windows-to-update-all-software-on-your-pc/</guid>
 	<description><![CDATA[Microsoft has introduced a new update orchestration platform built on the existing Windows Update infrastructure, which aims to unify the updating system for all apps, drivers, and system components on Windows systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Apple blocked over $9 billion in App Store fraud in five years</title>
-        <link>https://www.bleepingcomputer.com/news/apple/apple-blocked-over-9-billion-in-apap-store-fraud-since-2020/</link>
-        <pubDate>Wed, 28 May 2025 06:18:34 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Apple]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/apple/apple-blocked-over-9-billion-in-apap-store-fraud-since-2020/</guid>
-	<description><![CDATA[Apple says it blocked over $9 billion in fraudulent App Store transactions over the last five years, with over $2 billion in potentially fraudulent sanctions prevented in 2024 alone. [...]]]></description>
  </item>
 
 </channel>
