@@ -441,6 +441,19 @@
       "categories": [],
       "isoDate": "2025-05-23T09:05:00.000Z",
       "tag": "exploits"
+    },
+    {
+      "creator": "Google Project Zero (noreply@blogger.com)",
+      "title": "The Windows Registry Adventure #8: Practical exploitation of hive memory corruption",
+      "link": "https://googleprojectzero.blogspot.com/2025/05/the-windows-registry-adventure-8-exploitation.html",
+      "pubDate": "2025-05-28T11:09:00.000-07:00",
+      "dc:creator": "Google Project Zero (noreply@blogger.com)",
+      "content": "Posted by Mateusz Jurczyk, Google Project Zero\nIn the previous blog post, we focused on the general security analysis of the registry and how to effectively approach finding vulnerabilities in it. Here, we will direct our attention to the e[...]",
+      "contentSnippet": "Posted by Mateusz Jurczyk, Google Project Zero\nIn the previous blog post, we focused on the general security analysis of the registry and how to effectively approach finding vulnerabilities in it. Here, we will direct our attention to the e[...]",
+      "guid": "https://googleprojectzero.blogspot.com/2025/05/the-windows-registry-adventure-8-exploitation.html",
+      "categories": [],
+      "isoDate": "2025-05-28T18:09:00.000Z",
+      "tag": "exploits"
     }
   ]
 }
