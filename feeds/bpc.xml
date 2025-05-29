@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 29 May 2025 04:01:10 EDT</pubDate>
+        <pubDate>Thu, 29 May 2025 04:59:49 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Data broker LexisNexis discloses data breach affecting 364,000 people</title>
+        <link>https://www.bleepingcomputer.com/news/security/data-broker-lexisnexis-discloses-data-breach-affecting-364-000-people/</link>
+        <pubDate>Thu, 29 May 2025 04:28:25 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/data-broker-lexisnexis-discloses-data-breach-affecting-364-000-people/</guid>
+	<description><![CDATA[Data broker giant LexisNexis Risk Solutions has revealed that unknown attackers stole the personal information of over 364,000 individuals in a December breach. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 10 KB5058481 update brings seconds back to calendar flyout</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058481-update-brings-seconds-back-to-calendar-flyout/</link>
@@ -186,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/dragonforce-ransomware-abuses-simplehelp-in-msp-supply-chain-attack/</guid>
 	<description><![CDATA[The DragonForce ransomware operation successfully breached a managed service provider and used its SimpleHelp remote monitoring and management (RMM) platform to steal data and deploy encryptors on downstream customers' systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Iranian pleads guilty to RobbinHood ransomware attacks, faces 30 years</title>
-        <link>https://www.bleepingcomputer.com/news/security/iranian-pleads-guilty-to-robbinhood-ransomware-attacks-faces-30-years/</link>
-        <pubDate>Tue, 27 May 2025 15:14:56 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/iranian-pleads-guilty-to-robbinhood-ransomware-attacks-faces-30-years/</guid>
-	<description><![CDATA[An Iranian national has pleaded guilty to participating in the Robbinhood ransomware operation, which was used to breach the networks, steal data, and encrypt devices of U.S. cities and organizations in an attempt to extort millions of dollars over a five-year span. [...]]]></description>
  </item>
 
 </channel>
