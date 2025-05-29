@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 29 May 2025 12:03:49 EDT</pubDate>
+        <pubDate>Thu, 29 May 2025 13:03:13 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Threat actors abuse Google Apps Script in evasive phishing attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/threat-actors-abuse-google-apps-script-in-evasive-phishing-attacks/</link>
+        <pubDate>Thu, 29 May 2025 12:25:36 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/threat-actors-abuse-google-apps-script-in-evasive-phishing-attacks/</guid>
+	<description><![CDATA[Threat actors are abusing the trusted Google platform 'Google Apps Script' to host phishing pages, making them appear legitimate and eliminating the risk of them getting flagged by security tools. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Apple Safari exposes users to fullscreen browser-in-the-middle attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/apple-safari-exposes-users-to-fullscreen-browser-in-the-middle-attacks/</link>
+        <pubDate>Thu, 29 May 2025 12:06:25 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apple-safari-exposes-users-to-fullscreen-browser-in-the-middle-attacks/</guid>
+	<description><![CDATA[A weakness in Apple's Safari web browser allows threat actors to leverage the fullscreen browser-in-the-middle (BitM) technique to steal account credentials from unsuspecting users. [...]]]></description>
+ </item>
+
  <item>
         <title>US sanctions firm linked to cyber scams behind $200 million in losses</title>
         <link>https://www.bleepingcomputer.com/news/security/us-sanctions-company-linked-to-hundreds-of-thousands-of-cyber-scam-sites/</link>
@@ -168,34 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/interlock-ransomware-gang-deploys-new-nodesnake-rat-on-universities/</guid>
 	<description><![CDATA[The Interlock ransomware gang is deploying a previously undocumented remote access trojan (RAT) named NodeSnake against educational institutes for persistent access to corporate networks. [...]]]></description>
- </item>
-
- <item>
-        <title>Botnet hacks 9,000+ ASUS routers to add persistent SSH backdoor</title>
-        <link>https://www.bleepingcomputer.com/news/security/botnet-hacks-9-000-plus-asus-routers-to-add-persistent-ssh-backdoor/</link>
-        <pubDate>Wed, 28 May 2025 12:44:36 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/botnet-hacks-9-000-plus-asus-routers-to-add-persistent-ssh-backdoor/</guid>
-	<description><![CDATA[Over 9,000 ASUS routers are compromised by a novel botnet dubbed "AyySSHush" that was also observed targeting SOHO routers from Cisco, D-Link, and Linksys. [...]]]></description>
- </item>
-
- <item>
-        <title>Dark Partners cybercrime gang fuels large-scale crypto heists</title>
-        <link>https://www.bleepingcomputer.com/news/security/dark-partners-cybercrime-gang-fuels-large-scale-crypto-heists/</link>
-        <pubDate>Wed, 28 May 2025 12:39:13 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/dark-partners-cybercrime-gang-fuels-large-scale-crypto-heists/</guid>
-	<description><![CDATA[A sprawling network of fake AI, VPN, and crypto software download sites is being used by the "Dark Partner" threat actors to conduct a crypto theft attacks worldwide. [...]]]></description>
  </item>
 
 </channel>
