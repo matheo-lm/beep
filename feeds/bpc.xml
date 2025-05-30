@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 30 May 2025 12:02:33 EDT</pubDate>
+        <pubDate>Fri, 30 May 2025 12:59:29 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Police takes down AVCheck site used by cybercriminals to scan malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-takes-down-avcheck-antivirus-site-used-by-cybercriminals/</link>
+        <pubDate>Fri, 30 May 2025 12:46:02 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-takes-down-avcheck-antivirus-site-used-by-cybercriminals/</guid>
+	<description><![CDATA[An international law enforcement operation has taken down AVCheck, a service used by cybercriminals to test whether their malware is detected by commercial antivirus software before deploying it in the wild. [...]]]></description>
+ </item>
+
  <item>
         <title>Germany doxxes Conti ransomware and TrickBot ring leader</title>
         <link>https://www.bleepingcomputer.com/news/security/germany-doxxes-conti-ransomware-and-trickbot-ring-leader/</link>
@@ -174,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/victorias-secret-takes-down-website-after-security-incident/</guid>
 	<description><![CDATA[Victoria's Secret, the fashion giant, has taken down its website and some store services because of an ongoing security incident [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Windows 11 might fail to start after installing KB5058405</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-might-fail-to-start-after-installing-kb5058405/</link>
-        <pubDate>Thu, 29 May 2025 05:59:54 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-might-fail-to-start-after-installing-kb5058405/</guid>
-	<description><![CDATA[Microsoft has confirmed that some Windows 11 systems might fail to start after installing the KB5058405 security update released during this month's Patch Tuesday. [...]]]></description>
  </item>
 
 </channel>
