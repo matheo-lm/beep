@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 30 May 2025 11:01:23 EDT</pubDate>
+        <pubDate>Fri, 30 May 2025 12:02:33 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Germany doxxes Conti ransomware and TrickBot ring leader</title>
+        <link>https://www.bleepingcomputer.com/news/security/germany-doxxes-conti-ransomware-and-trickbot-ring-leader/</link>
+        <pubDate>Fri, 30 May 2025 11:57:26 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/germany-doxxes-conti-ransomware-and-trickbot-ring-leader/</guid>
+	<description><![CDATA[The Federal Criminal Police Office of Germany (Bundeskriminalamt or BKA) claims that Stern, the leader of the Trickbot and Conti cybercrime gangs, is a 36-year-old Russian named Vitaly Nikolaevich Kovalev. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Getting Exposure Management Right: Insights from 500 CISOs </title>
+        <link>https://www.bleepingcomputer.com/news/security/getting-exposure-management-right-insights-from-500-cisos/</link>
+        <pubDate>Fri, 30 May 2025 10:00:00 -0400</pubDate>
+        <dc:creator>Sponsored by Pentera</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/getting-exposure-management-right-insights-from-500-cisos/</guid>
+	<description><![CDATA[Pentesting isn't just about finding flaws — it's about knowing which ones matter. Pentera's 2025 State of Pentesting report uncovers which assets attackers target most, where security teams are making progress, and which exposures still fly under the radar. Focus on reducing breach impact, not just breach count. [...]]]></description>
+ </item>
+
  <item>
         <title>Mozilla releases Firefox 139.0.1 update to fix artifacts on Nvidia GPUs</title>
         <link>https://www.bleepingcomputer.com/news/software/mozilla-releases-firefox-13901-update-to-fix-artifacts-on-nvidia-gpus/</link>
@@ -160,48 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-might-fail-to-start-after-installing-kb5058405/</guid>
 	<description><![CDATA[Microsoft has confirmed that some Windows 11 systems might fail to start after installing the KB5058405 security update released during this month's Patch Tuesday. [...]]]></description>
- </item>
-
- <item>
-        <title>Data broker LexisNexis discloses data breach affecting 364,000 people</title>
-        <link>https://www.bleepingcomputer.com/news/security/data-broker-lexisnexis-discloses-data-breach-affecting-364-000-people/</link>
-        <pubDate>Thu, 29 May 2025 04:28:25 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/data-broker-lexisnexis-discloses-data-breach-affecting-364-000-people/</guid>
-	<description><![CDATA[Data broker giant LexisNexis Risk Solutions has revealed that unknown attackers stole the personal information of over 364,000 individuals in a December breach. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 10 KB5058481 update brings seconds back to calendar flyout</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058481-update-brings-seconds-back-to-calendar-flyout/</link>
-        <pubDate>Wed, 28 May 2025 18:57:26 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5058481-update-brings-seconds-back-to-calendar-flyout/</guid>
-	<description><![CDATA[Microsoft has released the optional KB5058481 preview cumulative update for Windows 10 22H2 with seven changes, including restoring seconds to the time display in the calendar flyout for those who previously lost it. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 KB5058499 update rolls out new Share and Click to Do features</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5058499-update-rolls-out-new-share-and-click-to-do-features/</link>
-        <pubDate>Wed, 28 May 2025 18:19:54 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5058499-update-rolls-out-new-share-and-click-to-do-features/</guid>
-	<description><![CDATA[​​Microsoft has released the KB5058499 preview cumulative update for Windows 11 24H2 with forty-eight new features or changes, with many gradually rolling out, such as the new Windows Share feature and tje Click to Do Preview. [...]]]></description>
  </item>
 
 </channel>
