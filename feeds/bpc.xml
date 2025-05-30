@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 29 May 2025 18:58:10 EDT</pubDate>
+        <pubDate>Thu, 29 May 2025 20:13:14 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Mozilla releases Firefox 139.0.1 update to fix artifacts on Nvidia GPUs</title>
+        <link>https://www.bleepingcomputer.com/news/software/mozilla-releases-firefox-13901-update-to-fix-artifacts-on-nvidia-gpus/</link>
+        <pubDate>Thu, 29 May 2025 19:58:04 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Software]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/software/mozilla-releases-firefox-13901-update-to-fix-artifacts-on-nvidia-gpus/</guid>
+	<description><![CDATA[Mozilla has rolled out an emergency Firefox 139.0.1 update after the Tuesday release caused graphical artifacts on PCs with NVIDIA GPUs. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft Authenticator now warns to export passwords before July cutoff</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-authenticator-now-warns-to-export-passwords-before-july-cutoff/</link>
+        <pubDate>Thu, 29 May 2025 19:49:49 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-authenticator-now-warns-to-export-passwords-before-july-cutoff/</guid>
+	<description><![CDATA[The Microsoft Authenticator app is now issuing notifications warning that the password autofill feature is being deprecated in July, suggesting users move to Microsoft Edge instead. [...]]]></description>
+ </item>
+
  <item>
         <title>ConnectWise breached in cyberattack linked to nation-state hackers</title>
         <link>https://www.bleepingcomputer.com/news/security/connectwise-breached-in-cyberattack-linked-to-nation-state-hackers/</link>
@@ -170,34 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5058499-update-rolls-out-new-share-and-click-to-do-features/</guid>
 	<description><![CDATA[​​Microsoft has released the KB5058499 preview cumulative update for Windows 11 24H2 with forty-eight new features or changes, with many gradually rolling out, such as the new Windows Share feature and tje Click to Do Preview. [...]]]></description>
- </item>
-
- <item>
-        <title>APT41 malware abuses Google Calendar for stealthy C2 communication</title>
-        <link>https://www.bleepingcomputer.com/news/security/apt41-malware-abuses-google-calendar-for-stealthy-c2-communication/</link>
-        <pubDate>Wed, 28 May 2025 18:04:04 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/apt41-malware-abuses-google-calendar-for-stealthy-c2-communication/</guid>
-	<description><![CDATA[The Chinese APT41 hacking group uses a new malware named 'ToughProgress' that abuses Google Calendar for command-and-control (C2) operations, hiding malicious activity behind a trusted cloud service. [...]]]></description>
- </item>
-
- <item>
-        <title>New PumaBot botnet brute forces SSH credentials to breach devices</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-pumabot-botnet-brute-forces-ssh-credentials-to-breach-devices/</link>
-        <pubDate>Wed, 28 May 2025 15:59:38 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-pumabot-botnet-brute-forces-ssh-credentials-to-breach-devices/</guid>
-	<description><![CDATA[A newly discovered Go-based Linux botnet malware named PumaBot is brute-forcing SSH credentials on embedded IoT devices to deploy malicious payloads. [...]]]></description>
  </item>
 
 </channel>
