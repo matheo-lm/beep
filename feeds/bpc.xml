@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 31 May 2025 16:58:30 EDT</pubDate>
+        <pubDate>Sat, 31 May 2025 17:58:18 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Exploit details for max severity Cisco IOS XE flaw now public</title>
+        <link>https://www.bleepingcomputer.com/news/security/exploit-details-for-max-severity-cisco-ios-xe-flaw-now-public/</link>
+        <pubDate>Sat, 31 May 2025 10:09:19 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/exploit-details-for-max-severity-cisco-ios-xe-flaw-now-public/</guid>
+	<description><![CDATA[Technical details about a maximum-severity Cisco IOS XE WLC arbitrary file upload flaw tracked as CVE-2025-20188 have been made publicly available, bringing us closer to a working exploit. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers are exploiting critical flaw in vBulletin forum software</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-critical-flaw-in-vbulletin-forum-software/</link>
@@ -176,34 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-sanctions-company-linked-to-hundreds-of-thousands-of-cyber-scam-sites/</guid>
 	<description><![CDATA[The U.S. Treasury Department has sanctioned Funnull Technology, a Philippines-based company that supports hundreds of thousands of malicious websites behind cyber scams linked to over $200 million in losses for Americans. [...]]]></description>
- </item>
-
- <item>
-        <title>Cybercriminals exploit AI hype to spread ransomware, malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/cybercriminals-exploit-ai-hype-to-spread-ransomware-malware/</link>
-        <pubDate>Thu, 29 May 2025 10:25:52 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cybercriminals-exploit-ai-hype-to-spread-ransomware-malware/</guid>
-	<description><![CDATA[Threat actors linked to lesser-known ransomware and malware projects now use AI tools as lures to infect unsuspecting victims with malicious payloads. [...]]]></description>
- </item>
-
- <item>
-        <title>Attackers are mapping your attack surface—are you?</title>
-        <link>https://www.bleepingcomputer.com/news/security/attackers-are-mapping-your-attack-surface-are-you/</link>
-        <pubDate>Thu, 29 May 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by Sprocket Security</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/attackers-are-mapping-your-attack-surface-are-you/</guid>
-	<description><![CDATA[Attackers are mapping your infrastructure before you even realize what's exposed. Sprocket ASM flips the script — giving you the same recon capabilities they use, plus change detection and actionable insights to close gaps fast. See your attack surface the way hackers do and beat them to it. [...]]]></description>
  </item>
 
 </channel>
