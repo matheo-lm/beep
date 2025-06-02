@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 02 Jun 2025 18:00:18 EDT</pubDate>
+        <pubDate>Mon, 02 Jun 2025 19:02:00 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cartier discloses data breach amid fashion brand cyberattacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/cartier-discloses-data-breach-amid-fashion-brand-cyberattacks/</link>
+        <pubDate>Mon, 02 Jun 2025 18:31:49 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cartier-discloses-data-breach-amid-fashion-brand-cyberattacks/</guid>
+	<description><![CDATA[Luxury fashion brand Cartier is warning customers it suffered a data breach that exposed customers' personal information after its systems were compromised. [...]]]></description>
+ </item>
+
+ <item>
+        <title>The North Face warns customers of April credential stuffing attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/the-north-face-warns-customers-of-april-credential-stuffing-attack/</link>
+        <pubDate>Mon, 02 Jun 2025 14:37:19 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/the-north-face-warns-customers-of-april-credential-stuffing-attack/</guid>
+	<description><![CDATA[Outdoor apparel retailer The North Face is warning customers that their personal information was stolen in credential stuffing attacks targeting the company's website in April. [...]]]></description>
+ </item>
+
  <item>
         <title>SentinelOne: Last week’s 7-hour outage caused by software flaw</title>
         <link>https://www.bleepingcomputer.com/news/technology/sentinelone-last-weeks-7-hour-outage-caused-by-software-flaw/</link>
@@ -162,34 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/police-takes-down-avcheck-antivirus-site-used-by-cybercriminals/</guid>
 	<description><![CDATA[An international law enforcement operation has taken down AVCheck, a service used by cybercriminals to test whether their malware is detected by commercial antivirus software before deploying it in the wild. [...]]]></description>
- </item>
-
- <item>
-        <title>Germany doxxes Conti ransomware and TrickBot ring leader</title>
-        <link>https://www.bleepingcomputer.com/news/security/germany-doxxes-conti-ransomware-and-trickbot-ring-leader/</link>
-        <pubDate>Fri, 30 May 2025 11:57:26 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/germany-doxxes-conti-ransomware-and-trickbot-ring-leader/</guid>
-	<description><![CDATA[The Federal Criminal Police Office of Germany (Bundeskriminalamt or BKA) claims that Stern, the leader of the Trickbot and Conti cybercrime gangs, is a 36-year-old Russian named Vitaly Nikolaevich Kovalev. [...]]]></description>
- </item>
-
- <item>
-        <title>Getting Exposure Management Right: Insights from 500 CISOs </title>
-        <link>https://www.bleepingcomputer.com/news/security/getting-exposure-management-right-insights-from-500-cisos/</link>
-        <pubDate>Fri, 30 May 2025 10:00:00 -0400</pubDate>
-        <dc:creator>Sponsored by Pentera</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/getting-exposure-management-right-insights-from-500-cisos/</guid>
-	<description><![CDATA[Pentesting isn't just about finding flaws — it's about knowing which ones matter. Pentera's 2025 State of Pentesting report uncovers which assets attackers target most, where security teams are making progress, and which exposures still fly under the radar. Focus on reducing breach impact, not just breach count. [...]]]></description>
  </item>
 
 </channel>
