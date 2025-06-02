@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 02 Jun 2025 07:01:55 EDT</pubDate>
+        <pubDate>Mon, 02 Jun 2025 08:01:38 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Qualcomm fixes three Adreno GPU zero-days exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/qualcomm-fixes-three-adreno-gpu-zero-days-exploited-in-attacks/</link>
+        <pubDate>Mon, 02 Jun 2025 07:11:14 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/qualcomm-fixes-three-adreno-gpu-zero-days-exploited-in-attacks/</guid>
+	<description><![CDATA[Qualcomm has released security patches for three zero-day vulnerabilities in the Adreno Graphics Processing Unit (GPU) driver that impact dozens of chipsets and are actively exploited in targeted attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Exploit details for max severity Cisco IOS XE flaw now public</title>
         <link>https://www.bleepingcomputer.com/news/security/exploit-details-for-max-severity-cisco-ios-xe-flaw-now-public/</link>
@@ -146,50 +160,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/connectwise-breached-in-cyberattack-linked-to-nation-state-hackers/</guid>
 	<description><![CDATA[IT management software firm ConnectWise says a suspected state-sponsored cyberattack breached its environment and impacted a limited number of ScreenConnect customers. [...]]]></description>
- </item>
-
- <item>
-        <title>Threat actors abuse Google Apps Script in evasive phishing attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/threat-actors-abuse-google-apps-script-in-evasive-phishing-attacks/</link>
-        <pubDate>Thu, 29 May 2025 12:25:36 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/threat-actors-abuse-google-apps-script-in-evasive-phishing-attacks/</guid>
-	<description><![CDATA[Threat actors are abusing the trusted Google platform 'Google Apps Script' to host phishing pages, making them appear legitimate and eliminating the risk of them getting flagged by security tools. [...]]]></description>
- </item>
-
- <item>
-        <title>Apple Safari exposes users to fullscreen browser-in-the-middle attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/apple-safari-exposes-users-to-fullscreen-browser-in-the-middle-attacks/</link>
-        <pubDate>Thu, 29 May 2025 12:06:25 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/apple-safari-exposes-users-to-fullscreen-browser-in-the-middle-attacks/</guid>
-	<description><![CDATA[A weakness in Apple's Safari web browser allows threat actors to leverage the fullscreen browser-in-the-middle (BitM) technique to steal account credentials from unsuspecting users. [...]]]></description>
- </item>
-
- <item>
-        <title>US sanctions firm linked to cyber scams behind $200 million in losses</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-sanctions-company-linked-to-hundreds-of-thousands-of-cyber-scam-sites/</link>
-        <pubDate>Thu, 29 May 2025 11:42:38 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-sanctions-company-linked-to-hundreds-of-thousands-of-cyber-scam-sites/</guid>
-	<description><![CDATA[The U.S. Treasury Department has sanctioned Funnull Technology, a Philippines-based company that supports hundreds of thousands of malicious websites behind cyber scams linked to over $200 million in losses for Americans. [...]]]></description>
  </item>
 
 </channel>
