@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 02 Jun 2025 13:02:00 EDT</pubDate>
+        <pubDate>Mon, 02 Jun 2025 14:01:53 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google Chrome to distrust Chunghwa Telecom, Netlock certificates in August</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-chrome-to-distrust-chunghwa-telecom-netlock-certificates-in-august/</link>
+        <pubDate>Mon, 02 Jun 2025 13:36:30 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-chrome-to-distrust-chunghwa-telecom-netlock-certificates-in-august/</guid>
+	<description><![CDATA[Google says it will no longer trust root CA certificates signed by Chunghwa Telecom and Netlock in the Chrome Root Store due to a pattern of compliance failures and failure to make improvements. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft and CrowdStrike partner to link hacking group names</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-and-crowdstrike-partner-to-link-hacking-group-names/</link>
@@ -158,22 +174,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/getting-exposure-management-right-insights-from-500-cisos/</guid>
 	<description><![CDATA[Pentesting isn't just about finding flaws — it's about knowing which ones matter. Pentera's 2025 State of Pentesting report uncovers which assets attackers target most, where security teams are making progress, and which exposures still fly under the radar. Focus on reducing breach impact, not just breach count. [...]]]></description>
- </item>
-
- <item>
-        <title>Mozilla releases Firefox 139.0.1 update to fix artifacts on Nvidia GPUs</title>
-        <link>https://www.bleepingcomputer.com/news/software/mozilla-releases-firefox-13901-update-to-fix-artifacts-on-nvidia-gpus/</link>
-        <pubDate>Thu, 29 May 2025 19:58:04 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Software]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/software/mozilla-releases-firefox-13901-update-to-fix-artifacts-on-nvidia-gpus/</guid>
-	<description><![CDATA[Mozilla has rolled out an emergency Firefox 139.0.1 update after the Tuesday release caused graphical artifacts on PCs with NVIDIA GPUs. [...]]]></description>
  </item>
 
 </channel>
