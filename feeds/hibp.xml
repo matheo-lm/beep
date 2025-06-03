@@ -6,6 +6,14 @@
     <description>The latest publicly leaked data breaches to hit Have I Been Pwned</description>
     <a10:link href="https://haveibeenpwned.com/feed/breaches/" rel="self" type="application/rss+xml" />
     <item>
+      <guid isPermaLink="false">ColoCrossing</guid>
+      <link>https://haveibeenpwned.com/Breach/ColoCrossing</link>
+      <title>ColoCrossing - 7,183 breached accounts</title>
+      <description>In May 2025, &lt;a href="https://lowendbox.com/blog/colocloud-breach-virtualizer-bugs-lead-to-wild-lowendtalk-thread/" target="_blank" rel="noopener"&gt;hosting provider ColoCrossing identified a data breach that impacted customers of their ColoCloud virtual server product&lt;/a&gt;. ColoCrossing advised the incident was isolated to their cloud/VPS platform and stemmed from a single sign-on vulnerability. 7k email addresses were exposed in the incident along with names and MD5-Crypt password hashes.</description>
+      <pubDate>Tue, 03 Jun 2025 05:09:53 Z</pubDate>
+      <a10:updated>2025-06-03T05:09:53Z</a10:updated>
+    </item>
+    <item>
       <guid isPermaLink="false">FreeMobile</guid>
       <link>https://haveibeenpwned.com/Breach/FreeMobile</link>
       <title>Free - 13,926,173 breached accounts</title>
@@ -156,14 +164,6 @@
       <description>In February 2025, the spyware service &lt;a href="https://techcrunch.com/2025/02/20/stalkerware-apps-cocospy-spyic-exposing-phone-data-of-millions-of-people/" target="_blank" rel="noopener"&gt;Cocospy suffered a data breach along with sibling spyware service, Spyic&lt;/a&gt;. The Cocospy breach alone exposed almost 1.8M customer email addresses which were provided to HIBP, and reportedly also enabled unauthorised access to captured messages, photos, call logs, and more. The data was provided to HIBP by a source who requested it be attributed to &amp;quot;zathienaephi@proton.me&amp;quot;.</description>
       <pubDate>Thu, 20 Feb 2025 22:36:16 Z</pubDate>
       <a10:updated>2025-02-20T22:36:16Z</a10:updated>
-    </item>
-    <item>
-      <guid isPermaLink="false">Storenvy</guid>
-      <link>https://haveibeenpwned.com/Breach/Storenvy</link>
-      <title>Storenvy - 11,052,071 breached accounts</title>
-      <description>In mid-2019, &lt;a href="https://hackread.com/e-commerce-firm-storenvy-hacked-accounts-leaked/" target="_blank" rel="noopener"&gt;the e-commerce website Storenvy suffered a data breach that exposed millions of customer records&lt;/a&gt;. A portion of the breached records were subsequently posted to a hacking forum with cracked password hashes, whilst the entire corpus of 23M rows was put up for sale. The data contained 11M unique email addresses alongside usernames, IP addresses, the user's city, gender date of birth and original salted SHA-1 password hash.</description>
-      <pubDate>Sun, 16 Feb 2025 08:31:34 Z</pubDate>
-      <a10:updated>2025-02-16T08:31:34Z</a10:updated>
     </item>
   </channel>
 </rss>
