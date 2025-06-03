@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 03 Jun 2025 13:00:27 EDT</pubDate>
+        <pubDate>Tue, 03 Jun 2025 14:03:00 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Coinbase breach tied to bribed TaskUs support agents in India</title>
+        <link>https://www.bleepingcomputer.com/news/security/coinbase-breach-tied-to-bribed-taskus-support-agents-in-india/</link>
+        <pubDate>Tue, 03 Jun 2025 13:17:52 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/coinbase-breach-tied-to-bribed-taskus-support-agents-in-india/</guid>
+	<description><![CDATA[A recently disclosed data breach at Coinbase has been linked to India-based customer support representatives from outsourcing firm TaskUs, who threat actors bribed to steal data from the crypto exchange. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft adds quick machine recovery to Windows 11 settings</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-quick-machine-recovery-to-windows-11-settings/</link>
@@ -208,20 +224,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-and-crowdstrike-partner-to-link-hacking-group-names/</guid>
 	<description><![CDATA[Microsoft and CrowdStrike announced today that they've partnered to connect the aliases used for specific threat groups without actually using a single naming standard. [...]]]></description>
- </item>
-
- <item>
-        <title>‘Russian Market’ emerges as a go-to shop for stolen credentials</title>
-        <link>https://www.bleepingcomputer.com/news/security/russian-market-emerges-as-a-go-to-shop-for-stolen-credentials/</link>
-        <pubDate>Mon, 02 Jun 2025 10:28:33 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/russian-market-emerges-as-a-go-to-shop-for-stolen-credentials/</guid>
-	<description><![CDATA[The "Russian Market" cybercrime marketplace has emerged as one of the most popular platforms for buying and selling credentials stolen by information stealer malware. [...]]]></description>
  </item>
 
 </channel>
