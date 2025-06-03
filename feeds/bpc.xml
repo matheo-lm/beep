@@ -11,7 +11,7 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 03 Jun 2025 08:03:22 EDT</pubDate>
+        <pubDate>Tue, 03 Jun 2025 09:12:57 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
@@ -178,20 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/exploit-details-for-max-severity-cisco-ios-xe-flaw-now-public/</guid>
 	<description><![CDATA[Technical details about a maximum-severity Cisco IOS XE WLC arbitrary file upload flaw tracked as CVE-2025-20188 have been made publicly available, bringing us closer to a working exploit. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers are exploiting critical flaw in vBulletin forum software</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-critical-flaw-in-vbulletin-forum-software/</link>
-        <pubDate>Fri, 30 May 2025 15:26:06 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-critical-flaw-in-vbulletin-forum-software/</guid>
-	<description><![CDATA[Two critical vulnerabilities affecting the open-source forum software vBulletin have been discovered, with one confirmed to be actively exploited in the wild. [...]]]></description>
  </item>
 
 </channel>
