@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 03 Jun 2025 06:00:19 EDT</pubDate>
+        <pubDate>Tue, 03 Jun 2025 06:58:13 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google patches new Chrome zero-day bug exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-patches-new-chrome-zero-day-bug-exploited-in-attacks/</link>
+        <pubDate>Tue, 03 Jun 2025 06:22:52 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-patches-new-chrome-zero-day-bug-exploited-in-attacks/</guid>
+	<description><![CDATA[Google has released an emergency security update to fix the third Chrome zero-day vulnerability exploited in attacks since the start of the year. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Android malware Crocodilus adds fake contacts to spoof trusted callers</title>
+        <link>https://www.bleepingcomputer.com/news/security/android-malware-crocodilus-adds-fake-contacts-to-spoof-trusted-callers/</link>
+        <pubDate>Tue, 03 Jun 2025 05:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/android-malware-crocodilus-adds-fake-contacts-to-spoof-trusted-callers/</guid>
+	<description><![CDATA[The latest version of the 'Crocodilus' Android malware has introduced a new mechanism that adds a fake contact on the infected device's contact list to deceive victims. [...]]]></description>
+ </item>
+
  <item>
         <title>Cartier discloses data breach amid fashion brand cyberattacks</title>
         <link>https://www.bleepingcomputer.com/news/security/cartier-discloses-data-breach-amid-fashion-brand-cyberattacks/</link>
@@ -160,36 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-critical-flaw-in-vbulletin-forum-software/</guid>
 	<description><![CDATA[Two critical vulnerabilities affecting the open-source forum software vBulletin have been discovered, with one confirmed to be actively exploited in the wild. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft now testing Notepad text formatting in Windows 11</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-testing-notepad-text-formatting-in-windows-11/</link>
-        <pubDate>Fri, 30 May 2025 14:41:24 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-testing-notepad-text-formatting-in-windows-11/</guid>
-	<description><![CDATA[Microsoft announced today that the Windows 11 Notepad application is getting a text formatting feature supporting Markdown-style input. [...]]]></description>
- </item>
-
- <item>
-        <title>Police takes down AVCheck site used by cybercriminals to scan malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/police-takes-down-avcheck-antivirus-site-used-by-cybercriminals/</link>
-        <pubDate>Fri, 30 May 2025 12:46:02 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/police-takes-down-avcheck-antivirus-site-used-by-cybercriminals/</guid>
-	<description><![CDATA[An international law enforcement operation has taken down AVCheck, a service used by cybercriminals to test whether their malware is detected by commercial antivirus software before deploying it in the wild. [...]]]></description>
  </item>
 
 </channel>
