@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 04 Jun 2025 15:02:01 EDT</pubDate>
+        <pubDate>Wed, 04 Jun 2025 15:58:26 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hacker arrested for breaching 5,000 hosting accounts to mine crypto</title>
+        <link>https://www.bleepingcomputer.com/news/security/hacker-arrested-for-breaching-5-000-hosting-accounts-to-mine-crypto/</link>
+        <pubDate>Wed, 04 Jun 2025 15:38:13 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hacker-arrested-for-breaching-5-000-hosting-accounts-to-mine-crypto/</guid>
+	<description><![CDATA[The Ukrainian police arrested a 35-year-old hacker who breached 5,000 accounts at an international hosting company and used them to mine cryptocurrency, resulting in $4.5 million in damages. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Cisco warns of ISE and CCP flaws with public exploit code</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-ise-and-ccp-flaws-with-public-exploit-code/</link>
+        <pubDate>Wed, 04 Jun 2025 15:19:16 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisco-warns-of-ise-and-ccp-flaws-with-public-exploit-code/</guid>
+	<description><![CDATA[Cisco has released patches to address three vulnerabilities with public exploit code in its Identity Services Engine (ISE) and Customer Collaboration Platform (CCP) solutions. [...]]]></description>
+ </item>
+
  <item>
         <title>Ukraine claims it hacked Tupolev, Russia’s strategic warplane maker</title>
         <link>https://www.bleepingcomputer.com/news/security/ukraine-claims-it-hacked-tupolev-russias-strategic-warplane-maker/</link>
@@ -158,36 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hewlett-packard-enterprise-warns-of-critical-storeonce-auth-bypass/</guid>
 	<description><![CDATA[Hewlett Packard Enterprise (HPE) has issued a security bulletin to warn about eight vulnerabilities impacting StoreOnce, its disk-based backup and deduplication solution. [...]]]></description>
- </item>
-
- <item>
-        <title>Coinbase breach tied to bribed TaskUs support agents in India</title>
-        <link>https://www.bleepingcomputer.com/news/security/coinbase-breach-tied-to-bribed-taskus-support-agents-in-india/</link>
-        <pubDate>Tue, 03 Jun 2025 13:17:52 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/coinbase-breach-tied-to-bribed-taskus-support-agents-in-india/</guid>
-	<description><![CDATA[A recently disclosed data breach at Coinbase has been linked to India-based customer support representatives from outsourcing firm TaskUs, who threat actors bribed to steal data from the crypto exchange. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft adds quick machine recovery to Windows 11 settings</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-quick-machine-recovery-to-windows-11-settings/</link>
-        <pubDate>Tue, 03 Jun 2025 11:50:07 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-quick-machine-recovery-to-windows-11-settings/</guid>
-	<description><![CDATA[Microsoft is testing a dedicated page in Windows Settings for quick machine recovery, which will provide users with additional configuration options. [...]]]></description>
  </item>
 
 </channel>
