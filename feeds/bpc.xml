@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 04 Jun 2025 12:00:37 EDT</pubDate>
+        <pubDate>Wed, 04 Jun 2025 12:59:45 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FBI warns of NFT airdrop scams targeting Hedera Hashgraph wallets</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-warns-of-nft-airdrop-scams-targeting-hedera-hashgraph-wallets/</link>
+        <pubDate>Wed, 04 Jun 2025 12:37:33 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-warns-of-nft-airdrop-scams-targeting-hedera-hashgraph-wallets/</guid>
+	<description><![CDATA[The FBI is warning about a new scam where cybercriminals exploit NFT airdrops on the Hedera Hashgraph network to steal crypto from cryptocurrency wallets. [...]]]></description>
+ </item>
+
  <item>
         <title>Media giant Lee Enterprises says data breach affects 39,000 people</title>
         <link>https://www.bleepingcomputer.com/news/security/media-giant-lee-enterprises-says-data-breach-affects-39-000-people/</link>
@@ -27,7 +43,7 @@
 
 
         <guid>https://www.bleepingcomputer.com/news/security/media-giant-lee-enterprises-says-data-breach-affects-39-000-people/</guid>
-	<description><![CDATA[Publishing giant Lee Enterprises is notifying over 39,000 people whose personal information was stolen in a February 2025 ransomware attack. [...]]]></description>
+	<description><![CDATA[Publishing giant Lee Enterprises is notifying nearly 40,000 people whose personal information was stolen in a February 2025 ransomware attack. [...]]]></description>
  </item>
 
  <item>
@@ -188,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/scattered-spider-three-things-the-news-doesnt-tell-you/</guid>
 	<description><![CDATA[Scattered Spider isn't one group — it's an identity-first threat model evolving fast. From vishing to AiTM phishing, they're exploiting MFA gaps to hijack the cloud. Watch the Push Security webinar to learn how their identity-based tactics work — and how to stop them. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA warns of ConnectWise ScreenConnect bug exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-connectwise-screenconnect-bug-exploited-in-attacks/</link>
-        <pubDate>Tue, 03 Jun 2025 09:57:12 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-connectwise-screenconnect-bug-exploited-in-attacks/</guid>
-	<description><![CDATA[CISA is alerting federal agencies in the U.S. of hackers exploiting a recently patched ScreenConnect vulnerability that could lead to executing remote code on the server. [...]]]></description>
  </item>
 
 </channel>
