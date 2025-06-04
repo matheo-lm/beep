@@ -11,11 +11,67 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 04 Jun 2025 09:59:32 EDT</pubDate>
+        <pubDate>Wed, 04 Jun 2025 11:10:25 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Media giant Lee Enterprises says data breach affects 39,000 people</title>
+        <link>https://www.bleepingcomputer.com/news/security/media-giant-lee-enterprises-says-data-breach-affects-39-000-people/</link>
+        <pubDate>Wed, 04 Jun 2025 10:30:14 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/media-giant-lee-enterprises-says-data-breach-affects-39-000-people/</guid>
+	<description><![CDATA[Publishing giant Lee Enterprises is notifying over 39,000 people whose personal information was stolen in a February 2025 ransomware attack. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Google: Hackers target Salesforce accounts in data extortion attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-hackers-target-salesforce-accounts-in-data-extortion-attacks/</link>
+        <pubDate>Wed, 04 Jun 2025 10:11:12 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-hackers-target-salesforce-accounts-in-data-extortion-attacks/</guid>
+	<description><![CDATA[Google has observed hackers claiming to be the ShinyHunters extortion group conducting social engineering attacks against multi-national companies to steal data from organizations' Salesforce platforms. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Kerberos AS-REP roasting attacks: What you need to know</title>
+        <link>https://www.bleepingcomputer.com/news/security/kerberos-as-rep-roasting-attacks-what-you-need-to-know/</link>
+        <pubDate>Wed, 04 Jun 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Specops Software</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/kerberos-as-rep-roasting-attacks-what-you-need-to-know/</guid>
+	<description><![CDATA[Think your passwords are strong enough? AS-REP Roasting is back in the spotlight — and it's targeting weak spots in Active Directory. Learn more from Specops Software how attackers exploit missing Kerberos pre-auth and how to stop them with strong password policies. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hacker targets other hackers and gamers with backdoored GitHub code</title>
+        <link>https://www.bleepingcomputer.com/news/security/hacker-targets-other-hackers-and-gamers-with-backdoored-github-code/</link>
+        <pubDate>Wed, 04 Jun 2025 06:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hacker-targets-other-hackers-and-gamers-with-backdoored-github-code/</guid>
+	<description><![CDATA[A hacker targets other hackers, gamers, and researchers with exploits, bots, and game cheats in source code hosted on GitHub that contain hidden backdoors to give the threat actor remote access to infected devices. [...]]]></description>
+ </item>
+
  <item>
         <title>OpenAI is hopeful GPT-5 will compete a little more</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-hopeful-gpt-5-will-compete-a-little-more/</link>
@@ -146,66 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-connectwise-screenconnect-bug-exploited-in-attacks/</guid>
 	<description><![CDATA[CISA is alerting federal agencies in the U.S. of hackers exploiting a recently patched ScreenConnect vulnerability that could lead to executing remote code on the server. [...]]]></description>
- </item>
-
- <item>
-        <title>Victoria’s Secret delays earnings release after security incident</title>
-        <link>https://www.bleepingcomputer.com/news/security/victorias-secret-delays-earnings-release-after-security-incident/</link>
-        <pubDate>Tue, 03 Jun 2025 09:25:12 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/victorias-secret-delays-earnings-release-after-security-incident/</guid>
-	<description><![CDATA[Fashion retail giant Victoria's Secret has delayed its first quarter 2025 earnings release because of ongoing corporate system restoration efforts following a May 24 security incident. [...]]]></description>
- </item>
-
- <item>
-        <title>Google patches new Chrome zero-day bug exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-patches-new-chrome-zero-day-bug-exploited-in-attacks/</link>
-        <pubDate>Tue, 03 Jun 2025 06:22:52 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-patches-new-chrome-zero-day-bug-exploited-in-attacks/</guid>
-	<description><![CDATA[Google has released an emergency security update to fix the third Chrome zero-day vulnerability exploited in attacks since the start of the year. [...]]]></description>
- </item>
-
- <item>
-        <title>Android malware Crocodilus adds fake contacts to spoof trusted callers</title>
-        <link>https://www.bleepingcomputer.com/news/security/android-malware-crocodilus-adds-fake-contacts-to-spoof-trusted-callers/</link>
-        <pubDate>Tue, 03 Jun 2025 05:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/android-malware-crocodilus-adds-fake-contacts-to-spoof-trusted-callers/</guid>
-	<description><![CDATA[The latest version of the 'Crocodilus' Android malware has introduced a new mechanism that adds a fake contact on the infected device's contact list to deceive victims. [...]]]></description>
- </item>
-
- <item>
-        <title>Cartier discloses data breach amid fashion brand cyberattacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/cartier-discloses-data-breach-amid-fashion-brand-cyberattacks/</link>
-        <pubDate>Mon, 02 Jun 2025 18:31:49 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cartier-discloses-data-breach-amid-fashion-brand-cyberattacks/</guid>
-	<description><![CDATA[Luxury fashion brand Cartier is warning customers it suffered a data breach that exposed customers' personal information after its systems were compromised. [...]]]></description>
  </item>
 
 </channel>
