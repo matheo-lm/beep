@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 05 Jun 2025 02:59:11 EDT</pubDate>
+        <pubDate>Thu, 05 Jun 2025 04:01:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Interlock ransomware claims Kettering Health breach, leaks stolen data</title>
+        <link>https://www.bleepingcomputer.com/news/security/interlock-ransomware-claims-kettering-health-breach-leaks-stolen-data/</link>
+        <pubDate>Thu, 05 Jun 2025 03:31:11 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/interlock-ransomware-claims-kettering-health-breach-leaks-stolen-data/</guid>
+	<description><![CDATA[The Interlock ransomware gang has claimed a recent cyberattack on the Kettering Health healthcare network and leaked data allegedly stolen from breached systems. [...]]]></description>
+ </item>
+
  <item>
         <title>US offers $10M for tips on state hackers tied to RedLine malware</title>
         <link>https://www.bleepingcomputer.com/news/security/us-offers-10m-for-tips-on-state-hackers-tied-to-redline-malware/</link>
@@ -188,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hacker-targets-other-hackers-and-gamers-with-backdoored-github-code/</guid>
 	<description><![CDATA[A hacker targets other hackers, gamers, and researchers with exploits, bots, and game cheats in source code hosted on GitHub that contain hidden backdoors to give the threat actor remote access to infected devices. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI is hopeful GPT-5 will compete a little more</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-hopeful-gpt-5-will-compete-a-little-more/</link>
-        <pubDate>Tue, 03 Jun 2025 17:30:52 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-hopeful-gpt-5-will-compete-a-little-more/</guid>
-	<description><![CDATA[OpenAI's next big foundational model is GPT-5, and the AI startup is hoping that the model will compete a little more with rivals. [...]]]></description>
  </item>
 
 </channel>
