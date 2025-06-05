@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Sun, 01 Jun 2025 12:52:08 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 05 Jun 2025 22:44:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,67 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Proxy Services Feast on Ukraine&#8217;s IP Address Exodus</title>
+		<link>https://krebsonsecurity.com/2025/06/proxy-services-feast-on-ukraines-ip-address-exodus/</link>
+					<comments>https://krebsonsecurity.com/2025/06/proxy-services-feast-on-ukraines-ip-address-exodus/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Thu, 05 Jun 2025 22:44:33 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Russia's War on Ukraine]]></category>
+		<category><![CDATA[Time to Patch]]></category>
+		<category><![CDATA[Web Fraud 2.0]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[AT&T]]></category>
+		<category><![CDATA[Cogent]]></category>
+		<category><![CDATA[Doug Madory]]></category>
+		<category><![CDATA[Hurricane Electric]]></category>
+		<category><![CDATA[Internet Protocol Version 4]]></category>
+		<category><![CDATA[Kentik]]></category>
+		<category><![CDATA[LVS]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Riley Kilmer]]></category>
+		<category><![CDATA[Spur]]></category>
+		<category><![CDATA[Stark Industries Solutions Inc]]></category>
+		<category><![CDATA[TVCOM]]></category>
+		<category><![CDATA[Ukrtelecom]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71386</guid>
+
+					<description><![CDATA[Ukraine has seen nearly one-fifth of its Internet space come under Russian control or sold to Internet address brokers since February 2022, a new study finds. The analysis indicates large chunks of Ukrainian Internet address space are now in the hands of proxy and anonymity services nested at some of America's largest Internet service providers (ISPs).]]></description>
+										<content:encoded><![CDATA[<div id="attachment_71441" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71441" decoding="async" class=" wp-image-71441" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks.png" alt="" width="749" height="611" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks.png 823w, https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks-768x626.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks-782x638.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71441" class="wp-caption-text">Image: Mark Rademaker, via Shutterstock.</p></div>
+<p>Ukraine has seen nearly one-fifth of its Internet space come under Russian control or sold to Internet address brokers since February 2022, a new study finds. The analysis indicates large chunks of Ukrainian Internet address space are now in the hands of shadowy proxy and anonymity services that are nested at some of America&#8217;s largest Internet service providers (ISPs).</p>
+<p>The findings come in a report that examines how the Russian invasion has affected Ukraine&#8217;s domestic supply of <strong>Internet Protocol Version 4</strong> (IPv4) addresses. Researchers at <strong>Kentik</strong>, a company that measures the performance of Internet networks, found that while a majority of ISPs in Ukraine haven&#8217;t changed their infrastructure much since the war began in 2022, others have resorted to selling swathes of their valuable IPv4 address space just to keep the lights on.</p>
+<p>For example, Ukraine&#8217;s incumbent ISP <strong>Ukrtelecom</strong> is now routing just 29 percent of the IPv4 address ranges that the company controlled at the start of the war, Kentik found. Although much of that former IP space remains dormant, Ukrtelecom told Kentik&#8217;s <strong>Doug Madory</strong> they were forced to sell many of their address blocks &#8220;to secure financial stability and continue delivering essential services.&#8221;</p>
+<p>&#8220;Leasing out a portion of our IPv4 resources allowed us to mitigate some of the extraordinary challenges we have been facing since the full-scale invasion began,&#8221; Ukrtelecom told Madory.</p>
+<p>Madory found much of the IPv4 space previously allocated to Ukrtelecom is now scattered to more than 100 providers globally, particularly at three large American ISPs &#8212; <strong>Amazon</strong> (AS16509), <strong>AT&amp;T</strong> (AS7018), and <strong>Cogent</strong> (AS174).</p>
+<p>Another Ukrainian Internet provider &#8212; <strong>LVS</strong> (AS43310) &#8212; in 2022 was routing approximately 6,000 IPv4 addresses across the nation. Kentik learned that by November 2022, much of that address space had been parceled out to over a dozen different locations, with the bulk of it being announced at AT&amp;T.</p>
+<div id="attachment_71448" style="width: 755px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71448" decoding="async" loading="lazy" class=" wp-image-71448" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/kentik-lvs.png" alt="" width="745" height="505" /><p id="caption-attachment-71448" class="wp-caption-text">IP addresses routed over time by Ukrainian provider LVS (AS43310) shows a large chunk of it being routed by AT&amp;T (AS7018). Image: Kentik.</p></div>
+<p>Ditto for the Ukrainian ISP <strong>TVCOM</strong>, which currently routes nearly 15,000 fewer IPv4 addresses than it did at the start of the war. Madory said most of those addresses have been scattered to 37 other networks outside of Eastern Europe, including Amazon, AT&amp;T, and <strong>Microsoft</strong>.</p>
+<p>The Ukrainian ISP <strong>Trinity</strong> (AS43554) went offline in early March 2022 during the bloody siege of Mariupol, but its address space eventually began showing up in more than 50 different networks worldwide. Madory found more than 1,000 of Trinity&#8217;s IPv4 addresses suddenly appeared on AT&amp;T&#8217;s network.</p>
+<p>Why are all these former Ukrainian IP addresses being routed by U.S.-based networks like AT&amp;T? According to <strong>spur.us</strong>, a company that tracks VPN and proxy services, nearly all of the address ranges identified by Kentik now map to commercial proxy services that allow customers to anonymously route their Internet traffic through someone else&#8217;s computer.</p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-31323" src="https://krebsonsecurity.com/wp-content/uploads/2015/06/proxy.png" alt="" width="748" height="313" /></p>
+<p>From a website’s perspective, the traffic from a proxy network user appears to originate from the rented IP address, not from the proxy service customer. These services can be used for several business purposes, such as price comparisons, sales intelligence, <a href="https://www.linkedin.com/feed/update/urn:li:activity:7326663504701140992/?actorCompanyId=51677041" target="_blank" rel="noopener">web crawlers and content-scraping bots</a>. However, proxy services also are <a href="https://intel471.com/blog/a-look-at-the-residential-proxy-market" target="_blank" rel="noopener">massively abused for hiding cybercrime activity</a> because they can make it difficult to trace malicious traffic to its original source.</p>
+<p>IPv4 address ranges are always in high demand, which means they are also quite valuable. There are now multiple companies that will pay ISPs to lease out their unwanted or unused IPv4 address space. Madory said these IPv4 brokers will pay between $100-$500 per month to lease a block of 256 IPv4 addresses, and very often the entities most willing to pay those rental rates are proxy and VPN providers.</p>
+<p>A cursory review of <a href="https://bgp.he.net/AS7018#_prefixes" target="_blank" rel="noopener">all Internet address blocks currently routed through AT&amp;T</a> &#8212; as seen in public records maintained by the Internet backbone provider <strong>Hurricane Electric</strong> &#8212; shows a preponderance of country flags other than the United States, including networks originating in Hungary, Lithuania, Moldova, Mauritius, Palestine, Seychelles, Slovenia, and Ukraine.</p>
+<div id="attachment_71435" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71435" decoding="async" loading="lazy" class=" wp-image-71435" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/att-bg-he-net.png" alt="" width="749" height="751" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/06/att-bg-he-net.png 924w, https://krebsonsecurity.com/wp-content/uploads/2025/06/att-bg-he-net-768x770.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/06/att-bg-he-net-782x785.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71435" class="wp-caption-text">AT&amp;T&#8217;s IPv4 address space seems to be routing a great deal of proxy traffic, including a large number of IP address ranges that were until recently routed by ISPs in Ukraine.</p></div>
+<p>Asked about the apparent high incidence of proxy services routing foreign address blocks through AT&amp;T, the telecommunications giant said it recently changed its policy about originating routes for network blocks that are not owned and managed by AT&amp;T. That new policy, spelled out in <a href="http://serviceguidenew.att.com/sg_flashPlayerPage/MIS." target="_blank" rel="noopener">a February 2025 update to AT&amp;T&#8217;s terms of service</a>, gives those customers until Sept. 1, 2025 to originate their own IP space from their own autonomous system number (ASN), a unique number assigned to each ISP (AT&amp;T&#8217;s is AS7018).</p>
+<p>“To ensure our customers receive the best quality of service, we changed our terms for dedicated internet in February 2025,&#8221; an AT&amp;T spokesperson said in an emailed reply. &#8220;We no longer permit static routes with IP addresses that we have not provided. We have been in the process of identifying and notifying affected customers that they have 90 days to transition to Border Gateway Protocol routing using their own autonomous system number.”<span id="more-71386"></span></p>
+<p>Ironically, the co-mingling of Ukrainian IP address space with proxy providers has resulted in many of these addresses being used in cyberattacks against Ukraine and other enemies of Russia. Earlier this month, the European Union sanctioned <strong>Stark Industries Solutions Inc.</strong>, an ISP that surfaced two weeks before the Russian invasion and quickly became the source of large-scale DDoS attacks and spear-phishing attempts by Russian state-sponsored hacking groups. A deep dive into Stark&#8217;s considerable address space showed some of it was sourced from Ukrainian ISPs, and <a href="https://krebsonsecurity.com/2024/05/stark-industries-solutions-an-iron-hammer-in-the-cloud/" target="_blank" rel="noopener">most of it was connected to Russia-based proxy and anonymity services</a>.</p>
+<div id="attachment_71443" style="width: 855px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71443" decoding="async" loading="lazy" class="size-full wp-image-71443" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/iproyal.png" alt="" width="845" height="462" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/06/iproyal.png 845w, https://krebsonsecurity.com/wp-content/uploads/2025/06/iproyal-768x420.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/06/iproyal-782x428.png 782w" sizes="(max-width: 845px) 100vw, 845px" /><p id="caption-attachment-71443" class="wp-caption-text">According to Spur, the proxy service IPRoyal is the current beneficiary of IP address blocks from several Ukrainian ISPs profiled in Kentik&#8217;s report. Customers can chose proxies by specifying the city and country they would to proxy their traffic through. Image: Trend Micro.</p></div>
+<p>Spur&#8217;s Chief Technology Officer <strong>Riley Kilmer </strong>said AT&amp;T&#8217;s policy change will likely force many proxy services to migrate to other U.S. providers that have less stringent policies.</p>
+<p>&#8220;AT&amp;T is the first one of the big ISPs that seems to be actually doing something about this,&#8221; Kilmer said. &#8220;We track several services that explicitly sell AT&amp;T IP addresses, and it will be very interesting to see what happens to those services come September.&#8221;</p>
+<p>Still, Kilmer said, there are several other large U.S. ISPs that continue to make it easy for proxy services to bring their own IP addresses and host them in ranges that give the appearance of residential customers. For example, Kentik&#8217;s report identified former Ukrainian IP ranges showing up as proxy services routed by <strong>Cogent</strong> <strong>Communications </strong>(AS174), <a href="https://bgp.he.net/AS174#_prefixes" target="_blank" rel="noopener">a tier-one Internet backbone provider</a> based in Washington, D.C.</p>
+<p>Kilmer said Cogent has become an attractive home base for proxy services because it is relatively easy to get Cogent to route an address block.</p>
+<p>&#8220;In fairness, they transit a lot of traffic,&#8221; Kilmer said of Cogent. &#8220;But there&#8217;s a reason a lot of this proxy stuff shows up as Cogent: Because it&#8217;s super easy to get something routed there.&#8221;</p>
+<p>Cogent declined a request to comment on Kentik&#8217;s findings.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/06/proxy-services-feast-on-ukraines-ip-address-exodus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>U.S. Sanctions Cloud Provider &#8216;Funnull&#8217; as Top Source of &#8216;Pig Butchering&#8217; Scams</title>
 		<link>https://krebsonsecurity.com/2025/05/u-s-sanctions-cloud-provider-funnull-as-top-source-of-pig-butchering-scams/</link>
 					<comments>https://krebsonsecurity.com/2025/05/u-s-sanctions-cloud-provider-funnull-as-top-source-of-pig-butchering-scams/#comments</comments>
@@ -43,7 +104,7 @@
 		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71387</guid>
 
 					<description><![CDATA[The U.S. government today imposed economic sanctions on Funnull Technology Inc., a Philippines-based company that provides computer infrastructure for hundreds of thousands of websites involved in virtual currency investment scams, commonly known as “pig butchering." In January 2025, KrebsOnSecurity detailed how Funnull was being used as a content delivery network that catered to cybercriminals seeking to route their traffic through U.S.-based cloud providers.]]></description>
-										<content:encoded><![CDATA[<div id="attachment_70230" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70230" decoding="async" class=" wp-image-70230" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss.png" alt="" width="750" height="452" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss.png 1319w, https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss-768x463.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss-782x472.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-70230" class="wp-caption-text">Image: Shutterstock, ArtHead.</p></div>
+										<content:encoded><![CDATA[<div id="attachment_70230" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70230" decoding="async" loading="lazy" class=" wp-image-70230" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss.png" alt="" width="750" height="452" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss.png 1319w, https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss-768x463.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss-782x472.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-70230" class="wp-caption-text">Image: Shutterstock, ArtHead.</p></div>
 <p>The U.S. government today imposed economic sanctions on <strong>Funnull Technology Inc.</strong>, a Philippines-based company that provides computer infrastructure for hundreds of thousands of websites involved in virtual currency investment scams known as “<strong>pig butchering</strong>.&#8221; In January 2025, KrebsOnSecurity detailed how Funnull was being used as a content delivery network that catered to cybercriminals seeking to route their traffic through U.S.-based cloud providers.</p>
 <p>&#8220;Americans lose billions of dollars annually to these cyber scams, with revenues generated from these crimes rising to record levels in 2024,&#8221; reads <a href="https://home.treasury.gov/news/press-releases/sb0149" target="_blank" rel="noopener">a statement</a> from the <strong>U.S. Department of the Treasury</strong>, which sanctioned Funnull and its 40-year-old Chinese administrator <strong>Liu Lizhi</strong>. &#8220;Funnull has directly facilitated several of these schemes, resulting in over $200 million in U.S. victim-reported losses.&#8221;</p>
 <p>The Treasury Department said Funnull&#8217;s operations are linked to the majority of virtual currency investment scam websites reported to the FBI. The agency said Funnull directly facilitated pig butchering and other schemes that resulted in more than $200 million in financial losses by Americans.</p>
@@ -587,72 +648,15 @@ February 2023; 391 bitcoin is presently worth more than $26 million.</p>
 		
 		
 			</item>
-		<item>
-		<title>DOGE Worker&#8217;s Code Supports NLRB Whistleblower</title>
-		<link>https://krebsonsecurity.com/2025/04/doge-workers-code-supports-nlrb-whistleblower/</link>
-					<comments>https://krebsonsecurity.com/2025/04/doge-workers-code-supports-nlrb-whistleblower/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Wed, 23 Apr 2025 20:45:04 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[DOGE]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[async-ip-rotator]]></category>
-		<category><![CDATA[Browserless]]></category>
-		<category><![CDATA[Daniel J. Berulis]]></category>
-		<category><![CDATA[Department of Government Efficiency]]></category>
-		<category><![CDATA[Department of Health and Human Services]]></category>
-		<category><![CDATA[Ge0rg3]]></category>
-		<category><![CDATA[GitHub]]></category>
-		<category><![CDATA[Integuru]]></category>
-		<category><![CDATA[Labor Department]]></category>
-		<category><![CDATA[Marko Elez]]></category>
-		<category><![CDATA[National Labor Relations Board]]></category>
-		<category><![CDATA[Politico]]></category>
-		<category><![CDATA[The Wall Street Journal]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71075</guid>
-
-					<description><![CDATA[A whistleblower at the National Labor Relations Board (NLRB) alleged last week that denizens of Elon Musk's Department of Government Efficiency (DOGE) siphoned gigabytes of data from the agency's sensitive case files in early March. The whistleblower said accounts created for DOGE at the NLRB downloaded three code repositories from GitHub. Further investigation into one of those code bundles shows it is remarkably similar to a program published in January 2025 by Marko Elez, a 25-year-old DOGE employee who has worked at a number of Musk's companies.]]></description>
-										<content:encoded><![CDATA[<p>A whistleblower at the <strong>National Labor Relations Board</strong> (NLRB) alleged last week that denizens of Elon Musk&#8217;s <strong>Department of Government Efficiency</strong> (DOGE) siphoned gigabytes of data from the agency&#8217;s sensitive case files in early March. The whistleblower said accounts created for DOGE at the NLRB downloaded three code repositories from <strong>GitHub</strong>. Further investigation into one of those code bundles shows it is remarkably similar to a program published in January 2025 by <strong>Marko Elez</strong>, a 25-year-old DOGE employee who has worked at a number of Musk&#8217;s companies.</p>
-<div id="attachment_71090" style="width: 758px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-71090" decoding="async" loading="lazy" class="wp-image-71090" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds.png" alt="" width="748" height="323" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds.png 1287w, https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds-768x331.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/db-powershellcmds-782x337.png 782w" sizes="(max-width: 748px) 100vw, 748px" /></a><p id="caption-attachment-71090" class="wp-caption-text">A screenshot shared by NLRB whistleblower Daniel Berulis shows three downloads from GitHub.</p></div>
-<p>According to <a href="https://krebsonsecurity.com/2025/04/whistleblower-doge-siphoned-nlrb-case-data/" target="_blank" rel="noopener">a whistleblower complaint</a> filed last week by <strong>Daniel J. Berulis</strong>, a 38-year-old security architect at the NLRB, officials from DOGE met with NLRB leaders on March 3 and demanded the creation of several all-powerful “tenant admin” accounts that were to be exempted from network logging activity that would otherwise keep a detailed record of all actions taken by those accounts.</p>
-<p>Berulis said the new DOGE accounts had unrestricted permission to read, copy, and alter information contained in NLRB databases. The new accounts also could restrict log visibility, delay retention, route logs elsewhere, or even remove them entirely — top-tier user privileges that neither Berulis nor his boss possessed.</p>
-<p>Berulis said he discovered one of the DOGE accounts had downloaded three external code libraries from <strong>GitHub</strong> that neither NLRB nor its contractors ever used. A “readme” file in one of the code bundles explained it was created to rotate connections through a large pool of cloud Internet addresses that serve “<em>as a proxy to generate pseudo-infinite IPs for web scraping and brute forcing</em>.” Brute force attacks involve automated login attempts that try many credential combinations in rapid sequence.</p>
-<p>A search on that description in Google brings up a code repository at GitHub for a user with the account name &#8220;<strong>Ge0rg3</strong>&#8221; who published a program roughly four years ago called &#8220;<a href="https://github.com/Ge0rg3/requests-ip-rotator" target="_blank" rel="noopener">requests-ip-rotator</a>,&#8221; described as a library that will allow the user &#8220;to bypass IP-based rate-limits for sites and services.&#8221;</p>
-<div id="attachment_71091" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71091" decoding="async" loading="lazy" class=" wp-image-71091" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/ge0rge-gh.png" alt="" width="749" height="543" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/ge0rge-gh.png 1171w, https://krebsonsecurity.com/wp-content/uploads/2025/04/ge0rge-gh-768x557.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/ge0rge-gh-782x568.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71091" class="wp-caption-text">The README file from the GitHub user Ge0rg3&#8217;s page for requests-ip-rotator includes the exact wording of a program the whistleblower said was downloaded by one of the DOGE users. Marko Elez created an offshoot of this program in January 2025.</p></div>
-<p>&#8220;A Python library to utilize AWS API Gateway&#8217;s large IP pool as a proxy to generate pseudo-infinite IPs for web scraping and brute forcing,&#8221; the description reads.</p>
-<p>Ge0rg3&#8217;s code is &#8220;open source,&#8221; in that anyone can copy it and reuse it non-commercially. As it happens, there is a newer version of this project that was derived or &#8220;forked&#8221; from Ge0rg3&#8217;s code &#8212; called &#8220;<a href="https://github.com/markoelez/async-ip-rotator/blob/master/README.md" target="_blank" rel="noopener">async-ip-rotator</a>&#8221; &#8212; and it was committed to GitHub in January 2025 by DOGE captain <a href="https://github.com/markoelez" target="_blank" rel="noopener">Marko Elez</a>.</p>
-<div id="attachment_71085" style="width: 760px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/04/melez-gh.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-71085" decoding="async" loading="lazy" class="wp-image-71085" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/melez-gh.png" alt="" width="750" height="492" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/04/melez-gh.png 1150w, https://krebsonsecurity.com/wp-content/uploads/2025/04/melez-gh-768x504.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/04/melez-gh-782x513.png 782w" sizes="(max-width: 750px) 100vw, 750px" /></a><p id="caption-attachment-71085" class="wp-caption-text">The whistleblower stated that one of the GitHub files downloaded by the DOGE employees who transferred sensitive files from an NLRB case database was an archive whose README file read: &#8220;Python library to utilize AWS API Gateway&#8217;s large IP pool as a proxy to generate pseudo-infinite IPs for web scraping and brute forcing.&#8221; Elez&#8217;s code pictured here was forked in January 2025 from a code library that shares the same description.</p></div>
-<p>A key DOGE staff member who gained access to the Treasury Department&#8217;s central payments system, Elez has worked for a number of Musk companies, including <strong>X</strong>, <strong>SpaceX</strong>, and <strong>xAI</strong>. Elez was among the first DOGE employees to face public scrutiny, after <strong>The Wall Street Journal</strong> <a href="https://www.wsj.com/tech/doge-staffer-resigns-over-racist-posts-d9f11a93" target="_blank" rel="noopener">linked him to social media posts</a> that advocated racism and eugenics.</p>
-<p>Elez resigned after that brief scandal, but was rehired after President Donald Trump and Vice President JD Vance expressed support for him. <strong>Politico</strong> <a href="https://www.politico.com/news/2025/03/29/doge-marco-elez-software-engineer-us-payroll-00259303" target="_blank" rel="noopener">reports</a> Elez is now a <strong>Labor Department</strong> aide detailed to multiple agencies, including the <strong>Department of Health and Human Services</strong>.</p>
-<p>&#8220;During Elez’s initial stint at Treasury, he violated the agency’s information security policies by sending a spreadsheet containing names and payments information to officials at the General Services Administration,&#8221; Politico wrote, citing court filings.</p>
-<p>KrebsOnSecurity sought comment from both the NLRB and DOGE, and will update this story if either responds.<span id="more-71075"></span></p>
-<p>The NLRB has been effectively hobbled since <strong>President Trump</strong> fired three board members, leaving the agency without the quorum it needs to function. Both <strong>Amazon</strong> and Musk’s <strong>SpaceX</strong> have <a href="https://apnews.com/article/amazon-nlrb-unconstitutional-spacex-elon-musk-ab42977117d883e97110a7bf8e8b257f" target="_blank" rel="noopener">been suing</a> the NLRB over complaints the agency filed in disputes about workers’ rights and union organizing, arguing that the NLRB’s very existence is unconstitutional. On March 5, a U.S. appeals court <a href="https://www.reuters.com/legal/government/musks-spacex-loses-early-legal-challenge-us-labor-boards-powers-2025-03-05/" target="_blank" rel="noopener">unanimously rejected</a> Musk’s claim that the NLRB’s structure somehow violates the Constitution.</p>
-<p>Berulis&#8217;s complaint alleges the DOGE accounts at NLRB downloaded more than 10 gigabytes of data from the agency&#8217;s case files, a database that includes reams of sensitive records including information about employees who want to form unions and proprietary business documents. Berulis said he went public after higher-ups at the agency told him not to report the matter to the US-CERT, as they&#8217;d previously agreed.</p>
-<p>Berulis told KrebsOnSecurity he worried the unauthorized data transfer by DOGE could unfairly advantage defendants in a number of ongoing labor disputes before the agency.</p>
-<p>&#8220;If any company got the case data that would be an unfair advantage,&#8221; Berulis said. &#8220;They could identify and fire employees and union organizers without saying why.&#8221;</p>
-<div id="attachment_71106" style="width: 454px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71106" decoding="async" loading="lazy" class="size-full wp-image-71106" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/markoelez.png" alt="" width="444" height="515" /><p id="caption-attachment-71106" class="wp-caption-text">Marko Elez, in a photo from a social media profile.</p></div>
-<p>Berulis said the other two GitHub archives that DOGE employees downloaded to NLRB systems included <strong>Integuru</strong>, a software framework designed to reverse engineer application programming interfaces (APIs) that websites use to fetch data; and a &#8220;headless&#8221; browser called <strong>Browserless</strong>, which is made for automating web-based tasks that require a pool of browsers, such as web scraping and automated testing.</p>
-<p>On February 6, someone <a href="https://web.archive.org/web/20250423135719/https://github.com/markoelez/async-ip-rotator/issues/1" target="_blank" rel="noopener">posted a lengthy and detailed critique</a> of Elez&#8217;s code on the GitHub &#8220;issues&#8221; page for async-ip-rotator, calling it &#8220;insecure, unscalable and a fundamental engineering failure.&#8221;</p>
-<p>&#8220;If this were a side project, it would just be bad code,&#8221; the reviewer wrote. &#8220;But if this is representative of how you build production systems, then there are much larger concerns. This implementation is fundamentally broken, and if anything similar to this is deployed in an environment handling sensitive data, it should be audited immediately.&#8221;</p>
-<p>Further reading: <a href="https://whistlebloweraid.org/wp-content/uploads/2025/04/2025_0414_Berulis-Disclosure-with-Exhibits.s.pdf" target="_blank" rel="noopener">Berulis’s complaint</a> (PDF).</p>
-<p><strong>Update 7:06 p.m. ET</strong>: Elez&#8217;s code repo was deleted after this story was published. An archived version of it <a href="https://github.com/ricci/async-ip-rotator" target="_blank" rel="noopener">is here</a>.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/04/doge-workers-code-supports-nlrb-whistleblower/feed/</wfw:commentRss>
-			<slash:comments>59</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 293/293 objects using memcached
-Page Caching using memcached 
+Object Caching 295/295 objects using memcached
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-06-05 17:59:28 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-06-05 18:55:10 by W3 Total Cache
 -->
