@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 05 Jun 2025 17:02:11 EDT</pubDate>
+        <pubDate>Thu, 05 Jun 2025 18:00:52 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FBI: BADBOX 2.0 Android malware infects millions of consumer devices</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-badbox-20-android-malware-infects-millions-of-consumer-devices/</link>
+        <pubDate>Thu, 05 Jun 2025 17:35:43 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-badbox-20-android-malware-infects-millions-of-consumer-devices/</guid>
+	<description><![CDATA[The FBI is warning that the BADBOX 2.0 malware campaign has infected over 1 million home Internet-connected devices, converting consumer electronics into residential proxies that are used for malicious activity. [...]]]></description>
+ </item>
+
  <item>
         <title>Old AT&amp;T data leak repackaged to link SSNs, DOBs to 49M phone numbers</title>
         <link>https://www.bleepingcomputer.com/news/security/old-atandt-data-leak-repackaged-to-link-ssns-dobs-to-49m-phone-numbers/</link>
@@ -174,34 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisco-warns-of-ise-and-ccp-flaws-with-public-exploit-code/</guid>
 	<description><![CDATA[Cisco has released patches to address three vulnerabilities with public exploit code in its Identity Services Engine (ISE) and Customer Collaboration Platform (CCP) solutions. [...]]]></description>
- </item>
-
- <item>
-        <title>Ukraine claims it hacked Tupolev, Russia’s strategic warplane maker</title>
-        <link>https://www.bleepingcomputer.com/news/security/ukraine-claims-it-hacked-tupolev-russias-strategic-warplane-maker/</link>
-        <pubDate>Wed, 04 Jun 2025 14:00:29 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ukraine-claims-it-hacked-tupolev-russias-strategic-warplane-maker/</guid>
-	<description><![CDATA[The Main Intelligence Directorate (GUR) of Ukraine's Ministry of Defense claims it hacked the Russian aerospace and defense company Tupolev, which develops Russia's supersonic strategic bombers. [...]]]></description>
- </item>
-
- <item>
-        <title>BidenCash carding market domains seized in international operation</title>
-        <link>https://www.bleepingcomputer.com/news/security/bidencash-carding-market-domains-seized-in-international-operation/</link>
-        <pubDate>Wed, 04 Jun 2025 13:10:50 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/bidencash-carding-market-domains-seized-in-international-operation/</guid>
-	<description><![CDATA[Earlier today, law enforcement seized multiple domains of BidenCash, the infamous dark web market for stolen credit cards, personal information, and SSH access. [...]]]></description>
  </item>
 
 </channel>
