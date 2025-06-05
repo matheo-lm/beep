@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 05 Jun 2025 04:59:59 EDT</pubDate>
+        <pubDate>Thu, 05 Jun 2025 06:02:37 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ViLE gang members sentenced for extortion, police portal breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/vile-gang-members-sentenced-for-breaching-law-enforcement-portal/</link>
+        <pubDate>Thu, 05 Jun 2025 05:26:34 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/vile-gang-members-sentenced-for-breaching-law-enforcement-portal/</guid>
+	<description><![CDATA[Two members of a group of cybercriminals named ViLE were sentenced this week for hacking into a federal law enforcement web portal in an extortion scheme. [...]]]></description>
+ </item>
+
  <item>
         <title>Interlock ransomware claims Kettering Health breach, leaks stolen data</title>
         <link>https://www.bleepingcomputer.com/news/security/interlock-ransomware-claims-kettering-health-breach-leaks-stolen-data/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/kerberos-as-rep-roasting-attacks-what-you-need-to-know/</guid>
 	<description><![CDATA[Think your passwords are strong enough? AS-REP Roasting is back in the spotlight — and it's targeting weak spots in Active Directory. Learn more from Specops Software how attackers exploit missing Kerberos pre-auth and how to stop them with strong password policies. [...]]]></description>
- </item>
-
- <item>
-        <title>Hacker targets other hackers and gamers with backdoored GitHub code</title>
-        <link>https://www.bleepingcomputer.com/news/security/hacker-targets-other-hackers-and-gamers-with-backdoored-github-code/</link>
-        <pubDate>Wed, 04 Jun 2025 06:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hacker-targets-other-hackers-and-gamers-with-backdoored-github-code/</guid>
-	<description><![CDATA[A hacker targets other hackers, gamers, and researchers with exploits, bots, and game cheats in source code hosted on GitHub that contain hidden backdoors to give the threat actor remote access to infected devices. [...]]]></description>
  </item>
 
 </channel>
