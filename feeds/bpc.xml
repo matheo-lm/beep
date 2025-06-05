@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 05 Jun 2025 12:00:24 EDT</pubDate>
+        <pubDate>Thu, 05 Jun 2025 13:01:01 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hacker selling critical Roundcube webmail exploit as tech info disclosed</title>
+        <link>https://www.bleepingcomputer.com/news/security/hacker-selling-critical-roundcube-webmail-exploit-as-tech-info-disclosed/</link>
+        <pubDate>Thu, 05 Jun 2025 12:55:54 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hacker-selling-critical-roundcube-webmail-exploit-as-tech-info-disclosed/</guid>
+	<description><![CDATA[Hackers are actively exploiting CVE-2025-49113, a critical vulnerability in the widely used Roundcube open-source webmail application that allows remote execution. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Designing a Windows Service for Security</title>
+        <link>https://www.bleepingcomputer.com/news/security/designing-a-windows-service-for-security/</link>
+        <pubDate>Thu, 05 Jun 2025 10:20:12 -0400</pubDate>
+        <dc:creator>Sponsored by ThreatLocker</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/designing-a-windows-service-for-security/</guid>
+	<description><![CDATA[Designing a security-focused Windows Service? Learn more from ThreatLocker about the core components for real-time monitoring, threat detection, and system hardening to defend against malware and ransomware. [...]]]></description>
+ </item>
+
  <item>
         <title>Germany fines Vodafone $51 million for privacy, security breaches</title>
         <link>https://www.bleepingcomputer.com/news/security/germany-fines-vodafone-51-million-for-privacy-security-breaches/</link>
@@ -176,34 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fbi-warns-of-nft-airdrop-scams-targeting-hedera-hashgraph-wallets/</guid>
 	<description><![CDATA[The FBI is warning about a new scam where cybercriminals exploit NFT airdrops on the Hedera Hashgraph network to steal crypto from cryptocurrency wallets. [...]]]></description>
- </item>
-
- <item>
-        <title>Media giant Lee Enterprises says data breach affects 39,000 people</title>
-        <link>https://www.bleepingcomputer.com/news/security/media-giant-lee-enterprises-says-data-breach-affects-39-000-people/</link>
-        <pubDate>Wed, 04 Jun 2025 10:30:14 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/media-giant-lee-enterprises-says-data-breach-affects-39-000-people/</guid>
-	<description><![CDATA[Publishing giant Lee Enterprises is notifying nearly 40,000 people whose personal information was stolen in a February 2025 ransomware attack. [...]]]></description>
- </item>
-
- <item>
-        <title>Google: Hackers target Salesforce accounts in data extortion attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-hackers-target-salesforce-accounts-in-data-extortion-attacks/</link>
-        <pubDate>Wed, 04 Jun 2025 10:11:12 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-hackers-target-salesforce-accounts-in-data-extortion-attacks/</guid>
-	<description><![CDATA[Google has observed hackers claiming to be the ShinyHunters extortion group conducting social engineering attacks against multi-national companies to steal data from organizations' Salesforce platforms. [...]]]></description>
  </item>
 
 </channel>
