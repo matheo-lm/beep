@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 06 Jun 2025 13:01:38 EDT</pubDate>
+        <pubDate>Fri, 06 Jun 2025 14:03:58 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft shares script to restore inetpub folder you shouldn’t delete</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-script-to-restore-inetpub-folder-you-shouldnt-delete/</link>
+        <pubDate>Fri, 06 Jun 2025 13:28:07 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-script-to-restore-inetpub-folder-you-shouldnt-delete/</guid>
+	<description><![CDATA[Microsoft has released a PowerShell script to help restore an empty 'inetpub' folder created by the April 2025 Windows security updates if deleted. As Microsoft previously warned, this folder helps mitigate a high-severity Windows Process Activation privilege escalation vulnerability. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Tax resolution firm Optima Tax Relief hit by ransomware, data leaked</title>
+        <link>https://www.bleepingcomputer.com/news/security/tax-resolution-firm-optima-tax-relief-hit-by-ransomware-data-leaked/</link>
+        <pubDate>Fri, 06 Jun 2025 13:14:17 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/tax-resolution-firm-optima-tax-relief-hit-by-ransomware-data-leaked/</guid>
+	<description><![CDATA[U.S. tax resolution firm Optima Tax Relief suffered a Chaos ransomware attack, with the threat actors now leaking data stolen from the company. [...]]]></description>
+ </item>
+
  <item>
         <title>Kettering Health confirms Interlock ransomware behind cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/kettering-health-confirms-interlock-ransomware-behind-cyberattack/</link>
@@ -174,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/germany-fines-vodafone-51-million-for-privacy-security-breaches/</guid>
 	<description><![CDATA[The German data protection authority (BfDI) has fined Vodafone GmbH, the telecommunications company's German subsidiary, €45 million ($51.4 million) for privacy and security violations. [...]]]></description>
- </item>
-
- <item>
-        <title>ViLE gang members sentenced for DEA portal breach, extortion</title>
-        <link>https://www.bleepingcomputer.com/news/security/vile-gang-members-sentenced-for-breaching-law-enforcement-portal/</link>
-        <pubDate>Thu, 05 Jun 2025 05:26:34 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/vile-gang-members-sentenced-for-breaching-law-enforcement-portal/</guid>
-	<description><![CDATA[Two members of a group of cybercriminals named ViLE were sentenced this week for hacking into a federal law enforcement web portal in an extortion scheme. [...]]]></description>
  </item>
 
 </channel>
