@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 06 Jun 2025 09:10:12 EDT</pubDate>
+        <pubDate>Fri, 06 Jun 2025 09:58:46 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Critical Fortinet flaws now exploited in Qilin ransomware attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/critical-fortinet-flaws-now-exploited-in-qilin-ransomware-attacks/</link>
+        <pubDate>Fri, 06 Jun 2025 09:53:40 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critical-fortinet-flaws-now-exploited-in-qilin-ransomware-attacks/</guid>
+	<description><![CDATA[The Qilin ransomware operation has recently joined attacks exploiting two Fortinet vulnerabilities that allow bypassing authentication on vulnerable devices and executing malicious code remotely. [...]]]></description>
+ </item>
+
  <item>
         <title>Police arrests 20 suspects for distributing child sexual abuse content</title>
         <link>https://www.bleepingcomputer.com/news/security/police-arrests-20-suspects-for-distributing-child-sexual-abuse-content/</link>
@@ -174,22 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-offers-10m-for-tips-on-state-hackers-tied-to-redline-malware/</guid>
 	<description><![CDATA[The U.S. Department of State has announced a reward of up to $10 million for any information on government-sponsored hackers with ties to the RedLine infostealer malware operation and its suspected creator, Russian national Maxim Alexandrovich Rudometov. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft unveils free EU cybersecurity program for governments</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-unveils-free-eu-cybersecurity-program-for-governments/</link>
-        <pubDate>Wed, 04 Jun 2025 16:36:27 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-unveils-free-eu-cybersecurity-program-for-governments/</guid>
-	<description><![CDATA[Microsoft announced in Berlin today a new European Security Program that promises to bolster cybersecurity for European governments. [...]]]></description>
  </item>
 
 </channel>
