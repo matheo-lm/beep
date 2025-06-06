@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Fri, 06 Jun 2025 14:08:05 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 06 Jun 2025 18:10:10 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -49,7 +49,7 @@
 					<description><![CDATA[Ukraine has seen nearly one-fifth of its Internet space come under Russian control or sold to Internet address brokers since February 2022, a new study finds. The analysis indicates large chunks of Ukrainian Internet address space are now in the hands of proxy and anonymity services nested at some of America's largest Internet service providers (ISPs).]]></description>
 										<content:encoded><![CDATA[<div id="attachment_71441" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71441" decoding="async" class=" wp-image-71441" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks.png" alt="" width="749" height="611" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks.png 823w, https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks-768x626.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks-782x638.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71441" class="wp-caption-text">Image: Mark Rademaker, via Shutterstock.</p></div>
 <p>Ukraine has seen nearly one-fifth of its Internet space come under Russian control or sold to Internet address brokers since February 2022, a new study finds. The analysis indicates large chunks of Ukrainian Internet address space are now in the hands of shadowy proxy and anonymity services that are nested at some of America&#8217;s largest Internet service providers (ISPs).</p>
-<p>The findings come in a report that examines how the Russian invasion has affected Ukraine&#8217;s domestic supply of <strong>Internet Protocol Version 4</strong> (IPv4) addresses. Researchers at <strong>Kentik</strong>, a company that measures the performance of Internet networks, found that while a majority of ISPs in Ukraine haven&#8217;t changed their infrastructure much since the war began in 2022, others have resorted to selling swathes of their valuable IPv4 address space just to keep the lights on.</p>
+<p>The findings come in <a href="https://www.kentik.com/blog/exodus-of-ipv4-from-war-torn-ukraine/" target="_blank" rel="noopener">a report</a> examining how the Russian invasion has affected Ukraine&#8217;s domestic supply of <strong>Internet Protocol Version 4</strong> (IPv4) addresses. Researchers at <strong>Kentik</strong>, a company that measures the performance of Internet networks, found that while a majority of ISPs in Ukraine haven&#8217;t changed their infrastructure much since the war began in 2022, others have resorted to selling swathes of their valuable IPv4 address space just to keep the lights on.</p>
 <p>For example, Ukraine&#8217;s incumbent ISP <strong>Ukrtelecom</strong> is now routing just 29 percent of the IPv4 address ranges that the company controlled at the start of the war, Kentik found. Although much of that former IP space remains dormant, Ukrtelecom told Kentik&#8217;s <strong>Doug Madory</strong> they were forced to sell many of their address blocks &#8220;to secure financial stability and continue delivering essential services.&#8221;</p>
 <p>&#8220;Leasing out a portion of our IPv4 resources allowed us to mitigate some of the extraordinary challenges we have been facing since the full-scale invasion began,&#8221; Ukrtelecom told Madory.</p>
 <p>Madory found much of the IPv4 space previously allocated to Ukrtelecom is now scattered to more than 100 providers globally, particularly at three large American ISPs &#8212; <strong>Amazon</strong> (AS16509), <strong>AT&amp;T</strong> (AS7018), and <strong>Cogent</strong> (AS174).</p>
@@ -76,7 +76,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/06/proxy-services-feast-on-ukraines-ip-address-exodus/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>3</slash:comments>
 		
 		
 			</item>
@@ -657,5 +657,5 @@ Object Caching 295/295 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-06-06 14:00:02 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-06-06 15:00:08 by W3 Total Cache
 -->
