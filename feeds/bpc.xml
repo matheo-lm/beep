@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 07 Jun 2025 14:58:52 EDT</pubDate>
+        <pubDate>Sat, 07 Jun 2025 15:58:52 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Supply chain attack hits Gluestack NPM packages with 960K weekly downloads</title>
+        <link>https://www.bleepingcomputer.com/news/security/supply-chain-attack-hits-gluestack-npm-packages-with-960k-weekly-downloads/</link>
+        <pubDate>Sat, 07 Jun 2025 15:31:21 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/supply-chain-attack-hits-gluestack-npm-packages-with-960k-weekly-downloads/</guid>
+	<description><![CDATA[A significant supply chain attack hit NPM after 15 popular Gluestack packages with over 950,000 weekly downloads were compromised to include malicious code that acts as a remote access trojan (RAT). [...]]]></description>
+ </item>
+
+ <item>
+        <title>Malicious npm packages posing as utilities delete project directories</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-npm-packages-posing-as-utilities-delete-project-directories/</link>
+        <pubDate>Sat, 07 Jun 2025 10:11:21 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-npm-packages-posing-as-utilities-delete-project-directories/</guid>
+	<description><![CDATA[Two malicious packages have been discovered in the npm JavaScript package index, which masquerades as useful utilities but, in reality, are destructive data wipers that delete entire application directories. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft shares script to restore inetpub folder you shouldn’t delete</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-script-to-restore-inetpub-folder-you-shouldnt-delete/</link>
@@ -162,48 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/old-atandt-data-leak-repackaged-to-link-ssns-dobs-to-49m-phone-numbers/</guid>
 	<description><![CDATA[A threat actor has re-released data from a 2021 AT&T breach affecting 70 million customers, this time combining previously separate files to directly link Social Security numbers and birth dates to individual users. [...]]]></description>
- </item>
-
- <item>
-        <title>Hacker selling critical Roundcube webmail exploit as tech info disclosed</title>
-        <link>https://www.bleepingcomputer.com/news/security/hacker-selling-critical-roundcube-webmail-exploit-as-tech-info-disclosed/</link>
-        <pubDate>Thu, 05 Jun 2025 12:55:54 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hacker-selling-critical-roundcube-webmail-exploit-as-tech-info-disclosed/</guid>
-	<description><![CDATA[Hackers are actively exploiting CVE-2025-49113, a critical vulnerability in the widely used Roundcube open-source webmail application that allows remote execution. [...]]]></description>
- </item>
-
- <item>
-        <title>How to build a robust Windows service to block malware and ransomware</title>
-        <link>https://www.bleepingcomputer.com/news/security/how-to-build-a-robust-windows-service-to-block-malware-and-ransomware/</link>
-        <pubDate>Thu, 05 Jun 2025 10:20:12 -0400</pubDate>
-        <dc:creator>Sponsored by ThreatLocker</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/how-to-build-a-robust-windows-service-to-block-malware-and-ransomware/</guid>
-	<description><![CDATA[Designing a security-focused Windows Service? Learn more from ThreatLocker about the core components for real-time monitoring, threat detection, and system hardening to defend against malware and ransomware. [...]]]></description>
- </item>
-
- <item>
-        <title>Germany fines Vodafone $51 million for privacy, security breaches</title>
-        <link>https://www.bleepingcomputer.com/news/security/germany-fines-vodafone-51-million-for-privacy-security-breaches/</link>
-        <pubDate>Thu, 05 Jun 2025 07:29:18 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/germany-fines-vodafone-51-million-for-privacy-security-breaches/</guid>
-	<description><![CDATA[The German data protection authority (BfDI) has fined Vodafone GmbH, the telecommunications company's German subsidiary, €45 million ($51.4 million) for privacy and security violations. [...]]]></description>
  </item>
 
 </channel>
