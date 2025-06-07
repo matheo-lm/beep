@@ -6,6 +6,14 @@
     <description>The latest publicly leaked data breaches to hit Have I Been Pwned</description>
     <a10:link href="https://haveibeenpwned.com/feed/breaches/" rel="self" type="application/rss+xml" />
     <item>
+      <guid isPermaLink="false">DiskUnion</guid>
+      <link>https://haveibeenpwned.com/Breach/DiskUnion</link>
+      <title>Disk Union - 690,667 breached accounts</title>
+      <description>In June 2022, &lt;a href="https://news.kaduu.io/blog/2022/07/04/the-worlds-best-record-shop-leaks-701k-user-records-and-personal-info/" target="_blank" rel="noopener"&gt;the Japanese record chain store Disk Union suffered a data breach&lt;/a&gt;. The incident exposed 690k unique email addresses along with names, post codes, phone numbers and plain text passwords.</description>
+      <pubDate>Sat, 07 Jun 2025 07:08:28 Z</pubDate>
+      <a10:updated>2025-06-07T07:08:28Z</a10:updated>
+    </item>
+    <item>
       <guid isPermaLink="false">ColoCrossing</guid>
       <link>https://haveibeenpwned.com/Breach/ColoCrossing</link>
       <title>ColoCrossing - 7,183 breached accounts</title>
@@ -156,14 +164,6 @@
       <description>In February 2025, the spyware service &lt;a href="https://techcrunch.com/2025/02/20/stalkerware-apps-cocospy-spyic-exposing-phone-data-of-millions-of-people/" target="_blank" rel="noopener"&gt;Spyic suffered a data breach along with sibling spyware service, Cocospy&lt;/a&gt;. The Spyic breach alone exposed almost 876k customer email addresses which were provided to HIBP, and reportedly also enabled unauthorised access to captured messages, photos, call logs, and more. The data was provided to HIBP by a source who requested it be attributed to &amp;quot;zathienaephi@proton.me&amp;quot;.</description>
       <pubDate>Thu, 20 Feb 2025 23:12:38 Z</pubDate>
       <a10:updated>2025-02-20T23:12:38Z</a10:updated>
-    </item>
-    <item>
-      <guid isPermaLink="false">Cocospy</guid>
-      <link>https://haveibeenpwned.com/Breach/Cocospy</link>
-      <title>Cocospy - 1,798,059 breached accounts</title>
-      <description>In February 2025, the spyware service &lt;a href="https://techcrunch.com/2025/02/20/stalkerware-apps-cocospy-spyic-exposing-phone-data-of-millions-of-people/" target="_blank" rel="noopener"&gt;Cocospy suffered a data breach along with sibling spyware service, Spyic&lt;/a&gt;. The Cocospy breach alone exposed almost 1.8M customer email addresses which were provided to HIBP, and reportedly also enabled unauthorised access to captured messages, photos, call logs, and more. The data was provided to HIBP by a source who requested it be attributed to &amp;quot;zathienaephi@proton.me&amp;quot;.</description>
-      <pubDate>Thu, 20 Feb 2025 22:36:16 Z</pubDate>
-      <a10:updated>2025-02-20T22:36:16Z</a10:updated>
     </item>
   </channel>
 </rss>
