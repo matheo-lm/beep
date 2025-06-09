@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 09 Jun 2025 14:00:53 EDT</pubDate>
+        <pubDate>Mon, 09 Jun 2025 15:02:31 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>SentinelOne shares new details on China-linked breach attempt</title>
+        <link>https://www.bleepingcomputer.com/news/security/sentinelone-shares-new-details-on-china-linked-breach-attempt/</link>
+        <pubDate>Mon, 09 Jun 2025 14:26:08 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sentinelone-shares-new-details-on-china-linked-breach-attempt/</guid>
+	<description><![CDATA[SentinelOne has shared more details on an attempted supply chain attack by Chinese hackers through an IT services and logistics firm that manages hardware logistics for the cybersecurity firm. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Linux Foundation unveils decentralized WordPress plugin manager</title>
+        <link>https://www.bleepingcomputer.com/news/technology/linux-foundation-unveils-decentralized-wordpress-plugin-manager/</link>
+        <pubDate>Mon, 09 Jun 2025 14:07:42 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/technology/linux-foundation-unveils-decentralized-wordpress-plugin-manager/</guid>
+	<description><![CDATA[A collective of former WordPress developers and contributors backed by the Linux Foundation has launched the FAIR Package Manager, a new and independent distribution system for trusted WordPress plugins and themes. [...]]]></description>
+ </item>
+
  <item>
         <title>Sensata Technologies says personal data stolen by ransomware gang</title>
         <link>https://www.bleepingcomputer.com/news/security/sensata-technologies-says-personal-data-stolen-by-ransomware-gang/</link>
@@ -160,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-pathwiper-data-wiper-malware-hits-critical-infrastructure-in-ukraine/</guid>
 	<description><![CDATA[A new data wiper malware named 'PathWiper' is being used in targeted attacks against critical infrastructure in Ukraine, aimed at disrupting operations in the country. [...]]]></description>
- </item>
-
- <item>
-        <title>Critical Fortinet flaws now exploited in Qilin ransomware attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/critical-fortinet-flaws-now-exploited-in-qilin-ransomware-attacks/</link>
-        <pubDate>Fri, 06 Jun 2025 09:53:40 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/critical-fortinet-flaws-now-exploited-in-qilin-ransomware-attacks/</guid>
-	<description><![CDATA[The Qilin ransomware operation has recently joined attacks exploiting two Fortinet vulnerabilities that allow bypassing authentication on vulnerable devices and executing malicious code remotely. [...]]]></description>
  </item>
 
 </channel>
