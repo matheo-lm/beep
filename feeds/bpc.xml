@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 09 Jun 2025 15:02:31 EDT</pubDate>
+        <pubDate>Mon, 09 Jun 2025 15:59:07 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google patched bug leaking phone numbers tied to accounts</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-patched-bug-leaking-phone-numbers-tied-to-accounts/</link>
+        <pubDate>Mon, 09 Jun 2025 15:36:39 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-patched-bug-leaking-phone-numbers-tied-to-accounts/</guid>
+	<description><![CDATA[A vulnerability allowed researchers to brute-force any Google account's recovery phone number simply by knowing a their profile name and an easily retrieved partial phone number, creating a massive risk for phishing and SIM-swapping attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>SentinelOne shares new details on China-linked breach attempt</title>
         <link>https://www.bleepingcomputer.com/news/security/sentinelone-shares-new-details-on-china-linked-breach-attempt/</link>
@@ -174,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/kettering-health-confirms-interlock-ransomware-behind-cyberattack/</guid>
 	<description><![CDATA[Healthcare giant Kettering Health, which manages 14 medical centers in Ohio, confirmed that the Interlock ransomware group breached its network and stole data in a May cyberattack. [...]]]></description>
- </item>
-
- <item>
-        <title>New PathWiper data wiper malware hits critical infrastructure in Ukraine</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-pathwiper-data-wiper-malware-hits-critical-infrastructure-in-ukraine/</link>
-        <pubDate>Fri, 06 Jun 2025 10:40:31 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-pathwiper-data-wiper-malware-hits-critical-infrastructure-in-ukraine/</guid>
-	<description><![CDATA[A new data wiper malware named 'PathWiper' is being used in targeted attacks against critical infrastructure in Ukraine, aimed at disrupting operations in the country. [...]]]></description>
  </item>
 
 </channel>
