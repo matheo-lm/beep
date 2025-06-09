@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 09 Jun 2025 18:01:48 EDT</pubDate>
+        <pubDate>Mon, 09 Jun 2025 19:01:34 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Stolen Ticketmaster data from Snowflake attacks briefly for sale again</title>
+        <link>https://www.bleepingcomputer.com/news/security/stolen-ticketmaster-data-from-snowflake-attacks-briefly-for-sale-again/</link>
+        <pubDate>Mon, 09 Jun 2025 18:31:18 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/stolen-ticketmaster-data-from-snowflake-attacks-briefly-for-sale-again/</guid>
+	<description><![CDATA[The Arkana Security extortion gang briefly listed over the weekend what appeared to be newly stolen Ticketmaster data but is instead the data stolen during the 2024 Snowflake data theft attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Over 84,000 Roundcube instances vulnerable to actively exploited flaw</title>
         <link>https://www.bleepingcomputer.com/news/security/over-84-000-roundcube-instances-vulnerable-to-actively-exploited-flaw/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-script-to-restore-inetpub-folder-you-shouldnt-delete/</guid>
 	<description><![CDATA[Microsoft has released a PowerShell script to help restore an empty 'inetpub' folder created by the April 2025 Windows security updates if deleted. As Microsoft previously warned, this folder helps mitigate a high-severity Windows Process Activation privilege escalation vulnerability. [...]]]></description>
- </item>
-
- <item>
-        <title>Tax resolution firm Optima Tax Relief hit by ransomware, data leaked</title>
-        <link>https://www.bleepingcomputer.com/news/security/tax-resolution-firm-optima-tax-relief-hit-by-ransomware-data-leaked/</link>
-        <pubDate>Fri, 06 Jun 2025 13:14:17 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/tax-resolution-firm-optima-tax-relief-hit-by-ransomware-data-leaked/</guid>
-	<description><![CDATA[U.S. tax resolution firm Optima Tax Relief suffered a Chaos ransomware attack, with the threat actors now leaking data stolen from the company. [...]]]></description>
  </item>
 
 </channel>
