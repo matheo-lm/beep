@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 09 Jun 2025 10:02:51 EDT</pubDate>
+        <pubDate>Mon, 09 Jun 2025 11:03:13 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Designing Blue Team playbooks with Wazuh for proactive cyber defense</title>
+        <link>https://www.bleepingcomputer.com/news/security/designing-blue-team-playbooks-with-wazuh-for-proactive-cyber-defense/</link>
+        <pubDate>Mon, 09 Jun 2025 10:27:02 -0400</pubDate>
+        <dc:creator>Sponsored by Wazuh</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/designing-blue-team-playbooks-with-wazuh-for-proactive-cyber-defense/</guid>
+	<description><![CDATA[Blue Team playbooks are essential—but tools like Wazuh take them to the next level. From credential dumping to web shells and brute-force attacks, see how Wazuh strengthens real-time detection and automated response. [...]]]></description>
+ </item>
+
  <item>
         <title>Grocery wholesale giant United Natural Foods hit by cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/grocery-wholesale-giant-united-natural-foods-hit-by-cyberattack/</link>
@@ -160,20 +174,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/police-arrests-20-suspects-for-distributing-child-sexual-abuse-content/</guid>
 	<description><![CDATA[Law enforcement authorities from over a dozen countries have arrested 20 suspects in an international operation targeting the production and distribution of child sexual abuse material. [...]]]></description>
- </item>
-
- <item>
-        <title>Google’s upcoming Gemini Kingfall is allegedly a coding beast</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/googles-upcoming-gemini-kingfall-is-allegedly-a-coding-beast/</link>
-        <pubDate>Thu, 05 Jun 2025 19:41:25 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/googles-upcoming-gemini-kingfall-is-allegedly-a-coding-beast/</guid>
-	<description><![CDATA[Google's AI advancement is not slowing down, and we might be getting yet another powerful model codenamed "Gemini Kingfall." [...]]]></description>
  </item>
 
 </channel>
