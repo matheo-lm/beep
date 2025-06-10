@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 10 Jun 2025 15:01:49 EDT</pubDate>
+        <pubDate>Tue, 10 Jun 2025 16:02:25 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Secure Boot flaw lets attackers install bootkit malware, patch now</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-secure-boot-flaw-lets-attackers-install-bootkit-malware-patch-now/</link>
+        <pubDate>Tue, 10 Jun 2025 16:02:19 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-secure-boot-flaw-lets-attackers-install-bootkit-malware-patch-now/</guid>
+	<description><![CDATA[Security researchers have disclosed a new Secure Boot bypass tracked as CVE-2025-3052 that can be used to turn off security on PCs and servers and install bootkit malware. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 10 KB5060533 cumulative update released with 7 changes, fixes</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5060533-cumulative-update-released-with-7-changes-fixes/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/stolen-ticketmaster-data-from-snowflake-attacks-briefly-for-sale-again/</guid>
 	<description><![CDATA[The Arkana Security extortion gang briefly listed over the weekend what appeared to be newly stolen Ticketmaster data but is instead the data stolen during the 2024 Snowflake data theft attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Over 84,000 Roundcube instances vulnerable to actively exploited flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/over-84-000-roundcube-instances-vulnerable-to-actively-exploited-flaw/</link>
-        <pubDate>Mon, 09 Jun 2025 16:14:16 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/over-84-000-roundcube-instances-vulnerable-to-actively-exploited-flaw/</guid>
-	<description><![CDATA[Over 84,000 instances of the Roundcube webmail software are vulnerable to CVE-2025-49113, a critical remote code execution (RCE) vulnerability with a publicly available exploit. [...]]]></description>
  </item>
 
 </channel>
