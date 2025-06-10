@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 10 Jun 2025 10:00:00 EDT</pubDate>
+        <pubDate>Tue, 10 Jun 2025 11:00:15 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Massive Heroku outage impacts web platforms worldwide</title>
+        <link>https://www.bleepingcomputer.com/news/technology/massive-heroku-outage-impacts-web-platforms-worldwide/</link>
+        <pubDate>Tue, 10 Jun 2025 10:51:47 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/technology/massive-heroku-outage-impacts-web-platforms-worldwide/</guid>
+	<description><![CDATA[Heroku is suffering a widespread outage that has lasted over six hours, preventing developers from logging into the platform and breaking website functionality. [...]]]></description>
+ </item>
+
+ <item>
+        <title>AI is a data-breach time bomb, reveals new report</title>
+        <link>https://www.bleepingcomputer.com/news/security/ai-is-a-data-breach-time-bomb-reveals-new-report/</link>
+        <pubDate>Tue, 10 Jun 2025 10:02:20 -0400</pubDate>
+        <dc:creator>Sponsored by Varonis</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ai-is-a-data-breach-time-bomb-reveals-new-report/</guid>
+	<description><![CDATA[AI acts like Pac-Man—devouring sensitive data across clouds, apps, and copilots. Varonis analyzed 1,000 orgs and found 99% have exposed data AI can access, exposing them to data risks. [...]]]></description>
+ </item>
+
  <item>
         <title>OpenAI working to fix ChatGPT outage affecting users worldwide</title>
         <link>https://www.bleepingcomputer.com/news/technology/openai-working-to-fix-chatgpt-outage-affecting-users-worldwide/</link>
@@ -174,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-mirai-botnet-infect-tbk-dvr-devices-via-command-injection-flaw/</guid>
 	<description><![CDATA[A new variant of the Mirai malware botnet is exploiting a command injection vulnerability in TBK DVR-4104 and DVR-4216 digital video recording devices to hijack them. [...]]]></description>
- </item>
-
- <item>
-        <title>Malware found in NPM packages with 1 million weekly downloads</title>
-        <link>https://www.bleepingcomputer.com/news/security/supply-chain-attack-hits-gluestack-npm-packages-with-960k-weekly-downloads/</link>
-        <pubDate>Sat, 07 Jun 2025 15:31:21 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/supply-chain-attack-hits-gluestack-npm-packages-with-960k-weekly-downloads/</guid>
-	<description><![CDATA[A significant supply chain attack hit NPM after 15 popular Gluestack packages with over 950,000 weekly downloads were compromised to include malicious code that acts as a remote access trojan (RAT). [...]]]></description>
  </item>
 
 </channel>
