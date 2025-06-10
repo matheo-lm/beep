@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 10 Jun 2025 07:02:15 EDT</pubDate>
+        <pubDate>Tue, 10 Jun 2025 08:04:35 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Five plead guilty to laundering $36 million stolen in investment scams</title>
+        <link>https://www.bleepingcomputer.com/news/security/five-plead-guilty-to-laundering-36-million-stolen-in-investment-scams/</link>
+        <pubDate>Tue, 10 Jun 2025 07:59:30 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/five-plead-guilty-to-laundering-36-million-stolen-in-investment-scams/</guid>
+	<description><![CDATA[Five men from China, the United States, and Turkey pleaded guilty to their involvement in an international crime ring and laundering nearly $37 million stolen from U.S. victims in cryptocurrency investment scams carried out from Cambodia. [...]]]></description>
+ </item>
+
  <item>
         <title>Stolen Ticketmaster data from Snowflake attacks briefly for sale again</title>
         <link>https://www.bleepingcomputer.com/news/security/stolen-ticketmaster-data-from-snowflake-attacks-briefly-for-sale-again/</link>
@@ -172,22 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/malicious-npm-packages-posing-as-utilities-delete-project-directories/</guid>
 	<description><![CDATA[Two malicious packages have been discovered in the npm JavaScript package index, which masquerades as useful utilities but, in reality, are destructive data wipers that delete entire application directories. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft shares script to restore inetpub folder you shouldn’t delete</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-script-to-restore-inetpub-folder-you-shouldnt-delete/</link>
-        <pubDate>Fri, 06 Jun 2025 13:28:07 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-script-to-restore-inetpub-folder-you-shouldnt-delete/</guid>
-	<description><![CDATA[Microsoft has released a PowerShell script to help restore an empty 'inetpub' folder created by the April 2025 Windows security updates if deleted. As Microsoft previously warned, this folder helps mitigate a high-severity Windows Process Activation privilege escalation vulnerability. [...]]]></description>
  </item>
 
 </channel>
