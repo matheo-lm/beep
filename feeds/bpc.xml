@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 10 Jun 2025 12:02:21 EDT</pubDate>
+        <pubDate>Tue, 10 Jun 2025 13:02:03 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft Outlook to block more risky attachments used in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-outlook-to-block-more-risky-attachments-used-in-attacks/</link>
+        <pubDate>Tue, 10 Jun 2025 12:36:49 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-outlook-to-block-more-risky-attachments-used-in-attacks/</guid>
+	<description><![CDATA[Microsoft announced it will expand the list of blocked attachments in Outlook Web and the new Outlook for Windows starting next month. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Texas Dept. of Transportation breached, 300k crash records stolen</title>
+        <link>https://www.bleepingcomputer.com/news/security/texas-dept-of-transportation-breached-300k-crash-records-stolen/</link>
+        <pubDate>Tue, 10 Jun 2025 12:25:16 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Government]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/texas-dept-of-transportation-breached-300k-crash-records-stolen/</guid>
+	<description><![CDATA[The Texas Department of Transportation (TxDOT) is warning that it suffered a data breach after a threat actor downloaded 300,000 crash records from its database. [...]]]></description>
+ </item>
+
  <item>
         <title>FIN6 hackers pose as job seekers to backdoor recruiters’ devices</title>
         <link>https://www.bleepingcomputer.com/news/security/fin6-hackers-pose-as-job-seekers-to-backdoor-recruiters-devices/</link>
@@ -186,34 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/sensata-technologies-says-personal-data-stolen-by-ransomware-gang/</guid>
 	<description><![CDATA[Sensata Technologies is warning former and current employees it suffered a data breach after concluding an investigation into an April ransomware attack. [...]]]></description>
- </item>
-
- <item>
-        <title>Designing Blue Team playbooks with Wazuh for proactive cyber defense</title>
-        <link>https://www.bleepingcomputer.com/news/security/designing-blue-team-playbooks-with-wazuh-for-proactive-incident-response/</link>
-        <pubDate>Mon, 09 Jun 2025 10:27:02 -0400</pubDate>
-        <dc:creator>Sponsored by Wazuh</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/designing-blue-team-playbooks-with-wazuh-for-proactive-incident-response/</guid>
-	<description><![CDATA[Blue Team playbooks are essential—but tools like Wazuh take them to the next level. From credential dumping to web shells and brute-force attacks, see how Wazuh strengthens real-time detection and automated response. [...]]]></description>
- </item>
-
- <item>
-        <title>Grocery wholesale giant United Natural Foods hit by cyberattack</title>
-        <link>https://www.bleepingcomputer.com/news/security/grocery-wholesale-giant-united-natural-foods-hit-by-cyberattack/</link>
-        <pubDate>Mon, 09 Jun 2025 09:31:40 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/grocery-wholesale-giant-united-natural-foods-hit-by-cyberattack/</guid>
-	<description><![CDATA[United Natural Foods (UNFI), North America's largest publicly traded wholesale distributor, was forced to shut down some systems following a recent cyberattack. [...]]]></description>
  </item>
 
 </channel>
