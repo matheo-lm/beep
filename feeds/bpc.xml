@@ -11,11 +11,57 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 10 Jun 2025 13:02:03 EDT</pubDate>
+        <pubDate>Tue, 10 Jun 2025 14:03:37 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 10 KB5060533 cumulative update released with 7 changes, fixes</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5060533-cumulative-update-released-with-7-changes-fixes/</link>
+        <pubDate>Tue, 10 Jun 2025 14:03:09 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5060533-cumulative-update-released-with-7-changes-fixes/</guid>
+	<description><![CDATA[Microsoft has released the KB5060533 cumulative update for Windows 10 22H2 and Windows 10 21H2, with seven fixes or changes, including bringing seconds back to the time shown in the Calendar flyout. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft June 2025 Patch Tuesday fixes exploited zero-day, 66 flaws</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2025-patch-tuesday-fixes-exploited-zero-day-66-flaws/</link>
+        <pubDate>Tue, 10 Jun 2025 13:37:42 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2025-patch-tuesday-fixes-exploited-zero-day-66-flaws/</guid>
+	<description><![CDATA[Today is Microsoft's June 2025 Patch Tuesday, which includes security updates for 66 flaws, including one actively exploited vulnerability and another that was publicly disclosed. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 KB5060842 and KB5060999 cumulative updates released</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5060842-and-kb5060999-cumulative-updates-released/</link>
+        <pubDate>Tue, 10 Jun 2025 13:32:44 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5060842-and-kb5060999-cumulative-updates-released/</guid>
+	<description><![CDATA[Microsoft has released Windows 11 KB5060842 and KB5060999 cumulative updates for versions 24H2 and 23H2 to fix security vulnerabilities and issues, including 66 flaws. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft Outlook to block more risky attachments used in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-outlook-to-block-more-risky-attachments-used-in-attacks/</link>
@@ -174,48 +220,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-patched-bug-leaking-phone-numbers-tied-to-accounts/</guid>
 	<description><![CDATA[A vulnerability allowed researchers to brute-force any Google account's recovery phone number simply by knowing a their profile name and an easily retrieved partial phone number, creating a massive risk for phishing and SIM-swapping attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>SentinelOne shares new details on China-linked breach attempt</title>
-        <link>https://www.bleepingcomputer.com/news/security/sentinelone-shares-new-details-on-china-linked-breach-attempt/</link>
-        <pubDate>Mon, 09 Jun 2025 14:26:08 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sentinelone-shares-new-details-on-china-linked-breach-attempt/</guid>
-	<description><![CDATA[SentinelOne has shared more details on an attempted supply chain attack by Chinese hackers through an IT services and logistics firm that manages hardware logistics for the cybersecurity firm. [...]]]></description>
- </item>
-
- <item>
-        <title>Linux Foundation unveils decentralized WordPress plugin manager</title>
-        <link>https://www.bleepingcomputer.com/news/technology/linux-foundation-unveils-decentralized-wordpress-plugin-manager/</link>
-        <pubDate>Mon, 09 Jun 2025 14:07:42 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/technology/linux-foundation-unveils-decentralized-wordpress-plugin-manager/</guid>
-	<description><![CDATA[A collective of former WordPress developers and contributors backed by the Linux Foundation has launched the FAIR Package Manager, a new and independent distribution system for trusted WordPress plugins and themes. [...]]]></description>
- </item>
-
- <item>
-        <title>Sensata Technologies says personal data stolen by ransomware gang</title>
-        <link>https://www.bleepingcomputer.com/news/security/sensata-technologies-says-personal-data-stolen-by-ransomware-gang/</link>
-        <pubDate>Mon, 09 Jun 2025 12:09:35 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sensata-technologies-says-personal-data-stolen-by-ransomware-gang/</guid>
-	<description><![CDATA[Sensata Technologies is warning former and current employees it suffered a data breach after concluding an investigation into an April ransomware attack. [...]]]></description>
  </item>
 
 </channel>
