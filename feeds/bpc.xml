@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 11 Jun 2025 17:59:41 EDT</pubDate>
+        <pubDate>Wed, 11 Jun 2025 18:58:21 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>SmartAttack uses smartwatches to steal data from air-gapped systems</title>
+        <link>https://www.bleepingcomputer.com/news/security/smartattack-uses-smartwatches-to-steal-data-from-air-gapped-systems/</link>
+        <pubDate>Wed, 11 Jun 2025 18:08:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/smartattack-uses-smartwatches-to-steal-data-from-air-gapped-systems/</guid>
+	<description><![CDATA[A new attack dubbed 'SmartAttack' uses smartwatches as a covert ultrasonic signal receiver to exfiltrate data from physically isolated (air-gapped) systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Erie Insurance confirms cyberattack behind business disruptions</title>
         <link>https://www.bleepingcomputer.com/news/security/erie-insurance-confirms-cyberattack-behind-business-disruptions/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-secure-boot-flaw-lets-attackers-install-bootkit-malware-patch-now/</guid>
 	<description><![CDATA[Security researchers have disclosed a new Secure Boot bypass tracked as CVE-2025-3052 that can be used to turn off security on PCs and servers and install bootkit malware. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 10 KB5060533 cumulative update released with 7 changes, fixes</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5060533-cumulative-update-released-with-7-changes-fixes/</link>
-        <pubDate>Tue, 10 Jun 2025 14:03:09 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5060533-cumulative-update-released-with-7-changes-fixes/</guid>
-	<description><![CDATA[Microsoft has released the KB5060533 cumulative update for Windows 10 22H2 and Windows 10 21H2, with seven fixes or changes, including bringing seconds back to the time shown in the Calendar flyout. [...]]]></description>
  </item>
 
 </channel>
