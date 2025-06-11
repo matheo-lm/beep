@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Fri, 06 Jun 2025 18:10:10 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 11 Jun 2025 00:10:53 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,54 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Patch Tuesday, June 2025 Edition</title>
+		<link>https://krebsonsecurity.com/2025/06/patch-tuesday-june-2025-edition/</link>
+					<comments>https://krebsonsecurity.com/2025/06/patch-tuesday-june-2025-edition/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Wed, 11 Jun 2025 00:10:53 +0000</pubDate>
+				<category><![CDATA[Security Tools]]></category>
+		<category><![CDATA[Time to Patch]]></category>
+		<category><![CDATA[Acrobat Reader]]></category>
+		<category><![CDATA[Action1]]></category>
+		<category><![CDATA[Adam Barnett]]></category>
+		<category><![CDATA[Akamai]]></category>
+		<category><![CDATA[Alex Vovk]]></category>
+		<category><![CDATA[Automox]]></category>
+		<category><![CDATA[BadSuccessor]]></category>
+		<category><![CDATA[CVE-2025-33053]]></category>
+		<category><![CDATA[CVE-2025-33073]]></category>
+		<category><![CDATA[Experience Manager]]></category>
+		<category><![CDATA[Google Chrome]]></category>
+		<category><![CDATA[mozilla firefox]]></category>
+		<category><![CDATA[Patch Tuesday June 2025]]></category>
+		<category><![CDATA[Rapid7]]></category>
+		<category><![CDATA[sans internet storm center]]></category>
+		<category><![CDATA[Seth Hoyt]]></category>
+		<category><![CDATA[WebDAV]]></category>
+		<category><![CDATA[Windows Server Message Block]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71465</guid>
+
+					<description><![CDATA[Microsoft today released security updates to fix at least 67 vulnerabilities in its Windows operating systems and software. Redmond warns that one of the flaws is already under active attack, and that software blueprints showing how to exploit a pervasive Windows bug patched this month are now public. ]]></description>
+										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today released security updates to fix at least 67 vulnerabilities in its <strong>Windows</strong> operating systems and software. Redmond warns that one of the flaws is already under active attack, and that software blueprints showing how to exploit a pervasive Windows bug patched this month are now public.</p>
+<p><img decoding="async" class="aligncenter  wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="749" height="527" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p>The sole zero-day flaw this month is <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-33053" target="_blank" rel="noopener">CVE-2025-33053</a>, a remote code execution flaw in the Windows implementation of <strong>WebDAV</strong> &#8212; an HTTP extension that lets users remotely manage files and directories on a server. While WebDAV isn&#8217;t enabled by default in Windows, its presence in legacy or specialized systems still makes it a relevant target, said <strong>Seth Hoyt</strong>, senior security engineer at <strong>Automox</strong>.</p>
+<p><strong>Adam Barnett</strong>, lead software engineer at <strong>Rapid7</strong>, said Microsoft&#8217;s advisory for CVE-2025-33053 does not mention that the Windows implementation of WebDAV is listed as deprecated since November 2023, which in practical terms means that the WebClient service no longer starts by default.</p>
+<p>&#8220;The advisory also has attack complexity as low, which means that exploitation does not require preparation of the target environment in any way that is beyond the attacker’s control,&#8221; Barnett said. &#8220;Exploitation relies on the user clicking a malicious link. It’s not clear how an asset would be immediately vulnerable if the service isn’t running, but all versions of Windows receive a patch, including those released since the deprecation of WebClient, like Server 2025 and Windows 11 24H2.&#8221;<span id="more-71465"></span></p>
+<p>Microsoft warns that an &#8220;elevation of privilege&#8221; vulnerability in the <strong>Windows Server Message Block</strong> (SMB) client (<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-33073" target="_blank" rel="noopener">CVE-2025-33073</a>) is likely to be exploited, given that proof-of-concept code for this bug is now public. CVE-2025-33073 has a CVSS risk score of 8.8 (out of 10), and exploitation of the flaw leads to the attacker gaining &#8220;SYSTEM&#8221; level control over a vulnerable PC.</p>
+<p>&#8220;What makes this especially dangerous is that no further user interaction is required after the initial connection—something attackers can often trigger without the user realizing it,&#8221; said <strong>Alex Vovk</strong>, co-founder and CEO of <strong>Action1</strong>. &#8220;Given the high privilege level and ease of exploitation, this flaw poses a significant risk to Windows environments. The scope of affected systems is extensive, as SMB is a core Windows protocol used for file and printer sharing and inter-process communication.&#8221;</p>
+<p>Beyond these highlights, 10 of the vulnerabilities fixed this month were rated &#8220;critical&#8221; by Microsoft, including eight remote code execution flaws.</p>
+<p>Notably absent from this month&#8217;s patch batch is a fix for a newly discovered weakness in <strong>Windows Server 2025</strong> that allows attackers to act with the privileges of any user in Active Directory. The bug, dubbed &#8220;<strong>BadSuccessor</strong>,&#8221; was <a href="https://github.com/akamai/BadSuccessor" target="_blank" rel="noopener">publicly disclosed</a> by researchers at <strong>Akamai</strong> on May 21, and several public proof-of-concepts are now available. Tenable&#8217;s Satnam Narang said organizations that have at least one Windows Server 2025 domain controller should review permissions for principals and limit those permissions as much as possible.</p>
+<p><strong>Adobe</strong> has released updates for <strong>Acrobat Reader</strong> and six other products addressing at least 259 vulnerabilities, most of them in an update for <strong>Experience Manager</strong>. <strong>Mozilla Firefox</strong> and <strong>Google Chrome</strong> both recently released security updates that require a restart of the browser to take effect. The latest Chrome update fixes two zero-day exploits in the browser (CVE-2025-5419 and CVE-2025-4664).</p>
+<p>For a detailed breakdown on the individual security updates released by Microsoft today, check out the <a href="https://isc.sans.edu/diary/Microsoft%20Patch%20Tuesday%20June%202025/32032" target="_blank" rel="noopener">Patch Tuesday roundup</a> from the <strong>SANS Internet Storm Center</strong>. Action 1 has <a href="https://www.action1.com/patch-tuesday/patch-tuesday-june-2025/?vyj" target="_blank" rel="noopener">a breakdown of patches from Microsoft</a> and a raft of other software vendors releasing fixes this month. As always, please back up your system and/or data before patching, and feel free to drop a note in the comments if you run into any problems applying these updates.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/06/patch-tuesday-june-2025-edition/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Proxy Services Feast on Ukraine&#8217;s IP Address Exodus</title>
 		<link>https://krebsonsecurity.com/2025/06/proxy-services-feast-on-ukraines-ip-address-exodus/</link>
 					<comments>https://krebsonsecurity.com/2025/06/proxy-services-feast-on-ukraines-ip-address-exodus/#comments</comments>
@@ -47,7 +95,7 @@
 		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71386</guid>
 
 					<description><![CDATA[Ukraine has seen nearly one-fifth of its Internet space come under Russian control or sold to Internet address brokers since February 2022, a new study finds. The analysis indicates large chunks of Ukrainian Internet address space are now in the hands of proxy and anonymity services nested at some of America's largest Internet service providers (ISPs).]]></description>
-										<content:encoded><![CDATA[<div id="attachment_71441" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71441" decoding="async" class=" wp-image-71441" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks.png" alt="" width="749" height="611" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks.png 823w, https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks-768x626.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks-782x638.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71441" class="wp-caption-text">Image: Mark Rademaker, via Shutterstock.</p></div>
+										<content:encoded><![CDATA[<div id="attachment_71441" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71441" decoding="async" loading="lazy" class=" wp-image-71441" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks.png" alt="" width="749" height="611" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks.png 823w, https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks-768x626.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/06/ukraine-networks-782x638.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71441" class="wp-caption-text">Image: Mark Rademaker, via Shutterstock.</p></div>
 <p>Ukraine has seen nearly one-fifth of its Internet space come under Russian control or sold to Internet address brokers since February 2022, a new study finds. The analysis indicates large chunks of Ukrainian Internet address space are now in the hands of shadowy proxy and anonymity services that are nested at some of America&#8217;s largest Internet service providers (ISPs).</p>
 <p>The findings come in <a href="https://www.kentik.com/blog/exodus-of-ipv4-from-war-torn-ukraine/" target="_blank" rel="noopener">a report</a> examining how the Russian invasion has affected Ukraine&#8217;s domestic supply of <strong>Internet Protocol Version 4</strong> (IPv4) addresses. Researchers at <strong>Kentik</strong>, a company that measures the performance of Internet networks, found that while a majority of ISPs in Ukraine haven&#8217;t changed their infrastructure much since the war began in 2022, others have resorted to selling swathes of their valuable IPv4 address space just to keep the lights on.</p>
 <p>For example, Ukraine&#8217;s incumbent ISP <strong>Ukrtelecom</strong> is now routing just 29 percent of the IPv4 address ranges that the company controlled at the start of the war, Kentik found. Although much of that former IP space remains dormant, Ukrtelecom told Kentik&#8217;s <strong>Doug Madory</strong> they were forced to sell many of their address blocks &#8220;to secure financial stability and continue delivering essential services.&#8221;</p>
@@ -76,7 +124,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/06/proxy-services-feast-on-ukraines-ip-address-exodus/feed/</wfw:commentRss>
-			<slash:comments>11</slash:comments>
+			<slash:comments>12</slash:comments>
 		
 		
 			</item>
@@ -592,70 +640,15 @@
 		
 		
 			</item>
-		<item>
-		<title>Alleged &#8216;Scattered Spider&#8217; Member Extradited to U.S.</title>
-		<link>https://krebsonsecurity.com/2025/04/alleged-scattered-spider-member-extradited-to-u-s/</link>
-					<comments>https://krebsonsecurity.com/2025/04/alleged-scattered-spider-member-extradited-to-u-s/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Wed, 30 Apr 2025 21:54:59 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Ne'er-Do-Well News]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[SIM Swapping]]></category>
-		<category><![CDATA[0ktapus]]></category>
-		<category><![CDATA[Ahmed Elbadawy]]></category>
-		<category><![CDATA[Caesars]]></category>
-		<category><![CDATA[DoorDash]]></category>
-		<category><![CDATA[Evans Osiebo]]></category>
-		<category><![CDATA[Group-IB]]></category>
-		<category><![CDATA[Joel Evans]]></category>
-		<category><![CDATA[lastpass]]></category>
-		<category><![CDATA[Mailchimp]]></category>
-		<category><![CDATA[MGM]]></category>
-		<category><![CDATA[Noah Urban]]></category>
-		<category><![CDATA[Okta]]></category>
-		<category><![CDATA[ransomware]]></category>
-		<category><![CDATA[Scattered Spider]]></category>
-		<category><![CDATA[SIM swapping]]></category>
-		<category><![CDATA[Twilio]]></category>
-		<category><![CDATA[Tyler Robert Buchanan]]></category>
-		<category><![CDATA[Tylerb]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71147</guid>
-
-					<description><![CDATA[A 23-year-old Scottish man thought to be a member of the prolific Scattered Spider cybercrime group was extradited last week from Spain to the United States, where he is facing charges of wire fraud, conspiracy and identity theft. U.S. prosecutors allege Tyler Robert Buchanan and co-conspirators hacked into dozens of companies in the United States and abroad, and that he personally controlled more than $26 million stolen from victims.]]></description>
-										<content:encoded><![CDATA[<p>A 23-year-old Scottish man thought to be a member of the prolific <strong>Scattered Spider</strong> cybercrime group was extradited last week from Spain to the United States, where he is facing charges of wire fraud, conspiracy and identity theft. U.S. prosecutors allege <strong>Tyler Robert Buchanan</strong> and co-conspirators hacked into dozens of companies in the United States and abroad, and that he personally controlled more than $26 million stolen from victims.</p>
-<p>Scattered Spider is a loosely affiliated criminal hacking group whose members have broken into and stolen data from some of the world&#8217;s largest technology companies. Buchanan was arrested in Spain last year on a warrant from the FBI, which wanted him in connection with a series of SMS-based phishing attacks in the summer of 2022 that led to intrusions at Twilio, LastPass, DoorDash, Mailchimp, and many other tech firms.</p>
-<div id="attachment_67783" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-67783" decoding="async" loading="lazy" class=" wp-image-67783" src="https://krebsonsecurity.com/wp-content/uploads/2024/06/tylerb.png" alt="" width="748" height="308" /><p id="caption-attachment-67783" class="wp-caption-text">Tyler Buchanan, being escorted by Spanish police at the airport in Palma de Mallorca in June 2024.</p></div>
-<p>As <a href="https://krebsonsecurity.com/2024/06/alleged-boss-of-scattered-spider-hacking-group-arrested/" target="_blank" rel="noopener">first reported</a> by KrebsOnSecurity, Buchanan (a.k.a. &#8220;tylerb&#8221;) fled the United Kingdom in February 2023, after a rival cybercrime gang hired thugs to invade his home, assault his mother, and threaten to burn him with a blowtorch unless he gave up the keys to his cryptocurrency wallet. Buchanan was arrested in June 2024 at the airport in Palma de Mallorca while trying to board a flight to Italy. His extradition to the United States was <a href="https://www.bloomberg.com/news/articles/2025-04-24/scattered-spider-hacking-suspect-extradited-to-us-from-spain" target="_blank" rel="noopener">first reported</a> last week by <strong>Bloomberg</strong>.</p>
-<p>Members of Scattered Spider have been <a href="https://cyberscoop.com/youth-hacking-ring-at-the-center-of-cybercrime-spree/" target="_blank" rel="noopener">tied</a> to the 2023 ransomware attacks against <strong>MGM</strong> and <strong>Caesars</strong> casinos in Las Vegas, but it remains unclear whether Buchanan was implicated in that incident. The Justice Department&#8217;s complaint against Buchanan makes no mention of the 2023 ransomware attack.</p>
-<p>Rather, the investigation into Buchanan appears to center on the SMS phishing campaigns from 2022, and on <a href="https://krebsonsecurity.com/category/sim-swapping/" target="_blank" rel="noopener">SIM-swapping attacks</a> that siphoned funds from individual cryptocurrency investors. In a SIM-swapping attack, crooks transfer the target’s phone number to a device they control and intercept any text messages or phone calls to the victim&#8217;s device — including one-time passcodes for authentication and password reset links sent via SMS.</p>
-<p>In August 2022, KrebsOnSecurity <a href="https://krebsonsecurity.com/2022/08/how-1-time-passcodes-became-a-corporate-liability/" target="_blank" rel="noopener">reviewed data harvested in a months-long cybercrime campaign by Scattered Spider</a> involving countless SMS-based phishing attacks against employees at major corporations. The security firm <strong>Group-IB</strong> called them by a different name — <strong>0ktapus</strong>, because the group typically spoofed the identity provider <strong>Okta</strong> in their phishing messages to employees at targeted firms.</p>
-<div id="attachment_61078" style="width: 654px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-61078" decoding="async" loading="lazy" class="wp-image-61078 size-full" src="https://krebsonsecurity.com/wp-content/uploads/2022/08/twiliophish.png" alt="" width="644" height="471" /><p id="caption-attachment-61078" class="wp-caption-text">A Scattered Spider/0Ktapus SMS phishing lure sent to Twilio employees in 2022.</p></div>
-<p>The <a href="https://krebsonsecurity.com/wp-content/uploads/2025/04/tylerb-complaint.pdf" target="_blank" rel="noopener">complaint against Buchanan</a> (PDF) says the FBI tied him to the 2022 SMS phishing attacks after discovering the same username and email address was used to register numerous Okta-themed phishing domains seen in the campaign. The domain registrar <strong>NameCheap</strong> found that less than a month before the phishing spree, the account that registered those domains logged in from an Internet address in the U.K. FBI investigators said the Scottish police told them the address was leased to Buchanan from January 26, 2022 to November 7, 2022.</p>
-<p>Authorities seized at least 20 digital devices when they raided Buchanan&#8217;s residence, and on one of those devices they found usernames and passwords for employees of three different companies targeted in the phishing campaign.</p>
-<p>&#8220;The FBI’s investigation to date has gathered evidence showing that Buchanan and his co-conspirators targeted at least 45 companies in the United States and abroad, including Canada, India, and the United Kingdom,&#8221; the FBI complaint reads. &#8220;One of Buchanan&#8217;s devices contained a screenshot of Telegram messages between an account known to be used by Buchanan and other unidentified co-conspirators discussing dividing up the proceeds of SIM swapping.&#8221;<span id="more-71147"></span></p>
-<p>U.S. prosecutors allege that records obtained from Discord showed the same U.K. Internet address was used to operate a Discord account that specified a cryptocurrency wallet when asking another user to send funds. The complaint says the publicly available transaction history for that payment address shows approximately 391 bitcoin was transferred in and out of this address between October 2022 and<br />
-February 2023; 391 bitcoin is presently worth more than $26 million.</p>
-<p>In November 2024, federal prosecutors in Los Angeles <a href="https://krebsonsecurity.com/2024/11/feds-charge-five-men-in-scattered-spider-roundup/" target="_blank" rel="noopener">unsealed criminal charges against Buchanan</a> and four other alleged Scattered Spider members, including <strong>Ahmed Elbadawy</strong>, 23, of College Station, Texas; <strong>Joel Evans</strong>, 25, of Jacksonville, North Carolina; <strong>Evans Osiebo</strong>, 20, of Dallas; and <a href="https://krebsonsecurity.com/2024/01/fla-man-charged-in-sim-swapping-spree-is-key-suspect-in-hacker-groups-oktapus-scattered-spider/" target="_blank" rel="noopener"><strong>Noah Urban</strong></a>, 20, of Palm Coast, Florida. KrebsOnSecurity <a href="https://krebsonsecurity.com/2024/09/the-dark-nexus-between-harm-groups-and-the-com/" target="_blank" rel="noopener">reported last year</a> that another suspected Scattered Spider member &#8212; a 17-year-old from the United Kingdom &#8212; was arrested as part of a joint investigation with the FBI into the MGM hack.</p>
-<p>Mr. Buchanan&#8217;s court-appointed attorney did not respond to a request for comment. The accused faces charges of wire fraud conspiracy, conspiracy to obtain information by computer for private financial gain, and aggravated identity theft. Convictions on the latter charge carry a minimum sentence of two years in prison.</p>
-<p>Documents from the U.S. District Court for the Central District of California indicate Buchanan is being held without bail pending trial. A preliminary hearing in the case is slated for May 6.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/04/alleged-scattered-spider-member-extradited-to-u-s/feed/</wfw:commentRss>
-			<slash:comments>19</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 295/295 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Object Caching 288/288 objects using memcached
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-06-10 18:58:35 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-06-10 20:11:40 by W3 Total Cache
 -->
