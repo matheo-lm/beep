@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 11 Jun 2025 09:09:20 EDT</pubDate>
+        <pubDate>Wed, 11 Jun 2025 10:01:56 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Operation Secure disrupts global infostealer malware operations</title>
+        <link>https://www.bleepingcomputer.com/news/security/operation-secure-disrupts-global-infostealer-malware-operations/</link>
+        <pubDate>Wed, 11 Jun 2025 09:51:49 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/operation-secure-disrupts-global-infostealer-malware-operations/</guid>
+	<description><![CDATA[An international law enforcement action codenamed "Operation Secure" targeted infostealer malware infrastructure in a massive crackdown across 26 countries, resulting in 32 arrests, data seizures, and server takedowns. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft fixes unreachable Windows Server domain controllers</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-unreachable-windows-server-domain-controllers/</link>
+        <pubDate>Wed, 11 Jun 2025 09:21:03 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-unreachable-windows-server-domain-controllers/</guid>
+	<description><![CDATA[Microsoft has resolved a known issue that caused some Windows Server 2025 domain controllers to become unreachable after a restart and triggered app or service failures. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes Windows Server auth issues caused by April updates</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-auth-issues-caused-by-april-updates/</link>
@@ -174,34 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ivanti-workspace-control-hardcoded-key-flaws-expose-sql-credentials/</guid>
 	<description><![CDATA[Ivanti has released security updates to fix three high-severity hardcoded key vulnerabilities in the company's Workspace Control (IWC) solution. [...]]]></description>
- </item>
-
- <item>
-        <title>Massive Heroku outage impacts web platforms worldwide</title>
-        <link>https://www.bleepingcomputer.com/news/technology/massive-heroku-outage-impacts-web-platforms-worldwide/</link>
-        <pubDate>Tue, 10 Jun 2025 10:51:47 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/technology/massive-heroku-outage-impacts-web-platforms-worldwide/</guid>
-	<description><![CDATA[Heroku is suffering a widespread outage that has lasted over six hours, preventing developers from logging into the platform and breaking website functionality. [...]]]></description>
- </item>
-
- <item>
-        <title>AI is a data-breach time bomb, reveals new report</title>
-        <link>https://www.bleepingcomputer.com/news/security/ai-is-a-data-breach-time-bomb-reveals-new-report/</link>
-        <pubDate>Tue, 10 Jun 2025 10:02:20 -0400</pubDate>
-        <dc:creator>Sponsored by Varonis</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ai-is-a-data-breach-time-bomb-reveals-new-report/</guid>
-	<description><![CDATA[AI acts like Pac-Man—devouring sensitive data across clouds, apps, and copilots. Varonis analyzed 1,000 orgs and found 99% have exposed data AI can access, exposing them to data risks. [...]]]></description>
  </item>
 
 </channel>
