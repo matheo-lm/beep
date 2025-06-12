@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 12 Jun 2025 13:01:03 EDT</pubDate>
+        <pubDate>Thu, 12 Jun 2025 14:02:27 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Graphite spyware used in Apple iOS zero-click attacks on journalists</title>
+        <link>https://www.bleepingcomputer.com/news/security/graphite-spyware-used-in-apple-ios-zero-click-attacks-on-journalists/</link>
+        <pubDate>Thu, 12 Jun 2025 13:42:09 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/graphite-spyware-used-in-apple-ios-zero-click-attacks-on-journalists/</guid>
+	<description><![CDATA[Forensic investigation has confirmed the use of Paragon's Graphite spyware platform in zero-click attacks that targeted Apple iOS devices of at least two journalists in Europe. [...]]]></description>
+ </item>
+
  <item>
         <title>Password-spraying attacks target 80,000 Microsoft Entra ID accounts</title>
         <link>https://www.bleepingcomputer.com/news/security/password-spraying-attacks-target-80-000-microsoft-entra-id-accounts/</link>
@@ -192,22 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/brute-force-attacks-target-apache-tomcat-management-panels/</guid>
 	<description><![CDATA[A coordinated campaign of brute-force attacks using hundreds of unique IP addresses targets Apache Tomcat Manager interfaces exposed online. [...]]]></description>
- </item>
-
- <item>
-        <title>Operation Secure disrupts global infostealer malware operations</title>
-        <link>https://www.bleepingcomputer.com/news/security/operation-secure-disrupts-global-infostealer-malware-operations/</link>
-        <pubDate>Wed, 11 Jun 2025 09:51:49 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/operation-secure-disrupts-global-infostealer-malware-operations/</guid>
-	<description><![CDATA[An international law enforcement action codenamed "Operation Secure" targeted infostealer malware infrastructure in a massive crackdown across 26 countries, resulting in 32 arrests, data seizures, and server takedowns. [...]]]></description>
  </item>
 
 </channel>
