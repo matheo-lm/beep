@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 12 Jun 2025 06:00:25 EDT</pubDate>
+        <pubDate>Thu, 12 Jun 2025 06:58:21 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 11 24H2 emergency update fixes Easy Anti-Cheat BSOD issue</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-emergency-update-fixes-easy-anti-cheat-bsod-issue/</link>
+        <pubDate>Thu, 12 Jun 2025 06:43:04 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-emergency-update-fixes-easy-anti-cheat-bsod-issue/</guid>
+	<description><![CDATA[Microsoft has released an emergency Windows 11 24H2 update to address an incompatibility issue triggering restarts with blue screen of death (BSOD) errors on systems with Easy Anti-Cheat. [...]]]></description>
+ </item>
+
  <item>
         <title>Fog ransomware attack uses unusual mix of legitimate and open-source tools</title>
         <link>https://www.bleepingcomputer.com/news/security/fog-ransomware-attack-uses-unusual-mix-of-legitimate-and-open-source-tools/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/danabot-malware-operators-exposed-via-c2-bug-added-in-2022/</guid>
 	<description><![CDATA[A vulnerability in the DanaBot malware operation introduced in June 2022 update led to the identification, indictment, and dismantling of their operations in a recent law enforcement action. [...]]]></description>
- </item>
-
- <item>
-        <title>ConnectWise rotating code signing certificates over security concerns</title>
-        <link>https://www.bleepingcomputer.com/news/security/connectwise-rotating-code-signing-certificates-over-security-concerns/</link>
-        <pubDate>Tue, 10 Jun 2025 17:17:53 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/connectwise-rotating-code-signing-certificates-over-security-concerns/</guid>
-	<description><![CDATA[ConnectWise is warning customers that it is rotating the digital code signing certificates used to sign ScreenConnect, ConnectWise Automate, and ConnectWise RMM executables over security concerns. [...]]]></description>
  </item>
 
 </channel>
