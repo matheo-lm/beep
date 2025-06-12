@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 11 Jun 2025 00:10:53 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 12 Jun 2025 22:43:48 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,92 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Inside a Dark Adtech Empire Fed by Fake CAPTCHAs</title>
+		<link>https://krebsonsecurity.com/2025/06/inside-a-dark-adtech-empire-fed-by-fake-captchas/</link>
+					<comments>https://krebsonsecurity.com/2025/06/inside-a-dark-adtech-empire-fed-by-fake-captchas/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Thu, 12 Jun 2025 22:14:00 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[Web Fraud 2.0]]></category>
+		<category><![CDATA[AdsPro]]></category>
+		<category><![CDATA[Aimed Global]]></category>
+		<category><![CDATA[BroPush]]></category>
+		<category><![CDATA[ByteCore AG]]></category>
+		<category><![CDATA[DollyWay]]></category>
+		<category><![CDATA[Doppelganger]]></category>
+		<category><![CDATA[GoDaddy]]></category>
+		<category><![CDATA[Help TDS]]></category>
+		<category><![CDATA[Holacode]]></category>
+		<category><![CDATA[Infoblox]]></category>
+		<category><![CDATA[LosPollos]]></category>
+		<category><![CDATA[Partners House]]></category>
+		<category><![CDATA[Qurium]]></category>
+		<category><![CDATA[Renee Burton]]></category>
+		<category><![CDATA[RexAds]]></category>
+		<category><![CDATA[RichAds]]></category>
+		<category><![CDATA[SkyForge Digital AG]]></category>
+		<category><![CDATA[smartlinks]]></category>
+		<category><![CDATA[Spamshield]]></category>
+		<category><![CDATA[TacoLoco]]></category>
+		<category><![CDATA[Teknology SA]]></category>
+		<category><![CDATA[VexTrio]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=69927</guid>
+
+					<description><![CDATA[Late last year, security researchers made a startling discovery: Kremlin-backed disinformation campaigns were bypassing moderation on social media platforms by leveraging the same malicious advertising technology that powers a sprawling ecosystem of online hucksters and website hackers. A new report on the fallout from that investigation finds this dark ad tech industry is far more resilient and incestuous than previously known.]]></description>
+										<content:encoded><![CDATA[<p>Late last year, security researchers made a startling discovery: Kremlin-backed disinformation campaigns were bypassing moderation on social media platforms by leveraging the same malicious advertising technology that powers a sprawling ecosystem of online hucksters and website hackers. A new report on the fallout from that investigation finds this dark ad tech industry is far more resilient and incestuous than previously known.</p>
+<div id="attachment_71492" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71492" decoding="async" class=" wp-image-71492" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/maladtech.png" alt="" width="750" height="422" /><p id="caption-attachment-71492" class="wp-caption-text">Image: Infoblox.</p></div>
+<p>In November 2024, researchers at the security firm <strong>Qurium</strong> published an investigation into &#8220;<a href="https://www.cybercom.mil/Media/News/Article/3895345/russian-disinformation-campaign-doppelgnger-unmasked-a-web-of-deception/" target="_blank" rel="noopener">Doppelganger</a>,&#8221; a disinformation network that promotes pro-Russian narratives and infiltrates Europe&#8217;s media landscape by pushing fake news through a network of cloned websites.</p>
+<p>Doppelganger campaigns use specialized links that bounce the visitor&#8217;s browser through a long series of domains before the fake news content is served. Qurium <a href="https://www.qurium.org/forensics/when-kehr-meets-vextrio/" target="_blank" rel="noopener">found</a> Doppelganger relies on a sophisticated &#8220;domain cloaking&#8221; service, a technology that allows websites to present different content to search engines compared to what regular visitors see. The use of cloaking services helps the disinformation sites remain online longer than they otherwise would, while ensuring that only the targeted audience gets to view the intended content.</p>
+<p>Qurium discovered that Doppelganger&#8217;s cloaking service also promoted online dating sites, and shared much of the same infrastructure with <strong>VexTrio</strong>, which is thought to be the oldest malicious traffic distribution system (TDS) in existence. While TDSs are commonly used by legitimate advertising networks to manage traffic from disparate sources and to track who or what is behind each click, VexTrio&#8217;s TDS largely manages web traffic from victims of phishing, malware, and social engineering scams.</p>
+<h2>BREAKING BAD</h2>
+<p>Digging deeper, Qurium noticed Doppelganger&#8217;s cloaking service used an Internet provider in Switzerland as the first entry point in a chain of domain redirections. They also noticed the same infrastructure hosted a pair of co-branded affiliate marketing services that were driving traffic to sketchy adult dating sites: <strong>LosPollos[.]com</strong> and <strong>TacoLoco[.]co</strong>.</p>
+<p>The LosPollos ad network incorporates many elements and references from the hit HBO series &#8220;Breaking Bad,&#8221; mirroring the fictional &#8220;Los Pollos Hermanos&#8221; restaurant chain that served as a money laundering operation for a violent methamphetamine cartel.</p>
+<div id="attachment_71484" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71484" decoding="async" loading="lazy" class=" wp-image-71484" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_mainpage.png" alt="" width="749" height="497" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_mainpage.png 2710w, https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_mainpage-768x510.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_mainpage-1536x1020.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_mainpage-2048x1360.png 2048w, https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_mainpage-782x519.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71484" class="wp-caption-text">The LosPollos advertising network invokes characters and themes from the hit show Breaking Bad. The logo for LosPollos (upper left) is the image of Gustavo Fring, the fictional chicken restaurant chain owner in the show.</p></div>
+<p>Affiliates who sign up with LosPollos are given JavaScript-heavy &#8220;<strong>smartlinks</strong>&#8221; that drive traffic into the VexTrio TDS, which in turn distributes the traffic among a variety of advertising partners, including dating services, sweepstakes offers, bait-and-switch mobile apps, financial scams and malware download sites.</p>
+<p>LosPollos affiliates typically stitch these smart links into <strong>WordPress</strong> websites that have been hacked via known vulnerabilities, and those affiliates will earn a small commission each time an Internet user referred by any of their hacked sites falls for one of these lures.</p>
+<div id="attachment_71485" style="width: 755px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71485" decoding="async" loading="lazy" class="wp-image-71485" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_subdomain_linkedIn_announcement.png" alt="" width="745" height="321" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_subdomain_linkedIn_announcement.png 1146w, https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_subdomain_linkedIn_announcement-768x331.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_subdomain_linkedIn_announcement-782x337.png 782w" sizes="(max-width: 745px) 100vw, 745px" /><p id="caption-attachment-71485" class="wp-caption-text">The Los Pollos advertising network promoting itself on LinkedIn.</p></div>
+<p>According to Qurium, TacoLoco is a traffic monetization network that uses deceptive tactics to trick Internet users into enabling &#8220;push notifications,&#8221; a <a href="https://tools.ietf.org/html/rfc8030" target="_blank" rel="noopener">cross-platform browser standard</a> that allows websites to show pop-up messages which appear outside of the browser. For example, on Microsoft Windows systems these notifications typically show up in the bottom right corner of the screen — just above the system clock.</p>
+<p>In the case of VexTrio and TacoLoco, the notification approval requests themselves are deceptive — disguised as “CAPTCHA” challenges designed to distinguish automated bot traffic from real visitors. For years, VexTrio and its partners have successfully tricked countless users into enabling these site notifications, which are then used to continuously pepper the victim&#8217;s device with a variety of phony virus alerts and misleading pop-up messages.</p>
+<div id="attachment_71486" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71486" decoding="async" loading="lazy" class=" wp-image-71486" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/maliciouspushcaptcha.png" alt="" width="749" height="643" /><p id="caption-attachment-71486" class="wp-caption-text">Examples of VexTrio landing pages that lead users to accept push notifications on their device.</p></div>
+<p>According to <a href="https://www.godaddy.com/resources/news/godaddy-annual-cybersecurity-report" target="_blank" rel="noopener">a December 2024 annual report</a> from <strong>GoDaddy</strong>, <em>nearly 40 percent of compromised websites in 2024 redirected visitors to VexTrio via LosPollos smartlinks</em>.<span id="more-69927"></span></p>
+<h2>ADSPRO AND TEKNOLOGY</h2>
+<p>On November 14, 2024, Qurium <a href="https://www.qurium.org/forensics/when-kehr-meets-vextrio/" target="_blank" rel="noopener">published research</a> to support its findings that LosPollos and TacoLoco were services operated by <strong>Adspro Group</strong>, a company registered in the Czech Republic and Russia, and that Adspro runs its infrastructure at the Swiss hosting providers <strong>C41</strong> and <strong>Teknology SA</strong>.</p>
+<p>Qurium noted the LosPollos and TacoLoco sites state that their content is copyrighted by <strong>ByteCore AG</strong> and <strong>SkyForge Digital AG</strong>, both Swiss firms that are run by the owner of Teknology SA, <strong>Guilio Vitorrio Leonardo Cerutti</strong>. Further investigation revealed LosPollos and TacoLoco were apps developed by a company called <strong>Holacode</strong>, which lists Cerutti as its CEO.</p>
+<p>The apps marketed by Holacode include numerous VPN services, as well as one called <strong>Spamshield</strong> that claims to stop unwanted push notifications. But in January, Infoblox said they tested the app on their own mobile devices, and found it hides the user&#8217;s notifications, and then after 24 hours stops hiding them and demands payment. Spamshield subsequently changed its developer name from Holacode to <strong>ApLabz</strong>, although Infoblox noted that the Terms of Service for several of the rebranded ApLabz apps still referenced Holacode in their terms of service.</p>
+<p>Incredibly, Cerutti threatened to sue me for defamation before I&#8217;d even uttered his name or sent him a request for comment (Cerutti sent the unsolicited legal threat back in January after his company and my name were merely tagged in an Infoblox post on LinkedIn about VexTrio).</p>
+<p>Asked to comment on the findings by Qurium and Infoblox, Cerutti vehemently denied being associated with VexTrio. Cerutti asserted that his companies all strictly adhere to the regulations of the countries in which they operate, and that they have been completely transparent about all of their operations.</p>
+<p>&#8220;We are a group operating in the advertising and marketing space, with an affiliate network program,&#8221; Cerutti responded. &#8220;I am not [going] to say we are perfect, but I strongly declare we have no connection with VexTrio at all.&#8221;</p>
+<p>&#8220;Unfortunately, as a big player in this space we also get to deal with plenty of publisher fraud, sketchy traffic, fake clicks, bots, hacked, listed and resold publisher accounts, etc, etc.,&#8221; Cerutti continued. &#8220;We bleed lots of money to such malpractices and conduct regular internal screenings and audits in a constant battle to remove bad traffic sources. It is also a highly competitive space, where some upstarts will often play dirty against more established mainstream players like us.&#8221;</p>
+<p>Working with Qurium, researchers at the security firm <strong>Infoblox</strong> released details about VexTrio&#8217;s infrastructure to their industry partners. Just four days after Qurium published its findings, LosPollos announced it was suspending its push monetization service. Less than a month later, Adspro had rebranded to <strong>Aimed Global</strong>.</p>
+<div id="attachment_71523" style="width: 759px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos-mmap.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-71523" decoding="async" loading="lazy" class="wp-image-71523" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos-mmap.png" alt="" width="749" height="455" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos-mmap.png 1549w, https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos-mmap-768x467.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos-mmap-1536x934.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos-mmap-782x476.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></a><p id="caption-attachment-71523" class="wp-caption-text">A mind map illustrating some of the key findings and connections in the Infoblox and Qurium investigations. Click to enlarge.</p></div>
+<h2>A REVEALING PIVOT</h2>
+<p>In March 2025, researchers at GoDaddy <a href="https://www.godaddy.com/resources/news/dollyway-malware-c2-tds" target="_blank" rel="noopener">chronicled</a> how <strong>DollyWay</strong> &#8212; a malware strain that has consistently redirected victims to VexTrio throughout its eight years of activity &#8212; suddenly stopped doing that on November 20, 2024. Virtually overnight, DollyWay and several other malware families that had previously used VexTrio began pushing their traffic through another TDS called <strong>Help TDS</strong>.</p>
+<p>Digging further into historical DNS records and the unique code scripts used by the Help TDS, Infoblox determined it has long enjoyed an exclusive relationship with VexTrio (at least until LosPollos ended its push monetization service in November).</p>
+<p>In <a href="https://blogs.infoblox.com/threat-intelligence/vexing-and-vicious-the-eerie-relationship-between-wordpress-hackers-and-an-adtech-cabal/" target="_blank" rel="noopener">a report released today</a>, Infoblox said an exhaustive analysis of the JavaScript code, website lures, smartlinks and DNS patterns used by VexTrio and Help TDS linked them with at least four other TDS operators (not counting TacoLoco). Those four entities &#8212; <strong>Partners House</strong>, <strong>BroPush</strong>, <strong>RichAds</strong> and <strong>RexPush</strong> &#8212; are all Russia-based push monetization programs that pay affiliates to drive signups for a variety of schemes, but mostly online dating services.</p>
+<p>&#8220;As Los Pollos push monetization ended, we&#8217;ve seen an increase in fake CAPTCHAs that drive user acceptance of push notifications, particularly from Partners House,&#8221; the Infoblox report reads. &#8220;The relationship of these commercial entities remains a mystery; while they are certainly long-time partners redirecting traffic to one another, and they all have a Russian nexus, there is no overt common ownership.&#8221;</p>
+<p><strong>Renee Burton</strong>, vice president of threat intelligence at Infoblox, said the security industry generally treats the deceptive methods used by VexTrio and other malicious TDSs as a kind of legally grey area that is mostly associated with less dangerous security threats, such as adware and scareware.</p>
+<p>But Burton argues that this view is myopic, and helps perpetuate a dark adtech industry that also pushes plenty of straight-up malware, noting that hundreds of thousands of compromised websites around the world every year redirect victims to the tangled web of VexTrio and VexTrio-affiliate TDSs.</p>
+<p>&#8220;These TDSs are a nefarious threat, because they&#8217;re the ones you can connect to the delivery of things like information stealers and scams that cost consumers billions of dollars a year,&#8221; Burton said. &#8220;From a larger strategic perspective, my takeaway is that Russian organized crime has control of malicious adtech, and these are just some of the many groups involved.&#8221;</p>
+<h2>WHAT CAN YOU DO?</h2>
+<p>As KrebsOnSecurity <a href="https://krebsonsecurity.com/2020/11/be-very-sparing-in-allowing-site-notifications/" target="_blank" rel="noopener">warned way back in 2020</a>, it&#8217;s a good idea to be very sparing in approving notifications when browsing the Web. In many cases these notifications are benign, but as we&#8217;ve seen there are numerous dodgy firms that are paying site owners to install their notification scripts, and then reselling that communications pathway to scammers and online hucksters.</p>
+<p>If you’d like to prevent sites from ever presenting notification requests, all of the major browser makers let you do this &#8212; either across the board or on a per-website basis. While it is true that blocking notifications entirely can break the functionality of some websites, doing this for any devices you manage on behalf of your less tech-savvy friends or family members might end up saving everyone a lot of headache down the road.</p>
+<p>To modify site notification settings in <strong>Mozilla Firefox</strong>, navigate to Settings, Privacy &amp; Security, Permissions, and click the &#8220;Settings&#8221; tab next to &#8220;Notifications.&#8221; That page will display any notifications already permitted and allow you to edit or delete any entries. Tick the box next to &#8220;Block new requests asking to allow notifications&#8221; to stop them altogether.</p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-71514" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/firefox-notifications.png" alt="" width="750" height="542" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/06/firefox-notifications.png 1185w, https://krebsonsecurity.com/wp-content/uploads/2025/06/firefox-notifications-768x555.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/06/firefox-notifications-782x566.png 782w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<p>In <strong>Google Chrome</strong>, click the icon with the three dots to the right of the address bar, scroll all the way down to Settings, Privacy and Security, Site Settings, and Notifications. Select the &#8220;Don&#8217;t allow sites to send notifications&#8221; button if you want to banish notification requests forever.</p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-71515" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/chromenotifications.png" alt="" width="750" height="500" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/06/chromenotifications.png 822w, https://krebsonsecurity.com/wp-content/uploads/2025/06/chromenotifications-768x512.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/06/chromenotifications-782x521.png 782w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<p>In Apple&#8217;s <strong>Safari </strong>browser, go to Settings, Websites, and click on Notifications in the sidebar. Uncheck the option to &#8220;allow websites to ask for permission to send notifications&#8221; if you wish to turn off notification requests entirely.</p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-71516" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/safarinotifications.png" alt="" width="749" height="499" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/06/safarinotifications.png 822w, https://krebsonsecurity.com/wp-content/uploads/2025/06/safarinotifications-768x512.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/06/safarinotifications-782x521.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/06/inside-a-dark-adtech-empire-fed-by-fake-captchas/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Patch Tuesday, June 2025 Edition</title>
 		<link>https://krebsonsecurity.com/2025/06/patch-tuesday-june-2025-edition/</link>
 					<comments>https://krebsonsecurity.com/2025/06/patch-tuesday-june-2025-edition/#comments</comments>
@@ -50,7 +136,7 @@
 
 					<description><![CDATA[Microsoft today released security updates to fix at least 67 vulnerabilities in its Windows operating systems and software. Redmond warns that one of the flaws is already under active attack, and that software blueprints showing how to exploit a pervasive Windows bug patched this month are now public. ]]></description>
 										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today released security updates to fix at least 67 vulnerabilities in its <strong>Windows</strong> operating systems and software. Redmond warns that one of the flaws is already under active attack, and that software blueprints showing how to exploit a pervasive Windows bug patched this month are now public.</p>
-<p><img decoding="async" class="aligncenter  wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="749" height="527" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter  wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="749" height="527" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /></p>
 <p>The sole zero-day flaw this month is <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-33053" target="_blank" rel="noopener">CVE-2025-33053</a>, a remote code execution flaw in the Windows implementation of <strong>WebDAV</strong> &#8212; an HTTP extension that lets users remotely manage files and directories on a server. While WebDAV isn&#8217;t enabled by default in Windows, its presence in legacy or specialized systems still makes it a relevant target, said <strong>Seth Hoyt</strong>, senior security engineer at <strong>Automox</strong>.</p>
 <p><strong>Adam Barnett</strong>, lead software engineer at <strong>Rapid7</strong>, said Microsoft&#8217;s advisory for CVE-2025-33053 does not mention that the Windows implementation of WebDAV is listed as deprecated since November 2023, which in practical terms means that the WebClient service no longer starts by default.</p>
 <p>&#8220;The advisory also has attack complexity as low, which means that exploitation does not require preparation of the target environment in any way that is beyond the attacker’s control,&#8221; Barnett said. &#8220;Exploitation relies on the user clicking a malicious link. It’s not clear how an asset would be immediately vulnerable if the service isn’t running, but all versions of Windows receive a patch, including those released since the deprecation of WebClient, like Server 2025 and Windows 11 24H2.&#8221;<span id="more-71465"></span></p>
@@ -585,70 +671,15 @@
 		
 		
 			</item>
-		<item>
-		<title>xAI Dev Leaks API Key for Private SpaceX, Tesla LLMs</title>
-		<link>https://krebsonsecurity.com/2025/05/xai-dev-leaks-api-key-for-private-spacex-tesla-llms/</link>
-					<comments>https://krebsonsecurity.com/2025/05/xai-dev-leaks-api-key-for-private-spacex-tesla-llms/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Fri, 02 May 2025 00:52:00 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[DOGE]]></category>
-		<category><![CDATA[Latest Warnings]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[Carole Winqwist]]></category>
-		<category><![CDATA[Department of Government Efficiency]]></category>
-		<category><![CDATA[Eric Fourrier]]></category>
-		<category><![CDATA[General Services Administration]]></category>
-		<category><![CDATA[GitGuardian]]></category>
-		<category><![CDATA[GitHub]]></category>
-		<category><![CDATA[Grok]]></category>
-		<category><![CDATA[GSAi]]></category>
-		<category><![CDATA[Philippe Caturegli]]></category>
-		<category><![CDATA[Reuters]]></category>
-		<category><![CDATA[Seralys]]></category>
-		<category><![CDATA[SpaceX]]></category>
-		<category><![CDATA[Tesla]]></category>
-		<category><![CDATA[The Washington Post]]></category>
-		<category><![CDATA[Twitter/X]]></category>
-		<category><![CDATA[xAI]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71165</guid>
-
-					<description><![CDATA[A employee at Elon Musk's artificial intelligence company xAI leaked a private key on GitHub that for the past two months could have allowed anyone to query private xAI large language models (LLMs) which appear to have been custom made for working with internal data from Musk's companies, including SpaceX, Tesla and Twitter/X, KrebsOnSecurity has learned.]]></description>
-										<content:encoded><![CDATA[<p>An employee at Elon Musk&#8217;s artificial intelligence company <strong>xAI</strong> leaked a private key on <strong>GitHub</strong> that for the past two months could have allowed anyone to query private xAI large language models (LLMs) which appear to have been custom made for working with internal data from Musk&#8217;s companies, including <strong>SpaceX</strong>, <strong>Tesla</strong> and <strong>Twitter/X, </strong>KrebsOnSecurity has learned.</p>
-<div id="attachment_71170" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71170" decoding="async" loading="lazy" class=" wp-image-71170" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/x-ai.png" alt="" width="748" height="497" /><p id="caption-attachment-71170" class="wp-caption-text">Image: Shutterstock, @sdx15.</p></div>
-<p><strong>Philippe Caturegli</strong>, &#8220;chief hacking officer&#8221; at the security consultancy <strong>Seralys</strong>, was <a href="https://www.linkedin.com/posts/caturegli_yo-xai-your-devs-are-leaking-api-keys-on-activity-7321566948020953088-6KXj?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAAliaMB3BQO-WOS-eUh-XU4HAd5h8pTzkI" target="_blank" rel="noopener">the first to publicize the leak</a> of credentials for an x.ai application programming interface (API) exposed in the GitHub code repository of a technical staff member at xAI.</p>
-<p>Caturegli&#8217;s post on LinkedIn caught the attention of researchers at <strong>GitGuardian</strong>, a company that specializes in detecting and remediating exposed secrets in public and proprietary environments. GitGuardian&#8217;s systems constantly scan GitHub and other code repositories for exposed API keys, and fire off automated alerts to affected users.</p>
-<p>GitGuardian&#8217;s <strong>Eric Fourrier</strong> told KrebsOnSecurity the exposed API key had access to several unreleased models of <strong>Grok</strong>, the AI chatbot developed by xAI. In total, GitGuardian found the key had access to at least 60 fine-tuned and private LLMs.</p>
-<p>&#8220;The credentials can be used to access the X.ai API with the identity of the user,&#8221; GitGuardian wrote in an email explaining their findings to xAI. &#8220;The associated account not only has access to public Grok models (grok-2-1212, etc) but also to what appears to be unreleased (grok-2.5V), development (research-grok-2p5v-1018), and private models (tweet-rejector, grok-spacex-2024-11-04).&#8221;</p>
-<p>Fourrier found GitGuardian had alerted the xAI employee about the exposed API key nearly two months ago &#8212; on March 2. But as of April 30, when GitGuardian directly alerted xAI&#8217;s security team to the exposure, the key was still valid and usable. xAI told GitGuardian to report the matter through its bug bounty program at <strong>HackerOne</strong>, but just a few hours later the repository containing the API key was removed from GitHub.</p>
-<p>&#8220;It looks like some of these internal LLMs were fine-tuned on SpaceX data, and some were fine-tuned with Tesla data,&#8221; Fourrier said. &#8220;I definitely don&#8217;t think a Grok model that&#8217;s fine-tuned on SpaceX data is intended to be exposed publicly.&#8221;</p>
-<p>xAI did not respond to a request for comment. Nor did the 28-year-old xAI technical staff member whose key was exposed.<span id="more-71165"></span></p>
-<p><strong>Carole Winqwist</strong>, chief marketing officer at GitGuardian, said giving potentially hostile users free access to private LLMs is a recipe for disaster.</p>
-<p>&#8220;If you&#8217;re an attacker and you have direct access to the model and the back end interface for things like Grok, it&#8217;s definitely something you can use for further attacking,&#8221; she said. &#8220;An attacker could it use for prompt injection, to tweak the (LLM) model to serve their purposes, or try to implant code into the supply chain.&#8221;</p>
-<p>The inadvertent exposure of internal LLMs for xAI comes as Musk&#8217;s so-called <strong>Department of Government Efficiency</strong> (DOGE) has been feeding sensitive government records into artificial intelligence tools. In February, <strong>The Washington Post</strong> <a href="https://www.washingtonpost.com/nation/2025/02/06/elon-musk-doge-ai-department-education/" target="_blank" rel="noopener">reported</a> DOGE officials were feeding data from across the Education Department into AI tools to probe the agency&#8217;s programs and spending.</p>
-<p>The Post said DOGE plans to replicate this process across many departments and agencies, accessing the back-end software at different parts of the government and then using AI technology to extract and sift through information about spending on employees and programs.</p>
-<p>&#8220;Feeding sensitive data into AI software puts it into the possession of a system&#8217;s operator, increasing the chances it will be leaked or swept up in cyberattacks,&#8221; Post reporters wrote.</p>
-<p>Wired reported in March that DOGE has <a href="https://www.wired.com/story/gsai-chatbot-1500-federal-workers/" target="_blank" rel="noopener">deployed a proprietary chatbot called GSAi</a> to 1,500 federal workers at the <strong>General Services Administration</strong>, part of an effort to automate tasks previously done by humans as DOGE continues its purge of the federal workforce.</p>
-<p>A <strong>Reuters</strong> <a href="https://www.reuters.com/technology/artificial-intelligence/musks-doge-using-ai-snoop-us-federal-workers-sources-say-2025-04-08/" target="_blank" rel="noopener">report</a> last month said Trump administration officials told some U.S. government employees that DOGE is using AI to surveil at least one federal agency&#8217;s communications for hostility to President Trump and his agenda. Reuters wrote that the DOGE team has heavily deployed Musk’s Grok AI chatbot as part of their work slashing the federal government, although Reuters said it could not establish exactly how Grok was being used.</p>
-<p>Caturegli said while there is no indication that federal government or user data could be accessed through the exposed x.ai API key, these private models are likely trained on proprietary data and may unintentionally expose details related to internal development efforts at xAI, Twitter, or SpaceX.</p>
-<p>&#8220;The fact that this key was publicly exposed for two months and granted access to internal models is concerning,&#8221; Caturegli said. &#8220;This kind of long-lived credential exposure highlights weak key management and insufficient internal monitoring, raising questions about safeguards around developer access and broader operational security.&#8221;</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/05/xai-dev-leaks-api-key-for-private-spacex-tesla-llms/feed/</wfw:commentRss>
-			<slash:comments>36</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 288/288 objects using memcached
+Object Caching 309/309 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-06-12 16:57:14 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-06-12 18:59:19 by W3 Total Cache
 -->
