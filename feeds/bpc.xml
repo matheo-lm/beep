@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 12 Jun 2025 09:11:16 EDT</pubDate>
+        <pubDate>Thu, 12 Jun 2025 09:59:10 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft Edge now offers secure password deployment for businesses</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-now-offers-secure-password-deployment-for-businesses/</link>
+        <pubDate>Thu, 12 Jun 2025 09:20:31 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-now-offers-secure-password-deployment-for-businesses/</guid>
+	<description><![CDATA[Microsoft announced that a new Edge feature allowing employees to share passwords more securely in enterprise environments has reached general availability. [...]]]></description>
+ </item>
+
  <item>
         <title>GitLab patches high severity account takeover, missing auth issues</title>
         <link>https://www.bleepingcomputer.com/news/security/gitlab-patches-high-severity-account-takeover-missing-auth-issues/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-unreachable-windows-server-domain-controllers/</guid>
 	<description><![CDATA[Microsoft has resolved a known issue that caused some Windows Server 2025 domain controllers to become unreachable after a restart and triggered app or service failures. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Windows Server auth issues caused by April updates</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-auth-issues-caused-by-april-updates/</link>
-        <pubDate>Wed, 11 Jun 2025 08:34:06 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-auth-issues-caused-by-april-updates/</guid>
-	<description><![CDATA[Microsoft has fixed a known issue causing authentication problems on Windows Server domain controllers after installing the April 2025 security updates. [...]]]></description>
  </item>
 
 </channel>
