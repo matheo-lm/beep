@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 12 Jun 2025 05:02:45 EDT</pubDate>
+        <pubDate>Thu, 12 Jun 2025 06:00:25 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Fog ransomware attack uses unusual mix of legitimate and open-source tools</title>
+        <link>https://www.bleepingcomputer.com/news/security/fog-ransomware-attack-uses-unusual-mix-of-legitimate-and-open-source-tools/</link>
+        <pubDate>Thu, 12 Jun 2025 05:45:14 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fog-ransomware-attack-uses-unusual-mix-of-legitimate-and-open-source-tools/</guid>
+	<description><![CDATA[Fog ransomware hackers are using an uncommon toolset, which includes open-source pentesting utilities and a legitimate employee monitoring software called Syteca. [...]]]></description>
+ </item>
+
  <item>
         <title>ChatGPT o3 API 80% price drop has no impact on performance</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-o3-api-80-percent-price-drop-has-no-impact-on-performance/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/connectwise-rotating-code-signing-certificates-over-security-concerns/</guid>
 	<description><![CDATA[ConnectWise is warning customers that it is rotating the digital code signing certificates used to sign ScreenConnect, ConnectWise Automate, and ConnectWise RMM executables over security concerns. [...]]]></description>
- </item>
-
- <item>
-        <title>New Secure Boot flaw lets attackers install bootkit malware, patch now</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-secure-boot-flaw-lets-attackers-install-bootkit-malware-patch-now/</link>
-        <pubDate>Tue, 10 Jun 2025 16:02:19 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-secure-boot-flaw-lets-attackers-install-bootkit-malware-patch-now/</guid>
-	<description><![CDATA[Security researchers have disclosed a new Secure Boot bypass tracked as CVE-2025-3052 that can be used to turn off security on PCs and servers and install bootkit malware. [...]]]></description>
  </item>
 
 </channel>
