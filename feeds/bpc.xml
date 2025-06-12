@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 12 Jun 2025 08:03:30 EDT</pubDate>
+        <pubDate>Thu, 12 Jun 2025 09:11:16 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>GitLab patches high severity account takeover, missing auth issues</title>
+        <link>https://www.bleepingcomputer.com/news/security/gitlab-patches-high-severity-account-takeover-missing-auth-issues/</link>
+        <pubDate>Thu, 12 Jun 2025 08:26:00 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/gitlab-patches-high-severity-account-takeover-missing-auth-issues/</guid>
+	<description><![CDATA[GitLab has released security updates to address multiple vulnerabilities in the company's DevSecOps platform, including ones enabling attackers to take over accounts and inject malicious jobs in future pipelines. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 11 24H2 emergency update fixes Easy Anti-Cheat BSOD issue</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-emergency-update-fixes-easy-anti-cheat-bsod-issue/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-auth-issues-caused-by-april-updates/</guid>
 	<description><![CDATA[Microsoft has fixed a known issue causing authentication problems on Windows Server domain controllers after installing the April 2025 security updates. [...]]]></description>
- </item>
-
- <item>
-        <title>DanaBot malware operators exposed via C2 bug added in 2022</title>
-        <link>https://www.bleepingcomputer.com/news/security/danabot-malware-operators-exposed-via-c2-bug-added-in-2022/</link>
-        <pubDate>Tue, 10 Jun 2025 17:46:49 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/danabot-malware-operators-exposed-via-c2-bug-added-in-2022/</guid>
-	<description><![CDATA[A vulnerability in the DanaBot malware operation introduced in June 2022 update led to the identification, indictment, and dismantling of their operations in a recent law enforcement action. [...]]]></description>
  </item>
 
 </channel>
