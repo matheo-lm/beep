@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 13 Jun 2025 06:02:43 EDT</pubDate>
+        <pubDate>Fri, 13 Jun 2025 06:59:46 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cloudflare: Outage not caused by security incident, data is safe</title>
+        <link>https://www.bleepingcomputer.com/news/security/cloudflare-outage-not-caused-by-security-incident-data-is-safe/</link>
+        <pubDate>Fri, 13 Jun 2025 06:09:24 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Cloud]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-outage-not-caused-by-security-incident-data-is-safe/</guid>
+	<description><![CDATA[Cloudflare has confirmed that the massive service outage yesterday was not caused by a security incident and no data has been lost. [...]]]></description>
+ </item>
+
  <item>
         <title>Trend Micro fixes critical vulnerabilities in multiple products</title>
         <link>https://www.bleepingcomputer.com/news/security/trend-micro-fixes-six-critical-flaws-on-apex-central-endpoint-encryption-policyserver/</link>
@@ -178,22 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/erie-insurance-confirms-cyberattack-behind-business-disruptions/</guid>
 	<description><![CDATA[Erie Insurance and Erie Indemnity Company have disclosed that a weekend cyberattack is behind the recent business disruptions and platform outages on its website. [...]]]></description>
- </item>
-
- <item>
-        <title>Zero-click AI data leak flaw uncovered in Microsoft 365 Copilot</title>
-        <link>https://www.bleepingcomputer.com/news/security/zero-click-ai-data-leak-flaw-uncovered-in-microsoft-365-copilot/</link>
-        <pubDate>Wed, 11 Jun 2025 13:48:50 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/zero-click-ai-data-leak-flaw-uncovered-in-microsoft-365-copilot/</guid>
-	<description><![CDATA[A new attack dubbed 'EchoLeak' is the first known zero-click AI vulnerability that enables attackers to exfiltrate sensitive data from Microsoft 365 Copilot from a user's context without interaction. [...]]]></description>
  </item>
 
 </channel>
