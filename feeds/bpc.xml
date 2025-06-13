@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 13 Jun 2025 11:59:36 EDT</pubDate>
+        <pubDate>Fri, 13 Jun 2025 12:58:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Discord flaw lets hackers reuse expired invites in malware campaign</title>
+        <link>https://www.bleepingcomputer.com/news/security/discord-flaw-lets-hackers-reuse-expired-invites-in-malware-campaign/</link>
+        <pubDate>Fri, 13 Jun 2025 12:10:51 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/discord-flaw-lets-hackers-reuse-expired-invites-in-malware-campaign/</guid>
+	<description><![CDATA[Hackers are hijacking expired or deleted Discord invite links to redirect users to malicious sites that deliver remote access trojans and information-stealing malware. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: KB5060533 update triggers boot errors on Surface Hub v1 devices</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5060533-update-triggers-boot-errors-on-surface-hub-v1-devices/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-emergency-update-fixes-easy-anti-cheat-bsod-issue/</guid>
 	<description><![CDATA[Microsoft has released an emergency Windows 11 24H2 update to address an incompatibility issue triggering restarts with blue screen of death (BSOD) errors on systems with Easy Anti-Cheat. [...]]]></description>
- </item>
-
- <item>
-        <title>Fog ransomware attack uses unusual mix of legitimate and open-source tools</title>
-        <link>https://www.bleepingcomputer.com/news/security/fog-ransomware-attack-uses-unusual-mix-of-legitimate-and-open-source-tools/</link>
-        <pubDate>Thu, 12 Jun 2025 05:45:14 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fog-ransomware-attack-uses-unusual-mix-of-legitimate-and-open-source-tools/</guid>
-	<description><![CDATA[Fog ransomware hackers are using an uncommon toolset, which includes open-source pentesting utilities and a legitimate employee monitoring software called Syteca. [...]]]></description>
  </item>
 
 </channel>
