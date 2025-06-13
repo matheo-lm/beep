@@ -6,6 +6,14 @@
     <description>The latest publicly leaked data breaches to hit Have I Been Pwned</description>
     <a10:link href="https://haveibeenpwned.com/feed/breaches/" rel="self" type="application/rss+xml" />
     <item>
+      <guid isPermaLink="false">Ualabee</guid>
+      <link>https://haveibeenpwned.com/Breach/Ualabee</link>
+      <title>Ualabee - 472,296 breached accounts</title>
+      <description>In May 2025, the South American mobility services platform &lt;a href="https://news.ualabee.com/Aclaraci-n-sobre-datos-vinculados-a-Ualabee-20f75bdc4ce88041916bfeb5055087e8" target="_blank" rel="noopener"&gt;Ualabee had hundreds of thousands of records scraped from an interface on their platform&lt;/a&gt;. The data included 472k unique email addresses along with names, profile photos, dates of birth and phone numbers.</description>
+      <pubDate>Fri, 13 Jun 2025 06:24:35 Z</pubDate>
+      <a10:updated>2025-06-13T06:24:35Z</a10:updated>
+    </item>
+    <item>
       <guid isPermaLink="false">WiredBucks</guid>
       <link>https://haveibeenpwned.com/Breach/WiredBucks</link>
       <title>WiredBucks - 918,529 breached accounts</title>
@@ -156,14 +164,6 @@
       <description>In February 2025, &lt;a href="https://www.bleepingcomputer.com/news/security/orange-group-confirms-breach-after-hacker-leaks-company-documents/" target="_blank" rel="noopener"&gt;the Romanian arm of telecommunications company Orange suffered a data breach which was subsequently published to a popular hacking forum&lt;/a&gt;. The data included 556k email addresses (of which hundreds of thousands were in the form of [phone number]@as1.romtelecom.net), phone numbers, subscription details, partial credit card data (type, last 4 digits, expiration date and issuing bank). The breach also exposed an extensive number of internal documents.</description>
       <pubDate>Thu, 27 Feb 2025 05:39:42 Z</pubDate>
       <a10:updated>2025-02-27T05:39:42Z</a10:updated>
-    </item>
-    <item>
-      <guid isPermaLink="false">AlienStealerLogs</guid>
-      <link>https://haveibeenpwned.com/Breach/AlienStealerLogs</link>
-      <title>ALIEN TXTBASE Stealer Logs - 284,132,969 breached accounts</title>
-      <description>In February 2025, &lt;a href="https://www.troyhunt.com/processing-23-billion-rows-of-alien-txtbase-stealer-logs" target="_blank" rel="noopener"&gt;23 billion rows of stealer logs were obtained from a Telegram channel known as ALIEN TXTBASE&lt;/a&gt;. The data contained 284M unique email addresses alongside the websites they were entered into and the passwords used. This data is now searchable in HIBP by both email domain and the domain of the target website.</description>
-      <pubDate>Tue, 25 Feb 2025 19:25:18 Z</pubDate>
-      <a10:updated>2025-02-25T19:25:18Z</a10:updated>
     </item>
   </channel>
 </rss>
