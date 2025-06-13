@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Thu, 12 Jun 2025 22:43:48 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 12 Jun 2025 23:43:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,7 @@
 	<item>
 		<title>Inside a Dark Adtech Empire Fed by Fake CAPTCHAs</title>
 		<link>https://krebsonsecurity.com/2025/06/inside-a-dark-adtech-empire-fed-by-fake-captchas/</link>
-					<comments>https://krebsonsecurity.com/2025/06/inside-a-dark-adtech-empire-fed-by-fake-captchas/#respond</comments>
+					<comments>https://krebsonsecurity.com/2025/06/inside-a-dark-adtech-empire-fed-by-fake-captchas/#comments</comments>
 		
 		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
 		<pubDate>Thu, 12 Jun 2025 22:14:00 +0000</pubDate>
@@ -62,7 +62,7 @@
 <p>Qurium discovered that Doppelganger&#8217;s cloaking service also promoted online dating sites, and shared much of the same infrastructure with <strong>VexTrio</strong>, which is thought to be the oldest malicious traffic distribution system (TDS) in existence. While TDSs are commonly used by legitimate advertising networks to manage traffic from disparate sources and to track who or what is behind each click, VexTrio&#8217;s TDS largely manages web traffic from victims of phishing, malware, and social engineering scams.</p>
 <h2>BREAKING BAD</h2>
 <p>Digging deeper, Qurium noticed Doppelganger&#8217;s cloaking service used an Internet provider in Switzerland as the first entry point in a chain of domain redirections. They also noticed the same infrastructure hosted a pair of co-branded affiliate marketing services that were driving traffic to sketchy adult dating sites: <strong>LosPollos[.]com</strong> and <strong>TacoLoco[.]co</strong>.</p>
-<p>The LosPollos ad network incorporates many elements and references from the hit HBO series &#8220;Breaking Bad,&#8221; mirroring the fictional &#8220;Los Pollos Hermanos&#8221; restaurant chain that served as a money laundering operation for a violent methamphetamine cartel.</p>
+<p>The LosPollos ad network incorporates many elements and references from the hit series &#8220;Breaking Bad,&#8221; mirroring the fictional &#8220;Los Pollos Hermanos&#8221; restaurant chain that served as a money laundering operation for a violent methamphetamine cartel.</p>
 <div id="attachment_71484" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71484" decoding="async" loading="lazy" class=" wp-image-71484" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_mainpage.png" alt="" width="749" height="497" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_mainpage.png 2710w, https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_mainpage-768x510.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_mainpage-1536x1020.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_mainpage-2048x1360.png 2048w, https://krebsonsecurity.com/wp-content/uploads/2025/06/lospollos_mainpage-782x519.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71484" class="wp-caption-text">The LosPollos advertising network invokes characters and themes from the hit show Breaking Bad. The logo for LosPollos (upper left) is the image of Gustavo Fring, the fictional chicken restaurant chain owner in the show.</p></div>
 <p>Affiliates who sign up with LosPollos are given JavaScript-heavy &#8220;<strong>smartlinks</strong>&#8221; that drive traffic into the VexTrio TDS, which in turn distributes the traffic among a variety of advertising partners, including dating services, sweepstakes offers, bait-and-switch mobile apps, financial scams and malware download sites.</p>
 <p>LosPollos affiliates typically stitch these smart links into <strong>WordPress</strong> websites that have been hacked via known vulnerabilities, and those affiliates will earn a small commission each time an Internet user referred by any of their hacked sites falls for one of these lures.</p>
@@ -101,7 +101,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/06/inside-a-dark-adtech-empire-fed-by-fake-captchas/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>2</slash:comments>
 		
 		
 			</item>
@@ -681,5 +681,5 @@ Object Caching 309/309 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-06-12 18:59:19 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-06-12 20:10:22 by W3 Total Cache
 -->
