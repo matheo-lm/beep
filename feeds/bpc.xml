@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 13 Jun 2025 09:11:46 EDT</pubDate>
+        <pubDate>Fri, 13 Jun 2025 10:02:44 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: KB5060533 update triggers boot errors on Surface Hub v1 devices</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5060533-update-triggers-boot-errors-on-surface-hub-v1-devices/</link>
+        <pubDate>Fri, 13 Jun 2025 09:17:29 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5060533-update-triggers-boot-errors-on-surface-hub-v1-devices/</guid>
+	<description><![CDATA[Microsoft is investigating a known issue that triggers Secure Boot errors and prevents Surface Hub v1 devices from starting up. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft confirms auth issues affecting Microsoft 365 users</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-auth-issues-affecting-microsoft-365-users/</link>
@@ -176,22 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fog-ransomware-attack-uses-unusual-mix-of-legitimate-and-open-source-tools/</guid>
 	<description><![CDATA[Fog ransomware hackers are using an uncommon toolset, which includes open-source pentesting utilities and a legitimate employee monitoring software called Syteca. [...]]]></description>
- </item>
-
- <item>
-        <title>ChatGPT o3 API 80% price drop has no impact on performance</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-o3-api-80-percent-price-drop-has-no-impact-on-performance/</link>
-        <pubDate>Wed, 11 Jun 2025 20:06:33 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-o3-api-80-percent-price-drop-has-no-impact-on-performance/</guid>
-	<description><![CDATA[ChatGPT o3, which has been available via API, is now 80% cheaper for developers, and there's no visible impact on performance. [...]]]></description>
  </item>
 
 </channel>
