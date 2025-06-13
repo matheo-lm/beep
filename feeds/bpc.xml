@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 13 Jun 2025 08:01:21 EDT</pubDate>
+        <pubDate>Fri, 13 Jun 2025 09:11:46 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft confirms auth issues affecting Microsoft 365 users</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-auth-issues-affecting-microsoft-365-users/</link>
+        <pubDate>Fri, 13 Jun 2025 08:37:06 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-auth-issues-affecting-microsoft-365-users/</guid>
+	<description><![CDATA[Microsoft is investigating an ongoing incident that is causing users to experience errors with some Microsoft 365 authentication features. [...]]]></description>
+ </item>
+
  <item>
         <title>Victoria’s Secret restores critical systems after cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/victorias-secret-restores-critical-systems-after-cyberattack/</link>
@@ -178,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-o3-api-80-percent-price-drop-has-no-impact-on-performance/</guid>
 	<description><![CDATA[ChatGPT o3, which has been available via API, is now 80% cheaper for developers, and there's no visible impact on performance. [...]]]></description>
- </item>
-
- <item>
-        <title>SmartAttack uses smartwatches to steal data from air-gapped systems</title>
-        <link>https://www.bleepingcomputer.com/news/security/smartattack-uses-smartwatches-to-steal-data-from-air-gapped-systems/</link>
-        <pubDate>Wed, 11 Jun 2025 18:08:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/smartattack-uses-smartwatches-to-steal-data-from-air-gapped-systems/</guid>
-	<description><![CDATA[A new attack dubbed 'SmartAttack' uses smartwatches as a covert ultrasonic signal receiver to exfiltrate data from physically isolated (air-gapped) systems. [...]]]></description>
  </item>
 
 </channel>
