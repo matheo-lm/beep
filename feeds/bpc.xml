@@ -11,11 +11,55 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 14 Jun 2025 12:58:13 EDT</pubDate>
+        <pubDate>Sat, 14 Jun 2025 13:59:26 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>WestJet investigates cyberattack disrupting internal systems</title>
+        <link>https://www.bleepingcomputer.com/news/security/westjet-investigates-cyberattack-disrupting-internal-systems/</link>
+        <pubDate>Sat, 14 Jun 2025 13:34:10 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/westjet-investigates-cyberattack-disrupting-internal-systems/</guid>
+	<description><![CDATA[WestJet, Canada's second-largest airline, is investigating a cyberattack that has disrupted access to some internal systems as it responds to the breach. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Anubis ransomware adds wiper to destroy files beyond recovery</title>
+        <link>https://www.bleepingcomputer.com/news/security/anubis-ransomware-adds-wiper-to-destroy-files-beyond-recovery/</link>
+        <pubDate>Sat, 14 Jun 2025 10:29:38 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/anubis-ransomware-adds-wiper-to-destroy-files-beyond-recovery/</guid>
+	<description><![CDATA[<The Anubis ransomware-as-a-service (RaaS) operation has added to its file-encrypting malware a wiper module&nbsp;that destroys targeted files, making recovery impossible even if the ransom is paid. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 users want these five features back</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-users-want-these-five-features-back/</link>
+        <pubDate>Sat, 14 Jun 2025 10:12:22 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-users-want-these-five-features-back/</guid>
+	<description><![CDATA[When Windows 11 was first released, many long-time users felt features they loved had been taken away overnight. Three and a half years later, the same complaints still rise to the top of the Feedback Hub with tens of thousands of votes. [...]]]></description>
+ </item>
+
  <item>
         <title>Google links massive cloud outage to API management issue</title>
         <link>https://www.bleepingcomputer.com/news/google/google-links-massive-cloud-outage-to-api-management-issue/</link>
@@ -144,52 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/graphite-spyware-used-in-apple-ios-zero-click-attacks-on-journalists/</guid>
 	<description><![CDATA[Forensic investigation has confirmed the use of Paragon's Graphite spyware platform in zero-click attacks that targeted Apple iOS devices of at least two journalists in Europe. [...]]]></description>
- </item>
-
- <item>
-        <title>Password-spraying attacks target 80,000 Microsoft Entra ID accounts</title>
-        <link>https://www.bleepingcomputer.com/news/security/password-spraying-attacks-target-80-000-microsoft-entra-id-accounts/</link>
-        <pubDate>Thu, 12 Jun 2025 10:40:25 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/password-spraying-attacks-target-80-000-microsoft-entra-id-accounts/</guid>
-	<description><![CDATA[Hackers have been using the TeamFiltration pentesting framework to target more than 80,000 Microsoft Entra ID accounts at hundreds of organizations worldwide. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft Edge now offers secure password deployment for businesses</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-now-offers-secure-password-deployment-for-businesses/</link>
-        <pubDate>Thu, 12 Jun 2025 09:20:31 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-now-offers-secure-password-deployment-for-businesses/</guid>
-	<description><![CDATA[Microsoft announced that a new Edge feature allowing employees to share passwords more securely in enterprise environments has reached general availability. [...]]]></description>
- </item>
-
- <item>
-        <title>GitLab patches high severity account takeover, missing auth issues</title>
-        <link>https://www.bleepingcomputer.com/news/security/gitlab-patches-high-severity-account-takeover-missing-auth-issues/</link>
-        <pubDate>Thu, 12 Jun 2025 08:26:00 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/gitlab-patches-high-severity-account-takeover-missing-auth-issues/</guid>
-	<description><![CDATA[GitLab has released security updates to address multiple vulnerabilities in the company's DevSecOps platform, including ones enabling attackers to take over accounts and inject malicious jobs in future pipelines. [...]]]></description>
  </item>
 
 </channel>
