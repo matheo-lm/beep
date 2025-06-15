@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 15 Jun 2025 14:59:46 EDT</pubDate>
+        <pubDate>Sun, 15 Jun 2025 16:00:27 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ChatGPT's AI coder Codex now lets you choose the best solution</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-ai-coder-codex-now-lets-you-choose-the-best-solution/</link>
+        <pubDate>Sun, 15 Jun 2025 15:59:41 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-ai-coder-codex-now-lets-you-choose-the-best-solution/</guid>
+	<description><![CDATA[ChatGPT's Codex, which is an AI agent that lets you code and delegate programming tasks, is now testing a new feature that lets you choose the best solution. [...]]]></description>
+ </item>
+
  <item>
         <title>ChatGPT Search gets an upgrade as OpenAI takes aim at Google</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-search-gets-an-upgrade-as-openai-takes-aim-at-google/</link>
@@ -174,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cloudflare-outage-not-caused-by-security-incident-data-is-safe/</guid>
 	<description><![CDATA[Cloudflare has confirmed that the massive service outage yesterday was not caused by a security incident and no data has been lost. [...]]]></description>
- </item>
-
- <item>
-        <title>Trend Micro fixes critical vulnerabilities in multiple products</title>
-        <link>https://www.bleepingcomputer.com/news/security/trend-micro-fixes-six-critical-flaws-on-apex-central-endpoint-encryption-policyserver/</link>
-        <pubDate>Thu, 12 Jun 2025 15:31:54 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/trend-micro-fixes-six-critical-flaws-on-apex-central-endpoint-encryption-policyserver/</guid>
-	<description><![CDATA[Trend Micro has released security updates to address multiple critical-severity remote code execution and authentication bypass vulnerabilities that impact its Apex Central and Endpoint Encryption (TMEE) PolicyServer products. [...]]]></description>
  </item>
 
 </channel>
