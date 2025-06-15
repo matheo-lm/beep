@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 15 Jun 2025 10:58:22 EDT</pubDate>
+        <pubDate>Sun, 15 Jun 2025 11:58:53 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ChatGPT Search gets an upgrade as OpenAI takes aim at Google</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-search-gets-an-upgrade-as-openai-takes-aim-at-google/</link>
+        <pubDate>Sun, 15 Jun 2025 11:53:46 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-search-gets-an-upgrade-as-openai-takes-aim-at-google/</guid>
+	<description><![CDATA[On June 13, OpenAI began rolling out a new ChatGPT Search update to improve quality as the AI startup challenges Google's dominance. [...]]]></description>
+ </item>
+
  <item>
         <title>Over 46,000 Grafana instances exposed to account takeover bug</title>
         <link>https://www.bleepingcomputer.com/news/security/over-46-000-grafana-instances-exposed-to-account-takeover-bug/</link>
@@ -172,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/trend-micro-fixes-six-critical-flaws-on-apex-central-endpoint-encryption-policyserver/</guid>
 	<description><![CDATA[Trend Micro has released security updates to address multiple critical-severity remote code execution and authentication bypass vulnerabilities that impact its Apex Central and Endpoint Encryption (TMEE) PolicyServer products. [...]]]></description>
- </item>
-
- <item>
-        <title>Google Cloud and Cloudflare hit by widespread service outages</title>
-        <link>https://www.bleepingcomputer.com/news/technology/google-cloud-and-cloudflare-hit-by-widespread-service-outages/</link>
-        <pubDate>Thu, 12 Jun 2025 15:04:22 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/technology/google-cloud-and-cloudflare-hit-by-widespread-service-outages/</guid>
-	<description><![CDATA[Google Cloud and Cloudflare are investigating ongoing outages impacting access to sites and various services across multiple regions. [...]]]></description>
  </item>
 
 </channel>
