@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 16 Jun 2025 08:05:48 EDT</pubDate>
+        <pubDate>Mon, 16 Jun 2025 09:09:10 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft shares temp fix for Outlook crashes when opening emails</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-classic-outlook-crashes/</link>
+        <pubDate>Mon, 16 Jun 2025 08:23:55 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-classic-outlook-crashes/</guid>
+	<description><![CDATA[Microsoft has shared a workaround for a known issue that causes the classic Outlook email client to crash when opening or starting a new message. [...]]]></description>
+ </item>
+
  <item>
         <title>Police seizes Archetyp Market drug marketplace, arrests admin</title>
         <link>https://www.bleepingcomputer.com/news/security/police-seizes-archetyp-market-drug-marketplace-arrests-admin/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5060533-update-triggers-boot-errors-on-surface-hub-v1-devices/</guid>
 	<description><![CDATA[Microsoft is investigating a known issue that triggers Secure Boot errors and prevents Surface Hub v1 devices from starting up. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft confirms auth issues affecting Microsoft 365 users</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-auth-issues-affecting-microsoft-365-users/</link>
-        <pubDate>Fri, 13 Jun 2025 08:37:06 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-auth-issues-affecting-microsoft-365-users/</guid>
-	<description><![CDATA[Microsoft is investigating an ongoing incident that is causing users to experience errors with some Microsoft 365 authentication features. [...]]]></description>
  </item>
 
 </channel>
