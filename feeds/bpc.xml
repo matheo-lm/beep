@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 16 Jun 2025 15:59:03 EDT</pubDate>
+        <pubDate>Mon, 16 Jun 2025 17:03:21 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers switch to targeting U.S. insurance companies</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-warns-scattered-spider-hackers-now-target-us-insurance-companies/</link>
+        <pubDate>Mon, 16 Jun 2025 16:43:00 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-warns-scattered-spider-hackers-now-target-us-insurance-companies/</guid>
+	<description><![CDATA[Threat intelligence researchers are warning of hackers breaching multiple U.S. companies in the insurance industry using all the tactics observed with Scattered Spider activity. [...]]]></description>
+ </item>
+
  <item>
         <title>ASUS Armoury Crate bug lets attackers get Windows admin privileges</title>
         <link>https://www.bleepingcomputer.com/news/security/asus-armoury-crate-bug-lets-attackers-get-windows-admin-privileges/</link>
@@ -188,22 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/anubis-ransomware-adds-wiper-to-destroy-files-beyond-recovery/</guid>
 	<description><![CDATA[<The Anubis ransomware-as-a-service (RaaS) operation has added to its file-encrypting malware a wiper module&nbsp;that destroys targeted files, making recovery impossible even if the ransom is paid. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 users want these five features back</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-users-want-these-five-features-back/</link>
-        <pubDate>Sat, 14 Jun 2025 10:12:22 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-users-want-these-five-features-back/</guid>
-	<description><![CDATA[When Windows 11 was first released, many long-time users felt features they loved had been taken away overnight. Three and a half years later, the same complaints still rise to the top of the Feedback Hub with tens of thousands of votes. [...]]]></description>
  </item>
 
 </channel>
