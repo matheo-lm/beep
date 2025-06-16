@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 16 Jun 2025 10:58:38 EDT</pubDate>
+        <pubDate>Mon, 16 Jun 2025 11:59:06 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Washington Post's email system hacked, journalists' accounts compromised</title>
+        <link>https://www.bleepingcomputer.com/news/security/washington-posts-email-system-hacked-journalists-accounts-compromised/</link>
+        <pubDate>Mon, 16 Jun 2025 11:08:25 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/washington-posts-email-system-hacked-journalists-accounts-compromised/</guid>
+	<description><![CDATA[Email accounts of several Washington Post journalists were compromised in a cyberattack believed to have been carried out by a foreign government. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Kali Linux 2025.2 released with 13 new tools, car hacking updates</title>
+        <link>https://www.bleepingcomputer.com/news/security/kali-linux-20252-released-with-13-new-tools-car-hacking-updates/</link>
+        <pubDate>Mon, 16 Jun 2025 10:18:09 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/kali-linux-20252-released-with-13-new-tools-car-hacking-updates/</guid>
+	<description><![CDATA[Kali Linux 2025.2, the second release of the year, is now available for download with 13 new tools and an expanded car hacking toolkit. [...]]]></description>
+ </item>
+
  <item>
         <title>Zoomcar discloses security breach impacting 8.4 million users</title>
         <link>https://www.bleepingcomputer.com/news/security/zoomcar-discloses-security-breach-impacting-84-million-users/</link>
@@ -162,34 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-users-want-these-five-features-back/</guid>
 	<description><![CDATA[When Windows 11 was first released, many long-time users felt features they loved had been taken away overnight. Three and a half years later, the same complaints still rise to the top of the Feedback Hub with tens of thousands of votes. [...]]]></description>
- </item>
-
- <item>
-        <title>Google links massive cloud outage to API management issue</title>
-        <link>https://www.bleepingcomputer.com/news/google/google-links-massive-cloud-outage-to-api-management-issue/</link>
-        <pubDate>Fri, 13 Jun 2025 13:39:02 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/google/google-links-massive-cloud-outage-to-api-management-issue/</guid>
-	<description><![CDATA[Google says an API management issue is behind Thursday's massive Google Cloud outage, which disrupted or brought down its services and many other online platforms. [...]]]></description>
- </item>
-
- <item>
-        <title>Discord flaw lets hackers reuse expired invites in malware campaign</title>
-        <link>https://www.bleepingcomputer.com/news/security/discord-flaw-lets-hackers-reuse-expired-invites-in-malware-campaign/</link>
-        <pubDate>Fri, 13 Jun 2025 12:10:51 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/discord-flaw-lets-hackers-reuse-expired-invites-in-malware-campaign/</guid>
-	<description><![CDATA[Hackers are hijacking expired or deleted Discord invite links to redirect users to malicious sites that deliver remote access trojans and information-stealing malware. [...]]]></description>
  </item>
 
 </channel>
