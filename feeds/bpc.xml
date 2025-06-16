@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 16 Jun 2025 09:59:39 EDT</pubDate>
+        <pubDate>Mon, 16 Jun 2025 10:58:38 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Zoomcar discloses security breach impacting 8.4 million users</title>
+        <link>https://www.bleepingcomputer.com/news/security/zoomcar-discloses-security-breach-impacting-84-million-users/</link>
+        <pubDate>Mon, 16 Jun 2025 10:13:18 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/zoomcar-discloses-security-breach-impacting-84-million-users/</guid>
+	<description><![CDATA[Zoomcar Holdings (Zoomcar) has disclosed via an 8-K form filing with the U.S. Securities and Exchange Commission (SEC) a data breach incident impacting 8.4 million users. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft shares temp fix for Outlook crashes when opening emails</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-classic-outlook-crashes/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/discord-flaw-lets-hackers-reuse-expired-invites-in-malware-campaign/</guid>
 	<description><![CDATA[Hackers are hijacking expired or deleted Discord invite links to redirect users to malicious sites that deliver remote access trojans and information-stealing malware. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: KB5060533 update triggers boot errors on Surface Hub v1 devices</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5060533-update-triggers-boot-errors-on-surface-hub-v1-devices/</link>
-        <pubDate>Fri, 13 Jun 2025 09:17:29 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5060533-update-triggers-boot-errors-on-surface-hub-v1-devices/</guid>
-	<description><![CDATA[Microsoft is investigating a known issue that triggers Secure Boot errors and prevents Surface Hub v1 devices from starting up. [...]]]></description>
  </item>
 
 </channel>
