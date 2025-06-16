@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description></description>
-	<lastBuildDate>Mon, 16 Jun 2025 19:00:27 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 16 Jun 2025 19:15:14 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,23 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Copilot AI Bug Could Leak Sensitive Data via Email Prompts</title>
+		<link>https://databreaches.net/2025/06/16/copilot-ai-bug-could-leak-sensitive-data-via-email-prompts/</link>
+					<comments>https://databreaches.net/2025/06/16/copilot-ai-bug-could-leak-sensitive-data-via-email-prompts/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Mon, 16 Jun 2025 19:15:14 +0000</pubDate>
+				<category><![CDATA[Miscellaneous]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=122137</guid>
+
+					<description><![CDATA[Rashmi Ramesh reports: A well-phrased email was all an attacker would have needed to trick Microsoft Copilot into handing over sensitive data until the operating system giant patched the vulnerability. The vulnerability in Microsoft 365 Copilot allowed attackers to extract sensitive data through a zero-click prompt injection attack, said researchers from Aim Security. Dubbed &#8220;EchoLeak&#8221; and tracked...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/06/16/copilot-ai-bug-could-leak-sensitive-data-via-email-prompts/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>FTC Provides Guidance on Updated Safeguards Rule</title>
 		<link>https://databreaches.net/2025/06/16/ftc-provides-guidance-on-updated-safeguards-rule/</link>
 					<comments>https://databreaches.net/2025/06/16/ftc-provides-guidance-on-updated-safeguards-rule/#respond</comments>
@@ -192,24 +209,6 @@
 					<description><![CDATA[Claims of &#8220;negligence&#8221; are often raised in lawsuits. DataBreaches is not a lawyer, of course, but wonders whether by now, we should consider a plastic surgeon &#8220;negligent&#8221; in their data security if they store nude photos of their patients with patient names and identity information in plain text and no strong encryption or suitable alternative...]]></description>
 		
 					<wfw:commentRss>https://databreaches.net/2025/06/14/plastic-surgeons-often-store-nude-photos-of-patients-with-their-identity-information-when-would-we-call-that-negligent/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>India: Servers of two city hospitals hacked; police register FIR</title>
-		<link>https://databreaches.net/2025/06/14/india-servers-of-two-city-hospitals-hacked-police-register-fir/</link>
-					<comments>https://databreaches.net/2025/06/14/india-servers-of-two-city-hospitals-hacked-police-register-fir/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Sat, 14 Jun 2025 11:32:23 +0000</pubDate>
-				<category><![CDATA[Health Data]]></category>
-		<category><![CDATA[Non-U.S.]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=122095</guid>
-
-					<description><![CDATA[&#160; The Times of India reports: New Delhi: Delhi Police has registered an FIR after the servers of two hospitals in north Delhi, Sant Parmanand Hospital in Civil Lines and NKS Super Speciality Hospital in Gulabi Bagh, were allegedly hacked. Patient data, financial records and administrative files were accessed during the breach, which took place...]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/06/14/india-servers-of-two-city-hospitals-hacked-police-register-fir/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
