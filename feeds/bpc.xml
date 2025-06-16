@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 16 Jun 2025 05:04:31 EDT</pubDate>
+        <pubDate>Mon, 16 Jun 2025 06:00:58 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: June Windows Server security updates cause DHCP issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-june-windows-server-security-updates-cause-dhcp-issues/</link>
+        <pubDate>Mon, 16 Jun 2025 05:35:49 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-june-windows-server-security-updates-cause-dhcp-issues/</guid>
+	<description><![CDATA[Microsoft acknowledged a new issue caused by the June 2025 security updates, causing the DHCP service to freeze on some Windows Server systems. [...]]]></description>
+ </item>
+
  <item>
         <title>ChatGPT's AI coder Codex now lets you choose the best solution</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-ai-coder-codex-now-lets-you-choose-the-best-solution/</link>
@@ -174,22 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/victorias-secret-restores-critical-systems-after-cyberattack/</guid>
 	<description><![CDATA[Victoria's Secret has restored all critical systems impacted by a May 24 security incident that forced it to shut down corporate systems and the e-commerce website. [...]]]></description>
- </item>
-
- <item>
-        <title>Cloudflare: Outage not caused by security incident, data is safe</title>
-        <link>https://www.bleepingcomputer.com/news/security/cloudflare-outage-not-caused-by-security-incident-data-is-safe/</link>
-        <pubDate>Fri, 13 Jun 2025 06:09:24 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Cloud]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-outage-not-caused-by-security-incident-data-is-safe/</guid>
-	<description><![CDATA[Cloudflare has confirmed that the massive service outage yesterday was not caused by a security incident and no data has been lost. [...]]]></description>
  </item>
 
 </channel>
