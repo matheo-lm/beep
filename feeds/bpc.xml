@@ -11,11 +11,53 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 17 Jun 2025 10:00:44 EDT</pubDate>
+        <pubDate>Tue, 17 Jun 2025 10:59:13 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>UK fines 23andMe for ‘profoundly damaging’ breach exposing genetics data</title>
+        <link>https://www.bleepingcomputer.com/news/security/uk-fines-23andme-for-profoundly-damaging-breach-exposing-genetics-data/</link>
+        <pubDate>Tue, 17 Jun 2025 10:59:09 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/uk-fines-23andme-for-profoundly-damaging-breach-exposing-genetics-data/</guid>
+	<description><![CDATA[The UK Information Commissioner's Office (ICO) has fined genetic testing provider 23andMe £2.31 million ($3.12 million) over 'serious security failings' that led to a 'profoundly damaging' data breach in 2023. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft fixes Surface Hub boot issues with emergency update</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-surface-hub-boot-issues-with-emergency-update/</link>
+        <pubDate>Tue, 17 Jun 2025 10:06:10 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-surface-hub-boot-issues-with-emergency-update/</guid>
+	<description><![CDATA[Microsoft has released an emergency update to fix a known issue causing startup failures for some Surface Hub v1 devices running Windows 10. [...]]]></description>
+ </item>
+
+ <item>
+        <title>How to automate IT ticket handling with AI and Tines</title>
+        <link>https://www.bleepingcomputer.com/news/security/how-to-automate-it-ticket-handling-with-ai-and-tines/</link>
+        <pubDate>Tue, 17 Jun 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Tines</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/how-to-automate-it-ticket-handling-with-ai-and-tines/</guid>
+	<description><![CDATA[Tired of drowning in IT tickets? This AI-powered workflow built on Tines auto-triages common issues like known bugs & password resets—saving time for your team and speeding up resolution. Learn more about Tines and get a free account now. [...]]]></description>
+ </item>
+
  <item>
         <title>Hacker steals 1 million Cock.li user records in webmail data breach</title>
         <link>https://www.bleepingcomputer.com/news/security/hacker-steals-1-million-cockli-user-records-in-webmail-data-breach/</link>
@@ -158,36 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-ai-coder-codex-now-lets-you-choose-the-best-solution/</guid>
 	<description><![CDATA[ChatGPT's Codex, which is an AI agent that lets you code and delegate programming tasks, is now testing a new feature that lets you choose the best solution. [...]]]></description>
- </item>
-
- <item>
-        <title>ChatGPT Search gets an upgrade as OpenAI takes aim at Google</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-search-gets-an-upgrade-as-openai-takes-aim-at-google/</link>
-        <pubDate>Sun, 15 Jun 2025 11:53:46 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-search-gets-an-upgrade-as-openai-takes-aim-at-google/</guid>
-	<description><![CDATA[On June 13, OpenAI began rolling out a new ChatGPT Search update to improve quality as the AI startup challenges Google's dominance. [...]]]></description>
- </item>
-
- <item>
-        <title>Over 46,000 Grafana instances exposed to account takeover bug</title>
-        <link>https://www.bleepingcomputer.com/news/security/over-46-000-grafana-instances-exposed-to-account-takeover-bug/</link>
-        <pubDate>Sun, 15 Jun 2025 10:07:56 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/over-46-000-grafana-instances-exposed-to-account-takeover-bug/</guid>
-	<description><![CDATA[More than 46,000 internet-facing Grafana instances remain unpatched and exposed to a client-side open redirect vulnerability that allows executing a malicious plugin and account takeover. [...]]]></description>
  </item>
 
 </channel>
