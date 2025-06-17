@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 17 Jun 2025 09:09:04 EDT</pubDate>
+        <pubDate>Tue, 17 Jun 2025 10:00:44 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hacker steals 1 million Cock.li user records in webmail data breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/hacker-steals-1-million-cockli-user-records-in-webmail-data-breach/</link>
+        <pubDate>Tue, 17 Jun 2025 09:50:36 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hacker-steals-1-million-cockli-user-records-in-webmail-data-breach/</guid>
+	<description><![CDATA[Email hosting provider Cock.li has confirmed it suffered a data breach after threat actors exploited flaws in its now-retired Roundcube webmail platform to steal over a million user records. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers switch to targeting U.S. insurance companies</title>
         <link>https://www.bleepingcomputer.com/news/security/google-warns-scattered-spider-hackers-now-target-us-insurance-companies/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/over-46-000-grafana-instances-exposed-to-account-takeover-bug/</guid>
 	<description><![CDATA[More than 46,000 internet-facing Grafana instances remain unpatched and exposed to a client-side open redirect vulnerability that allows executing a malicious plugin and account takeover. [...]]]></description>
- </item>
-
- <item>
-        <title>WestJet investigates cyberattack disrupting internal systems</title>
-        <link>https://www.bleepingcomputer.com/news/security/westjet-investigates-cyberattack-disrupting-internal-systems/</link>
-        <pubDate>Sat, 14 Jun 2025 13:34:10 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/westjet-investigates-cyberattack-disrupting-internal-systems/</guid>
-	<description><![CDATA[WestJet, Canada's second-largest airline, is investigating a cyberattack that has disrupted access to some internal systems as it responds to the breach. [...]]]></description>
  </item>
 
 </channel>
