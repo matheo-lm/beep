@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 17 Jun 2025 10:59:13 EDT</pubDate>
+        <pubDate>Tue, 17 Jun 2025 12:03:40 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Veeam RCE flaw lets domain users hack backup servers</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-veeam-rce-flaw-lets-domain-users-hack-backup-servers/</link>
+        <pubDate>Tue, 17 Jun 2025 11:42:48 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-veeam-rce-flaw-lets-domain-users-hack-backup-servers/</guid>
+	<description><![CDATA[​Veeam has released security updates today to fix several Veeam Backup & Replication (VBR) flaws, including a critical remote code execution (RCE) vulnerability. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Sitecore CMS exploit chain starts with hardcoded 'b' password</title>
+        <link>https://www.bleepingcomputer.com/news/security/sitecore-cms-exploit-chain-starts-with-hardcoded-b-password/</link>
+        <pubDate>Tue, 17 Jun 2025 11:10:35 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sitecore-cms-exploit-chain-starts-with-hardcoded-b-password/</guid>
+	<description><![CDATA[A chain of Sitecore Experience Platform (XP) vulnerabilities allows attackers to perform remote code execution (RCE) without authentication to breach and hijack servers. [...]]]></description>
+ </item>
+
  <item>
         <title>UK fines 23andMe for ‘profoundly damaging’ breach exposing genetics data</title>
         <link>https://www.bleepingcomputer.com/news/security/uk-fines-23andme-for-profoundly-damaging-breach-exposing-genetics-data/</link>
@@ -168,38 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/police-seizes-archetyp-market-drug-marketplace-arrests-admin/</guid>
 	<description><![CDATA[Law enforcement authorities from six countries took down the Archetyp Market, an infamous darknet drug marketplace that has been operating since May 2020. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: June Windows Server security updates cause DHCP issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-june-windows-server-security-updates-cause-dhcp-issues/</link>
-        <pubDate>Mon, 16 Jun 2025 05:35:49 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-june-windows-server-security-updates-cause-dhcp-issues/</guid>
-	<description><![CDATA[Microsoft acknowledged a new issue caused by the June 2025 security updates, causing the DHCP service to freeze on some Windows Server systems. [...]]]></description>
- </item>
-
- <item>
-        <title>ChatGPT's AI coder Codex now lets you choose the best solution</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-ai-coder-codex-now-lets-you-choose-the-best-solution/</link>
-        <pubDate>Sun, 15 Jun 2025 15:59:41 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-ai-coder-codex-now-lets-you-choose-the-best-solution/</guid>
-	<description><![CDATA[ChatGPT's Codex, which is an AI agent that lets you code and delegate programming tasks, is now testing a new feature that lets you choose the best solution. [...]]]></description>
  </item>
 
 </channel>
