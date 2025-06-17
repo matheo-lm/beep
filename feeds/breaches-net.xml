@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description></description>
-	<lastBuildDate>Tue, 17 Jun 2025 17:42:37 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 17 Jun 2025 21:59:48 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,27 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Episource notifying 5.4 million patients of cyberattack in January</title>
+		<link>https://databreaches.net/2025/06/17/episource-notifying-5-4-million-patients-of-cyberattack-in-january/</link>
+					<comments>https://databreaches.net/2025/06/17/episource-notifying-5-4-million-patients-of-cyberattack-in-january/#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Tue, 17 Jun 2025 21:59:48 +0000</pubDate>
+				<category><![CDATA[Breach Incidents]]></category>
+		<category><![CDATA[Hack]]></category>
+		<category><![CDATA[Health Data]]></category>
+		<category><![CDATA[Subcontractor]]></category>
+		<category><![CDATA[U.S.]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=122166</guid>
+
+					<description><![CDATA[Episource, LLC, is a business associate that provides healthcare technology and solutions, specializing in medical coding, risk adjustment, and data analytics for health plans and providers. On February 6, anomalous activity in their system alerted Episource to a potential attack. In response, they shut down computer systems, initiated an investigation, called in a special team,...]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/06/17/episource-notifying-5-4-million-patients-of-cyberattack-in-january/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Investigation of 2024 Helsinki data breach &#8211; Report</title>
 		<link>https://databreaches.net/2025/06/17/investigation-of-2024-helsinki-data-breach-report/</link>
 					<comments>https://databreaches.net/2025/06/17/investigation-of-2024-helsinki-data-breach-report/#respond</comments>
@@ -188,23 +209,6 @@
 					<description><![CDATA[Update:  And this is why we said &#8220;allegedly&#8221; and &#8220;unconfirmed.&#8221; CCC responded to yesterday&#8217;s inquiry with the following reply: Credit Control Corporation is not currently the subject of any data breach or security incident referenced in your message. The original post appears below for context. A seller on a forum claims to have data on 9.1...]]></description>
 		
 					<wfw:commentRss>https://databreaches.net/2025/06/16/credit-control-corporation-data-allegedly-from-9-1-million-consumers-listed-for-sale-on-forum/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Copilot AI Bug Could Leak Sensitive Data via Email Prompts</title>
-		<link>https://databreaches.net/2025/06/16/copilot-ai-bug-could-leak-sensitive-data-via-email-prompts/</link>
-					<comments>https://databreaches.net/2025/06/16/copilot-ai-bug-could-leak-sensitive-data-via-email-prompts/#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Mon, 16 Jun 2025 19:15:14 +0000</pubDate>
-				<category><![CDATA[Miscellaneous]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=122137</guid>
-
-					<description><![CDATA[Rashmi Ramesh reports: A well-phrased email was all an attacker would have needed to trick Microsoft Copilot into handing over sensitive data until the operating system giant patched the vulnerability. The vulnerability in Microsoft 365 Copilot allowed attackers to extract sensitive data through a zero-click prompt injection attack, said researchers from Aim Security. Dubbed &#8220;EchoLeak&#8221; and tracked...]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/06/16/copilot-ai-bug-could-leak-sensitive-data-via-email-prompts/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
