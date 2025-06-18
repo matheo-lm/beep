@@ -11,11 +11,29 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 18 Jun 2025 15:59:32 EDT</pubDate>
+        <pubDate>Wed, 18 Jun 2025 17:01:15 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>North Korean hackers deepfake execs in Zoom call to spread Mac malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/north-korean-hackers-deepfake-execs-in-zoom-call-to-spread-mac-malware/</link>
+        <pubDate>Wed, 18 Jun 2025 16:37:41 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/north-korean-hackers-deepfake-execs-in-zoom-call-to-spread-mac-malware/</guid>
+	<description><![CDATA[North Korean advanced persistent threat (APT) 'BlueNoroff' (aka 'Sapphire Sleet' or 'TA444') are using deepfake company executives during fake Zoom calls to trick employees into installing custom malware on their computers. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft 365 to block file access via legacy auth protocols by default</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-to-block-file-access-via-legacy-auth-protocols-by-default/</link>
@@ -169,8 +187,8 @@
  </item>
 
  <item>
-        <title>Instagram ads mimicking BMO, EQ Banks are finance scams</title>
-        <link>https://www.bleepingcomputer.com/news/security/instagram-ads-mimicking-bmo-eq-banks-are-finance-scams/</link>
+        <title>Instagram ads mimicking BMO, EQ Bank are finance scams</title>
+        <link>https://www.bleepingcomputer.com/news/security/instagram-ads-mimicking-bmo-eq-bank-are-finance-scams/</link>
         <pubDate>Tue, 17 Jun 2025 12:52:09 -0400</pubDate>
         <dc:creator>Ax Sharma</dc:creator>
 
@@ -178,38 +196,10 @@
         <category><![CDATA[Security]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/security/instagram-ads-mimicking-bmo-eq-banks-are-finance-scams/</guid>
+        <guid>https://www.bleepingcomputer.com/news/security/instagram-ads-mimicking-bmo-eq-bank-are-finance-scams/</guid>
 	<description><![CDATA[Instagram ads impersonating financial institutions like Bank of Montreal (BMO) and EQ Bank (Equitable Bank) are being used to target Canadian consumers with phishing scams and investment fraud.
 
 Some ads use AI-powered deepfake videos in an attempt to collect your personal information, while others drive traffic to phishing pages. [...]]]></description>
- </item>
-
- <item>
-        <title>New Veeam RCE flaw lets domain users hack backup servers</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-veeam-rce-flaw-lets-domain-users-hack-backup-servers/</link>
-        <pubDate>Tue, 17 Jun 2025 11:42:48 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-veeam-rce-flaw-lets-domain-users-hack-backup-servers/</guid>
-	<description><![CDATA[​Veeam has released security updates today to fix several Veeam Backup & Replication (VBR) flaws, including a critical remote code execution (RCE) vulnerability. [...]]]></description>
- </item>
-
- <item>
-        <title>Sitecore CMS exploit chain starts with hardcoded 'b' password</title>
-        <link>https://www.bleepingcomputer.com/news/security/sitecore-cms-exploit-chain-starts-with-hardcoded-b-password/</link>
-        <pubDate>Tue, 17 Jun 2025 11:10:35 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sitecore-cms-exploit-chain-starts-with-hardcoded-b-password/</guid>
-	<description><![CDATA[A chain of Sitecore Experience Platform (XP) vulnerabilities allows attackers to perform remote code execution (RCE) without authentication to breach and hijack servers. [...]]]></description>
  </item>
 
 </channel>
