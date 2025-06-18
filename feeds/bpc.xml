@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 18 Jun 2025 04:00:40 EDT</pubDate>
+        <pubDate>Wed, 18 Jun 2025 05:00:44 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Linux udisks flaw lets attackers get root on major Linux distros</title>
+        <link>https://www.bleepingcomputer.com/news/linux/new-linux-udisks-flaw-lets-attackers-get-root-on-major-linux-distros/</link>
+        <pubDate>Wed, 18 Jun 2025 04:45:36 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Linux]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/linux/new-linux-udisks-flaw-lets-attackers-get-root-on-major-linux-distros/</guid>
+	<description><![CDATA[Attackers can exploit two newly discovered local privilege escalation (LPE) vulnerabilities to gain root privileges on systems running major Linux distributions. [...]]]></description>
+ </item>
+
  <item>
         <title>Asana warns MCP AI feature exposed customer data to other orgs</title>
         <link>https://www.bleepingcomputer.com/news/security/asana-warns-mcp-ai-feature-exposed-customer-data-to-other-orgs/</link>
@@ -188,20 +204,6 @@ Some ads use AI-powered deepfake videos in an attempt to collect your personal i
 
         <guid>https://www.bleepingcomputer.com/news/security/asus-armoury-crate-bug-lets-attackers-get-windows-admin-privileges/</guid>
 	<description><![CDATA[A high-severity vulnerability in ASUS Armoury Crate software could allow threat actors to escalate their privileges to SYSTEM level on Windows machines. [...]]]></description>
- </item>
-
- <item>
-        <title>Washington Post's email system hacked, journalists' accounts compromised</title>
-        <link>https://www.bleepingcomputer.com/news/security/washington-posts-email-system-hacked-journalists-accounts-compromised/</link>
-        <pubDate>Mon, 16 Jun 2025 11:08:25 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/washington-posts-email-system-hacked-journalists-accounts-compromised/</guid>
-	<description><![CDATA[Email accounts of several Washington Post journalists were compromised in a cyberattack believed to have been carried out by a foreign government. [...]]]></description>
  </item>
 
 </channel>
