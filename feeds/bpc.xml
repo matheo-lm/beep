@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 18 Jun 2025 09:12:51 EDT</pubDate>
+        <pubDate>Wed, 18 Jun 2025 09:59:53 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA warns of attackers exploiting Linux flaw with PoC exploit</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-attackers-exploiting-linux-flaw-with-poc-exploit/</link>
+        <pubDate>Wed, 18 Jun 2025 09:54:48 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Linux]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-attackers-exploiting-linux-flaw-with-poc-exploit/</guid>
+	<description><![CDATA[CISA has warned U.S. federal agencies about attackers targeting a high-severity vulnerability in the Linux kernel's OverlayFS subsystem that allows them to gain root privileges. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Healthcare SaaS firm says data breach impacts 5.4 million patients</title>
+        <link>https://www.bleepingcomputer.com/news/security/episource-says-data-breach-impacts-54-million-patients/</link>
+        <pubDate>Wed, 18 Jun 2025 09:44:12 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/episource-says-data-breach-impacts-54-million-patients/</guid>
+	<description><![CDATA[Episource warns of a data breach after hackers stole health information of over 5 million people in the United States in a January cyberattack. [...]]]></description>
+ </item>
+
  <item>
         <title>BeyondTrust warns of pre-auth RCE in Remote Support software</title>
         <link>https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-pre-auth-rce-in-remote-support-software/</link>
@@ -176,20 +208,6 @@ Some ads use AI-powered deepfake videos in an attempt to collect your personal i
 
         <guid>https://www.bleepingcomputer.com/news/security/how-to-automate-it-ticket-handling-with-ai-and-tines/</guid>
 	<description><![CDATA[Tired of drowning in IT tickets? This AI-powered workflow built on Tines auto-triages common issues like known bugs & password resets—saving time for your team and speeding up resolution. Learn more about Tines and get a free account now. [...]]]></description>
- </item>
-
- <item>
-        <title>Hacker steals 1 million Cock.li user records in webmail data breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/hacker-steals-1-million-cockli-user-records-in-webmail-data-breach/</link>
-        <pubDate>Tue, 17 Jun 2025 09:50:36 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hacker-steals-1-million-cockli-user-records-in-webmail-data-breach/</guid>
-	<description><![CDATA[Email hosting provider Cock.li has confirmed it suffered a data breach after threat actors exploited flaws in its now-retired Roundcube webmail platform to steal over a million user records. [...]]]></description>
  </item>
 
 </channel>
