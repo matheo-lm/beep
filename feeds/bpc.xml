@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 18 Jun 2025 09:59:53 EDT</pubDate>
+        <pubDate>Wed, 18 Jun 2025 11:01:28 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ChainLink Phishing: How Trusted Domains Become Threat Vectors</title>
+        <link>https://www.bleepingcomputer.com/news/security/chainlink-phishing-how-trusted-domains-become-threat-vectors/</link>
+        <pubDate>Wed, 18 Jun 2025 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by Keep Aware</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/chainlink-phishing-how-trusted-domains-become-threat-vectors/</guid>
+	<description><![CDATA[Phishing has evolved—and trust is the new attack vector. ChainLink Phishing uses real platforms like Google Drive & Dropbox to sneak past filters and steal credentials in the browser. Watch Keep Aware's on-demand webinar to see how these attacks work—and how to stop them. [...]]]></description>
+ </item>
+
  <item>
         <title>CISA warns of attackers exploiting Linux flaw with PoC exploit</title>
         <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-attackers-exploiting-linux-flaw-with-poc-exploit/</link>
@@ -125,8 +139,8 @@
  </item>
 
  <item>
-        <title>Instagram 'BMO' ads use AI deepfakes to scam banking customers</title>
-        <link>https://www.bleepingcomputer.com/news/security/instagram-bmo-ads-use-ai-deepfakes-to-scam-banking-customers/</link>
+        <title>Instagram ads mimicking BMO, EQ Banks are finance scams</title>
+        <link>https://www.bleepingcomputer.com/news/security/instagram-ads-mimicking-bmo-eq-banks-are-finance-scams/</link>
         <pubDate>Tue, 17 Jun 2025 12:52:09 -0400</pubDate>
         <dc:creator>Ax Sharma</dc:creator>
 
@@ -134,7 +148,7 @@
         <category><![CDATA[Security]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/security/instagram-bmo-ads-use-ai-deepfakes-to-scam-banking-customers/</guid>
+        <guid>https://www.bleepingcomputer.com/news/security/instagram-ads-mimicking-bmo-eq-banks-are-finance-scams/</guid>
 	<description><![CDATA[Instagram ads impersonating financial institutions like Bank of Montreal (BMO) and EQ Bank (Equitable Bank) are being used to target Canadian consumers with phishing scams and investment fraud.
 
 Some ads use AI-powered deepfake videos in an attempt to collect your personal information, while others drive traffic to phishing pages. [...]]]></description>
@@ -194,20 +208,6 @@ Some ads use AI-powered deepfake videos in an attempt to collect your personal i
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-surface-hub-boot-issues-with-emergency-update/</guid>
 	<description><![CDATA[Microsoft has released an emergency update to fix a known issue causing startup failures for some Surface Hub v1 devices running Windows 10. [...]]]></description>
- </item>
-
- <item>
-        <title>How to automate IT ticket handling with AI and Tines</title>
-        <link>https://www.bleepingcomputer.com/news/security/how-to-automate-it-ticket-handling-with-ai-and-tines/</link>
-        <pubDate>Tue, 17 Jun 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Tines</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/how-to-automate-it-ticket-handling-with-ai-and-tines/</guid>
-	<description><![CDATA[Tired of drowning in IT tickets? This AI-powered workflow built on Tines auto-triages common issues like known bugs & password resets—saving time for your team and speeding up resolution. Learn more about Tines and get a free account now. [...]]]></description>
  </item>
 
 </channel>
