@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 19 Jun 2025 14:58:03 EDT</pubDate>
+        <pubDate>Thu, 19 Jun 2025 15:59:33 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Godfather Android malware now uses virtualization to hijack banking apps</title>
+        <link>https://www.bleepingcomputer.com/news/security/godfather-android-malware-now-uses-virtualization-to-hijack-banking-apps/</link>
+        <pubDate>Thu, 19 Jun 2025 15:54:28 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/godfather-android-malware-now-uses-virtualization-to-hijack-banking-apps/</guid>
+	<description><![CDATA[A new version of the Android malware "Godfather" creates isolated virtual environments on mobile devices to steal account data and transactions from legitimate banking apps. [...]]]></description>
+ </item>
+
  <item>
         <title>Webinar: Stolen credentials are the new front door to your network</title>
         <link>https://www.bleepingcomputer.com/news/security/webinar-stolen-credentials-are-the-new-front-door-to-your-network/</link>
@@ -200,20 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/north-korean-hackers-deepfake-execs-in-zoom-call-to-spread-mac-malware/</guid>
 	<description><![CDATA[North Korean advanced persistent threat (APT) 'BlueNoroff' (aka 'Sapphire Sleet' or 'TA444') are using deepfake company executives during fake Zoom calls to trick employees into installing custom malware on their computers. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft 365 to block file access via legacy auth protocols by default</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-to-block-file-access-via-legacy-auth-protocols-by-default/</link>
-        <pubDate>Wed, 18 Jun 2025 11:14:28 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-365-to-block-file-access-via-legacy-auth-protocols-by-default/</guid>
-	<description><![CDATA[Microsoft has announced that it will soon update security defaults for all Microsoft 365 tenants to block access to SharePoint, OneDrive, and Office files via legacy authentication protocols. [...]]]></description>
  </item>
 
 </channel>
