@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 20 Jun 2025 10:01:06 EDT</pubDate>
+        <pubDate>Fri, 20 Jun 2025 11:02:14 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Aflac discloses breach amidst Scattered Spider insurance attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/aflac-discloses-breach-amidst-scattered-spider-insurance-attacks/</link>
+        <pubDate>Fri, 20 Jun 2025 10:52:05 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/aflac-discloses-breach-amidst-scattered-spider-insurance-attacks/</guid>
+	<description><![CDATA[On Friday, American insurance giant Aflac disclosed that its systems were breached in a broader campaign targeting insurance companies across the United States by attackers who may have stolen personal and health information. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Can users reset their own passwords without sacrificing security?</title>
+        <link>https://www.bleepingcomputer.com/news/security/can-users-reset-their-own-passwords-without-sacrificing-security/</link>
+        <pubDate>Fri, 20 Jun 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Specops Software</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/can-users-reset-their-own-passwords-without-sacrificing-security/</guid>
+	<description><![CDATA[Self-service password resets (SSPR) reduce helpdesk strain—but without strong security, they can open the door to attackers. Learn why phishing-resistant MFA, context-aware verification, and risk-based detection are critical to secure SSPR implementation. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft to remove legacy drivers from Windows Update for security boost</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-remove-legacy-drivers-from-windows-update-for-security-boost/</link>
@@ -182,20 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/telecom-giant-viasat-breached-by-chinas-salt-typhoon-hackers/</guid>
 	<description><![CDATA[Satellite communications company Viasat is the latest victim of China's Salt Typhoon cyber-espionage group, which has previously hacked into the networks of multiple other telecom providers in the United States and worldwide. [...]]]></description>
- </item>
-
- <item>
-        <title>Krispy Kreme says November data breach impacts over 160,000 people</title>
-        <link>https://www.bleepingcomputer.com/news/security/krispy-kreme-says-november-data-breach-impacts-over-160-000-people/</link>
-        <pubDate>Thu, 19 Jun 2025 05:59:49 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/krispy-kreme-says-november-data-breach-impacts-over-160-000-people/</guid>
-	<description><![CDATA[U.S. doughnut chain Krispy Kreme confirmed that attackers stole the personal information of over 160,000 individuals in a November 2024 cyberattack. [...]]]></description>
  </item>
 
 </channel>
