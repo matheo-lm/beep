@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 20 Jun 2025 08:05:06 EDT</pubDate>
+        <pubDate>Fri, 20 Jun 2025 09:11:04 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft to remove legacy drivers from Windows Update for security boost</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-remove-legacy-drivers-from-windows-update-for-security-boost/</link>
+        <pubDate>Fri, 20 Jun 2025 09:05:43 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-remove-legacy-drivers-from-windows-update-for-security-boost/</guid>
+	<description><![CDATA[Microsoft has announced plans to periodically remove legacy drivers from the Windows Update catalog to mitigate security and compatibility risks. [...]]]></description>
+ </item>
+
  <item>
         <title>No, the 16 billion credentials leak is not a new data breach</title>
         <link>https://www.bleepingcomputer.com/news/security/no-the-16-billion-credentials-leak-is-not-a-new-data-breach/</link>
@@ -180,38 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/krispy-kreme-says-november-data-breach-impacts-over-160-000-people/</guid>
 	<description><![CDATA[U.S. doughnut chain Krispy Kreme confirmed that attackers stole the personal information of over 160,000 individuals in a November 2024 cyberattack. [...]]]></description>
- </item>
-
- <item>
-        <title>Ryuk ransomware’s initial access expert extradited to the U.S.</title>
-        <link>https://www.bleepingcomputer.com/news/security/ryuk-ransomwares-initial-access-expert-extradited-to-the-us/</link>
-        <pubDate>Thu, 19 Jun 2025 02:05:35 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ryuk-ransomwares-initial-access-expert-extradited-to-the-us/</guid>
-	<description><![CDATA[A member of the notorious Ryuk ransomware operation who specialized in gaining initial access to corporate networks has been extradited to the United States. [...]]]></description>
- </item>
-
- <item>
-        <title>Pro-Israel hackers hit Iran's Nobitex exchange, burn $90M in crypto</title>
-        <link>https://www.bleepingcomputer.com/news/security/pro-israel-hackers-hit-irans-nobitex-exchange-burn-90m-in-crypto/</link>
-        <pubDate>Wed, 18 Jun 2025 17:56:00 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/pro-israel-hackers-hit-irans-nobitex-exchange-burn-90m-in-crypto/</guid>
-	<description><![CDATA[The pro-Israel "Predatory Sparrow" hacking group claims to have stolen over $90 million in cryptocurrency from Nobitex, Iran's largest crypto exchange, and burned the funds in a politically motivated cyberattack. [...]]]></description>
  </item>
 
 </channel>
