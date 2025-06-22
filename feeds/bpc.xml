@@ -11,11 +11,83 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 22 Jun 2025 16:58:56 EDT</pubDate>
+        <pubDate>Sun, 22 Jun 2025 18:02:15 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CoinMarketCap briefly hacked to drain crypto wallets via fake Web3 popup</title>
+        <link>https://www.bleepingcomputer.com/news/security/coinmarketcap-briefly-hacked-to-drain-crypto-wallets-via-fake-web3-popup/</link>
+        <pubDate>Sun, 22 Jun 2025 17:47:05 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/coinmarketcap-briefly-hacked-to-drain-crypto-wallets-via-fake-web3-popup/</guid>
+	<description><![CDATA[CoinMarketCap, the popular cryptocurrency price tracking site, suffered a website supply chain attack that exposed site visitors to a wallet drainer campaign to steal visitors' crypto. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Oxford City Council suffers breach exposing two decades of data</title>
+        <link>https://www.bleepingcomputer.com/news/security/oxford-city-council-suffers-breach-exposing-two-decades-of-data/</link>
+        <pubDate>Sun, 22 Jun 2025 11:17:28 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Government]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/oxford-city-council-suffers-breach-exposing-two-decades-of-data/</guid>
+	<description><![CDATA[Oxford City Council warns it suffered a data breach where attackers accessed personally identifiable information from legacy systems. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows Snipping Tool now lets you create animated GIF recordings</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-snipping-tool-now-lets-you-create-animated-gif-recordings/</link>
+        <pubDate>Sun, 22 Jun 2025 10:11:22 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-snipping-tool-now-lets-you-create-animated-gif-recordings/</guid>
+	<description><![CDATA[​Microsoft announced that the Windows screenshot and screencast Snipping Tool utility is getting support for exporting animated GIF recordings. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Russian hackers bypass Gmail MFA using stolen app passwords</title>
+        <link>https://www.bleepingcomputer.com/news/security/russian-hackers-bypass-gmail-mfa-using-stolen-app-passwords/</link>
+        <pubDate>Sat, 21 Jun 2025 11:13:17 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/russian-hackers-bypass-gmail-mfa-using-stolen-app-passwords/</guid>
+	<description><![CDATA[Russian hackers bypass multi-factor authentication and access Gmail accounts by leveraging app-specific passwords in advanced social engineering attacks that impersonate U.S. Department of State officials. [...]]]></description>
+ </item>
+
+ <item>
+        <title>WordPress Motors theme flaw mass-exploited to hijack admin accounts</title>
+        <link>https://www.bleepingcomputer.com/news/security/wordpress-motors-theme-flaw-mass-exploited-to-hijack-admin-accounts/</link>
+        <pubDate>Sat, 21 Jun 2025 10:09:19 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/wordpress-motors-theme-flaw-mass-exploited-to-hijack-admin-accounts/</guid>
+	<description><![CDATA[Hackers are exploiting a critical privilege escalation vulnerability in the WordPress theme "Motors" to hijack administrator accounts and gain complete control of a targeted site. [...]]]></description>
+ </item>
+
  <item>
         <title>BitoPro exchange links Lazarus hackers to $11 million crypto heist</title>
         <link>https://www.bleepingcomputer.com/news/security/bitopro-exchange-links-lazarus-hackers-to-11-million-crypto-heist/</link>
@@ -116,100 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/no-the-16-billion-credentials-leak-is-not-a-new-data-breach/</guid>
 	<description><![CDATA[News broke today of a "mother of all breaches," sparking wide media coverage filled with warnings and fear-mongering. However, it appears to be a compilation of previously leaked credentials stolen by infostealers, exposed in data breaches, and via credential stuffing attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Godfather Android malware now uses virtualization to hijack banking apps</title>
-        <link>https://www.bleepingcomputer.com/news/security/godfather-android-malware-now-uses-virtualization-to-hijack-banking-apps/</link>
-        <pubDate>Thu, 19 Jun 2025 15:54:28 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/godfather-android-malware-now-uses-virtualization-to-hijack-banking-apps/</guid>
-	<description><![CDATA[A new version of the Android malware "Godfather" creates isolated virtual environments on mobile devices to steal account data and transactions from legitimate banking apps. [...]]]></description>
- </item>
-
- <item>
-        <title>Webinar: Stolen credentials are the new front door to your network</title>
-        <link>https://www.bleepingcomputer.com/news/security/webinar-stolen-credentials-are-the-new-front-door-to-your-network/</link>
-        <pubDate>Thu, 19 Jun 2025 12:33:21 -0400</pubDate>
-        <dc:creator>BleepingComputer</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/webinar-stolen-credentials-are-the-new-front-door-to-your-network/</guid>
-	<description><![CDATA[Cybercriminals no longer need zero-days to breach your systems—these days, they just log in. Join BleepingComputer, SC Media, and Specops Software's Darren Siegel on July 9 at 2:00 PM ET for a live webinar on how attackers are using stolen credentials to infiltrate networks and how you can stop them. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI’s Sam Altman discusses GPT-5 release date</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-sam-altman-discusses-gpt-5-release-date/</link>
-        <pubDate>Thu, 19 Jun 2025 11:43:06 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-sam-altman-discusses-gpt-5-release-date/</guid>
-	<description><![CDATA[ChatGPT's next big upgrade, or the new foundational model "GPT-5," is still being prepared for a release in the summer, but OpenAI won't share the specifics. [...]]]></description>
- </item>
-
- <item>
-        <title>US recovers $225 million of crypto stolen in investment scams</title>
-        <link>https://www.bleepingcomputer.com/news/legal/us-recovers-225-million-of-crypto-stolen-in-investment-scams/</link>
-        <pubDate>Thu, 19 Jun 2025 10:33:01 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Legal]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/legal/us-recovers-225-million-of-crypto-stolen-in-investment-scams/</guid>
-	<description><![CDATA[The U.S. Department of Justice has seized more than $225 million in cryptocurrency linked to investment fraud and money laundering operations, the largest crypto seizure in the history of the U.S. Secret Service. [...]]]></description>
- </item>
-
- <item>
-        <title>Special Webinar: Key Insights from Verizon’s 2025 DBIR</title>
-        <link>https://www.bleepingcomputer.com/news/security/special-webinar-key-insights-from-verizons-2025-dbir/</link>
-        <pubDate>Thu, 19 Jun 2025 10:04:50 -0400</pubDate>
-        <dc:creator>Sponsored by LayerX</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/special-webinar-key-insights-from-verizons-2025-dbir/</guid>
-	<description><![CDATA[GenAI, credential theft, third-party risks—Verizon's 2025 DBIR reveals what's putting your org at risk. Join DBIR author Alex Pinto & LayerX CEO Or Eshed as they break down this year's key insights and defense strategies. Don't miss the webinar—register now. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft unveils new security defaults for Windows 365 Cloud PCs</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-unveils-new-security-defaults-for-windows-365-cloud-pcs/</link>
-        <pubDate>Thu, 19 Jun 2025 09:55:26 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-unveils-new-security-defaults-for-windows-365-cloud-pcs/</guid>
-	<description><![CDATA[Microsoft has announced new Windows 365 security defaults starting in the second half of 2025 and affecting newly provisioned and reprovisioned Cloud PCs. [...]]]></description>
  </item>
 
 </channel>
