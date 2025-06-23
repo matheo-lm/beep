@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 23 Jun 2025 09:59:24 EDT</pubDate>
+        <pubDate>Mon, 23 Jun 2025 11:03:42 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>McLaren Health Care says data breach impacts 743,000 patients</title>
+        <link>https://www.bleepingcomputer.com/news/security/mclaren-health-care-says-data-breach-impacts-743-000-patients/</link>
+        <pubDate>Mon, 23 Jun 2025 10:28:31 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/mclaren-health-care-says-data-breach-impacts-743-000-patients/</guid>
+	<description><![CDATA[McLaren Health Care is warning 743,000 patients that the health system suffered a data breach caused by a July 2024 attack by the INC ransomware gang. [...]]]></description>
+ </item>
+
  <item>
         <title>Steel giant Nucor confirms hackers stole data in recent breach</title>
         <link>https://www.bleepingcomputer.com/news/security/steel-giant-nucor-confirms-hackers-stole-data-in-recent-breach/</link>
@@ -172,22 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/can-users-reset-their-own-passwords-without-sacrificing-security/</guid>
 	<description><![CDATA[Self-service password resets (SSPR) reduce helpdesk strain—but without strong security, they can open the door to attackers. Learn why phishing-resistant MFA, context-aware verification, and risk-based detection are critical to secure SSPR implementation. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft to remove legacy drivers from Windows Update for security boost</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-remove-legacy-drivers-from-windows-update-for-security-boost/</link>
-        <pubDate>Fri, 20 Jun 2025 09:05:43 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-remove-legacy-drivers-from-windows-update-for-security-boost/</guid>
-	<description><![CDATA[Microsoft has announced plans to periodically remove legacy drivers from the Windows Update catalog to mitigate security and compatibility risks. [...]]]></description>
  </item>
 
 </channel>
