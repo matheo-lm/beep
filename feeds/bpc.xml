@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 23 Jun 2025 11:03:42 EDT</pubDate>
+        <pubDate>Mon, 23 Jun 2025 11:58:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Canada says Salt Typhoon hacked telecom firm via Cisco flaw</title>
+        <link>https://www.bleepingcomputer.com/news/security/canada-says-salt-typhoon-hacked-telecom-firm-via-cisco-flaw/</link>
+        <pubDate>Mon, 23 Jun 2025 11:23:44 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/canada-says-salt-typhoon-hacked-telecom-firm-via-cisco-flaw/</guid>
+	<description><![CDATA[The Canadian Centre for Cyber Security and the FBI confirm that the Chinese state-sponsored 'Salt Typhoon' hacking group is also targeting Canadian telecommunication firms, breaching a telecom provider in February. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Revil ransomware members released after time served on carding charges</title>
+        <link>https://www.bleepingcomputer.com/news/security/revil-hackers-released-after-time-served-on-carding-charges/</link>
+        <pubDate>Mon, 23 Jun 2025 11:12:14 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/revil-hackers-released-after-time-served-on-carding-charges/</guid>
+	<description><![CDATA[Four REvil ransomware members arrested in January 2022 were released by Russia on time served after they pleaded guilty to carding and malware distribution charges. [...]]]></description>
+ </item>
+
  <item>
         <title>McLaren Health Care says data breach impacts 743,000 patients</title>
         <link>https://www.bleepingcomputer.com/news/security/mclaren-health-care-says-data-breach-impacts-743-000-patients/</link>
@@ -158,34 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cloudflare-blocks-record-73-tbps-ddos-attack-against-hosting-provider/</guid>
 	<description><![CDATA[Cloudflare says it mitigated a record-breaking distributed denial of service (DDoS) attack in May 2025 that peaked at 7.3 Tbps, targeting a hosting provider. [...]]]></description>
- </item>
-
- <item>
-        <title>Aflac discloses breach amidst Scattered Spider insurance attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/aflac-discloses-breach-amidst-scattered-spider-insurance-attacks/</link>
-        <pubDate>Fri, 20 Jun 2025 10:52:05 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/aflac-discloses-breach-amidst-scattered-spider-insurance-attacks/</guid>
-	<description><![CDATA[On Friday, American insurance giant Aflac disclosed that its systems were breached in a broader campaign targeting insurance companies across the United States by attackers who may have stolen personal and health information. [...]]]></description>
- </item>
-
- <item>
-        <title>Can users reset their own passwords without sacrificing security?</title>
-        <link>https://www.bleepingcomputer.com/news/security/can-users-reset-their-own-passwords-without-sacrificing-security/</link>
-        <pubDate>Fri, 20 Jun 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Specops Software</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/can-users-reset-their-own-passwords-without-sacrificing-security/</guid>
-	<description><![CDATA[Self-service password resets (SSPR) reduce helpdesk strain—but without strong security, they can open the door to attackers. Learn why phishing-resistant MFA, context-aware verification, and risk-based detection are critical to secure SSPR implementation. [...]]]></description>
  </item>
 
 </channel>
