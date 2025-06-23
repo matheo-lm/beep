@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 23 Jun 2025 08:05:43 EDT</pubDate>
+        <pubDate>Mon, 23 Jun 2025 09:09:23 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Steel giant Nucor confirms hackers stole data in recent breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/steel-giant-nucor-confirms-hackers-stole-data-in-recent-breach/</link>
+        <pubDate>Mon, 23 Jun 2025 08:28:42 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/steel-giant-nucor-confirms-hackers-stole-data-in-recent-breach/</guid>
+	<description><![CDATA[Nucor, North America's largest steel producer and recycler, has confirmed that attackers behind a recent cybersecurity incident have also stolen data from the company's network. [...]]]></description>
+ </item>
+
  <item>
         <title>CoinMarketCap briefly hacked to drain crypto wallets via fake Web3 popup</title>
         <link>https://www.bleepingcomputer.com/news/security/coinmarketcap-briefly-hacked-to-drain-crypto-wallets-via-fake-web3-popup/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-remove-legacy-drivers-from-windows-update-for-security-boost/</guid>
 	<description><![CDATA[Microsoft has announced plans to periodically remove legacy drivers from the Windows Update catalog to mitigate security and compatibility risks. [...]]]></description>
- </item>
-
- <item>
-        <title>No, the 16 billion credentials leak is not a new data breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/no-the-16-billion-credentials-leak-is-not-a-new-data-breach/</link>
-        <pubDate>Thu, 19 Jun 2025 17:51:41 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/no-the-16-billion-credentials-leak-is-not-a-new-data-breach/</guid>
-	<description><![CDATA[News broke today of a "mother of all breaches," sparking wide media coverage filled with warnings and fear-mongering. However, it appears to be a compilation of previously leaked credentials stolen by infostealers, exposed in data breaches, and via credential stuffing attacks. [...]]]></description>
  </item>
 
 </channel>
