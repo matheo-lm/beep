@@ -51,11 +51,26 @@ jobs:
             { xml: 'feeds/breaches-net.xml', json: 'feeds/breaches-net.json', tag: 'hackcidents' },
             { xml: 'feeds/hibp.xml', json: 'feeds/hibp.json', tag: 'hackcidents' }
           ];
+      
+          function isLikelyXML(str) {
+            return /^\s*<\?xml|<rss|<feed/.test(str);
+          }
+      
           (async () => {
             for (const feed of feeds) {
               const xmlData = fs.readFileSync(feed.xml, 'utf8');
-              const newItems = await parser.parseString(xmlData).then(parsed => parsed.items);
-
+              if (!isLikelyXML(xmlData)) {
+                console.error('Skipping ' + feed.xml + ': Not valid XML.');
+                continue;
+              }
+              let newItems = [];
+              try {
+                newItems = await parser.parseString(xmlData).then(parsed => parsed.items);
+              } catch (parseErr) {
+                console.error('Failed to parse ' + feed.xml + ':', parseErr.message);
+                continue;
+              }
+      
               let existingItems = [];
               if (fs.existsSync(feed.json)) {
                 try {
@@ -64,11 +79,10 @@ jobs:
                   console.error('Error parsing existing JSON file:', error);
                 }
               }
-
+      
               const mergedItems = [...newItems, ...existingItems]
                 .reduce((unique, item) => {
                   if (!unique.some(existing => existing.link === item.link)) {
-                    // Truncate content if it exceeds 240 characters
                     if (item.content && item.content.length > 240) {
                       item.content = item.content.substring(0, 240) + ' [...]';
                     }
@@ -77,7 +91,7 @@ jobs:
                   }
                   return unique;
                 }, []);
-
+      
               fs.writeFileSync(feed.json, JSON.stringify({ items: mergedItems }));
             }
           })();
