@@ -11,11 +11,175 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 23 Jun 2025 11:58:59 EDT</pubDate>
+        <pubDate>Tue, 24 Jun 2025 17:26:35 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>SonicWall warns of trojanized NetExtender stealing VPN logins</title>
+        <link>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-trojanized-netextender-stealing-vpn-logins/</link>
+        <pubDate>Tue, 24 Jun 2025 16:36:19 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-trojanized-netextender-stealing-vpn-logins/</guid>
+	<description><![CDATA[SonicWall is warning customers that threat actors are distributing a trojanized version of its NetExtender SSL VPN client used to steal VPN credentials. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 10 KB5061087 update released with 13 changes and fixes</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5061087-update-released-with-13-changes-and-fixes/</link>
+        <pubDate>Tue, 24 Jun 2025 14:07:43 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5061087-update-released-with-13-changes-and-fixes/</guid>
+	<description><![CDATA[Microsoft has released the June 2025 non-security preview update for Windows 10, version 22H2, with fixes for bugs preventing the Start Menu from launching and breaking scanning features on USB multi-function printers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft fixes known issue that breaks Windows 11 updates</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-that-breaks-windows-11-updates/</link>
+        <pubDate>Tue, 24 Jun 2025 13:13:30 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-that-breaks-windows-11-updates/</guid>
+	<description><![CDATA[Microsoft is rolling out a configuration update designed to address a known issue causing Windows Update to fail on some Windows 11 systems. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 10 users can get extended security updates using Microsoft points</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-extended-security-updates-available-using-reward-points/</link>
+        <pubDate>Tue, 24 Jun 2025 13:00:00 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-extended-security-updates-available-using-reward-points/</guid>
+	<description><![CDATA[Microsoft says Windows 10 home users who want to delay switching to Windows 11 can enroll in the Extended Security Updates (ESU) program at no additional cost using Microsoft Rewards points or enabling Windows Backup to sync their data to the cloud. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Trezor’s support platform abused in crypto theft phishing attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/trezors-support-platform-abused-in-crypto-theft-phishing-attacks/</link>
+        <pubDate>Tue, 24 Jun 2025 12:54:16 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/trezors-support-platform-abused-in-crypto-theft-phishing-attacks/</guid>
+	<description><![CDATA[Trezor is alerting users about a phishing campaign that abuses its automated support system to send deceptive emails from its official platform. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New FileFix attack weaponizes Windows File Explorer for stealthy commands</title>
+        <link>https://www.bleepingcomputer.com/news/security/filefix-attack-weaponizes-windows-file-explorer-for-stealthy-powershell-commands/</link>
+        <pubDate>Tue, 24 Jun 2025 11:00:09 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/filefix-attack-weaponizes-windows-file-explorer-for-stealthy-powershell-commands/</guid>
+	<description><![CDATA[A cybersecurity researcher has developed FileFix, a variant of the ClickFix social engineering attack that tricks users into executing malicious commands via the File Explorer address bar in Windows. [...]]]></description>
+ </item>
+
+ <item>
+        <title>How Today’s Pentest Models Compare and Why Continuous Wins</title>
+        <link>https://www.bleepingcomputer.com/news/security/how-todays-pentest-models-compare-and-why-continuous-wins/</link>
+        <pubDate>Tue, 24 Jun 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Sprocket Security</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/how-todays-pentest-models-compare-and-why-continuous-wins/</guid>
+	<description><![CDATA[Legacy pentests give you a snapshot. Attackers see a live stream. Sprocket's Continuous Penetration Testing (CPT) mimics real-world attackers—daily, not annually—so you can fix what matters, faster. Learn why CPT is the future. [...]]]></description>
+ </item>
+
+ <item>
+        <title>US House bans WhatsApp on staff devices over security concerns</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-house-bans-whatsapp-on-staff-devices-over-security-concerns/</link>
+        <pubDate>Tue, 24 Jun 2025 09:43:53 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Government]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-house-bans-whatsapp-on-staff-devices-over-security-concerns/</guid>
+	<description><![CDATA[The U.S. House of Representatives has banned the installation and use of WhatsApp on government-issued devices belonging to congressional staff, citing concerns over how the app encrypts and secures data. [...]]]></description>
+ </item>
+
+ <item>
+        <title>APT28 hackers use Signal chats to launch new malware attacks on Ukraine</title>
+        <link>https://www.bleepingcomputer.com/news/security/apt28-hackers-use-signal-chats-to-launch-new-malware-attacks-on-ukraine/</link>
+        <pubDate>Mon, 23 Jun 2025 18:14:59 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apt28-hackers-use-signal-chats-to-launch-new-malware-attacks-on-ukraine/</guid>
+	<description><![CDATA[The Russian state-sponsored threat group APT28 is using Signal chats to target government targets in Ukraine with two previously undocumented malware families named BeardShell and SlimAgent. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Malware on Google Play, Apple App Store stole your photos—and crypto</title>
+        <link>https://www.bleepingcomputer.com/news/security/malware-on-google-play-app-store-stole-your-photos-and-crypto/</link>
+        <pubDate>Mon, 23 Jun 2025 12:44:56 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malware-on-google-play-app-store-stole-your-photos-and-crypto/</guid>
+	<description><![CDATA[A new mobile crypto-stealing malware called SparkKitty was found in apps on Google Play and the Apple App Store, targeting Android and iOS devices. [...]]]></description>
+ </item>
+
+ <item>
+        <title>US Homeland Security warns of escalating Iranian cyberattack risks</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-homeland-security-warns-of-escalating-iranian-cyberattack-risks/</link>
+        <pubDate>Mon, 23 Jun 2025 12:22:37 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-homeland-security-warns-of-escalating-iranian-cyberattack-risks/</guid>
+	<description><![CDATA[The U.S. Department of Homeland Security (DHS) warned over the weekend of escalating cyberattack risks by Iran-backed hacking groups and pro-Iranian hacktivists. [...]]]></description>
+ </item>
+
  <item>
         <title>Canada says Salt Typhoon hacked telecom firm via Cisco flaw</title>
         <link>https://www.bleepingcomputer.com/news/security/canada-says-salt-typhoon-hacked-telecom-firm-via-cisco-flaw/</link>
@@ -42,150 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/revil-hackers-released-after-time-served-on-carding-charges/</guid>
 	<description><![CDATA[Four REvil ransomware members arrested in January 2022 were released by Russia on time served after they pleaded guilty to carding and malware distribution charges. [...]]]></description>
- </item>
-
- <item>
-        <title>McLaren Health Care says data breach impacts 743,000 patients</title>
-        <link>https://www.bleepingcomputer.com/news/security/mclaren-health-care-says-data-breach-impacts-743-000-patients/</link>
-        <pubDate>Mon, 23 Jun 2025 10:28:31 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/mclaren-health-care-says-data-breach-impacts-743-000-patients/</guid>
-	<description><![CDATA[McLaren Health Care is warning 743,000 patients that the health system suffered a data breach caused by a July 2024 attack by the INC ransomware gang. [...]]]></description>
- </item>
-
- <item>
-        <title>Steel giant Nucor confirms hackers stole data in recent breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/steel-giant-nucor-confirms-hackers-stole-data-in-recent-breach/</link>
-        <pubDate>Mon, 23 Jun 2025 08:28:42 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/steel-giant-nucor-confirms-hackers-stole-data-in-recent-breach/</guid>
-	<description><![CDATA[Nucor, North America's largest steel producer and recycler, has confirmed that attackers behind a recent cybersecurity incident have also stolen data from the company's network. [...]]]></description>
- </item>
-
- <item>
-        <title>CoinMarketCap briefly hacked to drain crypto wallets via fake Web3 popup</title>
-        <link>https://www.bleepingcomputer.com/news/security/coinmarketcap-briefly-hacked-to-drain-crypto-wallets-via-fake-web3-popup/</link>
-        <pubDate>Sun, 22 Jun 2025 17:47:05 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/coinmarketcap-briefly-hacked-to-drain-crypto-wallets-via-fake-web3-popup/</guid>
-	<description><![CDATA[CoinMarketCap, the popular cryptocurrency price tracking site, suffered a website supply chain attack that exposed site visitors to a wallet drainer campaign to steal visitors' crypto. [...]]]></description>
- </item>
-
- <item>
-        <title>Oxford City Council suffers breach exposing two decades of data</title>
-        <link>https://www.bleepingcomputer.com/news/security/oxford-city-council-suffers-breach-exposing-two-decades-of-data/</link>
-        <pubDate>Sun, 22 Jun 2025 11:17:28 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Government]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/oxford-city-council-suffers-breach-exposing-two-decades-of-data/</guid>
-	<description><![CDATA[Oxford City Council warns it suffered a data breach where attackers accessed personally identifiable information from legacy systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows Snipping Tool now lets you create animated GIF recordings</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-snipping-tool-now-lets-you-create-animated-gif-recordings/</link>
-        <pubDate>Sun, 22 Jun 2025 10:11:22 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-snipping-tool-now-lets-you-create-animated-gif-recordings/</guid>
-	<description><![CDATA[​Microsoft announced that the Windows screenshot and screencast Snipping Tool utility is getting support for exporting animated GIF recordings. [...]]]></description>
- </item>
-
- <item>
-        <title>Russian hackers bypass Gmail MFA using stolen app passwords</title>
-        <link>https://www.bleepingcomputer.com/news/security/russian-hackers-bypass-gmail-mfa-using-stolen-app-passwords/</link>
-        <pubDate>Sat, 21 Jun 2025 11:13:17 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/russian-hackers-bypass-gmail-mfa-using-stolen-app-passwords/</guid>
-	<description><![CDATA[Russian hackers bypass multi-factor authentication and access Gmail accounts by leveraging app-specific passwords in advanced social engineering attacks that impersonate U.S. Department of State officials. [...]]]></description>
- </item>
-
- <item>
-        <title>WordPress Motors theme flaw mass-exploited to hijack admin accounts</title>
-        <link>https://www.bleepingcomputer.com/news/security/wordpress-motors-theme-flaw-mass-exploited-to-hijack-admin-accounts/</link>
-        <pubDate>Sat, 21 Jun 2025 10:09:19 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/wordpress-motors-theme-flaw-mass-exploited-to-hijack-admin-accounts/</guid>
-	<description><![CDATA[Hackers are exploiting a critical privilege escalation vulnerability in the WordPress theme "Motors" to hijack administrator accounts and gain complete control of a targeted site. [...]]]></description>
- </item>
-
- <item>
-        <title>BitoPro exchange links Lazarus hackers to $11 million crypto heist</title>
-        <link>https://www.bleepingcomputer.com/news/security/bitopro-exchange-links-lazarus-hackers-to-11-million-crypto-heist/</link>
-        <pubDate>Fri, 20 Jun 2025 13:54:41 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/bitopro-exchange-links-lazarus-hackers-to-11-million-crypto-heist/</guid>
-	<description><![CDATA[The Taiwanese cryptocurrency exchange BitoPro claims the North Korean hacking group Lazarus is behind a cyberattack that led to the theft of $11,000,000 worth of cryptocurrency on May 8, 2025. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft investigates OneDrive bug that breaks file search</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-onedrive-bug-that-breaks-file-search/</link>
-        <pubDate>Fri, 20 Jun 2025 12:39:54 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-onedrive-bug-that-breaks-file-search/</guid>
-	<description><![CDATA[​Microsoft is investigating a known OneDrive issue that is causing searches to appear blank for some users or return no results even when searching for files they know they've already uploaded. [...]]]></description>
- </item>
-
- <item>
-        <title>Cloudflare blocks record 7.3 Tbps DDoS attack against hosting provider</title>
-        <link>https://www.bleepingcomputer.com/news/security/cloudflare-blocks-record-73-tbps-ddos-attack-against-hosting-provider/</link>
-        <pubDate>Fri, 20 Jun 2025 11:54:10 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-blocks-record-73-tbps-ddos-attack-against-hosting-provider/</guid>
-	<description><![CDATA[Cloudflare says it mitigated a record-breaking distributed denial of service (DDoS) attack in May 2025 that peaked at 7.3 Tbps, targeting a hosting provider. [...]]]></description>
  </item>
 
 </channel>
