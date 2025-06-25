@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 25 Jun 2025 12:01:23 EDT</pubDate>
+        <pubDate>Wed, 25 Jun 2025 13:00:21 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>WinRAR patches bug letting malware launch from extracted archives</title>
+        <link>https://www.bleepingcomputer.com/news/security/winrar-patches-bug-letting-malware-launch-from-extracted-archives/</link>
+        <pubDate>Wed, 25 Jun 2025 12:55:14 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/winrar-patches-bug-letting-malware-launch-from-extracted-archives/</guid>
+	<description><![CDATA[WinRAR has addressed a directory traversal vulnerability tracked as CVE-2025-6218 that, under certain circumstances, allows malware to be executed after extracting a malicious archive. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New 'CitrixBleed 2' NetScaler flaw let hackers hijack sessions</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-citrixbleed-2-netscaler-flaw-let-hackers-hijack-sessions/</link>
+        <pubDate>Wed, 25 Jun 2025 12:10:37 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-citrixbleed-2-netscaler-flaw-let-hackers-hijack-sessions/</guid>
+	<description><![CDATA[A recent vulnerability in Citrix NetScaler ADC and Gateway is dubbed "CitrixBleed 2," after its similarity to an older exploited flaw that allowed unauthenticated attackers to hijack authentication session cookies from vulnerable devices. [...]]]></description>
+ </item>
+
  <item>
         <title>BreachForums hacking forum operators reportedly arrested in France</title>
         <link>https://www.bleepingcomputer.com/news/security/breachforums-hacking-forum-operators-reportedly-arrested-in-france/</link>
@@ -178,24 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/how-todays-pentest-models-compare-and-why-continuous-wins/</guid>
 	<description><![CDATA[Legacy pentests give you a snapshot. Attackers see a live stream. Sprocket's Continuous Penetration Testing (CPT) mimics real-world attackers—daily, not annually—so you can fix what matters, faster. Learn why CPT is the future. [...]]]></description>
- </item>
-
- <item>
-        <title>US House bans WhatsApp on staff devices over security concerns</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-house-bans-whatsapp-on-staff-devices-over-security-concerns/</link>
-        <pubDate>Tue, 24 Jun 2025 09:43:53 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Government]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-house-bans-whatsapp-on-staff-devices-over-security-concerns/</guid>
-	<description><![CDATA[The U.S. House of Representatives has banned the installation and use of WhatsApp on government-issued devices belonging to congressional staff, citing concerns over how the app encrypts and secures data. [...]]]></description>
  </item>
 
 </channel>
