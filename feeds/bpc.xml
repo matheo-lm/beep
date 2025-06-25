@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 25 Jun 2025 15:59:33 EDT</pubDate>
+        <pubDate>Wed, 25 Jun 2025 17:02:17 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers abuse Microsoft ClickOnce and AWS services for stealthy attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/oneclik-attacks-use-microsoft-clickonce-and-aws-to-target-energy-sector/</link>
+        <pubDate>Wed, 25 Jun 2025 16:34:38 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/oneclik-attacks-use-microsoft-clickonce-and-aws-to-target-energy-sector/</guid>
+	<description><![CDATA[A sophisticated malicious campaign that researchers call OneClik has been leveraging Microsoft's ClickOnce software deployment tool and custom Golang backdoors to compromise organizations within the energy, oil, and gas sectors. [...]]]></description>
+ </item>
+
  <item>
         <title>New wave of ‘fake interviews’ use 35 npm packages to spread malware</title>
         <link>https://www.bleepingcomputer.com/news/security/new-wave-of-fake-interviews-use-35-npm-packages-to-spread-malware/</link>
@@ -178,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5061087-update-released-with-13-changes-and-fixes/</guid>
 	<description><![CDATA[Microsoft has released the June 2025 non-security preview update for Windows 10, version 22H2, with fixes for bugs preventing the Start Menu from launching and breaking scanning features on USB multi-function printers. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes known issue that breaks Windows 11 updates</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-that-breaks-windows-11-updates/</link>
-        <pubDate>Tue, 24 Jun 2025 13:13:30 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-that-breaks-windows-11-updates/</guid>
-	<description><![CDATA[Microsoft is rolling out a configuration update designed to address a known issue causing Windows Update to fail on some Windows 11 systems. [...]]]></description>
  </item>
 
 </channel>
