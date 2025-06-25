@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 25 Jun 2025 09:58:45 EDT</pubDate>
+        <pubDate>Wed, 25 Jun 2025 11:00:21 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>BreachForums hacking forum operators reportedly arrested in France</title>
+        <link>https://www.bleepingcomputer.com/news/security/breachforums-hacking-forum-operators-reportedly-arrested-in-france/</link>
+        <pubDate>Wed, 25 Jun 2025 10:25:46 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/breachforums-hacking-forum-operators-reportedly-arrested-in-france/</guid>
+	<description><![CDATA[The French police have reportedly arrested five operators of the BreachForum cybercrime forum, a website used by cybercriminals to leak and sell stolen data that exposed the sensitive information of millions. [...]]]></description>
+ </item>
+
  <item>
         <title>Google rolls out text-to-image model Imagen 4 for free</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-rolls-out-text-to-image-model-imagen-4-for-free/</link>
@@ -182,38 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-house-bans-whatsapp-on-staff-devices-over-security-concerns/</guid>
 	<description><![CDATA[The U.S. House of Representatives has banned the installation and use of WhatsApp on government-issued devices belonging to congressional staff, citing concerns over how the app encrypts and secures data. [...]]]></description>
- </item>
-
- <item>
-        <title>APT28 hackers use Signal chats to launch new malware attacks on Ukraine</title>
-        <link>https://www.bleepingcomputer.com/news/security/apt28-hackers-use-signal-chats-to-launch-new-malware-attacks-on-ukraine/</link>
-        <pubDate>Mon, 23 Jun 2025 18:14:59 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/apt28-hackers-use-signal-chats-to-launch-new-malware-attacks-on-ukraine/</guid>
-	<description><![CDATA[The Russian state-sponsored threat group APT28 is using Signal chats to target government targets in Ukraine with two previously undocumented malware families named BeardShell and SlimAgent. [...]]]></description>
- </item>
-
- <item>
-        <title>Malware on Google Play, Apple App Store stole your photos—and crypto</title>
-        <link>https://www.bleepingcomputer.com/news/security/malware-on-google-play-app-store-stole-your-photos-and-crypto/</link>
-        <pubDate>Mon, 23 Jun 2025 12:44:56 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/malware-on-google-play-app-store-stole-your-photos-and-crypto/</guid>
-	<description><![CDATA[A new mobile crypto-stealing malware called SparkKitty was found in apps on Google Play and the Apple App Store, targeting Android and iOS devices. [...]]]></description>
  </item>
 
 </channel>
