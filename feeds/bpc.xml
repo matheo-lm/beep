@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 25 Jun 2025 14:58:58 EDT</pubDate>
+        <pubDate>Wed, 25 Jun 2025 15:59:33 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New wave of ‘fake interviews’ use 35 npm packages to spread malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-wave-of-fake-interviews-use-35-npm-packages-to-spread-malware/</link>
+        <pubDate>Wed, 25 Jun 2025 15:24:12 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-wave-of-fake-interviews-use-35-npm-packages-to-spread-malware/</guid>
+	<description><![CDATA[A new wave of North Korea's 'Contagious Interview' campaign is targeting job seekers with malicious npm packages that infect dev's devices with infostealers and backdoors. [...]]]></description>
+ </item>
+
  <item>
         <title>Google releases Gemini CLI with free Gemini 2.5 Pro </title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-releases-gemini-cli-with-free-gemini-25-pro/</link>
@@ -178,36 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-that-breaks-windows-11-updates/</guid>
 	<description><![CDATA[Microsoft is rolling out a configuration update designed to address a known issue causing Windows Update to fail on some Windows 11 systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 10 users can get extended security updates using Microsoft points</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-extended-security-updates-available-using-reward-points/</link>
-        <pubDate>Tue, 24 Jun 2025 13:00:00 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-extended-security-updates-available-using-reward-points/</guid>
-	<description><![CDATA[Microsoft says Windows 10 home users who want to delay switching to Windows 11 can enroll in the Extended Security Updates (ESU) program at no additional cost using Microsoft Rewards points or enabling Windows Backup to sync their data to the cloud. [...]]]></description>
- </item>
-
- <item>
-        <title>Trezor’s support platform abused in crypto theft phishing attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/trezors-support-platform-abused-in-crypto-theft-phishing-attacks/</link>
-        <pubDate>Tue, 24 Jun 2025 12:54:16 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/trezors-support-platform-abused-in-crypto-theft-phishing-attacks/</guid>
-	<description><![CDATA[Trezor is alerting users about a phishing campaign that abuses its automated support system to send deceptive emails from its official platform. [...]]]></description>
  </item>
 
 </channel>
