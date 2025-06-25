@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 25 Jun 2025 13:00:21 EDT</pubDate>
+        <pubDate>Wed, 25 Jun 2025 14:03:37 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google releases Gemini CLI with free Gemini 2.5 Pro </title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-releases-gemini-cli-with-free-gemini-25-pro/</link>
+        <pubDate>Wed, 25 Jun 2025 13:53:28 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/google-releases-gemini-cli-with-free-gemini-25-pro/</guid>
+	<description><![CDATA[Google has released Gemini 2.5 Pro-powered Gemini CLI, which allows you to use Gemini inside your terminal, including Windows Terminal. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Citrix warns of NetScaler vulnerability exploited in DoS attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/citrix-warns-of-netscaler-vulnerability-exploited-in-dos-attacks/</link>
+        <pubDate>Wed, 25 Jun 2025 13:35:55 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/citrix-warns-of-netscaler-vulnerability-exploited-in-dos-attacks/</guid>
+	<description><![CDATA[Citrix is warning that a vulnerability in NetScaler appliances tracked as CVE-2025-6543 is being actively exploited in the wild, causing devices to enter a denial of service condition. [...]]]></description>
+ </item>
+
  <item>
         <title>WinRAR patches bug letting malware launch from extracted archives</title>
         <link>https://www.bleepingcomputer.com/news/security/winrar-patches-bug-letting-malware-launch-from-extracted-archives/</link>
@@ -178,34 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/trezors-support-platform-abused-in-crypto-theft-phishing-attacks/</guid>
 	<description><![CDATA[Trezor is alerting users about a phishing campaign that abuses its automated support system to send deceptive emails from its official platform. [...]]]></description>
- </item>
-
- <item>
-        <title>New FileFix attack weaponizes Windows File Explorer for stealthy commands</title>
-        <link>https://www.bleepingcomputer.com/news/security/filefix-attack-weaponizes-windows-file-explorer-for-stealthy-powershell-commands/</link>
-        <pubDate>Tue, 24 Jun 2025 11:00:09 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/filefix-attack-weaponizes-windows-file-explorer-for-stealthy-powershell-commands/</guid>
-	<description><![CDATA[A cybersecurity researcher has developed FileFix, a variant of the ClickFix social engineering attack that tricks users into executing malicious commands via the File Explorer address bar in Windows. [...]]]></description>
- </item>
-
- <item>
-        <title>How Today’s Pentest Models Compare and Why Continuous Wins</title>
-        <link>https://www.bleepingcomputer.com/news/security/how-todays-pentest-models-compare-and-why-continuous-wins/</link>
-        <pubDate>Tue, 24 Jun 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Sprocket Security</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/how-todays-pentest-models-compare-and-why-continuous-wins/</guid>
-	<description><![CDATA[Legacy pentests give you a snapshot. Attackers see a live stream. Sprocket's Continuous Penetration Testing (CPT) mimics real-world attackers—daily, not annually—so you can fix what matters, faster. Learn why CPT is the future. [...]]]></description>
  </item>
 
 </channel>
