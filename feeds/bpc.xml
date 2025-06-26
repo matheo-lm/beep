@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 26 Jun 2025 11:59:34 EDT</pubDate>
+        <pubDate>Thu, 26 Jun 2025 13:02:08 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ex-student charged over hacking university for cheap parking, data breaches</title>
+        <link>https://www.bleepingcomputer.com/news/security/ex-student-charged-over-hacking-university-for-cheap-parking-data-breaches/</link>
+        <pubDate>Thu, 26 Jun 2025 12:24:59 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Education]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ex-student-charged-over-hacking-university-for-cheap-parking-data-breaches/</guid>
+	<description><![CDATA[New South Wales police in Australia have arrested a 27-year-old former Western Sydney University (WSU) student for allegedly hacking into the University's systems on multiple occasions, starting with a scheme to obtain cheaper parking. [...]]]></description>
+ </item>
+
  <item>
         <title>Cisco warns of max severity RCE flaws in Identity Services Engine</title>
         <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-max-severity-rce-flaws-in-identity-services-engine/</link>
@@ -184,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/google-releases-gemini-cli-with-free-gemini-25-pro/</guid>
 	<description><![CDATA[Google has released Gemini 2.5 Pro-powered Gemini CLI, which allows you to use Gemini inside your terminal, including Windows Terminal. [...]]]></description>
- </item>
-
- <item>
-        <title>Citrix warns of NetScaler vulnerability exploited in DoS attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/citrix-warns-of-netscaler-vulnerability-exploited-in-dos-attacks/</link>
-        <pubDate>Wed, 25 Jun 2025 13:35:55 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/citrix-warns-of-netscaler-vulnerability-exploited-in-dos-attacks/</guid>
-	<description><![CDATA[Citrix is warning that a vulnerability in NetScaler appliances tracked as CVE-2025-6543 is being actively exploited in the wild, causing devices to enter a denial of service condition. [...]]]></description>
  </item>
 
 </channel>
