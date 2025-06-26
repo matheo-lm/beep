@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 26 Jun 2025 06:01:00 EDT</pubDate>
+        <pubDate>Thu, 26 Jun 2025 07:01:38 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft fixes Outlook bug causing crashes when opening emails</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-bug-causing-crashes-when-opening-emails/</link>
+        <pubDate>Thu, 26 Jun 2025 06:26:17 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-bug-causing-crashes-when-opening-emails/</guid>
+	<description><![CDATA[Microsoft has fixed a known issue that will cause the classic Outlook email client to crash when opening emails or starting a new message. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft confirms Family Safety blocks Google Chrome from launching</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-family-safety-blocks-google-chrome-from-launching/</link>
@@ -186,22 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/google-rolls-out-text-to-image-model-imagen-4-for-free/</guid>
 	<description><![CDATA[Google confirmed that Imagen 4, which is the company's state-of-the-art text-to-image, is rolling out for free, but only on AI Studio. [...]]]></description>
- </item>
-
- <item>
-        <title>Claude catches up to ChatGPT with built-in memory support</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-catches-up-to-chatgpt-with-built-in-memory-support/</link>
-        <pubDate>Tue, 24 Jun 2025 17:52:15 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-catches-up-to-chatgpt-with-built-in-memory-support/</guid>
-	<description><![CDATA[AI startup Anthorpic is planning to add a memory feature to Claude in a bid to take on ChatGPT, which has an advanced memory feature. [...]]]></description>
  </item>
 
 </channel>
