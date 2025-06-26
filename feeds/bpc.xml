@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 26 Jun 2025 09:12:11 EDT</pubDate>
+        <pubDate>Thu, 26 Jun 2025 10:00:20 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft 365 'Direct Send' abused to send phishing as internal users</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-365-direct-send-abused-to-send-phishing-as-internal-users/</link>
+        <pubDate>Thu, 26 Jun 2025 09:00:00 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-365-direct-send-abused-to-send-phishing-as-internal-users/</guid>
+	<description><![CDATA[An ongoing phishing campaign abuses a little‑known feature in Microsoft 365 called "Direct Send" to evade detection by email security and steal credentials. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes Outlook bug causing crashes when opening emails</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-bug-causing-crashes-when-opening-emails/</link>
@@ -184,22 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/breachforums-hacking-forum-operators-reportedly-arrested-in-france/</guid>
 	<description><![CDATA[The French police have reportedly arrested five operators of the BreachForum cybercrime forum, a website used by cybercriminals to leak and sell stolen data that exposed the sensitive information of millions. [...]]]></description>
- </item>
-
- <item>
-        <title>Google rolls out text-to-image model Imagen 4 for free</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-rolls-out-text-to-image-model-imagen-4-for-free/</link>
-        <pubDate>Tue, 24 Jun 2025 18:36:21 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/google-rolls-out-text-to-image-model-imagen-4-for-free/</guid>
-	<description><![CDATA[Google confirmed that Imagen 4, which is the company's state-of-the-art text-to-image, is rolling out for free, but only on AI Studio. [...]]]></description>
  </item>
 
 </channel>
