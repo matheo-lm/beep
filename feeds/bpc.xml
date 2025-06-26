@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 25 Jun 2025 19:02:12 EDT</pubDate>
+        <pubDate>Wed, 25 Jun 2025 20:09:52 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>British hacker 'IntelBroker' charged with $25M in cybercrime damages</title>
+        <link>https://www.bleepingcomputer.com/news/security/british-hacker-intelbroker-charged-with-25m-in-cybercrime-damages/</link>
+        <pubDate>Wed, 25 Jun 2025 19:54:22 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/british-hacker-intelbroker-charged-with-25m-in-cybercrime-damages/</guid>
+	<description><![CDATA[A British national known online as "IntelBroker" has been charged by the U.S. for stealing and selling sensitive data from dozens of victims, causing an estimated $25 million in damages. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers turn ScreenConnect into malware using Authenticode stuffing</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-turn-screenconnect-into-malware-using-authenticode-stuffing/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-trojanized-netextender-stealing-vpn-logins/</guid>
 	<description><![CDATA[SonicWall is warning customers that threat actors are distributing a trojanized version of its NetExtender SSL VPN client used to steal VPN credentials. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 10 KB5061087 update released with 13 changes and fixes</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5061087-update-released-with-13-changes-and-fixes/</link>
-        <pubDate>Tue, 24 Jun 2025 14:07:43 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5061087-update-released-with-13-changes-and-fixes/</guid>
-	<description><![CDATA[Microsoft has released the June 2025 non-security preview update for Windows 10, version 22H2, with fixes for bugs preventing the Start Menu from launching and breaking scanning features on USB multi-function printers. [...]]]></description>
  </item>
 
 </channel>
