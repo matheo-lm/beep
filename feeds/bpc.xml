@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 26 Jun 2025 14:01:00 EDT</pubDate>
+        <pubDate>Thu, 26 Jun 2025 15:01:11 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Brother printer bug in 689 models exposes default admin passwords</title>
+        <link>https://www.bleepingcomputer.com/news/security/brother-printer-bug-in-689-models-exposes-default-admin-passwords/</link>
+        <pubDate>Thu, 26 Jun 2025 14:10:25 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/brother-printer-bug-in-689-models-exposes-default-admin-passwords/</guid>
+	<description><![CDATA[A total of 689 printer models from Brother, along with 53 other models from Fujifilm, Toshiba, and Konica Minolta, come with a default administrator password that remote attackers can generate. Even worse, there is no way to fix the flaw via firmware in existing printers. [...]]]></description>
+ </item>
+
  <item>
         <title>Ex-student charged over hacking university for cheap parking, data breaches</title>
         <link>https://www.bleepingcomputer.com/news/security/ex-student-charged-over-hacking-university-for-cheap-parking-data-breaches/</link>
@@ -184,22 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-wave-of-fake-interviews-use-35-npm-packages-to-spread-malware/</guid>
 	<description><![CDATA[A new wave of North Korea's 'Contagious Interview' campaign is targeting job seekers with malicious npm packages that infect dev's devices with infostealers and backdoors. [...]]]></description>
- </item>
-
- <item>
-        <title>Google releases Gemini CLI with free Gemini 2.5 Pro </title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-releases-gemini-cli-with-free-gemini-25-pro/</link>
-        <pubDate>Wed, 25 Jun 2025 13:53:28 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/google-releases-gemini-cli-with-free-gemini-25-pro/</guid>
-	<description><![CDATA[Google has released Gemini 2.5 Pro-powered Gemini CLI, which allows you to use Gemini inside your terminal, including Windows Terminal. [...]]]></description>
  </item>
 
 </channel>
