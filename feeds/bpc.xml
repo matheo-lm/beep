@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 26 Jun 2025 04:00:11 EDT</pubDate>
+        <pubDate>Thu, 26 Jun 2025 05:03:53 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA: AMI MegaRAC bug enabling server hijacks exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-ami-megarac-bug-that-lets-hackers-brick-servers-now-actively-exploited/</link>
+        <pubDate>Thu, 26 Jun 2025 04:38:05 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-ami-megarac-bug-that-lets-hackers-brick-servers-now-actively-exploited/</guid>
+	<description><![CDATA[CISA says a maximum severity vulnerability in AMI's MegaRAC Baseboard Management Controller (BMC) software, which enables attackers to hijack and brick servers, is currently under active exploitation. [...]]]></description>
+ </item>
+
  <item>
         <title>Hacker 'IntelBroker' charged in US for global data theft breaches</title>
         <link>https://www.bleepingcomputer.com/news/security/british-hacker-intelbroker-charged-with-25m-in-cybercrime-damages/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/google-cloud-donates-a2a-ai-protocol-to-the-linux-foundation/</guid>
 	<description><![CDATA[Google Cloud has donated its Agent2Agent (A2A) protocol to the Linux Foundation, which has now announced a new community-driven project called the Agent2Agent Project. [...]]]></description>
- </item>
-
- <item>
-        <title>SonicWall warns of trojanized NetExtender stealing VPN logins</title>
-        <link>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-trojanized-netextender-stealing-vpn-logins/</link>
-        <pubDate>Tue, 24 Jun 2025 16:36:19 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-trojanized-netextender-stealing-vpn-logins/</guid>
-	<description><![CDATA[SonicWall is warning customers that threat actors are distributing a trojanized version of its NetExtender SSL VPN client used to steal VPN credentials. [...]]]></description>
  </item>
 
 </channel>
