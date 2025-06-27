@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 27 Jun 2025 14:00:54 EDT</pubDate>
+        <pubDate>Fri, 27 Jun 2025 14:58:53 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Scattered Spider hackers shift focus to aviation, transportation firms</title>
+        <link>https://www.bleepingcomputer.com/news/security/scattered-spider-hackers-shift-focus-to-aviation-transportation-firms/</link>
+        <pubDate>Fri, 27 Jun 2025 14:20:58 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/scattered-spider-hackers-shift-focus-to-aviation-transportation-firms/</guid>
+	<description><![CDATA[Hackers associated with Scattered Spider tactics have expanded their targeting to the aviation and transportation industries after previously attacking insurance and retail sectors [...]]]></description>
+ </item>
+
  <item>
         <title>Russia’s throttling of Cloudflare makes sites inaccessible</title>
         <link>https://www.bleepingcomputer.com/news/technology/russias-throttling-of-cloudflare-makes-sites-inaccessible/</link>
@@ -188,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/3-key-takeaways-from-the-scattered-spider-attacks-on-insurance-firms/</guid>
 	<description><![CDATA[Scattered Spider recently pivoted from targeting worldwide retailers to U.S. based insurance firms, with no signs of slowing down. Learn about Scattered Spider TTPs and how to defend your organization against MFA bypass, help desk scams, and more. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft 365 'Direct Send' abused to send phishing as internal users</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-365-direct-send-abused-to-send-phishing-as-internal-users/</link>
-        <pubDate>Thu, 26 Jun 2025 09:00:00 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-365-direct-send-abused-to-send-phishing-as-internal-users/</guid>
-	<description><![CDATA[An ongoing phishing campaign abuses a little‑known feature in Microsoft 365 called "Direct Send" to evade detection by email security and steal credentials. [...]]]></description>
  </item>
 
 </channel>
