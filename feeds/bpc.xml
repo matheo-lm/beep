@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 27 Jun 2025 01:01:42 EDT</pubDate>
+        <pubDate>Fri, 27 Jun 2025 02:03:37 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hawaiian Airlines discloses cyberattack, flights not affected</title>
+        <link>https://www.bleepingcomputer.com/news/security/hawaiian-airlines-discloses-cyberattack-flights-not-affected/</link>
+        <pubDate>Fri, 27 Jun 2025 01:37:04 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hawaiian-airlines-discloses-cyberattack-flights-not-affected/</guid>
+	<description><![CDATA[Hawaiian Airlines, the tenth-largest commercial airline in the United States, is investigating a cyberattack that has disrupted access to some of its systems. [...]]]></description>
+ </item>
+
  <item>
         <title>FTC approves $126 million in Fortnite refunds over ‘dark patterns’</title>
         <link>https://www.bleepingcomputer.com/news/legal/ftc-approves-126-million-in-fortnite-refunds-over-dark-patterns/</link>
@@ -186,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-turn-screenconnect-into-malware-using-authenticode-stuffing/</guid>
 	<description><![CDATA[Threat actors are abusing the ConnectWise ScreenConnect installer to build signed remote access malware by modifying hidden settings within the client's  Authenticode signature. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers abuse Microsoft ClickOnce and AWS services for stealthy attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/oneclik-attacks-use-microsoft-clickonce-and-aws-to-target-energy-sector/</link>
-        <pubDate>Wed, 25 Jun 2025 16:34:38 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/oneclik-attacks-use-microsoft-clickonce-and-aws-to-target-energy-sector/</guid>
-	<description><![CDATA[A sophisticated malicious campaign that researchers call OneClik has been leveraging Microsoft's ClickOnce software deployment tool and custom Golang backdoors to compromise organizations within the energy, oil, and gas sectors. [...]]]></description>
  </item>
 
 </channel>
