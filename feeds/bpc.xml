@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 27 Jun 2025 02:03:37 EDT</pubDate>
+        <pubDate>Fri, 27 Jun 2025 02:58:46 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Whole Foods supplier UNFI restores core systems after cyberattack</title>
+        <link>https://www.bleepingcomputer.com/news/security/whole-foods-supplier-unfi-restores-core-systems-after-cyberattack/</link>
+        <pubDate>Fri, 27 Jun 2025 02:21:49 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/whole-foods-supplier-unfi-restores-core-systems-after-cyberattack/</guid>
+	<description><![CDATA[American grocery wholesale giant United Natural Foods (UNFI) reports that it has restored its core systems and brought online the electronic ordering and invoicing systems affected by a cyberattack. [...]]]></description>
+ </item>
+
  <item>
         <title>Hawaiian Airlines discloses cyberattack, flights not affected</title>
         <link>https://www.bleepingcomputer.com/news/security/hawaiian-airlines-discloses-cyberattack-flights-not-affected/</link>
@@ -186,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/british-hacker-intelbroker-charged-with-25m-in-cybercrime-damages/</guid>
 	<description><![CDATA[A British national known online as "IntelBroker" has been charged by the U.S. for stealing and selling sensitive data from dozens of victims, causing an estimated $25 million in damages. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers turn ScreenConnect into malware using Authenticode stuffing</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-turn-screenconnect-into-malware-using-authenticode-stuffing/</link>
-        <pubDate>Wed, 25 Jun 2025 17:51:46 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-turn-screenconnect-into-malware-using-authenticode-stuffing/</guid>
-	<description><![CDATA[Threat actors are abusing the ConnectWise ScreenConnect installer to build signed remote access malware by modifying hidden settings within the client's  Authenticode signature. [...]]]></description>
  </item>
 
 </channel>
