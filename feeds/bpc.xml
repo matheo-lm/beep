@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 27 Jun 2025 09:59:24 EDT</pubDate>
+        <pubDate>Fri, 27 Jun 2025 11:00:41 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Citrix Bleed 2 flaw now believed to be exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/citrix-bleed-2-flaw-now-believed-to-be-exploited-in-attacks/</link>
+        <pubDate>Fri, 27 Jun 2025 10:18:09 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/citrix-bleed-2-flaw-now-believed-to-be-exploited-in-attacks/</guid>
+	<description><![CDATA[A critical NetScaler ADC and Gateway vulnerability dubbed "Citrix Bleed 2" (CVE-2025-5777) is now likely exploited in attacks, according to cybersecurity firm ReliaQuest, seeing an increase in suspicious sessions on Citrix devices. [...]]]></description>
+ </item>
+
  <item>
         <title>Retail giant Ahold Delhaize says data breach affects 2.2 million people</title>
         <link>https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-says-data-breach-affects-22-million-people/</link>
@@ -172,20 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-365-direct-send-abused-to-send-phishing-as-internal-users/</guid>
 	<description><![CDATA[An ongoing phishing campaign abuses a little‑known feature in Microsoft 365 called "Direct Send" to evade detection by email security and steal credentials. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Outlook bug causing crashes when opening emails</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-bug-causing-crashes-when-opening-emails/</link>
-        <pubDate>Thu, 26 Jun 2025 06:26:17 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-bug-causing-crashes-when-opening-emails/</guid>
-	<description><![CDATA[Microsoft has fixed a known issue that will cause the classic Outlook email client to crash when opening emails or starting a new message. [...]]]></description>
  </item>
 
 </channel>
