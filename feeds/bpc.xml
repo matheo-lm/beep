@@ -11,11 +11,55 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 29 Jun 2025 12:00:14 EDT</pubDate>
+        <pubDate>Sun, 29 Jun 2025 12:58:49 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Bluetooth flaws could let hackers spy through your microphone</title>
+        <link>https://www.bleepingcomputer.com/news/security/bluetooth-flaws-could-let-hackers-spy-through-your-microphone/</link>
+        <pubDate>Sun, 29 Jun 2025 12:03:19 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/bluetooth-flaws-could-let-hackers-spy-through-your-microphone/</guid>
+	<description><![CDATA[Vulnerabilities affecting a Bluetooth chipset present in more than two dozen audio devices from ten vendors can be exploited for eavesdropping or stealing sensitive information. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Cloudflare open-sources Orange Meets with End-to-End encryption</title>
+        <link>https://www.bleepingcomputer.com/news/security/cloudflare-open-sources-orange-meets-with-end-to-end-encryption/</link>
+        <pubDate>Sun, 29 Jun 2025 10:11:21 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-open-sources-orange-meets-with-end-to-end-encryption/</guid>
+	<description><![CDATA[Cloudflare has implemented end-to-end encryption (E2EE) to its video calling app Orange Meets and open-sourced the solution for transparency. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Let’s Encrypt ends certificate expiry emails to cut costs, boost privacy</title>
+        <link>https://www.bleepingcomputer.com/news/security/lets-encrypt-ends-certificate-expiry-emails-to-cut-costs-boost-privacy/</link>
+        <pubDate>Sat, 28 Jun 2025 10:09:19 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/lets-encrypt-ends-certificate-expiry-emails-to-cut-costs-boost-privacy/</guid>
+	<description><![CDATA[Let's Encrypt has announced it will no longer notify users about imminent certificate expirations via email due to high costs, privacy concerns, and unnecessary complexities. [...]]]></description>
+ </item>
+
  <item>
         <title>Scattered Spider hackers shift focus to aviation, transportation firms</title>
         <link>https://www.bleepingcomputer.com/news/security/scattered-spider-hackers-shift-focus-to-aviation-transportation-firms/</link>
@@ -144,64 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/brother-printer-bug-in-689-models-exposes-default-admin-passwords/</guid>
 	<description><![CDATA[A total of 689 printer models from Brother, along with 53 other models from Fujifilm, Toshiba, and Konica Minolta, come with a default administrator password that remote attackers can generate. Even worse, there is no way to fix the flaw via firmware in existing printers. [...]]]></description>
- </item>
-
- <item>
-        <title>Ex-student charged over hacking university for cheap parking, data breaches</title>
-        <link>https://www.bleepingcomputer.com/news/security/ex-student-charged-over-hacking-university-for-cheap-parking-data-breaches/</link>
-        <pubDate>Thu, 26 Jun 2025 12:24:59 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Education]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ex-student-charged-over-hacking-university-for-cheap-parking-data-breaches/</guid>
-	<description><![CDATA[New South Wales police in Australia have arrested a 27-year-old former Western Sydney University (WSU) student for allegedly hacking into the University's systems on multiple occasions, starting with a scheme to obtain cheaper parking. [...]]]></description>
- </item>
-
- <item>
-        <title>Cisco warns of max severity RCE flaws in Identity Services Engine</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-max-severity-rce-flaws-in-identity-services-engine/</link>
-        <pubDate>Thu, 26 Jun 2025 11:20:56 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisco-warns-of-max-severity-rce-flaws-in-identity-services-engine/</guid>
-	<description><![CDATA[Cisco has published a bulletin to warn about two critical, unauthenticated remote code execution (RCE) vulnerabilities affecting Cisco Identity Services Engine (ISE) and the Passive Identity Connector (ISE-PIC). [...]]]></description>
- </item>
-
- <item>
-        <title>Man pleads guilty to hacking networks to pitch security services</title>
-        <link>https://www.bleepingcomputer.com/news/security/man-pleads-guilty-to-hacking-networks-to-pitch-security-services/</link>
-        <pubDate>Thu, 26 Jun 2025 10:03:40 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/man-pleads-guilty-to-hacking-networks-to-pitch-security-services/</guid>
-	<description><![CDATA[A Kansas City man has pleaded guilty to hacking multiple organizations to advertise his cybersecurity services, the U.S. Department of Justice announced on Wednesday. [...]]]></description>
- </item>
-
- <item>
-        <title>3 key takeaways from the Scattered Spider attacks on insurance firms</title>
-        <link>https://www.bleepingcomputer.com/news/security/3-key-takeaways-from-the-scattered-spider-attacks-on-insurance-firms/</link>
-        <pubDate>Thu, 26 Jun 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by Push Security</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/3-key-takeaways-from-the-scattered-spider-attacks-on-insurance-firms/</guid>
-	<description><![CDATA[Scattered Spider recently pivoted from targeting worldwide retailers to U.S. based insurance firms, with no signs of slowing down. Learn about Scattered Spider TTPs and how to defend your organization against MFA bypass, help desk scams, and more. [...]]]></description>
  </item>
 
 </channel>
