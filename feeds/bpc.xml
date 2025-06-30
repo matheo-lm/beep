@@ -11,11 +11,29 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 30 Jun 2025 13:00:08 EDT</pubDate>
+        <pubDate>Mon, 30 Jun 2025 14:03:38 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Germany asks Google, Apple remove DeepSeek AI from app stores</title>
+        <link>https://www.bleepingcomputer.com/news/security/germany-asks-google-apple-remove-deepseek-ai-from-app-stores/</link>
+        <pubDate>Mon, 30 Jun 2025 14:03:31 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/germany-asks-google-apple-remove-deepseek-ai-from-app-stores/</guid>
+	<description><![CDATA[The Berlin Commissioner for Data Protection has formally requested Google and Apple to remove the DeepSeek AI application from the application stores due to GDPR violations. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft Defender for Office 365 now blocks email bombing attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-defender-for-office-365-now-blocks-email-bombing-attacks/</link>
@@ -186,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/lets-encrypt-ends-certificate-expiry-emails-to-cut-costs-boost-privacy/</guid>
 	<description><![CDATA[Let's Encrypt has announced it will no longer notify users about imminent certificate expirations via email due to high costs, privacy concerns, and unnecessary complexities. [...]]]></description>
- </item>
-
- <item>
-        <title>Scattered Spider hackers shift focus to aviation, transportation firms</title>
-        <link>https://www.bleepingcomputer.com/news/security/scattered-spider-hackers-shift-focus-to-aviation-transportation-firms/</link>
-        <pubDate>Fri, 27 Jun 2025 14:20:58 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/scattered-spider-hackers-shift-focus-to-aviation-transportation-firms/</guid>
-	<description><![CDATA[Hackers associated with Scattered Spider tactics have expanded their targeting to the aviation and transportation industries after previously attacking insurance and retail sectors [...]]]></description>
  </item>
 
 </channel>
