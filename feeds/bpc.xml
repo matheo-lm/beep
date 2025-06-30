@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 30 Jun 2025 11:59:53 EDT</pubDate>
+        <pubDate>Mon, 30 Jun 2025 13:00:08 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft Defender for Office 365 now blocks email bombing attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-defender-for-office-365-now-blocks-email-bombing-attacks/</link>
+        <pubDate>Mon, 30 Jun 2025 12:04:20 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-defender-for-office-365-now-blocks-email-bombing-attacks/</guid>
+	<description><![CDATA[Microsoft says its Defender for Office 365 cloud-based email security suite will now automatically detect and block email bombing attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Switzerland says government data stolen in ransomware attack</title>
         <link>https://www.bleepingcomputer.com/news/security/switzerland-says-government-data-stolen-in-ransomware-attack/</link>
@@ -184,22 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/scattered-spider-hackers-shift-focus-to-aviation-transportation-firms/</guid>
 	<description><![CDATA[Hackers associated with Scattered Spider tactics have expanded their targeting to the aviation and transportation industries after previously attacking insurance and retail sectors [...]]]></description>
- </item>
-
- <item>
-        <title>Russia’s throttling of Cloudflare makes sites inaccessible</title>
-        <link>https://www.bleepingcomputer.com/news/technology/russias-throttling-of-cloudflare-makes-sites-inaccessible/</link>
-        <pubDate>Fri, 27 Jun 2025 11:47:15 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Technology]]></category>
-
-        <category><![CDATA[Government]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/technology/russias-throttling-of-cloudflare-makes-sites-inaccessible/</guid>
-	<description><![CDATA[Starting June 9, 2025, Russian internet service providers (ISPs) have begun throttling access to websites and services protected by Cloudflare, an American internet giant. [...]]]></description>
  </item>
 
 </channel>
