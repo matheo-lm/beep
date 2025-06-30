@@ -11,11 +11,45 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 30 Jun 2025 09:12:54 EDT</pubDate>
+        <pubDate>Mon, 30 Jun 2025 10:02:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft warns of Windows update delays due to wrong timestamp</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-Windows-security-update-delays-due-to-incorrect-metadata-timestamp/</link>
+        <pubDate>Mon, 30 Jun 2025 09:48:49 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-Windows-security-update-delays-due-to-incorrect-metadata-timestamp/</guid>
+	<description><![CDATA[Microsoft has confirmed a new known issue causing delivery delays for June 2025 Windows security updates due to an incorrect metadata timestamp. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Europol helps disrupt $540 million crypto investment fraud ring</title>
+        <link>https://www.bleepingcomputer.com/news/security/europol-helps-disrupt-540-million-crypto-investment-fraud-ring/</link>
+        <pubDate>Mon, 30 Jun 2025 09:20:58 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/europol-helps-disrupt-540-million-crypto-investment-fraud-ring/</guid>
+	<description><![CDATA[Spanish authorities have arrested five individuals in Madrid and the Canary Islands, suspected of laundering $540 million (€460 million) from illegal cryptocurrency investment schemes and defrauding more than 5,000 victims. [...]]]></description>
+ </item>
+
  <item>
         <title>FBI: Cybercriminals steal health data posing as fraud investigators</title>
         <link>https://www.bleepingcomputer.com/news/security/fbi-warns-cybercriminals-steal-health-data-posing-as-fraud-investigators/</link>
@@ -148,34 +182,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/citrix-bleed-2-flaw-now-believed-to-be-exploited-in-attacks/</guid>
 	<description><![CDATA[A critical NetScaler ADC and Gateway vulnerability dubbed "Citrix Bleed 2" (CVE-2025-5777) is now likely exploited in attacks, according to cybersecurity firm ReliaQuest, seeing an increase in suspicious sessions on Citrix devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Retail giant Ahold Delhaize says data breach affects 2.2 million people</title>
-        <link>https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-says-data-breach-affects-22-million-people/</link>
-        <pubDate>Fri, 27 Jun 2025 05:12:43 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-says-data-breach-affects-22-million-people/</guid>
-	<description><![CDATA[Ahold Delhaize, one of the world's largest food retail chains, is notifying over 2.2 million individuals that their personal, financial, and health information was stolen in a November ransomware attack that impacted its U.S. systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 KB5060829 update released with 38 new changes, fixes</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5060829-update-released-with-38-new-changes-fixes/</link>
-        <pubDate>Fri, 27 Jun 2025 03:28:59 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5060829-update-released-with-38-new-changes-fixes/</guid>
-	<description><![CDATA[​​Microsoft has released the KB5060829 preview cumulative update for Windows 11 24H2, which includes 38 changes, including improvements to the taskbar and a new PC-to-PC migration experience. [...]]]></description>
  </item>
 
 </channel>
