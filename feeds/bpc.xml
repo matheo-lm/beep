@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 30 Jun 2025 07:01:39 EDT</pubDate>
+        <pubDate>Mon, 30 Jun 2025 08:02:56 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Over 1,200 Citrix servers unpatched against critical auth bypass flaw</title>
+        <link>https://www.bleepingcomputer.com/news/security/over-1-200-citrix-servers-unpatched-against-critical-auth-bypass-flaw/</link>
+        <pubDate>Mon, 30 Jun 2025 07:47:38 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/over-1-200-citrix-servers-unpatched-against-critical-auth-bypass-flaw/</guid>
+	<description><![CDATA[Over 1,200 Citrix NetScaler ADC and NetScaler Gateway appliances exposed online are unpatched against a critical vulnerability believed to be actively exploited, allowing threat actors to bypass authentication by hijacking user sessions. [...]]]></description>
+ </item>
+
  <item>
         <title>Google rolls out Veo 3 video generator, try it for free using credits</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-rolls-out-veo-3-video-generator-try-it-for-free-using-credits/</link>
@@ -160,36 +174,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/whole-foods-supplier-unfi-restores-core-systems-after-cyberattack/</guid>
 	<description><![CDATA[American grocery wholesale giant United Natural Foods (UNFI) reports that it has restored its core systems and brought online the electronic ordering and invoicing systems affected by a cyberattack. [...]]]></description>
- </item>
-
- <item>
-        <title>Hawaiian Airlines discloses cyberattack, flights not affected</title>
-        <link>https://www.bleepingcomputer.com/news/security/hawaiian-airlines-discloses-cyberattack-flights-not-affected/</link>
-        <pubDate>Fri, 27 Jun 2025 01:37:04 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hawaiian-airlines-discloses-cyberattack-flights-not-affected/</guid>
-	<description><![CDATA[Hawaiian Airlines, the tenth-largest commercial airline in the United States, is investigating a cyberattack that has disrupted access to some of its systems. [...]]]></description>
- </item>
-
- <item>
-        <title>FTC approves $126 million in Fortnite refunds over ‘dark patterns’</title>
-        <link>https://www.bleepingcomputer.com/news/legal/ftc-approves-126-million-in-fortnite-refunds-over-dark-patterns/</link>
-        <pubDate>Thu, 26 Jun 2025 16:27:08 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Legal]]></category>
-
-        <category><![CDATA[Gaming]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/legal/ftc-approves-126-million-in-fortnite-refunds-over-dark-patterns/</guid>
-	<description><![CDATA[The Federal Trade Commission (FTC) has approved $126,000,000 in refunds to be sent to 969,173 Fortnite players as part of a settlement over allegations that Epic Games tricked users into making unwanted purchases. [...]]]></description>
  </item>
 
 </channel>
