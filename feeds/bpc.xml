@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 30 Jun 2025 08:02:56 EDT</pubDate>
+        <pubDate>Mon, 30 Jun 2025 09:12:54 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FBI: Cybercriminals steal health data posing as fraud investigators</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-warns-cybercriminals-steal-health-data-posing-as-fraud-investigators/</link>
+        <pubDate>Mon, 30 Jun 2025 08:42:01 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-warns-cybercriminals-steal-health-data-posing-as-fraud-investigators/</guid>
+	<description><![CDATA[The Federal Bureau of Investigation (FBI) has warned Americans of cybercriminals impersonating health fraud investigators to steal their sensitive information. [...]]]></description>
+ </item>
+
  <item>
         <title>Over 1,200 Citrix servers unpatched against critical auth bypass flaw</title>
         <link>https://www.bleepingcomputer.com/news/security/over-1-200-citrix-servers-unpatched-against-critical-auth-bypass-flaw/</link>
@@ -160,20 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5060829-update-released-with-38-new-changes-fixes/</guid>
 	<description><![CDATA[​​Microsoft has released the KB5060829 preview cumulative update for Windows 11 24H2, which includes 38 changes, including improvements to the taskbar and a new PC-to-PC migration experience. [...]]]></description>
- </item>
-
- <item>
-        <title>Whole Foods supplier UNFI restores core systems after cyberattack</title>
-        <link>https://www.bleepingcomputer.com/news/security/whole-foods-supplier-unfi-restores-core-systems-after-cyberattack/</link>
-        <pubDate>Fri, 27 Jun 2025 02:21:49 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/whole-foods-supplier-unfi-restores-core-systems-after-cyberattack/</guid>
-	<description><![CDATA[American grocery wholesale giant United Natural Foods (UNFI) reports that it has restored its core systems and brought online the electronic ordering and invoicing systems affected by a cyberattack. [...]]]></description>
  </item>
 
 </channel>
