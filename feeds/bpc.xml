@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 29 Jun 2025 19:00:21 EDT</pubDate>
+        <pubDate>Sun, 29 Jun 2025 20:14:36 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google rolls out Veo 3 video generator, try it for free using credits</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-rolls-out-veo-3-video-generator-try-it-for-free-using-credits/</link>
+        <pubDate>Sun, 29 Jun 2025 19:38:30 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/google-rolls-out-veo-3-video-generator-try-it-for-free-using-credits/</guid>
+	<description><![CDATA[Google is rolling out Veo 3 to everyone using Vertex AI, which is an ML-testing platform provided by Google Cloud. [...]]]></description>
+ </item>
+
  <item>
         <title>Bluetooth flaws could let hackers spy through your microphone</title>
         <link>https://www.bleepingcomputer.com/news/security/bluetooth-flaws-could-let-hackers-spy-through-your-microphone/</link>
@@ -174,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/legal/ftc-approves-126-million-in-fortnite-refunds-over-dark-patterns/</guid>
 	<description><![CDATA[The Federal Trade Commission (FTC) has approved $126,000,000 in refunds to be sent to 969,173 Fortnite players as part of a settlement over allegations that Epic Games tricked users into making unwanted purchases. [...]]]></description>
- </item>
-
- <item>
-        <title>Brother printer bug in 689 models exposes default admin passwords</title>
-        <link>https://www.bleepingcomputer.com/news/security/brother-printer-bug-in-689-models-exposes-default-admin-passwords/</link>
-        <pubDate>Thu, 26 Jun 2025 14:10:25 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/brother-printer-bug-in-689-models-exposes-default-admin-passwords/</guid>
-	<description><![CDATA[A total of 689 printer models from Brother, along with 53 other models from Fujifilm, Toshiba, and Konica Minolta, come with a default administrator password that remote attackers can generate. Even worse, there is no way to fix the flaw via firmware in existing printers. [...]]]></description>
  </item>
 
 </channel>
