@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 01 Jul 2025 16:02:15 EDT</pubDate>
+        <pubDate>Tue, 01 Jul 2025 16:58:23 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>AT&amp;T rolls out "Wireless Lock" feature to block SIM swap attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/atandt-rolls-out-wireless-lock-feature-to-block-sim-swap-attacks/</link>
+        <pubDate>Tue, 01 Jul 2025 16:23:03 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/atandt-rolls-out-wireless-lock-feature-to-block-sim-swap-attacks/</guid>
+	<description><![CDATA[AT&T has launched a new security feature called "Wireless Lock" that protects customers from SIM swapping attacks by preventing changes to their account information and the porting of phone numbers while the feature is enabled. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft open-sources VS Code Copilot Chat extension on GitHub</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-open-sources-vs-code-copilot-chat-extension-on-github/</link>
@@ -198,22 +214,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-defender-for-office-365-now-blocks-email-bombing-attacks/</guid>
 	<description><![CDATA[Microsoft says its Defender for Office 365 cloud-based email security suite will now automatically detect and block email bombing attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Switzerland says government data stolen in ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/switzerland-says-government-data-stolen-in-ransomware-attack/</link>
-        <pubDate>Mon, 30 Jun 2025 11:39:42 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Government]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/switzerland-says-government-data-stolen-in-ransomware-attack/</guid>
-	<description><![CDATA[The government in Switzerland is informing that sensitive information from various federal offices has been impacted by a ransomware attack at the third-party organization Radix. [...]]]></description>
  </item>
 
 </channel>
