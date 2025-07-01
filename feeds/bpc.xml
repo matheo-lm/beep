@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 01 Jul 2025 06:03:00 EDT</pubDate>
+        <pubDate>Tue, 01 Jul 2025 06:59:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google fixes fourth actively exploited Chrome zero-day of 2025</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-fixes-fourth-actively-exploited-chrome-zero-day-of-2025/</link>
+        <pubDate>Tue, 01 Jul 2025 06:59:51 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-fixes-fourth-actively-exploited-chrome-zero-day-of-2025/</guid>
+	<description><![CDATA[Google has released emergency updates to patch another Chrome zero-day vulnerability exploited in attacks, marking the fourth such flaw fixed since the start of the year. [...]]]></description>
+ </item>
+
  <item>
         <title>U.S. warns of Iranian cyber threats on critical infrastructure</title>
         <link>https://www.bleepingcomputer.com/news/security/us-warns-of-iranian-cyber-threats-on-critical-infrastructure/</link>
@@ -204,20 +220,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cloudflare-open-sources-orange-meets-with-end-to-end-encryption/</guid>
 	<description><![CDATA[Cloudflare has implemented end-to-end encryption (E2EE) to its video calling app Orange Meets and open-sourced the solution for transparency. [...]]]></description>
- </item>
-
- <item>
-        <title>Let’s Encrypt ends certificate expiry emails to cut costs, boost privacy</title>
-        <link>https://www.bleepingcomputer.com/news/security/lets-encrypt-ends-certificate-expiry-emails-to-cut-costs-boost-privacy/</link>
-        <pubDate>Sat, 28 Jun 2025 10:09:19 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/lets-encrypt-ends-certificate-expiry-emails-to-cut-costs-boost-privacy/</guid>
-	<description><![CDATA[Let's Encrypt has announced it will no longer notify users about imminent certificate expirations via email due to high costs, privacy concerns, and unnecessary complexities. [...]]]></description>
  </item>
 
 </channel>
