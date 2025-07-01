@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 01 Jul 2025 08:02:36 EDT</pubDate>
+        <pubDate>Tue, 01 Jul 2025 09:09:36 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Esse Health says recent data breach affects over 263,000 patients</title>
+        <link>https://www.bleepingcomputer.com/news/security/esse-health-says-recent-data-breach-affects-over-263-000-patients/</link>
+        <pubDate>Tue, 01 Jul 2025 09:04:29 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Healthcare]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/esse-health-says-recent-data-breach-affects-over-263-000-patients/</guid>
+	<description><![CDATA[Esse Health, a healthcare provider based in St. Louis, Missouri, is notifying over 263,000 patients that their personal and health information was stolen in an April cyberattack. [...]]]></description>
+ </item>
+
  <item>
         <title>Johnson Controls starts notifying people affected by 2023 breach</title>
         <link>https://www.bleepingcomputer.com/news/security/johnson-controls-starts-notifying-people-affected-by-2023-breach/</link>
@@ -204,20 +220,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/google-rolls-out-veo-3-video-generator-try-it-for-free-using-credits/</guid>
 	<description><![CDATA[Google is rolling out Veo 3 to everyone using Vertex AI, which is an ML-testing platform provided by Google Cloud. [...]]]></description>
- </item>
-
- <item>
-        <title>Bluetooth flaws could let hackers spy through your microphone</title>
-        <link>https://www.bleepingcomputer.com/news/security/bluetooth-flaws-could-let-hackers-spy-through-your-microphone/</link>
-        <pubDate>Sun, 29 Jun 2025 12:03:19 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/bluetooth-flaws-could-let-hackers-spy-through-your-microphone/</guid>
-	<description><![CDATA[Vulnerabilities affecting a Bluetooth chipset present in more than two dozen audio devices from ten vendors can be exploited for eavesdropping or stealing sensitive information. [...]]]></description>
  </item>
 
 </channel>
