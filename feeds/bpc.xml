@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 01 Jul 2025 15:00:21 EDT</pubDate>
+        <pubDate>Tue, 01 Jul 2025 16:02:15 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft open-sources VS Code Copilot Chat extension on GitHub</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-open-sources-vs-code-copilot-chat-extension-on-github/</link>
+        <pubDate>Tue, 01 Jul 2025 15:11:26 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-open-sources-vs-code-copilot-chat-extension-on-github/</guid>
+	<description><![CDATA[Microsoft has released the source code for the GitHub Copilot Chat extension for VS Code under the MIT license. [...]]]></description>
+ </item>
+
  <item>
         <title>Kelly Benefits says 2024 data breach impacts 550,000 customers</title>
         <link>https://www.bleepingcomputer.com/news/security/kelly-benefits-says-2024-data-breach-impacts-550-000-customers/</link>
@@ -198,38 +214,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/switzerland-says-government-data-stolen-in-ransomware-attack/</guid>
 	<description><![CDATA[The government in Switzerland is informing that sensitive information from various federal offices has been impacted by a ransomware attack at the third-party organization Radix. [...]]]></description>
- </item>
-
- <item>
-        <title>Hikvision Canada ordered to cease operations over security risks</title>
-        <link>https://www.bleepingcomputer.com/news/security/hikvision-canada-ordered-to-cease-operations-over-security-risks/</link>
-        <pubDate>Mon, 30 Jun 2025 10:11:17 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hikvision-canada-ordered-to-cease-operations-over-security-risks/</guid>
-	<description><![CDATA[The Canadian government has ordered Hikvision's subsidiary in the country to cease all operations following a review that determined them to pose a national security risk. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft warns of Windows update delays due to wrong timestamp</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-Windows-security-update-delays-due-to-incorrect-metadata-timestamp/</link>
-        <pubDate>Mon, 30 Jun 2025 09:48:49 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-Windows-security-update-delays-due-to-incorrect-metadata-timestamp/</guid>
-	<description><![CDATA[Microsoft has confirmed a new known issue causing delivery delays for June 2025 Windows security updates due to an incorrect metadata timestamp. [...]]]></description>
  </item>
 
 </channel>
