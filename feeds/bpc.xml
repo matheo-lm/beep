@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 01 Jul 2025 12:03:45 EDT</pubDate>
+        <pubDate>Tue, 01 Jul 2025 13:03:31 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New FileFix attack runs JScript while bypassing Windows MoTW alerts</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-filefix-attack-runs-jscript-while-bypassing-windows-motw-alerts/</link>
+        <pubDate>Tue, 01 Jul 2025 12:37:46 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-filefix-attack-runs-jscript-while-bypassing-windows-motw-alerts/</guid>
+	<description><![CDATA[A new FileFix attack allows executing malicious scripts while bypassing the Mark of the Web (MoTW) protection in Windows by exploiting how browsers handle saved HTML webpages. [...]]]></description>
+ </item>
+
  <item>
         <title>International Criminal Court hit by new 'sophisticated' cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/international-criminal-court-hit-by-new-sophisticated-cyberattack/</link>
@@ -222,20 +236,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fbi-warns-cybercriminals-steal-health-data-posing-as-fraud-investigators/</guid>
 	<description><![CDATA[The Federal Bureau of Investigation (FBI) has warned Americans of cybercriminals impersonating health fraud investigators to steal their sensitive information. [...]]]></description>
- </item>
-
- <item>
-        <title>Over 1,200 Citrix servers unpatched against critical auth bypass flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/over-1-200-citrix-servers-unpatched-against-critical-auth-bypass-flaw/</link>
-        <pubDate>Mon, 30 Jun 2025 07:47:38 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/over-1-200-citrix-servers-unpatched-against-critical-auth-bypass-flaw/</guid>
-	<description><![CDATA[Over 1,200 Citrix NetScaler ADC and NetScaler Gateway appliances exposed online are unpatched against a critical vulnerability believed to be actively exploited, allowing threat actors to bypass authentication by hijacking user sessions. [...]]]></description>
  </item>
 
 </channel>
