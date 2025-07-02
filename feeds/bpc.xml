@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 02 Jul 2025 15:00:38 EDT</pubDate>
+        <pubDate>Wed, 02 Jul 2025 16:01:44 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>NimDoor crypto-theft macOS malware revives itself when killed</title>
+        <link>https://www.bleepingcomputer.com/news/security/nimdoor-crypto-theft-macos-malware-revives-itself-when-killed/</link>
+        <pubDate>Wed, 02 Jul 2025 15:36:27 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/nimdoor-crypto-theft-macos-malware-revives-itself-when-killed/</guid>
+	<description><![CDATA[North Korean state-backed hackers have been using a new family of macOS malware called NimDoor in a campaign that targets web3 and cryptocurrency organizations. [...]]]></description>
+ </item>
+
+ <item>
+        <title>DOJ investigates ex-ransomware negotiator over extortion kickbacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/doj-investigates-ex-ransomware-negotiator-over-extortion-kickbacks/</link>
+        <pubDate>Wed, 02 Jul 2025 15:14:41 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/doj-investigates-ex-ransomware-negotiator-over-extortion-kickbacks/</guid>
+	<description><![CDATA[An ex-ransomware negotiator is under criminal investigation by the Department of Justice for allegedly working with ransomware gangs to profit from extortion payment deals. [...]]]></description>
+ </item>
+
  <item>
         <title>Spain arrests hackers who targeted politicians and journalists</title>
         <link>https://www.bleepingcomputer.com/news/security/spain-arrests-hackers-who-targeted-politicians-and-journalists/</link>
@@ -178,34 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-open-sources-vs-code-copilot-chat-extension-on-github/</guid>
 	<description><![CDATA[Microsoft has released the source code for the GitHub Copilot Chat extension for VS Code under the MIT license. [...]]]></description>
- </item>
-
- <item>
-        <title>Kelly Benefits says 2024 data breach impacts 550,000 customers</title>
-        <link>https://www.bleepingcomputer.com/news/security/kelly-benefits-says-2024-data-breach-impacts-550-000-customers/</link>
-        <pubDate>Tue, 01 Jul 2025 13:28:39 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/kelly-benefits-says-2024-data-breach-impacts-550-000-customers/</guid>
-	<description><![CDATA[Kelly & Associates Insurance Group (dba Kelly Benefits) is informing more than half a million people of a data breach that compromised their personal information. [...]]]></description>
- </item>
-
- <item>
-        <title>Aeza Group sanctioned for hosting ransomware, infostealer servers</title>
-        <link>https://www.bleepingcomputer.com/news/security/aeza-group-sanctioned-for-hosting-ransomware-infostealer-servers/</link>
-        <pubDate>Tue, 01 Jul 2025 13:09:11 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/aeza-group-sanctioned-for-hosting-ransomware-infostealer-servers/</guid>
-	<description><![CDATA[The U.S. Department of the Treasury has sanctioned Russian hosting company Aeza Group and four operators for allegedly acting as a bulletproof hosting company for ransomware gangs, infostealer operations, darknet drug markets, and Russian disinformation campaigns. [...]]]></description>
  </item>
 
 </channel>
