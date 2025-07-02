@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Wed, 02 Jul 2025 13:48:20 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Jul 2025 14:50:27 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -175,7 +175,7 @@ serverUrl="https[:]//dataupload[.]store/uploadfiles"
 <h2>Technical Analysis of installer, GoogIe LLC, and CoreKitAgent</h2>
 <h3>Installer</h3>
 <p>The second part of the attack chain begins with the <code>installer</code> binary dropped alongside <code>a</code> by the initial access scripts. Compiled from Nim and weighing in at ~233KB, the <code>installer</code> binary is a universal architecture Mach-O with an <i>ad hoc</i> signature and the identifier <code>user_startup_installer_arm64</code>.</p>
-<p>The <code>installer</code> binary checks for the existence of a LaunchAgent at <code>[~]/Library/LaunchAgents/com.google.update.plist</code> and creates folder paths at <code>[~]//Library/CoreKit/</code> and  <code>[~]//Library/Application Support/GoogIe LLC/</code> for use by the later stages described in the following sections.</p>
+<p>The <code>installer</code> binary checks for the existence of a LaunchAgent at <code>[~]/Library/LaunchAgents/com.google.update.plist</code> and creates folder paths at <code>[~]/Library/CoreKit/</code> and  <code>[~]/Library/Application Support/GoogIe LLC/</code> for use by the later stages described in the following sections.</p>
 <figure id="attachment_125003" aria-describedby="caption-attachment-125003" style="width: 1440px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_3.jpg" alt="The installer binary prepares the file paths for later stages" width="1440" height="202" class="size-full wp-image-125003" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_3.jpg 1440w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_3-300x42.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_3-1024x144.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_3-768x108.jpg 768w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /><figcaption id="caption-attachment-125003" class="wp-caption-text">The <em>installer</em> binary prepares the file paths for later stages</figcaption></figure>
 <p>The misspelling of <code>GoogIe LLC</code> (uppercase &#8216;i&#8217;, not lowercase &#8216;L&#8217;) is intended to help the malware blend in and avoid suspicion.</p>
 <p>An interesting feature of this and the other compiled Nim binaries is the existence of code that at first blush could be mistaken for C2 command options.</p>
