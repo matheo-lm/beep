@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Mon, 09 Jun 2025 08:11:37 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Jul 2025 01:45:45 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,376 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>macOS NimDoor &#124; DPRK Threat Actors Target Web3 and Crypto Platforms with Nim-Based Malware</title>
+		<link>https://www.sentinelone.com/labs/macos-nimdoor-dprk-threat-actors-target-web3-and-crypto-platforms-with-nim-based-malware/</link>
+		
+		<dc:creator><![CDATA[Phil Stokes &amp; Raffaele Sabato]]></dc:creator>
+		<pubDate>Wed, 02 Jul 2025 09:55:37 +0000</pubDate>
+				<category><![CDATA[DPRK]]></category>
+		<category><![CDATA[macOS]]></category>
+		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=124926</guid>
+
+					<description><![CDATA[NimDoor shows how threat actors are continuing to explore cross-platform languages that introduce new levels of complexity for analysts.]]></description>
+										<content:encoded><![CDATA[<h2>Executive Summary</h2>
+<ul>
+<li aria-level="1">DPRK threat actors are utilizing Nim-compiled binaries and multiple attack chains in a campaign targeting Web3 and Crypto-related businesses.</li>
+<li aria-level="1">Unusually for macOS malware, the threat actors employ a process injection technique and remote communications via <code>wss</code>, the TLS-encrypted version of the WebSocket protocol.</li>
+<li aria-level="1"> A novel persistence mechanism takes advantage of SIGINT/SIGTERM signal handlers to install persistence when the malware is terminated or the system rebooted.</li>
+<li aria-level="1">The threat actors deploy AppleScripts widely, both to gain initial access and also later in the attack chain to function as lightweight beacons and backdoors.</li>
+<li aria-level="1">Bash scripts are used to exfiltrate Keychain credentials, browser data and Telegram user data.</li>
+<li aria-level="1">SentinelLABS&#8217; analysis highlights novel TTPs and malware artifacts that tie together previously reported components, extending our understanding of the threat actors&#8217; evolving playbook.</li>
+</ul>
+<p>In April 2025, <a href="https://huntability.tech/threat-note-2025-04-23-nk-zoom/" target="_blank" rel="noopener noreferrer">Huntabil.IT</a> observed a targeted attack on a Web3 startup, attributing the incident to a DPRK threat actor group. Several reports on social media at the time described similar incidents at other Web3 and Crypto organizations. Analysis revealed an attack chain consisting of an eclectic mix of scripts and binaries written in AppleScript, C++ and Nim. Although the early stages of the attack follow a familiar DPRK pattern using social engineering, lure scripts and fake updates, the use of Nim-compiled binaries on macOS is a more unusual choice. A report by <a href="https://www.huntress.com/blog/inside-bluenoroff-web3-intrusion-analysis" target="_blank" rel="noopener noreferrer">Huntress</a> in mid-June described a similar initial attack chain as observed by Huntabil.IT, albeit using different later stage payloads.</p>
+<p>SentinelLABS&#8217; analysis of the payloads used in the April incidents shows the Nim stages contain some unique features including encrypted configuration handling, asynchronous execution built around Nim&#8217;s native runtime, and a signal-based persistence mechanism previously unseen in macOS malware.</p>
+<p>In this post, we provide an overview of the attack chain and a technical analysis of the C++ and Nim-based components. We refer to this family of malware collectively as NimDoor, based on its functionality and development traits. Indicators of compromise and insights into the malware&#8217;s architecture are provided to aid defenders and threat hunters in identifying related activity.</p>
+<h2>Initial Access and Payload Delivery</h2>
+<p>The attack chain begins with a now-familiar social engineering vector: impersonation of a trusted contact over Telegram and inviting the target to schedule a meeting via Calendly. The target is subsequently sent an email containing a Zoom meeting link and instructions to run a so-called &#8220;Zoom SDK update script&#8221;.</p>
+<p>An attacker-controlled domain hosts an AppleScript file named <code>zoom_sdk_support.scpt</code>. Variants of this script can be found in public malware repositories through the seemingly unintentional typo in a code comment: <code>- - Zook SDK Update</code> instead of <code>- - Zoom SDK Update</code>. The file is heavily padded, containing 10,000 lines of whitespace to obfuscate its true function.</p>
+<figure id="attachment_124992" aria-describedby="caption-attachment-124992" style="width: 1918px" class="wp-caption aligncenter"><img fetchpriority="high" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_14.jpg" alt="The zoom_sdk_support.scpt is padded with 10k lines of whitespace; note the typo ‘Zook’ and the scroll bar, top right" width="1918" height="1148" class="size-full wp-image-124992" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_14.jpg 1918w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_14-300x180.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_14-1024x613.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_14-768x460.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_14-1536x919.jpg 1536w" sizes="(max-width: 1918px) 100vw, 1918px" /><figcaption id="caption-attachment-124992" class="wp-caption-text">The <em>zoom_sdk_support.scpt</em> is padded with 10k lines of whitespace; note the typo ‘Zook’ and the scroll bar, top right</figcaption></figure>
+<p>The script ends with three lines of malicious code that retrieve and execute a second-stage script from a command-and-control server hosted at <code>support.us05web-zoom[.]forum</code>. This domain name format has been chosen for similarity to the legitimate Zoom meeting domain <code>us05web.zoom[.]us</code>.</p>
+<p>Our analysis found a number of parallel domains in use by the same actor.</p>
+<pre>
+support.us05web-zoom[.]pro
+support.us05web-zoom[.]forum
+support.us05web-zoom[.]cloud
+support.us06web-zoom[.]online
+</pre>
+<figure id="attachment_125004" aria-describedby="caption-attachment-125004" style="width: 1436px" class="wp-caption aligncenter"><img decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_1.jpg" alt="Other examples found in public repositories suggest a wider campaign, possibly with unique URLs for each target" width="1436" height="802" class="size-full wp-image-125004" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_1.jpg 1436w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_1-300x168.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_1-1024x572.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_1-768x429.jpg 768w" sizes="(max-width: 1436px) 100vw, 1436px" /><figcaption id="caption-attachment-125004" class="wp-caption-text">Other examples found in public repositories suggest a wider campaign, possibly with unique URLs for each target</figcaption></figure>
+<p>The follow-on script downloads an HTML file named <code>check</code>, which includes a legitimate Zoom redirect link.</p>
+<pre>
+&lt;a ref="https://us05web.zoom[.]us/j/4724012536?pwd=ADlAXdxkUclRhvYoJbpKQmizkQ1RV4.1">Temporary Redirect&lt;/a>
+</pre>
+<p>This HTML file is passed to <code>curl</code> and executed via <code>run script</code>, ultimately launching the attack&#8217;s core logic.</p>
+<p>Researchers at <a href="https://www.validin.com/blog/zooming_through_bluenoroff_pivots/" target="_blank" rel="noopener noreferrer">Validin</a> have also recently published extended indicators around this and associated infrastructure. The posts by Huntabil.IT and Huntress mentioned earlier describe much the same initial attack chain. However, the second part of the attack chain is where things begin to get both different and increasingly complex.</p>
+<h2>Execution Chain and File Deployment</h2>
+<p>The multi-staged infection process Huntabil.IT observed resulted in the download of two Mach-O binaries—<code>a</code> and <code>installer</code>—into <code>/private/var/tmp</code>. These two binaries set off two independent execution chains.</p>
+<p>In the first, the <code>a</code> binary is a C++-compiled universal architecture Mach-O executable. It writes an encrypted embedded payload called <code>netchk</code> to disk. The execution from here involves a complex chain of obfuscation and distraction which we describe in the following section. Ultimately, the aim is to fetch two Bash scripts used for data exfiltration. These include mechanisms for scraping general system data as well as application-specific data like browser data and Telegram chat histories. All operations are staged from a folder created at <code>~/Library/DnsService</code>.</p>
+<p>The second execution chain starts with the <code>installer</code> binary, which is also a universal Mach-O executable compiled from Nim source code, and is responsible for persistence setup. It drops two additional Nim-compiled binaries: <code>GoogIe LLC</code> (where &#8220;GoogIe&#8221; is spelled using a deceptive capital &#8220;i&#8221; rather than a lowercase &#8216;L&#8217;) and <code>CoreKitAgent</code>. These payloads orchestrate long-term access and recovery mechanisms for the threat actor.</p>
+<h2>Technical Analysis of a, netchk and trojan1_arm64</h2>
+<p>Both Huntabil.IT and Huntress describe use of a C++-compiled binary with the name <code>a</code> being deposited as a result of initial infection through the fake Zoom update scripts described earlier.</p>
+<p>The <code>a</code> binary is <i>ad hoc</i> signed and carries the identifier <code>InjectWithDyldArm64</code>. As reported by previous researchers, it can take a command line argument <code>--d</code>, which results in the deletion of <code>a</code>&#8216;s current working directory, or a file name and password. In the Huntabil.IT post, this was reported as:</p>
+<pre>
+./a ./netchk gift123$%^
+</pre>
+<p>The <code>InjectWithDyldArm64</code> (<i>aka</i> <code>a</code>) binary uses Password-Based Key Derivation Function 2 (<a href="https://en.wikipedia.org/wiki/PBKDF2" target="_blank" rel="noopener noreferrer">PBKDF2</a>) with HMAC-SHA-256 to derive a 32-byte key from the password <code>gift123$%^</code>, using 10000 iterations and a salt consisting of the first sixteen characters of the embedded base64 string.</p>
+<p>The derived key and the base64 decoded encrypted data are passed to the <code>AesEncrypt</code> function, which iterates through 16 byte blocks of the encrypted data. On each iteration it:</p>
+<ul>
+<li aria-level="1">calls <code>AesTrans</code>, a wrapper for <a href="https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man3/CCCrypt.3cc.html" target="_blank" rel="noopener noreferrer">CCCrypt</a>, to perform an AES encryption in CBC mode with the derived key and a zero-filled initialization vector. In the first iteration the data to be encrypted is the key itself, but in subsequent iterations the input data is taken from the previous <code>AesTrans</code> call.</li>
+<li aria-level="1">XORs the current encrypted data block with the current <code>AesTrans</code> result.</li>
+</ul>
+<figure id="attachment_124995" aria-describedby="caption-attachment-124995" style="width: 1494px" class="wp-caption aligncenter"><img decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_11.jpg" alt="The AesTrans function is a wrapper of CCCrypt" width="1494" height="628" class="size-full wp-image-124995" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_11.jpg 1494w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_11-300x126.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_11-1024x430.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_11-768x323.jpg 768w" sizes="(max-width: 1494px) 100vw, 1494px" /><figcaption id="caption-attachment-124995" class="wp-caption-text">The <em>AesTrans</em> function is a wrapper of <em>CCCrypt</em></figcaption></figure>
+<p>SentinelLABS&#8217; analysis shows that this process is used to decrypt two embedded binaries. The first carries an <i>ad hoc</i> signature and the identifier <code>Target</code>. The second has an <i>ad hoc</i> signature with the identifier <code>trojan1_arm64</code>. The <code>Target</code> binary is benign and appears to do nothing other than generate random numbers.</p>
+<p>However, <code>Target</code> is spawned by <code>InjectWithDyldArm64</code> in a suspended state via</p>
+<pre>
+posix_spawnattr_init(&amp;attrp) &amp;&amp; !posix_spawnattr_setflags(&amp;attrp, POSIX_SPAWN_START_SUSPENDED)
+posix_spawn(&amp;pid, filename, 0, &amp;attrp, argv_1, environ)
+</pre>
+<p>and injected with the <code>trojan1_arm64</code> binary&#8217;s code. After injection, the suspended <code>Target</code> process is resumed via</p>
+<pre>
+kill(pid, SIGCONT)
+</pre>
+<p>and the code from the <code>trojan1_arm64</code> binary is executed.</p>
+<p>This kind of process injection technique is rare in macOS malware and requires specific entitlements to be performed; in this case, the <code>InjectWithDyldArm64</code> binary has the following entitlements to allow the injection:</p>
+<pre>
+com.apple.security.cs.debugger
+com.apple.security.get-task-allow
+</pre>
+<p>After first negotiating an HTTP handshake, the injected code uses <code>wss</code> to communicate with the C2 &#8211; another uncommon technique for macOS malware &#8211; at <code>wss://firstfromsep[.]online/client</code>.</p>
+<p>The malware uses multiple levels of RC4 encryption in combination with the base64 encoding and three different keys before the communication.</p>
+<p>Our analysis found that the communication messages from the C2 use a JSON format of <code>{"name":"","payload":"","target":""}</code>. The name field takes the value <code>auth</code> or <code>message</code>.</p>
+<p>When the <code>auth</code> value is used, the <code>payload</code> field has the JSON structure <code>{"uid":"","cipher":""}</code>, where the <code>uid</code> field contains a generated uid value and the <code>cipher</code> field contains the uid value encrypted using the key <code>Ej7bx@YRG2uUhya#50Yt*ao</code> and then encoded in base64. We suspect the <code>target</code> field is used for the victim identifier.</p>
+<p>When the <code>message</code> value is used, the <code>payload</code> field value is encrypted using the key <code>3LZu5H$yF^FSwPu3SqbL*sK</code>. The payload has the JSON structure <code>{"cmd":, "data":""}</code> where the <code>cmd</code> field contains an <b>int</b> value for the command to be executed. Available commands we were able to identify in <code>trojan1_arm64</code> were as follows:</p>
+<div style="overflow-x:auto;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 24px;">
+<td style="width: 25%; height: 24px;"><strong>Command</strong></td>
+<td style="width: 10%; height: 24px;"><strong>Code</strong></td>
+<td style="width: 65%; height: 24px;"><strong>Function</strong></td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 25%; height: 24px;">execCmd </td>
+<td style="width: 10%; height: 24px;">12 </td>
+<td style="width: 65%; height: 24px;">Execute the arbitrary command provided in the <code>data</code> field.</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 25%; height: 24px;">setCwd </td>
+<td style="width: 10%; height: 24px;">34 </td>
+<td style="width: 65%; height: 24px;">Change the Current Working Directory to the one given in the <code>data</code> field.</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 25%; height: 24px;">getCwd </td>
+<td style="width: 10%; height: 24px;">78 </td>
+<td style="width: 65%; height: 24px;">Get the Current Working Directory.</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 25%; height: 24px;">getSysInfo </td>
+<td style="width: 10%; height: 24px;">234 </td>
+<td style="width: 65%; height: 24px;">Get information about the system such as boot time, username, macOS version, machine name, platform and arch.</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 25%; height: 24px;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<figure id="attachment_124994" aria-describedby="caption-attachment-124994" style="width: 1496px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_12.jpg" alt="Binary Ninja’s Medium Level Interpreted Language (MLIL) representation of the command processing code" width="1496" height="986" class="size-full wp-image-124994" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_12.jpg 1496w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_12-300x198.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_12-1024x675.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_12-768x506.jpg 768w" sizes="auto, (max-width: 1496px) 100vw, 1496px" /><figcaption id="caption-attachment-124994" class="wp-caption-text">Binary Ninja’s Medium Level Interpreted Language (MLIL) representation of the command processing code</figcaption></figure>
+<p>The result of an executed command is returned to the C2 in the <code>payload</code> field, now having the form <code>{"cmd":,"err":,"data":""}</code>, where <code>cmd</code> contains the <b>int</b> value related to the command that was executed, <code>err</code> contains an <b>int</b> value related to success or failure, and <code>data</code> contains the results of the executed command. For example, when a <code>getSysInfo</code> command is executed, the <code>data</code> field will be populated with values in a JSON structure of the form <code>{"boottime":,"username":"","version":"","comname":"","platform":"","arch":""}</code>.</p>
+<p>The whole JSON message is encrypted using the key <code>lZjJ7iuK2qcmMW6hacZOw62</code>.</p>
+<h2>Data Stealing Bash Scripts</h2>
+<p>The first part of the attack chain concludes with <code>trojan1_arm64</code> downloading and executing two scripts, <code>upl</code> and <code>tlgrm</code>.</p>
+<p>The <code>upl</code> script is a credential-stealer designed to silently extract browser and system-level information, package it, and exfiltrate it. The script targets data from the following browsers:</p>
+<ul>
+<li aria-level="1">Arc</li>
+<li aria-level="1">Brave</li>
+<li aria-level="1">Firefox</li>
+<li aria-level="1">Google Chrome</li>
+<li aria-level="1">Microsoft Edge</li>
+</ul>
+<figure id="attachment_124991" aria-describedby="caption-attachment-124991" style="width: 1902px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_15.jpg" alt="Targeted browsers in the upl script" width="1902" height="584" class="size-full wp-image-124991" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_15.jpg 1902w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_15-300x92.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_15-1024x314.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_15-768x236.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_15-1536x472.jpg 1536w" sizes="auto, (max-width: 1902px) 100vw, 1902px" /><figcaption id="caption-attachment-124991" class="wp-caption-text">Targeted browsers in the <em>upl</em> script</figcaption></figure>
+<p>Browser data is copied to</p>
+<pre>
+/private/var/tmp/uplex_&lt;username>/&lt;browser>/
+</pre>
+<p>The script also targets the following Keychain and shell files and directories:</p>
+<pre>
+/Library/Keychains/System.keychain
+~/Library/Keychains/login.keychain-db
+~/.bash_history
+~/.zsh_history
+~/.zsh/
+</pre>
+<p>The data is then compressed via <code>ditto -ck</code> and posted to the C2 using <code>curl</code>.</p>
+<p>The <code>tlgrm</code> script steals Telegram’s encrypted local database (<code>postbox/db</code>) and the decryption key blob, <code>.tempkeyEncrypted</code>, presumably for offline decryption or brute force attempts.</p>
+<figure id="attachment_124993" aria-describedby="caption-attachment-124993" style="width: 1746px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_13.jpg" alt="The tlgrm script targets the .tempkeyEncrypted file required for decryption" width="1746" height="906" class="size-full wp-image-124993" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_13.jpg 1746w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_13-300x156.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_13-1024x531.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_13-768x399.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_13-1536x797.jpg 1536w" sizes="auto, (max-width: 1746px) 100vw, 1746px" /><figcaption id="caption-attachment-124993" class="wp-caption-text">The <em>tlgrm</em> script targets the <em>.tempkeyEncrypted</em> file required for decryption</figcaption></figure>
+<p>The Telegram data is exfiltrated to the same server used in the <code>upl</code> script. The <code>uploadData()</code> function in both scripts is identical save for one variable name used to specify the server address: <code>hostName</code> in <code>upl</code> and <code>serverUrl</code> in <code>tlgrm</code>.</p>
+<pre>
+upl:
+hostName="https[:]//dataupload[.]store/uploadfiles"
+
+tlgrm:
+serverUrl="https[:]//dataupload[.]store/uploadfiles"
+</pre>
+<figure id="attachment_124998" aria-describedby="caption-attachment-124998" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_8.jpg" alt="Comparison of upl and tlgrm; the scripts use an almost identical function to exfiltrate user data" width="1999" height="444" class="size-full wp-image-124998" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_8.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_8-300x67.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_8-1024x227.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_8-768x171.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_8-1536x341.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-124998" class="wp-caption-text">Comparison of <em>upl</em> and <em>tlgrm</em>; the scripts use an almost identical function to exfiltrate user data</figcaption></figure>
+<p>Our investigation found related scripts in public malware repositories that may be tied to similar attacks. We list these in the Indicators of Compromise section at the end of this post.</p>
+<h2>Technical Analysis of installer, GoogIe LLC, and CoreKitAgent</h2>
+<h3>Installer</h3>
+<p>The second part of the attack chain begins with the <code>installer</code> binary dropped alongside <code>a</code> by the initial access scripts. Compiled from Nim and weighing in at ~233KB, the <code>installer</code> binary is a universal architecture Mach-O with an <i>ad hoc</i> signature and the identifier <code>user_startup_installer_arm64</code>.</p>
+<p>The <code>installer</code> binary checks for the existence of a LaunchAgent at <code>[~]/Library/LaunchAgents/com.google.update.plist</code> and creates folder paths at <code>/Library/CoreKit/</code> and  <code>/Library/Application Support/GoogIe LLC/</code> for use by the later stages described in the following sections.</p>
+<figure id="attachment_125003" aria-describedby="caption-attachment-125003" style="width: 1440px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_3.jpg" alt="The installer binary prepares the file paths for later stages" width="1440" height="202" class="size-full wp-image-125003" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_3.jpg 1440w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_3-300x42.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_3-1024x144.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_3-768x108.jpg 768w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /><figcaption id="caption-attachment-125003" class="wp-caption-text">The <em>installer</em> binary prepares the file paths for later stages</figcaption></figure>
+<p>The misspelling of <code>GoogIe LLC</code> (uppercase &#8216;i&#8217;, not lowercase &#8216;L&#8217;) is intended to help the malware blend in and avoid suspicion.</p>
+<p>An interesting feature of this and the other compiled Nim binaries is the existence of code that at first blush could be mistaken for C2 command options.</p>
+<figure id="attachment_125000" aria-describedby="caption-attachment-125000" style="width: 1000px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_6.jpg" alt="Boilerplate Nim code can look deceptively malicious" width="1000" height="532" class="size-full wp-image-125000" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_6.jpg 1000w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_6-300x160.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_6-768x409.jpg 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption id="caption-attachment-125000" class="wp-caption-text">Boilerplate Nim code can look deceptively malicious</figcaption></figure>
+<p>Huntress researchers also reported observing a subset of these &#8220;po&#8221; commands in their analysis. Nim <a href="https://nim-lang.org/docs/osproc.html" target="_blank" rel="noopener noreferrer">documentation</a> reveals that these are part of Nim&#8217;s <a href="https://github.com/nim-lang/Nim/blob/version-2-2/lib/pure/osproc.nim#L1" target="_blank" rel="noopener noreferrer">std/osproc</a> module, used for executing OS processes, similar to the way Objective-C uses NSTask, and are not attacker-written code or malware artifacts.</p>
+<p>We identified two versions of the <code>installer</code> binary, identical except for the path used to set up the config file used by later stage payloads. One version of <code>installer</code> uses <code>/private/tmp/cfg</code> (06566eabf54caafe36ebe94430d392b9cf3426ba) while the other uses <code>/private/tmp/.config</code> (08af4c21cd0a165695c756b6fda37016197b01e7).</p>
+<figure id="attachment_124990" aria-describedby="caption-attachment-124990" style="width: 1730px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_16.jpg" alt="Two versions of the installer binary are identical save for the embedded config file path" width="1730" height="262" class="size-full wp-image-124990" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_16.jpg 1730w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_16-300x45.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_16-1024x155.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_16-768x116.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_16-1536x233.jpg 1536w" sizes="auto, (max-width: 1730px) 100vw, 1730px" /><figcaption id="caption-attachment-124990" class="wp-caption-text">Two versions of the <em>installer</em> binary are identical save for the embedded config file path</figcaption></figure>
+<p>In both cases, <code>installer</code> checks that the file does not exist, then writes a 0 byte file to the path, setting write-only access (<code>O_WRONLY</code>) on the file. The file path contents are populated by the next stage <code>GoogIe LLC</code> and later read by <code>CoreKitAgent</code>.</p>
+<h3>GoogIe LLC</h3>
+<p>Compiled from Nim and approximately 195KB, the <code>GoogIe LLC</code> executable is a universal Mach-O bearing an <i>ad hoc</i> code signature with the identifier <code>user_startup_loader_arm4</code>. Interestingly, only the filename for this stage uses the typo spoofing trick; the parent folder <code>/Google LLC/</code> spells Google correctly with a lowercase &#8220;L&#8221;.</p>
+<pre>
+~/Library/Application Support/Google LLC/GoogIe LLC
+</pre>
+<p>The binary&#8217;s primary function is to set up a configuration file and launch the next stage, <code>CoreKitAgent</code>. The <code>GoogIe LLC</code> executable contains hardcoded data that is combined with local environmental data, encoded, and then written out to the config file in <code>/private/tmp</code>.</p>
+<figure id="attachment_124987" aria-describedby="caption-attachment-124987" style="width: 1434px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_19.jpg" alt="Hardcoded data encrypted and written out to a hidden file /private/tmp/.config" width="1434" height="236" class="size-full wp-image-124987" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_19.jpg 1434w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_19-300x49.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_19-1024x169.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_19-768x126.jpg 768w" sizes="auto, (max-width: 1434px) 100vw, 1434px" /><figcaption id="caption-attachment-124987" class="wp-caption-text">Hardcoded data encrypted and written out to a hidden file <em>/private/tmp/.config</em></figcaption></figure>
+<p>The resulting config file contains a 298 byte string of hexadecimal characters. This is later read by <code>CoreKitAgent</code>, which is responsible for writing the LaunchAgent to disk using <code>com.google.update.plist</code> for the Label key and the <code>GoogIe LLC</code> binary for the program argument. The data written to the config file is used as the value for the LaunchAgent&#8217;s CLIENT_AUTH_KEY key.</p>
+<figure id="attachment_124997" aria-describedby="caption-attachment-124997" style="width: 1639px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_9.jpg" alt="The LaunchAgent contains customized Client and Server keys for communication with the C2" width="1639" height="1261" class="size-full wp-image-124997" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_9.jpg 1639w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_9-300x231.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_9-1024x788.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_9-768x591.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_9-1536x1182.jpg 1536w" sizes="auto, (max-width: 1639px) 100vw, 1639px" /><figcaption id="caption-attachment-124997" class="wp-caption-text">The LaunchAgent contains customized Client and Server keys for communication with the C2</figcaption></figure>
+<p>The first 47 characters of the value of CLIENT_AUTH_KEY are also identical to the first 47 characters (of the total 86) used for the value of SERVER_AUTH_KEY.</p>
+<p>When the LaunchAgent is activated by a user login or reboot, <code>GoogIe LLC</code> is launched, which in turn calls <code>CoreKitAgent</code> and the rest of the payload logic.</p>
+<figure id="attachment_124986" aria-describedby="caption-attachment-124986" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_2.jpg" alt="Execution chain once the persistence mechanism is activated by a login or reboot" width="1999" height="909" class="size-full wp-image-124986" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_2.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_2-300x136.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_2-1024x466.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_2-768x349.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_2-1536x698.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-124986" class="wp-caption-text">Execution chain once the persistence mechanism is activated by a login or reboot</figcaption></figure>
+<h3>CoreKitAgent</h3>
+<p>Of the four Nim binaries observed, <code>CoreKitAgent</code> is the most technically complex. It exists in both an unsigned stripped (~233KB) version and an <i>ad hoc</i> signed, unstripped (~340KB) version. VirusTotal telemetry indicates that the stripped version was uploaded from South Korea in October 2024. The unstripped version was observed in the wild in early April 2025. Although it is a universal binary, the <i>ad hoc</i> signature identifies the binary as <code>user_startup_main_arm64</code>.</p>
+<p>The <code>CoreKitAgent</code> program operates as an event-driven application using macOS&#8217;s <a href="https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man2/kqueue.2.html" target="_blank" rel="noopener noreferrer">kqueue</a> mechanism. The <code>_main</code> function sets up Nim&#8217;s standard signal handlers and then hands control to an asynchronous continuation function <code>_mainX20X28AsyncX29___user95startup95main_u45</code>, which initiates the malware&#8217;s core logic.</p>
+<p>Control flow within this function is handled by a 10-case switch statement implemented as a <a href="https://levelup.gitconnected.com/implementing-finite-state-machines-using-transition-tables-f2990a6f3bc5" target="_blank" rel="noopener noreferrer">table-driven state machine</a>, with an execution state stored in memory and updated via a lookup table with the following values:</p>
+<pre>
+00 00 fe ff 03 00 00 00 fe ff fe ff fe ff fe ff
+</pre>
+<figure id="attachment_125002" aria-describedby="caption-attachment-125002" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_4.jpg" alt="The lookup table is hard-coded in the __const section" width="1999" height="950" class="size-full wp-image-125002" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_4.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_4-300x143.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_4-1024x487.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_4-768x365.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_4-1536x730.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-125002" class="wp-caption-text">The lookup table is hard-coded in the <em>__const</em> section</figcaption></figure>
+<p>After each case completes, the code consults the lookup table to determine the next state depending on error conditions or specific flags set during execution of the previous case. For example, if certain error bits are set, the next state value might be negated, effectively creating alternate paths through the state sequence depending on runtime conditions.</p>
+<p>From an analysis point of view, much of the interesting malicious behaviour occurs in Case 1, which overrides some of the earlier signal handlers for intercepting SIGINT and SIGTERM. SIGINT is sent to a process when a user attempts to kill a process (such as by pressing <b>ctl-c</b> in the Terminal). SIGTERM, in contrast, is a signal sent by the system or another process, such as when the <code>kill</code> command is invoked by a user in the Terminal or by a program or script.</p>
+<figure id="attachment_124988" aria-describedby="caption-attachment-124988" style="width: 1434px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_18.jpg" alt="Signal handlers 0x2 (SIGINT) and 0xf (SIGTERM) are set up to catch termination" width="1434" height="350" class="size-full wp-image-124988" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_18.jpg 1434w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_18-300x73.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_18-1024x250.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_18-768x187.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_18-818x199.jpg 818w" sizes="auto, (max-width: 1434px) 100vw, 1434px" /><figcaption id="caption-attachment-124988" class="wp-caption-text">Signal handlers 0x2 (SIGINT) and 0xf (SIGTERM) are set up to catch termination</figcaption></figure>
+<p>When triggered, <code>CoreKitAgent</code> catches these signals and writes the LaunchAgent for persistence, a copy of <code>GoogIe LLC</code> as the loader, and a copy of itself as the trojan, setting executable permissions on the latter two via the <code>addExecutionPermissions_user95startup95mainZutils_u32</code> function.</p>
+<figure id="attachment_124999" aria-describedby="caption-attachment-124999" style="width: 1548px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_7.jpg" alt="Persistence logic writes and sets execution permissions on the agent, trojan and loader binaries" width="1548" height="1540" class="size-full wp-image-124999" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_7.jpg 1548w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_7-300x298.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_7-1024x1019.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_7-150x150.jpg 150w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_7-768x764.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_7-1536x1528.jpg 1536w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_7-50x50.jpg 50w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_7-24x24.jpg 24w" sizes="auto, (max-width: 1548px) 100vw, 1548px" /><figcaption id="caption-attachment-124999" class="wp-caption-text">Persistence logic writes and sets execution permissions on the agent, trojan and loader binaries</figcaption></figure>
+<p>This behavior ensures that any user-initiated termination of the malware results in the deployment of the core components, making the code resilient to basic defensive actions.</p>
+<p>The state machine also contains a 10-minute sleep routine, likely as an anti-VM or sandbox countermeasure. The sleep routine is set up and called in Case 6 with a hard-coded value of <b>0x927c0</b> (600,000ms), as indicated in the following pseudocode.</p>
+<pre>
+void* rax_29 = _sleepAsync__user95startup95main_u73(0x927c0);  // 600,000ms = 10min
+if (*r12 != 0)
+	_eqdestroy___pureZasyncdispatch_u1229(rax_29);  // Error cleanup
+else {
+	_eqsink___pureZasyncdispatch_u7188(rsi_1 + 0x40, rax_29);  // Store future
+	if (*r12 == 0) {
+		*(r15 + 8) = 7;  // Transition to state 7
+		rsi_15 = *(r15 + 0x40);
+	}
+}
+</pre>
+<p>The sleep function, <code>_sleepAsync__user95startup95main_u73</code>, uses the operating system&#8217;s <a href="https://developer.apple.com/documentation/driverkit/3438076-mach_absolute_time" target="_blank" rel="noopener noreferrer">mach_absolute_time()</a> and <a href="https://developer.apple.com/documentation/driverkit/3433733-mach_timebase_info" target="_blank" rel="noopener noreferrer">mach_timebase_info()</a> to create an asynchronous sleep. Rather than just blocking execution for 10 minutes &#8211; a technique many sandboxes would detect and counter &#8211; it instead registers a wake-up time with a global dispatcher and continues execution of the main event loop. When the sleep timer expires, <code>CoreKitAgent</code> calls Case 7 and continues execution.</p>
+<h2>AppleScript Beacon and Backdoor</h2>
+<p>The malware&#8217;s custom encryption and obfuscation routines involve multiple passes through several functions. One of these involves deobfuscating string literals made up of long sequences of hexadecimal numbers that are passed to a decrypt function, <code>_fromHex__pkgZnimcryptoZutils_u257</code>.</p>
+<p>In the unstripped version, one of the hexadecimal strings contains the template for the previously discussed LaunchAgent. In both versions, although the content differs, an AppleScript is decoded, written to disk at  <code>~/.ses</code>, and launched via <code>osascript</code>.</p>
+<figure id="attachment_124996" aria-describedby="caption-attachment-124996" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_10.jpg" alt="A string literal made up of hex characters is used to hide embedded AppleScript" width="1999" height="662" class="size-full wp-image-124996" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_10.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_10-300x99.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_10-1024x339.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_10-768x254.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_10-1536x509.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-124996" class="wp-caption-text">A string literal made up of hex characters is used to hide embedded AppleScript</figcaption></figure>
+<figure id="attachment_124989" aria-describedby="caption-attachment-124989" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_17.jpg" alt="The embedded .ses script in the unstripped CoreKitAgent binary after decoding" width="1999" height="1652" class="size-full wp-image-124989" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_17.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_17-300x248.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_17-1024x846.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_17-768x635.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_17-1536x1269.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-124989" class="wp-caption-text">The embedded <em>.ses</em> script in the unstripped <em>CoreKitAgent</em> binary after decoding</figcaption></figure>
+<p>The embedded AppleScript fetches the current Unix timestamp via <code>date</code> to create a unique ID and builds an HTTP header string. Throughout, the authors have broken strings down into character lists to help protect the script from simple scanning rules. The same trick is used to disguise two hardcoded C2 addresses, <code>writeup[.]live</code> and <code>safeup[.]store</code>.</p>
+<p>On execution, the script beacons out every 30 seconds to one of the two hardcoded C2s, chosen at random, and attempts to post data obtained from listing all running processes on the victim machine. The script also executes any response received from the C2 via the <code>run script</code> command, meaning this simple AppleScript functions both as a beacon and a backdoor.</p>
+<p>The embedded AppleScript in the stripped version of <code>CoreKitAgent</code> takes a different form and uses different embedded C2 server addresses but has similar functionality, including the 30 second delay interval.</p>
+<figure id="attachment_125001" aria-describedby="caption-attachment-125001" style="width: 1906px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_5.jpg" alt="The embedded .ses script in the stripped CoreKitAgent binary after decoding" width="1906" height="1674" class="size-full wp-image-125001" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_5.jpg 1906w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_5-300x263.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_5-1024x899.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_5-768x675.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/NimDoor_5-1536x1349.jpg 1536w" sizes="auto, (max-width: 1906px) 100vw, 1906px" /><figcaption id="caption-attachment-125001" class="wp-caption-text">The embedded <em>.ses</em> script in the stripped <em>CoreKitAgent</em> binary after decoding</figcaption></figure>
+<h2>Conclusion</h2>
+<p>SentinelLABS&#8217; analysis of NimDoor shows how threat actors are continuing to explore cross-platform languages that introduce new levels of complexity for analysts.</p>
+<p>North Korean-aligned threat actors have <a href="https://www.sentinelone.com/blog/dprk-crypto-theft-macos-rustbucket-droppers-pivot-to-deliver-kandykorn-payloads/" target="_blank" rel="noopener noreferrer">previously experimented</a> with Go and Rust, similarly combining scripts and compiled binaries into multi-stage attack chains. However, Nim&#8217;s rather unique ability to <a href="https://nim-lang.org/docs/manual.html?utm_source=chatgpt.com#pragmas-compiletime-pragma" target="_blank" rel="noopener noreferrer">execute</a> functions during compile time allows attackers to blend complex behaviour into a binary with less obvious control flow, resulting in compiled binaries in which developer code and Nim runtime code are intermingled even at the function level.</p>
+<p>At the same time, the attackers take full advantage of macOS&#8217;s built-in scripting capabilities. Leveraging AppleScript to perform duties like beaconing is a novel approach that removes the need for a traditional post-exploitation framework and the detection &#8216;noise&#8217; such implants can create. In addition, the use of <code>wss</code> for communications and signal interrupts to trigger persistence logic provide yet further evidence of active development in new ways to defeat security measures.</p>
+<p>Earlier this year, we saw threat actors utilizing <a href="https://www.sentinelone.com/blog/readerupdate-reforged-melting-pot-of-macos-malware-adds-go-to-crystal-nim-and-rust-variants/" target="_blank" rel="noopener noreferrer">Nim as well as Crystal</a>, and we expect the choice of less familiar languages to become an increasing trend among macOS malware authors due both to their technical advantages and their unfamiliarity to analysts. As ever in the cat-and-mouse game of threat and threat detection, when one side innovates, the other must respond, and we encourage other analysts, researchers, and detection engineers to invest effort in understanding these lesser-known languages and how they will eventually be leveraged.</p>
+<h2>Indicators of Compromise</h2>
+<p><b>Domains</b></p>
+<div style="overflow-x:auto;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">dataupload[.]store</td>
+<td style="width: 50.0%; height: 24px;">upl/tlgrm C2</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">firstfromsep[.]online</td>
+<td style="width: 50.0%; height: 24px;">netchk C2</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">safeup[.]store</td>
+<td style="width: 50.0%; height: 24px;">CoreKit C2</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">support[.]us05web-zoom[.]pro</td>
+<td style="width: 50.0%; height: 24px;">zoom_sdk_support.scpt C2</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 50.0%; height: 24px;">writeup[.]live</td>
+<td style="width: 50.0%; height: 24px;">CoreKit C2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><b>FilePaths</b><br />
+~/Library/Application Support/Google LLC/GoogIe LLC<br />
+~/Library/LaunchAgents/com.google.update.plist<br />
+~/.ses<br />
+~/Library/DnsService/a<br />
+~/Library/DnsService/netchk<br />
+/private/tmp/.config<br />
+/private/tmp/cfg</p>
+<p><b>Binaries | SHA-1</b></p>
+<div style="overflow-x:auto;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">027d4020f2dd1eb473636bc112a84f0a90b6651c </td>
+<td style="width: 33.0%; height: 24px;">trojan1_arm64 (x86_64)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">0602a5b8f089f957eeda51f81ac0f9ad4e336b87 </td>
+<td style="width: 33.0%; height: 24px;">GoogIe LLC (universal)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">06566eabf54caafe36ebe94430d392b9cf3426ba </td>
+<td style="width: 33.0%; height: 24px;">installer (universal)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">08af4c21cd0a165695c756b6fda37016197b01e7 </td>
+<td style="width: 33.0%; height: 24px;">installer (universal)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">16a6b0023ba3fde15bd0bba1b17a18bfa00a8f59 </td>
+<td style="width: 33.0%; height: 24px;">GoogIe LLC (arm64)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">1a5392102d57e9ea4dd33d3b7181d66b4d08d01d </td>
+<td style="width: 33.0%; height: 24px;">CoreKitAgent (x86_64)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">2c0177b302c4643c49dd7016530a4749298d964c </td>
+<td style="width: 33.0%; height: 24px;">CoreKitAgent (arm64)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">2d746dda85805c79b5f6ea376f97d9b2f547da5d </td>
+<td style="width: 33.0%; height: 24px;">netchk (arm64)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">2ed2edec8ccc44292410042c730c190027b87930 </td>
+<td style="width: 33.0%; height: 24px;">trojan1_arm64 (arm64)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">3168e996cb20bd7b4208d0864e962a4b70c5a0e7 </td>
+<td style="width: 33.0%; height: 24px;">GoogIe LLC (x86_64)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">5b16e9d6e92be2124ba496bf82d38fb35681c7ad </td>
+<td style="width: 33.0%; height: 24px;">a (universal)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">7c04225a62b953e1268653f637b569a3b2eb06f8 </td>
+<td style="width: 33.0%; height: 24px;">installer (arm64)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">945fcd3e08854a081c04c06eeb95ad6e0d9cdc19 </td>
+<td style="width: 33.0%; height: 24px;">CoreKitAgent (universal)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">a25c06e8545666d6d2a88c8da300cf3383149d5a </td>
+<td style="width: 33.0%; height: 24px;">CoreKitAgent (universal)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">c9540dee9bdb28894332c5a74f696b4f94e4680c </td>
+<td style="width: 33.0%; height: 24px;">GoogIe_LLC (universal)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">e227e2e4a6ffb7280dfe7618be20514823d3e4f5 </td>
+<td style="width: 33.0%; height: 24px;">installer (x86_64)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">ee3795f6418fc0cacbe884a8eb803498c2b5776f </td>
+<td style="width: 33.0%; height: 24px;">netchk (x86_64)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><b>Scripts</b><br />
+<i>Observed</i></p>
+<div style="overflow-x:auto;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">023a15ac687e2d2e187d03e9976a89ef5f6c1617 </td>
+<td style="width: 33.0%; height: 24px;">zoom_sdk_support.scpt</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">bb72ca0e19a95c48a9ee4fd658958a0ae2af44b6 </td>
+<td style="width: 33.0%; height: 24px;">tlgm</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">4743d5202dbe565721d75f7fb1eca43266a652d4 </td>
+<td style="width: 33.0%; height: 24px;">upl</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><i>Related</i></p>
+<div style="overflow-x:auto;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">1e76f497051829fa804e72b9d14f44da5a531df8 </td>
+<td style="width: 33.0%; height: 24px;">expl (upl variant)</td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 67.0%; height: 24px;">79f37e0b728de2c5a4bfe8fcf292941d54e121b8 </td>
+<td style="width: 33.0%; height: 24px;">upl (upl variant)</td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content:encoded>
+					
+		
+		
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/07/25_MKTG_Comms_Blog_022_Generic_LABS_Blog_Images_07.jpg" length="215705" type="image/jpeg" />	</item>
+		<item>
 		<title>Follow the Smoke &#124; China-nexus Threat Actors Hammer At the Doors of Top Tier Targets</title>
 		<link>https://www.sentinelone.com/labs/follow-the-smoke-china-nexus-threat-actors-hammer-at-the-doors-of-top-tier-targets/</link>
 		
@@ -61,7 +431,7 @@
 </ul>
 <p>The next two sections provide an overview of these activities, including timelines, points of overlap, and our attribution assessments, followed by concrete technical details, such as observed TTPs, malware, and infrastructure to enable other organizations in related sectors to investigate and mitigate similar sets of activity.</p>
 <h2>Overview | ShadowPad Intrusions</h2>
-<figure id="attachment_123751" aria-describedby="caption-attachment-123751" style="width: 1999px" class="wp-caption aligncenter"><img fetchpriority="high" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10.jpg" alt="ShadowPad activity, June 2024 - March 2025" width="1999" height="1278" class="size-full wp-image-123751" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10-300x192.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10-1024x655.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10-768x491.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10-1536x982.jpg 1536w" sizes="(max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-123751" class="wp-caption-text">ShadowPad activity, June 2024 &#8211; March 2025</figcaption></figure>
+<figure id="attachment_123751" aria-describedby="caption-attachment-123751" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10.jpg" alt="ShadowPad activity, June 2024 - March 2025" width="1999" height="1278" class="size-full wp-image-123751" srcset="https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10-300x192.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10-1024x655.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10-768x491.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/06/China_TopTier_10-1536x982.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-123751" class="wp-caption-text">ShadowPad activity, June 2024 &#8211; March 2025</figcaption></figure>
 <p>In June 2024, SentinelLABS observed threat actor activity involving the ShadowPad malware targeting a South Asian government entity that provides IT solutions and infrastructure across multiple sectors (Activity A). The ShadowPad sample we retrieved was obfuscated using a variant of <a href="https://cloud.google.com/blog/topics/threat-intelligence/scatterbrain-unmasking-poisonplug-obfuscator" target="_blank" rel="noopener noreferrer">ScatterBrain</a>, an evolution of the <a href="https://www.pwc.co.uk/issues/cyber-security-services/insights/chasing-shadows.html" target="_blank" rel="noopener noreferrer">ScatterBee</a> obfuscation mechanism.</p>
 <p>Based on ShadowPad implementation characteristics, we identified additional samples that revealed broader activity taking place between July 2024 and March 2025, spanning a wide range of victims globally (Activity B). Using C2 netflow and SentinelOne telemetry data, SentinelLABS uncovered over 70 victims across sectors such as manufacturing, government, finance, telecommunications, and research. Potentially affected SentinelOne customers were proactively contacted by our Threat Discovery and Response (TDR) teams. One of the impacted entities was an IT services and logistics company, which had been responsible for managing hardware logistics for SentinelOne employees during that period (Activity C).</p>
 <p>We attribute these intrusions with high confidence to China-nexus actors, with ongoing efforts aimed at determining the specific threat clusters involved. <a href="https://www.sentinelone.com/labs/shadowpad-a-masterpiece-of-privately-sold-malware-in-chinese-espionage/" target="_blank" rel="noopener noreferrer">ShadowPad</a> is a closed-source modular backdoor platform used by multiple suspected China-nexus threat actors to conduct cyberespionage. Google Threat Intelligence Group <a href="https://cloud.google.com/blog/topics/threat-intelligence/scatterbrain-unmasking-poisonplug-obfuscator" target="_blank" rel="noopener noreferrer">has observed</a> the use of ScatterBrain-obfuscated ShadowPad samples since 2022 and attributes them to clusters associated with the suspected Chinese APT umbrella actor APT41.</p>
@@ -1812,131 +2182,5 @@ sciencealert[.]shop
 		
 		
 		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/Ghostwriter-ftr.jpg" length="411675" type="image/jpeg" />	</item>
-		<item>
-		<title>Censorship as a Service &#124; Leak Reveals Public-Private Collaboration to Monitor Chinese Cyberspace</title>
-		<link>https://www.sentinelone.com/labs/censorship-as-a-service-leak-reveals-public-private-collaboration-to-monitor-chinese-cyberspace/</link>
-		
-		<dc:creator><![CDATA[Alex Delamotte, Aleksandar Milenkoski &amp; Dakota Cary]]></dc:creator>
-		<pubDate>Fri, 21 Feb 2025 10:55:35 +0000</pubDate>
-				<category><![CDATA[China]]></category>
-		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=114581</guid>
-
-					<description><![CDATA[Data leak reveals how a top tier cybersecurity vendor helps the PRC enforce content monitoring and manipulation of public opinion in China.]]></description>
-										<content:encoded><![CDATA[<h2>Executive Summary</h2>
-<ul>
-<li aria-level="1">SentinelLABS has analyzed a data leak containing infrastructure details and work logs from employees of a state-affiliated private sector security firm in China.</li>
-<li aria-level="1">The leaked data contains references to web content monitoring services used to enforce censorship for public and private sector customers.</li>
-<li aria-level="1">Work logs reveal that the firm provided bespoke monitoring services to a state-owned enterprise when a corruption scandal impacted this organization, providing insights into how the state and CCP coordinate with some cybersecurity companies to manage fallout from corruption scandals.</li>
-</ul>
-<h2>Overview</h2>
-<p>SentinelLABS has analyzed a data leak from TopSec (北京天融), a Chinese cybersecurity firm offering services such as Endpoint Detection &amp; Response (EDR) and vulnerability scanning, while offering boutique solutions to align with government initiatives and intelligence requirements.</p>
-<p>The data leak includes a document with 7,000+ lines of work logs and code used to orchestrate infrastructure for the firm’s DevOps practices and downstream customers and includes scripts that connect to several Chinese government hostnames, academic institutions and news sites.</p>
-<p>We identified work logs and system features that indicate TopSec is likely enabling content moderation for internet censorship purposes, a key <a href="https://www.atlanticcouncil.org/in-depth-research-reports/report/community-watch-chinas-vision-for-the-future-of-the-internet/">strategy</a> used by the Chinese Communist Party (CCP) to monitor and control public opinion on issues that the state deems contentious or antisocial.</p>
-<p>Further, we found evidence indicating that TopSec provided bespoke services to a state-owned enterprise on the date that a corruption investigation was announced targeting the organization’s top official.</p>
-<p>The Chinese cybersecurity market has long been a mystery for many researchers in the west. Unlike Europe and parts of the Middle East, which foster some degree of collaboration, the Chinese cybersecurity market is obscured behind the wall that divides China from the global internet. This finding reveals not only the types of technologies that are used by a prestigious Chinese tech firm, but how they are providing security services to private and public sector customers inside China.</p>
-<h2>TopSec</h2>
-<p>TopSec is a provider of monitoring and IT security solutions, as well as big data and cloud services. Established in 1995, TopSec prides itself on its long history and prioritizes national cyberspace security as a core element of its mission statement.</p>
-<p>Company registration details reveal that TopSec holds over 1,000 patents, 87 software copyrights, and has 12 subsidiaries. The company is also a <a href="https://www.atlanticcouncil.org/in-depth-research-reports/report/sleight-of-hand-how-china-weaponizes-software-vulnerability/">Tier 1 vulnerability supplier</a> to China’s civilian intelligence ministry. According to TopSec&#8217;s 2024 annual corporate report for shareholders, the company has been offering cloud monitoring services–including IT security monitoring capabilities–since 2004. By 2020, these TopSec services were in use across all 31 of China’s administrative regions.</p>
-<p><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_7.jpg" alt="Description of TopSec services" width="1999" height="128" class="aligncenter size-full wp-image-114588" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_7.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_7-300x19.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_7-1024x66.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_7-768x49.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_7-1536x98.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><br />
-<figure id="attachment_114604" aria-describedby="caption-attachment-114604" style="width: 696px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/Screenshot-2025-02-20-at-14.27.08.jpg" alt="Description of TopSec services" width="696" height="130" class="size-full wp-image-114604" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/Screenshot-2025-02-20-at-14.27.08.jpg 696w, https://www.sentinelone.com/wp-content/uploads/2025/02/Screenshot-2025-02-20-at-14.27.08-300x56.jpg 300w" sizes="auto, (max-width: 696px) 100vw, 696px" /><figcaption id="caption-attachment-114604" class="wp-caption-text">Description of TopSec services</figcaption></figure></p>
-<p><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_4.jpg" alt="" width="1999" height="683" class="aligncenter size-full wp-image-114591" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_4.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_4-300x103.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_4-1024x350.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_4-768x262.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_4-1536x525.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><br />
-<figure id="attachment_114600" aria-describedby="caption-attachment-114600" style="width: 782px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_12.jpg" alt="TopSec&#039;s 2024 annual corporate report" width="782" height="266" class="size-full wp-image-114600" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_12.jpg 782w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_12-300x102.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_12-768x261.jpg 768w" sizes="auto, (max-width: 782px) 100vw, 782px" /><figcaption id="caption-attachment-114600" class="wp-caption-text">TopSec&#8217;s 2024 annual corporate report (<a href="https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2024/2024-4/2024-04-20/10013439.PDF" target="_blank">Source</a>)</figcaption></figure></p>
-<p>The leaked documents we analyzed reference multiple organizations in both the private and public sectors, likely customers or otherwise associated with TopSec, a selection of which is listed below. These references include probable deployment sites of monitoring probes and mentions in-work progress records.</p>
-<p>Public sector organizations referenced in the documents include entities integral to China’s political system, such as the Municipal Commissions for Discipline Inspection, which enforce party regulations and investigate corruption. Another example is the Illegal and Harmful Information Reporting Center, an entity dedicated to combating what the Chinese Communist Party (CCP) considers illegal and harmful behavior in the online space. TopSec customers referenced in these documents include:</p>
-<ul>
-<li>Dongwu Fund Management Co., Ltd</li>
-<li>Gucheng County Petition Bureau</li>
-<li>Illegal and Harmful Information Reporting Center</li>
-<li>Linhai Rural Commercial Bank</li>
-<li>Petkit</li>
-<li>Shanghai Diepai Automobile Technology Co</li>
-<li>Shanghai Fengyilong Electronic</li>
-<li>Shanghai Medical Packaging Materials Factory</li>
-<li>Shanghai Municipal Commission for Discipline Inspection</li>
-<li>Shanghai Municipal Supervisory Commission</li>
-<li>Tibet Autonomous Region</li>
-<li>Tibet Autonomous Region Committee of the Communist Party of China</li>
-<li>Wuhu Discipline Inspection and Supervision Network</li>
-</ul>
-<p>We observed references to three projects associated with Bureaus of the Ministry of Public Security in the northeastern city of Dandong, as well as the Songjiang and Pudong districts of Shanghai, with the latter project referred to as the &#8220;Cloud Monitoring Service Project&#8221;. The Ministry of Public Security is responsible for maintaining public order and overseeing law enforcement and surveillance activities to ensure compliance with national regulations.</p>
-<pre>
-[2024-2025 Shanghai Public Security Bureau Pudong Branch Cloud Monitoring Service Project (Phase II)]
-The statistics of events that occurred today are as follows:
-Aggregated events: 883 Valid: 129 Invalid: 672 On-hand: 82
-Single events: 5637 Valid: 187 Invalid: 2781 On-hand: 2669
-In terms of event volume, it is basically the same as that of our competitors.
-</pre>
-<p>A public procurement announcement for the &#8220;Cloud Monitoring Service Project&#8221; suggests that it involves monitoring the security posture and content of websites under the Bureaus&#8217; jurisdiction, with alerts issued in case of security breaches or policy violations. TopSec was likely involved in the bidding process alongside competitor companies. Public documents, however, show TopSec did not win the contract.</p>
-<figure id="attachment_114586" aria-describedby="caption-attachment-114586" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_9.jpg" alt="Contract Announcement of Shanghai Public Security Bureau Pudong Branch Cloud Monitoring Service Project" width="1999" height="980" class="size-full wp-image-114586" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_9.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_9-300x147.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_9-1024x502.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_9-768x377.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_9-1536x753.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-114586" class="wp-caption-text">Contract announcement  for Cloud Monitoring Service Project (<a href="https://www.zfcg.sh.gov.cn/luban/detail?parentId=137027&amp;articleId=yuZoUGZxSiBaeduhBehxXA==" target="_blank">Source</a>)</figcaption></figure>
-<figure id="attachment_114587" aria-describedby="caption-attachment-114587" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_8.jpg" alt="Procurement announcement for Cloud Monitoring Service Project" width="1999" height="1174" class="size-full wp-image-114587" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_8.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_8-300x176.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_8-1024x601.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_8-768x451.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_8-1536x902.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-114587" class="wp-caption-text">Procurement announcement for Cloud Monitoring Service Project (<a href="https://www.shexgrp.com/jyzx/001001/001001004/001001004001/20240729/7979111.html" target="_blank">Source</a>)</figcaption></figure>
-<h2>Infrastructure Features</h2>
-<p>We identified this leak as a submission to a multi-scanner platform that fired off a rule that looks for common abuse activities associated with Kubernetes. The main file we analyzed (SHA-1: <code>1bccef07ad0348e326248fe321259e2bd8f8cf8b</code>) contains numerous work logs, which are a description of the work performed by a TopSec employee and the amount of time the task took, often accompanied by scripts, commands, or data related to the task.</p>
-<figure id="attachment_114590" aria-describedby="caption-attachment-114590" style="width: 755px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_5.jpg" alt="Example of work logs from the file along with English translation" width="755" height="154" class="size-full wp-image-114590" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_5.jpg 755w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_5-300x61.jpg 300w" sizes="auto, (max-width: 755px) 100vw, 755px" /><figcaption id="caption-attachment-114590" class="wp-caption-text">Example of work logs from the file along with English translation</figcaption></figure>
-<p>In addition to work logs, the leak contains many commands and playbooks used to administrate TopSec’s services via multiple common DevOps and infrastructure technologies that are used worldwide, including Ansible, Docker, ElasticSearch, Gitlab, Kafka, Kibana, Kubernetes, and Redis. There are many artifacts showing JSON data for web APIs used by TopSec services. There are also network configurations, SSH and port mapping commands with hardcoded credentials, which present a huge security risk should anyone obtain access to the environment–and would likely provide access to TopSec’s downstream customers as well.</p>
-<figure id="attachment_114598" aria-describedby="caption-attachment-114598" style="width: 686px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_14.jpg" alt="Ansible commands from leaked file used to access infrastructure" width="686" height="190" class="size-full wp-image-114598" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_14.jpg 686w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_14-300x83.jpg 300w" sizes="auto, (max-width: 686px) 100vw, 686px" /><figcaption id="caption-attachment-114598" class="wp-caption-text">Ansible commands from leaked file used to access infrastructure</figcaption></figure>
-<p>The leaked file is very large, disorganized, and the formatting is inconsistent, which complicates analysis. It is highly likely that we have not identified all capabilities outlined in the leak. Our analysis approach focused on translating the Chinese language content, identifying known technologies, and identifying interesting references in the commands and API JSON artifacts, particularly those where there were upticks in work logs performed around specific dates documented in the work logs or web API data.</p>
-<p>The data leak includes a file that starts with infrastructure management code, including some which initializes several Docker images to enable security monitoring related features. These containers run probes, which are likely used for network monitoring. We are unable to fully assess the capabilities of these containers without access to them. However, the containers are run with several flags such as <code>--privileged</code> and <code>--net host</code> that suggest deep access to the monitored data. This may indicate the probes inspect network traffic or perform privileged tasks in the deployment environment.</p>
-<p>Deeper in the file, there are work logs which contain dates indicating when certain tasks were performed and notes from the TopSec staff who worked on specific infrastructure projects. One project referenced repeatedly is called Sparta or Sparda, with the spelling changing regularly. Notes from the TopSec staff indicate that Sparta handles sensitive word processing, an indication of censorship keyword monitoring.</p>
-<p>On a technical level, Sparta is a framework that uses GraphQL APIs to receive content from downstream web applications. Work logs indicate that TopSec migrated from a system called Apollo, which is plausibly a reference to <a href="https://github.com/apollographql">Apollo-GraphQL</a>, an open-source framework offered by a company based in San Francisco. The work logs also indicate that Sparta is equipped to process Chinese language characters. This suggests that TopSec likely developed Sparta as an in-house solution that is tailored to the localized needs of TopSec’s customers and does not rely on a US-based solution.</p>
-<p>Additionally, we observed a note indicating that detection alerts considered severe are likely distributed to internal teams via WeChat for prioritized handling. WeChat is a widely-used messaging and social media platform in China, known for its broad range of features, including messaging, social networking, and payment services. Its integration into daily life makes it an essential tool for communication and business operations within the country.</p>
-<pre>
-Severe monitoring events are sent to corporate WeChat
-</pre>
-<p>Since WeChat operates under Chinese regulations, there are significant implications regarding data privacy and government access. Under Chinese laws, such as the <a href="https://digichina.stanford.edu/work/translation-cybersecurity-law-of-the-peoples-republic-of-china-effective-june-1-2017/">Cybersecurity Law</a>, companies like Tencent, which owns WeChat, are required to cooperate with government entities, allowing them to access data when requested.</p>
-<h2>Web Content Monitoring</h2>
-<p>Our analysis found that TopSec’s capabilities include web content monitoring, as indicated by references to a service called <code>Website Monitoring Service</code> and detection events with internal identifiers prefixed with <code>Web</code>, such as <code>WebTamper</code>, <code>WebHiddenLink</code>, <code>WebAvailHttp</code>, <code>WebDns</code>, <code>WebTr</code>, and <code>WebSensitive</code>.</p>
-<p>This feature of the platform is likely part of what would have been proposed in response to the bid issued by the Shanghai Pudong Bureau for the &#8220;Cloud Monitoring Service Project&#8221;, offering the Bureau tools to monitor website security and content as part of their broader surveillance and compliance efforts.</p>
-<pre>
-Inspect website monitoring-related services
-[ . . . ]
-[2024-06-12T18:00:00 to 2024-06-12T22:00:00 Event volume: 553] 2024-06-12T18:00:00 to 2024-06-12T22:00:00 Event volume: 553
-WebSensitive 56
-WebTamper 149
-WebHiddenLink 348
-</pre>
-<p>While the exact logic behind how the Web events are triggered remains unclear, the event names and metadata present in the documents provide insight into the purpose of some of these events. For instance, the <code>WebAvailHttp</code> event is likely triggered when a website is considered unavailable due to its response time (measured in milliseconds as <code>respTimeMs</code> in the figure below) exceeding a predefined threshold (<code>respThresholdMs</code>).</p>
-<figure id="attachment_114595" aria-describedby="caption-attachment-114595" style="width: 330px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_17.jpg" alt="Metadata on the WebAvailHttp event" width="330" height="357" class="size-full wp-image-114595" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_17.jpg 330w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_17-277x300.jpg 277w" sizes="auto, (max-width: 330px) 100vw, 330px" /><figcaption id="caption-attachment-114595" class="wp-caption-text">Metadata on the <em>WebAvailHttp</em> event</figcaption></figure>
-<p>Further, the <code>WebHiddenLink</code> event is likely triggered when web content contains hidden links — links that obscure their destination or mislead users, posing a security risk. Examples include links concealed within small or transparent elements, deceptive anchor text, and styling tricks that make links appear as plain text.</p>
-<figure id="attachment_114601" aria-describedby="caption-attachment-114601" style="width: 423px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_11.jpg" alt="The WebHiddenLink event" width="423" height="92" class="size-full wp-image-114601" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_11.jpg 423w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_11-300x65.jpg 300w" sizes="auto, (max-width: 423px) 100vw, 423px" /><figcaption id="caption-attachment-114601" class="wp-caption-text">The <em>WebHiddenLink</em> event</figcaption></figure>
-<h3>Web Content Monitoring | Sensitive Words</h3>
-<p>The <code>WebSensitive</code> event is likely triggered when web content contains so-called <a href="https://www.sciencedirect.com/science/article/abs/pii/S2211695822000897">sensitive words</a> (敏感词 in Simplified Chinese). These words are related to political criticism, violence, or pornography, and are central to China&#8217;s domestic Internet censorship efforts aimed at ensuring compliance with government policies. Detecting the presence of such words in web content helps prevent the dissemination of information considered inappropriate or harmful by PRC authorities.</p>
-<pre>
-Assist the product to check for missed scans and manual analysis and marking errors of sensitive word events
-</pre>
-<p>TopSec’s ability to detect sensitive words demonstrates the impact that state policies related to the cyber domain have on the design and implementation of monitoring solutions developed by the private sector in China. These policies shape the strategies and technologies used to monitor, filter, and control online content, ensuring that IT systems comply with governmental regulations and censorship guidelines.</p>
-<p><code>WebSensitive</code> alerts may be used by private sector organizations to monitor user-generated content on their websites in order to trigger actions such as issuing warnings, deleting content, or restricting access when sensitive words are detected. Government entities may also consume these alerts to track the presence of sensitive words on their own websites or across broader online spaces to enforce compliance with national censorship regulations. For example, the latter may have been an objective of the previously mentioned &#8220;Cloud Monitoring Service Project&#8221; by the Shanghai Pudong Bureau of the Ministry of Public Security.</p>
-<p>We observed a task list indicating a focused effort to ensure consistent monitoring for sensitive words between 7:00 AM and 8:00 AM on the 14th (converted from GMT to China Standard Time), with the month and year not specified. The preceding document content suggests that the reference is to September 2023. One item in the task list instructs verification of the availability and capacity of sensitive word detection capabilities during this period, while another item records the forwarding of &#8216;asset identifiers&#8217; for collected &#8216;validated events&#8217; to an individual named Zhao Nannan (赵楠楠). The task list issuing this instruction very likely includes a typo stating the validated events were from 7:00 AM to 10:00 PM on September 14.</p>
-<pre>
-1. 	Plan the probe deployment plan for the web split emergency milestone launch 3h
-2. 	Check the number of agents for sensitive words between 23:00 on the 13th (GMT) and 14:00 at 00:00 (排查敏感词13日23点到14点0点之间的代办数量) 2h
-3. 	Check cloud baseline 500 errors 1h
-4. 	Collect asset identifiers of valid events on the 13th and provide them to Zhao Nannan 1h
-5. 	Check the task execution failure of ipv6 probe 1h
-</pre>
-<figure id="attachment_114594" aria-describedby="caption-attachment-114594" style="width: 379px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_18.jpg" alt="Document excerpts indicating sensitive web content actions in September 2023" width="379" height="276" class="size-full wp-image-114594" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_18.jpg 379w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_18-300x218.jpg 300w" sizes="auto, (max-width: 379px) 100vw, 379px" /><figcaption id="caption-attachment-114594" class="wp-caption-text">Document excerpts indicating sensitive web content actions in September 2023</figcaption></figure>
-<p>The identification of an individual named Zhao Nannan as the likely recipient of this information, alongside the context of the monitoring effort, leads us to conclude with moderate confidence that this effort was in response to political events in Shanghai.</p>
-<p>We identified a woman named Zhao Nannan as having worked at the 3rd Bureau of the Ministry of Public Security in Shanghai, which is <a href="https://web.archive.org/web/20240622033538/https://www.trimps.ac.cn/gass/index.html">responsible</a> for network security and technical investigations. Our observations presented earlier in this post suggest close ties between Shanghai-based Bureaus of the Ministry of Public Security and TopSec, one example being TopSec&#8217;s participation in a project bidding process launched by the Shanghai Pudong Bureau.</p>
-<p><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_16.jpg" alt="" width="1442" height="328" class="aligncenter size-full wp-image-114596" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_16.jpg 1442w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_16-300x68.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_16-1024x233.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_16-768x175.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_16-221x51.jpg 221w" sizes="auto, (max-width: 1442px) 100vw, 1442px" /><br />
-<figure id="attachment_114593" aria-describedby="caption-attachment-114593" style="width: 1388px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_2.jpg" alt="Employment affiliation of Zhao Nannan" width="1388" height="376" class="size-full wp-image-114593" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_2.jpg 1388w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_2-300x81.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_2-1024x277.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_2-768x208.jpg 768w" sizes="auto, (max-width: 1388px) 100vw, 1388px" /><figcaption id="caption-attachment-114593" class="wp-caption-text">Employment affiliation of Zhao Nannan (Source: LinkedIn)</figcaption></figure></p>
-<p>However, Zhao Nannan no longer works for the MPS 3rd Bureau in Shanghai. According to an online announcement from the Shanghai State-owned Assets Supervision and Administration Commission (SASAC), Zhao Nannan was one of six successful applicants to SASAC for a network security role. The announcement even references her past role at the MPS 3rd Bureau. Congratulations are due to her, as she scored the highest among the applicants for the role–恭喜!</p>
-<p><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_15.jpg" alt="" width="1999" height="624" class="aligncenter size-full wp-image-114597" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_15.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_15-300x94.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_15-1024x320.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_15-768x240.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_15-1536x479.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><br />
-<figure id="attachment_114589" aria-describedby="caption-attachment-114589" style="width: 1999px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_6.jpg" alt="Zhao Nannan’s role at Shanghai SASAC" width="1999" height="624" class="size-full wp-image-114589" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_6.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_6-300x94.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_6-1024x320.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_6-768x240.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_6-1536x479.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /><figcaption id="caption-attachment-114589" class="wp-caption-text">Zhao Nannan’s role at Shanghai SASA (<a href="https://perma.cc/65UL-57DP" target="_blank">Source</a>)</figcaption></figure></p>
-<p>On the morning of September 14th, when Zhao Nannan received alerts for sensitive content, her new employer announced on its WeChat account that the head of the Shanghai SASAC, Bai Tinghui, was under investigation for corruption. The news was quickly picked up by the South China Morning Post, Caixing, and other news-reposting blogs in China. The Shanghai government itself confirmed the investigation into Bai Tinghui and his subsequent dismissal one month later.</p>
-<figure id="attachment_114592" aria-describedby="caption-attachment-114592" style="width: 1890px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_3.jpg" alt="News coverage on Bai Tinghui&#039;s investigation" width="1890" height="808" class="size-full wp-image-114592" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_3.jpg 1890w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_3-300x128.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_3-1024x438.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_3-768x328.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_3-1536x657.jpg 1536w" sizes="auto, (max-width: 1890px) 100vw, 1890px" /><figcaption id="caption-attachment-114592" class="wp-caption-text">News coverage on Bai Tinghui&#8217;s investigation (<a href="https://www.scmp.com/news/china/politics/article/3234543/chinas-corruption-crackdown-puts-5-soes-and-shanghai-state-assets-supervisor-investigation-cross" target="_blank">Source</a>)</figcaption></figure>
-<figure id="attachment_114602" aria-describedby="caption-attachment-114602" style="width: 1536px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_10.jpg" alt="Government confirmation of Bai Tinghui&#039;s dismissal" width="1536" height="1116" class="size-full wp-image-114602" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_10.jpg 1536w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_10-300x218.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_10-1024x744.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_10-768x558.jpg 768w" sizes="auto, (max-width: 1536px) 100vw, 1536px" /><figcaption id="caption-attachment-114602" class="wp-caption-text">Government confirmation of Bai Tinghui&#8217;s dismissal (<a href="https://www.shanghai.gov.cn/rsrm2023/20231023/a04677676dd443fd8c38c2a462758ccd.html" target="_blank">Source</a>)</figcaption></figure>
-<p>Because the Shanghai SASAC posted the news on WeChat, we know that the investigation itself was not subject to censorship. The lack of complete censorship regarding the investigation raises questions about what “validated events” would have been reported to Zhao Nannan following the announcement.</p>
-<p>Currently, only five webpages of the Shanghai SASAC still mention Bai Tinghui. All five pages also mention Bai leading a Party study session of Xi Jinping Thought. It’s unclear why only these pages of Bai Tinghui remain–perhaps his tarnished reputation is outshown by Xi Jinping: it may be hard to delete a website with Xi Jinping’s name on it, even if it is accompanied by a corrupt local official.</p>
-<figure id="attachment_114599" aria-describedby="caption-attachment-114599" style="width: 1088px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" src="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_13.jpg" alt="Search results that still show Bai Tinghui’s name on SASAC website" width="1088" height="1778" class="size-full wp-image-114599" srcset="https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_13.jpg 1088w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_13-184x300.jpg 184w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_13-627x1024.jpg 627w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_13-768x1255.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/02/topsec_13-940x1536.jpg 940w" sizes="auto, (max-width: 1088px) 100vw, 1088px" /><figcaption id="caption-attachment-114599" class="wp-caption-text">Search results that still show Bai Tinghui’s name on SASAC website</figcaption></figure>
-<p>Intriguingly, the organization that is responsible for investigating the fallen Bai Tinghui, the Shanghai Municipal Commission for Discipline Inspection, is listed among TopSec’s customers in the tooling.</p>
-<p>The downfall of Bai Tinghui and the resulting use of Beijing TopSec’s tooling for coordinated monitoring of politically sensitive content shines a light on the important role cybersecurity companies can play in Chinese politics. The CCP has <a href="https://www.newamerica.org/cybersecurity-initiative/blog/chinas-strategic-thinking-building-power-cyberspace/">long-acknowledged</a> that “If our party cannot traverse the hurdle represented by the Internet, it cannot traverse the hurdle of remaining in power for the long term.” This episode provides a compelling example of how corruption investigations expand to rely on the institutions of those being investigated and the cybersecurity companies that service them.</p>
-<h2>Conclusion</h2>
-<p>These leaks yield insight into the complex ecosystem of relationships between government entities and China’s private sector cybersecurity companies. While many countries have significant overlap between government requirements and private sector cybersecurity firms, the ties between these entities in China are much deeper and represent the state’s grasp on managing public opinion through online enforcement.</p>
-<p>The September 2023 situation in Shanghai provides insight into how local and national government interests are enforced through private sector partnerships. The CCP’s strategy of controlling information is multifaceted and requires significant investment in resources that enable the monitoring and alteration of content that citizens engage with. While there are still many unknown factors regarding how such censorship is applied, these findings yield insights into how collaboration occurs between the government and other entities in China.</p>
-<p>The nature of how this data was leaked remains unclear, but the materials show that TopSec engineers were documenting their work in a highly granular way that included entire commands used to perform the outlined tasks. Considering the types of information in this leak, organizations should evaluate how their systems and infrastructure engineers are logging work. Proper credential management is essential to securing sensitive environments. Infrastructure engineers should rely on a secrets manager that integrates with the CI/CD pipeline rather than running commands from playbooks that include hardcoded credentials. This results in only variable names being stored in commands instead of sensitive credentials and lowers the likelihood that an unexpected disclosure could result in further compromise.</p>
-]]></content:encoded>
-					
-		
-		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/CasS-Leaks-ftr.jpg" length="604370" type="image/jpeg" />	</item>
 	</channel>
 </rss>
