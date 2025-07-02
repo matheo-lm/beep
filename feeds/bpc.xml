@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 02 Jul 2025 08:04:49 EDT</pubDate>
+        <pubDate>Wed, 02 Jul 2025 09:08:46 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title> Grok 4 spotted ahead of launch with special coding features</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/grok-4-spotted-ahead-of-launch-with-special-coding-features/</link>
+        <pubDate>Wed, 02 Jul 2025 08:22:34 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/grok-4-spotted-ahead-of-launch-with-special-coding-features/</guid>
+	<description><![CDATA[Elon Musk-funded xAI is skipping Grok 3.5 and releasing Grok 4 after Independence Day in the United States. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft: DNS issue blocks delivery of Exchange Online OTP codes</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-links-dns-issue-to-exchange-online-otp-delivery-failures/</link>
+        <pubDate>Wed, 02 Jul 2025 08:21:59 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-links-dns-issue-to-exchange-online-otp-delivery-failures/</guid>
+	<description><![CDATA[Microsoft is working to fix a DNS misconfiguration that is causing one-time passcode (OTP) message delivery failures in Exchange Online for some users. [...]]]></description>
+ </item>
+
  <item>
         <title>Qantas discloses cyberattack amid Scattered Spider aviation breaches</title>
         <link>https://www.bleepingcomputer.com/news/security/qantas-discloses-cyberattack-amid-scattered-spider-aviation-breaches/</link>
@@ -164,54 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/johnson-controls-starts-notifying-people-affected-by-2023-breach/</guid>
 	<description><![CDATA[Building automation giant Johnson Controls is notifying individuals whose data was stolen in a massive ransomware attack that impacted the company's operations worldwide in September 2023. [...]]]></description>
- </item>
-
- <item>
-        <title>Google fixes fourth actively exploited Chrome zero-day of 2025</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-fixes-fourth-actively-exploited-chrome-zero-day-of-2025/</link>
-        <pubDate>Tue, 01 Jul 2025 06:59:51 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-fixes-fourth-actively-exploited-chrome-zero-day-of-2025/</guid>
-	<description><![CDATA[Google has released emergency updates to patch another Chrome zero-day vulnerability exploited in attacks, marking the fourth such flaw fixed since the start of the year. [...]]]></description>
- </item>
-
- <item>
-        <title>U.S. warns of Iranian cyber threats on critical infrastructure</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-warns-of-iranian-cyber-threats-on-critical-infrastructure/</link>
-        <pubDate>Mon, 30 Jun 2025 18:24:46 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-warns-of-iranian-cyber-threats-on-critical-infrastructure/</guid>
-	<description><![CDATA[U.S. cyber agencies, the FBI, and NSA issued an urgent warning today about potential cyberattacks from Iranian-affiliated hackers targeting U.S. critical infrastructure. [...]]]></description>
- </item>
-
- <item>
-        <title>Germany asks Google, Apple to remove DeepSeek AI from app stores</title>
-        <link>https://www.bleepingcomputer.com/news/security/germany-asks-google-apple-remove-deepseek-ai-from-app-stores/</link>
-        <pubDate>Mon, 30 Jun 2025 14:03:31 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/germany-asks-google-apple-remove-deepseek-ai-from-app-stores/</guid>
-	<description><![CDATA[The Berlin Commissioner for Data Protection has formally requested Google and Apple to remove the DeepSeek AI application from the application stores due to GDPR violations. [...]]]></description>
  </item>
 
 </channel>
