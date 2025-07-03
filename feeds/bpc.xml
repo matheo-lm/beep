@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 03 Jul 2025 06:02:08 EDT</pubDate>
+        <pubDate>Thu, 03 Jul 2025 06:58:36 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hunters International ransomware shuts down after World Leaks rebrand</title>
+        <link>https://www.bleepingcomputer.com/news/security/hunters-international-ransomware-shuts-down-after-world-leaks-rebrand/</link>
+        <pubDate>Thu, 03 Jul 2025 06:53:21 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hunters-international-ransomware-shuts-down-after-world-leaks-rebrand/</guid>
+	<description><![CDATA[​The Hunters International Ransomware-as-a-Service (RaaS) operation announced today that it has officially closed down its operations and will offer free decryptors to help victims recover their data without paying a ransom. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft asks users to ignore Windows Firewall config errors</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-windows-firewall-config-errors/</link>
@@ -190,22 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/qantas-discloses-cyberattack-amid-scattered-spider-aviation-breaches/</guid>
 	<description><![CDATA[Australian airline Qantas disclosed that it detected a cyberattack on Monday after threat actors gained access to a third-party platform containing customer data. [...]]]></description>
- </item>
-
- <item>
-        <title>AT&amp;T rolls out "Wireless Lock" feature to block SIM swap attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/atandt-rolls-out-wireless-lock-feature-to-block-sim-swap-attacks/</link>
-        <pubDate>Tue, 01 Jul 2025 16:23:03 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/atandt-rolls-out-wireless-lock-feature-to-block-sim-swap-attacks/</guid>
-	<description><![CDATA[AT&T has launched a new security feature called "Wireless Lock" that protects customers from SIM swapping attacks by preventing changes to their account information and the porting of phone numbers while the feature is enabled. [...]]]></description>
  </item>
 
 </channel>
