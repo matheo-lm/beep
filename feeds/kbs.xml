@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Mon, 30 Jun 2025 17:33:59 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Jul 2025 16:10:16 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,78 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Big Tech&#8217;s Mixed Response to U.S. Treasury Sanctions</title>
+		<link>https://krebsonsecurity.com/2025/07/big-techs-mixed-response-to-u-s-treasury-sanctions/</link>
+					<comments>https://krebsonsecurity.com/2025/07/big-techs-mixed-response-to-u-s-treasury-sanctions/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Thu, 03 Jul 2025 16:06:05 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[Web Fraud 2.0]]></category>
+		<category><![CDATA[@nicelizhi]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Funnull Technology Inc.]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[gmail]]></category>
+		<category><![CDATA[hotmail]]></category>
+		<category><![CDATA[LinkedIn]]></category>
+		<category><![CDATA[Liu "Steve" Lizhi]]></category>
+		<category><![CDATA[mark rasch]]></category>
+		<category><![CDATA[NexaMerchant]]></category>
+		<category><![CDATA[Nice Lizhi]]></category>
+		<category><![CDATA[Paypal]]></category>
+		<category><![CDATA[twitter]]></category>
+		<category><![CDATA[Unit 221B]]></category>
+		<category><![CDATA[XXL4]]></category>
+		<category><![CDATA[Youtube]]></category>
+		<category><![CDATA[Zach Edwards]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71564</guid>
+
+					<description><![CDATA[In May 2025, the U.S. government sanctioned a Chinese national for operating a cloud provider linked to the majority of virtual currency investment scam websites reported to the FBI. But more than a month later, the accused continues to openly operate accounts at a slew of American tech companies, including Facebook, Github, LinkedIn, PayPal and Twitter/X.]]></description>
+										<content:encoded><![CDATA[<p>In May 2025, the U.S. government sanctioned a Chinese national for operating a cloud provider linked to the majority of virtual currency investment scam websites reported to the FBI. But a new report finds the accused continues to operate a slew of established accounts at American tech companies &#8212; including <strong>Facebook</strong>, <strong>Github</strong>, <strong>PayPal</strong> and <strong>Twitter/X</strong>.</p>
+<p>On May 29, the <strong>U.S. Department of the Treasury</strong> <a href="https://krebsonsecurity.com/2025/05/u-s-sanctions-cloud-provider-funnull-as-top-source-of-pig-butchering-scams/" target="_blank" rel="noopener">announced economic sanctions</a> against <strong>Funnull Technology Inc.</strong>, a Philippines-based company alleged to provide infrastructure for hundreds of thousands of websites involved in virtual currency investment scams known as &#8220;<a href="https://krebsonsecurity.com/2022/07/massive-losses-define-epidemic-of-pig-butchering/" target="_blank" rel="noopener">pig butchering</a>.&#8221; In January 2025, KrebsOnSecurity detailed how Funnull was designed as a content delivery network that catered to <a href="https://krebsonsecurity.com/2025/01/infrastructure-laundering-blending-in-with-the-cloud/" target="_blank" rel="noopener">foreign cybercriminals seeking to route their traffic through U.S.-based cloud providers</a>.</p>
+<p><img decoding="async" class="aligncenter size-full wp-image-71586" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/lizhisanctions.png" alt="" width="663" height="569" /></p>
+<p>The Treasury also sanctioned Funnull&#8217;s alleged operator, a 40-year-old Chinese national named <strong>Liu &#8220;Steve&#8221; Lizhi</strong>. The government says Funnull directly facilitated financial schemes resulting in more than $200 million in financial losses by Americans, and that the company&#8217;s operations were linked to the majority of pig butchering scams reported to the FBI.</p>
+<p>It is generally illegal for U.S. companies or individuals to transact with people sanctioned by the Treasury. However, as Mr. Lizhi&#8217;s case makes clear, just because someone is sanctioned doesn&#8217;t necessarily mean big tech companies are going to suspend their online accounts.</p>
+<p>The government says Lizhi was born November 13, 1984, and used the nicknames &#8220;<strong>XXL4</strong>&#8221; and &#8220;<strong>Nice Lizhi</strong>.&#8221; Nevertheless, Steve Liu&#8217;s 17-year-old account on LinkedIn (in the name &#8220;Liulizhi&#8221;) had hundreds of followers (Lizhi&#8217;s LinkedIn profile helpfully confirms his birthday) until quite recently: The account was deleted this morning, just hours after KrebsOnSecurity sought comment from LinkedIn.</p>
+<div id="attachment_71584" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71584" decoding="async" loading="lazy" class="wp-image-71584" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/linkedin-liu.png" alt="" width="750" height="623" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/linkedin-liu.png 789w, https://krebsonsecurity.com/wp-content/uploads/2025/07/linkedin-liu-768x638.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/linkedin-liu-782x649.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-71584" class="wp-caption-text">Mr. Lizhi&#8217;s LinkedIn account was suspended sometime in the last 24 hours, after KrebsOnSecurity sought comment from LinkedIn.</p></div>
+<p>In an emailed response, a LinkedIn spokesperson said the company&#8217;s &#8220;<a href="https://www.linkedin.com/help/linkedin/answer/a1339324/prohibited-countries-policy?lang=en" target="_blank" rel="noopener">Prohibited countries policy</a>&#8221; states that LinkedIn &#8220;does not sell, license, support or otherwise make available its Premium accounts or other <strong>paid</strong> products and services to individuals and companies sanctioned by the U.S. government.&#8221; LinkedIn declined to say whether the profile in question was a premium or free account.</p>
+<p>Mr. Lizhi also maintains <a href="https://paypal.com/paypalme/nicelizhi" target="_blank" rel="noopener">a working PayPal account</a> under the name Liu Lizhi and username &#8220;<strong>@nicelizhi</strong>,&#8221; another nickname listed in the Treasury sanctions. PayPal did not respond to a request for comment. A 15-year-old <a href="https://x.com/phpedu/with_replies" target="_blank" rel="noopener">Twitter/X account named &#8220;Lizhi&#8221;</a> that links to Mr. Lizhi&#8217;s personal domain remains active, although it has few followers and hasn&#8217;t posted in years.</p>
+<p>These accounts and many others were flagged by the security firm <strong>Silent Push</strong>, which has been tracking Funnull&#8217;s operations for the past year and calling out U.S. cloud providers like <strong>Amazon</strong> and <strong>Microsoft</strong> for failing to more quickly sever ties with the company.</p>
+<div id="attachment_71588" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71588" decoding="async" loading="lazy" class="wp-image-71588" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/pp-lizhi.png" alt="" width="749" height="471" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/pp-lizhi.png 816w, https://krebsonsecurity.com/wp-content/uploads/2025/07/pp-lizhi-768x483.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/pp-lizhi-782x492.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71588" class="wp-caption-text">Liu Lizhi&#8217;s PayPal account.</p></div>
+<p>In <a href="https://www.silentpush.com/blog/funnull-admin-sanctions/" target="_blank" rel="noopener">a report</a> released today, Silent Push found Lizhi still operates numerous Facebook accounts and groups, including a private Facebook account under the name Liu Lizhi. Another active Facebook account clearly connected to Lizhi is a tourism page for Ganzhou, China called &#8220;<strong>EnjoyGanzhou</strong>&#8221; that was named in the Treasury Department sanctions.</p>
+<p>&#8220;This guy is the technical administrator for the infrastructure that is hosting a majority of scams targeting people in the United States, and hundreds of millions have been lost based on the websites he&#8217;s been hosting,&#8221; said <strong>Zach Edwards</strong>, senior threat researcher at Silent Push. &#8220;It&#8217;s crazy that the vast majority of big tech companies haven&#8217;t done anything to cut ties with this guy.&#8221;</p>
+<p>The FBI says it received nearly 150,000 complaints last year involving digital assets and $9.3 billion in losses &#8212; a 66 percent increase from the previous year. Investment scams were the top crypto-related crimes reported, with $5.8 billion in losses.<span id="more-71564"></span></p>
+<p>In a statement, a Meta spokesperson said the company continuously takes steps to meet its legal obligations, but that sanctions laws are complex and varied.</p>
+<p>&#8220;Sanctions are often targeted in nature and don&#8217;t always prohibit people from having a presence on our platform,&#8221; the statement reads. &#8220;Whether specific activity is restricted by sanctions or Meta&#8217;s Terms and Policies depends on the specific facts.&#8221;</p>
+<p>Attempts to reach Mr. Lizhi via his primary email addresses at <strong>Hotmail</strong> and <strong>Gmail</strong> bounced as undeliverable. Likewise, his 14-year-old <strong>YouTube</strong> channel appears to have been taken down recently.</p>
+<p>However, anyone interested in viewing or using Mr. Lizhi&#8217;s 146 computer code repositories will have no problem finding active GitHub accounts for him, including one registered under the NiceLizhi and XXL4 nicknames mentioned in the Treasury sanctions.</p>
+<div id="attachment_71587" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71587" decoding="async" loading="lazy" class=" wp-image-71587" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/xxl4-github.png" alt="" width="750" height="515" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/xxl4-github.png 1131w, https://krebsonsecurity.com/wp-content/uploads/2025/07/xxl4-github-768x528.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/xxl4-github-782x538.png 782w, https://krebsonsecurity.com/wp-content/uploads/2025/07/xxl4-github-100x70.png 100w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-71587" class="wp-caption-text">One of multiple active GitHub profiles used by Liu &#8220;Steve&#8221; Lizhi, who uses the nickname XXL4 (a moniker listed in the Treasury sanctions for Mr. Lizhi).</p></div>
+<p>Mr. Lizhi also operates a GitHub page for an open source e-commerce platform called <strong>NexaMerchant</strong>, which advertises itself as a payment gateway working with numerous American financial institutions. Interestingly, this profile&#8217;s <a href="https://www.github.com/orgs/NexaMerchant/follower" target="_blank" rel="noopener">&#8220;followers&#8221; page</a> shows several other accounts that appear to be Mr. Lizhi&#8217;s. All of the account&#8217;s followers are tagged as &#8220;suspended,&#8221; even though that suspended message does not display when one visits those individual profiles.</p>
+<p>In response to questions, GitHub said it has a process in place to identify when users and customers are Specially Designated Nationals or other denied or blocked parties, but that it locks those accounts instead of removing them. According to its policy, GitHub takes care that users and customers aren&#8217;t impacted beyond what is required by law.</p>
+<div id="attachment_71595" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71595" decoding="async" loading="lazy" class=" wp-image-71595" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/nexamerchant.png" alt="" width="748" height="493" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/nexamerchant.png 1225w, https://krebsonsecurity.com/wp-content/uploads/2025/07/nexamerchant-768x507.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/nexamerchant-782x516.png 782w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-71595" class="wp-caption-text">All of the follower accounts for the XXL4 GitHub account appear to be Mr. Lizhi&#8217;s, and have been suspended by GitHub, but their code is still accessible.</p></div>
+<p>&#8220;This includes keeping public repositories, including those for open source projects, available and accessible to support personal communications involving developers in sanctioned regions,&#8221; the policy states. &#8220;This also means GitHub will advocate for developers in sanctioned regions to enjoy greater access to the platform and full access to the global open source community.&#8221;</p>
+<p>Edwards said it&#8217;s great that GitHub has a process for handling sanctioned accounts, but that the process doesn&#8217;t seem to communicate risk in a transparent way, noting that the only indicator on the locked accounts is the message, &#8220;This repository has been archived by the owner. It is not read-only.&#8221;</p>
+<p>&#8220;It&#8217;s an odd message that doesn&#8217;t communicate, &#8216;This is a sanctioned entity, don&#8217;t fork this code or use it in a production environment&#8217;,&#8221; Edwards said.</p>
+<p><strong>Mark Rasch</strong> is a former federal cybercrime prosecutor who now serves as counsel for the New York City based security consulting firm <strong>Unit 221B</strong>. Rasch said when Treasury&#8217;s Office of Foreign Assets Control (OFAC) sanctions a person or entity, it then becomes illegal for businesses or organizations to transact with the sanctioned party.</p>
+<p>Rasch said financial institutions have very mature systems for severing accounts tied to people who become subject to OFAC sanctions, but that tech companies may be far less proactive &#8212; particularly with free accounts.</p>
+<p>&#8220;Banks have established ways of checking [U.S. government sanctions lists] for sanctioned entities, but tech companies don&#8217;t necessarily do a good job with that, especially for services that you can just click and sign up for,&#8221; Rasch said. &#8220;It&#8217;s potentially a risk and liability for the tech companies involved, but only to the extent OFAC is willing to enforce it.&#8221;</p>
+<div id="attachment_71589" style="width: 783px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71589" decoding="async" loading="lazy" class="size-full wp-image-71589" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/fb-ganzhou.png" alt="" width="773" height="651" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/fb-ganzhou.png 773w, https://krebsonsecurity.com/wp-content/uploads/2025/07/fb-ganzhou-768x647.png 768w" sizes="(max-width: 773px) 100vw, 773px" /><p id="caption-attachment-71589" class="wp-caption-text">Liu Lizhi operates numerous active Facebook accounts and groups, including this one for an entity specified in the OFAC sanctions: The &#8220;Enjoy Ganzhou&#8221; tourism page for Ganzhou, China. Image: Silent Push.</p></div>
+<p>In July 2024, Funnull purchased the domain polyfill[.]io, the longtime home of a legitimate open source project that allowed websites to ensure that devices using legacy browsers could still render content in newer formats. After the Polyfill domain changed hands, at least 384,000 websites were <a href="https://arstechnica.com/security/2024/07/384000-sites-link-to-code-library-caught-performing-supply-chain-attack/" target="_blank" rel="noopener">caught in a supply-chain attack</a> that redirected visitors to malicious sites. According to the Treasury, Funnull used the code to redirect people to scam websites and online gambling sites, some of which were linked to Chinese criminal money laundering operations.</p>
+<p>The U.S. government says Funnull provides domain names for websites on its purchased IP addresses, using domain generation algorithms (DGAs) — programs that generate large numbers of similar but unique names for websites — and that it sells web design templates to cybercriminals.</p>
+<p>&#8220;These services not only make it easier for cybercriminals to impersonate trusted brands when creating scam websites, but also allow them to quickly change to different domain names and IP addresses when legitimate providers attempt to take the websites down,&#8221; reads a Treasury statement.</p>
+<p>Meanwhile, Funnull appears to be morphing nearly all aspects of its business in the wake of the sanctions, Edwards said.</p>
+<p>&#8220;Whereas before they might have used 60 DGA domains to hide and bounce their traffic, we&#8217;re seeing far more now,&#8221; he said. &#8220;They&#8217;re trying to make their infrastructure harder to track and more complicated, so for now they&#8217;re not going away but more just changing what they&#8217;re doing. And a lot more organizations should be holding their feet to the fire.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/07/big-techs-mixed-response-to-u-s-treasury-sanctions/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Senator Chides FBI for Weak Advice on Mobile Security</title>
 		<link>https://krebsonsecurity.com/2025/06/senator-chides-fbi-for-weak-advice-on-mobile-security/</link>
 					<comments>https://krebsonsecurity.com/2025/06/senator-chides-fbi-for-weak-advice-on-mobile-security/#comments</comments>
@@ -51,7 +123,7 @@
 
 					<description><![CDATA[Agents with the Federal Bureau of Investigation (FBI) briefed Capitol Hill staff recently on hardening the security of their mobile devices, after a contacts list stolen from the personal phone of the White House Chief of Staff Susie Wiles was reportedly used to fuel a series of text messages and phone calls impersonating her to U.S. lawmakers. But in a letter this week to the FBI, one of the Senate's most tech-savvy lawmakers says the feds aren't doing enough to recommend more appropriate security protections that are already built into most consumer mobile devices.]]></description>
 										<content:encoded><![CDATA[<p>Agents with the <strong>Federal Bureau of Investigation</strong> (FBI) briefed Capitol Hill staff recently on hardening the security of their mobile devices, after a contacts list stolen from the personal phone of the White House Chief of Staff <strong>Susie Wiles</strong> was reportedly used to fuel a series of text messages and phone calls impersonating her to U.S. lawmakers. But in a letter this week to the FBI, one of the Senate&#8217;s most tech-savvy lawmakers says the feds aren&#8217;t doing enough to recommend more appropriate security protections that are already built into most consumer mobile devices.</p>
-<div id="attachment_71570" style="width: 762px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71570" decoding="async" class=" wp-image-71570" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/wyden-patel-letter.png" alt="" width="752" height="822" /><p id="caption-attachment-71570" class="wp-caption-text">A screenshot of the first page from Sen. Wyden&#8217;s letter to FBI Director Kash Patel.</p></div>
+<div id="attachment_71570" style="width: 762px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71570" decoding="async" loading="lazy" class=" wp-image-71570" src="https://krebsonsecurity.com/wp-content/uploads/2025/06/wyden-patel-letter.png" alt="" width="752" height="822" /><p id="caption-attachment-71570" class="wp-caption-text">A screenshot of the first page from Sen. Wyden&#8217;s letter to FBI Director Kash Patel.</p></div>
 <p>On May 29, <strong>The Wall Street Journal</strong> <a href="https://www.wsj.com/politics/policy/federal-authorities-probe-effort-to-impersonate-white-house-chief-of-staff-65da0d59" target="_blank" rel="noopener">reported</a> that federal authorities were investigating a clandestine effort to impersonate Ms. Wiles via text messages and in phone calls that may have used AI to spoof her voice. According to The Journal, Wiles told associates her cellphone contacts were hacked, giving the impersonator access to the private phone numbers of some of the country&#8217;s most influential people.</p>
 <p>The execution of this phishing and impersonation campaign &#8212; whatever its goals may have been &#8212; suggested the attackers were financially motivated, and not particularly sophisticated.</p>
 <p>&#8220;It became clear to some of the lawmakers that the requests were suspicious when the impersonator began asking questions about Trump that Wiles should have known the answers to—and in one case, when the impersonator asked for a cash transfer, some of the people said,&#8221; the Journal wrote. &#8220;In many cases, the impersonator’s grammar was broken and the messages were more formal than the way Wiles typically communicates, people who have received the messages said. The calls and text messages also didn’t come from Wiles’s phone number.&#8221;</p>
@@ -579,60 +651,15 @@
 		
 		
 			</item>
-		<item>
-		<title>Patch Tuesday, May 2025 Edition</title>
-		<link>https://krebsonsecurity.com/2025/05/patch-tuesday-may-2025-edition/</link>
-					<comments>https://krebsonsecurity.com/2025/05/patch-tuesday-may-2025-edition/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Wed, 14 May 2025 11:57:48 +0000</pubDate>
-				<category><![CDATA[Latest Warnings]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[Time to Patch]]></category>
-		<category><![CDATA[Adam Barnett]]></category>
-		<category><![CDATA[CVE-2025-30397]]></category>
-		<category><![CDATA[CVE-2025-30400]]></category>
-		<category><![CDATA[CVE-2025-32701]]></category>
-		<category><![CDATA[CVE-2025-32706]]></category>
-		<category><![CDATA[CVE-2025-32709]]></category>
-		<category><![CDATA[Immersive Labs]]></category>
-		<category><![CDATA[Kev Breen]]></category>
-		<category><![CDATA[Microsoft Patch Tuesday May 2025]]></category>
-		<category><![CDATA[Rapid7]]></category>
-		<category><![CDATA[Windows Common Log File System]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71250</guid>
-
-					<description><![CDATA[Microsoft on Tuesday released software updates to fix at least 70 vulnerabilities in Windows and related products, including five zero-day flaws that are already seeing active exploitation. Adding to the sense of urgency with this month's patch batch from Redmond are fixes for two other weaknesses that now have public proof-of-concept exploits available.]]></description>
-										<content:encoded><![CDATA[<p><strong>Microsoft</strong> on Tuesday released software updates to fix at least 70 vulnerabilities in <strong>Windows</strong> and related products, including <em>five zero-day flaws that are already seeing active exploitation</em>. Adding to the sense of urgency with this month&#8217;s patch batch from Redmond are fixes for two other weaknesses that now have public proof-of-concept exploits available.</p>
-<p><img decoding="async" loading="lazy" class="aligncenter  wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
-<p>Microsoft and several security firms have disclosed that attackers are exploiting a pair of bugs in the <strong>Windows Common Log File System</strong> (CLFS) driver that allow attackers to elevate their privileges on a vulnerable device. The Windows CLFS is a critical Windows component responsible for logging services, and is widely used by Windows system services and third-party applications for logging. Tracked as <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-32701" target="_blank" rel="noopener">CVE-2025-32701</a> &amp; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-32706" target="_blank" rel="noopener">CVE-2025-32706</a>, these flaws are present in all supported versions of Windows 10 and 11, as well as their server versions.</p>
-<p><strong>Kev Breen</strong>, senior director of threat research at <strong>Immersive Labs</strong>, said privilege escalation bugs assume an attacker already has initial access to a compromised host, typically through a phishing attack or by using stolen credentials. But if that access already exists, Breen said, attackers can gain access to the much more powerful Windows SYSTEM account, which can disable security tooling or even gain domain administration level permissions using credential harvesting tools.</p>
-<p>&#8220;The patch notes don&#8217;t provide technical details on how this is being exploited, and no Indicators of Compromise (IOCs) are shared, meaning the only mitigation security teams have is to apply these patches immediately,&#8221; he said. &#8220;The average time from public disclosure to exploitation at scale is less than five days, with threat actors, ransomware groups, and affiliates quick to leverage these vulnerabilities.&#8221;</p>
-<p>Two other zero-days patched by Microsoft today also were elevation of privilege flaws: <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-32709" target="_blank" rel="noopener">CVE-2025-32709</a>, which concerns afd.sys, the <strong>Windows Ancillary Function Driver</strong> that enables Windows applications to connect to the Internet; and <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-30400" target="_blank" rel="noopener">CVE-2025-30400</a>, a weakness in the <strong>Desktop Window Manager</strong> (DWM) library for Windows. As <strong>Adam Barnett</strong> at <strong>Rapid7</strong> notes, tomorrow marks the <a href="https://www.rapid7.com/blog/post/2024/05/14/patch-tuesday-may-2024/" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://www.rapid7.com/blog/post/2024/05/14/patch-tuesday-may-2024/&amp;source=gmail&amp;ust=1747257386891000&amp;usg=AOvVaw3VPzmtS8Na55bRRDOUkbDw">one-year anniversary</a> of <a href="https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2024-30051" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2024-30051&amp;source=gmail&amp;ust=1747257386891000&amp;usg=AOvVaw2HzZh4Tm-0eKXolluDR0FX">CVE-2024-30051</a>, a previous zero-day elevation of privilege vulnerability in this same DWM component.</p>
-<p>The fifth zero-day patched today is <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-30397" target="_blank" rel="noopener">CVE-2025-30397</a>, a flaw in the <strong>Microsoft Scripting Engine</strong>, a key component used by <strong>Internet Explorer</strong> and <strong>Internet Explorer mode</strong> in <strong>Microsoft Edge</strong>.<span id="more-71250"></span></p>
-<p><strong>Chris Goettl</strong> at <strong>Ivanti</strong> points out that the Windows 11 and Server 2025 updates include some new AI features that carry a lot of baggage and weigh in at around 4 gigabytes. Said baggage includes new artificial intelligence (AI) capabilities, including the controversial <strong>Recall</strong> feature, which constantly takes screenshots of what users are doing on Windows CoPilot-enabled computers.</p>
-<p>Microsoft went back to the drawing board on Recall after a fountain of negative feedback from security experts, who warned it would present an attractive target and a potential gold mine for attackers. Microsoft appears to have made some efforts to prevent Recall from scooping up sensitive financial information, but privacy and security concerns still linger. Former Microsoftie <strong>Kevin Beaumont</strong> has <a href="https://cyberplace.social/@GossiTheDog/114360483150635243" target="_blank" rel="noopener">a good teardown</a> on Microsoft&#8217;s updates to Recall.</p>
-<p>In any case, <strong>windowslatest.com</strong> reports that <strong>Windows 11 version 24H2</strong> shows up ready for downloads, even if you don&#8217;t want it.</p>
-<p>&#8220;It will now show up for &#8216;download and install&#8217; automatically if you go to Settings &gt; Windows Update and click Check for updates, but only when your device does not have a compatibility hold,&#8221; the publication <a href="https://www.windowslatest.com/2025/05/05/windows-11-24h2-now-fully-ready-downloads-even-if-you-dont-want-it/" target="_blank" rel="noopener">reported</a>. &#8220;Even if you don&#8217;t check for updates, Windows 11 24H2 will automatically download at some point.&#8221;</p>
-<p>Apple users likely have their own patching to do. On May 12 Apple released security updates to fix at least 30 vulnerabilities in <strong>iOS</strong> and <strong>iPadOS</strong> (the updated version <a href="https://support.apple.com/en-us/122404" target="_blank" rel="noopener">is 18.5</a>). <strong>TechCrunch</strong> <a href="https://techcrunch.com/2025/05/12/apple-brings-emergency-satellite-features-to-iphone-13-with-ios-18-5/" target="_blank" rel="noopener">writes</a> that iOS 18.5 also expands emergency satellite capabilities to iPhone 13 owners for the first time (previously it was only available on iPhone 14 or later).</p>
-<p>Apple also <a href="https://support.apple.com/en-us/100100" target="_blank" rel="noopener">released updates</a> for <strong>macOS Sequoia</strong>, <strong>macOS Sonoma</strong>, <strong>macOS Ventura</strong>, <strong>WatchOS</strong>, <strong>tvOS</strong> and <strong>visionOS</strong>. Apple said there is no indication of active exploitation for any of the vulnerabilities fixed this month.</p>
-<p>As always, please back up your device and/or important data before attempting any updates. And please feel free to sound off in the comments if you run into any problems applying any of these fixes.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/05/patch-tuesday-may-2025-edition/feed/</wfw:commentRss>
-			<slash:comments>25</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 288/288 objects using memcached
-Page Caching using memcached 
+Object Caching 303/303 objects using memcached
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-03 11:40:08 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-03 12:55:33 by W3 Total Cache
 -->
