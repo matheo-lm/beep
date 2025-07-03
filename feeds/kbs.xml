@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Thu, 03 Jul 2025 16:10:16 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Jul 2025 18:50:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -64,8 +64,7 @@
 <p>In <a href="https://www.silentpush.com/blog/funnull-admin-sanctions/" target="_blank" rel="noopener">a report</a> released today, Silent Push found Lizhi still operates numerous Facebook accounts and groups, including a private Facebook account under the name Liu Lizhi. Another active Facebook account clearly connected to Lizhi is a tourism page for Ganzhou, China called &#8220;<strong>EnjoyGanzhou</strong>&#8221; that was named in the Treasury Department sanctions.</p>
 <p>&#8220;This guy is the technical administrator for the infrastructure that is hosting a majority of scams targeting people in the United States, and hundreds of millions have been lost based on the websites he&#8217;s been hosting,&#8221; said <strong>Zach Edwards</strong>, senior threat researcher at Silent Push. &#8220;It&#8217;s crazy that the vast majority of big tech companies haven&#8217;t done anything to cut ties with this guy.&#8221;</p>
 <p>The FBI says it received nearly 150,000 complaints last year involving digital assets and $9.3 billion in losses &#8212; a 66 percent increase from the previous year. Investment scams were the top crypto-related crimes reported, with $5.8 billion in losses.<span id="more-71564"></span></p>
-<p>In a statement, a Meta spokesperson said the company continuously takes steps to meet its legal obligations, but that sanctions laws are complex and varied.</p>
-<p>&#8220;Sanctions are often targeted in nature and don&#8217;t always prohibit people from having a presence on our platform,&#8221; the statement reads. &#8220;Whether specific activity is restricted by sanctions or Meta&#8217;s Terms and Policies depends on the specific facts.&#8221;</p>
+<p>In a statement, a Meta spokesperson said the company continuously takes steps to meet its legal obligations, but that sanctions laws are complex and varied. They explained that sanctions are often targeted in nature and don&#8217;t always prohibit people from having a presence on its platform. Nevertheless, Meta confirmed it had removed the account, unpublished Pages, and removed Groups and events associated with the user for violating its policies.</p>
 <p>Attempts to reach Mr. Lizhi via his primary email addresses at <strong>Hotmail</strong> and <strong>Gmail</strong> bounced as undeliverable. Likewise, his 14-year-old <strong>YouTube</strong> channel appears to have been taken down recently.</p>
 <p>However, anyone interested in viewing or using Mr. Lizhi&#8217;s 146 computer code repositories will have no problem finding active GitHub accounts for him, including one registered under the NiceLizhi and XXL4 nicknames mentioned in the Treasury sanctions.</p>
 <div id="attachment_71587" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71587" decoding="async" loading="lazy" class=" wp-image-71587" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/xxl4-github.png" alt="" width="750" height="515" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/xxl4-github.png 1131w, https://krebsonsecurity.com/wp-content/uploads/2025/07/xxl4-github-768x528.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/xxl4-github-782x538.png 782w, https://krebsonsecurity.com/wp-content/uploads/2025/07/xxl4-github-100x70.png 100w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-71587" class="wp-caption-text">One of multiple active GitHub profiles used by Liu &#8220;Steve&#8221; Lizhi, who uses the nickname XXL4 (a moniker listed in the Treasury sanctions for Mr. Lizhi).</p></div>
@@ -84,6 +83,7 @@
 <p>&#8220;These services not only make it easier for cybercriminals to impersonate trusted brands when creating scam websites, but also allow them to quickly change to different domain names and IP addresses when legitimate providers attempt to take the websites down,&#8221; reads a Treasury statement.</p>
 <p>Meanwhile, Funnull appears to be morphing nearly all aspects of its business in the wake of the sanctions, Edwards said.</p>
 <p>&#8220;Whereas before they might have used 60 DGA domains to hide and bounce their traffic, we&#8217;re seeing far more now,&#8221; he said. &#8220;They&#8217;re trying to make their infrastructure harder to track and more complicated, so for now they&#8217;re not going away but more just changing what they&#8217;re doing. And a lot more organizations should be holding their feet to the fire.&#8221;</p>
+<p><strong>Update, 2:48 PM ET: </strong>Added response from Meta, which confirmed it has closed the accounts and groups connected to Mr. Lizhi.</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/07/big-techs-mixed-response-to-u-s-treasury-sanctions/feed/</wfw:commentRss>
@@ -661,5 +661,5 @@ Object Caching 303/303 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-03 14:01:38 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-03 14:53:05 by W3 Total Cache
 -->
