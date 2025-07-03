@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=0day.work" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Mon, 30 Jun 2025 17:33:59 +0000</lastBuildDate>
@@ -76,7 +76,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/06/senator-chides-fbi-for-weak-advice-on-mobile-security/feed/</wfw:commentRss>
-			<slash:comments>21</slash:comments>
+			<slash:comments>22</slash:comments>
 		
 		
 			</item>
@@ -631,8 +631,8 @@
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 288/288 objects using memcached
-Page Caching using memcached 
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-03 08:04:57 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-03 09:07:16 by W3 Total Cache
 -->
