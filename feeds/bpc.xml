@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 03 Jul 2025 18:59:29 EDT</pubDate>
+        <pubDate>Thu, 03 Jul 2025 20:13:46 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Leaks hint at Operator-like tool in ChatGPT ahead of GPT-5 launch</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/leaks-hint-at-operator-like-tool-in-chatgpt-ahead-of-gpt-5-launch/</link>
+        <pubDate>Thu, 03 Jul 2025 19:22:31 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/leaks-hint-at-operator-like-tool-in-chatgpt-ahead-of-gpt-5-launch/</guid>
+	<description><![CDATA[A few new code references in the ChatGPT web app and Android point to an Operator-like tool in GPT's chain of thoughts. [...]]]></description>
+ </item>
+
  <item>
         <title>xAI prepares Grok 4 Code as it plans to take on Claude and Gemini</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/xai-prepares-grok-4-code-as-it-plans-to-take-on-claude-and-gemini/</link>
@@ -176,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/spain-arrests-hackers-who-targeted-politicians-and-journalists/</guid>
 	<description><![CDATA[The Spanish police have arrested two individuals in the province of Las Palmas for their alleged involvement in cybercriminal activity, including data theft from the country's government. [...]]]></description>
- </item>
-
- <item>
-        <title>Cisco warns that Unified CM has hardcoded root SSH credentials</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisco-removes-unified-cm-callManager-backdoor-root-account/</link>
-        <pubDate>Wed, 02 Jul 2025 13:08:24 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisco-removes-unified-cm-callManager-backdoor-root-account/</guid>
-	<description><![CDATA[Cisco has removed a backdoor account from its Unified Communications Manager (Unified CM), which would have allowed remote attackers to log in to unpatched devices with root privileges. [...]]]></description>
  </item>
 
 </channel>
