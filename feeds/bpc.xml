@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 07 Jul 2025 14:02:30 EDT</pubDate>
+        <pubDate>Mon, 07 Jul 2025 14:59:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Atomic macOS infostealer adds backdoor for persistent attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/atomic-macos-infostealer-adds-backdoor-for-persistent-attacks/</link>
+        <pubDate>Mon, 07 Jul 2025 14:24:46 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/atomic-macos-infostealer-adds-backdoor-for-persistent-attacks/</guid>
+	<description><![CDATA[Malware analyst discovered a new version of the Atomic macOS info-stealer (also known as 'AMOS') that comes with a backdoor, to attackers persistent access to compromised systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Qantas is being extorted in recent data-theft cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/qantas-is-being-extorted-in-recent-data-theft-cyberattack/</link>
@@ -162,22 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hacker-leaks-telef-nica-data-allegedly-stolen-in-a-new-breach/</guid>
 	<description><![CDATA[A hacker is threatening to leak 106GB of data allegedly stolen from Spanish telecommunications company Telefónica in a breach that the company did not acknowledge. [...]]]></description>
- </item>
-
- <item>
-        <title>Leaks hint at Operator-like tool in ChatGPT ahead of GPT-5 launch</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/leaks-hint-at-operator-like-tool-in-chatgpt-ahead-of-gpt-5-launch/</link>
-        <pubDate>Thu, 03 Jul 2025 19:22:31 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/leaks-hint-at-operator-like-tool-in-chatgpt-ahead-of-gpt-5-launch/</guid>
-	<description><![CDATA[A few new code references in the ChatGPT web app and Android point to an Operator-like tool in GPT's chain of thoughts. [...]]]></description>
  </item>
 
 </channel>
