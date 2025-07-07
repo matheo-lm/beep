@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 06 Jul 2025 18:59:10 EDT</pubDate>
+        <pubDate>Sun, 06 Jul 2025 20:14:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hands on with Windows 11 Notepad's new markdown support</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/hands-on-with-windows-11-notepads-new-markdown-support/</link>
+        <pubDate>Sun, 06 Jul 2025 19:55:56 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/hands-on-with-windows-11-notepads-new-markdown-support/</guid>
+	<description><![CDATA[Notepad now lets you use markdown text formatting on Windows 11, which means you can write in Notepad just like you could in WordPad. [...]]]></description>
+ </item>
+
+ <item>
+        <title>ChatGPT is testing disruptive Study Together feature</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-testing-disruptive-study-together-feature/</link>
+        <pubDate>Sun, 06 Jul 2025 19:07:49 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-testing-disruptive-study-together-feature/</guid>
+	<description><![CDATA[OpenAI's "Study together" mode has been spotted in the wild, and it could help students prepare for exams directly from ChatGPT. [...]]]></description>
+ </item>
+
  <item>
         <title>Ingram Micro outage caused by SafePay ransomware attack</title>
         <link>https://www.bleepingcomputer.com/news/security/ingram-micro-outage-caused-by-safepay-ransomware-attack/</link>
@@ -148,34 +180,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/idealab-confirms-data-stolen-in-ransomware-attack-last-year/</guid>
 	<description><![CDATA[IdeaLab is notifying individuals impacted by a data breach incident last October when hackers accessed sensitive information. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft investigates ongoing SharePoint Online access issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-ongoing-sharepoint-online-access-issues/</link>
-        <pubDate>Thu, 03 Jul 2025 10:53:43 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-ongoing-sharepoint-online-access-issues/</guid>
-	<description><![CDATA[​Microsoft is investigating an ongoing incident causing intermittent issues for users attempting to access SharePoint Online sites. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Exchange Server Subscription Edition now available</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-server-subscription-edition-now-available/</link>
-        <pubDate>Thu, 03 Jul 2025 08:03:23 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-server-subscription-edition-now-available/</guid>
-	<description><![CDATA[Microsoft has announced that the Exchange Server Subscription Edition (SE) is now available to all customers of its enterprise email service. [...]]]></description>
  </item>
 
 </channel>
