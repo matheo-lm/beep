@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 08 Jul 2025 09:11:42 EDT</pubDate>
+        <pubDate>Tue, 08 Jul 2025 10:02:52 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Malicious Chrome extensions with 1.7M installs found on Web Store</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-extensions-with-17m-installs-found-on-chrome-web-store/</link>
+        <pubDate>Tue, 08 Jul 2025 10:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-extensions-with-17m-installs-found-on-chrome-web-store/</guid>
+	<description><![CDATA[Almost a dozen malicious extensions with 1.7 million downloads in Google's Chrome Web Store could track users, steal browser activity, and redirect to potentially unsafe web addresses. [...]]]></description>
+ </item>
+
  <item>
         <title>Alleged Chinese hacker tied to Silk Typhoon arrested for cyberespionage</title>
         <link>https://www.bleepingcomputer.com/news/security/alleged-chinese-hacker-tied-to-silk-typhoon-arrested-for-cyberespionage/</link>
@@ -176,22 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ingram-micro-outage-caused-by-safepay-ransomware-attack/</guid>
 	<description><![CDATA[An ongoing outage at IT giant Ingram Micro is caused by a SafePay ransomware attack that led to the shutdown of internal systems, BleepingComputer has learned. [...]]]></description>
- </item>
-
- <item>
-        <title> ChatGPT Deep Research tests new connectors for more context</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-deep-research-tests-new-connectors-for-more-context/</link>
-        <pubDate>Fri, 04 Jul 2025 18:20:14 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-deep-research-tests-new-connectors-for-more-context/</guid>
-	<description><![CDATA[ChatGPT Deep Research, which is an AI research tool to automate research, is getting support for new connectors (integrations), including Slack. [...]]]></description>
  </item>
 
 </channel>
