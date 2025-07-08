@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 08 Jul 2025 15:00:16 EDT</pubDate>
+        <pubDate>Tue, 08 Jul 2025 15:59:36 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Android TapTrap attack fools users with invisible UI trick</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-android-taptrap-attack-fools-users-with-invisible-ui-trick/</link>
+        <pubDate>Tue, 08 Jul 2025 15:39:25 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-android-taptrap-attack-fools-users-with-invisible-ui-trick/</guid>
+	<description><![CDATA[A novel tapjacking technique can exploit user interface animations to bypass Android's permission system and allow access to sensitive data or trick users into performing destructive actions, such as wiping the device. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 10 KB5062554 cumulative update released with 13 changes, fixes</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5062554-cumulative-update-released-with-13-changes-fixes/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/batavia-windows-spyware-campaign-targets-dozens-of-russian-orgs/</guid>
 	<description><![CDATA[A previously undocumented spyware called 'Batavia' has been targeting large industrial enterprises in Russia in a phishing email campaign that uses contract-related lures. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers abuse leaked Shellter red team tool to deploy infostealers</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-abuse-leaked-shellter-red-team-tool-to-deploy-infostealers/</link>
-        <pubDate>Mon, 07 Jul 2025 10:49:27 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-abuse-leaked-shellter-red-team-tool-to-deploy-infostealers/</guid>
-	<description><![CDATA[Shellter Project, the vendor of a commercial AV/EDR evasion loader for penetration testing, confirmed that hackers used its Shellter Elite product in attacks after a customer leaked a copy of the software. [...]]]></description>
  </item>
 
 </channel>
