@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Mon, 07 Jul 2025 22:57:54 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 09 Jul 2025 00:53:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,61 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Microsoft Patch Tuesday, July 2025 Edition</title>
+		<link>https://krebsonsecurity.com/2025/07/microsoft-patch-tuesday-july-2025-edition/</link>
+					<comments>https://krebsonsecurity.com/2025/07/microsoft-patch-tuesday-july-2025-edition/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Wed, 09 Jul 2025 00:53:33 +0000</pubDate>
+				<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[Security Tools]]></category>
+		<category><![CDATA[Time to Patch]]></category>
+		<category><![CDATA[Action1]]></category>
+		<category><![CDATA[Adam Barnett]]></category>
+		<category><![CDATA[adobe]]></category>
+		<category><![CDATA[Ben Hopkins]]></category>
+		<category><![CDATA[CVE-2025-47178]]></category>
+		<category><![CDATA[CVE-2025-47981]]></category>
+		<category><![CDATA[CVE-2025-49695]]></category>
+		<category><![CDATA[CVE-2025-49696]]></category>
+		<category><![CDATA[CVE-2025-49697]]></category>
+		<category><![CDATA[CVE-2025-49702]]></category>
+		<category><![CDATA[CVE-2025-49719]]></category>
+		<category><![CDATA[CVE-2025-49740]]></category>
+		<category><![CDATA[Immersive Labs]]></category>
+		<category><![CDATA[Microsoft Configuration Manager]]></category>
+		<category><![CDATA[Microsoft Defender SmartScreen]]></category>
+		<category><![CDATA[Microsoft Patch Tuesday July 2025 Edition]]></category>
+		<category><![CDATA[Mike Walters]]></category>
+		<category><![CDATA[Office]]></category>
+		<category><![CDATA[Rapid7]]></category>
+		<category><![CDATA[SQL Server 2012]]></category>
+		<category><![CDATA[SQL Server 2016]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71624</guid>
+
+					<description><![CDATA[Microsoft today released updates to fix at least 137 security vulnerabilities in its Windows operating systems and supported software. None of the weaknesses addressed this month are known to be actively exploited, but 14 of the flaws earned Microsoft's most-dire "critical" rating, meaning they could be exploited to seize control over vulnerable Windows PCs with little or no help from users.]]></description>
+										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today released updates to fix at least 137 security vulnerabilities in its <strong>Windows</strong> operating systems and supported software. None of the weaknesses addressed this month are known to be actively exploited, but 14 of the flaws earned Microsoft&#8217;s most-dire &#8220;critical&#8221; rating, meaning they could be exploited to seize control over vulnerable Windows PCs with little or no help from users.</p>
+<p><img decoding="async" class="aligncenter wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p>While not listed as critical, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49719" target="_blank" rel="noopener">CVE-2025-49719</a> is a publicly disclosed information disclosure vulnerability, with all versions as far back as <strong>SQL Server 2016</strong> receiving patches. Microsoft rates CVE-2025-49719 as less likely to be exploited, but the availability of proof-of-concept code for this flaw means its patch should probably be a priority for affected enterprises.</p>
+<p><strong>Mike Walters</strong>, co-founder of <strong>Action1</strong>, said CVE-2025-49719 can be exploited without authentication, and that many third-party applications depend on SQL server and the affected drivers &#8212; potentially introducing a supply-chain risk that extends beyond direct SQL Server users.</p>
+<p>&#8220;The potential exposure of sensitive information makes this a high-priority concern for organizations handling valuable or regulated data,&#8221; Walters said. &#8220;The comprehensive nature of the affected versions, spanning multiple SQL Server releases from 2016 through 2022, indicates a fundamental issue in how SQL Server handles memory management and input validation.&#8221;</p>
+<p><strong>Adam Barnett</strong> at <strong>Rapid7</strong> notes that today is the end of the road for <strong>SQL Server 2012</strong>, meaning there will be no future security patches even for critical vulnerabilities, even if you’re willing to pay Microsoft for the privilege.</p>
+<p>Barnett also called attention to <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47981" target="_blank" rel="noopener">CVE-2025-47981</a>, a vulnerability with a CVSS score of 9.8 (10 being the worst), a remote code execution bug in the way Windows servers and clients negotiate to discover mutually supported authentication mechanisms. This pre-authentication vulnerability affects any Windows client machine running <strong>Windows 10 1607</strong> or above, and all current versions of <strong>Windows Server</strong>. Microsoft considers it more likely that attackers will exploit this flaw.</p>
+<p>Microsoft also patched at least four critical, remote code execution flaws in <strong>Office</strong> (<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49695" target="_blank" rel="noopener">CVE-2025-49695</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49696" target="_blank" rel="noopener">CVE-2025-49696</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49697" target="_blank" rel="noopener">CVE-2025-49697</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49702" target="_blank" rel="noopener">CVE-2025-49702</a>). The first two are both rated by Microsoft as having a higher likelihood of exploitation, do not require user interaction, and can be triggered through the Preview Pane.<span id="more-71624"></span></p>
+<p>Two more high severity bugs include <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49740" target="_blank" rel="noopener">CVE-2025-49740</a> (CVSS 8.8) and <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47178" target="_blank" rel="noopener">CVE-2025-47178</a> (CVSS 8.0); the former is a weakness that could allow malicious files to bypass screening by <strong>Microsoft Defender SmartScreen</strong>, a built-in feature of Windows that tries to block untrusted downloads and malicious sites.</p>
+<p>CVE-2025-47178 involves a remote code execution flaw in <strong>Microsoft Configuration Manager</strong>, an enterprise tool for managing, deploying, and securing computers, servers, and devices across a network. <strong>Ben Hopkins</strong> at <strong>Immersive Labs</strong> said this bug requires very low privileges to exploit, and that it is possible for a user or attacker with a read-only access role to exploit it.</p>
+<p>&#8220;Exploiting this vulnerability allows an attacker to execute arbitrary SQL queries as the privileged SMS service account in Microsoft Configuration Manager,&#8221; Hopkins said. &#8220;This access can be used to manipulate deployments, push malicious software or scripts to all managed devices, alter configurations, steal sensitive data, and potentially escalate to full operating system code execution across the enterprise, giving the attacker broad control over the entire IT environment.&#8221;</p>
+<p>Separately, <strong>Adobe</strong> has <a href="https://helpx.adobe.com/security/security-bulletin.html" target="_blank" rel="noopener">released security updates</a> for a broad range of software, including <strong>After Effects</strong>, <strong>Adobe Audition</strong>, <strong>Illustrator</strong>, <strong>FrameMaker</strong>, and <strong>ColdFusion</strong>.</p>
+<p>The <strong>SANS Internet Storm Center</strong> has <a href="https://isc.sans.edu/diary/Microsoft%20Patch%20Tuesday%2C%20July%202025/32088" target="_blank" rel="noopener">a breakdown of each individual patch</a>, indexed by severity. If you&#8217;re responsible for administering a number of Windows systems, it may be worth keeping an eye on <a href="https://www.askwoody.com/" target="_blank" rel="noopener">AskWoody</a> for the lowdown on any potentially wonky updates (considering the large number of vulnerabilities and Windows components addressed this month).</p>
+<p>If you&#8217;re a Windows home user, please consider backing up your data and/or drive before installing any patches, and drop a note in the comments if you encounter any problems with these updates.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/07/microsoft-patch-tuesday-july-2025-edition/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Big Tech&#8217;s Mixed Response to U.S. Treasury Sanctions</title>
 		<link>https://krebsonsecurity.com/2025/07/big-techs-mixed-response-to-u-s-treasury-sanctions/</link>
 					<comments>https://krebsonsecurity.com/2025/07/big-techs-mixed-response-to-u-s-treasury-sanctions/#comments</comments>
@@ -52,7 +107,7 @@
 					<description><![CDATA[In May 2025, the U.S. government sanctioned a Chinese national for operating a cloud provider linked to the majority of virtual currency investment scam websites reported to the FBI. But more than a month later, the accused continues to openly operate accounts at a slew of American tech companies, including Facebook, Github, LinkedIn, PayPal and Twitter/X.]]></description>
 										<content:encoded><![CDATA[<p>In May 2025, the U.S. government sanctioned a Chinese national for operating a cloud provider linked to the majority of virtual currency investment scam websites reported to the FBI. But a new report finds the accused continues to operate a slew of established accounts at American tech companies &#8212; including <strong>Facebook</strong>, <strong>Github</strong>, <strong>PayPal</strong> and <strong>Twitter/X</strong>.</p>
 <p>On May 29, the <strong>U.S. Department of the Treasury</strong> <a href="https://krebsonsecurity.com/2025/05/u-s-sanctions-cloud-provider-funnull-as-top-source-of-pig-butchering-scams/" target="_blank" rel="noopener">announced economic sanctions</a> against <strong>Funnull Technology Inc.</strong>, a Philippines-based company alleged to provide infrastructure for hundreds of thousands of websites involved in virtual currency investment scams known as &#8220;<a href="https://krebsonsecurity.com/2022/07/massive-losses-define-epidemic-of-pig-butchering/" target="_blank" rel="noopener">pig butchering</a>.&#8221; In January 2025, KrebsOnSecurity detailed how Funnull was designed as a content delivery network that catered to <a href="https://krebsonsecurity.com/2025/01/infrastructure-laundering-blending-in-with-the-cloud/" target="_blank" rel="noopener">foreign cybercriminals seeking to route their traffic through U.S.-based cloud providers</a>.</p>
-<p><img decoding="async" class="aligncenter size-full wp-image-71586" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/lizhisanctions.png" alt="" width="663" height="569" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-71586" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/lizhisanctions.png" alt="" width="663" height="569" /></p>
 <p>The Treasury also sanctioned Funnull&#8217;s alleged operator, a 40-year-old Chinese national named <strong>Liu &#8220;Steve&#8221; Lizhi</strong>. The government says Funnull directly facilitated financial schemes resulting in more than $200 million in financial losses by Americans, and that the company&#8217;s operations were linked to the majority of pig butchering scams reported to the FBI.</p>
 <p>It is generally illegal for U.S. companies or individuals to transact with people sanctioned by the Treasury. However, as Mr. Lizhi&#8217;s case makes clear, just because someone is sanctioned doesn&#8217;t necessarily mean big tech companies are going to suspend their online accounts.</p>
 <p>The government says Lizhi was born November 13, 1984, and used the nicknames &#8220;<strong>XXL4</strong>&#8221; and &#8220;<strong>Nice Lizhi</strong>.&#8221; Nevertheless, Steve Liu&#8217;s 17-year-old account on LinkedIn (in the name &#8220;Liulizhi&#8221;) had hundreds of followers (Lizhi&#8217;s LinkedIn profile helpfully confirms his birthday) until quite recently: The account was deleted this morning, just hours after KrebsOnSecurity sought comment from LinkedIn.</p>
@@ -605,63 +660,15 @@
 		
 		
 			</item>
-		<item>
-		<title>Breachforums Boss to Pay $700k in Healthcare Breach</title>
-		<link>https://krebsonsecurity.com/2025/05/breachforums-boss-to-pay-700k-in-healthcare-breach/</link>
-					<comments>https://krebsonsecurity.com/2025/05/breachforums-boss-to-pay-700k-in-healthcare-breach/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Thu, 15 May 2025 19:56:51 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Data Breaches]]></category>
-		<category><![CDATA[Ne'er-Do-Well News]]></category>
-		<category><![CDATA[BreachForums]]></category>
-		<category><![CDATA[Cipriani & Werner]]></category>
-		<category><![CDATA[Conor Brian Fitzpatrick]]></category>
-		<category><![CDATA[Jill Fertel]]></category>
-		<category><![CDATA[mark rasch]]></category>
-		<category><![CDATA[Nonstop Health]]></category>
-		<category><![CDATA[pompompurin]]></category>
-		<category><![CDATA[RaidForums]]></category>
-		<category><![CDATA[Unit 221B]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71263</guid>
-
-					<description><![CDATA[In what experts are calling a novel legal outcome, the 22-year-old former administrator of the cybercrime community Breachforums will forfeit nearly $700,000 to settle a civil lawsuit from a health insurance company whose customer data was posted for sale on the forum in 2023. Conor Brian Fitzpatrick, a.k.a. "Pompompurin," is slated for resentencing next month after pleading guilty to access device fraud and possession of child sexual abuse material (CSAM).]]></description>
-										<content:encoded><![CDATA[<p>In what experts are calling a novel legal outcome, the 22-year-old former administrator of the cybercrime community <strong>Breachforums </strong>will forfeit nearly $700,000 to settle a civil lawsuit from a health insurance company whose customer data was posted for sale on the forum in 2023. <strong>Conor Brian Fitzpatrick</strong>, a.k.a. &#8220;<strong>Pompompurin</strong>,&#8221; is slated for resentencing next month after pleading guilty to access device fraud and possession of child sexual abuse material (CSAM).</p>
-<div id="attachment_71274" style="width: 985px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71274" decoding="async" loading="lazy" class="size-full wp-image-71274" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/breached-nonstop.png" alt="" width="975" height="364" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/breached-nonstop.png 975w, https://krebsonsecurity.com/wp-content/uploads/2025/05/breached-nonstop-768x287.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/05/breached-nonstop-782x292.png 782w" sizes="(max-width: 975px) 100vw, 975px" /><p id="caption-attachment-71274" class="wp-caption-text">A redacted screenshot of the Breachforums sales thread. Image: Ke-la.com.</p></div>
-<p>On January 18, 2023, denizens of Breachforums posted for sale tens of thousands of records &#8212; including Social Security numbers, dates of birth, addresses, and phone numbers  &#8212; stolen from <strong>Nonstop Health</strong>, an insurance provider based in Concord, Calif.</p>
-<p>Class-action attorneys sued Nonstop Health, which added Fitzpatrick as a third-party defendant to the civil litigation in November 2023, several months after he was <a href="https://krebsonsecurity.com/2023/03/feds-charge-ny-man-as-breachforums-boss-pompompurin/" target="_blank" rel="noopener">arrested by the FBI</a> and criminally charged with access device fraud and CSAM possession. In January 2025, Nonstop <a href="https://topclassactions.com/lawsuit-settlements/closed-settlements/1-6m-nonstop-administration-and-insurance-services-data-breach-class-action-settlement/" target="_blank" rel="noopener">agreed to pay $1.5 million</a> to settle the class action.</p>
-<p><strong>Jill Fertel</strong> is a former prosecutor who runs the cyber litigation practice at <strong>Cipriani &amp; Werner</strong>, the law firm that represented Nonstop Health. Fertel told KrebsOnSecurity this is the first and only case where a cybercriminal or anyone related to the security incident was actually named in civil litigation.</p>
-<p>&#8220;Civil plaintiffs are not at all likely to see money seized from threat actors involved in the incident to be made available to people impacted by the breach,&#8221; Fertel said. &#8220;The best we could do was make this money available to the class, but it&#8217;s still incumbent on the members of the class who are impacted to make that claim.&#8221;</p>
-<p><strong>Mark Rasch</strong> is a former federal prosecutor who now represents <strong>Unit 221B</strong>, a cybersecurity firm based in New York City. Rasch said he doesn&#8217;t doubt that the civil settlement involving Fitzpatrick&#8217;s criminal activity is a novel legal development.</p>
-<p>&#8220;It is rare in these civil cases that you know the threat actor involved in the breach, and it&#8217;s also rare that you catch them with sufficient resources to be able to pay a claim,&#8221; Rasch said.</p>
-<p>Despite admitting to possessing more than 600 CSAM images and personally operating Breachforums, Fitzpatrick was <a href="https://cyberscoop.com/jailed-breachforums-creator-admin-sentenced-to-20-years-of-supervised-release/" target="_blank" rel="noopener">sentenced in January 2024 to time served</a> and 20 years of supervised release. Federal prosecutors objected, arguing that his punishment failed to adequately reflect the seriousness of his crimes or serve as a deterrent.</p>
-<div id="attachment_71269" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71269" decoding="async" loading="lazy" class=" wp-image-71269" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/pom-csam.png" alt="" width="749" height="299" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/pom-csam.png 789w, https://krebsonsecurity.com/wp-content/uploads/2025/05/pom-csam-768x307.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/05/pom-csam-782x312.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71269" class="wp-caption-text">An excerpt from a pre-sentencing report for Fitzpatrick indicates he had more than 600 CSAM images on his devices.</p></div>
-<p>Indeed, the same month he was sentenced Fitzpatrick <a href="https://dd80b675424c132b90b3-e48385e382d2e5d17821a5e1d8e4c86b.ssl.cf1.rackcdn.com/external/sdny-24mj003-waiver-jan22024.pdf" target="_blank" rel="noopener">was rearrested</a> (PDF) for violating the terms of his release, which forbade him from using a computer that didn&#8217;t have court-required monitoring software installed.</p>
-<p>Federal prosecutors said Fitzpatrick went on Discord following his guilty plea and <a href="https://law.justia.com/cases/federal/appellate-courts/ca4/24-4102/24-4102-2025-01-21.html" target="_blank" rel="noopener">professed innocence</a> to the very crimes to which he&#8217;d pleaded guilty, stating that his plea deal was &#8220;so BS&#8221; and that he had &#8220;wanted to fight it.&#8221; The feds said Fitzpatrick also joked with his friends about selling data to foreign governments, exhorting one user to &#8220;become a foreign asset to china or russia,&#8221; and to &#8220;sell government secrets.&#8221;<span id="more-71263"></span></p>
-<p>In January 2025, a federal appeals court agreed with the government&#8217;s assessment, <a href="https://cyberscoop.com/conor-fitzpatrick-resentenced-pompompurin-breachforums/" target="_blank" rel="noopener">vacating Fitzpatrick&#8217;s sentence</a> and ordering him to be resentenced on June 3, 2025.</p>
-<p>Fitzpatrick launched BreachForums in March 2022 to replace <strong>RaidForums</strong>, a similarly popular crime forum that was <a href="https://krebsonsecurity.com/2022/04/raidforums-get-raided-alleged-admin-arrested/" target="_blank" rel="noopener">infiltrated and shut down by the FBI</a> the previous month. As administrator, his alter ego Pompompurin served as the middleman, personally reviewing all databases for sale on the forum and offering an escrow service to those interested in buying stolen data.</p>
-<div id="attachment_71270" style="width: 375px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71270" decoding="async" loading="lazy" class=" wp-image-71270" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/conorfitzpatrick-yearbook.png" alt="" width="365" height="560" /><p id="caption-attachment-71270" class="wp-caption-text">A yearbook photo of Fitzpatrick unearthed by the Yonkers Times.</p></div>
-<p>The new site quickly attracted more than 300,000 users, and facilitated the sale of databases stolen from hundreds of hacking victims, including some of the largest consumer data breaches in recent history. In May 2024, a reincarnation of Breachforums was seized by the FBI and international partners. Still more relaunches of the forum occurred after that, with <a href="https://socradar.io/breachforums-is-offline-a-new-twist-or-just-another-cyber-sheningan/" target="_blank" rel="noopener">the most recent disruption</a> last month.</p>
-<p>As KrebsOnSecurity reported last year in <a href="https://krebsonsecurity.com/2024/09/the-dark-nexus-between-harm-groups-and-the-com/" target="_blank" rel="noopener">The Dark Nexus Between Harm Groups and The Com</a>, it is increasingly common for federal investigators to find CSAM material when searching devices seized from cybercriminal suspects. While the mere possession of CSAM is a serious federal crime, not all of those caught with CSAM are necessarily creators or distributors of it. Fertel said some cybercriminal communities have been known to require new entrants to share CSAM material as a way of proving that they are not a federal investigator.</p>
-<p>&#8220;If you&#8217;re going to the darkest corners of Internet, that&#8217;s how you prove you&#8217;re not law enforcement,&#8221; Fertel said. &#8220;Law enforcement would never share that material. It would be criminal for me as a prosecutor, if I obtained and possessed those types of images.&#8221;</p>
-<p>Further reading: <a href="https://krebsonsecurity.com/wp-content/uploads/2025/05/19420931.pdf" target="_blank" rel="noopener">The settlement between Fitzpatrick and Nonstop</a> (PDF).</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/05/breachforums-boss-to-pay-700k-in-healthcare-breach/feed/</wfw:commentRss>
-			<slash:comments>27</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 302/303 objects using memcached
-Page Caching using memcached 
+Object Caching 308/308 objects using memcached
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-08 20:13:12 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-08 21:30:13 by W3 Total Cache
 -->
