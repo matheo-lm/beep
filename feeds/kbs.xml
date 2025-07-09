@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 09 Jul 2025 00:53:33 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 09 Jul 2025 18:01:21 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -41,7 +41,6 @@
 		<category><![CDATA[CVE-2025-49702]]></category>
 		<category><![CDATA[CVE-2025-49719]]></category>
 		<category><![CDATA[CVE-2025-49740]]></category>
-		<category><![CDATA[Immersive Labs]]></category>
 		<category><![CDATA[Microsoft Configuration Manager]]></category>
 		<category><![CDATA[Microsoft Defender SmartScreen]]></category>
 		<category><![CDATA[Microsoft Patch Tuesday July 2025 Edition]]></category>
@@ -62,7 +61,7 @@
 <p>Barnett also called attention to <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47981" target="_blank" rel="noopener">CVE-2025-47981</a>, a vulnerability with a CVSS score of 9.8 (10 being the worst), a remote code execution bug in the way Windows servers and clients negotiate to discover mutually supported authentication mechanisms. This pre-authentication vulnerability affects any Windows client machine running <strong>Windows 10 1607</strong> or above, and all current versions of <strong>Windows Server</strong>. Microsoft considers it more likely that attackers will exploit this flaw.</p>
 <p>Microsoft also patched at least four critical, remote code execution flaws in <strong>Office</strong> (<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49695" target="_blank" rel="noopener">CVE-2025-49695</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49696" target="_blank" rel="noopener">CVE-2025-49696</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49697" target="_blank" rel="noopener">CVE-2025-49697</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49702" target="_blank" rel="noopener">CVE-2025-49702</a>). The first two are both rated by Microsoft as having a higher likelihood of exploitation, do not require user interaction, and can be triggered through the Preview Pane.<span id="more-71624"></span></p>
 <p>Two more high severity bugs include <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49740" target="_blank" rel="noopener">CVE-2025-49740</a> (CVSS 8.8) and <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47178" target="_blank" rel="noopener">CVE-2025-47178</a> (CVSS 8.0); the former is a weakness that could allow malicious files to bypass screening by <strong>Microsoft Defender SmartScreen</strong>, a built-in feature of Windows that tries to block untrusted downloads and malicious sites.</p>
-<p>CVE-2025-47178 involves a remote code execution flaw in <strong>Microsoft Configuration Manager</strong>, an enterprise tool for managing, deploying, and securing computers, servers, and devices across a network. <strong>Ben Hopkins</strong> at <strong>Immersive Labs</strong> said this bug requires very low privileges to exploit, and that it is possible for a user or attacker with a read-only access role to exploit it.</p>
+<p>CVE-2025-47178 involves a remote code execution flaw in <strong>Microsoft Configuration Manager</strong>, an enterprise tool for managing, deploying, and securing computers, servers, and devices across a network. <strong>Ben Hopkins</strong> at <strong>Immersive</strong> said this bug requires very low privileges to exploit, and that it is possible for a user or attacker with a read-only access role to exploit it.</p>
 <p>&#8220;Exploiting this vulnerability allows an attacker to execute arbitrary SQL queries as the privileged SMS service account in Microsoft Configuration Manager,&#8221; Hopkins said. &#8220;This access can be used to manipulate deployments, push malicious software or scripts to all managed devices, alter configurations, steal sensitive data, and potentially escalate to full operating system code execution across the enterprise, giving the attacker broad control over the entire IT environment.&#8221;</p>
 <p>Separately, <strong>Adobe</strong> has <a href="https://helpx.adobe.com/security/security-bulletin.html" target="_blank" rel="noopener">released security updates</a> for a broad range of software, including <strong>After Effects</strong>, <strong>Adobe Audition</strong>, <strong>Illustrator</strong>, <strong>FrameMaker</strong>, and <strong>ColdFusion</strong>.</p>
 <p>The <strong>SANS Internet Storm Center</strong> has <a href="https://isc.sans.edu/diary/Microsoft%20Patch%20Tuesday%2C%20July%202025/32088" target="_blank" rel="noopener">a breakdown of each individual patch</a>, indexed by severity. If you&#8217;re responsible for administering a number of Windows systems, it may be worth keeping an eye on <a href="https://www.askwoody.com/" target="_blank" rel="noopener">AskWoody</a> for the lowdown on any potentially wonky updates (considering the large number of vulnerabilities and Windows components addressed this month).</p>
@@ -666,9 +665,9 @@
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 308/308 objects using memcached
+Object Caching 307/307 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-09 14:00:11 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-09 15:00:24 by W3 Total Cache
 -->
