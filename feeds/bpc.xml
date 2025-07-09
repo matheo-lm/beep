@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 09 Jul 2025 13:02:35 EDT</pubDate>
+        <pubDate>Wed, 09 Jul 2025 14:01:55 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Bitcoin Depot breach exposes data of nearly 27,000 crypto users</title>
+        <link>https://www.bleepingcomputer.com/news/security/bitcoin-depot-breach-exposes-data-of-nearly-27-000-crypto-users/</link>
+        <pubDate>Wed, 09 Jul 2025 13:33:46 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/bitcoin-depot-breach-exposes-data-of-nearly-27-000-crypto-users/</guid>
+	<description><![CDATA[Bitcoin Depot, an operator of Bitcoin ATMs, is notifying customers of a data breach incident that has exposed their sensitive information. [...]]]></description>
+ </item>
+
  <item>
         <title>Ruckus Networks leaves severe flaws unpatched in management devices</title>
         <link>https://www.bleepingcomputer.com/news/security/ruckus-networks-leaves-severe-flaws-unpatched-in-management-devices/</link>
@@ -192,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/android-malware-anatsa-infiltrates-google-play-to-target-us-banks/</guid>
 	<description><![CDATA[The Anatsa banking trojan has sneaked into Google Play once more via an app posing as a PDF viewer that counted more than 50,000 downloads. [...]]]></description>
- </item>
-
- <item>
-        <title>Overcoming Technical Barriers in Desktop and Application Virtualization</title>
-        <link>https://www.bleepingcomputer.com/news/security/overcoming-technical-barriers-in-desktop-and-application-virtualization/</link>
-        <pubDate>Tue, 08 Jul 2025 10:09:49 -0400</pubDate>
-        <dc:creator>Sponsored by TruGrid</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/overcoming-technical-barriers-in-desktop-and-application-virtualization/</guid>
-	<description><![CDATA[Exposed RDP ports are an open door for attackers. TruGrid SecureRDP enforces Zero Trust and MFA, blocks lateral movement, and secures remote access—no open firewall ports required. Learn more and get a free trial. [...]]]></description>
  </item>
 
 </channel>
