@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 09 Jul 2025 11:03:21 EDT</pubDate>
+        <pubDate>Wed, 09 Jul 2025 12:02:23 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ruckus Networks leaves severe flaws unpatched in management devices</title>
+        <link>https://www.bleepingcomputer.com/news/security/ruckus-networks-leaves-severe-flaws-unpatched-in-management-devices/</link>
+        <pubDate>Wed, 09 Jul 2025 11:42:07 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ruckus-networks-leaves-severe-flaws-unpatched-in-management-devices/</guid>
+	<description><![CDATA[Multiple vulnerabilities that remain unpatched in Ruckus Wireless management products could be exploited to fully compromise the network environment they serve. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Ingram Micro starts restoring systems after ransomware attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/ingram-micro-starts-restoring-systems-after-ransomware-attack/</link>
+        <pubDate>Wed, 09 Jul 2025 11:13:50 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ingram-micro-starts-restoring-systems-after-ransomware-attack/</guid>
+	<description><![CDATA[Ingram Micro has begun restoring systems and business services after suffering a massive SafePay ransomware attack right before the July 4th holiday. [...]]]></description>
+ </item>
+
  <item>
         <title>Treasury sanctions North Korean over IT worker malware scheme</title>
         <link>https://www.bleepingcomputer.com/news/legal/treasury-sanctions-north-korean-over-it-worker-malware-scheme/</link>
@@ -178,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/overcoming-technical-barriers-in-desktop-and-application-virtualization/</guid>
 	<description><![CDATA[Exposed RDP ports are an open door for attackers. TruGrid SecureRDP enforces Zero Trust and MFA, blocks lateral movement, and secures remote access—no open firewall ports required. Learn more and get a free trial. [...]]]></description>
- </item>
-
- <item>
-        <title>Malicious Chrome extensions with 1.7M installs found on Web Store</title>
-        <link>https://www.bleepingcomputer.com/news/security/malicious-chrome-extensions-with-17m-installs-found-on-web-store/</link>
-        <pubDate>Tue, 08 Jul 2025 10:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/malicious-chrome-extensions-with-17m-installs-found-on-web-store/</guid>
-	<description><![CDATA[Almost a dozen malicious extensions with 1.7 million downloads in Google's Chrome Web Store could track users, steal browser activity, and redirect to potentially unsafe web addresses. [...]]]></description>
  </item>
 
 </channel>
