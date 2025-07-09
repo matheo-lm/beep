@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 09 Jul 2025 16:02:01 EDT</pubDate>
+        <pubDate>Wed, 09 Jul 2025 16:58:39 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft confirms Windows Server Update Services (WSUS) sync is broken</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-server-update-services-wsus-sync-is-broken/</link>
+        <pubDate>Wed, 09 Jul 2025 16:58:34 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-server-update-services-wsus-sync-is-broken/</guid>
+	<description><![CDATA[Microsoft has confirmed a widespread issue in Windows Server Update Services (WSUS) that prevents organizations from syncing with Microsoft Update and deploying the latest Windows updates. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Qantas confirms data breach impacts 5.7 million customers</title>
+        <link>https://www.bleepingcomputer.com/news/security/qantas-confirms-data-breach-impacts-57-million-customers/</link>
+        <pubDate>Wed, 09 Jul 2025 16:14:28 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/qantas-confirms-data-breach-impacts-57-million-customers/</guid>
+	<description><![CDATA[Australian airline Qantas has confirmed that 5.7 million people have been impacted by a recent data breach, in which threat actors stole customers' data. [...]]]></description>
+ </item>
+
  <item>
         <title>Google reveals details on Android’s Advanced Protection for Chrome</title>
         <link>https://www.bleepingcomputer.com/news/security/google-reveals-details-on-androids-advanced-protection-for-chrome/</link>
@@ -164,36 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-android-taptrap-attack-fools-users-with-invisible-ui-trick/</guid>
 	<description><![CDATA[A novel tapjacking technique can exploit user interface animations to bypass Android's permission system and allow access to sensitive data or trick users into performing destructive actions, such as wiping the device. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 10 KB5062554 cumulative update released with 13 changes, fixes</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5062554-cumulative-update-released-with-13-changes-fixes/</link>
-        <pubDate>Tue, 08 Jul 2025 13:44:26 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5062554-cumulative-update-released-with-13-changes-fixes/</guid>
-	<description><![CDATA[Microsoft has released the KB5062554 cumulative update for Windows 10 22H2 and Windows 10 21H2, with thirteen new fixes or changes. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 KB5062553 &amp; KB5062552  cumulative updates released</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5062553-and-kb5062552-cumulative-updates-released/</link>
-        <pubDate>Tue, 08 Jul 2025 13:32:37 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5062553-and-kb5062552-cumulative-updates-released/</guid>
-	<description><![CDATA[Microsoft has released Windows 11 KB5062553 and KB5062552 cumulative updates for versions 24H2 and 23H2 to fix security vulnerabilities and issues. [...]]]></description>
  </item>
 
 </channel>
