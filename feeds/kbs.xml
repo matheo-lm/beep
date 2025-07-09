@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Wed, 09 Jul 2025 18:01:21 +0000</lastBuildDate>
@@ -666,8 +666,8 @@
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 307/307 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-09 18:00:12 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-09 19:00:00 by W3 Total Cache
 -->
