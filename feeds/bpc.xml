@@ -11,11 +11,53 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 09 Jul 2025 10:02:48 EDT</pubDate>
+        <pubDate>Wed, 09 Jul 2025 11:03:21 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Treasury sanctions North Korean over IT worker malware scheme</title>
+        <link>https://www.bleepingcomputer.com/news/legal/treasury-sanctions-north-korean-over-it-worker-malware-scheme/</link>
+        <pubDate>Wed, 09 Jul 2025 10:43:11 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/legal/treasury-sanctions-north-korean-over-it-worker-malware-scheme/</guid>
+	<description><![CDATA[The U.S. Department of the Treasury sanctioned cyber actor Song Kum Hyok for his association with North Korea's hacking group Andariel and for facilitating IT worker schemes that generated revenue for the Pyongyang regime. [...]]]></description>
+ </item>
+
+ <item>
+        <title>The MFA You Trust Is Lying to You – and Here's How Attackers Exploit It</title>
+        <link>https://www.bleepingcomputer.com/news/security/the-mfa-you-trust-is-lying-to-you-and-heres-how-attackers-exploit-it/</link>
+        <pubDate>Wed, 09 Jul 2025 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by Token</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/the-mfa-you-trust-is-lying-to-you-and-heres-how-attackers-exploit-it/</guid>
+	<description><![CDATA[MFA Authenticator apps aren't cutting it anymore. Attackers are bypassing legacy MFA with fake sites and real-time phishing. Token Ring and BioStick stop them cold—with fingerprint-bound hardware. Learn more from Token. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New ServiceNow flaw lets attackers enumerate restricted data</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-servicenow-flaw-lets-attackers-enumerate-restricted-data/</link>
+        <pubDate>Wed, 09 Jul 2025 09:00:00 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-servicenow-flaw-lets-attackers-enumerate-restricted-data/</guid>
+	<description><![CDATA[A new vulnerability in ServiceNow, dubbed Count(er) Strike, allows low-privileged users to extract sensitive data from tables to which they should not have access. [...]]]></description>
+ </item>
+
  <item>
         <title>Samsung announces major security enhancements coming to One UI 8</title>
         <link>https://www.bleepingcomputer.com/news/security/samsung-announces-major-security-enhancements-coming-to-one-ui-8/</link>
@@ -150,64 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/malicious-chrome-extensions-with-17m-installs-found-on-web-store/</guid>
 	<description><![CDATA[Almost a dozen malicious extensions with 1.7 million downloads in Google's Chrome Web Store could track users, steal browser activity, and redirect to potentially unsafe web addresses. [...]]]></description>
- </item>
-
- <item>
-        <title>Alleged Chinese hacker tied to Silk Typhoon arrested for cyberespionage</title>
-        <link>https://www.bleepingcomputer.com/news/security/alleged-chinese-hacker-tied-to-silk-typhoon-arrested-for-cyberespionage/</link>
-        <pubDate>Mon, 07 Jul 2025 21:39:01 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/alleged-chinese-hacker-tied-to-silk-typhoon-arrested-for-cyberespionage/</guid>
-	<description><![CDATA[A Chinese national was arrested in Milan, Italy, last week for allegedly being linked to the state-sponsored Silk Typhoon hacking group, which responsible for cyberattacks against American organizations and government agencies. [...]]]></description>
- </item>
-
- <item>
-        <title>Public exploits released for Citrix Bleed 2 NetScaler flaw, patch now</title>
-        <link>https://www.bleepingcomputer.com/news/security/public-exploits-released-for-citrixbleed-2-netscaler-flaw-patch-now/</link>
-        <pubDate>Mon, 07 Jul 2025 18:57:37 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/public-exploits-released-for-citrixbleed-2-netscaler-flaw-patch-now/</guid>
-	<description><![CDATA[Researchers have released proof-of-concept (PoC) exploits for a critical Citrix NetScaler vulnerability, tracked as CVE-2025-5777 and dubbed CitrixBleed2, warning that the flaw is easily exploitable and can successfully steal user session tokens. [...]]]></description>
- </item>
-
- <item>
-        <title>Employee gets $920 for credentials used in $140 million bank heist</title>
-        <link>https://www.bleepingcomputer.com/news/security/employee-gets-920-for-credentials-used-in-140-million-bank-heist/</link>
-        <pubDate>Mon, 07 Jul 2025 15:10:50 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/employee-gets-920-for-credentials-used-in-140-million-bank-heist/</guid>
-	<description><![CDATA[Hackers stole nearly $140 million from six banks in Brazil by using an employee's credentials from C&M, a company that offers financial connectivity solutions. [...]]]></description>
- </item>
-
- <item>
-        <title>Atomic macOS infostealer adds backdoor for persistent attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/atomic-macos-infostealer-adds-backdoor-for-persistent-attacks/</link>
-        <pubDate>Mon, 07 Jul 2025 14:24:46 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/atomic-macos-infostealer-adds-backdoor-for-persistent-attacks/</guid>
-	<description><![CDATA[Malware analyst discovered a new version of the Atomic macOS info-stealer (also known as 'AMOS') that comes with a backdoor, to attackers persistent access to compromised systems. [...]]]></description>
  </item>
 
 </channel>
