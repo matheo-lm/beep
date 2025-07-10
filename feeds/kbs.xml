@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 09 Jul 2025 18:01:21 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Jul 2025 17:31:10 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,61 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>UK Charges Four in &#8216;Scattered Spider&#8217; Ransom Group</title>
+		<link>https://krebsonsecurity.com/2025/07/uk-charges-four-in-scattered-spider-ransom-group/</link>
+					<comments>https://krebsonsecurity.com/2025/07/uk-charges-four-in-scattered-spider-ransom-group/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Thu, 10 Jul 2025 17:31:10 +0000</pubDate>
+				<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[Ransomware]]></category>
+		<category><![CDATA[Allison Nixon]]></category>
+		<category><![CDATA[Amtrak]]></category>
+		<category><![CDATA[Asyntax]]></category>
+		<category><![CDATA[bo764]]></category>
+		<category><![CDATA[Co-op Group]]></category>
+		<category><![CDATA[Doxbin]]></category>
+		<category><![CDATA[Earth2Star]]></category>
+		<category><![CDATA[Everlynn]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[Harrods]]></category>
+		<category><![CDATA[LAPSUS$]]></category>
+		<category><![CDATA[Marks & Spencer]]></category>
+		<category><![CDATA[MGM Casino]]></category>
+		<category><![CDATA[National Crime Agency]]></category>
+		<category><![CDATA[Operator]]></category>
+		<category><![CDATA[Owen David Flowers]]></category>
+		<category><![CDATA[Scattered Spider]]></category>
+		<category><![CDATA[Star Fraud Chat]]></category>
+		<category><![CDATA[Thalha Jubair]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=70968</guid>
+
+					<description><![CDATA[Authorities in the United Kingdom this week arrested four alleged members of "Scattered Spider," a prolific data theft and extortion group whose recent victims include multiple airlines and the U.K. retail chain Marks &#038; Spencer.]]></description>
+										<content:encoded><![CDATA[<p>Authorities in the United Kingdom this week arrested four alleged members of &#8220;<strong>Scattered Spider</strong>,&#8221; a prolific data theft and extortion group whose recent victims include multiple airlines and the U.K. retail chain <strong>Marks &amp; Spencer</strong>.</p>
+<p>Scattered Spider is the name given to an English-speaking cybercrime group known for using social engineering tactics to break into companies and steal data for ransom, often impersonating employees or contractors to deceive IT help desks into granting access. The <strong>FBI</strong> warned last month that Scattered Spider had recently shifted to targeting companies in the retail and airline sectors.</p>
+<p>The U.K.&#8217;s <strong>National Crime Agency</strong> (NCA) declined verify the names of those arrested, <a href="https://www.nationalcrimeagency.gov.uk/news/retail-cyber-attacks-nca-arrest-four-for-attacks-on-m-s-co-op-and-harrods" target="_blank" rel="noopener">saying</a> only that they included two males aged 19, another aged 17, and 20-year-old female. The NCA said the defendants were charged in cyberattacks against Marks &amp; Spencer, the U.K. retailer <strong>Harrods</strong>, and the British food retailer <strong>Co-op Group</strong>.</p>
+<p>KrebsOnSecurity has learned the identities of the two 19-year-old suspects. Multiple sources close to the investigation said those arrested include <strong>Owen David Flowers</strong>, a U.K. man alleged to have been involved in the cyber intrusion and ransomware attack that shut down several <strong>MGM Casino</strong> properties in September 2023. Those same sources said the woman arrested is or recently was in a relationship with Flowers.</p>
+<p>Sources told KrebsOnSecurity that Flowers, who allegedly went by the hacker handles &#8220;bo764,&#8221; &#8220;Holy,&#8221; and &#8220;Nazi,&#8221; was the group member who anonymously gave interviews to the media in the days after the MGM hack. His real name was omitted from <a href="https://krebsonsecurity.com/2024/09/the-dark-nexus-between-harm-groups-and-the-com/" target="_blank" rel="noopener">a September 2024 story about the group</a> because he was not yet charged in that incident.</p>
+<p>The bigger fish netted as part of the Scattered Spider dragnet is <strong>Thalha Jubair</strong>, a U.K. man whose alleged exploits under various monikers have been well-documented in stories on this site. Jubair is believed to have used the nickname &#8220;<strong>Earth2Star</strong>,&#8221; which corresponds to a founding member of the cybercrime-focused Telegram channel &#8220;<strong>Star Fraud Chat</strong>.&#8221;</p>
+<p>In 2023, KrebsOnSecurity <a href="https://krebsonsecurity.com/2023/02/hackers-claim-they-breached-t-mobile-more-than-100-times-in-2022/" target="_blank" rel="noopener">published an investigation</a> into the work of three different SIM-swapping groups that phished credentials from T-Mobile employees and used that access to offer a service whereby any T-Mobile phone number could be swapped to a new device. Star Chat was by far the most active and consequential of the three SIM-swapping groups, who collectively broke into T-Mobile&#8217;s network more than 100 times in the second half of 2022.</p>
+<div id="attachment_71644" style="width: 757px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71644" decoding="async" class=" wp-image-71644" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat.png" alt="" width="747" height="306" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat.png 1153w, https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat-768x314.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat-782x320.png 782w" sizes="(max-width: 747px) 100vw, 747px" /><p id="caption-attachment-71644" class="wp-caption-text">Jubair allegedly used the handles &#8220;Earth2Star&#8221; and &#8220;Star Ace,&#8221; and was a core member of a prolific SIM-swapping group operating in 2022. Star Ace posted this image to the Star Fraud chat channel on Telegram, and it lists various prices for SIM-swaps.</p></div>
+<p>Sources tell KrebsOnSecurity that Jubair also was a core member of the <strong>LAPSUS$</strong> cybercrime group that <a href="https://krebsonsecurity.com/2022/03/a-closer-look-at-the-lapsus-data-extortion-group/" target="_blank" rel="noopener">broke into dozens of technology companies in 2022</a>, stealing source code and other internal data from tech giants including <strong>Microsoft</strong>, <strong>Nvidia</strong>, <strong>Okta</strong>, <strong>Rockstar Games</strong>, <strong>Samsung</strong>, <strong>T-Mobile</strong>, and <strong>Uber</strong>.</p>
+<p>In April 2022, KrebsOnSecurity <a href="https://krebsonsecurity.com/2022/04/leaked-chats-show-lapsus-stole-t-mobile-source-code/" target="_blank" rel="noopener">published internal chat records from LAPSUS$</a>, and those chats indicated Jubair was using the nicknames <strong>Amtrak</strong> and <strong>Asyntax</strong>. At one point in the chats, Amtrak told the LAPSUS$ group leader not to share T-Mobile&#8217;s logo in images sent to the group because he&#8217;d been previously busted for SIM-swapping and his parents would suspect he was back at it again.</p>
+<p>As shown in those chats, the leader of LAPSUS$ eventually decided to betray Amtrak by posting his real name, phone number, and other hacker handles into a public chat room on Telegram.</p>
+<div id="attachment_59487" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-59487" decoding="async" loading="lazy" class=" wp-image-59487" src="https://krebsonsecurity.com/wp-content/uploads/2022/04/amtraxdox.png" alt="" width="749" height="207" /><p id="caption-attachment-59487" class="wp-caption-text">In March 2022, the leader of the LAPSUS$ data extortion group exposed Thalha Jubair&#8217;s name and hacker handles in a public chat room on Telegram.</p></div>
+<p><span id="more-70968"></span>That story about the leaked LAPSUS$ chats connected Amtrak/Asyntax/Jubair to the identity &#8220;<strong>Everlynn</strong>,&#8221; the founder of a cybercriminal service that <a href="https://krebsonsecurity.com/2022/03/hackers-gaining-power-of-subpoena-via-fake-emergency-data-requests/" target="_blank" rel="noopener">sold fraudulent &#8220;emergency data requests&#8221;</a> targeting the major social media and email providers. In such schemes, the hackers compromise email accounts tied to police departments and government agencies, and then send unauthorized demands for subscriber data while claiming the information being requested can’t wait for a court order because it relates to an urgent matter of life and death.</p>
+<div id="attachment_59127" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-59127" decoding="async" loading="lazy" class=" wp-image-59127" src="https://krebsonsecurity.com/wp-content/uploads/2022/03/infinityrecursion.png" alt="" width="748" height="622" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/03/infinityrecursion.png 864w, https://krebsonsecurity.com/wp-content/uploads/2022/03/infinityrecursion-768x638.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/03/infinityrecursion-782x650.png 782w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-59127" class="wp-caption-text">The roster of the now-defunct &#8220;Infinity Recursion&#8221; hacking team, from which some member of LAPSUS$ hail.</p></div>
+<p>Sources say Jubair also used the nickname &#8220;<strong>Operator</strong>,&#8221; and that until recently he was the administrator of the <strong>Doxbin</strong>, a long-running and highly toxic online community that is used to “dox” or post deeply personal information on people. In May 2024, several popular cybercrime channels on Telegram ridiculed Operator after it was revealed that he&#8217;d staged his own kidnapping in a botched plan to throw off law enforcement investigators.</p>
+<p>In November 2024, U.S. authorities <a href="https://krebsonsecurity.com/2024/11/feds-charge-five-men-in-scattered-spider-roundup/" target="_blank" rel="noopener">charged five men aged 20 to 25</a> in connection with the Scattered Spider group, which has long relied on recruiting minors to carry out its most risky activities. Indeed, many of the group&#8217;s core members were recruited from online gaming platforms like Roblox and Minecraft in their early teens, and have been perfecting their social engineering tactics for years.</p>
+<p>&#8220;There is a clear pattern that some of the most depraved threat actors first joined cybercrime gangs at an exceptionally young age,&#8221; said <strong>Allison Nixon</strong>, chief research officer at the New York based security firm <a href="https://www.unit221b.com" target="_blank" rel="noopener">Unit 221B</a>. &#8220;Cybercriminals arrested at 15 or younger need serious intervention and monitoring to prevent a years long massive escalation.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/07/uk-charges-four-in-scattered-spider-ransom-group/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Microsoft Patch Tuesday, July 2025 Edition</title>
 		<link>https://krebsonsecurity.com/2025/07/microsoft-patch-tuesday-july-2025-edition/</link>
 					<comments>https://krebsonsecurity.com/2025/07/microsoft-patch-tuesday-july-2025-edition/#comments</comments>
@@ -53,7 +108,7 @@
 
 					<description><![CDATA[Microsoft today released updates to fix at least 137 security vulnerabilities in its Windows operating systems and supported software. None of the weaknesses addressed this month are known to be actively exploited, but 14 of the flaws earned Microsoft's most-dire "critical" rating, meaning they could be exploited to seize control over vulnerable Windows PCs with little or no help from users.]]></description>
 										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today released updates to fix at least 137 security vulnerabilities in its <strong>Windows</strong> operating systems and supported software. None of the weaknesses addressed this month are known to be actively exploited, but 14 of the flaws earned Microsoft&#8217;s most-dire &#8220;critical&#8221; rating, meaning they could be exploited to seize control over vulnerable Windows PCs with little or no help from users.</p>
-<p><img decoding="async" class="aligncenter wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
 <p>While not listed as critical, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49719" target="_blank" rel="noopener">CVE-2025-49719</a> is a publicly disclosed information disclosure vulnerability, with all versions as far back as <strong>SQL Server 2016</strong> receiving patches. Microsoft rates CVE-2025-49719 as less likely to be exploited, but the availability of proof-of-concept code for this flaw means its patch should probably be a priority for affected enterprises.</p>
 <p><strong>Mike Walters</strong>, co-founder of <strong>Action1</strong>, said CVE-2025-49719 can be exploited without authentication, and that many third-party applications depend on SQL server and the affected drivers &#8212; potentially introducing a supply-chain risk that extends beyond direct SQL Server users.</p>
 <p>&#8220;The potential exposure of sensitive information makes this a high-priority concern for organizations handling valuable or regulated data,&#8221; Walters said. &#8220;The comprehensive nature of the affected versions, spanning multiple SQL Server releases from 2016 through 2022, indicates a fundamental issue in how SQL Server handles memory management and input validation.&#8221;</p>
@@ -579,95 +634,15 @@
 		
 		
 			</item>
-		<item>
-		<title>KrebsOnSecurity Hit With Near-Record 6.3 Tbps DDoS</title>
-		<link>https://krebsonsecurity.com/2025/05/krebsonsecurity-hit-with-near-record-6-3-tbps-ddos/</link>
-					<comments>https://krebsonsecurity.com/2025/05/krebsonsecurity-hit-with-near-record-6-3-tbps-ddos/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Tue, 20 May 2025 21:30:30 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Breadcrumbs]]></category>
-		<category><![CDATA[DDoS-for-Hire]]></category>
-		<category><![CDATA[Internet of Things (IoT)]]></category>
-		<category><![CDATA[Ne'er-Do-Well News]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[Aisuru botnet]]></category>
-		<category><![CDATA[Akamai]]></category>
-		<category><![CDATA[booter]]></category>
-		<category><![CDATA[CloudFlare]]></category>
-		<category><![CDATA[Damian Menscher]]></category>
-		<category><![CDATA[DDoS]]></category>
-		<category><![CDATA[fbi]]></category>
-		<category><![CDATA[Forky]]></category>
-		<category><![CDATA[Kaike Southier Leite]]></category>
-		<category><![CDATA[mirai]]></category>
-		<category><![CDATA[Project Shield]]></category>
-		<category><![CDATA[QiAnXin XLab]]></category>
-		<category><![CDATA[stresser]]></category>
-		<category><![CDATA[U.S. Department of Justice]]></category>
-		<category><![CDATA[yfork]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71303</guid>
-
-					<description><![CDATA[KrebsOnSecurity last week was hit by a near record distributed denial-of-service (DDoS) attack that clocked in at more than 6.3 terabits of data per second (a terabit is one trillion bits of data). The brief attack appears to have been a test run for a massive new Internet of Things (IoT) botnet capable of launching crippling digital assaults that few web destinations can withstand. Read on for more about the botnet, the attack, and the apparent creator of this global menace.]]></description>
-										<content:encoded><![CDATA[<p>KrebsOnSecurity last week was hit by a near record distributed denial-of-service (DDoS) attack that clocked in at more than 6.3 terabits of data per second (a terabit is one trillion bits of data). The brief attack appears to have been a test run for a massive new Internet of Things (IoT) botnet capable of launching crippling digital assaults that few web destinations can withstand. Read on for more about the botnet, the attack, and the apparent creator of this global menace.</p>
-<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-71312" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/ddosbomb.png" alt="" width="661" height="542" /></p>
-<p>For reference, the 6.3 Tbps attack last week was ten times the size of the assault launched against this site in 2016 by the <strong>Mirai</strong> IoT botnet, which <a href="https://krebsonsecurity.com/2016/09/the-democratization-of-censorship/" target="_blank" rel="noopener">held KrebsOnSecurity offline for nearly four days</a>. The 2016 assault was so large that <strong>Akamai</strong> &#8211; which was providing pro-bono DDoS protection for KrebsOnSecurity at the time &#8212; asked me to leave their service because the attack was causing problems for their paying customers.</p>
-<p>Since the Mirai attack, KrebsOnSecurity.com has been behind the protection of <strong>Project Shield</strong>, a free DDoS defense service that <strong>Google</strong> provides to websites offering news, human rights, and election-related content. Google Security Engineer <strong>Damian Menscher</strong> told KrebsOnSecurity the May 12 attack was the largest Google has ever handled. In terms of sheer size, it is second only to a very similar attack that <strong>Cloudflare</strong> mitigated and <a href="https://blog.cloudflare.com/ddos-threat-report-for-2025-q1/#hyper-volumetric-attacks-continue-spill-into-q2" target="_blank" rel="noopener">wrote about in April</a>.</p>
-<p>After comparing notes with Cloudflare, Menscher said the botnet that launched both attacks bears the fingerprints of <strong>Aisuru</strong>, a digital siege machine that first surfaced less than a year ago. Menscher said the attack on KrebsOnSecurity lasted less than a minute, hurling <a href="https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/udp-reflection-attacks.html" target="_blank" rel="noopener">large UDP data packets</a> at random ports <em>at a rate of approximately 585 million data packets per second</em>.</p>
-<p>&#8220;It was the type of attack normally designed to overwhelm network links,&#8221; Menscher said, referring to the throughput connections between and among various Internet service providers (ISPs). &#8220;For most companies, this size of attack would kill them.&#8221;</p>
-<div id="attachment_71311" style="width: 759px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/05/cf-6.5ddos.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-71311" decoding="async" loading="lazy" class="wp-image-71311" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/cf-6.5ddos.png" alt="" width="749" height="340" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/cf-6.5ddos.png 906w, https://krebsonsecurity.com/wp-content/uploads/2025/05/cf-6.5ddos-768x348.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/05/cf-6.5ddos-782x355.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></a><p id="caption-attachment-71311" class="wp-caption-text">A graph depicting the 6.5 Tbps attack mitigated by Cloudflare in April 2025. Image: Cloudflare.</p></div>
-<p>The Aisuru botnet comprises a globally-dispersed collection of hacked IoT devices, including routers, digital video recorders and other systems that are commandeered via default passwords or software vulnerabilities. As <a href="https://blog.xlab.qianxin.com/large-scale-botnet-airashi-en/" target="_blank" rel="noopener">documented</a> by researchers at <strong>QiAnXin XLab</strong>, the botnet was first identified in an August 2024 attack on a large gaming platform.</p>
-<p>Aisuru reportedly went quiet after that exposure, only to reappear in November with even more firepower and software exploits. In a <a href="https://blog.xlab.qianxin.com/large-scale-botnet-airashi-en/" target="_blank" rel="noopener">January 2025 report</a>, XLab found the new and improved Aisuru (a.k.a. &#8220;<strong>Airashi</strong>&#8220;) had incorporated a previously unknown zero-day vulnerability in Cambium Networks cnPilot routers.</p>
-<h2>NOT FORKING AROUND</h2>
-<p>The people behind the Aisuru botnet have been peddling access to their DDoS machine in public <strong>Telegram</strong> chat channels that are closely monitored by multiple security firms. In August 2024, the botnet was rented out in subscription tiers ranging from $150 per day to $600 per week, offering attacks of up to two terabits per second.</p>
-<p>&#8220;You may not attack any measurement walls, healthcare facilities, schools or government sites,&#8221; read a notice posted on Telegram by the Aisuru botnet owners in August 2024.</p>
-<p>Interested parties were told to contact the Telegram handle &#8220;<strong>@yfork</strong>&#8221; to purchase a subscription. The account @yfork previously used the nickname &#8220;<strong>Forky</strong>,&#8221; an identity that has been posting to public DDoS-focused Telegram channels since 2021.</p>
-<p>According to the FBI, Forky&#8217;s DDoS-for-hire domains have been seized in multiple law enforcement operations over the years. Last year, Forky said on Telegram he was selling the domain <strong>stresser[.]best</strong>, which saw its servers seized by the FBI in 2022 as part of an ongoing international law enforcement effort aimed at diminishing the supply of and demand for DDoS-for-hire services.<span id="more-71303"></span></p>
-<p>&#8220;The operator of this service, who calls himself &#8216;Forky,&#8217; operates a Telegram channel to advertise features and communicate with current and prospective DDoS customers,&#8221; reads <a href="https://krebsonsecurity.com/wp-content/uploads/2025/05/Booter-seizure-warrant-Tucows-2.pdf" target="_blank" rel="noopener">an FBI seizure warrant</a> (PDF) issued for stresser[.]best. The FBI warrant stated that on the same day the seizures were announced, Forky posted <a href="https://krebsonsecurity.com/2022/12/six-charged-in-mass-takedown-of-ddos-for-hire-sites/" target="_blank" rel="noopener">a link to a story on this blog</a> that detailed the domain seizure operation, adding the comment, “We are buying our new domains right now.”</p>
-<div id="attachment_71315" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71315" decoding="async" loading="lazy" class=" wp-image-71315" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/stresserbest.png" alt="" width="748" height="663" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/stresserbest.png 953w, https://krebsonsecurity.com/wp-content/uploads/2025/05/stresserbest-768x681.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/05/stresserbest-782x693.png 782w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-71315" class="wp-caption-text">A screenshot from the FBI&#8217;s seizure warrant for Forky&#8217;s DDoS-for-hire domains shows Forky announcing the resurrection of their service at new domains.</p></div>
-<p>Approximately ten hours later, Forky posted again, including a screenshot of the stresser[.]best user dashboard, instructing customers to use their saved passwords for the old website on the new one.</p>
-<p>A review of Forky&#8217;s posts to public Telegram channels &#8212; as indexed by the cyber intelligence firms <strong>Unit 221B</strong> and <strong>Flashpoint</strong> &#8212; reveals a 21-year-old individual who claims to reside in Brazil [full disclosure: Flashpoint is currently an advertiser on this blog].</p>
-<p>Since late 2022, Forky&#8217;s posts have frequently promoted a DDoS mitigation company and ISP that he operates called <strong>botshield[.]io</strong>. The Botshield website is connected to a business entity registered in the United Kingdom called <a href="https://find-and-update.company-information.service.gov.uk/officers/krPZ3H9McgoRJbksmVWst3yc9G0/appointments" target="_blank" rel="noopener">Botshield LTD</a>, which lists a 21-year-old woman from Sao Paulo, Brazil as the director. Internet routing records indicate Botshield (<a href="https://ipinfo.io/AS213613" target="_blank" rel="noopener">AS213613</a>) currently controls several hundred Internet addresses that were allocated to the company earlier this year.</p>
-<p><strong>Domaintools.com</strong> reports that botshield[.]io was registered in July 2022 to a <strong>Kaike Southier Leite</strong> in Sao Paulo. A <a href="https://www.linkedin.com/in/kaike-southier-5074b82b6/" target="_blank" rel="noopener">LinkedIn profile</a> by the same name says this individual is a network specialist from Brazil who works in &#8220;the planning and implementation of robust network infrastructures, with a focus on security, DDoS mitigation, colocation and cloud server services.&#8221;</p>
-<h2>MEET FORKY</h2>
-<div id="attachment_71314" style="width: 789px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71314" decoding="async" loading="lazy" class="wp-image-71314 size-full" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/forky.png" alt="" width="779" height="519" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/forky.png 779w, https://krebsonsecurity.com/wp-content/uploads/2025/05/forky-768x512.png 768w" sizes="(max-width: 779px) 100vw, 779px" /><p id="caption-attachment-71314" class="wp-caption-text">Image: Jaclyn Vernace / Shutterstock.com.</p></div>
-<p>In his posts to public Telegram chat channels, Forky has hardly attempted to conceal his whereabouts or identity. In countless chat conversations indexed by Unit 221B, Forky could be seen talking about everyday life in Brazil, often remarking on the extremely low or high prices in Brazil for a range of goods, from computer and networking gear to narcotics and food.</p>
-<p>Reached via Telegram, Forky claimed he was &#8220;not involved in this type of illegal actions for years now,&#8221; and that the project had been taken over by other unspecified developers. Forky initially told KrebsOnSecurity he had been out of the botnet scene for years, only to concede this wasn&#8217;t true when presented with public posts on Telegram from late last year that clearly showed otherwise.</p>
-<p>Forky denied being involved in the attack on KrebsOnSecurity, but acknowledged that he helped to develop and market the Aisuru botnet. Forky claims he is now merely a staff member for the Aisuru botnet team, and that he stopped running the botnet roughly two months ago after starting a family. Forky also said the woman named as director of Botshield is related to him.</p>
-<p>Forky offered equivocal, evasive responses to a number of questions about the Aisuru botnet and his business endeavors. But on one point he was crystal clear:</p>
-<p>&#8220;I have zero fear about you, the FBI, or Interpol,&#8221; Forky said, asserting that he is now almost entirely focused on their hosting business &#8212; Botshield.</p>
-<p>Forky declined to discuss the makeup of his ISP&#8217;s clientele, or to clarify whether Botshield was more of a hosting provider or a DDoS mitigation firm. However, Forky has posted on Telegram about Botshield successfully mitigating large DDoS attacks launched against other DDoS-for-hire services.</p>
-<p>DomainTools finds the same Sao Paulo street address in the registration records for botshield[.]io was used to register several other domains, including <strong>cant-mitigate[.]us.</strong> The email address in the WHOIS records for that domain is forkcontato@gmail.com, which DomainTools says was used to register the domain for the now-defunct DDoS-for-hire service <strong>stresser[.]us</strong>, one of the domains seized in <a href="https://krebsonsecurity.com/2023/05/feds-take-down-13-more-ddos-for-hire-services/" target="_blank" rel="noopener">the FBI&#8217;s 2023 crackdown</a>.</p>
-<p>On May 8, 2023, the <strong>U.S. Department of Justice</strong> <a href="https://www.justice.gov/usao-cdca/pr/federal-authorities-seize-13-internet-domains-associated-booter-websites-offered-ddos" target="_blank" rel="noopener">announced</a> the seizure of stresser[.]us, along with a dozen other domains offering DDoS services. The DOJ said ten of the 13 domains were reincarnations of services that were seized during a <a href="https://www.justice.gov/usao-cdca/pr/federal-prosecutors-los-angeles-and-alaska-charge-6-defendants-operating-websites" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://www.justice.gov/usao-cdca/pr/federal-prosecutors-los-angeles-and-alaska-charge-6-defendants-operating-websites&amp;source=gmail&amp;ust=1747842233209000&amp;usg=AOvVaw0Tl0oBqaLrBCwcoLIjUEED">prior sweep in December</a>, which targeted 48 top stresser services (also known as &#8220;booters&#8221;).</p>
-<p>Forky claimed he could find out who attacked my site with Aisuru. But when pressed a day later on the question, Forky said he&#8217;d come up empty-handed.</p>
-<p>&#8220;I tried to ask around, all the big guys are not retarded enough to attack you,&#8221; Forky explained in an interview on Telegram. &#8220;I didn&#8217;t have anything to do with it. But you are welcome to write the story and try to put the blame on me.&#8221;</p>
-<h2>THE GHOST OF MIRAI</h2>
-<p>The 6.3 Tbps attack last week caused no visible disruption to this site, in part because it was so brief &#8212; lasting approximately 45 seconds. DDoS attacks of such magnitude and brevity typically are produced when botnet operators wish to test or demonstrate their firepower for the benefit of potential buyers. Indeed, Google&#8217;s Menscher said it is likely that both the May 12 attack and the slightly larger 6.5 Tbps attack against Cloudflare last month were simply tests of the same botnet&#8217;s capabilities.</p>
-<p>In many ways, the threat posed by the Aisuru/Airashi botnet is reminiscent of Mirai, an innovative IoT malware strain that emerged in the summer of 2016 and successfully out-competed virtually all other IoT malware strains in existence at the time.</p>
-<p>As first revealed by KrebsOnSecurity in January 2017, the Mirai authors were <a href="https://krebsonsecurity.com/2017/01/who-is-anna-senpai-the-mirai-worm-author/" target="_blank" rel="noopener">two U.S. men who co-ran a DDoS mitigation service</a> &#8212; even as they were selling far more lucrative DDoS-for-hire services using the most powerful botnet on the planet.</p>
-<p>Less than a week after the Mirai botnet was used in a days-long DDoS against KrebsOnSecurity, the Mirai authors <a href="https://krebsonsecurity.com/2016/10/source-code-for-iot-botnet-mirai-released/" target="_blank" rel="noopener">published the source code to their botnet</a> so that they would not be the only ones in possession of it in the event of their arrest by federal investigators.</p>
-<p>Ironically, the leaking of the Mirai source is precisely what led to the eventual unmasking and arrest of the Mirai authors, who went on to serve probation sentences that <a href="https://www.wired.com/story/mirai-untold-story-three-young-hackers-web-killing-monster/" target="_blank" rel="noopener">required them to consult with FBI investigators on DDoS investigations</a>. But that leak also rapidly led to the creation of dozens of Mirai botnet clones, many of which were harnessed to fuel their own powerful DDoS-for-hire services.</p>
-<p>Menscher told KrebsOnSecurity that as counterintuitive as it may sound, the Internet as a whole would probably be better off if the source code for Aisuru became public knowledge. After all, he said, the people behind Aisuru are in constant competition with other IoT botnet operators who are all striving to commandeer a finite number of vulnerable IoT devices globally.</p>
-<p>Such a development would almost certainly cause a proliferation of Aisuru botnet clones, he said, but at least then the overall firepower from each individual botnet would be greatly diminished &#8212; or at least within range of the mitigation capabilities of most DDoS protection providers.</p>
-<p>Barring a source code leak, Menscher said, it would be nice if someone published the full list of software exploits being used by the Aisuru operators to grow their botnet so quickly.</p>
-<p>&#8220;Part of the reason Mirai was so dangerous was that it effectively took out competing botnets,&#8221; he said. &#8220;This attack somehow managed to compromise all these boxes that nobody else knows about. Ideally, we&#8217;d want to see that fragmented out, so that no [individual botnet operator] controls too much.&#8221;</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/05/krebsonsecurity-hit-with-near-record-6-3-tbps-ddos/feed/</wfw:commentRss>
-			<slash:comments>46</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 307/307 objects using memcached
+Object Caching 310/310 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-10 13:02:59 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-10 13:57:18 by W3 Total Cache
 -->
