@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 10 Jul 2025 10:03:35 EDT</pubDate>
+        <pubDate>Thu, 10 Jul 2025 10:59:38 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FBI's CJIS demystified: Best practices for passwords, MFA &amp; access control</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbis-cjis-demystified-best-practices-for-passwords-mfa-and-access-control/</link>
+        <pubDate>Thu, 10 Jul 2025 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by Specops Software</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbis-cjis-demystified-best-practices-for-passwords-mfa-and-access-control/</guid>
+	<description><![CDATA[FBI's Criminal Justice Information Services (CJIS) compliance isn't optional when handling law enforcement data. From MFA to password hygiene, see how Specops Software helps meet FBI standards while also securing your Windows Active Directory. [...]]]></description>
+ </item>
+
  <item>
         <title>Four arrested in UK over M&amp;S, Co-op, Harrod cyberattacks</title>
         <link>https://www.bleepingcomputer.com/news/security/four-arrested-in-uk-over-mands-co-op-harrod-cyberattacks/</link>
@@ -178,22 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-servicenow-flaw-lets-attackers-enumerate-restricted-data/</guid>
 	<description><![CDATA[A new vulnerability in ServiceNow, dubbed Count(er) Strike, allows low-privileged users to extract sensitive data from tables to which they should not have access. [...]]]></description>
- </item>
-
- <item>
-        <title>Samsung announces major security enhancements coming to One UI 8</title>
-        <link>https://www.bleepingcomputer.com/news/security/samsung-announces-major-security-enhancements-coming-to-one-ui-8/</link>
-        <pubDate>Tue, 08 Jul 2025 16:43:04 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/samsung-announces-major-security-enhancements-coming-to-one-ui-8/</guid>
-	<description><![CDATA[Samsung has announced multiple data security and privacy enhancements for its upcoming Galaxy smartphones running One UI 8, its custom user interface on top of Android. [...]]]></description>
  </item>
 
 </channel>
