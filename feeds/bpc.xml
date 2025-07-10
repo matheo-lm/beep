@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 10 Jul 2025 09:13:13 EDT</pubDate>
+        <pubDate>Thu, 10 Jul 2025 10:03:35 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Four arrested in UK over M&amp;S, Co-op, Harrod cyberattacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/four-arrested-in-uk-over-mands-co-op-harrod-cyberattacks/</link>
+        <pubDate>Thu, 10 Jul 2025 09:46:02 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/four-arrested-in-uk-over-mands-co-op-harrod-cyberattacks/</guid>
+	<description><![CDATA[The UK's National Crime Agency (NCA) arrested four people suspected of being involved in cyberattacks on major retailers in the country, including Marks & Spencer, Co-op, and Harrods. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft Authenticator on iOS moves backups fully to iCloud</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-authenticator-on-ios-moves-backups-fully-to-icloud/</link>
@@ -178,36 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/samsung-announces-major-security-enhancements-coming-to-one-ui-8/</guid>
 	<description><![CDATA[Samsung has announced multiple data security and privacy enhancements for its upcoming Galaxy smartphones running One UI 8, its custom user interface on top of Android. [...]]]></description>
- </item>
-
- <item>
-        <title>M&amp;S confirms social engineering led to massive ransomware attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/mands-confirms-social-engineering-led-to-massive-ransomware-attack/</link>
-        <pubDate>Tue, 08 Jul 2025 16:39:53 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/mands-confirms-social-engineering-led-to-massive-ransomware-attack/</guid>
-	<description><![CDATA[M&S confirmed today that the retail outlet's network was initially breached in a "sophisticated impersonation attack" that ultimately led to a DragonForce ransomware attack. [...]]]></description>
- </item>
-
- <item>
-        <title>New Android TapTrap attack fools users with invisible UI trick</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-android-taptrap-attack-fools-users-with-invisible-ui-trick/</link>
-        <pubDate>Tue, 08 Jul 2025 15:39:25 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-android-taptrap-attack-fools-users-with-invisible-ui-trick/</guid>
-	<description><![CDATA[A novel tapjacking technique can exploit user interface animations to bypass Android's permission system and allow access to sensitive data or trick users into performing destructive actions, such as wiping the device. [...]]]></description>
  </item>
 
 </channel>
