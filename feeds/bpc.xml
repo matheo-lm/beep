@@ -11,13 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 10 Jul 2025 12:01:24 EDT</pubDate>
+        <pubDate>Thu, 10 Jul 2025 13:04:47 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
  <item>
-        <title>PerfektBlue BlueTooth flaws impact Mercedes, Volkswagen, Skoda cars</title>
+        <title>Russian pro basketball player arrested for alleged role in ransomware attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/russian-pro-basketball-player-arrested-for-alleged-role-in-ransomware-attacks/</link>
+        <pubDate>Thu, 10 Jul 2025 12:26:35 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/russian-pro-basketball-player-arrested-for-alleged-role-in-ransomware-attacks/</guid>
+	<description><![CDATA[Russian professional basketball player Daniil Kasatkin was arrested in France at the request of the United States for allegedly acting as a negotiator for a ransomware gang. [...]]]></description>
+ </item>
+
+ <item>
+        <title>PerfektBlue Bluetooth flaws impact Mercedes, Volkswagen, Skoda cars</title>
         <link>https://www.bleepingcomputer.com/news/security/perfektblue-bluetooth-flaws-impact-mercedes-volkswagen-skoda-cars/</link>
         <pubDate>Thu, 10 Jul 2025 12:01:19 -0400</pubDate>
         <dc:creator>Bill Toulas</dc:creator>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/the-mfa-you-trust-is-lying-to-you-and-heres-how-attackers-exploit-it/</guid>
 	<description><![CDATA[MFA Authenticator apps aren't cutting it anymore. Attackers are bypassing legacy MFA with fake sites and real-time phishing. Token Ring and BioStick stop them cold—with fingerprint-bound hardware. Learn more from Token. [...]]]></description>
- </item>
-
- <item>
-        <title>New ServiceNow flaw lets attackers enumerate restricted data</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-servicenow-flaw-lets-attackers-enumerate-restricted-data/</link>
-        <pubDate>Wed, 09 Jul 2025 09:00:00 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-servicenow-flaw-lets-attackers-enumerate-restricted-data/</guid>
-	<description><![CDATA[A new vulnerability in ServiceNow, dubbed Count(er) Strike, allows low-privileged users to extract sensitive data from tables to which they should not have access. [...]]]></description>
  </item>
 
 </channel>
