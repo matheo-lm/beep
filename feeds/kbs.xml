@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Thu, 10 Jul 2025 17:31:10 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Jul 2025 20:36:30 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -53,9 +53,9 @@
 										<content:encoded><![CDATA[<p>Authorities in the United Kingdom this week arrested four alleged members of &#8220;<strong>Scattered Spider</strong>,&#8221; a prolific data theft and extortion group whose recent victims include multiple airlines and the U.K. retail chain <strong>Marks &amp; Spencer</strong>.</p>
 <p>Scattered Spider is the name given to an English-speaking cybercrime group known for using social engineering tactics to break into companies and steal data for ransom, often impersonating employees or contractors to deceive IT help desks into granting access. The <strong>FBI</strong> warned last month that Scattered Spider had recently shifted to targeting companies in the retail and airline sectors.</p>
 <p>The U.K.&#8217;s <strong>National Crime Agency</strong> (NCA) declined verify the names of those arrested, <a href="https://www.nationalcrimeagency.gov.uk/news/retail-cyber-attacks-nca-arrest-four-for-attacks-on-m-s-co-op-and-harrods" target="_blank" rel="noopener">saying</a> only that they included two males aged 19, another aged 17, and 20-year-old female. The NCA said the defendants were charged in cyberattacks against Marks &amp; Spencer, the U.K. retailer <strong>Harrods</strong>, and the British food retailer <strong>Co-op Group</strong>.</p>
-<p>KrebsOnSecurity has learned the identities of the two 19-year-old suspects. Multiple sources close to the investigation said those arrested include <strong>Owen David Flowers</strong>, a U.K. man alleged to have been involved in the cyber intrusion and ransomware attack that shut down several <strong>MGM Casino</strong> properties in September 2023. Those same sources said the woman arrested is or recently was in a relationship with Flowers.</p>
+<p>KrebsOnSecurity has learned the identities of two of the suspects. Multiple sources close to the investigation said those arrested include <strong>Owen David Flowers</strong>, a U.K. man alleged to have been involved in the cyber intrusion and ransomware attack that shut down several <strong>MGM Casino</strong> properties in September 2023. Those same sources said the woman arrested is or recently was in a relationship with Flowers.</p>
 <p>Sources told KrebsOnSecurity that Flowers, who allegedly went by the hacker handles &#8220;bo764,&#8221; &#8220;Holy,&#8221; and &#8220;Nazi,&#8221; was the group member who anonymously gave interviews to the media in the days after the MGM hack. His real name was omitted from <a href="https://krebsonsecurity.com/2024/09/the-dark-nexus-between-harm-groups-and-the-com/" target="_blank" rel="noopener">a September 2024 story about the group</a> because he was not yet charged in that incident.</p>
-<p>The bigger fish netted as part of the Scattered Spider dragnet is <strong>Thalha Jubair</strong>, a U.K. man whose alleged exploits under various monikers have been well-documented in stories on this site. Jubair is believed to have used the nickname &#8220;<strong>Earth2Star</strong>,&#8221; which corresponds to a founding member of the cybercrime-focused Telegram channel &#8220;<strong>Star Fraud Chat</strong>.&#8221;</p>
+<p>The bigger fish netted as part of the Scattered Spider dragnet is 19-year-old <strong>Thalha Jubair</strong>, a U.K. man whose alleged exploits under various monikers have been well-documented in stories on this site. Jubair is believed to have used the nickname &#8220;<strong>Earth2Star</strong>,&#8221; which corresponds to a founding member of the cybercrime-focused Telegram channel &#8220;<strong>Star Fraud Chat</strong>.&#8221;</p>
 <p>In 2023, KrebsOnSecurity <a href="https://krebsonsecurity.com/2023/02/hackers-claim-they-breached-t-mobile-more-than-100-times-in-2022/" target="_blank" rel="noopener">published an investigation</a> into the work of three different SIM-swapping groups that phished credentials from T-Mobile employees and used that access to offer a service whereby any T-Mobile phone number could be swapped to a new device. Star Chat was by far the most active and consequential of the three SIM-swapping groups, who collectively broke into T-Mobile&#8217;s network more than 100 times in the second half of 2022.</p>
 <div id="attachment_71644" style="width: 757px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71644" decoding="async" class=" wp-image-71644" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat.png" alt="" width="747" height="306" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat.png 1153w, https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat-768x314.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat-782x320.png 782w" sizes="(max-width: 747px) 100vw, 747px" /><p id="caption-attachment-71644" class="wp-caption-text">Jubair allegedly used the handles &#8220;Earth2Star&#8221; and &#8220;Star Ace,&#8221; and was a core member of a prolific SIM-swapping group operating in 2022. Star Ace posted this image to the Star Fraud chat channel on Telegram, and it lists various prices for SIM-swaps.</p></div>
 <p>Sources tell KrebsOnSecurity that Jubair also was a core member of the <strong>LAPSUS$</strong> cybercrime group that <a href="https://krebsonsecurity.com/2022/03/a-closer-look-at-the-lapsus-data-extortion-group/" target="_blank" rel="noopener">broke into dozens of technology companies in 2022</a>, stealing source code and other internal data from tech giants including <strong>Microsoft</strong>, <strong>Nvidia</strong>, <strong>Okta</strong>, <strong>Rockstar Games</strong>, <strong>Samsung</strong>, <strong>T-Mobile</strong>, and <strong>Uber</strong>.</p>
@@ -70,7 +70,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/07/uk-charges-four-in-scattered-spider-ransom-group/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>3</slash:comments>
 		
 		
 			</item>
@@ -641,8 +641,8 @@
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 310/310 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-10 16:02:01 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-10 17:02:02 by W3 Total Cache
 -->

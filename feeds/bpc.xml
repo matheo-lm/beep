@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 10 Jul 2025 16:01:26 EDT</pubDate>
+        <pubDate>Thu, 10 Jul 2025 17:01:39 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 11 now uses JScript9Legacy engine for improved security</title>
+        <link>https://www.bleepingcomputer.com/news/security/windows-11-now-uses-jscript9legacy-engine-for-improved-security/</link>
+        <pubDate>Thu, 10 Jul 2025 16:46:27 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/windows-11-now-uses-jscript9legacy-engine-for-improved-security/</guid>
+	<description><![CDATA[Microsoft announced that it has replaced the default scripting engine JScript with the newer and more secure JScript9Legacy on Windows 11 version 24H2 and later. [...]]]></description>
+ </item>
+
  <item>
         <title>Russian pro basketball player arrested for alleged role in ransomware attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/russian-pro-basketball-player-arrested-for-alleged-role-in-ransomware-attacks/</link>
@@ -178,34 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ingram-micro-starts-restoring-systems-after-ransomware-attack/</guid>
 	<description><![CDATA[Ingram Micro has begun restoring systems and business services after suffering a massive SafePay ransomware attack right before the July 4th holiday. [...]]]></description>
- </item>
-
- <item>
-        <title>Treasury sanctions North Korean over IT worker malware scheme</title>
-        <link>https://www.bleepingcomputer.com/news/legal/treasury-sanctions-north-korean-over-it-worker-malware-scheme/</link>
-        <pubDate>Wed, 09 Jul 2025 10:43:11 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/legal/treasury-sanctions-north-korean-over-it-worker-malware-scheme/</guid>
-	<description><![CDATA[The U.S. Department of the Treasury sanctioned cyber actor Song Kum Hyok for his association with North Korea's hacking group Andariel and for facilitating IT worker schemes that generated revenue for the Pyongyang regime. [...]]]></description>
- </item>
-
- <item>
-        <title>The MFA You Trust Is Lying to You – and Here's How Attackers Exploit It</title>
-        <link>https://www.bleepingcomputer.com/news/security/the-mfa-you-trust-is-lying-to-you-and-heres-how-attackers-exploit-it/</link>
-        <pubDate>Wed, 09 Jul 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by Token</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/the-mfa-you-trust-is-lying-to-you-and-heres-how-attackers-exploit-it/</guid>
-	<description><![CDATA[MFA Authenticator apps aren't cutting it anymore. Attackers are bypassing legacy MFA with fake sites and real-time phishing. Token Ring and BioStick stop them cold—with fingerprint-bound hardware. Learn more from Token. [...]]]></description>
  </item>
 
 </channel>
