@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 10 Jul 2025 10:59:38 EDT</pubDate>
+        <pubDate>Thu, 10 Jul 2025 12:01:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>PerfektBlue BlueTooth flaws impact Mercedes, Volkswagen, Skoda cars</title>
+        <link>https://www.bleepingcomputer.com/news/security/perfektblue-bluetooth-flaws-impact-mercedes-volkswagen-skoda-cars/</link>
+        <pubDate>Thu, 10 Jul 2025 12:01:19 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/perfektblue-bluetooth-flaws-impact-mercedes-volkswagen-skoda-cars/</guid>
+	<description><![CDATA[Four vulnerabilities dubbed PerfektBlue and affecting the BlueSDK Bluetooth stack from OpenSynergy can be exploited to achieve remote code execution and potentially allow access to critical elements in vehicles from multiple vendors, including Mercedes-Benz AG, Volkswagen, and Skoda. [...]]]></description>
+ </item>
+
  <item>
         <title>FBI's CJIS demystified: Best practices for passwords, MFA &amp; access control</title>
         <link>https://www.bleepingcomputer.com/news/security/fbis-cjis-demystified-best-practices-for-passwords-mfa-and-access-control/</link>
