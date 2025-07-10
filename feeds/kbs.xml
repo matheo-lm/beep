@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Thu, 10 Jul 2025 20:36:30 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Jul 2025 21:58:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,7 +20,7 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
-		<title>UK Charges Four in &#8216;Scattered Spider&#8217; Ransom Group</title>
+		<title>UK Arrests Four in &#8216;Scattered Spider&#8217; Ransom Group</title>
 		<link>https://krebsonsecurity.com/2025/07/uk-charges-four-in-scattered-spider-ransom-group/</link>
 					<comments>https://krebsonsecurity.com/2025/07/uk-charges-four-in-scattered-spider-ransom-group/#comments</comments>
 		
@@ -70,7 +70,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/07/uk-charges-four-in-scattered-spider-ransom-group/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
+			<slash:comments>4</slash:comments>
 		
 		
 			</item>
@@ -644,5 +644,5 @@ Object Caching 310/310 objects using memcached
 Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-10 17:02:02 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-10 17:58:25 by W3 Total Cache
 -->
