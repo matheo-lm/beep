@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 11 Jul 2025 11:01:05 EDT</pubDate>
+        <pubDate>Fri, 11 Jul 2025 12:02:12 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>NVIDIA shares guidance to defend GDDR6 GPUs against Rowhammer attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/nvidia-issues-guidance-to-defend-gddr6-gpus-against-rowhammer/</link>
+        <pubDate>Fri, 11 Jul 2025 11:39:05 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/nvidia-issues-guidance-to-defend-gddr6-gpus-against-rowhammer/</guid>
+	<description><![CDATA[NVIDIA is warning users to activate System Level Error-Correcting Code  mitigation to protect against Rowhammer attacks on graphical processors with GDDR6 memory. [...]]]></description>
+ </item>
+
+ <item>
+        <title>The zero-day that could've compromised every Cursor and Windsurf user</title>
+        <link>https://www.bleepingcomputer.com/news/security/the-zero-day-that-couldve-compromised-every-cursor-and-windsurf-user/</link>
+        <pubDate>Fri, 11 Jul 2025 11:03:14 -0400</pubDate>
+        <dc:creator>Sponsored by Koi Security</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/the-zero-day-that-couldve-compromised-every-cursor-and-windsurf-user/</guid>
+	<description><![CDATA[Learn how one overlooked flaw in OpenVSX discovered by Koi Secureity could've let attackers hijack millions of dev machines via an extension supply chain attack. The zero-day threat's been patched—but the wake-up call is clear: extensions are a new, massive supply chain risk. [...]]]></description>
+ </item>
+
  <item>
         <title>CISA tags Citrix Bleed 2 as exploited, gives agencies a day to patch</title>
         <link>https://www.bleepingcomputer.com/news/security/cisa-tags-citrix-bleed-2-as-exploited-gives-agencies-a-day-to-patch/</link>
@@ -164,22 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-reveals-details-on-androids-advanced-protection-for-chrome/</guid>
 	<description><![CDATA[Google is sharing more information on how Chrome operates when Android mobile users enable Advanced Protection, highlighting strong security improvements. [...]]]></description>
- </item>
-
- <item>
-        <title>Bitcoin Depot breach exposes data of nearly 27,000 crypto users</title>
-        <link>https://www.bleepingcomputer.com/news/security/bitcoin-depot-breach-exposes-data-of-nearly-27-000-crypto-users/</link>
-        <pubDate>Wed, 09 Jul 2025 13:33:46 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/bitcoin-depot-breach-exposes-data-of-nearly-27-000-crypto-users/</guid>
-	<description><![CDATA[Bitcoin Depot, an operator of Bitcoin ATMs, is notifying customers of a data breach incident that has exposed their sensitive information. [...]]]></description>
  </item>
 
 </channel>
