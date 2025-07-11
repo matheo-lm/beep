@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 11 Jul 2025 14:58:46 EDT</pubDate>
+        <pubDate>Fri, 11 Jul 2025 16:01:46 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Exploits for pre-auth Fortinet FortiWeb RCE flaw released, patch now</title>
+        <link>https://www.bleepingcomputer.com/news/security/exploits-for-pre-auth-fortinet-fortiweb-rce-flaw-released-patch-now/</link>
+        <pubDate>Fri, 11 Jul 2025 15:41:39 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/exploits-for-pre-auth-fortinet-fortiweb-rce-flaw-released-patch-now/</guid>
+	<description><![CDATA[Proof-of-concept exploits have been released for a critical SQLi vulnerability in Fortinet FortiWeb that can be used to achieve pre-authenticated remote code execution on vulnerable servers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>WordPress Gravity Forms developer hacked to push backdoored plugins</title>
+        <link>https://www.bleepingcomputer.com/news/security/wordpress-gravity-forms-developer-hacked-to-push-backdoored-plugins/</link>
+        <pubDate>Fri, 11 Jul 2025 15:30:07 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/wordpress-gravity-forms-developer-hacked-to-push-backdoored-plugins/</guid>
+	<description><![CDATA[The popular WordPress plugin Gravity Forms has been compromised in what seems a supply-chain attack where manual installers from the official website were infected with a backdoor. [...]]]></description>
+ </item>
+
  <item>
         <title>NVIDIA shares guidance to defend GDDR6 GPUs against Rowhammer attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/nvidia-issues-guidance-to-defend-gddr6-gpus-against-rowhammer/</link>
@@ -162,38 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-server-update-services-wsus-sync-is-broken/</guid>
 	<description><![CDATA[Microsoft has confirmed a widespread issue in Windows Server Update Services (WSUS) that prevents organizations from syncing with Microsoft Update and deploying the latest Windows updates. [...]]]></description>
- </item>
-
- <item>
-        <title>Qantas confirms data breach impacts 5.7 million customers</title>
-        <link>https://www.bleepingcomputer.com/news/security/qantas-confirms-data-breach-impacts-57-million-customers/</link>
-        <pubDate>Wed, 09 Jul 2025 16:14:28 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/qantas-confirms-data-breach-impacts-57-million-customers/</guid>
-	<description><![CDATA[Australian airline Qantas has confirmed that 5.7 million people have been impacted by a recent data breach, in which threat actors stole customers' data. [...]]]></description>
- </item>
-
- <item>
-        <title>Google reveals details on Android’s Advanced Protection for Chrome</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-reveals-details-on-androids-advanced-protection-for-chrome/</link>
-        <pubDate>Wed, 09 Jul 2025 15:31:41 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-reveals-details-on-androids-advanced-protection-for-chrome/</guid>
-	<description><![CDATA[Google is sharing more information on how Chrome operates when Android mobile users enable Advanced Protection, highlighting strong security improvements. [...]]]></description>
  </item>
 
 </channel>
