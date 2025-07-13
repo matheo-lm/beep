@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 13 Jul 2025 14:03:37 EDT</pubDate>
+        <pubDate>Sun, 13 Jul 2025 15:00:54 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 10 KB5062554 update breaks emoji panel search feature</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5062554-update-breaks-emoji-panel-search-feature/</link>
+        <pubDate>Sun, 13 Jul 2025 14:15:25 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5062554-update-breaks-emoji-panel-search-feature/</guid>
+	<description><![CDATA[The search feature for the Windows 10 emoji panel is broken after installing the KB5062554 cumulative update released Tuesday, making it not possible to look up emojis by name or keyword. [...]]]></description>
+ </item>
+
  <item>
         <title>Google Gemini flaw hijacks email summaries for phishing</title>
         <link>https://www.bleepingcomputer.com/news/security/google-gemini-flaw-hijacks-email-summaries-for-phishing/</link>
@@ -162,20 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/russian-pro-basketball-player-arrested-for-alleged-role-in-ransomware-attacks/</guid>
 	<description><![CDATA[Russian professional basketball player Daniil Kasatkin was arrested in France at the request of the United States for allegedly acting as a negotiator for a ransomware gang. [...]]]></description>
- </item>
-
- <item>
-        <title>PerfektBlue Bluetooth flaws impact Mercedes, Volkswagen, Skoda cars</title>
-        <link>https://www.bleepingcomputer.com/news/security/perfektblue-bluetooth-flaws-impact-mercedes-volkswagen-skoda-cars/</link>
-        <pubDate>Thu, 10 Jul 2025 12:01:19 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/perfektblue-bluetooth-flaws-impact-mercedes-volkswagen-skoda-cars/</guid>
-	<description><![CDATA[Four vulnerabilities dubbed PerfektBlue and affecting the BlueSDK Bluetooth stack from OpenSynergy can be exploited to achieve remote code execution and potentially allow access to critical elements in vehicles from multiple vendors, including Mercedes-Benz AG, Volkswagen, and Skoda. [...]]]></description>
  </item>
 
 </channel>
