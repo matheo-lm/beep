@@ -11,11 +11,29 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 13 Jul 2025 10:01:14 EDT</pubDate>
+        <pubDate>Sun, 13 Jul 2025 10:58:25 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google Gemini flaw hijacks email summaries for phishing</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-gemini-flaw-hijacks-email-summaries-for-phishing/</link>
+        <pubDate>Sun, 13 Jul 2025 10:38:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-gemini-flaw-hijacks-email-summaries-for-phishing/</guid>
+	<description><![CDATA[Google Gemini for Workspace can be exploited to generate email summaries that appear legitimate but include malicious instructions or warnings that direct users to phishing sites without using attachments or direct links. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers are exploiting critical RCE flaw in Wing FTP Server</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-critical-rce-flaw-in-wing-ftp-server/</link>
@@ -158,36 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/perfektblue-bluetooth-flaws-impact-mercedes-volkswagen-skoda-cars/</guid>
 	<description><![CDATA[Four vulnerabilities dubbed PerfektBlue and affecting the BlueSDK Bluetooth stack from OpenSynergy can be exploited to achieve remote code execution and potentially allow access to critical elements in vehicles from multiple vendors, including Mercedes-Benz AG, Volkswagen, and Skoda. [...]]]></description>
- </item>
-
- <item>
-        <title>FBI's CJIS demystified: Best practices for passwords, MFA &amp; access control</title>
-        <link>https://www.bleepingcomputer.com/news/security/fbis-cjis-demystified-best-practices-for-passwords-mfa-and-access-control/</link>
-        <pubDate>Thu, 10 Jul 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by Specops Software</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fbis-cjis-demystified-best-practices-for-passwords-mfa-and-access-control/</guid>
-	<description><![CDATA[FBI's Criminal Justice Information Services (CJIS) compliance isn't optional when handling law enforcement data. From MFA to password hygiene, see how Specops Software helps meet FBI standards while also securing your Windows Active Directory. [...]]]></description>
- </item>
-
- <item>
-        <title>Four arrested in UK over M&amp;S, Co-op, Harrods cyberattacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/four-arrested-in-uk-over-mands-co-op-harrods-cyberattacks/</link>
-        <pubDate>Thu, 10 Jul 2025 09:46:02 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/four-arrested-in-uk-over-mands-co-op-harrods-cyberattacks/</guid>
-	<description><![CDATA[The UK's National Crime Agency (NCA) arrested four people suspected of being involved in cyberattacks on major retailers in the country, including Marks & Spencer, Co-op, and Harrods. [...]]]></description>
  </item>
 
 </channel>
