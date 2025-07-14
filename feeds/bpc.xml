@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 14 Jul 2025 16:00:26 EDT</pubDate>
+        <pubDate>Mon, 14 Jul 2025 17:02:06 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>UK launches vulnerability research program for external experts</title>
+        <link>https://www.bleepingcomputer.com/news/security/uk-launches-vulnerability-research-program-for-external-experts/</link>
+        <pubDate>Mon, 14 Jul 2025 16:21:22 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/uk-launches-vulnerability-research-program-for-external-experts/</guid>
+	<description><![CDATA[UK's National Cyber Security Centre (NCSC) has announced a new Vulnerability Research Initiative (VRI) that aims to strengthen relations with external cybersecurity experts. [...]]]></description>
+ </item>
+
  <item>
         <title>Interlock ransomware adopts FileFix method to deliver malware</title>
         <link>https://www.bleepingcomputer.com/news/security/interlock-ransomware-adopts-filefix-method-to-deliver-malware/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/the-zero-day-that-couldve-compromised-every-cursor-and-windsurf-user/</guid>
 	<description><![CDATA[Learn how one overlooked flaw in OpenVSX discovered by Koi Secureity could've let attackers hijack millions of dev machines via an extension supply chain attack. The zero-day threat's been patched—but the wake-up call is clear: extensions are a new, massive supply chain risk. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA tags Citrix Bleed 2 as exploited, gives agencies a day to patch</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-tags-citrix-bleed-2-as-exploited-gives-agencies-a-day-to-patch/</link>
-        <pubDate>Fri, 11 Jul 2025 10:45:57 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-tags-citrix-bleed-2-as-exploited-gives-agencies-a-day-to-patch/</guid>
-	<description><![CDATA[The U.S. Cybersecurity & Infrastructure Security Agency has confirmed active exploitation of the CitrixBleed 2 vulnerability (CVE-2025-5777) in Citrix NetScaler ADC and Gateway and is giving federal agencies one day to apply fixes. [...]]]></description>
  </item>
 
 </channel>
