@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 14 Jul 2025 14:02:54 EDT</pubDate>
+        <pubDate>Mon, 14 Jul 2025 15:00:31 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Interlock ransomware adopts FileFix method to deliver malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/interlock-ransomware-adopts-filefix-method-to-deliver-malware/</link>
+        <pubDate>Mon, 14 Jul 2025 14:36:30 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/interlock-ransomware-adopts-filefix-method-to-deliver-malware/</guid>
+	<description><![CDATA[Hackers have adopted the new technique called 'FileFix' in Interlock ransomware attacks to drop a remote access trojan (RAT) on targeted systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Gigabyte motherboards vulnerable to UEFI malware bypassing Secure Boot</title>
         <link>https://www.bleepingcomputer.com/news/security/gigabyte-motherboards-vulnerable-to-uefi-malware-bypassing-secure-boot/</link>
