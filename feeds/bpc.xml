@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 15 Jul 2025 14:02:34 EDT</pubDate>
+        <pubDate>Tue, 15 Jul 2025 15:02:17 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows KB5064489 emergency update fixes Azure VM launch issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-kb5064489-emergency-update-fixes-azure-vm-launch-issues/</link>
+        <pubDate>Tue, 15 Jul 2025 14:47:07 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-kb5064489-emergency-update-fixes-azure-vm-launch-issues/</guid>
+	<description><![CDATA[Microsoft has released an emergency update to fix a bug that prevents Azure virtual machines from launching when the Trusted Launch setting is disabled and Virtualization-Based Security (VBS) is enabled. [...]]]></description>
+ </item>
+
  <item>
         <title>North Korean XORIndex malware hidden in 67 malicious npm packages</title>
         <link>https://www.bleepingcomputer.com/news/security/north-korean-xorindex-malware-hidden-in-67-malicious-npm-packages/</link>
@@ -178,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-critical-rce-flaw-in-wing-ftp-server/</guid>
 	<description><![CDATA[Hackers have started to exploit a critical remote code execution vulnerability in Wing FTP Server just one day after technical details on the flaw became public. [...]]]></description>
- </item>
-
- <item>
-        <title>'123456' password exposed chats for 64 million McDonald’s job chatbot applications</title>
-        <link>https://www.bleepingcomputer.com/news/security/123456-password-exposed-chats-for-64-million-mcdonalds-job-chatbot-applications/</link>
-        <pubDate>Fri, 11 Jul 2025 16:26:52 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/123456-password-exposed-chats-for-64-million-mcdonalds-job-chatbot-applications/</guid>
-	<description><![CDATA[Cybersecurity researchers discovered a vulnerability in McHire, McDonald's chatbot job application platform, that exposed the chats of more than 64 million job applications across the United States. [...]]]></description>
  </item>
 
 </channel>
