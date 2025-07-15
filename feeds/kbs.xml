@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Thu, 10 Jul 2025 22:14:40 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 15 Jul 2025 01:23:43 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,58 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>DOGE Denizen Marko Elez Leaked API Key for xAI</title>
+		<link>https://krebsonsecurity.com/2025/07/doge-denizen-marko-elez-leaked-api-key-for-xai/</link>
+					<comments>https://krebsonsecurity.com/2025/07/doge-denizen-marko-elez-leaked-api-key-for-xai/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Tue, 15 Jul 2025 01:23:43 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[DOGE]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Business Insider]]></category>
+		<category><![CDATA[GitGuardian]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Grok]]></category>
+		<category><![CDATA[Marko Elez]]></category>
+		<category><![CDATA[Philippe Caturegli]]></category>
+		<category><![CDATA[President Trump]]></category>
+		<category><![CDATA[Seralys]]></category>
+		<category><![CDATA[Techcrunch]]></category>
+		<category><![CDATA[The New York Times]]></category>
+		<category><![CDATA[The Wall Street Journal]]></category>
+		<category><![CDATA[The Washington Post]]></category>
+		<category><![CDATA[twitter]]></category>
+		<category><![CDATA[Vice President J.D. Vance]]></category>
+		<category><![CDATA[X]]></category>
+		<category><![CDATA[xAI]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71676</guid>
+
+					<description><![CDATA[Marko Elez, a 25-year-old employee at Elon Musk's Department of Government Efficiency (DOGE), has been granted access to sensitive databases at the U.S. Social Security Administration, the Treasury and Justice departments, and the Department of Homeland Security. So it should fill all Americans with a deep sense of confidence to learn that Mr. Elez over the weekend inadvertently published a private key that allowed anyone to interact directly with more than four dozen large language models (LLMs) developed by Musk's artificial intelligence company xAI.]]></description>
+										<content:encoded><![CDATA[<p><strong>Marko Elez</strong>, a 25-year-old employee at Elon Musk&#8217;s <strong>Department of Government Efficiency</strong> (DOGE), has been granted access to sensitive databases at the U.S. Social Security Administration, the Treasury and Justice departments, and the Department of Homeland Security. So it should fill all Americans with a deep sense of confidence to learn that Mr. Elez over the weekend inadvertently published a private key that allowed anyone to interact directly with more than four dozen large language models (LLMs) developed by Musk&#8217;s artificial intelligence company <strong>xAI</strong>.</p>
+<div id="attachment_71170" style="width: 756px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71170" decoding="async" class=" wp-image-71170" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/x-ai.png" alt="" width="746" height="496" /><p id="caption-attachment-71170" class="wp-caption-text">Image: Shutterstock, @sdx15.</p></div>
+<p>On July 13, Mr. Elez committed a code library to GitHub called &#8220;agent.py&#8221; that included a private application programming interface (API) key for xAI. The inclusion of the private key was first flagged by <strong>GitGuardian</strong>, a company that specializes in detecting and remediating exposed secrets in public and proprietary environments. GitGuardian’s systems constantly scan GitHub and other code repositories for exposed API keys, and fire off automated alerts to affected users.</p>
+<p><strong>Philippe Caturegli</strong>, “chief hacking officer” at the security consultancy <strong>Seralys, </strong>said the exposed API key allowed access to at least 52 different LLMs used by xAI. The most recent LLM in the list was called &#8220;grok-4-0709&#8221; and was created on July 9, 2025.</p>
+<p><strong>Grok</strong>, the <a href="https://x.ai/grok" target="_blank" rel="noopener">generative AI chatbot</a> developed by xAI and integrated into <strong>Twitter/X</strong>, relies on these and other LLMs (a query to Grok before publication shows Grok currently uses Grok-3, which was launched in Feburary 2025). Earlier today, xAI <a href="https://x.com/xai/status/1944776899420377134" target="_blank" rel="noopener">announced</a> that the Department of Defense will begin using Grok as part of <a href="https://www.washingtonpost.com/technology/2025/07/14/elon-musk-grok-defense-department/" target="_blank" rel="noopener">a contract worth up to $200 million</a>. The contract award came less than a week after Grok began <a href="https://www.npr.org/2025/07/09/nx-s1-5462609/grok-elon-musk-antisemitic-racist-content" target="_blank" rel="noopener">spewing antisemitic rants and invoking Adolf Hitler</a>.</p>
+<p>Mr. Elez did not respond to a request for comment. The code repository containing the private xAI key was removed shortly after Caturegli notified Elez via email. However, Caturegli said the exposed API key still works and has not yet been revoked.</p>
+<p>&#8220;If a developer can&#8217;t keep an API key private, it raises questions about how they&#8217;re handling far more sensitive government information behind closed doors,&#8221; Caturegli told KrebsOnSecurity.</p>
+<p>Prior to joining DOGE, <a href="https://en.wikipedia.org/wiki/Marko_Elez" target="_blank" rel="noopener">Marko Elez</a> worked for a number of Musk&#8217;s companies. His DOGE career began at the Department of the Treasury, and a legal battle over DOGE&#8217;s access to Treasury databases showed Elez was sending unencrypted personal information <a href="https://www.theverge.com/news/630894/doge-treasury-lawsuit-marko-elez-unencrypted-emails" target="_blank" rel="noopener">in violation of the agency&#8217;s policies</a>.</p>
+<p>While still at Treasury, Elez resigned after <strong>The Wall Street Journal</strong> <a href="https://www.wsj.com/tech/doge-staffer-resigns-over-racist-posts-d9f11a93" target="_blank" rel="noopener">linked him to social media posts</a> that advocated racism and eugenics. When <strong>Vice President J.D. Vance</strong> lobbied for Elez to be rehired, <strong>President Trump</strong> agreed and Musk reinstated him.</p>
+<p>Since his re-hiring as a DOGE employee, Elez has been granted access to databases at one federal agency after another. <strong>TechCrunch</strong> <a href="https://techcrunch.com/2025/03/17/doge-staffer-violated-treasury-rules-by-emailing-unencrypted-personal-data/" target="_blank" rel="noopener">reported in February 2025</a> that he was working at the Social Security Administration. In March, <strong>Business Insider</strong> <a href="https://www.businessinsider.com/doge-staffer-fertility-clinic-pronatalist-department-of-labor" target="_blank" rel="noopener">found</a> Elez was part of a DOGE detachment <a href="https://krebsonsecurity.com/2025/04/doge-workers-code-supports-nlrb-whistleblower/" target="_blank" rel="noopener">assigned to the Department of Labor</a>.</p>
+<div id="attachment_71106" style="width: 548px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71106" decoding="async" loading="lazy" class=" wp-image-71106" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/markoelez.png" alt="" width="538" height="624" /><p id="caption-attachment-71106" class="wp-caption-text">Marko Elez, in a photo from a social media profile.</p></div>
+<p>In April, <strong>The New York Times</strong> <a href="https://www.nytimes.com/interactive/2025/02/27/us/politics/doge-staff-list.html" target="_blank" rel="noopener">reported</a> that Elez held positions at the <strong>U.S. Customs and Border Protection</strong> and the <strong>Immigration and Customs Enforcement</strong> (ICE) bureaus, as well as the Department of Homeland Security. <strong>The Washington Post</strong> later <a href="https://www.washingtonpost.com/immigration/2025/04/21/doge-ecas-justice-immigration-courts-trump/" target="_blank" rel="noopener">reported</a> that Elez, while serving as a DOGE advisor at the <strong>Department of Justice</strong>, had gained access to the Executive Office for Immigration Review&#8217;s Courts and Appeals System (EACS).</p>
+<p>Elez is not the first DOGE worker to publish internal API keys for xAI: In May, KrebsOnSecurity <a href="https://krebsonsecurity.com/2025/05/xai-dev-leaks-api-key-for-private-spacex-tesla-llms/" target="_blank" rel="noopener">detailed</a> how another DOGE employee leaked a private xAI key on GitHub for two months, exposing LLMs that were custom made for working with internal data from Musk&#8217;s companies, including SpaceX, Tesla and Twitter/X.</p>
+<p>Caturegli said it&#8217;s difficult to trust someone with access to confidential government systems when they can&#8217;t even manage the basics of operational security.</p>
+<p>&#8220;One leak is a mistake,&#8221; he said. &#8220;But when the same type of sensitive key gets exposed again and again, it’s not just bad luck, it’s a sign of deeper negligence and a broken security culture.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/07/doge-denizen-marko-elez-leaked-api-key-for-xai/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>UK Arrests Four in &#8216;Scattered Spider&#8217; Ransom Group</title>
 		<link>https://krebsonsecurity.com/2025/07/uk-charges-four-in-scattered-spider-ransom-group/</link>
 					<comments>https://krebsonsecurity.com/2025/07/uk-charges-four-in-scattered-spider-ransom-group/#comments</comments>
@@ -57,7 +109,7 @@
 <p>Sources told KrebsOnSecurity that Flowers, who allegedly went by the hacker handles &#8220;bo764,&#8221; &#8220;Holy,&#8221; and &#8220;Nazi,&#8221; was the group member who anonymously gave interviews to the media in the days after the MGM hack. His real name was omitted from <a href="https://krebsonsecurity.com/2024/09/the-dark-nexus-between-harm-groups-and-the-com/" target="_blank" rel="noopener">a September 2024 story about the group</a> because he was not yet charged in that incident.</p>
 <p>The bigger fish arrested this week is 19-year-old <strong>Thalha Jubair</strong>, a U.K. man whose alleged exploits under various monikers have been well-documented in stories on this site. Jubair is believed to have used the nickname &#8220;<strong>Earth2Star</strong>,&#8221; which corresponds to a founding member of the cybercrime-focused Telegram channel &#8220;<strong>Star Fraud Chat</strong>.&#8221;</p>
 <p>In 2023, KrebsOnSecurity <a href="https://krebsonsecurity.com/2023/02/hackers-claim-they-breached-t-mobile-more-than-100-times-in-2022/" target="_blank" rel="noopener">published an investigation</a> into the work of three different SIM-swapping groups that phished credentials from T-Mobile employees and used that access to offer a service whereby any T-Mobile phone number could be swapped to a new device. Star Chat was by far the most active and consequential of the three SIM-swapping groups, who collectively broke into T-Mobile&#8217;s network more than 100 times in the second half of 2022.</p>
-<div id="attachment_71644" style="width: 757px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71644" decoding="async" class=" wp-image-71644" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat.png" alt="" width="747" height="306" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat.png 1153w, https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat-768x314.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat-782x320.png 782w" sizes="(max-width: 747px) 100vw, 747px" /><p id="caption-attachment-71644" class="wp-caption-text">Jubair allegedly used the handles &#8220;Earth2Star&#8221; and &#8220;Star Ace,&#8221; and was a core member of a prolific SIM-swapping group operating in 2022. Star Ace posted this image to the Star Fraud chat channel on Telegram, and it lists various prices for SIM-swaps.</p></div>
+<div id="attachment_71644" style="width: 757px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71644" decoding="async" loading="lazy" class=" wp-image-71644" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat.png" alt="" width="747" height="306" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat.png 1153w, https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat-768x314.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/ace-earth2star-starchat-782x320.png 782w" sizes="(max-width: 747px) 100vw, 747px" /><p id="caption-attachment-71644" class="wp-caption-text">Jubair allegedly used the handles &#8220;Earth2Star&#8221; and &#8220;Star Ace,&#8221; and was a core member of a prolific SIM-swapping group operating in 2022. Star Ace posted this image to the Star Fraud chat channel on Telegram, and it lists various prices for SIM-swaps.</p></div>
 <p>Sources tell KrebsOnSecurity that Jubair also was a core member of the <strong>LAPSUS$</strong> cybercrime group that <a href="https://krebsonsecurity.com/2022/03/a-closer-look-at-the-lapsus-data-extortion-group/" target="_blank" rel="noopener">broke into dozens of technology companies in 2022</a>, stealing source code and other internal data from tech giants including <strong>Microsoft</strong>, <strong>Nvidia</strong>, <strong>Okta</strong>, <strong>Rockstar Games</strong>, <strong>Samsung</strong>, <strong>T-Mobile</strong>, and <strong>Uber</strong>.</p>
 <p>In April 2022, KrebsOnSecurity <a href="https://krebsonsecurity.com/2022/04/leaked-chats-show-lapsus-stole-t-mobile-source-code/" target="_blank" rel="noopener">published internal chat records from LAPSUS$</a>, and those chats indicated Jubair was using the nicknames <strong>Amtrak</strong> and <strong>Asyntax</strong>. At one point in the chats, Amtrak told the LAPSUS$ group leader not to share T-Mobile&#8217;s logo in images sent to the group because he&#8217;d been previously busted for SIM-swapping and his parents would suspect he was back at it again.</p>
 <p>As shown in those chats, the leader of LAPSUS$ eventually decided to betray Amtrak by posting his real name, phone number, and other hacker handles into a public chat room on Telegram.</p>
@@ -70,7 +122,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/07/uk-charges-four-in-scattered-spider-ransom-group/feed/</wfw:commentRss>
-			<slash:comments>39</slash:comments>
+			<slash:comments>40</slash:comments>
 		
 		
 			</item>
@@ -572,77 +624,15 @@
 		
 		
 			</item>
-		<item>
-		<title>Oops: DanaBot Malware Devs Infected Their Own PCs</title>
-		<link>https://krebsonsecurity.com/2025/05/oops-danabot-malware-devs-infected-their-own-pcs/</link>
-					<comments>https://krebsonsecurity.com/2025/05/oops-danabot-malware-devs-infected-their-own-pcs/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Thu, 22 May 2025 21:53:21 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Ne'er-Do-Well News]]></category>
-		<category><![CDATA[Russia's War on Ukraine]]></category>
-		<category><![CDATA[Aleksandr Stepanov]]></category>
-		<category><![CDATA[Artem Aleksandrovich Kalinkin]]></category>
-		<category><![CDATA[DanaBot]]></category>
-		<category><![CDATA[DCIS]]></category>
-		<category><![CDATA[Defense Criminal Investigative Service]]></category>
-		<category><![CDATA[ESET]]></category>
-		<category><![CDATA[fbi]]></category>
-		<category><![CDATA[Flashpoint]]></category>
-		<category><![CDATA[google]]></category>
-		<category><![CDATA[Intel 471]]></category>
-		<category><![CDATA[JimmBee]]></category>
-		<category><![CDATA[Lumen]]></category>
-		<category><![CDATA[Lumma Stealer]]></category>
-		<category><![CDATA[Maffiozi]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[Onix]]></category>
-		<category><![CDATA[Paypal]]></category>
-		<category><![CDATA[proofpoint]]></category>
-		<category><![CDATA[team cymru]]></category>
-		<category><![CDATA[U.S. Department of Justice]]></category>
-		<category><![CDATA[Zscaler]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71351</guid>
-
-					<description><![CDATA[The U.S. government today unsealed criminal charges against 16 individuals accused of operating and selling DanaBot, a prolific strain of information-stealing malware that has been sold on Russian cybercrime forums since 2018. The FBI says a newer version of DanaBot was used for espionage, and that many of the defendants exposed their real-life identities after accidentally infecting their own systems with the malware.]]></description>
-										<content:encoded><![CDATA[<p>The U.S. government today unsealed criminal charges against 16 individuals accused of operating and selling <strong>DanaBot</strong>, a prolific strain of information-stealing malware that has been sold on Russian cybercrime forums since 2018. The <strong>FBI</strong> says a newer version of DanaBot was used for espionage, and that many of the defendants exposed their real-life identities after accidentally infecting their own systems with the malware.</p>
-<div id="attachment_71354" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71354" decoding="async" loading="lazy" class=" wp-image-71354" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot.png" alt="" width="749" height="650" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot.png 817w, https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot-768x666.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/05/danabot-782x679.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71354" class="wp-caption-text">DanaBot&#8217;s features, as promoted on its support site. Image: welivesecurity.com.</p></div>
-<p>Initially <a href="https://www.proofpoint.com/us/threat-insight/post/danabot-new-banking-trojan-surfaces-down-under-0" target="_blank" rel="noopener">spotted</a> in May 2018 by researchers at the email security firm <strong>Proofpoint</strong>, DanaBot is a malware-as-a-service platform that specializes in credential theft and banking fraud.</p>
-<p>Today, the <strong>U.S. Department of Justice</strong> unsealed a criminal complaint and indictment from 2022, which said the FBI identified at least 40 affiliates who were paying between $3,000 and $4,000 a month for access to the information stealer platform.</p>
-<p>The government says the malware infected more than 300,000 systems globally, causing estimated losses of more than $50 million. The ringleaders of the DanaBot conspiracy are named as <strong>Aleksandr Stepanov</strong>, 39, a.k.a. “<strong>JimmBee</strong>,” and <strong>Artem Aleksandrovich Kalinkin</strong>, 34, a.k.a. “<strong>Onix</strong>”, both of Novosibirsk, Russia. Kalinkin is an IT engineer for the Russian state-owned energy giant <strong>Gazprom</strong>. His Facebook profile name is &#8220;Maffiozi.&#8221;</p>
-<p>According to the FBI, there were at least two major versions of DanaBot; the first was sold between 2018 and June 2020, when the malware stopped being offered on Russian cybercrime forums. The government alleges that the second version of DanaBot &#8212; emerging in January 2021 &#8212; was provided to co-conspirators for use in targeting military, diplomatic and non-governmental organization computers in several countries, including the United States, Belarus, the United Kingdom, Germany, and Russia.</p>
-<p>&#8220;Unindicted co-conspirators would use the Espionage Variant to compromise computers around the world and steal sensitive diplomatic communications, credentials, and other data from these targeted victims,&#8221; reads a grand jury indictment dated Sept. 20, 2022. &#8220;This stolen data included financial transactions by diplomatic staff, correspondence concerning day-to-day diplomatic activity, as well as summaries of a particular country&#8217;s interactions with the United States.&#8221;</p>
-<p>The indictment says the FBI in 2022 seized servers used by the DanaBot authors to control their malware, as well as the servers that stored stolen victim data. The government said the server data also show numerous instances in which the DanaBot defendants infected their own PCs, resulting in their credential data being uploaded to stolen data repositories that were seized by the feds.</p>
-<p>&#8220;In some cases, such self-infections appeared to be deliberately done in order to test, analyze, or improve the malware,&#8221; the criminal complaint reads. &#8220;In other cases, the infections seemed to be inadvertent &#8211; one of the hazards of committing cybercrime is that criminals will sometimes infect themselves with their own malware by mistake.&#8221;<span id="more-71351"></span></p>
-<div id="attachment_71359" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71359" decoding="async" loading="lazy" class=" wp-image-71359" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/eset-danabotmap.png" alt="" width="750" height="479" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/eset-danabotmap.png 846w, https://krebsonsecurity.com/wp-content/uploads/2025/05/eset-danabotmap-768x490.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/05/eset-danabotmap-782x499.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-71359" class="wp-caption-text">Image: welivesecurity.com</p></div>
-<p>A <a href="https://www.justice.gov/usao-cdca/pr/16-defendants-federally-charged-connection-danabot-malware-scheme-infected-computers" target="_blank" rel="noopener">statement</a> from the DOJ says that as part of today&#8217;s operation, agents with the <strong>Defense Criminal Investigative Service</strong> (DCIS) seized the DanaBot control servers, including dozens of virtual servers hosted in the United States. The government says it is now working with industry partners to notify DanaBot victims and help remediate infections. The statement credits a number of security firms with providing assistance to the government, including <strong>ESET</strong>, <strong>Flashpoint</strong>, <strong>Google</strong>, <strong>Intel 471</strong>, <strong>Lumen</strong>, <strong>PayPal</strong>, <strong>Proofpoint</strong>, <strong>Team CYMRU</strong>, and <strong>ZScaler</strong>.</p>
-<p>It&#8217;s not unheard of for financially-oriented malicious software to be repurposed for espionage. A variant of the <strong>ZeuS Trojan</strong>, which was used in countless online banking attacks against companies in the United States and Europe between 2007 and at least 2015, was for a time diverted to espionage tasks by its author.</p>
-<p>As detailed <a href="https://krebsonsecurity.com/2015/08/inside-the-100m-business-club-crime-gang/" target="_blank" rel="noopener">in this 2015 story,</a> the author of the ZeuS trojan created a custom version of the malware to serve purely as a spying machine, which scoured infected systems in Ukraine for specific keywords in emails and documents that would likely only be found in classified documents.</p>
-<p>The public charging of the 16 DanaBot defendants comes a day after <strong>Microsoft</strong> <a href="https://www.microsoft.com/en-us/security/blog/2025/05/21/lumma-stealer-breaking-down-the-delivery-techniques-and-capabilities-of-a-prolific-infostealer/" target="_blank" rel="noopener">joined</a> a slew of tech companies in <a href="https://www.justice.gov/opa/pr/justice-department-seizes-domains-behind-major-information-stealing-malware-operation" target="_blank" rel="noopener">disrupting the IT infrastructure</a> for another malware-as-a-service offering &#8212; <a href="https://www.welivesecurity.com/en/eset-research/eset-takes-part-global-operation-disrupt-lumma-stealer/" target="_blank" rel="noopener">Lumma Stealer</a>, which is likewise offered to affiliates under tiered subscription prices ranging from $250 to $1,000 per month. Separately, Microsoft filed a civil lawsuit to seize control over 2,300 domain names used by Lumma Stealer and its affiliates.</p>
-<p>Further reading:</p>
-<p><a href="https://www.welivesecurity.com/en/eset-research/danabot-analyzing-fallen-empire/" target="_blank" rel="noopener">Danabot: Analyzing a Fallen Empire</a></p>
-<p><a href="https://www.zscaler.com/blogs/security-research/danabot-launches-ddos-attack-against-ukrainian-ministry-defense" target="_blank" rel="noopener">ZScaler blog: DanaBot Launches DDoS Attack Against the Ukrainian Ministry of Defense</a></p>
-<p><a href="https://flashpoint.io/blog/operation-endgame-danabot-malware/" target="_blank" rel="noopener">Flashpoint: Operation Endgame DanaBot Malware</a></p>
-<p><a href="https://www.team-cymru.com/post/inside-danabots-infrastructure-in-support-of-operation-endgame-ii" target="_blank" rel="noopener">Team CYMRU: Inside DanaBot&#8217;s Infrastructure: In Support of Operation Endgame II</a></p>
-<p><a href="https://www.justice.gov/usao-cdca/media/1401361/dl?inline" target="_blank" rel="noopener">March 2022 criminal complaint v. Artem Aleksandrovich Kalinkin</a></p>
-<p><a href="https://www.justice.gov/usao-cdca/media/1401356/dl?inline" target="_blank" rel="noopener">September 2022 grand jury indictment naming the 16 defendants</a></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/05/oops-danabot-malware-devs-infected-their-own-pcs/feed/</wfw:commentRss>
-			<slash:comments>13</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 309/310 objects using memcached
+Object Caching 308/310 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-14 20:08:04 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-14 21:24:07 by W3 Total Cache
 -->
