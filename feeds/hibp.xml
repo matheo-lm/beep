@@ -6,6 +6,13 @@
     <description>The latest publicly leaked data breaches to hit Have I Been Pwned</description>
     <atom:link href="https://haveibeenpwned.com/feed/breaches/" rel="self" type="application/rss+xml" />
     <item>
+      <guid isPermaLink="false">MaReads</guid>
+      <link>https://haveibeenpwned.com/Breach/MaReads</link>
+      <title>MaReads - 74,453 breached accounts</title>
+      <description>In June 2025, MaReads, the website for readers and writers of Thai-language fiction and comics suffered a data breach that exposed 74k records. The breach included usernames, email addresses, phone numbers and dates of birth. MaReads is aware of the breach.</description>
+      <pubDate>Tue, 15 Jul 2025 07:13:20 Z</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">Omnicuris</guid>
       <link>https://haveibeenpwned.com/Breach/Omnicuris</link>
       <title>Omnicuris - 215,298 breached accounts</title>
@@ -137,13 +144,6 @@
       <title>SpyX - 1,977,011 breached accounts</title>
       <description>In June 2024, &lt;a href="https://techcrunch.com/2025/03/19/data-breach-at-stalkerware-spyx-affects-close-to-2-million-including-thousands-of-apple-users/" target="_blank" rel="noopener"&gt;spyware maker SpyX suffered a data breach that exposed almost 2M unique email addresses&lt;/a&gt;. The breach also exposed IP addresses, countries of residence, device information and 6-digit PINs in the password field. Further, a collection of iCloud credentials likely used to monitor targets directly via the cloud were also in the breach and contained the target's email address and plain text Apple password.</description>
       <pubDate>Wed, 19 Mar 2025 22:34:18 Z</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">Lexipol</guid>
-      <link>https://haveibeenpwned.com/Breach/Lexipol</link>
-      <title>Lexipol - 672,546 breached accounts</title>
-      <description>In February 2025, the public safety policy management systems company &lt;a href="https://www.them.us/story/puppygirl-hacker-polycule-leak" target="_blank" rel="noopener"&gt;Lexipol suffered a data breach&lt;/a&gt;. Attributed to the self-proclaimed &amp;quot;Puppygirl Hacker Polycule&amp;quot;, the breach exposed an extensive number of documents and user records which were subsequently published publicly. The breach included over 670k unique email addresses in the user records, along with names, phone numbers, system-generated usernames and passwords stored as either MD5 or SHA-256 hashes.</description>
-      <pubDate>Wed, 19 Mar 2025 01:07:39 Z</pubDate>
     </item>
   </channel>
 </rss>
