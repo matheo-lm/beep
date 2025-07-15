@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 15 Jul 2025 16:03:40 EDT</pubDate>
+        <pubDate>Tue, 15 Jul 2025 16:58:12 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>OpenAI's image model gets built-in style feature on ChatGPT</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-image-model-gets-built-in-style-feature-on-chatgpt/</link>
+        <pubDate>Tue, 15 Jul 2025 16:12:59 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-image-model-gets-built-in-style-feature-on-chatgpt/</guid>
+	<description><![CDATA[OpenAI's image gen model, which is available via ChatGPT for free, now lets you easily create AI images even if you're not familiar with trends or prompt engineering. [...]]]></description>
+ </item>
+
  <item>
         <title>Abacus dark web drug market goes offline in suspected exit scam</title>
         <link>https://www.bleepingcomputer.com/news/security/abacus-dark-web-drug-market-goes-offline-in-suspected-exit-scam/</link>
@@ -192,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-gemini-flaw-hijacks-email-summaries-for-phishing/</guid>
 	<description><![CDATA[Google Gemini for Workspace can be exploited to generate email summaries that appear legitimate but include malicious instructions or warnings that direct users to phishing sites without using attachments or direct links. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers are exploiting critical RCE flaw in Wing FTP Server</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-critical-rce-flaw-in-wing-ftp-server/</link>
-        <pubDate>Sat, 12 Jul 2025 10:13:24 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-critical-rce-flaw-in-wing-ftp-server/</guid>
-	<description><![CDATA[Hackers have started to exploit a critical remote code execution vulnerability in Wing FTP Server just one day after technical details on the flaw became public. [...]]]></description>
  </item>
 
 </channel>
