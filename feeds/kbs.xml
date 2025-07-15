@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 15 Jul 2025 01:38:20 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 15 Jul 2025 03:04:30 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -55,7 +55,7 @@
 <p><strong>Philippe Caturegli</strong>, “chief hacking officer” at the security consultancy <strong>Seralys, </strong>said the exposed API key allowed access to at least 52 different LLMs used by xAI. The most recent LLM in the list was called &#8220;grok-4-0709&#8221; and was created on July 9, 2025.</p>
 <p><strong>Grok</strong>, the <a href="https://x.ai/grok" target="_blank" rel="noopener">generative AI chatbot</a> developed by xAI and integrated into <strong>Twitter/X</strong>, relies on these and other LLMs (a query to Grok before publication shows Grok currently uses Grok-3, which was launched in Feburary 2025). Earlier today, xAI <a href="https://x.com/xai/status/1944776899420377134" target="_blank" rel="noopener">announced</a> that the Department of Defense will begin using Grok as part of <a href="https://www.washingtonpost.com/technology/2025/07/14/elon-musk-grok-defense-department/" target="_blank" rel="noopener">a contract worth up to $200 million</a>. The contract award came less than a week after Grok began <a href="https://www.npr.org/2025/07/09/nx-s1-5462609/grok-elon-musk-antisemitic-racist-content" target="_blank" rel="noopener">spewing antisemitic rants and invoking Adolf Hitler</a>.</p>
 <p>Mr. Elez did not respond to a request for comment. The code repository containing the private xAI key was removed shortly after Caturegli notified Elez via email. However, Caturegli said the exposed API key still works and has not yet been revoked.</p>
-<p>&#8220;If a developer can&#8217;t keep an API key private, it raises questions about how they&#8217;re handling far more sensitive government information behind closed doors,&#8221; Caturegli told KrebsOnSecurity.</p>
+<p>&#8220;If a developer can&#8217;t keep an API key private, it raises questions about how they&#8217;re handling far more sensitive government information behind closed doors,&#8221; Caturegli told KrebsOnSecurity.<span id="more-71676"></span></p>
 <p>Prior to joining DOGE, <a href="https://en.wikipedia.org/wiki/Marko_Elez" target="_blank" rel="noopener">Marko Elez</a> worked for a number of Musk&#8217;s companies. His DOGE career began at the Department of the Treasury, and a legal battle over DOGE&#8217;s access to Treasury databases showed Elez was sending unencrypted personal information <a href="https://www.theverge.com/news/630894/doge-treasury-lawsuit-marko-elez-unencrypted-emails" target="_blank" rel="noopener">in violation of the agency&#8217;s policies</a>.</p>
 <p>While still at Treasury, Elez resigned after <strong>The Wall Street Journal</strong> <a href="https://www.wsj.com/tech/doge-staffer-resigns-over-racist-posts-d9f11a93" target="_blank" rel="noopener">linked him to social media posts</a> that advocated racism and eugenics. When <strong>Vice President J.D. Vance</strong> lobbied for Elez to be rehired, <strong>President Trump</strong> agreed and Musk reinstated him.</p>
 <p>Since his re-hiring as a DOGE employee, Elez has been granted access to databases at one federal agency after another. <strong>TechCrunch</strong> <a href="https://techcrunch.com/2025/03/17/doge-staffer-violated-treasury-rules-by-emailing-unencrypted-personal-data/" target="_blank" rel="noopener">reported in February 2025</a> that he was working at the Social Security Administration. In March, <strong>Business Insider</strong> <a href="https://www.businessinsider.com/doge-staffer-fertility-clinic-pronatalist-department-of-labor" target="_blank" rel="noopener">found</a> Elez was part of a DOGE detachment <a href="https://krebsonsecurity.com/2025/04/doge-workers-code-supports-nlrb-whistleblower/" target="_blank" rel="noopener">assigned to the Department of Labor</a>.</p>
@@ -67,7 +67,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/07/doge-denizen-marko-elez-leaked-api-key-for-xai/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+			<slash:comments>4</slash:comments>
 		
 		
 			</item>
@@ -630,9 +630,9 @@
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 309/309 objects using memcached
+Object Caching 143/482 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-14 22:35:03 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-14 23:25:30 by W3 Total Cache
 -->
