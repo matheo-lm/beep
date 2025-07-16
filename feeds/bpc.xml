@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 16 Jul 2025 10:00:39 EDT</pubDate>
+        <pubDate>Wed, 16 Jul 2025 10:58:56 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Fortinet FortiWeb hacks likely linked to public RCE exploits</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-fortinet-fortiweb-hacks-likely-linked-to-public-rce-exploits/</link>
+        <pubDate>Wed, 16 Jul 2025 10:58:52 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-fortinet-fortiweb-hacks-likely-linked-to-public-rce-exploits/</guid>
+	<description><![CDATA[Multiple Fortinet FortiWeb instances recently infected with web shells are believed to have been compromised using public exploits for a recently patched remote code execution (RCE) flaw tracked as CVE-2025-25257. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Europol disrupts pro-Russian NoName057(16) DDoS hacktivist group</title>
+        <link>https://www.bleepingcomputer.com/news/security/europol-disrupts-pro-russian-noname05716-ddos-hacktivist-group/</link>
+        <pubDate>Wed, 16 Jul 2025 10:07:30 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/europol-disrupts-pro-russian-noname05716-ddos-hacktivist-group/</guid>
+	<description><![CDATA[An international law enforcement operation dubbed "Operation Eastwood" has targeted the infrastructure of the pro-Russian hacktivist group NoName057(16), responsible for distributed denial-of-service (DDoS) attacks across Europe and the US. [...]]]></description>
+ </item>
+
  <item>
         <title>Grok 4 benchmark results: Tops math, ranks second in coding</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/grok-4-benchmark-results-tops-math-ranks-second-in-coding/</link>
@@ -178,36 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/interlock-ransomware-adopts-filefix-method-to-deliver-malware/</guid>
 	<description><![CDATA[Hackers have adopted the new technique called 'FileFix' in Interlock ransomware attacks to drop a remote access trojan (RAT) on targeted systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Gigabyte motherboards vulnerable to UEFI malware bypassing Secure Boot</title>
-        <link>https://www.bleepingcomputer.com/news/security/gigabyte-motherboards-vulnerable-to-uefi-malware-bypassing-secure-boot/</link>
-        <pubDate>Mon, 14 Jul 2025 12:30:32 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Hardware]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/gigabyte-motherboards-vulnerable-to-uefi-malware-bypassing-secure-boot/</guid>
-	<description><![CDATA[Dozens of Gigabyte motherboard models run on UEFI firmware vulnerable to security issues that allow planting bootkit malware that is invisible to the operating system and can survive reinstalls. [...]]]></description>
- </item>
-
- <item>
-        <title>Malicious VSCode extension in Cursor IDE led to $500K crypto theft</title>
-        <link>https://www.bleepingcomputer.com/news/security/malicious-vscode-extension-in-cursor-ide-led-to-500k-crypto-theft/</link>
-        <pubDate>Mon, 14 Jul 2025 08:26:34 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/malicious-vscode-extension-in-cursor-ide-led-to-500k-crypto-theft/</guid>
-	<description><![CDATA[A fake extension for the Cursor AI IDE code editor infected devices with remote access tools and infostealers, which, in one case, led to the theft of $500,000 in cryptocurrency from a Russian crypto developer. [...]]]></description>
  </item>
 
 </channel>
