@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 16 Jul 2025 06:02:55 EDT</pubDate>
+        <pubDate>Wed, 16 Jul 2025 07:00:45 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Grok 4 benchmark results: Tops math, ranks second in coding</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/grok-4-benchmark-results-tops-math-ranks-second-in-coding/</link>
+        <pubDate>Wed, 16 Jul 2025 06:35:10 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/grok-4-benchmark-results-tops-math-ranks-second-in-coding/</guid>
+	<description><![CDATA[Grok 4 is a huge leap from Grok 3, but how good is it compared to other models in the market, such as Gemini 2.5 Pro? We now have answers, thanks to new independent benchmarks. [...]]]></description>
+ </item>
+
  <item>
         <title>Google fixes actively exploited sandbox escape zero day in Chrome</title>
         <link>https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-sandbox-escape-zero-day-in-chrome/</link>
@@ -192,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/malicious-vscode-extension-in-cursor-ide-led-to-500k-crypto-theft/</guid>
 	<description><![CDATA[A fake extension for the Cursor AI IDE code editor infected devices with remote access tools and infostealers, which, in one case, led to the theft of $500,000 in cryptocurrency from a Russian crypto developer. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 10 KB5062554 update breaks emoji panel search feature</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5062554-update-breaks-emoji-panel-search-feature/</link>
-        <pubDate>Sun, 13 Jul 2025 14:15:25 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5062554-update-breaks-emoji-panel-search-feature/</guid>
-	<description><![CDATA[The search feature for the Windows 10 emoji panel is broken after installing the KB5062554 cumulative update released Tuesday, making it not possible to look up emojis by name or keyword. [...]]]></description>
  </item>
 
 </channel>

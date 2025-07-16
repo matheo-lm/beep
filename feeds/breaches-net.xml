@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description></description>
-	<lastBuildDate>Tue, 15 Jul 2025 19:19:53 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 16 Jul 2025 11:03:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,41 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Police disrupt “Diskstation” ransomware gang attacking NAS devices</title>
+		<link>https://databreaches.net/2025/07/16/police-disrupt-diskstation-ransomware-gang-attacking-nas-devices/?pk_campaign=feed&#038;pk_kwd=police-disrupt-diskstation-ransomware-gang-attacking-nas-devices</link>
+					<comments>https://databreaches.net/2025/07/16/police-disrupt-diskstation-ransomware-gang-attacking-nas-devices/?pk_campaign=feed&#038;pk_kwd=police-disrupt-diskstation-ransomware-gang-attacking-nas-devices#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Wed, 16 Jul 2025 11:03:11 +0000</pubDate>
+				<category><![CDATA[Malware]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=122782</guid>
+
+					<description><![CDATA[Bill Toulas reports: An international law enforcement action dismantled a Romanian ransomware gang known as &#8216;Diskstation,&#8217; which encrypted the systems of several companies in the Lombardy region, paralyzing their businesses. The law enforcement operation codenamed &#8216;Operation Elicius&#8217; was coordinated by Europol and also involved police forces in France and Romania. Diskstation is a ransomware operation...<img src="https://analytics.hitsaru.com/piwik.php?idsite=11&amp;rec=1&amp;url=https%3A%2F%2Fdatabreaches.net%2F2025%2F07%2F16%2Fpolice-disrupt-diskstation-ransomware-gang-attacking-nas-devices%2F%3Fpk_campaign%3Dfeed%26pk_kwd%3Dpolice-disrupt-diskstation-ransomware-gang-attacking-nas-devices&amp;action_name=Police+disrupt+%E2%80%9CDiskstation%E2%80%9D+ransomware+gang+attacking+NAS+devices&amp;urlref=https%3A%2F%2Fdatabreaches.net%2Ffeed%2F" style="border:0;width:0;height:0" width="0" height="0" alt="" />]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/07/16/police-disrupt-diskstation-ransomware-gang-attacking-nas-devices/?pk_campaign=feed&#038;pk_kwd=police-disrupt-diskstation-ransomware-gang-attacking-nas-devices/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Meta fixes bug that could leak users’ AI prompts and generated content</title>
+		<link>https://databreaches.net/2025/07/16/meta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content/?pk_campaign=feed&#038;pk_kwd=meta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content</link>
+					<comments>https://databreaches.net/2025/07/16/meta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content/?pk_campaign=feed&#038;pk_kwd=meta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Wed, 16 Jul 2025 10:20:30 +0000</pubDate>
+				<category><![CDATA[Exposure]]></category>
+		<category><![CDATA[Miscellaneous]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=122778</guid>
+
+					<description><![CDATA[Zack Whittaker reports: Meta has fixed a security bug that allowed Meta AI chatbot users to access and view the private prompts and AI-generated responses of other users. Sandeep Hodkasia, the founder of security testing firm AppSecure, exclusively told TechCrunch that Meta paid him $10,000 in a bug bounty reward for privately disclosing the bug...<img src="https://analytics.hitsaru.com/piwik.php?idsite=11&amp;rec=1&amp;url=https%3A%2F%2Fdatabreaches.net%2F2025%2F07%2F16%2Fmeta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content%2F%3Fpk_campaign%3Dfeed%26pk_kwd%3Dmeta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content&amp;action_name=Meta+fixes+bug+that+could+leak+users%E2%80%99+AI+prompts+and+generated+content&amp;urlref=https%3A%2F%2Fdatabreaches.net%2Ffeed%2F" style="border:0;width:0;height:0" width="0" height="0" alt="" />]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/07/16/meta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content/?pk_campaign=feed&#038;pk_kwd=meta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Mississippi Law Firm Sues Cyber Insurer Over Coverage for Scam</title>
 		<link>https://databreaches.net/2025/07/15/mississippi-law-firm-sues-cyber-insurer-over-coverage-for-scam/?pk_campaign=feed&#038;pk_kwd=mississippi-law-firm-sues-cyber-insurer-over-coverage-for-scam</link>
 					<comments>https://databreaches.net/2025/07/15/mississippi-law-firm-sues-cyber-insurer-over-coverage-for-scam/?pk_campaign=feed&#038;pk_kwd=mississippi-law-firm-sues-cyber-insurer-over-coverage-for-scam#respond</comments>
@@ -173,41 +208,6 @@
 					<description><![CDATA[Victoria Mossi reports: In a startling revelation for the WordPress community, a critical security breach has been uncovered in the widely used Gravity Forms plugin, signaling a sophisticated supply chain attack. According to a detailed report by Patchstack, malicious code was embedded in manual installers available directly from the official Gravity Forms website, affecting versions...<img src="https://analytics.hitsaru.com/piwik.php?idsite=11&amp;rec=1&amp;url=https%3A%2F%2Fdatabreaches.net%2F2025%2F07%2F14%2Fgravity-forms-breach-hits-1m-wordpress-sites%2F%3Fpk_campaign%3Dfeed%26pk_kwd%3Dgravity-forms-breach-hits-1m-wordpress-sites&amp;action_name=Gravity+Forms+Breach+Hits+1M+WordPress+Sites&amp;urlref=https%3A%2F%2Fdatabreaches.net%2Ffeed%2F" style="border:0;width:0;height:0" width="0" height="0" alt="" />]]></description>
 		
 					<wfw:commentRss>https://databreaches.net/2025/07/14/gravity-forms-breach-hits-1m-wordpress-sites/?pk_campaign=feed&#038;pk_kwd=gravity-forms-breach-hits-1m-wordpress-sites/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Stormous claims to have protected health info on 600,000 patients of North Country Healthcare. The patient data appears fake. (2)</title>
-		<link>https://databreaches.net/2025/07/13/stormous-claims-to-have-protected-health-info-on-600000-patients-of-north-country-healthcare-the-data-appear-fake/?pk_campaign=feed&#038;pk_kwd=stormous-claims-to-have-protected-health-info-on-600000-patients-of-north-country-healthcare-the-data-appear-fake</link>
-					<comments>https://databreaches.net/2025/07/13/stormous-claims-to-have-protected-health-info-on-600000-patients-of-north-country-healthcare-the-data-appear-fake/?pk_campaign=feed&#038;pk_kwd=stormous-claims-to-have-protected-health-info-on-600000-patients-of-north-country-healthcare-the-data-appear-fake#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Sun, 13 Jul 2025 22:22:17 +0000</pubDate>
-				<category><![CDATA[Breach Incidents]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=122729</guid>
-
-					<description><![CDATA[North Country HealthCare is a federally qualified community health center that provides comprehensive medical services in 14 locations in 11 communities throughout Northern Arizona. Their services include family medicine, pediatrics, obstetrics and gynecology, dental care, behavioral health services, telemedicine, health screenings, and more. An April 2022 article about them reported that North Country served 55,000...<img src="https://analytics.hitsaru.com/piwik.php?idsite=11&amp;rec=1&amp;url=https%3A%2F%2Fdatabreaches.net%2F2025%2F07%2F13%2Fstormous-claims-to-have-protected-health-info-on-600000-patients-of-north-country-healthcare-the-data-appear-fake%2F%3Fpk_campaign%3Dfeed%26pk_kwd%3Dstormous-claims-to-have-protected-health-info-on-600000-patients-of-north-country-healthcare-the-data-appear-fake&amp;action_name=Stormous+claims+to+have+protected+health+info+on+600%2C000+patients+of+North+Country+Healthcare.+The+patient+data+appears+fake.+%282%29&amp;urlref=https%3A%2F%2Fdatabreaches.net%2Ffeed%2F" style="border:0;width:0;height:0" width="0" height="0" alt="" />]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/07/13/stormous-claims-to-have-protected-health-info-on-600000-patients-of-north-country-healthcare-the-data-appear-fake/?pk_campaign=feed&#038;pk_kwd=stormous-claims-to-have-protected-health-info-on-600000-patients-of-north-country-healthcare-the-data-appear-fake/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Back from the Brink: District Court Clears Air Regarding Individualized Damages Assessment in Data Breach Cases</title>
-		<link>https://databreaches.net/2025/07/13/back-from-the-brink-district-court-clears-air-regarding-individualized-damages-assessment-in-data-breach-cases/?pk_campaign=feed&#038;pk_kwd=back-from-the-brink-district-court-clears-air-regarding-individualized-damages-assessment-in-data-breach-cases</link>
-					<comments>https://databreaches.net/2025/07/13/back-from-the-brink-district-court-clears-air-regarding-individualized-damages-assessment-in-data-breach-cases/?pk_campaign=feed&#038;pk_kwd=back-from-the-brink-district-court-clears-air-regarding-individualized-damages-assessment-in-data-breach-cases#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Sun, 13 Jul 2025 11:58:53 +0000</pubDate>
-				<category><![CDATA[Commentaries and Analyses]]></category>
-		<category><![CDATA[Of Note]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=122727</guid>
-
-					<description><![CDATA[Gavin Reinke, Ashley Miller and Amanda Wellen of Alston &#38; Bird write: On June 27, 2025, the District Court for the Middle District of Florida, on remand from the Eleventh Circuit, reversed course when it denied class certification to a group of plaintiffs who were purportedly impacted by a spring 2018 cyberattack on Brinker International,...<img src="https://analytics.hitsaru.com/piwik.php?idsite=11&amp;rec=1&amp;url=https%3A%2F%2Fdatabreaches.net%2F2025%2F07%2F13%2Fback-from-the-brink-district-court-clears-air-regarding-individualized-damages-assessment-in-data-breach-cases%2F%3Fpk_campaign%3Dfeed%26pk_kwd%3Dback-from-the-brink-district-court-clears-air-regarding-individualized-damages-assessment-in-data-breach-cases&amp;action_name=Back+from+the+Brink%3A+District+Court+Clears+Air+Regarding+Individualized+Damages+Assessment+in+Data+Breach+Cases&amp;urlref=https%3A%2F%2Fdatabreaches.net%2Ffeed%2F" style="border:0;width:0;height:0" width="0" height="0" alt="" />]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/07/13/back-from-the-brink-district-court-clears-air-regarding-individualized-damages-assessment-in-data-breach-cases/?pk_campaign=feed&#038;pk_kwd=back-from-the-brink-district-court-clears-air-regarding-individualized-damages-assessment-in-data-breach-cases/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
