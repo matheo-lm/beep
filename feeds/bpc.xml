@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 16 Jul 2025 16:01:29 EDT</pubDate>
+        <pubDate>Wed, 16 Jul 2025 17:00:32 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>U.S. Army soldier pleads guilty to extorting 10 tech, telecom firms</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-army-soldier-pleads-guilty-to-extorting-10-tech-telecom-firms/</link>
+        <pubDate>Wed, 16 Jul 2025 17:00:28 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-army-soldier-pleads-guilty-to-extorting-10-tech-telecom-firms/</guid>
+	<description><![CDATA[A 21-year old former U.S. Army soldier pleaded guilty to charges of hacking and extorting at least ten telecommunications and technology companies in the country. [...]]]></description>
+ </item>
+
  <item>
         <title>Louis Vuitton says regional data breaches tied to same cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/louis-vuitton-says-regional-data-breaches-tied-to-same-cyberattack/</link>
@@ -188,22 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/police-disrupt-diskstation-ransomware-gang-attacking-nas-devices/</guid>
 	<description><![CDATA[An international law enforcement action dismantled a Romanian ransomware gang known as 'Diskstation,' which encrypted the systems of several companies in the Lombardy region, paralyzing their businesses. [...]]]></description>
- </item>
-
- <item>
-        <title>Android malware Konfety uses malformed APKs to evade detection</title>
-        <link>https://www.bleepingcomputer.com/news/security/android-malware-konfety-uses-malformed-apks-to-evade-detection/</link>
-        <pubDate>Tue, 15 Jul 2025 09:10:36 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/android-malware-konfety-uses-malformed-apks-to-evade-detection/</guid>
-	<description><![CDATA[A new variant of the Konfety Android malware emerged with a malformed ZIP structure along with other obfuscation methods that allow it to evade analysis and detection. [...]]]></description>
  </item>
 
 </channel>
