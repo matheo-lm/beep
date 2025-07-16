@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 16 Jul 2025 15:00:04 EDT</pubDate>
+        <pubDate>Wed, 16 Jul 2025 16:01:29 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Louis Vuitton says regional data breaches tied to same cyberattack</title>
+        <link>https://www.bleepingcomputer.com/news/security/louis-vuitton-says-regional-data-breaches-tied-to-same-cyberattack/</link>
+        <pubDate>Wed, 16 Jul 2025 15:26:18 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/louis-vuitton-says-regional-data-breaches-tied-to-same-cyberattack/</guid>
+	<description><![CDATA[Luxury fashion giant Louis Vuitton confirmed that breaches impacting customers in the UK, South Korea, and Turkey stem from the same security incident, which is believed to be linked to the ShinyHunters extortion group. [...]]]></description>
+ </item>
+
  <item>
         <title>Cloudflare says 1.1.1.1 outage not caused by attack or BGP hijack</title>
         <link>https://www.bleepingcomputer.com/news/security/cloudflare-says-1111-outage-not-caused-by-attack-or-bgp-hijack/</link>
@@ -190,36 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/android-malware-konfety-uses-malformed-apks-to-evade-detection/</guid>
 	<description><![CDATA[A new variant of the Konfety Android malware emerged with a malformed ZIP structure along with other obfuscation methods that allow it to evade analysis and detection. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI's ChatGPT-powered browser is codenamed 'Aura'</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-powered-browser-is-codenamed-aura/</link>
-        <pubDate>Tue, 15 Jul 2025 07:30:21 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-powered-browser-is-codenamed-aura/</guid>
-	<description><![CDATA[OpenAI is following Perplexity and is working on its own AI-powered browser codenamed "Aura." [...]]]></description>
- </item>
-
- <item>
-        <title>UK launches vulnerability research program for external experts</title>
-        <link>https://www.bleepingcomputer.com/news/security/uk-launches-vulnerability-research-program-for-external-experts/</link>
-        <pubDate>Mon, 14 Jul 2025 16:21:22 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/uk-launches-vulnerability-research-program-for-external-experts/</guid>
-	<description><![CDATA[UK's National Cyber Security Centre (NCSC) has announced a new Vulnerability Research Initiative (VRI) that aims to strengthen relations with external cybersecurity experts. [...]]]></description>
  </item>
 
 </channel>
