@@ -11,7 +11,7 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 17 Jul 2025 09:11:31 EDT</pubDate>
+        <pubDate>Thu, 17 Jul 2025 10:00:18 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
@@ -190,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-kb5064489-emergency-update-fixes-azure-vm-launch-issues/</guid>
 	<description><![CDATA[Microsoft has released an emergency update to fix a bug that prevents Azure virtual machines from launching when the Trusted Launch setting is disabled and Virtualization-Based Security (VBS) is enabled. [...]]]></description>
- </item>
-
- <item>
-        <title>North Korean XORIndex malware hidden in 67 malicious npm packages</title>
-        <link>https://www.bleepingcomputer.com/news/security/north-korean-xorindex-malware-hidden-in-67-malicious-npm-packages/</link>
-        <pubDate>Tue, 15 Jul 2025 13:47:09 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/north-korean-xorindex-malware-hidden-in-67-malicious-npm-packages/</guid>
-	<description><![CDATA[North Korean threat actors planted 67 malicious packages in the Node Package Manager (npm) online repository to deliver a new malware loader called XORIndex to developer systems. [...]]]></description>
  </item>
 
 </channel>
