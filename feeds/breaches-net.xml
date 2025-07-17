@@ -12,7 +12,7 @@
 	<atom:link href="https://databreaches.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://databreaches.net</link>
 	<description></description>
-	<lastBuildDate>Thu, 17 Jul 2025 20:23:05 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 17 Jul 2025 21:43:22 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,29 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Gladney Adoption Center had serious data exposures in the past few months. What will they do to prevent more?</title>
+		<link>https://databreaches.net/2025/07/17/gladney-adoption-center-had-serious-data-exposures-in-the-past-few-months-what-will-they-do-to-prevent-more/?pk_campaign=feed&#038;pk_kwd=gladney-adoption-center-had-serious-data-exposures-in-the-past-few-months-what-will-they-do-to-prevent-more</link>
+					<comments>https://databreaches.net/2025/07/17/gladney-adoption-center-had-serious-data-exposures-in-the-past-few-months-what-will-they-do-to-prevent-more/?pk_campaign=feed&#038;pk_kwd=gladney-adoption-center-had-serious-data-exposures-in-the-past-few-months-what-will-they-do-to-prevent-more#respond</comments>
+		
+		<dc:creator><![CDATA[Dissent]]></dc:creator>
+		<pubDate>Thu, 17 Jul 2025 21:24:24 +0000</pubDate>
+				<category><![CDATA[Breach Incidents]]></category>
+		<category><![CDATA[Commentaries and Analyses]]></category>
+		<category><![CDATA[Exposure]]></category>
+		<category><![CDATA[Miscellaneous]]></category>
+		<category><![CDATA["No need to hack when it's leaking"]]></category>
+		<category><![CDATA[Data Leak]]></category>
+		<category><![CDATA[Gladney]]></category>
+		<guid isPermaLink="false">https://databreaches.net/?p=122789</guid>
+
+					<description><![CDATA[When Website Planet emailed me about an unencrypted and non-password-protected database containing 1,115,061 records with 2.49 GB of sensitive information from an adoption agency, the name Gladney Adoption Center rang a bell. I had seen that name before in the context of a data security incident. Reading the findings by Jeremiah Fowler, I was struck...<img src="https://analytics.hitsaru.com/piwik.php?idsite=11&amp;rec=1&amp;url=https%3A%2F%2Fdatabreaches.net%2F2025%2F07%2F17%2Fgladney-adoption-center-had-serious-data-exposures-in-the-past-few-months-what-will-they-do-to-prevent-more%2F%3Fpk_campaign%3Dfeed%26pk_kwd%3Dgladney-adoption-center-had-serious-data-exposures-in-the-past-few-months-what-will-they-do-to-prevent-more&amp;action_name=Gladney+Adoption+Center+had+serious+data+exposures+in+the+past+few+months.+What+will+they+do+to+prevent+more%3F&amp;urlref=https%3A%2F%2Fdatabreaches.net%2Ffeed%2F" style="border:0;width:0;height:0" width="0" height="0" alt="" />]]></description>
+		
+					<wfw:commentRss>https://databreaches.net/2025/07/17/gladney-adoption-center-had-serious-data-exposures-in-the-past-few-months-what-will-they-do-to-prevent-more/?pk_campaign=feed&#038;pk_kwd=gladney-adoption-center-had-serious-data-exposures-in-the-past-few-months-what-will-they-do-to-prevent-more/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Former U.S. Soldier Pleads Guilty to Hacking and Extortion Scheme Involving Telecommunications Companies</title>
 		<link>https://databreaches.net/2025/07/17/former-u-s-soldier-pleads-guilty-to-hacking-and-extortion-scheme-involving-telecommunications-companies/?pk_campaign=feed&#038;pk_kwd=former-u-s-soldier-pleads-guilty-to-hacking-and-extortion-scheme-involving-telecommunications-companies</link>
 					<comments>https://databreaches.net/2025/07/17/former-u-s-soldier-pleads-guilty-to-hacking-and-extortion-scheme-involving-telecommunications-companies/?pk_campaign=feed&#038;pk_kwd=former-u-s-soldier-pleads-guilty-to-hacking-and-extortion-scheme-involving-telecommunications-companies#respond</comments>
@@ -193,24 +216,6 @@
 					<description><![CDATA[Bill Toulas reports: An international law enforcement action dismantled a Romanian ransomware gang known as &#8216;Diskstation,&#8217; which encrypted the systems of several companies in the Lombardy region, paralyzing their businesses. The law enforcement operation codenamed &#8216;Operation Elicius&#8217; was coordinated by Europol and also involved police forces in France and Romania. Diskstation is a ransomware operation...<img src="https://analytics.hitsaru.com/piwik.php?idsite=11&amp;rec=1&amp;url=https%3A%2F%2Fdatabreaches.net%2F2025%2F07%2F16%2Fpolice-disrupt-diskstation-ransomware-gang-attacking-nas-devices%2F%3Fpk_campaign%3Dfeed%26pk_kwd%3Dpolice-disrupt-diskstation-ransomware-gang-attacking-nas-devices&amp;action_name=Police+disrupt+%E2%80%9CDiskstation%E2%80%9D+ransomware+gang+attacking+NAS+devices&amp;urlref=https%3A%2F%2Fdatabreaches.net%2Ffeed%2F" style="border:0;width:0;height:0" width="0" height="0" alt="" />]]></description>
 		
 					<wfw:commentRss>https://databreaches.net/2025/07/16/police-disrupt-diskstation-ransomware-gang-attacking-nas-devices/?pk_campaign=feed&#038;pk_kwd=police-disrupt-diskstation-ransomware-gang-attacking-nas-devices/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Meta fixes bug that could leak users’ AI prompts and generated content</title>
-		<link>https://databreaches.net/2025/07/16/meta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content/?pk_campaign=feed&#038;pk_kwd=meta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content</link>
-					<comments>https://databreaches.net/2025/07/16/meta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content/?pk_campaign=feed&#038;pk_kwd=meta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content#respond</comments>
-		
-		<dc:creator><![CDATA[Dissent]]></dc:creator>
-		<pubDate>Wed, 16 Jul 2025 10:20:30 +0000</pubDate>
-				<category><![CDATA[Exposure]]></category>
-		<category><![CDATA[Miscellaneous]]></category>
-		<guid isPermaLink="false">https://databreaches.net/?p=122778</guid>
-
-					<description><![CDATA[Zack Whittaker reports: Meta has fixed a security bug that allowed Meta AI chatbot users to access and view the private prompts and AI-generated responses of other users. Sandeep Hodkasia, the founder of security testing firm AppSecure, exclusively told TechCrunch that Meta paid him $10,000 in a bug bounty reward for privately disclosing the bug...<img src="https://analytics.hitsaru.com/piwik.php?idsite=11&amp;rec=1&amp;url=https%3A%2F%2Fdatabreaches.net%2F2025%2F07%2F16%2Fmeta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content%2F%3Fpk_campaign%3Dfeed%26pk_kwd%3Dmeta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content&amp;action_name=Meta+fixes+bug+that+could+leak+users%E2%80%99+AI+prompts+and+generated+content&amp;urlref=https%3A%2F%2Fdatabreaches.net%2Ffeed%2F" style="border:0;width:0;height:0" width="0" height="0" alt="" />]]></description>
-		
-					<wfw:commentRss>https://databreaches.net/2025/07/16/meta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content/?pk_campaign=feed&#038;pk_kwd=meta-fixes-bug-that-could-leak-users-ai-prompts-and-generated-content/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
