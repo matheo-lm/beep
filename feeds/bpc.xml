@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 17 Jul 2025 11:00:39 EDT</pubDate>
+        <pubDate>Thu, 17 Jul 2025 12:03:01 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Chinese hackers breached National Guard to steal network configurations</title>
+        <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-breached-national-guard-to-steal-network-configurations/</link>
+        <pubDate>Thu, 17 Jul 2025 12:02:57 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/chinese-hackers-breached-national-guard-to-steal-network-configurations/</guid>
+	<description><![CDATA[The Chinese state-sponsored hacking group known as Salt Typhoon breached and remained undetected in a U.S. Army National Guard network for nine months in 2024, stealing network configuration files and administrator credentials that could be used to compromise other government networks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Max severity Cisco ISE bug allows pre-auth command execution, patch now</title>
+        <link>https://www.bleepingcomputer.com/news/security/max-severity-cisco-ise-bug-allows-pre-auth-command-execution-patch-now/</link>
+        <pubDate>Thu, 17 Jul 2025 11:53:26 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/max-severity-cisco-ise-bug-allows-pre-auth-command-execution-patch-now/</guid>
+	<description><![CDATA[A critical vulnerability (CVE-2025-20337) in Cisco's Identity Services Engine (ISE) could be exploited to let an unauthenticated attacker store malicious files, execute arbitrary code, or gain root privileges on vulnerable devices. [...]]]></description>
+ </item>
+
  <item>
         <title>Co-op confirms data of 6.5 million members stolen in cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/co-op-confirms-data-of-65-million-members-stolen-in-cyberattack/</link>
@@ -162,34 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-image-model-gets-built-in-style-feature-on-chatgpt/</guid>
 	<description><![CDATA[OpenAI's image gen model, which is available via ChatGPT for free, now lets you easily create AI images even if you're not familiar with trends or prompt engineering. [...]]]></description>
- </item>
-
- <item>
-        <title>Abacus dark web drug market goes offline in suspected exit scam</title>
-        <link>https://www.bleepingcomputer.com/news/security/abacus-dark-web-drug-market-goes-offline-in-suspected-exit-scam/</link>
-        <pubDate>Tue, 15 Jul 2025 15:58:34 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/abacus-dark-web-drug-market-goes-offline-in-suspected-exit-scam/</guid>
-	<description><![CDATA[Abacus Market, the largest Western darknet marketplace supporting Bitcoin payments, has shut down its public infrastructure in a move suspected to be an exit scam. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows KB5064489 emergency update fixes Azure VM launch issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-kb5064489-emergency-update-fixes-azure-vm-launch-issues/</link>
-        <pubDate>Tue, 15 Jul 2025 14:47:07 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-kb5064489-emergency-update-fixes-azure-vm-launch-issues/</guid>
-	<description><![CDATA[Microsoft has released an emergency update to fix a bug that prevents Azure virtual machines from launching when the Trusted Launch setting is disabled and Virtualization-Based Security (VBS) is enabled. [...]]]></description>
  </item>
 
 </channel>
