@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 18 Jul 2025 11:03:23 EDT</pubDate>
+        <pubDate>Fri, 18 Jul 2025 12:03:55 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Phobos and 8base ransomware decryptor recover files for free</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-phobos-ransomware-decryptor-lets-victims-recover-files-for-free/</link>
+        <pubDate>Fri, 18 Jul 2025 11:56:13 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-phobos-ransomware-decryptor-lets-victims-recover-files-for-free/</guid>
+	<description><![CDATA[The Japanese police have released a Phobos and 8-Base ransomware decryptor that lets victims recover their files for free, with BleepingComputer confirming that it successfully decrypts files. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hackers scanning for TeleMessage Signal clone flaw exposing passwords</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-scanning-for-telemessage-signal-clone-flaw-exposing-passwords/</link>
+        <pubDate>Fri, 18 Jul 2025 11:06:05 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-scanning-for-telemessage-signal-clone-flaw-exposing-passwords/</guid>
+	<description><![CDATA[Researchers are seeing exploitation attempts for the CVE-2025-48927 vulnerability in the TeleMessage SGNL app, which allows retrieving usernames, passwords, and other sensitive data. [...]]]></description>
+ </item>
+
  <item>
         <title>OpenAI: GPT-5 is coming, "we'll see" if it creates a shockwave</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-gpt-5-is-coming-well-see-if-it-creates-a-shockwave/</link>
@@ -162,36 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/co-op-confirms-data-of-65-million-members-stolen-in-cyberattack/</guid>
 	<description><![CDATA[UK retailer Co-op has confirmed that personal data of 6.5 million members was stolen in the massive cyberattack in April that shut down systems and caused food shortages in its grocery stores. [...]]]></description>
- </item>
-
- <item>
-        <title>U.S. Army soldier pleads guilty to extorting 10 tech, telecom firms</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-army-soldier-pleads-guilty-to-extorting-10-tech-telecom-firms/</link>
-        <pubDate>Wed, 16 Jul 2025 17:00:28 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-army-soldier-pleads-guilty-to-extorting-10-tech-telecom-firms/</guid>
-	<description><![CDATA[A 21-year old former U.S. Army soldier pleaded guilty to charges of hacking and extorting at least ten telecommunications and technology companies in the country. [...]]]></description>
- </item>
-
- <item>
-        <title>Louis Vuitton says regional data breaches tied to same cyberattack</title>
-        <link>https://www.bleepingcomputer.com/news/security/louis-vuitton-says-regional-data-breaches-tied-to-same-cyberattack/</link>
-        <pubDate>Wed, 16 Jul 2025 15:26:18 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/louis-vuitton-says-regional-data-breaches-tied-to-same-cyberattack/</guid>
-	<description><![CDATA[Luxury fashion giant Louis Vuitton confirmed that breaches impacting customers in the UK, South Korea, and Turkey stem from the same security incident, which is believed to be linked to the ShinyHunters extortion group. [...]]]></description>
  </item>
 
 </channel>
