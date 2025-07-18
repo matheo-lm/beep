@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 18 Jul 2025 05:01:54 EDT</pubDate>
+        <pubDate>Fri, 18 Jul 2025 06:03:30 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>OpenAI: GPT-5 is coming, "we'll see" if it creates a shockwave</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-gpt-5-is-coming-well-see-if-it-creates-a-shockwave/</link>
+        <pubDate>Fri, 18 Jul 2025 05:47:46 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-gpt-5-is-coming-well-see-if-it-creates-a-shockwave/</guid>
+	<description><![CDATA[OpenAI's next foundational and state-of-the-art model, GPT-5, is still on its way after a delay. OpenAI won't tell us the release date for now. [...]]]></description>
+ </item>
+
  <item>
         <title>Citrix Bleed 2 exploited weeks before PoCs as Citrix denied attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/citrix-bleed-2-exploited-weeks-before-pocs-as-citrix-denied-attacks/</link>
@@ -176,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/louis-vuitton-says-regional-data-breaches-tied-to-same-cyberattack/</guid>
 	<description><![CDATA[Luxury fashion giant Louis Vuitton confirmed that breaches impacting customers in the UK, South Korea, and Turkey stem from the same security incident, which is believed to be linked to the ShinyHunters extortion group. [...]]]></description>
- </item>
-
- <item>
-        <title>Cloudflare says 1.1.1.1 outage not caused by attack or BGP hijack</title>
-        <link>https://www.bleepingcomputer.com/news/security/cloudflare-says-1111-outage-not-caused-by-attack-or-bgp-hijack/</link>
-        <pubDate>Wed, 16 Jul 2025 12:49:29 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-says-1111-outage-not-caused-by-attack-or-bgp-hijack/</guid>
-	<description><![CDATA[To quash speculation of a cyberattack or BGP hijack incident causing the recent 1.1.1.1 Resolver service outage, Cloudflare explains in a post mortem that the incident was caused by an internal misconfiguration. [...]]]></description>
  </item>
 
 </channel>
