@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 18 Jul 2025 15:01:56 EDT</pubDate>
+        <pubDate>Fri, 18 Jul 2025 15:59:55 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>UK ties GRU to stealthy Microsoft 365 credential-stealing malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/uk-ties-russian-gru-to-authentic-antics-credential-stealing-malware/</link>
+        <pubDate>Fri, 18 Jul 2025 15:39:40 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/uk-ties-russian-gru-to-authentic-antics-credential-stealing-malware/</guid>
+	<description><![CDATA[The UK National Cyber Security Centre (NCSC) has formally attributed 'Authentic Antics' espionage malware attacks to APT28 (Fancy Bear), threat actor already linked to Russia's military intelligence service (GRU). [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft mistakenly tags Windows Firewall error log bug as fixed</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-mistakenly-tags-windows-firewall-error-log-bug-as-fixed/</link>
+        <pubDate>Fri, 18 Jul 2025 15:34:59 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-mistakenly-tags-windows-firewall-error-log-bug-as-fixed/</guid>
+	<description><![CDATA[Microsoft has mistakenly tagged an ongoing Windows Firewall error message bug as fixed in recent updates, stating that they are still working on a resolution. [...]]]></description>
+ </item>
+
  <item>
         <title>New ChatGPT o3-alpha model hints at coding upgrade</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/new-chatgpt-o3-alpha-model-hints-at-coding-upgrade/</link>
@@ -164,36 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/lamehug-malware-uses-ai-llm-to-craft-windows-data-theft-commands-in-real-time/</guid>
 	<description><![CDATA[A novel malware family named LameHug is using a large language model (LLM) to generate commands to be executed on compromised Windows systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Hacker steals $27 million in BigONE exchange crypto breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/hacker-steals-27-million-in-bigone-exchange-crypto-breach/</link>
-        <pubDate>Thu, 17 Jul 2025 12:54:26 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hacker-steals-27-million-in-bigone-exchange-crypto-breach/</guid>
-	<description><![CDATA[Cryptocurrency exchange BigONE announced that it suffered a security breach, in which hackers stole various digital assets valued at $27 million. [...]]]></description>
- </item>
-
- <item>
-        <title>Chinese hackers breached National Guard to steal network configurations</title>
-        <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-breached-national-guard-to-steal-network-configurations/</link>
-        <pubDate>Thu, 17 Jul 2025 12:02:57 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/chinese-hackers-breached-national-guard-to-steal-network-configurations/</guid>
-	<description><![CDATA[The Chinese state-sponsored hacking group known as Salt Typhoon breached and remained undetected in a U.S. Army National Guard network for nine months in 2024, stealing network configuration files and administrator credentials that could be used to compromise other government networks. [...]]]></description>
  </item>
 
 </channel>
