@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 18 Jul 2025 14:04:22 EDT</pubDate>
+        <pubDate>Fri, 18 Jul 2025 15:01:56 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New ChatGPT o3-alpha model hints at coding upgrade</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/new-chatgpt-o3-alpha-model-hints-at-coding-upgrade/</link>
+        <pubDate>Fri, 18 Jul 2025 15:01:51 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/new-chatgpt-o3-alpha-model-hints-at-coding-upgrade/</guid>
+	<description><![CDATA[ChatGPT's o3 is OpenAI's best model to date because it features reasoning, and it might get even better in the next update. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Russian alcohol retailer WineLab closes stores after ransomware attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/russian-alcohol-retailer-winelab-closes-stores-after-ransomware-attack/</link>
+        <pubDate>Fri, 18 Jul 2025 14:20:10 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/russian-alcohol-retailer-winelab-closes-stores-after-ransomware-attack/</guid>
+	<description><![CDATA[WineLab, the retail store of the largest alcohol company in Russia, has closed its stores following a cyberattack that is impacting its operations and causing purchase problems to its customers. [...]]]></description>
+ </item>
+
  <item>
         <title>New Phobos and 8base ransomware decryptor recover files for free</title>
         <link>https://www.bleepingcomputer.com/news/security/new-phobos-ransomware-decryptor-lets-victims-recover-files-for-free/</link>
@@ -164,34 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/chinese-hackers-breached-national-guard-to-steal-network-configurations/</guid>
 	<description><![CDATA[The Chinese state-sponsored hacking group known as Salt Typhoon breached and remained undetected in a U.S. Army National Guard network for nine months in 2024, stealing network configuration files and administrator credentials that could be used to compromise other government networks. [...]]]></description>
- </item>
-
- <item>
-        <title>Max severity Cisco ISE bug allows pre-auth command execution, patch now</title>
-        <link>https://www.bleepingcomputer.com/news/security/max-severity-cisco-ise-bug-allows-pre-auth-command-execution-patch-now/</link>
-        <pubDate>Thu, 17 Jul 2025 11:53:26 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/max-severity-cisco-ise-bug-allows-pre-auth-command-execution-patch-now/</guid>
-	<description><![CDATA[A critical vulnerability (CVE-2025-20337) in Cisco's Identity Services Engine (ISE) could be exploited to let an unauthenticated attacker store malicious files, execute arbitrary code, or gain root privileges on vulnerable devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Co-op confirms data of 6.5 million members stolen in cyberattack</title>
-        <link>https://www.bleepingcomputer.com/news/security/co-op-confirms-data-of-65-million-members-stolen-in-cyberattack/</link>
-        <pubDate>Wed, 16 Jul 2025 18:29:27 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/co-op-confirms-data-of-65-million-members-stolen-in-cyberattack/</guid>
-	<description><![CDATA[UK retailer Co-op has confirmed that personal data of 6.5 million members was stolen in the massive cyberattack in April that shut down systems and caused food shortages in its grocery stores. [...]]]></description>
  </item>
 
 </channel>
