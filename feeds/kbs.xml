@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Fri, 18 Jul 2025 01:23:20 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 18 Jul 2025 02:40:02 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -42,7 +42,7 @@
 		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71668</guid>
 
 					<description><![CDATA[Security researchers recently revealed that the personal information of millions of people who applied for jobs at McDonald's was exposed after they guessed the password ("123456") for the fast food chain's account at Paradox.ai, a company that makes artificial intelligence based hiring chatbots used by many Fortune 500 companies. Paradox.ai said the security oversight was an isolated incident that did not affect its other customers, but recent security breaches involving its employees in Vietnam tell a more nuanced story.]]></description>
-										<content:encoded><![CDATA[<p>Security researchers recently revealed that the personal information of millions of people who applied for jobs at <strong>McDonald&#8217;s</strong> was exposed after they guessed the password (&#8220;123456&#8221;) for the fast food chain&#8217;s account at <strong>Paradox.ai</strong>, a company that makes artificial intelligence based hiring chatbots used by many Fortune 500 companies. Paradox.ai said the security oversight was an isolated incident that did not affect its other customers, but recent security breaches involving its employees in Vietnam tell a more nuanced story.</p>
+										<content:encoded><![CDATA[<p>Security researchers recently revealed that the personal information of millions of people who applied for jobs at <strong>McDonald&#8217;s</strong> was exposed after they guessed the password (&#8220;123456&#8221;) for the fast food chain&#8217;s account at <strong>Paradox.ai</strong>, a company that makes artificial intelligence based hiring chatbots used by many Fortune 500 firms. Paradox.ai said the security oversight was an isolated incident that did not affect its other customers, but recent security breaches involving its employees in Vietnam tell a more nuanced story.</p>
 <div id="attachment_71672" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71672" decoding="async" class=" wp-image-71672" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/paradoxai.png" alt="" width="749" height="330" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/paradoxai.png 1438w, https://krebsonsecurity.com/wp-content/uploads/2025/07/paradoxai-768x339.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/paradoxai-782x345.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71672" class="wp-caption-text">A screenshot of the paradox.ai homepage showing its AI hiring chatbot &#8220;Olivia&#8221; interacting with potential hires.</p></div>
 <p>Earlier this month, security researchers <strong>Ian Carroll</strong> and <strong>Sam Curry</strong> <a href="https://ian.sh/mcdonalds" target="_blank" rel="noopener">wrote about</a> simple methods they found to access the backend of the AI chatbot platform on McHire.com, the McDonald&#8217;s website that many of its franchisees use to screen job applicants. As first reported by <a href="https://www.wired.com/story/mcdonalds-ai-hiring-chat-bot-paradoxai/" target="_blank" rel="noopener">Wired</a>, the researchers discovered that the weak password used by Paradox exposed 64 million records, including applicants&#8217; names, email addresses and phone numbers.</p>
 <p>Paradox.ai acknowledged the researchers&#8217; findings but said the company&#8217;s other client instances were not affected, and that no sensitive information &#8212; such as Social Security numbers &#8212; was exposed.</p>
@@ -621,5 +621,5 @@ Object Caching 294/294 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-17 22:33:01 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-17 23:30:01 by W3 Total Cache
 -->
