@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 19 Jul 2025 12:58:14 EDT</pubDate>
+        <pubDate>Sat, 19 Jul 2025 14:02:09 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Threat actors downgrade FIDO2 MFA auth in PoisonSeed phishing attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/threat-actors-downgrade-fido2-mfa-auth-in-poisonseed-phishing-attack/</link>
+        <pubDate>Sat, 19 Jul 2025 13:41:49 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/threat-actors-downgrade-fido2-mfa-auth-in-poisonseed-phishing-attack/</guid>
+	<description><![CDATA[A PoisonSeed phishing campaign is bypassing FIDO2 security key protections by abusing the cross-device sign-in feature in WebAuthn to trick users into approving login authentication requests from fake company portals. [...]]]></description>
+ </item>
+
  <item>
         <title>Popular npm linter packages hijacked via phishing to drop malware</title>
         <link>https://www.bleepingcomputer.com/news/security/popular-npm-linter-packages-hijacked-via-phishing-to-drop-malware/</link>
@@ -178,22 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-scanning-for-telemessage-signal-clone-flaw-exposing-passwords/</guid>
 	<description><![CDATA[Researchers are seeing exploitation attempts for the CVE-2025-48927 vulnerability in the TeleMessage SGNL app, which allows retrieving usernames, passwords, and other sensitive data. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI: GPT-5 is coming, "we'll see" if it creates a shockwave</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-gpt-5-is-coming-well-see-if-it-creates-a-shockwave/</link>
-        <pubDate>Fri, 18 Jul 2025 05:47:46 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-gpt-5-is-coming-well-see-if-it-creates-a-shockwave/</guid>
-	<description><![CDATA[OpenAI's next foundational and state-of-the-art model, GPT-5, is still on its way after a delay. OpenAI won't tell us the release date for now. [...]]]></description>
  </item>
 
 </channel>
