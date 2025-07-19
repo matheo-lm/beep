@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 19 Jul 2025 08:02:20 EDT</pubDate>
+        <pubDate>Sat, 19 Jul 2025 09:07:41 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Popular npm linter packages hijacked via phishing to drop malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/popular-npm-linter-packages-hijacked-via-phishing-to-drop-malware/</link>
+        <pubDate>Sat, 19 Jul 2025 08:51:22 -0400</pubDate>
+        <dc:creator>Ax Sharma</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/popular-npm-linter-packages-hijacked-via-phishing-to-drop-malware/</guid>
+	<description><![CDATA[Popular JavaScript libraries eslint-config-prettier and eslint-plugin-prettier were hijacked this week and turned into malware droppers, in a supply chain attack achieved via targeted phishing and credential theft. [...]]]></description>
+ </item>
+
+ <item>
+        <title>ChatGPT"s GPT-5-reasoning-alpha model spotted ahead of launch</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-gpt-5-reasoning-alpha-model-spotted-ahead-of-launch/</link>
+        <pubDate>Sat, 19 Jul 2025 08:07:22 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-gpt-5-reasoning-alpha-model-spotted-ahead-of-launch/</guid>
+	<description><![CDATA[GPT-5 might be just a few days or weeks away, as we've spotted references to a new model called gpt-5-reasoning-alpha-2025-07-13. [...]]]></description>
+ </item>
+
  <item>
         <title>OpenAI, Anthropic, Google may disrupt education market with new AI tools</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-anthropic-google-may-disrupt-education-market-with-new-ai-tools/</link>
@@ -164,48 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-gpt-5-is-coming-well-see-if-it-creates-a-shockwave/</guid>
 	<description><![CDATA[OpenAI's next foundational and state-of-the-art model, GPT-5, is still on its way after a delay. OpenAI won't tell us the release date for now. [...]]]></description>
- </item>
-
- <item>
-        <title>Citrix Bleed 2 exploited weeks before PoCs as Citrix denied attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/citrix-bleed-2-exploited-weeks-before-pocs-as-citrix-denied-attacks/</link>
-        <pubDate>Thu, 17 Jul 2025 19:37:34 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/citrix-bleed-2-exploited-weeks-before-pocs-as-citrix-denied-attacks/</guid>
-	<description><![CDATA[A critical Citrix NetScaler vulnerability, tracked as CVE-2025-5777 and dubbed "CitrixBleed 2," was actively exploited nearly two weeks before proof-of-concept (PoC) exploits were made public, despite Citrix stating that there was no evidence of attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>VMware fixes four ESXi zero-day bugs exploited at Pwn2Own Berlin</title>
-        <link>https://www.bleepingcomputer.com/news/security/vmware-fixes-four-esxi-zero-day-bugs-exploited-at-pwn2own-berlin/</link>
-        <pubDate>Thu, 17 Jul 2025 17:36:42 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/vmware-fixes-four-esxi-zero-day-bugs-exploited-at-pwn2own-berlin/</guid>
-	<description><![CDATA[VMware fixed four vulnerabilities in VMware ESXi, Workstation, Fusion, and Tools that were exploited as zero-days during the Pwn2Own Berlin 2025 hacking contest in May 2025. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft Teams voice calls abused to push Matanbuchus malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-teams-voice-calls-abused-to-push-matanbuchus-malware/</link>
-        <pubDate>Thu, 17 Jul 2025 17:28:31 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-teams-voice-calls-abused-to-push-matanbuchus-malware/</guid>
-	<description><![CDATA[The Matanbuchus malware loader has been seen being distributed through social engineering over Microsoft Teams calls impersonating IT helpdesk. [...]]]></description>
  </item>
 
 </channel>
