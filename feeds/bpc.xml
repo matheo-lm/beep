@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 20 Jul 2025 11:00:02 EDT</pubDate>
+        <pubDate>Sun, 20 Jul 2025 12:01:12 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft SharePoint zero-day exploited in RCE attacks, no patch available</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-sharepoint-zero-day-exploited-in-rce-attacks-no-patch-available/</link>
+        <pubDate>Sun, 20 Jul 2025 11:40:06 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-sharepoint-zero-day-exploited-in-rce-attacks-no-patch-available/</guid>
+	<description><![CDATA[A critical zero-day vulnerability in Microsoft SharePoint, tracked as CVE-2025-53770, has been actively exploited since at least July 18th, with no patch available and at least 85 servers already compromised worldwide. [...]]]></description>
+ </item>
+
+ <item>
+        <title>HPE warns of hardcoded passwords in Aruba access points</title>
+        <link>https://www.bleepingcomputer.com/news/security/hpe-warns-of-hardcoded-passwords-in-aruba-access-points/</link>
+        <pubDate>Sun, 20 Jul 2025 10:09:19 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hpe-warns-of-hardcoded-passwords-in-aruba-access-points/</guid>
+	<description><![CDATA[Hewlett-Packard Enterprise (HPE) is warning of hardcoded credentials in Aruba Instant On Access Points that allow attackers to bypass normal device authentication and access the web interface. [...]]]></description>
+ </item>
+
  <item>
         <title>Threat actors downgrade FIDO2 MFA auth in PoisonSeed phishing attack</title>
         <link>https://www.bleepingcomputer.com/news/security/threat-actors-downgrade-fido2-mfa-auth-in-poisonseed-phishing-attack/</link>
@@ -162,36 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/russian-alcohol-retailer-winelab-closes-stores-after-ransomware-attack/</guid>
 	<description><![CDATA[WineLab, the retail store of the largest alcohol company in Russia, has closed its stores following a cyberattack that is impacting its operations and causing purchase problems to its customers. [...]]]></description>
- </item>
-
- <item>
-        <title>New Phobos and 8base ransomware decryptor recover files for free</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-phobos-ransomware-decryptor-lets-victims-recover-files-for-free/</link>
-        <pubDate>Fri, 18 Jul 2025 11:56:13 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-phobos-ransomware-decryptor-lets-victims-recover-files-for-free/</guid>
-	<description><![CDATA[The Japanese police have released a Phobos and 8-Base ransomware decryptor that lets victims recover their files for free, with BleepingComputer confirming that it successfully decrypts files. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers scanning for TeleMessage Signal clone flaw exposing passwords</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-scanning-for-telemessage-signal-clone-flaw-exposing-passwords/</link>
-        <pubDate>Fri, 18 Jul 2025 11:06:05 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-scanning-for-telemessage-signal-clone-flaw-exposing-passwords/</guid>
-	<description><![CDATA[Researchers are seeing exploitation attempts for the CVE-2025-48927 vulnerability in the TeleMessage SGNL app, which allows retrieving usernames, passwords, and other sensitive data. [...]]]></description>
  </item>
 
 </channel>
