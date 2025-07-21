@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Mon, 21 Jul 2025 14:54:39 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 21 Jul 2025 17:10:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -42,7 +42,7 @@
 		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71737</guid>
 
 					<description><![CDATA[On Sunday, July 20, Microsoft Corp. issued an emergency security update for a vulnerability in SharePoint Server that is actively being exploited to compromise vulnerable organizations. The patch comes amid reports that malicious hackers have used the Sharepoint flaw to breach U.S. federal and state agencies, universities, and energy companies.]]></description>
-										<content:encoded><![CDATA[<p>On Sunday, July 20, <strong>Microsoft Corp.</strong> issued an emergency security update for a vulnerability in <strong>SharePoint Server</strong> that is actively being exploited to compromise vulnerable organizations. The patch comes amid reports that malicious hackers have used the Sharepoint flaw to breach U.S. federal and state agencies, universities, and energy companies.</p>
+										<content:encoded><![CDATA[<p>On Sunday, July 20, <strong>Microsoft Corp.</strong> issued an emergency security update for a vulnerability in <strong>SharePoint Server</strong> that is actively being exploited to compromise vulnerable organizations. The patch comes amid reports that malicious hackers have used the SharePoint flaw to breach U.S. federal and state agencies, universities, and energy companies.</p>
 <div id="attachment_71741" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71741" decoding="async" class=" wp-image-71741" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/ms-sharepoint-ss.png" alt="" width="749" height="491" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/ms-sharepoint-ss.png 987w, https://krebsonsecurity.com/wp-content/uploads/2025/07/ms-sharepoint-ss-768x503.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/ms-sharepoint-ss-782x513.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71741" class="wp-caption-text">Image: Shutterstock, by Ascannio.</p></div>
 <p>In <a href="https://msrc.microsoft.com/blog/2025/07/customer-guidance-for-sharepoint-vulnerability-cve-2025-53770/" target="_blank" rel="noopener">an advisory</a> about the SharePoint security hole, a.k.a. <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-53770" target="_blank" rel="noopener">CVE-2025-53770</a>, Microsoft said it is aware of active attacks targeting on-premises SharePoint Server customers and exploiting vulnerabilities that were only partially addressed by <a href="https://krebsonsecurity.com/2025/07/microsoft-patch-tuesday-july-2025-edition/" target="_blank" rel="noopener">the July 8, 2025 security update</a>.</p>
 <p>The <strong>Cybersecurity &amp; Infrastructure Security Agency</strong> (CISA) <a href="https://www.cisa.gov/news-events/alerts/2025/07/20/microsoft-releases-guidance-exploitation-sharepoint-vulnerability-cve-2025-53770" target="_blank" rel="noopener">concurred</a>, saying CVE-2025-53770 is a variant on a flaw Microsoft patched earlier this month (<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49706" target="_blank" rel="noopener">CVE-2025-49706)</a>. Microsoft notes the weakness applies only to SharePoint Servers that organizations use in-house, and that SharePoint Online and Microsoft 365 are not affected.</p>
@@ -611,5 +611,5 @@ Object Caching 290/290 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-21 13:05:12 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-21 13:55:32 by W3 Total Cache
 -->
