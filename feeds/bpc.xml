@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 21 Jul 2025 17:00:09 EDT</pubDate>
+        <pubDate>Mon, 21 Jul 2025 18:00:21 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Intel announces end of Clear Linux OS project, archives GitHub repos</title>
+        <link>https://www.bleepingcomputer.com/news/security/intel-announces-end-of-clear-linux-os-project-archives-github-repos/</link>
+        <pubDate>Mon, 21 Jul 2025 17:25:07 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Linux]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/intel-announces-end-of-clear-linux-os-project-archives-github-repos/</guid>
+	<description><![CDATA[The Clear Linux OS team has announced the shutdown of the project, marking the end of its 10-year existence in the open-source ecosystem. [...]]]></description>
+ </item>
+
  <item>
         <title>Ring denies breach after users report suspicious logins</title>
         <link>https://www.bleepingcomputer.com/news/security/ring-denies-breach-after-users-report-suspicious-logins/</link>
@@ -188,22 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/popular-npm-linter-packages-hijacked-via-phishing-to-drop-malware/</guid>
 	<description><![CDATA[Popular JavaScript libraries eslint-config-prettier and eslint-plugin-prettier were hijacked this week and turned into malware droppers, in a supply chain attack achieved via targeted phishing and credential theft. [...]]]></description>
- </item>
-
- <item>
-        <title>ChatGPT's GPT-5-reasoning-alpha model spotted ahead of launch</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-gpt-5-reasoning-alpha-model-spotted-ahead-of-launch/</link>
-        <pubDate>Sat, 19 Jul 2025 08:07:22 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-gpt-5-reasoning-alpha-model-spotted-ahead-of-launch/</guid>
-	<description><![CDATA[GPT-5 might be just a few days or weeks away, as we've spotted references to a new model called gpt-5-reasoning-alpha-2025-07-13. [...]]]></description>
  </item>
 
 </channel>
