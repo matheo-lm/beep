@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 21 Jul 2025 11:01:51 EDT</pubDate>
+        <pubDate>Mon, 21 Jul 2025 12:01:42 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Veeam Recovery Orchestrator users locked out after MFA rollout</title>
+        <link>https://www.bleepingcomputer.com/news/technology/veeam-recovery-orchestrator-users-locked-out-after-mfa-rollout/</link>
+        <pubDate>Mon, 21 Jul 2025 11:26:13 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/technology/veeam-recovery-orchestrator-users-locked-out-after-mfa-rollout/</guid>
+	<description><![CDATA[Veeam warned customers today that a recently released Recovery Orchestrator version blocks Web UI logins after enabling multi-factor authentication (MFA). [...]]]></description>
+ </item>
+
  <item>
         <title>Dior begins sending data breach notifications to U.S. customers</title>
         <link>https://www.bleepingcomputer.com/news/security/dior-begins-sending-data-breach-notifications-to-us-customers/</link>
@@ -190,22 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-crushftp-zero-day-exploited-in-attacks-to-hijack-servers/</guid>
 	<description><![CDATA[CrushFTP is warning that threat actors are actively exploiting a zero-day vulnerability tracked as CVE-2025-54309, which allows attackers to gain administrative access via the web interface on vulnerable servers. [...]]]></description>
- </item>
-
- <item>
-        <title>Arch Linux pulls AUR packages that installed Chaos RAT malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/arch-linux-pulls-aur-packages-that-installed-chaos-rat-malware/</link>
-        <pubDate>Fri, 18 Jul 2025 17:12:39 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Linux]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/arch-linux-pulls-aur-packages-that-installed-chaos-rat-malware/</guid>
-	<description><![CDATA[Arch Linux has pulled three malicious packages uploaded to the Arch User Repository (AUR), which were used to install the CHAOS remote access trojan (RAT) on Linux devices. [...]]]></description>
  </item>
 
 </channel>

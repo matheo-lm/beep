@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Mon, 21 Jul 2025 14:45:46 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 21 Jul 2025 14:54:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -37,6 +37,7 @@
 		<category><![CDATA[Cybersecurity & Infrastructure Security Agency]]></category>
 		<category><![CDATA[Eye Security]]></category>
 		<category><![CDATA[Microsoft Corp.]]></category>
+		<category><![CDATA[Rapid7]]></category>
 		<category><![CDATA[SharePoint Server]]></category>
 		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71737</guid>
 
@@ -51,8 +52,8 @@
 <p>&#8220;These keys can be used to facilitate further attacks, even at a later date,&#8221; Eye Security warned. &#8220;It is critical that affected servers rotate SharePoint server ASP.NET machine keys and restart IIS on all SharePoint servers. Patching alone is not enough. We strongly advise defenders not to wait for a vendor fix before taking action. This threat is already operational and spreading rapidly.&#8221;<span id="more-71737"></span></p>
 <p>Microsoft&#8217;s advisory says the company has issued updates for <strong>SharePoint Server Subscription Edition</strong> and <strong>SharePoint Server 2019</strong>, but that it is still working on updates for supported versions of <strong>SharePoint 2019</strong> and <strong>SharePoint 2016</strong>.</p>
 <p>CISA advises vulnerable organizations to enable the anti-malware scan interface (AMSI) in SharePoint, to deploy Microsoft Defender AV on all SharePoint servers, and to disconnect affected products from the public-facing Internet until an official patch is available.</p>
-<p>The security firm <strong>Rapid7</strong> <a href="https://www.rapid7.com/blog/post/etr-zero-day-exploitation-of-microsoft-sharepoint-servers-cve-2025-53770/" target="_blank" rel="noopener">notes</a> that Microsoft has described CVE-2025-53370 as related to a previous vulnerability &#8212; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49704" target="_blank" rel="noopener">CVE-2025-49704</a>, patched earlier this month &#8212; and that CVE-2025-49704 was part of an exploit chain demonstrated at the <strong>Pwn2Own</strong> hacking competition in May 2025. That exploit chain invoked a second SharePoint weakness &#8212; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49706" target="_blank" rel="noopener">CVE-2025-49706</a> &#8212; which Microsoft unsuccessfully tried to fix in this month&#8217;s Patch Tuesday.</p>
-<p>Microsoft also has issued a patch for a related SharePoint vulnerability &#8212; CVE-2025-53771; Microsoft says there are no signs of active attacks on CVE-2025-53771, and that the patch is to provide more robust protections than the update for CVE-2025-49706.</p>
+<p>The security firm <strong>Rapid7</strong> <a href="https://www.rapid7.com/blog/post/etr-zero-day-exploitation-of-microsoft-sharepoint-servers-cve-2025-53770/" target="_blank" rel="noopener">notes</a> that Microsoft has described CVE-2025-53770 as related to a previous vulnerability &#8212; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49704" target="_blank" rel="noopener">CVE-2025-49704</a>, patched earlier this month &#8212; and that CVE-2025-49704 was part of an exploit chain demonstrated at the <strong>Pwn2Own</strong> hacking competition in May 2025. That exploit chain invoked a second SharePoint weakness &#8212; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49706" target="_blank" rel="noopener">CVE-2025-49706</a> &#8212; which Microsoft unsuccessfully tried to fix in this month&#8217;s Patch Tuesday.</p>
+<p>Microsoft also has issued a patch for a related SharePoint vulnerability &#8212; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-53771" target="_blank" rel="noopener">CVE-2025-53771</a>; Microsoft says there are no signs of active attacks on CVE-2025-53771, and that the patch is to provide more robust protections than the update for CVE-2025-49706.</p>
 <p><em>This is a rapidly developing story. Any updates will be noted with timestamps.</em></p>
 ]]></content:encoded>
 					
@@ -610,5 +611,5 @@ Object Caching 290/290 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-21 10:54:12 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-21 11:55:01 by W3 Total Cache
 -->
