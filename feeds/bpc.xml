@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 21 Jul 2025 12:01:42 EDT</pubDate>
+        <pubDate>Mon, 21 Jul 2025 13:05:11 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ExpressVPN bug leaked user IPs in Remote Desktop sessions</title>
+        <link>https://www.bleepingcomputer.com/news/security/expressvpn-bug-leaked-user-ips-in-remote-desktop-sessions/</link>
+        <pubDate>Mon, 21 Jul 2025 12:06:08 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/expressvpn-bug-leaked-user-ips-in-remote-desktop-sessions/</guid>
+	<description><![CDATA[ExpressVPN has fixed a flaw in its Windows client that caused Remote Desktop Protocol (RDP) traffic to bypass the virtual private network (VPN) tunnel, exposing the users' real IP addresses. [...]]]></description>
+ </item>
+
  <item>
         <title>Veeam Recovery Orchestrator users locked out after MFA rollout</title>
         <link>https://www.bleepingcomputer.com/news/technology/veeam-recovery-orchestrator-users-locked-out-after-mfa-rollout/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-anthropic-google-may-disrupt-education-market-with-new-ai-tools/</guid>
 	<description><![CDATA[AI companies could soon disrupt the education market with their new AI-based learning tools for students. [...]]]></description>
- </item>
-
- <item>
-        <title>New CrushFTP zero-day exploited in attacks to hijack servers</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-crushftp-zero-day-exploited-in-attacks-to-hijack-servers/</link>
-        <pubDate>Fri, 18 Jul 2025 18:24:29 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-crushftp-zero-day-exploited-in-attacks-to-hijack-servers/</guid>
-	<description><![CDATA[CrushFTP is warning that threat actors are actively exploiting a zero-day vulnerability tracked as CVE-2025-54309, which allows attackers to gain administrative access via the web interface on vulnerable servers. [...]]]></description>
  </item>
 
 </channel>
