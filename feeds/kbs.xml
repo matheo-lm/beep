@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Fri, 18 Jul 2025 02:40:02 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 21 Jul 2025 14:45:46 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,48 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Microsoft Fix Targets Attacks on SharePoint Zero-Day</title>
+		<link>https://krebsonsecurity.com/2025/07/microsoft-fix-targets-attacks-on-sharepoint-zero-day/</link>
+					<comments>https://krebsonsecurity.com/2025/07/microsoft-fix-targets-attacks-on-sharepoint-zero-day/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Mon, 21 Jul 2025 14:45:46 +0000</pubDate>
+				<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Time to Patch]]></category>
+		<category><![CDATA[CISA]]></category>
+		<category><![CDATA[CVE-2025-49704]]></category>
+		<category><![CDATA[CVE-2025-49706]]></category>
+		<category><![CDATA[CVE-2025-53770]]></category>
+		<category><![CDATA[CVE-2025-53771]]></category>
+		<category><![CDATA[Cybersecurity & Infrastructure Security Agency]]></category>
+		<category><![CDATA[Eye Security]]></category>
+		<category><![CDATA[Microsoft Corp.]]></category>
+		<category><![CDATA[SharePoint Server]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71737</guid>
+
+					<description><![CDATA[On Sunday, July 20, Microsoft Corp. issued an emergency security update for a vulnerability in SharePoint Server that is actively being exploited to compromise vulnerable organizations. The patch comes amid reports that malicious hackers have used the Sharepoint flaw to breach U.S. federal and state agencies, universities, and energy companies.]]></description>
+										<content:encoded><![CDATA[<p>On Sunday, July 20, <strong>Microsoft Corp.</strong> issued an emergency security update for a vulnerability in <strong>SharePoint Server</strong> that is actively being exploited to compromise vulnerable organizations. The patch comes amid reports that malicious hackers have used the Sharepoint flaw to breach U.S. federal and state agencies, universities, and energy companies.</p>
+<div id="attachment_71741" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71741" decoding="async" class=" wp-image-71741" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/ms-sharepoint-ss.png" alt="" width="749" height="491" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/ms-sharepoint-ss.png 987w, https://krebsonsecurity.com/wp-content/uploads/2025/07/ms-sharepoint-ss-768x503.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/ms-sharepoint-ss-782x513.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71741" class="wp-caption-text">Image: Shutterstock, by Ascannio.</p></div>
+<p>In <a href="https://msrc.microsoft.com/blog/2025/07/customer-guidance-for-sharepoint-vulnerability-cve-2025-53770/" target="_blank" rel="noopener">an advisory</a> about the SharePoint security hole, a.k.a. <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-53770" target="_blank" rel="noopener">CVE-2025-53770</a>, Microsoft said it is aware of active attacks targeting on-premises SharePoint Server customers and exploiting vulnerabilities that were only partially addressed by <a href="https://krebsonsecurity.com/2025/07/microsoft-patch-tuesday-july-2025-edition/" target="_blank" rel="noopener">the July 8, 2025 security update</a>.</p>
+<p>The <strong>Cybersecurity &amp; Infrastructure Security Agency</strong> (CISA) <a href="https://www.cisa.gov/news-events/alerts/2025/07/20/microsoft-releases-guidance-exploitation-sharepoint-vulnerability-cve-2025-53770" target="_blank" rel="noopener">concurred</a>, saying CVE-2025-53770 is a variant on a flaw Microsoft patched earlier this month (<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49706" target="_blank" rel="noopener">CVE-2025-49706)</a>. Microsoft notes the weakness applies only to SharePoint Servers that organizations use in-house, and that SharePoint Online and Microsoft 365 are not affected.</p>
+<p><strong>The Washington Post</strong> <a href="https://www.washingtonpost.com/technology/2025/07/20/microsoft-sharepoint-hack/" target="_blank" rel="noopener">reported</a> on Sunday that the U.S. government and partners in Canada and Australia are investigating the hack of SharePoint servers, which provide a platform for sharing and managing documents. The Post reports at least two U.S. federal agencies have seen their servers breached via the SharePoint vulnerability.</p>
+<p>According to CISA, attackers exploiting the newly-discovered flaw are retrofitting compromised servers with a backdoor dubbed &#8220;<strong>ToolShell</strong>&#8221; that provides unauthenticated, remote access to systems. CISA said ToolShell enables attackers to fully access SharePoint content &#8212; including file systems and internal configurations &#8212; and execute code over the network.</p>
+<p>Researchers at <strong>Eye Security</strong> said they first spotted large-scale exploitation of the SharePoint flaw on July 18, 2025, and soon found dozens of separate servers compromised by the bug and infected with ToolShell. In <a href="https://research.eye.security/sharepoint-under-siege/" target="_blank" rel="noopener">a blog post</a>, the researchers said the attacks sought to steal SharePoint server ASP.NET machine keys.</p>
+<p>&#8220;These keys can be used to facilitate further attacks, even at a later date,&#8221; Eye Security warned. &#8220;It is critical that affected servers rotate SharePoint server ASP.NET machine keys and restart IIS on all SharePoint servers. Patching alone is not enough. We strongly advise defenders not to wait for a vendor fix before taking action. This threat is already operational and spreading rapidly.&#8221;<span id="more-71737"></span></p>
+<p>Microsoft&#8217;s advisory says the company has issued updates for <strong>SharePoint Server Subscription Edition</strong> and <strong>SharePoint Server 2019</strong>, but that it is still working on updates for supported versions of <strong>SharePoint 2019</strong> and <strong>SharePoint 2016</strong>.</p>
+<p>CISA advises vulnerable organizations to enable the anti-malware scan interface (AMSI) in SharePoint, to deploy Microsoft Defender AV on all SharePoint servers, and to disconnect affected products from the public-facing Internet until an official patch is available.</p>
+<p>The security firm <strong>Rapid7</strong> <a href="https://www.rapid7.com/blog/post/etr-zero-day-exploitation-of-microsoft-sharepoint-servers-cve-2025-53770/" target="_blank" rel="noopener">notes</a> that Microsoft has described CVE-2025-53370 as related to a previous vulnerability &#8212; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49704" target="_blank" rel="noopener">CVE-2025-49704</a>, patched earlier this month &#8212; and that CVE-2025-49704 was part of an exploit chain demonstrated at the <strong>Pwn2Own</strong> hacking competition in May 2025. That exploit chain invoked a second SharePoint weakness &#8212; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49706" target="_blank" rel="noopener">CVE-2025-49706</a> &#8212; which Microsoft unsuccessfully tried to fix in this month&#8217;s Patch Tuesday.</p>
+<p>Microsoft also has issued a patch for a related SharePoint vulnerability &#8212; CVE-2025-53771; Microsoft says there are no signs of active attacks on CVE-2025-53771, and that the patch is to provide more robust protections than the update for CVE-2025-49706.</p>
+<p><em>This is a rapidly developing story. Any updates will be noted with timestamps.</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/07/microsoft-fix-targets-attacks-on-sharepoint-zero-day/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Poor Passwords Tattle on AI Hiring Bot Maker Paradox.ai</title>
 		<link>https://krebsonsecurity.com/2025/07/poor-passwords-tattle-on-ai-hiring-bot-maker-paradox-ai/</link>
 					<comments>https://krebsonsecurity.com/2025/07/poor-passwords-tattle-on-ai-hiring-bot-maker-paradox-ai/#comments</comments>
@@ -43,7 +85,7 @@
 
 					<description><![CDATA[Security researchers recently revealed that the personal information of millions of people who applied for jobs at McDonald's was exposed after they guessed the password ("123456") for the fast food chain's account at Paradox.ai, a company that makes artificial intelligence based hiring chatbots used by many Fortune 500 companies. Paradox.ai said the security oversight was an isolated incident that did not affect its other customers, but recent security breaches involving its employees in Vietnam tell a more nuanced story.]]></description>
 										<content:encoded><![CDATA[<p>Security researchers recently revealed that the personal information of millions of people who applied for jobs at <strong>McDonald&#8217;s</strong> was exposed after they guessed the password (&#8220;123456&#8221;) for the fast food chain&#8217;s account at <strong>Paradox.ai</strong>, a company that makes artificial intelligence based hiring chatbots used by many Fortune 500 firms. Paradox.ai said the security oversight was an isolated incident that did not affect its other customers, but recent security breaches involving its employees in Vietnam tell a more nuanced story.</p>
-<div id="attachment_71672" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71672" decoding="async" class=" wp-image-71672" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/paradoxai.png" alt="" width="749" height="330" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/paradoxai.png 1438w, https://krebsonsecurity.com/wp-content/uploads/2025/07/paradoxai-768x339.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/paradoxai-782x345.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71672" class="wp-caption-text">A screenshot of the paradox.ai homepage showing its AI hiring chatbot &#8220;Olivia&#8221; interacting with potential hires.</p></div>
+<div id="attachment_71672" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71672" decoding="async" loading="lazy" class=" wp-image-71672" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/paradoxai.png" alt="" width="749" height="330" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/paradoxai.png 1438w, https://krebsonsecurity.com/wp-content/uploads/2025/07/paradoxai-768x339.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/paradoxai-782x345.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71672" class="wp-caption-text">A screenshot of the paradox.ai homepage showing its AI hiring chatbot &#8220;Olivia&#8221; interacting with potential hires.</p></div>
 <p>Earlier this month, security researchers <strong>Ian Carroll</strong> and <strong>Sam Curry</strong> <a href="https://ian.sh/mcdonalds" target="_blank" rel="noopener">wrote about</a> simple methods they found to access the backend of the AI chatbot platform on McHire.com, the McDonald&#8217;s website that many of its franchisees use to screen job applicants. As first reported by <a href="https://www.wired.com/story/mcdonalds-ai-hiring-chat-bot-paradoxai/" target="_blank" rel="noopener">Wired</a>, the researchers discovered that the weak password used by Paradox exposed 64 million records, including applicants&#8217; names, email addresses and phone numbers.</p>
 <p>Paradox.ai acknowledged the researchers&#8217; findings but said the company&#8217;s other client instances were not affected, and that no sensitive information &#8212; such as Social Security numbers &#8212; was exposed.</p>
 <p>&#8220;We are confident, based on our records, this test account was not accessed by any third party other than the security researchers,&#8221; the company wrote in <a href="https://www.paradox.ai/blog/responsible-security-update" target="_blank" rel="noopener">a July 9 blog post</a>. &#8220;It had not been logged into since 2019 and frankly, should have been decommissioned. We want to be very clear that while the researchers may have briefly had access to the system containing all chat interactions (NOT job applications), they only viewed and downloaded five chats in total that had candidate information within. Again, at no point was any data leaked online or made public.&#8221;</p>
@@ -558,68 +600,15 @@
 		
 		
 			</item>
-		<item>
-		<title>U.S. Sanctions Cloud Provider &#8216;Funnull&#8217; as Top Source of &#8216;Pig Butchering&#8217; Scams</title>
-		<link>https://krebsonsecurity.com/2025/05/u-s-sanctions-cloud-provider-funnull-as-top-source-of-pig-butchering-scams/</link>
-					<comments>https://krebsonsecurity.com/2025/05/u-s-sanctions-cloud-provider-funnull-as-top-source-of-pig-butchering-scams/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Fri, 30 May 2025 01:55:16 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Ne'er-Do-Well News]]></category>
-		<category><![CDATA[Web Fraud 2.0]]></category>
-		<category><![CDATA[Amazon]]></category>
-		<category><![CDATA[Funnull]]></category>
-		<category><![CDATA[infrastructure laundering]]></category>
-		<category><![CDATA[Ivan Neculiti]]></category>
-		<category><![CDATA[Lazarus Group]]></category>
-		<category><![CDATA[microsoft]]></category>
-		<category><![CDATA[Silent Push]]></category>
-		<category><![CDATA[Stark Industrires Solutions Ltd]]></category>
-		<category><![CDATA[Suncity Group]]></category>
-		<category><![CDATA[Yuri Neculiti]]></category>
-		<category><![CDATA[Zach Edwards]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71387</guid>
-
-					<description><![CDATA[The U.S. government today imposed economic sanctions on Funnull Technology Inc., a Philippines-based company that provides computer infrastructure for hundreds of thousands of websites involved in virtual currency investment scams, commonly known as “pig butchering." In January 2025, KrebsOnSecurity detailed how Funnull was being used as a content delivery network that catered to cybercriminals seeking to route their traffic through U.S.-based cloud providers.]]></description>
-										<content:encoded><![CDATA[<div id="attachment_70230" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70230" decoding="async" loading="lazy" class=" wp-image-70230" src="https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss.png" alt="" width="750" height="452" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss.png 1319w, https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss-768x463.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/01/funnell-ss-782x472.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-70230" class="wp-caption-text">Image: Shutterstock, ArtHead.</p></div>
-<p>The U.S. government today imposed economic sanctions on <strong>Funnull Technology Inc.</strong>, a Philippines-based company that provides computer infrastructure for hundreds of thousands of websites involved in virtual currency investment scams known as “<strong>pig butchering</strong>.&#8221; In January 2025, KrebsOnSecurity detailed how Funnull was being used as a content delivery network that catered to cybercriminals seeking to route their traffic through U.S.-based cloud providers.</p>
-<p>&#8220;Americans lose billions of dollars annually to these cyber scams, with revenues generated from these crimes rising to record levels in 2024,&#8221; reads <a href="https://home.treasury.gov/news/press-releases/sb0149" target="_blank" rel="noopener">a statement</a> from the <strong>U.S. Department of the Treasury</strong>, which sanctioned Funnull and its 40-year-old Chinese administrator <strong>Liu Lizhi</strong>. &#8220;Funnull has directly facilitated several of these schemes, resulting in over $200 million in U.S. victim-reported losses.&#8221;</p>
-<p>The Treasury Department said Funnull&#8217;s operations are linked to the majority of virtual currency investment scam websites reported to the FBI. The agency said Funnull directly facilitated pig butchering and other schemes that resulted in more than $200 million in financial losses by Americans.</p>
-<p>Pig butchering is a rampant form of fraud wherein people are lured by flirtatious strangers online into investing in fraudulent cryptocurrency trading platforms. Victims are coached to invest more and more money into what appears to be an extremely profitable trading platform, only to find their money is gone when they wish to cash out.</p>
-<p>The scammers often insist that investors pay additional &#8220;taxes&#8221; on their crypto &#8220;earnings&#8221; before they can see their invested funds again (spoiler: they never do), and a shocking number of people <a href="https://krebsonsecurity.com/2022/07/massive-losses-define-epidemic-of-pig-butchering/" target="_blank" rel="noopener">have lost six figures or more through these pig butchering scams</a>.</p>
-<p>KrebsOnSecurity&#8217;s <a href="https://krebsonsecurity.com/2025/01/infrastructure-laundering-blending-in-with-the-cloud/" target="_blank" rel="noopener">January story on Funnull</a> was based on research from the security firm <strong>Silent Push</strong>, which discovered in October 2024 that a vast number of domains hosted via Funnull were promoting gambling sites that bore the logo of the <strong>Suncity Group</strong>, a Chinese entity named in <a href="https://www.unodc.org/roseap/uploads/documents/Publications/2024/Casino_Underground_Banking_Report_2024.pdf" target="_blank" rel="noopener">a 2024 UN report</a> (PDF) for laundering millions of dollars for the North Korean state-sponsored hacking group <a href="https://en.wikipedia.org/wiki/Lazarus_Group" target="_blank" rel="noopener">Lazarus</a>.</p>
-<p>Silent Push found Funnull was a criminal content delivery network (CDN) that carried a great deal of traffic tied to scam websites, funneling the traffic through a dizzying chain of auto-generated domain names and U.S.-based cloud providers before redirecting to malicious or phishous websites. The FBI has released a <a href="https://www.ic3.gov/CSA/2025/250529.pdf" target="_blank" rel="noopener">technical writeup</a> (PDF) of the infrastructure used to manage the malicious Funnull domains between October 2023 and April 2025.</p>
-<div id="attachment_71392" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71392" decoding="async" loading="lazy" class=" wp-image-71392" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/funnull-network.png" alt="" width="749" height="464" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/05/funnull-network.png 2556w, https://krebsonsecurity.com/wp-content/uploads/2025/05/funnull-network-768x476.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/05/funnull-network-1536x952.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2025/05/funnull-network-2048x1269.png 2048w, https://krebsonsecurity.com/wp-content/uploads/2025/05/funnull-network-782x485.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71392" class="wp-caption-text">A graphic from the FBI explaining how Funnull generated a slew of new domains on a regular basis and mapped them to Internet addresses on U.S. cloud providers.</p></div>
-<p>Silent Push <a href="https://www.silentpush.com/blog/infrastructure-laundering/" target="_blank" rel="noopener">revisited Funnull&#8217;s infrastructure</a> in January 2025 and found Funnull was still using many of the same <strong>Amazon</strong> and <strong>Microsoft</strong> cloud Internet addresses identified as malicious in its October report. Both Amazon and Microsoft pledged to rid their networks of Funnull&#8217;s presence following that story, but according to Silent Push&#8217;s <strong>Zach Edwards</strong> only one of those companies has followed through.</p>
-<p>Edwards said Silent Push no longer sees Microsoft Internet addresses showing up in Funnull&#8217;s infrastructure, while Amazon continues to struggle with removing Funnull servers, including one that appears to have first materialized in 2023.</p>
-<p>&#8220;Amazon is doing a terrible job &#8212; every day since they made those claims to you and us in our public blog they have had IPs still mapped to Funnull, including some that have stayed mapped for inexplicable periods of time,&#8221; Edwards said.</p>
-<p>Amazon said its Amazon Web Services (AWS) hosting platform actively counters abuse attempts.</p>
-<p>&#8220;We have stopped hundreds of attempts this year related to this group and we are looking into the information you shared earlier today,&#8221; reads a statement shared by Amazon. &#8220;If anyone suspects that AWS resources are being used for abusive activity, they can report it to AWS Trust &amp; Safety using the report abuse form <a href="https://support.aws.amazon.com/#/contacts/report-abuse" target="_blank" rel="noopener">here</a>.&#8221;</p>
-<p><span id="more-71387"></span></p>
-<p>U.S. based cloud providers remain an attractive home base for cybercriminal organizations because many organizations will not be overly aggressive in blocking traffic from U.S.-based cloud networks, as doing so can result in blocking access to many legitimate web destinations that are also on that same shared network segment or host.</p>
-<p>What&#8217;s more, funneling their bad traffic so that it appears to be coming out of U.S. cloud Internet providers allows cybercriminals to connect to websites from web addresses that are geographically close(r) to their targets and victims (to sidestep location-based security controls by your bank, for example).</p>
-<p>Funnull is not the only cybercriminal infrastructure-as-a-service provider that was sanctioned this month: On May 20, 2025, the <strong>European Union</strong> <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202500966" target="_blank" rel="noopener">imposed sanctions</a> on <strong>Stark Industries Solutions</strong>, an ISP that materialized at the start of Russia’s invasion of Ukraine and has been used as a global proxy network that conceals the true source of cyberattacks and disinformation campaigns against enemies of Russia.</p>
-<p>In May 2024, KrebsOnSecurity published <a href="https://krebsonsecurity.com/2024/05/stark-industries-solutions-an-iron-hammer-in-the-cloud/" target="_blank" rel="noopener">a deep dive on Stark Industries Solutions</a> that found much of the malicious traffic traversing Stark’s network (e.g. vulnerability scanning and password brute force attacks) was being bounced through U.S.-based cloud providers. My reporting showed how deeply Stark had penetrated U.S. ISPs, and that its co-founder for many years sold &#8220;bulletproof&#8221; hosting services that told Russian cybercrime forum customers they would proudly ignore any abuse complaints or police inquiries.</p>
-<div id="attachment_67471" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-67471" decoding="async" loading="lazy" class=" wp-image-67471" src="https://krebsonsecurity.com/wp-content/uploads/2024/05/stark-industries-solutions.png" alt="" width="748" height="464" srcset="https://krebsonsecurity.com/wp-content/uploads/2024/05/stark-industries-solutions.png 1197w, https://krebsonsecurity.com/wp-content/uploads/2024/05/stark-industries-solutions-768x477.png 768w, https://krebsonsecurity.com/wp-content/uploads/2024/05/stark-industries-solutions-782x485.png 782w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-67471" class="wp-caption-text">The homepage of Stark Industries Solutions.</p></div>
-<p>That story examined the history of Stark&#8217;s co-founders, Moldovan brothers <strong>Ivan</strong> and <strong>Yuri Neculiti</strong>, who each denied past involvement in cybercrime or any current involvement in assisting Russian disinformation efforts or cyberattacks. Nevertheless, the EU sanctioned both brothers as well.</p>
-<p>The EU said Stark and the Neculti brothers &#8220;enabled various Russian state-sponsored and state-affiliated actors to conduct destabilising activities including coordinated information manipulation and interference and cyber-attacks against the Union and third countries by providing services intended to hide these activities from European law enforcement and security agencies.&#8221;</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/05/u-s-sanctions-cloud-provider-funnull-as-top-source-of-pig-butchering-scams/feed/</wfw:commentRss>
-			<slash:comments>14</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 294/294 objects using memcached
+Object Caching 290/290 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-21 09:56:01 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-21 10:54:12 by W3 Total Cache
 -->
