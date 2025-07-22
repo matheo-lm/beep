@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 22 Jul 2025 15:01:55 EDT</pubDate>
+        <pubDate>Tue, 22 Jul 2025 16:01:04 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 11 gets new Black Screen of Death, auto recovery tool</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-gets-new-black-screen-of-death-auto-recovery-tool/</link>
+        <pubDate>Tue, 22 Jul 2025 15:30:25 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-gets-new-black-screen-of-death-auto-recovery-tool/</guid>
+	<description><![CDATA[Microsoft is rolling out significant changes to Windows 11 24H2 as part of the Windows Resilience Initiative, designed to reduce downtime and help devices recover from serious failures, as well as an overhaul of the all-too-familiar BSOD crash screens. [...]]]></description>
+ </item>
+
  <item>
         <title>Coyote malware abuses Windows accessibility framework for data theft</title>
         <link>https://www.bleepingcomputer.com/news/security/coyote-malware-abuses-windows-accessibility-framework-for-data-theft/</link>
@@ -89,7 +103,7 @@
  </item>
 
  <item>
-        <title>Microsoft links Sharepoint attacks to Chinese hacking groups</title>
+        <title>Microsoft links Sharepoint ToolShell attacks to Chinese hackers</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-sharepoint-toolshell-attacks-linked-to-chinese-hackers/</link>
         <pubDate>Tue, 22 Jul 2025 07:26:06 -0400</pubDate>
         <dc:creator>Sergiu Gatlan</dc:creator>
@@ -190,34 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/dior-begins-sending-data-breach-notifications-to-us-customers/</guid>
 	<description><![CDATA[The House of Dior (Dior) is sending data breach notifications to U.S. customers informing them that a May cybersecurity incident compromised their personal information. [...]]]></description>
- </item>
-
- <item>
-        <title>Over 1,000 CrushFTP servers exposed to ongoing hijack attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/over-1-000-crushftp-servers-exposed-to-ongoing-hijack-attacks/</link>
-        <pubDate>Mon, 21 Jul 2025 07:34:21 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/over-1-000-crushftp-servers-exposed-to-ongoing-hijack-attacks/</guid>
-	<description><![CDATA[Over 1,000 CrushFTP instances currently exposed online are vulnerable to hijack attacks that exploit a critical security bug, providing admin access to the web interface. [...]]]></description>
- </item>
-
- <item>
-        <title>Learn 14 Languages from Babbel with this exclusive StackSocial deal</title>
-        <link>https://www.bleepingcomputer.com/news/security/learn-14-languages-from-babbel-with-this-exclusive-stacksocial-deal/</link>
-        <pubDate>Mon, 21 Jul 2025 07:07:14 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/learn-14-languages-from-babbel-with-this-exclusive-stacksocial-deal/</guid>
-	<description><![CDATA[Learning a new language doesn't have to mean night classes, bulky textbooks, or boring apps. With Babbel, you can pick up real-world conversation skills through short, fun, and practical lessons. And right now, you can get a lifetime subscription for only $159 (regularly $599). [...]]]></description>
  </item>
 
 </channel>
