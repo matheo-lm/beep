@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 23 Jul 2025 18:03:16 EDT</pubDate>
+        <pubDate>Wed, 23 Jul 2025 18:59:13 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Brave blocks Windows Recall from screenshotting your browsing activity</title>
+        <link>https://www.bleepingcomputer.com/news/security/brave-blocks-windows-recall-from-screenshotting-your-browsing-activity/</link>
+        <pubDate>Wed, 23 Jul 2025 18:42:05 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/brave-blocks-windows-recall-from-screenshotting-your-browsing-activity/</guid>
+	<description><![CDATA[Brave Software says its privacy-focused browser will block Microsoft's Windows Recall from capturing screenshots of Brave windows by default to protect users' privacy. [...]]]></description>
+ </item>
+
  <item>
         <title>Proton launches privacy-respecting encrypted AI assistant Lumo</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/proton-launches-privacy-respecting-encrypted-ai-assistant-lumo/</link>
@@ -192,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/technology/operator-of-jetflix-illegal-streaming-service-gets-7-years-in-prison/</guid>
 	<description><![CDATA[The ringleader of the Jetflicks illegal paid streaming operation, a massive service with tens of thousands of subscribers, was sentenced to seven years in prison. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes bug behind incorrect Windows Firewall errors</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-incorrect-windows-firewall-errors/</link>
-        <pubDate>Wed, 23 Jul 2025 06:24:08 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-incorrect-windows-firewall-errors/</guid>
-	<description><![CDATA[Microsoft has resolved a known issue that triggers invalid Windows Firewall errors after rebooting Windows 11 24H2 systems with the June 2025 preview update installed. [...]]]></description>
  </item>
 
 </channel>
