@@ -11,11 +11,57 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 23 Jul 2025 13:04:29 EDT</pubDate>
+        <pubDate>Wed, 23 Jul 2025 14:01:23 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Proton launches privacy-respecting encrypted AI assistant Lumo</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/proton-launches-privacy-respecting-encrypted-ai-assistant-lumo/</link>
+        <pubDate>Wed, 23 Jul 2025 13:41:11 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/proton-launches-privacy-respecting-encrypted-ai-assistant-lumo/</guid>
+	<description><![CDATA[Proton has launched a new tool called Lumo, offering a privacy-first AI assistant that does not log user conversations and doesn't use their prompts for training. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hackers fooled Cognizant help desk, says Clorox in $380M cyberattack lawsuit</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-fooled-cognizant-help-desk-says-clorox-in-380m-cyberattack-lawsuit/</link>
+        <pubDate>Wed, 23 Jul 2025 13:20:40 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-fooled-cognizant-help-desk-says-clorox-in-380m-cyberattack-lawsuit/</guid>
+	<description><![CDATA[Clorox is suing IT giant Cognizant for gross negligence, alleging it enabled a massive August 2023 cyberattack by resetting an employee's password for a hacker without first verifying their identity. [...]]]></description>
+ </item>
+
+ <item>
+        <title>ChatGPT is rolling out 'personality' toggles to become your assistant</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-rolling-out-personality-toggles-to-become-your-assistant/</link>
+        <pubDate>Wed, 23 Jul 2025 13:07:48 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-rolling-out-personality-toggles-to-become-your-assistant/</guid>
+	<description><![CDATA[OpenAI is rolling out a new "personality" feature on the ChatGPT web app. This allows you to choose between multiple personalities, such as "Robot." [...]]]></description>
+ </item>
+
  <item>
         <title>NPM package ‘is’ with 2.8M weekly downloads infected devs with malware</title>
         <link>https://www.bleepingcomputer.com/news/security/npm-package-is-with-28m-weekly-downloads-infected-devs-with-malware/</link>
@@ -174,34 +220,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/lumma-infostealer-malware-returns-after-law-enforcement-disruption/</guid>
 	<description><![CDATA[The Lumma infostealer malware operation is gradually resuming activities following a massive law enforcement operation in May, which resulted in the seizure of 2,300 domains and parts of its infrastructure. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 KB5062660 update brings new 'Windows Resilience' features</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5062660-update-brings-new-windows-resilience-features/</link>
-        <pubDate>Tue, 22 Jul 2025 16:36:24 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5062660-update-brings-new-windows-resilience-features/</guid>
-	<description><![CDATA[​​Microsoft has released the KB5062660 preview cumulative update for Windows 11 24H2 with twenty-nine new features or changes, with many gradually rolling out, such as the new Black Screen of Death and Quick Machine Recovery tool. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 gets new Black Screen of Death, auto recovery tool</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-gets-new-black-screen-of-death-auto-recovery-tool/</link>
-        <pubDate>Tue, 22 Jul 2025 15:30:25 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-gets-new-black-screen-of-death-auto-recovery-tool/</guid>
-	<description><![CDATA[Microsoft is rolling out significant changes to Windows 11 24H2 as part of the Windows Resilience Initiative, designed to reduce downtime and help devices recover from serious failures, as well as an overhaul of the all-too-familiar BSOD crash screens. [...]]]></description>
  </item>
 
 </channel>
