@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 23 Jul 2025 06:01:04 EDT</pubDate>
+        <pubDate>Wed, 23 Jul 2025 06:59:25 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft fixes bug behind incorrect Windows Firewall errors</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-incorrect-windows-firewall-errors/</link>
+        <pubDate>Wed, 23 Jul 2025 06:24:08 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-incorrect-windows-firewall-errors/</guid>
+	<description><![CDATA[Microsoft has resolved a known issue that triggers invalid Windows Firewall errors after rebooting Windows 11 24H2 systems with the June 2025 preview update installed. [...]]]></description>
+ </item>
+
  <item>
         <title>Lumma infostealer malware returns after law enforcement disruption</title>
         <link>https://www.bleepingcomputer.com/news/security/lumma-infostealer-malware-returns-after-law-enforcement-disruption/</link>
@@ -188,22 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ring-denies-breach-after-users-report-suspicious-logins/</guid>
 	<description><![CDATA[Ring is warning that a backend update bug is responsible for customers seeing a surge in unauthorized devices logged into their account on May 28th. [...]]]></description>
- </item>
-
- <item>
-        <title>ExpressVPN bug leaked user IPs in Remote Desktop sessions</title>
-        <link>https://www.bleepingcomputer.com/news/security/expressvpn-bug-leaked-user-ips-in-remote-desktop-sessions/</link>
-        <pubDate>Mon, 21 Jul 2025 12:06:08 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/expressvpn-bug-leaked-user-ips-in-remote-desktop-sessions/</guid>
-	<description><![CDATA[ExpressVPN has fixed a flaw in its Windows client that caused Remote Desktop Protocol (RDP) traffic to bypass the virtual private network (VPN) tunnel, exposing the users' real IP addresses. [...]]]></description>
  </item>
 
 </channel>
