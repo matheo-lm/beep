@@ -11,11 +11,45 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 24 Jul 2025 16:01:58 EDT</pubDate>
+        <pubDate>Thu, 24 Jul 2025 16:59:19 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>OpenAI confirms ChatGPT Agent is now rolling out for $20 Plus users</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-agent-is-now-rolling-out-for-20-plus-users/</link>
+        <pubDate>Thu, 24 Jul 2025 16:59:14 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-agent-is-now-rolling-out-for-20-plus-users/</guid>
+	<description><![CDATA[ChatGPT Agent is now rolling out to users with $20 Plus subscription, but OpenAI warns that it will take a few days for the rollout to finish. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New Koske Linux malware hides in cute panda images</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-koske-linux-malware-hides-in-cute-panda-images/</link>
+        <pubDate>Thu, 24 Jul 2025 16:54:10 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+        <category><![CDATA[Linux]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-koske-linux-malware-hides-in-cute-panda-images/</guid>
+	<description><![CDATA[A new Linux malware named Koske may have been developed with artificial intelligence and is using seemingly benign JPEG images of panda bears to deploy malware directly into system memory. [...]]]></description>
+ </item>
+
  <item>
         <title>Hacker sneaks infostealer malware into early access Steam game</title>
         <link>https://www.bleepingcomputer.com/news/security/hacker-sneaks-infostealer-malware-into-early-access-steam-game/</link>
@@ -164,50 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/npm-package-is-with-28m-weekly-downloads-infected-devs-with-malware/</guid>
 	<description><![CDATA[The popular NPM package 'is' has been compromised in a supply chain attack that injected backdoor malware, giving attackers full access to compromised devices. [...]]]></description>
- </item>
-
- <item>
-        <title>US nuclear weapons agency hacked in Microsoft SharePoint attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-nuclear-weapons-agency-hacked-in-microsoft-sharepoint-attacks/</link>
-        <pubDate>Wed, 23 Jul 2025 11:14:25 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-nuclear-weapons-agency-hacked-in-microsoft-sharepoint-attacks/</guid>
-	<description><![CDATA[Unknown threat actors have breached the National Nuclear Security Administration's network in attacks exploiting a recently patched Microsoft SharePoint zero-day vulnerability chain. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI confirms ChatGPT's new study feature, helps with exams</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpts-new-study-feature-helps-with-exams/</link>
-        <pubDate>Wed, 23 Jul 2025 10:08:47 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpts-new-study-feature-helps-with-exams/</guid>
-	<description><![CDATA[OpenAI is testing a new 'Study together' feature, and today, a new announcement within the ChatGPT web app confirms it. [...]]]></description>
- </item>
-
- <item>
-        <title>How to harden your Active Directory against Kerberoasting</title>
-        <link>https://www.bleepingcomputer.com/news/security/how-to-harden-your-active-directory-against-kerberoasting/</link>
-        <pubDate>Wed, 23 Jul 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by Specops Software</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/how-to-harden-your-active-directory-against-kerberoasting/</guid>
-	<description><![CDATA[Kerberoasting gives attackers offline paths to crack service account password, without triggering alerts. Learn from Specops Software how to protect your Active Directory with stronger SPN password policies and reduced attack surfaces. [...]]]></description>
  </item>
 
 </channel>
