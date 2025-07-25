@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 25 Jul 2025 13:01:01 EDT</pubDate>
+        <pubDate>Fri, 25 Jul 2025 14:02:52 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>The role of the cybersecurity PM in incident-driven development</title>
+        <link>https://www.bleepingcomputer.com/news/security/the-role-of-the-cybersecurity-pm-in-incident-driven-development/</link>
+        <pubDate>Fri, 25 Jul 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by ThreatLocker</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/the-role-of-the-cybersecurity-pm-in-incident-driven-development/</guid>
+	<description><![CDATA[From PowerShell abuse to USB data theft, modern threats hit fast—and hard.vSee how security-minded PMs are responding with real-time controls, smarter policies, and tools like ThreatLocker Patch Management. [...]]]></description>
+ </item>
+
  <item>
         <title>US sanctions North Korean firm, nationals behind IT worker schemes</title>
         <link>https://www.bleepingcomputer.com/news/security/us-sanctions-north-korean-firm-nationals-behind-it-worker-schemes/</link>
@@ -180,22 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-sharepoint-servers-also-targeted-in-ransomware-attacks/</guid>
 	<description><![CDATA[A China-based hacking group is deploying Warlock ransomware on Microsoft SharePoint servers vulnerable to widespread attacks targeting the recently patched ToolShell zero-day exploit chain. [...]]]></description>
- </item>
-
- <item>
-        <title>Brave blocks Windows Recall from screenshotting your browsing activity</title>
-        <link>https://www.bleepingcomputer.com/news/security/brave-blocks-windows-recall-from-screenshotting-your-browsing-activity/</link>
-        <pubDate>Wed, 23 Jul 2025 18:42:05 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/brave-blocks-windows-recall-from-screenshotting-your-browsing-activity/</guid>
-	<description><![CDATA[Brave Software says its privacy-focused browser will block Microsoft's Windows Recall from capturing screenshots of Brave windows by default to protect users' privacy. [...]]]></description>
  </item>
 
 </channel>
