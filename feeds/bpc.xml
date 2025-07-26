@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 26 Jul 2025 13:02:06 EDT</pubDate>
+        <pubDate>Sat, 26 Jul 2025 14:01:00 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Allianz Life confirms data breach impacts majority of 1.4 million customers</title>
+        <link>https://www.bleepingcomputer.com/news/security/allianz-life-confirms-data-breach-impacts-majority-of-14-million-customers/</link>
+        <pubDate>Sat, 26 Jul 2025 14:00:55 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/allianz-life-confirms-data-breach-impacts-majority-of-14-million-customers/</guid>
+	<description><![CDATA[Insurance company Allianz Life has confirmed that the personal information for the "majority" of its 1.4 million customers was exposed in a data breach that occurred earlier this month. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Post SMTP plugin flaw exposes 200K WordPress sites to hijacking attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/post-smtp-plugin-flaw-exposes-200k-wordpress-sites-to-hijacking-attacks/</link>
+        <pubDate>Sat, 26 Jul 2025 10:17:39 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/post-smtp-plugin-flaw-exposes-200k-wordpress-sites-to-hijacking-attacks/</guid>
+	<description><![CDATA[More than 200,000 WordPress websites are using a vulnerable version of the Post SMTP plugin that allows hackers to take control of the administrator account. [...]]]></description>
+ </item>
+
  <item>
         <title>Amazon AI coding agent hacked to inject data wiping commands </title>
         <link>https://www.bleepingcomputer.com/news/security/amazon-ai-coding-agent-hacked-to-inject-data-wiping-commands/</link>
@@ -166,48 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hacker-sneaks-infostealer-malware-into-early-access-steam-game/</guid>
 	<description><![CDATA[A threat actor called EncryptHub has compromised a game on Steam to distribute info-stealing malware to unsuspecting users downloading the title. [...]]]></description>
- </item>
-
- <item>
-        <title>Mitel warns of critical MiVoice MX-ONE authentication bypass flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/mitel-warns-of-critical-mivoice-mx-one-authentication-bypass-flaw/</link>
-        <pubDate>Thu, 24 Jul 2025 11:17:40 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/mitel-warns-of-critical-mivoice-mx-one-authentication-bypass-flaw/</guid>
-	<description><![CDATA[Mitel Networks has released security updates to patch a critical-severity authentication bypass vulnerability impacting its MiVoice MX-ONE enterprise communications platform. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers breach Toptal GitHub account, publish malicious npm packages</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-breach-toptal-github-account-publish-malicious-npm-packages/</link>
-        <pubDate>Thu, 24 Jul 2025 09:26:04 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-breach-toptal-github-account-publish-malicious-npm-packages/</guid>
-	<description><![CDATA[Hackers compromised Toptal's GitHub organization account and used their access to publish ten malicious packages on the Node Package Manager (NPM) index. [...]]]></description>
- </item>
-
- <item>
-        <title>SonicWall urges admins to patch critical RCE flaw in SMA 100 devices</title>
-        <link>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-critical-rce-flaw-in-sma-100-VPN-appliances/</link>
-        <pubDate>Thu, 24 Jul 2025 07:17:39 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-critical-rce-flaw-in-sma-100-VPN-appliances/</guid>
-	<description><![CDATA[SonicWall urges customers to patch SMA 100 series appliances against a critical authenticated arbitrary file upload vulnerability that can let attackers gain remote code execution. [...]]]></description>
  </item>
 
 </channel>
