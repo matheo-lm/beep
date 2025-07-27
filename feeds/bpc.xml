@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 27 Jul 2025 10:59:56 EDT</pubDate>
+        <pubDate>Sun, 27 Jul 2025 12:01:07 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Scattered Spider is running a VMware ESXi hacking spree</title>
+        <link>https://www.bleepingcomputer.com/news/security/scattered-spider-is-running-a-vmware-esxi-hacking-spree/</link>
+        <pubDate>Sun, 27 Jul 2025 11:05:50 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/scattered-spider-is-running-a-vmware-esxi-hacking-spree/</guid>
+	<description><![CDATA[Scattered Spider hackers have been aggressively targeting virtualized environments by attacking VMware ESXi hypervisors at U.S. companies in the retail, airline, transportation, and insurance sectors. [...]]]></description>
+ </item>
+
  <item>
         <title>Allianz Life confirms data breach impacts majority of 1.4 million customers</title>
         <link>https://www.bleepingcomputer.com/news/security/allianz-life-confirms-data-breach-impacts-majority-of-14-million-customers/</link>
@@ -178,22 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-koske-linux-malware-hides-in-cute-panda-images/</guid>
 	<description><![CDATA[A new Linux malware named Koske may have been developed with artificial intelligence and is using seemingly benign JPEG images of panda bears to deploy malware directly into system memory. [...]]]></description>
- </item>
-
- <item>
-        <title>Hacker sneaks infostealer malware into early access Steam game</title>
-        <link>https://www.bleepingcomputer.com/news/security/hacker-sneaks-infostealer-malware-into-early-access-steam-game/</link>
-        <pubDate>Thu, 24 Jul 2025 12:49:47 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Gaming]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hacker-sneaks-infostealer-malware-into-early-access-steam-game/</guid>
-	<description><![CDATA[A threat actor called EncryptHub has compromised a game on Steam to distribute info-stealing malware to unsuspecting users downloading the title. [...]]]></description>
  </item>
 
 </channel>
