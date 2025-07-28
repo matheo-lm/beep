@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 28 Jul 2025 10:04:49 EDT</pubDate>
+        <pubDate>Mon, 28 Jul 2025 11:03:39 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Free Tool Autoswagger Finds The API Flaws Attackers Hope You Miss</title>
+        <link>https://www.bleepingcomputer.com/news/security/free-tool-autoswagger-finds-the-api-flaws-attackers-hope-you-miss/</link>
+        <pubDate>Mon, 28 Jul 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Intruder</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/free-tool-autoswagger-finds-the-api-flaws-attackers-hope-you-miss/</guid>
+	<description><![CDATA[Exposed API documentation is a gift-wrapped roadmap for threat actors. The free Autoswagger tool from Intruder scans for exposed docs and flags endpoints with broken access controls—before attackers find them. [...]]]></description>
+ </item>
+
  <item>
         <title>Scattered Spider is running a VMware ESXi hacking spree</title>
         <link>https://www.bleepingcomputer.com/news/security/scattered-spider-is-running-a-vmware-esxi-hacking-spree/</link>
@@ -158,22 +172,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/law-enforcement-seizes-blacksuit-ransomware-leak-sites/</guid>
 	<description><![CDATA[Law enforcement has seized the dark web extortion sites of the BlackSuit ransomware operation, which has targeted and breached the networks of hundreds of organizations worldwide over the past several years. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI confirms ChatGPT Agent is now rolling out for $20 Plus users</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-agent-is-now-rolling-out-for-20-plus-users/</link>
-        <pubDate>Thu, 24 Jul 2025 16:59:14 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-agent-is-now-rolling-out-for-20-plus-users/</guid>
-	<description><![CDATA[ChatGPT Agent is now rolling out to users with $20 Plus subscription, but OpenAI warns that it will take a few days for the rollout to finish. [...]]]></description>
  </item>
 
 </channel>
