@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 28 Jul 2025 12:03:34 EDT</pubDate>
+        <pubDate>Mon, 28 Jul 2025 13:02:11 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA flags PaperCut RCE bug as exploited in attacks, patch now</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-flags-papercut-rce-bug-as-exploited-in-attacks-patch-now/</link>
+        <pubDate>Mon, 28 Jul 2025 12:59:36 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-flags-papercut-rce-bug-as-exploited-in-attacks-patch-now/</guid>
+	<description><![CDATA[CISA warns that threat actors are exploiting a high-severity vulnerability in PaperCut NG/MF print management software, which can allow them to gain remote code execution in cross-site request forgery (CSRF) attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft will stop supporting Windows 11 22H2 in October</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-will-stop-supporting-windows-11-22h2-in-october/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-outage-affecting-microsoft-365-admin-center/</guid>
 	<description><![CDATA[Microsoft is investigating an ongoing outage blocking Microsoft 365 administrators with business or enterprise subscriptions from accessing the admin center. [...]]]></description>
- </item>
-
- <item>
-        <title>The role of the cybersecurity PM in incident-driven development</title>
-        <link>https://www.bleepingcomputer.com/news/security/the-role-of-the-cybersecurity-pm-in-incident-driven-development/</link>
-        <pubDate>Fri, 25 Jul 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by ThreatLocker</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/the-role-of-the-cybersecurity-pm-in-incident-driven-development/</guid>
-	<description><![CDATA[From PowerShell abuse to USB data theft, modern threats hit fast—and hard.vSee how security-minded PMs are responding with real-time controls, smarter policies, and tools like ThreatLocker Patch Management. [...]]]></description>
  </item>
 
 </channel>
