@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 28 Jul 2025 16:01:06 EDT</pubDate>
+        <pubDate>Mon, 28 Jul 2025 17:00:15 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Tea app leak worsens with second database exposing user chats</title>
+        <link>https://www.bleepingcomputer.com/news/security/tea-app-leak-worsens-with-second-database-exposing-user-chats/</link>
+        <pubDate>Mon, 28 Jul 2025 16:55:09 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/tea-app-leak-worsens-with-second-database-exposing-user-chats/</guid>
+	<description><![CDATA[The Tea app data breach has grown into an even larger leak, with the stolen data now shared on hacking forums and a second database discovered that allegedly contains 1.1 million private messages exchanged between the app's members. [...]]]></description>
+ </item>
+
  <item>
         <title>Flaw in Gemini CLI AI coding assistant allowed stealthy code execution</title>
         <link>https://www.bleepingcomputer.com/news/security/flaw-in-gemini-cli-ai-coding-assistant-allowed-stealthy-code-execution/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/scattered-spider-is-running-a-vmware-esxi-hacking-spree/</guid>
 	<description><![CDATA[Scattered Spider hackers have been aggressively targeting virtualized environments by attacking VMware ESXi hypervisors at U.S. companies in the retail, airline, transportation, and insurance sectors. [...]]]></description>
- </item>
-
- <item>
-        <title>Allianz Life confirms data breach impacts majority of 1.4 million customers</title>
-        <link>https://www.bleepingcomputer.com/news/security/allianz-life-confirms-data-breach-impacts-majority-of-14-million-customers/</link>
-        <pubDate>Sat, 26 Jul 2025 14:00:55 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/allianz-life-confirms-data-breach-impacts-majority-of-14-million-customers/</guid>
-	<description><![CDATA[Insurance company Allianz Life has confirmed that the personal information for the "majority" of its 1.4 million customers was exposed in a data breach that occurred earlier this month. [...]]]></description>
  </item>
 
 </channel>
