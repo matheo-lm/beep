@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 28 Jul 2025 15:04:26 EDT</pubDate>
+        <pubDate>Mon, 28 Jul 2025 16:01:06 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Flaw in Gemini CLI AI coding assistant allowed stealthy code execution</title>
+        <link>https://www.bleepingcomputer.com/news/security/flaw-in-gemini-cli-ai-coding-assistant-allowed-stealthy-code-execution/</link>
+        <pubDate>Mon, 28 Jul 2025 15:40:44 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/flaw-in-gemini-cli-ai-coding-assistant-allowed-stealthy-code-execution/</guid>
+	<description><![CDATA[A vulnerability in Google's Gemini CLI allowed attackers to silently execute malicious commands and exfiltrate data from developers' computers using allowlisted programs. [...]]]></description>
+ </item>
+
  <item>
         <title>Endgame Gear mouse config tool infected users with malware</title>
         <link>https://www.bleepingcomputer.com/news/security/endgame-gear-mouse-config-tool-infected-users-with-malware/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/allianz-life-confirms-data-breach-impacts-majority-of-14-million-customers/</guid>
 	<description><![CDATA[Insurance company Allianz Life has confirmed that the personal information for the "majority" of its 1.4 million customers was exposed in a data breach that occurred earlier this month. [...]]]></description>
- </item>
-
- <item>
-        <title>Post SMTP plugin flaw exposes 200K WordPress sites to hijacking attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/post-smtp-plugin-flaw-exposes-200k-wordpress-sites-to-hijacking-attacks/</link>
-        <pubDate>Sat, 26 Jul 2025 10:17:39 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/post-smtp-plugin-flaw-exposes-200k-wordpress-sites-to-hijacking-attacks/</guid>
-	<description><![CDATA[More than 200,000 WordPress websites are using a vulnerable version of the Post SMTP plugin that allows hackers to take control of the administrator account. [...]]]></description>
  </item>
 
 </channel>
