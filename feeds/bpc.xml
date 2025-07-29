@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 29 Jul 2025 09:14:47 EDT</pubDate>
+        <pubDate>Tue, 29 Jul 2025 10:01:30 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FBI seizes $2.4M in Bitcoin from new Chaos ransomware operation</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-seizes-24m-in-bitcoin-from-new-chaos-ransomware-operation/</link>
+        <pubDate>Tue, 29 Jul 2025 09:52:41 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-seizes-24m-in-bitcoin-from-new-chaos-ransomware-operation/</guid>
+	<description><![CDATA[FBI Dallas has seized almost 23 Bitcoins from a cryptocurrency address belonging to a Chaos ransomware member that is linked to cyberattacks and extortion payments from Texas companies. [...]]]></description>
+ </item>
+
+ <item>
+        <title>How attackers are still phishing "phishing-resistant" authentication</title>
+        <link>https://www.bleepingcomputer.com/news/security/how-attackers-are-still-phishing-phishing-resistant-authentication/</link>
+        <pubDate>Tue, 29 Jul 2025 09:50:59 -0400</pubDate>
+        <dc:creator>Sponsored by Push Security</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/how-attackers-are-still-phishing-phishing-resistant-authentication/</guid>
+	<description><![CDATA[Think passkeys make you phishing-proof? Think again. Attackers are using downgrade attacks, device-code phishing, and OAuth tricks to sneak past modern MFA. See how Push Security shuts them down. [...]]]></description>
+ </item>
+
  <item>
         <title>Lovense sex toy app flaw leaks private user email addresses</title>
         <link>https://www.bleepingcomputer.com/news/security/lovense-sex-toy-app-flaw-leaks-private-user-email-addresses/</link>
@@ -192,34 +224,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/technology/internet-archive-is-now-a-us-federal-depository-library/</guid>
 	<description><![CDATA[The Internet Archive has become an official U.S. federal depository library, providing online users with access to archived congressional bills, laws, regulations, presidential documents, and other U.S. government documents. [...]]]></description>
- </item>
-
- <item>
-        <title>Free Autoswagger Tool Finds the API Flaws Attackers Hope You Miss</title>
-        <link>https://www.bleepingcomputer.com/news/security/free-tool-autoswagger-finds-the-api-flaws-attackers-hope-you-miss/</link>
-        <pubDate>Mon, 28 Jul 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Intruder</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/free-tool-autoswagger-finds-the-api-flaws-attackers-hope-you-miss/</guid>
-	<description><![CDATA[Exposed API documentation is a gift-wrapped roadmap for threat actors. The free Autoswagger tool from Intruder scans for exposed docs and flags endpoints with broken access controls—before attackers find them. [...]]]></description>
- </item>
-
- <item>
-        <title>Scattered Spider is running a VMware ESXi hacking spree</title>
-        <link>https://www.bleepingcomputer.com/news/security/scattered-spider-is-running-a-vmware-esxi-hacking-spree/</link>
-        <pubDate>Sun, 27 Jul 2025 11:05:50 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/scattered-spider-is-running-a-vmware-esxi-hacking-spree/</guid>
-	<description><![CDATA[Scattered Spider hackers have been aggressively targeting virtualized environments by attacking VMware ESXi hypervisors at U.S. companies in the retail, airline, transportation, and insurance sectors. [...]]]></description>
  </item>
 
 </channel>
