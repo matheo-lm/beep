@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 29 Jul 2025 14:01:41 EDT</pubDate>
+        <pubDate>Tue, 29 Jul 2025 15:03:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Minnesota activates National Guard after St. Paul cyberattack</title>
+        <link>https://www.bleepingcomputer.com/news/security/minnesota-activates-national-guard-after-st-paul-cyberattack/</link>
+        <pubDate>Tue, 29 Jul 2025 14:58:19 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/minnesota-activates-national-guard-after-st-paul-cyberattack/</guid>
+	<description><![CDATA[Minnesota Governor Tim Walz has activated the National Guard in response to a crippling cyberattack that struck the City of Saint Paul, the state's capital, on Friday. [...]]]></description>
+ </item>
+
  <item>
         <title>Russian airline Aeroflot grounds dozens of flights after cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/russian-airline-aeroflot-grounds-dozens-of-flights-after-cyberattack/</link>
@@ -192,34 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/exploit-available-for-critical-cisco-ise-bug-exploited-in-attacks/</guid>
 	<description><![CDATA[Security researcher Bobby Gould has published a blog post demonstrating a complete exploit chain for CVE-2025-20281, an unauthenticated remote code execution vulnerability in Cisco Identity Services Engine (ISE). [...]]]></description>
- </item>
-
- <item>
-        <title>CISA flags PaperCut RCE bug as exploited in attacks, patch now</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-flags-papercut-rce-bug-as-exploited-in-attacks-patch-now/</link>
-        <pubDate>Mon, 28 Jul 2025 12:59:36 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-flags-papercut-rce-bug-as-exploited-in-attacks-patch-now/</guid>
-	<description><![CDATA[CISA warns that threat actors are exploiting a high-severity vulnerability in PaperCut NG/MF print management software, which can allow them to gain remote code execution in cross-site request forgery (CSRF) attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft will stop supporting Windows 11 22H2 in October</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-will-stop-supporting-windows-11-22h2-in-october/</link>
-        <pubDate>Mon, 28 Jul 2025 11:52:21 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-will-stop-supporting-windows-11-22h2-in-october/</guid>
-	<description><![CDATA[Microsoft has reminded customers today that the last supported editions of Windows 11 22H2 will reach their end of servicing on October 14. [...]]]></description>
  </item>
 
 </channel>
