@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 29 Jul 2025 12:02:57 EDT</pubDate>
+        <pubDate>Tue, 29 Jul 2025 13:00:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers exploit SAP NetWeaver bug to deploy Linux Auto-Color malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-sap-netweaver-bug-to-deploy-linux-auto-color-malware/</link>
+        <pubDate>Tue, 29 Jul 2025 12:10:42 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-sap-netweaver-bug-to-deploy-linux-auto-color-malware/</guid>
+	<description><![CDATA[Hackers were spotted exploiting a critical SAP NetWeaver vulnerability tracked as CVE-2025-31324 to deploy the Auto-Color Linux malware in a cyberattack on a U.S.-based chemicals company. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft Edge now an 'AI-powered browser' with Copilot Mode</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-now-an-ai-powered-browser-with-copilot-mode/</link>
@@ -208,20 +222,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-prepares-gpt-5-for-roll-out/</guid>
 	<description><![CDATA[OpenAI's ChatGPT-5 could drop in the coming days, and it could be one of the best models from the Microsoft-backed startup. [...]]]></description>
- </item>
-
- <item>
-        <title>France's warship builder Naval Group investigates 1TB data breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/frances-warship-builder-naval-group-investigates-1tb-data-breach/</link>
-        <pubDate>Mon, 28 Jul 2025 11:31:55 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/frances-warship-builder-naval-group-investigates-1tb-data-breach/</guid>
-	<description><![CDATA[France's state-owned defense firm Naval Group is investigating a cyberattack after 1TB of allegedly stolen data was leaked on a hacking forum. [...]]]></description>
  </item>
 
 </channel>
