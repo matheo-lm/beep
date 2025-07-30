@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 30 Jul 2025 10:04:23 EDT</pubDate>
+        <pubDate>Wed, 30 Jul 2025 11:02:36 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Lenovo UEFI firmware updates fix Secure Boot bypass flaws</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-lenovo-uefi-firmware-updates-fix-secure-boot-bypass-flaws/</link>
+        <pubDate>Wed, 30 Jul 2025 10:52:27 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Hardware]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-lenovo-uefi-firmware-updates-fix-secure-boot-bypass-flaws/</guid>
+	<description><![CDATA[Lenovo is warning about high-severity BIOS flaws that could allow attackers to potentially bypass Secure Boot in all-in-one desktop PC models that use customized Insyde UEFI (Unified Extensible Firmware Interface). [...]]]></description>
+ </item>
+
  <item>
         <title>AI Cuts vCISO Workload by 68% as Demand Skyrockets, New Report Finds</title>
         <link>https://www.bleepingcomputer.com/news/security/ai-cuts-vciso-workload-by-68-percent-as-demand-skyrockets-new-report-finds/</link>
@@ -174,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/flaw-in-gemini-cli-ai-coding-assistant-allowed-stealthy-code-execution/</guid>
 	<description><![CDATA[A vulnerability in Google's Gemini CLI allowed attackers to silently execute malicious commands and exfiltrate data from developers' computers using allowlisted programs. [...]]]></description>
- </item>
-
- <item>
-        <title>Endgame Gear mouse config tool infected users with malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/endgame-gear-mouse-config-tool-infected-users-with-malware/</link>
-        <pubDate>Mon, 28 Jul 2025 14:48:07 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/endgame-gear-mouse-config-tool-infected-users-with-malware/</guid>
-	<description><![CDATA[Gaming peripherals maker Endgame Gear is warning that malware was hidden in its configuration tool for the OP1w 4k v2 mouse hosted on the official website between June 26 and July 9, 2025. [...]]]></description>
  </item>
 
 </channel>
