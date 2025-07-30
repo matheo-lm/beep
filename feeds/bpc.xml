@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 30 Jul 2025 13:02:59 EDT</pubDate>
+        <pubDate>Wed, 30 Jul 2025 14:00:11 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Safepay ransomware threatens to leak 3.5TB of Ingram Micro data</title>
+        <link>https://www.bleepingcomputer.com/news/security/safepay-ransomware-threatens-to-leak-35tb-of-ingram-micro-data/</link>
+        <pubDate>Wed, 30 Jul 2025 14:00:07 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/safepay-ransomware-threatens-to-leak-35tb-of-ingram-micro-data/</guid>
+	<description><![CDATA[The SafePay ransomware gang is threatening to leak 3.5TB of data belonging to IT giant Ingram Micro, allegedly stolen from the company's compromised systems earlier this month. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hackers actively exploit critical RCE in WordPress Alone theme</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-actively-exploit-critical-rce-in-wordpress-alone-theme/</link>
+        <pubDate>Wed, 30 Jul 2025 13:40:44 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-actively-exploit-critical-rce-in-wordpress-alone-theme/</guid>
+	<description><![CDATA[Threat actors are actively exploiting a critical unauthenticated arbitrary file upload vulnerability in the WordPress theme 'Alone,' to achieve remote code execution and perform a full site takeover. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers plant 4G Raspberry Pi on bank network in failed ATM heist</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-plant-4g-raspberry-pi-on-bank-network-in-failed-atm-heist/</link>
@@ -176,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/how-attackers-are-still-phishing-phishing-resistant-authentication/</guid>
 	<description><![CDATA[Think passkeys make you phishing-proof? Think again. Attackers are using downgrade attacks, device-code phishing, and OAuth tricks to sneak past modern MFA. See how Push Security shuts them down. [...]]]></description>
- </item>
-
- <item>
-        <title>Lovense sex toy app flaw leaks private user email addresses</title>
-        <link>https://www.bleepingcomputer.com/news/security/lovense-sex-toy-app-flaw-leaks-private-user-email-addresses/</link>
-        <pubDate>Mon, 28 Jul 2025 22:39:46 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/lovense-sex-toy-app-flaw-leaks-private-user-email-addresses/</guid>
-	<description><![CDATA[The connected sex toy platform Lovense is vulnerable to a zero-day flaw that allows an attacker to get access to a member's email address simply by knowing their username, putting them at risk of doxxing and harassment. [...]]]></description>
  </item>
 
 </channel>
