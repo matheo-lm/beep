@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 30 Jul 2025 09:12:43 EDT</pubDate>
+        <pubDate>Wed, 30 Jul 2025 10:04:23 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>AI Cuts vCISO Workload by 68% as Demand Skyrockets, New Report Finds</title>
+        <link>https://www.bleepingcomputer.com/news/security/ai-cuts-vciso-workload-by-68-percent-as-demand-skyrockets-new-report-finds/</link>
+        <pubDate>Wed, 30 Jul 2025 09:01:10 -0400</pubDate>
+        <dc:creator>Sponsored by Cynomi</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ai-cuts-vciso-workload-by-68-percent-as-demand-skyrockets-new-report-finds/</guid>
+	<description><![CDATA[AI is reshaping vCISO services—and SMBs are fueling the surge. Cynomi's 2025 report shows 3x adoption growth and major workload drops as MSPs and MSSPs scale cybersecurity like never before. Learn more in the 2025 State of the vCISO Report. [...]]]></description>
+ </item>
+
  <item>
         <title>Minnesota activates National Guard after St. Paul cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/minnesota-activates-national-guard-after-st-paul-cyberattack/</link>
@@ -174,38 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/endgame-gear-mouse-config-tool-infected-users-with-malware/</guid>
 	<description><![CDATA[Gaming peripherals maker Endgame Gear is warning that malware was hidden in its configuration tool for the OP1w 4k v2 mouse hosted on the official website between June 26 and July 9, 2025. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: macOS Sploitlight flaw leaks Apple Intelligence data</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-macos-sploitlight-flaw-leaks-apple-intelligence-data/</link>
-        <pubDate>Mon, 28 Jul 2025 14:03:29 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Apple]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-macos-sploitlight-flaw-leaks-apple-intelligence-data/</guid>
-	<description><![CDATA[Attackers could use a recently patched macOS vulnerability to bypass Transparency, Consent, and Control (TCC) security checks and steal sensitive user information, including Apple Intelligence cached data. [...]]]></description>
- </item>
-
- <item>
-        <title>Exploit available for critical Cisco ISE bug exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/exploit-available-for-critical-cisco-ise-bug-exploited-in-attacks/</link>
-        <pubDate>Mon, 28 Jul 2025 13:29:23 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/exploit-available-for-critical-cisco-ise-bug-exploited-in-attacks/</guid>
-	<description><![CDATA[Security researcher Bobby Gould has published a blog post demonstrating a complete exploit chain for CVE-2025-20281, an unauthenticated remote code execution vulnerability in Cisco Identity Services Engine (ISE). [...]]]></description>
  </item>
 
 </channel>
