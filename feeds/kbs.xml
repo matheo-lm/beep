@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Thu, 24 Jul 2025 17:57:06 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 30 Jul 2025 18:46:34 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,56 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Scammers Unleash Flood of Slick Online Gaming Sites</title>
+		<link>https://krebsonsecurity.com/2025/07/scammers-unleash-flood-of-slick-online-gaming-sites/</link>
+					<comments>https://krebsonsecurity.com/2025/07/scammers-unleash-flood-of-slick-online-gaming-sites/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Wed, 30 Jul 2025 18:46:34 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[Web Fraud 2.0]]></category>
+		<category><![CDATA[B-Ball Blitz]]></category>
+		<category><![CDATA[Beast Games]]></category>
+		<category><![CDATA[Discord]]></category>
+		<category><![CDATA[Mr. Beast]]></category>
+		<category><![CDATA[scambling]]></category>
+		<category><![CDATA[Silent Push]]></category>
+		<category><![CDATA[Thereallo]]></category>
+		<category><![CDATA[Zach Edwards]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71791</guid>
+
+					<description><![CDATA[Fraudsters are flooding Discord and other social media platforms with ads for hundreds of polished online gaming and wagering websites that lure people with free credits and eventually abscond with any cryptocurrency funds deposited by players. Here's a closer look at the social engineering tactics and remarkable traits of this sprawling network of more than 1,200 scam sites.]]></description>
+										<content:encoded><![CDATA[<p>Fraudsters are flooding Discord and other social media platforms with ads for hundreds of polished online gaming and wagering websites that lure people with free credits and eventually abscond with any cryptocurrency funds deposited by players. Here&#8217;s a closer look at the social engineering tactics and remarkable traits of this sprawling network of more than 1,200 scam sites.</p>
+<p>The scam begins with deceptive ads posted on social media that claim the wagering sites are working in partnership with popular social media personalities, such as <a href="https://en.wikipedia.org/wiki/MrBeast" target="_blank" rel="noopener">Mr. Beast</a>, who recently launched a gaming business called <strong>Beast Games</strong>. The ads invariably state that by using a supplied &#8220;promo code,&#8221; interested players can claim a $2,500 credit on the advertised gaming website.</p>
+<div id="attachment_71798" style="width: 734px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71798" decoding="async" class="size-full wp-image-71798" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/reddit-gambwex.png" alt="" width="724" height="750" /><p id="caption-attachment-71798" class="wp-caption-text">An ad posted to a Discord channel for a scam gambling website that the proprietors falsely claim was operating in collaboration with the Internet personality Mr. Beast. Image: Reddit.com.</p></div>
+<p>The gaming sites all require users to create a free account to claim their $2,500 credit, which they can use to play any number of extremely polished video games that ask users to bet on each action. At the scam website gamblerbeast[.]com, for example, visitors can pick from dozens of games like <strong>B-Ball Blitz</strong>, in which you play a basketball pro who is taking shots from the free throw line against a single opponent, and you bet on your ability to sink each shot.</p>
+<p>The financial part of this scam begins when users try to cash out any &#8220;winnings.&#8221; At that point, the gaming site will reject the request and prompt the user to make a &#8220;verification deposit&#8221; of cryptocurrency &#8212; typically around $100 &#8212; before any money can be distributed. Those who deposit cryptocurrency funds are soon asked for additional payments.</p>
+<div style="text-align: center;"><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/lNjqXIq1s5g?si=-30qS1Bw73VdIXow" width="750" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<p>However, any &#8220;winnings&#8221; displayed by these gaming sites are a complete fantasy, and players who deposit cryptocurrency funds will never see that money again. Compounding the problem, victims likely will soon be peppered with come-ons from &#8220;recovery experts&#8221; who peddle dubious claims on social media networks about being able to retrieve funds lost to such scams.</p>
+<p>KrebsOnSecurity first learned about this network of phony betting sites from a Discord user who asked to be identified only by their screen name: &#8220;<strong>Thereallo</strong>&#8221; is a 17-year-old developer who operates multiple Discord servers and said they began digging deeper after users started complaining of being inundated with misleading spam messages promoting the sites.</p>
+<p>&#8220;We were being spammed relentlessly by these scam posts from compromised or purchased [Discord] accounts,&#8221; Thereallo said. &#8220;I got frustrated with just banning and deleting, so I started to investigate the infrastructure behind the scam messages. This is not a one-off site, it&#8217;s a scalable criminal enterprise with a clear playbook, technical fingerprints, and financial infrastructure.&#8221;</p>
+<p>After comparing the code on the gaming sites promoted via spam messages, Thereallo found they all invoked the same API key for an online chatbot that appears to be in limited use or else is custom-made. Indeed, a scan for that API key at the threat hunting platform <strong>Silent Push</strong> reveals at least 1,270 recently-registered and active domains whose names all invoke some type of gaming or wagering theme.</p>
+<div id="attachment_71799" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71799" decoding="async" loading="lazy" class=" wp-image-71799" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/scambling-withdrawalerror.png" alt="" width="750" height="374" /><p id="caption-attachment-71799" class="wp-caption-text">The &#8220;verification deposit&#8221; stage of the scam requires the user to deposit cryptocurrency in order to withdraw their &#8220;winnings.&#8221;</p></div>
+<p>Thereallo said the operators of this scam empire appear to generate a unique Bitcoin wallet for each gaming domain they deploy.</p>
+<p>&#8220;This is a decoy wallet,&#8221; Thereallo explained. &#8220;Once the victim deposits funds, they are never able to withdraw any money. Any attempts to contact the &#8216;Live Support&#8217; are handled by a combination of AI and human operators who eventually block the user. The chat system is self-hosted, making it difficult to report to third-party service providers.&#8221;</p>
+<p>Thereallo discovered another feature common to all of these scam gambling sites [hereafter referred to simply as &#8220;scambling&#8221; sites]: If you register at one of them and then very quickly try to register at a sister property of theirs from the same Internet address and device, the registration request is denied at the second site.</p>
+<p>&#8220;I registered on one site, then hopped to another to register again,&#8221; Thereallo said. Instead, the second site returned an error stating that a new account couldn&#8217;t be created for another 10 minutes.</p>
+<div id="attachment_71801" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71801" decoding="async" loading="lazy" class="wp-image-71801" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/scambling-spinora.png" alt="" width="749" height="404" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/scambling-spinora.png 908w, https://krebsonsecurity.com/wp-content/uploads/2025/07/scambling-spinora-768x414.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/scambling-spinora-782x422.png 782w, https://krebsonsecurity.com/wp-content/uploads/2025/07/scambling-spinora-370x200.png 370w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71801" class="wp-caption-text">The scam gaming site spinora dot cc shares the same chatbot API as more than 1,200 similar fake gaming sites.</p></div>
+<p>&#8220;They&#8217;re tracking my VPN IP across their entire network,&#8221; Thereallo explained. &#8220;My password manager also proved it. It tried to use my dummy email on a site I had never visited, and the site told me the account already existed. So it&#8217;s definitely one entity running a single platform with 1,200+ different domain names as front-ends. This explains how their support works, a central pool of agents handling all the sites. It also explains why they&#8217;re so strict about not giving out wallet addresses; it&#8217;s a network-wide policy.&#8221;<span id="more-71791"></span></p>
+<p>In many ways, these scambling sites borrow from the playbook of &#8220;<a href="https://krebsonsecurity.com/2022/07/massive-losses-define-epidemic-of-pig-butchering/" target="_blank" rel="noopener">pig butchering</a>&#8221; schemes, a rampant and far more elaborate crime in which people are gradually lured by flirtatious strangers online into investing in fraudulent cryptocurrency trading platforms.</p>
+<p>Pig butchering scams are typically powered by people in Asia who have been kidnapped and threatened with physical harm or worse unless they sit in a cubicle and scam Westerners on the Internet all day. In contrast, these scambling sites tend to steal far less money from individual victims, but their cookie-cutter nature and automated support components may enable their operators to extract payments from a large number of people in far less time, and with considerably less risk and up-front investment.</p>
+<p>Silent Push&#8217;s <strong>Zach Edwards</strong> said the proprietors of this scambling empire are spending big money to make the sites look and feel like some fancy new type of casino.</p>
+<p>&#8220;That&#8217;s a very odd type of pig butchering network and not like what we typically see, with much lower investments in the sites and lures,&#8221; Edwards said.</p>
+<p><a href="https://krebsonsecurity.com/wp-content/uploads/2025/07/deduped_scambling_domains.txt" target="_blank" rel="noopener">Here is a list of all domains</a> that Silent Push found were using the scambling network&#8217;s chat API.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/07/scammers-unleash-flood-of-slick-online-gaming-sites/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Phishers Target Aviation Execs to Scam Customers</title>
 		<link>https://krebsonsecurity.com/2025/07/phishers-target-aviation-execs-to-scam-customers/</link>
 					<comments>https://krebsonsecurity.com/2025/07/phishers-target-aviation-execs-to-scam-customers/#comments</comments>
@@ -45,7 +95,7 @@
 
 					<description><![CDATA[KrebsOnSecurity recently heard from a reader whose boss's email account got phished and was used to trick one of the company's customers into sending a large payment to scammers. An investigation into the attacker's infrastructure points to a long-running Nigerian cybercrime group that is actively targeting established companies in the transportation and aviation industries.]]></description>
 										<content:encoded><![CDATA[<p>KrebsOnSecurity recently heard from a reader whose boss&#8217;s email account got phished and was used to trick one of the company&#8217;s customers into sending a large payment to scammers. An investigation into the attacker&#8217;s infrastructure points to a long-running Nigerian cybercrime ring that is actively targeting established companies in the transportation and aviation industries.</p>
-<div id="attachment_71757" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71757" decoding="async" class=" wp-image-71757" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/shutterstock-airplanes.png" alt="" width="749" height="535" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/shutterstock-airplanes.png 666w, https://krebsonsecurity.com/wp-content/uploads/2025/07/shutterstock-airplanes-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71757" class="wp-caption-text">Image: Shutterstock, Mr. Teerapon Tiuekhom.</p></div>
+<div id="attachment_71757" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71757" decoding="async" loading="lazy" class=" wp-image-71757" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/shutterstock-airplanes.png" alt="" width="749" height="535" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/shutterstock-airplanes.png 666w, https://krebsonsecurity.com/wp-content/uploads/2025/07/shutterstock-airplanes-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71757" class="wp-caption-text">Image: Shutterstock, Mr. Teerapon Tiuekhom.</p></div>
 <p>A reader who works in the transportation industry sent a tip about a recent successful phishing campaign that tricked an executive at the company into entering their credentials at a fake Microsoft 365 login page. From there, the attackers quickly mined the executive&#8217;s inbox for past communications about invoices, copying and modifying some of those messages with new invoice demands that were sent to some of the company&#8217;s customers and partners.</p>
 <p>Speaking on condition of anonymity, the reader said the resulting phishing emails to customers came from a newly registered domain name that was remarkably similar to their employer&#8217;s domain, and that at least one of their customers fell for the ruse and paid a phony invoice. They said the attackers had spun up a look-alike domain just a few hours after the executive&#8217;s inbox credentials were phished, and that the scam resulted in a customer suffering a six-figure financial loss.</p>
 <p>The reader also shared that the email addresses in the registration records for the imposter domain &#8212; <strong>roomservice801@gmail.com</strong> &#8212; is tied to many such phishing domains. Indeed, a search on this email address at <strong>DomainTools.com</strong> finds it is associated with at least 240 domains registered in 2024 or 2025. Virtually all of them mimic legitimate domains for companies in the aerospace and transportation industries worldwide.</p>
@@ -550,63 +600,15 @@
 		
 		
 			</item>
-		<item>
-		<title>Patch Tuesday, June 2025 Edition</title>
-		<link>https://krebsonsecurity.com/2025/06/patch-tuesday-june-2025-edition/</link>
-					<comments>https://krebsonsecurity.com/2025/06/patch-tuesday-june-2025-edition/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Wed, 11 Jun 2025 00:10:53 +0000</pubDate>
-				<category><![CDATA[Security Tools]]></category>
-		<category><![CDATA[Time to Patch]]></category>
-		<category><![CDATA[Acrobat Reader]]></category>
-		<category><![CDATA[Action1]]></category>
-		<category><![CDATA[Adam Barnett]]></category>
-		<category><![CDATA[Akamai]]></category>
-		<category><![CDATA[Alex Vovk]]></category>
-		<category><![CDATA[Automox]]></category>
-		<category><![CDATA[BadSuccessor]]></category>
-		<category><![CDATA[CVE-2025-33053]]></category>
-		<category><![CDATA[CVE-2025-33073]]></category>
-		<category><![CDATA[Experience Manager]]></category>
-		<category><![CDATA[Google Chrome]]></category>
-		<category><![CDATA[mozilla firefox]]></category>
-		<category><![CDATA[Patch Tuesday June 2025]]></category>
-		<category><![CDATA[Rapid7]]></category>
-		<category><![CDATA[sans internet storm center]]></category>
-		<category><![CDATA[Seth Hoyt]]></category>
-		<category><![CDATA[WebDAV]]></category>
-		<category><![CDATA[Windows Server Message Block]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71465</guid>
-
-					<description><![CDATA[Microsoft today released security updates to fix at least 67 vulnerabilities in its Windows operating systems and software. Redmond warns that one of the flaws is already under active attack, and that software blueprints showing how to exploit a pervasive Windows bug patched this month are now public. ]]></description>
-										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today released security updates to fix at least 67 vulnerabilities in its <strong>Windows</strong> operating systems and software. Redmond warns that one of the flaws is already under active attack, and that software blueprints showing how to exploit a pervasive Windows bug patched this month are now public.</p>
-<p><img decoding="async" loading="lazy" class="aligncenter  wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="749" height="527" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /></p>
-<p>The sole zero-day flaw this month is <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-33053" target="_blank" rel="noopener">CVE-2025-33053</a>, a remote code execution flaw in the Windows implementation of <strong>WebDAV</strong> &#8212; an HTTP extension that lets users remotely manage files and directories on a server. While WebDAV isn&#8217;t enabled by default in Windows, its presence in legacy or specialized systems still makes it a relevant target, said <strong>Seth Hoyt</strong>, senior security engineer at <strong>Automox</strong>.</p>
-<p><strong>Adam Barnett</strong>, lead software engineer at <strong>Rapid7</strong>, said Microsoft&#8217;s advisory for CVE-2025-33053 does not mention that the Windows implementation of WebDAV is listed as deprecated since November 2023, which in practical terms means that the WebClient service no longer starts by default.</p>
-<p>&#8220;The advisory also has attack complexity as low, which means that exploitation does not require preparation of the target environment in any way that is beyond the attacker’s control,&#8221; Barnett said. &#8220;Exploitation relies on the user clicking a malicious link. It’s not clear how an asset would be immediately vulnerable if the service isn’t running, but all versions of Windows receive a patch, including those released since the deprecation of WebClient, like Server 2025 and Windows 11 24H2.&#8221;<span id="more-71465"></span></p>
-<p>Microsoft warns that an &#8220;elevation of privilege&#8221; vulnerability in the <strong>Windows Server Message Block</strong> (SMB) client (<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-33073" target="_blank" rel="noopener">CVE-2025-33073</a>) is likely to be exploited, given that proof-of-concept code for this bug is now public. CVE-2025-33073 has a CVSS risk score of 8.8 (out of 10), and exploitation of the flaw leads to the attacker gaining &#8220;SYSTEM&#8221; level control over a vulnerable PC.</p>
-<p>&#8220;What makes this especially dangerous is that no further user interaction is required after the initial connection—something attackers can often trigger without the user realizing it,&#8221; said <strong>Alex Vovk</strong>, co-founder and CEO of <strong>Action1</strong>. &#8220;Given the high privilege level and ease of exploitation, this flaw poses a significant risk to Windows environments. The scope of affected systems is extensive, as SMB is a core Windows protocol used for file and printer sharing and inter-process communication.&#8221;</p>
-<p>Beyond these highlights, 10 of the vulnerabilities fixed this month were rated &#8220;critical&#8221; by Microsoft, including eight remote code execution flaws.</p>
-<p>Notably absent from this month&#8217;s patch batch is a fix for a newly discovered weakness in <strong>Windows Server 2025</strong> that allows attackers to act with the privileges of any user in Active Directory. The bug, dubbed &#8220;<strong>BadSuccessor</strong>,&#8221; was <a href="https://github.com/akamai/BadSuccessor" target="_blank" rel="noopener">publicly disclosed</a> by researchers at <strong>Akamai</strong> on May 21, and several public proof-of-concepts are now available. Tenable&#8217;s Satnam Narang said organizations that have at least one Windows Server 2025 domain controller should review permissions for principals and limit those permissions as much as possible.</p>
-<p><strong>Adobe</strong> has released updates for <strong>Acrobat Reader</strong> and six other products addressing at least 259 vulnerabilities, most of them in an update for <strong>Experience Manager</strong>. <strong>Mozilla Firefox</strong> and <strong>Google Chrome</strong> both recently released security updates that require a restart of the browser to take effect. The latest Chrome update fixes two zero-day exploits in the browser (CVE-2025-5419 and CVE-2025-4664).</p>
-<p>For a detailed breakdown on the individual security updates released by Microsoft today, check out the <a href="https://isc.sans.edu/diary/Microsoft%20Patch%20Tuesday%20June%202025/32032" target="_blank" rel="noopener">Patch Tuesday roundup</a> from the <strong>SANS Internet Storm Center</strong>. Action 1 has <a href="https://www.action1.com/patch-tuesday/patch-tuesday-june-2025/?vyj" target="_blank" rel="noopener">a breakdown of patches from Microsoft</a> and a raft of other software vendors releasing fixes this month. As always, please back up your system and/or data before patching, and feel free to drop a note in the comments if you run into any problems applying these updates.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/06/patch-tuesday-june-2025-edition/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 282/282 objects using memcached
+Object Caching 279/279 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-07-30 14:01:34 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-07-30 15:03:31 by W3 Total Cache
 -->

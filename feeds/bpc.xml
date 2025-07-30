@@ -11,13 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 30 Jul 2025 14:00:11 EDT</pubDate>
+        <pubDate>Wed, 30 Jul 2025 15:03:33 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
  <item>
-        <title>Safepay ransomware threatens to leak 3.5TB of Ingram Micro data</title>
+        <title>Hackers target Python devs in phishing attacks using fake PyPI site</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-target-python-devs-in-phishing-attacks-using-fake-pypi-site/</link>
+        <pubDate>Wed, 30 Jul 2025 14:57:50 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-target-python-devs-in-phishing-attacks-using-fake-pypi-site/</guid>
+	<description><![CDATA[The Python Software Foundation warned users this week that threat actors are trying to steal their credentials in phishing attacks using a fake Python Package Index (PyPI) website. [...]]]></description>
+ </item>
+
+ <item>
+        <title>SafePay ransomware threatens to leak 3.5TB of Ingram Micro data</title>
         <link>https://www.bleepingcomputer.com/news/security/safepay-ransomware-threatens-to-leak-35tb-of-ingram-micro-data/</link>
         <pubDate>Wed, 30 Jul 2025 14:00:07 -0400</pubDate>
         <dc:creator>Sergiu Gatlan</dc:creator>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fbi-seizes-24m-in-bitcoin-from-new-chaos-ransomware-operation/</guid>
 	<description><![CDATA[FBI Dallas has seized almost 23 Bitcoins from a cryptocurrency address belonging to a Chaos ransomware member that is linked to cyberattacks and extortion payments from Texas companies. [...]]]></description>
- </item>
-
- <item>
-        <title>How attackers are still phishing "phishing-resistant" authentication</title>
-        <link>https://www.bleepingcomputer.com/news/security/how-attackers-are-still-phishing-phishing-resistant-authentication/</link>
-        <pubDate>Tue, 29 Jul 2025 09:50:59 -0400</pubDate>
-        <dc:creator>Sponsored by Push Security</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/how-attackers-are-still-phishing-phishing-resistant-authentication/</guid>
-	<description><![CDATA[Think passkeys make you phishing-proof? Think again. Attackers are using downgrade attacks, device-code phishing, and OAuth tricks to sneak past modern MFA. See how Push Security shuts them down. [...]]]></description>
  </item>
 
 </channel>
