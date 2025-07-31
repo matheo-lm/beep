@@ -11,11 +11,55 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 31 Jul 2025 10:01:43 EDT</pubDate>
+        <pubDate>Thu, 31 Jul 2025 11:03:18 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Inside a Real Clickfix Attack: How This Social Engineering Hack Unfolds</title>
+        <link>https://www.bleepingcomputer.com/news/security/inside-a-real-clickfix-attack-how-this-social-engineering-hack-unfolds/</link>
+        <pubDate>Thu, 31 Jul 2025 10:05:15 -0400</pubDate>
+        <dc:creator>Sponsored by Keep Aware</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/inside-a-real-clickfix-attack-how-this-social-engineering-hack-unfolds/</guid>
+	<description><![CDATA[ClickFix abuses clipboards. FileFix hijacks File Explorer. Both social engineering attacks start in the browser—and end in malware. See how Keep Aware stops these stealthy attacks before they break out of the browser in a run down of a real attack. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Spikes in malicious activity precede new CVEs in 80% of cases</title>
+        <link>https://www.bleepingcomputer.com/news/security/spikes-in-malicious-activity-precede-new-cves-in-80-percent-of-cases/</link>
+        <pubDate>Thu, 31 Jul 2025 09:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/spikes-in-malicious-activity-precede-new-cves-in-80-percent-of-cases/</guid>
+	<description><![CDATA[Researchers have found that in roughly 80% of cases, spikes in malicious activity like network reconnaissance, targeted scanning, and brute-forcing attempts targeting edge networking devices are a precursor to the disclosure of new security vulnerabilities (CVEs) within six weeks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Proton launches free standalone cross-platform Authenticator app</title>
+        <link>https://www.bleepingcomputer.com/news/security/proton-launches-free-standalone-cross-platform-authenticator-app/</link>
+        <pubDate>Thu, 31 Jul 2025 06:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/proton-launches-free-standalone-cross-platform-authenticator-app/</guid>
+	<description><![CDATA[Proton has launched Proton Authenticator, a free standalone two-factor authentication (2FA) application for Windows, macOS, Linux, Android, and iOS. [...]]]></description>
+ </item>
+
  <item>
         <title>ShinyHunters behind Salesforce data theft attacks at Qantas, Allianz Life, and LVMH</title>
         <link>https://www.bleepingcomputer.com/news/security/shinyhunters-behind-salesforce-data-theft-attacks-at-qantas-allianz-life-and-lvmh/</link>
@@ -144,62 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/minnesota-activates-national-guard-after-st-paul-cyberattack/</guid>
 	<description><![CDATA[Minnesota Governor Tim Walz has activated the National Guard in response to a crippling cyberattack that struck the City of Saint Paul, the state's capital, on Friday. [...]]]></description>
- </item>
-
- <item>
-        <title>Russian airline Aeroflot grounds dozens of flights after cyberattack</title>
-        <link>https://www.bleepingcomputer.com/news/security/russian-airline-aeroflot-grounds-dozens-of-flights-after-cyberattack/</link>
-        <pubDate>Tue, 29 Jul 2025 13:51:30 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/russian-airline-aeroflot-grounds-dozens-of-flights-after-cyberattack/</guid>
-	<description><![CDATA[Aeroflot, Russia's flag carrier, has suffered a cyberattack that resulted in the cancellation of more than 60 flights and severe delays on additional flights. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers exploit SAP NetWeaver bug to deploy Linux Auto-Color malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-exploit-sap-netweaver-bug-to-deploy-linux-auto-color-malware/</link>
-        <pubDate>Tue, 29 Jul 2025 12:10:42 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploit-sap-netweaver-bug-to-deploy-linux-auto-color-malware/</guid>
-	<description><![CDATA[Hackers were spotted exploiting a critical SAP NetWeaver vulnerability tracked as CVE-2025-31324 to deploy the Auto-Color Linux malware in a cyberattack on a U.S.-based chemicals company. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft Edge now an 'AI-powered browser' with Copilot Mode</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-now-an-ai-powered-browser-with-copilot-mode/</link>
-        <pubDate>Tue, 29 Jul 2025 11:02:39 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-now-an-ai-powered-browser-with-copilot-mode/</guid>
-	<description><![CDATA[Microsoft has introduced Copilot Mode, an experimental feature designed to transform Microsoft Edge into a web browser powered by artificial intelligence (AI). [...]]]></description>
- </item>
-
- <item>
-        <title>French telecom giant Orange discloses cyberattack</title>
-        <link>https://www.bleepingcomputer.com/news/security/french-telecommunications-giant-orange-discloses-cyberattack/</link>
-        <pubDate>Tue, 29 Jul 2025 10:28:08 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/french-telecommunications-giant-orange-discloses-cyberattack/</guid>
-	<description><![CDATA[Orange, a French telecommunications company and one of the world's largest telecom operators, revealed that it detected a breached system on its network on Friday. [...]]]></description>
  </item>
 
 </channel>
