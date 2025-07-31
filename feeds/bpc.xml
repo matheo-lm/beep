@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 31 Jul 2025 14:03:55 EDT</pubDate>
+        <pubDate>Thu, 31 Jul 2025 15:01:42 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Kali Linux can now run in Apple containers on macOS systems</title>
+        <link>https://www.bleepingcomputer.com/news/security/kali-linux-can-now-run-in-apple-containers-on-macos-systems/</link>
+        <pubDate>Thu, 31 Jul 2025 14:46:11 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/kali-linux-can-now-run-in-apple-containers-on-macos-systems/</guid>
+	<description><![CDATA[Cybersecurity professionals and researchers can now launch Kali Linux in a virtualized container on macOS Sequoia using Apple's new containerization framework. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft to disable Excel workbook links to blocked file types</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-disable-external-workbook-links-to-blocked-file-types/</link>
+        <pubDate>Thu, 31 Jul 2025 14:26:25 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-disable-external-workbook-links-to-blocked-file-types/</guid>
+	<description><![CDATA[Microsoft has announced that it will start disabling external workbook links to blocked file types by default between October 2025 and July 2026. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft now pays up to $40,000 for some .NET vulnerabilities</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-pays-up-to-40-000-for-some-net-vulnerabilities/</link>
@@ -188,36 +220,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/apple-patches-security-flaw-exploited-in-chrome-zero-day-attacks/</guid>
 	<description><![CDATA[Apple has released security updates to address a high-severity vulnerability that has been exploited in zero-day attacks targeting Google Chrome users. [...]]]></description>
- </item>
-
- <item>
-        <title>New Lenovo UEFI firmware updates fix Secure Boot bypass flaws</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-lenovo-uefi-firmware-updates-fix-secure-boot-bypass-flaws/</link>
-        <pubDate>Wed, 30 Jul 2025 10:52:27 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Hardware]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-lenovo-uefi-firmware-updates-fix-secure-boot-bypass-flaws/</guid>
-	<description><![CDATA[Lenovo is warning about high-severity BIOS flaws that could allow attackers to potentially bypass Secure Boot in all-in-one desktop PC models that use customized Insyde UEFI (Unified Extensible Firmware Interface). [...]]]></description>
- </item>
-
- <item>
-        <title>AI Cuts vCISO Workload by 68% as Demand Skyrockets, New Report Finds</title>
-        <link>https://www.bleepingcomputer.com/news/security/ai-cuts-vciso-workload-by-68-percent-as-demand-skyrockets-new-report-finds/</link>
-        <pubDate>Wed, 30 Jul 2025 09:01:10 -0400</pubDate>
-        <dc:creator>Sponsored by Cynomi</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ai-cuts-vciso-workload-by-68-percent-as-demand-skyrockets-new-report-finds/</guid>
-	<description><![CDATA[AI is reshaping vCISO services—and SMBs are fueling the surge. Cynomi's 2025 report shows 3x adoption growth and major workload drops as MSPs and MSSPs scale cybersecurity like never before. Learn more in the 2025 State of the vCISO Report. [...]]]></description>
  </item>
 
 </channel>
