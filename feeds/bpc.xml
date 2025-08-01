@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 01 Aug 2025 10:02:08 EDT</pubDate>
+        <pubDate>Fri, 01 Aug 2025 11:00:05 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>AI-powered Cursor IDE vulnerable to prompt-injection attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/ai-powered-cursor-ide-vulnerable-to-prompt-injection-attacks/</link>
+        <pubDate>Fri, 01 Aug 2025 09:00:00 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ai-powered-cursor-ide-vulnerable-to-prompt-injection-attacks/</guid>
+	<description><![CDATA[A vulnerability that researchers call CurXecute is present in almost all versions of the AI-powered code editor Cursor, and can be exploited to execute remote code with developer privileges. [...]]]></description>
+ </item>
+
  <item>
         <title>Pwn2Own hacking contest pays $1 million for WhatsApp exploit</title>
         <link>https://www.bleepingcomputer.com/news/security/pwn2own-hacking-contest-pays-1-million-for-whatsapp-exploit/</link>
@@ -190,34 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/safepay-ransomware-threatens-to-leak-35tb-of-ingram-micro-data/</guid>
 	<description><![CDATA[The SafePay ransomware gang is threatening to leak 3.5TB of data belonging to IT giant Ingram Micro, allegedly stolen from the company's compromised systems earlier this month. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers actively exploit critical RCE in WordPress Alone theme</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-actively-exploit-critical-rce-in-wordpress-alone-theme/</link>
-        <pubDate>Wed, 30 Jul 2025 13:40:44 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-actively-exploit-critical-rce-in-wordpress-alone-theme/</guid>
-	<description><![CDATA[Threat actors are actively exploiting a critical unauthenticated arbitrary file upload vulnerability in the WordPress theme 'Alone,' to achieve remote code execution and perform a full site takeover. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers plant 4G Raspberry Pi on bank network in failed ATM heist</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-plant-4g-raspberry-pi-on-bank-network-in-failed-atm-heist/</link>
-        <pubDate>Wed, 30 Jul 2025 12:47:52 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-plant-4g-raspberry-pi-on-bank-network-in-failed-atm-heist/</guid>
-	<description><![CDATA[The UNC2891 hacking group, also known as LightBasin, used a 4G-equipped Raspberry Pi hidden in a bank's network to bypass security defenses in a newly discovered attack. [...]]]></description>
  </item>
 
 </channel>
