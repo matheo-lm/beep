@@ -6,6 +6,13 @@
     <description>The latest publicly leaked data breaches to hit Have I Been Pwned</description>
     <atom:link href="https://haveibeenpwned.com/feed/breaches/" rel="self" type="application/rss+xml" />
     <item>
+      <guid isPermaLink="false">ThePi-Hole</guid>
+      <link>https://haveibeenpwned.com/Breach/ThePi-Hole</link>
+      <title>Pi-hole - 29,926 breached accounts</title>
+      <description>In July 2025, &lt;a href="https://pi-hole.net/blog/2025/07/30/compromised-donor-emails-a-post-mortem/" target="_blank" rel="noopener"&gt;a vulnerability in the GiveWP WordPress plugin exposed the names and email addresses of approximately 30k donors to the Pi-hole network-wide ad blocking project&lt;/a&gt;. Pi-hole subsequently self-submitted the list of impacted donors to HIBP.</description>
+      <pubDate>Thu, 31 Jul 2025 22:46:38 Z</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">CreamsCafe</guid>
       <link>https://haveibeenpwned.com/Breach/CreamsCafe</link>
       <title>Creams Cafe - 159,652 breached accounts</title>
@@ -137,13 +144,6 @@
       <title>German Doner Kebab - 162,373 breached accounts</title>
       <description>In March 2025, &lt;a href="https://x.com/darkwebinformer/status/1905275857159008341" target="_blank" rel="noopener"&gt;data allegedly sourced from German Doner Kebab was published on a popular hacking forum&lt;/a&gt;. The data included 162k unique email addresses alongside names, phone numbers and physical addresses. &lt;a href="https://x.com/troyhunt/status/1906398239026196582" target="_blank" rel="noopener"&gt;German Doner Kebab subsequently sent a disclosure notice to impacted individuals&lt;/a&gt;.</description>
       <pubDate>Sun, 30 Mar 2025 17:33:35 Z</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">TroyHuntMailchimpList</guid>
-      <link>https://haveibeenpwned.com/Breach/TroyHuntMailchimpList</link>
-      <title>Troy Hunt's Mailchimp List - 16,627 breached accounts</title>
-      <description>In March 2025, &lt;a href="https://www.troyhunt.com/a-sneaky-phish-just-grabbed-my-mailchimp-mailing-list/" target="_blank" rel="noopener"&gt;a phishing attack successfully gained access to Troy Hunt's Mailchimp account and automatically exported a list of people who had subscribed to the newsletter for his personal blog&lt;/a&gt;. The exported list contained 16k email addresses and other data automatically collected by Mailchimp including IP address and a derived latitude, longitude and time zone.</description>
-      <pubDate>Tue, 25 Mar 2025 13:45:48 Z</pubDate>
     </item>
   </channel>
 </rss>
