@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 01 Aug 2025 15:58:52 EDT</pubDate>
+        <pubDate>Fri, 01 Aug 2025 16:58:21 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>OpenAI may be testing a cheaper paid plan for ChatGPT</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-may-be-testing-a-cheaper-paid-plan-for-chatgpt/</link>
+        <pubDate>Fri, 01 Aug 2025 16:16:00 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-may-be-testing-a-cheaper-paid-plan-for-chatgpt/</guid>
+	<description><![CDATA[OpenAI is reportedly working on a new plan called 'Go,' which would be cheaper than the existing $20 Plus subscription. [...]]]></description>
+ </item>
+
  <item>
         <title>SonicWall firewall devices hit in surge of Akira ransomware attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/surge-of-akira-ransomware-attacks-hits-sonicwall-firewall-devices/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/proton-launches-free-standalone-cross-platform-authenticator-app/</guid>
 	<description><![CDATA[Proton has launched Proton Authenticator, a free standalone two-factor authentication (2FA) application for Windows, macOS, Linux, Android, and iOS. [...]]]></description>
- </item>
-
- <item>
-        <title>ShinyHunters behind Salesforce data theft attacks at Qantas, Allianz Life, and LVMH</title>
-        <link>https://www.bleepingcomputer.com/news/security/shinyhunters-behind-salesforce-data-theft-attacks-at-qantas-allianz-life-and-lvmh/</link>
-        <pubDate>Wed, 30 Jul 2025 15:52:39 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/shinyhunters-behind-salesforce-data-theft-attacks-at-qantas-allianz-life-and-lvmh/</guid>
-	<description><![CDATA[A wave of data breaches impacting companies like Qantas, Allianz Life, LVMH, and Adidas has been linked to the ShinyHunters extortion group, which has been using voice phishing attacks to steal data from Salesforce CRM instances. [...]]]></description>
  </item>
 
 </channel>
