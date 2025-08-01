@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 01 Aug 2025 13:02:16 EDT</pubDate>
+        <pubDate>Fri, 01 Aug 2025 14:03:22 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>SonicWall firewall devices hit in surge of Akira ransomware attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/surge-of-akira-ransomware-attacks-hits-sonicwall-firewall-devices/</link>
+        <pubDate>Fri, 01 Aug 2025 13:28:20 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/surge-of-akira-ransomware-attacks-hits-sonicwall-firewall-devices/</guid>
+	<description><![CDATA[SonicWall firewall devices have been increasingly targeted since late July in a surge of Akira ransomware attacks, potentially exploiting a previously unknown security vulnerability, according to cybersecurity company Arctic Wolf. [...]]]></description>
+ </item>
+
  <item>
         <title>Pi-hole discloses data breach triggered by WordPress plugin flaw</title>
         <link>https://www.bleepingcomputer.com/news/security/pi-hole-discloses-data-breach-via-givewp-wordpress-plugin-flaw/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/shinyhunters-behind-salesforce-data-theft-attacks-at-qantas-allianz-life-and-lvmh/</guid>
 	<description><![CDATA[A wave of data breaches impacting companies like Qantas, Allianz Life, LVMH, and Adidas has been linked to the ShinyHunters extortion group, which has been using voice phishing attacks to steal data from Salesforce CRM instances. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers target Python devs in phishing attacks using fake PyPI site</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-target-python-devs-in-phishing-attacks-using-fake-pypi-site/</link>
-        <pubDate>Wed, 30 Jul 2025 14:57:50 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-target-python-devs-in-phishing-attacks-using-fake-pypi-site/</guid>
-	<description><![CDATA[The Python Software Foundation warned users this week that threat actors are trying to steal their credentials in phishing attacks using a fake Python Package Index (PyPI) website. [...]]]></description>
  </item>
 
 </channel>
