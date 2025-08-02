@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 02 Aug 2025 05:01:47 EDT</pubDate>
+        <pubDate>Sat, 02 Aug 2025 06:01:41 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>OpenAI prepares new open weight models along with GPT-5</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-prepares-new-open-weight-models-along-with-gpt-5/</link>
+        <pubDate>Sat, 02 Aug 2025 06:01:37 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-prepares-new-open-weight-models-along-with-gpt-5/</guid>
+	<description><![CDATA[OpenAI isn't just working on GPT-5. It looks like OpenAI is also preparing to release new open-source weights, living up to its name, OpenAI.' [...]]]></description>
+ </item>
+
+ <item>
+        <title>Anthropic says OpenAI engineers using Claude Code ahead of GPT-5 launch</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-says-openai-engineers-using-claude-code-ahead-of-gpt-5-launch/</link>
+        <pubDate>Sat, 02 Aug 2025 05:08:03 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-says-openai-engineers-using-claude-code-ahead-of-gpt-5-launch/</guid>
+	<description><![CDATA[Anthropic says it has revoked OpenAI's access to the Claude API after ChatGPT's engineers were found using Claude's coding tools. [...]]]></description>
+ </item>
+
  <item>
         <title>OpenAI may be testing a cheaper paid plan for ChatGPT</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-may-be-testing-a-cheaper-paid-plan-for-chatgpt/</link>
@@ -190,22 +222,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/spikes-in-malicious-activity-precede-new-cves-in-80-percent-of-cases/</guid>
 	<description><![CDATA[Researchers have found that in roughly 80% of cases, spikes in malicious activity like network reconnaissance, targeted scanning, and brute-forcing attempts targeting edge networking devices are a precursor to the disclosure of new security vulnerabilities (CVEs) within six weeks. [...]]]></description>
- </item>
-
- <item>
-        <title>Proton launches free standalone cross-platform Authenticator app</title>
-        <link>https://www.bleepingcomputer.com/news/security/proton-launches-free-standalone-cross-platform-authenticator-app/</link>
-        <pubDate>Thu, 31 Jul 2025 06:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/proton-launches-free-standalone-cross-platform-authenticator-app/</guid>
-	<description><![CDATA[Proton has launched Proton Authenticator, a free standalone two-factor authentication (2FA) application for Windows, macOS, Linux, Android, and iOS. [...]]]></description>
  </item>
 
 </channel>
