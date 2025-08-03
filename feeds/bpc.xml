@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 03 Aug 2025 18:00:04 EDT</pubDate>
+        <pubDate>Sun, 03 Aug 2025 19:01:56 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Attackers exploit link-wrapping services to steal Microsoft 365 logins</title>
+        <link>https://www.bleepingcomputer.com/news/security/attackers-exploit-link-wrapping-services-to-steal-microsoft-365-logins/</link>
+        <pubDate>Sat, 02 Aug 2025 10:24:48 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/attackers-exploit-link-wrapping-services-to-steal-microsoft-365-logins/</guid>
+	<description><![CDATA[A threat actor has been abusing link wrapping services from reputed technology companies to mask malicious links leading to Microsoft 365 phishing pages that collect login credentials. [...]]]></description>
+ </item>
+
  <item>
         <title>OpenAI prepares new open weight models along with GPT-5</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-prepares-new-open-weight-models-along-with-gpt-5/</link>
@@ -180,48 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-open-sources-thorium-platform-for-malware-forensic-analysis/</guid>
 	<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) today announced the public availability of Thorium, an open-source platform for malware and forensic analysts across the government, public, and private sectors. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Russian hackers use ISP access to hack embassies in AiTM attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-russian-hackers-use-isp-access-to-hack-embassies-in-aitm-attacks/</link>
-        <pubDate>Thu, 31 Jul 2025 12:00:00 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-russian-hackers-use-isp-access-to-hack-embassies-in-aitm-attacks/</guid>
-	<description><![CDATA[Microsoft warns that a cyber-espionage group linked to Russia's Federal Security Service (FSB) is targeting diplomatic missions in Moscow using local internet service providers. [...]]]></description>
- </item>
-
- <item>
-        <title>Inside a Real Clickfix Attack: How This Social Engineering Hack Unfolds</title>
-        <link>https://www.bleepingcomputer.com/news/security/inside-a-real-clickfix-attack-how-this-social-engineering-hack-unfolds/</link>
-        <pubDate>Thu, 31 Jul 2025 10:05:15 -0400</pubDate>
-        <dc:creator>Sponsored by Keep Aware</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/inside-a-real-clickfix-attack-how-this-social-engineering-hack-unfolds/</guid>
-	<description><![CDATA[ClickFix abuses clipboards. FileFix hijacks File Explorer. Both social engineering attacks start in the browser—and end in malware. See how Keep Aware stops these stealthy attacks before they break out of the browser in a run down of a real attack. [...]]]></description>
- </item>
-
- <item>
-        <title>Spikes in malicious activity precede new security flaws in 80% of cases</title>
-        <link>https://www.bleepingcomputer.com/news/security/spikes-in-malicious-activity-precede-new-cves-in-80-percent-of-cases/</link>
-        <pubDate>Thu, 31 Jul 2025 09:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/spikes-in-malicious-activity-precede-new-cves-in-80-percent-of-cases/</guid>
-	<description><![CDATA[Researchers have found that in roughly 80% of cases, spikes in malicious activity like network reconnaissance, targeted scanning, and brute-forcing attempts targeting edge networking devices are a precursor to the disclosure of new security vulnerabilities (CVEs) within six weeks. [...]]]></description>
  </item>
 
 </channel>
