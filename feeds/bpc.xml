@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 04 Aug 2025 05:05:41 EDT</pubDate>
+        <pubDate>Mon, 04 Aug 2025 06:00:19 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Mozilla warns of phishing attacks targeting add-on developers</title>
+        <link>https://www.bleepingcomputer.com/news/security/mozilla-warns-of-phishing-attacks-targeting-add-on-developers/</link>
+        <pubDate>Mon, 04 Aug 2025 06:00:15 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/mozilla-warns-of-phishing-attacks-targeting-add-on-developers/</guid>
+	<description><![CDATA[Mozilla has warned browser extension developers of an active phishing campaign targeting accounts on its official AMO (addons.mozilla.org) repository. [...]]]></description>
+ </item>
+
  <item>
         <title>Attackers exploit link-wrapping services to steal Microsoft 365 logins</title>
         <link>https://www.bleepingcomputer.com/news/security/attackers-exploit-link-wrapping-services-to-steal-microsoft-365-logins/</link>
@@ -180,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-pays-up-to-40-000-for-some-net-vulnerabilities/</guid>
 	<description><![CDATA[Microsoft has expanded its .NET bug bounty program and increased rewards to $40,000 for some .NET and ASP.NET Core vulnerabilities. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA open-sources Thorium platform for malware, forensic analysis</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-open-sources-thorium-platform-for-malware-forensic-analysis/</link>
-        <pubDate>Thu, 31 Jul 2025 12:43:00 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-open-sources-thorium-platform-for-malware-forensic-analysis/</guid>
-	<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) today announced the public availability of Thorium, an open-source platform for malware and forensic analysts across the government, public, and private sectors. [...]]]></description>
  </item>
 
 </channel>

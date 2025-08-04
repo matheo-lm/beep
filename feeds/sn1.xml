@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Tue, 29 Jul 2025 21:25:38 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 04 Aug 2025 04:19:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,799 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>Ghost in the Zip &#124; New PXA Stealer and Its Telegram-Powered Ecosystem</title>
+		<link>https://www.sentinelone.com/labs/ghost-in-the-zip-new-pxa-stealer-and-its-telegram-powered-ecosystem/</link>
+		
+		<dc:creator><![CDATA[Jim Walter, Alex Delamotte, Beazley Security’s Francisco Donoso, Sam Mayers, Tell Hause &amp; Bobby Venal]]></dc:creator>
+		<pubDate>Mon, 04 Aug 2025 10:00:23 +0000</pubDate>
+				<category><![CDATA[PXA stealer]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[telegram]]></category>
+		<category><![CDATA[vietnam]]></category>
+		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=128686</guid>
+
+					<description><![CDATA[PXA Stealer uses advanced evasion and Telegram C2 to steal global victim data, fueling a thriving cybercrime market.]]></description>
+										<content:encoded><![CDATA[<h2>Executive Summary</h2>
+<ul>
+<li aria-level="1">SentinelLABS and <a href="https://labs.beazley.security/articles/ghost-in-the-zip-or-new-pxa-stealer-and-its-telegram-powered-ecosystem" target="_blank" rel="noopener noreferrer">Beazley Security</a> discovered and analyzed a rapidly evolving series of infostealer campaigns delivering the Python-based PXA Stealer.</li>
+<li aria-level="1">This discovery showcases a leap in tradecraft, incorporating more nuanced anti-analysis techniques, non-malicious decoy content, and a hardened command-and-control pipeline that frustrates triage and attempts to delay detection.</li>
+<li aria-level="1">We identified more than 4,000 unique victim IP addresses in exfiltrated logs, with infected systems spanning at least 62 countries, most notably South Korea, the United States, the Netherlands, Hungary, and Austria.</li>
+<li aria-level="1">The stolen data includes over 200,000 unique passwords, hundreds of credit card records, and more than 4 million harvested browser cookies, giving actors ample access to victims’ accounts and financial lives.</li>
+<li aria-level="1">The threat actors behind these campaigns are linked to Vietnamese-speaking cybercriminal circles who monetize the stolen data through a subscription-based underground ecosystem that efficiently automates resale and reuse through the Telegram platform’s API.</li>
+</ul>
+<h2>Overview</h2>
+<p>In close partnership, <a href="https://labs.beazley.security/articles/ghost-in-the-zip-or-new-pxa-stealer-and-its-telegram-powered-ecosystem" target="_blank" rel="noopener noreferrer">Beazley Security</a> and SentinelLABS have uncovered a large-scale, ongoing infostealer campaign built around the Python-based PXA Stealer. Initially surfacing in late 2024, this threat has since matured into a highly evasive, multi-stage operation driven by Vietnamese-speaking actors with apparent ties to an organized cybercriminal Telegram-based marketplace that sells stolen victim data.</p>
+<p>Throughout 2025, these actors have continuously refined their delivery mechanisms and evasion strategies. Most notably, they’ve adopted novel sideloading techniques involving legitimate signed software (such as Haihaisoft PDF Reader and Microsoft Word 2013), concealed malicious DLLs, and embedded archives disguised as common file types. These campaigns use elaborate staging layers that obscure their purpose and delay detection by endpoint tools and human analysts alike.</p>
+<p>The final payload, PXA Stealer, exfiltrates a broad spectrum of high-value data–which includes passwords, browser autofill data, cryptocurrency wallet and FinTech app data, and more–to Telegram channels via automated bot networks. Our telemetry and analysis uncovered over 4,000 unique victims across more than 60 countries, suggesting a widespread and financially motivated operation that feeds into criminal platforms such as Sherlock. This data is then monetized and sold to downstream cybercriminals, enabling actors who engage in cryptocurrency theft or buy access to infiltrate organizations for other purposes.</p>
+<p>This campaign exemplifies a growing trend in which legitimate infrastructure (e.g., Telegram, Cloudflare Workers, Dropbox) is weaponized at scale to both execute and monetize information theft, while simultaneously reducing the cost and technical overhead for attackers. As stealer campaigns become increasingly automated and supply-chain integrated, defenders must adjust to an adversary landscape defined not just by malware, but by infrastructure, automation, and real-time monetization.</p>
+<p>SentinelLABS would like to extend sincere thanks to our partners at Beazley Security for their instrumental collaboration and openness in sharing critical insights throughout this investigation.</p>
+<h2>Background and Haihaisoft Sideloading</h2>
+<p>This cluster of PXA Stealer activity has been ongoing and active since late 2024, with some BotIDs being created as early as October, 2024. The general delivery mechanisms and TTPs have not changed. However the actors behind this cluster have continually pivoted to new sideloading mechanisms, along with updated Telegram C2 infrastructure.</p>
+<p>During a wave of attacks occurring in April 2025, users were phished or otherwise lured into downloading a compressed archive containing a signed copy of the Haihaisoft PDF Reader freeware application along with the malicious DLL to be sideloaded. This component of the attack is responsible for establishing persistence on the target host via the Windows Registry, and retrieving additional malicious components, including Windows executable payloads hosted remotely on Dropbox. Various infostealers were delivered in this initial campaign, including LummaC2 and Rhadamanthys Stealer.</p>
+<p>It was during the first wave that we also observed a change in TTPs: the threat actors shifted to updated Python-based payloads instead of Windows executables.</p>
+<p>Attacks leveraging the updated Python-based payloads are initiated in the same manner: delivery of a large archive containing the signed copy of Haihaisoft PDF Reader, alongside the malicious DLL to be loaded.</p>
+<p>Upon execution, the malicious DLL creates a .CMD script <code>Evidence.cmd</code> in the current directory, which orchestrates all subsequent steps in the attack chain. The .CMD script utilizes <code>certutil</code> to extract an encrypted RAR archive embedded inside a malformed PDF.</p>
+<pre>certutil -decode Documents.pdf LX8bzeZTzF5XSONpDC.rar</pre>
+<p>This command leads the Edge browser to open the PDF file, though this results in an error message as the file is not a valid PDF. Subsequently, the packaged WinRAR utility–masquerading as <code>images.png</code>–extracts an embedded RAR archive using decoded command lines. This process took several minutes and caused sandbox analysis to time out in several cases, which led to false negative results.</p>
+<p><code>images.png x -pS8SKXaOudHX78CnCmjawuXJAXwNAzVeK -inul -y LX8bzeZTzF5XSONpDC.rar C:\Users\Public\LX8bzeZTzF5XSONpDC</code></p>
+<p>This extracts several Python dependencies, including a legitimate Python 3.10 interpreter renamed <code>svchost.exe</code> and a malicious Python script named <code>Photos</code>, which are then executed. This step sets a Registry Run key to ensure the payload will run each time the computer starts.</p>
+<pre>reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v "Windows Update Service" /t REGSZ _/d "cmd.exe /c start \"\" /min \"C:\Users\Public\LX8bzeZTzF5XSONpDC\svchost.exe\"
+C:\Users\Public\LX8bzeZTzF5XSONpDC\Photos" /f</pre>
+<h2>Evolved Infection Chain</h2>
+<p>In July 2025, our partners at Beazley Security’s MDR shared initial indications of a new campaign closely mirroring the infection chain and TTPs we’d observed. This iteration notably improves their operational maturity and additional functionality.</p>
+<p>The large archive attached to the phishing lure contained:</p>
+<ul>
+<li aria-level="1">A legitimate, signed Microsoft Word 2013 executable</li>
+<li aria-level="1">A malicious DLL, <code>msvcr100.dll</code>, that is sideloaded by the Microsoft Word 2013 executable</li>
+<li aria-level="1">Additional files and later-stage payloads within a supporting directory named &#8220;_&#8221;.</li>
+</ul>
+<p>While similar to the April campaign, the July wave introduces more sophisticated file naming to increase evasion and leverages non-malicious decoy documents opened to ensure the user remains unsuspecting.</p>
+<p>The Microsoft Word 2013 binary is renamed to appear to the user as a Word document:</p>
+<figure id="attachment_128702" aria-describedby="caption-attachment-128702" style="width: 1554px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-renamed-word.jpg" target="_blank" rel="noopener noreferrer"><img fetchpriority="high" decoding="async" class="size-full wp-image-128702" src="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-renamed-word.jpg" alt="" width="1554" height="332" srcset="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-renamed-word.jpg 1554w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-renamed-word-300x64.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-renamed-word-1024x219.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-renamed-word-768x164.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-renamed-word-1536x328.jpg 1536w" sizes="(max-width: 1554px) 100vw, 1554px" /></a><figcaption id="caption-attachment-128702" class="wp-caption-text">Screenshot of renamed Word 2013 executable to lure the user</figcaption></figure>
+<p>The other files extracted from the archive are hidden from the user in Windows Explorer but shown below:</p>
+<figure id="attachment_128701" aria-describedby="caption-attachment-128701" style="width: 1534px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-extracted-archive.jpg" target="_blank" rel="noopener noreferrer"><img decoding="async" class="size-full wp-image-128701" src="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-extracted-archive.jpg" alt="" width="1534" height="238" srcset="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-extracted-archive.jpg 1534w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-extracted-archive-300x47.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-extracted-archive-1024x159.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-extracted-archive-768x119.jpg 768w" sizes="(max-width: 1534px) 100vw, 1534px" /></a><figcaption id="caption-attachment-128701" class="wp-caption-text">Extracted contents of the archive, including hidden files</figcaption></figure>
+<p>When the victim opens the Word executable, Windows loads the malicious <code>msvcr100.dll</code> since the OS searches for the filename in the local directory before system directories. The sideloaded DLL then launches a hidden instance of Command Prompt and begins a multi-stage chain of activity:</p>
+<p><a href="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-infection-chain-branded-scaled.jpg"><img decoding="async" class="alignnone size-full wp-image-128711" src="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-infection-chain-branded-scaled.jpg" alt="" width="2560" height="1223" srcset="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-infection-chain-branded-scaled.jpg 2560w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-infection-chain-branded-300x143.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-infection-chain-branded-1024x489.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-infection-chain-branded-768x367.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-infection-chain-branded-1536x734.jpg 1536w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-infection-chain-branded-2048x979.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" /></a></p>
+<p>First, Word launches a benign decoy document named <code>Tax-Invoice-EV.docx</code>, which displays a fake copyright infringement notice to the victim. We believe this document doubles as an anti-analysis feature by introducing a non-malicious file into the attack chain, which potentially wastes security analysts’ time. The document lacks macros or other scriptable objects.</p>
+<figure id="attachment_128699" aria-describedby="caption-attachment-128699" style="width: 1536px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-decoy-doc.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-128699" src="https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-decoy-doc.jpg" alt="" width="1536" height="1226" srcset="https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-decoy-doc.jpg 1536w, https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-decoy-doc-300x239.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-decoy-doc-1024x817.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-decoy-doc-768x613.jpg 768w" sizes="auto, (max-width: 1536px) 100vw, 1536px" /></a><figcaption id="caption-attachment-128699" class="wp-caption-text">Screenshot of the non-malicious decoy document</figcaption></figure>
+<p>Next, like the previous activity, <code>certutil</code> is used to decode a file from the “-“ folder into a new encrypted zip archive that is deceptively named with a PDF file extension, Document.pdf for example:</p>
+<pre>certutil -decode Document.pdf Invoice.pdf</pre>
+<p>Then, a legitimate WinRar executable also hosted in the “-“ folder renamed <code>images.png</code> is used to unpack the archive:</p>
+<pre>images.png x -ibck -y -poX3ff7b6Bfi76keXy3xmSWnX0uqsFYur Invoice.pdf C:\\Users\\Public</pre>
+<p>The second archive contains a portable Windows Python interpreter, several Python libraries, and a malicious Python script. The Python interpreter is renamed to <code>svchost.exe</code> and launches a heavily obfuscated Python script again disguised as <code>images.png</code>, followed by the <code>$BOT_ID</code> argument.</p>
+<pre>start C:\\Users\\Public\\Windows\\svchost.exe C:\\Users\\Public\\Windows\\Lib\\images.png <i>$BOT_ID</i></pre>
+<h2>Payload Analysis</h2>
+<p>The final payload is an updated version of PXA Stealer. PXA Stealer is a Python-based infostealer which <a href="https://blog.talosintelligence.com/new-pxa-stealer/" target="_blank" rel="noopener noreferrer">first emerged in 2024</a>. PXA is primarily seen in Vietnamese-speaking threat actor circles. The malware targets sensitive information including credentials, financial data, browser data and cookies, and cryptocurrency wallet details. As detailed below, a wide variety of applications and data types within these categories are supported by PXA Stealer. PXA Stealer is capable of exfiltrating data via Telegram, as has been observed in prior campaigns.</p>
+<p>Similar to prior campaigns, the newly observed PXA Stealer payloads are capable of identifying, packaging, and exfiltrating data from an extensive list of applications and interfaces on infected systems. Exfiltration continues to be handled via Telegram, with specific Telegram BOT IDs and Tokens identified as tied to these more recent campaigns.</p>
+<p>The new variant of PXA Stealer will enumerate Chromium/Gecko browsers, decrypt any saved passwords, cookies, stored personally identifiable information (PII), autofill data, and any authentication tokens. The infostealer will also attempt to inject a DLL into running instances of browsers such as Chrome, targeting Chrome’s App-Bound Encryption Key to defeat the internal encryption schemes within Chrome. The DLL injected during the July campaign targets MSEdge, Chrome, Whale, and CocCoc browsers.</p>
+<figure id="attachment_128698" aria-describedby="caption-attachment-128698" style="width: 1534px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-injected-dll.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-128698" src="https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-injected-dll.jpg" alt="" width="1534" height="1000" srcset="https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-injected-dll.jpg 1534w, https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-injected-dll-300x196.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-injected-dll-1024x668.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-injected-dll-768x501.jpg 768w" sizes="auto, (max-width: 1534px) 100vw, 1534px" /></a><figcaption id="caption-attachment-128698" class="wp-caption-text">Browsers targeted by the injected DLL from the July campaign</figcaption></figure>
+<p>The infostealer also grabs files from dozens of desktop cryptocurrency wallets, VPN clients, Cloud-CLI utilities, connected fileshares, as well as applications such as Discord, and much more.</p>
+<p>The collected data is packaged into ZIP archives then exfiltrated to a specific Telegram bot via Cloudflare Worker relays. There are also conditions where the malware will reach out to external sources for additional Python payloads, such as <code>0x0[.]st</code>, a Pastebin-like temporary file hosting resource. Other analyzed PXA Stealer payloads support stealing data from the following browsers:</p>
+<table style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33.3333%;">360Browser</td>
+<td style="width: 33.3333%;">Chromium</td>
+<td style="width: 33.3333%;">Opera Crypto</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">360 Extreme Browser</td>
+<td style="width: 33.3333%;">CocCoc</td>
+<td style="width: 33.3333%;">Opera GX</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Aloha</td>
+<td style="width: 33.3333%;">CryptoTab</td>
+<td style="width: 33.3333%;">QQBrowser</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Amigo</td>
+<td style="width: 33.3333%;">Dragon</td>
+<td style="width: 33.3333%;">Sidekick</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Arc</td>
+<td style="width: 33.3333%;">Edge</td>
+<td style="width: 33.3333%;">Slimjet</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Avast</td>
+<td style="width: 33.3333%;">Epic</td>
+<td style="width: 33.3333%;">Sogou</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">AVG</td>
+<td style="width: 33.3333%;">Ghost</td>
+<td style="width: 33.3333%;">Speed360</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Brave</td>
+<td style="width: 33.3333%;">Iridium</td>
+<td style="width: 33.3333%;">SRWare</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Brave Nightly</td>
+<td style="width: 33.3333%;">Liebao</td>
+<td style="width: 33.3333%;">Thorium</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">CCleaner</td>
+<td style="width: 33.3333%;">Liebao AI</td>
+<td style="width: 33.3333%;">UR Browser</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Cent</td>
+<td style="width: 33.3333%;">Maxthon</td>
+<td style="width: 33.3333%;">Vivaldi</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Chedot</td>
+<td style="width: 33.3333%;">Naver</td>
+<td style="width: 33.3333%;">Wavebox</td>
+</tr>
+<tr>
+<td style="width: 33.3333%;">Chrome</td>
+<td style="width: 33.3333%;">Opera</td>
+<td style="width: 33.3333%;">Yandex</td>
+</tr>
+</tbody>
+</table>
+<p>The malware targets the following list of cryptocurrency wallet related browser extensions:</p>
+<table style="border-collapse: collapse; width: 100%; height: 325px;">
+<tbody>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Ambire</td>
+<td style="width: 33.3333%; height: 25px;">ExodusWeb3</td>
+<td style="width: 33.3333%; height: 25px;">SafePal Wallet</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Aptos Wallet</td>
+<td style="width: 33.3333%; height: 25px;">Frame</td>
+<td style="width: 33.3333%; height: 25px;">Station Wallet</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Argent X</td>
+<td style="width: 33.3333%; height: 25px;">Keystone Wallet</td>
+<td style="width: 33.3333%; height: 25px;">Sui Wallet</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Atomic Wallet</td>
+<td style="width: 33.3333%; height: 25px;">Leather Bitcoin Wallet</td>
+<td style="width: 33.3333%; height: 25px;">Talisman Wallet</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Backpack Wallet</td>
+<td style="width: 33.3333%; height: 25px;">Ledger Live</td>
+<td style="width: 33.3333%; height: 25px;">Tonkeeper Wallet</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Bitapp</td>
+<td style="width: 33.3333%; height: 25px;">Leo Wallet</td>
+<td style="width: 33.3333%; height: 25px;">TON Wallet</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Bitget Wallet</td>
+<td style="width: 33.3333%; height: 25px;">Magic Eden Wallet</td>
+<td style="width: 33.3333%; height: 25px;">Uniswap Wallet</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Bitski Wallet</td>
+<td style="width: 33.3333%; height: 25px;">MathWallet</td>
+<td style="width: 33.3333%; height: 25px;">Wallet Guard</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Cosmostation Wallet</td>
+<td style="width: 33.3333%; height: 25px;">MyTonWallet</td>
+<td style="width: 33.3333%; height: 25px;">Zeal</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Crocobit</td>
+<td style="width: 33.3333%; height: 25px;">OpenMask Wallet</td>
+<td style="width: 33.3333%; height: 25px;">Zeeve Wallet</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Crypto.com</td>
+<td style="width: 33.3333%; height: 25px;">Portal DEX Wallet</td>
+<td style="width: 33.3333%; height: 25px;">Zerion</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Edge Wallet</td>
+<td style="width: 33.3333%; height: 25px;">Pulse Wallet Chromium</td>
+<td style="width: 33.3333%; height: 25px;"></td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Equal</td>
+<td style="width: 33.3333%; height: 25px;">Quai Wallet</td>
+<td style="width: 33.3333%; height: 25px;"></td>
+</tr>
+</tbody>
+</table>
+<p>User databases and configuration files for the following applications are targeted, many of which house sensitive data or cryptocurrency assets:</p>
+<table style="border-collapse: collapse; width: 100%; height: 250px;">
+<tbody>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Armory</td>
+<td style="width: 33.3333%; height: 25px;">Dogecoin</td>
+<td style="width: 33.3333%; height: 25px;">Ledger Live</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Atomic</td>
+<td style="width: 33.3333%; height: 25px;">Electron Cash</td>
+<td style="width: 33.3333%; height: 25px;">Litecoinwallets</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Azure</td>
+<td style="width: 33.3333%; height: 25px;">Electrum</td>
+<td style="width: 33.3333%; height: 25px;">Monero</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Binance</td>
+<td style="width: 33.3333%; height: 25px;">ElectrumLTC</td>
+<td style="width: 33.3333%; height: 25px;">Multidoge</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Bitcoin Core</td>
+<td style="width: 33.3333%; height: 25px;">Ethereum</td>
+<td style="width: 33.3333%; height: 25px;">MyMonero</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Blockstream Green</td>
+<td style="width: 33.3333%; height: 25px;">Exodus</td>
+<td style="width: 33.3333%; height: 25px;">OpenVPN</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">bytecoin</td>
+<td style="width: 33.3333%; height: 25px;">FileZilla</td>
+<td style="width: 33.3333%; height: 25px;">ProtonVPN</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Chia Wallet</td>
+<td style="width: 33.3333%; height: 25px;">Guarda Desktop</td>
+<td style="width: 33.3333%; height: 25px;">Raven Core</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Coinomi</td>
+<td style="width: 33.3333%; height: 25px;">Jaxx Desktop</td>
+<td style="width: 33.3333%; height: 25px;">Telegram</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">Daedalus Mainnet</td>
+<td style="width: 33.3333%; height: 25px;">KeePass</td>
+<td style="width: 33.3333%; height: 25px;">Wasabi Wallet</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">DashCorewallets</td>
+<td style="width: 33.3333%; height: 25px;">Komodo Wallet</td>
+<td style="width: 33.3333%; height: 25px;">Zcash</td>
+</tr>
+</tbody>
+</table>
+<p>The infostealer is also capable of targeting website-specific data. The malware includes the following list of sites, for which the stealer will attempt to discover and collect credentials, cookies and session tokens. The targeted sites are primarily financial, such as FinTech services or cryptocurrency exchanges:</p>
+<table style="border-collapse: collapse; width: 100%; height: 300px;">
+<tbody>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">ads.google.com</td>
+<td style="width: 33.3333%; height: 25px;">coinomi.co.nl</td>
+<td style="width: 33.3333%; height: 25px;">korbit.co.kr</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">adsmanager.facebook.com</td>
+<td style="width: 33.3333%; height: 25px;">coinone.co.kr</td>
+<td style="width: 33.3333%; height: 25px;">kraken.com</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">binance.com</td>
+<td style="width: 33.3333%; height: 25px;">coinplug.ng</td>
+<td style="width: 33.3333%; height: 25px;">kucoin.com</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">bingx.com</td>
+<td style="width: 33.3333%; height: 25px;">crypto.com</td>
+<td style="width: 33.3333%; height: 25px;">lbank.com</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">bitfinex.com</td>
+<td style="width: 33.3333%; height: 25px;">electrum.org</td>
+<td style="width: 33.3333%; height: 25px;">mexc.com</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">bitget.com</td>
+<td style="width: 33.3333%; height: 25px;">exodus.com</td>
+<td style="width: 33.3333%; height: 25px;">nami.exchange</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">bitgo.com</td>
+<td style="width: 33.3333%; height: 25px;">gate.com</td>
+<td style="width: 33.3333%; height: 25px;">okx.com</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">bitmart.com</td>
+<td style="width: 33.3333%; height: 25px;">gemini.com</td>
+<td style="width: 33.3333%; height: 25px;">paypal.com</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">bitunix.com</td>
+<td style="width: 33.3333%; height: 25px;">gopax.co.kr</td>
+<td style="width: 33.3333%; height: 25px;">probit.com</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">business.facebook.com</td>
+<td style="width: 33.3333%; height: 25px;">htx.com</td>
+<td style="width: 33.3333%; height: 25px;">upbit.com</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">bybit.com</td>
+<td style="width: 33.3333%; height: 25px;">huobi.com</td>
+<td style="width: 33.3333%; height: 25px;">whitebit.com</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 33.3333%; height: 25px;">coinbase.com</td>
+<td style="width: 33.3333%; height: 25px;">hyperliquid.xyz</td>
+<td style="width: 33.3333%; height: 25px;">xt.com</td>
+</tr>
+</tbody>
+</table>
+<p>The specific Telegram Bot Token, and associated Chat ID, identified in the samples from July are:</p>
+<p>Telegram Bot Token: <code>7414494371:AAHsrQDkPrEVyz9z0RoiRS5fJKI-ihKJpzQ</code></p>
+<p>Telegram Chat ID: <code>-1002698513801</code></p>
+<p>Data is exfiltrated to Telegram via connection via Cloudflare <a href="https://developers.cloudflare.com/workers/configuration/routing/routes/" target="_blank" rel="noopener noreferrer">workers</a>. The specific Cloudflare DNS address is:</p>
+<p><code>Lp2tpju9yrz2fklj.lone-none-1807.workers[.]dev</code></p>
+<p>We reported this abuse of Cloudflare Workers to Cloudflare, and we thank their team for taking immediate action to disrupt this malicious infrastructure.</p>
+<p>Each of the final PXA Stealer payloads corresponds to a Telegram Bot Token and ChatID combination. Each variant we analyzed is associated with the same Telegram Bot Token (<code>7414494371:AAHsrQDkPrEVyz9z0RoiRS5fJKI-ihKJpzQ</code>) although the ChatIDs vary. Additionally, there can be multiple ChatIDs, which correspond to a Telegram channel, tied to each payload. Each bot is tied to as many as 3 Telegram channels. One channel, typically denoted with the <code>New Logs</code> string, receives exfiltrated data contained in zip archives uploaded from victims’ machines, along with log/ledger style data for each victims’ exfiltrated data set. Specific entries also indicate the victim’s geographic location, IP address and other contextual data.</p>
+<p>PXA Stealer log entries show counts for the types of data within: <code>CK:2868|PW:482|AF:606|CC:0|FB:1|Sites:4|Wallets:0|Apps:1</code></p>
+<p>The stealer data types include:</p>
+<ul>
+<li aria-level="1">CK = Cookies</li>
+<li aria-level="1">PW = Passwords</li>
+<li aria-level="1">AF = AutoFill data</li>
+<li aria-level="1">CC = Credit Card data</li>
+<li aria-level="1">FB = Facebook Cookies</li>
+<li aria-level="1">TK = Authentication Tokens</li>
+<li aria-level="1">Sites = Domains / Site specific data</li>
+<li aria-level="1">Wallets = Crypto Wallet data</li>
+<li aria-level="1">Apps = Application specific data (ex: private messenger chat history and keys)</li>
+</ul>
+<figure id="attachment_128697" aria-describedby="caption-attachment-128697" style="width: 1700px" class="wp-caption alignnone"><a href="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-victim-data.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-128697" src="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-victim-data.jpg" alt="" width="1700" height="310" srcset="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-victim-data.jpg 1700w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-victim-data-300x55.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-victim-data-1024x187.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-victim-data-768x140.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-victim-data-1536x280.jpg 1536w" sizes="auto, (max-width: 1700px) 100vw, 1700px" /></a><figcaption id="caption-attachment-128697" class="wp-caption-text">Exfiltrated Victim Data from <em>MRB_NEW_VER_BOT</em> via PXA Stealer</figcaption></figure>
+<p>Each bot will also have an associated ‘Reset’ and ‘Notifications’ channel as well. The ‘Notification’ channels appear to allow operators to automate their communications process when new victim logs are uploaded or otherwise obtained. The ‘Reset’ channels appear to be used in similar manner to the ‘New Logs’ channels, storing newly exfiltrated victim data.</p>
+<p>While all analyzed variants share the same Bot Token ID, we have observed multiple ChatIDs across the New Log/Reset/Notification combinations across this stealer’s ecosystem. The observed Bots-to-ID sets include:</p>
+<p>Telegram BotID <code>7414494371:AAHsrQDkPrEVyz9z0RoiRS5fJKI-ihKJpzQ</code></p>
+<ul>
+<li>James_New_Ver_bot (yd2sV / James)
+<ul>
+<li>James &#8211; New Logs</li>
+<li>James &#8211; New Logs Notification</li>
+<li>James &#8211; Reset Logs</li>
+</ul>
+</li>
+<li aria-level="1">DA_NEW_VER_BOT (qDTxA / DUC ANH)
+<ul>
+<li aria-level="2">New Logs &#8211; \u0110\u1ee9c Anh</li>
+<li aria-level="2">Reset Logs &#8211; \u0110\u1ee9c Anh</li>
+</ul>
+</li>
+<li aria-level="1">MRB_NEW_VER_BOT (Plk1y / MRB_NEW)
+<ul>
+<li aria-level="2">New Logs</li>
+<li aria-level="2">Reset Logs</li>
+<li aria-level="2">Notify</li>
+</ul>
+</li>
+<li aria-level="1">JND_NEW_VER_BOT (5DJ0P / JND)
+<ul>
+<li aria-level="2">JND &#8211; New Logs</li>
+<li aria-level="2">JND &#8211; Reset Logs</li>
+</ul>
+</li>
+<li aria-level="1">AND_2_NEW_VER_BOT (oaCzj / ADN 2 / Adonis)
+<ul>
+<li aria-level="2">Adonis &#8211; New Logs</li>
+<li aria-level="2">Adonis &#8211; Reset Logs</li>
+<li aria-level="2">New Log Notification</li>
+</ul>
+</li>
+</ul>
+<p>The encompassing Telegram ID is connected to a Bot that has the following properties:</p>
+<p><strong>Username</strong>: “Logs_Data_bot”<br />
+<strong>Firstname</strong>: \u0412\u0418\u0414\u0415\u041e \u0421 \u041b\u0410\u0419\u041a\u0410<br />
+<strong>Lastname</strong>: (nul)</p>
+<p>The firstname field on this bot decodes to a string of Cyrillic text “ВИДЕО С ЛАЙКА”. This roughly translates to ‘Video for/with/of Laika,” though the significance of this string is unclear.</p>
+<h2>Telegram Abuse and Attribution</h2>
+<p>The later-stage dropper component is responsible for parsing target Telegram URLs based on a string gathered from a prescribed Telegram ChatID. This string is then combined with the base URL for either <code>paste[.]rs</code> or <code>0x0[.]st</code> to retrieve the next batch of obfuscated Python code.</p>
+<p>Multiple identifiers were observed across the multitude of analyzed samples. The most prominent we observed are:</p>
+<ul>
+<li aria-level="1">ADN_2_NEW_VER_BOT</li>
+<li aria-level="1">DA_NEW_VER_BOT</li>
+<li aria-level="1">JAMES_NEW_VER_BOT</li>
+<li aria-level="1">JND_NEW_VER_BOT</li>
+<li aria-level="1">MR_P_NEW_VER_BOT</li>
+<li aria-level="1">MR_Q_NEW_VER_BOT</li>
+<li aria-level="1">KBL_NEW_VER_BOT</li>
+<li aria-level="1">MRB_NEW_VER_BOT</li>
+</ul>
+<p>These identifiers are visible within the commands launched by the side-loaded DLL described above.</p>
+<pre>cmd /c cd _ &amp;&amp; start Tax-Invoice-EV.docx &amp;&amp; certutil -decode Document.pdf Invoice.pdf &amp;&amp; images.png x -ibck -y -poX3ff7b6Bfi76keXy3xmSWnX0uqsFYur Invoice.pdf C:\\Users\\Public &amp;&amp; start C:\\Users\\Public\\Windows\\svchost.exe C:\\Users\\Public\\Windows\\Lib\\images.png <b>MR_Q_NEW_VER_BOT</b> &amp;&amp; del /s /q Document.pdf &amp;&amp; del /s /q Invoice.pdf &amp;&amp; exit &amp;&amp; exit)</pre>
+<p>Each of these <code>_NEW_VER_BOT</code> identifiers corresponds to a Telegram User ID. The profile names resemble a bot, but are actually user accounts:</p>
+<figure id="attachment_128696" aria-describedby="caption-attachment-128696" style="width: 1656px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-telegram-profiles.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-128696" src="https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-telegram-profiles.jpg" alt="" width="1656" height="576" srcset="https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-telegram-profiles.jpg 1656w, https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-telegram-profiles-300x104.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-telegram-profiles-1024x356.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-telegram-profiles-768x267.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/08/pxa-telegram-profiles-1536x534.jpg 1536w" sizes="auto, (max-width: 1656px) 100vw, 1656px" /></a><figcaption id="caption-attachment-128696" class="wp-caption-text">Bio and Info fields from Telegram profiles masquerading as bots</figcaption></figure>
+<p>When retrieving files from <code>paste[.]rs</code>, the corresponding strings are concatenated with the <code>hxxps://paste[.]rs</code> or <code>hxxps://0x0[.]st</code> prefix, which constructs the full download URL hosting another payload.</p>
+<p><figure id="attachment_128695" aria-describedby="caption-attachment-128695" style="width: 1382px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-python-code.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-128695" src="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-python-code.jpg" alt="" width="1382" height="1366" srcset="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-python-code.jpg 1382w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-python-code-300x297.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-python-code-1024x1012.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-python-code-768x759.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-python-code-50x50.jpg 50w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-python-code-24x24.jpg 24w" sizes="auto, (max-width: 1382px) 100vw, 1382px" /></a><figcaption id="caption-attachment-128695" class="wp-caption-text">Obfuscated Python code hosted on <em>Paste[.]rs</em></figcaption></figure>Once downloaded, the obfuscated Python code is decoded and executed, delivering the Infostealer component of the attack.</p>
+<p>The Telegram ChatID associated with the infostealer component of this attack is “@Lonenone.” The “Lonenone” theme is also present in the Cloudflare Worker hostname <code>lp2tpju9yrz2fklj[.]lone-none-1807[.]workers[.]dev</code>. The profile display name contains an emoji of the Vietnam flag.</p>
+<figure id="attachment_128694" aria-describedby="caption-attachment-128694" style="width: 986px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-lone-none.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-128694" src="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-lone-none.jpg" alt="" width="986" height="948" srcset="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-lone-none.jpg 986w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-lone-none-300x288.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-lone-none-768x738.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-lone-none-24x24.jpg 24w" sizes="auto, (max-width: 986px) 100vw, 986px" /></a><figcaption id="caption-attachment-128694" class="wp-caption-text">Lone None Telegram ChatID</figcaption></figure>
+<figure id="attachment_128693" aria-describedby="caption-attachment-128693" style="width: 1698px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-ref-to-lone-none.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-128693" src="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-ref-to-lone-none.jpg" alt="" width="1698" height="278" srcset="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-ref-to-lone-none.jpg 1698w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-ref-to-lone-none-300x49.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-ref-to-lone-none-1024x168.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-ref-to-lone-none-768x126.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-ref-to-lone-none-1536x251.jpg 1536w" sizes="auto, (max-width: 1698px) 100vw, 1698px" /></a><figcaption id="caption-attachment-128693" class="wp-caption-text">Reference to LoneNone TG channel in decoded (July) infostealer</figcaption></figure>
+<p>This Telegram ChatID/Account is associated with the same threat actor using PXA Stealer as <a href="https://blog.talosintelligence.com/new-pxa-stealer/" target="_blank" rel="noopener noreferrer">previously described</a> by Cisco Talos. It is worth noting that there are a number of other Vietnamese-language artifacts present in these stages of the malware. For example, the aforementioned Telegram BOT IDs show &#8216;Duc Anh&#8217;&#8230;aka &#8220;đức anh&#8221; as display names, which loosely translates to “brother”.</p>
+<p>PXA Stealer uses the BotIDs (stored as TOKEN_BOT) to establish the link between the main bot and the various ChatID (stored as CHAT_ID). The ChatIDs are Telegram channels with various properties, but they primarily serve to host exfiltrated data and provide updates and notifications to the operators.</p>
+<p>PXA Stealer transmits data via HTTP POST requests to the Telegram API. Everything is handled via HTTPS, thus there is no visible Telegram process or self-contained client producing the traffic. This is one of PXA stealer’s methods of hiding exfiltration traffic from potential analysis or detection.</p>
+<p>Prior to transferring the exfiltrated data, the stealer packages stage data into an archive using the following naming convention where CC=Country Code:</p>
+<p><code>[CC_IPADDRESS]_HOSTNAME.zip (ex: [RU_123.45.67[.]89]DESKTOP-VICTIM.zip)</code></p>
+<p>The main BotID (7414494371:AAHsrQDkPrEVyz9z0RoiRS5fJKI-ihKJpzQ) includes a reference to <code>probiv[.]gg</code> in the Bot metadata:</p>
+<pre>":[{"command":"start","description":"probiv.gg \u0437\u0430\u043f\u043e\u043c\u043d\u0438 \ud83d\udd25"}</pre>
+<p><code>Probiv[.]gg</code> contains a redirect to the Sherlock Telegram Bot Service, which provides a search interface for data culled from infostealers.</p>
+<p><figure id="attachment_128692" aria-describedby="caption-attachment-128692" style="width: 1698px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-provbivgg-redirect.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-128692" src="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-provbivgg-redirect.jpg" alt="" width="1698" height="958" srcset="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-provbivgg-redirect.jpg 1698w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-provbivgg-redirect-300x169.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-provbivgg-redirect-1024x578.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-provbivgg-redirect-768x433.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-provbivgg-redirect-1536x867.jpg 1536w" sizes="auto, (max-width: 1698px) 100vw, 1698px" /></a><figcaption id="caption-attachment-128692" class="wp-caption-text">Telegram redirect on <em>probiv[.]gg</em></figcaption></figure>The redirect leads to the Telegram landing page for <code>SherLock1u_BOT</code>, a provider of stolen data, and the automated services to search for specific data types or sets.</p>
+<figure id="attachment_128691" aria-describedby="caption-attachment-128691" style="width: 1004px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-sherlock1u-bot.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-128691" src="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-sherlock1u-bot.jpg" alt="" width="1004" height="816" srcset="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-sherlock1u-bot.jpg 1004w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-sherlock1u-bot-300x244.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-sherlock1u-bot-768x624.jpg 768w" sizes="auto, (max-width: 1004px) 100vw, 1004px" /></a><figcaption id="caption-attachment-128691" class="wp-caption-text"><em>SherLock1u_BOT</em></figcaption></figure>
+<p>We also tracked activity from the bots since April indicating targeting of victims in South Korea. The following image shows details of exfiltrated data from one Korea-based victim by the <code>MRB_NEW_VER_BOT ID</code>.</p>
+<figure id="attachment_128690" aria-describedby="caption-attachment-128690" style="width: 1698px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-SK-victim-data.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-128690" src="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-SK-victim-data.jpg" alt="" width="1698" height="178" srcset="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-SK-victim-data.jpg 1698w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-SK-victim-data-300x31.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-SK-victim-data-1024x107.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-SK-victim-data-768x81.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-SK-victim-data-1536x161.jpg 1536w" sizes="auto, (max-width: 1698px) 100vw, 1698px" /></a><figcaption id="caption-attachment-128690" class="wp-caption-text">South Korea victim data uploaded to Telegram via PXA Stealer</figcaption></figure>
+<h3>Victimology</h3>
+<p>Our analysis uncovered details around victimology for several active BotIDs associated with the ongoing PXA Stealer campaign. Some of these Bots have been active since at least October 2024, and they continue to receive data from infected hosts to date.</p>
+<figure id="attachment_128689" aria-describedby="caption-attachment-128689" style="width: 1700px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-adonis-records.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-128689" src="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-adonis-records.jpg" alt="" width="1700" height="1018" srcset="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-adonis-records.jpg 1700w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-adonis-records-300x180.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-adonis-records-1024x613.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-adonis-records-768x460.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/08/PXA-adonis-records-1536x920.jpg 1536w" sizes="auto, (max-width: 1700px) 100vw, 1700px" /></a><figcaption id="caption-attachment-128689" class="wp-caption-text">Adonis (ADN_2_NEW_BOT) victim records</figcaption></figure>
+<p>The PXA Stealer logs contain victim IP addresses that indicate there are potentially more than 4,000 unique victims from 62 countries. The top targeted countries in the analyzed set are:</p>
+<ol>
+<li aria-level="1">Republic of Korea (KR)</li>
+<li aria-level="1">United States (US)</li>
+<li aria-level="1">Netherlands (NL)</li>
+<li aria-level="1">Hungary (HU)</li>
+<li aria-level="1">Austria (AT)</li>
+</ol>
+<p>Some appear to favor specific locations, for example Adonis (ADN_2_NEW_VER_BOT) most heavily targets hosts in Israel and Taiwan, followed by South Korea and the United States.</p>
+<h2>Conclusion</h2>
+<p>The evolving tradecraft in these recent campaigns demonstrates that these adversaries have meticulously refined their deployment chains, making them increasingly more challenging to detect and analyze. The July 2025 attack chain in particular illustrates a highly tailored approach engineered to bypass traditional antivirus solutions, delay execution in sandboxes, and mislead SOC analysts who review process trees or EDR data by using byzantine delivery and installation methods.</p>
+<p>This campaign’s medley of legitimate applications and non-malicious decoy documents is designed to mislead users and SOC analysts alike. The actors reinforce this facade by naming a user-space folder to mimic the system directory Windows and disguising a Python interpreter as <code>svchost.exe</code> to blend into typical system activity. In parallel, they use files with familiar extensions, such as PNG and PDF, to conceal embedded WinRAR executables and ZIP archives, layering their evasion techniques to mislead users, investigators, and traditional detection technologies.</p>
+<p>PXA Stealer, and the threat actors behind it, continue to feed the greater infostealer ecosystem. It is also important to note that PXA, along with similar stealers like Redline, Lumma, and Vidar, each produce data that can be neatly ingested into data monetization ecosystems. The sales-oriented services like Sherlock, such as Daisy Cloud and Moon Cloud, take data harvested by these stealers directly from the bots. The more mature services then normalize the sets of exfilterated data to make it ‘sales-ready’. The idea behind leveraging the legitimate Telegram infrastructure is driven by the desire to automate exfiltration and streamline the sales process, which enables actors to deliver data more efficiently to downstream criminals. The developer-friendly nature of Telegram–combined with the company’s laissez-faire attitude towards cybercrime–underscores the crucial role that Telegram plays in the holistic cybercriminal ecosystem.</p>
+<h2>Indicators of Compromise</h2>
+<h3>SHA-1 Hashes</h3>
+<table style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr>
+<th>Value</th>
+<th>Note</th>
+</tr>
+<tr>
+<td>05a8e10251a29faf31d7da5b9adec4be90816238</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>06fcb4adf8ca6201fc9e3ec72d53ca627e6d9532</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>06fcb4adf8ca6201fc9e3ec72d53ca627e6d9532</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>0c472b96ecc1353fc9259e1b8750cdfe0b957e4f</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>1594331d444d1a1562cd955aefff33a0ee838ac9</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>1783af05e7cd52bbb16f714e878bfa9ad02b6388</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>185d10800458ab855599695cd85d06e630f7323d</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>23c61ad383c54b82922818edcc0728e9ef6c984d</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>23c61ad383c54b82922818edcc0728e9ef6c984d</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>345c59394303bb5daf1d97e0dda894ad065fedf6</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>345c59394303bb5daf1d97e0dda894ad065fedf6</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>37e4039bd2135d3253328fea0f6ff1ca60ec4050</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>3a20b574e12ffb8a55f1fb5dc91c91245a5195e8</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>3e9198e9546fa73ef93946f272093092363eb3e2</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>3f0071d64edd72d7d92571cf5e4a5e82720c5a9b</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>40795ca0880ea7418a45c66925c200edcddf939e</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>407df08aff048b7d05fd7636be3bc9baa699646d</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>44feb2d7d7eabf78a46e6cc6abdd281f993ab301</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>4528215707a923404e3ca7667b656ae50cef54ef</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>4528215707a923404e3ca7667b656ae50cef54ef</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>4607f6c04f0c4dc4ee5bb68ee297f67ccdcff189</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>48325c530f838db2d7b9e5e5abfa3ba8e9af1215</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>48d6350afa5b92958fa13c86d61be30f08a3ff0c</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>4dcf4b2d07a2ce59515ed3633386addff227f7bd</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>5246e098dc625485b467edd036d86fd363d75aae</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>540227c86887eb4460c4d59b8dea2a2dd0e575b7</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>5b60e1b7458cef383c45998204bbaac5eacbb7ee</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>612f61b2084820a1fcd5516dc74a23c1b6eaa105</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>61a0cb64ca1ba349550176ef0f874dd28eb0abfa</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>6393b23bc20c2aaa71cb4e1597ed26de48ff33e2</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>65c11e7a61ac10476ed4bfc501c27e2aea47e43a</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>6eb1902ddf85c43de791e86f5319093c46311071</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>70b0ce86afebb02e27d9190d5a4a76bae6a32da7</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>7c9266a3e7c32daa6f513b6880457723e6f14527</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>7d53e588d83a61dd92bce2b2e479143279d80dcd</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>7d53e588d83a61dd92bce2b2e479143279d80dcd</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>7e505094f608cafc9f174db49fbb170fe6e8c585</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>ae8d0595724acd66387a294465b245b4780ea264</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>b53ccd0fe75b8b36459196b666b64332f8e9e213</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>b53ccd0fe75b8b36459196b666b64332f8e9e213</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>bfed04e6da375e9ce55ad107aa96539f49899b85</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>c46613f2243c63620940cc0190a18e702375f7d7</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>c5407cc07c0b4a1ce4b8272003d5eab8cdb809bc</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>c9caba0381624dec31b2e99f9d7f431b17b94a32</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>ca6912da0dc4727ae03b8d8a5599267dfc43eee9</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>d0b137e48a093542996221ef40dc3d8d99398007</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>d1a5dff51e888325def8222fdd7a1bd613602bef</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>deace971525c2cdba9780ec49cc5dd26ac3a1f27</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>deace971525c2cdba9780ec49cc5dd26ac3a1f27</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>e27669cdf66a061c5b06fea9e4800aafdb8d4222</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>e27669cdf66a061c5b06fea9e4800aafdb8d4222</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>e9dfde8f8a44b1562bc5e77b965b915562f81202</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>f02ae732ee4aff1a629358cdc9f19b8038e72b7b</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>f02ae732ee4aff1a629358cdc9f19b8038e72b7b</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>f5793ac244f0e51ba346d32435adb8eeac25250c</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>f7bb34c2d79163120c8ab18bff76f48e51195d35</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>f8f328916a890c1b1589b522c895314a8939399c</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>f91e1231115ffe1a01a27ea9ab3e01e8fac1a24f</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>faf033dc60fed4fc4d264d9fac1d1d8d641af5e0</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>faf033dc60fed4fc4d264d9fac1d1d8d641af5e0</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>ff920aee8199733258bb2a1f8f0584ccb3be5ec6</td>
+<td>First-Stage Dropper (archive)</td>
+</tr>
+<tr>
+<td>3d38abc7786a1b01e06cc46a8c660f48849b2b5f</td>
+<td>Side-loaded DLL</td>
+</tr>
+<tr>
+<td>08f517d4fb4428380d01d4dd7280b62042f9e863</td>
+<td>Encoded PDF (Archive)</td>
+</tr>
+<tr>
+<td>1aa5a0e7bfb995fc2f3ba0e54b59e7877b5d8fd3</td>
+<td>Python stealer</td>
+</tr>
+<tr>
+<td>734738e7c3b9fef0fd674ea2bb8d7f3ffc80cd91</td>
+<td>Python stealer</td>
+</tr>
+<tr>
+<td>80e68d99034a9155252e2ec477e91da75ad4f868</td>
+<td>Python stealer</td>
+</tr>
+<tr>
+<td>ba56a3c404d1b4ed4c57a8240e7b53c42970a4b2</td>
+<td>Python stealer</td>
+</tr>
+<tr>
+<td>bd457c0d0a5776b43969ce28a9913261a74a4813</td>
+<td>Python stealer</td>
+</tr>
+<tr>
+<td>da210d89a797a2d84ba82e80b7a4ab73d48a07b1</td>
+<td>Python stealer</td>
+</tr>
+<tr>
+<td>dc6a62f0a174b251e0b71e62e7ded700027cc70b</td>
+<td>Python stealer</td>
+</tr>
+<tr>
+<td>533960d38e6fee7546cdea74254bccd1af8cbb65</td>
+<td>Stage2 Python stealer</td>
+</tr>
+<tr>
+<td>c5688fc4c282f9a0dc62cf738089b3076162e8c6</td>
+<td>Stage2 Python stealer</td>
+</tr>
+<tr>
+<td>c9a1ddf30c5c7e2697bc637001601dfa5435dc66</td>
+<td>Stage2 Python stealer</td>
+</tr>
+<tr>
+<td>4ab9c1565f740743a9d93ca4dd51c5d6b8b8a5b6</td>
+<td>Browser Injection DLL</td>
+</tr>
+</tbody>
+</table>
+<h3>Domains</h3>
+<table style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;"><strong>Value</strong></td>
+<td style="width: 50%;"><strong>Note</strong></td>
+</tr>
+<tr>
+<td style="width: 50%;">paste[.]rs</td>
+<td style="width: 50%;">Code hosting site</td>
+</tr>
+<tr>
+<td style="width: 50%;">0x0[.]st</td>
+<td style="width: 50%;">Code hosting site</td>
+</tr>
+<tr>
+<td style="width: 50%;">lp2tpju9yrz2fklj.lone-none-1807[.]workers[.]dev</td>
+<td style="width: 50%;">Cloudflare Worker</td>
+</tr>
+</tbody>
+</table>
+<h3>URLs</h3>
+<p>hxxps://0x0[.]st/8nyT.py<br />
+hxxps://0x0[.]st/8dxc.py<br />
+hxxps://0x0[.]st/8GcQ.py<br />
+hxxps://0x0[.]st/8GpS.py<br />
+hxxps://0x0[.]st/8ndd.pyhxxps://0x0[.]st/8GcO.py<br />
+hxxps://0x0[.]st/8GsK[.]py<br />
+hxxps://paste[.]rs/yd2sV<br />
+hxxps://paste[.]rs/umYBi<br />
+hxxps://paste[.]rs/qDTxA<br />
+hxxps://paste[.]rs/Plk1y<br />
+hxxps://paste[.]rs/5DJ0P<br />
+hxxps://paste[.]rs/oaCzj<br />
+hxxps://www[.]dropbox[.]com/scl/fi/c1abtpif2e6calkzqsrbj/.dll?rlkey=9h1ar7wmsg407ngpl25xv2spt&amp;st=mp7z58v2&amp;dl=1</p>
+]]></content:encoded>
+					
+		
+		
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/08/PXA1.jpg" length="46902" type="image/jpeg" />	</item>
+		<item>
 		<title>China’s Covert Capabilities &#124; Silk Spun From Hafnium</title>
 		<link>https://www.sentinelone.com/labs/chinas-covert-capabilities-silk-spun-from-hafnium/</link>
 		
@@ -47,7 +840,7 @@
 <li aria-level="1">Our research delves into several companies tied to the indicted Hafnium-affiliated hackers and documents their relationships. Importantly, the report finds evidence of multiple companies registered by one of the defendants, and dozens more by an associate.</li>
 </ol>
 <p>This new insight into the Hafnium-affiliated firms’ capabilities highlights an important deficiency in the threat actor attribution space: threat actor tracking typically links campaigns and clusters of activity to a named actor. Our research demonstrates the strength in identifying not only the individuals behind attacks, but the companies they work for, the capabilities those companies have, and how those capabilities fortify the initiatives of the state entities who contract with these firms.</p>
-<figure id="attachment_128144" aria-describedby="caption-attachment-128144" style="width: 2560px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-scaled.jpg"><img fetchpriority="high" decoding="async" class="size-full wp-image-128144" src="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-scaled.jpg" alt="" width="2560" height="1417" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-scaled.jpg 2560w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-300x166.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-1024x567.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-768x425.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-1536x850.jpg 1536w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-2048x1134.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" /></a><figcaption id="caption-attachment-128144" class="wp-caption-text">An organization chart for people and businesses known to be associated with Hafnium</figcaption></figure>
+<figure id="attachment_128144" aria-describedby="caption-attachment-128144" style="width: 2560px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-scaled.jpg"><img loading="lazy" decoding="async" class="size-full wp-image-128144" src="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-scaled.jpg" alt="" width="2560" height="1417" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-scaled.jpg 2560w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-300x166.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-1024x567.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-768x425.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-1536x850.jpg 1536w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_org_chart-2048x1134.jpg 2048w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a><figcaption id="caption-attachment-128144" class="wp-caption-text">An organization chart for people and businesses known to be associated with Hafnium</figcaption></figure>
 <h2>Hafnium’s Impact</h2>
 <p>It’s rare for a hacking team to behave so recklessly that it changes a country’s foreign policy and unify the E.U., U.K., and U.S. into speaking with one voice, but Hafnium wouldn’t be famous if they hadn’t done that. And, actually, they didn’t do it.</p>
 <p>Hafnium gained fame following the revelation of their stealthy access to U.S. Government emails through an MES <a href="https://www.microsoft.com/en-us/security/blog/2021/03/02/hafnium-targeting-exchange-servers/" target="_blank" rel="noopener noreferrer">vulnerability</a> known as ProxyLogon, which came to light in March 2021. But the group is often <a href="https://www.theguardian.com/world/2021/jul/19/what-is-the-hafnium-microsoft-hack-and-why-has-the-uk-linked-it-to-china" target="_blank" rel="noopener noreferrer">wrongly blamed</a> for what happened next. The name Hafnium became associated with the wider abuse of the ProxyLogon vulnerabilities that followed the original Hafnium activity as lesser tier threat groups flooded the zone with exploitation attempts to opportunistically deliver payloads ranging from espionage to ransomware.</p>
@@ -58,7 +851,7 @@
 <p>Following an intrusion into U.S. Treasury systems that came to light in late 2024, the Department <a href="https://home.treasury.gov/news/press-releases/jy2792" target="_blank" rel="noopener noreferrer">sanctioned</a> one of its alleged hackers, Yin Kecheng (尹可成). The Treasury sanctions announced in January 2025 were quickly followed by a March DOJ <a href="https://www.justice.gov/usao-dc/pr/chinese-nationals-ties-prc-government-and-apt27-charged-computer-hacking-campaign-profit" target="_blank" rel="noopener noreferrer">indictment</a> of Yin and a business associate, Zhou Shuai (周帅). Two separate indictments were released for Yin in March. The first <a href="https://www.justice.gov/usao-dc/media/1391916/dl?inline" target="_blank" rel="noopener noreferrer">document</a> is dated 2017 and only Yin is named as the defendant. The second <a href="https://www.justice.gov/opa/media/1391906/dl" target="_blank" rel="noopener noreferrer">indictment</a> is dated 2023 and lists both Yin and Zhou.</p>
 <p>Zhou Shuai, aka Coldface, is a first-generation patriotic hacker from China with a storied <a href="https://nattothoughts.substack.com/p/zhou-shuai-a-hackers-road-to-apt27" target="_blank" rel="noopener noreferrer">history</a> of corporate registrations and work for the state. The March 2025 indictment of Zhou and Yin indicate that Zhou brokered the sale of Yin’s work through iSoon, a company whose internal chats and corporate records were <a href="https://margin.re/2024/02/same-same-but-different/" target="_blank" rel="noopener noreferrer">leaked</a> online in early 2024. Leaked chats showed iSoon executives considering a merger and acquisition of Zhou’s Shanghai-based company. iSoon executives also <a href="https://nattothoughts.substack.com/p/zhou-shuai-a-hackers-road-to-apt27" target="_blank" rel="noopener noreferrer">chastised</a> Zhou for being a mere broker.</p>
 <p>The DOJ press <a href="https://www.justice.gov/usao-dc/pr/chinese-nationals-ties-prc-government-and-apt27-charged-computer-hacking-campaign-profit" target="_blank" rel="noopener noreferrer">release</a> for the indictments indicate that Yin’s and Zhou’s activities were tracked under various naming conventions and clusters, including Silk Typhoon. Microsoft updated the group’s alias from Hafnium to Silk Typhoon in 2022.</p>
-<figure id="attachment_128097" aria-describedby="caption-attachment-128097" style="width: 2282px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease.jpg"><img decoding="async" class="size-full wp-image-128097" src="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease.jpg" alt="" width="2282" height="324" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease.jpg 2282w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease-300x43.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease-1024x145.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease-768x109.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease-1536x218.jpg 1536w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease-2048x291.jpg 2048w" sizes="(max-width: 2282px) 100vw, 2282px" /></a><figcaption id="caption-attachment-128097" class="wp-caption-text">DOJ press release summary listing the Hafnium group’s aliases</figcaption></figure>
+<figure id="attachment_128097" aria-describedby="caption-attachment-128097" style="width: 2282px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease.jpg"><img loading="lazy" decoding="async" class="size-full wp-image-128097" src="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease.jpg" alt="" width="2282" height="324" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease.jpg 2282w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease-300x43.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease-1024x145.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease-768x109.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease-1536x218.jpg 1536w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_DOJ_pressrelease-2048x291.jpg 2048w" sizes="auto, (max-width: 2282px) 100vw, 2282px" /></a><figcaption id="caption-attachment-128097" class="wp-caption-text">DOJ press release summary listing the Hafnium group’s aliases</figcaption></figure>
 <p>As of March 2025, Hafnium apparently <a href="https://nattothoughts.substack.com/p/zhou-shuai-a-hackers-road-to-apt27" target="_blank" rel="noopener noreferrer">consisted</a> of a Shanghai-based company, Shanghai Heiying Information Technology Company (上海黑英信息技术有限公司), run by Zhou Shuai, which collaborated with Yin Kecheng in some fashion.</p>
 <h2>Hafnium and Other Elements</h2>
 <p>Following the July 2025 released indictment of Xu Zewei and Zhang Yu, the number of people alleged to work for Hafnium grew to four and the number of companies involved grew to three. The DOJ maintains that Xu Zewei and Zhang Yu worked at the “direction” of Shanghai State Security Bureau (SSSB). Xu Zewei completed his tasking while working at Shanghai Powerock Network Company (上海势岩网络科技发展有限公司); Zhang Yu worked at Shanghai Firetech Information Science and Technology Company (上海势炎信息科技有限公司).</p>
@@ -73,7 +866,7 @@
 <p>How Zhang Yu and Shanghai Firetech came to work for the SSSB remains unclear. Before moving into offensive hacking, Zhang Yu co-founded a <a href="https://archive.ph/65Mk1" target="_blank" rel="noopener noreferrer">company</a> Shanghai Weiling Information Science and Technology Co. (上海微令信息科技有限公司) whose smartphone application Campus Command (校园司令) aimed to connect college students with local events and information at Universities across China. But, as with all investigations, that is perhaps not the whole story. Zhang Yu co-founded Campus Command with the CEO and legal representative of Shanghai Firetech, Yin Wenji (尹文基). The two associated were joined by a third person, Peng Yinan (彭一楠). Campus Command was, until 2016, a <a href="https://archive.ph/65Mk1" target="_blank" rel="noopener noreferrer">subsidiary</a> of Xin Kai Pu (新开普), a company whose shares are publicly traded on the stock exchange in Shenzhen. When Xin Kai Pu divested its shares, Peng, Yin, and Zhang moved their holdings into a privately held company offering business consulting services Shanghai Siling Commerce Consulting Center (上海司领商务咨询中心). Peng now holds shares in at least 25 companies registered in China.</p>
 <p>A 2015 talk by Yin Wenji, the eventual founder of Shanghai Firetech and co-founder of Campus Command, raises questions about his offensive capabilities while working at the university-focused company with the indicted Zhang Yu.</p>
 <p>Yin spoke at the Central University of Finance and Economics program for cybersecurity. His <a href="https://web.archive.org/web/20250715025621/https://www.cufe.edu.cn/docs/20151120145853751459.pdf" target="_blank" rel="noopener noreferrer">2015 talk</a> advertised his ability to recover files from Apple Filevault five years before his new company would file for patent protection on a tool capable of collecting files from Apple computers.</p>
-<figure id="attachment_128096" aria-describedby="caption-attachment-128096" style="width: 1698px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_yinwenji_talk_2015.jpg"><img decoding="async" class="size-full wp-image-128096" src="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_yinwenji_talk_2015.jpg" alt="" width="1698" height="1018" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_yinwenji_talk_2015.jpg 1698w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_yinwenji_talk_2015-300x180.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_yinwenji_talk_2015-1024x614.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_yinwenji_talk_2015-768x460.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_yinwenji_talk_2015-1536x921.jpg 1536w" sizes="(max-width: 1698px) 100vw, 1698px" /></a><figcaption id="caption-attachment-128096" class="wp-caption-text">Description of Yin Wenji’s 2015 talk at the Central University of Finance and Economics</figcaption></figure>
+<figure id="attachment_128096" aria-describedby="caption-attachment-128096" style="width: 1698px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_yinwenji_talk_2015.jpg"><img loading="lazy" decoding="async" class="size-full wp-image-128096" src="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_yinwenji_talk_2015.jpg" alt="" width="1698" height="1018" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_yinwenji_talk_2015.jpg 1698w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_yinwenji_talk_2015-300x180.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_yinwenji_talk_2015-1024x614.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_yinwenji_talk_2015-768x460.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/hafnium_yinwenji_talk_2015-1536x921.jpg 1536w" sizes="auto, (max-width: 1698px) 100vw, 1698px" /></a><figcaption id="caption-attachment-128096" class="wp-caption-text">Description of Yin Wenji’s 2015 talk at the Central University of Finance and Economics</figcaption></figure>
 <p>The talk description translates to:</p>
 <p>“In this speech, the author will sort out some methods and directions of forensics on Apple electronic products, and propose new ideas for some technical difficulties such as Mac computer firmware passwords and FileVault full disk encryption technology, and will demonstrate the latest research results.”</p>
 <h2>Silk Bandolier</h2>
@@ -2023,30 +2816,5 @@ fb7fdcc2fe11e95065a0ce9041348984427ca0f4</p>
 		
 		
 		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/weston-ftr.jpg" length="596345" type="image/jpeg" />	</item>
-		<item>
-		<title>LABScon24 Replay &#124; Farmyard Gossip: The Foreign Footprint in US Agriculture</title>
-		<link>https://www.sentinelone.com/labs/labscon24-replay-farmyard-gossip-the-foreign-footprint-in-us-agriculture/</link>
-		
-		<dc:creator><![CDATA[LABScon]]></dc:creator>
-		<pubDate>Wed, 05 Mar 2025 14:00:02 +0000</pubDate>
-				<category><![CDATA[labscon24]]></category>
-		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=115077</guid>
-
-					<description><![CDATA[Kristin Del Rosso &#038; Madeleine Devost explore the growing trend of foreign ownership of farmland and its implications for national security.]]></description>
-										<content:encoded><![CDATA[<p>Who really owns America’s farmland, and why does it matter? In this deep dive into the secretive world of foreign investment in U.S. agricultural land, Kristin Del Rosso and Madeleine Devost explore the growing trend of foreign ownership, which has surged by 50% since 2017, and its profound implications for national security. Using the USDA’s data, the presenters shed light on how these investments could potentially impact everything from local economies to national defense.</p>
-<p>The talk dives into the complexities of the USDA’s data collection methods, revealing how manual processes and outdated systems obscure the true extent of foreign ownership. It also discusses the critical role of the Committee on Foreign Investment in the United States (CFIUS) in safeguarding national interests, and the urgent need for improved data sharing and automation between CFIUS and the USDA.</p>
-<p>Through real-life examples, including controversial land purchases near sensitive military sites, Kristin and Madeleine illustrate the potential risks and propose actionable recommendations to enhance transparency and security.</p>
-<p><iframe loading="lazy" src="https://www.youtube.com/embed/0rsgZfj6MGE" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<h2>About the Authors</h2>
-<p><a href="https://www.linkedin.com/in/kristindelrosso/" target="_blank" rel="noopener noreferrer">Kristin Del Rosso</a> is co-founder and managing director of DevSec, a research firm that provides advanced analytics blended with cyber investigation techniques to support analytics, investigations, and intelligence enrichment in novel ways. Prior to DevSec, she worked as the Public Sector Field CTO at Sophos, and has a background in security product management, threat intelligence, and reverse engineering.</p>
-<p><a href="https://www.linkedin.com/in/madeleine-d-338805186/" target="_blank" rel="noopener noreferrer">Madeleine Devost</a> is an intelligence analyst at Nisos focusing on open-source investigations. Prior to Nisos, she worked as a threat intelligence and investigations consultant for a number of firms including Excivity, RiskIQ and Microsoft.</p>
-<h2>About LABScon</h2>
-<p>This presentation was featured live at <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon</a> 2024, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLABS.</p>
-<p>Keep up with all the latest on <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon 2025</a> here.</p>
-]]></content:encoded>
-					
-		
-		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/farmyard_gossip-ftr.jpg" length="576096" type="image/jpeg" />	</item>
 	</channel>
 </rss>
