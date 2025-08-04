@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 04 Aug 2025 10:05:38 EDT</pubDate>
+        <pubDate>Mon, 04 Aug 2025 11:03:02 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Plague Linux malware stealthily maintains SSH access</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-plague-malware-backdoors-linux-devices-removes-ssh-session-traces/</link>
+        <pubDate>Mon, 04 Aug 2025 10:42:06 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Linux]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-plague-malware-backdoors-linux-devices-removes-ssh-session-traces/</guid>
+	<description><![CDATA[A newly discovered Linux malware, which has evaded detection for over a year, allows attackers to gain persistent SSH access and bypass authentication on compromised systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Ransomware gangs join attacks targeting Microsoft SharePoint servers</title>
         <link>https://www.bleepingcomputer.com/news/security/ransomware-gangs-join-attacks-targeting-microsoft-sharepoint-servers/</link>
@@ -162,22 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/pwn2own-hacking-contest-pays-1-million-for-whatsapp-exploit/</guid>
 	<description><![CDATA[The Zero Day Initiative is offering a $1 million reward to security researchers who will demonstrate a zero-click WhatsApp exploit at its upcoming Pwn2Own Ireland 2025 hacking contest. [...]]]></description>
- </item>
-
- <item>
-        <title>Kali Linux can now run in Apple containers on macOS systems</title>
-        <link>https://www.bleepingcomputer.com/news/security/kali-linux-can-now-run-in-apple-containers-on-macos-systems/</link>
-        <pubDate>Thu, 31 Jul 2025 14:46:11 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Apple]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/kali-linux-can-now-run-in-apple-containers-on-macos-systems/</guid>
-	<description><![CDATA[Cybersecurity professionals and researchers can now launch Kali Linux in a virtualized container on macOS Sequoia using Apple's new containerization framework. [...]]]></description>
  </item>
 
 </channel>
