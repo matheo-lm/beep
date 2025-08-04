@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 04 Aug 2025 07:13:05 EDT</pubDate>
+        <pubDate>Mon, 04 Aug 2025 08:02:01 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Ransomware gangs join attacks targeting Microsoft SharePoint servers</title>
+        <link>https://www.bleepingcomputer.com/news/security/ransomware-gangs-join-attacks-targeting-microsoft-sharepoint-servers/</link>
+        <pubDate>Mon, 04 Aug 2025 07:26:49 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ransomware-gangs-join-attacks-targeting-microsoft-sharepoint-servers/</guid>
+	<description><![CDATA[Ransomware gangs have recently joined ongoing attacks targeting a Microsoft SharePoint vulnerability chain, part of a broader exploitation campaign that has already led to the breach of at least 148 organizations worldwide. [...]]]></description>
+ </item>
+
  <item>
         <title>Mozilla warns of phishing attacks targeting add-on developers</title>
         <link>https://www.bleepingcomputer.com/news/security/mozilla-warns-of-phishing-attacks-targeting-add-on-developers/</link>
@@ -162,38 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/kali-linux-can-now-run-in-apple-containers-on-macos-systems/</guid>
 	<description><![CDATA[Cybersecurity professionals and researchers can now launch Kali Linux in a virtualized container on macOS Sequoia using Apple's new containerization framework. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft to disable Excel workbook links to blocked file types</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-disable-external-workbook-links-to-blocked-file-types/</link>
-        <pubDate>Thu, 31 Jul 2025 14:26:25 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-disable-external-workbook-links-to-blocked-file-types/</guid>
-	<description><![CDATA[Microsoft has announced that it will start disabling external workbook links to blocked file types by default between October 2025 and July 2026. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft now pays up to $40,000 for some .NET vulnerabilities</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-pays-up-to-40-000-for-some-net-vulnerabilities/</link>
-        <pubDate>Thu, 31 Jul 2025 13:23:39 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-pays-up-to-40-000-for-some-net-vulnerabilities/</guid>
-	<description><![CDATA[Microsoft has expanded its .NET bug bounty program and increased rewards to $40,000 for some .NET and ASP.NET Core vulnerabilities. [...]]]></description>
  </item>
 
 </channel>
