@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 05 Aug 2025 05:02:36 EDT</pubDate>
+        <pubDate>Tue, 05 Aug 2025 06:01:21 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft increases Zero Day Quest prize pool to $5 million</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-5-million-prize-pool-for-zero-day-quest-hacking-contest/</link>
+        <pubDate>Tue, 05 Aug 2025 05:46:08 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-5-million-prize-pool-for-zero-day-quest-hacking-contest/</guid>
+	<description><![CDATA[Microsoft will offer up to $5 million in bounty awards at this year's Zero Day Quest hacking contest, which the company describes as the "largest hacking event in history." [...]]]></description>
+ </item>
+
  <item>
         <title>Fashion giant Chanel hit in wave of Salesforce data theft attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/fashion-giant-chanel-hit-in-wave-of-salesforce-data-theft-attacks/</link>
@@ -178,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-may-be-testing-a-cheaper-paid-plan-for-chatgpt/</guid>
 	<description><![CDATA[OpenAI is reportedly working on a new plan called 'Go,' which would be cheaper than the existing $20 Plus subscription. [...]]]></description>
- </item>
-
- <item>
-        <title>SonicWall firewall devices hit in surge of Akira ransomware attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/surge-of-akira-ransomware-attacks-hits-sonicwall-firewall-devices/</link>
-        <pubDate>Fri, 01 Aug 2025 13:28:20 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/surge-of-akira-ransomware-attacks-hits-sonicwall-firewall-devices/</guid>
-	<description><![CDATA[SonicWall firewall devices have been increasingly targeted since late July in a surge of Akira ransomware attacks, potentially exploiting a previously unknown security vulnerability, according to cybersecurity company Arctic Wolf. [...]]]></description>
  </item>
 
 </channel>
