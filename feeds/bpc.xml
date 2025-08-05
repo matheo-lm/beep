@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 05 Aug 2025 06:01:21 EDT</pubDate>
+        <pubDate>Tue, 05 Aug 2025 07:02:05 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Android gets patches for Qualcomm flaws exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/android-gets-patches-for-qualcomm-flaws-exploited-in-attacks/</link>
+        <pubDate>Tue, 05 Aug 2025 06:31:32 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/android-gets-patches-for-qualcomm-flaws-exploited-in-attacks/</guid>
+	<description><![CDATA[Google has released security patches for six vulnerabilities in Android's August 2025 security update, including two Qualcomm flaws exploited in targeted attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft increases Zero Day Quest prize pool to $5 million</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-5-million-prize-pool-for-zero-day-quest-hacking-contest/</link>
@@ -178,22 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-says-openai-engineers-using-claude-code-ahead-of-gpt-5-launch/</guid>
 	<description><![CDATA[Anthropic says it has revoked OpenAI's access to the Claude API after ChatGPT's engineers were found using Claude's coding tools. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI may be testing a cheaper paid plan for ChatGPT</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-may-be-testing-a-cheaper-paid-plan-for-chatgpt/</link>
-        <pubDate>Fri, 01 Aug 2025 16:16:00 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-may-be-testing-a-cheaper-paid-plan-for-chatgpt/</guid>
-	<description><![CDATA[OpenAI is reportedly working on a new plan called 'Go,' which would be cheaper than the existing $20 Plus subscription. [...]]]></description>
  </item>
 
 </channel>
