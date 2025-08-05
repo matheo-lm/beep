@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 05 Aug 2025 18:01:47 EDT</pubDate>
+        <pubDate>Tue, 05 Aug 2025 19:03:25 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Pandora confirms data breach amid ongoing Salesforce data theft attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/pandora-confirms-data-breach-amid-ongoing-salesforce-data-theft-attacks/</link>
+        <pubDate>Tue, 05 Aug 2025 18:16:39 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/pandora-confirms-data-breach-amid-ongoing-salesforce-data-theft-attacks/</guid>
+	<description><![CDATA[Danish jewelry giant Pandora has disclosed a data breach after its customer information was stolen in the ongoing Salesforce data theft attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>PBS confirms data breach after employee info leaked on Discord servers</title>
         <link>https://www.bleepingcomputer.com/news/security/pbs-confirms-data-breach-after-employee-info-leaked-on-discord-servers/</link>
@@ -188,22 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-plague-malware-backdoors-linux-devices-removes-ssh-session-traces/</guid>
 	<description><![CDATA[A newly discovered Linux malware, which has evaded detection for over a year, allows attackers to gain persistent SSH access and bypass authentication on compromised systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Ransomware gangs join attacks targeting Microsoft SharePoint servers</title>
-        <link>https://www.bleepingcomputer.com/news/security/ransomware-gangs-join-attacks-targeting-microsoft-sharepoint-servers/</link>
-        <pubDate>Mon, 04 Aug 2025 07:26:49 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ransomware-gangs-join-attacks-targeting-microsoft-sharepoint-servers/</guid>
-	<description><![CDATA[Ransomware gangs have recently joined ongoing attacks targeting a Microsoft SharePoint vulnerability chain, part of a broader exploitation campaign that has already led to the breach of at least 148 organizations worldwide. [...]]]></description>
  </item>
 
 </channel>
