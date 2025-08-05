@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 05 Aug 2025 10:06:33 EDT</pubDate>
+        <pubDate>Tue, 05 Aug 2025 11:03:02 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>The Heat Wasn't Just Outside: Cyber Attacks Spiked in Summer 2025</title>
+        <link>https://www.bleepingcomputer.com/news/security/the-heat-wasnt-just-outside-cyber-attacks-spiked-in-summer-2025/</link>
+        <pubDate>Tue, 05 Aug 2025 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by Picus Security</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/the-heat-wasnt-just-outside-cyber-attacks-spiked-in-summer-2025/</guid>
+	<description><![CDATA[Can your defenses withstand the biggest attacks of Summer 2025? From Interlock's FileFix to Qilin, Scattered Spider, and ToolShell exploits—simulate them all against your organization's defenses with Picus Security Validation Platform to find gaps before attackers do. [...]]]></description>
+ </item>
+
  <item>
         <title>Cisco discloses data breach impacting Cisco.com user accounts</title>
         <link>https://www.bleepingcomputer.com/news/security/cisco-discloses-data-breach-impacting-ciscocom-user-accounts/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/mozilla-warns-of-phishing-attacks-targeting-add-on-developers/</guid>
 	<description><![CDATA[Mozilla has warned browser extension developers of an active phishing campaign targeting accounts on its official AMO (addons.mozilla.org) repository. [...]]]></description>
- </item>
-
- <item>
-        <title>Attackers exploit link-wrapping services to steal Microsoft 365 logins</title>
-        <link>https://www.bleepingcomputer.com/news/security/attackers-exploit-link-wrapping-services-to-steal-microsoft-365-logins/</link>
-        <pubDate>Sat, 02 Aug 2025 10:24:48 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/attackers-exploit-link-wrapping-services-to-steal-microsoft-365-logins/</guid>
-	<description><![CDATA[A threat actor has been abusing link wrapping services from reputed technology companies to mask malicious links leading to Microsoft 365 phishing pages that collect login credentials. [...]]]></description>
  </item>
 
 </channel>
