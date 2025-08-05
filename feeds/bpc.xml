@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 05 Aug 2025 07:02:05 EDT</pubDate>
+        <pubDate>Tue, 05 Aug 2025 08:04:23 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>SonicWall urges admins to disable SSLVPN amid rising attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/sonicwall-urges-admins-to-disable-sslvpn-amid-rising-attacks/</link>
+        <pubDate>Tue, 05 Aug 2025 07:28:38 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-urges-admins-to-disable-sslvpn-amid-rising-attacks/</guid>
+	<description><![CDATA[SonicWall has warned customers to disable SSLVPN services due to ransomware gangs potentially exploiting an unknown security vulnerability in SonicWall Gen 7 firewalls to breach networks over the past few weeks. [...]]]></description>
+ </item>
+
  <item>
         <title>Android gets patches for Qualcomm flaws exploited in attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/android-gets-patches-for-qualcomm-flaws-exploited-in-attacks/</link>
@@ -162,38 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/attackers-exploit-link-wrapping-services-to-steal-microsoft-365-logins/</guid>
 	<description><![CDATA[A threat actor has been abusing link wrapping services from reputed technology companies to mask malicious links leading to Microsoft 365 phishing pages that collect login credentials. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI prepares new open weight models along with GPT-5</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-prepares-new-open-weight-models-along-with-gpt-5/</link>
-        <pubDate>Sat, 02 Aug 2025 06:01:37 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-prepares-new-open-weight-models-along-with-gpt-5/</guid>
-	<description><![CDATA[OpenAI isn't just working on GPT-5. It looks like OpenAI is also preparing to release new open-source weights, living up to its name, OpenAI.' [...]]]></description>
- </item>
-
- <item>
-        <title>Anthropic says OpenAI engineers using Claude Code ahead of GPT-5 launch</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-says-openai-engineers-using-claude-code-ahead-of-gpt-5-launch/</link>
-        <pubDate>Sat, 02 Aug 2025 05:08:03 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-says-openai-engineers-using-claude-code-ahead-of-gpt-5-launch/</guid>
-	<description><![CDATA[Anthropic says it has revoked OpenAI's access to the Claude API after ChatGPT's engineers were found using Claude's coding tools. [...]]]></description>
  </item>
 
 </channel>
