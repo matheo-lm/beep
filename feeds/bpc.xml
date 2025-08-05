@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 05 Aug 2025 14:03:14 EDT</pubDate>
+        <pubDate>Tue, 05 Aug 2025 15:02:26 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Adobe issues emergency fixes for AEM Forms zero-days after PoCs released</title>
+        <link>https://www.bleepingcomputer.com/news/security/adobe-issues-emergency-fixes-for-aem-forms-zero-days-after-pocs-released/</link>
+        <pubDate>Tue, 05 Aug 2025 15:02:22 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/adobe-issues-emergency-fixes-for-aem-forms-zero-days-after-pocs-released/</guid>
+	<description><![CDATA[Adobe released emergency updates for two zero-day flaws in Adobe Experience Manager (AEM) Forms on JEE after a PoC exploit chain was disclosed that can be used for unauthenticated, remote code execution on vulnerable instances. [...]]]></description>
+ </item>
+
  <item>
         <title>The Heat Wasn't Just Outside: Cyber Attacks Spiked in Summer 2025</title>
         <link>https://www.bleepingcomputer.com/news/security/the-heat-wasnt-just-outside-cyber-attacks-spiked-in-summer-2025/</link>
@@ -133,8 +147,8 @@
  </item>
 
  <item>
-        <title>CTM360 spots Malicious ‘ClickTok’ Campaign Targeting TikTok Shop users</title>
-        <link>https://www.bleepingcomputer.com/news/security/ctm360-spots-malicious-clicktok-campaign-targeting-tiktok-shop-users/</link>
+        <title>CTM360 spots Malicious ‘FraudOnTok’ Campaign Targeting TikTok Shop users</title>
+        <link>https://www.bleepingcomputer.com/news/security/ctm360-spots-malicious-fraudontok-campaign-targeting-tiktok-shop-users/</link>
         <pubDate>Mon, 04 Aug 2025 11:25:36 -0400</pubDate>
         <dc:creator>Sponsored by CTM360</dc:creator>
 
@@ -142,8 +156,8 @@
         <category><![CDATA[Security]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/security/ctm360-spots-malicious-clicktok-campaign-targeting-tiktok-shop-users/</guid>
-	<description><![CDATA[The ClickTok campaign lures victims with fake TikTok shops and drains their crypto wallets. CTM360 exposes how SparkKitty spyware spreads via trojanized apps, phishing pages, and AI-powered scams. [...]]]></description>
+        <guid>https://www.bleepingcomputer.com/news/security/ctm360-spots-malicious-fraudontok-campaign-targeting-tiktok-shop-users/</guid>
+	<description><![CDATA[CTM360 has discovered a new global malware campaign dubbed "FraudOnTok" that spreads the SparkKitty spyware through fake TikTok shops to steal cryptocurrency wallets and drain funds. [...]]]></description>
  </item>
 
  <item>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ransomware-gangs-join-attacks-targeting-microsoft-sharepoint-servers/</guid>
 	<description><![CDATA[Ransomware gangs have recently joined ongoing attacks targeting a Microsoft SharePoint vulnerability chain, part of a broader exploitation campaign that has already led to the breach of at least 148 organizations worldwide. [...]]]></description>
- </item>
-
- <item>
-        <title>Mozilla warns of phishing attacks targeting add-on developers</title>
-        <link>https://www.bleepingcomputer.com/news/security/mozilla-warns-of-phishing-attacks-targeting-add-on-developers/</link>
-        <pubDate>Mon, 04 Aug 2025 06:00:15 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/mozilla-warns-of-phishing-attacks-targeting-add-on-developers/</guid>
-	<description><![CDATA[Mozilla has warned browser extension developers of an active phishing campaign targeting accounts on its official AMO (addons.mozilla.org) repository. [...]]]></description>
  </item>
 
 </channel>
