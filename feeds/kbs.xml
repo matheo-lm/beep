@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 06 Aug 2025 12:33:59 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 06 Aug 2025 13:31:32 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -77,7 +77,7 @@
 <p>Searching the web for Toha&#8217;s email address toschka2003@yandex.ru reveals <a href="https://www.bmwclub.ru/threads/bmw-x5-e70.398405/" target="_blank" rel="noopener">a 2010 sales thread</a> on the forum <strong>bmwclub.ru</strong> where a user named Honeypo was selling a 2007 BMW X5. The ad listed the contact person as Anton Avdeev and gave the contact phone number <strong>9588693.</strong></p>
 <p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-71824" src="https://krebsonsecurity.com/wp-content/uploads/2025/08/bmw-toha.png" alt="" width="878" height="888" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/08/bmw-toha.png 878w, https://krebsonsecurity.com/wp-content/uploads/2025/08/bmw-toha-768x777.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/08/bmw-toha-782x791.png 782w" sizes="(max-width: 878px) 100vw, 878px" /></p>
 <p>A search on the phone number 9588693 in the breach tracking service <strong>Constella Intelligence</strong> finds plenty of official Russian government records with this number, date of birth and the name Anton Viktorovich Avdeev. For example, hacked Russian government records show this person has a Russian tax ID and SIN (Social Security number), and that they were flagged for traffic violations on several occasions by Moscow police; in 2004, 2006, 2009, and 2014.</p>
-<p>Astute readers may have noticed by now that the ages of Mr. Avdeev (45) and the XSS admin arrested this month (38) are quite a bit off. This would seem to suggest that the person arrested is someone other than Mr. Avdeev, who did not respond to requests for comment.</p>
+<p>Astute readers may have noticed by now that the ages of Mr. Avdeev (41) and the XSS admin arrested this month (38) are a bit off. This would seem to suggest that the person arrested is someone other than Mr. Avdeev, who did not respond to requests for comment.</p>
 <h2>A FLY ON THE WALL</h2>
 <p>For further insight on this question, KrebsOnSecurity sought comments from <strong>Sergeii Vovnenko</strong>, a former cybercriminal from Ukraine who now works at the security startup <strong>paranoidlab.com</strong>. I reached out to Vovnenko because for several years beginning around 2010 he was the owner and operator of <strong>thesecure[.]biz</strong>, an encrypted &#8220;Jabber&#8221; instant messaging server that Europol said was operated by the suspect arrested in Kiev. Thesecure[.]biz grew quite popular among many of the top Russian-speaking cybercriminals because it scrupulously kept few records of its users&#8217; activity, and its administrator was always a trusted member of the community.</p>
 <p>The reason I know this historic tidbit is that in 2013, Vovnenko &#8212; using the hacker nicknames &#8220;<strong>Fly</strong>,&#8221; and &#8220;<strong>Flycracker</strong>&#8221; &#8212; <a href="http://krebsonsecurity.com/2013/07/mail-from-the-velvet-cybercrime-underground/" target="_blank" rel="noopener">hatched a plan</a> to have a gram of heroin purchased off of the Silk Road darknet market and shipped to our home in Northern Virginia. The scheme was to spoof a call from one of our neighbors to the local police, saying this guy Krebs down the street was a druggie who was having narcotics delivered to his home.</p>
@@ -613,8 +613,8 @@ Your unique writing style, phraseology, punctuation, consistency of grammatical 
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 272/272 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-08-06 09:06:46 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-08-06 10:03:06 by W3 Total Cache
 -->

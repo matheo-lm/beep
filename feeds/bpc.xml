@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 06 Aug 2025 09:14:09 EDT</pubDate>
+        <pubDate>Wed, 06 Aug 2025 10:01:48 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google suffers data breach in ongoing Salesforce data theft attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/</link>
+        <pubDate>Wed, 06 Aug 2025 09:51:14 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/</guid>
+	<description><![CDATA[Google is the latest company to suffer a data breach in an ongoing wave of Salesforce CRM data theft attacks conducted by the ShinyHunters extortion group. [...]]]></description>
+ </item>
+
+ <item>
+        <title>National Bank of Canada online systems down due to 'technical issue'</title>
+        <link>https://www.bleepingcomputer.com/news/technology/national-bank-of-canada-online-systems-down-due-to-technical-issue/</link>
+        <pubDate>Wed, 06 Aug 2025 09:19:16 -0400</pubDate>
+        <dc:creator>Ax Sharma</dc:creator>
+
+        
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/technology/national-bank-of-canada-online-systems-down-due-to-technical-issue/</guid>
+	<description><![CDATA[National Bank of Canada (Banque Nationale du Canada), the sixth largest commercial bank of Canada is currently experiencing a widespread service outage affecting its online banking and mobile app platforms. [...]]]></description>
+ </item>
+
  <item>
         <title>ReVault flaws let hackers bypass Windows login on Dell laptops</title>
         <link>https://www.bleepingcomputer.com/news/security/revault-flaws-let-hackers-bypass-windows-login-on-dell-laptops/</link>
@@ -156,38 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/sonicwall-urges-admins-to-disable-sslvpn-amid-rising-attacks/</guid>
 	<description><![CDATA[SonicWall has warned customers to disable SSLVPN services due to ransomware gangs potentially exploiting an unknown security vulnerability in SonicWall Gen 7 firewalls to breach networks over the past few weeks. [...]]]></description>
- </item>
-
- <item>
-        <title>Android gets patches for Qualcomm flaws exploited in attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/android-gets-patches-for-qualcomm-flaws-exploited-in-attacks/</link>
-        <pubDate>Tue, 05 Aug 2025 06:31:32 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/android-gets-patches-for-qualcomm-flaws-exploited-in-attacks/</guid>
-	<description><![CDATA[Google has released security patches for six vulnerabilities in Android's August 2025 security update, including two Qualcomm flaws exploited in targeted attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft increases Zero Day Quest prize pool to $5 million</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-5-million-prize-pool-for-zero-day-quest-hacking-contest/</link>
-        <pubDate>Tue, 05 Aug 2025 05:46:08 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-5-million-prize-pool-for-zero-day-quest-hacking-contest/</guid>
-	<description><![CDATA[Microsoft will offer up to $5 million in bounty awards at this year's Zero Day Quest hacking contest, which the company describes as the "largest hacking event in history." [...]]]></description>
  </item>
 
 </channel>
