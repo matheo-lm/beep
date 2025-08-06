@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 06 Aug 2025 12:00:41 EDT</pubDate>
+        <pubDate>Wed, 06 Aug 2025 13:03:51 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Ghost Calls tactic abuses Zoom and Microsoft Teams for C2 operations</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-ghost-calls-tactic-abuses-zoom-and-microsoft-teams-for-c2-operations/</link>
+        <pubDate>Wed, 06 Aug 2025 12:36:13 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-ghost-calls-tactic-abuses-zoom-and-microsoft-teams-for-c2-operations/</guid>
+	<description><![CDATA[A new post-exploitation command-and-control (C2) evasion method called 'Ghost Calls' abuses TURN servers used by conferencing apps like Zoom and Microsoft Teams to tunnel traffic through trusted infrastructure. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Hacker extradited to US for stealing $3.3 million from taxpayers</title>
+        <link>https://www.bleepingcomputer.com/news/security/hacker-extradited-to-us-for-stealing-33-million-from-taxpayers/</link>
+        <pubDate>Wed, 06 Aug 2025 12:09:02 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hacker-extradited-to-us-for-stealing-33-million-from-taxpayers/</guid>
+	<description><![CDATA[Nigerian national Chukwuemeka Victor Amachukwu has been extradited from France to the U.S. to face charges of hacking, fraud, and identity theft for suspected spearphishing attacks on U.S. tax preparation businesses. [...]]]></description>
+ </item>
+
  <item>
         <title>MFA matters… But it isn’t enough on its own </title>
         <link>https://www.bleepingcomputer.com/news/security/mfa-matters-but-it-isnt-enough-on-its-own/</link>
@@ -172,34 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/the-heat-wasnt-just-outside-cyber-attacks-spiked-in-summer-2025/</guid>
 	<description><![CDATA[Can your defenses withstand the biggest attacks of Summer 2025? From Interlock's FileFix to Qilin, Scattered Spider, and ToolShell exploits—simulate them all against your organization's defenses with Picus Security Validation Platform to find gaps before attackers do. [...]]]></description>
- </item>
-
- <item>
-        <title>Cisco discloses data breach impacting Cisco.com user accounts</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisco-discloses-data-breach-impacting-ciscocom-user-accounts/</link>
-        <pubDate>Tue, 05 Aug 2025 08:17:12 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisco-discloses-data-breach-impacting-ciscocom-user-accounts/</guid>
-	<description><![CDATA[Cisco has disclosed that cybercriminals stole the basic profile information of users registered on Cisco.com following a voice phishing (vishing) attack that targeted a company representative. [...]]]></description>
- </item>
-
- <item>
-        <title>SonicWall urges admins to disable SSLVPN amid rising attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/sonicwall-urges-admins-to-disable-sslvpn-amid-rising-attacks/</link>
-        <pubDate>Tue, 05 Aug 2025 07:28:38 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-urges-admins-to-disable-sslvpn-amid-rising-attacks/</guid>
-	<description><![CDATA[SonicWall has warned customers to disable SSLVPN services due to ransomware gangs potentially exploiting an unknown security vulnerability in SonicWall Gen 7 firewalls to breach networks over the past few weeks. [...]]]></description>
  </item>
 
 </channel>

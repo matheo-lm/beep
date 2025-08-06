@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 06 Aug 2025 13:31:32 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 06 Aug 2025 16:33:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -96,7 +96,7 @@
 <p>XSS relaunched on a new Tor address shortly after the authorities plastered their seizure notice on the forum&#8217;s  homepage, but all of the trusted moderators from the old forum were dismissed without explanation. Existing members saw their forum account balances drop to zero, and were asked to plunk down a deposit to register at the new forum. The new XSS &#8220;admin&#8221; said they were in contact with the previous owners and that the changes were to help rebuild security and trust within the community.</p>
 <p>However, the new admin&#8217;s assurances appear to have done little to assuage the worst fears of the forum&#8217;s erstwhile members, most of whom seem to be keeping their distance from the relaunched site for now.</p>
 <p>Indeed, if there is one common understanding amid all of these discussions about the seizure of XSS, it is that Ukrainian and French authorities now have several years worth of private messages between XSS forum users, as well as contact rosters and other user data linked to the seized Jabber server.</p>
-<p>&#8220;The myth of the &#8216;trusted person&#8217; is shattered,&#8221; the user &#8220;GordonBellford&#8221; cautioned on Aug. 3 in an Exploit forum thread that spans dozens of pages. &#8220;The forum is run by strangers. They got everything. Two years of Jabber server logs. Full backup and forum database.&#8221;</p>
+<p>&#8220;The myth of the &#8216;trusted person&#8217; is shattered,&#8221; the user &#8220;GordonBellford&#8221; cautioned on Aug. 3 in an Exploit forum thread about the XSS admin arrest. &#8220;The forum is run by strangers. They got everything. Two years of Jabber server logs. Full backup and forum database.&#8221;</p>
 <p>GordonBellford continued:</p>
 <blockquote><p>And the scariest thing is: this data array is not just an archive. It is material for analysis that has ALREADY BEEN DONE . With the help of modern tools, they see everything:</p>
 <p>Graphs of your contacts and activity.<br />
@@ -616,5 +616,5 @@ Object Caching 272/272 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-08-06 11:59:04 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-08-06 13:05:03 by W3 Total Cache
 -->
