@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 06 Aug 2025 16:02:26 EDT</pubDate>
+        <pubDate>Wed, 06 Aug 2025 17:01:14 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Akira ransomware abuses CPU tuning tool to disable Microsoft Defender</title>
+        <link>https://www.bleepingcomputer.com/news/security/akira-ransomware-abuses-cpu-tuning-tool-to-disable-microsoft-defender/</link>
+        <pubDate>Wed, 06 Aug 2025 16:15:57 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/akira-ransomware-abuses-cpu-tuning-tool-to-disable-microsoft-defender/</guid>
+	<description><![CDATA[Akira ransomware is abusing a legitimate Intel CPU tuning driver to turn off Microsoft Defender in attacks from security tools and EDRs running on target machines. [...]]]></description>
+ </item>
+
  <item>
         <title>New Ghost Calls tactic abuses Zoom and Microsoft Teams for C2 operations</title>
         <link>https://www.bleepingcomputer.com/news/security/new-ghost-calls-tactic-abuses-zoom-and-microsoft-teams-for-c2-operations/</link>
@@ -188,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/adobe-issues-emergency-fixes-for-aem-forms-zero-days-after-pocs-released/</guid>
 	<description><![CDATA[Adobe released emergency updates for two zero-day flaws in Adobe Experience Manager (AEM) Forms on JEE after a PoC exploit chain was disclosed that can be used for unauthenticated, remote code execution on vulnerable instances. [...]]]></description>
- </item>
-
- <item>
-        <title>The Heat Wasn't Just Outside: Cyber Attacks Spiked in Summer 2025</title>
-        <link>https://www.bleepingcomputer.com/news/security/the-heat-wasnt-just-outside-cyber-attacks-spiked-in-summer-2025/</link>
-        <pubDate>Tue, 05 Aug 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by Picus Security</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/the-heat-wasnt-just-outside-cyber-attacks-spiked-in-summer-2025/</guid>
-	<description><![CDATA[Can your defenses withstand the biggest attacks of Summer 2025? From Interlock's FileFix to Qilin, Scattered Spider, and ToolShell exploits—simulate them all against your organization's defenses with Picus Security Validation Platform to find gaps before attackers do. [...]]]></description>
  </item>
 
 </channel>
