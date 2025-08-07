@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 07 Aug 2025 16:03:47 EDT</pubDate>
+        <pubDate>Thu, 07 Aug 2025 17:00:04 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA orders fed agencies to patch new Exchange flaw by Monday</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-orders-fed-agencies-to-patch-new-cve-2025-53786-exchange-flaw/</link>
+        <pubDate>Thu, 07 Aug 2025 16:14:16 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-orders-fed-agencies-to-patch-new-cve-2025-53786-exchange-flaw/</guid>
+	<description><![CDATA[CISA has issued an emergency directive ordering all Federal Civilian Executive Branch (FCEB) agencies to mitigate a critical Microsoft Exchange hybrid vulnerability tracked as CVE-2025-53786 by Monday morning at 9:00 AM ET. [...]]]></description>
+ </item>
+
  <item>
         <title>ChatGPT's GPT-5 models released: everything you need to know</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-gpt-5-models-released-everything-you-need-to-know/</link>
@@ -176,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/akira-ransomware-abuses-cpu-tuning-tool-to-disable-microsoft-defender/</guid>
 	<description><![CDATA[Akira ransomware is abusing a legitimate Intel CPU tuning driver to turn off Microsoft Defender in attacks from security tools and EDRs running on target machines. [...]]]></description>
- </item>
-
- <item>
-        <title>New Ghost Calls tactic abuses Zoom and Microsoft Teams for C2 operations</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-ghost-calls-tactic-abuses-zoom-and-microsoft-teams-for-c2-operations/</link>
-        <pubDate>Wed, 06 Aug 2025 12:36:13 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-ghost-calls-tactic-abuses-zoom-and-microsoft-teams-for-c2-operations/</guid>
-	<description><![CDATA[A new post-exploitation command-and-control (C2) evasion method called 'Ghost Calls' abuses TURN servers used by conferencing apps like Zoom and Microsoft Teams to tunnel traffic through trusted infrastructure. [...]]]></description>
  </item>
 
 </channel>
