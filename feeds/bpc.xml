@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 07 Aug 2025 11:02:03 EDT</pubDate>
+        <pubDate>Thu, 07 Aug 2025 12:02:55 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>SonicWall finds no SSLVPN zero-day, links ransomware attacks to 2024 flaw</title>
+        <link>https://www.bleepingcomputer.com/news/security/sonicwall-finds-no-sslvpn-zero-day-links-ransomware-attacks-to-2024-flaw/</link>
+        <pubDate>Thu, 07 Aug 2025 11:27:43 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-finds-no-sslvpn-zero-day-links-ransomware-attacks-to-2024-flaw/</guid>
+	<description><![CDATA[SonicWall says that recent Akira ransomware attacks exploiting Gen 7 firewalls with SSLVPN enabled are exploiting an older vulnerability rather than a zero-day flaw. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Wave of 150 crypto-draining extensions hits Firefox add-on store</title>
+        <link>https://www.bleepingcomputer.com/news/security/wave-of-150-crypto-draining-extensions-hits-firefox-add-on-store/</link>
+        <pubDate>Thu, 07 Aug 2025 10:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/wave-of-150-crypto-draining-extensions-hits-firefox-add-on-store/</guid>
+	<description><![CDATA[A malicious campaign dubbed 'GreedyBear' has snuck onto the Mozilla add-ons store, targeting Firefox users with 150 malicious extensions and stealing an estimated $1,000,000 from unsuspecting victims. [...]]]></description>
+ </item>
+
  <item>
         <title>Cryptomixer founders pled guilty to laundering money for cybercriminals</title>
         <link>https://www.bleepingcomputer.com/news/security/samourai-cryptomixer-founders-pled-guilty-to-laundering-money-for-cybercriminals/</link>
@@ -176,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/technology/national-bank-of-canada-online-systems-down-due-to-technical-issue/</guid>
 	<description><![CDATA[National Bank of Canada (Banque Nationale du Canada), the sixth largest commercial bank of Canada is currently experiencing a widespread service outage affecting its online banking and mobile app platforms. [...]]]></description>
- </item>
-
- <item>
-        <title>ReVault flaws let hackers bypass Windows login on Dell laptops</title>
-        <link>https://www.bleepingcomputer.com/news/security/revault-flaws-let-hackers-bypass-windows-login-on-dell-laptops/</link>
-        <pubDate>Wed, 06 Aug 2025 07:58:07 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/revault-flaws-let-hackers-bypass-windows-login-on-dell-laptops/</guid>
-	<description><![CDATA[ControlVault3 firmware vulnerabilities impacting over 100 Dell laptop models can allow attackers to bypass Windows login and install malware that persists across system reinstalls. [...]]]></description>
  </item>
 
 </channel>
