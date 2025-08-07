@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 07 Aug 2025 14:03:37 EDT</pubDate>
+        <pubDate>Thu, 07 Aug 2025 15:03:38 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ChatGPT's GPT-5 models released: everything you need to know</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-gpt-5-models-released-everything-you-need-to-know/</link>
+        <pubDate>Thu, 07 Aug 2025 15:03:32 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-gpt-5-models-released-everything-you-need-to-know/</guid>
+	<description><![CDATA[After a long wait, GPT-5 is finally rolling out. It's available for free, Plus, Pro and Team users today. This means everyone gets to try GPT-5 today, but paid users get higher limits. [...]]]></description>
+ </item>
+
  <item>
         <title>New EDR killer tool used by eight different ransomware groups</title>
         <link>https://www.bleepingcomputer.com/news/security/new-edr-killer-tool-used-by-eight-different-ransomware-groups/</link>
@@ -174,36 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-ghost-calls-tactic-abuses-zoom-and-microsoft-teams-for-c2-operations/</guid>
 	<description><![CDATA[A new post-exploitation command-and-control (C2) evasion method called 'Ghost Calls' abuses TURN servers used by conferencing apps like Zoom and Microsoft Teams to tunnel traffic through trusted infrastructure. [...]]]></description>
- </item>
-
- <item>
-        <title>Hacker extradited to US for stealing $3.3 million from taxpayers</title>
-        <link>https://www.bleepingcomputer.com/news/security/hacker-extradited-to-us-for-stealing-33-million-from-taxpayers/</link>
-        <pubDate>Wed, 06 Aug 2025 12:09:02 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hacker-extradited-to-us-for-stealing-33-million-from-taxpayers/</guid>
-	<description><![CDATA[Nigerian national Chukwuemeka Victor Amachukwu has been extradited from France to the U.S. to face charges of hacking, fraud, and identity theft for suspected spearphishing attacks on U.S. tax preparation businesses. [...]]]></description>
- </item>
-
- <item>
-        <title>MFA matters… But it isn’t enough on its own </title>
-        <link>https://www.bleepingcomputer.com/news/security/mfa-matters-but-it-isnt-enough-on-its-own/</link>
-        <pubDate>Wed, 06 Aug 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Specops Software</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/mfa-matters-but-it-isnt-enough-on-its-own/</guid>
-	<description><![CDATA[MFA blocks 99% of attacks—but weak passwords still let attackers in. Specops helps you enforce strong password policies and MFA everywhere, so one layer doesn't undo the other. Book your free trial today. [...]]]></description>
  </item>
 
 </channel>
