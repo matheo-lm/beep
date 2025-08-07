@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 07 Aug 2025 03:04:38 EDT</pubDate>
+        <pubDate>Thu, 07 Aug 2025 04:04:36 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft warns of high-severity flaw in hybrid Exchange deployments</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-high-severity-flaw-in-hybrid-exchange-deployments/</link>
+        <pubDate>Thu, 07 Aug 2025 03:50:45 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-high-severity-flaw-in-hybrid-exchange-deployments/</guid>
+	<description><![CDATA[Microsoft has warned customers to mitigate a high-severity vulnerability in Exchange Server hybrid deployments that could allow attackers to escalate their privileges in Exchange Online cloud environments without leaving any traces. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft accidentally confirms GPT-5, GPT-5-Mini, GPT-5-Nano ahead of launch</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/microsoft-accidentally-confirms-gpt-5-gpt-5-mini-gpt-5-nano-ahead-of-launch/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/pandora-confirms-data-breach-amid-ongoing-salesforce-data-theft-attacks/</guid>
 	<description><![CDATA[Danish jewelry giant Pandora has disclosed a data breach after its customer information was stolen in the ongoing Salesforce data theft attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>PBS confirms data breach after employee info leaked on Discord servers</title>
-        <link>https://www.bleepingcomputer.com/news/security/pbs-confirms-data-breach-after-employee-info-leaked-on-discord-servers/</link>
-        <pubDate>Tue, 05 Aug 2025 17:06:29 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/pbs-confirms-data-breach-after-employee-info-leaked-on-discord-servers/</guid>
-	<description><![CDATA[PBS has suffered a data breach exposing the corporate contact information of its employees and those of its affiliates, BleepingComputer has learned. [...]]]></description>
  </item>
 
 </channel>
