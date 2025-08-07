@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 07 Aug 2025 13:04:21 EDT</pubDate>
+        <pubDate>Thu, 07 Aug 2025 14:03:37 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New EDR killer tool used by eight different ransomware groups</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-edr-killer-tool-used-by-eight-different-ransomware-groups/</link>
+        <pubDate>Thu, 07 Aug 2025 13:58:31 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-edr-killer-tool-used-by-eight-different-ransomware-groups/</guid>
+	<description><![CDATA[A new Endpoint Detection and Response (EDR) killer that is considered to be the evolution of 'EDRKillShifter,' developed by RansomHub, has been observed in attacks by eight different ransomware gangs. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Bouygues Telecom confirms data breach impacting 6.4 million customers</title>
+        <link>https://www.bleepingcomputer.com/news/security/bouygues-telecom-confirms-data-breach-impacting-64-million-customers/</link>
+        <pubDate>Thu, 07 Aug 2025 13:23:13 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/bouygues-telecom-confirms-data-breach-impacting-64-million-customers/</guid>
+	<description><![CDATA[Bouygues Telecom warns it suffered a data breach after the personal information of 6.4 million customers was exposed in a cyberattack. [...]]]></description>
+ </item>
+
  <item>
         <title>SonicWall finds no SSLVPN zero-day, links ransomware attacks to 2024 flaw</title>
         <link>https://www.bleepingcomputer.com/news/security/sonicwall-finds-no-sslvpn-zero-day-links-ransomware-attacks-to-2024-flaw/</link>
@@ -176,36 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/mfa-matters-but-it-isnt-enough-on-its-own/</guid>
 	<description><![CDATA[MFA blocks 99% of attacks—but weak passwords still let attackers in. Specops helps you enforce strong password policies and MFA everywhere, so one layer doesn't undo the other. Book your free trial today. [...]]]></description>
- </item>
-
- <item>
-        <title>Google suffers data breach in ongoing Salesforce data theft attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/</link>
-        <pubDate>Wed, 06 Aug 2025 09:51:14 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/</guid>
-	<description><![CDATA[Google is the latest company to suffer a data breach in an ongoing wave of Salesforce CRM data theft attacks conducted by the ShinyHunters extortion group. [...]]]></description>
- </item>
-
- <item>
-        <title>National Bank of Canada online systems down due to 'technical issue'</title>
-        <link>https://www.bleepingcomputer.com/news/technology/national-bank-of-canada-online-systems-down-due-to-technical-issue/</link>
-        <pubDate>Wed, 06 Aug 2025 09:19:16 -0400</pubDate>
-        <dc:creator>Ax Sharma</dc:creator>
-
-        
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/technology/national-bank-of-canada-online-systems-down-due-to-technical-issue/</guid>
-	<description><![CDATA[National Bank of Canada (Banque Nationale du Canada), the sixth largest commercial bank of Canada is currently experiencing a widespread service outage affecting its online banking and mobile app platforms. [...]]]></description>
  </item>
 
 </channel>
