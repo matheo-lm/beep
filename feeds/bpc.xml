@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 08 Aug 2025 05:03:45 EDT</pubDate>
+        <pubDate>Fri, 08 Aug 2025 05:59:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft will kill the Lens PDF scanner app for iOS, Android</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-will-kill-the-microsoft-lens-pdf-scanner-app-for-ios-android-in-september/</link>
+        <pubDate>Fri, 08 Aug 2025 05:59:19 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-will-kill-the-microsoft-lens-pdf-scanner-app-for-ios-android-in-september/</guid>
+	<description><![CDATA[Microsoft announced that it will phase out the Microsoft Lens PDF scanner app for Android and iOS devices starting September 15, 2025. [...]]]></description>
+ </item>
+
  <item>
         <title>Columbia University data breach impacts nearly 870,000 individuals</title>
         <link>https://www.bleepingcomputer.com/news/security/columbia-university-data-breach-impacts-nearly-870-000-students-applicants-employees/</link>
@@ -188,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/air-france-and-klm-disclose-data-breaches-impacting-customers/</guid>
 	<description><![CDATA[Air France and KLM announced on Wednesday that attackers had breached a customer service platform and stolen the data of an undisclosed number of customers. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft warns of high-severity flaw in hybrid Exchange deployments</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-high-severity-flaw-in-hybrid-exchange-deployments/</link>
-        <pubDate>Thu, 07 Aug 2025 03:50:45 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-high-severity-flaw-in-hybrid-exchange-deployments/</guid>
-	<description><![CDATA[Microsoft has warned customers to mitigate a high-severity vulnerability in Exchange Server hybrid deployments that could allow attackers to escalate privileges in Exchange Online cloud environments undetected. [...]]]></description>
  </item>
 
 </channel>
