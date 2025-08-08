@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 08 Aug 2025 16:00:43 EDT</pubDate>
+        <pubDate>Fri, 08 Aug 2025 17:02:13 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>WinRAR zero-day flaw exploited by RomCom hackers in phishing attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/winrar-zero-day-flaw-exploited-by-romcom-hackers-in-phishing-attacks/</link>
+        <pubDate>Fri, 08 Aug 2025 16:42:02 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/winrar-zero-day-flaw-exploited-by-romcom-hackers-in-phishing-attacks/</guid>
+	<description><![CDATA[A recently fixed WinRAR vulnerability tracked as CVE-2025-8088 was exploited as a zero-day in phishing attacks to install the RomCom malware. [...]]]></description>
+ </item>
+
  <item>
         <title>FTC: older adults lost record $700 million to scammers in 2024</title>
         <link>https://www.bleepingcomputer.com/news/security/ftc-older-adults-lost-record-700-million-to-scammers-in-2024/</link>
@@ -188,22 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/sonicwall-finds-no-sslvpn-zero-day-links-ransomware-attacks-to-2024-flaw/</guid>
 	<description><![CDATA[SonicWall says that recent Akira ransomware attacks exploiting Gen 7 firewalls with SSLVPN enabled are exploiting an older vulnerability rather than a zero-day flaw. [...]]]></description>
- </item>
-
- <item>
-        <title>Wave of 150 crypto-draining extensions hits Firefox add-on store</title>
-        <link>https://www.bleepingcomputer.com/news/security/wave-of-150-crypto-draining-extensions-hits-firefox-add-on-store/</link>
-        <pubDate>Thu, 07 Aug 2025 10:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/wave-of-150-crypto-draining-extensions-hits-firefox-add-on-store/</guid>
-	<description><![CDATA[A malicious campaign dubbed 'GreedyBear' has snuck onto the Mozilla add-ons store, targeting Firefox users with 150 malicious extensions and stealing an estimated $1,000,000 from unsuspecting victims. [...]]]></description>
  </item>
 
 </channel>
