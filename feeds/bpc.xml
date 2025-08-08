@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 08 Aug 2025 04:01:44 EDT</pubDate>
+        <pubDate>Fri, 08 Aug 2025 05:03:45 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Columbia University data breach impacts nearly 870,000 individuals</title>
+        <link>https://www.bleepingcomputer.com/news/security/columbia-university-data-breach-impacts-nearly-870-000-students-applicants-employees/</link>
+        <pubDate>Fri, 08 Aug 2025 04:43:28 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/columbia-university-data-breach-impacts-nearly-870-000-students-applicants-employees/</guid>
+	<description><![CDATA[​An unknown threat actor has stolen the sensitive personal, financial, and health information of nearly 870,000 Columbia University current and former students and employees after breaching the university's network in May. [...]]]></description>
+ </item>
+
  <item>
         <title>Royal and BlackSuit ransomware gangs hit over 450 US companies</title>
         <link>https://www.bleepingcomputer.com/news/security/royal-and-blacksuit-ransomware-gangs-hit-over-450-us-companies/</link>
@@ -188,22 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-high-severity-flaw-in-hybrid-exchange-deployments/</guid>
 	<description><![CDATA[Microsoft has warned customers to mitigate a high-severity vulnerability in Exchange Server hybrid deployments that could allow attackers to escalate privileges in Exchange Online cloud environments undetected. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft accidentally confirms GPT-5, GPT-5-Mini, GPT-5-Nano ahead of launch</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/microsoft-accidentally-confirms-gpt-5-gpt-5-mini-gpt-5-nano-ahead-of-launch/</link>
-        <pubDate>Thu, 07 Aug 2025 02:49:12 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/microsoft-accidentally-confirms-gpt-5-gpt-5-mini-gpt-5-nano-ahead-of-launch/</guid>
-	<description><![CDATA[OpenAI is hosting a live stream at 10AM PT to announce GPT-5, but Microsoft has already confirmed the details. [...]]]></description>
  </item>
 
 </channel>
