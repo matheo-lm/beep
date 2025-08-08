@@ -11,13 +11,29 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 08 Aug 2025 17:02:13 EDT</pubDate>
+        <pubDate>Fri, 08 Aug 2025 18:01:21 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
  <item>
-        <title>WinRAR zero-day flaw exploited by RomCom hackers in phishing attacks</title>
+        <title>OpenAI to fix GPT-5 issues, double rate limits for paid users after outrage</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-to-fix-gpt-5-issues-double-rate-limits-for-paid-users-after-outrage/</link>
+        <pubDate>Fri, 08 Aug 2025 17:23:43 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-to-fix-gpt-5-issues-double-rate-limits-for-paid-users-after-outrage/</guid>
+	<description><![CDATA[OpenAI's CEO, Sam Altman, overpromised on GPT-5, and real-life results are underwhelming, but it looks like a new update is rolling out that might address some of the concerns. [...]]]></description>
+ </item>
+
+ <item>
+        <title>WinRAR zero-day exploited to plant malware on archive extraction</title>
         <link>https://www.bleepingcomputer.com/news/security/winrar-zero-day-flaw-exploited-by-romcom-hackers-in-phishing-attacks/</link>
         <pubDate>Fri, 08 Aug 2025 16:42:02 -0400</pubDate>
         <dc:creator>Lawrence Abrams</dc:creator>
@@ -188,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/bouygues-telecom-confirms-data-breach-impacting-64-million-customers/</guid>
 	<description><![CDATA[Bouygues Telecom warns it suffered a data breach after the personal information of 6.4 million customers was exposed in a cyberattack. [...]]]></description>
- </item>
-
- <item>
-        <title>SonicWall finds no SSLVPN zero-day, links ransomware attacks to 2024 flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/sonicwall-finds-no-sslvpn-zero-day-links-ransomware-attacks-to-2024-flaw/</link>
-        <pubDate>Thu, 07 Aug 2025 11:27:43 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-finds-no-sslvpn-zero-day-links-ransomware-attacks-to-2024-flaw/</guid>
-	<description><![CDATA[SonicWall says that recent Akira ransomware attacks exploiting Gen 7 firewalls with SSLVPN enabled are exploiting an older vulnerability rather than a zero-day flaw. [...]]]></description>
  </item>
 
 </channel>
