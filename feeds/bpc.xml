@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 09 Aug 2025 15:01:30 EDT</pubDate>
+        <pubDate>Sat, 09 Aug 2025 16:00:49 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google confirms data breach exposed potential Google Ads customers' info</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-confirms-data-breach-exposed-potential-google-ads-customers-info/</link>
+        <pubDate>Sat, 09 Aug 2025 15:15:59 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-confirms-data-breach-exposed-potential-google-ads-customers-info/</guid>
+	<description><![CDATA[Google has confirmed that a recently disclosed data breach of one of its Salesforce CRM instances involved the information of potential Google Ads customers. [...]]]></description>
+ </item>
+
+ <item>
+        <title>60 malicious Ruby gems downloaded 275,000 times steal credentials</title>
+        <link>https://www.bleepingcomputer.com/news/security/60-malicious-ruby-gems-downloaded-275-000-times-steal-credentials/</link>
+        <pubDate>Sat, 09 Aug 2025 10:11:21 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/60-malicious-ruby-gems-downloaded-275-000-times-steal-credentials/</guid>
+	<description><![CDATA[Sixty malicious Ruby gems containing credential-stealing code have been downloaded over 275,000 times since March 2023, targeting developer accounts. [...]]]></description>
+ </item>
+
  <item>
         <title>OpenAI to fix GPT-5 issues, double rate limits for paid users after outrage</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-to-fix-gpt-5-issues-double-rate-limits-for-paid-users-after-outrage/</link>
@@ -176,34 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-gpt-5-models-released-everything-you-need-to-know/</guid>
 	<description><![CDATA[After a long wait, GPT-5 is finally rolling out. It's available for free, Plus, Pro and Team users today. This means everyone gets to try GPT-5 today, but paid users get higher limits. [...]]]></description>
- </item>
-
- <item>
-        <title>New EDR killer tool used by eight different ransomware groups</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-edr-killer-tool-used-by-eight-different-ransomware-groups/</link>
-        <pubDate>Thu, 07 Aug 2025 13:58:31 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-edr-killer-tool-used-by-eight-different-ransomware-groups/</guid>
-	<description><![CDATA[A new Endpoint Detection and Response (EDR) killer that is considered to be the evolution of 'EDRKillShifter,' developed by RansomHub, has been observed in attacks by eight different ransomware gangs. [...]]]></description>
- </item>
-
- <item>
-        <title>Bouygues Telecom confirms data breach impacting 6.4 million customers</title>
-        <link>https://www.bleepingcomputer.com/news/security/bouygues-telecom-confirms-data-breach-impacting-64-million-customers/</link>
-        <pubDate>Thu, 07 Aug 2025 13:23:13 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/bouygues-telecom-confirms-data-breach-impacting-64-million-customers/</guid>
-	<description><![CDATA[Bouygues Telecom warns it suffered a data breach after the personal information of 6.4 million customers was exposed in a cyberattack. [...]]]></description>
  </item>
 
 </channel>
