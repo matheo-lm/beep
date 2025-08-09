@@ -467,6 +467,19 @@
       "categories": [],
       "isoDate": "2025-07-29T14:54:00.000Z",
       "tag": "exploits"
+    },
+    {
+      "creator": "Google Project Zero (noreply@blogger.com)",
+      "title": "From Chrome renderer code exec to kernel with MSG_OOB",
+      "link": "https://googleprojectzero.blogspot.com/2025/08/from-chrome-renderer-code-exec-to-kernel.html",
+      "pubDate": "2025-08-08T03:43:00.000-07:00",
+      "dc:creator": "Google Project Zero (noreply@blogger.com)",
+      "content": "Posted by Jann Horn, Google Project ZeroIntroduction\nIn early June, I was reviewing a new Linux kernel feature when I learned about the MSG_OOB feature supported by stream-oriented UNIX domain sockets. I reviewed the implementation of MSG_O[...]",
+      "contentSnippet": "Posted by Jann Horn, Google Project ZeroIntroduction\nIn early June, I was reviewing a new Linux kernel feature when I learned about the MSG_OOB feature supported by stream-oriented UNIX domain sockets. I reviewed the implementation of MSG_O[...]",
+      "guid": "https://googleprojectzero.blogspot.com/2025/08/from-chrome-renderer-code-exec-to-kernel.html",
+      "categories": [],
+      "isoDate": "2025-08-08T10:43:00.000Z",
+      "tag": "exploits"
     }
   ]
 }
