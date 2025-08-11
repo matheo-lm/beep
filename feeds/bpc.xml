@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 11 Aug 2025 05:04:28 EDT</pubDate>
+        <pubDate>Mon, 11 Aug 2025 06:02:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Over 29,000 Exchange servers unpatched against high-severity flaw</title>
+        <link>https://www.bleepingcomputer.com/news/security/over-29-000-exchange-servers-unpatched-against-high-severity-flaw/</link>
+        <pubDate>Mon, 11 Aug 2025 05:35:55 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/over-29-000-exchange-servers-unpatched-against-high-severity-flaw/</guid>
+	<description><![CDATA[Over 29,000 Exchange servers exposed online remain unpatched against a high-severity vulnerability that can let attackers move laterally in Microsoft cloud environments, potentially leading to complete domain compromise. [...]]]></description>
+ </item>
+
  <item>
         <title>Connex Credit Union data breach impacts 172,000 members</title>
         <link>https://www.bleepingcomputer.com/news/security/connex-credit-union-discloses-data-breach-impacting-172-000-people/</link>
@@ -178,20 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-will-kill-the-microsoft-lens-pdf-scanner-app-for-ios-android-in-september/</guid>
 	<description><![CDATA[Microsoft announced that it will phase out the Microsoft Lens PDF scanner app for Android and iOS devices starting September 15, 2025. [...]]]></description>
- </item>
-
- <item>
-        <title>Columbia University data breach impacts nearly 870,000 individuals</title>
-        <link>https://www.bleepingcomputer.com/news/security/columbia-university-data-breach-impacts-nearly-870-000-students-applicants-employees/</link>
-        <pubDate>Fri, 08 Aug 2025 04:43:28 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/columbia-university-data-breach-impacts-nearly-870-000-students-applicants-employees/</guid>
-	<description><![CDATA[​An unknown threat actor has stolen the sensitive personal, financial, and health information of nearly 870,000 Columbia University current and former students and employees after breaching the university's network in May. [...]]]></description>
  </item>
 
 </channel>
