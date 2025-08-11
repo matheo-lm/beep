@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 11 Aug 2025 14:01:50 EDT</pubDate>
+        <pubDate>Mon, 11 Aug 2025 15:01:05 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Details emerge on WinRAR zero-day attacks that infected PCs with malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/details-emerge-on-winrar-zero-day-attacks-that-infected-pcs-with-malware/</link>
+        <pubDate>Mon, 11 Aug 2025 14:05:47 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/details-emerge-on-winrar-zero-day-attacks-that-infected-pcs-with-malware/</guid>
+	<description><![CDATA[Researchers have released a report detailing how a recent WinRAR path traversal vulnerability tracked as CVE-2025-8088 was exploited in zero-day attacks by the Russian 'RomCom' hacking group to drop different malware payloads. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft tests cloud-based Windows 365 disaster recovery PCs</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-cloud-based-windows-365-disaster-recovery-pcs/</link>
@@ -194,20 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-confirms-data-breach-exposed-potential-google-ads-customers-info/</guid>
 	<description><![CDATA[Google has confirmed that a recently disclosed data breach of one of its Salesforce CRM instances involved the information of potential Google Ads customers. [...]]]></description>
- </item>
-
- <item>
-        <title>60 malicious Ruby gems downloaded 275,000 times steal credentials</title>
-        <link>https://www.bleepingcomputer.com/news/security/60-malicious-ruby-gems-downloaded-275-000-times-steal-credentials/</link>
-        <pubDate>Sat, 09 Aug 2025 10:11:21 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/60-malicious-ruby-gems-downloaded-275-000-times-steal-credentials/</guid>
-	<description><![CDATA[Sixty malicious Ruby gems containing credential-stealing code have been downloaded over 275,000 times since March 2023, targeting developer accounts. [...]]]></description>
  </item>
 
 </channel>
