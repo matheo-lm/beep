@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 11 Aug 2025 02:03:30 EDT</pubDate>
+        <pubDate>Mon, 11 Aug 2025 03:06:02 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>How to restore GPT-4o when you've GPT-5</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/how-to-restore-gpt-4o-when-youve-gpt-5/</link>
+        <pubDate>Mon, 11 Aug 2025 02:40:40 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/how-to-restore-gpt-4o-when-youve-gpt-5/</guid>
+	<description><![CDATA[Sam Altman overhyped GPT-5 and the results are underwhelming. Some users are upset with GPT-5's new personality, but you can restore GPT-4o if you pay for the Plus plan. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Google Calendar invites let researchers hijack Gemini to leak user data</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-calendar-invites-let-researchers-hijack-gemini-to-leak-user-data/</link>
+        <pubDate>Sun, 10 Aug 2025 10:12:22 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-calendar-invites-let-researchers-hijack-gemini-to-leak-user-data/</guid>
+	<description><![CDATA[Google fixed a bug that allowed maliciously crafted Google Calendar invites to remotely take over Gemini agents running on the target's device and leak sensitive user data. [...]]]></description>
+ </item>
+
  <item>
         <title>Google confirms data breach exposed potential Google Ads customers' info</title>
         <link>https://www.bleepingcomputer.com/news/security/google-confirms-data-breach-exposed-potential-google-ads-customers-info/</link>
@@ -162,50 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/royal-and-blacksuit-ransomware-gangs-hit-over-450-us-companies/</guid>
 	<description><![CDATA[The U.S. Department of Homeland Security (DHS) says the cybercrime gang behind the Royal and BlackSuit ransomware operations had breached hundreds of U.S. companies before their infrastructure was dismantled last month. [...]]]></description>
- </item>
-
- <item>
-        <title>Fake WhatsApp developer libraries hide destructive data-wiping code</title>
-        <link>https://www.bleepingcomputer.com/news/security/fake-whatsapp-developer-libraries-hide-destructive-data-wiping-code/</link>
-        <pubDate>Thu, 07 Aug 2025 17:42:30 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fake-whatsapp-developer-libraries-hide-destructive-data-wiping-code/</guid>
-	<description><![CDATA[Two malicious NPM packages posing as WhatsApp development tools have been discovered deploying destructive data-wiping code that recursively deletes files on a developer's computers. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA orders fed agencies to patch new Exchange flaw by Monday</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-orders-fed-agencies-to-patch-new-cve-2025-53786-exchange-flaw/</link>
-        <pubDate>Thu, 07 Aug 2025 16:14:16 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-orders-fed-agencies-to-patch-new-cve-2025-53786-exchange-flaw/</guid>
-	<description><![CDATA[CISA has issued an emergency directive ordering all Federal Civilian Executive Branch (FCEB) agencies to mitigate a critical Microsoft Exchange hybrid vulnerability tracked as CVE-2025-53786 by Monday morning at 9:00 AM ET. [...]]]></description>
- </item>
-
- <item>
-        <title>ChatGPT's GPT-5 models released: everything you need to know</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-gpt-5-models-released-everything-you-need-to-know/</link>
-        <pubDate>Thu, 07 Aug 2025 15:03:32 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-gpt-5-models-released-everything-you-need-to-know/</guid>
-	<description><![CDATA[After a long wait, GPT-5 is finally rolling out. It's available for free, Plus, Pro and Team users today. This means everyone gets to try GPT-5 today, but paid users get higher limits. [...]]]></description>
  </item>
 
 </channel>
