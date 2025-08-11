@@ -11,11 +11,57 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 11 Aug 2025 11:59:06 EDT</pubDate>
+        <pubDate>Mon, 11 Aug 2025 13:00:48 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft tests cloud-based Windows 365 disaster recovery PCs</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-cloud-based-windows-365-disaster-recovery-pcs/</link>
+        <pubDate>Mon, 11 Aug 2025 12:50:37 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-cloud-based-windows-365-disaster-recovery-pcs/</guid>
+	<description><![CDATA[Microsoft has announced the limited public preview of Windows 365 Reserve, a service that provides temporary desktop access to pre-configured cloud PCs for employees whose computers have become unavailable due to cyberattacks, hardware issues, or software problems. [...]]]></description>
+ </item>
+
+ <item>
+        <title>OpenAI is testing 3,000-per-week limit for GPT-5 Thinking</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-3-000-per-week-limit-for-gpt-5-thinking/</link>
+        <pubDate>Mon, 11 Aug 2025 12:49:32 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-3-000-per-week-limit-for-gpt-5-thinking/</guid>
+	<description><![CDATA[OpenAI has responded to criticism that it shipped GPT-5 with token limits to minimize cost and maximize profit not with words, but rather with a new 3,000-per-week limit. [...]]]></description>
+ </item>
+
+ <item>
+        <title>OneNote finally gets "paste text only" feature on Windows and Mac</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/onenote-finally-gets-paste-text-only-feature-on-windows-and-mac/</link>
+        <pubDate>Mon, 11 Aug 2025 12:10:39 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/onenote-finally-gets-paste-text-only-feature-on-windows-and-mac/</guid>
+	<description><![CDATA[Microsoft confirmed that it's testing the ability to paste text only (plain format) to OneNote for Windows and Mac. [...]]]></description>
+ </item>
+
  <item>
         <title>xAI is testing Grok 4.20 to take on GPT-5, may launch this month</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/xai-is-testing-grok-420-to-take-on-gpt-5-may-launch-this-month/</link>
@@ -30,6 +76,20 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/xai-is-testing-grok-420-to-take-on-gpt-5-may-launch-this-month/</guid>
 	<description><![CDATA[Elon Musk-owned xAI is testing Grok 4.20, a small update to Grok 4, which already competes with GPT-5 in some benchmarks, such as ARC-AGI 2. [...]]]></description>
+ </item>
+
+ <item>
+        <title>The Rise of Native Phishing: Microsoft 365 Apps Abused in Attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/the-rise-of-native-phishing-microsoft-365-apps-abused-in-attacks/</link>
+        <pubDate>Mon, 11 Aug 2025 11:17:28 -0400</pubDate>
+        <dc:creator>Sponsored by Varonis</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/the-rise-of-native-phishing-microsoft-365-apps-abused-in-attacks/</guid>
+	<description><![CDATA[Native phishing turns trusted tools into attack delivery systems. Varonis shows how attackers weaponize Microsoft 365 apps, like OneNote & OneDrive, to send convincing internal lures and how to spot them before they spread. [...]]]></description>
  </item>
 
  <item>
@@ -148,50 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/60-malicious-ruby-gems-downloaded-275-000-times-steal-credentials/</guid>
 	<description><![CDATA[Sixty malicious Ruby gems containing credential-stealing code have been downloaded over 275,000 times since March 2023, targeting developer accounts. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI to fix GPT-5 issues, double rate limits for paid users after outrage</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-to-fix-gpt-5-issues-double-rate-limits-for-paid-users-after-outrage/</link>
-        <pubDate>Fri, 08 Aug 2025 17:23:43 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-to-fix-gpt-5-issues-double-rate-limits-for-paid-users-after-outrage/</guid>
-	<description><![CDATA[OpenAI's CEO, Sam Altman, overpromised on GPT-5, and real-life results are underwhelming, but it looks like a new update is rolling out that might address some of the concerns. [...]]]></description>
- </item>
-
- <item>
-        <title>WinRAR zero-day exploited to plant malware on archive extraction</title>
-        <link>https://www.bleepingcomputer.com/news/security/winrar-zero-day-flaw-exploited-by-romcom-hackers-in-phishing-attacks/</link>
-        <pubDate>Fri, 08 Aug 2025 16:42:02 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/winrar-zero-day-flaw-exploited-by-romcom-hackers-in-phishing-attacks/</guid>
-	<description><![CDATA[A recently fixed WinRAR vulnerability tracked as CVE-2025-8088 was exploited as a zero-day in phishing attacks to install the RomCom malware. [...]]]></description>
- </item>
-
- <item>
-        <title>FTC: Older adults lost record $700 million to scammers in 2024</title>
-        <link>https://www.bleepingcomputer.com/news/security/ftc-older-adults-lost-record-700-million-to-scammers-in-2024/</link>
-        <pubDate>Fri, 08 Aug 2025 13:55:10 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ftc-older-adults-lost-record-700-million-to-scammers-in-2024/</guid>
-	<description><![CDATA[Americans aged 60 and older lost a staggering $700 million to online scams in 2024, marking a sharp rise in fraud targeting seniors, according to the Federal Trade Commission. [...]]]></description>
  </item>
 
 </channel>
