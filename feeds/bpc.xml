@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 11 Aug 2025 15:01:05 EDT</pubDate>
+        <pubDate>Mon, 11 Aug 2025 16:00:09 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Netherlands: Citrix Netscaler flaw CVE-2025-6543 exploited to breach orgs</title>
+        <link>https://www.bleepingcomputer.com/news/security/netherlands-citrix-netscaler-flaw-cve-2025-6543-exploited-to-breach-orgs/</link>
+        <pubDate>Mon, 11 Aug 2025 15:19:49 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/netherlands-citrix-netscaler-flaw-cve-2025-6543-exploited-to-breach-orgs/</guid>
+	<description><![CDATA[The Netherlands' National Cyber Security Centre (NCSC) is warning that a critical Citrix NetScaler vulnerability tracked as CVE-2025-6543 was exploited to breach "critical organizations" in the country. [...]]]></description>
+ </item>
+
  <item>
         <title>Details emerge on WinRAR zero-day attacks that infected PCs with malware</title>
         <link>https://www.bleepingcomputer.com/news/security/details-emerge-on-winrar-zero-day-attacks-that-infected-pcs-with-malware/</link>
@@ -192,22 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-calendar-invites-let-researchers-hijack-gemini-to-leak-user-data/</guid>
 	<description><![CDATA[Google fixed a bug that allowed maliciously crafted Google Calendar invites to remotely take over Gemini agents running on the target's device and leak sensitive user data. [...]]]></description>
- </item>
-
- <item>
-        <title>Google confirms data breach exposed potential Google Ads customers' info</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-confirms-data-breach-exposed-potential-google-ads-customers-info/</link>
-        <pubDate>Sat, 09 Aug 2025 15:15:59 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-confirms-data-breach-exposed-potential-google-ads-customers-info/</guid>
-	<description><![CDATA[Google has confirmed that a recently disclosed data breach of one of its Salesforce CRM instances involved the information of potential Google Ads customers. [...]]]></description>
  </item>
 
 </channel>
