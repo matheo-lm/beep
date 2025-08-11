@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 11 Aug 2025 06:58:54 EDT</pubDate>
+        <pubDate>Mon, 11 Aug 2025 08:03:38 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>'Chairmen' of $100 million scam operation extradited to US</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-charges-ghanaians-linked-to-theft-of-100-million-in-romance-scams-bec-attacks/</link>
+        <pubDate>Mon, 11 Aug 2025 08:03:34 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-charges-ghanaians-linked-to-theft-of-100-million-in-romance-scams-bec-attacks/</guid>
+	<description><![CDATA[The U.S. Department of Justice charged four Ghanaian nationals for their roles in a massive fraud ring linked to the theft of over $100 million in romance scams and business email compromise attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Over 29,000 Exchange servers unpatched against high-severity flaw</title>
         <link>https://www.bleepingcomputer.com/news/security/over-29-000-exchange-servers-unpatched-against-high-severity-flaw/</link>
@@ -164,36 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-judiciary-confirms-breach-of-court-electronic-records-service/</guid>
 	<description><![CDATA[The U.S. Federal Judiciary confirms that it suffered a cyberattack on its electronic case management systems hosting confidential court documents and is strengthening cybersecurity measures. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft 365 apps to soon block file access via FPRPC by default</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-365-apps-to-soon-block-file-access-via-insecure-fprpc-legacy-auth-protocol-by-default/</link>
-        <pubDate>Fri, 08 Aug 2025 06:52:47 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-365-apps-to-soon-block-file-access-via-insecure-fprpc-legacy-auth-protocol-by-default/</guid>
-	<description><![CDATA[Microsoft has announced that the Microsoft 365 apps for Windows will start blocking access to files via the insecure FPRPC legacy authentication protocol by default starting late August. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft will kill the Lens PDF scanner app for iOS, Android</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-will-kill-the-microsoft-lens-pdf-scanner-app-for-ios-android-in-september/</link>
-        <pubDate>Fri, 08 Aug 2025 05:59:19 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-will-kill-the-microsoft-lens-pdf-scanner-app-for-ios-android-in-september/</guid>
-	<description><![CDATA[Microsoft announced that it will phase out the Microsoft Lens PDF scanner app for Android and iOS devices starting September 15, 2025. [...]]]></description>
  </item>
 
 </channel>
