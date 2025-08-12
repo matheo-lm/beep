@@ -11,11 +11,57 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 12 Aug 2025 13:00:47 EDT</pubDate>
+        <pubDate>Tue, 12 Aug 2025 14:04:10 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft August 2025 Patch Tuesday fixes one zero-day, 107 flaws</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2025-patch-tuesday-fixes-one-zero-day-107-flaws/</link>
+        <pubDate>Tue, 12 Aug 2025 13:43:50 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2025-patch-tuesday-fixes-one-zero-day-107-flaws/</guid>
+	<description><![CDATA[Today is Microsoft's August 2025 Patch Tuesday, which includes security updates for 107 flaws, including one publicly disclosed zero-day vulnerability in Windows Kerberos. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 KB5063878 &amp; KB5063875 cumulative updates released</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5063878-and-kb5063875-cumulative-updates-released/</link>
+        <pubDate>Tue, 12 Aug 2025 13:34:26 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5063878-and-kb5063875-cumulative-updates-released/</guid>
+	<description><![CDATA[Microsoft has released Windows 11 KB5063878 and KB5063875 cumulative updates for versions 24H2 and 23H2 to fix security vulnerabilities and issues. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 10 KB5063709 update fixes extended security updates enrollment</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5063709-update-fixes-extended-security-updates-enrollment/</link>
+        <pubDate>Tue, 12 Aug 2025 13:15:48 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5063709-update-fixes-extended-security-updates-enrollment/</guid>
+	<description><![CDATA[Microsoft has released the KB5063709 cumulative update for Windows 10 22H2 and Windows 10 21H2, with seven fixes or changes, including a fix for a bug that prevented enrollment in extended security updates. [...]]]></description>
+ </item>
+
  <item>
         <title>US govt seizes $1 million in crypto from BlackSuit ransomware gang</title>
         <link>https://www.bleepingcomputer.com/news/security/us-govt-seizes-1-million-in-crypto-from-blacksuit-ransomware-gang/</link>
@@ -178,52 +224,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/details-emerge-on-winrar-zero-day-attacks-that-infected-pcs-with-malware/</guid>
 	<description><![CDATA[Researchers have released a report detailing how a recent WinRAR path traversal vulnerability tracked as CVE-2025-8088 was exploited in zero-day attacks by the Russian 'RomCom' hacking group to drop different malware payloads. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft tests cloud-based Windows 365 disaster recovery PCs</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-cloud-based-windows-365-disaster-recovery-pcs/</link>
-        <pubDate>Mon, 11 Aug 2025 12:50:37 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-cloud-based-windows-365-disaster-recovery-pcs/</guid>
-	<description><![CDATA[Microsoft has announced the limited public preview of Windows 365 Reserve, a service that provides temporary desktop access to pre-configured cloud PCs for employees whose computers have become unavailable due to cyberattacks, hardware issues, or software problems. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI is testing 3,000-per-week limit for GPT-5 Thinking</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-3-000-per-week-limit-for-gpt-5-thinking/</link>
-        <pubDate>Mon, 11 Aug 2025 12:49:32 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-3-000-per-week-limit-for-gpt-5-thinking/</guid>
-	<description><![CDATA[OpenAI has responded to criticism that it shipped GPT-5 with token limits to minimize cost and maximize profit not with words, but rather with a new 3,000-per-week limit. [...]]]></description>
- </item>
-
- <item>
-        <title>OneNote finally gets "paste text only" feature on Windows and Mac</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/onenote-finally-gets-paste-text-only-feature-on-windows-and-mac/</link>
-        <pubDate>Mon, 11 Aug 2025 12:10:39 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/onenote-finally-gets-paste-text-only-feature-on-windows-and-mac/</guid>
-	<description><![CDATA[Microsoft confirmed that it's testing the ability to paste text only (plain format) to OneNote for Windows and Mac. [...]]]></description>
  </item>
 
 </channel>
