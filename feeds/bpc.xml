@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 12 Aug 2025 14:04:10 EDT</pubDate>
+        <pubDate>Tue, 12 Aug 2025 14:58:31 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Docker Hub still hosts dozens of Linux images with the XZ backdoor</title>
+        <link>https://www.bleepingcomputer.com/news/security/docker-hub-still-hosts-dozens-of-linux-images-with-the-xz-backdoor/</link>
+        <pubDate>Tue, 12 Aug 2025 14:43:20 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Linux]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/docker-hub-still-hosts-dozens-of-linux-images-with-the-xz-backdoor/</guid>
+	<description><![CDATA[The XZ-Utils backdoor, first discovered in March 2024, is still present in at least 35 Linux images on Docker Hub, potentially putting users, organizations, and their data at risk. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft August 2025 Patch Tuesday fixes one zero-day, 107 flaws</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2025-patch-tuesday-fixes-one-zero-day-107-flaws/</link>
@@ -196,34 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/north-korean-kimsuky-hackers-exposed-in-alleged-data-breach/</guid>
 	<description><![CDATA[The North Korean state-sponsored hackers known as Kimsuky has reportedly suffered a data breach after two hackers, who describe themselves as the opposite of Kimsuky's values, stole the group's data and leaked it publicly online. [...]]]></description>
- </item>
-
- <item>
-        <title>Netherlands: Citrix Netscaler flaw CVE-2025-6543 exploited to breach orgs</title>
-        <link>https://www.bleepingcomputer.com/news/security/netherlands-citrix-netscaler-flaw-cve-2025-6543-exploited-to-breach-orgs/</link>
-        <pubDate>Mon, 11 Aug 2025 15:19:49 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/netherlands-citrix-netscaler-flaw-cve-2025-6543-exploited-to-breach-orgs/</guid>
-	<description><![CDATA[The Netherlands' National Cyber Security Centre (NCSC) is warning that a critical Citrix NetScaler vulnerability tracked as CVE-2025-6543 was exploited to breach "critical organizations" in the country. [...]]]></description>
- </item>
-
- <item>
-        <title>Details emerge on WinRAR zero-day attacks that infected PCs with malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/details-emerge-on-winrar-zero-day-attacks-that-infected-pcs-with-malware/</link>
-        <pubDate>Mon, 11 Aug 2025 14:05:47 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/details-emerge-on-winrar-zero-day-attacks-that-infected-pcs-with-malware/</guid>
-	<description><![CDATA[Researchers have released a report detailing how a recent WinRAR path traversal vulnerability tracked as CVE-2025-8088 was exploited in zero-day attacks by the Russian 'RomCom' hacking group to drop different malware payloads. [...]]]></description>
  </item>
 
 </channel>
