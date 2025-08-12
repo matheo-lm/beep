@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 12 Aug 2025 08:04:17 EDT</pubDate>
+        <pubDate>Tue, 12 Aug 2025 09:13:19 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 11 23H2 Home and Pro reach end of support in November</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-23h2-home-and-pro-reach-end-of-support-in-november/</link>
+        <pubDate>Tue, 12 Aug 2025 09:13:09 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-23h2-home-and-pro-reach-end-of-support-in-november/</guid>
+	<description><![CDATA[Microsoft announced today that systems running Home and Pro editions of Windows 11 23H2 will stop receiving updates in three months. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Manpower discloses data breach affecting nearly 145,000 people</title>
+        <link>https://www.bleepingcomputer.com/news/security/manpower-staffing-agency-discloses-data-breach-after-attack-claimed-by-ransomhub/</link>
+        <pubDate>Tue, 12 Aug 2025 08:19:30 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/manpower-staffing-agency-discloses-data-breach-after-attack-claimed-by-ransomhub/</guid>
+	<description><![CDATA[Manpower, one of the world's largest staffing companies, is notifying nearly 145,000 individuals that their information was stolen by attackers who breached the company's systems in December 2024. [...]]]></description>
+ </item>
+
  <item>
         <title>Saint Paul cyberattack linked to Interlock ransomware gang</title>
         <link>https://www.bleepingcomputer.com/news/security/saint-paul-cyberattack-linked-to-interlock-ransomware-gang/</link>
@@ -174,50 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-charges-ghanaians-linked-to-theft-of-100-million-in-romance-scams-bec-attacks/</guid>
 	<description><![CDATA[The U.S. Department of Justice charged four Ghanaian nationals for their roles in a massive fraud ring linked to the theft of over $100 million in romance scams and business email compromise attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Over 29,000 Exchange servers unpatched against high-severity flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/over-29-000-exchange-servers-unpatched-against-high-severity-flaw/</link>
-        <pubDate>Mon, 11 Aug 2025 05:35:55 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/over-29-000-exchange-servers-unpatched-against-high-severity-flaw/</guid>
-	<description><![CDATA[Over 29,000 Exchange servers exposed online remain unpatched against a high-severity vulnerability that can let attackers move laterally in Microsoft cloud environments, potentially leading to complete domain compromise. [...]]]></description>
- </item>
-
- <item>
-        <title>Connex Credit Union data breach impacts 172,000 members</title>
-        <link>https://www.bleepingcomputer.com/news/security/connex-credit-union-discloses-data-breach-impacting-172-000-people/</link>
-        <pubDate>Mon, 11 Aug 2025 04:18:56 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/connex-credit-union-discloses-data-breach-impacting-172-000-people/</guid>
-	<description><![CDATA[Connex, one of Connecticut's largest credit unions, warned tens of thousands of members that unknown attackers had stolen their personal and financial information after breaching its systems in early June. [...]]]></description>
- </item>
-
- <item>
-        <title>How to restore GPT-4o when you've GPT-5</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/how-to-restore-gpt-4o-when-youve-gpt-5/</link>
-        <pubDate>Mon, 11 Aug 2025 02:40:40 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/how-to-restore-gpt-4o-when-youve-gpt-5/</guid>
-	<description><![CDATA[Sam Altman overhyped GPT-5 and the results are underwhelming. Some users are upset with GPT-5's new personality, but you can restore GPT-4o if you pay for the Plus plan. [...]]]></description>
  </item>
 
 </channel>
