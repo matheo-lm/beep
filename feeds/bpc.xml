@@ -11,11 +11,49 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 12 Aug 2025 12:02:26 EDT</pubDate>
+        <pubDate>Tue, 12 Aug 2025 13:00:47 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US govt seizes $1 million in crypto from BlackSuit ransomware gang</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-govt-seizes-1-million-in-crypto-from-blacksuit-ransomware-gang/</link>
+        <pubDate>Tue, 12 Aug 2025 12:18:34 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-govt-seizes-1-million-in-crypto-from-blacksuit-ransomware-gang/</guid>
+	<description><![CDATA[The U.S. Department of Justice (DoJ) seized cryptocurrency and digital assets worth $1,091,453 at the time of confiscation, on January 9, 2024, from the BlackSuit ransomware gang. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Android's pKVM hypervisor earns SESIP Level 5 security certification</title>
+        <link>https://www.bleepingcomputer.com/news/security/androids-pkvm-hypervisor-earns-sesip-level-5-security-certification/</link>
+        <pubDate>Tue, 12 Aug 2025 12:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/androids-pkvm-hypervisor-earns-sesip-level-5-security-certification/</guid>
+	<description><![CDATA[Google announced that its protected Kernel-based Virtual Machine (pKVM) for Android has achieved SESIP Level 5 certification, the highest security assurance level for IoT and mobile platforms. [...]]]></description>
+ </item>
+
  <item>
         <title>Curly COMrades cyberspies hit govt orgs with custom malware</title>
         <link>https://www.bleepingcomputer.com/news/security/curly-comrades-cyberspies-hit-govt-orgs-with-custom-malware/</link>
@@ -186,36 +224,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/onenote-finally-gets-paste-text-only-feature-on-windows-and-mac/</guid>
 	<description><![CDATA[Microsoft confirmed that it's testing the ability to paste text only (plain format) to OneNote for Windows and Mac. [...]]]></description>
- </item>
-
- <item>
-        <title>xAI is testing Grok 4.20 to take on GPT-5, may launch this month</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/xai-is-testing-grok-420-to-take-on-gpt-5-may-launch-this-month/</link>
-        <pubDate>Mon, 11 Aug 2025 11:34:44 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/xai-is-testing-grok-420-to-take-on-gpt-5-may-launch-this-month/</guid>
-	<description><![CDATA[Elon Musk-owned xAI is testing Grok 4.20, a small update to Grok 4, which already competes with GPT-5 in some benchmarks, such as ARC-AGI 2. [...]]]></description>
- </item>
-
- <item>
-        <title>The Rise of Native Phishing: Microsoft 365 Apps Abused in Attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/the-rise-of-native-phishing-microsoft-365-apps-abused-in-attacks/</link>
-        <pubDate>Mon, 11 Aug 2025 11:17:28 -0400</pubDate>
-        <dc:creator>Sponsored by Varonis</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/the-rise-of-native-phishing-microsoft-365-apps-abused-in-attacks/</guid>
-	<description><![CDATA[Native phishing turns trusted tools into attack delivery systems. Varonis shows how attackers weaponize Microsoft 365 apps, like OneNote & OneDrive, to send convincing internal lures and how to spot them before they spread. [...]]]></description>
  </item>
 
 </channel>
