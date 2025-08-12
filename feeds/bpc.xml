@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 12 Aug 2025 07:01:24 EDT</pubDate>
+        <pubDate>Tue, 12 Aug 2025 08:04:17 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Saint Paul cyberattack linked to Interlock ransomware gang</title>
+        <link>https://www.bleepingcomputer.com/news/security/saint-paul-cyberattack-linked-to-interlock-ransomware-gang/</link>
+        <pubDate>Tue, 12 Aug 2025 07:03:24 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/saint-paul-cyberattack-linked-to-interlock-ransomware-gang/</guid>
+	<description><![CDATA[The mayor of Saint Paul, Minnesota's capital city, has confirmed that the Interlock ransomware gang is responsible for a cyberattack that disrupted many of the city's systems and services in July. [...]]]></description>
+ </item>
+
  <item>
         <title>North Korean Kimsuky hackers exposed in alleged data breach</title>
         <link>https://www.bleepingcomputer.com/news/security/north-korean-kimsuky-hackers-exposed-in-alleged-data-breach/</link>
@@ -204,22 +218,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/how-to-restore-gpt-4o-when-youve-gpt-5/</guid>
 	<description><![CDATA[Sam Altman overhyped GPT-5 and the results are underwhelming. Some users are upset with GPT-5's new personality, but you can restore GPT-4o if you pay for the Plus plan. [...]]]></description>
- </item>
-
- <item>
-        <title>Google Calendar invites let researchers hijack Gemini to leak user data</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-calendar-invites-let-researchers-hijack-gemini-to-leak-user-data/</link>
-        <pubDate>Sun, 10 Aug 2025 10:12:22 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-calendar-invites-let-researchers-hijack-gemini-to-leak-user-data/</guid>
-	<description><![CDATA[Google fixed a bug that allowed maliciously crafted Google Calendar invites to remotely take over Gemini agents running on the target's device and leak sensitive user data. [...]]]></description>
  </item>
 
 </channel>
