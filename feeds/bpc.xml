@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 13 Aug 2025 07:01:20 EDT</pubDate>
+        <pubDate>Wed, 13 Aug 2025 08:04:47 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>OpenAI adds new GPT-5 models, restores o3, o4-mini and it's a mess all over again</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-adds-new-gpt-5-models-restores-o3-o4-mini-and-its-a-mess-all-over-again/</link>
+        <pubDate>Wed, 13 Aug 2025 07:24:31 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-adds-new-gpt-5-models-restores-o3-o4-mini-and-its-a-mess-all-over-again/</guid>
+	<description><![CDATA[One of the few things many disliked about ChatGPT was the confusing number of models. OpenAI claimed GPT-5 would fix this, but it seems to have made it worse. [...]]]></description>
+ </item>
+
  <item>
         <title>Claude gets 1M tokens support via API to take on Gemini 2.5 Pro</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-gets-1m-tokens-support-via-api-to-take-on-gemini-25-pro/</link>
@@ -204,34 +220,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/over-3-000-netscaler-devices-left-unpatched-against-actively-exploited-citrixbleed-2-flaw/</guid>
 	<description><![CDATA[Over 3,300 Citrix NetScaler devices remain unpatched against a critical vulnerability that allows attackers to bypass authentication by hijacking user sessions, nearly two months after patches were released. [...]]]></description>
- </item>
-
- <item>
-        <title>275M patient records breached—How to meet HIPAA password manager requirements</title>
-        <link>https://www.bleepingcomputer.com/news/security/275m-patient-records-breached-how-to-meet-hipaa-password-manager-requirements/</link>
-        <pubDate>Tue, 12 Aug 2025 09:57:05 -0400</pubDate>
-        <dc:creator>Sponsored by Passwork</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/275m-patient-records-breached-how-to-meet-hipaa-password-manager-requirements/</guid>
-	<description><![CDATA[Healthcare led all industries in 2024 breaches—over 275M patient records exposed, mostly via weak or stolen passwords. See how the self-hosted password manager by Passwork helps providers meet HIPAA requirements, protect ePHI, and keep healthcare running. Try it free for 1 month. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 23H2 Home and Pro reach end of support in November</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-23h2-home-and-pro-reach-end-of-support-in-november/</link>
-        <pubDate>Tue, 12 Aug 2025 09:13:09 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-23h2-home-and-pro-reach-end-of-support-in-november/</guid>
-	<description><![CDATA[Microsoft announced today that systems running Home and Pro editions of Windows 11 23H2 will stop receiving updates in three months. [...]]]></description>
  </item>
 
 </channel>
