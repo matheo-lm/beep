@@ -11,11 +11,55 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 13 Aug 2025 14:59:00 EDT</pubDate>
+        <pubDate>Wed, 13 Aug 2025 16:59:22 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Fortinet warns of FortiSIEM pre-auth RCE flaw with exploit in the wild</title>
+        <link>https://www.bleepingcomputer.com/news/security/fortinet-warns-of-fortisiem-pre-auth-rce-flaw-with-exploit-in-the-wild/</link>
+        <pubDate>Wed, 13 Aug 2025 16:23:15 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fortinet-warns-of-fortisiem-pre-auth-rce-flaw-with-exploit-in-the-wild/</guid>
+	<description><![CDATA[Fortinet is warning about a remote unauthenticated command injection flaw in FortiSIEM that has in-the-wild exploit code, making it critical for admins to apply the latest security updates. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 24H2 updates failing again with 0x80240069 errors</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-updates-failing-again-with-0x80240069-errors/</link>
+        <pubDate>Wed, 13 Aug 2025 15:41:37 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-updates-failing-again-with-0x80240069-errors/</guid>
+	<description><![CDATA[The KB5063878 Windows 11 24H2 cumulative update, released earlier this week, fails to install on some systems according to widespread reports from Windows administrators. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New downgrade attack can bypass FIDO auth in Microsoft Entra ID</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-downgrade-attack-can-bypass-fido-auth-in-microsoft-entra-id/</link>
+        <pubDate>Wed, 13 Aug 2025 15:14:23 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-downgrade-attack-can-bypass-fido-auth-in-microsoft-entra-id/</guid>
+	<description><![CDATA[Security researchers have created a new FIDO downgrade attack against Microsoft Entra ID that tricks users into authenticating with weaker login methods, making them susceptible to phishing and session hijacking. [...]]]></description>
+ </item>
+
  <item>
         <title>Spike in Fortinet VPN brute-force attacks raises zero-day concerns</title>
         <link>https://www.bleepingcomputer.com/news/security/spike-in-fortinet-vpn-brute-force-attacks-raises-zero-day-concerns/</link>
@@ -168,52 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/docker-hub-still-hosts-dozens-of-linux-images-with-the-xz-backdoor/</guid>
 	<description><![CDATA[The XZ-Utils backdoor, first discovered in March 2024, is still present in at least 35 Linux images on Docker Hub, potentially putting users, organizations, and their data at risk. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft August 2025 Patch Tuesday fixes one zero-day, 107 flaws</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2025-patch-tuesday-fixes-one-zero-day-107-flaws/</link>
-        <pubDate>Tue, 12 Aug 2025 13:43:50 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2025-patch-tuesday-fixes-one-zero-day-107-flaws/</guid>
-	<description><![CDATA[Today is Microsoft's August 2025 Patch Tuesday, which includes security updates for 107 flaws, including one publicly disclosed zero-day vulnerability in Windows Kerberos. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 KB5063878 &amp; KB5063875 cumulative updates released</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5063878-and-kb5063875-cumulative-updates-released/</link>
-        <pubDate>Tue, 12 Aug 2025 13:34:26 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5063878-and-kb5063875-cumulative-updates-released/</guid>
-	<description><![CDATA[Microsoft has released Windows 11 KB5063878 and KB5063875 cumulative updates for versions 24H2 and 23H2 to fix security vulnerabilities and issues. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 10 KB5063709 update fixes extended security updates enrollment</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5063709-update-fixes-extended-security-updates-enrollment/</link>
-        <pubDate>Tue, 12 Aug 2025 13:15:48 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5063709-update-fixes-extended-security-updates-enrollment/</guid>
-	<description><![CDATA[Microsoft has released the KB5063709 cumulative update for Windows 10 22H2 and Windows 10 21H2, with seven fixes or changes, including a fix for a bug that prevented enrollment in extended security updates. [...]]]></description>
  </item>
 
 </channel>
