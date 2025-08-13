@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 13 Aug 2025 09:10:05 EDT</pubDate>
+        <pubDate>Wed, 13 Aug 2025 10:00:34 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft removes PowerShell 2.0 from Windows 11, Windows Server</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-powershell-20-from-windows-11-windows-server/</link>
+        <pubDate>Wed, 13 Aug 2025 09:35:22 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-powershell-20-from-windows-11-windows-server/</guid>
+	<description><![CDATA[Microsoft will remove PowerShell 2.0 from Windows starting in August, eight years after announcing its deprecation and keeping it around as an optional feature. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft asks users to ignore certificate enrollment errors</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-certificate-enrollment-errors/</link>
@@ -206,20 +222,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/androids-pkvm-hypervisor-earns-sesip-level-5-security-certification/</guid>
 	<description><![CDATA[Google announced that its protected Kernel-based Virtual Machine (pKVM) for Android has achieved SESIP Level 5 certification, the highest security assurance level for IoT and mobile platforms. [...]]]></description>
- </item>
-
- <item>
-        <title>Curly COMrades cyberspies hit govt orgs with custom malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/curly-comrades-cyberspies-hit-govt-orgs-with-custom-malware/</link>
-        <pubDate>Tue, 12 Aug 2025 10:43:45 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/curly-comrades-cyberspies-hit-govt-orgs-with-custom-malware/</guid>
-	<description><![CDATA[A new cyber-espionage threat group has been using a new backdoor malware that provides persistent access through a seemingly inactive scheduled task. [...]]]></description>
  </item>
 
 </channel>
