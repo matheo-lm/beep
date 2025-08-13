@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 13 Aug 2025 18:00:50 EDT</pubDate>
+        <pubDate>Wed, 13 Aug 2025 19:02:19 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>OpenAI relaxes GPT-5 rate limit, promises to improve the personality</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-relaxes-gpt-5-rate-limit-promises-to-improve-the-personality/</link>
+        <pubDate>Wed, 13 Aug 2025 18:22:04 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-relaxes-gpt-5-rate-limit-promises-to-improve-the-personality/</guid>
+	<description><![CDATA[OpenAI is slowly addressing all concerns around GPT-5, including rate limits and now its personality, which has been criticized for being less affirmative. [...]]]></description>
+ </item>
+
  <item>
         <title>Fortinet warns of FortiSIEM pre-auth RCE flaw with exploit in the wild</title>
         <link>https://www.bleepingcomputer.com/news/security/fortinet-warns-of-fortisiem-pre-auth-rce-flaw-with-exploit-in-the-wild/</link>
@@ -196,22 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-new-subscription-costs-less-than-5-but-its-not-for-everyone/</guid>
 	<description><![CDATA[OpenAI has begun updating its pricing page to include a new plan called 'ChatGPT Go.' It costs 399 INR (Indian Rupee) or roughly $4.55, but there's a catch. [...]]]></description>
- </item>
-
- <item>
-        <title>Docker Hub still hosts dozens of Linux images with the XZ backdoor</title>
-        <link>https://www.bleepingcomputer.com/news/security/docker-hub-still-hosts-dozens-of-linux-images-with-the-xz-backdoor/</link>
-        <pubDate>Tue, 12 Aug 2025 14:43:20 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Linux]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/docker-hub-still-hosts-dozens-of-linux-images-with-the-xz-backdoor/</guid>
-	<description><![CDATA[The XZ-Utils backdoor, first discovered in March 2024, is still present in at least 35 Linux images on Docker Hub, potentially putting users, organizations, and their data at risk. [...]]]></description>
  </item>
 
 </channel>
