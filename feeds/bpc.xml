@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 13 Aug 2025 12:02:47 EDT</pubDate>
+        <pubDate>Wed, 13 Aug 2025 12:59:25 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Spike in Fortinet VPN brute-force attacks raises zero-day concerns</title>
+        <link>https://www.bleepingcomputer.com/news/security/spike-in-fortinet-vpn-brute-force-attacks-raises-zero-day-concerns/</link>
+        <pubDate>Wed, 13 Aug 2025 12:42:21 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/spike-in-fortinet-vpn-brute-force-attacks-raises-zero-day-concerns/</guid>
+	<description><![CDATA[A massive spike in brute-force attacks targeted Fortinet SSL VPNs earlier this month, followed by a switch to FortiManager, marked a deliberate shift in targeting that has historically preceded new vulnerability disclosures. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Pennsylvania attorney general's email, site down after cyberattack</title>
+        <link>https://www.bleepingcomputer.com/news/security/pennsylvania-attorney-generals-email-site-down-after-cyberattack/</link>
+        <pubDate>Wed, 13 Aug 2025 12:25:59 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Government]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/pennsylvania-attorney-generals-email-site-down-after-cyberattack/</guid>
+	<description><![CDATA[The Office of the Pennsylvania Attorney General has announced that a recent cyberattack has taken down its systems, including landline phone lines and email accounts. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft removes PowerShell 2.0 from Windows 11, Windows Server</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-powershell-20-from-windows-11-windows-server/</link>
@@ -184,44 +214,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5063709-update-fixes-extended-security-updates-enrollment/</guid>
 	<description><![CDATA[Microsoft has released the KB5063709 cumulative update for Windows 10 22H2 and Windows 10 21H2, with seven fixes or changes, including a fix for a bug that prevented enrollment in extended security updates. [...]]]></description>
- </item>
-
- <item>
-        <title>US govt seizes $1 million in crypto from BlackSuit ransomware gang</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-govt-seizes-1-million-in-crypto-from-blacksuit-ransomware-gang/</link>
-        <pubDate>Tue, 12 Aug 2025 12:18:34 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-govt-seizes-1-million-in-crypto-from-blacksuit-ransomware-gang/</guid>
-	<description><![CDATA[The U.S. Department of Justice (DoJ) seized cryptocurrency and digital assets worth $1,091,453 at the time of confiscation, on January 9, 2024, from the BlackSuit ransomware gang. [...]]]></description>
- </item>
-
- <item>
-        <title>Android's pKVM hypervisor earns SESIP Level 5 security certification</title>
-        <link>https://www.bleepingcomputer.com/news/security/androids-pkvm-hypervisor-earns-sesip-level-5-security-certification/</link>
-        <pubDate>Tue, 12 Aug 2025 12:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/androids-pkvm-hypervisor-earns-sesip-level-5-security-certification/</guid>
-	<description><![CDATA[Google announced that its protected Kernel-based Virtual Machine (pKVM) for Android has achieved SESIP Level 5 certification, the highest security assurance level for IoT and mobile platforms. [...]]]></description>
  </item>
 
 </channel>
