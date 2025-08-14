@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 14 Aug 2025 10:02:41 EDT</pubDate>
+        <pubDate>Thu, 14 Aug 2025 10:58:34 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Booking.com phishing campaign uses sneaky 'ん' character to trick you</title>
+        <link>https://www.bleepingcomputer.com/news/security/bookingcom-phishing-campaign-uses-sneaky-character-to-trick-you/</link>
+        <pubDate>Thu, 14 Aug 2025 10:23:45 -0400</pubDate>
+        <dc:creator>Ax Sharma</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/bookingcom-phishing-campaign-uses-sneaky-character-to-trick-you/</guid>
+	<description><![CDATA[Threat actors are leveraging a Unicode character to make phishing links appear like legitimate Booking.com links in a new campaign distributing malware. The attack makes use of the Japanese hiragana character, ん, which can, on some systems, appear as a forward slash and make a phishing URL appear realistic to a person at first. [...]]]></description>
+ </item>
+
+ <item>
+        <title>When Theft Replaces Encryption: Blue Report 2025 on Ransomware &amp; Infostealers</title>
+        <link>https://www.bleepingcomputer.com/news/security/when-theft-replaces-encryption-blue-report-2025-on-ransomware-and-infostealers/</link>
+        <pubDate>Thu, 14 Aug 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Picus Security</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/when-theft-replaces-encryption-blue-report-2025-on-ransomware-and-infostealers/</guid>
+	<description><![CDATA[Ransomware and infostealers are winning on stealth, not encryption. Picus Blue Report 2025 reveals just 3% of data exfiltration attempts are stopped. Find and fix your biggest exposure gaps before they're exploited. [...]]]></description>
+ </item>
+
  <item>
         <title>Canada’s House of Commons investigating data breach after cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/canadas-house-of-commons-investigating-data-breach-after-cyberattack/</link>
@@ -178,36 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/pennsylvania-attorney-generals-email-site-down-after-cyberattack/</guid>
 	<description><![CDATA[The Office of the Pennsylvania Attorney General has announced that a recent cyberattack has taken down its systems, including landline phone lines and email accounts. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft removes PowerShell 2.0 from Windows 11, Windows Server</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-powershell-20-from-windows-11-windows-server/</link>
-        <pubDate>Wed, 13 Aug 2025 09:35:22 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-powershell-20-from-windows-11-windows-server/</guid>
-	<description><![CDATA[Microsoft will remove PowerShell 2.0 from Windows starting in August, eight years after announcing its deprecation and keeping it around as an optional feature. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft asks users to ignore certificate enrollment errors</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-certificate-enrollment-errors/</link>
-        <pubDate>Wed, 13 Aug 2025 08:24:08 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-certificate-enrollment-errors/</guid>
-	<description><![CDATA[Microsoft has asked customers this week to disregard incorrect CertificateServicesClient (CertEnroll) errors that appear after installing the July 2025 preview update and subsequent Windows 11 24H2 updates. [...]]]></description>
  </item>
 
 </channel>
