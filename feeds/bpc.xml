@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 14 Aug 2025 06:00:15 EDT</pubDate>
+        <pubDate>Thu, 14 Aug 2025 07:01:03 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Leak: OpenAI's browser will use ChatGPT Agent to control the browser</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-openais-browser-will-use-chatgpt-agent-to-control-the-browser/</link>
+        <pubDate>Thu, 14 Aug 2025 06:45:32 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-openais-browser-will-use-chatgpt-agent-to-control-the-browser/</guid>
+	<description><![CDATA[OpenAI is building an agentic future with its upcoming Chromium-based browser and a new leak confirms GPT Agent integration. [...]]]></description>
+ </item>
+
  <item>
         <title>CISA warns of N-able N-central flaws exploited in zero-day attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-n-able-n-central-flaws-exploited-in-zero-day-attacks/</link>
@@ -194,22 +208,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-adds-new-gpt-5-models-restores-o3-o4-mini-and-its-a-mess-all-over-again/</guid>
 	<description><![CDATA[One of the few things many disliked about ChatGPT was the confusing number of models. OpenAI claimed GPT-5 would fix this, but it seems to have made it worse. [...]]]></description>
- </item>
-
- <item>
-        <title>Claude gets 1M tokens support via API to take on Gemini 2.5 Pro</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-gets-1m-tokens-support-via-api-to-take-on-gemini-25-pro/</link>
-        <pubDate>Tue, 12 Aug 2025 18:13:00 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/claude-gets-1m-tokens-support-via-api-to-take-on-gemini-25-pro/</guid>
-	<description><![CDATA[Claude Sonnet 4 has been upgraded, and it can now remember up to 1 million tokens of context, but only when it's used via API. This could change in the future. [...]]]></description>
  </item>
 
 </channel>
