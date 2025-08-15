@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 15 Aug 2025 09:06:39 EDT</pubDate>
+        <pubDate>Fri, 15 Aug 2025 10:02:55 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cisco warns of max severity flaw in Firewall Management Center</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-max-severity-flaw-in-firewall-management-center/</link>
+        <pubDate>Fri, 15 Aug 2025 09:57:45 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisco-warns-of-max-severity-flaw-in-firewall-management-center/</guid>
+	<description><![CDATA[Cisco is warning about a critical remote code execution (RCE) vulnerability in the RADIUS subsystem of its Secure Firewall Management Center (FMC) software. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft reminds of Windows 10 support ending in two months</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-users-of-windows-10-retirement-in-october/</link>
+        <pubDate>Fri, 15 Aug 2025 09:09:18 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-users-of-windows-10-retirement-in-october/</guid>
+	<description><![CDATA[Microsoft has reminded customers that Windows 10 will be retired in two months after all editions of Windows 10, version 22H2 reach their end of servicing on October 14. [...]]]></description>
+ </item>
+
  <item>
         <title>Plex warns users to patch security vulnerability immediately</title>
         <link>https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerability-immediately/</link>
@@ -162,34 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-openais-browser-will-use-chatgpt-agent-to-control-the-browser/</guid>
 	<description><![CDATA[OpenAI is building an agentic future with its upcoming Chromium-based browser and a new leak confirms GPT Agent integration. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA warns of N-able N-central flaws exploited in zero-day attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-n-able-n-central-flaws-exploited-in-zero-day-attacks/</link>
-        <pubDate>Thu, 14 Aug 2025 05:15:14 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-n-able-n-central-flaws-exploited-in-zero-day-attacks/</guid>
-	<description><![CDATA[​CISA warned on Wednesday that attackers are actively exploiting two security vulnerabilities in N‑able's N-central remote monitoring and management (RMM) platform. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Windows 11 24H2 updates failing with 0x80240069 error</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-11-24h2-updates-failing-with-0x80240069-error/</link>
-        <pubDate>Thu, 14 Aug 2025 03:41:20 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-11-24h2-updates-failing-with-0x80240069-error/</guid>
-	<description><![CDATA[Microsoft has resolved a known issue preventing the August 2025 Windows 11 24H2 cumulative update from being delivered via Windows Server Update Services (WSUS). [...]]]></description>
  </item>
 
 </channel>
