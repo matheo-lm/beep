@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 12 Aug 2025 22:14:41 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 15 Aug 2025 18:27:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,73 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Mobile Phishers Target Brokerage Accounts in &#8216;Ramp and Dump&#8217; Cashout Scheme</title>
+		<link>https://krebsonsecurity.com/2025/08/mobile-phishers-target-brokerage-accounts-in-ramp-and-dump-cashout-scheme/</link>
+					<comments>https://krebsonsecurity.com/2025/08/mobile-phishers-target-brokerage-accounts-in-ramp-and-dump-cashout-scheme/#comments</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Fri, 15 Aug 2025 18:27:05 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Web Fraud 2.0]]></category>
+		<category><![CDATA[@chenlun]]></category>
+		<category><![CDATA[CSIS Security Group]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[Financial Industry Regulatory Authority]]></category>
+		<category><![CDATA[FINRA]]></category>
+		<category><![CDATA[Ford Merrill]]></category>
+		<category><![CDATA[Outsider]]></category>
+		<category><![CDATA[pump-and-dump]]></category>
+		<category><![CDATA[ramp and dump]]></category>
+		<category><![CDATA[Schwab]]></category>
+		<category><![CDATA[SecAlliance]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71895</guid>
+
+					<description><![CDATA[Cybercriminal groups peddling sophisticated phishing kits that convert stolen card data into mobile wallets have recently shifted their focus to targeting customers of brokerage services, new research shows. Undeterred by security controls at these trading platforms that block users from wiring funds directly out of accounts, the phishers have pivoted to using multiple compromised brokerage accounts in unison to manipulate the prices of foreign stocks.]]></description>
+										<content:encoded><![CDATA[<p>Cybercriminal groups peddling sophisticated phishing kits that convert stolen card data into mobile wallets have recently shifted their focus to targeting customers of brokerage services, new research shows. Undeterred by security controls at these trading platforms that block users from wiring funds directly out of accounts, the phishers have pivoted to using multiple compromised brokerage accounts in unison to manipulate the prices of foreign stocks.</p>
+<div id="attachment_71919" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71919" decoding="async" class=" wp-image-71919" src="https://krebsonsecurity.com/wp-content/uploads/2025/08/stockfall.png" alt="" width="750" height="315" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/08/stockfall.png 919w, https://krebsonsecurity.com/wp-content/uploads/2025/08/stockfall-768x323.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/08/stockfall-782x328.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-71919" class="wp-caption-text">Image: Shutterstock, WhataWin.</p></div>
+<p>This so-called &#8216;<strong>ramp and dump</strong>&#8216; scheme borrows its name from age-old &#8220;pump and dump&#8221; scams, wherein fraudsters purchase a large number of shares in some penny stock, and then promote the company in a frenzied social media blitz to build up interest from other investors. The fraudsters dump their shares after the price of the penny stock increases to some degree, which usually then causes a sharp drop in the value of the shares for legitimate investors.</p>
+<p>With ramp and dump, the scammers do not need to rely on ginning up interest in the targeted stock on social media. Rather, they will preposition themselves in the stock that they wish to inflate, using compromised accounts to purchase large volumes of it and then dumping the shares after the stock price reaches a certain value. In February 2025, the <strong>FBI</strong> said it was <a href="https://www.fbi.gov/how-we-can-help-you/victim-services/seeking-victim-information/seeking-victim-information-in-ramp-and-dump-investment-fraud-investigation" target="_blank" rel="noopener">seeking information from victims of this scheme</a>.</p>
+<p>&#8220;In this variation, the price manipulation is primarily the result of controlled trading activity conducted by the bad actors behind the scam,&#8221; reads <a href="https://www.finra.org/investors/insights/ramp-and-dump-schemes" target="_blank" rel="noopener">an advisory</a> from the <strong>Financial Industry Regulatory Authority</strong> (FINRA), a private, non-profit organization that regulates member brokerage firms. &#8220;Ultimately, the outcome for unsuspecting investors is the same—a catastrophic collapse in share price that leaves investors with unrecoverable losses.&#8221;</p>
+<p><strong>Ford Merrill </strong>is a security researcher at <a href="https://www.secalliance.com/" target="_blank" rel="noopener">SecAlliance</a>, a <a href="https://www.csis.com/" target="_blank" rel="noopener">CSIS Security Group</a> company. Merrill said he has tracked recent ramp-and-dump activity to a bustling Chinese-language community that is quite openly selling advanced mobile phishing kits on Telegram.</p>
+<p>&#8220;They will often coordinate with other actors and will wait until a certain time to buy a particular Chinese IPO [initial public offering] stock or penny stock,&#8221; said Merrill, who has been chronicling the rapid maturation and growth of the China-based phishing community over the past three years.</p>
+<p>&#8220;They&#8217;ll use all these victim brokerage accounts, and if needed they&#8217;ll liquidate the account&#8217;s current positions, and will preposition themselves in that instrument in some account they control, and then sell everything when the price goes up,&#8221; he said. &#8220;The victim will be left with worthless shares of that equity in their account, and the brokerage may not be happy either.&#8221;</p>
+<p>Merrill said the early days of these phishing groups &#8212; between 2022 and 2024 &#8212; were typified by phishing kits that used text messages to spoof the <strong>U.S. Postal Service</strong> or some local toll road operator, warning about a delinquent shipping or toll fee that needed paying. Recipients who clicked the link and provided their payment information at a fake USPS or toll operator site were then asked to verify the transaction by sharing a one-time code sent via text message.</p>
+<p>In reality, the victim&#8217;s bank is sending that code to the mobile number on file for their customer because the fraudsters have just attempted to enroll that victim’s card details into a mobile wallet. If the visitor supplies that one-time code, their payment card is then added to a new mobile wallet on an Apple or Google device that is physically controlled by the phishers.</p>
+<p>The phishing gangs typically load multiple stolen cards to digital wallets on a single Apple or Android device, and then sell those phones in bulk to scammers who <a href="https://krebsonsecurity.com/2025/03/arrests-in-tap-to-pay-scheme-powered-by-phishing/" target="_blank" rel="noopener">use them for fraudulent e-commerce and tap-to-pay transactions</a>.</p>
+<div id="attachment_70436" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70436" decoding="async" loading="lazy" class=" wp-image-70436" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/phishingphones.png" alt="" width="750" height="567" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/02/phishingphones.png 1160w, https://krebsonsecurity.com/wp-content/uploads/2025/02/phishingphones-768x581.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/02/phishingphones-782x591.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-70436" class="wp-caption-text">An image from the Telegram channel for a popular Chinese mobile phishing kit vendor shows 10 mobile phones for sale, each loaded with 4-6 digital wallets from different financial institutions.</p></div>
+<p>This China-based phishing collective exposed a major weakness common to many U.S.-based financial institutions that already require multi-factor authentication: The reliance on a single, phishable one-time token for provisioning mobile wallets. Happily, Merrill said many financial institutions that were caught flat-footed on this scam two years ago have since strengthened authentication requirements for onboarding new mobile wallets (such as requiring the card to be enrolled via the bank&#8217;s mobile app).</p>
+<p>But just as squeezing one part of a balloon merely forces the air trapped inside to bulge into another area, fraudsters don&#8217;t go away when you make their current enterprise less profitable: They just shift their focus to a less-guarded area. And lately, that gaze has settled squarely on customers of the major brokerage platforms, Merrill said.</p>
+<h2>THE OUTSIDER</h2>
+<p>Merrill pointed to several Telegram channels operated by some of the more accomplished phishing kit sellers, which are full of videos demonstrating how every feature in their kits can be tailored to the attacker&#8217;s target. The video snippet below comes from the Telegram channel of &#8220;<strong>Outsider</strong>,&#8221; a popular Mandarin-speaking phishing kit vendor whose latest offering includes a number of ready-made templates for using text messages to phish brokerage account credentials and one-time codes.</p>
+<div style="text-align: center;"><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/nuL84VeT6BY?si=C0uWiR7QMH-LNtp_" width="750" height="315" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></div>
+<p>According to Merrill, Outsider is a woman who previously went by the handle &#8220;<strong>Chenlun</strong>.&#8221; KrebsOnSecurity profiled Chenlun&#8217;s phishing empire in <a href="https://krebsonsecurity.com/2023/10/phishers-spoof-usps-12-other-natl-postal-services/" target="_blank" rel="noopener">an October 2023 story</a> about a China-based group that was phishing mobile customers of more than a dozen postal services around the globe. In that case, the phishing sites were using a Telegram bot that sent stolen credentials to the &#8220;@chenlun&#8221; Telegram account.</p>
+<p>Chenlun&#8217;s phishing lures are sent via Apple&#8217;s iMessage and Google&#8217;s RCS service and spoof one of the major brokerage platforms, warning that the account has been suspended for suspicious activity and that recipients should log in and verify some information. The missives include a link to a phishing page that collects the customer&#8217;s username and password, and then asks the user to enter a one-time code that will arrive via SMS.</p>
+<p>The new phish kit videos on Outsider&#8217;s Telegram channel only feature templates for Schwab customers, but Merrill said the kit can easily be adapted to target other brokerage platforms. One reason the fraudsters are picking on brokerage firms, he said, has to do with the way they <a href="https://www.schwab.com/resource/how-to-set-up-two-factor-authentication" target="_blank" rel="noopener">handle multi-factor authentication</a>.<span id="more-71895"></span></p>
+<p>Schwab clients are presented with two options for second factor authentication when they open an account. Users who select the option to only prompt for a code on untrusted devices can choose to receive it via text message, an automated inbound phone call, or an outbound call to Schwab. With the &#8220;always at login&#8221; option selected, users can choose to receive the code through the Schwab app, a text message, or a Symantec VIP mobile app.</p>
+<p>In response to questions, Schwab said it regularly updates clients on emerging fraud trends, including this specific type, which the company addressed in communications sent to clients earlier this year.</p>
+<div id="attachment_71940" style="width: 606px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71940" decoding="async" loading="lazy" class="size-full wp-image-71940" src="https://krebsonsecurity.com/wp-content/uploads/2025/08/schwab-text.png" alt="" width="596" height="600" /><p id="caption-attachment-71940" class="wp-caption-text">The 2FA text message from Schwab warns recipients against giving away their one-time code.</p></div>
+<p>&#8220;That message focused on trading-related fraud, highlighting both account intrusions and scams conducted through social media or messaging apps that deceive individuals into executing trades themselves,&#8221; Schwab said in a written statement. &#8220;We are aware and tracking this trend across several channels, as well as others like it, which attempt to exploit SMS-based verification with stolen credentials. We actively monitor for suspicious patterns and take steps to disrupt them. This activity is part of a broader, industry-wide threat, and we take a multi-layered approach to address and mitigate it.&#8221;</p>
+<p>Other popular brokerage platforms allow similar methods for multi-factor authentication. <strong>Fidelity</strong> requires a username and password on initial login, and offers the ability to receive a one-time token via SMS, an automated phone call, or by approving a push notification sent through the Fidelity mobile app. However, all three of these methods for sending one-time tokens are phishable; even with the brokerage firm&#8217;s app, the phishers could prompt the user to approve a login request that they initiated in the app with the phished credentials.</p>
+<p>Vanguard offers customers a range of multi-factor authentication choices, including the option to require <a href="https://krebsonsecurity.com/2018/07/google-security-keys-neutralized-employee-phishing/" target="_blank" rel="noopener">a physical security key</a> in addition to one&#8217;s credentials on each login. A security key implements a robust form of multi-factor authentication known as <strong>Universal 2nd Factor (U2F)</strong>, which allows the user to complete the login process simply by connecting an enrolled USB or Bluetooth device and pressing a button. The key works without the need for any special software drivers, and the nice thing about it is your second factor cannot be phished.</p>
+<h2>THE PERFECT CRIME?</h2>
+<p>Merrill said that in many ways the ramp-and-dump scheme is the perfect crime because it leaves precious few connections between the victim brokerage accounts and the fraudsters.</p>
+<p>&#8220;It&#8217;s really genius because it decouples so many things,&#8221; he said. &#8220;They can buy shares [in the stock to be pumped] in their personal account on the Chinese exchanges, and the price happens to go up. The Chinese or Hong Kong brokerages aren&#8217;t going to see anything funky.&#8221;</p>
+<p>Merrill said it&#8217;s unclear exactly how those perpetrating these ramp-and-dump schemes coordinate their activities, such as whether the accounts are phished well in advance or shortly before being used to inflate the stock price of Chinese companies. The latter possibility would fit nicely with the existing human infrastructure these criminal groups already have in place.</p>
+<p>For example, KrebsOnSecurity recently wrote about research from Merrill and other researchers showing the phishers behind these slick mobile phishing kits <a href="https://krebsonsecurity.com/2025/02/how-phished-data-turns-into-apple-google-wallets/" target="_blank" rel="noopener">employed people to sit for hours at a time</a> in front of large banks of mobile phones being used to send the text message lures. These technicians were needed to respond in real time to victims who were supplying the one-time code sent from their financial institution.</p>
+<div id="attachment_70435" style="width: 528px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-70435" decoding="async" loading="lazy" class="size-full wp-image-70435" src="https://krebsonsecurity.com/wp-content/uploads/2025/02/phonesashtray.png" alt="" width="518" height="688" /><p id="caption-attachment-70435" class="wp-caption-text">The ashtray says: You&#8217;ve been phishing all night.</p></div>
+<p>&#8220;You can get access to a victim&#8217;s brokerage with a one-time passcode, but then you sort of have to use it right away if you can&#8217;t set new security settings so you can come back to that account later,&#8221; Merrill said.</p>
+<p>The rapid pace of innovations produced by these China-based phishing vendors is due in part to their use of artificial intelligence and large language models to help develop the mobile phishing kits, he added.</p>
+<p>&#8220;These guys are vibe coding stuff together and using LLMs to translate things or help put the user interface together,&#8221; Merrill said. &#8220;It&#8217;s only a matter of time before they start to integrate the LLMs into their development cycle to make it more rapid. The technologies they are building definitely have helped lower the barrier of entry for everyone.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/08/mobile-phishers-target-brokerage-accounts-in-ramp-and-dump-cashout-scheme/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Microsoft Patch Tuesday, August 2025 Edition</title>
 		<link>https://krebsonsecurity.com/2025/08/microsoft-patch-tuesday-august-2025-edition/</link>
 					<comments>https://krebsonsecurity.com/2025/08/microsoft-patch-tuesday-august-2025-edition/#comments</comments>
@@ -52,7 +119,7 @@
 
 					<description><![CDATA[Microsoft today released updates to fix more than 100 security flaws in its Windows operating systems and other software. At least 13 of the bugs received Microsoft's most-dire "critical" rating, meaning they could be abused by malware or malcontents to gain remote access to a Windows system with little or no help from users.]]></description>
 										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today released updates to fix more than 100 security flaws in its <strong>Windows</strong> operating systems and other software. At least 13 of the bugs received Microsoft&#8217;s most-dire &#8220;critical&#8221; rating, meaning they could be abused by malware or malcontents to gain remote access to a Windows system with little or no help from users.</p>
-<p><img decoding="async" class="aligncenter wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="750" height="528" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="750" height="528" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 750px) 100vw, 750px" /></p>
 <p>August&#8217;s patch batch from Redmond includes an update for <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53786" target="_blank" rel="noopener">CVE-2025-53786</a>, a vulnerability that allows an attacker to pivot from a compromised <strong>Microsoft Exchange Server</strong> directly into an organization&#8217;s cloud environment, potentially gaining control over <strong>Exchange Online</strong> and other connected <strong>Microsoft Office 365</strong> services. Microsoft first warned about this bug on Aug. 6, saying it affects <strong>Exchange Server 2016</strong> and <strong>Exchange Server 2019</strong>, as well as its flagship <strong>Exchange Server Subscription Edition</strong>.</p>
 <p><strong>Ben McCarthy</strong>, lead cyber security engineer at <strong>Immersive</strong>, said a rough search reveals approximately 29,000 Exchange servers publicly facing on the internet that are vulnerable to this issue, with many of them likely to have even older vulnerabilities.</p>
 <p>McCarthy said the fix for CVE-2025-53786 requires more than just installing a patch, such as following Microsoft&#8217;s manual instructions for creating a dedicated service to oversee and lock down the hybrid connection.</p>
@@ -517,69 +584,15 @@ Your unique writing style, phraseology, punctuation, consistency of grammatical 
 		
 		
 			</item>
-		<item>
-		<title>Microsoft Patch Tuesday, July 2025 Edition</title>
-		<link>https://krebsonsecurity.com/2025/07/microsoft-patch-tuesday-july-2025-edition/</link>
-					<comments>https://krebsonsecurity.com/2025/07/microsoft-patch-tuesday-july-2025-edition/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Wed, 09 Jul 2025 00:53:33 +0000</pubDate>
-				<category><![CDATA[Latest Warnings]]></category>
-		<category><![CDATA[Security Tools]]></category>
-		<category><![CDATA[Time to Patch]]></category>
-		<category><![CDATA[Action1]]></category>
-		<category><![CDATA[Adam Barnett]]></category>
-		<category><![CDATA[adobe]]></category>
-		<category><![CDATA[Ben Hopkins]]></category>
-		<category><![CDATA[CVE-2025-47178]]></category>
-		<category><![CDATA[CVE-2025-47981]]></category>
-		<category><![CDATA[CVE-2025-49695]]></category>
-		<category><![CDATA[CVE-2025-49696]]></category>
-		<category><![CDATA[CVE-2025-49697]]></category>
-		<category><![CDATA[CVE-2025-49702]]></category>
-		<category><![CDATA[CVE-2025-49719]]></category>
-		<category><![CDATA[CVE-2025-49740]]></category>
-		<category><![CDATA[Microsoft Configuration Manager]]></category>
-		<category><![CDATA[Microsoft Defender SmartScreen]]></category>
-		<category><![CDATA[Microsoft Patch Tuesday July 2025 Edition]]></category>
-		<category><![CDATA[Mike Walters]]></category>
-		<category><![CDATA[Office]]></category>
-		<category><![CDATA[Rapid7]]></category>
-		<category><![CDATA[SQL Server 2012]]></category>
-		<category><![CDATA[SQL Server 2016]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71624</guid>
-
-					<description><![CDATA[Microsoft today released updates to fix at least 137 security vulnerabilities in its Windows operating systems and supported software. None of the weaknesses addressed this month are known to be actively exploited, but 14 of the flaws earned Microsoft's most-dire "critical" rating, meaning they could be exploited to seize control over vulnerable Windows PCs with little or no help from users.]]></description>
-										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today released updates to fix at least 137 security vulnerabilities in its <strong>Windows</strong> operating systems and supported software. None of the weaknesses addressed this month are known to be actively exploited, but 14 of the flaws earned Microsoft&#8217;s most-dire &#8220;critical&#8221; rating, meaning they could be exploited to seize control over vulnerable Windows PCs with little or no help from users.</p>
-<p><img decoding="async" loading="lazy" class="aligncenter wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="749" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></p>
-<p>While not listed as critical, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49719" target="_blank" rel="noopener">CVE-2025-49719</a> is a publicly disclosed information disclosure vulnerability, with all versions as far back as <strong>SQL Server 2016</strong> receiving patches. Microsoft rates CVE-2025-49719 as less likely to be exploited, but the availability of proof-of-concept code for this flaw means its patch should probably be a priority for affected enterprises.</p>
-<p><strong>Mike Walters</strong>, co-founder of <strong>Action1</strong>, said CVE-2025-49719 can be exploited without authentication, and that many third-party applications depend on SQL server and the affected drivers &#8212; potentially introducing a supply-chain risk that extends beyond direct SQL Server users.</p>
-<p>&#8220;The potential exposure of sensitive information makes this a high-priority concern for organizations handling valuable or regulated data,&#8221; Walters said. &#8220;The comprehensive nature of the affected versions, spanning multiple SQL Server releases from 2016 through 2022, indicates a fundamental issue in how SQL Server handles memory management and input validation.&#8221;</p>
-<p><strong>Adam Barnett</strong> at <strong>Rapid7</strong> notes that today is the end of the road for <strong>SQL Server 2012</strong>, meaning there will be no future security patches even for critical vulnerabilities, even if you’re willing to pay Microsoft for the privilege.</p>
-<p>Barnett also called attention to <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47981" target="_blank" rel="noopener">CVE-2025-47981</a>, a vulnerability with a CVSS score of 9.8 (10 being the worst), a remote code execution bug in the way Windows servers and clients negotiate to discover mutually supported authentication mechanisms. This pre-authentication vulnerability affects any Windows client machine running <strong>Windows 10 1607</strong> or above, and all current versions of <strong>Windows Server</strong>. Microsoft considers it more likely that attackers will exploit this flaw.</p>
-<p>Microsoft also patched at least four critical, remote code execution flaws in <strong>Office</strong> (<a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49695" target="_blank" rel="noopener">CVE-2025-49695</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49696" target="_blank" rel="noopener">CVE-2025-49696</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49697" target="_blank" rel="noopener">CVE-2025-49697</a>, <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49702" target="_blank" rel="noopener">CVE-2025-49702</a>). The first two are both rated by Microsoft as having a higher likelihood of exploitation, do not require user interaction, and can be triggered through the Preview Pane.<span id="more-71624"></span></p>
-<p>Two more high severity bugs include <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49740" target="_blank" rel="noopener">CVE-2025-49740</a> (CVSS 8.8) and <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47178" target="_blank" rel="noopener">CVE-2025-47178</a> (CVSS 8.0); the former is a weakness that could allow malicious files to bypass screening by <strong>Microsoft Defender SmartScreen</strong>, a built-in feature of Windows that tries to block untrusted downloads and malicious sites.</p>
-<p>CVE-2025-47178 involves a remote code execution flaw in <strong>Microsoft Configuration Manager</strong>, an enterprise tool for managing, deploying, and securing computers, servers, and devices across a network. <strong>Ben Hopkins</strong> at <strong>Immersive</strong> said this bug requires very low privileges to exploit, and that it is possible for a user or attacker with a read-only access role to exploit it.</p>
-<p>&#8220;Exploiting this vulnerability allows an attacker to execute arbitrary SQL queries as the privileged SMS service account in Microsoft Configuration Manager,&#8221; Hopkins said. &#8220;This access can be used to manipulate deployments, push malicious software or scripts to all managed devices, alter configurations, steal sensitive data, and potentially escalate to full operating system code execution across the enterprise, giving the attacker broad control over the entire IT environment.&#8221;</p>
-<p>Separately, <strong>Adobe</strong> has <a href="https://helpx.adobe.com/security/security-bulletin.html" target="_blank" rel="noopener">released security updates</a> for a broad range of software, including <strong>After Effects</strong>, <strong>Adobe Audition</strong>, <strong>Illustrator</strong>, <strong>FrameMaker</strong>, and <strong>ColdFusion</strong>.</p>
-<p>The <strong>SANS Internet Storm Center</strong> has <a href="https://isc.sans.edu/diary/Microsoft%20Patch%20Tuesday%2C%20July%202025/32088" target="_blank" rel="noopener">a breakdown of each individual patch</a>, indexed by severity. If you&#8217;re responsible for administering a number of Windows systems, it may be worth keeping an eye on <a href="https://www.askwoody.com/" target="_blank" rel="noopener">AskWoody</a> for the lowdown on any potentially wonky updates (considering the large number of vulnerabilities and Windows components addressed this month).</p>
-<p>If you&#8217;re a Windows home user, please consider backing up your data and/or drive before installing any patches, and drop a note in the comments if you encounter any problems with these updates.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/07/microsoft-patch-tuesday-july-2025-edition/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 258/258 objects using memcached
+Object Caching 255/255 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-08-15 13:57:34 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-08-15 15:00:04 by W3 Total Cache
 -->
