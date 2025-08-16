@@ -11,11 +11,73 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 16 Aug 2025 16:02:19 EDT</pubDate>
+        <pubDate>Sat, 16 Aug 2025 16:59:42 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Leak: ChatGPT cheaper plan costs $4 or £3.50, might release everywhere</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-chatgpt-cheaper-plan-costs-4-or-350-might-release-everywhere/</link>
+        <pubDate>Sat, 16 Aug 2025 16:44:30 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/leak-chatgpt-cheaper-plan-costs-4-or-350-might-release-everywhere/</guid>
+	<description><![CDATA[OpenAI is working on a cheaper plan called ChatGPT Go, and we previously thought it would be just limited to a few regions like India, but that may not be the case. [...]]]></description>
+ </item>
+
+ <item>
+        <title>OpenAI is improving ChatGPT voice mode</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-improving-chatgpt-voice-mode/</link>
+        <pubDate>Sat, 16 Aug 2025 16:15:42 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-improving-chatgpt-voice-mode/</guid>
+	<description><![CDATA[ChatGPT's Voice mode is already pretty good, but OpenAI is working on a new feature that will allow you to control how Voice mode actually works. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Researcher to release exploit for full auth bypass on FortiWeb</title>
+        <link>https://www.bleepingcomputer.com/news/security/researcher-to-release-exploit-for-full-auth-bypass-on-fortiweb/</link>
+        <pubDate>Sat, 16 Aug 2025 10:24:32 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/researcher-to-release-exploit-for-full-auth-bypass-on-fortiweb/</guid>
+	<description><![CDATA[A security researcher has released a partial proof of concept exploit for a vulnerability in the FortiWeb web application firewall that allows a remote attacker to bypass authentication. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft Teams to protect against malicious URLs, dangerous file types</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-teams-to-protect-against-malicious-urls-dangerous-file-types/</link>
+        <pubDate>Sat, 16 Aug 2025 10:20:30 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-teams-to-protect-against-malicious-urls-dangerous-file-types/</guid>
+	<description><![CDATA[Microsoft recently revealed that it's currently enhancing protection against dangerous file types and malicious URLs in Teams chats and channels. [...]]]></description>
+ </item>
+
  <item>
         <title>Colt Telecom attack claimed by WarLock ransomware, data up for sale</title>
         <link>https://www.bleepingcomputer.com/news/security/colt-telecom-attack-claimed-by-warlock-ransomware-data-up-for-sale/</link>
@@ -132,64 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/pro-russian-hackers-blamed-for-water-dam-sabotage-in-norway/</guid>
 	<description><![CDATA[The Norwegian Police Security Service (PST) says that pro-Russian hackers took control of critical operation systems at a dam and opened outflow valves. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Windows Server bug causing cluster, VM issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-bug-causing-cluster-vm-issues/</link>
-        <pubDate>Thu, 14 Aug 2025 11:05:10 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-bug-causing-cluster-vm-issues/</guid>
-	<description><![CDATA[Microsoft has resolved a known issue that triggers Cluster service and VM restart issues after installing July's Windows Server 2019 security updates. [...]]]></description>
- </item>
-
- <item>
-        <title>Booking.com phishing campaign uses sneaky 'ん' character to trick you</title>
-        <link>https://www.bleepingcomputer.com/news/security/bookingcom-phishing-campaign-uses-sneaky-character-to-trick-you/</link>
-        <pubDate>Thu, 14 Aug 2025 10:23:45 -0400</pubDate>
-        <dc:creator>Ax Sharma</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/bookingcom-phishing-campaign-uses-sneaky-character-to-trick-you/</guid>
-	<description><![CDATA[Threat actors are leveraging a Unicode character to make phishing links appear like legitimate Booking.com links in a new campaign distributing malware. The attack makes use of the Japanese hiragana character, ん, which can, on some systems, appear as a forward slash and make a phishing URL appear realistic to a person at first. [...]]]></description>
- </item>
-
- <item>
-        <title>When Theft Replaces Encryption: Blue Report 2025 on Ransomware &amp; Infostealers</title>
-        <link>https://www.bleepingcomputer.com/news/security/when-theft-replaces-encryption-blue-report-2025-on-ransomware-and-infostealers/</link>
-        <pubDate>Thu, 14 Aug 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Picus Security</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/when-theft-replaces-encryption-blue-report-2025-on-ransomware-and-infostealers/</guid>
-	<description><![CDATA[Ransomware and infostealers are winning on stealth, not encryption. Picus Blue Report 2025 reveals just 3% of data exfiltration attempts are stopped. Find and fix your biggest exposure gaps before they're exploited. [...]]]></description>
- </item>
-
- <item>
-        <title>Canada’s House of Commons investigating data breach after cyberattack</title>
-        <link>https://www.bleepingcomputer.com/news/security/canadas-house-of-commons-investigating-data-breach-after-cyberattack/</link>
-        <pubDate>Thu, 14 Aug 2025 09:06:43 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/canadas-house-of-commons-investigating-data-breach-after-cyberattack/</guid>
-	<description><![CDATA[The House of Commons of Canada is currently investigating a data breach after a threat actor reportedly stole employee information in a cyberattack on Friday. [...]]]></description>
  </item>
 
 </channel>
