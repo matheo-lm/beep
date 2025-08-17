@@ -11,11 +11,59 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 17 Aug 2025 10:00:34 EDT</pubDate>
+        <pubDate>Sun, 17 Aug 2025 10:58:37 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google is adding "Projects" feature to Gemini to run research tasks</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-is-adding-projects-feature-to-gemini-to-run-research-tasks/</link>
+        <pubDate>Sun, 17 Aug 2025 10:38:29 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/google-is-adding-projects-feature-to-gemini-to-run-research-tasks/</guid>
+	<description><![CDATA[Google's Gemini never stops delivering, and it's now testing a new feature called "Projects." This will be similar to OpenAI's Project Feature for ChatGPT. [...]]]></description>
+ </item>
+
+ <item>
+        <title>U.S. seizes $2.8 million in crypto from Zeppelin ransomware operator</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-seizes-28-million-in-crypto-from-zeppelin-ransomware-operator/</link>
+        <pubDate>Sun, 17 Aug 2025 10:36:48 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-seizes-28-million-in-crypto-from-zeppelin-ransomware-operator/</guid>
+	<description><![CDATA[The U.S. Department of Justice (DoJ) announced the seizure of over $2,800,000 in cryptocurrency from alleged ransomware operator Ianis Aleksandrovich Antropenko. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Anthropic: Claude can now end conversations to prevent harmful uses</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-claude-can-now-end-conversations-to-prevent-harmful-uses/</link>
+        <pubDate>Sun, 17 Aug 2025 10:24:30 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-claude-can-now-end-conversations-to-prevent-harmful-uses/</guid>
+	<description><![CDATA[OpenAI rival Anthropic says Claude has been updated with a rare new feature that allows the AI model to end conversations when it feels it poses harm or is being abused. [...]]]></description>
+ </item>
+
  <item>
         <title>OpenAI prepares Chromium-based AI browser to take on Google</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-prepares-chromium-based-ai-browser-to-take-on-google/</link>
@@ -148,54 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerability-immediately/</guid>
 	<description><![CDATA[Plex has notified some of its users on Thursday to urgently update their media servers due to a recently patched security vulnerability. [...]]]></description>
- </item>
-
- <item>
-        <title>US sanctions Grinex crypto-exchange, successor to Garantex</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-sanctions-grinex-crypto-exchange-garantexs-successor/</link>
-        <pubDate>Fri, 15 Aug 2025 04:46:59 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-sanctions-grinex-crypto-exchange-garantexs-successor/</guid>
-	<description><![CDATA[The U.S. Department of the Treasury has announced sanctions against Grinex, the successor to Russian cryptocurrency exchange Garantex, which was previously sanctioned for helping ransomware gangs launder their money. [...]]]></description>
- </item>
-
- <item>
-        <title>Over $300 million in cybercrime crypto seized in anti-fraud effort</title>
-        <link>https://www.bleepingcomputer.com/news/security/over-300-million-in-cybercrime-crypto-seized-in-anti-fraud-effort/</link>
-        <pubDate>Thu, 14 Aug 2025 16:15:34 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/over-300-million-in-cybercrime-crypto-seized-in-anti-fraud-effort/</guid>
-	<description><![CDATA[More than $300 million worth of cryptocurrency linked to cybercrime and fraud schemes has been frozen due to two separate initiatives involving law enforcement and private companies. [...]]]></description>
- </item>
-
- <item>
-        <title>Crypto24 ransomware hits large orgs with custom EDR evasion tool</title>
-        <link>https://www.bleepingcomputer.com/news/security/crypto24-ransomware-hits-large-orgs-with-custom-edr-evasion-tool/</link>
-        <pubDate>Thu, 14 Aug 2025 13:53:58 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/crypto24-ransomware-hits-large-orgs-with-custom-edr-evasion-tool/</guid>
-	<description><![CDATA[The Crypto24 ransomware group has been using custom utilities to evade security solutions on breached networks, exfiltrate data, and encrypt files. [...]]]></description>
  </item>
 
 </channel>
