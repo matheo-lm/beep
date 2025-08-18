@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 18 Aug 2025 08:00:43 EDT</pubDate>
+        <pubDate>Mon, 18 Aug 2025 09:10:05 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: Recent Windows updates may fail to install via WUSA</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-windows-server-2025-updates-may-fail-from-network-shares/</link>
+        <pubDate>Mon, 18 Aug 2025 07:07:07 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-windows-server-2025-updates-may-fail-from-network-shares/</guid>
+	<description><![CDATA[Microsoft has mitigated a known issue that caused Windows update failures when installing them from a network share using the Windows Update Standalone Installer (WUSA). [...]]]></description>
+ </item>
+
  <item>
         <title>HR giant Workday discloses data breach after Salesforce attack</title>
         <link>https://www.bleepingcomputer.com/news/security/hr-giant-workday-discloses-data-breach-amid-salesforce-attacks/</link>
@@ -184,34 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/colt-telecom-attack-claimed-by-warlock-ransomware-data-up-for-sale/</guid>
 	<description><![CDATA[UK-based telecommunications company Colt Technology Services is dealing with a cyberattack that has caused a multi-day outage of some of the company's operations, including hosting and porting services, Colt Online and Voice API platforms. [...]]]></description>
- </item>
-
- <item>
-        <title>Cisco warns of max severity flaw in Firewall Management Center</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-max-severity-flaw-in-firewall-management-center/</link>
-        <pubDate>Fri, 15 Aug 2025 09:57:45 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisco-warns-of-max-severity-flaw-in-firewall-management-center/</guid>
-	<description><![CDATA[Cisco is warning about a critical remote code execution (RCE) vulnerability in the RADIUS subsystem of its Secure Firewall Management Center (FMC) software. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft reminds of Windows 10 support ending in two months</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-users-of-windows-10-retirement-in-october/</link>
-        <pubDate>Fri, 15 Aug 2025 09:09:18 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-users-of-windows-10-retirement-in-october/</guid>
-	<description><![CDATA[Microsoft has reminded customers that Windows 10 will be retired in two months after all editions of Windows 10, version 22H2 reach their end of servicing on October 14. [...]]]></description>
  </item>
 
 </channel>
