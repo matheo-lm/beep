@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 18 Aug 2025 14:02:33 EDT</pubDate>
+        <pubDate>Mon, 18 Aug 2025 15:01:33 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ERMAC Android malware source code leak exposes banking trojan infrastructure</title>
+        <link>https://www.bleepingcomputer.com/news/security/ermac-android-malware-source-code-leak-exposes-banking-trojan-infrastructure/</link>
+        <pubDate>Mon, 18 Aug 2025 14:12:34 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ermac-android-malware-source-code-leak-exposes-banking-trojan-infrastructure/</guid>
+	<description><![CDATA[The source code for version 3 of the ERMAC Android banking trojan has been leaked online, exposing the internals of the malware-as-a-service platform and the operator's infrastructure. [...]]]></description>
+ </item>
+
  <item>
         <title>UK sentences “serial hacker” of 3,000 sites to 20 months in prison</title>
         <link>https://www.bleepingcomputer.com/news/legal/uk-sentences-serial-hacker-of-3-000-sites-to-20-months-in-prison/</link>
@@ -200,20 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-improving-chatgpt-voice-mode/</guid>
 	<description><![CDATA[ChatGPT's Voice mode is already pretty good, but OpenAI is working on a new feature that will allow you to control how Voice mode actually works. [...]]]></description>
- </item>
-
- <item>
-        <title>Researcher to release exploit for full auth bypass on FortiWeb</title>
-        <link>https://www.bleepingcomputer.com/news/security/researcher-to-release-exploit-for-full-auth-bypass-on-fortiweb/</link>
-        <pubDate>Sat, 16 Aug 2025 10:24:32 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/researcher-to-release-exploit-for-full-auth-bypass-on-fortiweb/</guid>
-	<description><![CDATA[A security researcher has released a partial proof of concept exploit for a vulnerability in the FortiWeb web application firewall that allows a remote attacker to bypass authentication. [...]]]></description>
  </item>
 
 </channel>
