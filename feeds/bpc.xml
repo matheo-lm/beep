@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 18 Aug 2025 11:03:37 EDT</pubDate>
+        <pubDate>Mon, 18 Aug 2025 11:59:56 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Mozilla warns Germany could soon declare ad blockers illegal</title>
+        <link>https://www.bleepingcomputer.com/news/legal/mozilla-warns-germany-could-soon-declare-ad-blockers-illegal/</link>
+        <pubDate>Mon, 18 Aug 2025 11:39:42 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Legal]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/legal/mozilla-warns-germany-could-soon-declare-ad-blockers-illegal/</guid>
+	<description><![CDATA[A recent ruling from Germany's Federal Supreme Court (BGH) has revived a legal battle over whether browser-based ad blockers infringe copyright, raising fears about a potential ban of the tools in the country. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: Recent Windows updates may fail to install via WUSA</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-windows-server-2025-updates-may-fail-from-network-shares/</link>
@@ -184,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/microsoft-teams-to-protect-against-malicious-urls-dangerous-file-types/</guid>
 	<description><![CDATA[Microsoft recently revealed that it's currently enhancing protection against dangerous file types and malicious URLs in Teams chats and channels. [...]]]></description>
- </item>
-
- <item>
-        <title>Colt Telecom attack claimed by WarLock ransomware, data up for sale</title>
-        <link>https://www.bleepingcomputer.com/news/security/colt-telecom-attack-claimed-by-warlock-ransomware-data-up-for-sale/</link>
-        <pubDate>Fri, 15 Aug 2025 11:25:34 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/colt-telecom-attack-claimed-by-warlock-ransomware-data-up-for-sale/</guid>
-	<description><![CDATA[UK-based telecommunications company Colt Technology Services is dealing with a cyberattack that has caused a multi-day outage of some of the company's operations, including hosting and porting services, Colt Online and Voice API platforms. [...]]]></description>
  </item>
 
 </channel>
