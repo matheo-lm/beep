@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 18 Aug 2025 11:59:56 EDT</pubDate>
+        <pubDate>Mon, 18 Aug 2025 13:02:01 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>UK sentences “serial hacker” of 3,000 sites to 20 months in prison</title>
+        <link>https://www.bleepingcomputer.com/news/legal/uk-sentences-serial-hacker-of-3-000-sites-to-20-months-in-prison/</link>
+        <pubDate>Mon, 18 Aug 2025 12:36:46 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Legal]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/legal/uk-sentences-serial-hacker-of-3-000-sites-to-20-months-in-prison/</guid>
+	<description><![CDATA[A 26-year old in the UK who claimed to have hacked thousands of websites was sentenced to 20 months in prison after pleading guilty earlier this year. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Over 800 N-able servers left unpatched against critical flaws</title>
+        <link>https://www.bleepingcomputer.com/news/security/over-800-n-able-servers-left-unpatched-against-critical-flaws/</link>
+        <pubDate>Mon, 18 Aug 2025 12:06:24 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/over-800-n-able-servers-left-unpatched-against-critical-flaws/</guid>
+	<description><![CDATA[Over 800 N-able N-central servers remain unpatched against a pair of critical security vulnerabilities tagged as actively exploited last week. [...]]]></description>
+ </item>
+
  <item>
         <title>Mozilla warns Germany could soon declare ad blockers illegal</title>
         <link>https://www.bleepingcomputer.com/news/legal/mozilla-warns-germany-could-soon-declare-ad-blockers-illegal/</link>
@@ -184,22 +214,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/researcher-to-release-exploit-for-full-auth-bypass-on-fortiweb/</guid>
 	<description><![CDATA[A security researcher has released a partial proof of concept exploit for a vulnerability in the FortiWeb web application firewall that allows a remote attacker to bypass authentication. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft Teams to protect against malicious URLs, dangerous file types</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-teams-to-protect-against-malicious-urls-dangerous-file-types/</link>
-        <pubDate>Sat, 16 Aug 2025 10:20:30 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-teams-to-protect-against-malicious-urls-dangerous-file-types/</guid>
-	<description><![CDATA[Microsoft recently revealed that it's currently enhancing protection against dangerous file types and malicious URLs in Teams chats and channels. [...]]]></description>
  </item>
 
 </channel>
