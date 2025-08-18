@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 18 Aug 2025 03:04:43 EDT</pubDate>
+        <pubDate>Mon, 18 Aug 2025 04:03:56 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>HR giant Workday discloses data breach amid Salesforce attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/hr-giant-workday-discloses-data-breach-amid-salesforce-attacks/</link>
+        <pubDate>Mon, 18 Aug 2025 03:53:49 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hr-giant-workday-discloses-data-breach-amid-salesforce-attacks/</guid>
+	<description><![CDATA[Human resources giant Workday has disclosed a data breach after attackers gained access to a third-party customer relationship management (CRM) platform in a recent social engineering attack. [...]]]></description>
+ </item>
+
+ <item>
+        <title>OpenAI releases warmer GPT-5 personality, but only for non thinking model</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-releases-warmer-gpt-5-personality-but-only-for-non-thinking-model/</link>
+        <pubDate>Sun, 17 Aug 2025 12:20:00 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-releases-warmer-gpt-5-personality-but-only-for-non-thinking-model/</guid>
+	<description><![CDATA[OpenAI has confirmed it has begun rolling out a new warmer personality for GPT-5, but remember that it won't be as warm as GPT-4o, which is still available for use under legacy models. [...]]]></description>
+ </item>
+
  <item>
         <title>Google is adding "Projects" feature to Gemini to run research tasks</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-is-adding-projects-feature-to-gemini-to-run-research-tasks/</link>
@@ -182,20 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-users-of-windows-10-retirement-in-october/</guid>
 	<description><![CDATA[Microsoft has reminded customers that Windows 10 will be retired in two months after all editions of Windows 10, version 22H2 reach their end of servicing on October 14. [...]]]></description>
- </item>
-
- <item>
-        <title>Plex warns users to patch security vulnerability immediately</title>
-        <link>https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerability-immediately/</link>
-        <pubDate>Fri, 15 Aug 2025 07:41:16 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerability-immediately/</guid>
-	<description><![CDATA[Plex has notified some of its users on Thursday to urgently update their media servers due to a recently patched security vulnerability. [...]]]></description>
  </item>
 
 </channel>
