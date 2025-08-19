@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 19 Aug 2025 12:01:26 EDT</pubDate>
+        <pubDate>Tue, 19 Aug 2025 13:02:03 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Elastic rejects claims of a zero-day RCE flaw in Defend EDR</title>
+        <link>https://www.bleepingcomputer.com/news/security/elastic-rejects-claims-of-a-zero-day-rce-flaw-in-defend-edr/</link>
+        <pubDate>Tue, 19 Aug 2025 12:41:26 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/elastic-rejects-claims-of-a-zero-day-rce-flaw-in-defend-edr/</guid>
+	<description><![CDATA[Enterprise search and security company Elastic is rejecting reports of a zero-day vulnerability impacting its Defend endpoint detection and response (EDR) product. [...]]]></description>
+ </item>
+
+ <item>
+        <title>OpenAI releases $4 ChatGPT plan, but it's not available in the US for now</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-releases-4-chatgpt-plan-but-its-not-available-in-the-us-for-now/</link>
+        <pubDate>Tue, 19 Aug 2025 12:28:00 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-releases-4-chatgpt-plan-but-its-not-available-in-the-us-for-now/</guid>
+	<description><![CDATA[OpenAI has finally announced the GPT Go subscription, which costs just $4 in the US or INR 399 in India. [...]]]></description>
+ </item>
+
  <item>
         <title>Pharma firm Inotiv says ransomware attack impacted operations</title>
         <link>https://www.bleepingcomputer.com/news/security/pharma-firm-inotiv-says-ransomware-attack-impacted-operations/</link>
@@ -176,36 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-windows-server-2025-updates-may-fail-from-network-shares/</guid>
 	<description><![CDATA[Microsoft has mitigated a known issue that caused Windows update failures when installing them from a network share using the Windows Update Standalone Installer (WUSA). [...]]]></description>
- </item>
-
- <item>
-        <title>HR giant Workday discloses data breach after Salesforce attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/hr-giant-workday-discloses-data-breach-amid-salesforce-attacks/</link>
-        <pubDate>Mon, 18 Aug 2025 03:53:49 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hr-giant-workday-discloses-data-breach-amid-salesforce-attacks/</guid>
-	<description><![CDATA[Human resources giant Workday has disclosed a data breach after attackers gained access to a third-party customer relationship management (CRM) platform in a recent social engineering attack. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI releases warmer GPT-5 personality, but only for non thinking model</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-releases-warmer-gpt-5-personality-but-only-for-non-thinking-model/</link>
-        <pubDate>Sun, 17 Aug 2025 12:20:00 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-releases-warmer-gpt-5-personality-but-only-for-non-thinking-model/</guid>
-	<description><![CDATA[OpenAI has confirmed it has begun rolling out a new warmer personality for GPT-5, but remember that it won't be as warm as GPT-4o, which is still available for use under legacy models. [...]]]></description>
  </item>
 
 </channel>
