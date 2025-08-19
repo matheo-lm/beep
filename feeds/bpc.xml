@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 19 Aug 2025 09:59:39 EDT</pubDate>
+        <pubDate>Tue, 19 Aug 2025 11:00:36 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Pharma firm Inotiv says ransomware attack impacted operations</title>
+        <link>https://www.bleepingcomputer.com/news/security/pharma-firm-inotiv-says-ransomware-attack-impacted-operations/</link>
+        <pubDate>Tue, 19 Aug 2025 10:25:14 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/pharma-firm-inotiv-says-ransomware-attack-impacted-operations/</guid>
+	<description><![CDATA[American pharmaceutical company Inotiv has disclosed that some of its systems and data have been encrypted in a ransomware attack, impacting the company's business operations. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: August security updates break Windows recovery, reset</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-august-security-updates-break-windows-recovery-reset/</link>
@@ -192,22 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-releases-warmer-gpt-5-personality-but-only-for-non-thinking-model/</guid>
 	<description><![CDATA[OpenAI has confirmed it has begun rolling out a new warmer personality for GPT-5, but remember that it won't be as warm as GPT-4o, which is still available for use under legacy models. [...]]]></description>
- </item>
-
- <item>
-        <title>Google is adding "Projects" feature to Gemini to run research tasks</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/google-is-adding-projects-feature-to-gemini-to-run-research-tasks/</link>
-        <pubDate>Sun, 17 Aug 2025 10:38:29 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/google-is-adding-projects-feature-to-gemini-to-run-research-tasks/</guid>
-	<description><![CDATA[Google's Gemini is now testing a new feature called "Projects." This will be similar to OpenAI's Project Feature for ChatGPT. [...]]]></description>
  </item>
 
 </channel>
