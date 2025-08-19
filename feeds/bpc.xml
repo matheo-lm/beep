@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 19 Aug 2025 08:00:31 EDT</pubDate>
+        <pubDate>Tue, 19 Aug 2025 09:09:57 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>NY Business Council discloses data breach affecting 47,000 people</title>
+        <link>https://www.bleepingcomputer.com/news/security/business-council-of-new-york-state-discloses-data-breach-affecting-47-000-people/</link>
+        <pubDate>Tue, 19 Aug 2025 08:04:08 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/business-council-of-new-york-state-discloses-data-breach-affecting-47-000-people/</guid>
+	<description><![CDATA[The Business Council of New York State (BCNYS) has revealed that attackers who breached its network in February stole the personal, financial, and health information of over 47,000 individuals. [...]]]></description>
+ </item>
+
  <item>
         <title>Massive Allianz Life data breach impacts 1.1 million people</title>
         <link>https://www.bleepingcomputer.com/news/security/massive-allianz-life-data-breach-impacts-11-million-people/</link>
@@ -196,22 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-seizes-28-million-in-crypto-from-zeppelin-ransomware-operator/</guid>
 	<description><![CDATA[The U.S. Department of Justice (DoJ) announced the seizure of over $2,800,000 in cryptocurrency from alleged ransomware operator Ianis Aleksandrovich Antropenko. [...]]]></description>
- </item>
-
- <item>
-        <title>Anthropic: Claude can now end conversations to prevent harmful uses</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-claude-can-now-end-conversations-to-prevent-harmful-uses/</link>
-        <pubDate>Sun, 17 Aug 2025 10:24:30 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-claude-can-now-end-conversations-to-prevent-harmful-uses/</guid>
-	<description><![CDATA[OpenAI rival Anthropic says Claude has been updated with a rare new feature that allows the AI model to end conversations when it feels it poses harm or is being abused. [...]]]></description>
  </item>
 
 </channel>
