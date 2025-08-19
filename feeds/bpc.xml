@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 19 Aug 2025 14:03:15 EDT</pubDate>
+        <pubDate>Tue, 19 Aug 2025 15:00:30 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Okta open-sources catalog of Auth0 rules for threat detection</title>
+        <link>https://www.bleepingcomputer.com/news/security/okta-open-sources-catalog-of-auth0-rules-for-threat-detection/</link>
+        <pubDate>Tue, 19 Aug 2025 14:17:50 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/okta-open-sources-catalog-of-auth0-rules-for-threat-detection/</guid>
+	<description><![CDATA[Okta has open-sourced ready-made Sigma-based queries for Auth0 customers to detect account takeovers, misconfigurations, and suspicious behavior in event logs. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft shares workaround for Teams "couldn't connect" error</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-teams-couldnt-connect-error/</link>
+        <pubDate>Tue, 19 Aug 2025 14:07:14 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-teams-couldnt-connect-error/</guid>
+	<description><![CDATA[Microsoft is resolving a known issue that causes "couldn't connect" errors when launching the Microsoft Teams desktop and web applications. [...]]]></description>
+ </item>
+
  <item>
         <title>Elastic rejects claims of a zero-day RCE flaw in Defend EDR</title>
         <link>https://www.bleepingcomputer.com/news/security/elastic-rejects-claims-of-a-zero-day-rce-flaw-in-defend-edr/</link>
@@ -176,36 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/over-800-n-able-servers-left-unpatched-against-critical-flaws/</guid>
 	<description><![CDATA[Over 800 N-able N-central servers remain unpatched against a pair of critical security vulnerabilities tagged as actively exploited last week. [...]]]></description>
- </item>
-
- <item>
-        <title>Mozilla warns Germany could soon declare ad blockers illegal</title>
-        <link>https://www.bleepingcomputer.com/news/legal/mozilla-warns-germany-could-soon-declare-ad-blockers-illegal/</link>
-        <pubDate>Mon, 18 Aug 2025 11:39:42 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Legal]]></category>
-
-        <category><![CDATA[Software]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/legal/mozilla-warns-germany-could-soon-declare-ad-blockers-illegal/</guid>
-	<description><![CDATA[A recent ruling from Germany's Federal Supreme Court (BGH) has revived a legal battle over whether browser-based ad blockers infringe copyright, raising fears about a potential ban of the tools in the country. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Recent Windows updates may fail to install via WUSA</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-windows-server-2025-updates-may-fail-from-network-shares/</link>
-        <pubDate>Mon, 18 Aug 2025 07:07:07 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-windows-server-2025-updates-may-fail-from-network-shares/</guid>
-	<description><![CDATA[Microsoft has mitigated a known issue that caused Windows update failures when installing them from a network share using the Windows Update Standalone Installer (WUSA). [...]]]></description>
  </item>
 
 </channel>
