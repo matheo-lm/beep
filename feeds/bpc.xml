@@ -11,11 +11,53 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 20 Aug 2025 10:01:14 EDT</pubDate>
+        <pubDate>Wed, 20 Aug 2025 11:00:02 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Major password managers can leak logins in clickjacking attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/major-password-managers-can-leak-logins-in-clickjacking-attacks/</link>
+        <pubDate>Wed, 20 Aug 2025 10:49:53 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/major-password-managers-can-leak-logins-in-clickjacking-attacks/</guid>
+	<description><![CDATA[Six major password managers with tens of millions of users are currently vulnerable to unpatched clickjacking flaws that could allow attackers to steal account credentials, 2FA codes, and credit card details. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft investigates outage impacting Copilot, Office.com</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-outage-impacting-copilot-officecom/</link>
+        <pubDate>Wed, 20 Aug 2025 10:17:25 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-outage-impacting-copilot-officecom/</guid>
+	<description><![CDATA[Microsoft is investigating an ongoing issue preventing users across North America from accessing Office.com and the company's Copilot AI-powered assistant. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Why email security needs its EDR moment to move beyond prevention</title>
+        <link>https://www.bleepingcomputer.com/news/security/why-email-security-needs-its-edr-moment-to-move-beyond-prevention/</link>
+        <pubDate>Wed, 20 Aug 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Material Security</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/why-email-security-needs-its-edr-moment-to-move-beyond-prevention/</guid>
+	<description><![CDATA[Email security is stuck where antivirus was a decade ago—focused only on prevention. Learn from Material Security why it's time for an "EDR for email" mindset: visibility, post-compromise controls, and SaaS-wide protection. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft reportedly fixing SSD failures caused by Windows updates</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-reportedly-fixing-ssd-failures-caused-by-windows-updates/</link>
@@ -156,34 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-august-security-updates-break-windows-recovery-reset/</guid>
 	<description><![CDATA[Microsoft has confirmed that the August 2025 Windows security updates are breaking reset and recovery operations on systems running Windows 10 and older versions of Windows 11. [...]]]></description>
- </item>
-
- <item>
-        <title>NY Business Council discloses data breach affecting 47,000 people</title>
-        <link>https://www.bleepingcomputer.com/news/security/business-council-of-new-york-state-discloses-data-breach-affecting-47-000-people/</link>
-        <pubDate>Tue, 19 Aug 2025 08:04:08 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/business-council-of-new-york-state-discloses-data-breach-affecting-47-000-people/</guid>
-	<description><![CDATA[The Business Council of New York State (BCNYS) has revealed that attackers who breached its network in February stole the personal, financial, and health information of over 47,000 individuals. [...]]]></description>
- </item>
-
- <item>
-        <title>Massive Allianz Life data breach impacts 1.1 million people</title>
-        <link>https://www.bleepingcomputer.com/news/security/massive-allianz-life-data-breach-impacts-11-million-people/</link>
-        <pubDate>Tue, 19 Aug 2025 03:17:57 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/massive-allianz-life-data-breach-impacts-11-million-people/</guid>
-	<description><![CDATA[Hackers have stolen the personal information of 1.1 million individuals in a Salesforce data theft attack, which impacted U.S. insurance giant Allianz Life in July. [...]]]></description>
  </item>
 
 </channel>
