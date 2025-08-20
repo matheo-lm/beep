@@ -4,12 +4,696 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Thu, 14 Aug 2025 18:39:42 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 Aug 2025 13:57:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
         <copyright>Copyright © 2025 Recorded Future, Inc.</copyright>
         <atom:link href="https://www.recordedfuture.com/feed" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Behind the Curtain: How Lumma Affiliates Operate]]></title>
+            <link>https://www.recordedfuture.com/research/behind-the-curtain-how-lumma-affiliates-operate</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/research/behind-the-curtain-how-lumma-affiliates-operate</guid>
+            <pubDate>Wed, 21 Jan 1970 07:40:48 GMT</pubDate>
+            <description><![CDATA[Explore a groundbreaking investigation into Lumma affiliates: uncover their tools, tactics, scams, and integration in the cybercriminal ecosystem. Essential reading for defenders.]]></description>
+            <content:encoded><![CDATA[
+        <h2>Executive Summary</h2>
+        <p>Insikt Group delivers a first-of-its-kind analysis of multiple Lumma affiliates operating within a vast, interconnected information-stealing ecosystem. The Lumma infostealer has been around since 2022, and its ecosystem is supported by a broad array of operational enablers, including proxy networks, virtual private networks (VPNs), anti-detect browsers tailored for multi-account management, exploit and crypting services, and detection evasion tools designed to ensure stealth and continuity. The investigation revealed previously undocumented tools and demonstrated that Lumma affiliates frequently operate multiple schemes simultaneously. For instance, one affiliate was identified operating rental scams, while others simultaneously leveraged multiple malware-as-a-service (MaaS) platforms, including Vidar, Stealc, and Meduza Stealer, likely to bolster operational agility, improve success rates, and mitigate the risks linked to detection and law enforcement takedowns. In addition, several Lumma affiliates are tied to distinct threat actor personas across underground forums, reinforcing their deep integration within the broader cybercriminal ecosystem.</p>
+        <p>In the short term, defenders should adhere to security best practices by monitoring for exfiltration events, deploying detections such as YARA, Sigma, and Snort rules to uncover both current and historical infections, restricting downloads from websites, and potentially using allow-lists. Organizations should train employees to recognize signs of illegitimate downloads, redirects associated with malvertising, and increasingly common techniques like ClickFix attacks. Additionally, defenders should monitor dark web and underground forums for leaked credentials and malware logs. In the long term, defenders must continuously observe the cybercriminal ecosystem to anticipate emerging threats and adapt security policies and practices accordingly.</p>
+        <p>Looking ahead, Insikt Group anticipates that the MaaS Lumma and its affiliate network will remain active, having long been a frontrunner in the cybercriminal ecosystem due to its technical sophistication, rapid adoption of new techniques, and demonstrated resilience, as evidenced by its ability to reestablish infrastructure within days of a major law enforcement takedown. While the long-term impact of such operations on Lumma’s MaaS affiliate network remains uncertain, there has been no indication of affiliates abandoning the platform or of viable alternatives emerging. Ultimately, Lumma and its affiliates exemplify how modern cybercriminal operations operate as decentralized networks, where even effective disruptions often yield only short-term setbacks. Achieving sustained mitigation will require persistent law enforcement pressure and focused intelligence efforts to monitor and counter the evolving tactics of individual affiliates.</p>
+        <h2>Key Findings</h2>
+        <ul>
+          <li>Insikt Group uncovered previously unreported tools used by Lumma affiliates, including a cracked email credential validation tool circulated on underground forums and a phishing page generator tied to another actor active across multiple forums.</li>
+          <li>Lumma affiliates were observed running multiple scams in parallel, some enabled by their use of Lumma, such as using stolen logs for rental fraud. In addition, several affiliates appeared to use multiple infostealers simultaneously, including Vidar, Stealc, and Meduza Stealer, to maximize success rates and mitigate disruptions from detection or law enforcement action.</li>
+          <li>Lumma affiliates heavily rely on underground and specialized carding forums as essential operational hubs. They leverage these platforms to recruit collaborators, obtain critical resources such as crypting services and privacy-enhancing services, and efficiently monetize stolen credentials, financial data, and infostealer logs through built-in black markets, fraud tools, and community-backed support networks.</li>
+        </ul>
+        <h2>Background</h2>
+        <p>Lumma, sometimes referred to as LummaC2, <a href="https://go.recordedfuture.com/hubfs/reports/cta-2025-0228.pdf">was</a> the most widespread infostealer in 2024 based on Recorded Future’s malicious infrastructure analysis, and despite facing law enforcement actions in May 2025, it continues to pose a significant threat, actively exfiltrating data from individuals, organizations, and governments. While infostealers like Lumma are now a well-known menace in the cybersecurity landscape, many questions remain: What does a typical day look like for an infostealer affiliate? How do they operate, who are they, what other activities are they involved in, where are they based, and how are the stolen logs ultimately used?</p>
+        <p>Over the past twelve months (the second half of 2024 through the first half of 2025), Insikt Group has conducted a comprehensive investigation into a broad network of Lumma affiliates operating across multiple countries. Drawing on a wide range of intelligence sources, including two affiliate guidance manuals (see <strong>Figure 1</strong>), Recorded Future <a href="https://www.recordedfuture.com/products/threat-intelligence/malware-intelligence">Malware Intelligence</a>, Recorded Future <a href="https://www.recordedfuture.com/products/identity-intelligence">Identity Intelligence</a> malware logs, and other proprietary investigative methods, Insikt Group has uncovered detailed, unique insights into these affiliates' operations and tradecraft.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_194ab7bc5e8f8cf2f92ad1c8bcff6548d4f8d4c85.png?width=750&amp;format=png&amp;optimize=medium" width="752" height="986" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 1</em></strong><em>: Lumma manuals from 2023 (top) and 2024 (bottom) (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>The findings are presented in two sections: The first examines the affiliates’ technical ecosystems, detailing their use of info-stealing techniques, favored tools and services, and recurring operational behaviors. The second explores how Lumma affiliates are embedded in the broader underground economy. It analyzes their participation in cybercrime forums, use of additional infostealer malware families, and involvement in other types of online fraud and scams.</p>
+        <h2>Threat Analysis</h2>
+        <h3>Operational Infrastructure and Tradecraft</h3>
+        <h4>Privacy Enhancing Services</h4>
+        <h5>Proxy Services</h5>
+        <p>Insikt Group observed multiple Lumma affiliates leveraging various proxy services, detailed in <strong>Table 1</strong>; Pia Proxy was the most frequently used service. Proxies can be used for legitimate purposes such as privacy and research, but they are frequently exploited by cybercriminals to mask identities, avoid detection, and bypass restrictions. Some services, such as ASocks and the malware-based FACELESS, among others, have been openly marketed on cybercrime forums; ASocks has been <a href="https://www.humansecurity.com/learn/blog/satori-threat-intelligence-alert-proxylib-and-lumiapps-transform-mobile-devices-into-proxy-nodes">linked</a> to fake VPNs that convert Android devices into proxies, while FACELESS <a href="https://krebsonsecurity.com/2023/04/giving-a-face-to-the-malware-proxy-service-faceless/">leverages</a> malware to hijack IoT devices for the same purpose. Insikt Group evaluated the proxy services by type based on several criteria, including whether they were promoted on cybercriminal forums.</p>
+        <div>
+          <div>
+            <div><strong>Domains</strong></div>
+            <div><strong>Name</strong></div>
+            <div><strong>Type</strong></div>
+            <div><strong>Prevalence Across Affiliates</strong></div>
+          </div>
+          <div>
+            <div>piaproxy[.]com</div>
+            <div>PIA Proxy</div>
+            <div>Cybercriminal</div>
+            <div>High</div>
+          </div>
+          <div>
+            <div>ghostsocks[.]net</div>
+            <div>GhostSocks</div>
+            <div>Cybercriminal</div>
+            <div>High</div>
+          </div>
+          <div>
+            <div>asocks[.]com</div>
+            <div>ASocks</div>
+            <div>Cybercriminal</div>
+            <div>Medium</div>
+          </div>
+          <div>
+            <div>faceless[.]cc</div>
+            <div>FACELESS</div>
+            <div>Cybercriminal</div>
+            <div>Medium</div>
+          </div>
+          <div>
+            <div>hotsocks[.]biz</div>
+            <div>HotSocks</div>
+            <div>Cybercriminal</div>
+            <div>Medium</div>
+          </div>
+          <div>
+            <div>hotsocks[.]ws</div>
+            <div>HotSocks</div>
+            <div>Cybercriminal</div>
+            <div>Medium</div>
+          </div>
+          <div>
+            <div>nsocks[.]net</div>
+            <div>NSOCKS</div>
+            <div>Cybercriminal</div>
+            <div>Medium</div>
+          </div>
+          <div>
+            <div>proxyline[.]net</div>
+            <div>Proxy Line</div>
+            <div>Cybercriminal</div>
+            <div>Medium</div>
+          </div>
+          <div>
+            <div>vn5socks[.]net</div>
+            <div>VN5Socks</div>
+            <div>Cybercriminal</div>
+            <div>Medium</div>
+          </div>
+          <div>
+            <div>gridpanel[.]net</div>
+            <div>GridPanel</div>
+            <div>Likely cybercriminal</div>
+            <div>Low</div>
+          </div>
+          <div>
+            <div>3389rdp[.]com</div>
+            <div>RDP Shop</div>
+            <div>Unclear</div>
+            <div>N/A</div>
+          </div>
+          <div>
+            <div>922proxy[.]com</div>
+            <div>922 Proxy</div>
+            <div>Likely cybercriminal and possibly a rebrand of 911 Proxy</div>
+            <div>N/A</div>
+          </div>
+          <div>
+            <div>smartproxy[.]pxf[.]io</div>
+            <div>Smartproxy</div>
+            <div>Unclear</div>
+            <div>N/A</div>
+          </div>
+          <div>
+            <div>swiftproxy[.]io</div>
+            <div>Swift Proxy</div>
+            <div>Unclear</div>
+            <div>N/A</div>
+          </div>
+        </div>
+        <p><strong><em>Table 1</em></strong><em>: Proxy services used by Lumma affiliates (Source: Recorded Future)</em></p>
+        <p>Of note, in early 2024, Lumma began collaborating with the GhostSocks team, a residential proxy plugin, enabling affiliates to create SOCKS5 proxies from infected bots, as announced via Lumma’s official channel (see <strong>Figure 2</strong>) (<a href="https://x.com/g0njxa/status/1754630820650696875">1</a>, <a href="https://infrawatch.app/blog/ghostsocks-lummas-partner-in-proxy">2</a>). By 2025, Lumma <a href="https://spycloud.com/blog/on-the-hunt-for-ghostsocks/">expanded</a> this offering, providing affiliates with backconnect proxy access to compromised machines. This <a href="https://spycloud.com/blog/on-the-hunt-for-ghostsocks/">allowed</a> threat actors to conduct attacks that appeared to originate from the victim’s device, significantly improving their ability to bypass access controls such as Google’s cookie-based protections, a mechanism Lumma routinely exploits to refresh expired tokens.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_10cf2e60e38e472b0747cb87e5a6601669398074c.png?width=750&amp;format=png&amp;optimize=medium" width="714" height="1338" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 2</em></strong><em>: Announcement of GhostSocks-Lumma partnership (Source:</em> <em><a href="https://x.com/g0njxa/status/1754630820650696875">X</a>)</em></div>
+          </div>
+        </div>
+        <p>In at least one instance, Insikt Group identified a Lumma affiliate linked to build ID vcs1q5 — and known as “blackowl23” on cybercriminal forums such as Cracked, Nulled, Sinisterly, Eternia, and Cracking during 2022 and 2023 — using IP addresses associated with the Ngioweb botnet. This botnet has been previously <a href="https://blog.lumen.com/one-sock-fits-all-the-use-and-abuse-of-the-nsocks-botnet/">linked</a> to the cybercriminal proxy service NSOCKS, as well as others such as VN5Socks and Shopsocks5. The associated IP addresses, likely no longer part of the botnet due to public reporting and other mitigating actions, are listed in <strong>Appendix A</strong>. Many of the IP addresses had been previously validated by Insikt Group and <a href="https://www.trendmicro.com/en_us/research/24/k/water-barghest.html">reported</a> on publicly.</p>
+        <h5>VPN Services</h5>
+        <p>According to research conducted by Insikt Group, all analyzed Lumma affiliates were using VPN services in some capacity, with many using multiple providers. A selection of the VPN services observed in use by these affiliates is presented in <strong>Table 2</strong>.</p>
+        <div>
+          <div>
+            <div><strong>Domain</strong></div>
+            <div><strong>Service Name</strong></div>
+            <div><strong>Prevalence Across Affiliates</strong></div>
+          </div>
+          <div>
+            <div>expressvpn[.]com</div>
+            <div>ExpressVPN</div>
+            <div>Medium</div>
+          </div>
+          <div>
+            <div>nordvpn[.]com</div>
+            <div>NordVPN</div>
+            <div>Medium</div>
+          </div>
+          <div>
+            <div>protonvpn[.]com</div>
+            <div>Proton VPN</div>
+            <div>Medium</div>
+          </div>
+          <div>
+            <div>surfshark[.]com</div>
+            <div>Surfshark VPN</div>
+            <div>Medium</div>
+          </div>
+          <div>
+            <div>tunnelbear[.]com</div>
+            <div>TunnelBear</div>
+            <div>Medium</div>
+          </div>
+        </div>
+        <p><strong><em>Table 2</em></strong><em>: VPN services used by Lumma affiliates over the past year (Source: Recorded Future)</em></p>
+        <h5>Anti-Detection and Multi-Account Browsers</h5>
+        <p>Lumma affiliates frequently rely on specialized privacy-focused and anti-detect browsers (see <strong>Table 3</strong>) to evade identification, bypass security measures, and manage multiple fraudulent accounts simultaneously. These tools allow the threat actors to maintain operational security (OPSEC) by obscuring their true identity, location, and digital fingerprints. Among the most prevalent browsers used by Lumma affiliates is Dolphin, recognized widely as one of the best anti-detect browsers tailored explicitly for managing multiple threat actor-controlled accounts without detection. Dolphin’s capabilities are mirrored by Adspower, Hidemyacc, and Kameleo, which similarly facilitate seamless multi-account operations, thereby enhancing operational efficiency and anonymity. Octo Browser, another prominent tool among cybercriminals, provides advanced fingerprint masking, further complicating efforts by law enforcement and threat intelligence professionals to track threat activities to their source.</p>
+        <p>The Brave browser, while designed primarily for enhanced user privacy rather than outright anti-detection, appeals to threat actors due to its robust built-in security and privacy features, such as aggressive ad and tracker blocking. Although less explicitly tailored for multi-account management, its privacy-focused approach provides valuable baseline protection for threat actors seeking to maintain anonymity online.</p>
+        <div>
+          <div>
+            <div><strong>Browser</strong></div>
+            <div><strong>Domain</strong></div>
+            <div><strong>Prevalence Across Affiliates</strong></div>
+          </div>
+          <div>
+            <div>Dolphin</div>
+            <div>dolphin-anty[.]com</div>
+            <div>High</div>
+          </div>
+          <div>
+            <div>Octo Browser</div>
+            <div>octobrowser[.]net</div>
+            <div>High</div>
+          </div>
+          <div>
+            <div>Brave</div>
+            <div>brave[.]com</div>
+            <div>Medium</div>
+          </div>
+          <div>
+            <div>Adspower</div>
+            <div>adspower[.]com</div>
+            <div>Low</div>
+          </div>
+          <div>
+            <div>Hidemyacc</div>
+            <div>hidemyacc[.]com</div>
+            <div>Low</div>
+          </div>
+          <div>
+            <div>Kameleo</div>
+            <div>kameleo[.]io</div>
+            <div>Low</div>
+          </div>
+        </div>
+        <p><strong><em>Table 3</em></strong><em>: Anti-detect browsers for multi-account management used by Lumma affiliates (Source: Recorded Future)</em></p>
+        <h4>Hosting Providers</h4>
+        <p>While Lumma supplies core C2 infrastructure through its MaaS offering, its affiliates rely on separate hosting providers likely aimed at supporting phishing efforts, payload deployment, and other malicious activity. Many of the hosting providers linked to the analyzed Lumma affiliates appear legitimate, but some stood out for seemingly catering directly to cybercriminals and enabling malicious activity, including AnonRDP, Bulletproof Hosting, and Hostcay, which have been used by the Lumma affiliate linked to the build ID re0gvc.</p>
+        <h5>AnonRDP</h5>
+        <p>AnonRDP (<em>anonrdp[.]com</em>) is a self-proclaimed bulletproof hosting provider specializing in anonymous VPS and RDP services, with a strong focus on privacy and resistance to takedown (see <strong>Figure 3</strong>). It requires no identity verification and accepts only cryptocurrency payments, such as Bitcoin and Monero, <a href="https://decodecybercrime.com/from-mauritius-to-the-deep-web-the-anonrdp-com-expose/">processed</a> through the payment service provider NOWPayments and, allegedly, the cryptocurrency exchange ChangeNOW. Its tolerance of malicious activity is further <a href="https://decodecybercrime.com/from-mauritius-to-the-deep-web-the-anonrdp-com-expose/">confirmed</a> by advertisements on deep web forums such as BreachForums, Hack Forums, Nulled, and Patched. As illustrated in <strong>Figure 3</strong>, the website explicitly acknowledges supporting activities such as hosting, distributing, or controlling botnets, remote access trojans (RATs), phishing, fraudulent content, spam, and more. According to public reports, AnonRDP is <a href="https://decodecybercrime.com/from-mauritius-to-the-deep-web-the-anonrdp-com-expose/">operated</a> by Yashvir Keshave, an individual with a known history of involvement in the underground ecosystem, including config (configuration) creation, cracking tools, and digital account trading.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_16029beb2b82ca3754446462028bb01f198f880fc.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1200" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 3</em></strong><em>: AnonRDP website (Source:</em> <em><a href="https://pro.urlscan.io/result/f7c9940b-bd8e-4ba0-bf34-89077d1365c3">urlscan.io</a>)</em></div>
+          </div>
+        </div>
+        <p>Following the arrest of Yuri Meruzhanovich Bozoyan, co-founder and CEO of Aeza Group LLC, on April 1, 2025, Insikt Group observed that AnonRDP had attempted to poach Aeza customers with 50% discounts. The extent of the poaching’s success remains uncertain.</p>
+        <h5><strong>Bulletproof Hosting</strong></h5>
+        <p>Similarly, Bulletproof Hosting (<em>bulletproofhosting[.]org</em>) markets itself as an offshore, privacy-centric hosting provider that offers anonymous, takedown-resistant infrastructure, accepts cryptocurrency payments, and has no ID requirements (see <strong>Figure 4</strong>). The website promotes lenient content policies, explicitly permitting adult material, piracy, gambling, and other content typically banned by conventional hosts. It claims to defend against DMCA notices, abuse complaints, and Spamhaus listings, using techniques like FastFlux and hosting in offshore or hardened facilities with minimal regulatory oversight. With 24/7 support managed by self-described “cyber-tech experts,” the platform is positioned as a resilient service catering to users seeking both anonymity and consistent uptime, which are often appealing to threat actors and controversial content operators.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_154b16e8811774514efc9428c58c74d947463b618.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1200" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 4</em></strong><em>: Bulletproof Hosting website (Source:</em> <em><a href="https://urlscan.io/result/f9782b36-bf97-4e60-a32a-5a88eb9af0da">urlscan.io</a>)</em></div>
+          </div>
+        </div>
+        <h5>HostCay</h5>
+        <p>HostCay (<em>hostcay[.]com</em>) is a privacy-focused, offshore hosting provider founded in 2023 and operated by Netacel Inc., an international business company (IBC) registered in Seychelles. HostCay specializes in hosting services that prioritize freedom of speech, whistleblower support, and resistance to content takedown requests (see <strong>Figure 5</strong>). It is known for its support for anonymous crypto payments, no ID requirements, and strong free speech protections.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_12ac5622adb02506fb95aea510b69f499073d27ed.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1200" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 5</em></strong><em>: HostCay website (Source:</em> <em><a href="https://urlscan.io/result/01977d11-1468-7530-9e39-ab54b42b7099">urlscan.io</a>)</em></div>
+          </div>
+        </div>
+        <p>Lumma affiliates have also been observed leveraging numerous legitimate hosting providers and services, including the file hosting platform MEGA (<em>mega[.]nz</em>), the file and text sharing service Temp[.]sh (<em>temp[.]sh</em>), and the image hosting service ImgBB (<em>imgbb[.]com</em>). They have also made use of various URL shortening services such as <em>shorturl[.]at</em> and <em>free-url-shortener[.]rb[.]gy</em>.</p>
+        <h4>Exploit and Crypting Services</h4>
+        <p>One notable service supporting Lumma operations is run by an actor known as “@cryptexxx.” Rather than being a Lumma affiliate directly, @cryptexxx is the operator of a crypting and exploit service known as Hector (advertised via the domain <em>hector[.]su</em>) that caters to malware distributors, among others (see <strong>Figure 6</strong>). The HTML content of <em>hector[.]su</em> includes meta keywords — such as <code>crypt</code>,<code> exe</code>,<code> exploits</code>,<code> chrome</code>,<code> bypass</code>,<code> lnk</code>,<code> url</code>,<code> xls</code>,<code> xll</code>,<code> doc</code>,<code> docx</code>,<code> pdf</code>,<code> builder</code>,<code> macro</code>, or<code> popup</code> — indicating a broad toolkit for creating malicious payloads across various file formats (from Office macros to Chrome exploits). Forum discussions corroborate that this service provides fully undetectable (FUD) droppers and document exploits for delivering malware. For example, one hacker forum user explicitly directs others to “see URL exploit on <em>hector[.]su</em>” as a resource for a Gmail-attachable, FUD exploit. Such exploits often take the form of weaponized Office files, like malicious Excel add-in files (<code>.XLL</code>) or macro-laced documents, which can embed the Lumma payload and are designed to slip past email scanners and antivirus protections.</p>
+        <p>Recent evidence illustrates how these tools are used in practice. In mid-2025, an underground vendor advertised an updated Office exploit that is “up to date, works in 2025 and attachable on Gmail, plus FUD,” explicitly boasting that it can bypass Gmail’s filters. The same offering also highlights a Windows Defender runtime bypass, with an AV scan report showing 0/26 detections. This means a Lumma affiliate could generate a trojanized file (such as an Excel <code>.xll</code> file or a malicious shortcut/URL file) that delivers the stealer while evading both email gateway scanning and endpoint antivirus protections.</p>
+        <p>By leveraging @cryptexxx’s crypting service and exploit builder, the affiliate essentially outsources the difficult aspects of stealth and delivery. It is a clear example of the cooperative nature of LummaC2 operations: the malware developer provides the infostealer malware, the service operator (@cryptexxx) supplies an obfuscation and exploit toolkit, and the affiliate uses these tools to distribute the payload to victims.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1e41a0b354e689ebe2db03d2c9e0529206edc5e4b.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1200" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 6</em></strong><em>: Hector website (Source:</em> <em><a href="https://urlscan.io/result/01980dbf-c531-7336-88f2-354307aa640b">urlscan.io</a>)</em></div>
+          </div>
+        </div>
+        <h4>Email-Linked Services and Tools</h4>
+        <p>Insikt Group observed multiple Lumma affiliates using a range of email and spam-related services, including a credential validation tool known as “EMAIL SOFTWARE 1.4.0.9 cracked by Maksim” and a phishing page creation tool known as “DONUSSEF”, both of which have likely been deployed in at least one confirmed case.</p>
+        <h5>EMAIL SOFTWARE 1.4.0.9 cracked by Maksim</h5>
+        <p>EMAIL SOFTWARE 1.4.0.9 cracked by Maksim is a cracked version of a Windows .NET-based email credential verification tool (see <strong>Figure 7</strong>). It is designed to validate email and password combinations against mail servers using protocols like IMAP and POP3. Users can input large lists of email credentials (often referred to as "combo lists") to check which combinations are valid. The tool also <a href="https://pro.urlscan.io/result/01980f1a-e26f-772c-acd5-5462d5591743">allows</a> users to search for specific keywords within email content. The tool is distributed as a password-protected <code>.rar</code> archive on various hacking and cracking forums (such as DemonForums or XReactor), with users reporting prices of up to $250 on underground marketplaces.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_19f74fdb6628756b01d6a3be60a6c5d348409ede9.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1200" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 7</em></strong><em>: EMAIL SOFTWARE 1.4.0.9 cracked by Maksim advertised on forum[.]cnsec[.]org (Source:</em> <em><a href="https://urlscan.io/result/01980f1a-e26f-772c-acd5-5462d5591743">urlscan.io</a>)</em></div>
+          </div>
+        </div>
+        <p>The tool features a user interface with several configuration options, including a status overview of processed email addresses, a control panel to start or stop validation, and proxy management capabilities, among other functionalities (see <strong>Figure 8</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1fe77bd5713a62927a8160bdfaf8e196d0f90f64b.png?width=750&amp;format=png&amp;optimize=medium" width="780" height="596" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figure 8</em></strong><em>: Graphical user interface (GUI) of EMAIL SOFTWARE 1.4.0.9 cracked by Maksim</em></p>
+              <p><em>(Source: Recorded Future)</em></p>
+            </div>
+          </div>
+        </div>
+        <p>Insikt Group assesses that the Lumma affiliate blackowl23 has used or continues to use the tool to validate stolen credentials, which are then leveraged in the follow-on real estate scam detailed in the section <a href="#blackowl23s-involvement-in-real-estate-scam">blackowl23’s Involvement in Real Estate Scam</a>, among other scams. Based on identified configurations, it is possible that the affiliate has customized the tool.</p>
+        <h5>DONUSSEF</h5>
+        <p>Insikt Group identified another tool, known as “DONUSSEF”, which was demonstrated in a publicly accessible video hosted on Google Drive at the time of analysis (see <strong>Figure 9</strong>). Believed to be used by blackowl23, the tool is designed to generate phishing pages via the command line using AI. It prompts the user to input URLs, a subject line, and a brief description of the intended phishing content, and then produces an HTML file as output.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1c03b66d38918d9b3a4c7aa331900a9a16cc5416a.png?width=750&amp;format=png&amp;optimize=medium" width="1400" height="918" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 9</em></strong><em>: Demo video of DONUSSEF (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>The full range of phishing pages the tool can generate remains unclear, as Insikt Group was unable to independently test it. In the demo, it was shown creating only PayPal phishing pages (see <strong>Figure 10</strong>). Due to the unavailability of the actual HTML pages, Insikt Group was unable to assess their effectiveness or determine whether they have appeared in any known campaigns.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1b05606f3d26012003b4511f2ca48399daa1cbfaa.png?width=750&amp;format=png&amp;optimize=medium" width="1290" height="802" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 10</em></strong><em>: PayPal phishing page generated by DONUSSEF (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>Through further investigation, Insikt Group <a href="https://www.youtube.com/@donussef">identified</a> a YouTube channel likely associated with the suspected creator of DONUSSEF. The actor used the channel to demonstrate at least two additional tools: one <a href="https://www.youtube.com/watch?v=eKGYS5gqOI4">marketed</a> as an email sender with a 100% inbox delivery rate, and another for SMS spamming (<a href="https://www.youtube.com/watch?v=9UrQ8DgwDBM">referred</a> to as “<code>ULTRA-checker.py</code>” in the video). Both videos were uploaded on December 18, 2022, from a device using French-language settings. In one of the demo videos, the actor used and accessed two email accounts, <em>ussefescobar@seznam[.]cz</em> and <em>ussefakkar@outlook[.]com</em>, which are believed to be linked to the actor.</p>
+        <p>The <code>ULTRA-checker.py</code> tool includes references to two Telegram channels: @donussef and @rdpvendor. At least one of these accounts appears to be active in Telegram communities associated with spam-related tools (see <strong>Figure 11</strong>). Insikt Group found no additional links between the suspected creator of DONUSSEF and blackowl23.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_15ff4ef7cedb3fc035bb76ed4e5573e7425261e10.png?width=750&amp;format=png&amp;optimize=medium" width="1246" height="362" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 11</em></strong><em>: @donussef advertising tooling on Telegram (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <h5>Other Email Sender and Lead Generation Services</h5>
+        <p>Insikt Group identified several other, often legitimate email-related services used by Lumma affiliates for multiple purposes, including Joz Data (<em>jozdata[.]com</em>), Mailchimp (<em>mailchimp[.]com</em>), Spamir (<em>spamir[.]fr</em>), and Mandrill (<em>mandrillapp[.]com</em>), among others. Joz Data provides validated, segmented email lists for marketing and lead generation. Mailchimp is a legitimate platform for designing and managing email campaigns. Spamir <a href="https://pro.urlscan.io/result/55f27eb5-b9fa-4c56-aab1-93cad0379dbb">offers</a> tools for bulk email and SMS delivery, often linked to spam or phishing activity despite being presented as a testing toolkit. Mandrill, a paid add-on to Mailchimp, is a transactional email API used to send one-to-one, event-triggered messages such as password resets and order confirmations via SMTP or API.</p>
+        <h4>AVCheck and Alternatives</h4>
+        <p>Like many threat actors deploying malware or related infrastructure, Lumma affiliates actively seek tools to test detection beyond standard sandbox environments. Over the past twelve months, Insikt Group observed multiple affiliates using at least two such services: AVCheck (<em>avcheck[.]net</em>), which was <a href="https://therecord.media/international-operation-takes-down-cryptor">seized</a> by law enforcement in May 2025; and, more recently, KleenScan (<em>kleenscan[.]com</em>). There were also signs that at least one affiliate used <em>avscan[.]net</em>, although its presence and nature could not be confirmed at the time of analysis, as the domain <a href="https://urlscan.io/result/019811bc-d4b7-7636-b6b9-298b027cd6d4">appeared</a> to be listed for sale.</p>
+        <p>KleenScan is an alternative malware-scanning service frequently used by and <a href="https://www.esentire.com/blog/operation-endgame-disrupts-avcheck-forces-threat-actors-to-seek-alternatives">marketed</a> to cybercriminals to test malicious files, URLs, and domains against multiple antivirus engines (see <strong>Figure 12</strong>). It offers a user interface, API, and command-line client, and even a Telegram bot (@kleenscanofficialbot) for uploads and real-time or runtime scans, all while explicitly promising a "No Distribution" policy so that submitted samples will not be shared with antivirus vendors. Although Insikt Group observed Lumma affiliates using KleenScan prior to AVCheck’s seizure in May 2025, public reporting <a href="https://www.esentire.com/blog/operation-endgame-disrupts-avcheck-forces-threat-actors-to-seek-alternatives">indicates</a> that cybercriminals have increasingly turned to platforms like KleenScan as an alternative due to the seizure. Notably, KleenScan advertises <em>hector[.]su</em> (see <strong>Figure 12</strong>), an exploit broker further detailed in the section <a href="#exploit-and-crypting-services">Exploit and Crypting Services</a>.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1b4750622ab8a9e704c0c25d86a10dc2b09776539.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1200" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 12</em></strong><em>: KleenScan website (Source:</em> <em><a href="https://urlscan.io/result/0197f8be-2b86-754f-bf58-e9b1ba1a9617">urlscan.io</a>)</em></div>
+          </div>
+        </div>
+        <h4>Phone and SMS Services</h4>
+        <p>Lumma affiliates heavily abuse virtual phone and SMS services (see <strong>Table 4</strong>) such as OnlineSim, SMS-Activate, and Zadarma. These platforms provide throwaway phone numbers for SMS or voice verification, which the threat actors use to bypass OTP-based security and create fake accounts without using personal identifiers. Lumma affiliates can automatically receive 2FA codes or activation PINs on virtual numbers, allowing them to register malware distribution sites, cloud drives, or messaging accounts without exposing their real phone lines. This identity obfuscation is crucial in the Lumma ecosystem, as it frustrates attribution and takedown efforts by making infrastructure ownership seem transient.</p>
+        <p>In practice, using these services for OTP bypass and fake account generation helps Lumma crews widen their attack surface. Disposable SMS numbers let attackers circumvent SMS-based two-factor authentication by redirecting one-time passcodes to attacker-controlled inboxes. This means that even if a stolen account is protected by SMS 2FA, Lumma affiliates can try to reroute the OTP to a virtual number they control, effectively nullifying the protection. Services like Zadarma (a VoIP provider) further enable criminals to receive calls or texts on virtual lines, or even perform spoofed voice calls as part of OTP interception bots and vishing schemes. Within the Lumma affiliate program, guides and community chatter encourage the use of these tools for operational security, from registering throwaway email and Telegram accounts to setting up C2 panels or scam payment accounts.</p>
+        <div>
+          <div>
+            <div><strong>Service Name</strong></div>
+            <div><strong>Domain</strong></div>
+            <div><strong>Notes</strong></div>
+          </div>
+          <div>
+            <div>OnlineSim</div>
+            <div>onlinesim[.]io</div>
+            <div>Burner eSim Provider</div>
+          </div>
+          <div>
+            <div>SMS-Activate</div>
+            <div>sms-activate[.]org</div>
+            <div>Burner eSim Provider</div>
+          </div>
+          <div>
+            <div>SMS-Activate</div>
+            <div>sms-activate[.]io</div>
+            <div>Burner eSim Provider</div>
+          </div>
+          <div>
+            <div>Zadarma</div>
+            <div>zadarma[.]com</div>
+            <div>VoIP Service</div>
+          </div>
+        </div>
+        <p><strong><em>Table 4</em></strong><em>: Phone and SMS-linked services used by Lumma affiliates (Source: Recorded Future)</em></p>
+        <h4>Messaging Platforms</h4>
+        <p>Lumma affiliates integrate multiple secure messaging and information-sharing tools into their daily workflows to enhance operational security, maintain anonymity, and minimize digital footprints. Affiliates commonly use uTox, a decentralized peer-to-peer messaging client employing end-to-end encryption via the Tox protocol. This tool facilitates persistent, secure communications, supporting text, voice, and video messaging, and is frequently combined with Tor proxies to conceal affiliate identities and avoid central server dependencies.</p>
+        <p>Mobile affiliates within the Lumma ecosystem prefer secure XMPP-based Android applications like Xabber and <em>c0nnect[.]pro</em>. Both apps offer encrypted communications via off-the-record encryption, multi-account management, and compatibility with private, controlled XMPP servers, making them ideal for discrete coordination while on the move. Affiliates often configure these applications to run in tandem with Tor proxies, further obfuscating metadata and reducing digital exposure.</p>
+        <p>For scenarios requiring transmission of ephemeral, sensitive information, such as credentials, passwords, or instructions, Lumma affiliates frequently rely on Privnote, a web-based service that generates encrypted notes that self-destruct after being read once. This capability significantly reduces the affiliate’s potential forensic footprint by leaving no persistent records and enables secure, rapid exchanges of operational details.</p>
+        <p>Collectively, these tools form a layered communication architecture employed by Lumma affiliates, effectively balancing persistent communications, mobile flexibility, and ephemeral secure exchanges to minimize risks and enhance stealth.</p>
+        <h4>Social Media Optimization</h4>
+        <p>In at least one case, Insikt Group observed a Lumma affiliate leveraging the service Bosslike (<em>bosslike[.]ru</em>), which claims to offer free and rapid boosts for likes on platforms such as Instagram, VK, and TikTok (see <strong>Figure 13</strong>), likely in support of scam-related activities.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1e5a4b28cf8cb515b048811dd60d31a8a04e11d19.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1200" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 13</em></strong><em>: Bosslike website (Source:</em> <em><a href="https://urlscan.io/result/0196396a-4d12-74aa-baed-f578603fcf7a">urlscan.io</a>)</em></div>
+          </div>
+        </div>
+        <h3>Affiliates’ Embedding in the Cybercriminal Ecosystem</h3>
+        <h4>Forum Involvement</h4>
+        <p>Lumma’s affiliate ecosystem thrives on underground forums that act as hubs for collaboration, resources, and marketplaces. Russian-language cybercrime forums like XSS and Exploit serve as launchpads for Lumma’s MaaS, and they are where the stealer was initially <a href="https://www.cloudflare.com/threat-intelligence/research/report/cloudflare-participates-in-joint-operation-to-disrupt-lumma-stealer/#:~:text=Lumma%20Stealer%20was%20first%20observed,to%20the%20current%20disruption%20effort">advertised</a> and vetted by the community. These forums attract technically adept threat actors and lend credibility to new malware offerings through reputation systems and moderator oversight. Affiliates frequent them not only to obtain Lumma builds but also to engage with trusted escrow and arbitration services, ensuring safer transactions when purchasing tools or settling disputes with partners. The established trust on forums like Exploit and XSS provides a reliable environment for affiliates to do business, from renting servers to resolving conflicts, under the watch of experienced moderators.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1db2f45198f41f4390ee29bf9219aca95d175fb6e.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="906" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 14:</em></strong> <em>LummaC2 administrator (image text machine-translated from Russian) (Source: Exploit Forum)</em></div>
+          </div>
+        </div>
+        <p>At the same time, mass-market cybercrime communities such as LolzTeam (<em>zelenka[.]guru</em>) have become a hotbed for <a href="https://www.cybercrimediaries.com/post/russian-language-cybercriminal-forums-analyzing-the-most-active-and-renowned-communities#:~:text=Our%20observations%20lead%20us%20to,and%20offering%20to%20educate%20beginners">recruiting</a> and training the foot soldiers of Lumma’s operations. These more accessible forums host dedicated sections for “traffers,” threat actors who specialize in spreading infostealer malware, and are actively used to assemble affiliate teams and educate newcomers. On LolzTeam, for example, seasoned criminals advertise infostealer affiliate programs that provide novices with everything needed to start distributing malware. In <a href="https://g0njxa.medium.com/profiling-traffic-cerberus-ex-amnesia-3758faba4385">one case</a>, a team on LolzTeam offered free crypted Lumma builds and even SEO support to new recruits, taking a percentage of profits from stolen cryptocurrency assets. This low barrier to entry, combined with forum-posted tutorials on fraud techniques and operational security, turns platforms like LolzTeam into a workforce pool for infostealer distribution. The forums’ community-driven vetting, including rules against targeting certain regions and public feedback on schemes, further helps affiliates learn effective and “acceptable” tactics. Common fraud methodologies are frequently discussed and popularized on these boards, giving Lumma affiliates insight into monetization tricks and victim manipulation strategies.</p>
+        <p>Perhaps most critically, these underground forums provide ready-made marketplaces and services that Lumma affiliates leverage to monetize stolen data and optimize their campaigns. Infostealer logs are in high demand, and forums link affiliates to bustling marketplaces where this data is bought and sold. Russian Market (<em>rm1[.]to</em>), for example, is an automated shop accessible via forum circles that has been <a href="https://reliaquest.com/blog/infostealer-pipeline-stolen-credential-attacks-russian-marketplace/?utm_source=twitter.com/thewebvy#:~:text=credentials%20on%20the%20notorious%20automated,vending%20cart%20site%20Russian%20Market">described</a> as “the Amazon of stolen credentials” for its massive inventory and one-click purchase convenience. By late 2024, Lumma had become the dominant source of credentials on Russian Market, <a href="https://reliaquest.com/blog/infostealer-pipeline-stolen-credential-attacks-russian-marketplace/?utm_source=twitter.com/thewebvy#:~:text=credentials%20on%20the%20notorious%20automated,vending%20cart%20site%20Russian%20Market">accounting</a> for roughly 92% of stolen log listings, underscoring how extensively Lumma affiliates dump their haul on such platforms for profit. Other venues like LolzTeam’s own marketplace and <em>xleet[.]pw</em> similarly include sections for infostealer logs, compromised accounts, and digital goods, allowing affiliates to quickly sell data from Lumma infections to the highest bidder. Beyond data sales, forum marketplaces connect Lumma affiliates to initial access brokers and financial fraud services that help convert stolen information into cash. Affiliates can find buyers for enterprise login credentials or enlist money laundering and cash-out services advertised across these forums.</p>
+        <p>Underground forums double as one-stop shops for the technical and operational support that Lumma affiliates need. Dedicated <a href="https://medium.com/s2wblog/lumma-stealer-targets-youtubers-via-spear-phishing-email-ade740d486f7">threads</a> run by the Lumma developers or peer community members offer technical assistance, update announcements, and troubleshooting advice in real time. This means an affiliate can turn to forum communities for help with builder configuration, antivirus evasion tips, or to share intelligence on law enforcement takedowns. The forums also host a range of malware-adjacent services crucial to running stealthy campaigns. Providers of bulletproof hosting, VPNs, and traffic distribution congregate on all major forums. The same service providers frequently advertise on multiple sites, which makes it easy for affiliates to obtain resilient servers and web domains to host Lumma malware. Crypting services are equally accessible; for instance, the popular Cassandra crypter and others are promoted in forum marketplaces, enabling affiliates to continuously encrypt and repackage Lumma payloads to evade antivirus detection.</p>
+        <p>There is a rich ecosystem of offerings, such as exploit kits, fake document templates, spambot rentals, and credential checkers, which affiliates can source from these communities to enhance their operations. Together, these forums provide Lumma affiliates with a comprehensive suite of tools that have been vetted by the community. This practical and operational value is why Lumma’s affiliate network remains deeply embedded in underground forums: they provide not only the means to deploy and hide the malware, but also the mechanisms to cash in on its outputs, all within a semi-structured community that enforces trust among thieves.</p>
+        <h4>Carding Shops</h4>
+        <p>Lumma Stealer affiliates turn to specialized carding shops like <em>b1ackstash[.]cc</em>, <em>stashpatrick[.]io</em>, BriansClub (see <strong>Figure 15</strong>) (<em>bclub[.]cm</em> and <em>briansclub[.]cm</em>), and <em>binsoficial666[.]activo[.]mx</em> to efficiently monetize the financial data they’ve stolen. Insikt Group notes that these sources vary widely in credibility; shops like BriansClub are considered authoritative within the payment fraud ecosystem, while <em>binsoficial666[.]activo[.]mx</em> has a very poor reputation. Unlike general cybercrime boards, carding websites are dedicated to trading payment data and attract a built-in customer base of fraudsters looking for credit card numbers, bank logins, and personal info. Lumma affiliates capitalize on this demand by selling freshly obtained card records and “fullz” in bulk, often earning a percentage for each sale through the forum’s escrow or shop system. In essence, carding platforms let Lumma affiliates quickly turn stolen card data into profit, with high-volume outlets like BriansClub historically trafficking millions of compromised cards supplied by malware affiliates.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1d27f63dc4b78c138192c435b85674cee940042ed.png?width=750&amp;format=png&amp;optimize=medium" width="1414" height="788" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 15:</em></strong> <em>Landing page for BriansClub (Source: BriansClub)</em></div>
+          </div>
+        </div>
+        <p>Beyond sales, carding forums offer operational support for fraud that broader hacking forums do not. Lumma affiliates frequent these communities to learn and collaborate on card-not-present (CNP) fraud using stolen card credentials to buy goods or launder money online. The forums host vetted tutorials for abusing e-commerce sites and payment processors, helping thieves bypass anti-fraud measures. Members also advertise criminal services such as providing “drop” addresses (safe delivery points for goods bought with stolen cards) or converting illicit purchases into cash. Additionally, these forums supply validation tools and services critical to fraud operations. Lumma affiliates can purchase or access credit card checkers that automatically test which cards from their stealer logs remain valid and have credit available, ensuring they only spend time on live cards. They might also acquire Bank Identification Number (BIN) lists and other utilities, using the community’s pooled resources to maximize successful transactions. Carding sites enable Lumma affiliates to offload infostealer loot in bulk, complementing sales on broader crime forums. A single Lumma infection yields an expansive log of credentials, cookies, system data, and often multiple financial accounts; parsing and individually selling each asset can be labor-intensive. Carding marketplaces or associated breach data shops let affiliates resell entire stealer logs or specific datasets to other criminals who specialize in exploiting them. For example, high-value logs from Lumma, containing not just cards but bank account passwords or cryptocurrency wallet keys, are often posted on underground markets or offered via automated bot vendors shortly after exfiltration. This practice allows Lumma affiliates to monetize stolen information at scale: they can quickly sell bundles of fresh logs to brokers or fraud rings while focusing their own efforts on new infections. In tandem with general hacking forums, these carding forums provide the ecosystem for cashing out Lumma’s results. They offer a one-stop underground economy where affiliates convert stolen data into money through direct sales of CVVs and “fullz,” the provision of guidance and tools for fraudulent transactions, and the bulk resale of stolen logs. This significantly enhances both the profitability and practicality of Lumma operations.</p>
+        <h4>Use of Additional Infostealers</h4>
+        <p>Insikt Group observed several Lumma affiliates leveraging other infostealers alongside Lumma.</p>
+        <h5>Meduza Stealer, Vidar, and CraxsRAT Used by Likely Mexico-Based Lumma Affiliate</h5>
+        <p>The affiliate linked to Lumma build ID re0gvc, a likely Mexico-based threat actor operating under multiple aliases across various forums, was observed using Meduza Stealer infrastructure tied to IP address <em>195[.]133[.]18[.]15</em>. Like Lumma, Meduza Stealer is a Windows-based MaaS infostealer, designed to extract credentials, browser data, and crypto wallets while evading detection through anti-analysis and geo-filtering techniques.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1fc9ce08a94a9aadc2929d15f0d26e439cfe92201.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1200" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 16</em></strong><em>: Meduza Stealer panel on hxxp://195[.]133[.]18[.]15/auth/login (Source:</em> <em><a href="https://urlscan.io/result/09dbd3e5-a1b2-4a69-ba69-48fc91111817">urlscan.io</a>)</em></div>
+          </div>
+        </div>
+        <p>Insikt Group also identified high-confidence indicators that the same threat actor used Vidar, a Windows-based infostealer, along with medium-confidence evidence suggesting the use of CraxsRAT, an Android-based RAT, based on Telegram profile images likely tied to the affiliate (see <strong>Figure 17</strong>). While this indicates this affiliate may have also targeted mobile devices, Insikt Group found no associated samples, infrastructure, or campaigns to confirm this activity.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_15f6ac4a2481b1afe243529928308667acd1e8196.png?width=750&amp;format=png&amp;optimize=medium" width="591" height="1280" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 17</em></strong><em>: Telegram account linked to Kingping_Mx (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <h5>Stealc Used by Lumma Affiliate suffergrime</h5>
+        <p>Another affiliate linked to Lumma build IDs test222 and eLMNFu, known as “suffergrime” on various forums and operating under multiple other aliases, including duckfuck, cryptplease, ultracool2201, borodach, and dedo4ek, appears to have used StealC alongside Lumma. Stealc is a modular, evasive information stealer written in C and distributed as an MaaS. More specifically, suffergrime has been observed interacting with the Stealc management panel on the URL <em>hxxp://94[.]232[.]249[.]208/6a6fe9d70500fe64/main.php</em>. Insikt Group assesses that the affiliate is likely a Spanish speaker, with indications suggesting a possible origin in South America.</p>
+        <h5>worldmix10k’s Interest in Wallet and Vilsa Stealer</h5>
+        <p>In addition to the cases above, Insikt Group observed a Lumma affiliate associated with build ID 1dacrp and likely known as “worldmix10k” expressing interest in two additional stealers: a “Wallet Stealer” previously hosted on a GitHub repository named “poopybuthoop”, and Vilsa Stealer, an infostealer that had been publicly <a href="https://www.cyfirma.com/research/vilsa-stealer/">reported</a> on earlier. Although the GitHub repository was no longer accessible at the time of analysis, a historical snapshot was preserved by Ecosyste.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_11ba019fddd4e2ebff5c9c5b9eae1282db115f67c.png?width=750&amp;format=png&amp;optimize=medium" width="1434" height="690" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 18</em></strong><em>: Repository linked to poopybuthoop (Source: Ecosyste)</em></div>
+          </div>
+        </div>
+        <p>Notably, a search for the string “worldmix10k” led Insikt Group to a Lumma sample with the build ID “1dacRP--worldmix10k”, linked to the same affiliate. This sample used <em>techmindzs[.]live</em> and <em>earthsymphzony[.]today</em> as its C2 domains, as well as a SteamCommunity URL, <em>hxxps://steamcommunity[.]com/profiles/76561199822375128</em>, for dead drop resolving. Insikt Group could not identify the exact infection chains linked to the sample.</p>
+        <h4>Involvement in Other Scams</h4>
+        <p>Analysis of multiple Lumma affiliates over the last twelve months revealed that many are not only using multiple infostealers concurrently, as outlined in the section <a href="#use-of-additional-infostealers">Use of Additional Infostealers</a>, but are also likely involved in a variety of distinct scam operations. One of these scams, linked to the Lumma affiliate known as blackowl23, drew particular attention from Insikt Group and is explored in greater detail below.</p>
+        <h5>blackowl23’s Involvement in Real Estate Scam</h5>
+        <p>Insikt Group uncovered evidence indicating that blackowl23 has been involved in a real estate scam in which rental listings, likely both actor-created and compromised, on platforms like the German website WG-Gesucht were used to deceive victims into making payments before apartment viewings. As part of this scheme, blackowl23 has used the email addresses <em>immo-total[@]outlook[.]com</em> and <em>mwimport[@]outlook[.]de</em> (see <strong>Figure 19</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1c3c421abc4ced297a0201ce3196999a7afecc06a.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="979" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 19</em></strong><em>: WG-Gesucht advertisements showing up in a Google search (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>More specifically, the affiliate claimed to have had “bad experiences in the past with people wanting to rent the property,” stating that when they “got to the property, there was no one there,” which resulted in “cancelled business appointments, wasting time and money.” Using this as justification, they asked victims to make payments via Booking.com, asserting that the process was secure and that victims would be refunded if they were dissatisfied with the apartment (see <strong>Figure 20</strong>). Notably, the same URL path (<code>property-aid-63785823-label-gen-832513841233</code>) <a href="https://www.fortian.com.au/blog/unmasking-sophisticated-marketplace-scams.html">observed</a> in this activity was also seen in the final-stage URL of a rental scam campaign reported by Fortian in 2024. In that instance, victims were <a href="https://www.fortian.com.au/blog/unmasking-sophisticated-marketplace-scams.html">deceived</a> into reserving accommodations, and the domain used appears to be a typosquatting variant, <em>booking[.]eu-apt-booking[.]homes</em>, hosted via Cloudflare.</p>
+        <div>
+          <div>
+            <div>
+              <pre><code>Hello,
+
+Unfortunately, no, but here attached to this email you have the booking.com link from where you can rent and check the apartment.
+
+After we receive the booking.com confirmation that the rent procedure and the payment is completed on the platform, we can arrange the visit or the move-in directly to the apartment.
+
+We want to let you know that the rent procedure is secured by booking.com and if you don't like the apartment you will receive the money back without any problems directly to your bank account on the same day.
+
+Here is the booking.com link where you can check the apartment and complete the rent procedure:
+
+hxxps://REDACTED/property-aid-63785823-label-gen-832513841233/en/528104900
+Let us know if you have any questions or concerns.
+
+After you complete the rent procedure, please send us the confirmation of it.
+</code></pre>
+            </div>
+          </div>
+        </div>
+        <p><strong><em>Figure 20</em></strong><em>: Text sent to the target of a Lumma affiliate (Source: Recorded Future)</em></p>
+        <p>Insikt Group also uncovered supporting evidence that the affiliate employed a similar scheme: claiming to have escrow agents worldwide, sending victims a payment link to secure a reservation, and promising that the funds would be held safely and transferred to “one of [their] available bank accounts.” In this case, Insikt Group was unable to recover the actual payment link.</p>
+        <p>While the affiliate may have created their own accounts on platforms like WG-Gesucht, evidence shows they possess a large number of compromised WG-Gesucht credentials. Insikt Group hypothesizes that at least some of these credentials were stolen through the affiliate’s Lumma infections. In this context, it's important to note that while selling logs is generally lucrative, the value of certain credentials, such as those for platforms like WG-Gesucht, likely comes from their use in follow-on scams rather than direct resale, which may explain why some buyers may show limited interest in them.</p>
+        <h2>Outlook</h2>
+        <p>Insikt Group’s unique investigation into Lumma affiliates uncovered a large infostealing ecosystem enabled by a diverse set of tools and services, including proxies, VPNs, anti-detect browsers, exploit kits, crypting services, and malware detection tools. During the investigation, Insikt Group identified previously unreported tools and demonstrated how affiliates frequently run multiple scams in parallel, such as rental fraud, while leveraging additional infostealers like Vidar, Stealc, and Meduza Stealer, likely to enhance success rates and reduce the impact of detection or law enforcement disruption. Looking ahead, Lumma affiliates will likely further diversify their presence across specialized and niche forums, integrating more deeply with cryptocurrency-focused platforms and encrypted messaging ecosystems, complicating detection and disruption efforts.</p>
+        <p>While many tactics and tools appear standardized across affiliates, who are likely influenced by shared guides provided by the Lumma MaaS operators, meaningful operational differences exist. These nuances are crucial for defenders, as understanding individual affiliate behaviors offers a clearer picture of how specific threats emerge and evolve within a broader ecosystem. In addition, the findings underscore that many Lumma affiliates are not casual participants, but embedded actors with deep ties to the cybercriminal underground. Their adoption of layered tool sets and diversification across malware families suggests both maturity and adaptability.</p>
+        <p>Looking ahead, although recent law enforcement efforts temporarily disrupted Lumma’s infrastructure, the group’s swift recovery with minimal changes underscores its resilience and operational discipline. The longer-term impact of the law enforcement efforts on the individual affiliates hinges on Lumma’s ability to rebuild trust and retain them, a goal it pursues through swift restoration of its infrastructure, <a href="https://www.trendmicro.com/en_us/research/25/g/lumma-stealer-returns.html">proactive communication</a>, and likely feature enhancements. More broadly, the recent law enforcement operations underscore how modern cybercriminal operations function as decentralized networks, where even successful disruptions tend to have only short-term effects. Sustained mitigation will require ongoing law enforcement pressure and targeted intelligence to track the evolving tactics of individual affiliates, in addition to seeking to disrupt Lumma’s infrastructure.</p>
+        <h2>Appendix A — Ngioweb Botnet-Linked IP Addresses Used by Lumma Affiliate blackowl23</h2>
+        <div>
+          <div>
+            <div><strong>IP Address</strong></div>
+            <div><strong>Port</strong></div>
+            <div><strong>ASN</strong></div>
+          </div>
+          <div>
+            <div>162[.]210[.]192[.]136</div>
+            <div>60136</div>
+            <div>AS30633</div>
+          </div>
+          <div>
+            <div>174[.]138[.]176[.]77</div>
+            <div>26714</div>
+            <div>AS19318</div>
+          </div>
+          <div>
+            <div>174[.]138[.]176[.]78</div>
+            <div>59315</div>
+            <div>AS19318</div>
+          </div>
+          <div>
+            <div>195[.]154[.]43[.]189</div>
+            <div>41623</div>
+            <div>AS12876</div>
+          </div>
+          <div>
+            <div>209[.]159[.]153[.]19</div>
+            <div>37726</div>
+            <div>AS19318</div>
+          </div>
+          <div>
+            <div>212[.]83[.]137[.]94</div>
+            <div>59351</div>
+            <div>AS12876</div>
+          </div>
+          <div>
+            <div>212[.]83[.]138[.]186</div>
+            <div>60126</div>
+            <div>AS12876</div>
+          </div>
+          <div>
+            <div>212[.]83[.]138[.]245</div>
+            <div>50029</div>
+            <div>AS12876</div>
+          </div>
+          <div>
+            <div>212[.]83[.]143[.]103</div>
+            <div>55734</div>
+            <div>AS12876</div>
+          </div>
+          <div>
+            <div>212[.]83[.]143[.]118</div>
+            <div>10696</div>
+            <div>AS12876</div>
+          </div>
+          <div>
+            <div>212[.]83[.]143[.]159</div>
+            <div>50297</div>
+            <div>AS12876</div>
+          </div>
+          <div>
+            <div>212[.]83[.]143[.]191</div>
+            <div>14618</div>
+            <div>AS12876</div>
+          </div>
+          <div>
+            <div>38[.]91[.]107[.]229</div>
+            <div>64336</div>
+            <div>AS63023</div>
+          </div>
+          <div>
+            <div>38[.]91[.]107[.]2</div>
+            <div>56581</div>
+            <div>AS63023</div>
+          </div>
+          <div>
+            <div>51[.]83[.]116[.]4</div>
+            <div>50610</div>
+            <div>AS16276</div>
+          </div>
+          <div>
+            <div>66[.]29[.]129[.]52</div>
+            <div>24732</div>
+            <div>AS22612</div>
+          </div>
+          <div>
+            <div>67[.]213[.]210[.]115</div>
+            <div>55168</div>
+            <div>AS13213</div>
+          </div>
+          <div>
+            <div>67[.]213[.]212[.]50</div>
+            <div>10718</div>
+            <div>AS13213</div>
+          </div>
+        </div>
+        <h2>Appendix B — Indicators of Compromise (IoCs)</h2>
+        <div>
+          <div>
+            <div>
+              <pre><code>Ngioweb IP Addresses:
+38[.]91[.]107[.]2
+38[.]91[.]107[.]229
+51[.]83[.]116[.]4
+66[.]29[.]129[.]52
+67[.]213[.]210[.]115
+67[.]213[.]212[.]50
+162[.]210[.]192[.]136
+174[.]138[.]176[.]77
+174[.]138[.]176[.]78
+195[.]154[.]43[.]189
+209[.]159[.]153[.]19
+212[.]83[.]137[.]94
+212[.]83[.]138[.]186
+212[.]83[.]138[.]245
+212[.]83[.]143[.]103
+212[.]83[.]143[.]118
+212[.]83[.]143[.]159
+212[.]83[.]143[.]191
+
+Lumma Sample:
+b8e02f2bc0ffb42e8cf28e37a26d8d825f639079bf6d948f8debab6440ee5630
+
+Meduza Panel:
+hxxp://195[.]133[.]18[.]15/auth/login
+
+Stealc Panel:
+hxxp://94[.]232[.]249[.]208/6a6fe9d70500fe64/main.php
+</code></pre>
+            </div>
+          </div>
+        </div>
+        <h2>Appendix C — MITRE ATT&amp;CK Techniques</h2>
+        <div>
+          <div>
+            <div><strong>Tactic: Technique</strong></div>
+            <div><strong>ATT&amp;CK Code</strong></div>
+          </div>
+          <div>
+            <div><strong>Resource Development:</strong> Acquire Infrastructure: Domains</div>
+            <div>T1583.001</div>
+          </div>
+          <div>
+            <div><strong>Resource Development:</strong> Acquire Infrastructure: Virtual Private Server</div>
+            <div>T1583.003</div>
+          </div>
+          <div>
+            <div><strong>Resource Development:</strong> Acquire Infrastructure: Server</div>
+            <div>T1583.004</div>
+          </div>
+          <div>
+            <div><strong>Resource Development:</strong> Acquire Access</div>
+            <div>T1650</div>
+          </div>
+          <div>
+            <div><strong>Resource Development:</strong> Obtain Capabilities: Tool</div>
+            <div>T1588.002</div>
+          </div>
+          <div>
+            <div><strong>Resource Development:</strong> Compromise Accounts: Email Accounts</div>
+            <div>T1586.002</div>
+          </div>
+          <div>
+            <div><strong>Command and Control:</strong> Proxy: External Proxy</div>
+            <div>T1090.002</div>
+          </div>
+        </div>
+      ]]></content:encoded>
+            <category>Research (Insikt)</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_146663d7945a8f6dd5a6e50a5cdde5655e178e9a3.gif?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
         <item>
             <title><![CDATA[Ghost-Tapping and the Chinese Cybercriminal Retail Fraud Ecosystem]]></title>
             <link>https://www.recordedfuture.com/research/ghost-tapping-chinese-criminal-ecosystem</link>
@@ -8149,50 +8833,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Research (Insikt)</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_12c6050522390ce5a15dc6a6284d008aa26ba923e.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[2024 Threat Analysis and 2024 Predictions │ Recorded Future Annual Threat Report]]></title>
-            <link>https://www.recordedfuture.com/research/2024-annual-report</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/research/2024-annual-report</guid>
-            <pubDate>Wed, 21 Jan 1970 02:47:02 GMT</pubDate>
-            <description><![CDATA[Discover key insights from Recorded Future's 2024 report on cyber threats, criminal networks, SaaS identity risks as well as and predictions and strategies for 2025 cybersecurity.]]></description>
-            <content:encoded><![CDATA[
-        <p>
-          <img loading="lazy" alt="insikt-group-logo-updated-3-300x48.png" src="https://www.recordedfuture.com/media_17759d8b91bf0c9106a0fa82007bef7e3316158b4.png?width=750&amp;format=png&amp;optimize=medium" width="300" height="48" />
-        </p>
-        <h2>Explore our 2024 Threat Analysis and 2025 Predictions</h2>
-        <p>In 2024, two key trends defined the cybersecurity landscape: the resilience of cybercriminal networks despite law enforcement actions and the growing complexity of enterprise attack surfaces. In addition, state-sponsored threat actors, primarily linked to China and Russia, intensified their focus on critical infrastructure and leveraged generative AI to conduct influence operations to advance their geopolitical objectives.</p>
-        <p>Recorded Future’s just-released threat report explores these trends and more. It presents the industry’s most comprehensive analysis of intelligence from 2024 as well as predictions to prepare your security organization for the year ahead.</p>
-        <p>Read on for a summary of key topics and themes, and then <a href="https://go.recordedfuture.com/hubfs/reports/cta-2025-0128.pdf">download the full report</a> for an in-depth look at the adversary’s TTPs so you can strengthen your security posture.</p>
-        <h3>Top Themes from our 2024 Research</h3>
-        <p><strong>Theme #1: Extortion Groups Proliferated Despite Law Enforcement Action</strong></p>
-        <p>Despite significant global law enforcement efforts targeting ransomware groups like <a href="/blog/lockbit-launches-ransomware-blog">LockBit</a> and <a href="/research/latin-american-governments-targeted-by-ransomware">ALPHV</a>, cybercriminals demonstrated their ability to adapt and thrive. They reorganized, leveraged leaked malware builders, and shifted to smaller, independent groups. By mid-2024, ransomware payments had already reached $459.8 million, with a record $75 million paid by a single victim.</p>
-        <p><strong>Theme #2: Growing Adoption of SaaS Led to More Identity Exploits</strong></p>
-        <p>Organizations now use an average of 371 SaaS applications, up significantly from 2021, with each application requiring its own access credentials. This increase in SaaS reliance gave threat actors more opportunities to exploit stolen or exposed credentials, which were implicated in high-profile breaches such as those at Snowflake and Change Healthcare. In both cases, attackers used stolen credentials obtained through infostealer malware to bypass single sign-on (SSO) protections.</p>
-        <p><strong>Theme #3: State-sponsored Influence Operations Escalated</strong></p>
-        <p>State-sponsored threat actors, including those <a href="/research/from-coercion-to-invasion-the-theory-and-execution-of-china-cyber-activity">linked to China</a>, Russia, and Iran, escalated their activities in 2024. These operations targeted critical infrastructure and leveraged generative AI to conduct influence campaigns during key elections.</p>
-        <p>China’s Volt Typhoon group pre-positioned itself in US critical infrastructure, raising concerns about its potential for strategically timed cyberattacks. Meanwhile, Russia and Iran used generative AI to accelerate the creation and dissemination of inauthentic content aimed at influencing public opinion and destabilizing democracies worldwide.</p>
-        <p><strong>Theme #4: Tactics and Techniques Emphasized Defense Evasion</strong></p>
-        <p>Threat actors increasingly employed advanced tactics to evade detection. Malware targeting macOS and Linux systems surged, reflecting the growing use of these platforms in enterprise environments. Tools like RustDoor and <a href="/research/the-travels-of-markopolo-self-proclaimed-meeting-software-vortax-spreads-infostealers">AMOS</a> exploited cross-platform functionality to deliver sophisticated payloads, while ransomware groups targeted critical hypervisors such as VMware ESXi.</p>
-        <p>Defense evasion techniques, such as reflective code loading and the abuse of remote monitoring tools, became more prevalent. These methods enabled attackers to bypass endpoint detection and response (EDR) solutions.</p>
-        <h3>Top Insikt Group Predictions for 2025</h3>
-        <p><strong>#1: AI Impersonation will be the Next Big Attack Vector for SaaS Applications</strong></p>
-        <p><a href="/research/insikt-group">Insikt Group</a> expects that a major breach will very likely result from one of two AI-associated factors: implementation of generative AI into enterprise workflows or abuse of AI for effective impersonation. In either case, it is likely that a SaaS application will play a role in initial access or data exposure.</p>
-        <p><strong>#2: Additional Typhoon Activity will Affect New Sectors</strong></p>
-        <p>Insikt Group predicts that more high-profile breaches of US critical infrastructure by <a href="/research/chinese-apt-groups-target-afghan-telecommunications-firm">China-linked APTs</a> will be disclosed in 2025, expanding beyond the energy and telecommunications sectors. These breaches are likely aimed at pre-positioning for disruptive operations.</p>
-        <p><strong>#3: macOS and Mobile Threats Join Windows and Cloud</strong></p>
-        <p>Insikt Group forecasts that one of the high-impact cyber incidents of 2025 will likely be associated with either macOS malware or mobile malware. This will result from certain environmental factors reaching breaking points, such as higher attention to macOS targets and increased access to sensitive corporate and financial data via mobile devices.</p>
-        <p><strong>#4: Crypto Fraud Will Lead to a Market-destabilizing Event</strong></p>
-        <p>The soaring value of cryptocurrency, as well as an incoming US administration set to pursue crypto-friendly policies, will drive more aggressive and ambitious fraud attempts. Inskit Group predicts that criminals will likely be emboldened by the crypto boom to carry out market-destabilizing scams that will at least temporarily reduce the value of cryptocurrencies and lead to calls to restrict their use.</p>
-        <h3>Get the 2024 Recorded Future Annual Report Today</h3>
-        <p>Download the report to access the complete set of research themes and predictions plus detailed analysis. Then reach out to our team to find out how our threat intelligence solutions and expertise can help your organization prevent attacks and avoid business disruption in 2025.</p>
-        <p>To read the entire analysis, <a href="https://go.recordedfuture.com/hubfs/reports/cta-2025-0128.pdf">click here</a> to download the report as a PDF.</p>
-        <p>
-          <img loading="lazy" alt="annual-report-by-the-numbers.webp" src="https://www.recordedfuture.com/media_1c5c1a691008fbe06eab41fee979eebce02f9a9b6.png?width=750&amp;format=png&amp;optimize=medium" width="370" height="1600" />
-        </p>
-      ]]></content:encoded>
-            <category>Research (Insikt)</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_1cbb56e6353af7870598dd464aa068266aa5c163b.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>
