@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 20 Aug 2025 01:59:59 EDT</pubDate>
+        <pubDate>Wed, 20 Aug 2025 03:02:34 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft releases emergency updates to fix Windows recovery</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-updates-to-fix-windows-recovery/</link>
+        <pubDate>Wed, 20 Aug 2025 02:46:37 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-updates-to-fix-windows-recovery/</guid>
+	<description><![CDATA[Microsoft has released emergency Windows out-of-band updates to resolve a known issue breaking reset and recovery operations after installing the August 2025 Windows security updates. [...]]]></description>
+ </item>
+
  <item>
         <title>PyPI now blocks domain resurrection attacks used for hijacking accounts</title>
         <link>https://www.bleepingcomputer.com/news/security/pypi-now-blocks-domain-resurrection-attacks-used-for-hijacking-accounts/</link>
@@ -188,22 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ermac-android-malware-source-code-leak-exposes-banking-trojan-infrastructure/</guid>
 	<description><![CDATA[The source code for version 3 of the ERMAC Android banking trojan has been leaked online, exposing the internals of the malware-as-a-service platform and the operator's infrastructure. [...]]]></description>
- </item>
-
- <item>
-        <title>UK sentences “serial hacker” of 3,000 sites to 20 months in prison</title>
-        <link>https://www.bleepingcomputer.com/news/legal/uk-sentences-serial-hacker-of-3-000-sites-to-20-months-in-prison/</link>
-        <pubDate>Mon, 18 Aug 2025 12:36:46 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Legal]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/legal/uk-sentences-serial-hacker-of-3-000-sites-to-20-months-in-prison/</guid>
-	<description><![CDATA[A 26-year old in the UK who claimed to have hacked thousands of websites was sentenced to 20 months in prison after pleading guilty earlier this year. [...]]]></description>
  </item>
 
 </channel>
