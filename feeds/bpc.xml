@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 20 Aug 2025 14:00:32 EDT</pubDate>
+        <pubDate>Wed, 20 Aug 2025 14:59:41 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Apple fixes new zero-day flaw exploited in targeted attacks</title>
+        <link>https://www.bleepingcomputer.com/news/apple/apple-emergency-updates-fix-new-actively-exploited-zero-day/</link>
+        <pubDate>Wed, 20 Aug 2025 14:44:31 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Apple]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/apple/apple-emergency-updates-fix-new-actively-exploited-zero-day/</guid>
+	<description><![CDATA[Apple has released emergency updates to patch another zero-day vulnerability that was exploited in an "extremely sophisticated attack." [...]]]></description>
+ </item>
+
  <item>
         <title>“Rapper Bot” malware seized, alleged developer identified and charged</title>
         <link>https://www.bleepingcomputer.com/news/legal/rapper-bot-malware-seized-alleged-developer-identified-and-charged/</link>
@@ -172,34 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/okta-open-sources-catalog-of-auth0-rules-for-threat-detection/</guid>
 	<description><![CDATA[Okta has open-sourced ready-made Sigma-based queries for Auth0 customers to detect account takeovers, misconfigurations, and suspicious behavior in event logs. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft shares workaround for Teams "couldn't connect" error</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-teams-couldnt-connect-error/</link>
-        <pubDate>Tue, 19 Aug 2025 14:07:14 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-teams-couldnt-connect-error/</guid>
-	<description><![CDATA[Microsoft is resolving a known issue that causes "couldn't connect" errors when launching the Microsoft Teams desktop and web applications. [...]]]></description>
- </item>
-
- <item>
-        <title>Elastic rejects claims of a zero-day RCE flaw in Defend EDR</title>
-        <link>https://www.bleepingcomputer.com/news/security/elastic-rejects-claims-of-a-zero-day-rce-flaw-in-defend-edr/</link>
-        <pubDate>Tue, 19 Aug 2025 12:41:26 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/elastic-rejects-claims-of-a-zero-day-rce-flaw-in-defend-edr/</guid>
-	<description><![CDATA[Enterprise search and security company Elastic is rejecting reports of a zero-day vulnerability impacting its Defend endpoint detection and response (EDR) product. [...]]]></description>
  </item>
 
 </channel>
