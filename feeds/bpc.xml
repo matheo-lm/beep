@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 20 Aug 2025 11:00:02 EDT</pubDate>
+        <pubDate>Wed, 20 Aug 2025 12:03:31 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers steal Microsoft logins using legitimate ADFS redirects</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-steal-microsoft-logins-using-legitimate-adfs-redirects/</link>
+        <pubDate>Wed, 20 Aug 2025 11:33:54 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-steal-microsoft-logins-using-legitimate-adfs-redirects/</guid>
+	<description><![CDATA[Hackers are using a novel technique that combines legitimate office.com links with Active Directory Federation Services (ADFS) to redirect users to a phishing page that steals Microsoft 365 logins. [...]]]></description>
+ </item>
+
  <item>
         <title>Major password managers can leak logins in clickjacking attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/major-password-managers-can-leak-logins-in-clickjacking-attacks/</link>
@@ -184,20 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/pharma-firm-inotiv-says-ransomware-attack-impacted-operations/</guid>
 	<description><![CDATA[American pharmaceutical company Inotiv has disclosed that some of its systems and data have been encrypted in a ransomware attack, impacting the company's business operations. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: August security updates break Windows recovery, reset</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-august-security-updates-break-windows-recovery-reset/</link>
-        <pubDate>Tue, 19 Aug 2025 09:39:30 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-august-security-updates-break-windows-recovery-reset/</guid>
-	<description><![CDATA[Microsoft has confirmed that the August 2025 Windows security updates are breaking reset and recovery operations on systems running Windows 10 and older versions of Windows 11. [...]]]></description>
  </item>
 
 </channel>
