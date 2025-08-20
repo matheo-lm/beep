@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 20 Aug 2025 06:58:05 EDT</pubDate>
+        <pubDate>Wed, 20 Aug 2025 08:01:41 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft reportedly fixing SSD failures caused by Windows updates</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-reportedly-fixing-ssd-failures-caused-by-windows-updates/</link>
+        <pubDate>Wed, 20 Aug 2025 07:26:30 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-reportedly-fixing-ssd-failures-caused-by-windows-updates/</guid>
+	<description><![CDATA[Recently released Windows 11 24H2 updates are reportedly causing data corruption and failure issues for some SSD and HDD models on up-to-date systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes Windows upgrades failing with 0x8007007F error</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-upgrades-failing-with-0x8007007f-error/</link>
@@ -170,36 +184,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/massive-allianz-life-data-breach-impacts-11-million-people/</guid>
 	<description><![CDATA[Hackers have stolen the personal information of 1.1 million individuals in a Salesforce data theft attack, which impacted U.S. insurance giant Allianz Life in July. [...]]]></description>
- </item>
-
- <item>
-        <title>XenoRAT malware campaign hits multiple embassies in South Korea</title>
-        <link>https://www.bleepingcomputer.com/news/security/xenorat-malware-campaign-hits-multiple-embassies-in-south-korea/</link>
-        <pubDate>Mon, 18 Aug 2025 15:38:29 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/xenorat-malware-campaign-hits-multiple-embassies-in-south-korea/</guid>
-	<description><![CDATA[A state-sponsored espionage campaign is targeting foreign embassies in South Korea to deploy XenoRAT malware from malicious GitHub repositories. [...]]]></description>
- </item>
-
- <item>
-        <title>Nebraska man gets 1 year in prison for $3.5M cryptojacking scheme</title>
-        <link>https://www.bleepingcomputer.com/news/security/nebraska-man-gets-1-year-in-prison-for-35m-cryptojacking-scheme/</link>
-        <pubDate>Mon, 18 Aug 2025 15:05:03 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/nebraska-man-gets-1-year-in-prison-for-35m-cryptojacking-scheme/</guid>
-	<description><![CDATA[A Nebraska man was sentenced to one year in prison for defrauding cloud computing providers of over $3.5 million to mine cryptocurrency worth nearly $1 million. [...]]]></description>
  </item>
 
 </channel>
