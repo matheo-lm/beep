@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 21 Aug 2025 04:02:56 EDT</pubDate>
+        <pubDate>Thu, 21 Aug 2025 05:01:32 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Scattered Spider hacker gets sentenced to 10 years in prison</title>
+        <link>https://www.bleepingcomputer.com/news/security/scattered-spider-hacker-gets-sentenced-to-10-years-in-prison/</link>
+        <pubDate>Thu, 21 Aug 2025 04:34:20 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/scattered-spider-hacker-gets-sentenced-to-10-years-in-prison/</guid>
+	<description><![CDATA[Noah Michael Urban, a key member of the Scattered Spider cybercrime collective, was sentenced to 10 years in prison on Wednesday after pleading guilty to charges of wire fraud and conspiracy in April. [...]]]></description>
+ </item>
+
  <item>
         <title>Orange Belgium discloses data breach impacting 850,000 customers</title>
         <link>https://www.bleepingcomputer.com/news/security/orange-belgium-discloses-data-breach-impacting-850-000-customers/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-upgrades-failing-with-0x8007007f-error/</guid>
 	<description><![CDATA[Microsoft has resolved a known issue that caused Windows upgrades to fail with 0x8007007F errors on some Windows 11 and Windows Server systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft releases emergency updates to fix Windows recovery</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-updates-to-fix-windows-recovery/</link>
-        <pubDate>Wed, 20 Aug 2025 02:46:37 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-updates-to-fix-windows-recovery/</guid>
-	<description><![CDATA[Microsoft has released emergency Windows out-of-band updates to resolve a known issue breaking reset and recovery operations after installing the August 2025 Windows security updates. [...]]]></description>
  </item>
 
 </channel>
