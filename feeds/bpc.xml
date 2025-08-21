@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 21 Aug 2025 10:03:46 EDT</pubDate>
+        <pubDate>Thu, 21 Aug 2025 11:00:39 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft asks customers for feedback on SSD failure issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-customers-for-feedback-on-ssd-failure-issues/</link>
+        <pubDate>Thu, 21 Aug 2025 10:48:35 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-customers-for-feedback-on-ssd-failure-issues/</guid>
+	<description><![CDATA[​Microsoft is seeking further information from customers who reported failure and data corruption issues affecting their solid-state drives (SSDs) and hard disk drives (HDDs) after installing the August 2025 security update. [...]]]></description>
+ </item>
+
  <item>
         <title>Why Certified VMware Pros Are Driving the Future of IT</title>
         <link>https://www.bleepingcomputer.com/news/security/why-certified-vmware-pros-are-driving-the-future-of-it/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-outage-impacting-copilot-officecom/</guid>
 	<description><![CDATA[Microsoft is investigating an ongoing issue preventing users across North America from accessing Office.com and the company's Copilot AI-powered assistant. [...]]]></description>
- </item>
-
- <item>
-        <title>Why email security needs its EDR moment to move beyond prevention</title>
-        <link>https://www.bleepingcomputer.com/news/security/why-email-security-needs-its-edr-moment-to-move-beyond-prevention/</link>
-        <pubDate>Wed, 20 Aug 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Material Security</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/why-email-security-needs-its-edr-moment-to-move-beyond-prevention/</guid>
-	<description><![CDATA[Email security is stuck where antivirus was a decade ago—focused only on prevention. Learn from Material Security why it's time for an "EDR for email" mindset: visibility, post-compromise controls, and SaaS-wide protection. [...]]]></description>
  </item>
 
 </channel>
