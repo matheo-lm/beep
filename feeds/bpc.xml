@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 21 Aug 2025 15:59:38 EDT</pubDate>
+        <pubDate>Thu, 21 Aug 2025 17:01:27 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Colt confirms customer data stolen as Warlock ransomware auctions files</title>
+        <link>https://www.bleepingcomputer.com/news/security/colt-confirms-customer-data-stolen-as-warlock-ransomware-auctions-files/</link>
+        <pubDate>Thu, 21 Aug 2025 16:41:07 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/colt-confirms-customer-data-stolen-as-warlock-ransomware-auctions-files/</guid>
+	<description><![CDATA[UK-based telecommunications company Colt Technology Services confirms that customer documentation was stolen as Warlock ransomware gang auctions files. [...]]]></description>
+ </item>
+
  <item>
         <title>Europol confirms $50,000 Qilin ransomware reward is fake</title>
         <link>https://www.bleepingcomputer.com/news/security/europol-confirms-that-qilin-ransomware-reward-is-fake/</link>
@@ -178,34 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/perplexitys-comet-ai-browser-tricked-into-buying-fake-items-online/</guid>
 	<description><![CDATA[A study looking into agentic AI browsers has found that these emerging tools are vulnerable to both new and old schemes that could make them interact with malicious pages and prompts. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers steal Microsoft logins using legitimate ADFS redirects</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-steal-microsoft-logins-using-legitimate-adfs-redirects/</link>
-        <pubDate>Wed, 20 Aug 2025 11:33:54 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-steal-microsoft-logins-using-legitimate-adfs-redirects/</guid>
-	<description><![CDATA[Hackers are using a novel technique that combines legitimate office.com links with Active Directory Federation Services (ADFS) to redirect users to a phishing page that steals Microsoft 365 logins. [...]]]></description>
- </item>
-
- <item>
-        <title>Major password managers can leak logins in clickjacking attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/major-password-managers-can-leak-logins-in-clickjacking-attacks/</link>
-        <pubDate>Wed, 20 Aug 2025 10:49:53 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/major-password-managers-can-leak-logins-in-clickjacking-attacks/</guid>
-	<description><![CDATA[Six major password managers with tens of millions of users are currently vulnerable to unpatched clickjacking flaws that could allow attackers to steal account credentials, 2FA codes, and credit card details. [...]]]></description>
  </item>
 
 </channel>
