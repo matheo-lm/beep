@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 20 Aug 2025 00:51:18 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 21 Aug 2025 01:48:26 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,59 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>SIM-Swapper, Scattered Spider Hacker Gets 10 Years</title>
+		<link>https://krebsonsecurity.com/2025/08/sim-swapper-scattered-spider-hacker-gets-10-years/</link>
+					<comments>https://krebsonsecurity.com/2025/08/sim-swapper-scattered-spider-hacker-gets-10-years/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Thu, 21 Aug 2025 01:47:22 +0000</pubDate>
+				<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[SIM Swapping]]></category>
+		<category><![CDATA[DoorDash]]></category>
+		<category><![CDATA[Judge Harvey E. Schlesinger]]></category>
+		<category><![CDATA[King Bob]]></category>
+		<category><![CDATA[lastpass]]></category>
+		<category><![CDATA[Mailchimp]]></category>
+		<category><![CDATA[News4Jax.com]]></category>
+		<category><![CDATA[Noah Michael Urban]]></category>
+		<category><![CDATA[Oktapus]]></category>
+		<category><![CDATA[Plex]]></category>
+		<category><![CDATA[Scatter Swine]]></category>
+		<category><![CDATA[Scattered Spider]]></category>
+		<category><![CDATA[Sosa]]></category>
+		<category><![CDATA[Star Fraud]]></category>
+		<category><![CDATA[T-Mobile]]></category>
+		<category><![CDATA[The Com]]></category>
+		<category><![CDATA[Twilio]]></category>
+		<category><![CDATA[UNC3944]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71967</guid>
+
+					<description><![CDATA[A 21-year-old Florida man at the center of a prolific cybercrime group known as "Scattered Spider" was sentenced to 10 years in federal prison today, and ordered to pay roughly $13 million in restitution to victims.
+
+Noah Michael Urban of Palm Coast, Fla. pleaded guilty in April 2025 to charges of wire fraud and conspiracy. Florida prosecutors alleged Urban conspired with others to steal at least $800,000 from five victims via SIM-swapping attacks that diverted their mobile phone calls and text messages to devices controlled by Urban and his co-conspirators.]]></description>
+										<content:encoded><![CDATA[<p>A 20-year-old Florida man at the center of a prolific cybercrime group known as &#8220;<strong>Scattered Spider</strong>&#8221; was sentenced to 10 years in federal prison today, and ordered to pay roughly $13 million in restitution to victims.</p>
+<p><strong>Noah Michael Urban</strong> of Palm Coast, Fla. pleaded guilty in April 2025 to charges of wire fraud and conspiracy. Florida prosecutors alleged Urban <a href="https://krebsonsecurity.com/2024/01/fla-man-charged-in-sim-swapping-spree-is-key-suspect-in-hacker-groups-oktapus-scattered-spider/" target="_blank" rel="noopener">conspired with others to steal at least $800,000</a> from five victims via <a href="https://krebsonsecurity.com/category/sim-swapping/" target="_blank" rel="noopener">SIM-swapping attacks</a> that diverted their mobile phone calls and text messages to devices controlled by Urban and his co-conspirators.</p>
+<div id="attachment_66236" style="width: 456px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-66236" decoding="async" class=" wp-image-66236" src="https://krebsonsecurity.com/wp-content/uploads/2024/01/noahmichaelurban.png" alt="" width="446" height="559" /><p id="caption-attachment-66236" class="wp-caption-text">A booking photo of Noah Michael Urban released by the Volusia County Sheriff.</p></div>
+<p>Although prosecutors had asked for Urban to serve eight years, Jacksonville news outlet <strong>News4Jax.com</strong> <a href="https://www.news4jax.com/news/local/2025/08/20/palm-coast-man-linked-to-scattered-spider-cybercrime-gang-sentenced-to-10-years-for-cryptocurrency-theft/" target="_blank" rel="noopener">reports</a> the federal judge in the case today opted to sentence Urban to 120 months in federal prison, ordering him to pay $13 million in restitution and undergo three years of supervised release after his sentence is completed.</p>
+<p>In November 2024 Urban was <a href="https://krebsonsecurity.com/2024/11/feds-charge-five-men-in-scattered-spider-roundup/" target="_blank" rel="noopener">charged by federal prosecutors in Los Angeles</a> as one of five members of Scattered Spider (a.k.a. &#8220;Oktapus,&#8221; &#8220;Scatter Swine&#8221; and &#8220;UNC3944&#8221;), which specialized in SMS and voice phishing attacks that tricked employees at victim companies into entering their credentials and one-time passcodes at phishing websites. Urban pleaded guilty to one count of conspiracy to commit wire fraud in the California case, and the $13 million in restitution is intended to cover victims from both cases.</p>
+<p>The targeted SMS scams <a href="https://krebsonsecurity.com/2022/08/how-1-time-passcodes-became-a-corporate-liability/" target="_blank" rel="noopener">spanned several months during the summer of 2022</a>, asking employees to click a link and log in at a website that mimicked their employer’s Okta authentication page. Some SMS phishing messages told employees their VPN credentials were expiring and needed to be changed; other missives advised employees about changes to their upcoming work schedule.</p>
+<p>That phishing spree netted Urban and others access to more than 130 companies, including <strong>Twilio</strong>, <strong>LastPass</strong>, <strong>DoorDash</strong>, <strong>MailChimp</strong>, and <strong>Plex</strong>. The government says the group used that access to steal proprietary company data and customer information, and that members also phished people to steal millions of dollars worth of cryptocurrency.</p>
+<p>For many years, Urban&#8217;s online hacker aliases &#8220;<strong>King Bob</strong>&#8221; and &#8220;<strong>Sosa</strong>&#8221; were fixtures of <a href="https://krebsonsecurity.com/2024/09/the-dark-nexus-between-harm-groups-and-the-com/" target="_blank" rel="noopener">the Com</a>, a mostly Telegram and Discord-based community of English-speaking cybercriminals wherein hackers boast loudly about high-profile exploits and hacks that almost invariably begin with social engineering. King Bob constantly bragged on the Com about stealing unreleased rap music recordings from popular artists, presumably through SIM-swapping attacks. Many of those purloined tracks or &#8220;grails&#8221; he later sold or gave away on forums.</p>
+<div id="attachment_71970" style="width: 611px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71970" decoding="async" loading="lazy" class="size-full wp-image-71970" src="https://krebsonsecurity.com/wp-content/uploads/2025/08/kingbobtweets.png" alt="" width="601" height="485" /><p id="caption-attachment-71970" class="wp-caption-text">Noah &#8220;King Bob&#8221; Urban, posting to Twitter/X around the time of his sentencing today.</p></div>
+<p>Sosa also was active in a particularly destructive group of accomplished criminal SIM-swappers known as &#8220;<strong>Star Fraud</strong>.&#8221; Cyberscoop’s AJ Vicens reported in 2023 that individuals within Star Fraud were likely involved in the high-profile Caesars Entertainment and MGM Resorts extortion attacks that same year.</p>
+<p>The Star Fraud SIM-swapping group gained the ability to temporarily move targeted mobile numbers to devices they controlled by constantly phishing employees of the major mobile providers. In February 2023, KrebsOnSecurity published data taken from the Telegram channels for Star Fraud and two other SIM-swapping groups showing these crooks focused on SIM-swapping T-Mobile customers, and that they collectively <a href="https://krebsonsecurity.com/2023/02/hackers-claim-they-breached-t-mobile-more-than-100-times-in-2022/" target="_blank" rel="noopener">claimed internal access to T-Mobile on 100 separate occasions over a 7-month period in 2022</a>.<span id="more-71967"></span></p>
+<p>Reached via one of his King Bob accounts on Twitter/X, Urban called the sentence unjust, and said the judge in his case discounted his age as a factor.</p>
+<p>&#8220;The judge purposefully ignored my age as a factor because of the fact another Scattered Spider member hacked him personally during the course of my case,&#8221; Urban said in reply to questions, noting that he was sending the messages from a Florida county jail. &#8220;He should have been removed as a judge much earlier on. But staying in county jail is torture.&#8221;</p>
+<p>A <a href="https://krebsonsecurity.com/wp-content/uploads/2025/08/urban-status-hack.pdf" target="_blank" rel="noopener">court transcript</a> (PDF) from a status hearing in February 2025 shows Urban was telling the truth about the hacking incident that happened while he was in federal custody. It involved an intrusion into a magistrate judge&#8217;s email account, where a copy of Urban&#8217;s sealed indictment was stolen. The judge told attorneys for both sides that a co-defendant in the California case was trying to find out about Mr. Urban&#8217;s activity in the Florida case.</p>
+<p>&#8220;What it ultimately turned into a was a big faux pas,&#8221; <strong>Judge Harvey E. Schlesinger</strong> said. &#8220;The Court&#8217;s password&#8230;business is handled by an outside contractor. And somebody called the outside contractor representing Judge Toomey saying, &#8216;I need a password change.&#8217; And they gave out the password change. That&#8217;s how whoever was making the phone call got into the court.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/08/sim-swapper-scattered-spider-hacker-gets-10-years/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Oregon Man Charged in &#8216;Rapper Bot&#8217; DDoS Service</title>
 		<link>https://krebsonsecurity.com/2025/08/oregon-man-charged-in-rapper-bot-ddos-service/</link>
 					<comments>https://krebsonsecurity.com/2025/08/oregon-man-charged-in-rapper-bot-ddos-service/#comments</comments>
@@ -43,7 +96,7 @@
 
 					<description><![CDATA[A 22-year-old Oregon man has been arrested on suspicion of operating "Rapper Bot," a massive botnet used to power a service for launching distributed denial-of-service (DDoS) attacks against targets -- including a March 2025 DDoS that knocked Twitter/X offline. The Justice Department asserts the suspect and an unidentified co-conspirator rented out the botnet to online extortionists, and tried to stay off the radar of law enforcement by ensuring that their botnet was never pointed at KrebsOnSecurity.]]></description>
 										<content:encoded><![CDATA[<p>A 22-year-old Oregon man has been arrested on suspicion of operating &#8220;<strong>Rapper Bot</strong>,&#8221; a massive botnet used to power a service for launching distributed denial-of-service (DDoS) attacks against targets &#8212; including a March 2025 DDoS that knocked Twitter/X offline. The Justice Department asserts the suspect and an unidentified co-conspirator rented out the botnet to online extortionists, and tried to stay off the radar of law enforcement by ensuring that their botnet was never pointed at KrebsOnSecurity.</p>
-<div id="attachment_71952" style="width: 757px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71952" decoding="async" class=" wp-image-71952" src="https://krebsonsecurity.com/wp-content/uploads/2025/08/rapperbotpanel.png" alt="" width="747" height="553" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/08/rapperbotpanel.png 1190w, https://krebsonsecurity.com/wp-content/uploads/2025/08/rapperbotpanel-768x568.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/08/rapperbotpanel-782x578.png 782w" sizes="(max-width: 747px) 100vw, 747px" /><p id="caption-attachment-71952" class="wp-caption-text">The control panel for the Rapper Bot botnet greets users with the message &#8220;Welcome to the Ball Pit, Now with refrigerator support,&#8221; an apparent reference to a handful of IoT-enabled refrigerators that were enslaved in their DDoS botnet.</p></div>
+<div id="attachment_71952" style="width: 757px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71952" decoding="async" loading="lazy" class=" wp-image-71952" src="https://krebsonsecurity.com/wp-content/uploads/2025/08/rapperbotpanel.png" alt="" width="747" height="553" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/08/rapperbotpanel.png 1190w, https://krebsonsecurity.com/wp-content/uploads/2025/08/rapperbotpanel-768x568.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/08/rapperbotpanel-782x578.png 782w" sizes="(max-width: 747px) 100vw, 747px" /><p id="caption-attachment-71952" class="wp-caption-text">The control panel for the Rapper Bot botnet greets users with the message &#8220;Welcome to the Ball Pit, Now with refrigerator support,&#8221; an apparent reference to a handful of IoT-enabled refrigerators that were enslaved in their DDoS botnet.</p></div>
 <p>On August 6, 2025, federal agents arrested <strong>Ethan J. Foltz</strong> of Springfield, Ore. on suspicion of operating Rapper Bot, a globally dispersed collection of tens of thousands of hacked Internet of Things (IoT) devices.</p>
 <p>The complaint against Foltz explains the attacks usually clocked in at more than two terabits of junk data per second (a terabit is one trillion bits of data), which is more than enough traffic to cause serious problems for all but the most well-defended targets. The government says Rapper Bot consistently launched attacks that were &#8220;hundreds of times larger than the expected capacity of a typical server located in a data center,&#8221; and that some of its biggest attacks exceeded six terabits per second.</p>
 <p>Indeed, Rapper Bot was <a href="https://cyberpress.org/rapperbot-exploits-dvrs-to-take-control-of-surveillance-cameras/" target="_blank" rel="noopener">reportedly responsible</a> for the March 10, 2025 attack that caused intermittent outages on Twitter/X. The government says Rapper Bot&#8217;s most lucrative and frequent customers were involved in extorting online businesses &#8212; including numerous gambling operations based in China.</p>
@@ -539,67 +592,15 @@ Your unique writing style, phraseology, punctuation, consistency of grammatical 
 		
 		
 			</item>
-		<item>
-		<title>DOGE Denizen Marko Elez Leaked API Key for xAI</title>
-		<link>https://krebsonsecurity.com/2025/07/doge-denizen-marko-elez-leaked-api-key-for-xai/</link>
-					<comments>https://krebsonsecurity.com/2025/07/doge-denizen-marko-elez-leaked-api-key-for-xai/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Tue, 15 Jul 2025 01:23:43 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Data Breaches]]></category>
-		<category><![CDATA[DOGE]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[Business Insider]]></category>
-		<category><![CDATA[GitGuardian]]></category>
-		<category><![CDATA[GitHub]]></category>
-		<category><![CDATA[Grok]]></category>
-		<category><![CDATA[Marko Elez]]></category>
-		<category><![CDATA[Philippe Caturegli]]></category>
-		<category><![CDATA[President Trump]]></category>
-		<category><![CDATA[Seralys]]></category>
-		<category><![CDATA[Techcrunch]]></category>
-		<category><![CDATA[The New York Times]]></category>
-		<category><![CDATA[The Wall Street Journal]]></category>
-		<category><![CDATA[The Washington Post]]></category>
-		<category><![CDATA[twitter]]></category>
-		<category><![CDATA[Vice President J.D. Vance]]></category>
-		<category><![CDATA[X]]></category>
-		<category><![CDATA[xAI]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71676</guid>
-
-					<description><![CDATA[Marko Elez, a 25-year-old employee at Elon Musk's Department of Government Efficiency (DOGE), has been granted access to sensitive databases at the U.S. Social Security Administration, the Treasury and Justice departments, and the Department of Homeland Security. So it should fill all Americans with a deep sense of confidence to learn that Mr. Elez over the weekend inadvertently published a private key that allowed anyone to interact directly with more than four dozen large language models (LLMs) developed by Musk's artificial intelligence company xAI.]]></description>
-										<content:encoded><![CDATA[<p><strong>Marko Elez</strong>, a 25-year-old employee at Elon Musk&#8217;s <strong>Department of Government Efficiency</strong> (DOGE), has been granted access to sensitive databases at the U.S. Social Security Administration, the Treasury and Justice departments, and the Department of Homeland Security. So it should fill all Americans with a deep sense of confidence to learn that Mr. Elez over the weekend inadvertently published a private key that allowed anyone to interact directly with more than four dozen large language models (LLMs) developed by Musk&#8217;s artificial intelligence company <strong>xAI</strong>.</p>
-<div id="attachment_71170" style="width: 756px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71170" decoding="async" loading="lazy" class=" wp-image-71170" src="https://krebsonsecurity.com/wp-content/uploads/2025/05/x-ai.png" alt="" width="746" height="496" /><p id="caption-attachment-71170" class="wp-caption-text">Image: Shutterstock, @sdx15.</p></div>
-<p>On July 13, Mr. Elez committed a code script to GitHub called &#8220;agent.py&#8221; that included a private application programming interface (API) key for xAI. The inclusion of the private key was first flagged by <strong>GitGuardian</strong>, a company that specializes in detecting and remediating exposed secrets in public and proprietary environments. GitGuardian’s systems constantly scan GitHub and other code repositories for exposed API keys, and fire off automated alerts to affected users.</p>
-<p><strong>Philippe Caturegli</strong>, “chief hacking officer” at the security consultancy <strong>Seralys, </strong>said the exposed API key allowed access to at least 52 different LLMs used by xAI. The most recent LLM in the list was called &#8220;grok-4-0709&#8221; and was created on July 9, 2025.</p>
-<p><strong>Grok</strong>, the <a href="https://x.ai/grok" target="_blank" rel="noopener">generative AI chatbot</a> developed by xAI and integrated into <strong>Twitter/X</strong>, relies on these and other LLMs (a query to Grok before publication shows Grok currently uses Grok-3, which was launched in Feburary 2025). Earlier today, xAI <a href="https://x.com/xai/status/1944776899420377134" target="_blank" rel="noopener">announced</a> that the Department of Defense will begin using Grok as part of <a href="https://www.washingtonpost.com/technology/2025/07/14/elon-musk-grok-defense-department/" target="_blank" rel="noopener">a contract worth up to $200 million</a>. The contract award came less than a week after Grok began <a href="https://www.npr.org/2025/07/09/nx-s1-5462609/grok-elon-musk-antisemitic-racist-content" target="_blank" rel="noopener">spewing antisemitic rants and invoking Adolf Hitler</a>.</p>
-<p>Mr. Elez did not respond to a request for comment. The code repository containing the private xAI key was removed shortly after Caturegli notified Elez via email. However, Caturegli said the exposed API key still works and has not yet been revoked.</p>
-<p>&#8220;If a developer can&#8217;t keep an API key private, it raises questions about how they&#8217;re handling far more sensitive government information behind closed doors,&#8221; Caturegli told KrebsOnSecurity.<span id="more-71676"></span></p>
-<p>Prior to joining DOGE, <a href="https://en.wikipedia.org/wiki/Marko_Elez" target="_blank" rel="noopener">Marko Elez</a> worked for a number of Musk&#8217;s companies. His DOGE career began at the Department of the Treasury, and a legal battle over DOGE&#8217;s access to Treasury databases showed Elez was sending unencrypted personal information <a href="https://www.theverge.com/news/630894/doge-treasury-lawsuit-marko-elez-unencrypted-emails" target="_blank" rel="noopener">in violation of the agency&#8217;s policies</a>.</p>
-<p>While still at Treasury, Elez resigned after <strong>The Wall Street Journal</strong> <a href="https://www.wsj.com/tech/doge-staffer-resigns-over-racist-posts-d9f11a93" target="_blank" rel="noopener">linked him to social media posts</a> that advocated racism and eugenics. When <strong>Vice President J.D. Vance</strong> lobbied for Elez to be rehired, <strong>President Trump</strong> agreed and Musk reinstated him.</p>
-<p>Since his re-hiring as a DOGE employee, Elez has been granted access to databases at one federal agency after another. <strong>TechCrunch</strong> <a href="https://techcrunch.com/2025/03/17/doge-staffer-violated-treasury-rules-by-emailing-unencrypted-personal-data/" target="_blank" rel="noopener">reported in February 2025</a> that he was working at the Social Security Administration. In March, <strong>Business Insider</strong> <a href="https://www.businessinsider.com/doge-staffer-fertility-clinic-pronatalist-department-of-labor" target="_blank" rel="noopener">found</a> Elez was part of a DOGE detachment <a href="https://krebsonsecurity.com/2025/04/doge-workers-code-supports-nlrb-whistleblower/" target="_blank" rel="noopener">assigned to the Department of Labor</a>.</p>
-<div id="attachment_71106" style="width: 548px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71106" decoding="async" loading="lazy" class=" wp-image-71106" src="https://krebsonsecurity.com/wp-content/uploads/2025/04/markoelez.png" alt="" width="538" height="624" /><p id="caption-attachment-71106" class="wp-caption-text">Marko Elez, in a photo from a social media profile.</p></div>
-<p>In April, <strong>The New York Times</strong> <a href="https://www.nytimes.com/interactive/2025/02/27/us/politics/doge-staff-list.html" target="_blank" rel="noopener">reported</a> that Elez held positions at the <strong>U.S. Customs and Border Protection</strong> and the <strong>Immigration and Customs Enforcement</strong> (ICE) bureaus, as well as the Department of Homeland Security. <strong>The Washington Post</strong> later <a href="https://www.washingtonpost.com/immigration/2025/04/21/doge-ecas-justice-immigration-courts-trump/" target="_blank" rel="noopener">reported</a> that Elez, while serving as a DOGE advisor at the <strong>Department of Justice</strong>, had gained access to the Executive Office for Immigration Review&#8217;s Courts and Appeals System (EACS).</p>
-<p>Elez is not the first DOGE worker to publish internal API keys for xAI: In May, KrebsOnSecurity <a href="https://krebsonsecurity.com/2025/05/xai-dev-leaks-api-key-for-private-spacex-tesla-llms/" target="_blank" rel="noopener">detailed</a> how another DOGE employee leaked a private xAI key on GitHub for two months, exposing LLMs that were custom made for working with internal data from Musk&#8217;s companies, including SpaceX, Tesla and Twitter/X.</p>
-<p>Caturegli said it&#8217;s difficult to trust someone with access to confidential government systems when they can&#8217;t even manage the basics of operational security.</p>
-<p>&#8220;One leak is a mistake,&#8221; he said. &#8220;But when the same type of sensitive key gets exposed again and again, it’s not just bad luck, it’s a sign of deeper negligence and a broken security culture.&#8221;</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/07/doge-denizen-marko-elez-leaked-api-key-for-xai/feed/</wfw:commentRss>
-			<slash:comments>61</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 247/248 objects using memcached
-Page Caching using memcached 
+Object Caching 248/248 objects using memcached
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-08-20 21:27:01 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-08-20 22:30:06 by W3 Total Cache
 -->
