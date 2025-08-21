@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Thu, 21 Aug 2025 01:48:26 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 21 Aug 2025 16:28:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -68,7 +68,7 @@ Noah Michael Urban of Palm Coast, Fla. pleaded guilty in April 2025 to charges o
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/08/sim-swapper-scattered-spider-hacker-gets-10-years/feed/</wfw:commentRss>
-			<slash:comments>12</slash:comments>
+			<slash:comments>14</slash:comments>
 		
 		
 			</item>
@@ -164,7 +164,7 @@ Noah Michael Urban of Palm Coast, Fla. pleaded guilty in April 2025 to charges o
 <p>This so-called &#8216;<strong>ramp and dump</strong>&#8216; scheme borrows its name from age-old &#8220;pump and dump&#8221; scams, wherein fraudsters purchase a large number of shares in some penny stock, and then promote the company in a frenzied social media blitz to build up interest from other investors. The fraudsters dump their shares after the price of the penny stock increases to some degree, which usually then causes a sharp drop in the value of the shares for legitimate investors.</p>
 <p>With ramp and dump, the scammers do not need to rely on ginning up interest in the targeted stock on social media. Rather, they will preposition themselves in the stock that they wish to inflate, using compromised accounts to purchase large volumes of it and then dumping the shares after the stock price reaches a certain value. In February 2025, the <strong>FBI</strong> said it was <a href="https://www.fbi.gov/how-we-can-help-you/victim-services/seeking-victim-information/seeking-victim-information-in-ramp-and-dump-investment-fraud-investigation" target="_blank" rel="noopener">seeking information from victims of this scheme</a>.</p>
 <p>&#8220;In this variation, the price manipulation is primarily the result of controlled trading activity conducted by the bad actors behind the scam,&#8221; reads <a href="https://www.finra.org/investors/insights/ramp-and-dump-schemes" target="_blank" rel="noopener">an advisory</a> from the <strong>Financial Industry Regulatory Authority</strong> (FINRA), a private, non-profit organization that regulates member brokerage firms. &#8220;Ultimately, the outcome for unsuspecting investors is the same—a catastrophic collapse in share price that leaves investors with unrecoverable losses.&#8221;</p>
-<p><strong>Ford Merrill </strong>is a security researcher at <a href="https://www.secalliance.com/" target="_blank" rel="noopener">SecAlliance</a>, a <a href="https://www.csis.com/" target="_blank" rel="noopener">CSIS Security Group</a> company. Merrill said he has tracked recent ramp-and-dump activity to a bustling Chinese-language community that is quite openly selling advanced mobile phishing kits on Telegram.</p>
+<p><strong>Ford Merrill </strong>is a security researcher at <a href="https://www.secalliance.com/" target="_blank" rel="noopener">SecAlliance</a>, a <a href="https://www.csis.com/" target="_blank" rel="noopener">CSIS Security Group</a> company. Merrill said he has <a href="https://podcasts.apple.com/dk/podcast/mnemonic-security-podcast/id1482626821?i=1000722355011" target="_blank" rel="noopener">tracked recent ramp-and-dump activity</a> to a bustling Chinese-language community that is quite openly selling advanced mobile phishing kits on Telegram.</p>
 <p>&#8220;They will often coordinate with other actors and will wait until a certain time to buy a particular Chinese IPO [initial public offering] stock or penny stock,&#8221; said Merrill, who has been chronicling the rapid maturation and growth of the China-based phishing community over the past three years.</p>
 <p>&#8220;They&#8217;ll use all these victim brokerage accounts, and if needed they&#8217;ll liquidate the account&#8217;s current positions, and will preposition themselves in that instrument in some account they control, and then sell everything when the price goes up,&#8221; he said. &#8220;The victim will be left with worthless shares of that equity in their account, and the brokerage may not be happy either.&#8221;</p>
 <p>Merrill said the early days of these phishing groups &#8212; between 2022 and 2024 &#8212; were typified by phishing kits that used text messages to spoof the <strong>U.S. Postal Service</strong> or some local toll road operator, warning about a delinquent shipping or toll fee that needed paying. Recipients who clicked the link and provided their payment information at a fake USPS or toll operator site were then asked to verify the transaction by sharing a one-time code sent via text message.</p>
@@ -602,5 +602,5 @@ Object Caching 248/248 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-08-21 10:55:06 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-08-21 12:55:22 by W3 Total Cache
 -->

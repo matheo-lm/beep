@@ -4,7 +4,7 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Thu, 21 Aug 2025 15:03:12 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Aug 2025 16:22:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
@@ -1413,7 +1413,7 @@ hxxp://94[.]232[.]249[.]208/6a6fe9d70500fe64/main.php
         <p>Read on to understand the ToolShell threat and how to defend against it with hunting packages, including Nuclei and YARA rules, from Recorded Future.</p>
         <h2>The latest Tactics, Techniques, and Procedures (TTPs)</h2>
         <p>On July 23, 2025, researchers at LeakIX <a href="https://x.com/Gi7w0rm/status/1948027800591466773">shared</a> details that adversaries have swiftly evolved their TTPs to be stealthier and eliminate the reliance on .ASPX web shells. A new in-memory ToolShell payload has been identified that allows adversaries to leak ASP.NET machine keys directly from memory without leaving behind static artifacts. Adversaries no longer need to rely on static file-based indicators, making traditional detection methods such as checking for web shells unreliable. This new payload directly extracts sensitive machine keys and system information from memory and exfiltrates the data immediately via a single HTTP request, enabling rapid and stealthy compromise.</p>
-        <p>The Insikt Group® used Recorded Future’s Malware Intelligence feature to identify this new in-memory ToolShell payload and created a <a href="https://cms.recordedfuture.com/uploads/MAL_Tool_Shell_4eab68f2e0.yar">YARA rule</a> capable of detecting the in-memory ToolShell payload.</p>
+        <p>The Insikt Group® used Recorded Future’s Malware Intelligence feature to identify this new in-memory ToolShell payload and created a <a href="https://assets.recordedfuture.com/strapi/yaml-yar/MAL_Tool_Shell_4eab68f2e0.yar">YARA rule</a> capable of detecting the in-memory ToolShell payload.</p>
         <p>This new ToolShell payload is available on Recorded Future’s public sandbox:</p>
         <div>
           <div>
@@ -1484,8 +1484,8 @@ hxxp://94[.]232[.]249[.]208/6a6fe9d70500fe64/main.php
         <h2>Enable proactive defense with Recorded Future</h2>
         <p>Recorded Future customers can use the following tools and strategies to mitigate risk:</p>
         <ul>
-          <li><strong>Get the</strong> <strong>Insikt Group®</strong> <strong>Nuclei template.</strong> <a href="https://cms.recordedfuture.com/uploads/CVE_2025_53770_ae498ed12b.yaml">Download our YAML file</a> to access a Nuclei template for CVE-2025-53770. The template sends a GET request to SharePoint Server’s "/_vti_pvt/service.cnf" endpoint, extracts the "vti_extenderversion" build number, and checks to see if it’s within the documented vulnerable ranges.</li>
-          <li><strong>Use the latest YARA rule.</strong> <a href="https://cms.recordedfuture.com/uploads/MAL_Tool_Shell_4eab68f2e0.yar">Download our .yar file</a> to access a YARA rule capable of detecting the in-memory <a href="https://app.recordedfuture.com/portal/intelligence-card/8PXuwI/overview?organization=uhash:5cJsHMHeSM">ToolShell</a> payload.</li>
+          <li><strong>Get the</strong> <strong>Insikt Group®</strong> <strong>Nuclei template.</strong> <a href="https://assets.recordedfuture.com/strapi/yaml-yar/CVE_2025_53770_ae498ed12b.yaml">Download our YAML file</a> to access a Nuclei template for CVE-2025-53770. The template sends a GET request to SharePoint Server’s "/_vti_pvt/service.cnf" endpoint, extracts the "vti_extenderversion" build number, and checks to see if it’s within the documented vulnerable ranges.</li>
+          <li><strong>Use the latest YARA rule.</strong> <a href="https://assets.recordedfuture.com/strapi/yaml-yar/MAL_Tool_Shell_4eab68f2e0.yar">Download our .yar file</a> to access a YARA rule capable of detecting the in-memory <a href="https://app.recordedfuture.com/portal/intelligence-card/8PXuwI/overview?organization=uhash:5cJsHMHeSM">ToolShell</a> payload.</li>
           <li><strong>Leverage our</strong> <strong><a href="https://www.recordedfuture.com/products/attack-surface-intelligence">Attack Surface Intelligence (ASI)</a></strong> <strong>Module.</strong> While the new ToolShell TTP does not rely on .ASPX web shells, Recorded Future previously released a signature on July 19 to detect the persistent web shell, “spinstall0.aspx,” indicating the presence of a ToolShell backdoor implant. On July 20, we released a signature to detect vulnerable SharePoint server versions to CVE-2025-53770. Since then, all new ASI scans will detect those signatures. Customers can also run an on-demand scan anytime. (Note: Recorded Future has reached out to the customers with confirmed signature detections in their ASI scans.)</li>
         </ul>
         <div>
@@ -1789,7 +1789,7 @@ hxxp://94[.]232[.]249[.]208/6a6fe9d70500fe64/main.php
         </ul>
         <p><strong>How Recorded Future Can Help:</strong></p>
         <ul>
-          <li><strong><a href="https://www.recordedfuture.com/research/insikt-group">Insikt Group</a></strong> - <a href="https://cms.recordedfuture.com/uploads/CVE_2025_49596_948d9ba8b5.yaml">Download the attached YAML file</a> in this blog post to access a Nuclei template created by Insikt Group for CVE-2025-49596. The template enables defenders to test potentially vulnerable MCP Inspector instances prior to the patched version.</li>
+          <li><strong><a href="https://www.recordedfuture.com/research/insikt-group">Insikt Group</a></strong> - <a href="https://assets.recordedfuture.com/strapi/yaml-yar/CVE_2025_49596_948d9ba8b5.yaml">Download the attached YAML file</a> in this blog post to access a Nuclei template created by Insikt Group for CVE-2025-49596. The template enables defenders to test potentially vulnerable MCP Inspector instances prior to the patched version.</li>
           <li><strong><a href="https://www.recordedfuture.com/products/vulnerability-intelligence">Vulnerability Intelligence</a></strong> - Gain helpful context on CVE-2025-49596 to aid in patching and prioritization discussions.</li>
         </ul>
         <div>
@@ -3847,7 +3847,7 @@ hxxp://94[.]232[.]249[.]208/6a6fe9d70500fe64/main.php
         <p>Users should upgrade to Langflow version 1.3.0. If upgrading is not possible, secure Langflow by restricting network access through a firewall and blocking public access to the "/api/v1/validate/code" endpoint. Additionally, monitor logs for suspicious POST requests on the endpoint.</p>
         <p><strong>How Recorded Future Can Help:</strong></p>
         <ul>
-          <li><strong><a href="/research/insikt-group">Insikt Group</a></strong> - <a href="https://cms.recordedfuture.com/uploads/CVE_2025_3248_0952c83b1a.yaml">Download the attached YAML file</a> in this blog post to access a Nuclei template created by Insikt Group for CVE-2025-3248 that enables defenders to test potentially vulnerable Langflow instances prior to the patched version.</li>
+          <li><strong><a href="/research/insikt-group">Insikt Group</a></strong> - <a href="https://assets.recordedfuture.com/strapi/yaml-yar/CVE_2025_3248_0952c83b1a.yaml">Download the attached YAML file</a> in this blog post to access a Nuclei template created by Insikt Group for CVE-2025-3248 that enables defenders to test potentially vulnerable Langflow instances prior to the patched version.</li>
           <li><strong><a href="/products/attack-surface-intelligence">Attack Surface Intelligence</a></strong> - Identify internet-facing assets vulnerable to CVE-2025-3248.</li>
           <li><strong><a href="/products/vulnerability-intelligence">Vulnerability Intelligence</a></strong> - Gain helpful context on CVE-2025-3248 to aid in patching and prioritization discussions.</li>
         </ul>
@@ -6685,7 +6685,7 @@ Content-Disposition: form-data; name="ip"
         <p>Users should upgrade to version 11.0.3, 10.1.35 or 9.0.99. For end-of-life (EoL) 8.5.x versions, users should upgrade to a supported branch of Apache <a href="https://app.recordedfuture.com/portal/intelligence-card/EvTHn/overview?organization=uhash:5cJsHMHeSM">Tomcat</a>. If upgrading is not immediately possible, users should implement network-level controls to restrict access to the Tomcat server.</p>
         <p><strong>How Recorded Future Can Help:</strong></p>
         <ul>
-          <li><a href="/research/insikt-group">Insikt Group</a> - <a href="https://cms.recordedfuture.com/uploads/CVE_2025_24813_a31e539d7e.yaml">Download the attached YAML file</a> in this blog post to access a Nuclei template created by Insikt Group for CVE-2025-24813 that enables defenders to test potentially vulnerable Apache Tomcat instances prior to the patched version.</li>
+          <li><a href="/research/insikt-group">Insikt Group</a> - <a href="https://assets.recordedfuture.com/strapi/yaml-yar/CVE_2025_24813_a31e539d7e.yaml">Download the attached YAML file</a> in this blog post to access a Nuclei template created by Insikt Group for CVE-2025-24813 that enables defenders to test potentially vulnerable Apache Tomcat instances prior to the patched version.</li>
           <li><a href="/products/attack-surface-intelligence">Attack Surface Intelligence</a> - Identify internet-facing assets vulnerable to CVE-2025-24813.</li>
           <li><a href="/products/vulnerability-intelligence">Vulnerability Intelligence</a> - Gain helpful context on CVE-2025-24813 to aid in patching and prioritization discussions.</li>
         </ul>
@@ -7359,7 +7359,7 @@ Content-Disposition: form-data; name="ip"
         </div>
         <h3>How Recorded Future Can Help:</h3>
         <ul>
-          <li><strong><a href="/research/insikt-group">Insikt Group</a></strong> - <a href="https://cms.recordedfuture.com/uploads/CVE_2025_0994_53f6872d40.yaml">Download the attached YAML file</a> in this blog post to access a Nuclei template created by Insikt Group for CVE-2025-0994 that enables defenders to test potentially vulnerable Trimble Cityworks instances prior to the patched version.</li>
+          <li><strong><a href="/research/insikt-group">Insikt Group</a></strong> - <a href="https://assets.recordedfuture.com/strapi/yaml-yar/CVE_2025_0994_53f6872d40.yaml">Download the attached YAML file</a> in this blog post to access a Nuclei template created by Insikt Group for CVE-2025-0994 that enables defenders to test potentially vulnerable Trimble Cityworks instances prior to the patched version.</li>
           <li><strong><a href="/products/attack-surface-intelligence">Attack Surface Intelligence</a></strong> - Identify internet-facing assets vulnerable to CVE-2025-0994.</li>
           <li><strong><a href="/products/vulnerability-intelligence">Vulnerability Intelligence</a></strong> - Gain helpful context on CVE-2025-0994. to aid in patching and prioritization discussions.</li>
         </ul>

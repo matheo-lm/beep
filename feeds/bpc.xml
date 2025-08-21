@@ -11,13 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 21 Aug 2025 11:00:39 EDT</pubDate>
+        <pubDate>Thu, 21 Aug 2025 13:02:45 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
  <item>
-        <title>Microsoft asks customers for feedback on SSD failure issues</title>
+        <title>Europol confirms $50,000 Qilin ransomware reward is fake</title>
+        <link>https://www.bleepingcomputer.com/news/security/europol-confirms-that-qilin-ransomware-reward-is-fake/</link>
+        <pubDate>Thu, 21 Aug 2025 12:25:25 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/europol-confirms-that-qilin-ransomware-reward-is-fake/</guid>
+	<description><![CDATA[Europol has confirmed that a Telegram channel impersonating the agency and offering a $50,000 reward for information on two Qilin ransomware administrators is fake. The impostor later admitted it was created to troll researchers and journalists. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft asks customers for feedback on reported SSD failures</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-customers-for-feedback-on-ssd-failure-issues/</link>
         <pubDate>Thu, 21 Aug 2025 10:48:35 -0400</pubDate>
         <dc:creator>Sergiu Gatlan</dc:creator>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/major-password-managers-can-leak-logins-in-clickjacking-attacks/</guid>
 	<description><![CDATA[Six major password managers with tens of millions of users are currently vulnerable to unpatched clickjacking flaws that could allow attackers to steal account credentials, 2FA codes, and credit card details. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft investigates outage impacting Copilot, Office.com</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-outage-impacting-copilot-officecom/</link>
-        <pubDate>Wed, 20 Aug 2025 10:17:25 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-outage-impacting-copilot-officecom/</guid>
-	<description><![CDATA[Microsoft is investigating an ongoing issue preventing users across North America from accessing Office.com and the company's Copilot AI-powered assistant. [...]]]></description>
  </item>
 
 </channel>
