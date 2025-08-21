@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 21 Aug 2025 08:01:25 EDT</pubDate>
+        <pubDate>Thu, 21 Aug 2025 09:08:04 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FBI warns of Russian hackers exploiting 7-year-old Cisco flaw</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-warns-of-russian-hackers-exploiting-cisco-flaw-in-critical-infrastructure-attacks/</link>
+        <pubDate>Thu, 21 Aug 2025 08:04:08 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-warns-of-russian-hackers-exploiting-cisco-flaw-in-critical-infrastructure-attacks/</guid>
+	<description><![CDATA[The Federal Bureau of Investigation (FBI) has warned that hackers linked to Russia's Federal Security Service (FSB) are targeting critical infrastructure organizations in attacks exploiting a 7-year-old vulnerability in Cisco devices. [...]]]></description>
+ </item>
+
  <item>
         <title>Scattered Spider hacker gets sentenced to 10 years in prison</title>
         <link>https://www.bleepingcomputer.com/news/security/scattered-spider-hacker-gets-sentenced-to-10-years-in-prison/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-reportedly-fixing-ssd-failures-caused-by-windows-updates/</guid>
 	<description><![CDATA[Recently released Windows 11 24H2 updates are reportedly causing data corruption and failure issues for some SSD and HDD models on up-to-date systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Windows upgrades failing with 0x8007007F error</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-upgrades-failing-with-0x8007007f-error/</link>
-        <pubDate>Wed, 20 Aug 2025 04:21:22 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-upgrades-failing-with-0x8007007f-error/</guid>
-	<description><![CDATA[Microsoft has resolved a known issue that caused Windows upgrades to fail with 0x8007007F errors on some Windows 11 and Windows Server systems. [...]]]></description>
  </item>
 
 </channel>
