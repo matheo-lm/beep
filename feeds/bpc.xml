@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 20 Aug 2025 19:01:49 EDT</pubDate>
+        <pubDate>Wed, 20 Aug 2025 20:11:26 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>OpenAI says GPT-6 is coming and it'll be better than GPT-5 (obviously)</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-is-coming-and-itll-be-better-than-gpt-5-obviously/</link>
+        <pubDate>Wed, 20 Aug 2025 19:56:15 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-is-coming-and-itll-be-better-than-gpt-5-obviously/</guid>
+	<description><![CDATA[OpenAI's CEO Sam Altman told reporters that GPT-6 is already in the works, and it'll not take as long as GPT-5. [...]]]></description>
+ </item>
+
  <item>
         <title>AI website builder Lovable increasingly abused for malicious activity</title>
         <link>https://www.bleepingcomputer.com/news/security/ai-website-builder-lovable-increasingly-abused-for-malicious-activity/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/pypi-now-blocks-domain-resurrection-attacks-used-for-hijacking-accounts/</guid>
 	<description><![CDATA[The Python Package Index (PyPI) has introduced new protections against domain resurrection attacks that enable hijacking accounts through password resets. [...]]]></description>
- </item>
-
- <item>
-        <title>Okta open-sources catalog of Auth0 rules for threat detection</title>
-        <link>https://www.bleepingcomputer.com/news/security/okta-open-sources-catalog-of-auth0-rules-for-threat-detection/</link>
-        <pubDate>Tue, 19 Aug 2025 14:17:50 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/okta-open-sources-catalog-of-auth0-rules-for-threat-detection/</guid>
-	<description><![CDATA[Okta has open-sourced ready-made Sigma-based queries for Auth0 customers to detect account takeovers, misconfigurations, and suspicious behavior in event logs. [...]]]></description>
  </item>
 
 </channel>
