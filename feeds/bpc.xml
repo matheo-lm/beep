@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 22 Aug 2025 14:00:00 EDT</pubDate>
+        <pubDate>Fri, 22 Aug 2025 15:00:06 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>APT36 hackers abuse Linux .desktop files to install malware in new attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/apt36-hackers-abuse-linux-desktop-files-to-install-malware/</link>
+        <pubDate>Fri, 22 Aug 2025 14:35:11 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apt36-hackers-abuse-linux-desktop-files-to-install-malware/</guid>
+	<description><![CDATA[The Pakistani APT36 cyberspies are using Linux .desktop files to load malware in new attacks against government and defense entities in India. [...]]]></description>
+ </item>
+
  <item>
         <title>Fake Mac fixes trick users into installing new Shamos infostealer</title>
         <link>https://www.bleepingcomputer.com/news/security/fake-mac-fixes-trick-users-into-installing-new-shamos-infostealer/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/scattered-spider-hacker-gets-sentenced-to-10-years-in-prison/</guid>
 	<description><![CDATA[Noah Michael Urban, a key member of the Scattered Spider cybercrime collective, was sentenced to 10 years in prison on Wednesday after pleading guilty to charges of wire fraud and conspiracy in April. [...]]]></description>
- </item>
-
- <item>
-        <title>Orange Belgium discloses data breach impacting 850,000 customers</title>
-        <link>https://www.bleepingcomputer.com/news/security/orange-belgium-discloses-data-breach-impacting-850-000-customers/</link>
-        <pubDate>Thu, 21 Aug 2025 03:07:11 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/orange-belgium-discloses-data-breach-impacting-850-000-customers/</guid>
-	<description><![CDATA[Orange Belgium, a subsidiary of telecommunications giant Orange Group, disclosed on Wednesday that attackers who breached its systems in July have stolen the data of approximately 850,000 customers. [...]]]></description>
  </item>
 
 </channel>
