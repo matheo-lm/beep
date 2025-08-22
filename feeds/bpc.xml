@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 22 Aug 2025 08:05:10 EDT</pubDate>
+        <pubDate>Fri, 22 Aug 2025 09:08:37 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: August Windows updates cause severe streaming issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-cause-severe-ndi-streaming-issues/</link>
+        <pubDate>Fri, 22 Aug 2025 08:25:39 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-cause-severe-ndi-streaming-issues/</guid>
+	<description><![CDATA[Microsoft has confirmed that the August 2025 security updates are causing severe lag and stuttering issues with NDI streaming software on some Windows 10 and Windows 11 systems. [...]]]></description>
+ </item>
+
  <item>
         <title>Massive anti-cybercrime operation leads to over 1,200 arrests in Africa</title>
         <link>https://www.bleepingcomputer.com/news/security/massive-anti-cybercrime-operation-leads-to-over-1-200-arrests-in-africa/</link>
@@ -174,38 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-is-coming-and-itll-be-better-than-gpt-5-obviously/</guid>
 	<description><![CDATA[OpenAI's CEO Sam Altman told reporters that GPT-6 is already in the works, and it'll not take as long as GPT-5. [...]]]></description>
- </item>
-
- <item>
-        <title>AI website builder Lovable increasingly abused for malicious activity</title>
-        <link>https://www.bleepingcomputer.com/news/security/ai-website-builder-lovable-increasingly-abused-for-malicious-activity/</link>
-        <pubDate>Wed, 20 Aug 2025 18:11:05 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ai-website-builder-lovable-increasingly-abused-for-malicious-activity/</guid>
-	<description><![CDATA[Cybercriminals are increasingly abusing the AI-powered Lovable website creation and hosting platform to generate phishing pages, malware-dropping portals, and various fraudulent websites. [...]]]></description>
- </item>
-
- <item>
-        <title>Apple fixes new zero-day flaw exploited in targeted attacks</title>
-        <link>https://www.bleepingcomputer.com/news/apple/apple-emergency-updates-fix-new-actively-exploited-zero-day/</link>
-        <pubDate>Wed, 20 Aug 2025 14:44:31 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Apple]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/apple/apple-emergency-updates-fix-new-actively-exploited-zero-day/</guid>
-	<description><![CDATA[Apple has released emergency updates to patch another zero-day vulnerability that was exploited in an "extremely sophisticated attack." [...]]]></description>
  </item>
 
 </channel>
