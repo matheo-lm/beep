@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 21 Aug 2025 19:00:53 EDT</pubDate>
+        <pubDate>Thu, 21 Aug 2025 20:11:45 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Dev gets 4 years for creating kill switch on ex-employer's systems</title>
+        <link>https://www.bleepingcomputer.com/news/security/dev-gets-4-years-for-creating-kill-switch-on-ex-employers-systems/</link>
+        <pubDate>Thu, 21 Aug 2025 19:46:26 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/dev-gets-4-years-for-creating-kill-switch-on-ex-employers-systems/</guid>
+	<description><![CDATA[A software developer has been sentenced to four years in prison for sabotaging his ex-employer's Windows network with custom malware and a kill switch that locked out employees when his account was disabled. [...]]]></description>
+ </item>
+
  <item>
         <title>Colt confirms customer data stolen as Warlock ransomware auctions files</title>
         <link>https://www.bleepingcomputer.com/news/security/colt-confirms-customer-data-stolen-as-warlock-ransomware-auctions-files/</link>
@@ -176,22 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/legal/rapper-bot-malware-seized-alleged-developer-identified-and-charged/</guid>
 	<description><![CDATA[The U.S. Department of Justice (DoJ) announced charges against the alleged developer and administrator of the "Rapper Bot" DDoS-for-hire botnet. [...]]]></description>
- </item>
-
- <item>
-        <title>Perplexity’s Comet AI browser tricked into buying fake items online</title>
-        <link>https://www.bleepingcomputer.com/news/security/perplexitys-comet-ai-browser-tricked-into-buying-fake-items-online/</link>
-        <pubDate>Wed, 20 Aug 2025 12:31:13 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/perplexitys-comet-ai-browser-tricked-into-buying-fake-items-online/</guid>
-	<description><![CDATA[A study looking into agentic AI browsers has found that these emerging tools are vulnerable to both new and old schemes that could make them interact with malicious pages and prompts. [...]]]></description>
  </item>
 
 </channel>
