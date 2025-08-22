@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 22 Aug 2025 17:02:55 EDT</pubDate>
+        <pubDate>Fri, 22 Aug 2025 18:01:22 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Murky Panda hackers exploit cloud trust to hack downstream customers</title>
+        <link>https://www.bleepingcomputer.com/news/security/murky-panda-hackers-exploit-cloud-trust-to-hack-downstream-customers/</link>
+        <pubDate>Fri, 22 Aug 2025 17:56:16 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/murky-panda-hackers-exploit-cloud-trust-to-hack-downstream-customers/</guid>
+	<description><![CDATA[A Chinese state-sponsored hacking group known as Murky Panda (Silk Typhoon) exploits trusted relationships in cloud environments to gain initial access to the networks and data of downstream customers. [...]]]></description>
+ </item>
+
  <item>
         <title>APT36 hackers abuse Linux .desktop files to install malware in new attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/apt36-hackers-abuse-linux-desktop-files-to-install-malware/</link>
@@ -174,20 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/fbi-warns-of-russian-hackers-exploiting-cisco-flaw-in-critical-infrastructure-attacks/</guid>
 	<description><![CDATA[The Federal Bureau of Investigation (FBI) has warned that hackers linked to Russia's Federal Security Service (FSB) are targeting critical infrastructure organizations in attacks exploiting a 7-year-old vulnerability in Cisco devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Scattered Spider hacker gets sentenced to 10 years in prison</title>
-        <link>https://www.bleepingcomputer.com/news/security/scattered-spider-hacker-gets-sentenced-to-10-years-in-prison/</link>
-        <pubDate>Thu, 21 Aug 2025 04:34:20 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/scattered-spider-hacker-gets-sentenced-to-10-years-in-prison/</guid>
-	<description><![CDATA[Noah Michael Urban, a key member of the Scattered Spider cybercrime collective, was sentenced to 10 years in prison on Wednesday after pleading guilty to charges of wire fraud and conspiracy in April. [...]]]></description>
  </item>
 
 </channel>
