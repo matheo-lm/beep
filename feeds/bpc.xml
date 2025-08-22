@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 22 Aug 2025 11:00:40 EDT</pubDate>
+        <pubDate>Fri, 22 Aug 2025 11:59:20 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Fake Mac fixes trick users into installing new Shamos infostealer</title>
+        <link>https://www.bleepingcomputer.com/news/security/fake-mac-fixes-trick-users-into-installing-new-shamos-infostealer/</link>
+        <pubDate>Fri, 22 Aug 2025 11:44:10 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fake-mac-fixes-trick-users-into-installing-new-shamos-infostealer/</guid>
+	<description><![CDATA[A new infostealer malware targeting Mac devices, called 'Shamos,' is targeting Mac devices in ClickFix attacks that impersonate troubleshooting guides and fixes. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: August Windows updates cause severe streaming issues</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-cause-severe-ndi-streaming-issues/</link>
@@ -172,22 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/orange-belgium-discloses-data-breach-impacting-850-000-customers/</guid>
 	<description><![CDATA[Orange Belgium, a subsidiary of telecommunications giant Orange Group, disclosed on Wednesday that attackers who breached its systems in July have stolen the data of approximately 850,000 customers. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI says GPT-6 is coming and it'll be better than GPT-5 (obviously)</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-is-coming-and-itll-be-better-than-gpt-5-obviously/</link>
-        <pubDate>Wed, 20 Aug 2025 19:56:15 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-is-coming-and-itll-be-better-than-gpt-5-obviously/</guid>
-	<description><![CDATA[OpenAI's CEO Sam Altman told reporters that GPT-6 is already in the works, and it'll not take as long as GPT-5. [...]]]></description>
  </item>
 
 </channel>
