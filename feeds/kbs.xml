@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Thu, 21 Aug 2025 16:28:52 +0000</lastBuildDate>
@@ -598,9 +598,9 @@ Your unique writing style, phraseology, punctuation, consistency of grammatical 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 248/248 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Object Caching 233/263 objects using memcached
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-08-24 09:59:00 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-08-24 10:57:51 by W3 Total Cache
 -->
