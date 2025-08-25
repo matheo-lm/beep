@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 25 Aug 2025 12:02:23 EDT</pubDate>
+        <pubDate>Mon, 25 Aug 2025 13:02:32 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Malicious Android apps with 19M installs removed from Google Play</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-android-apps-with-19m-installs-removed-from-google-play/</link>
+        <pubDate>Mon, 25 Aug 2025 12:37:22 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-android-apps-with-19m-installs-removed-from-google-play/</guid>
+	<description><![CDATA[Seventy-seven malicious Android apps containing different types of malware were found on Google Play after being downloaded more than 19 million times. [...]]]></description>
+ </item>
+
  <item>
         <title>Critical Docker Desktop flaw lets attackers hijack Windows hosts</title>
         <link>https://www.bleepingcomputer.com/news/security/critical-docker-desktop-flaw-lets-attackers-hijack-windows-hosts/</link>
@@ -148,20 +164,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-cause-severe-ndi-streaming-issues/</guid>
 	<description><![CDATA[Microsoft has confirmed that the August 2025 security updates are causing severe lag and stuttering issues with NDI streaming software on some Windows 10 and Windows 11 systems. [...]]]></description>
- </item>
-
- <item>
-        <title>Massive anti-cybercrime operation leads to over 1,200 arrests in Africa</title>
-        <link>https://www.bleepingcomputer.com/news/security/massive-anti-cybercrime-operation-leads-to-over-1-200-arrests-in-africa/</link>
-        <pubDate>Fri, 22 Aug 2025 06:08:13 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/massive-anti-cybercrime-operation-leads-to-over-1-200-arrests-in-africa/</guid>
-	<description><![CDATA[Law enforcement authorities in Africa have arrested over 1,200 suspects as part of 'Operation Serengeti 2.0,' an INTERPOL-led international crackdown targeting cross-border cybercriminal gangs. [...]]]></description>
  </item>
 
 </channel>
