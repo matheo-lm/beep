@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 25 Aug 2025 10:02:50 EDT</pubDate>
+        <pubDate>Mon, 25 Aug 2025 11:03:06 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Defending against malware persistence techniques with Wazuh</title>
+        <link>https://www.bleepingcomputer.com/news/security/defending-against-malware-persistence-techniques-with-wazuh/</link>
+        <pubDate>Mon, 25 Aug 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Wazuh</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/defending-against-malware-persistence-techniques-with-wazuh/</guid>
+	<description><![CDATA[Malware persistence keeps attackers in your systems long after reboots or resets. Wazuh helps detect and block hidden techniques like scheduled tasks, startup scripts, and modified system files—before they turn into long-term compromise. [...]]]></description>
+ </item>
+
  <item>
         <title>New Android malware poses as antivirus from Russian intelligence agency</title>
         <link>https://www.bleepingcomputer.com/news/security/new-android-malware-poses-as-antivirus-from-russian-intelligence-agency/</link>
@@ -150,22 +164,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/davita-ransomware-attack-exposed-data-of-nearly-27-million-people/</guid>
 	<description><![CDATA[Kidney dialysis firm DaVita has confirmed that a ransomware gang that breached its network stole the personal and health information of nearly 2.7 million individuals. [...]]]></description>
- </item>
-
- <item>
-        <title>Dev gets 4 years for creating kill switch on ex-employer's systems</title>
-        <link>https://www.bleepingcomputer.com/news/security/dev-gets-4-years-for-creating-kill-switch-on-ex-employers-systems/</link>
-        <pubDate>Thu, 21 Aug 2025 19:46:26 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/dev-gets-4-years-for-creating-kill-switch-on-ex-employers-systems/</guid>
-	<description><![CDATA[A software developer has been sentenced to four years in prison for sabotaging his ex-employer's Windows network with custom malware and a kill switch that locked out employees when his account was disabled. [...]]]></description>
  </item>
 
 </channel>
