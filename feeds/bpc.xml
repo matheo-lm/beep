@@ -11,11 +11,59 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 25 Aug 2025 08:00:59 EDT</pubDate>
+        <pubDate>Mon, 25 Aug 2025 09:11:39 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Android malware poses as antivirus from Russian intelligence agency</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-android-malware-poses-as-antivirus-from-russian-intelligence-agency/</link>
+        <pubDate>Sun, 24 Aug 2025 10:08:18 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-android-malware-poses-as-antivirus-from-russian-intelligence-agency/</guid>
+	<description><![CDATA[A new Android malware posing as an antivirus tool software created by Russia's Federal Security Services agency (FSB) is being used to target executives of Russian businesses. [...]]]></description>
+ </item>
+
+ <item>
+        <title>FTC warns tech giants not to bow to foreign pressure on encryption</title>
+        <link>https://www.bleepingcomputer.com/news/security/ftc-warns-tech-giants-not-to-bow-to-foreign-pressure-on-encryption/</link>
+        <pubDate>Sat, 23 Aug 2025 11:21:32 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Government]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ftc-warns-tech-giants-not-to-bow-to-foreign-pressure-on-encryption/</guid>
+	<description><![CDATA[The Federal Trade Commission (FTC) is warning major U.S. tech companies against yielding to foreign government demands that weaken data security, compromise encryption, or impose censorship on their platforms. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft working on fix for ongoing Outlook email issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-fix-for-ongoing-outlook-email-issues/</link>
+        <pubDate>Sat, 23 Aug 2025 10:15:20 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-fix-for-ongoing-outlook-email-issues/</guid>
+	<description><![CDATA[​Microsoft is working to resolve an Exchange Online issue causing email access problems for Outlook mobile users who use Hybrid Modern Authentication (HMA). [...]]]></description>
+ </item>
+
  <item>
         <title>Murky Panda hackers exploit cloud trust to hack downstream customers</title>
         <link>https://www.bleepingcomputer.com/news/security/murky-panda-hackers-exploit-cloud-trust-to-hack-downstream-customers/</link>
@@ -118,76 +166,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/dev-gets-4-years-for-creating-kill-switch-on-ex-employers-systems/</guid>
 	<description><![CDATA[A software developer has been sentenced to four years in prison for sabotaging his ex-employer's Windows network with custom malware and a kill switch that locked out employees when his account was disabled. [...]]]></description>
- </item>
-
- <item>
-        <title>Colt confirms customer data stolen as Warlock ransomware auctions files</title>
-        <link>https://www.bleepingcomputer.com/news/security/colt-confirms-customer-data-stolen-as-warlock-ransomware-auctions-files/</link>
-        <pubDate>Thu, 21 Aug 2025 16:41:07 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/colt-confirms-customer-data-stolen-as-warlock-ransomware-auctions-files/</guid>
-	<description><![CDATA[UK-based telecommunications company Colt Technology Services confirms that customer documentation was stolen as Warlock ransomware gang auctions files. [...]]]></description>
- </item>
-
- <item>
-        <title>Europol confirms $50,000 Qilin ransomware reward is fake</title>
-        <link>https://www.bleepingcomputer.com/news/security/europol-confirms-that-qilin-ransomware-reward-is-fake/</link>
-        <pubDate>Thu, 21 Aug 2025 12:25:25 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/europol-confirms-that-qilin-ransomware-reward-is-fake/</guid>
-	<description><![CDATA[Europol has confirmed that a Telegram channel impersonating the agency and offering a $50,000 reward for information on two Qilin ransomware administrators is fake. The impostor later admitted it was created to troll researchers and journalists. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft asks customers for feedback on reported SSD failures</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-customers-for-feedback-on-ssd-failure-issues/</link>
-        <pubDate>Thu, 21 Aug 2025 10:48:35 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-customers-for-feedback-on-ssd-failure-issues/</guid>
-	<description><![CDATA[​Microsoft is seeking further information from customers who reported failure and data corruption issues affecting their solid-state drives (SSDs) and hard disk drives (HDDs) after installing the August 2025 security update. [...]]]></description>
- </item>
-
- <item>
-        <title>Why Certified VMware Pros Are Driving the Future of IT</title>
-        <link>https://www.bleepingcomputer.com/news/security/why-certified-vmware-pros-are-driving-the-future-of-it/</link>
-        <pubDate>Thu, 21 Aug 2025 09:53:34 -0400</pubDate>
-        <dc:creator>Sponsored by VMUG</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/why-certified-vmware-pros-are-driving-the-future-of-it/</guid>
-	<description><![CDATA[From hybrid cloud to AI, IT complexity and security risks are accelerating. Certified VMware pros bring clarity and resilience that keep teams ahead. See why CIOs are making certification a workforce strategy with VMUG. [...]]]></description>
- </item>
-
- <item>
-        <title>FBI warns of Russian hackers exploiting 7-year-old Cisco flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/fbi-warns-of-russian-hackers-exploiting-cisco-flaw-in-critical-infrastructure-attacks/</link>
-        <pubDate>Thu, 21 Aug 2025 08:04:08 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fbi-warns-of-russian-hackers-exploiting-cisco-flaw-in-critical-infrastructure-attacks/</guid>
-	<description><![CDATA[The Federal Bureau of Investigation (FBI) has warned that hackers linked to Russia's Federal Security Service (FSB) are targeting critical infrastructure organizations in attacks exploiting a 7-year-old vulnerability in Cisco devices. [...]]]></description>
  </item>
 
 </channel>
