@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 26 Aug 2025 14:44:10 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 26 Aug 2025 15:17:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,7 @@
 	<item>
 		<title>DSLRoot, Proxies, and the Threat of &#8216;Legal Botnets&#8217;</title>
 		<link>https://krebsonsecurity.com/2025/08/dslroot-proxies-and-the-threat-of-legal-botnets/</link>
-					<comments>https://krebsonsecurity.com/2025/08/dslroot-proxies-and-the-threat-of-legal-botnets/#respond</comments>
+					<comments>https://krebsonsecurity.com/2025/08/dslroot-proxies-and-the-threat-of-legal-botnets/#comments</comments>
 		
 		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
 		<pubDate>Tue, 26 Aug 2025 14:05:12 +0000</pubDate>
@@ -62,7 +62,7 @@
 <p>When asked how they became acquainted with DSLRoot, Sacapoopie told another user they discovered the company and reached out after viewing an advertisement on a social media platform.</p>
 <p>&#8220;This was probably 5-6 years ago,&#8221; Sacapoopie wrote. &#8220;Since then I just communicate with a technician from that company and I help trouble shoot connectivity issues when they arise.&#8221;</p>
 <p>Reached for comment, DSLRoot said its brand has been unfairly maligned thanks to that Reddit discussion. The unsigned email said DSLRoot is fully transparent about its goals and operations, adding that it operates under full consent from its &#8220;regional agents,&#8221; the company&#8217;s term for U.S. residents like Sacapoopie.</p>
-<p>&#8220;As although we support honest journalism, we&#8217;re against of all kinds of &#8216;low rank/misleading Yellow Journalism&#8217; done for the sake of cheap hype,&#8221; DSLRoot wrote in reply. &#8220;It&#8217;s obvious to us that whoever is doing this, is either lacking a proper understanding of the subject or doing it intentionally to gain exposure by misleading those who lack proper understanding,&#8221; DSLRoot wrote in answer to questions about the company&#8217;s intentions.&#8221;</p>
+<p>&#8220;As although we support honest journalism, we&#8217;re against of all kinds of &#8216;low rank/misleading Yellow Journalism&#8217; done for the sake of cheap hype,&#8221; DSLRoot wrote in reply. &#8220;It&#8217;s obvious to us that whoever is doing this, is either lacking a proper understanding of the subject or doing it intentionally to gain exposure by misleading those who lack proper understanding,&#8221; DSLRoot wrote in answer to questions about the company&#8217;s intentions.</p>
 <p>&#8220;We monitor our clients and prohibit any illegal activity associated with our residential proxies,&#8221; DSLRoot continued. &#8220;We honestly didn&#8217;t know that the guy who made the Reddit post was a military guy. Be it an African-American granny trying to pay her rent or a white kid trying to get through college, as long as they can provide an Internet line or host phones for us &#8212; we&#8217;re good.&#8221;<span id="more-71984"></span></p>
 <h2>WHAT IS DSLROOT?</h2>
 <p>DSLRoot is sold as a residential proxy service on the forum <strong>BlackHatWorld</strong> under the name DSLRoot and <strong>GlobalSolutions</strong>. The company is based in the Bahamas and was formed in 2012. The service is advertised to people who are not in the United States but who want to seem like they are. DSLRoot pays people in the United States to run the company&#8217;s hardware and software &#8212; including 5G mobile devices &#8212; and in return it rents those IP addresses as dedicated proxies to customers anywhere in the world &#8212; priced at $190 per month for unrestricted access to all locations.</p>
@@ -89,7 +89,7 @@
 <p>We can all wag our fingers at military personnel who should undoubtedly know better than to install Internet hardware from strangers, but in truth there is an endless supply of U.S. residents who will resell their Internet connection if it means they can make a few bucks out of it. And these days, there are plenty of residential proxy providers who will make it worth your while.</p>
 <p>Traditionally, residential proxy networks have been constructed using malicious software that quietly turns infected systems into traffic relays that are then sold in shadowy online forums. Most often, this malware gets bundled with popular cracked software and video files that are uploaded to file-sharing networks and that secretly turn the host device into a traffic relay. In fact, USPRoxyKing bragged that he routinely achieved thousands of installs per week via this method alone.</p>
 <p>These days, there a number of residential proxy networks that entice users to monetize their unused bandwidth (inviting you to violate the terms of service of your ISP in the process); others, like DSLRoot, act as a communal VPN, and by using the service you gain access to the connections of other proxies (users) by default, but you also agree to share your connection with others.</p>
-<p>Indeed, Intel 471&#8217;s archives show the GlobalSolutions and DSLRoot accounts routinely received private messages from forum users who were college students or young people who were trying to make ends meet. Those messages show that many of DSLRoot&#8217;s &#8220;regional agents&#8221; often sought commissions to refer friends interested in reselling their home Internet connections (DSLRoot would offer to cover the monthly cost of the agent&#8217;s home Internet connection).</p>
+<p>Indeed, Intel 471&#8217;s archives show the GlobalSolutions and DSLRoot accounts routinely received private messages from forum users who were college students or young people trying to make ends meet. Those messages show that many of DSLRoot&#8217;s &#8220;regional agents&#8221; often sought commissions to refer friends interested in reselling their home Internet connections (DSLRoot would offer to cover the monthly cost of the agent&#8217;s home Internet connection).</p>
 <p>But in an era when North Korean hackers are relentlessly posing as Western IT workers by paying people to host laptop farms in the United States, letting strangers run laptops, mobile devices or any other hardware on your network seems like an awfully risky move regardless of your station in life. As several Redditors pointed out in Sacapoopie&#8217;s thread, an Arizona woman <a href="https://www.justice.gov/opa/pr/arizona-woman-sentenced-17m-information-technology-worker-fraud-scheme-generated-revenue" target="_blank" rel="noopener">was sentenced in July 2025 to 102 months in prison</a> for hosting a laptop farm that helped North Korean hackers secure jobs at more than 300 U.S. companies, including Fortune 500 firms.</p>
 <p><strong>Lloyd Davies</strong> is the founder of <strong>Infrawatch</strong>, a London-based security startup that tracks residential proxy networks. Davies said he reverse engineered <a href="https://www.virustotal.com/gui/file/042a8fa307e585952ada30070a2aa5606a9a8fbdf7c9f15d50753fcf33736bc9" target="_blank" rel="noopener">the software that powers DSLRoot&#8217;s proxy service</a>, and found it phones home to the aforementioned domain proxyrental[.]net, which sells a service that promises to &#8220;get your ads live in multiple cities without getting banned, flagged or ghosted&#8221; (presumably a reference to CraigsList ads).</p>
 <p>Davies said he found the DSLRoot installer had capabilities to remotely control residential networking equipment across multiple vendor brands.</p>
@@ -101,7 +101,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/08/dslroot-proxies-and-the-threat-of-legal-botnets/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>3</slash:comments>
 		
 		
 			</item>
@@ -640,5 +640,5 @@ Object Caching 260/260 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-08-26 11:02:01 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-08-26 11:57:04 by W3 Total Cache
 -->
