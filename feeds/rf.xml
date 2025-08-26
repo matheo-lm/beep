@@ -4,7 +4,7 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Tue, 26 Aug 2025 14:01:24 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Aug 2025 17:49:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
@@ -319,6 +319,80 @@ Sincerely,
       ]]></content:encoded>
             <category>Research (Insikt)</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_166e7a5b72f3139807857b88fecc363f8bc7137a0.gif?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
+        <item>
+            <title><![CDATA[New Report Sheds Light on the State of AI and Automation in Threat Intelligence]]></title>
+            <link>https://www.recordedfuture.com/blog/state-of-ai-and-automation-in-threat-intelligence</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/blog/state-of-ai-and-automation-in-threat-intelligence</guid>
+            <pubDate>Wed, 21 Jan 1970 07:42:14 GMT</pubDate>
+            <description><![CDATA[Discover how over 520 cybersecurity leaders are using AI and automation in threat intelligence. Learn key adoption trends, ROI insights, and implementation challenges.]]></description>
+            <content:encoded><![CDATA[
+        <p>In our discussions with cyber threat intelligence teams over the past year, one of the biggest topics has been AI and automation. Government agencies, commercial businesses, and other enterprises are expanding their use of these technologies in an effort to respond to cyber threats more efficiently.</p>
+        <p>Still, there’s a lot of hype around the subject, so we wanted to understand what’s truly happening. How are different teams using AI and automation in their day-to-day workflows? And how are they integrating it into their more strategic initiatives?</p>
+        <p>To find out, we partnered with researcher <a href="https://userevidence.com/research-content/">UserEvidence</a> to survey over 520 cybersecurity leaders across industries and countries. Here are a few key themes we uncovered:</p>
+        <h2>#1: Adoption is happening, but what about active use?</h2>
+        <p>The survey revealed that nearly 75% of organizations are moving beyond AI pilots to active implementation of AI and automation in their threat intelligence programs.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_104beb0b081c9f420b89f6e62814b2ad56382a8af.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="886" />
+            </div>
+          </div>
+          <div>
+            <div><em>Current Use of AI in Threat Intelligence Programs</em></div>
+          </div>
+        </div>
+        <p>The survey also found that smaller organizations (1,000–5,000 employees) are moving the fastest, with 87% of respondents from smaller organizations actively using AI in threat intelligence. By contrast, respondents from larger organizations are relatively evenly split between those whose teams are fully embedding AI and those who have select team members using AI by choice.</p>
+        <p>Surprisingly, a number of respondents reported that their teams have generative AI tools available but don’t actually use them, or use them in limited ways. This could be due to unclear use cases, tool-related limitations, or inadequate training.</p>
+        <p>There are significant regional differences in active use as well. While 30% of respondents in Europe, the Middle East, and Africa (EMEA) and 32% of respondents in Asia Pacific and Japan (APJ) said they’ve fully embedded AI across the threat intelligence lifecycle, just 15% of respondents in North America (NA) have reached this advanced stage. <a href="https://pages.recordedfutureext.com/State-of-AI-2025.html">Read the report for a full breakdown of survey responses</a>.</p>
+        <h2>#2 The value of AI and automation are evident, but teams aren’t necessarily maximizing ROI.</h2>
+        <p>Respondents overwhelmingly said that AI and automation are demonstrating value for their organizations, with at least 85% of implementations meeting or exceeding expectations in terms of operational efficiency gains. The report dives into the details, comparing operational use cases from analyst efficiency to response times for emerging threats.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_172582db22cee4b234fe564fde3fb77ffcb506194.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="876" />
+            </div>
+          </div>
+          <div>
+            <div><em>Threat Intelligence Workflow Automation: Expectations vs. Reality</em></div>
+          </div>
+        </div>
+        <p>In terms of a regional breakdown, APJ organizations were most likely to report that automated threat intelligence workflows have significantly exceeded expectations (34%), while EMEA organizations were most likely to say these automations have somewhat exceeded expectations (33%). NA organizations were most likely to say that they’ve met expectations (49%).</p>
+        <p>However, respondents were less likely to mention more strategic benefits like proactive threat detection, indicating that AI usage has so far been less effective at making a transformative impact. <a href="https://pages.recordedfutureext.com/State-of-AI-2025.html">Download the report for detailed responses</a>.</p>
+        <h2>#3 Implementation barriers still exist.</h2>
+        <p>Despite understanding the benefits of AI and automation, not all security teams are ready to hand critical decisions over to the technology. In fact, many reported that their workflows still require heavy manual effort in key areas.</p>
+        <p>Given that the tasks mentioned are ideal use cases for automation, it’s likely that many teams have a ways to go in their implementations.</p>
+        <p>In addition, many teams struggle to find the right AI vendor partner. Most organizations are using a balanced mix of vendor AI and internally developed AI in their threat intelligence programs. Mostly using vendor-provided AI is also relatively common, but few organizations are using only AI built into existing threat intelligence products or relying on mostly custom AI tools.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_13ce50729db91094c4e8890755a4ae2c2a5823c78.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="875" />
+            </div>
+          </div>
+          <div>
+            <div><em>Using AI Tools Built Into Existing Threat Intelligence Tools vs. Standing Up AI Tools</em></div>
+          </div>
+        </div>
+        <p>Some regional differences also stand out. APJ organizations primarily use vendor-provided AI capabilities (50%), while EMEA and NA organizations rely on a balanced mix (41% and 42%, respectively). This may indicate a higher level of trust among APJ respondents or a greater need for customization among EMEA and NA respondents. <a href="https://pages.recordedfutureext.com/State-of-AI-2025.html">Find out more about implementation barriers and considerations in the full report</a>.</p>
+        <h2>#4 Security professionals are optimistic about the future impacts of AI and generative AI on their security and workloads.</h2>
+        <p>Despite challenges and growing pains, 86% of respondents expressed high trust in AI-generated outputs.—and mMost say they believe that generative AI could reduce workloads by over 25%.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_13534507dcadd6c1e1cc1ee7e9e357cc0652af3e2.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="946" />
+            </div>
+          </div>
+          <div>
+            <div><em>Percentage of Threat Intelligence Workload That Could Be Reduced with GenAI Capabilities</em></div>
+          </div>
+        </div>
+        <h2>There’s even bigger value to unlock.</h2>
+        <p>Right now, it’s clear that while organizations are realizing operational efficiencies from AI and automation, the potential benefits are much bigger. Download <a href="https://pages.recordedfutureext.com/State-of-AI-2025.html">The State of AI &amp; Automation in Threat Intelligence</a> to find out more about these hidden opportunities, better protect your organization, and drive business forward.</p>
+        <p><a href="https://pages.recordedfutureext.com/State-of-AI-2025.html?utm_id=25q3_gbl_full&amp;utm_source=blog&amp;utm_medium=blog&amp;utm_campaign=whyrf_sai&amp;utm_content=landingpage_%7Bcreative_name%7D">Download The State of AI &amp; Automation in Threat Intelligence</a> to find out more about these hidden opportunities, better protect your organization, and drive business forward.</p>
+        <p><a href="https://www.recordedfuture.com/platform/recorded-future-ai">Learn more</a> about Recorded Future AI, and how organizations and governments across the globe are turning data overload into a strategic advantage.</p>
+      ]]></content:encoded>
+            <category>Blog</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_1bc2be723d9e07bff1c66bc3ae2ebd119e46cb1c4.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
         <item>
             <title><![CDATA[Behind the Curtain: How Lumma Affiliates Operate]]></title>
@@ -8315,107 +8389,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Blog</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_14fcb249bcb15799bd4500bd63d1b0e3b53e78eb2.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[Working in Singapore at the World’s Largest Intelligence Company]]></title>
-            <link>https://www.recordedfuture.com/blog/working-in-singapore</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/blog/working-in-singapore</guid>
-            <pubDate>Wed, 21 Jan 1970 02:49:55 GMT</pubDate>
-            <description><![CDATA[Discover the vibrant culture at Recorded Future's Singapore office. Learn about our growth, team dynamics, and exciting work environment.]]></description>
-            <content:encoded><![CDATA[
-        <p>Did you know? Recorded Future operates out of seven offices worldwide. Besides our US locations, we have offices in London, Gothenburg, Dubai, Tokyo, and Singapore. With over 42 nationalities and at least as many spoken languages, we embrace diverse cultures and backgrounds and love to learn from each other. Today, we focus on our Singapore team.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="singapore-01.jpg" src="https://www.recordedfuture.com/media_1e61119fdface42ed021e0a289d03d12d2fc6d9b9.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="1080" height="810" />
-            </div>
-          </div>
-          <div>
-            <div><em>Singapore futurists on #lemonadeday</em></div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div>“Working in the Singapore office is fantastic. Futurists are friendly, helpful, and you can always hear laughter across the room.”</div>
-          </div>
-          <div>
-            <div>Team Lead, Intelligence Services</div>
-          </div>
-        </div>
-        <h3>Location</h3>
-        <p>Our Singapore office is a primary location for Southeast Asia and Taiwan. It supports clients across over 10 countries and is the second most significant region in APJ. Our office space is in the heart of Singapore at Funan Mall, facing the high court and parliament. It is near many fantastic activities, delicious grab-and-go food options, and some of the best restaurants in the country, with convenient access to a nearby train station connecting you to the entire city.</p>
-        <div>
-          <div>
-            <div>“The Singapore office location has changed over the years. With each move, the preeminent issue is always ‘Are there good food options nearby?’ Because it’s Singapore, the answer is always ‘yes’. Exactly where and what kinds of options need to be mapped and analyzed at length before anyone can feel at home.”</div>
-          </div>
-          <div>
-            <div>Technical Lead, Threat Data and Enablement, Insikt Group®</div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="singapore-02.jpg" src="https://www.recordedfuture.com/media_166d7f38fc48bec370281a64a54479adb13ae752f.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="807" height="1080" />
-            </div>
-          </div>
-          <div>
-            <div><em>Marty &amp; Futurists try Singapore delicacies</em></div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="singapore-03.png" src="https://www.recordedfuture.com/media_10a21d7287f1739a336f6ca01491db895ba0886ef.png?width=750&amp;format=png&amp;optimize=medium" width="810" height="1080" />
-            </div>
-          </div>
-          <div>
-            <div><em>LoHei or Prosperity Toss for Lunar New Year</em></div>
-          </div>
-        </div>
-        <h3>Looking back</h3>
-        <p>Recorded Future’s first office was in Garden City in the Central Business District at Asia Square. Since then, the team has grown significantly in size, scale, and reputation. Our expanding regional presence has led to a new office move, from the vibrant and historic area near Lau Pa Sat to Funan’s modern and exciting office towers.</p>
-        <div>
-          <div>
-            <div>“When I arrived in Singapore, we had recently established what I’d consider our first ‘real’ office in APJ. It was in the heart of the central business district. We had just hired our first Account Executive and Business Development Representative in Singapore, and it felt like we had a full team at that point. Before that, the only persistent Recorded Future presence in Singapore was by our first Sales Engineer. He was our true and dedicated expeditionary force in the region.”</div>
-          </div>
-          <div>
-            <div>Technical Lead, Threat Data and Enablement, Insikt Group®</div>
-          </div>
-        </div>
-        <h3>Onwards &amp; Upwards</h3>
-        <p>For some time, the Singapore office was our sole physical presence in Asia. The team supported clients in 12 countries across 6 different time zones. The Singapore team now has over 30 employees. It spans various departments like sales, field marketing, professional services, and threat research.</p>
-        <p>“The APJ team punches so far above their weight, it’s remarkable. With resilience and capability the Singapore team has achieved remarkable success and demonstrates consistent collaboration with our partners in EMEA and NA.” shares APJ’s former Intelligence Services Director.</p>
-        <div>
-          <div>
-            <div>“We get the job done and we have fun. Hence, there is constant collaboration and camaraderie across the entire eco-system.”</div>
-          </div>
-          <div>
-            <div>Senior Manager, APJ Product Support</div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="singapore-04.jpg" src="https://www.recordedfuture.com/media_1ff08e5a0431af6fe76129331532ebf0060293b2c.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="1080" height="810" />
-            </div>
-          </div>
-          <div>
-            <div><em>Singapore futurists at their 2024 summer party go karting friendly competition</em></div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div>“Recorded Future is a place of builders and innovators, with the common aim of helping customers effectively in their own creative ways.”</div>
-          </div>
-          <div>
-            <div>Team Lead, Intelligence Services</div>
-          </div>
-        </div>
-        <p>Does this resonate with you? Interested in joining our team or are you just curious to learn more? Explore what it’s like <a href="/careers/working-at-recorded-future">working with us</a>.</p>
-        <p>Follow us on <a href="https://www.linkedin.com/company/recorded-future/">LinkedIn</a> for all the latest updates.</p>
-      ]]></content:encoded>
-            <category>Blog</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_1e26ca36e126e1189f8d604d800a3ba27b3a99550.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>
