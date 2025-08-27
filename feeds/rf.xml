@@ -4,7 +4,7 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Tue, 26 Aug 2025 21:01:56 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Aug 2025 12:45:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
@@ -1420,45 +1420,6 @@ hxxp://94[.]232[.]249[.]208/6a6fe9d70500fe64/main.php
       ]]></content:encoded>
             <category>Research (Insikt)</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_11bf88f2501e3cb692866f74a7ff477ba8bbeb8fc.jpg?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[Intelligence-Driven Defense: Four Critical Ransomware Trends Organizations Must Address]]></title>
-            <link>https://www.recordedfuture.com/blog/intelligence-driven-defense-four-critical-ransomware-trends-organizations-must-address</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/blog/intelligence-driven-defense-four-critical-ransomware-trends-organizations-must-address</guid>
-            <pubDate>Wed, 21 Jan 1970 07:27:50 GMT</pubDate>
-            <description><![CDATA[Discover four critical ransomware trends—from AI-driven phishing to supply chain exploits—and how cyber threat intelligence can counter them.]]></description>
-            <content:encoded><![CDATA[
-        <p>Ransomware is hitting the headlines as cyber criminals evolve their tactics to relentlessly attack organizations. High-profile incidents show that this global threat is rapidly accelerating.</p>
-        <p>To stay ahead, organizations need to understand how ransomware is changing. Here are four key trends shaping the threat landscape as well as tips for using cyber threat intelligence to help counter them.</p>
-        <h2>1. AI-assisted scams: The era of targeted attacks</h2>
-        <p>Generative artificial intelligence (AI) is supercharging phishing campaigns. Attackers now use AI to impersonate IT helpdesk staff with startling realism. Unsuspecting employees can fall victim to social engineering tactics, including the use of convincing references to real workplace events and colleagues as well as the use of local languages, dialects, and accents.</p>
-        <p>AI’s voice synthesis and data harvesting capabilities make these attacks highly plausible. When employees believe they’re speaking with legitimate IT support staff, they’re likely to lower their guard and share access details, leaving their organizations’ secure networks exposed to ransomware deployment.</p>
-        <p>Defensive tip: Regular, realistic training simulations informed by cyber threat intelligence can help staff recognize and resist AI-enhanced social engineering.</p>
-        <h2>2. The wiper threat: Weaponizing state-sponsored tactics</h2>
-        <p>Wiper malware, more commonly associated with state-sponsored sabotage, is now being weaponized by financially motivated ransomware groups. Attackers use these destructive payloads to erase backups and corrupt systems, leaving victims with no real path to recovery.</p>
-        <p>When victims balk at paying ransoms, attackers threaten to deploy wipers to render data unrecoverable. This tactic dramatically increases pressure on victims and undermines their negotiating power.</p>
-        <p>Defensive tip: Implement immutable offline backups and regularly test restoration procedures under simulated attack conditions. Make sure to tag and monitor sensitive data and tightly control access.</p>
-        <h3>3. Supply chain vulnerabilities: Exploitation of vendor relationships</h3>
-        <p>Rather than attempting to directly hit their prime targets, ransomware groups are increasingly targeting software vendors and supply chain partners. By exploiting zero-day vulnerabilities in trusted applications, attackers gain stealthy access to downstream organizations and a route into their target victims’ networks.</p>
-        <p>The MOVEit Transfer campaign by the CLOP group is a prime example, mirroring earlier incidents like SolarWinds. These attacks bypass traditional defenses and scale rapidly, often going undetected until after ransomware has been deployed.</p>
-        <p>Defensive tip: Strengthen supply chain risk management through informed, up-to-date cyber threat intelligence. Build knowledge to track third-party dependencies, validate update integrity, and require vendors to demonstrate secure development practices.</p>
-        <h2>4. Decentralized threats: The risk of independent ransomware operators</h2>
-        <p>While Ransomware-as-a-Service (RaaS) remains prevalent, a growing number of attackers are operating independently or in small groups. These lone wolves repurpose leaked ransomware builders from groups like LockBit, Chaos, and Conti, avoiding the visibility that comes with large-scale operations.</p>
-        <p>This decentralization makes it harder for defenders to anticipate attacks based on known group behaviors. Even after law enforcement disrupts a RaaS group, its tools can live on through lone wolves.</p>
-        <p>Defensive tip: Continue to monitor for code, tools, and techniques from defunct or low-risk RaaS groups. Cyber threat intelligence must extend beyond active actors to include legacy risks.</p>
-        <p>Intelligence as a strategic enabler to stay ahead</p>
-        <p>To counter evolving ransomware threats, organizations must adopt a multi-layered cyber threat intelligence program. This includes:</p>
-        <ul>
-          <li>Threat hunting to detect early signs of intrusion</li>
-          <li>Data loss prevention to protect sensitive assets before destruction</li>
-          <li>Vulnerability management to rapidly assess and patch exploitable flaws</li>
-          <li>Employee training informed by real-world attack simulations</li>
-        </ul>
-        <p>Ultimately, ransomware resilience requires integrating cybersecurity into governance, vendor management, and regulatory readiness. Cyber threat intelligence isn’t just a technical tool; it’s a strategic enabler.</p>
-        <p>Want to learn more about staying ahead in the fast-changing threat landscape? Subscribe to Cyber Daily<sup>TM</sup> for free to get the latest threat insights delivered to your inbox.</p>
-      ]]></content:encoded>
-            <category>Blog</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_101a6ec9de3ff8fbf849f0435561a90e840d76a7a.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
         <item>
             <title><![CDATA[Tracking Candiru’s DevilsTongue Spyware in Multiple Countries]]></title>
@@ -8389,6 +8350,107 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Blog</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_14fcb249bcb15799bd4500bd63d1b0e3b53e78eb2.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
+        <item>
+            <title><![CDATA[Working in Singapore at the World’s Largest Intelligence Company]]></title>
+            <link>https://www.recordedfuture.com/blog/working-in-singapore</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/blog/working-in-singapore</guid>
+            <pubDate>Wed, 21 Jan 1970 02:49:55 GMT</pubDate>
+            <description><![CDATA[Discover the vibrant culture at Recorded Future's Singapore office. Learn about our growth, team dynamics, and exciting work environment.]]></description>
+            <content:encoded><![CDATA[
+        <p>Did you know? Recorded Future operates out of seven offices worldwide. Besides our US locations, we have offices in London, Gothenburg, Dubai, Tokyo, and Singapore. With over 42 nationalities and at least as many spoken languages, we embrace diverse cultures and backgrounds and love to learn from each other. Today, we focus on our Singapore team.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="singapore-01.jpg" src="https://www.recordedfuture.com/media_1e61119fdface42ed021e0a289d03d12d2fc6d9b9.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="1080" height="810" />
+            </div>
+          </div>
+          <div>
+            <div><em>Singapore futurists on #lemonadeday</em></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>“Working in the Singapore office is fantastic. Futurists are friendly, helpful, and you can always hear laughter across the room.”</div>
+          </div>
+          <div>
+            <div>Team Lead, Intelligence Services</div>
+          </div>
+        </div>
+        <h3>Location</h3>
+        <p>Our Singapore office is a primary location for Southeast Asia and Taiwan. It supports clients across over 10 countries and is the second most significant region in APJ. Our office space is in the heart of Singapore at Funan Mall, facing the high court and parliament. It is near many fantastic activities, delicious grab-and-go food options, and some of the best restaurants in the country, with convenient access to a nearby train station connecting you to the entire city.</p>
+        <div>
+          <div>
+            <div>“The Singapore office location has changed over the years. With each move, the preeminent issue is always ‘Are there good food options nearby?’ Because it’s Singapore, the answer is always ‘yes’. Exactly where and what kinds of options need to be mapped and analyzed at length before anyone can feel at home.”</div>
+          </div>
+          <div>
+            <div>Technical Lead, Threat Data and Enablement, Insikt Group®</div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="singapore-02.jpg" src="https://www.recordedfuture.com/media_166d7f38fc48bec370281a64a54479adb13ae752f.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="807" height="1080" />
+            </div>
+          </div>
+          <div>
+            <div><em>Marty &amp; Futurists try Singapore delicacies</em></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="singapore-03.png" src="https://www.recordedfuture.com/media_10a21d7287f1739a336f6ca01491db895ba0886ef.png?width=750&amp;format=png&amp;optimize=medium" width="810" height="1080" />
+            </div>
+          </div>
+          <div>
+            <div><em>LoHei or Prosperity Toss for Lunar New Year</em></div>
+          </div>
+        </div>
+        <h3>Looking back</h3>
+        <p>Recorded Future’s first office was in Garden City in the Central Business District at Asia Square. Since then, the team has grown significantly in size, scale, and reputation. Our expanding regional presence has led to a new office move, from the vibrant and historic area near Lau Pa Sat to Funan’s modern and exciting office towers.</p>
+        <div>
+          <div>
+            <div>“When I arrived in Singapore, we had recently established what I’d consider our first ‘real’ office in APJ. It was in the heart of the central business district. We had just hired our first Account Executive and Business Development Representative in Singapore, and it felt like we had a full team at that point. Before that, the only persistent Recorded Future presence in Singapore was by our first Sales Engineer. He was our true and dedicated expeditionary force in the region.”</div>
+          </div>
+          <div>
+            <div>Technical Lead, Threat Data and Enablement, Insikt Group®</div>
+          </div>
+        </div>
+        <h3>Onwards &amp; Upwards</h3>
+        <p>For some time, the Singapore office was our sole physical presence in Asia. The team supported clients in 12 countries across 6 different time zones. The Singapore team now has over 30 employees. It spans various departments like sales, field marketing, professional services, and threat research.</p>
+        <p>“The APJ team punches so far above their weight, it’s remarkable. With resilience and capability the Singapore team has achieved remarkable success and demonstrates consistent collaboration with our partners in EMEA and NA.” shares APJ’s former Intelligence Services Director.</p>
+        <div>
+          <div>
+            <div>“We get the job done and we have fun. Hence, there is constant collaboration and camaraderie across the entire eco-system.”</div>
+          </div>
+          <div>
+            <div>Senior Manager, APJ Product Support</div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="singapore-04.jpg" src="https://www.recordedfuture.com/media_1ff08e5a0431af6fe76129331532ebf0060293b2c.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="1080" height="810" />
+            </div>
+          </div>
+          <div>
+            <div><em>Singapore futurists at their 2024 summer party go karting friendly competition</em></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>“Recorded Future is a place of builders and innovators, with the common aim of helping customers effectively in their own creative ways.”</div>
+          </div>
+          <div>
+            <div>Team Lead, Intelligence Services</div>
+          </div>
+        </div>
+        <p>Does this resonate with you? Interested in joining our team or are you just curious to learn more? Explore what it’s like <a href="/careers/working-at-recorded-future">working with us</a>.</p>
+        <p>Follow us on <a href="https://www.linkedin.com/company/recorded-future/">LinkedIn</a> for all the latest updates.</p>
+      ]]></content:encoded>
+            <category>Blog</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_1e26ca36e126e1189f8d604d800a3ba27b3a99550.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>
