@@ -4,7 +4,7 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Wed, 27 Aug 2025 14:00:32 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Aug 2025 15:02:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
@@ -996,6 +996,180 @@ Sincerely,
       ]]></content:encoded>
             <category>Research (Insikt)</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_166e7a5b72f3139807857b88fecc363f8bc7137a0.gif?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
+        <item>
+            <title><![CDATA[How Threat Actors Are Rizzing Up Your AI for Profit]]></title>
+            <link>https://www.recordedfuture.com/blog/how-threat-actors-are-rizzing-up-your-ai-for-profit</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/blog/how-threat-actors-are-rizzing-up-your-ai-for-profit</guid>
+            <pubDate>Wed, 21 Jan 1970 07:49:26 GMT</pubDate>
+            <description><![CDATA[Cybercriminals are hijacking generative AI using SEO-poisoned content and advanced Traffic Distribution Systems (TDS). Discover how LLMs are being weaponized for malware, slopsquatting, and prompt injection—and what defenders must do now.]]></description>
+            <content:encoded><![CDATA[
+        <h2>Your LLM Failed the Vibe Check. Here's Why.</h2>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_14425fa0c6789e1a6459df2ea10bc47008c662583.png?width=750&amp;format=png&amp;optimize=medium" width="1536" height="1024" />
+            </div>
+          </div>
+          <div>
+            <div><em>ChatGPT referrer link - AI render</em></div>
+          </div>
+        </div>
+        <h2>Introduction</h2>
+        <p>AI is reordering <a href="https://searchengineland.com/google-search-traffic-decline-inevitable-455345">search dominance</a>. Conventional wisdom says Google’s traditional <a href="https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results">search engine</a> is headed for the dustbin, something largely unimaginable even a few years ago. As people (and agents) migrate search habits from Google to <a href="https://bestarion.com/top-large-language-models-llms/">LLMs</a>, what happens to referrer monetization models? More importantly for enterprise defenders and risk managers, <strong>HOW</strong> will <a href="https://thehackernews.com/2025/02/crazy-evil-gang-targets-crypto-with.html">traffers</a> and malicious Traffic Distribution Systems (TDS) adapt?</p>
+        <p>Recorded Future’s Insikt Group recently reported on <a href="https://www.recordedfuture.com/research/tag-124-multi-layered-tds-infrastructure-extensive-user-basev">TAG-124</a>, which operates a TDS designed to redirect unsuspecting web browsers to malicious destinations for malware/ransomware installation, cryptocurrency theft, and more. <a href="https://www.recordedfuture.com/research/uncovering-mintsloader-with-recorded-future-malware-intelligence-hunting">SocGholish</a> malware, also known as FakeUpdates, employs TDS such as Parrot TDS and Keitaro TDS to filter and redirect unsuspecting users to malicious sites. Additional criminal TDS include Help TDS, Los Pollos TDS, and more. The TDS options and branding are important reminders that threat actors (TAs) have choices when investing in traffic demand generation, which leads to competition and incentivizes first-mover advantage toward LLMs in this malicious services niche.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_16f9c7e248b47a906b0164338fcb69b7805351e7a.png?width=750&amp;format=png&amp;optimize=medium" width="1251" height="441" />
+            </div>
+          </div>
+          <div>
+            <div><em>Help TDS AI-generated summary, courtesy of Recorded Future</em></div>
+          </div>
+        </div>
+        <p>Much has lately been made of LLM prompt injection possibilities, but why would cybercriminals invest in complex prompt injection when they can simply flood the web with poisoned content that LLMs eagerly consume and recommend? The migration from search engines to conversational AI doesn't require sophisticated new attacks; it rewards the same content manipulation strategies, amplified through AI's tendency to synthesize and propagate.</p>
+        <p>Classic Search Engine Optimization (SEO) poisoning already proved resilient at scale: <a href="https://go.recordedfuture.com/hubfs/reports/cta-2024-0513.pdf">SolarMarker</a> and peers used tiered infrastructure and content farms to meet victims at intent, then route them through filtering gates. The only real change now is the front door: from Search Engine Results Page (SERPs) to AI overviews and chat answers.</p>
+        <p>Simultaneously, <a href="https://arxiv.org/pdf/2311.09735">“Generative Engine Optimization” (GEO)</a> and early <a href="https://dl.acm.org/doi/10.1145/3637528.3671900https://dl.acm.org/doi/10.1145/3637528.3671900">LLM-optimization (LLMO) research</a> show that content presentation, citations, and entity structure measurably influence which sources appear in AI answers. That creates a new, gameable funnel that criminals can exploit.</p>
+        <p>Traffic distribution syndicates like TAG-124 already control vast networks of compromised and synthetic websites. These existing assets become exponentially more valuable when LLMs treat them as legitimate sources, transforming criminal infrastructure into AI-recommended destinations.</p>
+        <h2>From SERP Hijacks to Answer Hijacks</h2>
+        <p>The playbook shifts from ranking pages to <strong>being cited</strong> or <strong>embedded</strong> in answers a user trusts. <a href="https://www.theguardian.com/technology/2024/nov/03/the-chatbot-optimisation-game-can-we-trust-ai-web-searches">Studies and investigations</a> have already shown that AI search can prioritize superficially relevant sources, is vulnerable to hidden content, and can be induced to output attacker-preferred code or links. TDS operators excel at exploiting these seams.</p>
+        <p>Modern LLMs retrieve real-time information through web searches, processing results to formulate responses. This retrieval-augmented generation (RAG) creates a massive attack surface that TDS operators will exploit through volume and velocity.</p>
+        <p><a href="https://msrc.microsoft.com/blog/2025/07/how-microsoft-defends-against-indirect-prompt-injection-attacks/">Microsoft</a> and others have warned about <strong>indirect prompt injection</strong>—malicious instructions planted in web content that LLM-powered systems later ingest during browsing and tool use. A TDS that already fingerprints bots and visitors will happily add “LLM-aware” personalities to feed chatbots one thing and humans another.</p>
+        <p>The math favors TDS operators. OpenAI's GPT-4 web browsing processes approximately 10-20 sources per complex query. Controlling just 2-3 of those sources through SEO manipulation translates to 15-30% influence over the model's response. Current TDS operations already achieve similar ratios in traditional search results.</p>
+        <p>If generative engines reward crisp citations, entity markup, and quotable stats, then TDS crews will industrialize answer-optimized microsites designed to be pulled verbatim into AI responses. Expect schema.org-heavy pages, FAQ blocks, and quote-bait paragraphs engineered for GEO visibility. The objective <strong>isn’t rank</strong>; it is <strong>inclusion in the answer</strong> that becomes the user’s first click.</p>
+        <p>Generative engines are also a <strong>trust amplifier</strong>; users treat summarized answers as vetted, improving conversion on soft prompts like “download,” “join Discord,” or “install the helper.” That trust premium is exactly what TDS operators rent to malware payload crews.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_118f94168f8f11d23d1793b6f1defb5b1ca4505d6.png?width=750&amp;format=png&amp;optimize=medium" width="1536" height="1024" />
+            </div>
+          </div>
+          <div>
+            <div><em>GEO poisoning - AI render</em></div>
+          </div>
+        </div>
+        <p>Criminal syndicates will adapt existing infrastructure:</p>
+        <ul>
+          <li><strong>Domain aging farms</strong>: Establishing thousands of domains years in advance, building synthetic credibility</li>
+          <li><strong>Content velocity attacks</strong>: Publishing 50,000+ articles daily across compromised sites during high-value events</li>
+          <li><strong>LLM-aware cloaking and session filtering</strong>: TAG-124 already demonstrates layered control planes; adding LLM fingerprints to routing logic is trivial.</li>
+          <li><strong>Indirect prompt-injection as the new pre-lander</strong>: If AI systems can be steered via <a href="https://www.tomshardware.com/tech-industry/cyber-security/googles-ai-could-be-tricked-into-enabling-spam-revealing-a-users-location-and-leaking-private-correspondence-with-a-calendar-invite-promptware-targets-llm-interface-to-trigger-malicious-activity">embedded instructions in retrieved pages</a>, then “pre-landers” will carry hidden prompts that nudge assistants to recommend “diagnostic tools,” “browser extensions,” or “package installs.”</li>
+          <li><strong>Citation cartels</strong>: Host content on GitHub gists, Google Sites, or academic mirrors that instantly 302 or script-redirect through their controller once a human clicks the chatbot’s citation.</li>
+          <li><strong>Slopsquatting</strong>: Publish <a href="https://www.usenix.org/publications/loginonline/we-have-package-you-comprehensive-analysis-package-hallucinations-code">phantom packages</a> or brand-jack AI-adjacent names in PyPI and npm to deliver malware.</li>
+        </ul>
+        <p>The <a href="https://www.recordedfuture.com/research/outmaneuvering-rhysida-advanced-threat-intelligence-shields-critical-infrastructure-ransomware">Rhysida</a> and <a href="https://therecord.media/fbi-vigilance-interlock-ransomware">Interlock</a> ransomware groups currently pay $5,000-15,000 monthly for TDS services. That same budget, redirected toward LLM-focused content generation, could produce millions of poisoned articles annually.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1ad19a7eddea173982c63f8a607d10d12c2b022f3.png?width=750&amp;format=png&amp;optimize=medium" width="1521" height="376" />
+            </div>
+          </div>
+          <div>
+            <div><em>Slopsquatting definition courtesy of Recorded Future AI.</em></div>
+          </div>
+        </div>
+        <h2>Temporal Arbitrage and Zero-Day Content</h2>
+        <p>LLMs exhibit a critical vulnerability: a preference for recent information when answering time-sensitive queries. TDS operators will exploit this through coordinated content bursts.</p>
+        <p>Consider a typical enterprise scenario: A CFO asks their AI assistant about new tax regulations. The model searches for recent authoritative content, finding dozens of articles published within hours. Three of these articles, hosted on aged domains with legitimate-looking tax advisory branding, contain malicious links to "compliance software" or "regulatory guides."</p>
+        <p>The speed advantage is decisive. While legitimate publishers take days to analyze and write about new regulations, criminal operations deploy automated content within minutes. By the time authentic sources publish, the poisoned content has already been indexed, retrieved, and potentially recommended thousands of times.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_199c5b9ebc0b9a56f1675322ddd829bb67ba74d2a.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="1456" height="971" />
+            </div>
+          </div>
+          <div>
+            <div><em>Timeline showing content velocity gap between legitimate and malicious publishers - AI render</em></div>
+          </div>
+        </div>
+        <h2>The Synthetic Authority Pipeline</h2>
+        <p>Traditional SEO poisoning relied on keyword density and backlinks. LLM poisoning requires synthetic authority, which means content that appears expert-written and peer-validated.</p>
+        <p>TDS operators are building a three-tier infrastructure:</p>
+        <p><strong>Tier 1 - Foundation Sites</strong>: Compromised university pages, dormant corporate blogs, and abandoned government domains providing historical credibility.</p>
+        <p><strong>Tier 2 - Amplification Networks</strong>: Thousands of AI-generated sites cross-referencing Tier 1 content, creating artificial consensus.</p>
+        <p><strong>Tier 3 - Payload Delivery</strong>: Fresh domains serving malicious content, linked from Tier 2 sites as "additional resources" or "official downloads."</p>
+        <p>We're observing early indicators of this architecture. Security researchers identified 847 compromised .edu domains in Q3 2024 alone, many hosting content specifically crafted for LLM consumption — technical documentation, API guides, and software tutorials that models preferentially retrieve.</p>
+        <h2>The Recommendation Attack Surface</h2>
+        <p>LLMs don't just retrieve information; they synthesize and recommend. This transformation from passive search results to active suggestions multiplies the impact of poisoned content.</p>
+        <p>A traditional search engine presents ten blue links. Users evaluate each one, applying skepticism and judgment. An LLM presents a single, authoritative-sounding recommendation: "Based on current best practices, you should download the compliance toolkit from [malicious-site].com."</p>
+        <p>The psychological impact is profound. Users trust AI recommendations 73% more than search results, according to recent Stanford research. TDS operators will exploit this trust differential through:</p>
+        <ul>
+          <li><strong>Consensus manufacturing</strong>: Ensuring multiple poisoned sources agree on malicious recommendations</li>
+          <li><strong>Authority hijacking</strong>: Spoofing legitimate brand names with subtle variations (Microsoft-Toolkit[.]com vs MicrosoftToolkit[.]com)</li>
+          <li><strong>Context weaponization</strong>: Embedding malicious links within otherwise accurate and helpful information</li>
+        </ul>
+        <h2>Economic Indicators and Underground Markets</h2>
+        <p>The criminal economy is already adapting. Dark web marketplaces show:</p>
+        <ul>
+          <li><strong>LLM-optimized content services</strong>: $500 for 1,000 articles specifically crafted for AI retrieval</li>
+          <li><strong>Domain reputation packages</strong>: Aged domains with established content selling for 300% premium over traditional phishing domains</li>
+          <li><strong>AI visibility testing</strong>: Services validating whether content appears in major LLM responses</li>
+        </ul>
+        <p>TAG-124's infrastructure, currently valued at $50-75 million based on ransomware throughput, could triple in value as LLM adoption accelerates. The same compromised WordPress sites delivering malware through search results will deliver it through AI recommendations, except with higher conversion rates.</p>
+        <h2>Defensive Strategies for the Retrieval Era</h2>
+        <p>Organizations must assume LLMs will recommend malicious content. The defensive perimeter extends beyond corporate networks to include every AI interaction.</p>
+        <p>Essential controls:</p>
+        <ul>
+          <li><strong>Link provenance verification</strong>: Every LLM-recommended URL requires automated reputation checking before user access</li>
+          <li><strong>Temporal correlation analysis</strong>: Identifying suspicious content clusters published simultaneously across multiple domains</li>
+          <li><strong>Recommendation sandboxing</strong>: Isolating and analyzing all AI-suggested downloads in controlled environments</li>
+          <li><strong>Source transparency requirements</strong>: Configuring LLMs to always display retrieved sources, enabling manual verification</li>
+          <li><strong>Content velocity monitoring</strong>: Detecting abnormal publication patterns indicating coordinated poisoning campaigns</li>
+          <li><strong>URL reputation APIs</strong>: Real-time validation of every link through threat intelligence feeds</li>
+        </ul>
+        <pre><code>def validate_llm_links(response):
+    urls = extract_urls(response)
+    for url in urls:
+        domain_age = check_domain_age(url)
+        reputation = query_threat_intel(url)
+        if domain_age &lt; 180 or reputation &lt; 0.7:
+            flag_suspicious(url)
+    return filtered_response
+</code></pre>
+        <p><em>Code block: Example Python for LLM response filtering - AI render</em></p>
+        <h2>Regulatory and Liability Implications</h2>
+        <p>Current frameworks assume human judgment between search and action. When AI recommends malicious sites that compromise critical infrastructure, who bears responsibility?</p>
+        <p>Courts will likely apply product liability principles to LLM providers, but enforcement remains uncertain. Organizations cannot wait for regulatory clarity. Every AI implementation needs explicit policies addressing:</p>
+        <ul>
+          <li>Liability allocation for AI-recommended security compromises</li>
+          <li>Incident response procedures for LLM-mediated attacks</li>
+          <li>Audit requirements for AI decision-making systems</li>
+          <li>Insurance coverage for algorithmic negligence claims</li>
+        </ul>
+        <h2>The Inevitable Evolution</h2>
+        <p>LLM-first discovery doesn’t retire TDS; it supercharges it. The same orchestration that met victims at the top of a SERP will now meet them inside answers. The same economic forces driving TAG-124's current operations will push them toward LLM exploitation through the simplest viable path: content poisoning at massive scale.</p>
+        <p>Organizations deploying conversational AI without understanding this risk are essentially installing unfiltered pipes to the internet's most dangerous neighborhoods. The question isn't whether criminals will exploit LLM web retrieval because they're already doing it.</p>
+        <p>Resilient organizations use telemetry, validation, and controls that blunt the funnel, treating AI answers as another high-value referrer, not a trusted gatekeeper. Compliance won’t save you; instrumented telemetry and measured resilience are a good start.</p>
+        <h2>Recommended Mitigations</h2>
+        <ul>
+          <li><strong><a href="https://www.recordedfuture.com/products/threat-intelligence">Recorded Future Threat Intelligence</a>:</strong> Recorded Future customers can proactively mitigate threats by operationalizing data from the Intelligence Cloud. Leverage continuously updated Risk Lists to blocklist IP addresses associated with TAG-124 and other TDS thereby preventing internal communication with known malicious infrastructure.</li>
+          <li><strong>Recorded Future Hunting Packages:</strong> Recorded Future provides Sigma, YARA, and Snort rules that can be integrated into your SIEM or endpoint detection and response (EDR) tools. These rules detect the presence or execution of malware families linked to TAG-124, SocGholish and similar threats.</li>
+          <li><strong>Recorded Future Insikt Group Malicious Infrastructure Management Validation:</strong> Continuously monitor for new infrastructure used by TDS and related malware families.</li>
+        </ul>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_16b5ce0fe9ec5655cd55c5c6e5e253f66d413d496.png?width=750&amp;format=png&amp;optimize=medium" width="1096" height="1438" />
+            </div>
+          </div>
+          <div>
+            <div><em>Example Advanced Query to Monitor New IoCs for TDS Malware Validated by the Insikt Group</em></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_17e94eff01af719afa90a7c2c0e7794ff9bfcf3e8.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="791" />
+            </div>
+          </div>
+          <div>
+            <div><em>Intelligence Card® for an IP Address associated with both Parrot TDS and ClearFake</em></div>
+          </div>
+        </div>
+      ]]></content:encoded>
+            <category>Blog</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_1c481632e97cbe749b729a4047cc7d659d93e49bc.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
         <item>
             <title><![CDATA[New Report Sheds Light on the State of AI and Automation in Threat Intelligence]]></title>
@@ -8972,61 +9146,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Research (Insikt)</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_1627b7511e7356f5669866b07febcd6557443b4f0.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[The Convergence of Space and Cyber: Evolving Threats in the Space Race 2.0]]></title>
-            <link>https://www.recordedfuture.com/blog/convergence-space-cyber</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/blog/convergence-space-cyber</guid>
-            <pubDate>Wed, 21 Jan 1970 02:58:33 GMT</pubDate>
-            <description><![CDATA[Explore the critical role of cyberattacks in shaping the modern space race. Learn how nation-states and organizations must adapt their cybersecurity measures to protect global economies, military operations, and the future of space exploration.]]></description>
-            <content:encoded><![CDATA[
-        <h2>Key Takeaways - What every cybersecurity expert needs to know</h2>
-        <p>The Space Race 2.0 is well underway and accelerating rapidly. This white paper explores the key components shaping this modern space race and highlights how cyberattacks are already influencing its trajectory. Cyber operations will play a critical role in determining who dominates the second space race. As this new race accelerates, so too will the frequency and sophistication of cyberattacks targeting organisations operating in the space domain. Understanding how cyberattacks are reshaping this race is critical to protecting global economies, military operations, and the future of national security.</p>
-        <h2>What is currently happening?</h2>
-        <p>Nation-states are swiftly adapting their militaries to compete in space, a largely unregulated domain abundant with resources. History has shown that advanced nations often exploit new frontiers, and space is no exception. With its virtually limitless resources, space has become a critical battleground.</p>
-        <p>Earth’s orbit is already highly contested, hosting satellites essential to global economies and military operations. Many of these satellites have been victims of cyberattacks, a trend that is certain to intensify. However, the focus extends beyond Earth’s ground stations and orbit, where we see espionage, destructive attacks, supply chain compromise, and signal hijacking. Nation-states are now setting their sights on deeper space, and that is where our attention must also turn.</p>
-        <h2>What is going to happen?</h2>
-        <p>The initial stage of Space Race 2.0 centers on Earth’s orbit, but the Moon, asteroids, and planets hold vast resources with the potential to transform nation-states in ways we can only begin to imagine. Efforts are already underway to colonize the Moon, mine asteroids, and establish a presence on habitable worlds beyond Earth.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="Stages of the space race" src="https://www.recordedfuture.com/media_180046e79c23ef88ef93f3a6596779926de1fbf64.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="1600" height="520" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 1</em></strong><em>: Stages of the space race that are unfolding.</em></div>
-          </div>
-        </div>
-        <p>As these ambitions grow, so will efforts to outmaneuver rival nations. Cyber capabilities will play a critical role, as adversaries seek to steal information or disrupt operations. Ground stations, communication signals, and the supply chains supporting space assets are vulnerable to cyberattacks. As such, space-related organisations and companies must prioritize robust cybersecurity measures to protect their operations in this emerging domain. At an operational level, researchers are advancing frameworks like SPARTA to stay ahead of evolving tactics, techniques, and procedures</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="Space Attack Research &amp; Tactic Analysis" src="https://www.recordedfuture.com/media_1fd9219740a807076ec6ff06cd4aa63ea4b7e4a1a.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="730" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 2</em></strong><em>: Space Attack Research &amp; Tactic Analysis (SPARTA) from</em> <em><a href="https://sparta.aerospace.org/">https://sparta.aerospace.org/</a>.</em></div>
-          </div>
-        </div>
-        <p>At the strategic level, industry and government are convening more frequently at conferences like Defence Space 24 to address the growing cyber threats in the space domain.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="Defence Space 24" src="https://www.recordedfuture.com/media_15c55db403f40aa13f7f015459444eafe581b15b1.png?width=750&amp;format=png&amp;optimize=medium" width="800" height="561" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 3</em></strong><em>: Defence Space 24 was hosted in London at the end of September 2024. Government, military, and industry representatives attended the event.</em></div>
-          </div>
-        </div>
-        <p>At a nation-state level, militaries are increasingly integrating intelligence and cyber capabilities into their space operations, with U.S. Space Command serving as a prominent example.</p>
-        <p>Conclusion This white paper explores the intersection of space exploration and cybersecurity, delving into the challenges and opportunities shaping this evolving frontier. The stakes could not be higher: dominance in cyberspace directly translates to dominance in outer space, where control will determine humanity’s future trajectory beyond Earth. As such, the convergence of space and cyber is critical and demands our full attention.</p>
-        <p>The Convergence of Space and Cyber</p>
-        <p>Understand the evolving threat landscape</p>
-        <p><strong><a href="https://go.recordedfuture.com/white-paper/the-convergence-of-space-and-cyber">Download whitepaper</a></strong></p>
-      ]]></content:encoded>
-            <category>Blog</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_14fcb249bcb15799bd4500bd63d1b0e3b53e78eb2.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>

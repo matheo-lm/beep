@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 27 Aug 2025 10:03:08 EDT</pubDate>
+        <pubDate>Wed, 27 Aug 2025 10:58:59 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Why zero trust is never 'done' and is an ever-evolving process</title>
+        <link>https://www.bleepingcomputer.com/news/security/why-zero-trust-is-never-done-and-is-an-ever-evolving-process/</link>
+        <pubDate>Wed, 27 Aug 2025 10:15:25 -0400</pubDate>
+        <dc:creator>Sponsored by Specops Software</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/why-zero-trust-is-never-done-and-is-an-ever-evolving-process/</guid>
+	<description><![CDATA[Zero trust isn't a project you finish—it's a cycle that keeps evolving. From supply chain exploits to policy drift, resilience requires continuous testing and adaptation. Learn how Specops Software supports this journey with tools that make it easier. [...]]]></description>
+ </item>
+
  <item>
         <title>Healthcare Services Group data breach impacts 624,000 people</title>
         <link>https://www.bleepingcomputer.com/news/security/healthcare-services-group-data-breach-impacts-624-000-people/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/farmers-insurance-data-breach-impacts-11m-people-after-salesforce-attack/</guid>
 	<description><![CDATA[U.S. insurance giant Farmers Insurance has disclosed a data breach impacting 1.1 million customers, with BleepingComputer learning that the data was stolen in the widespread Salesforce attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Auchan retailer data breach impacts hundreds of thousands of customers</title>
-        <link>https://www.bleepingcomputer.com/news/security/auchan-retailer-data-breach-impacts-hundreds-of-thousands-of-customers/</link>
-        <pubDate>Mon, 25 Aug 2025 14:56:27 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/auchan-retailer-data-breach-impacts-hundreds-of-thousands-of-customers/</guid>
-	<description><![CDATA[French retailer Auchan is informing that some sensitive data associated with loyalty accounts of several hundred thousand of its customers was exposed in a cyberattack. [...]]]></description>
  </item>
 
 </channel>
