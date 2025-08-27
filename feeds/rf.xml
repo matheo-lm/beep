@@ -4,12 +4,689 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Wed, 27 Aug 2025 12:45:01 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Aug 2025 14:00:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
         <copyright>Copyright © 2025 Recorded Future, Inc.</copyright>
         <atom:link href="https://www.recordedfuture.com/feed" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[One Step Ahead: Stark Industries Solutions Preempts EU Sanctions]]></title>
+            <link>https://www.recordedfuture.com/research/one-step-ahead-stark-industries-solutions-preempts-eu-sanctions</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/research/one-step-ahead-stark-industries-solutions-preempts-eu-sanctions</guid>
+            <pubDate>Wed, 21 Jan 1970 07:50:52 GMT</pubDate>
+            <description><![CDATA[Before facing EU sanctions in May 2025, Stark Industries Solutions executed a strategic infrastructure overhaul to maintain operations. This report reveals how rebranding, RIPE resource manipulation, and cross-border obfuscation enabled the sanctioned web host to remain resilient — highlighting the persistent challenge of threat activity enablers.]]></description>
+            <content:encoded><![CDATA[
+      <div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1fc49964e13a22a562cd72708432c38c3e02e776d.gif?width=750&amp;format=gif&amp;optimize=medium" width="1600" height="600" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <h1>One Step Ahead: Stark Industries Solutions Preempts EU Sanctions</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div></div>
+      <div>
+        <h2>Executive Summary</h2>
+        <p>Prior to being designated for sanctions by the European Union on May 20, 2025, UK-registered web-hosting provider Stark Industries Solutions Ltd executed a series of infrastructure and organizational changes. Insikt Group assesses this activity to be a strategic effort to preempt impending sanctions and preserve operational continuity. Changes included the registration of a new entity in RIPE, PQ Hosting Plus S.R.L., and, as early as April 10, 2025, the migration of Russian infrastructure to UFO Hosting LLC. Notably, on May 8, 2025, twelve days prior to the sanctions, Moldovan and EU media reported on the forthcoming inclusion of the Neculiti brothers in the next EU sanctions package, citing leaked documentation.<br /><br />Following the sanctions, Insikt Group observed the rebranding of Stark Industries operations to “THE.Hosting”, under the control of Dutch entity “WorkTitans B.V.”, and the creation of a new autonomous system, AS209847 (THE), on June 24, 2025. Although the majority of associated infrastructure remains attributable to Stark Industries, these changes likely reflect an attempt to obfuscate ownership and sustain hosting services under new legal and network entities. Insikt Group assesses that the EU’s sanctioning of Stark Industries was largely ineffective, as affiliated infrastructure remained operational and services were rapidly re-established under new branding, with no significant or lasting disruption.<br /><br />This outcome highlights how threat activity enablers (TAEs) — entities that enable malicious cyber activity by providing infrastructure or services leveraged by threat actors — that retain such significant control over RIPE resources, such as Local Internet Registries (LIRs), Autonomous Systems (ASes), and IP prefixes, are particularly well-positioned to rebrand, reallocate infrastructure, and maintain operational continuity in the absence of meaningful intervention by RIPE NCC. More broadly, the case demonstrates the structural resilience of modern TAEs and underscores the need not only for sustained monitoring by network defenders but also for coordinated, cross-border collaboration among policymakers and law enforcement. Regional sanctions alone are insufficient; meaningfully disrupting TAEs operating at the scale of Stark Industries requires a comprehensive, multilateral approach.</p>
+        <h2>Key Findings</h2>
+        <ul>
+          <li>Stark Industries, along with its CEO and owner, was formally sanctioned by the Council of the European Union on May 20, 2025, for enabling Russian state-sponsored cyber operations, including information manipulation, infrastructure for cyberattacks, and other destabilizing hybrid threats against the EU and its partners.</li>
+          <li>Stark Industries preempted its EU designation through a series of calculated infrastructure and organizational changes, including the registration of new RIPE entities and the early migration of Russian infrastructure to UFO Hosting LLC.</li>
+          <li>On May 29, 2025, nine days after the EU designation, PQ.Hosting publicly rebranded to THE.Hosting, transferring assets and infrastructure to the Dutch-registered entity WorkTitans B.V. RIPE records show IP prefix and ASN transfers aligning with the rebrand, while website updates briefly referenced WorkTitans as the legal entity.</li>
+          <li>All transitional entities, PQ Hosting Plus S.R.L., UFO Hosting LLC, and WorkTitans B.V., share RIPE maintainer objects linked to the email address jama**[@]gmail[.]com, which Insikt Group attributes to Dmitrii Miasnikov, a known Russian network operator. These maintainer objects were responsible for all associated RIPE organizations.</li>
+          <li>Stark Industries’ pre- and post-sanctions activities reflect a deliberate, multi-phase restructuring designed to minimize the impact of EU designations while sustaining its role as a threat activity enabler (TAE). Despite sanctions, the entity successfully maintained infrastructure availability and operational continuity under alternative legal and network identities.</li>
+        </ul>
+        <h2>The Enduring Challenge of Threat Activity Enablers</h2>
+        <p>The global cybersecurity landscape is increasingly shaped by the proliferation of threat activity enablers (TAEs), which are entities that enable malicious cyber activity by providing infrastructure or services leveraged by threat actors. Some such entities can present as lawful businesses, relying on legal or technical obfuscation to avoid accountability while tolerating varying degrees of malicious activity.</p>
+        <p>This nuanced descriptor encompasses a broad spectrum of modern enabling services, such as hosting providers who selectively respond to abuse reports or law enforcement requests to maintain plausible deniability, to more traditional bulletproof hosting providers that ignore all oversight.<br /><br />TAEs that provide hosting services pose significant and enduring challenges for several reasons:</p>
+        <ul>
+          <li><strong>Obfuscation and Evasion:</strong> TAEs routinely navigate legal loopholes and use complex corporate structures, shell companies, and distributed infrastructure across multiple jurisdictions to obscure their true ownership and the nature of their services. This makes identification, attribution, and legal action exceedingly difficult for law enforcement and cybersecurity researchers.</li>
+          <li><strong>RIPE Resource Abuse:</strong> Many TAEs maintain strategic control over RIPE (Réseaux IP Européens) resources, including IP ranges, Autonomous Systems (ASs), and associated registration objects, enabling them to manipulate and redistribute network resources at will. This infrastructure control allows TAEs to rapidly rebrand, spin up new entities, and distribute fresh subnets and ASNs, often to evade sanctions or scrutiny.</li>
+          <li><strong>Enabling Diverse Threat Actors:</strong> By providing services such as web hosting, Virtual Private Servers (VPS), Virtual Private Networking (VPN) services, and proxy networks, TAEs can become critical enablers for a wide array of cyber threats. This includes ransomware operators, infostealer campaigns, botnets, state-aligned threat actors, hacktivists, and influence operations. Their services allow threat actors to maintain anonymity, launch attacks, and host malicious content with varying degrees of resiliency against takedown efforts.</li>
+        </ul>
+        <p>Insikt Group has tracked and reported on long-established and emerging TAEs, leveraging Recorded Future’s Network Intelligence to assess the concentration of malicious activity relative to the total size of IP space under an ASN’s control. This highlights operators whose infrastructure is disproportionately associated with threat activity.</p>
+        <h2>Background</h2>
+        <p>Stark Industries Solutions, a web-hosting provider that has recently drawn international attention due to recent sanctions, has roots deeply embedded in the hosting industry. It has evolved from the individual ventures of its founders to a sophisticated global network.</p>
+        <p>Stark Industries was officially incorporated in the United Kingdom on February 10, 2022, notably just two weeks prior to Russia's full-scale invasion of Ukraine. The company primarily offers web-hosting services, including VPSs, <a href="https://krebsonsecurity.com/2024/05/stark-industries-solutions-an-iron-hammer-in-the-cloud/#:~:text=74%20VPN%20services%2C%20and%2040%20different%20proxy%20services">numerous</a> proxy services, and VPNs. It was founded by brothers Iurie Neculiti and Ivan Neculiti, whose involvement in illicit hosting dates back over a decade, as Ivan’s previous web-hosting service, Morenehost, <a href="https://correctiv.org/faktencheck/russland-ukraine/2024/05/16/hacks-und-propaganda-zwei-brueder-aus-moldau-tragen-russlands-digitalen-krieg-nach-europa/#:~:text=web%20hosting%20service%2C-,Morenehost,-%2C%20writes%20the%20IT">gained</a> notoriety for enabling cyber threats (his ownership was <a href="https://offshoreleaks.icij.org/nodes/240120865">revealed</a> through the <a href="https://www.icij.org/investigations/pandora-papers/investigators-worldwide-continue-to-open-pandoras-box-to-pursue-criminals-identified-in-pandora-papers-two-years-after-icijs-landmark-investigation/?gad_source=1&amp;gad_campaignid=20646016706&amp;gbraid=0AAAAACpCrOhNxDH5TPUfl3QeXD6K9oMkx&amp;gclid=CjwKCAjwy7HEBhBJEiwA5hQNogimdOqwA8iVIixypjK9dFRqwY4lcbTdisV-hgfzhyhFGH7A3DxfRBoCFuYQAvD_BwE">Pandora Papers</a> data leak).</p>
+        <p>Stark Industries Solutions functioned mainly as a pass-through company designed to obscure the true nature of its operations. In effect, transactions with Stark Industries were transactions with PQ.Hosting, though this was not immediately apparent to external parties. Ivan Neculiti <a href="https://krebsonsecurity.com/2024/05/stark-industries-solutions-an-iron-hammer-in-the-cloud/#:~:text=Reached%20via%20LinkedIn%2C-,Mr.%20Neculiti%20said,-PQ%20Hosting%20established">characterized</a> Stark Industries as a "white label" brand, enabling resellers to distribute PQ.Hosting's services without direct customer interaction. The Neculiti brothers strategically established companies in Moldova, Russia, and Great Britain, creating a complex corporate structure engineered for obfuscation.</p>
+        <p>Following the onset of the war in Ukraine, Stark Industries rapidly became a central platform for significant distributed denial-of-service (DDoS) attacks conducted by hacktivist group NoName057(16). Furthermore, Stark Industries' infrastructure was <a href="https://krebsonsecurity.com/2024/07/the-stark-truth-behind-the-resurgence-of-russias-fin7/">highlighted</a> in early 2024 as central to the resurgence of the financially motivated threat actor FIN7. As late as mid-2025, Insikt Group has continued to observe GrayAlpha, a threat cluster with significant overlap with FIN7, rely on Stark Industries' infrastructure.</p>
+        <p>On May 20, 2025, the EU sanctioned Stark Industries Solutions Ltd, along with its CEO, Iurie Neculiti, and owner, Ivan Neculiti, for enabling Russian state-sponsored cyber operations, including information manipulation, cyberattacks, and other destabilizing hybrid activities targeting the EU and its partners. Insikt Group tracks Stark Industries Solutions Ltd (referenced hereafter as Stark Industries) and its parent company, PQ.Hosting, as threat activity enablers (TAEs) that enable a multitude of state-sponsored cyber operations linked to Russia, Iran, North Korea, and China, as well as cybercriminal groups.</p>
+        <h2>Threat Analysis</h2>
+        <h3>EU Sanctions Stark Industries</h3>
+        <p>On May 20, 2025, the Council of the European Union <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202500966#:~:text=9.-,Stark%20Industries%20Solutions%20Ltd.,-Date%20of%20registration">sanctioned</a> internet service provider (ISP) Stark Industries, along with its CEO, Iurie Neculiti, and owner, Ivan Neculiti. Insikt Group tracks Stark Industries and its parent organization, PQ.Hosting, as TAEs, enabling a multitude of state-sponsored cyber operations linked to Russia, Iran, North Korea, and China, as well as cybercriminal groups. Insikt Group notes that although PQ.Hosting was referenced within the sanctions multiple times alongside Stark Industries, the company itself was not sanctioned. Details of the sanctioned company and individuals are outlined in <strong>Tables 1</strong> and <strong>2</strong>.</p>
+        <div>
+          <div>
+            <div><strong>Company</strong></div>
+            <div><strong>Registration Number</strong></div>
+            <div><strong>Address</strong></div>
+            <div><strong>Websites</strong></div>
+          </div>
+          <div>
+            <div>Stark Industries Solutions Ltd.</div>
+            <div><a href="https://find-and-update.company-information.service.gov.uk/company/13906017">13906017</a></div>
+            <div>71-75 Shelton Street, Covent Garden, London, UK</div>
+            <div>pq[.]hosting<br /><br />stark-industries[.]solutions</div>
+          </div>
+        </div>
+        <p><strong>Table 1:</strong> Stark Industries Solutions sanctions details (Source: <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202500966">EU Council)</a></p>
+        <div>
+          <div>
+            <div><strong>Name</strong></div>
+            <div><strong>Function</strong></div>
+            <div><strong>Nationality</strong></div>
+            <div><strong>Address</strong></div>
+            <div><strong>Place of Birth</strong></div>
+          </div>
+          <div>
+            <div>Iurie Neculiti</div>
+            <div>CEO of Stark Industries</div>
+            <div>Moldovan</div>
+            <div>71-75 Shelton Street, Covent Garden, London, United Kingdom</div>
+            <div>Bender, Republic of Moldova</div>
+          </div>
+          <div>
+            <div>Chisinau, Republic of Moldova</div>
+          </div>
+          <div>
+            <div>Ivan Neculiti</div>
+            <div>Owner of Stark Industries</div>
+            <div>Moldovan</div>
+            <div>71-75 Shelton Street, Covent Garden, London, United Kingdom</div>
+            <div>Bender, Republic of Moldova</div>
+          </div>
+          <div>
+            <div>Chisinau, Republic of Moldova</div>
+          </div>
+        </div>
+        <p><strong>Table 2:</strong> CEO and owner of Stark Industries Solutions sanctions details (Source: <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202500966">EU Council</a>)</p>
+        <p>The EU attributed Stark Industries' infrastructure to enabling various Russian state-sponsored and affiliated threat actors to conduct destabilizing activities, including information manipulation, interference, and cyberattacks against the European Union and third countries. Furthermore, Insikt Group's 2024 Malicious Infrastructure Report highlighted Stark Industries' infrastructure as one of the top services enabling global cyber threats (see <strong>Figure 1</strong>). To view malware samples that exhibit network connections to Stark Industries' infrastructure, queries are available in <strong>Appendix A</strong> for Recorded Future’s Malware Intelligence module.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_162ef12f26915877d5168e0d83fc8c645205bf84f.png?width=750&amp;format=png&amp;optimize=medium" width="727" height="480" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 1:</strong> Top fifteen validated malware families on Stark Industries ASNs in 2024 (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <h3>Timeline of Events</h3>
+        <p>The following timeline is based on Insikt Group’s analysis conducted between May 16, 2025, and June 24, 2025. It outlines key events surrounding the EU’s sanctioning of Stark Industries, including pre-sanctions reporting, early infrastructure shifts, and post-designation rebranding.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_136967601c2bae2eeb28544ffa3c022e21a68b764.png?width=750&amp;format=png&amp;optimize=medium" width="1363" height="726" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 2:</strong> Timeline of events observed by Insikt Group (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>The sequence of events indicates that Stark Industries and its affiliated entities likely anticipated forthcoming EU sanctions, potentially as early as April 2025. Public reporting in Moldovan and EU media beginning in early May is highly likely to have triggered further operational shifts, including the creation of new corporate structures and early-stage infrastructure migration. These actions, occurring days before the official designation, suggest a deliberate attempt to mitigate the impact of sanctions and preserve the continuity of hosting services under alternative branding and network ownership.</p>
+        <h3>Pre-Sanctions</h3>
+        <h4>Exposure in Moldovan and EU Press</h4>
+        <p>On May 8, 2025, the Moldovan arm of Radio Free Europe/Radio Liberty (RFE/RL) revealed that two Moldovan nationals, Ivan and Iurie Neculiti, founders of Stark Industries, were slated for inclusion in the EU’s next sanctions package targeting individuals involved in Russia’s hybrid warfare campaign. The article <a href="https://moldova.europalibera.org/a/ue-pregateste-sanctiuni-contra-a-doi-frati-de-la-bender-acuzati-ca-lupta-in-razboiul-hibrid-al-rusiei-impotriva-europei/33407343.html?fbclid=IwY2xjawKJZzFleHRuA2FlbQIxMABicmlkETFSS0I2dnFUUElhTjl1NW1XAR4Ru2puwD02sRMxGgT5cHxXcz6hVX-eckshjDUc0TC3Pi7qaPM9hNCesKTpxw_aem_Xk_9FkdSFATFB8dIUu1Uow">cited</a> direct access to a leaked EU document listing proposed designations, which accused the Neculiti brothers of enabling Russian state-sponsored destabilizing activities against the EU and its partners through their web-hosting company. A follow-up <a href="https://www.rferl.org/a/eu-russia-sanctions-package-ukraine-hungary-/33409397.html">article</a> released by RFE/RL’s central newsroom on May 9, 2025, further confirmed the proposed sanctions and framed them within the broader sanctions package under consideration by the European Commission.</p>
+        <h4>Infrastructure Updates</h4>
+        <p>On May 16, 2025, Insikt Group observed that the Autonomous System Number (ASN) AS44477, previously registered to Stark Industries, had been transferred to a newly created RIPE organization in the name of its parent company, PQ Hosting Plus S.R.L., under RIPE identifier <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=organisation&amp;key=ORG-PHPS1-RIPE">ORG-PHPS1-RIPE</a>. This organization object was created just three days prior, on May 13, 2025, following RFE/RL’s reporting of the upcoming EU sanctions package (see <strong>Figure 3</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <p>organisation: ORG-PHPS1-RIPE</p>
+              <p>org-name: PQ HOSTING PLUS S.R.L.</p>
+              <p>country: MD</p>
+              <p>org-type: LIR</p>
+              <p>address: str. Spartacus 23</p>
+              <p>address: MD2024</p>
+              <p>address: Chisinau</p>
+              <p>address: MOLDOVA, REPUBLIC OF</p>
+              <p>phone: +37369933122</p>
+              <p>e-mail: lir[@]pq[.]hosting</p>
+              <p>remarks:<br />remarks: ***************************************************</p>
+              <p>remarks: * For spam/abuse/security issues please contact *</p>
+              <p>remarks: * abuse[@]pq[.]hosting *</p>
+              <p>remarks: * The contents of your abuse email will be *</p>
+              <p>remarks: * forwarded directly on to our client for *</p>
+              <p>remarks: * handling. *</p>
+              <p>remarks: ***************************************************</p>
+              <p>remarks:<br />remarks: ***************************************************</p>
+              <p>remarks: * Any questions on Peering/Routing please send to *</p>
+              <p>remarks: * noc[@]pq[.]hosting *</p>
+              <p>remarks: ***************************************************</p>
+              <p>remarks:<br />remarks: ***************************************************</p>
+              <p>remarks: * Any police request please send to *</p>
+              <p>remarks: * police[@]pq[.]hosting *</p>
+              <p>remarks: ***************************************************</p>
+              <p>remarks:<br />admin-c: PQHS</p>
+              <p>tech-c: PQHS</p>
+              <p>abuse-c: PQHS371</p>
+              <p>mnt-by: RIPE-NCC-HM-MNT</p>
+              <p>mnt-by: PQHS-MNT</p>
+              <p>created: 2025-05-13T11:20:28Z</p>
+              <p>last-modified: 2025-05-21T23:14:18Z</p>
+              <p>source: RIPE</p>
+              <p>mnt-ref: PQHS-MNT</p>
+              <p>mnt-ref: MEREZHA-MNT</p>
+              <p>mnt-ref: IP-RIPE</p>
+            </div>
+          </div>
+        </div>
+        <p><strong>Figure 3:</strong> RIPE organization record ORG-PHPS1-RIPE (Source: <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=organisation&amp;key=ORG-PHPS1-RIPE">RIPE DB</a>)</p>
+        <p>Subsequent analysis initially linked the new organization to UFO Hosting LLC, a Russia-based internet service provider (ISP), via a shared email address, jama**[@]gmail[.]com, contained within the organization's new RIPE maintainer object, <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=ripe&amp;key=PQHS-MNT&amp;type=mntner">PQHS-MNT</a>. However, upon analyzing <a href="https://bgp.tools/as/33993#prefixes">announcements</a> from UFO Hosting’s ASN, AS33993 (<a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=aut-num&amp;key=AS33993">UFO-AS</a>), it became apparent that Stark Industries was seemingly leveraging the provider to announce its Russian IP prefixes (see <strong>Figure 4</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_18269253143485d77d45f74bb0312754c573529ed.png?width=750&amp;format=png&amp;optimize=medium" width="1105" height="723" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 4:</strong> Pre-sanction infrastructure changes as of May 19, 2025 (Source: Recorded Future / <a href="https://apps.db.ripe.net/db-web-ui/query">RIPE DB</a>)</div>
+          </div>
+        </div>
+        <h4>UFO Hosting</h4>
+        <p>UFO Hosting is a Russia-based ISP that was first registered with RIPE on March 13, 2025, under the RIPE identifier <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=organisation&amp;key=ORG-UHL6-RIPE">ORG-UHL6-RIPE</a>. Russian company registration <a href="https://www.rusprofile.ru/person/savushkin-myu-504811063838">documents</a> list Savushkin Mikhail Yuryevich as the owner and the registration date as February 18, 2025.</p>
+        <p>The company offers VPS/VDS and dedicated server hosting via its website ufo[.]hosting. The website’s user agreement section suggests the company is officially registered under the name YuFO Hosting (ЮФО Хостинг) in Moscow (see <strong>Figure 5</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_10d940fafe377826a3fce6706a2e66670fcd90259.png?width=750&amp;format=png&amp;optimize=medium" width="711" height="664" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 5:</strong> UFO Hosting website user agreement page (Source: ufo[.]hosting)</div>
+          </div>
+        </div>
+        <p><br />As of May 16, 2025, AS33993 (UFO-AS) announced 21 IP prefixes (see <strong>Appendix B</strong>). Insikt Group identified that all prefixes directly assigned to UFO Hosting’s RIPE organization (<a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=organisation&amp;key=ORG-UHL6-RIPE">ORG-UHL6-RIPE</a>) were transferred from Stark Industries. Most of these transfers occurred on April 13, 2025 (see <strong>Figure 6</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1d1ce5d0d933f817725410aa180d4822ef9e17da5.png?width=750&amp;format=png&amp;optimize=medium" width="1532" height="1382" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 6:</strong> Example of IP prefix transfer from Stark Industries to UFO Hosting (Source: Recorded Future / <a href="https://stat.ripe.net/resource/185.234.59.0/24#tab=database">RIPEstat</a>)</div>
+          </div>
+        </div>
+        <p>Insikt Group also identified several domains associated with Stark Industries and PQ.Hosting infrastructure resolving indirectly to IP addresses announced and controlled by UFO Hosting, further signaling an operational migration. While public DNS resolution showed these domains resolving to StormWall s.r.o DDoS protection endpoints, reverse DNS analysis of the underlying IP space revealed matching domain references on IP addresses transferred from Stark Industries (see <strong>Table 3</strong>).</p>
+        <div>
+          <div>
+            <div><strong>domain</strong></div>
+            <div><strong>IP</strong></div>
+            <div><strong>ASN</strong></div>
+            <div><strong>ISP</strong></div>
+          </div>
+          <div>
+            <div>bill-migration-db[.]stark-industries[.]solutions</div>
+            <div>45[.]121[.]14[.]142</div>
+            <div>AS33993</div>
+            <div>UFO Hosting LLC</div>
+          </div>
+          <div>
+            <div>pq-ru[.]digitalvpn[.]org</div>
+            <div>45[.]144[.]31[.]195</div>
+            <div>AS33993</div>
+            <div>UFO Hosting LLC</div>
+          </div>
+          <div>
+            <div>pq[.]company</div>
+            <div>45[.]67[.]230[.]222</div>
+            <div>AS33993</div>
+            <div>UFO Hosting LLC</div>
+          </div>
+          <div>
+            <div>registry[.]pq[.]hosting</div>
+            <div>45[.]67[.]230[.]171</div>
+            <div>AS33993</div>
+            <div>UFO Hosting LLC</div>
+          </div>
+          <div>
+            <div>russia[.]stark-industries[.]solutions</div>
+            <div>94[.]131[.]113[.]248</div>
+            <div>AS33993</div>
+            <div>UFO Hosting LLC</div>
+          </div>
+        </div>
+        <p><strong>Table 3:</strong> Stark Industries and PQ.Hosting domains resolving to UFO Hosting IP addresses (Source: Recorded Future)</p>
+        <p>Insikt Group assesses with high confidence that UFO Hosting was established or repurposed as a vehicle for Russia-based infrastructure and clientele, providing a sanctions-resilient platform that enabled Stark Industries to discreetly migrate assets and maintain operational continuity ahead of EU enforcement.</p>
+        <h3>Post-Sanctions</h3>
+        <h4>Rebrand to THE.Hosting</h4>
+        <p>On May 29, 2025, nine days after the EU formally sanctioned Stark Industries, its parent company, PQ.Hosting, announced a full rebranding and legal transition to a newly created entity, THE.Hosting. In a public statement, PQ.Hosting declared that the company had ceased to exist “as a legal entity and operational structure,” and that all assets, infrastructure, and services had been transferred to THE.Hosting, which would henceforth operate under new ownership and management (see <strong>Figure 7</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1dacee2c4697d6b1bc96f8ffa1b61cd1049a60b60.png?width=750&amp;format=png&amp;optimize=medium" width="1228" height="996" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 7:</strong> Rebranding announcement on THE.Hosting’s new website (Source: the[.]hosting)</div>
+          </div>
+        </div>
+        <p>The rebranded website, operating under a new domain, the[.]hosting, referenced WorkTitans B.V. as the legal entity behind THE.Hosting (See <strong>Figures 8</strong> and <strong>9</strong>). Insikt Group notes that as of June 24, 2025, THE.Hosting removed any reference to WorkTitans from its website.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1aeeb4618f34ef97981f8c4b0fb86bddc32db9303.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="892" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 8:</strong> THE.Hosting’s terms of use web page (Source: <a href="https://web.archive.org/web/20250530112437/https://the.hosting/en/terms-of-service">Archive[.]org</a>)</div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1e94a3a83b36db7d787ee46d652f1602cce9eed8b.png?width=750&amp;format=png&amp;optimize=medium" width="1066" height="408" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 9:</strong> THE.Hosting’s terms of use, removing reference to WorkTitans B.V. (Top) and THE.Hosting’s previously observed terms of use page (Bottom) (Source: <a href="https://web.archive.org/web/20250530112437/https://the.hosting/en/terms-of-service">Archive[.]org</a>)</div>
+          </div>
+        </div>
+        <h4>WorkTitans B.V.</h4>
+        <p>WorkTitans is a Netherlands-based company ostensibly registered and presenting as a recruitment firm, an affiliation that bears no logical connection to the hosting sector. This clear misalignment strongly suggests that Stark Industries used WorkTitans as its new Western corporate entity to obscure its continuity of control and insulate its rebranded infrastructure from sanctions. WorkTitans' website, worktitans[.]nl, displayed minimal functionality, with vague information about the company (see <strong>Figure 10</strong>) and a broken vacancy search page.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_11e360d0edecb5fd3dcc712785486ae57585319f1.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="948" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 10:</strong> WorkTitans web page (Source: worktitans[.]nl)</div>
+          </div>
+        </div>
+        <h4>Infrastructure Updates</h4>
+        <p>Insikt Group observed further changes to Stark Industries' infrastructure between May 29 and June 23, 2025, coinciding with the public rebranding of PQ.Hosting to THE.Hosting and the emergence of a new corporate vehicle, WorkTitans.</p>
+        <p>On May 29, 2025, Insikt Group observed IP prefixes previously attributed to Stark Industries Solutions began transferring to a newly registered RIPE organization object under the name WorkTitans B.V. Its corresponding RIPE object, <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=organisation&amp;key=ORG-THE3-RIPE">ORG-THE3-RIPE,</a> was created on May 28, 2025, the day before the public rebrand (see <strong>Figure 11</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <p>Abuse contact info: abuse[@]the[.]hosting</p>
+              <p>organisation: ORG-THE3-RIPE</p>
+              <p>org-name: WorkTitans B.V.</p>
+              <p>org-type: OTHER</p>
+              <p>address: Hoge Bothofstraat 39, 7511 ZA Enschede, Netherlands</p>
+              <p>country: NL</p>
+              <p>e-mail: noc[@]the.hosting</p>
+              <p>abuse-c: THE666</p>
+              <p>mnt-ref: THE-HOSTING-MNT</p>
+              <p>mnt-ref: MEREZHA-MNT</p>
+              <p>mnt-by: THE-HOSTING-MNT</p>
+              <p>created: 2025-05-28T17:30:07Z</p>
+              <p>last-modified: 2025-05-29T00:51:07Z</p>
+              <p>source: RIPE</p>
+            </div>
+          </div>
+        </div>
+        <p>Figure 11: RIPE organization record ORG-THE3-RIPE (Source: <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=organisation&amp;key=ORG-THE3-RIPE">RIPE DB</a>)</p>
+        <p>Insikt Group continued to monitor the transfer of IP prefixes to WorkTitans between May 29 and June 24, 2025, observing a new netname of THE-HOSTING. Further analysis of historical WHOIS records showed a clear progression — from initial assignment to Stark Industries to reassignment to PQ Hosting Plus S.R.L — leading up to the EU sanctions and subsequent transfer to WorkTitans following the rebrand (see <strong>Figure 12</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1065e03c67be4f7378b1fb738eb712ca854641c99.png?width=750&amp;format=png&amp;optimize=medium" width="1586" height="674" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 12:</strong> WHOIS history for IP prefix 45[.]14[.]244[.]0/24 (Source: Recorded Future / <a href="https://stat.ripe.net/resource/45.14.244.0/24#tab=database">RIPEstat</a>)</div>
+          </div>
+        </div>
+        <p>In parallel with the observed prefix transfers, Insikt Group also tracked changes to ASN AS44477, registered initially to Stark Industries Solutions. While the responsible organization was updated to PQ Hosting Plus S.R.L., the ASNs name field was sequentially modified, first to reflect PQ.Hosting and, later, THE-HOSTING, aligning with the broader infrastructure rebrand (see <strong>Figure 13</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1193dae069792ab539f4bb9577ef05f9f31277740.png?width=750&amp;format=png&amp;optimize=medium" width="872" height="371" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 13:</strong> RIPE AS record history for AS44477 (Source: Recorded Future / <a href="https://stat.ripe.net/resource/AS44477#tab=database">RIPEstat</a>)</div>
+          </div>
+        </div>
+        <p>Between June 23 and June 24, 2025, Insikt Group identified the registration of a new Local Internet Registry (LIR) under the name WorkTitans B.V., along with a corresponding ASN, AS209847 (<a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=aut-num&amp;key=AS209847">THE</a>), further consolidating the rebrand under new RIPE organization object <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=organisation&amp;key=ORG-WB96-RIPE">ORG-WB96-RIPE</a> (See <strong>Figures 14</strong> and <strong>15</strong>). AS209847 announced 21 IP prefixes as of August 4, 2025 (See <strong>Appendix C</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <p>Abuse contact info: abuse[@]the[.]hosting<br /><br />Organisation: ORG-WB96-RIPE</p>
+              <p>org-name: WorkTitans B.V</p>
+              <p>country: NL</p>
+              <p>org-type: LIR</p>
+              <p>address: Hoge Bothofstraat 39</p>
+              <p>address: 7511 ZA</p>
+              <p>address: Enschede</p>
+              <p>address: NETHERLANDS</p>
+              <p>phone: +31532060000</p>
+              <p>e-mail: lir[@]the.hosting</p>
+              <p>admin-c: THMC1-RIPE</p>
+              <p>tech-c: THMC1-RIPE</p>
+              <p>abuse-c: AR78445-RIPE</p>
+              <p>mnt-ref: THE-HOSTING-MNT</p>
+              <p>mnt-by: RIPE-NCC-HM-MNT</p>
+              <p>mnt-by: THE-HOSTING-MNT</p>
+              <p>created: 2025-06-23T11:10:15Z</p>
+              <p>last-modified: 2025-06-23T11:10:16Z</p>
+              <p>source: RIPE</p>
+            </div>
+          </div>
+        </div>
+        <p><strong>Figure 14:</strong> RIPE organization record ORG-WB96-RIPE (Source: <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=organisation&amp;key=ORG-WB96-RIPE">RIPE DB</a>)</p>
+        <div>
+          <div>
+            <div>
+              <p>Responsible organisation: WorkTitans B.V</p>
+              <p>Abuse contact info: abuse[@]the[.]hosting</p>
+              <p>aut-num: AS209847</p>
+              <p>as-name: THE</p>
+              <p>org: ORG-WB96-RIPE</p>
+              <p>import: from AS52000 accept ANY</p>
+              <p>export: to AS52000 announce AS209847:AS-THE</p>
+              <p>import: from AS49434 accept ANY</p>
+              <p>export: to AS49434 announce AS209847:AS-THE</p>
+              <p>import: from AS8285 accept ANY</p>
+              <p>export: to AS8285 announce AS209847:AS-THE</p>
+              <p>import: from AS9002 accept ANY</p>
+              <p>export: to AS9002 announce AS209847:AS-THE</p>
+              <p>import: from AS174 accept ANY</p>
+              <p>export: to AS174 announce AS209847:AS-THE</p>
+              <p>import: from AS1299 accept ANY</p>
+              <p>export: to AS1299 announce AS209847:AS-THE</p>
+              <p>import: from AS6939 accept ANY</p>
+              <p>export: to AS6939 announce AS209847:AS-THE</p>
+              <p>import: from AS44222 accept ANY</p>
+              <p>export: to AS44222 announce AS209847:AS-THE</p>
+              <p>import: from AS8285 accept ANY</p>
+              <p>export: to AS8285 announce AS209847:AS-THE</p>
+              <p>import: from AS15694 accept ANY</p>
+              <p>export: to AS15694 announce AS209847:AS-THE</p>
+              <p>import: from AS199081 accept ANY</p>
+              <p>export: to AS199081 announce AS209847:AS-THE</p>
+            </div>
+          </div>
+        </div>
+        <p><strong>Figure 15:</strong> RIPE AS record for AS209847 (Source: <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=aut-num&amp;key=AS209847">RIPE DB</a>)</p>
+        <h4>Maintainer Records and Links to Dmitrii Miasnikov</h4>
+        <p>Insikt Group conducted further analysis on the email address jama**[@]gmail[.]com, which initially linked Stark Industries to UFO Hosting via RIPE database maintainer objects earlier in this report. This analysis revealed that the email address was not only associated with PQHS-MNT (PQ.Hosting maintainer) and <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=ripe&amp;key=UFO42-MNT&amp;type=mntner">UFO42-MNT</a> (UFO Hosting maintainer), but also with the newly created <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=mntner&amp;key=THE-HOSTING-MNT">THE-HOSTING-MNT</a>. As of June 24, 2025, these maintainer objects were responsible for all of the new RIPE organization objects outlined in this report, as well as further organizations tied to the Neculiti brothers, such as <a href="https://srl.md/en/societatea-cu-raspundere-limitata-weiss-hosting-group">WEISS HOSTING GROUP S.R.L.</a> (<a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=organisation&amp;key=ORG-PHS16-RIPE">ORG-PHD16-RIPE</a>; see <strong>Figure 16</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_116f372effd20925482ba54b2d982539c74690efd.png?width=750&amp;format=png&amp;optimize=medium" width="1164" height="952" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 16:</strong> Maintainer objects and organizations linked to email jama**[@]gmail[.]com (Source: Recorded Future / <a href="https://apps.db.ripe.net/db-web-ui/query">RIPE DB</a>)</div>
+          </div>
+        </div>
+        <p>Further research into this email address confirmed its attribution to Dmitrii Miasnikov, a known Russian network operator with prior affiliations to numerous Russia-based hosting providers. Specifically, the same email address was used to submit multiple RIPE NCC Executive Board <a href="https://mailman.ripe.net/archives/search?mlist=agm-nominations%40ripe.net&amp;q=Miasnikov">nominations</a> in April 2020 under Miasnikov’s name, listing various Russian hosting entities as his affiliated organizations).</p>
+        <p>According to the RIPE database, Miasnikov also operates two LIRs under his own name, <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=organisation&amp;key=ORG-DAM5-RIPE">ORG-DAM5-RIPE</a> and <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=RIPE&amp;type=organisation&amp;key=ORG-DAM6-RIPE">ORG-DAM6-RIPE</a>. Insikt Group notes that as of June 24, 2025, only one prefix was assigned to ORG-DAM5-RIPE, 91[.]207[.]183[.]0/24, which was outlined in <strong>Appendix B</strong>, as announced via AS33993 (UFO-AS).</p>
+        <p>Both objects contain the email address admin[@]virty[.]io, which refers to another Russian ISP, virty[.]io, which is owned by First Data Center LLC (ООО "Первый ЦОД"). In addition to traditional hosting, the company offers a number of what it calls “RIPE Object Support and Registration Services” (see <strong>Figure 17</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1d4d2850644505d4daa2cae1674b17c00064eabe3.png?width=750&amp;format=png&amp;optimize=medium" width="1033" height="933" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 17:</strong> Virty[.]io RIPE services web page (Source: virty[.]io)</div>
+          </div>
+        </div>
+        <p>Insikt Group assesses that Miasnikov’s control over RIPE object registration services, combined with his access to multiple LIRs and maintainer objects, likely enabled him to facilitate the creation, transfer, and operational handoff of RIPE assets for Stark Industries, allowing the sanctioned entity to sustain infrastructure continuity under new organizational entities.</p>
+        <h2>Mitigations</h2>
+        <ul>
+          <li><strong>Use Recorded Future Threat Intelligence:</strong> Recorded Future customers can proactively mitigate threats originating from malicious networks such as Stark Industries by operationalizing Recorded Future Intelligence Cloud data, specifically by leveraging continuously updated Risk Lists and by blocklisting validated malicious IP addresses to prevent internal communication with malicious infrastructure.</li>
+          <li><strong>Implement Robust Network Security Controls:</strong> Configure perimeter security appliances and internal network defenses to block traffic originating from the ASNs identified in this report, unless there is a clearly defined business justification for permitting such traffic.</li>
+        </ul>
+        <h2>Outlook</h2>
+        <p>Insikt Group assesses that Stark Industries will likely continue operating with minimal disruption under its new corporate entities, THE.Hosting and UFO Hosting, despite its inclusion in the EU’s May 2025 sanctions package. The evidence outlined in this report demonstrates that the organization likely anticipated the EU sanctions and executed a deliberate, multi-phase restructuring of its hosting operations, using its parent company, PQ.Hosting, and Russian ISP, UFO Hosting.</p>
+        <p>While the EU sanctions did reference PQ.Hosting, the company’s omission from a formal designation as part of the package, along with other linked entities, may have been a critical gap. This allowed Stark Industries to rapidly rebrand, transfer assets, and preserve operational control through affiliated RIPE organizations and front companies with relative ease.</p>
+        <p>Insikt Group will continue to monitor the infrastructure, affiliations, and evolution of this TAE network, as its persistent role in supporting global malicious cyber operations remains a critical indicator of future threat activity.</p>
+        <h2>Appendix A: Malware Intelligence Queries</h2>
+        <div>
+          <div>
+            <div>
+              <p>dynamic.network.ips.asn == "AS44477"</p>
+              <p>dynamic.network.ips.asn == "AS209847"</p>
+              <p>dynamic.network.ips.asn == "AS33993"</p>
+            </div>
+          </div>
+        </div>
+        <h2>Appendix B: IP Prefixes Announced By AS33993 (UFO-AS)</h2>
+        <div>
+          <div>
+            <div><strong>Prefix</strong></div>
+            <div><strong>Organization</strong></div>
+            <div><strong>Country</strong></div>
+          </div>
+          <div>
+            <div>2[.]56[.]178[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>45[.]12[.]114[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>45[.]12[.]115[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>45[.]67[.]230[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>45[.]84[.]1[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>45[.]128[.]49[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>45[.]128[.]53[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>45[.]138[.]157[.]0/24</div>
+            <div>Stark Industries Solutions Ltd</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>45[.]144[.]30[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>45[.]144[.]31[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>45[.]150[.]64[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>45[.]153[.]231[.]0/24</div>
+            <div>Stark Industries Solutions Ltd</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>91[.]207[.]183[.]0/24</div>
+            <div>Dmitrii Aleksandrovich Miasnikov</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>94[.]131[.]113[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>94[.]131[.]121[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>103[.]113[.]68[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>171[.]22[.]119[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>185[.]234[.]59[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>185[.]235[.]242[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>185[.]250[.]149[.]0/24</div>
+            <div>UFO Hosting LLC</div>
+            <div>Russia</div>
+          </div>
+          <div>
+            <div>193[.]201[.]126[.]0/24</div>
+            <div>Stark Industries Solutions Ltd</div>
+            <div>Russia</div>
+          </div>
+        </div>
+        <p>Appendix B: IP Prefixes announced via AS33993, UFO-AS (Source: <a href="https://bgp.tools/as/33993#prefixes">BGP.tools</a>)</p>
+        <h2>Appendix C: IP Prefixes Announced By AS209847 (THE)</h2>
+        <div>
+          <div>
+            <div><strong>Prefix</strong></div>
+            <div><strong>Organization</strong></div>
+            <div><strong>Country</strong></div>
+          </div>
+          <div>
+            <div>2[.]56[.]119[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Latvia</div>
+          </div>
+          <div>
+            <div>5[.]182[.]39[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Portugal</div>
+          </div>
+          <div>
+            <div>45[.]12[.]131[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Portugal</div>
+          </div>
+          <div>
+            <div>45[.]15[.]178[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Bosnia and Herzegovina</div>
+          </div>
+          <div>
+            <div>45[.]15[.]179[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Bosnia and Herzegovina</div>
+          </div>
+          <div>
+            <div>45[.]15[.]184[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Bosnia and Herzegovina</div>
+          </div>
+          <div>
+            <div>45[.]83[.]142[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Portugal</div>
+          </div>
+          <div>
+            <div>45[.]133[.]216[.]0/24</div>
+            <div>-</div>
+            <div>Latvia</div>
+          </div>
+          <div>
+            <div>45[.]142[.]213[.]0/24</div>
+            <div>-</div>
+            <div>Latvia</div>
+          </div>
+          <div>
+            <div>45[.]142[.]215[.]0/24</div>
+            <div>-</div>
+            <div>Latvia</div>
+          </div>
+          <div>
+            <div>45[.]159[.]251[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Portugal</div>
+          </div>
+          <div>
+            <div>94[.]131[.]10[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Portugal</div>
+          </div>
+          <div>
+            <div>94[.]131[.]104[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Latvia</div>
+          </div>
+          <div>
+            <div>95[.]164[.]32[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Portugal</div>
+          </div>
+          <div>
+            <div>103[.]231[.]73[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Latvia</div>
+          </div>
+          <div>
+            <div>171[.]22[.]129[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Portugal</div>
+          </div>
+          <div>
+            <div>176[.]120[.]67[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Latvia</div>
+          </div>
+          <div>
+            <div>193[.]43[.]146[.]0/24</div>
+            <div>WorkTitans B.V</div>
+            <div>Latvia</div>
+          </div>
+          <div>
+            <div>2a09:7c43::/32</div>
+            <div>WorkTitans B.V</div>
+            <div>Latvia</div>
+          </div>
+          <div>
+            <div>2a0b<span></span>:/32</div>
+            <div>WorkTitans B.V</div>
+            <div>Portugal</div>
+          </div>
+          <div>
+            <div>2a0b<span></span>:/32</div>
+            <div>WorkTitans B.V</div>
+            <div>Bosnia and Herzegovina</div>
+          </div>
+        </div>
+        <p>Appendix C: IP prefixes announced via AS209847, THE (Source: <a href="https://bgp.tools/as/209847#asinfo">BGP.tools</a>)</p>
+      </div>
+      <div></div>
+      <div></div>
+    ]]></content:encoded>
+            <category>Research (Insikt)</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_1fc49964e13a22a562cd72708432c38c3e02e776d.gif?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
         <item>
             <title><![CDATA[TAG-144’s Persistent Grip on South American Organizations]]></title>
             <link>https://www.recordedfuture.com/research/tag-144s-persistent-grip-on-south-american-organizations</link>
@@ -8350,107 +9027,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Blog</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_14fcb249bcb15799bd4500bd63d1b0e3b53e78eb2.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[Working in Singapore at the World’s Largest Intelligence Company]]></title>
-            <link>https://www.recordedfuture.com/blog/working-in-singapore</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/blog/working-in-singapore</guid>
-            <pubDate>Wed, 21 Jan 1970 02:49:55 GMT</pubDate>
-            <description><![CDATA[Discover the vibrant culture at Recorded Future's Singapore office. Learn about our growth, team dynamics, and exciting work environment.]]></description>
-            <content:encoded><![CDATA[
-        <p>Did you know? Recorded Future operates out of seven offices worldwide. Besides our US locations, we have offices in London, Gothenburg, Dubai, Tokyo, and Singapore. With over 42 nationalities and at least as many spoken languages, we embrace diverse cultures and backgrounds and love to learn from each other. Today, we focus on our Singapore team.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="singapore-01.jpg" src="https://www.recordedfuture.com/media_1e61119fdface42ed021e0a289d03d12d2fc6d9b9.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="1080" height="810" />
-            </div>
-          </div>
-          <div>
-            <div><em>Singapore futurists on #lemonadeday</em></div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div>“Working in the Singapore office is fantastic. Futurists are friendly, helpful, and you can always hear laughter across the room.”</div>
-          </div>
-          <div>
-            <div>Team Lead, Intelligence Services</div>
-          </div>
-        </div>
-        <h3>Location</h3>
-        <p>Our Singapore office is a primary location for Southeast Asia and Taiwan. It supports clients across over 10 countries and is the second most significant region in APJ. Our office space is in the heart of Singapore at Funan Mall, facing the high court and parliament. It is near many fantastic activities, delicious grab-and-go food options, and some of the best restaurants in the country, with convenient access to a nearby train station connecting you to the entire city.</p>
-        <div>
-          <div>
-            <div>“The Singapore office location has changed over the years. With each move, the preeminent issue is always ‘Are there good food options nearby?’ Because it’s Singapore, the answer is always ‘yes’. Exactly where and what kinds of options need to be mapped and analyzed at length before anyone can feel at home.”</div>
-          </div>
-          <div>
-            <div>Technical Lead, Threat Data and Enablement, Insikt Group®</div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="singapore-02.jpg" src="https://www.recordedfuture.com/media_166d7f38fc48bec370281a64a54479adb13ae752f.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="807" height="1080" />
-            </div>
-          </div>
-          <div>
-            <div><em>Marty &amp; Futurists try Singapore delicacies</em></div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="singapore-03.png" src="https://www.recordedfuture.com/media_10a21d7287f1739a336f6ca01491db895ba0886ef.png?width=750&amp;format=png&amp;optimize=medium" width="810" height="1080" />
-            </div>
-          </div>
-          <div>
-            <div><em>LoHei or Prosperity Toss for Lunar New Year</em></div>
-          </div>
-        </div>
-        <h3>Looking back</h3>
-        <p>Recorded Future’s first office was in Garden City in the Central Business District at Asia Square. Since then, the team has grown significantly in size, scale, and reputation. Our expanding regional presence has led to a new office move, from the vibrant and historic area near Lau Pa Sat to Funan’s modern and exciting office towers.</p>
-        <div>
-          <div>
-            <div>“When I arrived in Singapore, we had recently established what I’d consider our first ‘real’ office in APJ. It was in the heart of the central business district. We had just hired our first Account Executive and Business Development Representative in Singapore, and it felt like we had a full team at that point. Before that, the only persistent Recorded Future presence in Singapore was by our first Sales Engineer. He was our true and dedicated expeditionary force in the region.”</div>
-          </div>
-          <div>
-            <div>Technical Lead, Threat Data and Enablement, Insikt Group®</div>
-          </div>
-        </div>
-        <h3>Onwards &amp; Upwards</h3>
-        <p>For some time, the Singapore office was our sole physical presence in Asia. The team supported clients in 12 countries across 6 different time zones. The Singapore team now has over 30 employees. It spans various departments like sales, field marketing, professional services, and threat research.</p>
-        <p>“The APJ team punches so far above their weight, it’s remarkable. With resilience and capability the Singapore team has achieved remarkable success and demonstrates consistent collaboration with our partners in EMEA and NA.” shares APJ’s former Intelligence Services Director.</p>
-        <div>
-          <div>
-            <div>“We get the job done and we have fun. Hence, there is constant collaboration and camaraderie across the entire eco-system.”</div>
-          </div>
-          <div>
-            <div>Senior Manager, APJ Product Support</div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="singapore-04.jpg" src="https://www.recordedfuture.com/media_1ff08e5a0431af6fe76129331532ebf0060293b2c.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="1080" height="810" />
-            </div>
-          </div>
-          <div>
-            <div><em>Singapore futurists at their 2024 summer party go karting friendly competition</em></div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div>“Recorded Future is a place of builders and innovators, with the common aim of helping customers effectively in their own creative ways.”</div>
-          </div>
-          <div>
-            <div>Team Lead, Intelligence Services</div>
-          </div>
-        </div>
-        <p>Does this resonate with you? Interested in joining our team or are you just curious to learn more? Explore what it’s like <a href="/careers/working-at-recorded-future">working with us</a>.</p>
-        <p>Follow us on <a href="https://www.linkedin.com/company/recorded-future/">LinkedIn</a> for all the latest updates.</p>
-      ]]></content:encoded>
-            <category>Blog</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_1e26ca36e126e1189f8d604d800a3ba27b3a99550.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>
