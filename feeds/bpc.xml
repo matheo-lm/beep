@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 27 Aug 2025 11:59:13 EDT</pubDate>
+        <pubDate>Wed, 27 Aug 2025 12:59:26 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Over 28,000 Citrix devices vulnerable to new exploited RCE flaw</title>
+        <link>https://www.bleepingcomputer.com/news/security/over-28-200-citrix-instances-vulnerable-to-actively-exploited-rce-bug/</link>
+        <pubDate>Wed, 27 Aug 2025 12:48:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/over-28-200-citrix-instances-vulnerable-to-actively-exploited-rce-bug/</guid>
+	<description><![CDATA[More than 28,200 Citrix instances are vulnerable to a critical remote code execution vulnerability tracked as CVE-2025-7775 that is already being exploited in the wild. [...]]]></description>
+ </item>
+
  <item>
         <title>Why zero trust is never 'done' and is an ever-evolving process</title>
         <link>https://www.bleepingcomputer.com/news/security/why-zero-trust-is-never-done-and-is-an-ever-evolving-process/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-ai-attack-hides-data-theft-prompts-in-downscaled-images/</guid>
 	<description><![CDATA[Researchers have developed a novel attack that steals user data by injecting malicious prompts in images processed by AI systems before delivering them to a large language model. [...]]]></description>
- </item>
-
- <item>
-        <title>Farmers Insurance data breach impacts 1.1M people after Salesforce attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/farmers-insurance-data-breach-impacts-11m-people-after-salesforce-attack/</link>
-        <pubDate>Mon, 25 Aug 2025 15:48:51 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/farmers-insurance-data-breach-impacts-11m-people-after-salesforce-attack/</guid>
-	<description><![CDATA[U.S. insurance giant Farmers Insurance has disclosed a data breach impacting 1.1 million customers, with BleepingComputer learning that the data was stolen in the widespread Salesforce attacks. [...]]]></description>
  </item>
 
 </channel>
