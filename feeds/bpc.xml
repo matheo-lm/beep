@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 27 Aug 2025 16:02:04 EDT</pubDate>
+        <pubDate>Wed, 27 Aug 2025 17:02:39 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Experimental PromptLock ransomware uses AI to encrypt, steal data</title>
+        <link>https://www.bleepingcomputer.com/news/security/experimental-promptlock-ransomware-uses-ai-to-encrypt-steal-data/</link>
+        <pubDate>Wed, 27 Aug 2025 16:47:01 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/experimental-promptlock-ransomware-uses-ai-to-encrypt-steal-data/</guid>
+	<description><![CDATA[Threat researchers discovered the first AI-powered ransomware, called PromptLock, that uses Lua scripts to steal and encrypt data on Windows, macOS, and Linux systems. [...]]]></description>
+ </item>
+
  <item>
         <title>FreePBX servers hacked via zero-day, emergency fix released</title>
         <link>https://www.bleepingcomputer.com/news/security/freepbx-servers-hacked-via-zero-day-emergency-fix-released/</link>
@@ -188,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-git-code-execution-flaw/</guid>
 	<description><![CDATA[The U.S. Cybersecurity & Infrastructure Security Agency (CISA) is warning of hackers exploiting an arbitrary code execution flaw in the Git distributed version control system. [...]]]></description>
- </item>
-
- <item>
-        <title>Beyond GDPR security training: Turning regulation into opportunity</title>
-        <link>https://www.bleepingcomputer.com/news/security/beyond-gdpr-security-training-turning-regulation-into-opportunity/</link>
-        <pubDate>Tue, 26 Aug 2025 10:00:10 -0400</pubDate>
-        <dc:creator>Sponsored by Passwork</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/beyond-gdpr-security-training-turning-regulation-into-opportunity/</guid>
-	<description><![CDATA[Discover how GDPR compliance can spark real growth and give you a competitive advantage with practical strategies and a strong security culture. [...]]]></description>
  </item>
 
 </channel>
