@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Krebs on Security</title>
-	<atom:link href="https://krebsonsecurity.com/feed/?ref=blog.netmanageit.com" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
 	<lastBuildDate>Tue, 26 Aug 2025 23:19:10 +0000</lastBuildDate>
@@ -154,7 +154,7 @@ Noah Michael Urban of Palm Coast, Fla. pleaded guilty in April 2025 to charges o
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/08/sim-swapper-scattered-spider-hacker-gets-10-years/feed/</wfw:commentRss>
-			<slash:comments>27</slash:comments>
+			<slash:comments>28</slash:comments>
 		
 		
 			</item>
@@ -637,8 +637,8 @@ Your unique writing style, phraseology, punctuation, consistency of grammatical 
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 260/260 objects using memcached
-Page Caching using memcached 
+Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-08-27 13:38:03 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-08-27 14:54:44 by W3 Total Cache
 -->
