@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 27 Aug 2025 12:59:26 EDT</pubDate>
+        <pubDate>Wed, 27 Aug 2025 14:00:12 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Global Salt Typhoon hacking campaigns linked to Chinese tech firms</title>
+        <link>https://www.bleepingcomputer.com/news/security/global-salt-typhoon-hacking-campaigns-linked-to-chinese-tech-firms/</link>
+        <pubDate>Wed, 27 Aug 2025 13:34:04 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/global-salt-typhoon-hacking-campaigns-linked-to-chinese-tech-firms/</guid>
+	<description><![CDATA[The U.S. National Security Agency (NSA), the UK's National Cyber Security Centre (NCSC), and partners from over a dozen countries have linked the Salt Typhoon global hacking campaigns to three China-based technology firms. [...]]]></description>
+ </item>
+
  <item>
         <title>Over 28,000 Citrix devices vulnerable to new exploited RCE flaw</title>
         <link>https://www.bleepingcomputer.com/news/security/over-28-200-citrix-instances-vulnerable-to-actively-exploited-rce-bug/</link>
@@ -61,8 +75,8 @@
  </item>
 
  <item>
-        <title>Google to verify all Android devs to block malware on Google Play</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-to-verify-all-android-devs-to-block-malware-on-google-play/</link>
+        <title>Google to verify all Android devs to protect users from malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-to-verify-all-android-devs-to-protect-users-from-malware/</link>
         <pubDate>Tue, 26 Aug 2025 18:23:46 -0400</pubDate>
         <dc:creator>Bill Toulas</dc:creator>
 
@@ -74,7 +88,7 @@
         <category><![CDATA[Mobile]]></category>
 
 
-        <guid>https://www.bleepingcomputer.com/news/security/google-to-verify-all-android-devs-to-block-malware-on-google-play/</guid>
+        <guid>https://www.bleepingcomputer.com/news/security/google-to-verify-all-android-devs-to-protect-users-from-malware/</guid>
 	<description><![CDATA[Google is introducing a new defense for Android called 'Developer Verification' to block malware installations from sideloaded apps sourced from outside the official Google Play app store. [...]]]></description>
  </item>
 
@@ -188,22 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/surge-in-coordinated-scans-targets-microsoft-rdp-auth-servers/</guid>
 	<description><![CDATA[Internet intelligence firm GreyNoise reports that it has recorded a significant spike in scanning activity consisting of nearly 1,971 IP addresses probing Microsoft Remote Desktop Web Access and RDP Web Client authentication portals in unison, suggesting a coordinated reconnaissance campaign. [...]]]></description>
- </item>
-
- <item>
-        <title>New AI attack hides data-theft prompts in downscaled images</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-ai-attack-hides-data-theft-prompts-in-downscaled-images/</link>
-        <pubDate>Mon, 25 Aug 2025 17:34:57 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-ai-attack-hides-data-theft-prompts-in-downscaled-images/</guid>
-	<description><![CDATA[Researchers have developed a novel attack that steals user data by injecting malicious prompts in images processed by AI systems before delivering them to a large language model. [...]]]></description>
  </item>
 
 </channel>
