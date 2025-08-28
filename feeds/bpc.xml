@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 28 Aug 2025 13:00:31 EDT</pubDate>
+        <pubDate>Thu, 28 Aug 2025 14:03:38 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Malware devs abuse Anthropic’s Claude AI to build ransomware</title>
+        <link>https://www.bleepingcomputer.com/news/security/malware-devs-abuse-anthropics-claude-ai-to-build-ransomware/</link>
+        <pubDate>Thu, 28 Aug 2025 13:08:08 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malware-devs-abuse-anthropics-claude-ai-to-build-ransomware/</guid>
+	<description><![CDATA[Anthropic's Claude Code large language model has been abused by threat actors who used it in data extortion campaigns and to develop ransomware packages. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft Word will save your files to the cloud by default</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-word-will-save-your-files-to-the-cloud-by-default/</link>
@@ -184,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/over-28-200-citrix-instances-vulnerable-to-actively-exploited-rce-bug/</guid>
 	<description><![CDATA[More than 28,200 Citrix instances are vulnerable to a critical remote code execution vulnerability tracked as CVE-2025-7775 that is already being exploited in the wild. [...]]]></description>
- </item>
-
- <item>
-        <title>Why zero trust is never 'done' and is an ever-evolving process</title>
-        <link>https://www.bleepingcomputer.com/news/security/why-zero-trust-is-never-done-and-is-an-ever-evolving-process/</link>
-        <pubDate>Wed, 27 Aug 2025 10:15:25 -0400</pubDate>
-        <dc:creator>Sponsored by Specops Software</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/why-zero-trust-is-never-done-and-is-an-ever-evolving-process/</guid>
-	<description><![CDATA[Zero trust isn't a project you finish—it's a cycle that keeps evolving. From supply chain exploits to policy drift, resilience requires continuous testing and adaptation. Learn how Specops Software supports this journey with tools that make it easier. [...]]]></description>
  </item>
 
 </channel>
