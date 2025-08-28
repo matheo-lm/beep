@@ -4,12 +4,483 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Wed, 27 Aug 2025 15:30:28 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Aug 2025 13:28:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
         <copyright>Copyright © 2025 Recorded Future, Inc.</copyright>
         <atom:link href="https://www.recordedfuture.com/feed" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[H1 2025 Malware and Vulnerability Trends]]></title>
+            <link>https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends</guid>
+            <pubDate>Wed, 21 Jan 1970 07:52:19 GMT</pubDate>
+            <description><![CDATA[Explore Recorded Future’s H1 2025 malware & vulnerability trends: key exploited CVEs, most-targeted vendors (Microsoft, edge devices), ransomware & mobile malware shifts — practical guidance to prioritize patches and detection.]]></description>
+            <content:encoded><![CDATA[
+      <div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1229ac62a846d9b9e83d22ef5dd13ebbcc99bbc6a.gif?width=750&amp;format=gif&amp;optimize=medium" width="1600" height="600" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <h1>H1 2025 Malware and Vulnerability Trends</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div></div>
+      <div>
+        <h2>Executive Summary</h2>
+        <p>The first half of 2025 (H1 2025) reflected a rapidly evolving threat landscape defined by the convergence of persistent legacy threats and advanced new tactics.</p>
+        <p>The total disclosed CVEs increased by 16% from H1 2024, and threat actors exploited 161 vulnerabilities with assigned CVEs, with nearly half linked to malware or ransomware campaigns. Microsoft remained the most targeted vendor, while edge security and gateway devices continued to be high-value targets for initial access. Malware activity was similarly dynamic: while law enforcement takedowns disrupted major players like LummaC2, a resurgence of legacy malware such as Sality indicated that old tools still offer utility for modern actors. Remote access trojans (RATs) like AsyncRAT, XWorm, and Remcos also gained prominence, marking a tactical shift away from the previous dominance of dedicated information stealers (infostealers) in <a href="https://www.recordedfuture.com/research/h1-2024-malware-and-vulnerability-trends-report">H1 2024</a> toward more versatile tools that combine data theft capabilities with persistent, hands-on access.</p>
+        <p>Mobile malware threats continued to grow in H1 2025, with Android banking trojans adopting virtualization-based overlays and near-field communication (NFC) relay attacks to bypass user defenses and enable real-world financial fraud. These innovations reflect a growing trend in financial fraud toward mobile-first exploitation targeting both app and payment ecosystems. Ransomware groups, meanwhile, leaned further into affiliate-driven models, offering ready-made payloads and infrastructure to lower barriers for new entrants. Some ransomware families introduced stealth features such as protected payloads or novel loaders designed to evade endpoint detection. Meanwhile, Magecart skimming campaigns adopted multi-stage, modular infection chains and innovative obfuscation techniques to evade content security policies and inject malicious scripts only during critical moments like checkout.</p>
+        <p>Taken together, H1 2025 underscores that the threat landscape is not only expanding but fragmenting, with threat actors exploiting both novel and legacy tools across diverse attack surfaces. To respond effectively, organizations should prioritize patching of internet-facing systems, particularly gateway and edge security products, which are frequently targeted for initial access. Detection capabilities must extend beyond endpoint telemetry to include behavioral monitoring, command-and-control (C2) traffic analysis, and script obfuscation detection in web environments. Investment in threat intelligence is essential for staying ahead of rapidly changing tactics, such as malware repackaging. Organizations should also revisit mobile device policies and strengthen application vetting and user awareness to counter increasingly sophisticated mobile malware campaigns.</p>
+        <h2>Key Findings</h2>
+        <ul>
+          <li>CVE disclosures increased 16% compared to H1 2024, with 161 of those vulnerabilities actively exploited in H1 2025. Of those, 42% had a public proof-of-concept (PoC) exploit, nearly 69% required no authentication, and 30% enabled remote code execution (RCE), underscoring attackers’ preference for low-friction, high-impact exploits. Microsoft and edge-gateway appliances each made up 17% of exploits, and more than half of the attributed exploitations were state-sponsored, highlighting state-sponsored threat actors’ high capabilities to weaponize flaws quickly.</li>
+          <li>Based on Recorded Future Triage submissions and Insikt Group reporting, Command and Control (TA0011) was the most frequently observed malware tactic, with over 194,000 detections. Top techniques (according to the <a href="https://attack.mitre.org/">MITRE ATT&amp;CK matrix</a>) included data encrypted for impact (T1486), valid accounts (T1078), and data from local systems (T1005), emphasizing the prevalence of ransomware deployment and the importance of persistent access to obtain and exploit sensitive data.</li>
+          <li>The mobile threat landscape continued to evolve during the first half of 2025, marked by the discovery of eleven new mobile malware strains and the resurgence or continued operation of nine others. This included banking trojans, infostealers, spyware, and RATs. Long-standing tactics, techniques, and procedures (TTPs) like overlay attacks remained common, though with some innovation.</li>
+          <li>Threats to contactless payments increased, as evidenced by the discovery of SuperCard X, a Chinese MaaS platform that enables NFC relay fraud by capturing and transmitting contactless card data to attacker-controlled devices.</li>
+          <li>Ransomware threat actors adopted new TTPs across the attack chain during the first half of 2025. This included ClickFix-based social engineering for initial access, endpoint detection and response (EDR) evasion via bring-your-own-installer (BYOI) techniques, and custom payloads using just-in-time (JIT) hooking and memory injection to bypass detection. Ransomware threat actors also continued to use legitimate tools for persistence, data theft, and stealthy C2, including AnyDesk to maintain access, Syteca for keylogging, and GC2 for cloud-based C2.</li>
+        </ul>
+        <h2>Vulnerability Exploitation Trends</h2>
+        <h3>Key Takeaways</h3>
+        <ul>
+          <li>23,667 CVEs were published in H1 2025, a 16% increase compared to H1 2024. Attackers actively exploited 161 vulnerabilities, and 42% of those exploited flaws had public PoC exploits. 21 out of the 27 Nuclei templates published by Insikt Group corresponded to vulnerabilities that appear in the US Cybersecurity and Infrastructure Security Agency (CISA) Known Exploited Vulnerabilities (KEV) catalog.</li>
+          <li>Microsoft products accounted for 17% of such exploitations, but attackers also concentrated on edge‑security and gateway appliances such as SSL‑VPNs and next-gen firewalls (similarly 17%), whose position at the network perimeter makes them attractive entry points for attacks that can later propagate through downstream supply chains.</li>
+          <li>69% of exploited vulnerabilities did not require authentication, and nearly one-third enabled RCE. 151 exploited vulnerabilities were used to deploy malware and 73 to launch ransomware, with backdoors the most common payload.  State-sponsored actors drove more than half of the attributed exploitation, highlighting the significant strategic drivers of such attacks, as well as such actors’ capabilities to weaponize flaws shortly after disclosure.</li>
+        </ul>
+        <h3>Microsoft Leads Actively Exploited Vulnerabilities as Total Disclosed Vulnerabilities Rise Compared to 2024</h3>
+        <p>In the first half of 2025, the volume of disclosed vulnerabilities continued to climb. The total number of CVEs increased by 16% compared to H1 2024, rising from 20,385 in H1 2024 to 23,667 in H1 2025. This growth suggests an expanding attack surface and more opportunities for threat actors to find exploitable flaws. Notably, the most common vulnerability types by weakness were web application issues: <a href="https://cwe.mitre.org/data/definitions/79.html">Cross-Site Scripting (CWE-79)</a> and <a href="https://cwe.mitre.org/data/definitions/89.html">SQL Injection (CWE-89)</a> represented the highest share of weaknesses, followed by <a href="https://cwe.mitre.org/data/definitions/352.html">Cross-Site Request Forgery (CWE-352)</a>, generic <a href="https://cwe.mitre.org/data/definitions/74.html">Injection flaws (CWE-74)</a>, and <a href="https://cwe.mitre.org/data/definitions/862.html">Missing Authorization (CWE-862)</a>. This highlights that fundamental security gaps in web applications remain widespread, and organizations should heed these trends; the persistence of injection and scripting weaknesses means attackers will continue to find easy targets in poorly secured web interfaces.</p>
+        <p>When looking at actively exploited vulnerabilities in H1 2025, Microsoft products dominated the field. Microsoft accounted for the highest number of actively exploited CVEs with 28 (see <strong>Figure 1</strong>), of which twenty targeted Windows specifically. This tally was more than triple that of the next most targeted vendors: Apple (eight), Ivanti (seven), and Linux (six). The outsized targeting of Microsoft likely reflects the ubiquity of Windows across enterprises; attackers naturally prioritize vulnerabilities in widely deployed systems to maximize potential victims. In total, Insikt Group identified exploited vulnerabilities affecting 81 distinct vendors. This breadth indicates that exploitation in the wild is not concentrated on just a few big-name software suites; instead, attackers are casting a wide net.</p>
+        <p>Attackers continue to opportunistically probe less common software and environments, likely perceiving that organizations may delay patches or have limited monitoring on those systems, making them softer targets. For defenders, this means a robust patch management program cannot ignore the long tail of software assets: a vulnerability in a lesser-known product can still be the entry point for a major breach if left unpatched.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_16a45e2f9e154cd426d43abac9c4ed24f8bf004b6.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="986" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 1:</strong> Top ten vendors (including ties) by number of actively exploited CVEs in H1 2025 (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>Another notable trend is the focus on vulnerabilities in the tools designed to keep networks safe. 17% of the actively exploited CVEs affected edge-security and gateway products. This included SSL-VPNs, next-gen firewalls, secure gateways, and remote access portals from vendors such as Ivanti, SonicWall, Fortinet, Palo Alto, Cisco, Citrix, Juniper, and Sophos, as well as virtualization underlays like VMware.</p>
+        <p>Because these appliances terminate VPNs, decrypt traffic, and broker trust between networks, a single exploit instantly grants attackers a privileged, authenticated pathway into an organization’s environment for initial access and lateral movement. For instance, CVE-2025-0282 (Ivanti Connect Secure and Policy Secure) allowed remote, unauthenticated attackers to execute arbitrary code on the appliance and steal credentials for further lateral movement inside the network. This trend underscores that threat actors — including well-resourced state-sponsored groups — are increasingly targeting these security infrastructure platforms to operate with minimal detection. Organizations must harden and promptly patch their network edge devices and monitor them closely, as these systems have become high-value targets that attackers use to bypass traditional defenses and pivot deep into corporate networks.</p>
+        <p>Attackers were observed exploiting 161 distinct vulnerabilities in the first half of 2025, according to Recorded Future data. This exceeds the 136 vulnerabilities listed in CISA’s <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">KEV catalog</a> for the same timeframe. In other words, Recorded Future telemetry identified 25 additional exploited CVEs beyond what was publicly recognized by CISA during that period.</p>
+        <p>Of those 161 exploited flaws, 68 (42%) had a publicly available PoC exploit (see <strong>Figure 2</strong>). The availability of a PoC lowers the bar for exploitation, effectively allowing a larger pool of attackers (including less-skilled threat actors) to weaponize the vulnerability. In multiple cases, Insikt Group has observed exploitation activity surge within days or hours of a PoC release. Organizations should therefore implement rapid patching or interim mitigations to limit the window of exposure.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_12179c55f853efd10f4f5fa807a8a44b582c62193.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="460" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 2:</strong> Actively exploited vulnerabilities with a public PoC exploit, by month (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>In terms of access requirements and impact, <strong>Figure 3</strong> shows that 111 (69%) of the 161 vulnerabilities required no authentication to exploit, and 78 (48%) could be exploited remotely over a network (as opposed to requiring local access or user interaction). In other words, this heavy tilt toward unauthenticated, remote exploits means that attacks can be launched directly from the internet against vulnerable hosts, with no credentials or insider access needed.</p>
+        <p>48 (30%) of the exploited CVEs enabled RCE, which often grants an attacker full control over the target system, while another 11 (7%) enabled privilege escalation, which is typically used to gain higher system access. None of the exploited vulnerabilities facilitated lateral movement (exploits that facilitate jumping from one system to another). Given that so many exploited flaws are both remotely exploitable and require no valid user account, organizations must proactively scan and prioritize patching for internet-facing applications and services.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_172846fd72e299bf75ac8d22e764d6ba7643cf146.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1021" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 3:</strong> Actively exploited vulnerabilities by impact factors (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <h3>UNC5221 Focuses on Ivanti Products as Cobalt Strike Is Most Frequently Associated with Post-Exploitation Activity</h3>
+        <p>The threat actors exploiting these vulnerabilities range from sophisticated state-sponsored groups to profit-driven cybercriminals, and the data from H1 2025 highlights the significant role of state-sponsored campaigns. In cases where Insikt Group could determine attribution, nearly 53% of the observed exploitation activity was driven by state-sponsored and suspected state-sponsored actors. This illustrates that more than half of the attributed exploitations were strategic in nature and conducted for espionage, surveillance, or other geopolitical objectives.</p>
+        <p>Financially motivated groups (those involved in, for example, theft and fraud and not necessarily linked to ransomware) accounted for 27% of exploitations. Another 20% of exploitation was attributed to ransomware and extortion groups, reinforcing how common it has become for ransomware operators to leverage exploits as an initial access vector to then conduct file-encrypting attacks at scale.</p>
+        <p>This breakdown highlights that both strategic and criminal motivations are driving vulnerability exploitation, with a notable absence of any known hacktivist campaigns; hacktivist collectives are typically motivated by disruption and likely lack the intent and capability to conduct such exploitations.</p>
+        <p>By contrast, the presence of state-sponsored actors at the top underlines that many governments’ cyber units have the resources to weaponize new flaws quickly, often within days of a disclosure. The significant state-sponsored involvement also implies that these threats are not just random or opportunistic but often targeted and persistent campaigns aiming at specific sectors or high-value systems.</p>
+        <p>Geographically, the majority of state-sponsored campaigns were conducted by Chinese state-sponsored actors or suspected China-linked actors. Such groups are known to exploit edge infrastructure and enterprise solutions to establish footholds in target networks, and Insikt Group’s observations in the first half of 2025 reaffirm that. The suspected China-linked group UNC5221 exploited the highest number of vulnerabilities and demonstrated a preference for Ivanti products, targeting Ivanti Endpoint Manager Mobile (EPMM; CVE-2025-4428) and Ivanti Connect Secure and Policy Secure (CVE-2025-22457 and CVE-2025-0282).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="Chart" src="https://www.recordedfuture.com/media_15321b102eba2c77289033897104b1488c2bf732f.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="946" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 4:</strong> Vulnerabilities by triggered risk rule, based on Recorded Future data (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>Of the 161 exploited vulnerabilities, Recorded Future data shows that 151 were leveraged in some form of malware deployment (see <strong>Figure 4</strong>). Within those, 73 vulnerabilities were specifically tied to ransomware deployments — they were either the initial access point for a ransomware attack or used at some stage in the ransomware kill chain. In practical terms, unpatched vulnerabilities are a common entry point for attackers to introduce malware into a victim’s environment; whether the ultimate payload is a remote access trojan (RAT) or ransomware, the initial step of exploiting a weakness is the same.</p>
+        <p>Insikt Group found that the most commonly observed malware used post-compromise was the offensive security tool Cobalt Strike. Tools such as Cobalt Strike are ideal for gaining a reliable foothold for attackers as they provide a full-featured toolkit to run commands, escalate privileges, and move laterally, while blending in with normal network traffic. After Cobalt Strike, the Vshell RAT was the malware most frequently observed alongside exploitation.</p>
+        <p>Overall, as shown in <strong>Figure 5</strong>, backdoor malware accounted for nearly 23% of all post-exploitation activity. The frequent appearance of backdoors and various trojans means that a single exploit often leads to multi-payload efficiency for attackers: with one vulnerability, they may deploy a backdoor, which then allows them to stage additional tools or eventually deliver ransomware, all from that same initial entry point and without needing to develop custom malware.</p>
+        <p>For defenders, this trend is a reminder to monitor for known post-exploitation tools and behaviors. The presence of Cobalt Strike beacons, for example, should be treated as an immediate high-priority incident, while an unusual use of legitimate admin tools or new services could indicate that a RAT or backdoor is running.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="Chart" src="https://www.recordedfuture.com/media_104e29506ca89a40175813a511c797a58e78058f0.png?width=750&amp;format=png&amp;optimize=medium" width="1468" height="742" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 5:</strong> Actively exploited vulnerabilities by malware category (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>From a tactics and techniques perspective, the patterns of exploitation in the first half of 2025 align with known adversary behaviors in the MITRE ATT&amp;CK framework. The most frequent ATT&amp;CK technique was Exploit Public‑Facing Application (T1190), observed in 73% of actively exploited vulnerabilities. This was followed by Exploitation for Client Execution (T1203) and Exploitation for Privilege Escalation (T1068). These three techniques demonstrate a clear picture of attacker preferences and playbooks. T1190 indicates that attackers are heavily targeting servers and services exposed to the internet (for example, web servers or VPN gateways), which is a direct route into a network.</p>
+        <p>The prevalence of T1203 shows that attackers are also investing in exploits that require user interaction (for example, a malicious email attachment or drive-by download that triggers an exploit on the victim’s end). In these scenarios, the vulnerability may be in a client-side application such as a browser or office document software, and the attacker socially engineers the victim into running the exploit. T1068 underscores that once attackers get a foothold, they often elevate their privileges (for example, going from a normal user to SYSTEM or root). This pattern shows how attackers frequently leverage initial access, execution, and privilege escalation into a single exploit chain, and illustrates how an attacker can go from having no access to domain admin privileges if the right combination of unpatched flaws exists.</p>
+        <p>Internet-facing systems and unpatched client software will remain prime targets, and failing to patch those creates an avenue for attackers to get in and escalate their privileges. Defenders should ensure both their perimeter systems and endpoint applications are up to date, and have monitoring in place for exploit attempts.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="Chart" src="https://www.recordedfuture.com/media_10c220f1e6f02a227d28aad59ac47b5ef1023336c.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="650" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 6:</strong> Share of actively exploited vulnerabilities by the most common MITRE ATT&amp;CK techniques (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <h3>Insikt Group Detection Rules Maintain Alignment with Known Exploited Vulnerabilities</h3>
+        <p>In the first half of 2025, Insikt Group’s own detection efforts kept pace with the evolving threat landscape by continuously creating new Nuclei templates (automated vulnerability detection signatures). Insikt Group created 27 new Nuclei templates designed to identify vulnerable systems, focusing on the most dangerous flaws. 21 out of the 27 templates corresponded to vulnerabilities that appear in CISA’s KEV catalog. In other words, the majority of Insikt Group’s detection rules were directly aligned to vulnerabilities that were known to be actively exploited in the wild.</p>
+        <p>The vendors that showed up most frequently in Insikt Group’s Nuclei templates were Fortinet, Apache, and Ivanti, which is consistent with the threat trends observed. By developing Nuclei templates for these vendors’ vulnerabilities, Insikt Group helped equip organizations to rapidly scan their infrastructure and find any unpatched instances before attackers do.</p>
+        <p>Notably, Insikt Group published 13 unique Nuclei templates that do not have an existing public template available from Project Discovery (see <strong>Figure 7</strong>). In those cases, Insikt Group authored and shared the detection logic for vulnerabilities that were not yet covered by the open-source community for Nuclei signatures, filling critical detection gaps for Recorded Future customers.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="Chart" src="https://www.recordedfuture.com/media_13e62d253ae561cbd5459ffd06f5e24ddf1cf1d8f.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="935" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong>Figure 7:</strong> Overlap of Insikt Group Nuclei templates with CISA KEV and Project Discovery</p>
+              <p>(Source: Recorded Future, CISA, Project Discovery)</p>
+            </div>
+          </div>
+        </div>
+        <p>Additionally, <strong>Figure 8</strong> shows the time between Insikt Group’s publication of a Nuclei template and the targeted vulnerability’s addition to CISA’s KEV catalog (the below chart only lists CVEs that both had a template and were added to KEV). Five vulnerabilities that were added to KEV in H1 2025 — CVE-2025-32433 (Erlang SSH), CVE-2025-24813 (Apache Tomcat), CVE-2024-41713 and CVE-2024-55550 (Mitel MiCollab), and CVE-2024-56145 (Craft CMS) — had an existing Insikt Group Nuclei template available. This means organizations leveraging Insikt Group’s detections could scan for those issues as soon as (or even before) they were formally recognized as actively exploited by CISA.</p>
+        <p>For vulnerabilities added to KEV in 2025 for which Insikt Group did not already have a Nuclei template, the average turnaround time to publish a new template was 8 days after the KEV listing.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_15f52bcf580989f13a33d9352ace9b9ac50999bdd.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="712" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 8:</strong> Timeline comparison of Insikt Group's Nuclei template releases and CISA KEV's CVE inclusions in H1 2025 (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>Furthermore, during vulnerability testing and validation, Insikt Group discovered that Apache Tomcat 8.5.x versions (specifically 8.5.0 to 8.5.98 and 8.5.100, with the exception of 8.5.99) were also vulnerable to CVE-2025-24813, even though they were not included in Apache’s initial list of affected product versions. In practice, this meant that many organizations running slightly older Tomcat 8.5 releases could have been unknowingly at risk if they only followed the vendor’s advisory. By identifying those versions and providing a Nuclei template, Insikt Group provided a detection rule and an early warning and remediation guidance beyond what the vendor had first communicated.</p>
+        <h2>Malware Trends</h2>
+        <h3>Key Takeaways</h3>
+        <ul>
+          <li>Legacy malware families such as Sality and Tofsee reemerged as top threats, with Sality ranking first in configuration-based C2 detections — a notable shift from recent infostealer-dominated trends and a sign that threat actors are repackaging older codebases for modern use.</li>
+          <li>Commodity remote access trojans (RATs) like AsyncRAT, XWorm, and Remcos were prominent in Recorded Future Triage data, including malware C2 extractions, reflecting a continued preference among threat actors for tools that support persistent access and data theft across varied intrusion campaigns.</li>
+          <li>MITRE ATT&amp;CK Tactic TA0011 (Command and Control) was the most frequently observed TTP across Recorded Future Triage submissions and Insikt Group reporting, with over 194,000 events recorded in H1 2025. Other commonly used techniques included data encryption, local data theft, and credential abuse, highlighting the emphasis on monetization and lateral movement.</li>
+          <li>Ransomware threat actors adopted new TTPs across the attack chain, including ClickFix-based social engineering for initial access, EDR evasion via BYOI techniques, and custom payloads using JIT hooking and memory injection to bypass detection. Ransomware threat actors also used legitimate tools for persistence, data theft, and stealthy C2.</li>
+          <li>Magecart infections remained elevated, with threat actors continuing to abuse Google Tag Manager (GTM), obscure HTML tags, and even CSS ::before content properties to deploy modular e-skimmers on e-commerce platforms while evading content security policies.</li>
+        </ul>
+        <h3>Botnets and the Return of Legacy Malware in C2 Detections</h3>
+        <p>Recorded Future identifies command-and-control (C2) servers based on malware configurations extracted from samples submitted to Recorded Future Triage. References to malware families in C2 detections in H1 2025 show major changes compared to H1 2024 in terms of prevalent malware families. Infostealers remain a cornerstone of the threat landscape, consistent with most threat actors’ financial motivations, as stolen credentials, payment data, and crypto wallets can be <a href="https://www.recordedfuture.com/research/h1-2024-malware-and-vulnerability-trends-report">monetized</a> directly or sold on dark web markets. However, the specific malware driving these C2 detections has shifted. Several of H1 2024’s top ten malware (Vidar, RedLine Stealer, and LokiBot, for example) have largely fallen off in 2025, owing in part to disruptive operations and law enforcement actions, while other malware families surged or emerged to take their place.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="Chart" src="https://www.recordedfuture.com/media_13828fa4611725b145446a5a63f4ec522c8d3c36b.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="888" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 9:</strong> The top ten malware families by number of references to C2 detections in H1 2025 and H1 2024 (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>H1 2025’s C2 detections also highlight the enduring presence of long-lived malware. Sality, a polymorphic botnet first seen in 2003, remains in the top tier after a major <a href="https://go.recordedfuture.com/hubfs/reports/cta-2024-0910.pdf#:~:text=server%20configurations%2C%20a%20behavior%20previously,ongoing%20prevalence%20of%20legacy%20malware">resurgence</a> in 2024, demonstrating the resilience of legacy threats. Likewise, the Tofsee trojan (active for over a decade) appears among the top families. Tofsee is a modular backdoor <a href="https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-malware/tofsee-malware/#:~:text=Tofsee%20is%20a%20modular%20trojan,modules%20to%20perform%20various%20functions">capable</a> of spamming, DDoS attacks, cryptomining, and more, and its continued activity further demonstrates how older malware can persist as a steady backbone of criminal operations. The presence of these botnets, even as their absolute reference counts are far below last year’s peak levels, indicates that threat actors still find value in exploiting well-established malware infrastructure that has stood the test of time. Notably, Sality’s and Tofsee’s ongoing use suggests that some attackers favor legacy tools either for their reliability or simply to target less-protected systems, even amid a constant influx of new malware. This mirrors the trend <a href="https://go.recordedfuture.com/hubfs/reports/cta-2024-0910.pdf#:~:text=server%20configurations%2C%20a%20behavior%20previously,ongoing%20prevalence%20of%20legacy%20malware">observed</a> in H1 2024 with Sality’s reappearance, reinforcing that “outdated” malware can remain unexpectedly prevalent.</p>
+        <p>Meanwhile, last year’s infostealer frontrunner LummaC2 has seen a precipitous decline, likely a consequence of coordinated <a href="https://www.darkreading.com/remote-workforce/lummac2-fractures-acreed-malware-top-dog">takedowns</a> by law enforcement agencies. In late May 2025, an international operation <a href="https://www.darkreading.com/remote-workforce/lummac2-fractures-acreed-malware-top-dog">seized</a> LummaC2’s infrastructure — over 2,300 domains — and wiped its main server, severely disrupting this malware-as-a-service. As a result, LummaC2 all but vanished from the top ranks for H1 2025, echoing RedLine Stealer’s massive drop-off following the April 2023 GitHub repository <a href="https://www.securityweek.com/takedown-of-github-repositories-disrupts-redline-malware-operations/#:~:text=Working%20together%20with%20SaaS%20platform,drop%20resolvers">takedown</a> that broke RedLine’s C2 panels. However, Insikt Group recently discovered that LummaC2 operators have begun to reestablish infrastructure using Cloudflare-based C2 domains, signaling at least a partial operational recovery. Multiple new domains tied to LummaC2, observed as recently as mid-July 2025, resolve to Cloudflare IP addresses — a shift back to previous tactics following an initial pivot away from the provider after the takedown. This rapid pivot highlights the underlying resilience and <a href="https://www.recordedfuture.com/research/behind-the-curtain-how-lumma-affiliates-operate">adaptability</a> of LummaC2’s operators, who appear capable of reconstituting infrastructure and tactics even in the wake of extensive disruption.</p>
+        <p>Another development in H1 2025 is the increased prominence of remote access trojans (RATs) in C2 detections. Several commodity RAT families, including Remcos, AsyncRAT, and XWorm, climbed into the top ten this period. These RATs are freely or cheaply available and grant attackers hands-on control over compromised systems, making them versatile for espionage and data theft and as launchpads for ransomware. The ascent of these RATs suggests that many threat actors are leveraging RATs to maintain persistent, interactive access in victim environments, an approach favored by financially motivated groups and advanced actors alike. Their growing share in C2 detections may also imply that, as some infostealing services were disrupted, adversaries pivoted to using RATs, which often include info-stealing capabilities, as an alternative means to achieve similar goals.</p>
+        <p>Overall, the C2 detection trends of H1 2025 reflect an evolving threat landscape that is both dynamic and cyclical. While Insikt Group observes constant churn at the top, some long-standing threats and tools never truly disappear but persist or resurge in cycles, contributing steadily to the baseline of malicious activity. Financially motivated actors remain dominant, favoring infostealers and RATs that directly feed their profit motives. H1 2025’s C2 detections were defined by a revival of credential-stealing trojans amid a backdrop of resilient legacy botnets and increased reliance on RATs for interactive control. These trends underscore that defenders must be prepared for both cutting-edge malware and the enduring tactics of established threats moving into the latter half of 2025 and beyond.</p>
+        <h3>Malware TTP Trends and Insights</h3>
+        <p>Between January and June 2025, Recorded Future's Insikt Group analyzed and aggregated thousands of malware-related observations to identify the top tactics, techniques, and procedures (TTPs) employed by threat actors mapped to the MITRE ATT&amp;CK® framework. This data is sourced from Recorded Future Triage public sandbox submissions and Insikt Group reporting. Leading the list by a significant margin is the Command and Control (TA0011) tactic, with over 194,000 observations, highlighting its central role in enabling adversary communication with compromised systems.</p>
+        <p>Frequently observed TTPs include Data Encrypted for Impact (T1486), indicative of widespread ransomware activity, and Data from Local System (T1005), pointing to persistent data theft operations. Initial Access (TA0001) techniques such as Valid Accounts (T1078) and External Remote Services (T1133) were also highly represented, indicating adversary focus on stealing credentials and then using them to gain access via external-facing remote services. External Remote Services is also a persistence technique, discussed later in this section.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1b05bb181e791a9aa6bd4387bab22f4ad33a99c9f.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="956" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 10:</strong> The top ten TTPs in H1 2025 based on Recorded Future Triage and Insikt Group reporting (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>Insikt Group observed ClickFix as a prominent, emerging initial access technique in H1 2025. ClickFix is a social engineering technique that tricks users into running malicious scripts by presenting deceptive error messages or verification instructions, either prompting them to paste and execute commands manually or by using clipboard hijacking to automate the process. First <a href="https://www.group-ib.com/blog/clickfix-the-social-engineering-technique-hackers-use-to-manipulate-victims/">identified</a> in October 2023, the technique gained significant traction in the latter half of 2024, with its use <a href="https://www.welivesecurity.com/en/eset-research/eset-threat-report-h1-2025/">surging</a> by 517% year-over-year during the first half of 2025, according to ESET.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1ee1fae41d379a0c8ee89ebf7d3d296cbcbe68aa6.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="893" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 11:</strong> Illustration of ClickFix social engineering attack chain (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>Further, the presence of Compromise Accounts (T1586) and External Remote Services (T1133) suggests adversaries are focusing on persistence and remote access. The technique Remote Services (T1021) supports lateral movement, while the tactics Execution (TA0002) and Defense Evasion (TA0005) round out the top ten, showcasing the breadth of tactics malware operators employ to infiltrate, persist, and evade detection across networks.</p>
+        <div>
+          <div>
+            <div>
+              <p>Cryptominer</p>
+              <p>
+                <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_15a02110842c156265a6f70f993b35d63cf0a55e8.png?width=750&amp;format=png&amp;optimize=medium" width="1200" height="1200" />
+              </p>
+            </div>
+            <div>
+              <p>RAT</p>
+              <p>
+                <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1e6123e046fec5f07fed862d9e1d31009b81c8144.png?width=750&amp;format=png&amp;optimize=medium" width="811" height="1201" />
+              </p>
+            </div>
+            <div>
+              <p>Stealware</p>
+              <p>
+                <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_11e08e0a36850a51127bb557dfe2accbe38a6a460.png?width=750&amp;format=png&amp;optimize=medium" width="1193" height="1073" />
+              </p>
+            </div>
+            <div>
+              <p>Offensive Security Tool</p>
+              <p>
+                <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_10ade623698fc84dcab142755cb747e32b5402ef5.png?width=750&amp;format=png&amp;optimize=medium" width="1200" height="1200" />
+              </p>
+            </div>
+            <div>
+              <p>Botnet</p>
+              <p>
+                <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_180c46be1daf0a859f11a205f58486b41c3fe61b9.png?width=750&amp;format=png&amp;optimize=medium" width="1191" height="1142" />
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>XMRig</div>
+            <div>
+              <p>njRAT</p>
+              <p>DCRat</p>
+              <p>XWorm</p>
+              <p>AsyncRAT</p>
+            </div>
+            <div>
+              <p>RedLine</p>
+              <p>LummaC2</p>
+              <p>Stealc</p>
+            </div>
+            <div>Cobalt Strike</div>
+            <div>Mirai</div>
+          </div>
+        </div>
+        <p><strong>Table 1:</strong> The top ten malware families in H1 2025 based on Recorded Future Triage public sandbox data (Source: Recorded Future)</p>
+        <p>Based on Recorded Future Triage public sandbox data, from January to June 2025, XMRig Miner was the most-submitted malware family. XMRig Miner is a multi-stage cryptojacking tool, typically delivered via <a href="https://securelist.com/starydobry-campaign-spreads-xmrig-miner-via-torrents/115509/">malicious loaders</a> or <a href="https://thehackernews.com/2025/03/hackers-exploit-severe-php-flaw-to.html">exploits</a>, that covertly hijacks CPU resources to mine Monero (XMR), and <a href="https://www.gdatasoftware.com/blog/2025/07/38228-monero-malware-xmrig-resurgence">employs</a> evasion and persistence mechanisms to avoid detection and maximize uptime. Throughout H1 2025, Cobalt Strike, njRAT, DCRat, and XWorm rounded out the top five for public submissions to Recorded Future Triage.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="Chart" src="https://www.recordedfuture.com/media_18e9baa61de693c2cf2726272c28dca41a46aa423.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="789" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 12:</strong> The top ten ransomware families in H1 2025 based on Recorded Future Triage public sandbox data (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>Based on Recorded Future Triage public sandbox data, from January to June 2025, LockBit was the most-submitted ransomware family, followed by Chaos, Akira, Xorist, and Agenda (Qilin). LockBit is a notorious ransomware family that has remained operational despite significant law enforcement efforts to dismantle it, notably through "Operation Cronos" in early 2024, which aimed to disrupt its infrastructure. Babuk and Chaos had source code leaked in <a href="https://therecord.media/babuk-source-code-leak-leads-to-new-ransomware-variants">June 2021</a> and <a href="https://blog.talosintelligence.com/code-leaks-new-ransomware-actors/">April 2022</a>, respectively. This makes them more widely accessible for reuse, leading to the development of numerous variants, which likely contribute to their prevalence in Recorded Future Triage data.</p>
+        <h3>Mobile Malware</h3>
+        <h4>An Ever-Expanding Landscape</h4>
+        <p>The mobile threat landscape continued to expand during the first half of 2025. Insikt Group identified at least eleven new malware strains, including RATs, infostealers, and spyware, and ongoing use or resurgence of nine others, including the multi-platform spyware Graphite, LightSpy, and Predator.</p>
+        <div>
+          <div>
+            <div>
+              <p>Banking Trojan</p>
+              <p>
+                <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1dc49273de615a19dc154d44549b01e81a53ae2c0.png?width=750&amp;format=png&amp;optimize=medium" width="1015" height="1201" />
+              </p>
+            </div>
+            <div>
+              <p>RAT</p>
+              <p>
+                <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1e6123e046fec5f07fed862d9e1d31009b81c8144.png?width=750&amp;format=png&amp;optimize=medium" width="811" height="1201" />
+              </p>
+            </div>
+            <div>
+              <p>Spyware</p>
+              <p>
+                <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1cd2e33a1b1bb2aff62f974ccfd062205c32d9563.png?width=750&amp;format=png&amp;optimize=medium" width="1200" height="1200" />
+              </p>
+            </div>
+            <div>
+              <p>Stealware</p>
+              <p>
+                <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_11e08e0a36850a51127bb557dfe2accbe38a6a460.png?width=750&amp;format=png&amp;optimize=medium" width="1193" height="1073" />
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <p>NEW</p>
+              <p>Crocodilus<br />SuperCard X<br />TsarBot</p>
+            </div>
+            <div>
+              <p>NEW</p>
+              <p>BTMOB</p>
+              <p>Gorilla</p>
+            </div>
+            <div>
+              <p>NEW</p>
+              <p>Android.Spy.1292.origin<br />SpyLend</p>
+            </div>
+            <div>
+              <p>NEW</p>
+              <p>Dcpro</p>
+              <p>Salvador Stealer</p>
+              <p>SparkKitty</p>
+              <p>Tria Stealer</p>
+            </div>
+          </div>
+          <div>
+            <div>RESURGENT / ONGOING</div>
+            <div>RESURGENT / ONGOING</div>
+            <div>RESURGENT / ONGOING</div>
+            <div>RESURGENT / ONGOING</div>
+          </div>
+          <div>
+            <div>
+              <p>GodFather</p>
+              <p>Marcher<br />TgToxic</p>
+            </div>
+            <div>PJobRAT<br />Triada</div>
+            <div>
+              <p>Graphite</p>
+              <p>LightSpy</p>
+              <p>Predator</p>
+            </div>
+            <div>SparkCat</div>
+          </div>
+        </div>
+        <p><strong>Table 2:</strong> Overview of newly identified and previously known mobile malware in H1 2025 (Source: Recorded Future)</p>
+        <p>Several interrelated factors likely explain the continued expansion of the mobile threat landscape. The <a href="https://www.mckinsey.com/industries/financial-services/our-insights/the-state-of-retail-banking-profitability-and-growth-in-the-era-of-digital-and-ai">increased</a> <a href="https://www.gsma.com/sotir/wp-content/uploads/2025/04/The-State-of-the-Industry-Report-2025_English.pdf">adoption</a> of <a href="https://www.aba.com/news-research/analysis-guides/preferred-banking-methods">mobile devices</a> for mobile banking and in corporate environments offers financially motivated threat actors an even larger attack surface. Particularly attractive is the <a href="https://www.infosecurity-magazine.com/news/50-mobile-devices-run-outdated/">prevalence</a> of vulnerable mobile devices powered by outdated operating systems that lack the latest security patches.</p>
+        <p>The return of Predator was likely <a href="https://www.recordedfuture.com/research/predator-still-active-new-links-identified">sustained</a> by continued commercial demand despite international scrutiny. Similarly, Graphite was <a href="https://citizenlab.ca/2025/06/first-forensic-confirmation-of-paragons-ios-mercenary-spyware-finds-journalists-targeted/">detected</a> on devices belonging to European journalists, <a href="https://www.amnesty.org/en/latest/news/2025/06/italy-new-case-of-journalist-targeted-with-graphite-spyware-confirms-widespread-use-of-unlawful-surveillance/">indicating</a> ongoing misuse in targeted surveillance. Lastly, new <a href="https://hunt.io/blog/lightspy-malware-targets-facebook-instagram#Findings">detections</a> of LightSpy, a spyware <a href="https://www.kaspersky.com/blog/lightspy-watering-hole-attack/34501/">linked</a> to Chinese state-sponsored surveillance in Hong Kong, almost certainly indicate sustained regional espionage efforts against mobile users.</p>
+        <h4>Threat Actors Favor Fake Downloads, Abuse Official Stores, and Exploit Supply Chains</h4>
+        <p>Threat actors consistently relied on long-established TTPs to deliver mobile malware, primarily combining social engineering tactics like smishing and vishing, with fake downloads and brand impersonation to lure victims into installing malicious APKs. Campaigns often featured phishing pages and malware payloads mimicking <a href="https://www.proofpoint.com/us/blog/threat-insight/update-fake-updates-two-new-actors-and-new-mac-malware">popular browsers</a>, <a href="https://s2w.inc/en/resource/detail/780?utm_source=twitter&amp;utm_medium=social-posts&amp;utm_campaign=ti-reports&amp;utm_term=malware&amp;utm_content=docswap">cryptocurrency platforms</a>, <a href="https://cyble.com/blog/tsarbot-using-overlay-attacks-targeting-bfsi-sector/">financial apps</a>, <a href="https://zimperium.com/blog/from-lock-screen-to-wallets-btmob-rat-now-targets-alipay-pins">streaming services</a>, and <a href="https://www.ctfiot.com/243403.html">official app stores</a>. In more targeted cases, attackers tailored lures to specific victims, as exemplified by Android.Spy.1292.origin, which <a href="https://news.drweb.com/show/?i=15006&amp;lng=en&amp;c=5">targeted</a> Russian military personnel by impersonating Alpine Quest Pro, a GPS and topographic mapping app reportedly used by both civilians and Russian military personnel.</p>
+        <p>Threat actors also employed less common but effective distribution methods, including abusing Google Play to deliver malware. While increasingly <a href="https://blog.google/products/google-play/keeping-google-play-safe-2025/">robust</a> security measures have made delivering malware through official app stores more difficult, adversaries continued to find workarounds. SpyLend, for example, <a href="https://www.cyfirma.com/research/spylend-the-android-app-available-on-google-play-store-enabling-financial-cyber-crime-extortion/">posed</a> as “Finance Simplified” and evaded detection by offloading the malicious payload via external download links. Additionally, in a rare supply-chain compromise, a new variant of the Triada RAT was <a href="https://www.kaspersky.ru/about/press-releases/novaya-versiya-triada-kradyot-kriptovalyutu-akkaunty-v-messendzherah-i-podmenyaet-nomera-telefonov-vo-vremya-zvonkov">discovered</a> pre-installed on counterfeit Android devices sold via unauthorized retailers.</p>
+        <h4>Accessibility Service Abuse With a Twist</h4>
+        <p>Once installed, Android-targeting malware frequently abused the brand’s Accessibility services, a <a href="https://www.bitdefender.co.uk/blog/hotforsecurity/accessibility-service-an-android-blessing-and-a-security-challenge-in-the-same-package/">long-standing</a> TTP that grants broad control over infected devices. Android malware <a href="https://www.threatfabric.com/blogs/exposing-crocodilus-new-device-takeover-malware-targeting-android-devices">abused</a> the functionality to <a href="https://cyble.com/blog/tsarbot-using-overlay-attacks-targeting-bfsi-sector/">steal</a> <a href="https://cyble.com/blog/btmob-rat-newly-discovered-android-malware/">sensitive</a> <a href="https://securelist.com/sparkcat-stealer-in-app-store-and-google-play/115385/">information</a> through overlay attacks, intercept text messages and push notifications, perform keylogging, screen and audio recording, and OCR-based image scanning, and ultimately take over the device to facilitate so-called “on-device fraud.”</p>
+        <p>The Android trojan GodFather stood out during the reporting timeframe for introducing a new overlay technique. While still abusing Android’s Accessibility services, a new iteration of GodFather <a href="https://zimperium.com/blog/your-mobile-app-their-playground-the-dark-side-of-the-virtualization">identified</a> in June 2025 was observed employing a virtualization-based overlay technique that combined open-source hooking frameworks such as Xposed with sandboxed app environments. This approach differs from traditional overlay attacks by using VirtualApp to create a virtualized environment that runs cloned banking apps without installing or modifying them on the device, effectively bypassing standard overlay detection mechanisms.</p>
+        <h4>Threats to Contactless Payments Continue to Rise</h4>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_199e894e6cd0d1faf691fc5e9d9ef345e45171af8.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1332" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 13:</strong> Illustration of NFC-relay attack flow (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>In the first half of 2025, mobile malware posed a growing threat to contactless payment systems, exemplified by the <a href="https://www.cleafy.com/cleafy-labs/supercardx-exposing-chinese-speaker-maas-for-nfc-relay-fraud-operation">emergence</a> of SuperCard X, a Chinese-language MaaS platform targeting Android devices. The malware enables threat actors to conduct NFC relay fraud by tricking victims into tapping their contactless cards against compromised phones. Once a card is tapped, SuperCard X captures the NFC signal and relays it to a remote device controlled by the attacker, facilitating fraudulent transactions or ATM withdrawals. Its functionality closely mirrors that of NFCGate, an open-source tool <a href="https://github.com/nfcgate/nfcgate">developed</a> in 2020, and shares similarities with NGate, an Android malware <a href="https://www.welivesecurity.com/en/eset-research/ngate-android-malware-relays-nfc-traffic-to-steal-cash/">linked</a> to NFC-based attacks in the Czech Republic during 2024, indicating likely code reuse or conceptual overlap.</p>
+        <p>Notably, the use of NFCGate-style techniques in real-world attacks has grown steadily. In January 2025, Russian cybersecurity firm F6 <a href="https://www.f6.ru/blog/nfcgate/">reported</a> more than 100 such NFC relay attacks during 2024, with estimated losses of approximately $400,000. In a follow-up report from April 2025, F6 <a href="https://www.f6.ru/blog/reverse-nfcgate/">documented</a> an additional 40 successful NFCGate-based attacks, with an average loss of approximately $1,500.</p>
+        <h3>Ransomware</h3>
+        <h4>Ransomware Groups Innovate to Attract Affiliates Amid a Reshaped Landscape</h4>
+        <p>In the first half of 2025, the ransomware landscape continued to evolve, <a href="https://www.bleepingcomputer.com/news/security/clop-ransomware-claims-responsibility-for-cleo-data-theft-attacks/">witnessing</a> the return of CL0P after a relatively quiet 2024, with its Cleo managed file transfer (MFT) data theft campaign. This campaign potentially affected over 300 organizations globally, according to Recorded Future ransomware victim data. Alongside the continued activity of groups like Akira and Play, several lesser-known and emerging ransomware groups gained traction, likely reflecting the lingering vacuum and uncertainty that resulted from LockBit’s infrastructure <a href="https://www.europol.europa.eu/media-press/newsroom/news/law-enforcement-disrupt-worlds-biggest-ransomware-operation">takedown</a> and ALPHV’s <a href="https://therecord.media/europol-doj-nca-deny-involvement-in-alphv-blackcat-ransomware-takedown">exit scam</a> in early 2024.</p>
+        <p>Two additional events further reshaped the ransomware landscape in early 2025. These were the demise of BlackBasta in early February, which followed a <a href="https://www.trellix.com/blogs/research/analysis-of-black-basta-ransomware-chat-leaks/">leak</a> of internal chat logs, and the abrupt <a href="https://www.cybereason.com/blog/threat-alert-qilin-seizes-control">disbandment</a> of RansomHub in late March, which left victims mid-negotiation and affiliates in disarray. Insikt Group assesses that BlackBasta members likely migrated to other operations, including Akira, with whom the group had prior connections. Group-IB also <a href="https://www.group-ib.com/blog/ransomware-debris/">assessed</a> that some RansomHub affiliates may have joined Qilin, a ransomware-as-a-service (RaaS) group active since July 2022, citing a spike in victim claims, internal restructuring, and increased activity on cybercriminal forums like RAMP. Meanwhile, DragonForce, a ransomware group <a href="https://blog.barracuda.com/2025/06/09/dragonforce-ransomware-cartel-vs--everybody">active</a> since at least late 2023, <a href="https://www.guidepointsecurity.com/blog/ransomsnub-ransomhubs-affiliate-confusion/">claimed</a> to have absorbed RansomHub’s infrastructure and affiliates, potentially as a result of a <a href="https://news.sophos.com/en-us/2025/05/21/dragonforce-targets-rivals-in-a-play-for-dominance/">hostile takeover</a>. DragonForce is not averse to such aggressive tactics; the group was <a href="https://www.hipaajournal.com/lockbit-ransomware-group-hacked/">identified</a> as a potential culprit behind the May 7, 2025, defacement of LockBit’s affiliate administrative panels and leak of affiliates’ information, and the April 5, 2025, <a href="https://www.bleepingcomputer.com/news/security/everest-ransomwares-dark-web-leak-site-defaced-now-offline/">defacement</a> of Everest’s extortion blog.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="Chart" src="https://www.recordedfuture.com/media_11accbf481b1cd5ea298aa6d189b8ad856493bf52.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="823" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 14:</strong> Top ten ransomware groups by number of victims claimed in H1 2025 (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>To gain notoriety in this ever-evolving ransomware landscape, attract affiliates, and scale operations, ransomware threat actors modified their business models. In mid-March 2025, DragonForce <a href="https://news.sophos.com/en-us/2025/05/21/dragonforce-targets-rivals-in-a-play-for-dominance/">rebranded</a> as a “cartel”, launching a more flexible affiliate model and targeting other ransomware groups. Under the new model, affiliates can <a href="https://www.secureworks.com/blog/ransomware-groups-evolve-affiliate-models">use</a> DragonForce’s infrastructure and ransomware tools while operating under independent brands. DragonForce also <a href="https://blog.barracuda.com/2025/06/09/dragonforce-ransomware-cartel-vs--everybody">signaled</a> an openness to partner with or absorb other threat actors rather than just individual affiliates. For example, threat actors employing TTPs associated with Scattered Spider, a financially motivated cybercrime collective, reportedly <a href="https://www.bbc.com/news/articles/cr58pqjlnjlo">breached</a> a UK retail company and deployed DragonForce ransomware. The “cartel” approach effectively differentiates DragonForce from other RaaS offerings and is likely to appeal to a range of threat actors, broadening the group’s affiliate base and increasing potential revenue. However, it does not solve issues that have <a href="https://www.coveware.com/blog/2025/4/29/the-organizational-structure-of-ransomware-threat-actor-groups-is-evolving-before-our-eyes">plagued</a> other, more established RaaS operations. The shared infrastructure continues to introduce an element of risk: if an affiliate is compromised, other affiliates' operational and victim details could also be exposed.</p>
+        <p>Anubis, a ransomware operation first <a href="https://www.kelacyber.com/blog/anubis-a-new-ransomware-threat/">observed</a> in December 2024, used a different tactic to entice affiliates. In late February 2025, the group <a href="https://www.kelacyber.com/blog/anubis-a-new-ransomware-threat/">debuted</a> an affiliate model that features three modes. The first is a traditional RaaS model in which Anubis provides a ransomware payload and affiliates perceive 80% of any extorted ransom. The second is a data ransom model in which Anubis helps affiliates monetize sensitive data they have already stolen from target companies. The third model allows affiliates to provide Anubis operators with initial access to corporate networks in return for 50% of any extorted ransom.</p>
+        <p>Lastly, in mid-June 2025, Qilin <a href="https://blog.qualys.com/vulnerabilities-threat-research/2025/06/18/qilin-ransomware-explained-threats-risks-defenses">introduced</a> a new function dubbed “Call Lawyer,” offering affiliates legal consultation on how to intimidate victims during the negotiation phase.</p>
+        <h4>New Initial Access, Defense Evasion, and Malware Deployment Techniques</h4>
+        <p>Parallel to changes in the broader ransomware landscape and RaaS offerings, Insikt Group observed ransomware threat actors adopt new TTPs across multiple phases of the attack chain, including initial access, defense evasion, and payload deployment.</p>
+        <ul>
+          <li><strong>Initial Access:</strong> According to Sekoia, Interlock ransomware <a href="https://blog.sekoia.io/interlock-ransomware-evolving-under-the-radar/">used</a> ClickFix in social engineering attacks impersonating IT tools between January and February 2025. As mentioned in the Malware TTP Trends and Insights section of this report, ClickFix is a social engineering method that uses fake error messages or verification prompts to deceive victims into executing malicious scripts, either manually or via automatic clipboard manipulation.</li>
+        </ul>
+        <ul>
+          <li><strong>Defense Evasion:</strong> Per Palo Alto’s Unit42 and ESET, ransomware threat actors are <a href="https://unit42.paloaltonetworks.com/2025-ransomware-extortion-trends/">increasingly</a> <a href="https://www.welivesecurity.com/en/eset-research/shifting-sands-ransomhub-edrkillshifter/#leveraging-edrkillshifter">using</a> “EDR killers,” tools designed to terminate defensive software, further confirming a trend that has been <a href="https://news.sophos.com/en-us/2022/12/13/signed-driver-malware-moves-up-the-software-trust-chain/">ongoing</a> since 2022. Notably, ransomware threat actors are also employing new “bring-your-own-installer” (BYOI) techniques to disable EDR altogether. As reported by Aon, a Babuk ransomware intrusion saw the attacker <a href="https://www.aon.com/en/insights/cyber-labs/bring-your-own-installer-bypassing-sentinelone">exploiting</a> a flaw in SentinelOne’s upgrade/downgrade process to bypass its anti-tamper protections without needing the management console code. By running a legitimate installer for a different version and terminating the msiexec.exe process mid-upgrade, the attacker left the system without active EDR protection. This created a window in which Babuk ransomware could be executed on an unprotected endpoint. The bypass was confirmed to work across multiple SentinelOne versions unless the "Online Authorization" setting was enabled.</li>
+        </ul>
+        <ul>
+          <li><strong>Payload Deployment:</strong> Trend Micro <a href="https://www.trendmicro.com/en_no/research/25/e/agenda-ransomware-group-adds-smokeloader-and-netxloader-to-their.html">reported</a> that Qilin ransomware attacks used a custom and heavily obfuscated .NET-based loader dubbed NETXLOADER to deliver ransomware payloads and SmokeLoader in memory. NETXLOADER is protected by .NET Reactor. It stealthily decrypts and directly injects payloads into memory using dynamic API calls and JIT hooking to evade detection.</li>
+        </ul>
+        <p>Additionally, ransomware threat actors employed uncommon and legitimate software tools during their intrusion, almost certainly to collect data, achieve persistence, and move laterally, while avoiding detection. For example, in mid-June 2025, Symantec <a href="https://www.security.com/threat-intelligence/fog-ransomware-attack">reported</a> that a May 2025 Fog ransomware attack targeting a financial institution in Asia involved dual-use and open-source penetration testing tools not typically associated with ransomware operations. These included the following:</p>
+        <ul>
+          <li><strong>Syteca:</strong> A legitimate employee monitoring software with keylogging and screen capture capabilities, which Fog operators likely used for espionage and credential theft, followed by cleanup actions to evade detection</li>
+          <li><strong>GC2:</strong> An open-source C2 framework that uses Google Sheets or SharePoint for command execution and file exfiltration, which Fog operators likely used for remote access, persistence, and defense evasion via cloud-based communications</li>
+          <li><strong>Adaptix:</strong> An open-source post-exploitation agent similar to Cobalt Strike, which Fog operators likely used for remote access and internal lateral movement through encrypted C2</li>
+          <li><strong>Stowaway:</strong> An open-source proxy tool for creating covert communication tunnels between compromised hosts and operators, which Fog operators likely used to evade defenses by proxying communications and delivering Syteca</li>
+        </ul>
+        <p>This pattern was not unique to Fog ransomware. A July 2025 CISA report <a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a">detailed</a> Interlock ransomware campaigns that likewise repurposed legitimate tools to evade detection and maintain access. Threat actors installed AnyDesk, a remote monitoring and management application, to preserve access and facilitate file transfers, and used PuTTY, a widely used SSH client, to establish tunnels for covert communications and pivot between compromised systems.</p>
+        <p>Incorporating commercially available and dual-use software into their intrusion workflows, ransomware threat actors can blend in with routine administrative activity, making malicious actions less likely to trigger security alerts. This continued adoption of legitimate or dual-use software by ransomware actors underscores a broader trend toward intrusion methods designed to evade detection while enabling adaptable, multi-purpose operations inside victim networks.</p>
+        <h3>Magecart Infections Remained High in H1 2025</h3>
+        <p>In the first half of 2025, Magecart e-skimming continued to threaten online merchants at scale. Infection volumes remained near the record highs seen in late 2024, albeit with a slight decline from the peak. Thousands of e-commerce domains were impacted in H1 2025, keeping Magecart a widespread concern for payment security. This sustained activity follows an unprecedented <a href="https://www.recordedfuture.com/research/annual-payment-fraud-intelligence-report-2024#:~:text=Magecart%20E">spike</a> in Magecart incidents during 2024, when the number of affected e-commerce domains roughly tripled compared to 2023. That surge was largely driven by the <a href="https://www.recordedfuture.com/research/annual-payment-fraud-intelligence-report-2024#:~:text=Magecart%20E">exploitation</a> of a critical Adobe Commerce (Magento) vulnerability dubbed CosmicSting (CVE-2024-34102), which enabled mass compromise of merchant websites. Organized threat groups also amplified the outbreak; for example, one Magecart group (known as “Burunduki”) alone infected over 200 online stores globally in late 2024. By early 2025, patches and defensive measures began curbing the CosmicSting-fueled wave, but overall Magecart infection rates remained significantly elevated above early 2024 levels.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_13465e3a8dc32f8f6c1f5d88798326a3c3b664e19.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="846" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 15:</strong> Illustration of Magecart skimming attack flow (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>Magecart operators in H1 2025 continued to leverage malware kits and tactics introduced in the prior year, while also expanding into new platforms. Out-of-the-box e-skimmer kits such as “Sniffer by Fleras”, first <a href="https://www.recordedfuture.com/research/annual-payment-fraud-intelligence-report-2024#:~:text=Magecart%20E">observed</a> in 2024, remained active in compromises of online stores. Meanwhile, attackers broadened their focus beyond Magento; notably, Magecart skimmers extended to WordPress-based retail sites by <a href="https://socradar.io/magecart-skimmer-attack-targets-woocommerce-and-authorize-net-payment-gateway-plugin/#:~:text=Online%20transactions%20ease%20our%20daily,WordPress%20environments%2C%20particularly%20those%20using%C2%A0WooCommerce">exploiting</a> WooCommerce plugins. These campaigns underline how Magecart techniques have widened in scope, targeting a broader range of e-commerce platforms rather than just traditional Magento stores.</p>
+        <p>Finally, Magecart skimming techniques continued to evolve in H1 2025. Threat actors experimented with more covert loading methods to evade detection. In one example, attackers <a href="https://securityboulevard.com/2025/05/new-breed-of-magecart-gtms-working-together-javascript-hidden-in-css/">used</a> a modular chain of Google Tag Manager (GTM) containers, where one container loaded a fake CSS file that embedded JavaScript within a ::before content property. A second GTM container then extracted and executed this hidden code by targeting a specific &lt;link&gt; element in the Document Object Model (DOM), initiating a WebSocket connection for real-time data exfiltration. These technical refinements underscore the adaptability of Magecart operations and the ongoing need for vigilant web security measures.</p>
+        <h2>Mitigations</h2>
+        <p>Organizations can use the following measures to mitigate the threats discussed in this report.</p>
+        <h3>Vulnerability Exploitation</h3>
+        <ul>
+          <li><strong>Recorded Future Vulnerability Intelligence:</strong> Recorded Future customers can use <a href="https://www.recordedfuture.com/products/vulnerability-intelligence">Vulnerability Intelligence</a> to gain timely and comprehensive insights into publicly and privately known vulnerabilities tailored to specific security needs that can help prioritize remediation measures. With Vulnerability Intelligence, customers also gain access to Nuclei templates created by Insikt Group, enabling proactive scanning and rapid detection of emerging vulnerabilities.</li>
+          <li><strong>Recorded Future Attack Surface Intelligence:</strong> Recorded Future customers can use external <a href="https://www.recordedfuture.com/products/attack-surface-intelligence">Attack Surface Intelligence</a> to maintain real-time visibility into network assets, prioritize exposures to remediate, and enforce security controls.</li>
+        </ul>
+        <ul>
+          <li><strong>Asset and Exposure Inventory:</strong> Conduct regular inventories of all internet-facing hosts, including remote access appliances, edge devices, and third-party software. Prioritize monitoring gateway-layer products (such as SSL-VPNs, firewalls, and virtualization underlays), which were frequently exploited in H1 2025. Run scheduled scans to identify shadow IT assets and newly exposed services to fill critical security gaps.</li>
+        </ul>
+        <ul>
+          <li><strong>Agile Patch Management:</strong> Develop and enforce rapid patch deployment workflows for vulnerabilities with known public PoCs or active exploitation. Prioritize vulnerabilities that are remotely exploitable, require no authentication, or affect widely deployed software (such as Microsoft, Ivanti, or Fortinet). When immediate patching is not possible, apply mitigation controls (such as WAF rules or IPS signatures) and restrict access to the affected service.</li>
+        </ul>
+        <ul>
+          <li><strong>Harden Internet-Facing and Security Appliances:</strong> Enforce multi-factor authentication on all administrative interfaces and disable unused or legacy services (such as insecure SSH or Telnet). Segregate edge-device management networks from production networks, and restrict the internal subnets a compromised VPN or firewall can reach.</li>
+        </ul>
+        <h2>Malware Intrusions</h2>
+        <ul>
+          <li><strong>Recorded Future Hunting Packages:</strong> Recorded Future customers can implement Hunting Packages developed by Insikt Group to monitor for intrusions associated with prominent malware families.</li>
+        </ul>
+        <ul>
+          <li><strong>EDR, Heuristic, and Behavior-Based Analysis:</strong> Implement heuristic and behavior-based analysis through EDR solutions to detect and respond to threat actor TTPs, such as JIT hooking, protected payloads, and memory injection. Ensure that EDR tools are not only deployed but also actively monitored and updated.</li>
+          <li><strong>Application Allowlisting and Script Control:</strong> Enforce strict application allowlisting and execution control policies to prevent unauthorized script executions.</li>
+          <li><strong>Employee Education:</strong> Educate employees on the latest delivery and execution techniques prominent malware use to spread, such as new or updated social engineering lures like ClickFix.</li>
+        </ul>
+        <h2>Magecart Attacks</h2>
+        <ul>
+          <li><strong>Recorded Future Payment Fraud Intelligence:</strong> Recorded Future customers can use <a href="https://www.recordedfuture.com/products/payment-fraud-intelligence">Payment Fraud Intelligence</a> to monitor ongoing Magecart e-skimmer infections, stay current with the latest Magecart TTPs, enhance prevention strategies, and take action on compromised cards before fraud occurs.</li>
+        </ul>
+        <ul>
+          <li><strong>Regular Security Audits and Vulnerability Scanning:</strong> Conduct security audits and automated vulnerability scans regularly to identify and remediate vulnerabilities affecting the technologies underpinning e-commerce websites.</li>
+        </ul>
+        <ul>
+          <li><strong>Content Security Policy (CSP):</strong> Deploy and update a strict CSP to control resources loaded on e-commerce websites and prevent the execution of unauthorized scripts.</li>
+        </ul>
+        <ul>
+          <li><strong>Third-Party Integrations Monitoring:</strong> Frequently audit and secure all third-party scripts and integrations used on e-commerce websites. Monitor and restrict access to these integrations to prevent unauthorized modifications.</li>
+        </ul>
+        <ul>
+          <li><strong>Enforce PCI DSS 4.0 Requirements 6.4.3 and 11.6.1:</strong> As of March 31, 2025, requirements 6.4.3 and 11.6.1 are now mandatory for organizations handling payment card data. These provisions require a documented inventory of all payment‑page scripts, explicit authorization and business justification for each script, integrity monitoring, and real-time change detection with alerts for unauthorized modifications.</li>
+        </ul>
+        <h2>Outlook</h2>
+        <p>In the remainder of 2025, Insikt Group assesses that exploitation of edge-security appliances, remote access tools, and other gateway-layer software will almost certainly remain a top priority for both state-sponsored and financially motivated threat actors. The strategic value of these systems — acting as intermediaries for encrypted traffic and privileged access — makes them high-reward targets. As seen in H1 2025, vulnerabilities in products from Microsoft, Fortinet, Ivanti, and others continue to be exploited even after public disclosure, particularly when PoC code becomes available. Insikt Group expects this trend to accelerate, especially given the growing lag between vulnerability disclosure and patch implementation across enterprises.</p>
+        <p>Given its steep adoption curve, Insikt Group assesses that ClickFix will almost certainly remain a favored initial access technique through the rest of 2025. Unless widespread mitigations or awareness campaigns reduce its effectiveness, the technique’s ease of deployment and efficacy will likely sustain its prevalence in the near term.</p>
+        <p>Malware development is also expected to continue along two concurrent paths: the repurposing of legacy code and the refinement of stealth techniques. The resurgence of Sality and Tofsee, alongside more advanced loaders and evasive delivery mechanisms like JIT hooking, suggests that actors will continue blending old tools with modern obfuscation to defeat signature-based defenses. Insikt Group anticipates that commodity RATs will remain prominent due to their accessibility and versatility for persistent access and data theft.</p>
+        <p>Mobile malware will likely play an increasingly important role in cybercriminal operations, particularly with the growth of contactless payment fraud and virtualization-based evasion techniques. Threat actors will almost certainly continue targeting mobile banking and NFC technologies, leveraging both fake app distribution and supply-chain compromises to infect devices at scale.</p>
+        <p>In the ransomware ecosystem, Insikt Group expects to see continued experimentation with business models and affiliate structures. “Cartel”-style approaches, such as those introduced by DragonForce, alongside flexible affiliate tiers and services like legal intimidation support, are likely to gain traction as groups seek differentiation and resilience in a post-LockBit landscape. Parallel innovation in defense evasion and deployment, including BYOI exploits and password-protected payloads, will likely persist as defenders improve endpoint and network monitoring.</p>
+        <p>Magecart activity is expected to remain steady or increase in sophistication through the end of 2025. With e-commerce remaining a lucrative target, threat actors will likely adopt even more modular and covert skimming methods, abusing legitimate services like Google Tag Manager or exploiting under-patched plugins across platforms like WooCommerce. Continued abuse of obscure HTML tags, CSS properties, and obfuscated JavaScript delivery mechanisms is likely as attackers aim to bypass increasingly strict content security policies.</p>
+        <p>Overall, the H1 2025 trends suggest that defenders must prepare for a hybrid threat environment in which aging malware resurfaces alongside cutting-edge delivery chains and mobile platforms and edge systems become focal points of exploitation. Cross-platform visibility, tighter app and gateway security, and proactive intelligence integration will be critical to managing these evolving risks through the second half of the year.</p>
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+    ]]></content:encoded>
+            <category>Research (Insikt)</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_1229ac62a846d9b9e83d22ef5dd13ebbcc99bbc6a.gif?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
         <item>
             <title><![CDATA[One Step Ahead: Stark Industries Solutions Preempts EU Sanctions]]></title>
             <link>https://www.recordedfuture.com/research/one-step-ahead-stark-industries-solutions-preempts-eu-sanctions</link>
@@ -9111,41 +9582,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Research (Insikt)</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_1ec6386a9d80f81a87dcd7c0eb76adf265714e399.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[Taiwan Invasion Risk: Business Contingency Plans for 2025-2049]]></title>
-            <link>https://www.recordedfuture.com/research/risk-taiwan-invasion-rising</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/research/risk-taiwan-invasion-rising</guid>
-            <pubDate>Wed, 21 Jan 1970 03:08:38 GMT</pubDate>
-            <description><![CDATA[Prepare your business for potential geopolitical disruptions from a Taiwan invasion. Assess evolving risks, global economic impacts, and strategic measures to safeguard supply chains and critical operations in Asia.]]></description>
-            <content:encoded><![CDATA[
-        <p>
-          <img loading="lazy" alt="insikt-group-logo-updated-3-300x48.png" src="https://www.recordedfuture.com/media_17759d8b91bf0c9106a0fa82007bef7e3316158b4.png?width=750&amp;format=png&amp;optimize=medium" width="300" height="48" />
-        </p>
-        <h2>Executive Summary</h2>
-        <p>Businesses should now begin making preparatory investments to establish contingency plans in case of a Taiwan invasion, especially if they operate in Taiwan or China, rely heavily on supply chains or shipping in Asia, or are located in countries likely to oppose China’s geopolitical objectives. While an invasion in the short term (2025–2026) is currently unlikely, the factors informing Insikt Group’s assessment are rapidly evolving. Beginning in 2027 and continuing through the long term (2027–2049), the risk of an invasion will very likely continue to increase, though it is not inevitable that an invasion will occur. In the short term, China is almost certain to continue its current coercive efforts, including major military exercises and incursions into maritime and air spaces near Taiwan, while seeking ways to incrementally escalate such coercion below the level of an invasion. In these efforts, China is likely to initiate a temporary law enforcement-led quarantine and a disruptive cyber campaign against Taiwan’s critical infrastructure​​.</p>
-        <p>Our assessment is based on a range of behaviors and trends across China, Taiwan, and the United States (US), as described in the <strong>Key Findings</strong> below, and in consideration of China’s broader geopolitical context (see <strong>Appendix A</strong>). Fundamentally, in the short term, we assess that — absent a specific catalyst that leads to war (such as if Taiwan were to declare formal independence) — the Chinese Communist Party (CCP) leadership is very likely to remain focused on improving domestic conditions and strengthening preparations for navigating tensions with the US, a potential invasion of Taiwan, or other conflict with foreign powers (such as over the South China Sea). In the long term, we assess that China will likely have established a level of preparedness across the military, economic, social, and other domains by 2027 that would enable its leadership to invade Taiwan as a “war of choice” (rather than in response to a specific catalyst) while minimizing associated costs and risks.</p>
-        <p>Our assessment is generally aligned with public statements by Taiwan and US government and military officials since the start of 2023, both of which emphasize active preparations regardless of speculation about specific timelines. More specifically, Taiwan officials express that an invasion is currently unlikely despite the potential for a diversionary war to distract from China’s domestic economic challenges. They also highlight weaknesses in the People’s Liberation Army’s (PLA’s) amphibious capability while recognizing the PLA could likely execute a blockade of Taiwan — the foremost alternative to an invasion. US officials express that an invasion is not imminent or inevitable, but that the risk is increasing and that China’s forces are on track to meet their modernization and readiness goals.</p>
-        <p>An invasion would almost certainly severely impact the global economy, disrupting critical shipping lanes, devastating the semiconductor industry, and imposing broad costs on Taiwan, China, and potentially the US. Businesses likely to be affected by a Taiwan invasion scenario should consider taking steps such as building relationships with potential alternative suppliers outside of Asia, evaluating the purchase of war risk insurance, conducting scenario-based stress tests to identify vulnerabilities in operations and investments, maintaining encrypted offline backups of key computer systems and data, isolating high-value computer systems to limit an adversary’s lateral movement in case of a breach, and purchasing a geopolitical threat intelligence capability to support ongoing monitoring of the Taiwan issue (additional recommendations can be found in the <strong>Preparing for Potential Global Economic Disruption</strong> section of this report). Indicators of escalation to support monitoring are provided in <strong>Appendix B</strong>. Given the public focus on the impact of an invasion on Taiwan’s semiconductor industry, <strong>Appendix C</strong> further offers our assessment of why that industry is not especially relevant to judging if or when China might invade.</p>
-        <h2>Key Findings</h2>
-        <p>Assessments supporting our judgment that an invasion is unlikely in the short term include:</p>
-        <p>China almost certainly continues to prefer “peaceful reunification” and very likely continues to invest in a dual-track strategy that combines economic inducements with coercive elements. China’s economy is facing challenges that are very likely holding the focus of leadership as they strive to attain national rejuvenation. Despite PLA progress in developing capabilities necessary for a successful invasion of Taiwan, China’s military continues to have limitations in areas that suggest it is not yet ready to undertake an invasion. China’s leadership has likely not begun telling the public to prepare for war and public support for a war is likely not at levels the CCP would prefer before ordering an invasion. Although long-term public opinion trends in Taiwan are unfavorable to China’s goals, polling results since 2020 likely suggest to China’s leadership that its strategy is working to curb preferences for independence in the short term.</p>
-        <p>Assessments supporting our judgment of rising risk in the long term include:</p>
-        <p>The CCP has become increasingly assertive and very likely expectant of progress with regard to its goals for Taiwan. Under Xi Jinping’s leadership, the CCP has taken administrative and other measures to develop a self-sufficient economy, harden against foreign economic coercion such as sanctions, decrease reliance on the US dollar, and prepare for shortages in strategic resources like grain and critical minerals. China-based cyber threat actors are targeting US critical infrastructure in ways that suggest their goal is to pre-position for a potential conflict. China’s leadership has intensified its use of “lawfare” measures against Taiwan, particularly over the past year. The PLA, China’s wider armed forces, and China’s defense industry are continuing to improve capabilities that would be needed for a successful invasion of Taiwan, countering US intervention, and other scenarios. The political and social environments in Taiwan are both trending toward potentially permanent rejection of unification. China’s leadership almost certainly perceives US government behavior as trending toward overturning its (the US’s) “one-China” policy, which is one of Beijing’s likely “red lines” that could hasten an invasion scenario.</p>
-        <h2>Indicators an Invasion Is Unlikely in the Short Term</h2>
-        <p>There are several elements of China’s behavior that support our assessment that a Taiwan invasion is unlikely before 2027. These include China’s almost certain continuing preference for “peaceful reunification”, indicators that it very likely continues to pursue a dual-track approach to Taiwan, economic challenges that very likely take priority given China’s other ambitions, shortfalls in PLA capability, and limited indication that China has begun mobilizing its populace to brace for wartime hardship. Additionally, public opinion polling results in Taiwan since 2020 likely suggest to China’s leadership that its coercive strategy is working to deter independence in the short term. In totality, we assess that — absent a specific catalyst that leads to war (such as if Taiwan declares formal independence or China assesses foreign military interference in Taiwan) — the CCP leadership is very likely, in the short term, to remain focused on improving domestic conditions and strengthening preparations for navigating tensions with the US, a potential invasion, or other conflict with a foreign power (for example, over the South China Sea).</p>
-        <h3>Trends in China</h3>
-        <p>China almost certainly continues to prefer “peaceful reunification” and very likely continues to invest in a dual-track strategy that combines economic inducements with coercive elements. While the coercive elements of the CCP’s strategy — including large-scale military <a href="https://jamestown.org/program/joint-sword-2024b-quarantining-key-ports-and-seizing-comprehensive-superiority/">exercises</a> (reportedly with <a href="https://web.archive.org/web/20250115022309/https://www.nsb.gov.tw/en/assets/documents/%E6%96%B0%E8%81%9E%E7%A8%BF/7d118bec-6a18-4e95-ad85-4055fc48cc31.pdf">cyber</a> components), air defense identification zone (ADIZ) <a href="https://www.platracker.com/trackers">incursions</a>, and expanding law enforcement <a href="https://amti.csis.org/a-new-normal-for-the-china-coast-guard-at-kinmen-and-matsu/">patrols</a> around Taiwan’s outlying islands — receive the most attention, examples of the other side of CCP strategy include the following: a June 2024 <a href="https://web.archive.org/web/20240723172644/https://www.cnbayarea.org.cn/policy/policy%20release/policies/content/post_1250199.html">plan</a> to “deepen cross-strait innovation and development cooperation” in Dongguan city, January 2024 reforms in Fujian that <a href="https://archive.ph/LWG6O">created</a> new government offices for Taiwan work, and a September 2023 <a href="https://web.archive.org/web/20240815054655/http://english.www.gov.cn/policies/latestreleases/202309/12/content_WS65004bc9c6d0868f4e8df605.html">plan</a> to build a “cross-strait integrated development demonstration zone” in Fujian province, and 68 other preferential policies and measures <a href="https://www.prcleader.org/post/enabling-patriots-to-be-masters-of-the-island-evolution-of-xi-s-policy-on-taiwan-since-2013">targeting</a> Taiwan businesses in China between 2018 and 2020. Xi Jinping’s activities in October 2024 also very likely signal this dual-track approach, <a href="https://web.archive.org/web/20241002182322/http://paper.people.com.cn/rmrb/html/2024-10/01/nw.D110000renmrb_20241001_1-02.htm">omitting</a> references to “peace” in statements relevant to Taiwan and <a href="https://web.archive.org/web/20250114205257/https://www.gov.cn/yaowen/liebiao/202410/content_6980772.htm">visiting</a> locations significant to China’s civil war history while also calling for greater integrated development. On January 15, 2025, a spokesperson for the Taiwan Affairs Office <a href="https://web.archive.org/web/20250116143803/http://www.news.cn/20250115/a8bedeb7d74b45ba8052a10586860648/c.html">reiterated</a> that integrated development is a focal point for the coming year. Additionally, there is almost certainly still no strict deadline for <a href="https://interpret.csis.org/what-is-beijings-timeline-for-reunification-with-taiwan/">achieving</a> unification.</p>
-        <p>China’s economy is in a period of transition, volatility, and struggle, facing challenges that are very likely holding the focus of leadership as it strives to attain national rejuvenation and continue preparing for potential armed conflict. China’s challenges include a <a href="https://www.cnbc.com/2024/10/30/chinas-property-market-is-expected-to-stabilize-in-2025-.html#:~:text=China%20Economy-,China's%20property%20market%20is%20expected%20to%20stabilize%20in,but%20stay%20subdued%20for%20years&amp;text=China's%20struggling%20real%20estate%20sector,latest%20stimulus%20measures%2C%20analysts%20predict.">depressed</a> property market, <a href="https://www.fitchratings.com/research/sovereigns/deflation-in-china-risks-becoming-entrenched-05-11-2024">deflation</a>, <a href="https://www.rfa.org/english/china/2024/11/18/china-local-government-hidden-debt-explained/#:~:text=The%20International%20Monetary%20Fund%20estimates,%25%20of%20GDP%2C%20Reuters%20reported.">high</a> local government debt, <a href="https://www.voanews.com/a/foreign-investment-in-china-falls-for-past-year-as-economy-struggles/7682513.html">declining</a> foreign investment, <a href="https://www.nbcnews.com/news/world/chinas-youth-unemployment-hits-fresh-high-economic-slowdown-restrictiv-rcna172183">elevated</a> youth unemployment, and <a href="https://www.cnbc.com/2024/09/27/chinas-ambitions-for-chip-self-sufficiency-thwarted-by-lack-of-tools-.html">lingering dependence</a> on critical foreign technology like semiconductor production tools (for more on the relevance of semiconductors in China’s likely Taiwan invasion calculus, see <strong>Appendix C</strong>), while <a href="https://www.interest.co.nz/public-policy/129617/yuen-yuen-ang-explains-chinas-seemingly-contradictory-trajectory-characterised">shifting</a> toward “a green, high-tech” structure. These and other challenges have led to arguments that China could invade Taiwan to distract from domestic troubles (<a href="https://asia.nikkei.com/Politics/International-relations/Taiwan-tensions/China-could-threaten-war-in-2023-to-force-talks-Taiwan-official">1</a>, <a href="https://news.sky.com/story/china-more-likely-to-invade-taiwan-and-attack-could-come-in-2027-islands-foreign-minister-joseph-wu-warns-12789179">2</a>, <a href="https://www.theguardian.com/us-news/2023/aug/11/joe-biden-china-economy-time-bomb">3</a>, <a href="https://www.wilsoncenter.org/publication/desperate-times-desperate-measures-slowing-growth-making-china-more-dangerous">4</a>), but this is unlikely. First, diversionary war has not been the CCP’s method for <a href="https://www.foreignaffairs.com/china/myth-chinese-diversionary-war">managing</a> domestic crises since 1949. Second, the economic challenges are likely not great enough to <a href="https://www.prcleader.org/post/getting-to-world-class-can-china-s-military-persevere">derail</a> the PLA’s ongoing modernization in ways that would limit China’s option to use force in the future. During this period, Xi Jinping is very likely to focus on solving domestic economic problems while strengthening the military to support conditions for achieving national rejuvenation by 2049 — a goal with an <a href="https://www.strategictranslation.org/glossary/great-rejuvenation-of-the-chinese-nation">economic component</a> — and to prepare for unifying with Taiwan through force if doing so is deemed necessary.</p>
-        <p>Despite PLA progress toward developing capabilities necessary for a successful invasion of Taiwan (discussed further below), China’s military continues to have limitations in areas that suggest it is not yet ready to undertake such a high-risk operation. These limitations very likely include a lack of sealift capacity for an invasion of Taiwan, inadequate rapid runway repair capabilities to <a href="https://www.airuniversity.af.edu/CASI/Display/Article/3430623/the-regenerating-road-chinas-rapid-runway-repair-capabilities-and-other-recover/">restore</a> air operations following enemy assaults, difficulty <a href="https://digital-commons.usnwc.edu/cmsi-maritime-reports/34/">integrating</a> submarine forces into joint operations, and helicopter forces that have readiness and operational capacity limitations. Corruption also <a href="https://media.defense.gov/2024/Dec/18/2003615520/-1/-1/0/MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2024.PDF">continues</a> to be a <a href="https://thediplomat.com/2024/12/can-china-ever-weed-out-corruption-in-its-military/">major challenge</a> for the PLA and China’s <a href="https://thediplomat.com/2024/09/the-logic-of-chinas-careful-defense-industry-purge/">defense industry</a>, potentially disrupting the military’s organizational command, the quality of its personnel, its preparedness for warfare, and the attainment of its modernization goals.</p>
-        <p>China’s leadership has likely not begun telling the public to prepare for war and public support for a war is likely not at levels the CCP would prefer before ordering an invasion. This point is debated, with some analysts focusing on Xi Jinping’s <a href="https://www.hoover.org/sites/default/files/research/docs/4_BoilingMoat_Ch1.pdf">warning</a> that “the stormy seas of a major test” are looming, his <a href="https://web.archive.org/web/20230531131348/http://politics.people.com.cn/n1/2023/0530/c1024-40002443.html">emphasis</a> on “worst-case scenario thinking”, and the CCP’s escalating rhetoric targeting Taiwan. However, when asked about this language during a US Congressional hearing in 2024, multiple experts from the US, India, and elsewhere <a href="https://www.uscc.gov/sites/default/files/2024-06/June_13_2024_Hearing_Transcript.pdf">assessed</a> that available evidence likely does not point to warnings of an imminent invasion specifically, but rather to the rising risks of China’s volatile economic and geopolitical context generally (see <strong>Appendix A</strong>). In particular, these experts <a href="https://www.uscc.gov/sites/default/files/2024-06/June_13_2024_Hearing_Transcript.pdf">focus</a> on the lack of state content “demonizing” China’s would-be opponents in Taiwan and likely the US. Moreover, only about 50% — at most — of the Chinese public likely supports a use of force to unify Taiwan under certain conditions; China’s leadership would likely prefer a stronger base of popular support before initiating a high-risk and potentially costly invasion, for reasons related to PLA <a href="https://www.uscc.gov/sites/default/files/2024-06/Devin_Thorne_Testimony.pdf">reliance</a> on civilian systems and because failure could threaten at least the current CCP leadership if not wider party legitimacy (<a href="https://digitalcommons.ndu.edu/cgi/viewcontent.cgi?article=1118&amp;context=strategic-forums">1</a>, <a href="https://www.airuniversity.af.edu/JIPA/Display/Article/2444775/the-day-after-the-battle/">2</a>, <a href="https://www.usip.org/publications/2024/11/many-ways-fail-costs-china-unsuccessful-taiwan-invasion">3</a>).</p>
-        <h3>Trends in Taiwan and the US</h3>
-        <p>Although long-term public opinion trends in Taiwan <a href="https://esc.nccu.edu.tw/PageDoc/Detail?fid=7801&amp;id=6963">indicate</a> the majority of people are very unlikely to ever willingly support unification (discussed later in this report), polling results since 2020 likely suggest to China’s leadership that the military and other elements of its strategy are working to curb preferences for independence in the short term. Since 2020, support for maintaining the “status quo” has increased while moving “toward independence” has trended downward (an uptick in June 2024 notwithstanding). Further, support for maintaining the “status quo indefinitely” has risen since 2020 from 25.8% to 33.6%. Support for "independence as soon as possible” has also fallen from 6.6% to 3.8% in this same period. These results likely decrease the likelihood of an invasion given China’s very likely preference for solving domestic challenges and further preparing in case an invasion is deemed necessary.</p>
-        <p>Insikt Group has not identified any trends in the US that would, in our assessment, decrease the likelihood of invasion in the short term.</p>
-        <p>To read the entire analysis, <a href="https://assets.recordedfuture.com/insikt-report-pdfs/2025/ta-cn-2025-0212.pdf">click here</a> to download the report as a PDF.</p>
-      ]]></content:encoded>
-            <category>Research (Insikt)</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_1627b7511e7356f5669866b07febcd6557443b4f0.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>
