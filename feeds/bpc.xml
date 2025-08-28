@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 28 Aug 2025 18:01:10 EDT</pubDate>
+        <pubDate>Thu, 28 Aug 2025 18:59:42 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google warns Salesloft breach impacted some Workspace accounts</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-warns-salesloft-breach-impacted-some-workspace-accounts/</link>
+        <pubDate>Thu, 28 Aug 2025 18:09:24 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-warns-salesloft-breach-impacted-some-workspace-accounts/</guid>
+	<description><![CDATA[Google reports that the Salesloft Drift breach is larger than initially thought, warning that attackers also used stolen OAuth tokens to access Google Workspace email accounts in addition to Salesforce data. [...]]]></description>
+ </item>
+
+ <item>
+        <title>US targets North Korean IT worker army with new sanctions</title>
+        <link>https://www.bleepingcomputer.com/news/legal/us-targets-north-korean-it-worker-army-with-new-sanctions/</link>
+        <pubDate>Thu, 28 Aug 2025 15:11:23 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Legal]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/legal/us-targets-north-korean-it-worker-army-with-new-sanctions/</guid>
+	<description><![CDATA[The U.S. Treasury's Office of Foreign Assets Control (OFAC) has sanctioned two individuals and two companies associated with North Korean IT worker schemes that operate at the expense of American organizations. [...]]]></description>
+ </item>
+
  <item>
         <title>Google shares workarounds for auth failures on ChromeOS devices</title>
         <link>https://www.bleepingcomputer.com/news/google/google-shares-chromeos-workarounds-for-clever-classlink-auth-failures/</link>
@@ -188,20 +218,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/it-system-supplier-cyberattack-impacts-200-municipalities-in-sweden/</guid>
 	<description><![CDATA[A cyberattack on Miljödata, an IT systems supplier for roughly 80% of Sweden's municipal systems, has caused accessibility problems in more than 200 regions of the country. [...]]]></description>
- </item>
-
- <item>
-        <title>Global Salt Typhoon hacking campaigns linked to Chinese tech firms</title>
-        <link>https://www.bleepingcomputer.com/news/security/global-salt-typhoon-hacking-campaigns-linked-to-chinese-tech-firms/</link>
-        <pubDate>Wed, 27 Aug 2025 13:34:04 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/global-salt-typhoon-hacking-campaigns-linked-to-chinese-tech-firms/</guid>
-	<description><![CDATA[The U.S. National Security Agency (NSA), the UK's National Cyber Security Centre (NCSC), and partners from over a dozen countries have linked the Salt Typhoon global hacking campaigns to three China-based technology firms. [...]]]></description>
  </item>
 
 </channel>
