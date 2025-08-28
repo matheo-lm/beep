@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 28 Aug 2025 14:03:38 EDT</pubDate>
+        <pubDate>Thu, 28 Aug 2025 15:00:18 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google shares workarounds for auth failures on ChromeOS devices</title>
+        <link>https://www.bleepingcomputer.com/news/google/google-shares-chromeos-workarounds-for-clever-classlink-auth-failures/</link>
+        <pubDate>Thu, 28 Aug 2025 14:30:07 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/google/google-shares-chromeos-workarounds-for-clever-classlink-auth-failures/</guid>
+	<description><![CDATA[Google is working to resolve authentication failures preventing users from signing into their Clever and ClassLink accounts on some ChromeOS devices. [...]]]></description>
+ </item>
+
  <item>
         <title>Malware devs abuse Anthropic’s Claude AI to build ransomware</title>
         <link>https://www.bleepingcomputer.com/news/security/malware-devs-abuse-anthropics-claude-ai-to-build-ransomware/</link>
@@ -186,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/global-salt-typhoon-hacking-campaigns-linked-to-chinese-tech-firms/</guid>
 	<description><![CDATA[The U.S. National Security Agency (NSA), the UK's National Cyber Security Centre (NCSC), and partners from over a dozen countries have linked the Salt Typhoon global hacking campaigns to three China-based technology firms. [...]]]></description>
- </item>
-
- <item>
-        <title>Over 28,000 Citrix devices vulnerable to new exploited RCE flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/over-28-200-citrix-instances-vulnerable-to-actively-exploited-rce-bug/</link>
-        <pubDate>Wed, 27 Aug 2025 12:48:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/over-28-200-citrix-instances-vulnerable-to-actively-exploited-rce-bug/</guid>
-	<description><![CDATA[More than 28,200 Citrix instances are vulnerable to a critical remote code execution vulnerability tracked as CVE-2025-7775 that is already being exploited in the wild. [...]]]></description>
  </item>
 
 </channel>
