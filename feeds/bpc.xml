@@ -11,11 +11,53 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 28 Aug 2025 10:03:01 EDT</pubDate>
+        <pubDate>Thu, 28 Aug 2025 11:00:13 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>MATLAB dev says ransomware gang stole data of 10,000 people</title>
+        <link>https://www.bleepingcomputer.com/news/security/matlab-dev-says-ransomware-gang-stole-data-of-over-10-000-people/</link>
+        <pubDate>Thu, 28 Aug 2025 11:00:06 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/matlab-dev-says-ransomware-gang-stole-data-of-over-10-000-people/</guid>
+	<description><![CDATA[MathWorks, a leading developer of mathematical simulation and computing software, revealed that a ransomware gang stole the data of over 10,000 people after breaching its network in April. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Shadow IT Is Expanding Your Attack Surface. Here’s Proof</title>
+        <link>https://www.bleepingcomputer.com/news/security/shadow-it-is-expanding-your-attack-surface-heres-proof/</link>
+        <pubDate>Thu, 28 Aug 2025 10:15:25 -0400</pubDate>
+        <dc:creator>Sponsored by Intruder</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/shadow-it-is-expanding-your-attack-surface-heres-proof/</guid>
+	<description><![CDATA[Shadow IT isn't theoretical—it's everywhere. Intruder uncovered exposed backups, open Git repos, and admin panels in just days, all hiding sensitive data. Make your hidden assets visible before attackers do. [...]]]></description>
+ </item>
+
+ <item>
+        <title>TransUnion suffers data breach impacting over 4.4 million people</title>
+        <link>https://www.bleepingcomputer.com/news/security/transunion-suffers-data-breach-impacting-over-44-million-people/</link>
+        <pubDate>Thu, 28 Aug 2025 10:10:34 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/transunion-suffers-data-breach-impacting-over-44-million-people/</guid>
+	<description><![CDATA[Consumer credit reporting giant TransUnion warns it suffered a data breach exposing the personal information of over 4.4 million people in the United States. [...]]]></description>
+ </item>
+
  <item>
         <title>Storm-0501 hackers shift to ransomware attacks in the cloud</title>
         <link>https://www.bleepingcomputer.com/news/security/storm-0501-hackers-shift-to-ransomware-attacks-in-the-cloud/</link>
@@ -146,48 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/google-to-verify-all-android-devs-to-protect-users-from-malware/</guid>
 	<description><![CDATA[Google is introducing a new defense for Android called 'Developer Verification' to block malware installations from sideloaded apps sourced from outside the official Google Play app store. [...]]]></description>
- </item>
-
- <item>
-        <title>Citrix fixes critical NetScaler RCE flaw exploited in zero-day attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/citrix-fixes-critical-netscaler-rce-flaw-exploited-in-zero-day-attacks/</link>
-        <pubDate>Tue, 26 Aug 2025 17:37:53 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/citrix-fixes-critical-netscaler-rce-flaw-exploited-in-zero-day-attacks/</guid>
-	<description><![CDATA[Citrix fixed three NetScaler ADC and NetScaler Gateway flaws today, including a critical remote code execution flaw tracked as CVE-2025-7775 that was actively exploited in attacks as a zero-day vulnerability. [...]]]></description>
- </item>
-
- <item>
-        <title>Silk Typhoon hackers hijack network captive portals in diplomat attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/silk-typhoon-hackers-hijack-network-captive-portals-in-diplomat-attacks/</link>
-        <pubDate>Tue, 26 Aug 2025 17:33:59 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/silk-typhoon-hackers-hijack-network-captive-portals-in-diplomat-attacks/</guid>
-	<description><![CDATA[State-sponsored hackers linked to the Mustang Panda activity cluster targeted diplomats by hijacking web traffic to redirect to a malware serving website. [...]]]></description>
- </item>
-
- <item>
-        <title>Salesloft breached to steal OAuth tokens for Salesforce data-theft attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/salesloft-breached-to-steal-oauth-tokens-for-salesforce-data-theft-attacks/</link>
-        <pubDate>Tue, 26 Aug 2025 15:12:53 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/salesloft-breached-to-steal-oauth-tokens-for-salesforce-data-theft-attacks/</guid>
-	<description><![CDATA[Hackers breached sales automation platform Salesloft to steal OAuth and refresh tokens from its Drift chat agent integration with Salesforce to pivot to customer environments and exfiltrate data. The ShinyHunters extortion group claims responsibility for these additional Salesforce attacks. [...]]]></description>
  </item>
 
 </channel>
