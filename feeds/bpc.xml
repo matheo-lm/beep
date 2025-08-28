@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 28 Aug 2025 11:00:13 EDT</pubDate>
+        <pubDate>Thu, 28 Aug 2025 12:00:39 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Police seize VerifTools fake ID marketplace servers, domains</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-seize-veriftools-fake-id-marketplace-servers-domains/</link>
+        <pubDate>Thu, 28 Aug 2025 12:00:35 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-seize-veriftools-fake-id-marketplace-servers-domains/</guid>
+	<description><![CDATA[The FBI and the Dutch Police have shut down the VerifTools marketplace for fraudulent identity documents after seizing servers in Amsterdam that hosted the online operation. [...]]]></description>
+ </item>
+
  <item>
         <title>MATLAB dev says ransomware gang stole data of 10,000 people</title>
         <link>https://www.bleepingcomputer.com/news/security/matlab-dev-says-ransomware-gang-stole-data-of-over-10-000-people/</link>
@@ -55,7 +71,7 @@
 
 
         <guid>https://www.bleepingcomputer.com/news/security/transunion-suffers-data-breach-impacting-over-44-million-people/</guid>
-	<description><![CDATA[Consumer credit reporting giant TransUnion warns it suffered a data breach exposing the personal information of over 4.4 million people in the United States. [...]]]></description>
+	<description><![CDATA[Consumer credit reporting giant TransUnion warns it suffered a data breach exposing the personal information of over 4.4 million people in the United States, with BleepingComputer learning the data was stolen from it's Salesforce account. [...]]]></description>
  </item>
 
  <item>
@@ -170,24 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/healthcare-services-group-data-breach-impacts-624-000-people/</guid>
 	<description><![CDATA[The Healthcare Services Group (HSGI) is alerting more than 600,000 individuals that their personal information was exposed in a security breach last year. [...]]]></description>
- </item>
-
- <item>
-        <title>Google to verify all Android devs to protect users from malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-to-verify-all-android-devs-to-protect-users-from-malware/</link>
-        <pubDate>Tue, 26 Aug 2025 18:23:46 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-to-verify-all-android-devs-to-protect-users-from-malware/</guid>
-	<description><![CDATA[Google is introducing a new defense for Android called 'Developer Verification' to block malware installations from sideloaded apps sourced from outside the official Google Play app store. [...]]]></description>
  </item>
 
 </channel>
