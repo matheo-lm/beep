@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 29 Aug 2025 14:02:28 EDT</pubDate>
+        <pubDate>Fri, 29 Aug 2025 15:02:08 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 11 KB5064081 update clears up CPU usage metrics in Task Manager</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5064081-update-clears-up-cpu-usage-metrics-in-task-manager/</link>
+        <pubDate>Fri, 29 Aug 2025 14:57:04 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5064081-update-clears-up-cpu-usage-metrics-in-task-manager/</guid>
+	<description><![CDATA[Microsoft has released the KB5064081 preview cumulative update for Windows 11 24H2, which includes thirty-six new features or changes, with many gradually rolling out. These updates include new Recall features and a new way of displaying CPU usage in Task Manager. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes bug behind Windows certificate enrollment errors</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-windows-certificate-enrollment-errors/</link>
@@ -192,34 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/matlab-dev-says-ransomware-gang-stole-data-of-over-10-000-people/</guid>
 	<description><![CDATA[MathWorks, a leading developer of mathematical simulation and computing software, revealed that a ransomware gang stole the data of over 10,000 people after breaching its network in April. [...]]]></description>
- </item>
-
- <item>
-        <title>Shadow IT Is Expanding Your Attack Surface. Here’s Proof</title>
-        <link>https://www.bleepingcomputer.com/news/security/shadow-it-is-expanding-your-attack-surface-heres-proof/</link>
-        <pubDate>Thu, 28 Aug 2025 10:15:25 -0400</pubDate>
-        <dc:creator>Sponsored by Intruder</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/shadow-it-is-expanding-your-attack-surface-heres-proof/</guid>
-	<description><![CDATA[Shadow IT isn't theoretical—it's everywhere. Intruder uncovered exposed backups, open Git repos, and admin panels in just days, all hiding sensitive data. Make your hidden assets visible before attackers do. [...]]]></description>
- </item>
-
- <item>
-        <title>TransUnion suffers data breach impacting over 4.4 million people</title>
-        <link>https://www.bleepingcomputer.com/news/security/transunion-suffers-data-breach-impacting-over-44-million-people/</link>
-        <pubDate>Thu, 28 Aug 2025 10:10:34 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/transunion-suffers-data-breach-impacting-over-44-million-people/</guid>
-	<description><![CDATA[Consumer credit reporting giant TransUnion warns it suffered a data breach exposing the personal information of over 4.4 million people in the United States, with BleepingComputer learning the data was stolen from it's Salesforce account. [...]]]></description>
  </item>
 
 </channel>
