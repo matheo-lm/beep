@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 29 Aug 2025 12:01:52 EDT</pubDate>
+        <pubDate>Fri, 29 Aug 2025 13:01:35 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>WhatsApp patches vulnerability exploited in zero-day attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/whatsapp-patches-vulnerability-exploited-in-zero-day-attacks/</link>
+        <pubDate>Fri, 29 Aug 2025 12:31:23 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/whatsapp-patches-vulnerability-exploited-in-zero-day-attacks/</guid>
+	<description><![CDATA[WhatsApp has patched a security vulnerability in its iOS and macOS messaging clients that was exploited in targeted zero-day attacks. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft to enforce MFA for Azure resource management in October</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enforce-mfa-for-azure-resource-management-in-october/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/transunion-suffers-data-breach-impacting-over-44-million-people/</guid>
 	<description><![CDATA[Consumer credit reporting giant TransUnion warns it suffered a data breach exposing the personal information of over 4.4 million people in the United States, with BleepingComputer learning the data was stolen from it's Salesforce account. [...]]]></description>
- </item>
-
- <item>
-        <title>Storm-0501 hackers shift to ransomware attacks in the cloud</title>
-        <link>https://www.bleepingcomputer.com/news/security/storm-0501-hackers-shift-to-ransomware-attacks-in-the-cloud/</link>
-        <pubDate>Wed, 27 Aug 2025 18:38:12 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/storm-0501-hackers-shift-to-ransomware-attacks-in-the-cloud/</guid>
-	<description><![CDATA[Microsoft warns that a threat actor tracked as Storm-0501 has evolved its operations, shifting away from encrypting devices with ransomware to focusing on cloud-based encryption, data theft, and extortion. [...]]]></description>
  </item>
 
 </channel>
