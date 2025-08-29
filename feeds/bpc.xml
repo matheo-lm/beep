@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 29 Aug 2025 13:01:35 EDT</pubDate>
+        <pubDate>Fri, 29 Aug 2025 14:02:28 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft fixes bug behind Windows certificate enrollment errors</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-windows-certificate-enrollment-errors/</link>
+        <pubDate>Fri, 29 Aug 2025 14:02:25 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-windows-certificate-enrollment-errors/</guid>
+	<description><![CDATA[Microsoft has resolved a known issue causing false CertificateServicesClient (CertEnroll) error messages after installing the July 2025 preview and subsequent Windows 11 24H2 updates. [...]]]></description>
+ </item>
+
  <item>
         <title>WhatsApp patches vulnerability exploited in zero-day attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/whatsapp-patches-vulnerability-exploited-in-zero-day-attacks/</link>
