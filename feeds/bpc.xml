@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 29 Aug 2025 09:59:59 EDT</pubDate>
+        <pubDate>Fri, 29 Aug 2025 11:01:56 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft says recent Windows update didn't kill your SSD</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-KB5063878-windows-update-didnt-kill-your-ssd/</link>
+        <pubDate>Fri, 29 Aug 2025 10:21:27 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-KB5063878-windows-update-didnt-kill-your-ssd/</guid>
+	<description><![CDATA[Microsoft has found no link between the August 2025 KB5063878 security update and customer reports of failure and data corruption issues affecting solid-state drives (SSDs) and hard disk drives (HDDs). [...]]]></description>
+ </item>
+
  <item>
         <title>Google warns Salesloft breach impacted some Workspace accounts</title>
         <link>https://www.bleepingcomputer.com/news/security/google-warns-salesloft-breach-impacted-some-workspace-accounts/</link>
@@ -190,34 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/experimental-promptlock-ransomware-uses-ai-to-encrypt-steal-data/</guid>
 	<description><![CDATA[Threat researchers discovered the first AI-powered ransomware, called PromptLock, that uses Lua scripts to steal and encrypt data on Windows, macOS, and Linux systems. [...]]]></description>
- </item>
-
- <item>
-        <title>FreePBX servers hacked via zero-day, emergency fix released</title>
-        <link>https://www.bleepingcomputer.com/news/security/freepbx-servers-hacked-via-zero-day-emergency-fix-released/</link>
-        <pubDate>Wed, 27 Aug 2025 15:36:53 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/freepbx-servers-hacked-via-zero-day-emergency-fix-released/</guid>
-	<description><![CDATA[The Sangoma FreePBX Security Team is warning about an actively exploited FreePBX zero-day vulnerability that impacts systems with the Administrator Control Panel (ACP) is exposed to the internet. [...]]]></description>
- </item>
-
- <item>
-        <title>IT system supplier cyberattack impacts 200 municipalities in Sweden</title>
-        <link>https://www.bleepingcomputer.com/news/security/it-system-supplier-cyberattack-impacts-200-municipalities-in-sweden/</link>
-        <pubDate>Wed, 27 Aug 2025 14:23:42 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/it-system-supplier-cyberattack-impacts-200-municipalities-in-sweden/</guid>
-	<description><![CDATA[A cyberattack on Miljödata, an IT systems supplier for roughly 80% of Sweden's municipal systems, has caused accessibility problems in more than 200 regions of the country. [...]]]></description>
  </item>
 
 </channel>
