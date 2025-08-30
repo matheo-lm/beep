@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sat, 30 Aug 2025 12:02:32 EDT</pubDate>
+        <pubDate>Sat, 30 Aug 2025 12:59:31 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>TamperedChef infostealer delivered through fraudulent PDF Editor</title>
+        <link>https://www.bleepingcomputer.com/news/security/tamperedchef-infostealer-delivered-through-fraudulent-pdf-editor/</link>
+        <pubDate>Sat, 30 Aug 2025 12:22:51 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/tamperedchef-infostealer-delivered-through-fraudulent-pdf-editor/</guid>
+	<description><![CDATA[Threat actors have been using multiple websites promoted through Google ads to distribute a convincing PDF editing app that delivers an info-stealing malware called TamperedChef. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 11 KB5064081 update clears up CPU usage metrics in Task Manager</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5064081-update-clears-up-cpu-usage-metrics-in-task-manager/</link>
@@ -176,36 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/passwordstate-dev-urges-users-to-patch-auth-bypass-vulnerability-as-soon-as-possible/</guid>
 	<description><![CDATA[Click Studios, the company behind the Passwordstate enterprise-grade password manager, has warned customers to patch a high-severity authentication bypass vulnerability as soon as possible. [...]]]></description>
- </item>
-
- <item>
-        <title>Police seize VerifTools fake ID marketplace servers, domains</title>
-        <link>https://www.bleepingcomputer.com/news/security/police-seize-veriftools-fake-id-marketplace-servers-domains/</link>
-        <pubDate>Thu, 28 Aug 2025 12:00:35 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/police-seize-veriftools-fake-id-marketplace-servers-domains/</guid>
-	<description><![CDATA[The FBI and the Dutch Police have shut down the VerifTools marketplace for fraudulent identity documents after seizing servers in Amsterdam that hosted the online operation. [...]]]></description>
- </item>
-
- <item>
-        <title>MATLAB dev says ransomware gang stole data of 10,000 people</title>
-        <link>https://www.bleepingcomputer.com/news/security/matlab-dev-says-ransomware-gang-stole-data-of-over-10-000-people/</link>
-        <pubDate>Thu, 28 Aug 2025 11:00:06 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/matlab-dev-says-ransomware-gang-stole-data-of-over-10-000-people/</guid>
-	<description><![CDATA[MathWorks, a leading developer of mathematical simulation and computing software, revealed that a ransomware gang stole the data of over 10,000 people after breaching its network in April. [...]]]></description>
  </item>
 
 </channel>
