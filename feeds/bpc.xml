@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 31 Aug 2025 06:58:11 EDT</pubDate>
+        <pubDate>Sun, 31 Aug 2025 08:02:41 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>OpenAI is testing "Thinking effort" for ChatGPT</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-thinking-effort-for-chatgpt/</link>
+        <pubDate>Sun, 31 Aug 2025 07:26:42 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-thinking-effort-for-chatgpt/</guid>
+	<description><![CDATA[OpenAI is working on a new feature called the Thinking effort picker for ChatGPT. [...]]]></description>
+ </item>
+
  <item>
         <title>TamperedChef infostealer delivered through fraudulent PDF Editor</title>
         <link>https://www.bleepingcomputer.com/news/security/tamperedchef-infostealer-delivered-through-fraudulent-pdf-editor/</link>
@@ -176,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-word-will-save-your-files-to-the-cloud-by-default/</guid>
 	<description><![CDATA[Microsoft says that Word for Windows will soon enable autosave and automatically save all new documents to the cloud by default. [...]]]></description>
- </item>
-
- <item>
-        <title>Passwordstate dev urges users to patch auth bypass vulnerability</title>
-        <link>https://www.bleepingcomputer.com/news/security/passwordstate-dev-urges-users-to-patch-auth-bypass-vulnerability-as-soon-as-possible/</link>
-        <pubDate>Thu, 28 Aug 2025 12:16:20 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/passwordstate-dev-urges-users-to-patch-auth-bypass-vulnerability-as-soon-as-possible/</guid>
-	<description><![CDATA[Click Studios, the company behind the Passwordstate enterprise-grade password manager, has warned customers to patch a high-severity authentication bypass vulnerability as soon as possible. [...]]]></description>
  </item>
 
 </channel>
