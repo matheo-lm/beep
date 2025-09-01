@@ -11,11 +11,73 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 01 Sep 2025 08:03:34 EDT</pubDate>
+        <pubDate>Mon, 01 Sep 2025 09:06:18 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Brokewell Android malware delivered through fake TradingView ads</title>
+        <link>https://www.bleepingcomputer.com/news/security/brokewell-android-malware-delivered-through-fake-tradingview-ads/</link>
+        <pubDate>Sun, 31 Aug 2025 14:35:26 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/brokewell-android-malware-delivered-through-fake-tradingview-ads/</guid>
+	<description><![CDATA[Cybercriminals are abusing Meta's advertising platforms with fake offers of a free TradingView Premium app that spreads the Brokewell malware for Android. [...]]]></description>
+ </item>
+
+ <item>
+        <title>OpenAI releases big upgrade for ChatGPT Codex for agentic coding</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-releases-big-upgrade-for-chatgpt-codex-for-agentic-coding/</link>
+        <pubDate>Sun, 31 Aug 2025 13:00:00 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-releases-big-upgrade-for-chatgpt-codex-for-agentic-coding/</guid>
+	<description><![CDATA[OpenAI has announced a big update for Codex, which is the company's agentic coding tool. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Anthropic is testing GPT Codex-like Claude Code web app</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-gpt-codex-like-claude-code-web-app/</link>
+        <pubDate>Sun, 31 Aug 2025 11:00:00 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-gpt-codex-like-claude-code-web-app/</guid>
+	<description><![CDATA[Anthropic is planning to bring the famous Claude Code to the web, and it might be similar to ChatGPT Codex, but you'll need GitHub to get started. [...]]]></description>
+ </item>
+
+ <item>
+        <title>ChatGPT can now create flashcards quiz on any topic</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-create-flashcards-quiz-on-any-topic/</link>
+        <pubDate>Sun, 31 Aug 2025 08:30:00 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-create-flashcards-quiz-on-any-topic/</guid>
+	<description><![CDATA[If you use ChatGPT to learn new topics, you might want to try its new flashcard-based quiz feature, which can help you evaluate your progress. [...]]]></description>
+ </item>
+
  <item>
         <title>OpenAI is testing "Thinking effort" for ChatGPT</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-thinking-effort-for-chatgpt/</link>
@@ -116,82 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-KB5063878-windows-update-didnt-kill-your-ssd/</guid>
 	<description><![CDATA[Microsoft has found no link between the August 2025 KB5063878 security update and customer reports of failure and data corruption issues affecting solid-state drives (SSDs) and hard disk drives (HDDs). [...]]]></description>
- </item>
-
- <item>
-        <title>Google warns Salesloft breach impacted some Workspace accounts</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-warns-salesloft-breach-impacted-some-workspace-accounts/</link>
-        <pubDate>Thu, 28 Aug 2025 18:09:24 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-warns-salesloft-breach-impacted-some-workspace-accounts/</guid>
-	<description><![CDATA[Google reports that the Salesloft Drift breach is larger than initially thought, warning that attackers also used stolen OAuth tokens to access Google Workspace email accounts in addition to Salesforce data. [...]]]></description>
- </item>
-
- <item>
-        <title>US targets North Korean IT worker army with new sanctions</title>
-        <link>https://www.bleepingcomputer.com/news/legal/us-targets-north-korean-it-worker-army-with-new-sanctions/</link>
-        <pubDate>Thu, 28 Aug 2025 15:11:23 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Legal]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/legal/us-targets-north-korean-it-worker-army-with-new-sanctions/</guid>
-	<description><![CDATA[The U.S. Treasury's Office of Foreign Assets Control (OFAC) has sanctioned two individuals and two companies associated with North Korean IT worker schemes that operate at the expense of American organizations. [...]]]></description>
- </item>
-
- <item>
-        <title>Google shares workarounds for auth failures on ChromeOS devices</title>
-        <link>https://www.bleepingcomputer.com/news/google/google-shares-chromeos-workarounds-for-clever-classlink-auth-failures/</link>
-        <pubDate>Thu, 28 Aug 2025 14:30:07 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/google/google-shares-chromeos-workarounds-for-clever-classlink-auth-failures/</guid>
-	<description><![CDATA[Google is working to resolve authentication failures preventing users from signing into their Clever and ClassLink accounts on some ChromeOS devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Malware devs abuse Anthropic’s Claude AI to build ransomware</title>
-        <link>https://www.bleepingcomputer.com/news/security/malware-devs-abuse-anthropics-claude-ai-to-build-ransomware/</link>
-        <pubDate>Thu, 28 Aug 2025 13:08:08 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/malware-devs-abuse-anthropics-claude-ai-to-build-ransomware/</guid>
-	<description><![CDATA[Anthropic's Claude Code large language model has been abused by threat actors who used it in data extortion campaigns and to develop ransomware packages. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft Word will save your files to the cloud by default</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-word-will-save-your-files-to-the-cloud-by-default/</link>
-        <pubDate>Thu, 28 Aug 2025 13:00:28 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-word-will-save-your-files-to-the-cloud-by-default/</guid>
-	<description><![CDATA[Microsoft says that Word for Windows will soon enable autosave and automatically save all new documents to the cloud by default. [...]]]></description>
  </item>
 
 </channel>
