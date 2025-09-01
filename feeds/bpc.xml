@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 01 Sep 2025 12:00:16 EDT</pubDate>
+        <pubDate>Mon, 01 Sep 2025 13:00:05 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Zscaler data breach exposes customer info after Salesloft Drift compromise</title>
+        <link>https://www.bleepingcomputer.com/news/security/zscaler-data-breach-exposes-customer-info-after-salesloft-drift-compromise/</link>
+        <pubDate>Mon, 01 Sep 2025 13:00:00 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/zscaler-data-breach-exposes-customer-info-after-salesloft-drift-compromise/</guid>
+	<description><![CDATA[Cybersecurity company Zscaler warns it suffered a data breach after threat actors gained access to its Salesforce instance and stole customer information, including the contents of support cases. [...]]]></description>
+ </item>
+
  <item>
         <title>Amazon disrupts Russian APT29 hackers targeting Microsoft 365</title>
         <link>https://www.bleepingcomputer.com/news/security/amazon-disrupts-russian-apt29-hackers-targeting-microsoft-365/</link>
@@ -162,22 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/whatsapp-patches-vulnerability-exploited-in-zero-day-attacks/</guid>
 	<description><![CDATA[WhatsApp has patched a security vulnerability in its iOS and macOS messaging clients that was exploited in targeted zero-day attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft to enforce MFA for Azure resource management in October</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enforce-mfa-for-azure-resource-management-in-october/</link>
-        <pubDate>Fri, 29 Aug 2025 11:56:47 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enforce-mfa-for-azure-resource-management-in-october/</guid>
-	<description><![CDATA[Starting in October, Microsoft will enforce multi-factor authentication (MFA) for all Azure resource management actions to protect Azure clients from unauthorized access attempts. [...]]]></description>
  </item>
 
 </channel>
