@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Thu, 28 Aug 2025 17:35:19 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 01 Sep 2025 21:55:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,65 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>The Ongoing Fallout from a Breach at AI Chatbot Maker Salesloft</title>
+		<link>https://krebsonsecurity.com/2025/09/the-ongoing-fallout-from-a-breach-at-ai-chatbot-maker-salesloft/</link>
+					<comments>https://krebsonsecurity.com/2025/09/the-ongoing-fallout-from-a-breach-at-ai-chatbot-maker-salesloft/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Mon, 01 Sep 2025 21:55:04 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Data Breaches]]></category>
+		<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Alan Liska]]></category>
+		<category><![CDATA[Austin Larsen]]></category>
+		<category><![CDATA[Charles Carmakal]]></category>
+		<category><![CDATA[Counter Hack]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Google Threat Intelligence Group]]></category>
+		<category><![CDATA[Joshua Wright]]></category>
+		<category><![CDATA[Mandiant]]></category>
+		<category><![CDATA[Salesforce]]></category>
+		<category><![CDATA[Salesloft Drift]]></category>
+		<category><![CDATA[Scattered Spider]]></category>
+		<category><![CDATA[ShinyHunters]]></category>
+		<category><![CDATA[UNC6040]]></category>
+		<category><![CDATA[UNC6395]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=72062</guid>
+
+					<description><![CDATA[The recent mass-theft of authentication tokens from Salesloft, whose AI chatbot is used by a broad swath of corporate America to convert customer interaction into Salesforce leads, has left many companies racing to invalidate the stolen credentials before hackers can exploit them. Now Google warns the breach goes far beyond access to Salesforce data, noting the hackers responsible also stole valid authentication tokens for hundreds of online services that customers can integrate with Salesloft, including Slack, Google Workspace, Amazon S3, Microsoft Azure, and OpenAI.]]></description>
+										<content:encoded><![CDATA[<p>The recent mass-theft of authentication tokens from <strong>Salesloft</strong>, whose AI chatbot is used by a broad swath of corporate America to convert customer interaction into <strong>Salesforce</strong> leads, has left many companies racing to invalidate the stolen credentials before hackers can exploit them. Now <strong>Google</strong> warns the breach goes far beyond access to Salesforce data, noting the hackers responsible also stole valid authentication tokens for hundreds of online services that customers can integrate with Salesloft, including Slack, Google Workspace, Amazon S3, Microsoft Azure, and OpenAI.</p>
+<div id="attachment_72076" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72076" decoding="async" class=" wp-image-72076" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers.png" alt="" width="748" height="389" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers.png 1653w, https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers-768x399.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers-1536x798.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers-782x406.png 782w, https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers-267x140.png 267w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-72076" class="wp-caption-text">Salesloft says its products are trusted by 5,000+ customers. Some of the bigger names are visible on the company&#8217;s homepage.</p></div>
+<p>Salesloft <a href="https://trust.salesloft.com/?uid=Drift%2FSalesforce+Security+Notification" target="_blank" rel="noopener">disclosed on August 20</a> that, &#8220;Today, we detected a security issue in the <strong>Drift</strong> application,&#8221; referring to the technology that powers an AI chatbot used by so many corporate websites. The alert urged customers to re-authenticate the connection between the Drift and Salesforce apps to invalidate their existing authentication tokens, but it said nothing then to indicate those tokens had already been stolen.</p>
+<p>On August 26, the <strong>Google Threat Intelligence Group</strong> (GTIG) <a href="https://cloud.google.com/blog/topics/threat-intelligence/data-theft-salesforce-instances-via-salesloft-drift" target="_blank" rel="noopener">warned</a> that unidentified hackers tracked as <strong>UNC6395</strong> used the access tokens stolen from Salesloft to siphon large amounts of data from numerous corporate Salesforce instances. Google said the data theft began as early as Aug. 8, 2025 and lasted through at least Aug. 18, 2025, and that the incident did not involve any vulnerability in the Salesforce platform.</p>
+<p>Google said the attackers have been sifting through the massive data haul for credential materials such as AWS keys, VPN credentials, and credentials to the cloud storage provider Snowflake.</p>
+<p>&#8220;If successful, the right credentials could allow them to further compromise victim and client environments, as well as pivot to the victim&#8217;s clients or partner environments,&#8221; the GTIG report stated.</p>
+<p>The GTIG updated its advisory on August 28 to acknowledge the attackers used the stolen tokens to access email from &#8220;a very small number of Google Workstation accounts&#8221; that were specially configured to integrate with Salesloft. More importantly, it warned organizations to immediately invalidate all tokens stored in or connected to their Salesloft integrations &#8212; regardless of the third-party service in question.</p>
+<p>&#8220;Given GTIG&#8217;s observations of data exfiltration associated with the campaign, organizations using Salesloft Drift to integrate with third-party platforms (including but not limited to Salesforce) should consider their data compromised and are urged to take immediate remediation steps,&#8221; Google advised.</p>
+<p>On August 28, Salesforce blocked Drift from integrating with its platform, and with its productivity platforms Slack and Pardot.</p>
+<p>The Salesloft incident comes on the heels of a broad social engineering campaign that used voice phishing to trick targets into connecting a malicious app to their organization&#8217;s Salesforce portal. That campaign led to data breaches and extortion attacks affecting a number of companies including Adidas, Allianz Life and Qantas.</p>
+<p>On August 5, Google <a href="https://cloud.google.com/blog/topics/threat-intelligence/voice-phishing-data-extortion" target="_blank" rel="noopener">disclosed</a> that one of its corporate Salesforce instances was compromised by the attackers, which the GTIG has dubbed <strong>UNC6040 </strong>(&#8220;UNC&#8221; is Google&#8217;s shorthand for &#8220;uncategorized threat group&#8221;). Google said the extortionists consistently claimed to be the threat group <strong>ShinyHunters</strong>, and that the group appeared to be preparing to escalate its extortion attacks by launching a data leak site.</p>
+<p>ShinyHunters is an amorphous threat group known for using social engineering to break into cloud platforms and third-party IT providers, and for posting dozens of stolen databases to cybercrime communities like the now-defunct Breachforums.</p>
+<p>The ShinyHunters brand dates back to 2020, and the group has been credited with or taken responsibility for <a href="https://en.wikipedia.org/wiki/ShinyHunters" target="_blank" rel="noopener">dozens of data leaks</a> that exposed hundreds of millions of breached records. The group&#8217;s member roster is thought to be somewhat fluid, drawing mainly from active denizens of the <strong>Com</strong>, a mostly English-language cybercrime community scattered across an ocean of Telegram and Discord servers.</p>
+<p>Recorded Future&#8217;s <strong>Alan Liska</strong> <a href="https://www.bleepingcomputer.com/news/security/shinyhunters-behind-salesforce-data-theft-attacks-at-qantas-allianz-life-and-lvmh/" target="_blank" rel="noopener">told</a> <strong>Bleeping Computer</strong> that the overlap in the &#8220;tools, techniques and procedures&#8221; used by ShinyHunters and the <a href="https://krebsonsecurity.com/tag/scattered-spider/" target="_blank" rel="noopener">Scattered Spider extortion group</a> likely indicate some crossover between the two groups.</p>
+<p>To muddy the waters even further, on August 28 a Telegram channel that now has nearly 40,000 subscribers was launched under the intentionally confusing banner &#8220;<strong>Scattered LAPSUS$ Hunters 4.0</strong>,&#8221; wherein participants have repeatedly claimed responsibility for the Salesloft hack without actually sharing any details to prove their claims.</p>
+<p>The Telegram group has been trying to attract media attention by threatening security researchers at Google and other firms. It also is using the channel&#8217;s sudden popularity to promote a new cybercrime forum called &#8220;Breachstars,&#8221; which they claim will soon host data stolen from victim companies who refuse to negotiate a ransom payment.<span id="more-72062"></span></p>
+<div id="attachment_72075" style="width: 555px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72075" decoding="async" loading="lazy" class="size-full wp-image-72075" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/scatteredlapsusshunters.png" alt="" width="545" height="843" /><p id="caption-attachment-72075" class="wp-caption-text">The &#8220;Scattered Lapsus$ Hunters 4.0&#8221; channel on Telegram now has roughly 40,000 subscribers.</p></div>
+<p>But <strong>Austin Larsen</strong>, a principal threat analyst at Google&#8217;s threat intelligence group, said there is no compelling evidence to attribute the Salesloft activity to ShinyHunters or to other known groups at this time.</p>
+<p>&#8220;Their understanding of the incident seems to come from public reporting alone,&#8221; Larsen told KrebsOnSecurity, referring to the most active participants in the Scattered LAPSUS$ Hunters 4.0 Telegram channel.</p>
+<p><strong>Joshua Wright</strong>, a senior technical director at<strong> Counter Hack,</strong> is credited with coining the term &#8220;authorization sprawl&#8221; to describe one key reason that social engineering attacks from groups like Scattered Spider and ShinyHunters so often succeed: They abuse legitimate user access tokens to move seamlessly between on-premises and cloud systems.</p>
+<p>Wright said this type of attack chain often goes undetected because the attacker sticks to the resources and access already allocated to the user.</p>
+<p>&#8220;Instead of the conventional chain of initial access, privilege escalation and endpoint bypass, these threat actors are using centralized identity platforms that offer single sign-on (SSO) and integrated authentication and authorization schemes,&#8221; Wright <a href="https://www.techtarget.com/searchsecurity/post/Authorization-sprawl-Attacking-modern-access-models" target="_blank" rel="noopener">wrote in a June 2025 column</a>. &#8220;Rather than creating custom malware, attackers use the resources already available to them as authorized users.&#8221;</p>
+<p>It remains unclear exactly how the attackers gained access to all Salesloft Drift authentication tokens. Salesloft announced on August 27 that it hired <strong>Mandiant</strong>, Google Cloud&#8217;s incident response division, to investigate the root cause(s).</p>
+<p>&#8220;We are working with Salesloft Drift to investigate the root cause of what occurred and then it’ll be up to them to publish that,&#8221; Mandiant Consulting CTO <strong>Charles Carmakal</strong> <a href="https://cyberscoop.com/salesloft-drift-compromise-scope-expands/" target="_blank" rel="noopener">told Cyberscoop</a>. &#8220;There will be a lot more tomorrow, and the next day, and the next day.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/09/the-ongoing-fallout-from-a-breach-at-ai-chatbot-maker-salesloft/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Affiliates Flock to &#8216;Soulless&#8217; Scam Gambling Machine</title>
 		<link>https://krebsonsecurity.com/2025/08/affiliates-flock-to-soulless-scam-gambling-machine/</link>
 					<comments>https://krebsonsecurity.com/2025/08/affiliates-flock-to-soulless-scam-gambling-machine/#comments</comments>
@@ -41,7 +100,7 @@
 
 					<description><![CDATA[Last month, KrebsOnSecurity tracked the sudden emergence of hundreds of polished online gaming and wagering websites that lure people with free credits and eventually abscond with any cryptocurrency funds deposited by players. We've since learned that these scam gambling sites have proliferated thanks to a new Russian affiliate program called "Gambler Panel" that bills itself as a "soulless project that is made for profit."]]></description>
 										<content:encoded><![CDATA[<p>Last month, KrebsOnSecurity tracked the sudden emergence of hundreds of polished online gaming and wagering websites that lure people with free credits and eventually <a href="https://krebsonsecurity.com/2025/07/scammers-unleash-flood-of-slick-online-gaming-sites/" target="_blank" rel="noopener">abscond with any cryptocurrency funds</a> deposited by players. We&#8217;ve since learned that these scam gambling sites have proliferated thanks to a new Russian affiliate program called &#8220;<strong>Gambler Panel</strong>&#8221; that bills itself as a &#8220;soulless project that is made for profit.&#8221;</p>
-<div id="attachment_72047" style="width: 1423px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72047" decoding="async" class="size-full wp-image-72047" src="https://krebsonsecurity.com/wp-content/uploads/2025/08/scambler-offer.png" alt="" width="1413" height="717" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/08/scambler-offer.png 1413w, https://krebsonsecurity.com/wp-content/uploads/2025/08/scambler-offer-768x390.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/08/scambler-offer-782x397.png 782w" sizes="(max-width: 1413px) 100vw, 1413px" /><p id="caption-attachment-72047" class="wp-caption-text">A machine-translated version of Gambler Panel&#8217;s affiliate website.</p></div>
+<div id="attachment_72047" style="width: 1423px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72047" decoding="async" loading="lazy" class="size-full wp-image-72047" src="https://krebsonsecurity.com/wp-content/uploads/2025/08/scambler-offer.png" alt="" width="1413" height="717" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/08/scambler-offer.png 1413w, https://krebsonsecurity.com/wp-content/uploads/2025/08/scambler-offer-768x390.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/08/scambler-offer-782x397.png 782w" sizes="(max-width: 1413px) 100vw, 1413px" /><p id="caption-attachment-72047" class="wp-caption-text">A machine-translated version of Gambler Panel&#8217;s affiliate website.</p></div>
 <p>The scam begins with deceptive ads posted on social media that claim the wagering sites are working in partnership with popular athletes or social media personalities. The ads invariably state that by using a supplied &#8220;promo code,&#8221; interested players can claim a $2,500 credit on the advertised gaming website.</p>
 <p>The gaming sites ask visitors to create a free account to claim their $2,500 credit, which they can use to play any number of extremely polished video games that ask users to bet on each action. However, when users try to cash out any &#8220;winnings&#8221; the gaming site will reject the request and prompt the user to make a “verification deposit” of cryptocurrency — typically around $100 — before any money can be distributed.</p>
 <p>Those who deposit cryptocurrency funds are soon pressed into more wagering and making additional deposits. And &#8212; shocker alert &#8212; all players eventually lose everything they&#8217;ve invested in the platform.</p>
@@ -67,7 +126,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/08/affiliates-flock-to-soulless-scam-gambling-machine/feed/</wfw:commentRss>
-			<slash:comments>16</slash:comments>
+			<slash:comments>17</slash:comments>
 		
 		
 			</item>
@@ -206,7 +265,7 @@ Noah Michael Urban of Palm Coast, Fla. pleaded guilty in April 2025 to charges o
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/08/sim-swapper-scattered-spider-hacker-gets-10-years/feed/</wfw:commentRss>
-			<slash:comments>30</slash:comments>
+			<slash:comments>34</slash:comments>
 		
 		
 			</item>
@@ -581,73 +640,15 @@ Your unique writing style, phraseology, punctuation, consistency of grammatical 
 		
 		
 			</item>
-		<item>
-		<title>Phishers Target Aviation Execs to Scam Customers</title>
-		<link>https://krebsonsecurity.com/2025/07/phishers-target-aviation-execs-to-scam-customers/</link>
-					<comments>https://krebsonsecurity.com/2025/07/phishers-target-aviation-execs-to-scam-customers/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Thu, 24 Jul 2025 17:57:06 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Breadcrumbs]]></category>
-		<category><![CDATA[Ne'er-Do-Well News]]></category>
-		<category><![CDATA[Target: Small Businesses]]></category>
-		<category><![CDATA[Association for Financial Professionals]]></category>
-		<category><![CDATA[BEC]]></category>
-		<category><![CDATA[business email compromise]]></category>
-		<category><![CDATA[domaintools]]></category>
-		<category><![CDATA[financial fraud kill chain]]></category>
-		<category><![CDATA[Internet Crime Complaint Center]]></category>
-		<category><![CDATA[Justy John]]></category>
-		<category><![CDATA[Palo Alto Networks]]></category>
-		<category><![CDATA[roomservice801@gmail.com]]></category>
-		<category><![CDATA[SilverTerrier]]></category>
-		<category><![CDATA[Unit 42]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71635</guid>
-
-					<description><![CDATA[KrebsOnSecurity recently heard from a reader whose boss's email account got phished and was used to trick one of the company's customers into sending a large payment to scammers. An investigation into the attacker's infrastructure points to a long-running Nigerian cybercrime group that is actively targeting established companies in the transportation and aviation industries.]]></description>
-										<content:encoded><![CDATA[<p>KrebsOnSecurity recently heard from a reader whose boss&#8217;s email account got phished and was used to trick one of the company&#8217;s customers into sending a large payment to scammers. An investigation into the attacker&#8217;s infrastructure points to a long-running Nigerian cybercrime ring that is actively targeting established companies in the transportation and aviation industries.</p>
-<div id="attachment_71757" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71757" decoding="async" loading="lazy" class=" wp-image-71757" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/shutterstock-airplanes.png" alt="" width="749" height="535" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/shutterstock-airplanes.png 666w, https://krebsonsecurity.com/wp-content/uploads/2025/07/shutterstock-airplanes-100x70.png 100w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71757" class="wp-caption-text">Image: Shutterstock, Mr. Teerapon Tiuekhom.</p></div>
-<p>A reader who works in the transportation industry sent a tip about a recent successful phishing campaign that tricked an executive at the company into entering their credentials at a fake Microsoft 365 login page. From there, the attackers quickly mined the executive&#8217;s inbox for past communications about invoices, copying and modifying some of those messages with new invoice demands that were sent to some of the company&#8217;s customers and partners.</p>
-<p>Speaking on condition of anonymity, the reader said the resulting phishing emails to customers came from a newly registered domain name that was remarkably similar to their employer&#8217;s domain, and that at least one of their customers fell for the ruse and paid a phony invoice. They said the attackers had spun up a look-alike domain just a few hours after the executive&#8217;s inbox credentials were phished, and that the scam resulted in a customer suffering a six-figure financial loss.</p>
-<p>The reader also shared that the email addresses in the registration records for the imposter domain &#8212; <strong>roomservice801@gmail.com</strong> &#8212; is tied to many such phishing domains. Indeed, a search on this email address at <strong>DomainTools.com</strong> finds it is associated with at least 240 domains registered in 2024 or 2025. Virtually all of them mimic legitimate domains for companies in the aerospace and transportation industries worldwide.</p>
-<p>An Internet search for this email address reveals <a href="https://web.archive.org/web/20220514070749/https://hackware.ru/?p=12106" target="_blank" rel="noopener">a humorous blog post from 2020</a> on the Russian forum hackware[.]ru, which found roomservice801@gmail.com was tied to a phishing attack that used the lure of phony invoices to trick the recipient into logging in at a fake Microsoft login page. We&#8217;ll come back to this research in a moment.</p>
-<h2>JUSTY JOHN</h2>
-<p>DomainTools shows that some of the early domains registered to roomservice801@gmail.com in 2016 include other useful information. For example, the WHOIS records for <strong>alhhomaidhicentre[.]biz</strong> reference the technical contact of &#8220;<strong>Justy John</strong>&#8221; and the email address <strong>justyjohn50@yahoo.com</strong>.</p>
-<p>A search at DomainTools found justyjohn50@yahoo.com has been registering one-off phishing domains since at least 2012. At this point, I was convinced that some security company surely had already published an analysis of this particular threat group, but I didn&#8217;t yet have enough information to draw any solid conclusions.</p>
-<p>DomainTools says the Justy John email address is tied to more than two dozen domains registered since 2012, but we can find hundreds more phishing domains and related email addresses simply by pivoting on details in the registration records for these Justy John domains. For example, the street address used by the Justy John domain <strong>axisupdate[.]net</strong> &#8212; 7902 Pelleaux Road in Knoxville, TN &#8212; also appears in the registration records for accountauthenticate[.]com, acctlogin[.]biz, and loginaccount[.]biz, all of which at one point included the email address <strong>rsmith60646@gmail.com</strong>.</p>
-<p>That Rsmith Gmail address is connected to the 2012 phishing domain alibala[.]biz (one character off of the Chinese e-commerce giant alibaba.com, with a different top-level domain of .biz). A search in DomainTools on the phone number in those domain records &#8212; 1.7736491613 &#8212; reveals even more phishing domains as well as the Nigerian phone number &#8220;2348062918302&#8221; and the email address <strong>michsmith59@gmail.com</strong>.</p>
-<p>DomainTools shows michsmith59@gmail.com appears in the registration records for the domain <strong>seltrock[.]com</strong>, which was used in the phishing attack documented in <a href="https://web.archive.org/web/20220514070749/https://hackware.ru/?p=12106" target="_blank" rel="noopener">the 2020 Russian blog post</a> mentioned earlier. At this point, we are just two steps away from identifying the threat actor group.</p>
-<p>The same Nigerian phone number shows up in dozens of domain registrations that reference the email address <strong>sebastinekelly69@gmail.com</strong>, including <strong>26i3[.]net</strong>, <strong>costamere[.]com</strong>, <strong>danagruop[.]us</strong>, and <strong>dividrilling[.]com</strong>. A Web search on any of those domains finds they were indexed in <a href="https://github.com/pan-unit42/iocs/blob/master/silverterrier/domains.csv" target="_blank" rel="noopener">an &#8220;indicator of compromise&#8221; list on GitHub</a> maintained by <strong>Palo Alto Networks</strong>&#8216; <strong>Unit 42</strong> research team.<span id="more-71635"></span></p>
-<h2>SILVERTERRIER</h2>
-<p>According to Unit 42, the domains are the handiwork of a vast cybercrime group based in Nigeria that it dubbed &#8220;<strong>SilverTerrier</strong>&#8221; back in 2014. In <a href="https://unit42.paloaltonetworks.com/silverterrier-nigerian-business-email-compromise/" target="_blank" rel="noopener">an October 2021 report</a>, Palo Alto said SilverTerrier excels at so-called &#8220;<strong>business e-mail compromise</strong>&#8221; or <strong>BEC</strong> scams, which target legitimate business email accounts through social engineering or computer intrusion activities. BEC criminals use that access to initiate or redirect the transfer of business funds for personal gain.</p>
-<p>Palo Alto says SilverTerrier encompasses hundreds of BEC fraudsters, some of whom have been arrested in various international law enforcement operations by <strong>Interpol</strong>. In 2022, Interpol and the Nigeria Police Force <a href="https://www.interpol.int/en/News-and-Events/News/2022/Nigerian-cybercrime-fraud-11-suspects-arrested-syndicate-busted" target="_blank" rel="noopener">arrested 11 alleged SilverTerrier members</a>, including <a href="https://unit42.paloaltonetworks.com/operation-delilah-business-email-compromise-actor/" target="_blank" rel="noopener">a prominent SilverTerrier leader</a> who&#8217;d been flaunting his wealth on social media for years. Unfortunately, the lure of easy money, endemic poverty and corruption, and low barriers to entry for cybercrime in Nigeria conspire to provide a constant stream of new recruits.</p>
-<p>BEC scams were the 7th most reported crime tracked by the FBI&#8217;s <strong>Internet Crime Complaint Center</strong> (IC3) in 2024, generating more than 21,000 complaints. However, BEC scams were the second most costly form of cybercrime reported to the feds last year, with <em>nearly $2.8 billion in claimed losses</em>. In its <a href="https://www.afponline.org/training-resources/resources/survey-research-economic-data/Details/payments-fraud" target="_blank" rel="noopener">2025 Fraud and Control Survey Report</a>, the <strong>Association for Financial Professionals</strong> found 63 percent of organizations experienced a BEC last year.</p>
-<p>Poking at some of the email addresses that spool out from this research reveals a number of Facebook accounts for people residing in Nigeria or in the United Arab Emirates, many of whom do not appear to have tried to mask their real-life identities. Palo Alto&#8217;s Unit 42 researchers reached a similar conclusion, noting that although a small subset of these crooks went to great lengths to conceal their identities, it was usually simple to learn their identities on social media accounts and the major messaging services.</p>
-<p>Palo Alto said BEC actors have become far more organized over time, and that while it remains easy to find actors working as a group, the practice of using one phone number, email address or alias to register malicious infrastructure in support of multiple actors has made it far more time consuming (but not impossible) for cybersecurity and law enforcement organizations to sort out which actors committed specific crimes.</p>
-<p>&#8220;We continue to find that SilverTerrier actors, regardless of geographical location, are often connected through only a few degrees of separation on social media platforms,&#8221; the researchers wrote.</p>
-<h2>FINANCIAL FRAUD KILL CHAIN</h2>
-<p>Palo Alto has published <a href="https://unit42.paloaltonetworks.com/operation-falcon-ii-silverterrier-nigerian-bec/#protections-and-mitigations" target="_blank" rel="noopener">a useful list of recommendations</a> that organizations can adopt to minimize the incidence and impact of BEC attacks. Many of those tips are prophylactic, such as conducting regular employee security training and reviewing network security policies.</p>
-<p>But one recommendation &#8212; getting familiar with a process known as the &#8220;<strong>financial fraud kill chain</strong>&#8221; or FFKC &#8212; bears specific mention because it offers the single best hope for BEC victims who are seeking to claw back payments made to fraudsters, and yet far too many victims don&#8217;t know it exists until it is too late.</p>
-<div id="attachment_71758" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71758" decoding="async" loading="lazy" class=" wp-image-71758" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/ffkc-fbi.png" alt="" width="749" height="786" /><p id="caption-attachment-71758" class="wp-caption-text">Image: ic3.gov.</p></div>
-<p>As explained in <a href="https://www.justice.gov/elderjustice/media/1364056/dl?inline" target="_blank" rel="noopener">this FBI primer</a>, the International Financial Fraud Kill Chain is a partnership between federal law enforcement and financial entities whose purpose is to freeze fraudulent funds wired by victims. According to the FBI, viable victim <a href="https://www.ic3.gov/CrimeInfo/BEC" target="_blank" rel="noopener">complaints filed with ic3.gov</a> promptly after a fraudulent transfer (generally less than 72 hours) will be automatically triaged by the <a href="https://en.wikipedia.org/wiki/Financial_Crimes_Enforcement_Network" target="_blank" rel="noopener">Financial Crimes Enforcement Network</a> (FinCEN).</p>
-<p>The FBI noted in its <a href="https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf" target="_blank" rel="noopener">IC3 annual report</a> (PDF) that the FFKC had a 66 percent success rate in 2024. Viable ic3.gov complaints involve losses of at least $50,000, and include all records from the victim or victim bank, as well as a completed FFKC form (provided by FinCEN) containing victim information, recipient information, bank names, account numbers, location, SWIFT, and any additional information.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/07/phishers-target-aviation-execs-to-scam-customers/feed/</wfw:commentRss>
-			<slash:comments>10</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 261/261 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Object Caching 262/262 objects using memcached
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-09-01 16:52:57 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-09-01 18:02:03 by W3 Total Cache
 -->
