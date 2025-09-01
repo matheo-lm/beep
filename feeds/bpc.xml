@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 01 Sep 2025 11:01:49 EDT</pubDate>
+        <pubDate>Mon, 01 Sep 2025 12:00:16 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Amazon disrupts Russian APT29 hackers targeting Microsoft 365</title>
+        <link>https://www.bleepingcomputer.com/news/security/amazon-disrupts-russian-apt29-hackers-targeting-microsoft-365/</link>
+        <pubDate>Mon, 01 Sep 2025 11:35:06 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/amazon-disrupts-russian-apt29-hackers-targeting-microsoft-365/</guid>
+	<description><![CDATA[Researchers have disrupted an operation attributed to Russian state-sponsored threat group Midnight Blizzard, who sought access to Microsoft 365 accounts and data. [...]]]></description>
+ </item>
+
  <item>
         <title>Brokewell Android malware delivered through fake TradingView ads</title>
         <link>https://www.bleepingcomputer.com/news/security/brokewell-android-malware-delivered-through-fake-tradingview-ads/</link>
@@ -164,20 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enforce-mfa-for-azure-resource-management-in-october/</guid>
 	<description><![CDATA[Starting in October, Microsoft will enforce multi-factor authentication (MFA) for all Azure resource management actions to protect Azure clients from unauthorized access attempts. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft says recent Windows update didn't kill your SSD</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-KB5063878-windows-update-didnt-kill-your-ssd/</link>
-        <pubDate>Fri, 29 Aug 2025 10:21:27 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-KB5063878-windows-update-didnt-kill-your-ssd/</guid>
-	<description><![CDATA[Microsoft has found no link between the August 2025 KB5063878 security update and customer reports of failure and data corruption issues affecting solid-state drives (SSDs) and hard disk drives (HDDs). [...]]]></description>
  </item>
 
 </channel>
