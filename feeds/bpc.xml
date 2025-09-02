@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 02 Sep 2025 18:01:56 EDT</pubDate>
+        <pubDate>Tue, 02 Sep 2025 18:59:03 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers breach fintech firm in attempted $130M bank heist</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-breach-fintech-firm-in-attempted-130m-bank-heist/</link>
+        <pubDate>Tue, 02 Sep 2025 18:33:50 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-breach-fintech-firm-in-attempted-130m-bank-heist/</guid>
+	<description><![CDATA[Hackers tried to steal $130 million from Evertec's Brazilian subsidiary Sinqia S.A.after gaining unauthorized access to its environment on the central bank's real-time payment system (Pix). [...]]]></description>
+ </item>
+
  <item>
         <title>Cloudflare hit by data breach in Salesloft Drift supply chain attack</title>
         <link>https://www.bleepingcomputer.com/news/security/cloudflare-hit-by-data-breach-in-salesloft-drift-supply-chain-attack/</link>
@@ -174,22 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-gpt-codex-like-claude-code-web-app/</guid>
 	<description><![CDATA[Anthropic is planning to bring the famous Claude Code to the web, and it might be similar to ChatGPT Codex, but you'll need GitHub to get started. [...]]]></description>
- </item>
-
- <item>
-        <title>ChatGPT can now create flashcards quiz on any topic</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-create-flashcards-quiz-on-any-topic/</link>
-        <pubDate>Sun, 31 Aug 2025 08:30:00 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-create-flashcards-quiz-on-any-topic/</guid>
-	<description><![CDATA[If you use ChatGPT to learn new topics, you might want to try its new flashcard-based quiz feature, which can help you evaluate your progress. [...]]]></description>
  </item>
 
 </channel>
