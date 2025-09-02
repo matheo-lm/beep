@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 02 Sep 2025 14:59:01 EDT</pubDate>
+        <pubDate>Tue, 02 Sep 2025 15:59:06 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cloudflare hit by data breach in Salesloft Drift supply chain attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/cloudflare-hit-by-data-breach-in-salesloft-drift-supply-chain-attack/</link>
+        <pubDate>Tue, 02 Sep 2025 15:54:00 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-hit-by-data-breach-in-salesloft-drift-supply-chain-attack/</guid>
+	<description><![CDATA[Cloudflare is the latest company impacted in a recent string of Salesloft Drift breaches, part of a supply-chain attack disclosed last week. [...]]]></description>
+ </item>
+
  <item>
         <title>Cloudflare blocks largest recorded DDoS attack peaking at 11.5 Tbps</title>
         <link>https://www.bleepingcomputer.com/news/security/cloudflare-blocks-record-breaking-115-tbps-ddos-attack/</link>
@@ -176,22 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-create-flashcards-quiz-on-any-topic/</guid>
 	<description><![CDATA[If you use ChatGPT to learn new topics, you might want to try its new flashcard-based quiz feature, which can help you evaluate your progress. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI is testing "Thinking effort" for ChatGPT</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-thinking-effort-for-chatgpt/</link>
-        <pubDate>Sun, 31 Aug 2025 07:26:42 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-thinking-effort-for-chatgpt/</guid>
-	<description><![CDATA[OpenAI is working on a new feature called the Thinking effort picker for ChatGPT. [...]]]></description>
  </item>
 
 </channel>
