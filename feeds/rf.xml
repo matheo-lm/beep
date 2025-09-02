@@ -4,12 +4,564 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Tue, 02 Sep 2025 08:14:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Sep 2025 14:01:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
         <copyright>Copyright © 2025 Recorded Future, Inc.</copyright>
         <atom:link href="https://www.recordedfuture.com/feed" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Influence Operations and Conflict Escalation in South Asia]]></title>
+            <link>https://www.recordedfuture.com/research/influence-operations-and-conflict-escalation-in-south-asia</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/research/influence-operations-and-conflict-escalation-in-south-asia</guid>
+            <pubDate>Wed, 21 Jan 1970 07:59:31 GMT</pubDate>
+            <description><![CDATA[Insikt Group exposes pro-India and pro-Pakistan influence networks active during the 2025 conflict, revealing their tactics, narratives, and strategic objectives.]]></description>
+            <content:encoded><![CDATA[
+        <h2>Executive Summary</h2>
+        <p>Insikt Group documented two large-scale, state-aligned influence operation networks supporting India and Pakistan, respectively, during the India-Pakistan conflict of April and May 2025; we track these networks as Hidden Charkha (pro-India) and Khyber Defender (pro-Pakistan). These networks are very likely motivated by patriotism and are almost certainly aligned with India’s and Pakistan’s domestic and foreign policy objectives, respectively. Both networks intervened at every phase of conflict escalation between the April 22, 2025, Pahalgam terror attack and the ceasefire announcement on May 10, 2025, presenting a blueprint of the TTPs and narratives employed by two separate influence operation networks supporting adversarial, nuclear-armed countries attempting to control escalation and garner popular and diplomatic support for limited conventional kinetic actions.</p>
+        <p>Each network consistently attempted to frame India or Pakistan, respectively, as maintaining superior technological and military capabilities –– and therefore the implied ability for each respective country to exercise tactical restraint –– as proof of having the moral high ground, and hence having domestic and international support. The networks also attempted to undermine India’s and Pakistan’s claims of military preparedness by amplifying forged military documents and exaggerating the impact of claimed cyberattacks to highlight vulnerabilities.</p>
+        <p>Despite their efforts, both networks were almost certainly unsuccessful in shaping public opinion, as measured by their lack of organic engagement on social media, their inability to break out of patriotic echo chambers, and their recurrent use of generative AI to produce visual content, which very likely undermines their credibility. Nevertheless, analyzing narratives produced by both networks can provide defenders with valuable insights into the role of influence operations (IOs) during conflict escalation. Organizations operating in conflict zones should proactively track mentions of their brand or key personnel in influence narratives to proactively mitigate against reputational damages.</p>
+        <h2>Key Findings</h2>
+        <ul>
+          <li>Hidden Charkha is a pro-India network active since at least 2021 that is almost certainly aligned with the Indian government and operating in the Indian Standard Time (IST) timezone. Khyber Defender is a pro-Pakistan network active since at least 2020 that is almost certainly aligned with the Pakistani government.</li>
+          <li>Both networks were active during the India-Pakistan conflict following the Pahalgam terror attacks on April 22, 2025, and very likely attempted to support the governments of India and Pakistan, respectively, at different phases of conflict escalation.</li>
+          <li>Initially, both networks attempted to stake claims and counterclaims to attribute the Pahalgam attacks as acts of state-sponsored terrorism from India or Pakistan. The networks then attempted to undermine senior political figures in each country, in addition to amplifying nationalist and patriotic sentiment domestically while suppressing dissenting opinions on social media.</li>
+          <li>Hidden Charkha and Khyber Defender closely supported and criticized each country’s kinetic military operations (Operation Sindoor and Operation Bunyan-Al-Marsous, respectively) and claimed each respective country was demonstrating tactical restraint and technological superiority.</li>
+          <li>Following the ceasefire announcement on May 10, 2025, Hidden Charkha accused Pakistan, and Khyber Defender accused India, of violating the ceasefire, as both networks attempted to shape international perceptions on the outcome of the conflict and reassert claims of technological superiority.</li>
+        </ul>
+        <h2>Two Networks</h2>
+        <p>Insikt Group identified two major influence networks engaging in coordinated inauthentic behavior (CIB) during the India-Pakistan conflict in late April and early May 2025: Hidden Charkha, a pro-India network, and Khyber Defender, a pro-Pakistan network (Figure 1). These networks illustrate how influence operations can be employed symmetrically during crises in an attempt to shape public perception in both domestic and foreign spheres, as well as in an attempt to manage escalation. Their behavior during the 2025 India-Pakistan standoff serves as a rare example of influence operations operating in tandem with kinetic and cyber escalation between rival nuclear-armed states. It also demonstrates the role of patriotic sentiment in aligning non-state influence actors with nation-state wartime objectives.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1a3e6c9399d1ee2bbb1cd9f0e836cdd0f1d0ebdd6.png?width=750&amp;format=png&amp;optimize=medium" width="1388" height="807" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figure 1:</strong> Hidden Charkha and Khyber Defender network graphs (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>Both networks very likely operate to support and amplify pro-India and pro-Pakistan narratives on social media. These networks mainly promote pro-government messaging to domestic audiences in local languages and have seen sharp increases in activity during major domestic political events in each country (<strong>Figure 2</strong>). Hidden Charkha activity surged in November 2024 to commemorate the November 26, 2008, terrorist attacks in Mumbai; it also surged in January 2024 during <a href="https://apnews.com/article/india-farmers-protest-minimum-crop-prices-72f48ace2126ccf933675b76ff83944a">farmer protests</a> in India. Khyber Defender activity surged on April 15, 2025, when the Washington Post <a href="https://www.washingtonpost.com/world/2025/04/14/afghanistan-war-weapons-pakistan-taliban-militants/">revealed</a> that terrorist groups smuggled US weapons left in Afghanistan into Pakistan, as well as in July 2024, following Pakistani media coverage of “Operation Goldsmith,” an <a href="https://theprint.in/go-to-pakistan/richard-grenells-imran-chorus-grows-louder-pakistan-minister-calls-it-operation-goldsmith/2419808/">alleged operation</a> by foreign actors to restore former Prime Minister Imran Khan. Both networks also prioritize narratives promoting national unity and counter-insurgency operations in contested regions, such as the Balochistan province and Jammu and Kashmir (J&amp;K), while undermining separatist movements operating in them.</p>
+        <p>In addition to domestic messaging, these networks also very likely support the aforementioned governments’ foreign policy and diplomatic objectives, including undermining each respective government’s rivals at global diplomatic events such as the United Nations (UN) General Assembly (UNGA). The pro-India Hidden Charkha network also likely supported <a href="https://www.nsicop-cpsnr.ca/reports/rp-2024-06-03/special-report-foreign-interference.pdf">transnational repression</a> efforts by targeting Sikh separatists abroad, as well as by promoting content accusing Canada and the US of facilitating perceived Khalistani extremism.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1248b5a3e9fc5f059767261e006be9ab314467e0c.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="777" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 2</em></strong><em>: Hidden Charkha and Khyber Defender daily posting since January 2024 (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>In addition to their size (over 900 inauthentic accounts affiliated with Hidden Charkha and over 300 affiliated with Khyber Defender), these networks are remarkably similar in terms of TTPs: They use hashtags to amplify content and manipulate trending topics, produce visual content inhouse, impersonate local and international news outlets, and use AI to generate content aimed at international audiences.</p>
+        <h3>Hidden Charkha</h3>
+        <p>Hidden Charkha is a covert influence network identified by Insikt Group in April 2025 disseminating pro-India influence content. We identified over 900 inauthentic accounts as part of this network, which has been active since at least 2021. Insikt Group assesses that Hidden Charkha’s narratives are almost certainly aligned with the Indian government’s geopolitical objectives, which include promoting pro-India narratives to international audiences, undermining pro-Pakistani narratives and positions, and targeting Khalistani separatist groups. We also observed the network producing influence content accusing the US and Canada of harboring Khalistani activists.</p>
+        <h4>Attribution</h4>
+        <p>Using pattern-of-life (PoL) analysis, Insikt Group assesses that Hidden Charkha’s operators are likely based in India Standard Time (IST) locations, although we were unable to attribute this activity to a specific entity. Based on the network’s posting patterns over the last two years, Hidden Charkha operators very likely follow typical 9-5 work schedules, with a pause around lunch (12:00-13:00) and reduced posting between 18:00-9:00 (<strong>Figure 3</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="ION-51 Posts, GMT+5:30 (IST)" src="https://www.recordedfuture.com/media_1213dcf823a28833ecb6fccde1203077cb1f72a15.png?width=750&amp;format=png&amp;optimize=medium" width="1470" height="910" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 3</em></strong><em>: Hourly Hidden Charkha posting activity, GMT+5:30 (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <h4>Objectives</h4>
+        <p>Hidden Charkha’s content and narratives almost certainly seek to fulfill the following influence objectives:</p>
+        <ul>
+          <li><strong>Praise Indian political leaders</strong> in addition to law enforcement and counter-terrorism units such as the Central Reserve Police Force (CRPF), and the National Security Guard (NSG), as well as highlight India’s progress in sectors like defense manufacturing, semiconductors, AI, and transport infrastructure (<strong>Figures 4, 5, and</strong> <strong>6</strong>). Accounts frequently promoted such content using hashtags like #MadeInIndia and #SelfReliantIndia.</li>
+          <li><strong>Boost India’s diplomatic standing</strong> at events like the 79th UNGA in October 2024 and India’s leadership of the G20 summit in 2023, using hashtags like #g20india and #g20_in_kashmir.</li>
+          <li><strong>Defuse polarizing events</strong> and support government responses such as the Muzaffarnagar school incident in September 2023, criminal law reforms in January and February 2024, major farmer protests in February and March 2024, and the November 2024 anniversary of the 2008 Mumbai terrorist attacks using hashtags like #NeverForget2611.</li>
+        </ul>
+        <p>Insikt Group identified pro-India content posted by Hidden Charkha accounts likely generated using OpenAI’s DALL-E 2 model and typically depicting India’s economic success in sectors such as defense, manufacturing, and infrastructure.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_17a62c90d57a5209341872bb7bc18eeb79312a142.png?width=750&amp;format=png&amp;optimize=medium" width="595" height="198" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 4, 5, and 6</em></strong><em>: AI-generated images used in Hidden Charkha content (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>Hidden Charkha’s principal targets abroad are the following:</p>
+        <ul>
+          <li><strong>Pakistani Government</strong>: Prior to the Pahalgam attacks, the network perpetuated narratives depicting Pakistan as sponsoring terrorism (<strong>Figures 7 and 8</strong>), often claiming the Pakistani government was complicit in the 2008 Mumbai attacks (also known as “26/11”) <a href="https://www.dni.gov/nctc/groups/lt.html">perpetrated</a> by the terrorist group Lashkar-e-Taiba (LeT), a position <a href="https://www.nytimes.com/2009/01/06/world/asia/06iht-07india.19117171.html">also taken</a> by the Indian government.</li>
+          <li><strong>Canadian Government:</strong> Hidden Charkha repeatedly promotes content accusing the Canadian government of harboring Khalistani separatists, an issue that has driven a wedge between India and Canada and led to a <a href="https://www.bbc.com/news/articles/c89lne2k87vo">deterioration</a> in diplomatic relations (both countries have since <a href="https://www.theguardian.com/world/2025/jun/18/canada-india-assassination-carney-modi">pledged</a> to mend relations over the issue at the 2025 G7 summit). The network has repeatedly blamed the Canadian government for sponsoring “Khalistani terrorism” and has amplified narratives calling for Canada to become a US state, using the hashtag #51state (<strong>Figure 9</strong>).</li>
+          <li><strong>US Government:</strong> Similar to Canada, Hidden Charkha promotes content targeting the US over its perceived tolerance for Khalistani activists residing in the country, mirroring Indian government <a href="https://www.reuters.com/world/india-asks-us-list-sikh-group-terrorist-organisation-indian-source-says-2025-03-18/">requests</a> for the US to list Sikh separatists as terror groups. Hidden Charkha accounts have also accused the US of funding “Pakistan-sponsored terrorists” and conducting transnational killings in reaction to US media outlets <a href="https://www.washingtonpost.com/world/2024/04/29/india-assassination-raw-sikhs-modi/">attributing</a> an “assassination plot” targeting Khalistani activists in the US to India’s Research and Analysis Wing (RAW).</li>
+        </ul>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1f5c4bd3cfea4a3abdc79921f076e3efa9fa71e6e.png?width=750&amp;format=png&amp;optimize=medium" width="515" height="200" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 7, 8, and 9</em></strong><em>: Hidden Charkha images referencing Pakistan, the US, and Canada (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <h3><strong><em>Assets and TTPs</em></strong></h3>
+        <p>Hidden Charkha accounts are likely inauthentic but use multiple methods to hide or obscure their true identities while masquerading as legitimate users from India. Hidden Charkha account profiles almost certainly use profile pictures created by a generative adversarial network (GAN) generative model (<strong>Figures 10 and 11</strong>), or use stolen or generic profile pictures. Some of the network’s most active accounts also employ AI-generated profile pictures, but obstruct faces to avoid being detected as AI-generated content, often by using veils or other kinds of objects, such as a building corner (<strong>Figures 12, 13, and 14</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_18449327e6b29a7f3f6e2bb8965e4bef3ef58cce8.png?width=750&amp;format=png&amp;optimize=medium" width="301" height="152" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 10 and 11</em></strong><em>: GAN-generated profile pictures used by Hidden Charkha accounts (Source: Social Media)</em></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1f67d4e47226c35be8a389d385962c7d1ff25893d.png?width=750&amp;format=png&amp;optimize=medium" width="452" height="152" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 12, 13, and 14</em></strong><em>: Similar AI-generated profile pictures used by Hidden Charkha accounts (Source: Social Media)</em></div>
+          </div>
+        </div>
+        <p>Insikt Group also identified Hidden Charkha accounts attempting to brand themselves as purported media outlets, using names such as “Daily Dose News” (@DdnDose), “NewsMasterIndia” (@NewsMasterIndia), and “NewsFreak” (@_peacekeeper2), with some accounts advertising themselves as fact-checking organizations. One of the Hidden Charkha accounts branded as a fact-checking organization linked to <em>countermisinformation[.]com</em> in its bio, a website claiming to be “an initiative to combat the spread of disinformation against India by global media.”</p>
+        <h3>Khyber Defender</h3>
+        <p>Khyber Defender is a covert influence network identified by Insikt Group in May 2025; it has been disseminating pro-Pakistan influence content since at least 2020. Insikt Group assesses that Khyber Defender’s narratives are almost certainly aligned with the Pakistani government’s foreign and domestic policy goals, which include undermining the Indian government and nationalist movements in Balochistan, supporting Pakistan’s foreign policy regarding Afghanistan and the Israel-Hamas war, and lobbying the Pakistani government on topics like agriculture and public health.</p>
+        <h4>Attribution</h4>
+        <p>Insikt Group attributes Khyber Defender content with high confidence to Team 64, a Pakistani company and activist collective based in Khyber Pakhtunkhwa province. Insikt Group identified Khyber Defender accounts publishing large volumes of Urdu-language content, including Team 64’s logo (<strong>Figures 15 and</strong> <strong>16</strong>), in addition to a number of likely inauthentic accounts <a href="https://archive.is/6jbsI">openly admitting</a> to posting “on behalf” of the company. Team 64 almost certainly has a current <a href="https://www.facebook.com/team64pak/">Facebook page</a> and a <a href="https://www.youtube.com/channel/UCxmgdXfNcw1-Fvl58gr521A">YouTube channel</a>, the latter of which links to the social media handle @zeeshanhoti, which we assess is likely linked to Zeeshan Hoti, the President of the Provincial Youth Assembly in Khyber Pakhtunkhwa (KPK). However, we were unable to ascertain Hoti’s exact level of involvement in Team 64 or whether the KPK coordinates with the Pakistani central government.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_11e8a4a6dc6e5f30b7231e572ae3484927c9257c0.png?width=750&amp;format=png&amp;optimize=medium" width="960" height="960" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 15:</em></strong> <em>Team 64’s logo (Source:</em> <em><a href="https://www.facebook.com/photo/?fbid=265264739235286&amp;set=a.265264745901952">Facebook</a>)</em></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_115dd160c4907c9917caf9b22ee905fc3bfd32acc.png?width=750&amp;format=png&amp;optimize=medium" width="399" height="199" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 16</em></strong><em>: Khyber Defender content using Team 64’s logo (Source: Social Media)</em></div>
+          </div>
+        </div>
+        <p>In late May 2025, accounts linked to Khyber Defender published graphics using the #Team64 hashtag, calling Team64 the “digital defenders of Pakistan,” thanking “all our Cyber Warriors, Patriots and Media Houses,” and including a screenshot of Pakistan’s top trending hashtags (<strong>Figure 17</strong>). Previous Khyber Defender and Team64 posts have also openly admitted to amplifying hashtags to reach Pakistan’s top trends, such as #Pakistan_Will_Emerge in January 2023 (<strong>Figure 18</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_18ffe5b67d791918c6b287afe3b83b687e296196a.png?width=750&amp;format=png&amp;optimize=medium" width="545" height="247" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figures 17 and 18</em></strong><em>: Graphic published by Khyber Defender accounts on May 16, 2025 (left), and January 2023 (right)</em></p>
+              <p><em>(Source: Social Media)</em></p>
+            </div>
+          </div>
+        </div>
+        <h3><strong><em>Objectives</em></strong></h3>
+        <p>The majority of Khyber Defender content has focused on supporting Pakistan’s geopolitical objectives and foreign policy, including by:</p>
+        <ul>
+          <li><strong>Undermining the Indian government,</strong> including by attempting to erode India’s diplomatic standing (including at the 2023 UNGA, also targeted by Hidden Charkha; Khyber Defender used hashtags like #UNGA78 and #unga2023), deflecting accusations around alleged Pakistani state-sponsored terrorism, and sustaining pro-Pakistan sentiment in contested regions like J&amp;K. Pakistani diplomats have <a href="https://www.un.org/en/ga/sixth/69/pdfs/statements/int_terrorism/pakistan.pdf">repeatedly</a> denied India’s accusations at the UN.</li>
+          <li><strong>Blaming the US for regional instability</strong>, which includes criticizing the 2021 US withdrawal from Afghanistan. Notably, the network posted graphics impersonating The Washington Post (<strong>Figure 19</strong>) <a href="https://www.washingtonpost.com/world/2025/04/14/afghanistan-war-weapons-pakistan-taliban-militants/">based</a> on a real article describing the flow of US weapons to terror groups such as the Pakistani Taliban Movement (Tehrik-e Taliban Pakistan, TTP). Khyber Defender accounts stated that “American weapons are no longer symbols of partnership—they're assets in the hands of extremists.” Following the Taliban’s return to power, the TTP has <a href="https://ctc.westpoint.edu/the-tehrik-i-taliban-pakistan-after-the-talibans-afghanistan-takeover/">surged</a> <a href="https://www.dw.com/en/pakistan-sees-surge-in-deadly-attacks-in-2024/a-71192063">attacks</a> against Pakistani military and law enforcement targets, which Pakistani leaders have <a href="https://www.voanews.com/a/pakistan-blames-rushed-us-troop-exit-for-terror-resurgence-/7252042.html">attributed</a> to US and NATO forces exiting Afghanistan in August 2021.</li>
+          <li><strong>Supporting Palestine</strong> by calling for the boycott of US companies and consumer brands operating in Israel during the Israel-Hamas war, using hashtags like #9MonthsofGenocide (<strong>Figure 20</strong>). The Pakistani government has consistently <a href="https://www.arabnews.com/node/2597009/pakistan">sided</a> against Israel during the conflict, with Pakistan’s National Assembly passing a unanimous resolution condemning Israel’s “heinous waves of atrocities” in Gaza.</li>
+        </ul>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_10ab993e249179a6ef06861187a3dceebb857698c.png?width=750&amp;format=png&amp;optimize=medium" width="494" height="247" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 19 and 20</em></strong><em>: Khyber Defender content impersonating the Washington Post and calling for the boycott of US companies operating in Israel (Source: Social Media)</em></div>
+          </div>
+        </div>
+        <p>Khyber Defender almost certainly targets domestic Pakistani audiences in English and Urdu in pursuit of the following objectives:</p>
+        <ul>
+          <li><strong>Undermine Baloch nationalist and separatist movements</strong> like Akhtar Mengal’s Balochistan National Party (BNP-M; <strong>Figure 21</strong>), insurgent groups like the Balochistan Liberation Army (BLA), and the Balochistan Liberation Front (BLF), in addition to human rights groups like Dr Marhrang Baloch’s Baloch Unity Committee (BYC; <strong>Figure 22</strong>). These objectives mirror the Pakistani government’s crackdown on pro-Baloch movements and insurgents, as Pakistan <a href="https://mofa.gov.pk/designation-of-balochistan-liberation-army-by-the-us-administration-as-specially-designated-global-terrorist-sdgt">designated</a> the BLA a terrorist group in 2006 and has been accused of <a href="https://www.humanrightsresearch.org/post/pakistan-urged-to-end-crackdown-on-baloch-human-rights-defenders">cracking down</a> on peaceful protests by BYC and BNP-M supporters. In July 2025, Pakistani authorities reportedly <a href="https://www.dawn.com/news/1925571">placed</a> Akhtar Mengal on a no-fly list.</li>
+          <li><strong>Erode domestic support for Imran Khan</strong> and the Pakistan Tehreek-e-Insaf (PTI) political party by accusing PTI of “collaborating” with Baloch separatist groups to form terror plots and alleging Imran Khan of being corrupt. Khan was <a href="https://www.bbc.co.uk/news/articles/cly77v0n8e9o">sentenced</a> to fourteen years in prison in January 2025 after being detained since 2023 over alleged corruption charges. The Pakistani government also <a href="https://www.theguardian.com/world/article/2024/jul/15/pakistan-government-seeks-to-ban-pti-party-of-former-pm-imran-khan">attempted</a> to ban PTI in 2024. Khyber Defender accounts previously expressed their support for Khan during his tenure as Prime Minister, but changed their narratives after he was deposed in April 2022, supporting our assessment that these accounts are operating in alignment with the Pakistani government.</li>
+          <li><strong>Lobby the Pakistani government</strong> over economic policy, including asking for an increase in wheat prices to support farmers, using hashtags such as #کسان_کا_ساتھ_دو (“Support the farmer”) and #ریٹ_نہیں_تو_فصل_نہیں (“No fair rate, no crop”), and raising the tax rate on tobacco products to support public health. The Pakistani government decided in February 2025 to <a href="https://www.dawn.com/news/1890311">abolish</a> minimum support prices for wheat, creating <a href="https://profit.pakistantoday.com.pk/2025/06/04/farmers-suffer-rs-2-2-trillion-loss-in-wheat-alone-as-agriculture-sector-crumbles/">economic concerns</a> for farmers; additionally, the government has also <a href="https://www.emro.who.int/pak/pakistan-news/tobacco-costs-pakistan-164-000-lives-and-us-25-billion-annually-urgent-tax-increases-can-save-lives.html">continued raising</a> tobacco taxation levels to meet World Health Organization (WHO) standards.</li>
+        </ul>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1e996ce1bdbd5b6f20419234f23c2b293221bb87b.png?width=750&amp;format=png&amp;optimize=medium" width="430" height="244" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figures 21 and 22</em></strong><em>: Khyber Defender content targeting Akhtar Mengal and Dr. Mahrang Baloch</em></p>
+              <p><em>(Source: Social Media)</em></p>
+            </div>
+          </div>
+        </div>
+        <h3><strong><em>Assets and TTPs</em></strong></h3>
+        <p>The majority of Khyber Defender’s accounts are very likely inauthentic, given their use of “<a href="https://arxiv.org/html/2403.15856v1">follow-for-follow</a>” tactics to accrue followers, stolen profile pictures, and common traits shared between accounts, such as the use of similar bios and specific emojis. Many Khyber Defender accounts have likely accrued significant followings by participating in inauthentic “follow-for-follow” networks, which involve following many accounts to receive many reciprocal followers.</p>
+        <h2>Influence Operations and Conflict Escalation</h2>
+        <p>Insikt Group assesses that Hidden Charkha and Khyber Defender both participated in influence activities aligned with India’s and Pakistan’s broader efforts to shape domestic and international public opinion and deflect blame following the Pahalgam attacks. This influence activity aligned with India and Pakistan characterized their kinetic reprisals as legitimate and proportionate, effectively attempting to assert control over conflict escalation. Based on content published during the India-Pakistan conflict between April 22 and May 15, 2025, these networks almost certainly attempted to do the following:</p>
+        <ul>
+          <li><strong>Rapidly establish control over attribution narratives over the Pahalgam attacks</strong> and legitimize claims using government and news sources</li>
+          <li><strong>Increase domestic political pressure on perceived adversarial public officials and erode trust in adversary leadership</strong> while promoting narratives of unity domestically</li>
+          <li><strong>Undermine the rival’s diplomatic standing</strong> and counter or support international media reports on the conflict</li>
+          <li><strong>Erode trust in adversary military preparedness</strong> by amplifying almost certainly forged military documents that reportedly showed a lack of morale and equipment malfunctions</li>
+          <li><strong>Frame military retaliation as justified and securing the moral high ground</strong> by promoting narratives of a disproportionate response by their adversary</li>
+          <li><strong>Drive domestic and international support for conventional kinetic operations by amplifying operational successes,</strong> establishing narratives of technological superiority, countering adversarial claims of failure, and promoting patriotic sentiment</li>
+          <li><strong>Exaggerate the impact of cyberattacks on adversary infrastructure</strong> by echoing claims from hacktivist groups and national media outlets</li>
+          <li><strong>Claim military and cyber operations as successes post-ceasefire</strong> while highlighting any ceasefire violations, undermining their adversary on the international stage, and reaffirming their own technological sophistication</li>
+        </ul>
+        <p>In spite of each network’s attempts, organic social media engagement with their campaigns during the conflict’s time period was minimal, very likely denoting a failure to effectively shape public opinion. These networks also very likely failed to escape their national media echo chambers and likely reinforced existing messaging targeting like-minded activists and patriotic actors. Additionally, based on available data, Insikt Group is unable to establish whether these networks are operating under direct government supervision or control, limiting arguments of causal links between the Indian and Pakistani governments’ strategies during the conflict and narratives published by Hidden Charkha and Khyber Defender.</p>
+        <p>Nevertheless, narratives promoted by both influence networks to support conflict escalation almost certainly demonstrate how nationalist or patriotic sentiment can align network operators with nation-state influence objectives and provide informational support in times of kinetic warfare.</p>
+        <h3>Background</h3>
+        <p>On April 22, 2025, gunmen <a href="https://apnews.com/article/kashmir-tourist-attack-dc7067a18899d9e7ff7726d4e05982c3">shot and killed</a> 26 tourists at a resort near Pahalgam in India-controlled Kashmir. The attack was initially claimed by The Resistance Front (TRF), an alleged proxy of the Pakistani terrorist organization Lashkar-e-Taiba (LeT), which has been designated as a terrorist group by the <a href="https://www.mha.gov.in/sites/default/files/2022-08/BannedOrgOld_16032022%5B1%5D.pdf">Indian</a>, <a href="http://news.bbc.co.uk/1/hi/world/south_asia/3181925.stm">Pakistani</a>, and <a href="https://www.state.gov/foreign-terrorist-organizations">US</a> governments since 2001. Initial reactions in both countries included <a href="https://www.csis.org/analysis/what-led-recent-crisis-between-india-and-pakistan">deflecting blame</a> onto the other and mounting domestic political pressure to identify responsible parties in government. Diplomatic tensions soared after both countries <a href="https://www.dawn.com/news/1906284">instituted</a> reciprocal diplomatic sanctions and <a href="https://www.deccanherald.com/india/jk-terror-attack-india-seems-to-be-building-its-case-for-striking-pakistan-3512874">appealed</a> to foreign world leaders and international bodies. Escalating tensions along the Line of Control (LoC) border <a href="https://www.stimson.org/2025/four-days-in-may-the-india-pakistan-crisis-of-2025/">culminated</a> with India’s Operation Sindoor on May 7, 2025, which included strikes on LeT-linked facilities in Pakistan, and Pakistan’s retaliation starting May 8, 2025, subsequently expanded under Operation Bunyan-Al-Marsous on May 10, 2025, shortly before a US-brokered ceasefire was announced later the same day.</p>
+        <h3>Initial Attribution Claims</h3>
+        <p>Between April 22 and 25, 2025, both networks reacted rapidly to the attack to establish opposing attribution narratives (<strong>Figure 23</strong>), each framing the Pahalgam attack as state-sponsored terrorism by India or Pakistan. This activity almost certainly aimed to undermine the respective government’s credibility among international audiences while simultaneously inoculating domestic audiences against hostile messaging, particularly in <a href="https://www.cfr.org/global-conflict-tracker/conflict/conflict-between-india-and-pakistan">contested</a> regions like Jammu and Kashmir.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_12863c2ffde39bb92690409332a50279027f70ef2.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="775" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figure 23</em></strong><em>: Timeline of Hidden Charkha and Khyber Defender activity following the Pahalgam attacks</em></p>
+              <p><em>(Source: Recorded Future)</em></p>
+            </div>
+          </div>
+        </div>
+        <p>Within two hours of the Pahalgam attacks, Hidden Charkha accounts began attributing them to Pakistan. Accounts blamed the attacks on “Pak sponsored terrorists,” using hashtags like #pahalgamattack and #TerrorStatePakistan. By April 23, 2025, Hidden Charkha accounts began posting previously unseen (and therefore likely purpose-made) visual content accusing Pakistan’s Inter-Services Intelligence (ISI) of sponsoring LeT and calling TRF a “thinly veiled proxy” of LeT (<strong>Figures 24 and 25</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1d2a147f3e1788ff665e058581b555b566e79fe99.png?width=750&amp;format=png&amp;optimize=medium" width="487" height="198" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figures 24 and 25</em></strong><em>: Visual content posted by Hidden Charkha accounts following the Pahalgam attacks</em></p>
+              <p><em>(Source: Recorded Future)</em></p>
+            </div>
+          </div>
+        </div>
+        <p>On April 22, 2025, at approximately 20:43 Karachi time, Khyber Defender accounts began coordinated posting of the #indianfalseflag hashtag. Initial posts attempted to counter claims <a href="https://www.hindustantimes.com/india-news/pahalgam-attack-executed-by-isi-lashkar-on-directions-of-pakistan-s-politicians-military-brass-report-101752555284588.html">made</a> by Indian media outlets attributing the attacks to Pakistan. Accounts drew comparisons to the February 14, 2019, attacks in Puwalma, claiming that the two attacks were false flags and followed the “same script, same timing, same agenda.” On April 24, 2025, Khyber Defender accounts continued calling the Pahalgam attack a “scripted move” and an example of the Indian government’s “false flags, timed perfectly with global optics, to serve political agendas,” using hashtags like #IndianPropagandaExposed (<strong>Figure 26</strong>) and #IndiaFalseFlagKing (<strong>Figure 27</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1925c46e655a3d8960b1319b178cb8663306015d1.png?width=750&amp;format=png&amp;optimize=medium" width="494" height="250" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figures 26 and 27</em></strong><em>: Visual content posted by Khyber Defender accounts following the Pahalgam attacks</em></p>
+              <p><em>(Source: Recorded Future)</em></p>
+            </div>
+          </div>
+        </div>
+        <p>On April 25, Khyber Defender accounts also amplified images (<strong>Figure 28</strong>) purportedly stating a denial of responsibility for the Pahalgam attacks by the TRF. The statement, originally issued on a Telegram channel allegedly operated by TRF, denies the group’s involvement in the attacks, citing a “cyber intrusion” by “Indian cyber-intelligence operatives.” Starting May 30, 2025, the Telegram channel also began publishing screenshots of likely inauthentic documents purportedly sourced from India’s Research and Analysis Wing (RAW). These documents allegedly show that the attack had been orchestrated by the Indian government.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_19b8bd162b4550d3e06c2863066b0db3a0ac532de.png?width=750&amp;format=png&amp;optimize=medium" width="679" height="388" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figure 28</em></strong><em>: Alleged statement of denial by TRF amplified by Khyber Defender accounts</em></p>
+              <p><em>(Source: Recorded Future)</em></p>
+            </div>
+          </div>
+        </div>
+        <p>Starting April 25, both networks attempted to legitimize their attribution claims by amplifying government and news sources. Hidden Charkha accounts began posting headlines from Indian national news outlets that provided evidence attributing the attacks to Pakistan (<strong>Figures 29 and 30</strong>); however, the narrative’s credibility among international audiences was very likely <a href="https://www.washingtonpost.com/world/2025/06/04/india-news-channels-misinformation-pakistan-conflict/">undermined</a> by a rising echo-chamber effect in Indian media, as outlets amplified unverified claims and suffered from circular reporting. In contrast, Khyber Defender attempted to validate its claims by repeatedly posting clips directly sourced from the Pakistan Armed Forces’ Inter-Services Public Relations (ISPR) press conferences with Director General Ahmed Shareef Chaudhry (<strong>Figure 31</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_167f24bcad08866d3b837332b82cd2037ef61d259.png?width=750&amp;format=png&amp;optimize=medium" width="402" height="504" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 29 and 30</em></strong><em>: Hidden Charkha content amplifying headlines from Indian news outlets reportedly confirming attribution to Pakistan (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1925c46e655a3d8960b1319b178cb8663306015d1.png?width=750&amp;format=png&amp;optimize=medium" width="494" height="250" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 31</em></strong><em>: Khyber Defender content amplifying ISPR press conferences (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <h3>Political Pressure and National Unity</h3>
+        <p>Following the establishment of initial attribution claims, both networks attempted to erode trust in adversary leadership while simultaneously promoting unity at home and suppressing dissent from domestic political rivals.</p>
+        <p>Hidden Charkha attempted to undermine the perceived credibility of Pakistani officials by using quotes and supporting screenshots from Indian news outlets. Hidden Charkha initially amplified claims by former Pakistani officer and journalist <a href="https://soldierspeaks.org/about-me/">Adil Raja</a> that Pakistan Army chief General Asim Munir had ordered the Pahalgam attacks, using screenshots of an April 24, 2025, India Today article that <a href="https://www.indiatoday.in/india/story/pahalgam-terror-attack-why-pakistan-army-chief-asim-munir-risking-mini-war-with-india-2714005-2025-04-24">claimed</a> Munir was “desperate for a mini-war with India.” Other attempts to undermine General Munir included using quotes by former Pentagon official Michael Rubin <a href="https://www.aninews.in/news/world/us/asim-munir-osama-bin-laden-the-same-top-us-security-expert-slams-pakistan-for-its-role-in-pahalgam-attack20250424075740/">calling</a> Munir a “terrorist” in an interview with Indian media outlet ANI. Hidden Charkha accounts later targeted Pakistan’s Minister of Defense Khawaja Asif, claiming the minister had confessed that “we [Pakistan] did the dirty work of funding &amp; training terrorists for 3 decades."</p>
+        <p>On April 25, Khyber Defender accounts began targeting India’s National Security Advisor Ajit Doval using the hashtag #sackajitdoval, claiming that the Pahalgam attacks were an “intelligence disaster” for India and that “there are increasing calls for Ajit Doval and his colleagues to step down.” The network’s narratives almost certainly attempted to capitalize on mounting domestic criticism in the aftermath of the attacks, such as from the Shiv Sena (UBT) party, which also <a href="https://www.deccanherald.com/india/jammu-and-kashmir/jammu-and-kashmir-terror-attack-an-intelligence-failure-article-370-move-has-not-ended-violence-shiv-sena-ubt-3508226">qualified</a> the Pahalgam attacks as an “intelligence failure” and criticized Doval on April 24, 2025.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1b66b4aec670ac62828ed2051474830fa75d6aae4.png?width=750&amp;format=png&amp;optimize=medium" width="398" height="201" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 32 and 33</em></strong><em>: Khyber Defender content calling for Ajit Doval to be fired (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>While mounting pressure on adversary public officials, the networks simultaneously began posting narratives promoting unity, patriotism, and nationalist sentiment in their respective countries. Hidden Charkha, for example, focused on highlighting national and regional unity by posting content using hashtags like #KashmirRejectsTerrorism and #StandWithIndia, as well as visual content promoting unity in J&amp;K using the #jmukmr hashtag (<strong>Figure 34</strong>). Conversely, Khyber Defender accounts amplified official messages from Pakistani officials like General Munir’s “Pakistan Hamesha Zindabad” (“Pakistan Forever Alive”) slogan, or images of national unity using hashtags like #Pakistan_is_our_pride (<strong>Figure 35</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_194c8c5db7b34f7b594325d2f01798a1a42c3fa78.png?width=750&amp;format=png&amp;optimize=medium" width="351" height="403" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figures 34 and 35:</strong> Hidden Charkha (left) and Khyber Defender (right) content promoting regional unity and nationalist sentiment (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <p>Conversely, both networks also sought to suppress dissent by questioning the loyalty of domestic political rivals. For instance, Hidden Charkha promoted the #राहुल_देशद्रोही_है (“Rahul is a traitor”) hashtag to label Rahul Gandhi, the <a href="https://inc.in/leadership/past-party-presidents/shri-rahul-gandhi">opposition leader</a> in India’s Lok Sabha house of parliament, a terrorist “sympathizer.” This narrative mirrors the animosity of the Bharatiya Janata Party (BJP) toward Gandhi, with BJP spokesman Pradeep Bhandari accusing Gandhi of “undermining India’s progress” in December 2024. Similarly, Khyber Defender accounts used the hashtag #PTM_Supports_Terrorism to accuse the Pashtun Tahafuz Movement (PTM), a human rights organization <a href="https://docs.un.org/en/A/HRC/51/NGO/34">defending</a> Pashtun rights in Pakistan, of supporting Indian narratives on the Pahalgam attacks and called on Pashtuns to support Pakistan by stating “Proud Pashtun brothers! Understand the game of the enemies and support your state.”</p>
+        <h3>Diplomatic Escalation and Media Reactions</h3>
+        <p>Governments typically use bilateral or multilateral diplomatic statements and communications during emerging conflicts as a mechanism for de-escalation or signalling foreign policy intent. Governments will hold press conferences or issue public statements, and they are increasingly using social media to promote these communications. Covert influence operations targeting social media users are likewise <a href="https://direct.mit.edu/ngtn/article/37/1/83/121465/Social-Media-Influence-on-Diplomatic-Negotiation">increasingly being used</a> to shape narratives and drive diplomatic outcomes, particularly as diplomats themselves have been leveraged by nation-states like <a href="https://www.irsem.fr/report.html">China</a> and <a href="https://www.politico.eu/article/russia-diplomats-disinformation-war-ukraine/">Russia</a> as part of their broader influence ecosystems.</p>
+        <p>Both Hidden Charkha and Khyber Defender demonstrated a strong intent to shape international public opinion and promote their respective countries’ diplomatic standing while undermining the opposite country. Hidden Charkha was almost certainly more proactive than Khyber Defender in amplifying influence content signalling diplomatic escalation, reflecting India’s retaliatory measures in the immediate aftermath of the Pahalgam attack, while the latter kept a more reactive approach to India’s diplomatic actions.</p>
+        <p>On April 23, 2025, diplomatic tensions between India and Pakistan rapidly <a href="https://www.theguardian.com/world/2025/apr/29/farmers-pakistan-indus-waters-treaty-india">escalated</a> following India's decision to suspend the 1960 Indus Waters Treaty (IWT), among other measures like visa bans and border closures. The treaty, which governs water distribution between India and Pakistan in the Indus river basin, was <a href="https://www.ndtv.com/world-news/india-suspends-indus-water-treaty-with-pakistan-day-after-pahalgam-terror-attack-that-killed-26-8238399">declared</a> a national security risk by Indian Foreign Secretary Vikram Misri after the Pahalgam attack. Following the IWT suspension, both networks attempted to appeal to international audiences and international diplomatic bodies; however, Hidden Charkha displayed greater intent to undermine Pakistan at diplomatic forums like the UN Security Council (UNSC).</p>
+        <p>Hidden Charkha accounts initially amplified Foreign Secretary Misri’s announcement of the measures as “decisive” action by the Indian government (<strong>Figure 36</strong>). Meanwhile, Khyber Defender accounts reacted strongly against the suspension of the IWT, amplifying Pakistani government statements that the move <a href="https://www.app.com.pk/national/senate-body-slams-indian-violations-of-iwt-terms-water-aggression-a-red-line-for-pakistan/">was</a> a “red line” and a “direct threat” to Pakistan (<strong>Figure 37</strong>), echoing an April 24, 2025, statement by Pakistan’s National Security Committee <a href="https://www.aljazeera.com/news/2025/4/24/kashmir-attack-does-indias-indus-waters-treaty-freeze-threaten-pakistan">calling</a> the decision an “act of war.” Khyber Defender accounts also attempted to frame the treaty’s suspension as India violating international norms, stating that “It's time the global community took notice” and using the hashtag #indiaemptythreats.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_10b7eb7c925f399a40e037934241552719550e0c4.png?width=750&amp;format=png&amp;optimize=medium" width="493" height="248" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 36 and 37</em></strong><em>: Hidden Charkha (left) content covering India’s diplomatic measures and Khyber Defender (right) Urdu-language content framing the IWT suspension as contrary to international norms (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>Hidden Charkha was particularly focused on undermining Pakistan’s standing at the UN, a tactic not generally observed by Khyber Defender accounts regarding India. Starting April 30, 2025, Hidden Charkha accounts accused Pakistan’s Foreign Minister Ishaq Dar of pressuring the UNSC to drop mentions of TRF from an official statement on the Pahalgam attacks (<strong>Figure 38</strong>). On May 5, 2025, following Pakistan’s <a href="https://x.com/PakistanUN_NY/status/1919147718464696646">demand</a> for a closed-door consultation at the UNSC, Hidden Charkha accounts attempted to undermine Pakistan’s appeal to the UNSC over India’s suspension of the IWT, accusing it of “playing the victim.” On May 9, the pro-India network claimed that the UNSC had “rejected Pakistan’s false flag narrative,” and published likely inauthentic images depicting world leaders declaring their support for India as well as content using the hashtag #TerrorHasNoBorders (<strong>Figure 39</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1893f39c245a22deadae326306a0611166a95c298.png?width=750&amp;format=png&amp;optimize=medium" width="601" height="200" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 38 and 39</em></strong><em>: Hidden Charkha content seeking to undermine Pakistan at the UNSC (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>In tandem with posting content aimed at supporting diplomatic measures by each country, the networks also reacted to international reporting on the emerging conflict. Of the two networks, Hidden Charkha also adopted a more aggressive stance against international media reporting by using the #stopwhitewashing and #MediaBias hashtags to accuse international media outlets, including the New York Times, Al Jazeera, and BBC, of naming the Pahalgam attackers “militants” — instead of terrorists –– thereby legitimizing the TRF’s attack. In contrast, Khyber Defender accounts praised the New York Times’ coverage of General Munir, by stating, for example, that the May 5, 2025, <a href="https://www.nytimes.com/2025/05/05/world/asia/pakistan-india-asim-munir.html">article</a> by the newspaper was “absolutely correct.”</p>
+        <h3>Military Preparedness and Forged Documents</h3>
+        <p>Following initial attribution claims and escalating diplomatic tensions, Khyber Defender focused on eroding the Indian public’s trust in New Delhi’s military preparedness by circulating almost certainly forged documents. Starting April 28, 2025, Khyber Defender accounts amplified alleged leaked documents from the Indian Integrated Defense Staff headquarters reporting on the Indian Army’s reportedly low morale and increasing desertion rates (<strong>Figure 40</strong>). On May 5, 2025, Khyber Defender accounts amplified alleged leaked documents from India’s Defense and Research and Development Organization’s (DRDO) <a href="https://www.drdo.gov.in/drdo/labs-and-establishments/armament-research-development-establishment-arde">Armament Research and Development Establishment (ARDE)</a> questioning the “operational efficacy” of the 881 Missile Regiment’s BrahMos cruise missiles due to gross negligence in storage conditions (<strong>Figure 41</strong>). Both documents are almost certainly inauthentic and make verifiably false or non-credible claims, such as that “Israeli Troops” operating Indian Air Force (IAF) equipment was undermining morale or that “any uncontrolled escalation has the potential to set [our] own economy back by 50 years.”</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1e64ccfb90b7c182c8923dbb06353863e7a236aed.png?width=750&amp;format=png&amp;optimize=medium" width="494" height="298" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 40 and 41</em></strong><em>: Images claiming to depict leaked Indian defense documents, amplified by Khyber Defender accounts (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>Insikt Group assesses that the first known source of the documents is likely an anonymous pro-Pakistani social media account (@War_Analysts), which posted at least one of the two documents (<strong>Figure 41</strong>) before the Khyber Defender accounts. The account also published other likely inauthentic documents, such as a diplomatic complaint <a href="https://archive.is/f1hyy">from</a> the Israeli Embassy in New Delhi to the Indian government over an alleged case of sexual assault by Indian Special Forces on a member of the Israeli Defence Forces during a military exercise, a report <a href="https://archive.is/WDVdm">alerting</a> to T-90 ammunition shortages in the Indian Army, and an emergency procurement <a href="https://archive.is/Sax6e">request</a> for AK-203 rifles and other equipment from Russia.</p>
+        <h3>Supporting Kinetic Escalation</h3>
+        <p>On May 7, 2025, India began Operation Sindoor, which involved missile and airstrikes on <a href="https://www.reuters.com/world/asia-pacific/multiple-loud-explosions-heard-pakistani-kashmir-reuters-witness-2025-05-06/">suspected</a> terrorist (including LeT) infrastructure in Pakistan-administered Kashmir and Punjab, Pakistan. On May 10, 2025, Pakistan <a href="https://www.aljazeera.com/news/2025/5/10/pakistan-launches-operation-bunyan-marsoos-what-we-know-so-far">responded</a> with Operation Bunyan-Al-Marsous, which targeted Indian military installations in Northern India. In tandem with these conventional kinetic operations, both Hidden Charkha and Khyber Defender increased their operational tempo (<strong>Figure 42</strong>) and attempted to support specific armed forces by publishing content almost certainly intended to justify military action, deter further kinetic actions by establishing perceived technological superiority, and forge patriotic sentiment.</p>
+        <p>Operation Sindoor <a href="https://www.internationalaffairs.org.au/australianoutlook/pulwama-terror-india-escalates/">represented</a> a major expansion from India's last kinetic actions against Pakistan in response to the 2019 Pulwama terror attack, and New Delhi very likely sought to calibrate its operations to minimize chances of uncontrolled escalation. Conversely, Pakistan –– which has suffered <a href="https://www.aljazeera.com/news/2025/5/9/india-pakistan-tensions-a-brief-history-of-conflict">repeated</a> military defeats against its more <a href="https://www.aljazeera.com/news/2025/6/10/pakistan-ramps-up-defence-spending-by-20-percent-after-india-conflict">well-equipped</a> neighbor –– very likely sought to capitalize on battlefield successes to present itself as a peer adversary not easily deterred. During the conflict, Hidden Charkha portrayed Operation Sindoor as precise, internationally supported, and strategically restrained, which Khyber Defender countered with claims of Indian losses and Pakistan’s retaliatory capabilities during Operation Bunyan-Al-Marsous. Both networks emphasized technological superiority and weapon precision to support public perceptions of tactical restraint. They did this by promoting each respective country’s weapons’ effectiveness while discrediting the other country’s systems in an attempt to paint retaliatory strikes as disproportionate and indiscriminate. Accounts consistently highlighted the precision of their respective country’s military attacks, as well as any civilian casualties inflicted by the adversary, by sharing images and footage of military strikes, likely to complicate battle damage assessments and downplay the impact of the other country’s actions, while appealing to international audiences and strengthening patriotic sentiment domestically.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1248b5a3e9fc5f059767261e006be9ab314467e0c.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="777" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 42</em></strong><em>: Increased operational tempo by both networks following kinetic escalation (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <h4>Initial Escalation and Retaliatory Framing</h4>
+        <p>Prior to the launch of Operation Sindoor, both networks documented rising military escalation along the LoC in J&amp;K. They also framed the military maneuvers of each other’s respective country as provocations, while establishing such maneuvers as a clear justification for the other country’s retaliation.</p>
+        <p>Both networks also made claims and counterclaims concerning shows of strength along the LoC. For example, Hidden Charkha accounts called Pakistan’s May 3, 2025, <a href="https://defencesecurityasia.com/en/on-the-brink-of-war-pakistan-launches-450km-range-abdali-missile-in-defiant-show-of-force/">Abdali missile tests</a> an attempt to “divert attention from its role in the Pahalgam massacre." Meanwhile, very likely inauthentic images shared by Khyber Defender (<strong>Figures 43 and 44</strong>) attempted to justify military retaliation and deter further escalation by posting images with captions such as “We dare you” and “Pakistan will retaliate disproportionately.” Khyber Defender also documented the Pakistani Army shooting down Indian Unmanned Aerial Vehicles (UAVs) and criticized Indian Rafale sweeps along the LoC.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1d5a061ad7d60980bc3e33038e30e2ed6c698e107.png?width=750&amp;format=png&amp;optimize=medium" width="493" height="247" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figures 43 and 44:</em></strong> <em>Images shared by Khyber Defender prior to Operation Sindoor</em></p>
+              <p><em>(Source: Recorded Future, Social Media)</em></p>
+            </div>
+          </div>
+        </div>
+        <p>As soon as April 24, 2025, Khyber Defender accounts began repeatedly posting content attempting to establish a red line for kinetic escalation (using the hashtag #pakistanismyredline) and lauding its military preparedness, praising the Pakistani Air Force (PAF) using hashtags like #pafreadytorespond. The network also shared AI-generated images (<strong>Figures 45 and 46</strong>), which were likely made using OpenAI’s GPT-4o (based on the <a href="https://openai.com/index/introducing-4o-image-generation/">model’s</a> <a href="https://www.reddit.com/r/ChatGPTPro/comments/1jmszh1/why_is_every_image_yellow/">distinct</a> “sepia” or “yellow-tint” style also found in these images), showing military preparedness, such as portraying Pakistani F-16s in the style of traditional wartime propaganda. Khyber Defender accounts also began amplifying narratives of the Pakistani armed forces’ technological superiority early in the conflict, stating, for example, that Pakistani JF-17s “outclass” India’s “vintage MiGs,” and that “Our AWACS &amp; missile tech ensure dominance. No propaganda can hide this asymmetry.”</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_18ec6074a13b8a1bd93fbf2b5ea4eb24ab9829e12.png?width=750&amp;format=png&amp;optimize=medium" width="398" height="295" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figures 45 and 46</em></strong><em>: AI-generated images shared by Khyber Defender</em></p>
+              <p><em>(Source: Recorded Future)</em></p>
+            </div>
+          </div>
+        </div>
+        <h3><strong><em>Responses to Operation Sindoor</em></strong></h3>
+        <p>Following the Indian military’s launch of “Operation Sindoor” on May 7, 2025, Hidden Charkha accounts increased their operational tempo to justify military action, amplify and often exaggerate Indian military successes, discredit Pakistani counter-narratives, and generally celebrate the operation as a success.</p>
+        <p>Hidden Charkha praised the Indian Armed Forces’ military capabilities and coordination, demonstrating intimate knowledge of India’s military capabilities after years of posting content praising India’s defense systems. Starting May 7, 2025, the network lauded the effectiveness of India’s Akash and SCALP missiles, Dassault Rafale fighter jets, and Bofors L-70 and Zu-23mm anti-aircraft guns. The network also issued strong denials to counter initial Pakistani media reports that Pakistani forces shot down Indian Rafales. The network also highlighted Pakistan’s loss of military equipment. On May 8, 2025, Hidden Charkha began posting claims that Indian S-400 air defense systems had downed two Pakistani JF-17s and a J-20C. The network later amplified reports of Pakistani equipment being destroyed, such as an AWACS aircraft and an F-16 squadron at Bholari airbase and Shapar and Bayraktar drones at Murid airbase, in addition to claiming that Chinese-made missiles, such as PL-15 and HQ-9 air-to-air missiles, were ineffective (<strong>Figure 47</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_10b26571802c877c9baa38e62311ed9e46676e352.png?width=750&amp;format=png&amp;optimize=medium" width="350" height="402" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 47 and 48</em></strong><em>: Images shared by Hidden Charkha covering Operation Sindoor (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>Following Operation Sindoor, Hidden Charkha amplified narratives painting the military operation as a justified escalation and proportional response to the Pahalgam attack. On May 12, 2025, Hidden Charkha accounts amplified graphics posted by the Indian Ministry of Defense (MoD) Additional Directorate General of Public Information (ADG-PI) on social media, with accounts claiming that “India showed exemplary Strategic Restraint. #OperationSindoor was powerful yet measured, targeting only terror infrastructures, avoiding escalation.” Other accounts posted content claiming that Operation Sindoor had international approval, including sharing graphics originally from Indian news outlets that <a href="https://www.youtube.com/watch?v=40G1zcgJ8Sc">claimed</a> US Secretary of Defense Pete Hegseth “backed” Operation Sindoor (<strong>Figure 49</strong>), <a href="https://www.instagram.com/p/DJYfEbiM0er/">as well as</a> Afghanistan’s former Vice President Amrullah Saleh (<strong>Figure 50</strong>). Hidden Charkha likely attempted to amplify nationalist sentiment during Operation Sindoor by consistently using the hashtags #pahalgamavenged and #satyamevjayate, with the latter <a href="https://www.mha.gov.in/en/document/advisory-related-display-of-complete-state-emblem-of-india-motto-satyameva-jayate-truth">being</a> India’s official national motto (“truth alone triumphs”).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_193ed7640f74b421d860ddc1d405ce660784b3201.png?width=750&amp;format=png&amp;optimize=medium" width="529" height="249" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figures 49 and 50</em></strong><em>: Graphics published by Hidden Charkha accounts justifying Operation Sindoor</em></p>
+              <p><em>(Source: Recorded Future)</em></p>
+            </div>
+          </div>
+        </div>
+        <p>In line with the network’s previous aggressive stance toward international media, at least one account posted an attempted community note in response to French media outlet France24, claiming that its reporting attempted to “protect the reputation of China’s rotten and outdated weapons.” On May 20, 2025, Hidden Charkha accounts posted content celebrating Operation Sindoor as a success, <a href="https://www.khushalekashmir.com/index.php/2025/05/19/bjp-holds-tiranga-rally-on-srinagar-baramulla-national-highway-to-celebrate-operation-sindoor/">dubbing</a> a BJP rally in Baramulla (located in India-controlled J&amp;K) a “shining moment of unity, patriotism, and victory,” very likely attempting to reinforce patriotic narratives among audiences in contested regions.</p>
+        <p>During the early stages of Operation Sindoor, Khyber Defender accounts very likely attempted to capitalize on Pakistan’s <a href="https://observers.france24.com/en/asia-pacific/20250512-india-pakistan-conflict-rafale-fighter-jets-shot-down-images-debunked">alleged downing</a> of Rafales and Israeli drones to spring counter-claims undermining Indian narratives of technological superiority (calling India’s claims “big talk” and a “bluff”) and attract international attention to the conflict. Starting May 7, 2025, Khyber Defender began posting content covering the reported downing of Indian Rafales by the PAF using PL-15 missiles (<strong>Figure 51</strong>), as well as amplified alleged imagery of the wreckage. On May 9, 2025, Khyber Defender accounts claimed that India’s loss of Rafale fighter jets had “sparked disbelief and mockery in French media” (<strong>Figure 52</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_164f518fdea022bc774f8288cdc2563627fea7134.png?width=750&amp;format=png&amp;optimize=medium" width="471" height="248" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong>Figures 51 and 52:</strong> Khyber Defender content covering the reported Rafale downings by the PAF on May 7–9, 2025</p>
+              <p>(Source: Recorded Future)</p>
+            </div>
+          </div>
+        </div>
+        <h4>Responses to Operation Bunyan-Al-Marsous</h4>
+        <p>Following initial counter-claims to India’s Operation Sindoor, Khyber Defender pivoted to promoting Pakistan’s Operation Bunyan-Al-Marsous beginning on May 10, 2025. Similar to Hidden Charkha, Khyber Defender also attempted to exaggerate the PAF’s operational success and amplify nationalist sentiment (<strong>Figures 53 and 54</strong>), naming the operation “a symbol of national resolve and unmatched defense capability.” On May 10, 2025, the network claimed that PAF JF-17s had successfully “neutralized” an Indian S-400 using hypersonic missiles.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_11ea36df4e4232242d24b379628b722b6c7243aca.png?width=750&amp;format=png&amp;optimize=medium" width="320" height="403" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 53 and 54</em></strong><em>: Khyber Defender content promoting Operation Bunyan-Al-Marsous (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>Similar to Hidden Charkha, Khyber Defender accounts also amplified images and footage of alleged destruction of Indian military installations (<strong>Figures 55 and 56</strong>) to demonstrate precise strikes and tactical restraint, including purported footage showing the destruction of Indian Brahmos missile storage units in Beas and Nagrota. On May 10, 2025, Khyber Defender accounts also promoted the success of Fatah missiles in posts that allegedly revealed the “destruction of key Indian facilities.”</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_195270751aa6f4e4eaa2436c5efc19a48c11de6b3.png?width=750&amp;format=png&amp;optimize=medium" width="347" height="399" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 55 and 56</em></strong><em>: Footage of Pakistani missile strikes shared by Khyber Defender accounts (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>On May 11, 2025, Hidden Charkha accounts attempted to paint Pakistan’s actions as indiscriminate, accusing Pakistan of <a href="https://www.independent.co.uk/asia/india/poonch-attack-india-pakistan-kashmir-strikes-operation-sindoor-b2747115.html">shelling and killing</a> civilians in Poonch, J&amp;K province, on May 8, 2025. Accounts posted AI-generated images containing slogans like “All Eyes on Poonch” (reusing international slogans like “<a href="https://www.bbc.co.uk/news/articles/cjkkj5jejleo">All Eyes on Rafah</a>” in the Israel-Gaza conflict), as seen in <strong>Figures 57 and 58</strong>, almost certainly to appeal to international audiences and call for the suspension of international aid to Pakistan by using the hashtag #frombeggingtobombing (<strong>Figure 59</strong>). Pakistan Prime Minister Shehbaz Sharif <a href="https://www.reuters.com/world/asia-pacific/world-bank-makes-10-year-plan-with-pakistan-20-billion-funding-2025-01-15/">announced</a> in January 2025 that the country would receive $20 billion in loans from the World Bank over the coming decade, making this substantial financial aid a likely target of pro-Indian influence narratives.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_194df713cdb83f325ce8b998ccfbd5d4d6a2f819c.png?width=750&amp;format=png&amp;optimize=medium" width="468" height="488" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figures 57, 58, and 59</em></strong><em>: AI-generated images posted by Hidden Charkha accounts on May 11, 2025</em></p>
+              <p><em>(Source: Recorded Future)</em></p>
+            </div>
+          </div>
+        </div>
+        <h3>Supporting Cyber Escalation</h3>
+        <p>Insikt Group observed limited instances of Hidden Charkha and Khyber Defender amplifying claims of cyber attacks targeting India and Pakistan by hacktivist and state-sponsored threat actors following the Pahalgam attack. These networks almost certainly attempted to amplify the effectiveness and impact of hacktivist and state-sponsored <a href="https://www.rusi.org/explore-our-research/publications/commentary/operation-sindoor-and-india-pakistans-escalated-rivalry-cyberspace#:~:text=Pakistan%2Dlinked%20threat%20actors%20attempted,for%20disinformation%20and%20propaganda%20campaigns.">cyberattacks</a> to strengthen nationalist sentiment in the midst of kinetic escalation between the two countries, but often amplified unconfirmed claims by national media outlets and low-credibility hacktivist groups.</p>
+        <p>Both networks included unconfirmed claims on social media as part of their posts. On May 6, 2025, Hidden Charkha accounts amplified Indian Cyber Force (ICF)’s unconfirmed claims on social media that the hacktivist group had compromised “over 1,000+ cameras” in Pakistan, allegedly gaining access to surveillance footage in government facilities, industrial zones, private corporations, schools, and banks. One Hidden Charkha account amplifying the video lauded “Indian hackers' precision” while stating that “when you plot terror, expect cyber firepower!” likely in an attempt to capitalize on ICF’s claims to amplify nationalist sentiment (<strong>Figure 60</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_19a6c40ecfb2fd34e2f2aebbc933926125016791f.png?width=750&amp;format=png&amp;optimize=medium" width="1200" height="675" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 60</em></strong><em>: Hidden Charkha post amplifying a video from Indian Cyber Force claiming to have compromised surveillance cameras in Pakistan (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>Khyber Defender accounts also almost certainly attempted to amplify unconfirmed claims of cyber attacks on Indian government infrastructure. On May 10, 2025, Khyber Defender accounts posted screenshots depicting a defaced website affiliated with the BJP alongside text stating that the website had been compromised by the PAF’s “Cyber Force” (likely <a href="https://www.nation.com.pk/26-Jun-2025/inside-paf-s-high-tech-command-centre-after-may-s-india-clash">in reference</a> to the PAF’s Cyber Command) as part of Operation Bunyan-Al-Marsous (<strong>Figure 61</strong>). One account also very likely attempted to exaggerate the effects of cyberattacks by claiming, for example, that “India’s cyber core” (<strong>Figure 62</strong>) and “70% of [India’s] Northern grid” had been compromised, using hashtags like #infrastructureblackout, #griddownindia, #scadahacked, #powercollapse, and #logisticsparalyzed. The claim likely refers to <a href="https://tribune.com.pk/story/2545047/pakistani-cyber-offensive-hits-indian-systems-bjp-website">unconfirmed reports</a> by Pakistani media that Pakistani armed forces had compromised Maharashtra State Electricity Transmission Company (MAHATRANSCO), a major state-owned electricity transmission company. Khyber Defender accounts also claimed successful cyberattacks against Hindustan Aeronautics Limited, the Unique Identification Authority of India (UIDAI), the IAF, and the Election Commission of Maharashtra. The attacks remain unconfirmed in their scope and impact.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_141702553fde68457c11e17d9b40b9a3a419b70ba.png?width=750&amp;format=png&amp;optimize=medium" width="601" height="248" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figures 61 and 62</em></strong><em>: Khyber Defender content amplifying data breaches targeting the Indian government</em></p>
+              <p><em>(Source: Recorded Future)</em></p>
+            </div>
+          </div>
+        </div>
+        <h3>Ceasefire and Aftermath</h3>
+        <p>As conventional kinetic operations escalated between May 7 and 10, 2025, members of the international community <a href="https://www.reuters.com/world/irans-foreign-minister-repeats-call-restraint-india-pakistan-standoff-2025-05-08/">sought</a> to <a href="https://www.newindianexpress.com/nation/2025/May/07/uk-pm-keir-starmer-calls-for-dialogue-de-escalation-amid-india-pak-tensions-2">intervene</a> in an <a href="https://www.arabnews.com/node/2599997/world">effort</a> to <a href="https://www.politico.eu/article/nuclear-power-india-pakistan-war-europe-watch-utmost-concern/">reduce</a> tensions and encourage restraint. On May 10, 2025, India and Pakistan <a href="https://www.state.gov/releases/office-of-the-spokesperson/2025/05/announcing-a-u-s-brokered-ceasefire-between-india-and-pakistan/">announced</a> a US-brokered ceasefire, shortly after the beginning of Pakistan’s Operation Bunyan-Al-Marsous. As the ceasefire took hold, Hidden Charkha greatly increased its operational tempo, and Khyber Defender maintained the operational tempo seen during the kinetic escalation phases of the conflict. Both networks attempted to rapidly establish narratives promoting India and Pakistan’s respective military successes and technological sophistication and to undermine either India or Pakistan on the global stage. Both networks also promoted the #ceasefireviolation hashtag in the immediate days following the announcement to accuse either India or Pakistan of violating the agreement, echoing <a href="https://www.bbc.co.uk/news/articles/cvg9d913v20o">similar accusations</a> made by both governments.</p>
+        <p>Both Hidden Charkha and Khyber Defender attempted to exploit the US’s diplomatic intervention in brokering the ceasefire agreement to further undermine India's or Pakistan’s international and diplomatic credibility. Hidden Charkha accounts accused Pakistan of asking the US to broker the ceasefire in the face of mounting military failures, while attempting to gauge Indian social media users’ sentiment on the ceasefire (<strong>Figure 63</strong>). Meanwhile, Khyber Defender praised US President Donald Trump for brokering the agreement, calling for him to receive a Nobel Peace Prize (using hashtags like #trumpfornobel and #trump_nobel_peace), as seen in <strong>Figure 64</strong>. Khyber Defender accounts also accused India’s “elites” of “mocking” and “ridiculing” Trump’s ceasefire (which allegedly shows their intent to prolong the conflict), while the pro-Pakistani network likely attempted to curry favor with the US president.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_13798190ab9fd163572b75ce56cfcf5fc99bd73dd.png?width=750&amp;format=png&amp;optimize=medium" width="616" height="249" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 63 and 64:</em></strong> <em>Hidden Charkha (left) and Khyber Defender (right) content following the announcement of a US-brokered ceasefire agreement (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>Despite the ceasefire agreement, both Hidden Charkha and Khyber Defender continued attempting to assert the technological superiority of India and Pakistan, respectively, and used the conflict’s aftermath as proof of the other country’s relative lack of military sophistication. Hidden Charkha accounts reported that Chinese defense companies’ stock prices fell following the ceasefire after promoting narratives questioning the effectiveness of Chinese-made equipment used by Pakistan’s armed forces, such as PL-15 missiles, which were made by Zhuzhou Hongda Electronics (<strong>Figure 65</strong>), and J-10 fighter jets, which were made by AVIC Chengdu (<strong>Figure 66</strong>). Meanwhile, Khyber Defender accounts amplified a speech by Pakistani PM Shehbaz Sharif to state that “the Air Force’s use of modern technology sent a lasting warning the adversary will remember for generations” and attempted to undermine confidence in Rafale jets made by French company Dassault Aviation (<strong>Figure 67</strong>).</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1fb058646b3a9951a0af32dd80d8a98371a267958.png?width=750&amp;format=png&amp;optimize=medium" width="532" height="267" />
+            </div>
+          </div>
+          <div>
+            <div><strong>Figures 65 and 66:</strong> Screenshot of Chinese defense stocks following the ceasefire announcement posted by Hidden Charkha accounts (Source: Recorded Future)</div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_190dd335bf8e0f1a9ccbfaddf3e7c12fbfc4e4080.png?width=750&amp;format=png&amp;optimize=medium" width="720" height="900" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong>Figure 67:</strong> Image shared by Khyber Defender accounts attempting to ridicule Indian Rafale jets</p>
+              <p>(Source: Recorded Future)</p>
+            </div>
+          </div>
+        </div>
+        <h2>Mitigations</h2>
+        <ul>
+          <li>Customers can use the following queries to monitor Hidden Charkha and Khyber Defender activity, leveraging Recorded Future AI to summarize and track emerging narratives.</li>
+          <li>Businesses operating in India and Pakistan should monitor ongoing influence narratives to understand national sentiment on major political and geopolitical issues, and track narratives perpetuated by CIB networks to measure attempts at managing conflict escalation.</li>
+          <li>International news media outlets covering emerging conflicts should monitor influence content from known influence networks attempting to abuse their brand. Such abuse increases reputational risks and erodes consumer trust, potentially deterring advertisers and inflicting financial harm on the impersonated organizations.</li>
+          <li>Governments tracking regional conflicts should monitor local and regional influence networks to track amplified narratives supporting conflict escalation during kinetic combat operations. Understanding influence networks’ TTPs and narratives increases governments’ resilience against the convergence of geopolitical, cyber, and influence threats.</li>
+        </ul>
+        <h2>Outlook</h2>
+        <p>Hidden Charkha and Khyber Defender will almost certainly continue operating in alignment with the domestic and foreign policy objectives of the Indian and Pakistani governments, respectively. While Insikt Group was unable to determine the exact degree of state control or affiliation with these networks, we assess that patriotic sentiment will remain an important driver in aligning future campaigns with their governments, even if these networks are operated by non-state-sponsored threat actors.</p>
+        <p>Should a new kinetic conflict emerge between India and Pakistan, we expect these networks to resume the operational tempo observed during the standoff in April and May 2025, which amounted to over 1,000 posts daily at its peak. The networks will almost certainly continue amplifying narratives and content from national media outlets and government PR entities, in addition to opportunistically amplifying and exaggerating misleading claims and forged documents seeded by prominent social media accounts and hacktivist groups. While the networks were almost certainly unsuccessful in shaping domestic or international public opinion, the adoption of new procedures, such as using generative AI to generate original text and visual content, will likely help these networks cross language barriers and design consistent, more engaging content.</p>
+        <p>At a more strategic level, Hidden Charkha and Khyber Defender’s activity during an escalating kinetic conflict demonstrates the potential role of covert influence networks in inflating operational success, strengthening national cohesion, and establishing a moral high ground to frame conventional kinetic actions as justified defensive operations. Influence networks can help reinforce perceptions of technological superiority and precise military capabilities by demonstrating each state’s ability to conduct restrained, proportional strikes, which is almost certainly necessary for maintaining international credibility and diplomatic support. Conversely, covert influence networks will also likely be used to undermine adversary narratives concerning tactical outcomes (such as airstrikes or downing enemy aircraft), cloud the online information environment, complicate battle damage assessment, and counter attribution claims on terrorist attacks.</p>
+      ]]></content:encoded>
+            <category>Research (Insikt)</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_11e62bf4b9ecc790fe2f0609ba8f3f18d5702420e.gif?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
         <item>
             <title><![CDATA[H1 2025 Malware and Vulnerability Trends]]></title>
             <link>https://www.recordedfuture.com/research/h1-2025-malware-and-vulnerability-trends</link>
@@ -9414,174 +9966,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Blog</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_1676810f0af486aad5e4a0bfe37e11c9dc62d0e7f.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[Russian Influence Operations Targeting Germany’s 2025 Elections]]></title>
-            <link>https://www.recordedfuture.com/research/stimmen-aus-moskau-russian-influence-operations-target-german-elections</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/research/stimmen-aus-moskau-russian-influence-operations-target-german-elections</guid>
-            <pubDate>Wed, 21 Jan 1970 03:10:04 GMT</pubDate>
-            <description><![CDATA[Discover how Russia-linked influence operations, including Doppelgänger and Operation Overload, are attempting to undermine Germany's 2025 elections. Learn about their tactics, impacts, and how to mitigate the risks to media integrity and public trust.]]></description>
-            <content:encoded><![CDATA[
-        <p>
-          <img loading="lazy" alt="insikt group logo" src="https://www.recordedfuture.com/media_17759d8b91bf0c9106a0fa82007bef7e3316158b4.png?width=750&amp;format=png&amp;optimize=medium" width="300" height="48" />
-        </p>
-        <h2>Executive Summary</h2>
-        <p>The German federal elections, scheduled for February 23, 2025, are the target of malign influence operations linked to Russia and Russia-based actors. As of mid-February 2025, Insikt Group assesses that, despite their persistence, these efforts have very likely not meaningfully altered voter behavior or shaped public opinion in a manner advantageous to Russia’s broader geopolitical interests, consistent with <a href="https://www.brookings.edu/articles/the-impact-of-russian-interference-on-germanys-2017-elections/">assessments</a> of Russian meddling attempts in previous German election cycles.</p>
-        <p>The influence operations and corresponding networks tracked in this report — Doppelgänger, Operation Overload, CopyCop, Operation Undercut, and the Russia-based Foundation to Battle Injustice — are longstanding and at least partially Kremlin-funded. These operations almost certainly seek to incite and escalate German domestic socio-political conflicts, pollute the German information space by introducing manipulated content, foster criticism of the United States (US) and European Union (EU) and European integration, and undermine North Atlantic Treaty Organization (NATO) cohesion in line with the Kremlin’s strategic objectives.</p>
-        <p>The 2025 German election cycle marks a period of evolution for several of these operations, while core narratives remain unchanged. For example, Doppelgänger and Operation Overload have expanded beyond mainstream social media to Bluesky Social (Bluesky), in an attempt to capture migrating audiences. Doppelgänger and CopyCop have launched new brands and websites to project influence and reinforce messaging in the face of intensified scrutiny of their operations. Operation Overload continues to use artificial intelligence (AI)-based tools, including the use of AI-enabled voice cloning technology to create audio deepfakes, while both Operation Overload and Operation Undercut pose as real news organizations to increase their credibility.</p>
-        <p>Despite limited evidence that these operations have meaningfully influenced voter behavior, they still pose broader risks to media integrity and public trust. Narratives undermining election security or integrity could reduce voter turnout, while media engagement with inauthentic content — rather than exposing the tactics behind it — may amplify malign messaging. Regarding Operation Overload specifically, we continue to assess that the potential for significant breakout does exist, as evidenced in the <a href="https://meduza.io/en/feature/2025/02/06/elon-musk-and-trump-jr-repost-fake-e-news-video-about-usaid-created-by-pro-kremlin-disinformation-network">viral spread</a> of a recent video attributed to this network that disparaged the United States Agency for International Development (USAID) in social media. To mitigate these risks, media entities, the public sector, and researchers should continue monitoring known influence networks while limiting engagement with operations such as Doppelgänger, Operation Overload, and Operation Undercut. Impersonated organizations should engage takedown services for malicious domains, collaborate with platform trust and safety teams, and proactively detect brand abuse tactics like typosquatting and logo manipulation.</p>
-        <h2>Key Findings</h2>
-        <ul>
-          <li>The German federal elections are the target of malign influence operations attributed to Russia and Russia-based actors.</li>
-          <li>Russia-attributed influence operations have promoted and will very likely continue to support German political parties Russia views as beneficial to its own geopolitical interests, particularly Alternative für Deutschland (AfD).</li>
-          <li>Doppelgänger is very likely exerting influence through at least seven new inauthentic news brands, in addition to the operation’s persistent media impersonation activities, to exacerbate political fissures and inflame political discourse surrounding European integration, immigration, and economic matters.</li>
-          <li>Operation Overload’s media impersonations aim to sow distrust among German citizens toward the safety and integrity of voting, attack the characters of key political leaders, and present Germany as a rising hotbed of antisemitism and extremism.</li>
-          <li>Insikt Group detected at least 94 new inauthentic websites –– whose creation began in November 2024 after the announcement of upcoming snap elections –– that we attribute to CopyCop impersonating German-language news websites.</li>
-          <li>Following Insikt Group’s November 2024 investigation into Operation Undercut, we have observed the network continuing to post German-language content supporting AfD and undermining German Chancellor Olaf Scholz.</li>
-          <li>The Foundation to Battle Injustice very likely seeks to undermine the reputations of German political leaders while promoting political platforms aligned with Russian interests through inauthentic investigative articles.</li>
-        </ul>
-        <h2>New Doppelgänger “Brands” Target Key German Election Issues</h2>
-        <p>Insikt Group has detected at least eight new websites acting as original news brands, in addition to continued media impersonation with social media promotion, which we attribute to Doppelgänger, a longstanding Russian influence operation. <a href="https://www.disinfo.eu/doppelganger-operation/">Doppelgänger</a> is very likely positioning these newly established websites — previously not linked to the network — to sustain its influence operations targeting European political leadership and to exacerbate political fissures surrounding European integration, immigration, economic matters, and more. Throughout 2024, researchers, government entities, and technology companies <a href="https://www.qurium.org/alerts/exposing-the-evil-empire-of-doppelganger-disinformation/">continued</a> <a href="https://www.qurium.org/forensics/when-kehr-meets-vextrio/">exposing</a> Doppelgänger's activities across Europe and North America, leading to a US Department of Justice <a href="https://www.justice.gov/opa/pr/justice-department-disrupts-covert-russian-government-sponsored-foreign-malign-influence">indictment</a> against its operators at the Social Design Agency (SDA), international sanctions on SDA and affiliated entities, and at least partial — though often temporary — disruptions to its operations through takedowns and seizures. In response, SDA typically attempted to reestablish its operations within hours to days by deploying new infrastructure.</p>
-        <p>While Doppelgänger is best known for the <a href="https://www.disinfo.eu/doppelganger/">direct impersonation</a> of legitimate Western media organizations, the influence operation has also managed a multitude of its own original news website “brands”, each targeting a specific country (such as Germany), with content directly tailored to the key domestic and foreign policy issues of that target audience, such as immigration policy, Germany’s ongoing socio-economic challenges, and questions of Germany’s place as Europe’s leader (as seen in <strong>Figure 1</strong>). Insikt Group has observed Doppelgänger abandoning several of its “legacy” brand websites with attempts to establish new brands, including multiple websites specific to German politics, likely due to a combination of repeated discovery and disruption of several of these websites.</p>
-        <p>While we continue to observe Doppelgänger evolve its tactics and attempt to evade defenders, its ability to meaningfully impact public discourse very likely remains limited. Despite continued efforts to expand its network, Doppelgänger remains constrained by low levels of engagement, with minimal views and interactions across its newly launched domains and social media brands.</p>
-        <h3>Using New Infrastructure to Deliver Old Themes</h3>
-        <p>Since October 2024, Insikt Group has tracked a series of new domain registrations, discovering web page infrastructure that overlaps with previously attributed Doppelgänger-controlled domains. As of February 2025, Doppelgänger has registered ten domains that include eight new websites and two “parked” domains. The active domains reflect seven news brands that target German-speaking audiences:</p>
-        <div>
-          <div>
-            <div>herzheim[.]org<br />kriminalradar[.]com<br />militarblatt[.]net<br />ostlicherwind[.]com<br />stolzvolk[.]ac<br />stolzvolk[.]org (currently offline)<br />tageswirtschaft[.]org<br />weltwahl[.]com (currently offline)<br />detechplus[.]com (parked)<br />sportbericht[.]net (parked)</div>
-          </div>
-        </div>
-        <p><strong><em>Figure 1</em></strong><em>: New Doppelgänger domains specific to Germany and German-speaking audiences (Source: Recorded Future)</em></p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="stimmen-01.png" src="https://www.recordedfuture.com/media_1ff3d574fd9674502aec3681c087ccf6d6806a7ea.png?width=750&amp;format=png&amp;optimize=medium" width="557" height="336" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 2</em></strong><em>: The seven new Doppelgänger brands targeting Germany and German-speaking audiences (Source: Recorded Future)</em></div>
-          </div>
-        </div>
-        <p>Each of the active websites uses distinct IP addresses, listed below, with the exception of <em>weltwahl[.]com</em> and <em>stolzvolk[.]org</em>, which both share 15.197.130[.]221. Administrators of these domains use web hosting provider resources provided by Hosting Concepts B.V. (d/b/a Registrar.eu), QHoster, NameSilo, Namecheap, or Vicetemple. Stolzvolk’s newest domain, <em>stolzvolk[.]ac</em>, uses web hosting services provided by Ultahost, Inc.</p>
-        <div>
-          <div>
-            <div>IP Address</div>
-            <div>ASN</div>
-            <div>Organization Name</div>
-          </div>
-          <div>
-            <div>15.197.130[.]221</div>
-            <div>AS16509</div>
-            <div>Amazon Technologies, Inc.</div>
-          </div>
-          <div>
-            <div>162.255.118[.]67</div>
-            <div>AS22612</div>
-            <div>Namecheap, Inc.</div>
-          </div>
-          <div>
-            <div>162.255.118[.]68</div>
-            <div>AS22612</div>
-            <div>Namecheap, Inc.</div>
-          </div>
-          <div>
-            <div>179.43.183[.]46</div>
-            <div>AS51852</div>
-            <div>Private Layer, Inc.</div>
-          </div>
-          <div>
-            <div>185.224.81[.]168</div>
-            <div>AS204196</div>
-            <div>AbleoHost B.V.</div>
-          </div>
-          <div>
-            <div>185.224.81[.]75</div>
-            <div>AS204196</div>
-            <div>AbleoHost B.V.</div>
-          </div>
-          <div>
-            <div>185.38.151[.]11</div>
-            <div>AS25369</div>
-            <div>Hydra Communications Ltd</div>
-          </div>
-          <div>
-            <div>79.133.41[.]61</div>
-            <div>AS44066</div>
-            <div>firstcolo GmbH</div>
-          </div>
-        </div>
-        <p><strong><em>Table 1</em></strong><em>: IP Addresses and ASNs associated with new Doppelgänger domains (Source: Recorded Future)</em></p>
-        <p>Similar to Doppelgänger’s legacy brands, these newly observed German-language sites each frame key socio-economic and political topics — such as Germany’s place in Europe, the state of the German economy, migration, and support to Ukraine — in ways that are highly relevant to German voters, reflecting thematic approaches seen in prior campaigns targeting elections in both France and the US. Specific examples include the Doppelgänger brand “Kriminal Radar”, which is used to provoke German fear over safety and security, and in particular fear toward migrants. Meanwhile, Östlicher Wind is an East Germany-oriented publication that promotes feelings of Euroskepticism, distrust toward the US and Ukraine, “traditional” values, and promotion of right-wing political entities, such as AfD.</p>
-        <div>
-          <div>
-            <div>Election Issue</div>
-            <div>Doppelgänger-Aligned Branded Website</div>
-            <div>Translation</div>
-          </div>
-          <div>
-            <div>Crime, Immigration, Law Enforcement</div>
-            <div>Kriminal Radar</div>
-            <div>“Crime Radar”</div>
-          </div>
-          <div>
-            <div>Military and Security</div>
-            <div>Militärblatt</div>
-            <div>“Military Bulletin”</div>
-          </div>
-          <div>
-            <div>East/West Germany, Conservative Views</div>
-            <div>Östlicher Wind</div>
-            <div>“Easterly Wind”</div>
-          </div>
-          <div>
-            <div>German Economy</div>
-            <div>Tageswirtschaft</div>
-            <div>“Daily Economy”</div>
-          </div>
-          <div>
-            <div>German Pride</div>
-            <div>Stolzvolk</div>
-            <div>“Proud People”</div>
-          </div>
-          <div>
-            <div>Social Values</div>
-            <div>HerzHeim</div>
-            <div>“Heart Home”</div>
-          </div>
-          <div>
-            <div>World News and Germany’s Global Position</div>
-            <div>WeltWahl</div>
-            <div>“World Choice”</div>
-          </div>
-        </div>
-        <p><strong><em>Table 2</em></strong><em>: Each of Doppelgänger’s new German-language “brands” thematically focuses on a core election issue for German voters (Source: Recorded Future)</em></p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="stimmen-02.png" src="https://www.recordedfuture.com/media_1414d9b721966928af24b93d64594f74559bd095a.png?width=750&amp;format=png&amp;optimize=medium" width="648" height="334" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figures 3 and 4</em></strong><em>: (Left) New Doppelgänger brand “Kriminal Radar”. (Right) Doppelgänger brand Tageswirtschaft shares an “advertisement” for Alternative für Deutschland. Doppelgänger has incorporated external links and images posing as advertisements to make the ad seem legitimate (Source: Recorded Future)</em></div>
-          </div>
-        </div>
-        <h3>Impersonating Media Organizations and Leveraging Social Media</h3>
-        <p>In addition to establishing new news brands, Insikt Group identified Doppelgänger activity impersonating German media outlets DER SPIEGEL and Welt via the following domains: <em>spiegel[.]bz</em>, <em>welt[.]cx</em>, <em>welt[.]ink</em>, and <em>welt[.]pm</em>. Doppelgänger’s flagship influence outlet, Reliable Recent News (RRN), also continues publishing German-focused content via its website <em>rrn[.]com[.]tr</em>, on social media through the @RapidRespNews persona, and via its Telegram channel @reliablerecentnews.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="stimmen-03.png" src="https://www.recordedfuture.com/media_1e4fa23dfd188d549ab375b18ab13e1cc0584926c.png?width=750&amp;format=png&amp;optimize=medium" width="707" height="284" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figures 5 and 6</em></strong><em>: (Left) Doppelgänger clone of DER SPIEGEL via spiegel[.]bz; (Right) Doppelgänger clone of Welt via welt[.]cx (Source: URLscan.io)</em></div>
-          </div>
-        </div>
-        <p>Doppelgänger continues to create and operate mass social media accounts to disseminate its messages using domain obfuscation techniques Insikt Group <a href="/research/russian-influence-network-doppelgangers-ai-content-tactics">illustrated</a> in December 2023. Furthermore, Doppelgänger also continues to leverage various branded social media accounts that align with its Germany-oriented websites, including “Arbeitspause_1.0”, “Bayerischer Löwe”, and “Der Rattenfänger”. Many of these personas mirror Doppelgänger’s historical tactics, using localized narratives, falsified news formats, and networked amplification to increase credibility among target audiences. According to a January 2025 <a href="https://btw2025.cemas.io/artikel/update-doppelgaenger">analysis</a> by the German Center for Monitoring, Analysis, and Strategy (CeMAS), over 630 Doppelgänger-attributed social media posts occurred between December 2024 and January 2025, engaging in coordinated inauthentic behavior (CIB) and promoting non-credible narratives on German politics, economics, and immigration.</p>
-        <p>To read the entire analysis, <a href="https://assets.recordedfuture.com/insikt-report-pdfs/2025/ta-ru-2025-0213.pdf">click here</a> to download the report as a PDF.</p>
-      ]]></content:encoded>
-            <category>Research (Insikt)</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_1ec6386a9d80f81a87dcd7c0eb76adf265714e399.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>
