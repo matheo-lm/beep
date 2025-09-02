@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 02 Sep 2025 08:01:55 EDT</pubDate>
+        <pubDate>Tue, 02 Sep 2025 09:07:57 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Palo Alto Networks data breach exposes customer info, support tickets</title>
+        <link>https://www.bleepingcomputer.com/news/security/palo-alto-networks-data-breach-exposes-customer-info-support-tickets/</link>
+        <pubDate>Tue, 02 Sep 2025 08:00:00 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/palo-alto-networks-data-breach-exposes-customer-info-support-tickets/</guid>
+	<description><![CDATA[Palo Alto Networks suffered a data breach that exposed customer data and support cases after attackers abused compromised OAuth tokens from the Salesloft Drift breach to access its Salesforce instance. [...]]]></description>
+ </item>
+
  <item>
         <title>Zscaler data breach exposes customer info after Salesloft Drift compromise</title>
         <link>https://www.bleepingcomputer.com/news/security/zscaler-data-breach-exposes-customer-info-after-salesloft-drift-compromise/</link>
@@ -148,34 +162,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5064081-update-clears-up-cpu-usage-metrics-in-task-manager/</guid>
 	<description><![CDATA[Microsoft has released the KB5064081 preview cumulative update for Windows 11 24H2, which includes thirty-six new features or changes, with many gradually rolling out. These updates include new Recall features and a new way of displaying CPU usage in Task Manager. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes bug behind Windows certificate enrollment errors</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-windows-certificate-enrollment-errors/</link>
-        <pubDate>Fri, 29 Aug 2025 14:02:25 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-behind-windows-certificate-enrollment-errors/</guid>
-	<description><![CDATA[Microsoft has resolved a known issue causing false CertificateServicesClient (CertEnroll) error messages after installing the July 2025 preview and subsequent Windows 11 24H2 updates. [...]]]></description>
- </item>
-
- <item>
-        <title>WhatsApp patches vulnerability exploited in zero-day attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/whatsapp-patches-vulnerability-exploited-in-zero-day-attacks/</link>
-        <pubDate>Fri, 29 Aug 2025 12:31:23 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/whatsapp-patches-vulnerability-exploited-in-zero-day-attacks/</guid>
-	<description><![CDATA[WhatsApp has patched a security vulnerability in its iOS and macOS messaging clients that was exploited in targeted zero-day attacks. [...]]]></description>
  </item>
 
 </channel>
