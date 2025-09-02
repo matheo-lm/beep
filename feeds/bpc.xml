@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 02 Sep 2025 11:02:34 EDT</pubDate>
+        <pubDate>Tue, 02 Sep 2025 12:02:43 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cloudflare blocks largest recorded DDoS attack peaking at 11.5 Tbps</title>
+        <link>https://www.bleepingcomputer.com/news/security/cloudflare-blocks-record-breaking-115-tbps-ddos-attack/</link>
+        <pubDate>Tue, 02 Sep 2025 11:52:30 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-blocks-record-breaking-115-tbps-ddos-attack/</guid>
+	<description><![CDATA[Internet infrastructure company Cloudflare said it recently blocked the largest recorded volumetric distributed denial-of-service (DDoS) attack, which peaked at 11.5 terabits per second (Tbps). [...]]]></description>
+ </item>
+
  <item>
         <title>No, Google did not warn 2.5 billion Gmail users to reset passwords</title>
         <link>https://www.bleepingcomputer.com/news/technology/no-google-did-not-warn-25-billion-gmail-users-to-reset-passwords/</link>
@@ -178,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-thinking-effort-for-chatgpt/</guid>
 	<description><![CDATA[OpenAI is working on a new feature called the Thinking effort picker for ChatGPT. [...]]]></description>
- </item>
-
- <item>
-        <title>TamperedChef infostealer delivered through fraudulent PDF Editor</title>
-        <link>https://www.bleepingcomputer.com/news/security/tamperedchef-infostealer-delivered-through-fraudulent-pdf-editor/</link>
-        <pubDate>Sat, 30 Aug 2025 12:22:51 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/tamperedchef-infostealer-delivered-through-fraudulent-pdf-editor/</guid>
-	<description><![CDATA[Threat actors have been using multiple websites promoted through Google ads to distribute a convincing PDF editing app that delivers an info-stealing malware called TamperedChef. [...]]]></description>
  </item>
 
 </channel>
