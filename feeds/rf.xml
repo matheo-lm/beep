@@ -4,12 +4,32 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Wed, 03 Sep 2025 14:01:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Sep 2025 15:59:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
         <copyright>Copyright © 2025 Recorded Future, Inc.</copyright>
         <atom:link href="https://www.recordedfuture.com/feed" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[The Future of Cyber Defense Is Autonomous — And It's Coming to Predict 2025]]></title>
+            <link>https://www.recordedfuture.com/blog/the-future-of-cyber-defense-is-autonomous-coming-predict-2025</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/blog/the-future-of-cyber-defense-is-autonomous-coming-predict-2025</guid>
+            <pubDate>Wed, 21 Jan 1970 08:02:24 GMT</pubDate>
+            <description><![CDATA[Discover the future of cyber defense at Predict 2025. Be the first to experience Autonomous Threat Operations — AI-powered, real-time threat response built to outpace machine-speed adversaries.]]></description>
+            <content:encoded><![CDATA[
+        <p>The cyber threat landscape has reached a tipping point. Adversaries are moving faster than ever, leveraging AI to exploit vulnerabilities at machine speed. Meanwhile, security teams are still constrained by manual processes that limit them to just 1-2 threat hunts per week. The math doesn't add up — and that's exactly why we built something revolutionary.</p>
+        <h2>A Breakthrough in Autonomous Operations</h2>
+        <p>At Predict 2025, we're unveiling a revolutionary advancement in cyber operations: one that fundamentally transforms how security teams detect, correlate, and respond to threats. This isn't just another tool; it's the foundation of a new era where intelligence automatically becomes action.</p>
+        <p>Imagine continuous operations that eliminate the manual bottlenecks constraining your team today. Picture AI-powered capabilities that work around the clock, trained on decades of specialized intelligence to identify patterns human analysts might miss. Envision automated correlation across multiple intelligence sources that transforms hours of manual work into instant, actionable insights.</p>
+        <p>This breakthrough represents our first autonomous capability that demonstrates the true potential of Intelligence Operations. Built on our proven intelligence platform, it showcases how AI advancement can transform manual processes into automated operations that scale with the speed of modern threats.</p>
+        <h2>Experience the Future at Predict 2025</h2>
+        <p>Predict is Recorded Future's annual global user conference — the premier gathering to connect, learn, and shape the future of intelligence. Join the security professionals who are moving faster, thinking smarter, and turning intelligence into action, where precision becomes your advantage.</p>
+        <p>Predict 2025 features mainstage keynotes revealing our breakthrough capabilities, interactive panels with industry leaders, specialized breakout sessions, and Recorded Future University training. You'll connect with the world's top security minds and discover how elite teams are using AI-driven intelligence to stay ahead of adversaries and move from reaction to real-time defense.</p>
+        <p>At Predict 2025, we bridge the gap between intelligence and action, cutting through noise, clarifying what matters, and empowering teams to act before threats break through. From Intelligence to Action isn't just our theme; it's the foundation of real-time defense, powered by the Recorded Future Intelligence Operations Platform.</p>
+      ]]></content:encoded>
+            <category>Blog</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_10e1d9a623766076c59c633c99c049123438cc4a9.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
         <item>
             <title><![CDATA[Russian Influence Assets Converge on Moldovan Elections]]></title>
             <link>https://www.recordedfuture.com/research/russian-influence-assets-converge-on-moldovan-elections</link>
@@ -137,7 +157,7 @@
         <div>
           <div>
             <div>
-              <img alt="" />
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1a7aa60f9859cffca93783a1069201b3af5a2614e.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="734" />
             </div>
           </div>
           <div>
@@ -10515,103 +10535,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Blog</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_15ca88941b2624ec89bb002fa646bc62e112c6e90.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[RedMike Exploits Unpatched Cisco Devices in Global Telecommunications Campaign]]></title>
-            <link>https://www.recordedfuture.com/research/redmike-salt-typhoon-exploits-vulnerable-devices</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/research/redmike-salt-typhoon-exploits-vulnerable-devices</guid>
-            <pubDate>Wed, 21 Jan 1970 03:10:04 GMT</pubDate>
-            <description><![CDATA[Discover how Chinese state-sponsored group RedMike exploited unpatched Cisco devices, targeting telecommunications providers globally. Learn about vulnerabilities CVE-2023-20198 and CVE-2023-20273, and how organizations can protect critical infrastructure.]]></description>
-            <content:encoded><![CDATA[
-        <p>
-          <img loading="lazy" alt="insikt group logo" src="https://www.recordedfuture.com/media_17759d8b91bf0c9106a0fa82007bef7e3316158b4.png?width=750&amp;format=png&amp;optimize=medium" width="300" height="48" />
-        </p>
-        <h2>Executive Summary</h2>
-        <p>Between December 2024 and January 2025, Recorded Future’s Insikt Group identified a campaign exploiting unpatched internet-facing Cisco network devices primarily associated with global telecommunications providers. Victim organizations included a United States-based affiliate of a United Kingdom-based telecommunications provider and a South African telecommunications provider. Insikt Group attributes this activity to the Chinese state-sponsored threat activity group tracked by Insikt Group as RedMike, which aligns with the Microsoft-named group Salt Typhoon. Using Recorded Future® Network Intelligence, Insikt Group observed RedMike target and exploit unpatched Cisco network devices vulnerable to CVE-2023-20198, a privilege escalation vulnerability found in the web user interface (UI) feature in Cisco IOS XE software, for initial access before exploiting an associated privilege escalation vulnerability, CVE-2023-20273, to gain root privileges. RedMike reconfigures the device, adding a generic routing encapsulation (GRE) tunnel for persistent access.</p>
-        <p>RedMike has attempted to exploit more than 1,000 Cisco devices globally. The group likely compiled a list of target devices based on their association with telecommunications providers' networks. Insikt Group also observed RedMike targeting devices associated with universities in Argentina, Bangladesh, Indonesia, Malaysia, Mexico, the Netherlands, Thailand, the United States (US), and Vietnam. RedMike possibly targeted these universities to access research in areas related to telecommunications, engineering, and technology, particularly at institutions like UCLA and TU Delft. In addition to this activity, in mid-December 2024, RedMike also carried out a reconnaissance of multiple IP addresses owned by a Myanmar-based telecommunications provider, Mytel.</p>
-        <p>Unpatched public-facing appliances serve as direct entry points into an organization’s infrastructure. Sophisticated Chinese threat activity groups have <a href="https://go.recordedfuture.com/hubfs/reports/cta-2023-1107.pdf">shifted</a> heavily toward exploiting these devices for initial access over the past five years. RedMike’s exploitation of telecommunications infrastructure goes beyond technical vulnerabilities and represents a strategic intelligence threat. Persistent access to critical communications networks enables state-backed threat actors to monitor confidential conversations, manipulate data flows, and disrupt services during geopolitical conflicts. RedMike’s targeting of lawful intercept programs and US political figures highlights the strategic intelligence objectives behind these operations and the national security threat they pose.</p>
-        <p>Organizations, particularly those in the telecommunications industry, must prioritize remediating exposed network devices, as unpatched systems remain a key initial access vector for Chinese state-sponsored threat activity groups. Network administrators should implement strict access controls, disable unnecessary web UI exposure, and monitor for unauthorized configuration changes. Individuals should use end-to-end encrypted communication methods for sensitive information, just as the Cybersecurity and Infrastructure Agency (CISA) and the Federal Bureau of Investigation (FBI) recommended, which is crucial to mitigate potential eavesdropping risks.</p>
-        <p>Additionally, governments and cybersecurity entities should improve threat intelligence sharing and impose stricter regulatory compliance for network security. While the US sanctions on RedMike-affiliated Sichuan Juxinhe Network Technology signal a more assertive and commendable stance against state-backed cyber espionage in critical infrastructure, robust international cooperation is crucial for effectively countering these persistent threats.</p>
-        <h2>Key Findings</h2>
-        <ul>
-          <li>Despite significant media coverage and US sanctions, RedMike continues to compromise telecommunications providers globally, including in the US.</li>
-          <li>RedMike compromised Cisco network devices of a US-based affiliate of a United Kingdom (UK) telecommunications provider and a South African telecommunications provider.</li>
-          <li>RedMike exploited privilege escalation vulnerabilities CVE-2023-20198 and CVE-2023-20273 to compromise unpatched Cisco network devices running Cisco IOS XE software.</li>
-          <li>Using Recorded Future Network Intelligence, Insikt Group identified RedMike attempting to exploit over 1,000 Cisco network devices between December 2024 and January 2025.</li>
-        </ul>
-        <h2>Background</h2>
-        <p>In late September 2024, media reporting (<a href="https://www.wsj.com/politics/national-security/china-cyberattack-internet-providers-260bd835?st=cYA8J5&amp;reflink=desktopwebshare_permalink">1</a>, <a href="https://www.securityweek.com/chinas-salt-typhoon-hacked-att-verizon-report/">2</a>) stated that the Chinese state-sponsored group Salt Typhoon had compromised the networks of major US telecommunications companies, including Verizon (<a href="/research/redmike-salt-typhoon-exploits-vulnerable-devices?host=https%3A%2F%2Fwww.recordedfuture.com">1</a>), AT&amp;T, and Lumen Technologies. The activity likely affected telecommunications organizations globally, with some outlets <a href="https://www.politico.com/newsletters/national-security-daily/2024/12/12/we-need-to-talk-about-salt-typhoon-00183727">reporting</a> that Salt Typhoon compromised at least 80 organizations. SaltTyphoon used its access to telecommunications providers to snoop on <a href="https://www.darkreading.com/cyber-risk/salt-typhoon-apt-subverts-law-enforcement-wiretapping">US lawful intercept</a> targets and <a href="https://www.politico.com/news/2024/10/25/trump-hack-china-phones-00185608">intercept</a> the communications of significant US political figures. The effect of Salt Typhoon’s intrusions has reached the highest levels of the US government: Cybersecurity experts have <a href="https://www.reuters.com/world/us/us-agencies-brief-senators-chinese-salt-typhoon-telecom-hacking-2024-12-04/">briefed</a> the US Senate, CISA recently <a href="https://www.cisa.gov/resources-tools/resources/enhanced-visibility-and-hardening-guidance-communications-infrastructure">issued</a> guidance on hardening telecommunications infrastructure, and CISA and the FBI issued a joint <a href="https://www.forbes.com/sites/zakdoffman/2024/12/06/fbi-warns-iphone-and-android-users-stop-sending-texts/">warning</a> encouraging the use of encrypted end-to-end messaging applications for sensitive communications.</p>
-        <p>Insikt Group tracks Salt Typhoon-aligned activity as RedMike. Salt Typhoon is a group name given by Microsoft Threat Intelligence; at this time, Microsoft has not published publicly available technical details of the group's activity. The only public information Microsoft has shared confirms an <a href="https://learn.microsoft.com/en-us/defender-xdr/microsoft-threat-actor-naming">overlap</a> with two existing threat activity group names: GhostEmperor (<a href="https://securelist.com/ghostemperor-from-proxylogon-to-kernel-mode/104407/">Kaspersky</a>) and FamousSparrow (<a href="https://www.welivesecurity.com/2021/09/23/famoussparrow-suspicious-hotel-guest/">ESET</a>).</p>
-        <p>On January 17, 2025, the US Department of the Treasury’s Office of Foreign Assets Control (OFAC) <a href="https://home.treasury.gov/news/press-releases/jy2792">sanctioned</a> Sichuan-based cybersecurity company Sichuan Juxinhe Network Technology Co., Ltd. for their direct involvement with RedMike activity. OFAC stated that Sichuan Juxinhe Network Technology Co., Ltd. had direct involvement in exploiting US telecommunications and internet service provider companies. According to OFAC, China’s Ministry of State Security (MSS) has maintained strong ties with multiple computer network exploitation companies, including Sichuan Juxinhe.</p>
-        <h2>Technical Analysis</h2>
-        <h3>Cisco IOS XE Web UI Exploitation</h3>
-        <p>Using Recorded Future Network Intelligence, Insikt Group identified that since early December 2024, RedMike has attempted to exploit over 1,000 internet-facing Cisco network devices worldwide, primarily those associated with telecommunications providers, using a combination of two privilege escalation vulnerabilities: CVE-2023-20198 and CVE-2023-20273. When successfully compromised, the group uses the new privileged user account to change the device's configuration and adds a GRE tunnel for persistent access and data exfiltration.</p>
-        <p>The privilege escalation vulnerability CVE-2023-20198 was found in the Cisco IOS XE software web UI feature, version 16 and earlier, and <a href="https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z">published</a> by Cisco in October 2023. Attackers exploit this vulnerability to gain initial access to the device and issue a privilege 15 command to create a local user and password. Following this, the attacker uses the new local account to access the device and exploits an associated privilege escalation vulnerability, CVE-2023-20273, to gain root user privileges.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="RedMike Cisco network" src="https://www.recordedfuture.com/media_1a56193b14d5953f02146416847d3dd30534ac3f8.png?width=750&amp;format=png&amp;optimize=medium" width="956" height="625" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 1:</em></strong> <em>RedMike Cisco network device exploitation infrastructure (Source: Recorded Future)</em></div>
-          </div>
-        </div>
-        <p>More than half of the Cisco devices targeted by RedMike were in the US, South America, and India. The remaining devices spanned over 100 other countries. Although the selected devices are primarily associated with telecommunications providers, thirteen were linked to universities across Argentina, Bangladesh, Indonesia, Malaysia, Mexico, the Netherlands, Thailand, the US, and Vietnam.</p>
-        <p>Often involved in cutting-edge research, universities are prime targets for Chinese state-sponsored threat activity groups to acquire valuable research data and intellectual property. Previous examples include APT40, which has <a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-200a">targeted</a> universities for biomedical, robotics, and maritime research; RedGolf (APT41) <a href="https://www.justice.gov/archives/opa/pr/seven-international-cyber-defendants-including-apt41-actors-charged-connection-computer">for</a> medical research; and RedBravo (APT31), which has directly <a href="https://www.reuters.com/technology/cybersecurity/apt31-chinese-hacking-group-behind-global-cyberespionage-campaign-2024-03-26/">targeted</a> academics. China’s cyber strategy <a href="https://go.recordedfuture.com/hubfs/reports/cta-2023-1107.pdf">aligns</a> with its broader economic and military goals, making universities high-value targets for long-term intelligence-gathering and technology acquisition.</p>
-        <p>RedMike possibly targeted the following universities to access research in areas related to telecommunications, engineering, and technology, particularly at institutions like <a href="https://wireless.ee.ucla.edu/research/">UCLA</a> and <a href="https://www.tudelft.nl/onderwijs/opleidingen/masters/ee/msc-electrical-engineering/track-wireless-communication-and-sensing/related-research/">TU Delft</a>.</p>
-        <ul>
-          <li>University of California, Los Angeles (UCLA) — US</li>
-          <li>California State University, Office of the Chancellor (CENIC) — US</li>
-          <li>Loyola Marymount University — US</li>
-          <li>Utah Tech University — US</li>
-          <li>Universidad de La Punta — Argentina</li>
-          <li>Islamic University of Technology (IUT) — Bangladesh</li>
-          <li>Universitas Sebelas Maret — Indonesia</li>
-          <li>Universitas Negeri Malang — Indonesia</li>
-          <li>University of Malaya — Malaysia</li>
-          <li>Universidad Nacional Autonoma — Mexico</li>
-          <li>Technische Universiteit Delft — The Netherlands</li>
-          <li>Sripatum University — Thailand</li>
-          <li>University of Medicine and Pharmacy at Ho Chi Minh City — Vietnam</li>
-        </ul>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="Geographical spread of Cisco" src="https://www.recordedfuture.com/media_198e0c82ae4d2f83fa03461354718eb0b13ee2dac.png?width=750&amp;format=png&amp;optimize=medium" width="1030" height="637" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 2</em></strong><em>: Geographical spread of Cisco devices targeted by RedMike (Source: Recorded Future)</em></div>
-          </div>
-        </div>
-        <p>RedMike’s scanning and exploitation activity occurred on six different occasions from December 2024 to January 2025.</p>
-        <ul>
-          <li>2024-12-04</li>
-          <li>2024-12-10</li>
-          <li>2024-12-17</li>
-          <li>2024-12-24</li>
-          <li>2025-01-13</li>
-          <li>2025-01-23</li>
-        </ul>
-        <p>Network administrators operating a Cisco network device with IOS XE software web UI exposed to the internet can use the dates mentioned and advice in the mitigations section to identify potential RedMike exploitation activity.</p>
-        <p>Using internet scanning data, Insikt Group identified more than 12,000 Cisco network devices with their web UIs exposed to the internet. Although over 1,000 Cisco devices were targeted, Insikt Group assesses that this activity was likely focussed, given that this number only represents 8% of the exposed devices and that RedMike engaged in periodic reconnaissance activity, selecting devices linked to telecommunications providers.</p>
-        <h3>Compromised Telecommunications Provider Devices</h3>
-        <p>Using Recorded Future Network Intelligence, Insikt Group observed seven compromised Cisco network devices communicating with RedMike infrastructure. These include devices associated with:</p>
-        <ul>
-          <li>A US-based affiliate of a UK telecommunications provider</li>
-          <li>A US internet service provider (ISP) and telecommunications company</li>
-          <li>A South African telecommunications provider</li>
-          <li>An Italian ISP</li>
-          <li>A large Thailand telecommunications provider</li>
-        </ul>
-        <p>RedMike configured GRE tunnels between the compromised Cisco devices and their infrastructure. GRE is a tunneling protocol used to encapsulate various network layer protocols inside point-to-point connections. It is a standard feature that can be configured on Cisco network devices. It is commonly used to create virtual private networks (VPNs), enable interoperability between different network types, and transport multicast or non-IP traffic over IP networks. Threat activity groups use GRE tunnels to maintain persistence by establishing covert communication channels that bypass firewalls and intrusion detection systems. These tunnels also facilitate stealthy data exfiltration by encapsulating stolen data within GRE packets, potentially bypassing network monitoring.</p>
-        <h3>Reconnaissance of Myanmar Telecommunications Provider</h3>
-        <p>In mid-December 2024, RedMike, from the same infrastructure that exploited the Cisco network devices, performed reconnaissance against multiple infrastructure assets operated by a Myanmar-based telecommunications provider, Mytel, likely including their corporate mail server.</p>
-        <p>To read the entire analysis, <a href="https://assets.recordedfuture.com/insikt-report-pdfs/2025/cta-cn-2025-0213.pdf">click here</a> to download the report as a PDF.</p>
-      ]]></content:encoded>
-            <category>Research (Insikt)</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_11a360aaa63760e50d1a130ba3facc7c08c958b09.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>
