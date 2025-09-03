@@ -11,11 +11,57 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 03 Sep 2025 10:03:18 EDT</pubDate>
+        <pubDate>Wed, 03 Sep 2025 11:03:33 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google fixes actively exploited Android flaws in September update</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-flaws-in-september-update/</link>
+        <pubDate>Wed, 03 Sep 2025 10:14:15 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-flaws-in-september-update/</guid>
+	<description><![CDATA[Google has released the September 2025 security update for Android devices, addressing a total of 84 vulnerabilities, including two actively exploited flaws. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Disney to pay $10M to settle claims it collected kids’ data on YouTube</title>
+        <link>https://www.bleepingcomputer.com/news/security/disney-to-pay-10m-to-settle-claims-it-collected-kids-data-on-youtube/</link>
+        <pubDate>Wed, 03 Sep 2025 10:13:18 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/disney-to-pay-10m-to-settle-claims-it-collected-kids-data-on-youtube/</guid>
+	<description><![CDATA[Disney will pay $10 million to settle claims by the U.S. Federal Trade Commission that it mislabeled videos for children on YouTube, which allowed the collection of kids' personal information without their consent or notification to their parents. [...]]]></description>
+ </item>
+
+ <item>
+        <title>They know where you are: Cybersecurity and the shadow world of geolocation</title>
+        <link>https://www.bleepingcomputer.com/news/security/they-know-where-you-are-cybersecurity-and-the-shadow-world-of-geolocation/</link>
+        <pubDate>Wed, 03 Sep 2025 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by Acronis</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/they-know-where-you-are-cybersecurity-and-the-shadow-world-of-geolocation/</guid>
+	<description><![CDATA[Geolocation is the invisible attack vector. From Stuxnet to today's APTs, malware now lies dormant until it hits the right place—turning location data into a weapon. Acronis' TRU explains why defenses must evolve beyond VPNs and perimeter controls. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers breach fintech firm in attempted $130M bank heist</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-breach-fintech-firm-in-attempted-130m-bank-heist/</link>
@@ -142,52 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/amazon-disrupts-russian-apt29-hackers-targeting-microsoft-365/</guid>
 	<description><![CDATA[Researchers have disrupted an operation attributed to Russian state-sponsored threat group Midnight Blizzard, who sought access to Microsoft 365 accounts and data. [...]]]></description>
- </item>
-
- <item>
-        <title>Brokewell Android malware delivered through fake TradingView ads</title>
-        <link>https://www.bleepingcomputer.com/news/security/brokewell-android-malware-delivered-through-fake-tradingview-ads/</link>
-        <pubDate>Sun, 31 Aug 2025 14:35:26 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/brokewell-android-malware-delivered-through-fake-tradingview-ads/</guid>
-	<description><![CDATA[Cybercriminals are abusing Meta's advertising platforms with fake offers of a free TradingView Premium app that spreads the Brokewell malware for Android. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI releases big upgrade for ChatGPT Codex for agentic coding</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-releases-big-upgrade-for-chatgpt-codex-for-agentic-coding/</link>
-        <pubDate>Sun, 31 Aug 2025 13:00:00 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-releases-big-upgrade-for-chatgpt-codex-for-agentic-coding/</guid>
-	<description><![CDATA[OpenAI has announced a big update for Codex, which is the company's agentic coding tool. [...]]]></description>
- </item>
-
- <item>
-        <title>Anthropic is testing GPT Codex-like Claude Code web app</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-gpt-codex-like-claude-code-web-app/</link>
-        <pubDate>Sun, 31 Aug 2025 11:00:00 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-gpt-codex-like-claude-code-web-app/</guid>
-	<description><![CDATA[Anthropic is planning to bring the famous Claude Code to the web, and it might be similar to ChatGPT Codex, but you'll need GitHub to get started. [...]]]></description>
  </item>
 
 </channel>
