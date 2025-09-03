@@ -4,12 +4,715 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Tue, 02 Sep 2025 14:01:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Sep 2025 14:01:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
         <copyright>Copyright © 2025 Recorded Future, Inc.</copyright>
         <atom:link href="https://www.recordedfuture.com/feed" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Russian Influence Assets Converge on Moldovan Elections]]></title>
+            <link>https://www.recordedfuture.com/research/russian-influence-assets-converge-on-moldovan-elections</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/research/russian-influence-assets-converge-on-moldovan-elections</guid>
+            <pubDate>Wed, 21 Jan 1970 08:00:57 GMT</pubDate>
+            <description><![CDATA[Ahead of Moldova’s 2025 elections, Russia-linked influence operations seek to undermine EU integration, discredit President Sandu, and destabilize democratic processes through coordinated disinformation campaigns and hybrid tactics.]]></description>
+            <content:encoded><![CDATA[
+        <h2>Executive Summary</h2>
+        <p>Ahead of Moldova’s September 28, 2025, parliamentary elections, Insikt Group is observing multiple active Russia-linked influence operations (IOs) seeking to destabilize the elections and derail Moldova's European Union (EU) accession. As of this writing, the IOs analyzed in this report are unlikely to have achieved any substantial successes in shaping public opinion or guiding discourse around the upcoming elections.</p>
+        <p>The Russian IOs and corresponding networks analyzed in this report — Operation Overload, Operation Undercut, Foundation to Battle Injustice, Portal Kombat, and other Russian influence assets — are consistently projecting an unfavorable view of Moldovan President Maia Sandu and the ruling Party of Action and Solidarity (PAS) to almost certainly manipulate international and domestic public perceptions by framing Moldova’s sitting leadership as corrupt and counter to Moldova’s interests. Additionally, these operations are portraying Moldova’s further integration with the EU as disastrous for its economic future and sovereignty, and Moldova as a whole as at odds with European standards and values. Further, the content being amplified by these IOs suggests that Moldova is politically and economically more closely aligned with Russia than with the EU, and that a closer relationship with the Kremlin is a more favorable alternative.</p>
+        <p>Since at least April 2025, Operation Overload (Matryoshka, Storm-1679) has almost certainly engaged in a vilification campaign against President Sandu, while also projecting Moldova as incompatible with the rest of Europe. Likewise, the Foundation to Battle Injustice has also published multiple inauthentic investigations with the key goal of damaging the credibility of President Sandu and PAS. During this timeframe, a Russia-linked IO we track as Operation Undercut has actively dedicated much of its resources to an anti-Sandu, anti-PAS, anti-European integration effort targeting Moldovan social media users, including activity we attribute to Operation Undercut on TikTok for the first time. This report also highlights recently reported covert Facebook pages associated with Moldovan oligarch Ilan Shor’s “Evrazia” organization, as well as the Shor-linked television network actively attempting to grow influence in the country, Moldova24. Finally, our research examines ongoing activities from Pravda Moldova, a pro-Russian media aggregator hyper-focused on Moldovan political affairs and part of the Portal Kombat ecosystem that was recently identified as engaging in poisoning the output of artificial intelligence chatbots.</p>
+        <p>As the September 2025 parliamentary elections approach, Insikt Group assesses that Russia-linked IOs, including both the well-documented networks discussed in this report and any newly emerging ones, will very likely scale up in volume. Despite limited evidence that these operations have meaningfully influenced voter behavior, they still pose broader risks to media integrity and public trust. Narratives undermining election security or integrity could reduce voter turnout, while media engagement with inauthentic content — rather than exposing the tactics behind it — may amplify malign messaging. To mitigate these risks, we recommend monitoring the sources identified in this report using the Recorded Future Intelligence Operations Platform to inform public messaging, bolstering election-related cyber defenses, and continuing to proactively expose malign IOs to reduce their potential impact.</p>
+        <h2>Key Findings</h2>
+        <ul>
+          <li>Multiple Russia-linked IOs are actively attempting to destabilize Moldova’s September 2025 parliamentary elections and degrade public confidence in the current pro-Western Moldovan leadership.</li>
+          <li>Operation Overload and the Russia-based non-governmental organization (NGO) Foundation to Battle Injustice are almost certainly engaging in separate campaigns to negatively shape international opinion toward Moldova’s European integration aspirations and to decrease public support of Moldovan President Maia Sandu.</li>
+          <li>Operation Undercut is very likely attempting to condition Moldovan audiences to expect rigged elections in favor of PAS, exploit pre-existing fears of a conventional war with Russia, and amplify economic concerns for voters.</li>
+          <li>IOs associated with Ilan Shor’s Evrazia organization and Moldova24, a very likely Shor-sponsored Russia-state-backed television network, are disseminating anti-Sandu messages targeting Moldovan audiences through social media advertising on Meta.</li>
+          <li>The very likely sole function of Pravda Moldova’s website is to serve as a high-volume amplifier and launderer of pro-Kremlin media content to Moldova’s Romanian-speaking population as part of Portal Kombat’s ecosystem.</li>
+        </ul>
+        <h2>Background</h2>
+        <p>Moldova’s September 2025 parliamentary elections are expected to decisively influence the country’s long-term future, especially the continued trajectory toward EU integration by its 2030 target date. This strategic direction was affirmed in late 2024, when Moldovan voters narrowly approved a constitutional referendum endorsing EU membership. This referendum coincided with the reelection of incumbent President Sandu, who secured approximately 55% of the vote. However, the 2024 election was subject to substantial attempted Russian <a href="https://www.osce.org/files/f/documents/9/d/578815_0.pdf">interference</a>, <a href="https://pism.pl/publications/russian-interference-nearly-overwhelmed-moldovan-presidential-election-referendum-vote">including</a> systematic vote-buying, covert financial support for pro-Russian candidates, malign IOs, hybrid disruptions targeting electoral infrastructure, and physical interference via bomb threats aimed at <a href="https://moldova1.md/p/53521/where-does-the-diaspora-vote-most-polling-stations-set-up-in-italy-russia-and-israel--two-in-each">diaspora polling stations</a>. With the 2025 parliamentary elections effectively a “last-chance” to slow or entirely derail Moldova’s EU membership, Russian IOs and potential destabilization activities are likely to escalate.</p>
+        <h2>Covert IOs Seek to Bring Moldova Back into “Russian World”</h2>
+        <p>Insikt Group is actively tracking multiple Russia-linked IOs that target Russian- and Romanian-speaking audiences within Moldova, as well as broader international communities. These operations are almost certainly designed to delegitimize Moldova’s electoral integrity by promoting narratives alleging electoral fraud, inflaming tensions regarding diaspora voting, and discrediting the PAS. Additionally, the operations seek to weaken public support for Moldova's EU integration, exacerbate economic anxieties among Moldovan citizens, and exploit pre-existing ethnic and linguistic divisions.</p>
+        <p>Collectively, these influence activities very likely align with the Kremlin’s strategic objectives toward Moldova, specifically advancing its post-Soviet reunification doctrine of <a href="https://warn-erasmus.eu/glossary/ruskij-mir/">Russkiy Mir</a> (“Russian World”) and seeking to transform Moldova into a "<a href="https://en.belsat.eu/86874986/moldova-is-preparing-for-parliamentary-elections-an-expert-from-chisinau-tells-belsat-that-the-kremlin-wants-to-have-a-second-belarus-there">second Belarus</a>." While initially an effort to promote Russian culture and language abroad, Russkiy Mir has since evolved into an expansionist vision of uniting Russian-speaking populations in former Soviet states regardless of internationally recognized territorial boundaries. As a former Soviet state and as a result of its significant Russian-speaking minority, Moldova remains susceptible to targeted IOs. In recent years, Russian IOs targeting Moldova have included efforts to <a href="https://www.fpri.org/article/2024/10/russias-information-war-in-moldova/">provoke</a> separatist sentiments in the autonomous region of Transnistria and coordinated attempts ranging from social media <a href="https://dfrlab.org/2024/10/18/malign-interference-moldova/">influence</a> to <a href="https://www.reuters.com/world/europe/moldova-police-say-businessman-shor-channelled-24-million-pay-off-voters-2024-10-24/">bribery</a> tactics to influence the outcome of Moldova’s 2024 presidential elections. Meanwhile, Russia’s attempts at <a href="https://securingdemocracy.gmfus.org/incident/russia-attempts-to-use-gas-supply-to-gain-concessions-from-moldova/">economic coercion</a>, namely through the disruption of gas supplies, sought to pressure Moldova into favorable political concessions, including likely attempts to slow its path toward European integration.</p>
+        <h2>Operation Overload and Foundation to Battle Injustice Vilify Maia Sandu</h2>
+        <p>Russia-linked IO Operation Overload (Matryoshka, Storm-1679) and the Russia-based “Foundation to Battle Injustice” (R-FBI, FBR) are almost certainly engaging in separate campaigns to shape negative opinion among international audiences toward Moldova’s European integration aspirations and to smear the reputation of Moldovan President Maia Sandu. Currently, Insikt Group assesses that both Operation Overload and R-FBI are operating in parallel ahead of the September 2025 parliamentary elections; however, we do not have evidence to suggest that Operation Overload or R-FBI are coordinating their efforts. Further, we have not observed attempts from either network to cross-amplify content.</p>
+        <h3>Operation Overload</h3>
+        <p>Operation Overload is a Russia-linked IO consisting of inauthentic news and fake fact-checking content that impersonates legitimate news sources. First <a href="https://checkfirst.network/operation-overload-how-pro-russian-actors-flood-newsrooms-with-fake-content-and-seek-to-divert-their-efforts/">documented</a> by Check First in June 2024, Operation Overload’s primary objective is to overwhelm journalists, researchers, and fact-checking organizations with non-credible leads distributed through persistent, spam-like story verification requests. As <a href="https://bsky.app/profile/eliothiggins.bsky.social/post/3lrfpc4inas25%20">evidenced</a> in Bellingcat founder Eliot Higgins’s recent post of Operation Overload-administered email accounts sharing falsified “egregious news” from Moldova to his inbox (<strong>Figure 1</strong>), journalists, researchers, and fact-checking organizations almost certainly remain a priority target audience for the operation. Insikt Group coverage of the operation ahead of the 2024 United States (US) election <a href="https://www.recordedfuture.com/research/operation-overload-impersonates-media-influence-2024-us-election">assessed</a> that Operation Overload also sought to directly influence the general public, both through the inadvertent laundering of its claims through trusted media organizations that fact-check the operation’s content, and by directly injecting inauthentic media into the mainstream using Telegram and social media.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1c3582ed12eeca5d9a31f79e4c4079f92469fa274.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="461" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 1:</em></strong> <em>Screenshot of a spam email sent to Bellingcat founder Eliot Higgins containing Operation Overload social media posts (Source:</em> <em><a href="https://bsky.app/profile/eliothiggins.bsky.social/post/3lrfpc4inas25%20">Bluesky</a>)</em></div>
+          </div>
+        </div>
+        <h4>Narratives</h4>
+        <p>Automated social media accounts engaging in coordinated inauthentic behavior (CIB) are almost certainly promoting Operation Overload content with a substantial emphasis on degrading the public reputation of President Sandu and public perceptions of Moldova with regard to European compatibility and EU integration. Since at least April 2025, inauthentic news and other media content we attribute to Operation Overload have almost certainly sought to damage President Sandu’s reputation. The operation regularly attempts to portray President Sandu as corrupt, featuring videos containing fabricated headlines and falsified investigative research that makes claims such as, “$79 million has been found on the cryptocurrency wallets of Maia Sandu’s aides,” and “Maia Sandu’s alleged mistress has $24 million in assets … that were corruptly obtained by Sandu [per fake Bellingcat research].” A video impersonating German broadcaster Deutsche Welle that Insikt Group documented in April 2025 falsely claimed that Veronica Dragalin, former head of Moldova’s Anti-Corruption Prosecutor’s Office, was preparing to distribute material implicating Sandu to “300 European media outlets.” Other inauthentic media pieces we attribute to Operation Overload <a href="https://theins.ru/en/news/282348">sought</a> to drive a wedge between or create the appearance of a growing political rivalry between President Sandu and EU High Representative Kaja Kallas, suggesting that President Sandu was seeking to take Kallas’s position.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_167f0fae78f01c21f852c4ba6da2934d0289dedaf.png?width=750&amp;format=png&amp;optimize=medium" width="497" height="348" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 2 and 3</em></strong><em>: Operation Overload videos posted to social media in April 2025, impersonating the BBC and Deutsche Welle (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1c1f2e869918ca50b3a89d69930564ddf82e96948.png?width=750&amp;format=png&amp;optimize=medium" width="675" height="1200" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 4</em></strong><em>: Operation Overload video impersonating Deutsche Welle, suggesting a potential political rift between Kaja Kallas and Maia Sandu (Source: Social media)</em></div>
+          </div>
+        </div>
+        <p>Starting July 8, 2025, Insikt Group observed a series of Operation Overload-produced deepfakes impersonating Moldovan government spokesperson Daniel Vodă, which are designed to appear as official government rebuttals of earlier “investigations” that the same network had fabricated. These deepfakes are almost certainly intended to create a closed-loop narrative undermining the Moldovan government while also attempting to lend false credibility to Operation Overload’s initial inauthentic media pieces. These videos, which repurpose authentic press material, add AI-generated audio, and weave in fabricated narratives, are very likely also intended to erode public trust in the Moldovan government ahead of the September 2025 parliamentary elections.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_116e0d2fbe0d55e2e14555d5beff828794bd26a18.png?width=750&amp;format=png&amp;optimize=medium" width="1059" height="589" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figure 5</em></strong><em>: Operation Overload deepfake of Moldovan government spokesperson Daniel Vodă, published July 9, 2025</em></p>
+              <p><em>(Source: Social media and</em> <em><a href="https://www.youtube.com/watch?v=oe1KzXK0tqE">YouTube</a>)</em></p>
+            </div>
+          </div>
+        </div>
+        <p>Beyond videos, Operation Overload’s static influence content includes deceptively edited screenshots of social media posts, manipulated headlines of print media, and fabricated graphical imagery, such as photojournalist-documented political graffiti in public spaces. For example:</p>
+        <ul>
+          <li>One post impersonating the statistics portal Statistica presented a falsified graph depicting President Sandu’s “plummeting approval rating” linked to increased TV appearances between January and April 2025.</li>
+          <li>A separate post featured an edited Vogue magazine cover, falsely claiming that President Sandu had the sixth-most expensive presidential wardrobe.</li>
+          <li>Another series of images, <a href="https://archive.is/y3CkC">designed</a> to appear as photojournalist posts for French media, depicted superimposed graffiti in public spaces showing President Sandu beneath a guillotine, in an electric chair, and with her head in a noose, with the date of June 1, 2025, beside each image. While the date appeared arbitrary, it was very likely intended to manufacture public fear by implying the possibility of unrest, a coup, or an assassination attempt against President Sandu.</li>
+        </ul>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_104ed60c447cfb49fb113c7a365911a77bcc071ea.png?width=750&amp;format=png&amp;optimize=medium" width="621" height="349" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figures 6 and 7</em></strong><em>: Left: Operation Overload impersonation of Statistica; Right: Russian Telegram channel @shkvarka2 shares two inauthentic graffiti in Chișinău showing President Sandu being executed via hanging</em></p>
+              <p><em>(Source: Social media and Telegram [<a href="https://archive.is/y3CkC">archive</a>])</em></p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1ee2d07e072719dba9eb554f21b3464599efe9ad3.png?width=750&amp;format=png&amp;optimize=medium" width="527" height="364" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 8 and 9</em></strong><em>: (Left) An Operation Overload impersonation of French news magazine La Tribune dated June 21, 2025; (Right) La Tribune’s legitimate June 21, 2025 front page (Source: Bluesky [<a href="https://archive.is/GGk7P">archive</a>,</em> <em><a href="https://www.frontpages.com/la-tribune/">frontpages.com</a>])</em></div>
+          </div>
+        </div>
+        <p>Beyond character attacks on President Sandu, Operation Overload also attempts to portray Moldova as a central hub of European crime and diametrically opposed to Western values, very likely in an attempt to diminish its appeal to European audiences. For example, Operation Overload’s impersonations of Euronews and Agence France-Presse (AFP), shown in <strong>Figures 10–12</strong>, suggest that Moldova is “the largest hub for cybercriminals,” is “one of the largest logistics hubs for drug trafficking,” and is “the most homophobic country in Europe.” Similar non-credible storylines impersonating Western media remain ongoing and will very likely persist throughout Moldova’s election period.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1344058e1f9be52117798d5fb6240d939e3aaf0e6.png?width=750&amp;format=png&amp;optimize=medium" width="523" height="557" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 10, 11, and 12</em></strong><em>: Various Operation Overload impersonations of Euronews accusing Moldova of criminal and discriminatory activities (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <h4>Infrastructure</h4>
+        <p>We continue to observe Operation Overload-attributed media often appearing first in Russian Telegram channels, followed by CIB amplification exclusively on one social media platform, and attempted seeding on Bluesky. Mainstream social media promotion included automated resharing, liking, and amplification through “quoted replies” toward target groups (journalists, researchers, and fact-checkers), consistent with Operation Overload’s dissemination techniques throughout 2025. Beginning in late May 2025, we observed the network posting content to TikTok. The network’s social media accounts are often suspended; however, replacements soon take their place, necessitating constant efforts to detect and report new accounts.</p>
+        <p>Insikt Group considers the overwhelming majority of Operation Overload content promoted within the network to fall in the Brookings <a href="https://www.brookings.edu/wp-content/uploads/2020/09/Nimmo_influence_operations_PDF.pdf">Breakout Scale</a>’s Category 2, including nearly all of the content specific to Moldova. There are isolated instances, however, where Operation Overload media impersonations <a href="https://www.firstpost.com/world/uae-suspends-deal-to-buy-fighter-jets-from-france-over-telegram-ceo-pavel-durov-arrest-reports-13809001.html">garnered</a> Category 3 <a href="https://indiandefencereview.com/the-united-arab-emirates-did-not-cancel-the-rafale-purchase-a-baseless-rumor/">consideration</a>, and some have even <a href="https://www.nytimes.com/2025/02/07/business/usaid-conspiracy-theories-disinformation.html">reached</a> what we would assess as Category 5 (amplification through celebrities and other well-known public figures).</p>
+        <p>The success Operation Overload achieves in reaching its target audience very likely emanates from the campaign’s secondary exposure from sources that debunk its non-credible stories versus organic reach from the initial posts. The corrective reports inadvertently push the operation’s artefacts out of echo chambers and into mainstream media. Even though the coverage is “hostile” to Operation Overload, this coverage nonetheless constitutes a Category 4, or cross-medium breakout, when analyzed via the Breakout Scale.</p>
+        <h3>Foundation to Battle Injustice (R-FBI)</h3>
+        <p>R-FBI is an ongoing Russia-based IO ostensibly dedicated to exposing alleged human rights violations and injustices committed primarily by Western governments. R-FBI poses as an “independent non-profit organization” in support of addressing “human rights violations”; the organization, however, leverages non-credible, long-form investigative reporting to accuse prominent international opposition leaders, particularly during major election cycles, of serious criminal activities, including terrorism, electoral fraud, human trafficking, and sexual abuse of minors. These reports are then laundered through a network of pro-Russian influencers and websites previously identified as promoting Kremlin propaganda, such as Jamie McIntyre’s Australian National Review (ANR, <em>australiannationalreview[.]com</em> ​), the London Times (<em>londontimes[.]live</em>), and Veterans Today (VT, <em>vtforeignpolicy[.]com</em>).</p>
+        <p>R-FBI was founded and initially financed in 2021 by deceased Russian oligarch Yevgeny Prigozhin, although management of the organization has since been transferred to Oksana Vovk, known now as Mira Terada. Based on Insikt Group investigations, in addition to public reporting from researchers at <a href="https://open.clemson.edu/cgi/viewcontent.cgi?article=1009&amp;context=mfh_ci_reports">Clemson University</a> and <a href="https://www.sgdsn.gouv.fr/files/files/Publications/20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Technical%20report_Storm-1516.pdf">VIGINUM</a>, R-FBI is also closely involved with a separately tracked Russian IO we refer to as <a href="https://www.recordedfuture.com/research/russia-linked-copycop-uses-llms-to-weaponize-influence-content-at-scale">CopyCop</a> (Storm-1516).</p>
+        <h4>Narratives</h4>
+        <p>Between late May and mid-June 2025, R-FBI published two investigative articles accusing President Sandu of engaging in illicit activities and political corruption schemes (<strong>Figures 13 and 14</strong>, below). On May 31, 2025, VT republished an R-FBI article claiming President Sandu and “affiliated organizations” were trafficking Ukrainian orphans, “under the pretext of medical treatment and adoption” into the “hands of pedophile networks and sexual slavery” across Europe. A separate article, republished by VT from R-FBI on June 19, 2025, claimed President Sandu and political allies earned “at least $4.5 billion” via large-scale illicit schemes involving “drug trafficking, Ukrainian weapons, and modern slavery.” Both articles were written by Brazilian R-FBI contributor Lucas Leiroz, also <a href="https://www.sgdsn.gouv.fr/files/files/Publications/20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Technical%20report_Storm-1516.pdf">tracked</a> as an amplifier of CopyCop content. Leiroz has previously authored numerous articles featured in Russia state-sponsored media outlets, as well as in outlets <a href="https://2017-2021.state.gov/russias-pillars-of-disinformation-and-propaganda-report/">previously assessed</a> as associated with Russian intelligence, such as InfoBrics (BRICS Portal) and the Strategic Culture Foundation.</p>
+        <div>
+          <div>
+            <div>
+              <img alt="" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 13 and 14</em></strong><em>: R-FBI investigative pieces republished in VT; these articles are later used as citations in social media (Source: VT [<a href="https://archive.is/fNwkH">archive one</a>,</em> <em><a href="https://archive.is/jyLMf">archive two</a>])</em></div>
+          </div>
+        </div>
+        <p>On July 1, 2025, R-FBI <a href="https://archive.is/pxMe9">published</a> a third investigative article on Moldova, claiming President Sandu had signed a “secret decree” dated June 4, 2025, allowing law enforcement to “kill citizens without fear of punishment.” The decree, according to R-FBI, was a deliberate decision to “suppress the expected mass protests in the fall of 2025, caused by the economic crisis and expected accusations of election fraud.” R-FBI provided an alleged copy of the decree (classified as Nr. 224-S-X), which Insikt Group found no record of on the official website of the President of Moldova. R-FBI attempted to mitigate this discrepancy by stating in its article that the document was obtained from anonymous sources in the president’s office. Additional scrutiny of the document image, particularly its off-center header and incorrectly aligned Article 2, leads Insikt Group to assess the document as very likely a forgery intended to damage President Sandu’s credibility and undermine the president’s anti-corruption platform.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1b460ccd32bc85328d6c1a65f8f5574bcf04cf538.png?width=750&amp;format=png&amp;optimize=medium" width="768" height="1087" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 15</em></strong><em>: A very likely forgery of a Moldovan presidential decree providing immunity to law enforcement for the use of force against protestors and instances of civil unrest (Source: R-FBI [<a href="https://archive.is/pxMe9">archive</a>])</em></div>
+          </div>
+        </div>
+        <h4>Infrastructure</h4>
+        <p>Likely due to the result of social media platforms’ <a href="https://insights.som.yale.edu/insights/how-shadow-banning-can-silently-shift-opinion-online">shadowbanning</a> direct links to R-FBI’s website, <em>fondfbr[.]ru</em>, R-FBI is almost certainly using secondary sources through a network of intermediaries and influencers to launder its investigations, namely via VT, but also via <a href="https://archive.is/3wO8c">websites</a> associated with ANR. Insikt Group also located limited secondary and tertiary amplification through the pro-Kremlin media publication <a href="https://archive.is/y2rFV">EurAsia Daily</a> (EADaily) and a fringe Swedish publication that sporadically re-publishes R-FBI investigative pieces called “<a href="https://archive.is/q8msm">Bakom Kulisserna</a>” (“Behind the Scenes”).</p>
+        <p>Pro-Kremlin social media personalities who have previously amplified CopyCop content are almost certainly also the leading amplifiers of R-FBI’s anti-Sandu articles, resulting in each claim receiving hundreds of thousands of social media views. In addition to Leiroz, these individuals included Chay Bowes, Raphael Machado, and social media personalities “Johnny Midnight”, “Peacemaker”, and “Sprinter Observer”. The extent of R-FBI article amplification against President Sandu is a Category 3 on the Brookings <a href="https://www.brookings.edu/wp-content/uploads/2020/09/Nimmo_influence_operations_PDF.pdf">Breakout Scale</a>, consisting of multiple platforms with multiple breakouts. Similar to Operation Overload, R-FBI has achieved isolated instances of Category 4 amplification, given the numerous prior press coverage of R-FBI and its fabricated investigative pieces.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_11c14eac1abe95c91d7be53ab1a9f7c0d8803f63f.png?width=750&amp;format=png&amp;optimize=medium" width="756" height="396" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figures 16 and 17</em></strong><em>: Screenshots of Chay Bowes and Johnny Midnight posts discussing R-FBI’s story republished in VT</em></p>
+              <p><em>(Source: Social media)</em></p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <p>
+                <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1f1732de1d263ab83822a91392a9e67e9706a6717.png?width=750&amp;format=png&amp;optimize=medium" width="708" height="617" />
+              </p>
+              <p>
+                <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_108fee76466280fb4658998dd9b55442f9567994d.png?width=750&amp;format=png&amp;optimize=medium" width="764" height="709" />
+              </p>
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 18 and 19</em></strong><em>: R-FBI articles republished to EADaily and Bakom Kulisserna (Source:</em> <em><a href="https://archive.is/y2rFV">archive one</a>,</em> <em><a href="https://archive.is/q8msm">archive two</a>)</em></div>
+          </div>
+        </div>
+        <h2>Operation Undercut Targets Moldovan TikTok Users</h2>
+        <p>In early June 2025, Insikt Group identified a series of TikTok accounts promoting anti-PAS, anti-Sandu content in Romanian, which we currently attribute to <a href="https://www.recordedfuture.com/research/operation-undercut-shows-multifaceted-nature-sdas-influence-operations">Operation Undercut</a>. Over the course of this investigation, we identified an additional network of approximately 70 active social media accounts (as of late June 2025) posting this content in parallel to accounts on TikTok (<strong>Appendix A</strong>). We note that many of these accounts have since been suspended; however, we continue to identify replacement accounts on a rolling basis.</p>
+        <p>Operation Undercut is an IO almost certainly conducted by the Russian company Social Design Agency (Агентсво Социального Проектирования, or “SDA”) since at least December 2023. Historically, Operation Undercut has generated very little online engagement and very likely has achieved minimal impact on its target audiences. Previously, Insikt Group observed Operation Undercut primarily using <a href="https://go.recordedfuture.com/hubfs/reports/TA-RU-2024-1126.pdf">inauthentic social media and 9gag accounts</a> likely operated by humans or simulating human activity, which includes posting during typical Moscow workday hours and halting activity during major Russian holidays.</p>
+        <h3>Narratives</h3>
+        <p>Operation Undercut is very likely attempting to condition domestic Moldovan audiences to expect rigged elections in favor of PAS, stoke fears of a potential conventional war with Russia, and provoke economic concerns by magnifying priority economic issues for voters, such as inflation, agricultural collapse, and child-welfare costs. This network of Operation Undercut accounts consistently publishes content that is generally negative toward the PAS and President Sandu. Themes include framing Moldova’s EU aspirations as economically ruinous, amplifying likely non-credible claims of alleged Moldovan political corruption, and predicting a future socio-political collapse should Moldova continue its current trajectory.</p>
+        <h3>Infrastructure</h3>
+        <p>Insikt Group identified at least four Operation Undercut TikTok accounts attempting to impersonate Moldovan citizens or Romanian-speaking individuals in Eastern Europe. One account, “Bella Popescu”, claimed to be a photographer and film editor. The second account, “dorinrobu5”, dedicated its account to “news,” “reviews,” and “relevant, fresh information.” The third account, “Gergely Dezir”, described itself as an account dedicated to “peace and politics.” A fourth account we assess as likely part of the network, “moldova457u”, began posting similar Operation Undercut-style AI-generated videos in late June 2025. Each of the TikTok videos we observed stated in their descriptions that the videos were constructed using CapCut, a video editing software popular with video creators and social media influencers. This network is also very likely using <a href="http://VEED.io">VEED</a>’s “<a href="https://www.veed.io/ai-studio/">Gen-AI studio</a>” avatars, “Aisha”, “Elena”, and “Marcus”, to periodically narrate and lend credibility to Operation Undercut content.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_167eda03076b3287d6fb1c313ae0eec23b55cfb71.png?width=750&amp;format=png&amp;optimize=medium" width="391" height="465" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figure 20</em></strong><em>: Operation Undercut using Veed avatar “Elena” to narrate anti-Sandu, anti-PAS video on social media</em></p>
+              <p><em>(Source: Social media)</em></p>
+            </div>
+          </div>
+        </div>
+        <p>Each of the clips posted to TikTok contains hashtags very likely chosen to garner potential viewers interested in Moldova and Moldovan politics (#stirimoldova, #moldovaștiri, #UE), as well as generalized hashtags used to reach a broader audience, such as #TikTokNews, #Trump2020, and #gaza. The posts’ associated captions, however, reflect an anti-EU perspective and are consistent with pro-Russian messaging targeting domestic audiences that seeks to erode trust in Western institutions and sow disillusionment with European alignment.</p>
+        <p>Compared to the curated TikTok accounts, the secondary network of social media accounts we identified on mainstream social media contained usernames incorporating Indian, Bangladeshi, and Sanskrit names and posted content in Romanian. Several of these accounts also held verified badges, indicating that their administrators had paid for premium features on the social media platform. After these accounts were suspended by the platform, replacement accounts with Western names, still posting in Romanian, took their place in late June 2025. Based on rolling platform suspensions and the emergence of new accounts, Insikt Group assesses that the administrators of Operation Undercut will likely continue attempting to establish a persistent presence on social media.</p>
+        <p>Although these accounts did not have a notable following, we observed the network persistently attempting to engage in <a href="https://disarmframework.herokuapp.com/technique/20/view">hashtag hijacking</a> to increase the visibility of its posts to wider audiences. To do so, Operation Undercut almost certainly continues to engage in <a href="https://go.recordedfuture.com/hubfs/reports/TA-RU-2024-1126.pdf">localized hashtag use</a> to identify and hijack trending hashtags among Romanian-speaking audiences in Moldova, very likely using commercial off-the-shelf social media monitoring tools. While the accounts do regularly achieve more than 100 views per post, we have not observed any meaningful engagement with broader audiences. However, viewership statistics of Operation Undercut activity on TikTok specifically indicate that the posts regularly receive thousands of views each; one <a href="https://archive.is/YJqhQ">post</a> from Bella Popescu calling on President Sandu to resign garnered more than 113,000 views.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1167aa89dc3c17695a1161dc3da2bd9528573ef5b.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="725" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figure 21</em></strong><em>: Four TikTok accounts Insikt Group attributes to Operation Undercut</em></p>
+              <p><em>(Source: TikTok [<a href="https://archive.ph/zrbY6">archive one</a>,</em> <em><a href="https://archive.is/WGtiI">archive two</a>,</em> <em><a href="https://archive.is/5kusC">archive three</a>,</em> <em><a href="https://archive.is/CgrWP">archive four</a>])</em></p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1f3295acf7f570edcc242379924aae572ec0460c3.png?width=750&amp;format=png&amp;optimize=medium" width="610" height="375" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figures 22 and 23</em></strong><em>: Sample Operation Undercut-operated social media accounts, now suspended (Source: Social media)</em></div>
+          </div>
+        </div>
+        <p>Although the operation continues to fail in its attempts to significantly impact public opinion, it likely has improved its online engagement since our prior investigation through its expanded social media use on TikTok. Operation Undercut activities are currently a Category 2 on the Brookings <a href="https://www.brookings.edu/wp-content/uploads/2020/09/Nimmo_influence_operations_PDF.pdf">Breakout Scale</a>, consisting of a multiplatform operation with no recorded breakout beyond the network.</p>
+        <h2>Facebook Pages Linked to Ilan Shor and “Evrazia”</h2>
+        <p>In May 2025, Moldova-based think tank WatchDog.MD <a href="https://watchdog.md/en/analyzes/208414/rusia-si-ilan-sor-arhitectii-unei-retele-de-dezinformare-pe-facebook/">published</a> a report highlighting 146</p>
+        <p>anonymous Facebook Pages it determined to be affiliated with fugitive Moldovan oligarch Ilan Shor, and used to promote pro-Shor political advertisements, in addition to another 315 “stand-by” pages. In all, WatchDog.MD identified this network as part of a larger network consisting of 2,167 auto-generated Facebook pages created to “influence political processes in the Republic of Moldova and other European states.” Many of these pages have randomly generated names, incorporating photos later found to have been stolen from Eastern European dating websites. WatchDog.MD attributed this activity to Russia-based actors.</p>
+        <h3>Narratives</h3>
+        <p>WatchDog.MD’s preliminary investigation determined that networks of anonymously operated Facebook pages running commercial advertisements and likely connected to Shor presented themselves as media or news pages with patriotic names similar to other Moldova-related pages Meta <a href="https://about.fb.com/news/2024/10/taking-action-against-coordinated-inauthentic-behavior-in-moldova/">disclosed</a> in October 2024, such as “Authentic Moldova”, “Today’s Chișinău”, “Гагаузия вперед” (“Gagauzia Forward”), “Moldova вперед” (“Moldova Forward”), “My Dream Moldova”, “Orhei Today”, and others. Posts and paid ads praise Ilan Shor and Shor-managed organizations, such as “A New Life”, the “National Salvation Committee”, and the “Movement for the People”, while labelling PAS as corrupt or incompetent. WatchDog.MD indicated that between October 2022 and November 2024, Shor spent nearly 470,000 euros across over 1,400 Facebook advertisements, cautioning that the “actual amount may be even higher.”</p>
+        <h3>Infrastructure</h3>
+        <p>Automated infrastructure very likely powers the entirety of the miscellaneous pro-Shor Facebook Pages. WatchDog.MD traced 2,167 Facebook pages built from randomly concatenated keyword strings (“Gourmet Gurus Crafty Creations Motivational Moments”, “Travel Junkies Business Builders Neighborhood News”, or “WealthWave Innovations”), with dozens of clones sharing the exact same title. Profile photos are likely misappropriated from Eastern European dating and “cam sites,” and the same images frequently resurface across multiple page aliases. Early iterations of the network were openly administered from the Philippines, Vietnam, Timor-Leste, and the United Arab Emirates (UAE), with ads paid in USD or Polish zloty, indicators which WatchDog.MD used to attribute the network as operating outside Moldovan jurisdiction.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_14633218a2c5ce1535cdb62a2df72d55aee00eef8.png?width=750&amp;format=png&amp;optimize=medium" width="1504" height="1376" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 24</em></strong><em>: Example placeholder “WealthWave Innovations” Facebook Pages; Insikt Group found that similar pages were sponsoring advertisements for Ilan Shor-backed Evrazia’s “Discover Russia 2025” program (Source: Facebook)</em></div>
+          </div>
+        </div>
+        <p>Insikt Group’s independent review found that in mid-May 2025, the majority of these Facebook Pages remained dormant, with little information from which to discern plans of potential future activity or planned purposes. We did find, however, that several of the previously mentioned WealthWave Innovations-named pages were advertising a “Discover Russia 2025” program, facilitated by the Shor-backed Russian NGO “Evrazia.” In October 2024, the Organized Crime and Corruption Reporting Project (OCCRP) <a href="https://www.occrp.org/en/feature/a-russian-non-profit-interferes-in-moldovas-eu-referendum-and-builds-an-anti-western-influence-machine">concluded</a> that Evrazia was bribing Moldovan citizens to vote against the EU referendum. In all, OCCRP stated that $15 million USD in illegally transferred funds from Evrazia was used to attempt to bribe 130,000 voters to vote against the referendum, organized through Telegram. Shor reportedly argued he was engaging in legal activity, stating he was paying Moldovans “salaries” in return for their work in “explaining to people the advantages of the Eurasian economic space.”</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_17e481315842e8fa01cfed566e8ca2467941d678f.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="668" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 25</em></strong><em>: Now-inactive Facebook ads from mid-May 2025 from “WealthWave Innovations” advertising Shor-backed “Evrazia” and its “Discover Russia 2025” program (Source:</em> <em><a href="https://www.facebook.com/ads/library/?active_status=all&amp;ad_type=all&amp;country=ALL&amp;is_targeted_country=false&amp;media_type=all&amp;q=%22Wealthwave%20Innovations%22&amp;search_type=keyword_exact_phrase">Facebook Ad Library</a>).</em></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1201b51c3d54f99654ec1c4f85bc99eb28f0f1f56.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="899" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figure 26</em></strong><em>: An “about us” page highlighting Evrazia’s “Discover Russia 2025” program</em></p>
+              <p><em>(Source: Evrazia[.]su [<a href="https://archive.is/4I8Bd">archive</a>])</em></p>
+            </div>
+          </div>
+        </div>
+        <h2>Russian State Media Provides Infrastructure Support to Pro-Kremlin Moldova24</h2>
+        <p>Since February 2025, Insikt Group has tracked the growth of Moldova24 (MD24), a Russia-based and likely Kremlin-backed television network geared toward Russian-speaking individuals living in Moldova. MD24’s Russian connections and attempts to reshape opinion in Moldova were first detailed during the October 2024 election cycle when the Security and Intelligence Service of Moldova (SIS) ordered national internet service providers (ISPs) to <a href="https://www.orange.md/ro/noutate/site-uri-blocate-03-10-2024">block</a> two of MD24’s primary news domains, <em>moldova24[.]online</em> and <em>pwa[.]moldova24[.]online</em>. Moldovan authorities later also <a href="https://balkaninsight.com/2024/10/11/moldova-takes-down-pro-kremlin-oligarch-shors-telegram-accounts/">blocked</a> Telegram accounts belonging to Russian oligarch Shor, which included Telegram accounts associated with MD24.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1329a4f0b11d9354a9b451dbb324a07ed1af23cd8.png?width=750&amp;format=png&amp;optimize=medium" width="1562" height="838" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 27</em></strong><em>: Moldover24’s home page featuring a 24/7 livestream of the network (Source: MD24 [<a href="https://archive.is/Qlym7">archive</a>]).</em></div>
+          </div>
+        </div>
+        <h3>Narratives</h3>
+        <p>MD24 launched in September 2024 with the almost certain aim of influencing Moldovan public opinion among Russian speakers favorably toward pro-Russian policies and a closer diplomatic relationship with Moscow. MD24 news articles and its 24/7 broadcast platform, which are hosted on its core website, <em>moldova-24[.]online</em>, frequently criticize Western policies, highlight Moldova’s economic difficulties, and question the West's motives in deepening its ties with Moldova. MD24 news coverage often includes biased reporting, emotional language, and selective coverage, and very likely seeks to promote skepticism toward Western institutions, particularly the EU and the US.</p>
+        <p>An emerging theme emanating from MD24, consistent with shared narratives from pro-Kremlin sources, is to undermine public confidence in Moldova's electoral process and the credibility of PAS specifically. MD24 has <a href="https://archive.is/u5eid">published</a> <a href="https://archive.is/sNTw0">multiple</a> articles promoting skepticism, distrust, and suspicion regarding Moldova’s voting procedures with the diaspora vote, which accounted for <a href="https://www.eurasian-research.org/publication/westing-made-good-untangling-the-presidential-elections-in-moldova/">one-fifth</a> of the total vote during the October 2024 election and leans heavily toward Sandu. MD24 has amplified allegations of intended or planned electoral fraud among diaspora voters, asserting a deliberate PAS strategy to artificially inflate votes from abroad. Simultaneously, MD24 <a href="https://archive.is/bvRdc">claimed</a> PAS was intentionally discriminating against or otherwise suppressing pro-Russia Moldovan voters, specifically those residing in Russia and Transnistria. Domestically, MD24 <a href="https://archive.is/x1cAt">published</a> articles suggesting PAS was intimidating opposition figures and, with help from the EU, sought to bribe the electorate in order to win votes.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1ed470ee59f6901690d53051dcd8dd0a2b312a3a8.png?width=750&amp;format=png&amp;optimize=medium" width="1108" height="947" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figure 28</em></strong><em>: MD24 articles published in mid-June 2025 suggesting plans of voter fraud emanating from foreign ballot stations</em></p>
+              <p><em>in support of PAS (Source: MD24 [<a href="https://archive.is/kc3Lr">1</a>,</em> <em><a href="https://archive.is/7ZQHt">2</a>,</em> <em><a href="https://archive.is/zIu8d">3</a>]).</em></p>
+            </div>
+          </div>
+        </div>
+        <h3>Infrastructure and State-Sponsored Support</h3>
+        <p>Insikt Group assesses that Russia's state-sponsored media outlet RT has very likely supported the development of MD24 through covert means. This includes actively hosting its website and website mirrors through IP space that is not currently directly associated with RT or its parent organization, RIA Novosti, but is the same IP space that hosted RT content dating back more than five years, in addition to content created by RT personnel. Furthermore, it is likely that RT personnel supported the launch of MD24 and its ongoing operations through physical means, such as providing suitable studio space in Moscow, equipment, and possibly guidance on broadcast operations. MD24 is also likely under RT’s editorial influence, using minimal direct citations between the organizations to maintain a veneer of independence despite clear ties to shared infrastructure.</p>
+        <p>In February 2025, Insikt Group provided Recorded Future customers with a Threat Actor Profile of MD24 and its connections to Russian state media infrastructure, several months ahead of findings published by other research groups. Independent public <a href="https://dfrlab.org/2025/06/03/unveiling-the-russian-infrastructure-supporting-the-moldova24-tv-channel/?fbclid=IwY2xjawKr1v1leHRuA2FlbQIxMABicmlkETE5aFdhVWR6NEh4WEdxRGU5AR4vv1Q6fLhTXa276dD1xsyIS-d0GccBDQpJgMiXBK9_Ie1FY7iaz4Ck5CZFLQ_aem_IFgzrsCQk9LAVV4BI-hYUg">reporting</a> from the Atlantic Council’s DFRLab in June 2025 corroborates our initial findings of MD24 as largely supported by the Russian government and pro-Kremlin actors. According to Insikt Group’s investigation, MD24 was available in more than a dozen domains initially hosted at the Russia-based IP address <em>91[.]218[.]228[.]51</em>, owned by AS210079, which is operated by Eurobyte LLC. This has since been updated to a different Eurobyte-owned IP address, <em>95[.]181[.]226[.]185</em>, as of July 2025.</p>
+        <div>
+          <div>
+            <div><strong>Domain</strong></div>
+            <div><strong>Create Date</strong></div>
+          </div>
+          <div>
+            <div>moldova24[.]space</div>
+            <div>2024-07-17</div>
+          </div>
+          <div>
+            <div>moldova24[.]press</div>
+            <div>2024-07-17</div>
+          </div>
+          <div>
+            <div>moldova-24[.]online</div>
+            <div>2024-07-17</div>
+          </div>
+          <div>
+            <div>moldova24[.]online</div>
+            <div>2024-07-17</div>
+          </div>
+          <div>
+            <div>moldova24[.]org</div>
+            <div>2024-07-17</div>
+          </div>
+          <div>
+            <div>moldova-24[.]live</div>
+            <div>2024-07-17</div>
+          </div>
+          <div>
+            <div>mldvideo24[.]space</div>
+            <div>2024-09-11</div>
+          </div>
+          <div>
+            <div>mldvideo24[.]tech</div>
+            <div>2024-09-11</div>
+          </div>
+          <div>
+            <div>mldvideo24[.]site</div>
+            <div>2024-09-11</div>
+          </div>
+          <div>
+            <div>mldvideo24[.]online</div>
+            <div>2024-09-11</div>
+          </div>
+          <div>
+            <div>mldvideo24[.]pro</div>
+            <div>2024-09-11</div>
+          </div>
+          <div>
+            <div>newseday[.]site</div>
+            <div>2024-10-08</div>
+          </div>
+          <div>
+            <div>premiumlive[.]site</div>
+            <div>2024-10-08</div>
+          </div>
+          <div>
+            <div>nlive-24[.]online</div>
+            <div>2024-10-08</div>
+          </div>
+          <div>
+            <div>nlive24[.]ru</div>
+            <div>2024-10-08</div>
+          </div>
+        </div>
+        <p><strong><em>Table 1</em></strong><em>: MD24-associated domains (Source: Recorded Future)</em></p>
+        <p>RT is very likely to have covertly supported the administration of these domains, based on historical registration data indicating shared infrastructure between MD24 and RT-affiliated websites. Most of these domains do not rely on RT’s or typical affiliated DNS infrastructure (<em>nsX[.]rttv[.]ru</em>, <em>nsX[.]sputniknews[.]ru</em>, <em>nsX[.]rian[.]ru</em>), nor do they display registration details linked to ANO TV-Novosti or Rossiya Segodnya, which are typically associated with RT and its affiliates. Some of these websites include:</p>
+        <ul>
+          <li><em>poiskblizkih[.]com</em> (an RT database to reconnect Donbas families impacted by Russia’s war against Ukraine)</li>
+          <li><em>putinspeaks-rt[.]com</em></li>
+          <li><em>RTdoc[.]tv</em> (a website for RT Documentary content <a href="https://t.me/rtdocu/1950">launched</a> in early June 2024, very likely to coincide with the 2024 <a href="https://filmfreeway.com/flahertiana">International Documentary Film Festival</a>)</li>
+          <li><em>ktech[.]team</em> — notably, <em>ktech[.]team</em> belongs to KTEX, an organization that advertises various IT solutions, and its Taxpayer Personal Identification Number (INN), 9710109376, is <a href="https://spark-interfax.ru/moskva-tverskoi/ooo-ktekh-inn-9710109376-ogrn-1237700084676-f3ec1ce231e50910e053249aa8c04e56">registered</a> to Sergei Kukota, <a href="https://www.companywall.rs/firma/rt-balkan-televizija/MMxAtXyo0">director</a> of <a href="https://thegeopost.com/en/news/rt-balkan-launches-a-new-kremlin-propaganda-channel-in-the-balkans/">RT Balkan</a></li>
+        </ul>
+        <p>Beyond its network of websites, MD24 also maintains YouTube and TikTok accounts used to share its various news segments.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1e287b984a34cd2df37abd3036001b9e8de27f142.png?width=750&amp;format=png&amp;optimize=medium" width="1058" height="462" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 29</em></strong><em>: MD24’s active TikTok channel (Source: TikTok [<a href="https://archive.is/ARStr">archive</a>])</em></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1a26fc944c82922a21a17f8eea53fcedf1e339081.png?width=750&amp;format=png&amp;optimize=medium" width="1073" height="438" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 30</em></strong><em>: MD24’s most recent YouTube channel (Source: YouTube [<a href="https://archive.is/6LaWX">archive</a>])</em></div>
+          </div>
+        </div>
+        <p>In addition to the above, Insikt Group identified both active <a href="https://archive.is/uriUI">Facebook</a> and <a href="https://archive.is/sdu5H">Instagram</a> accounts affiliated with MD24 that ran more than 210 Meta <a href="https://www.facebook.com/ads/library/?active_status=all&amp;ad_type=all&amp;country=ALL&amp;is_targeted_country=false&amp;media_type=all&amp;search_type=page&amp;view_all_page_id=628645013661230">advertisements</a> combined between mid- and late June 2025 (According to the Ad Library, this number is approximately 440 total advertisements as of August 2025). Based on available data of more than 300 advertisements, Insikt Group can estimate that as of August 2025, MD24 advertisements have reached at least six million impressions since June 2025 –– reflecting the number of times the ad was displayed on a screen, which may include multiple views by the same person –– the majority of which were reportedly located in Chișinău, Gagauzia, and Transnistria, per Meta’s Ad Library. The majority average payment per advertisement reportedly was less than 100 euros.</p>
+        <p>MD24’s Facebook account, used to sponsor political advertisements and post MD24 news content, launched March 29, 2025, initially under the name “Frumusețea Pământească SPO” (“Earthly Beauty SPO”) before updating with the name “Moldova24” and MD24 graphics. Its associated Instagram account has the handle <em>@alinanorman9,</em> despite using MD24 graphics, and exclusively posts MD24 news segments. This account is likely a disposable profile used entirely for hosting posts that will be used as ads on Instagram.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_19fe36f3e641cbe66df1f81cadf4764a53fd3ef40.png?width=750&amp;format=png&amp;optimize=medium" width="1005" height="276" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 31</em></strong><em>: MD24’s likely throwaway Instagram account used for Meta advertisements (Source: Instagram [<a href="https://archive.is/sdu5H">archive</a>])</em></div>
+          </div>
+        </div>
+        <p>The Instagram-specific ads included hashtags such as #moldova, #md24, and a number, which, based on <em>@alinanorman9</em>’s posts, indicates its position in a series of internally tracked numbered ads. The advertisements on Facebook included captions such as “<a href="https://www.facebook.com/ads/library/?id=1160946065790547">People support Hutsul</a>,” “<a href="https://www.facebook.com/ads/library/?id=1254768793032268">PAS is a gathering of impostors</a>,” “<a href="https://www.facebook.com/ads/library/?id=736699172194129">Sandu humiliated the children of Gagauzia</a>,” and “<a href="https://www.facebook.com/ads/library/?id=601090862563790">Moldova will be better off without PAS</a>.” Per Meta policy for political advertising, the administrators were required to provide additional contact information; Insikt Group found that they had used disposable contact information, including the email address <em>jasonrobertson1978[@]antimmail[.]com</em>.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1b07e2d71e855148769f4e4a5ec1afa259d39b695.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="722" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 32</em></strong><em>: MD24 Facebook account used to run Meta advertisements (Source:</em> <em><a href="https://www.facebook.com/ads/library/?active_status=all&amp;ad_type=all&amp;country=ALL&amp;is_targeted_country=false&amp;media_type=all&amp;search_type=page&amp;view_all_page_id=628645013661230">Facebook Ad Library</a>)</em></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1158083aa074bf78701e682302ad33de3ee7877fe.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="611" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 33</em></strong><em>: A sample of MD24-run Instagram ads in late June 2025 (Source:</em> <em><a href="https://www.facebook.com/ads/library/?active_status=all&amp;ad_type=all&amp;country=ALL&amp;is_targeted_country=false&amp;media_type=all&amp;search_type=page&amp;view_all_page_id=628645013661230">Facebook Ad Library</a>)</em></div>
+          </div>
+        </div>
+        <h2>Portal Kombat Presses On in Moldova</h2>
+        <p>Portal Kombat is a Russia-aligned influence network targeting international audiences with pro-Kremlin influence content, aggregated primarily through networks of websites, most notably its “Pravda” ecosystem of hyper-localized websites. Its flagship website in Moldova, <em>md[.]news-pravda[.]com</em> (Pravda MD) is a fully automated news aggregator that systematically scrapes and republishes articles, posts, and official communications from a curated list of pro-Kremlin sources ranging from Russian partially or wholly state-controlled media outlets, such as RT, Sputnik, Pravda[.]ru, TASS, and RIA Novosti. The network also republishes official press releases and communications from Russian government ministries, local administrations, and other state institutions, and regularly republishes commentary from pro-Russian Telegram sources and pro-Kremlin “bloggers.”</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1db3e30dffe49f9cd300ca4f7d7840ba2dde2aab4.png?width=750&amp;format=png&amp;optimize=medium" width="850" height="601" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <p><strong><em>Figure 34</em></strong><em>: Most frequently cited sources for over 151,000 articles published on Pravda MD, md[.]news-pravda[.]com</em></p>
+              <p><em>(Source:</em> <em><a href="https://portal-kombat.com/">Pravda Dashboard via Check First</a>)</em></p>
+            </div>
+          </div>
+        </div>
+        <h3>Narratives</h3>
+        <p>Pravda MD very likely functions as a high-volume amplification node that launders Russian state media and other pro-Kremlin narratives to Romanian-speaking audiences in Moldova. The website and broader Portal Kombat sources do not produce original reporting, but rather republish content plagiarized from the above-mentioned, Russia-aligned sources. The content from these sources consistently questions President Sandu’s credibility, anti-corruption measures, and PAS’s broader political platform. Likewise, these sources erode support for EU integration and attempt to further drive social fragmentation while laying the groundwork to delegitimize Moldova’s September 2025 parliamentary elections should the Kremlin view the results as unfavorable.</p>
+        <p>Notably, Pravda MD, in line with Russia’s broader objectives, very likely seeks to exploit Moldova's internal ethnic and regional fault lines, particularly in the autonomous region of Gagauzia and the Russia-controlled breakaway region of Transnistria. Insikt Group further assesses that the underlying goal is to fuel separatism, undermine the authority of the central government in Chișinău, and create internal crises that Russia can leverage in pursuit of drawing Gagauzia and Transnistria closer into Russia’s geopolitical orbit. Further, <a href="https://ecfr.eu/publication/the-bear-behind-the-ballot-moldovas-election-in-the-shadow-of-war/#_edn13%20">according</a> to the European Council on Foreign Relations (ECFR), citing a May 2025 interview with a high-ranking Moldovan government official, Pravda MD and the Pravda ecosystem at large were assessed as being used as a tool in Russian attempts to engage in the “online penetration of the [Moldovan diaspora].”</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_192a6c5c6bcaab0524d54679d18918e38f34f3ab6.png?width=750&amp;format=png&amp;optimize=medium" width="848" height="226" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 35</em></strong><em>: A July 2, 2025, Pravda MD article featuring Victory Bloc member Yuri Vitnyansky arguing that if “PAS wins the elections, Moldova will face a massive psychological fall and a new wave of migration” (Source: Pravda MD [<a href="https://archive.is/HTy0S">archive</a>])</em></div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1a3140362b966446e4a5ebf07a2f268564ce1bc1f.png?width=750&amp;format=png&amp;optimize=medium" width="863" height="431" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 36</em></strong><em>: A July 2, 2025, Pravda MD article originally published by Sputnik News Moldova, blaming PAS for Moldova’s “burdensome tax regime” (Source: Pravda MD [<a href="https://archive.is/X8WjZ">archive</a>])</em></div>
+          </div>
+        </div>
+        <h3>Infrastructure</h3>
+        <p>The European External Action Service (EEAS), in its third Report on Foreign Information Manipulation and Interference Threats, <a href="https://www.eeas.europa.eu/eeas/3rd-eeas-report-foreign-information-manipulation-and-interference-threats-0_en">highlighted</a> three Portal Kombat domains created to target both Russian and Romanian-speaking audiences in Moldova, <em>md[.]news-pravda[.]com</em>, <em>moldova[.]news-pravda[.]com</em>, and the now-defunct <em>pravda-md[.]com</em>. The outlet also maintains a Telegram <a href="https://archive.is/Sdf2g">channel</a>; however, the subscriber account currently only has nineteen subscribers.</p>
+        <p>Despite the volume of generated articles, Pravda MD’s viewership is likely low; Similarweb statistics <a href="https://www.similarweb.com/website/md.news-pravda.com/#ranking">indicated</a> that <em>md[.]news-pravda[.]com</em> only received 86 visits in April 2025. In comparison, its host page, <em>news-pravda[.]com</em>, <a href="https://www.similarweb.com/website/news-pravda.com/#overview">received</a> more than 365,500 website visits, with over 42% of its social media traffic <a href="https://www.reddit.com/domain/news-pravda.com/top/?sort=top&amp;t=all">originating</a> from Reddit. It is possible that these page views are cumulative across all of Pravda’s localized webpages.</p>
+        <p>While the results of Pravda’s website viewership are mixed, there are broader concerns about the volume of content created by the network potentially poisoning secondary sources, particularly large-language models (LLMs) with access to the internet. Joint research by DFRLab and Check First <a href="https://dfrlab.org/2025/03/12/pravda-network-wikipedia-llm-x/">found</a> hyperlinks to Pravda-network domains on Wikipedia rose sharply after February 24, 2022, reaching 1,907 links on 1,672 pages in 44 languages; specific Moldova-related <a href="https://github.com/CheckFirstHQ/pravda-network-dissemination-data/blob/main/Wikipedia/results.csv">content</a> at the time of the analysis was limited. The same study counted more than 3.7 million Pravda articles on the open web. <a href="https://www.americansunlight.org/updates/new-report-russian-propaganda-may-be-flooding-ai-models">Analysis</a> from The American Sunlight Project (ASP) categorizes this technique as “LLM grooming.” Without remediation, ASP argued, LLM grooming “poses a growing threat to the integrity and reliability of the open internet.”</p>
+        <p>According to Recorded Future data, we identified at least one occasion in which a Portal Kombat domain was cited as a source in a mainstream news report; however, due to numerous investigative pieces highlighting the Pravda ecosystem, we therefore assess that Portal Kombat’s typical breakout scores no higher than a Category 4 on the Brookings Breakout Scale.</p>
+        <h2>Mitigations</h2>
+        <ul>
+          <li>Customers can use the Recorded Future Intelligence Operations Platform to track each of the IOs discussed in this report, including Insikt Group coverage of these operations’ emerging narratives, tactics, techniques, and procedures, which is provided with access to the <a href="https://www.recordedfuture.com/products/geopolitical-intelligence">Recorded Future Geopolitical Intelligence</a> module.</li>
+          <li>To minimize unintended amplification of IOs, media and research organizations should archive infrastructure to preserve forensic evidence without boosting visibility and reach, and strip viral content of engagement-boosting elements, such as hyperlinks, hashtags, or other media.</li>
+          <li>Organizations deploying public-facing AI chatbots or other large-language models should integrate multilayer content-filtering frameworks that block or flag inputs from domains linked to known IOs.</li>
+          <li>Impersonated entities, particularly media organizations, should continue engaging with social media companies and domain registrars to seize or remove content impersonating their brand, or leverage services provided by Recorded Future to request takedowns of brand impersonation attempts.</li>
+        </ul>
+        <h2>Outlook</h2>
+        <p>As the September 28, 2025, parliamentary elections approach, Insikt Group assesses that Russia-linked IOs, including both the well-documented networks discussed in this report and any newly emerging ones, will very likely scale up in volume. Insikt Group assesses that these operations are likely less intended to secure a clear pro-Russian majority than to decrease voter turnout, particularly among the diaspora vote, fracture the pro-European bloc, and cast doubt on the legitimacy of the result should such a result be unfavorable to Russia’s foreign policy objectives. International-facing IOs, coupled with <a href="https://www.politico.eu/article/moldova-warns-of-russian-disruptive-moves-against-overseas-voting-in-sundays-runoff/">coordinated</a> <a href="https://www.pravda.com.ua/eng/news/2024/11/3/7482765/">intimidation</a> of diaspora voters through polling place bomb-threat hoaxes and narratives discrediting overseas voting — mirroring Moldova’s 2024 presidential election — are very likely poised to suppress a constituency that historically tilts <a href="https://apnews.com/article/moldova-election-president-russia-europe-diaspora-sandu-40b98d140fefd92a2bd06d5db8b5d82f">strongly</a> toward PAS.</p>
+        <p>In conjunction with IOs, Moscow will very likely use other forms of Russian <a href="https://therecord.media/moldova-warns-of-hybrid-attacks-from-russia-ahead-of-elections">hybrid warfare</a> aimed at coercing Moldovan voters, building off recent operations. Gazprom’s <a href="https://carnegieendowment.org/russia-eurasia/politika/2025/01/moldova-crisis-transnistria-politics?lang=en">winter</a> gas <a href="https://apnews.com/article/moldova-gas-energy-transnistria-russia-crisis-42014b507406da842778b076289e646b">cut-offs</a>, previous targeted <a href="https://newsukraine.rbc.ua/news/moldova-faces-hacker-attack-during-elections-1699289886.html">cyberattacks</a> against the Central Election Commission, a documented <a href="https://therecord.media/unprecedented-interference-moldova-elections-cyberattack">surge</a> in Russia-attributed cyber intrusions against Moldova’s 2024 election cycle, and intelligence <a href="https://www.ft.com/content/c5a1faba-957c-4d5f-ac40-d126b643f07e">warnings</a> of a <a href="https://kyivindependent.com/russia-may-provoke-transnistria-crisis-ahead-of-moldovas-elections-sandu-warns/">manufactured crisis</a> in Transnistria and Gagauzia all signal a readiness to amplify economic hardships and security anxiety in Moldova in the hope of tilting the balance of the election in the Kremlin’s favor.</p>
+        <p>Current polling <a href="https://politpro.eu/en/moldova">still</a> shows PAS leading by a margin large enough to form a governing bloc, and Chişinău has invested heavily in <a href="https://www.csis.org/analysis/strengthening-moldovas-cyber-landscape">cyber defense</a>, energy <a href="https://enlargement.ec.europa.eu/news/european-commission-and-moldova-agree-2-year-comprehensive-strategy-energy-independence-and-2025-02-04_en">diversification</a>, and <a href="https://www.osce.org/project/support-to-law-enforcement-agencies-in-Moldova-in-response-to-security-challenges-in-region">enhanced</a>, <a href="https://www.osce.org/secretariat/594179#:~:text=Moldovan%20police%20strengthen%20capabilities%20in%20intelligence%E2%80%91led%20policing%20through%20OSCE%20training.&amp;text=Senior%20managers%20and%20crime%20analysts%20from%20the,to%20identifying%2C%20assessing%2C%20and%20addressing%20crime%20threats.">robust</a> policing. These resilience measures make a decisive electoral victory in favor of the Kremlin unlikely. Nevertheless, even in the wake of an election result perceived by the Kremlin as unfavorable, Russia may pivot toward more overt destabilization activities aligned with its broader Russkiy Mir objectives, such as inciting protest violence in Russian-speaking regions like Gagauzia and Transnistria, or exploiting regional instability to further consolidate territorial control consistent with its post-Soviet reunification ambitions.</p>
+        <h2>Appendix A: Key Infrastructure Observed</h2>
+        <h3>Operation Undercut Social Media Handles</h3>
+        <div>
+          <div>
+            <div><strong>Username</strong></div>
+            <div><strong>Username</strong></div>
+            <div><strong>Username</strong></div>
+          </div>
+          <div>
+            <div>@aaron2492397222</div>
+            <div>@hubbard_tr92086</div>
+            <div>@narendr_jha_bjp</div>
+          </div>
+          <div>
+            <div>@aashish89412892</div>
+            <div>@JamesSanto1236</div>
+            <div>@narndracau25254</div>
+          </div>
+          <div>
+            <div>@abhinav26016456</div>
+            <div>@JenkinS_ma18433</div>
+            <div>@parvath91347591</div>
+          </div>
+          <div>
+            <div>@abdulrishw69623</div>
+            <div>@JenniferCh71251</div>
+            <div>@prakash89572935</div>
+          </div>
+          <div>
+            <div>@amanata29439662</div>
+            <div>@JennyMoral62877</div>
+            <div>@rahulya84430659</div>
+          </div>
+          <div>
+            <div>@ankurku92150874</div>
+            <div>@JessicaGra66820</div>
+            <div>@rheanne_ray</div>
+          </div>
+          <div>
+            <div>@arshad_kha84022</div>
+            <div>@JessicaWil17885</div>
+            <div>@rosycbaceliscup</div>
+          </div>
+          <div>
+            <div>@arunkum39770895</div>
+            <div>@JohannaSch8460</div>
+            <div>@sanjayntr390637</div>
+          </div>
+          <div>
+            <div>@babukunwar42806</div>
+            <div>@JosieGarci18643</div>
+            <div>@sapanKumar45713</div>
+          </div>
+          <div>
+            <div>@biliyammin22977</div>
+            <div>@JoyTolbert43178</div>
+            <div>@shashan61123435</div>
+          </div>
+          <div>
+            <div>@biswajitro66312</div>
+            <div>@kailash83156331</div>
+            <div>@shn137868620033</div>
+          </div>
+          <div>
+            <div>@brajesh13093657</div>
+            <div>@kamalra95279010</div>
+            <div>@shivroy59777988</div>
+          </div>
+          <div>
+            <div>@chaudhary994634</div>
+            <div>@karanda64037678</div>
+            <div>@shyamve56056624</div>
+          </div>
+          <div>
+            <div>@deepakk93394418</div>
+            <div>@KarenGomez50540</div>
+            <div>@sonusonu1742479</div>
+          </div>
+          <div>
+            <div>@durgesh48781019</div>
+            <div>@ku06710639kumar</div>
+            <div>@sumanmonda48516</div>
+          </div>
+          <div>
+            <div>@ErinC72794</div>
+            <div>@LeonardMeled</div>
+            <div>@sureshsain69613</div>
+          </div>
+          <div>
+            <div>@GK1162734028895</div>
+            <div>@luthufudde71703</div>
+            <div>@sunilkU77153523</div>
+          </div>
+          <div>
+            <div>@Heather74361771</div>
+            <div>@manishjakh33860</div>
+            <div>@sunnykumar61603</div>
+          </div>
+          <div>
+            <div>@HeathercargP</div>
+            <div>@mary_hoove91159</div>
+            <div>@vishallodh41892</div>
+          </div>
+          <div>
+            <div>@HeatherKni89545</div>
+            <div>@mdrased46668391</div>
+            <div>@zh9409061564695</div>
+          </div>
+          <div>
+            <div>@hilton_amb93231</div>
+            <div>@mhmdrdfan695975</div>
+            <div></div>
+          </div>
+          <div>
+            <div>@HopeBrown565188</div>
+            <div>@moideen33629186</div>
+          </div>
+        </div>
+        <h3>Foundation to Battle Injustice</h3>
+        <div>
+          <div>
+            <div><strong>Domain</strong></div>
+          </div>
+          <div>
+            <div>fondfbr[.]ru</div>
+          </div>
+          <div>
+            <div>vtforeignpolicy[.]com</div>
+          </div>
+          <div>
+            <div>eadaily[.]com</div>
+          </div>
+          <div>
+            <div>londontimes[.]live</div>
+          </div>
+          <div>
+            <div>bakomkulisserna[.]info</div>
+          </div>
+        </div>
+        <h3>RT- and MD24-Affiliated Domains Hosted on 95[.]181[.]226[.]185</h3>
+        <div>
+          <div>
+            <div><strong>Domain</strong></div>
+            <div><strong>Domain</strong></div>
+            <div><strong>Domain</strong></div>
+          </div>
+          <div>
+            <div>ahilesva[.]info</div>
+            <div>mldvideo24[.]pro</div>
+            <div>news-365[.]ru</div>
+          </div>
+          <div>
+            <div>artel[.]watch</div>
+            <div>mldvideo24[.]site</div>
+            <div>newseday[.]site</div>
+          </div>
+          <div>
+            <div>arteldoc[.]com</div>
+            <div>mldvideo24[.]space</div>
+            <div>nlive-24[.]online</div>
+          </div>
+          <div>
+            <div>arteldoc[.]tv</div>
+            <div>mldvideo24[.]tech</div>
+            <div>nlive24[.]ru</div>
+          </div>
+          <div>
+            <div>book-catalog[.]ru</div>
+            <div>moldova-24[.]live</div>
+            <div>poiskblizkih[.]com</div>
+          </div>
+          <div>
+            <div>gatewaytorussia[.]ru</div>
+            <div>moldova-24[.]online</div>
+            <div>premiumlive[.]site</div>
+          </div>
+          <div>
+            <div>green-box-tv[.]com</div>
+            <div>moldova24[.]online</div>
+            <div>putinspeaks-rt[.]com</div>
+          </div>
+          <div>
+            <div>gw2ru[.]com</div>
+            <div>moldova24[.]org</div>
+            <div>rtdoc[.]tv</div>
+          </div>
+          <div>
+            <div>kanzlerdaddy[.]ru</div>
+            <div>moldova24[.]press</div>
+            <div>rteam[.]tech</div>
+          </div>
+          <div>
+            <div>khangar[.]net</div>
+            <div>moldova24[.]space</div>
+            <div>rtred[.]online</div>
+          </div>
+          <div>
+            <div>ktech[.]team</div>
+            <div>msimonyan[.]ru</div>
+            <div>xn--80aaglo1cmx[.]xn--p1ai</div>
+          </div>
+          <div>
+            <div>mldvideo24[.]online</div>
+            <div>navalny[.]lol</div>
+            <div></div>
+          </div>
+        </div>
+        <h3>Portal Kombat’s Pravda MD</h3>
+        <div>
+          <div>
+            <div><strong>Domain</strong></div>
+          </div>
+          <div>
+            <div>md[.]news-pravda[.]com</div>
+          </div>
+          <div>
+            <div>moldova[.]news-pravda[.]com</div>
+          </div>
+          <div>
+            <div>pravda-md[.]com</div>
+          </div>
+        </div>
+      ]]></content:encoded>
+            <category>Research (Insikt)</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_17f955e967d0426875aff510d4c6f80095124aa6f.gif?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
         <item>
             <title><![CDATA[Influence Operations and Conflict Escalation in South Asia]]></title>
             <link>https://www.recordedfuture.com/research/influence-operations-and-conflict-escalation-in-south-asia</link>
@@ -9909,63 +10612,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Research (Insikt)</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_11a360aaa63760e50d1a130ba3facc7c08c958b09.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[Recorded Future Briefing | Munich Security Conference 2025 Insights by Insikt Group]]></title>
-            <link>https://www.recordedfuture.com/blog/munich-security-conference</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/blog/munich-security-conference</guid>
-            <pubDate>Wed, 21 Jan 1970 03:10:04 GMT</pubDate>
-            <description><![CDATA[Explore intelligence reports from Recorded Future's Insikt Group at the 2025 Munich Security Conference. Key topics include Taiwan invasion risk, Russian influence in German elections, RedMike exploiting Cisco devices, and North Korea’s IT worker scam.]]></description>
-            <content:encoded><![CDATA[
-        <h5>Insikt Group Briefing - February 13th 2025</h5>
-        <h3>Overview</h3>
-        <p>This document provides an overview of Recorded Future’s Insikt Group intelligence reporting and analysis published during the 2025 Munich Security Conference. Links to the full reports are included.</p>
-        <h3>Subject</h3>
-        <p>Adversarial Actors — China, Russia, Iran, and North Korea — are adapting to and exploiting Western openness and fragmentation through hostile cyber, economic, and military actions.</p>
-        <h3>Reporting and Analysis</h3>
-        <ol>
-          <li>The Risk of a Taiwan Invasion Is Rising Fast</li>
-          <li>Russian Inﬂuence Operations Target German Elections</li>
-          <li>RedMike (Salt Typhoon) Exploits Vulnerable Cisco Devices of Global Telecommunications Providers</li>
-          <li>Inside the Scam: North Koreaʼs IT Worker Threat</li>
-        </ol>
-        <h3>The Risk of a Taiwan Invasion Is Rising Fast</h3>
-        <p><em><a href="http://recordedfuture.com/research/risk-taiwan-invasion-rising">Click here</a></em> <em>to read the report.</em></p>
-        <h4>Key Takeaways</h4>
-        <ul>
-          <li>An invasion is currently unlikely, but political, economic, and military trends suggest that by 2027, China’s leadership will be able to consider an invasion while minimizing the costs.</li>
-          <li>A protracted war over Taiwan would have profound consequences for the global economy, disrupting critical shipping lanes and devastating technology supply chains in East Asia.</li>
-          <li><strong>Bottom Line:</strong> Businesses should begin investing in contingency plans to protect and diversify their operations in case China invades or undertakes other signiﬁcant military action against Taiwan in the coming decade.</li>
-        </ul>
-        <h3>Russian Influence Operations Target German Elections</h3>
-        <p><em><a href="http://recordedfuture.com/research/stimmen-aus-moskau-russian-influence-operations-target-german-elections">Click here</a></em> <em>to read the report.</em></p>
-        <h4>Key Takeaways</h4>
-        <ul>
-          <li>The forthcoming German elections are a target of Russian inﬂuence operations. As of mid-February, these operations have not meaningfully altered voter behavior or public opinion.</li>
-          <li>These operations aim to inﬂame German sociopolitical divisions, spread manipulated content, foster anti-US and EU sentiment, and weaken NATO unity in line with Kremlin objectives.</li>
-          <li><strong>Bottom Line:</strong> These inﬂuence operations have had limited voter impact, but their persistence and evolving tactics elevate the threat of a breakout inﬂuence event.</li>
-        </ul>
-        <h3>RedMike (Salt Typhoon) Exploits Vulnerable Cisco Devices of Global Telecommunications Providers</h3>
-        <p><em><a href="/research/redmike-salt-typhoon-exploits-vulnerable-devices">Click here</a></em> <em>to read the report.</em></p>
-        <p><em><a href="https://www.wired.com/story/chinas-salt-typhoon-spies-are-still-hacking-telecoms-now-by-exploiting-cisco-routers/">Click here</a></em> <em>to read the Wired article.</em></p>
-        <h4>Key Takeaways</h4>
-        <ul>
-          <li>Insikt group observed RedMike exploiting privilege escalation vulnerabilities CVE-2023-20273 and CVE-2023-20198 to compromise unpatched Cisco network devices running Cisco IOS XE software.</li>
-          <li>RedMike compromised devices of a US-based affiliate of a UK telecommunications company, a South African telecommunications company, and attempted to exploit over 1,000 Cisco devices between December 2024 and January 2025.</li>
-          <li><strong>Bottom Line:</strong> Despite media coverage and US sanctions, RedMike (Salt Typhoon) continues to target and penetrate telecommunications providers globally, including in the US.</li>
-        </ul>
-        <h3>Inside the Scam: North Koreaʼs IT Worker Threat</h3>
-        <p><em><a href="http://recordedfuture.com/research/inside-the-scam-north-koreas-it-worker-threat">Click here</a></em> <em>to read the report.</em></p>
-        <h4>Key Takeaways</h4>
-        <ul>
-          <li>PurpleBravo has targeted at least seven entities, three of which are in the cryptocurrency sector, including a market-making firm, an online casino, and a blockchain software company.</li>
-          <li>PurpleBravo was active on at least three hiring websites, Telegram, and GitHub, regularly posting job advertisements and updating repositories.</li>
-          <li>Insikt Group identified at least seven suspected North Korea-linked front companies operating in China spoofing legitimate IT firms in China, India, Pakistan, Ukraine, and the United States.</li>
-          <li><strong>Bottom Line:</strong> North Korea’s malign cyber activity continues at scale.</li>
-        </ul>
-      ]]></content:encoded>
-            <category>Blog</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_1676810f0af486aad5e4a0bfe37e11c9dc62d0e7f.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>
