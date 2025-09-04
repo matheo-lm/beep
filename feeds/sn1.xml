@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Wed, 03 Sep 2025 06:09:31 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 04 Sep 2025 10:30:13 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -37,7 +37,7 @@
 <li aria-level="1">This indicates a strategic focus on continuously replacing disrupted infrastructure with new assets to sustain operations and high victim engagement.</li>
 <li aria-level="1">Factors such as decentralized command and competitive internal incentives may limit the threat actors’ ability to consistently protect existing infrastructure at scale.</li>
 <li aria-level="1">SentinelLABS’ analysis suggests that the threat actors are effective at engaging targets; there were over 230 victims between January and March 2025, with the actual number likely being significantly higher.</li>
-<li aria-level="1">In partnership with SentinelLABS and Validin, Reuters provides further coverage of the human dimension of this threat, exploring victim engagement methods and their personal impact.</li>
+<li aria-level="1">In partnership with SentinelLABS and Validin, <a href="https://www.reuters.com/world/asia-pacific/its-scary-crypto-workers-under-siege-north-korean-hackers-2025-09-04/" target="_blank">Reuters provides further coverage</a> of the human dimension of this threat, exploring victim engagement methods and their personal impact.</li>
 </ul>
 <h2>Overview</h2>
 <p>In collaboration with the <a href="https://www.validin.com/company/" target="_blank" rel="noopener noreferrer">internet intelligence platform Validin</a>, SentinelLABS has been tracking activity on the platform which we attribute with high confidence to North Korean threat actors involved in the <a href="https://unit42.paloaltonetworks.com/two-campaigns-by-north-korea-bad-actors-target-job-hunters/" target="_blank" rel="noopener noreferrer">Contagious Interview</a> campaign cluster. This activity, which took place between March and June 2025, involved the threat actors examining cyber threat intelligence (CTI) information related to their infrastructure. Our unique visibility has provided valuable insights into their operational practices, internal coordination, infrastructure management and deployment, and victimology.</p>
