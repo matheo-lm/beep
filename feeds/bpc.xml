@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 04 Sep 2025 13:02:30 EDT</pubDate>
+        <pubDate>Thu, 04 Sep 2025 14:01:38 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Texas sues PowerSchool over breach exposing 62M students, 880k Texans</title>
+        <link>https://www.bleepingcomputer.com/news/security/texas-sues-powerschool-after-massive-data-breach-hit-62-million-students/</link>
+        <pubDate>Thu, 04 Sep 2025 14:01:31 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Education]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/texas-sues-powerschool-after-massive-data-breach-hit-62-million-students/</guid>
+	<description><![CDATA[Texas Attorney General Ken Paxton has filed a lawsuit against education software company PowerSchool, which suffered a massive data breach in December that exposed the personal information of 62 million students, including over 880,000 Texans. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Chess.com discloses recent data breach via file transfer app</title>
+        <link>https://www.bleepingcomputer.com/news/security/chesscom-discloses-recent-data-breach-via-file-transfer-app/</link>
+        <pubDate>Thu, 04 Sep 2025 13:51:37 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/chesscom-discloses-recent-data-breach-via-file-transfer-app/</guid>
+	<description><![CDATA[Chess.com has disclosed a data breach after threat actors gained unauthorized access to a third-party file transfer application used by the platform. [...]]]></description>
+ </item>
+
  <item>
         <title>New TP-Link zero-day surfaces as CISA warns other flaws are exploited</title>
         <link>https://www.bleepingcomputer.com/news/security/new-tp-link-zero-day-surfaces-as-cisa-warns-other-flaws-are-exploited/</link>
@@ -174,38 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/saas-giant-workiva-discloses-data-breach-after-salesforce-attack/</guid>
 	<description><![CDATA[Workiva, a leading cloud-based SaaS (Software as a Service) provider, notified its customers that attackers who gained access to a third-party customer relationship management (CRM) system stole some of their data. [...]]]></description>
- </item>
-
- <item>
-        <title>Google fixes actively exploited Android flaws in September update</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-flaws-in-september-update/</link>
-        <pubDate>Wed, 03 Sep 2025 10:14:15 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-flaws-in-september-update/</guid>
-	<description><![CDATA[Google has released the September 2025 security update for Android devices, addressing a total of 84 vulnerabilities, including two actively exploited flaws. [...]]]></description>
- </item>
-
- <item>
-        <title>Disney to pay $10M to settle claims it collected kids’ data on YouTube</title>
-        <link>https://www.bleepingcomputer.com/news/security/disney-to-pay-10m-to-settle-claims-it-collected-kids-data-on-youtube/</link>
-        <pubDate>Wed, 03 Sep 2025 10:13:18 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/disney-to-pay-10m-to-settle-claims-it-collected-kids-data-on-youtube/</guid>
-	<description><![CDATA[Disney will pay $10 million to settle claims by the U.S. Federal Trade Commission that it mislabeled videos for children on YouTube, which allowed the collection of kids' personal information without their consent or notification to their parents. [...]]]></description>
  </item>
 
 </channel>
