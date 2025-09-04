@@ -4,12 +4,560 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Wed, 03 Sep 2025 20:10:40 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Sep 2025 14:00:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
         <copyright>Copyright © 2025 Recorded Future, Inc.</copyright>
         <atom:link href="https://www.recordedfuture.com/feed" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[From CastleLoader to CastleRAT: TAG-150 Advances Operations with Multi-Tiered Infrastructure]]></title>
+            <link>https://www.recordedfuture.com/research/from-castleloader-to-castlerat-tag-150-advances-operations</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/research/from-castleloader-to-castlerat-tag-150-advances-operations</guid>
+            <pubDate>Wed, 21 Jan 1970 08:02:24 GMT</pubDate>
+            <description><![CDATA[Insikt Group reveals TAG-150’s multi-tiered infrastructure and CastleRAT malware—an advanced threat actor evolving rapidly with stealth and scale.]]></description>
+            <content:encoded><![CDATA[
+        <h2>Executive Summary</h2>
+        <p>Insikt Group has identified a new threat actor, TAG-150, active since at least March 2025, characterized by rapid development, technical sophistication, responsiveness to public reporting, and a large, evolving infrastructure. The infrastructure linked to TAG-150 includes both victim-facing Tier 1 components, such as IP addresses and domains used as command-and-control (C2) servers for multiple malware families, and higher-tier infrastructure composed of multiple layers. Since emerging in March 2025, TAG-150 has deployed multiple likely self-developed malware families, starting with CastleLoader and CastleBot, and most recently CastleRAT, a remote access trojan documented here for the first time. Additionally, Insikt Group has identified multiple services likely leveraged by TAG-150, including file-sharing platforms, anti-detection services, and others.</p>
+        <p>To protect against TAG-150, security defenders should block IP addresses and domains tied to associated loaders, infostealers, and RATs, flag and potentially block connections to unusual LIS such as Pastebin, and deploy updated detection rules (YARA, Snort) for current and historical infections. Other controls include implementing email filtering and data exfiltration monitoring. See the <strong>Mitigations</strong> section for implementation guidance and <strong>Appendix A</strong> for a complete list of indicators of compromise (IoCs). In the long term, analysts should continuously monitor the cybercriminal ecosystem for emerging threats and adapt controls accordingly.</p>
+        <h2>Key Findings</h2>
+        <ul>
+          <li>Insikt Group uncovered a large infrastructure set operated by the threat actor tracked as TAG-150, known for deploying malware such as CastleLoader. The infrastructure follows a multi-tiered model, with victim-facing Tier 1 servers as well as higher-level Tier 2, Tier 3, and Tier 4 infrastructure.</li>
+          <li>In addition, Insikt Group identified a new remote access trojan linked to TAG-150, dubbed CastleRAT. Available in both Python and C variants, CastleRAT's core functionality consists of collecting system information, downloading and executing additional payloads, and executing commands via CMD and PowerShell.</li>
+          <li>Further analysis also provides insights into TAG-150’s broader tool set and operational ecosystem, which leverages multiple file-sharing services, messaging platforms, and specialized utilities, including the anti-detection service Kleenscan (<em>kleenscan[.]com</em>).</li>
+        </ul>
+        <h2>Background</h2>
+        <p>TAG-150 is Insikt Group’s designation for the threat actor linked to the development and use of the malware families CastleLoader, CastleBot, and, more recently, CastleRAT. They have been active since at least March 2025 (see <strong>Figure 1</strong>). These malware families are frequently observed as initial infection vectors that deliver a wide range of secondary payloads, including SectopRAT, WarmCookie, HijackLoader, NetSupport RAT, as well as numerous information stealers such as Stealc, RedLine Stealer, Rhadamanthys Stealer, DeerStealer, MonsterV2, among others (<a href="https://www.ibm.com/think/x-force/dissecting-castlebot-maas-operation">1</a>, <a href="https://catalyst.prodaft.com/public/report/understanding-current-castleloader-campaigns/overview">2</a>).</p>
+        <p>
+          <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1b9f9c28945461fd5eadec575b8f59ae4c71a55d8.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="805" />
+        </p>
+        <p><strong><em>Figure 1</em></strong><em>: Timeline of TAG-150 activity (Source: Recorded Future)</em></p>
+        <p>Infections are most commonly initiated through Cloudflare-themed “ClickFix” phishing attacks or fraudulent GitHub repositories masquerading as legitimate applications. The operators employ the ClickFix technique by leveraging domains that imitate software development libraries, online meeting platforms, browser update alerts, and document verification systems. Victims are tricked into copying and executing malicious PowerShell commands on their own devices, thereby enabling the compromise. Public reporting <a href="https://catalyst.prodaft.com/public/report/understanding-current-castleloader-campaigns/overview">indicates</a> that although overall clicks and downloads were limited, the 28.7% infection rate among victims who interacted with malicious links underscores the effectiveness of TAG-150.</p>
+        <p>Prior public reporting has <a href="https://www.ibm.com/think/x-force/dissecting-castlebot-maas-operation">suggested</a> that TAG-150 operates on a Malware-as-a-Service (MaaS) model, which is supported by its use in delivering a wide variety of second-stage payloads, the number of observed CastleLoader admin panels, and the presence of features commonly associated with MaaS platforms (as <a href="https://catalyst.prodaft.com/public/report/understanding-current-castleloader-campaigns/overview">noted</a> by PRODAFT). However, Insikt Group has not identified any advertisements or discussions of such services on underground forums. Furthermore, Recorded Future Network Intelligence analysis suggests that TAG-150 primarily interacts with its associated infrastructure, with only a small number of other IP addresses, potentially linked to external customers or affiliates, communicating with it. This network traffic, potentially associated with external customers or affiliates, is largely connected to Tor nodes, which complicates its classification.</p>
+        <h2>Infrastructure Analysis</h2>
+        <p>Insikt Group identified an extensive, multi-tiered infrastructure tied to TAG-150. The infrastructure consists of Tier 1 victim-facing C2 servers associated with malware families such as CastleLoader, SecTopRAT, WarmCookie, and the newly discovered CastleRAT, as well as Tier 2, Tier 3, and Tier 4 servers, the latter of which are likely used for backup purposes. <strong>Figure 2</strong> provides an overview of the entire infrastructure, while subsequent sections explore each component in greater detail.</p>
+        <p>
+          <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_18f6c9322a4ecc576915e4edc1c39b25affb9e7db.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="868" />
+        </p>
+        <p><strong><em>Figure 2</em></strong><em>: Multi-tiered infrastructure linked to TAG-150 (Source: Recorded Future)</em></p>
+        <h3>Multi-Tiered Infrastructure</h3>
+        <h4>Tier 1</h4>
+        <p>Tier 1 infrastructure comprises numerous C2 servers associated with various malware families, such as CastleLoader, CastleRAT, SecTopRAT, and WarmCookie, among others. These servers are generally managed through Tier 2 servers, though in some cases, Tier 3 servers interact directly with them.</p>
+        <h5>CastleLoader</h5>
+        <p>Insikt Group identified a significant number of CastleLoader C2 servers associated with TAG-150, as outlined in <strong>Appendix B</strong>. These servers’ IP addresses often host domains registered through NameCheap, Inc. or TUCOWS, INC., though the domains do not adhere to any consistent naming convention. While CastleLoader C2 infrastructure has been observed across various autonomous system numbers (ASNs), a considerable portion is tied to the hosting providers servinga GmbH, FEMO IT SOLUTIONS LIMITED, and Eonix Corporation. FEMO IT SOLUTIONS LIMITED is assessed as a threat activity enabler (TAE) and is actively tracked by Insikt Group.</p>
+        <p>Among the domains analyzed, <em>panelv1[.]hostingzealoft[.]today</em> stood out, as it mimics the legitimate domain of a known hosting provider, <em>hostingzealot[.]com</em>, which also hosts the IP address associated with this domain. The reason for this naming choice remains unclear. Beyond this, TAG-150 does not seem to follow a consistent naming convention or thematic pattern across the other domains.</p>
+        <p><strong>CastleLoader Admin Panel</strong></p>
+        <p>Most CastleLoader C2 servers observed by Insikt Group provide both C2 functionality, primarily on port 80, and an admin panel, typically hosted on port 5050 and occasionally on port 9999. <strong>Figure 3</strong> illustrates an example of a CastleLoader admin panel.</p>
+        <p>
+          <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_11a00208abddeb18ecc235b7bba14ead95a947375.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1200" />
+        </p>
+        <p><strong><em>Figure 3:</em></strong> <em>CastleLoader C2 admin panel (Source: URLScan)</em></p>
+        <h5>CastleRAT</h5>
+        <p>Beyond CastleLoader and CastleBot, which have been previously reported on, Insikt Group has identified a new malware family, dubbed CastleRAT, which is detailed further in the <strong>CastleRAT</strong> section. Insikt Group discovered both C and Python variants of CastleRAT. <strong>Appendix B</strong> lists the CastleRAT C2 servers, typically exposed on ports 80, 443, 7777, and occasionally on other ports. CastleRAT C2 servers have been observed across multiple ASNs, with one particularly notable instance hosted on a Google Cloud IP address.</p>
+        <h5>SectopRAT</h5>
+        <p>Insikt Group identified at least seven SectopRAT C2 servers associated with TAG-150, six of which were accessed through TAG-150's higher-tier infrastructure (see <strong>Appendix B</strong>). The primary channels for C2 communication are TCP ports 15647, 15747, 15847, 15947, 14367, or 9000. In <strong>Appendix B</strong>, the first and last seen dates represent the earliest and latest instances in which these servers were observed communicating with TAG-150’s higher-tier infrastructure. The IP address <em>92[.]255[.]57[.]32</em> has not been observed communicating with TAG-150’s higher-tier infrastructure; however, it is assessed to be associated with TAG-150 due to observed overlaps among victims.</p>
+        <p>During analysis, Insikt Group also identified IP address <em>91[.]210[.]164[.]26</em>, which is potentially linked to TAG-150 but has not been observed talking to TAG-150's higher-tier infrastructure.Notably, IP address 176[.]126[.]163[.]56 hosts a self-signed transport layer security (TLS) certificate with the common name krona186380. During analysis, Insikt Group also identified IP address 91[.]210[.]164[.]26 within the same ASN, which presented a similar self-signed TLS certificate with the common name krona184679. Although no samples or higher-tier infrastructure communications have been observed with this IP address, Insikt Group assesses it may be linked to TAG-150 due to these similarities.</p>
+        <p>During analysis, Insikt Group also identified IP address 91[.]210[.]164[.]26, which is potentially linked to TAG-150 but has not been observed talking to TAG-150's higher-tier infrastructure.</p>
+        <h5>WarmCookie</h5>
+        <p>Insikt Group identified at least one WarmCookie C2 server associated with TAG-150, as detailed in <strong>Appendix B</strong>. This same IP address had previously been <a href="https://www.ibm.com/think/x-force/dissecting-castlebot-maas-operation">reported</a> in connection with CastleLoader. The campaign IDs linked to the observed WarmCookie samples were <code>traffic1</code> and <code>traffic2</code>. The SHA256 hash of the campaign ID is used to construct the CastleLoader GET request endpoint, which is suspected to be the prerequisite for retrieving the correct follow-on payload(s).</p>
+        <h4>Tier 2</h4>
+        <p>Insikt Group identified Tier 2 VPS servers likely functioning as intermediaries between victim-facing Tier 1 servers and the Tier 3 infrastructure. Specifically, TAG-150 was observed accessing Tier 2 servers via RDP port 3389 before subsequently connecting to Tier 1 servers over a variety of other ports. Connections were observed to CastleLoader, CastleRAT, SectopRAT, and WarmCookie, among others. Notably, in several instances, TAG-150 bypassed Tier 2 entirely, connecting directly from the Tier 3 layer to Tier 1 servers. Insikt Group assesses this behavior as either a shift in operational procedures by the same operators associated with TAG-150 or the result of different operators employing alternative methods.</p>
+        <h4>Tier 3</h4>
+        <p>TAG-150’s Tier 3 infrastructure appears to be split into two parts. On one side, Insikt Group identified a set of VPS servers all using the same TLS certificate, with one server standing out as the likely hub based on heavy traffic and observed links to what’s assessed as Tier 4, which is discussed in the next section.</p>
+        <p>Separately, Insikt Group identified a Russian residential IP address assessed as Tier 3, which has been observed communicating with both Tier 2 and Tier 1 servers. The Russian IP address is announced by AS35807 (AS-SKYNET-SPB). This separation between VPS infrastructure and the residential IP address could signal the presence of a second operator tied to TAG-150. Of note, the Russian residential IP has been observed communicating regularly with Tox servers via the default user datagram protocol (UDP) port of 33445, suggesting that TAG-150 leverages Tox for its internal communications.</p>
+        <h4>Tier 4</h4>
+        <p>The primary Tier 3 server has been observed communicating with another server, which Insikt Group assesses to be a potential backup server, over a persistent high-port-to-high-port UDP session spanning several weeks. This server is tracked as a Tier 4 server. The Tier 4 server is associated with an IP address announced by AS204601 (ON-LINE-DATA), and in at least one instance, was observed communicating directly with a CastleLoader panel, an activity assessed as an operational security lapse.</p>
+        <p>Additionally, Insikt Group identified another set of servers likely part of Tier 4.</p>
+        <h3>Services Used by TAG-150</h3>
+        <p>Through monitoring TAG-150’s activities using Recorded Future Network Intelligence and other sources, Insikt Group has assessed that TAG-150 is highly likely leveraging a range of operational resources. These include the Oxen network (formerly Lokinet), which provides infrastructure for privacy-focused applications such as secure messaging platforms; Kleenscan (<em>kleenscan[.]com</em>), an alternative to the recently dismantled AVCheck; the file-sharing service <em>temp[.]sh</em>; the cryptocurrency exchange <em>simpleswap[.]io</em>; the file hosting service <em>mega[.]nz</em>; and, additionally, Exploit Forum, which the group is also likely to use. Insikt Group has previously <a href="https://www.recordedfuture.com/research/behind-the-curtain-how-lumma-affiliates-operate">noted</a> that following AVCheck’s disruption, other cybercriminals, including Lumma affiliates, began using Kleenscan. In June 2025, Insikt Group identified TAG-150 briefly interacting with a Matanbuchus Loader panel hosted on <em>185[.]39[.]19[.]164</em>.</p>
+        <h3>Payload Delivery Infrastructure</h3>
+        <p>Insikt Group discovered several payload delivery domains associated with CastleLoader, most of which are hosted behind Cloudflare, with a single exception. All related indicators are provided in <strong>Appendix B</strong>.</p>
+        <h3>Potential Play Ransomware Activity</h3>
+        <p>During the investigation of TAG-150 activity, Insikt Group identified a French ISP IP that communicated with both the CastleLoader panel on the IP address <em>107[.]158[.]128[.]45</em> and with a WarmCookie C2 server <em>192[.]36[.]57[.]164</em>. Of note, this WarmCookie C2 server was observed in network exfiltration involving an IP address linked to a known Play Ransomware victim. Since the timing of the exfiltration coincides with the victim organization’s Play Ransomware compromise, Insikt Group assesses it is possible that Play Ransomware or one of their affiliates used CastleLoader.</p>
+        <p>While Insikt Group did not find the full infection chain linking the specific WarmCookie and CastleLoader instances, a WarmCookie sample with the same mutex was identified, which had been deployed via CastleLoader. This finding increases the likelihood that the WarmCookie sample associated with <em>192[.]36[.]57[.]164</em> was also deployed through CastleLoader, and may therefore be directly connected to <em>107[.]158[.]128[.]45</em>.</p>
+        <p>To date, however, no public reporting has associated Play Ransomware with either WarmCookie or CastleLoader. It therefore remains possible that the victim was targeted by multiple threat actors and that the WarmCookie infection was unrelated to the Play Ransomware incident.</p>
+        <h2>CastleRAT</h2>
+        <p>CastleRAT is a RAT that includes C and Python variants sharing the following commonalities:</p>
+        <ul>
+          <li>Custom binary protocol using RC4 encryption with hard-coded 16-byte keys</li>
+          <li>Queries the geolocation API <em>ip-api[.]com</em> to obtain location and other information through the infected host’s public IP address</li>
+          <li>Download and execution of executables</li>
+          <li>Remote shell</li>
+        </ul>
+        <p>The C variant of CastleRAT also includes more advanced stealing capabilities, such as keylogging and screen capturing. Both variants are in continual development. For example, C2 deaddrops hosted on Steam Community pages is a new development, first observed in late August 2025 (see <strong>Figure 4</strong>).</p>
+        <p>
+          <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_104587124be722d9529b7f322c4b678ca982d543e.png?width=750&amp;format=png&amp;optimize=medium" width="673" height="458" />
+        </p>
+        <p><strong><em>Figure 4</em></strong><em>: TAG-150’s CastleRAT using Steam Community for dead drop resolving (Source: Recorded Future)</em></p>
+        <p>Notably, although CastleRAT has so far only been observed deployed alongside CastleLoader and its infrastructure shows clear links to TAG-150, this does not necessarily indicate that CastleRAT was developed by the same actor(s) behind CastleLoader; it remains possible that the malware was obtained elsewhere.</p>
+        <h3>CastleRAT Python Variant</h3>
+        <p>CastleRAT is a lightweight RAT first identified by Insikt Group in early August 2025 as a CastleLoader payload. Notably, this Python variant of the malware was publicly <a href="https://x.com/yungbinary/status/1959083146944623043?s=46">referenced</a> in late August under the name PyNightshade, though it remained otherwise undocumented.</p>
+        <p>The C variant of CastleRAT has yet to be publicly identified, but is flagged by numerous generic antivirus detections not specifically linked to any malware family. It is therefore plausible that the Python variant of CastleRAT was designed with stealth in mind, as it currently exhibits zero or very few antivirus detections. The following features have been implemented and unchanged since the CastleRAT Python variant was first observed in late July 2025:</p>
+        <ul>
+          <li>Obtain and report country info of the public IP and system information</li>
+          <li>Generate ping/keep-alive messages every three seconds</li>
+          <li>Download and execute executables (EXEs) or dynamic-link libraries (DLLs)</li>
+          <li>Run and report the output of cmd shell commands</li>
+          <li>Run and report the output of PowerShell commands</li>
+          <li>Self-delete</li>
+        </ul>
+        <p>The country information is retrieved from the well-known IP Geolocation service <em>ip-api[.]com</em>. The field’s status and country are queried (see <strong>Figure 5</strong>).</p>
+        <p>
+          <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1bf39c7fa28aecbfd93703709fb59a4689fb57899.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="599" height="245" />
+        </p>
+        <p><strong><em>Figure 5</em></strong><em>: CastleRAT Python variant request and response to Geolocation API service ip-api[.]com (Source: Recorded Future)</em></p>
+        <p>The Recorded Future Malware Intelligence query shown in <strong>Figure 6</strong> can be used to hunt for CastleRAT Python variants.</p>
+        <div>
+          <div>
+            <div><code>dynamic.network.http.sequence.request.url contains "/line/?fields=16385"</code></div>
+          </div>
+        </div>
+        <p><strong><em>Figure 6</em></strong><em>: Recorded Future Malware Intelligence query to hunt for CastleRAT Python variant (Source: Recorded Future)</em></p>
+        <p>Insikt Group assesses that the Python variant of CastleRAT remains under active development. Recent updates introduced features such as encapsulating the binary protocol within WebSockets and leveraging Steam Community pages for C2 dead drops.</p>
+        <h3>CastleRAT C Variant</h3>
+        <p>The C variant of CastleRAT incorporates significantly more functionality than the Python variant, which likely increases its susceptibility to detection by generic antivirus solutions:</p>
+        <ul>
+          <li>Obtain and report the country and other info of the public IP and system information</li>
+          <li>Generate ping/keep-alive messages every six seconds</li>
+          <li>Keylogger</li>
+          <li>Clipper</li>
+          <li>Screencapture</li>
+          <li>File Upload</li>
+          <li>File Download</li>
+          <li>Find and terminate browser processes</li>
+          <li>Run and report the output of shell commands</li>
+          <li>Run and report the output of PowerShell commands</li>
+          <li>Register and un-register persistence</li>
+          <li>Execute files via injection or masquerading as a browser</li>
+          <li>C2 deaddrops via Steam Community pages</li>
+        </ul>
+        <p>As with the Python variant, the C variant queries the widely abused IP geolocation service <em>ip-api[.]com</em> to collect information based on the infected host’s public IP address. However, the scope of data has been expanded to include the city, ZIP code, and indicators of whether the IP is associated with a VPN, proxy, or Tor node (see <strong>Figure 7</strong>).</p>
+        <p>
+          <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_14661327f0bf107d34fd5ec92d6efde16d2c3b878.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="599" height="293" />
+        </p>
+        <p><strong><em>Figure 7</em></strong><em>: CastleRAT C variant request and response to Geolocation API service ip-api[.]com (Source: Recorded Future)</em></p>
+        <p>Recent versions of the C variant of CastleRAT have removed querying of the city and ZIP code from the <em>ip-api[.]com</em> output (see <strong>Figure 8</strong>).</p>
+        <p>
+          <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_15e4ddf4a4f57ed7d30811f310f83b4a770a2c1c3.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="638" height="261" />
+        </p>
+        <p><strong><em>Figure 8</em></strong><em>: CastleRAT C variant request and response to Geolocation API service ip-api (Source: Recorded Future)</em></p>
+        <p>The Recorded Future Malware Intelligence query shown in <strong>Figure 9</strong> can be used to hunt for CastleRAT C variants.</p>
+        <div></div>
+        <p><strong><em>Figure 9</em></strong><em>: Recorded Future Malware Intelligence query to hunt for CastleRAT C variant (Source: Recorded Future)</em></p>
+        <p>CastleRAT C variant uses the following unique Mutex objects for synchronization:</p>
+        <ul>
+          <li>Thickwick3</li>
+          <li>fsAiodwsfSAFuiefS</li>
+          <li>BabaiMazai</li>
+          <li>sPEJIOGDsionsgfdUewg</li>
+          <li>KolokolBozhii</li>
+          <li>FkgfIJGgJgdiJGDGHDjMGjia</li>
+          <li>sdgiregdsssaFWIFS</li>
+          <li>fsAiodwsfSAFuiefS2</li>
+          <li>GoldVekRogerS</li>
+          <li>XmGetzKAM8Bw8NCBTUYo5e</li>
+        </ul>
+        <p>It is uncertain whether the Python variant will be updated to incorporate the data-stealing features of the C variant, as well as what additional capabilities the developers may introduce for detection evasion.</p>
+        <h2>Victimology</h2>
+        <p>Insikt Group identified numerous suspected victim IP addresses communicating with the Tier 1 C2 infrastructure associated with TAG-150’s various malware families. While the majority of these IP addresses appear to be geolocated in the United States, only a limited number of actual victims could be positively identified. Most victims remain unidentified and cannot be confirmed; however, Insikt Group assesses it is likely that at least some of them represent private individuals who became infected.</p>
+        <h2>Mitigations</h2>
+        <ul>
+          <li>Leverage the IoCs in <strong>Appendix A</strong> to investigate potential past or ongoing infections, both successful and attempted, and use the Recorded Future Intelligence Cloud to monitor for future IoCs associated with TAG-150 and other threat actors.</li>
+          <li>Leverage Sigma, YARA, and Snort rules provided in <strong>Appendices C</strong>, <strong>D</strong>, and <strong>E</strong> in your SIEM or endpoint detection and response (EDR) tools to detect the presence or execution of CastleLoader and CastleRAT. In addition, use other detection rules available in the Recorded Future Intelligence Cloud.</li>
+          <li>Use Recorded Future Network Intelligence to detect instances of data exfiltration from your corporate infrastructure to known malicious infrastructure. This can be achieved by employing specific queries and filtering the results based on your assets.</li>
+          <li>Use the Recorded Future Intelligence Cloud to monitor TAG-150, other threat actors, and the broader cybercriminal ecosystem, ensuring visibility into the latest TTPs, preferred tools and services (for example, specific TAEs used by threat actors), and emerging developments.</li>
+        </ul>
+        <h2>Outlook</h2>
+        <p>Insikt Group assesses that TAG-150 will continue to evolve its tooling at a rapid pace, with a particular emphasis on stealth and evasion. TAG-150 has already demonstrated technical sophistication and adaptability and Insikt Group anticipates it will further experiment with anti-detection services and techniques to remain resilient against defensive measures.</p>
+        <p>Given its history of deploying multiple likely self-developed malware families, including CastleLoader, CastleBot, and now CastleRAT, TAG-150 is highly likely to develop and release additional malware in the near term. Insikt Group also assesses that there is a strong possibility that the group will expand its distribution efforts, whether to increase victim reach or potentially operate in a MaaS capacity.</p>
+        <p>Insikt Group will continue to closely monitor TAG-150’s infrastructure, tool development, and activity across underground forums to track emerging threats and assess the group’s trajectory.</p>
+        <h2>Appendix A: Indicators of Compromise (IoCs)</h2>
+        <div>
+          <div>
+            <div>
+              <pre><code>CastleLoader C2 IP Addresses:
+62[.]60[.]226[.]73
+62[.]60[.]226[.]211
+62[.]60[.]226[.]254
+79[.]132[.]130[.]142
+80[.]77[.]23[.]48
+85[.]158[.]108[.]135
+94[.]159[.]113[.]123
+107[.]158[.]128[.]45
+107[.]158[.]128[.]90
+170[.]130[.]165[.]37
+173[.]44[.]141[.]89
+173[.]232[.]146[.]90
+185[.]212[.]47[.]84
+185[.]219[.]220[.]128
+213[.]209[.]150[.]229
+
+CastleLoader C2 Domains:
+cisco-webexxapp[.]xyz
+estetic-online[.]com
+higueruela[.]net
+lekuvam[.]com
+mhousecreative[.]com
+notionus[.]org
+oneyogasite[.]com
+panelv1[.]hostingzealoft[.]today
+polarcompany[.]org
+rinasalleh[.]com
+sftp[.]sagargolf[.]com
+vilaoaza[.]com
+
+CastleRAT Python and C C2 IP Addresses:
+34[.]72[.]90[.]40
+45[.]61[.]136[.]81
+91[.]212[.]166[.]17
+94[.]141[.]122[.]164
+104[.]225[.]129[.]171
+144[.]208[.]126[.]50
+180[.]178[.]189[.]17
+185[.]149[.]146[.]118
+185[.]196[.]10[.]8
+195[.]85[.]115[.]44
+195[.]201[.]108[.]189
+
+CastleRAT C2 Deaddrops:
+steamcommunity[.]com/id/tfy5d6gohu8tgy687r7
+steamcommunity[.]com/id/krouvhsin34287f7h3
+steamcommunity[.]com/id/huilo
+steamcommunity[.]com/id/desdsfds34324y3g
+
+SectopRAT C2 IP Addresses:
+45[.]141[.]84[.]229
+83[.]222[.]191[.]98
+92[.]255[.]57[.]32
+176[.]126[.]163[.]56
+185[.]93[.]89[.]56
+194[.]26[.]29[.]44
+217[.]12[.]206[.]21
+
+WarmCookie C2 IP Address:
+170[.]130[.]165[.]112
+
+Possibly Linked WarmCookie C2 IP Address:
+192[.]36[.]57[.]164
+
+Payload Servers:
+45[.]32[.]69[.]11
+138[.]68[.]250[.]216
+
+CastleLoader Samples (SHA256):
+8b7c1657f4d5cf0cc82d68c1f1a385adf0de27d46fc544bba249698e6b427856
+18e535d4a641821c4c212b30d79fcebf3fd42d9831972b40dc262b614a08d114
+6444f0e3f78254aef663837562d258a2236a77f810ee8d832de7d83e0fdd5783
+05ecf871c7382b0c74e5bac267bb5d12446f52368bb1bfe5d2a4200d0f43c1d8
+f4bdea09e45471612689bd7d76aa5492fb9de69582d3cf5082d585c16e340d4c
+bf21161c808ae74bf08e8d7f83334ba926ffa0bab96ccac42dde418270387890
+007f031d4ba5f964136fe73615f524eccdeced5cd7573c281bc1455d5cab2ff6
+65493c28b5991bb8e73d1ceb94b3633137542c422ffc5dfd90801909dd475d58
+53dddae886017fbfbb43ef236996b9a4d9fb670833dfa0c3eac982815dc8d2a5
+f0e1963efa5bfa96ae1a1e370fa2c70a044a03279f2fdbf07391c7e08e295e93
+1bb10490d6f13e80d874896428908f6b5758b9722b959841c369c6ddc435230e
+4cef6738ef175fa988e9867ca19d2a12f1bf55d2cab07246010833fdb0f4d0f0
+88d16948e8cf885d475bc44afa477d2f5b38721e32248425a9e5429c48a4af26
+25e0008aba82690e0f58c9d9fcfbc5d49820aa78d2f7bfcd0b85fb969180fc04
+e6aab1b6a150ee3cbc721ac2575c57309f307f69cd1b478d494c25cde0baaf85
+
+CastleRAT Python Variant Samples (SHA256):
+94dc0f696a46f3c225b0aa741fbd3b8997a92126d66d7bc7c9dd8097af0de52a
+401b0eb132cacd6e32d4b4af627370288f9f3e59af36ccfd43a501564937f93c
+53775af67e9df206ed3f9c0a3756dbbc4968a77b1df164e9baddb51e61ac82df
+58d54e2454be3e4e9a8ea86a3f299a7a60529bc12d28394c5bdf8f858400ff7b
+6d62210addb8268d0bd3e6ef0400d54c84e550ccad49f5867fdc51edc0c1db2c
+282fa3476294e2b57aa9a8ab4bc1cc00f334197298e4afb2aae812b77e755207
+a2feb262a667de704e5e08a8a705c69bbcc806e0d52f0f8e3f081a6aa6c8d7b4
+85b4d29f2830a3be3a0f51fbe358bea1a35d2a8aaa6a24f5cc1f2e5d2769716e
+4ef63fa536134ad296e83e37f9d323beb45087f7d306debdc3e096fed8357395
+
+CastleRAT C Variant Samples (SHA256):
+0fd7eb57f5f9d817dd497c1ce3be0791f5e798077f8dc2c3a4e2b2b0b0bdc2c6
+5a741df3e4a61b8632f62109a65afc0f297f4ed03cd7e208ffd2ea5e2badf318
+3dd877835c04fde3f2d14ce96f23a1c00002fefa9d731e8c4ce3b656aac90063
+7e0d097412ca8c3acdbaaa7c1f79c42cda3a4e50b52c0a8b34d6c75cc764ce42
+a67027c3dec4fc4a5a09c68950f494f631ee6aa42b85dd82d74c5b5399d08d19
+66aac2857eee73b1f5f715214bb50a03c0dc052d4bb3e64d6b0b492f2c85f374
+2fcb76dfdfcd390658bbc032faafef607804d5d4a2f1c0005f274ab2e06d8af4
+a97ff41736299857a3cae7c1917456eef5e0fcc703d0a1e475d0b9cfe42452c7
+7a682be245a2e51f473ee1c60d537e57423ab2c3d9ae990445cdb6e43aeb5c76
+f2e36ccfeb225009ae229a2be905deff587c471b8d47690dc7f5111e1bc611af
+ce6a7af556090b3ff762e27058be2327e6c5188d6ed54703d794089f577fd20c
+39b40746de01af66c0e5ce5888df4c42e474adcdb4301275b1474423d7a0ff1f
+9d356492e433e068c5e71f73638180e3f6a5d992e55ad496a8dafa5174e0a827
+13a5c1a535c161fd2724423dad1dfa6885c705713569d4ed4f2ebf900df25ed7
+b0b24ff78ab1c4322764bcb332254069504b168cb8aaca469bdf1d37f313d4d3
+c2054617b8dcb619749c0402dc31eeb473386b3829f17176bc27b1447a8b6d92
+60125159523c356d711ffa1076211359906e6283e25f75f4cf0f9dc8da6bf7b0
+1ff6ee23b4cd9ac90ee569067b9e649c76dafac234761706724ae0c1943e4a75
+d51f81ee026df39447143b67eaf16326c30e0c9477c0d50507f1fbfffe53abd6
+e6bcdf375649a7cbf092fcab65a24d832d8725d833e422e28dfa634498b00928
+67cf6d5332078ff021865d5fef6dc61e90b89bc411d8344754247ccd194ff65b
+963c012d56c62093d105ab5044517fdcce4ab826f7782b3e377932da1df6896d
+f2ff4cbcd6d015af20e4e858b0f216c077ec6d146d3b2e0cbe68b56b3db7a0be
+
+SectopRAT Samples (SHA256):
+ae78caabec6a4241c64357ca5ca05de2e181fe253963de528807bf051fc3608e
+Af88dc52b37022583a6687214bb5e345b606c6a0a3f37cfe41576d89c3d8e65d
+
+WarmCookie Samples (SHA256):
+e62684a48067d8bf5f219f007bb5908301ca3303b9c57a2f0c3212cf0eb8d7b7
+
+Pastebin URLs:
+https://pastebin[.]com/raw/2wW91TbyCastleLoader C2 IP Addresses:
+62[.]60[.]226[.]73
+62[.]60[.]226[.]211
+62[.]60[.]226[.]254
+79[.]132[.]130[.]142
+80[.]77[.]23[.]48
+85[.]158[.]108[.]135
+94[.]159[.]113[.]123
+107[.]158[.]128[.]45
+107[.]158[.]128[.]90
+170[.]130[.]165[.]37
+173[.]44[.]141[.]89
+173[.]232[.]146[.]90
+185[.]212[.]47[.]84
+185[.]219[.]220[.]128
+213[.]209[.]150[.]229
+
+CastleLoader C2 Domains:
+cisco-webexxapp[.]xyz
+estetic-online[.]com
+higueruela[.]net
+lekuvam[.]com
+mhousecreative[.]com
+notionus[.]org
+oneyogasite[.]com
+panelv1[.]hostingzealoft[.]today
+polarcompany[.]org
+rinasalleh[.]com
+sftp[.]sagargolf[.]com
+vilaoaza[.]com
+
+CastleRAT Python and C C2 IP Addresses:
+34[.]72[.]90[.]40
+91[.]212[.]166[.]17
+94[.]141[.]122[.]164
+104[.]225[.]129[.]171
+144[.]208[.]126[.]50
+180[.]178[.]189[.]17
+185[.]149[.]146[.]118
+195[.]85[.]115[.]44
+195[.]201[.]108[.]189
+
+CastleRAT C2 Deaddrops:
+steamcommunicty[.]com/id/tfy5d6gohu8tgy687r7
+steamcommunity[.]com/id/krouvhsin34287f7h3
+steamcommunity[.]com/id/huilo
+steamcommunity[.]com/id/desdsfds34324y3g
+
+SectopRAT C2 IP Addresses:
+45[.]141[.]84[.]229
+83[.]222[.]191[.]98
+92[.]255[.]57[.]32
+176[.]126[.]163[.]56
+185[.]93[.]89[.]56
+194[.]26[.]29[.]44
+217[.]12[.]206[.]21
+
+WarmCookie C2 IP Address:
+170[.]130[.]165[.]112
+
+Possibly Linked WarmCookie C2 IP Address:
+192[.]36[.]57[.]164
+
+CastleLoader Samples (SHA256):
+8b7c1657f4d5cf0cc82d68c1f1a385adf0de27d46fc544bba249698e6b427856
+18e535d4a641821c4c212b30d79fcebf3fd42d9831972b40dc262b614a08d114
+6444f0e3f78254aef663837562d258a2236a77f810ee8d832de7d83e0fdd5783
+05ecf871c7382b0c74e5bac267bb5d12446f52368bb1bfe5d2a4200d0f43c1d8
+f4bdea09e45471612689bd7d76aa5492fb9de69582d3cf5082d585c16e340d4c
+bf21161c808ae74bf08e8d7f83334ba926ffa0bab96ccac42dde418270387890
+007f031d4ba5f964136fe73615f524eccdeced5cd7573c281bc1455d5cab2ff6
+65493c28b5991bb8e73d1ceb94b3633137542c422ffc5dfd90801909dd475d58
+53dddae886017fbfbb43ef236996b9a4d9fb670833dfa0c3eac982815dc8d2a5
+f0e1963efa5bfa96ae1a1e370fa2c70a044a03279f2fdbf07391c7e08e295e93
+1bb10490d6f13e80d874896428908f6b5758b9722b959841c369c6ddc435230e
+4cef6738ef175fa988e9867ca19d2a12f1bf55d2cab07246010833fdb0f4d0f0
+88d16948e8cf885d475bc44afa477d2f5b38721e32248425a9e5429c48a4af26
+25e0008aba82690e0f58c9d9fcfbc5d49820aa78d2f7bfcd0b85fb969180fc04
+e6aab1b6a150ee3cbc721ac2575c57309f307f69cd1b478d494c25cde0baaf85
+
+CastleRAT Python Variant Samples (SHA256):
+94dc0f696a46f3c225b0aa741fbd3b8997a92126d66d7bc7c9dd8097af0de52a
+401b0eb132cacd6e32d4b4af627370288f9f3e59af36ccfd43a501564937f93c
+53775af67e9df206ed3f9c0a3756dbbc4968a77b1df164e9baddb51e61ac82df
+58d54e2454be3e4e9a8ea86a3f299a7a60529bc12d28394c5bdf8f858400ff7b
+6d62210addb8268d0bd3e6ef0400d54c84e550ccad49f5867fdc51edc0c1db2c
+282fa3476294e2b57aa9a8ab4bc1cc00f334197298e4afb2aae812b77e755207
+a2feb262a667de704e5e08a8a705c69bbcc806e0d52f0f8e3f081a6aa6c8d7b4
+85b4d29f2830a3be3a0f51fbe358bea1a35d2a8aaa6a24f5cc1f2e5d2769716e
+4ef63fa536134ad296e83e37f9d323beb45087f7d306debdc3e096fed8357395
+
+CastleRAT C Variant Samples (SHA256):
+0fd7eb57f5f9d817dd497c1ce3be0791f5e798077f8dc2c3a4e2b2b0b0bdc2c6
+5a741df3e4a61b8632f62109a65afc0f297f4ed03cd7e208ffd2ea5e2badf318
+3dd877835c04fde3f2d14ce96f23a1c00002fefa9d731e8c4ce3b656aac90063
+7e0d097412ca8c3acdbaaa7c1f79c42cda3a4e50b52c0a8b34d6c75cc764ce42
+a67027c3dec4fc4a5a09c68950f494f631ee6aa42b85dd82d74c5b5399d08d19
+66aac2857eee73b1f5f715214bb50a03c0dc052d4bb3e64d6b0b492f2c85f374
+2fcb76dfdfcd390658bbc032faafef607804d5d4a2f1c0005f274ab2e06d8af4
+a97ff41736299857a3cae7c1917456eef5e0fcc703d0a1e475d0b9cfe42452c7
+7a682be245a2e51f473ee1c60d537e57423ab2c3d9ae990445cdb6e43aeb5c76
+f2e36ccfeb225009ae229a2be905deff587c471b8d47690dc7f5111e1bc611af
+ce6a7af556090b3ff762e27058be2327e6c5188d6ed54703d794089f577fd20c
+39b40746de01af66c0e5ce5888df4c42e474adcdb4301275b1474423d7a0ff1f
+9d356492e433e068c5e71f73638180e3f6a5d992e55ad496a8dafa5174e0a827
+13a5c1a535c161fd2724423dad1dfa6885c705713569d4ed4f2ebf900df25ed7
+b0b24ff78ab1c4322764bcb332254069504b168cb8aaca469bdf1d37f313d4d3
+c2054617b8dcb619749c0402dc31eeb473386b3829f17176bc27b1447a8b6d92
+60125159523c356d711ffa1076211359906e6283e25f75f4cf0f9dc8da6bf7b0
+1ff6ee23b4cd9ac90ee569067b9e649c76dafac234761706724ae0c1943e4a75
+d51f81ee026df39447143b67eaf16326c30e0c9477c0d50507f1fbfffe53abd6
+e6bcdf375649a7cbf092fcab65a24d832d8725d833e422e28dfa634498b00928
+67cf6d5332078ff021865d5fef6dc61e90b89bc411d8344754247ccd194ff65b
+963c012d56c62093d105ab5044517fdcce4ab826f7782b3e377932da1df6896d
+f2ff4cbcd6d015af20e4e858b0f216c077ec6d146d3b2e0cbe68b56b3db7a0be
+
+SectopRAT Samples (SHA256):
+ae78caabec6a4241c64357ca5ca05de2e181fe253963de528807bf051fc3608e
+Af88dc52b37022583a6687214bb5e345b606c6a0a3f37cfe41576d89c3d8e65d
+</code></pre>
+              <pre><code>WarmCookie Samples (SHA256):
+e62684a48067d8bf5f219f007bb5908301ca3303b9c57a2f0c3212cf0eb8d7b7
+
+Pastebin URLs:
+https://pastebin[.]com/raw/2wW91Tby
+</code></pre>
+            </div>
+          </div>
+        </div>
+        <h2>Appendix B: C2 Servers</h2>
+        <h3>CastleLoader C2 Servers</h3>
+        <div>
+          <div>
+            <div><strong>Domain</strong></div>
+            <div><strong>IP Address</strong></div>
+            <div><strong>ASN</strong></div>
+            <div><strong>First Seen</strong></div>
+            <div><strong>Last Seen</strong></div>
+          </div>
+          <div>
+            <div>sftp[.]sagargolf[.]com</div>
+            <div>62[.]60[.]226[.]73</div>
+            <div>AS214351 - FEMO IT SOLUTIONS LIMITED</div>
+            <div>2025-06-22</div>
+            <div>2025-08-20</div>
+          </div>
+          <div>
+            <div>sftp[.]sagargolf[.]com</div>
+            <div>62[.]60[.]226[.]211</div>
+            <div>AS214351 - FEMO IT SOLUTIONS LIMITED</div>
+            <div>2025-06-22</div>
+            <div>2025-08-20</div>
+          </div>
+          <div>
+            <div>N/A</div>
+            <div>62[.]60[.]226[.]254</div>
+            <div>AS214351 - FEMO IT SOLUTIONS LIMITED</div>
+            <div>2025-05-28</div>
+            <div>2025-06-15</div>
+          </div>
+          <div>
+            <div>higueruela[.]net</div>
+            <div>79[.]132[.]130[.]142</div>
+            <div>AS39378 - servinga GmbH</div>
+            <div>2025-07-23</div>
+            <div>2025-08-08</div>
+          </div>
+          <div>
+            <div>notionus[.]org</div>
+            <div>80[.]77[.]23[.]48</div>
+            <div>AS212228 - servinga GmbH</div>
+            <div>2025-05-09</div>
+            <div>2025-06-08</div>
+          </div>
+          <div>
+            <div>panelv1[.]hostingzealoft[.]today</div>
+            <div>85[.]158[.]108[.]135</div>
+            <div>AS59711 - HZ Hosting Ltd</div>
+            <div>2025-06-14</div>
+            <div>2025-08-26</div>
+          </div>
+          <div>
+            <div>cisco-webexxapp[.]xyz</div>
+            <div>94[.]159[.]113[.]123</div>
+            <div>AS216334 - New Hosting Technologies LLC</div>
+            <div>2025-04-26</div>
+            <div>2025-07-07</div>
+          </div>
+          <div>
+            <div>rinasalleh[.]com</div>
+            <div>107[.]158[.]128[.]45</div>
+            <div>AS62904 - Eonix Corporation</div>
+            <div>2025-06-30</div>
+            <div>2025-07-29</div>
+          </div>
+          <div>
+            <div>oneyogasite[.]com</div>
+            <div>107[.]158[.]128[.]90</div>
+            <div>AS62904 - Eonix Corporation</div>
+            <div>2025-07-24</div>
+            <div>2025-08-20</div>
+          </div>
+          <div>
+            <div>mhousecreative[.]com</div>
+            <div>170[.]130[.]165[.]37</div>
+            <div>AS62904 - Eonix Corporation</div>
+            <div>2025-04-29</div>
+            <div>2025-05-29</div>
+          </div>
+          <div>
+            <div>polarcompany[.]org</div>
+            <div>173[.]44[.]141[.]89</div>
+            <div>AS62904 - Eonix Corporation</div>
+            <div>2025-05-24</div>
+            <div>2025-06-19</div>
+          </div>
+          <div>
+            <div>estetic-online[.]com</div>
+            <div>173[.]232[.]146[.]90</div>
+            <div>AS62904 - Eonix Corporation</div>
+            <div>2025-07-24</div>
+            <div>2025-08-21</div>
+          </div>
+          <div>
+            <div>lekuvam[.]com</div>
+            <div>185[.]212[.]47[.]84</div>
+            <div>AS39378 - servinga GmbH</div>
+            <div>2025-06-27</div>
+            <div>2025-07-28</div>
+          </div>
+          <div>
+            <div>vilaoaza[.]com</div>
+            <div>185[.]219[.]220[.]128</div>
+            <div>AS39378 - servinga GmbH</div>
+            <div>2025-06-26</div>
+            <div>2025-08-08</div>
+          </div>
+          <div>
+            <div>sftp[.]sagargolf[.]com</div>
+            <div>213[.]209[.]150[.]229</div>
+            <div>
+              <p>AS214943 -</p>
+              <p>Virtualine Technologies</p>
+            </div>
+            <div>2025-06-24</div>
+            <div>2025-07-23</div>
+          </div>
+        </div>
+        <p><em>(Source: Recorded Future)</em></p>
+      ]]></content:encoded>
+            <category>Research (Insikt)</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_18225f07c48a6c87635a7e1ea7c5e055937212ed2.gif?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
         <item>
             <title><![CDATA[The Future of Cyber Defense Is Autonomous — And It's Coming to Predict 2025]]></title>
             <link>https://www.recordedfuture.com/blog/the-future-of-cyber-defense-is-autonomous-coming-predict-2025</link>
@@ -10432,109 +10980,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Research (Insikt)</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_11aa5a77944f8c8dfe0a5f530987f0bb21d4c7794.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[Top 6 Threat Intelligence Outlooks and Strategies for 2025 | Recorded Future]]></title>
-            <link>https://www.recordedfuture.com/blog/6-threat-intelligence-outlooks-strategies-2025</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/blog/6-threat-intelligence-outlooks-strategies-2025</guid>
-            <pubDate>Wed, 21 Jan 1970 03:10:04 GMT</pubDate>
-            <description><![CDATA[Discover the latest threat intelligence outlooks for 2025, including AI-enabled phishing, SaaS attacks, and executive-targeted cyber threats. Learn key strategies to protect your organization from evolving digital risks.]]></description>
-            <content:encoded><![CDATA[
-        <p>As threat actors continually adopt new tactics — using everything from generative AI to popular SaaS applications to e-skimmer kits — CISOs and their teams need the latest and most in-depth threat intelligence to stay one step ahead. Explore Recorded Future’s top threat intelligence outlooks for 2025, as well as research and strategies to help you see threats before they disrupt your business.</p>
-        <h2>Key Statistics</h2>
-        <ul>
-          <li><a href="https://blog.1password.com/verizon-data-breach-report-2024-analysis/#:~:text=use%20of%20stolen%20credentials%E2%80%9D%20is%20the%20number%20one%20initial%20action%20during%20breaches%2C%20and%20stolen%20credentials%20also%20account%20for%20a%20whopping%2077%25%20of%20Basic%20Web%20Application%20Attacks">77%</a> of SaaS attacks begin with stolen credentials</li>
-          <li><a href="https://www.cnbc.com/2023/11/28/ai-like-chatgpt-is-creating-huge-increase-in-malicious-phishing-email.html">1,265%</a> increase in AI-enabled phishing attacks (2022-2023)</li>
-          <li><a href="https://www.demandsage.com/saas-statistics/">371</a> was the average number of SaaS apps per enterprise</li>
-          <li><a href="/research/2024-annual-report">25%</a> increase in credentials stolen per device since 2021</li>
-          <li><a href="https://www.dhs.gov/sites/default/files/2023-09/Harmonization%20of%20Cyber%20Incident%20Reporting%20to%20the%20Federal%20Government.pdf">52</a> different incident reporting requirements across sectors in the US</li>
-          <li><a href="https://www.getapp.com/resources/senior-executive-target-cyberattacks-how-keep-secure/">72%</a> of US senior executives are targeted by cyber threats at least once (December 2022–May 2024)</li>
-        </ul>
-        <h2>Outlook #1: Expanding the cyber battlefield will put infrastructure at risk.</h2>
-        <p>Cyber attacks are becoming the weapon of choice for disrupting (or threatening disruption) in rival nations even outside of conflict zones. This not only impacts critical infrastructure directly, but also could lead to secondary disruptions at organizations that depend on that infrastructure.</p>
-        <h3>Real-world threats:</h3>
-        <ul>
-          <li>Volt Typhoon <a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a">pre-positioning</a> for disruptive attacks in energy, communications, and transportation sectors</li>
-          <li>Pro-Russia hacktivists virtually <a href="https://www.cisa.gov/sites/default/files/2024-05/defending-ot-operations-against-ongoing-pro-russia-hacktivist-activity-508c.pdf">manipulating</a> operational technology systems</li>
-        </ul>
-        <h3>Priority actions:</h3>
-        <p>CISOs must understand how geopolitical events affect their security posture to manage risk and communicate with their boards effectively.</p>
-        <ul>
-          <li>Use strategic foresight techniques, including <a href="https://www.theirm.org/media/7423/horizon-scanning_final2-1.pdf">Horizon Scanning</a>, <a href="https://www.rand.org/content/dam/rand/pubs/research_reports/RRA1900/RRA1959-1/RAND_RRA1959-1.pdf">PESTLE-M</a>, and <a href="https://www.secalliance.com/blog/applying-cone-of-plausibility-to-cti">the Cone of Plausibility</a>, to understand the external environment, anticipate what’s ahead, and make better intelligence-informed decisions</li>
-          <li>Explore Recorded Future’s <a href="/products/geopolitical-intelligence">Geopolitical Intelligence Module</a>, which includes a Country Risk Scores help you understand and prioritize risks associated with operating in different countries.</li>
-        </ul>
-        <h2>Outlook #2: SaaS will make it easier to weaponize stolen credentials.</h2>
-        <p>Cybercriminals are increasingly targeting interconnected software-as-a-service (SaaS) applications to gain access to enterprise ecosystems. With the average organization now using <a href="https://www.demandsage.com/saas-statistics/">approximately 371 SaaS apps</a>, and with <a href="https://blog.1password.com/verizon-data-breach-report-2024-analysis/#:~:text=use%20of%20stolen%20credentials%E2%80%9D%20is%20the%20number%20one%20initial%20action%20during%20breaches%2C%20and%20stolen%20credentials%20also%20account%20for%20a%20whopping%2077%25%20of%20Basic%20Web%20Application%20Attacks">77%</a> of SaaS app attacks beginning with stolen credentials, it’s essential to prioritize identity security.</p>
-        <p>Credentials are frequently stolen by information-stealing malware, or infostealers, that are built to target a variety of operating systems and mobile devices. Per Recorded Future <a href="/research/2024-annual-report">research</a>, credential theft per device has risen 25% since 2021, increasing the risk of unlocking valuable corporate assets or credential stuffing attacks.</p>
-        <h3>Real-world threats:</h3>
-        <ul>
-          <li>The recent high profile breaches have used credentials <a href="https://cloud.google.com/blog/topics/threat-intelligence/unc5537-snowflake-data-theft-extortion?utm_source=chatgpt.com">stolen</a> from infostealers from as far back as 2020 to gain access to over 165 companies’ cloud storage instances.</li>
-          <li><a href="https://www.infosecurity-magazine.com/news/phishing-attack-bypasses-microsoft/">Even with MFA</a>, threat actors were able to use subtle social engineering strategies,to gain access to corporate systems.</li>
-        </ul>
-        <h3>Priority actions:</h3>
-        <ul>
-          <li>Consider AMFA with biometric authentication to provide an extra layer of protection from unauthorized access.</li>
-          <li>Use Recorded Future’s <a href="/products/identity-intelligence">Identity Intelligence</a> Module to track stolen credentials for your organization</li>
-          <li><a href="https://go.recordedfuture.com/demo?utm_id=24q1_gbl_mofu&amp;utm_source=blog&amp;utm_medium=blog&amp;utm_campaign=roleti_25otlk">Reach out</a> to learn more about your organization’s identity exposures with our free Exposure Assessment Report.</li>
-        </ul>
-        <h2>Outlook #3: Generative AI will transform social engineering.</h2>
-        <p>The <a href="https://www.cnbc.com/2023/11/28/ai-like-chatgpt-is-creating-huge-increase-in-malicious-phishing-email.html">reported</a> 1,265% increase in phishing attacks between Q4 2022 and November 2023 has been attributed to the public release of LLMs like ChatGPT. Spear phishing attacks have become more dangerous now that threat actors can use generative AI to quickly create highly targeted and convincing messages as well as deepfake phone calls and videos (<a href="https://www.techtarget.com/searchsecurity/tip/Generative-AI-is-making-phishing-attacks-more-dangerous">TechTarget</a>).</p>
-        <p>In addition to phishing, the increasing availability of sophisticated faceswap and other deepfake technology means more threat actors will be able to produce believable impersonations of company executives, celebrities, and political figures, pulling off increasingly costly scams.</p>
-        <h3>Real-world threats:</h3>
-        <ul>
-          <li>Losses to impersonation scams <a href="https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2024/04/impersonation-scams-not-what-they-used-be#:~:text=Scams%20that%20impersonate%20well%2Dknown,what%20consumers%20reported%20in%202020">topped</a> $1.1 billion in 2023.</li>
-          <li><a href="/research/targets-objectives-emerging-tactics-political-deepfakes">26%</a> of politically themed deepfakes were used to commit fraud.</li>
-        </ul>
-        <h3>Priority actions:</h3>
-        <ul>
-          <li>Adapt phishing training to include detecting voice and video fraud</li>
-          <li>Ensure processes for transferring money or data are resilient to scams by increasing validation checkpoints and educating employees on suspicious requests</li>
-        </ul>
-        <h2>Outlook #4: Regulatory demands and AI capabilities will push demand for safer code.</h2>
-        <p>New regulations in both the US and EU are pushing software companies to prioritize security. One of the last Biden-era cyber executive orders <a href="https://www.npr.org/2025/01/16/nx-s1-5261112/biden-cybersecurity-executive-order">requires</a> software vendors selling to the US federal government to verify they are using secure software development practices. Meanwhile, the EU amended <a href="https://www.consilium.europa.eu/en/press/press-releases/2024/10/10/eu-brings-product-liability-rules-in-line-with-digital-age-and-circular-economy/">liability</a> laws seek to hold software companies accountable for harm caused by their products.</p>
-        <h3>Real-world threats:</h3>
-        <ul>
-          <li>Recent wide-scaled outages <a href="https://www.informationweek.com/cyber-resilience/crowdstrike-outage-drained-5-4-billion-from-fortune-500-report">caused</a> by defective code in a software update, have caused over $5.4 billion in damages.</li>
-          <li><a href="https://securityintelligence.com/articles/log4j-downloads-vulnerable/">40%</a> of Log4J downloads are vulnerable to exploitation as a result of developers downloading insecure versions</li>
-        </ul>
-        <h3>Priority actions:</h3>
-        <ul>
-          <li>Ensure your organization is incorporating secure software development <a href="https://csrc.nist.gov/projects/ssdf">frameworks</a> into their operations</li>
-        </ul>
-        <h2>Outlook #5: Card fraud in 2025: digital deception will evolve.</h2>
-        <p>Card fraud is a global, professional ecosystem where cybercriminals specialize in compromising and monetizing payment data through sophisticated digital channels. Attackers are shifting to more nuanced digital strategies that exploit authentication vulnerabilities and create seamless fraud infrastructure.</p>
-        <h3>Real-world threats:</h3>
-        <ul>
-          <li>E-skimming remains the primary compromise method, leveraging easy-to-use kits and CMS vulnerabilities</li>
-          <li>Scam websites will employ advanced tactics, such as one-time passcode phishing, to facilitate card theft and enhance their ability to monetize the stolen data more efficiently</li>
-          <li>Fraudsters will target weak authentication in 3D Secure and digital wallets</li>
-          <li>Social engineering tactics will be scaled into systematic cyber fraud attack chains</li>
-        </ul>
-        <h3>Priority actions:</h3>
-        <ul>
-          <li>Explore Recorded Future’s <a href="/products/payment-fraud-intelligence">Payment Fraud Intelligence Module</a>.</li>
-          <li>Download our newly published annual <a href="/research/annual-payment-fraud-intelligence-report-2024">Payment Fraud Intelligence</a> report to protect your business and customers.</li>
-        </ul>
-        <h2>Outlook #6: High-profile executives will be increasingly targeted.</h2>
-        <p>With broad authority over their organizations’ data, IP, and money, senior business executives have become major targets of digital threats, cyberattacks, and privacy invasions. In fact, according to a survey of IT and cybersecurity professionals, <a href="https://www.getapp.com/resources/senior-executive-target-cyberattacks-how-keep-secure/">72%</a> of senior executives in the US were targeted at least once in the 18 months prior to May 2024.</p>
-        <h3>Real-world threats:</h3>
-        <ul>
-          <li><a href="https://www.getapp.com/resources/senior-executive-target-cyberattacks-how-keep-secure/">69%</a> of surveyed IT and cybersecurity professionals whose company’s senior executives were previously targets say cyberattacks against senior staff members have increased.</li>
-          <li><a href="https://www.getapp.com/resources/senior-executive-target-cyberattacks-how-keep-secure/">87%</a> of the same professionals agree that senior executives should receive more cybersecurity training than other employees.</li>
-        </ul>
-        <h3>Priority actions:</h3>
-        <ul>
-          <li>Step up training for senior leaders to reinforce cyber safety best practices.</li>
-          <li>Use Recorded Future <a href="/products/identity-intelligence">Identity Intelligence</a> to monitor for leaked credentials, doxing incidents, or PII exposure across dark web and messaging platforms.</li>
-          <li>Use Recorded Future <a href="/products/geopolitical-intelligence">Geopolitical Intelligence</a> for real-time geofence alerting as well as country risk scoring and local event detection for travel risk assessments.</li>
-          <li>Use Recorded Future <a href="/products/brand-intelligence">Brand Intelligence</a> for digital footprint auditing, impersonation detection, and social media threat detection.</li>
-        </ul>
-        <p>
-          <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1eccbe3c27e53410a6dbe4317f3bcacffefc2b8a3.png?width=750&amp;format=png&amp;optimize=medium" width="209" height="1600" />
-        </p>
-      ]]></content:encoded>
-            <category>Blog</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_15ca88941b2624ec89bb002fa646bc62e112c6e90.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>
