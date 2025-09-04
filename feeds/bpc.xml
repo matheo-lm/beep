@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 04 Sep 2025 06:59:01 EDT</pubDate>
+        <pubDate>Thu, 04 Sep 2025 08:00:34 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft says recent Windows updates cause app install issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-windows-updates-cause-app-install-issues-due-to-unexpected-admin-UAC-prompts/</link>
+        <pubDate>Thu, 04 Sep 2025 07:57:02 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-windows-updates-cause-app-install-issues-due-to-unexpected-admin-UAC-prompts/</guid>
+	<description><![CDATA[Microsoft says the August 2025 security updates are triggering unexpected User Account Control (UAC) prompts and app installation issues for non-admin users across all supported Windows versions. [...]]]></description>
+ </item>
+
  <item>
         <title>Threat actors abuse X’s Grok AI to spread malicious links</title>
         <link>https://www.bleepingcomputer.com/news/security/threat-actors-abuse-xs-grok-ai-to-spread-malicious-links/</link>
@@ -176,20 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cloudflare-hit-by-data-breach-in-salesloft-drift-supply-chain-attack/</guid>
 	<description><![CDATA[Cloudflare is the latest company impacted in a recent string of Salesloft Drift breaches, part of a supply-chain attack disclosed last week. [...]]]></description>
- </item>
-
- <item>
-        <title>Cloudflare blocks largest recorded DDoS attack peaking at 11.5 Tbps</title>
-        <link>https://www.bleepingcomputer.com/news/security/cloudflare-blocks-record-breaking-115-tbps-ddos-attack/</link>
-        <pubDate>Tue, 02 Sep 2025 11:52:30 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-blocks-record-breaking-115-tbps-ddos-attack/</guid>
-	<description><![CDATA[Internet infrastructure company Cloudflare said it recently blocked the largest recorded volumetric distributed denial-of-service (DDoS) attack, which peaked at 11.5 terabits per second (Tbps). [...]]]></description>
  </item>
 
 </channel>
