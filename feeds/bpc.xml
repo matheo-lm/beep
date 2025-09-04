@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 04 Sep 2025 11:02:06 EDT</pubDate>
+        <pubDate>Thu, 04 Sep 2025 12:03:13 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>France slaps Google with €325M fine for violating cookie regulations</title>
+        <link>https://www.bleepingcomputer.com/news/security/france-slaps-google-with-325m-fine-for-violating-cookie-regulations/</link>
+        <pubDate>Thu, 04 Sep 2025 11:58:05 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/france-slaps-google-with-325m-fine-for-violating-cookie-regulations/</guid>
+	<description><![CDATA[The French data protection authority has fined Google €325 million ($378 million) for violating cookie regulations and displaying ads between Gmail users' emails without their consent. [...]]]></description>
+ </item>
+
+ <item>
+        <title>6 browser-based attacks all security teams should be ready for in 2025</title>
+        <link>https://www.bleepingcomputer.com/news/security/6-browser-based-attacks-all-security-teams-should-be-ready-for-in-2025/</link>
+        <pubDate>Thu, 04 Sep 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Push Security</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/6-browser-based-attacks-all-security-teams-should-be-ready-for-in-2025/</guid>
+	<description><![CDATA[The browser is now the frontline for cyberattacks. From phishing kits and ClickFix lures to malicious OAuth apps and extensions, attackers are targeting the very place your employees access business-critical apps. Push Security explains how to defend where breaches begin. [...]]]></description>
+ </item>
+
  <item>
         <title>Tire giant Bridgestone confirms cyberattack impacts manufacturing</title>
         <link>https://www.bleepingcomputer.com/news/security/tire-giant-bridgestone-confirms-cyberattack-impacts-manufacturing/</link>
@@ -178,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/they-know-where-you-are-cybersecurity-and-the-shadow-world-of-geolocation/</guid>
 	<description><![CDATA[Geolocation is the invisible attack vector. From Stuxnet to today's APTs, malware now lies dormant until it hits the right place—turning location data into a weapon. Acronis' TRU explains why defenses must evolve beyond VPNs and perimeter controls. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers breach fintech firm in attempted $130M bank heist</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-breach-fintech-firm-in-attempted-130m-bank-heist/</link>
-        <pubDate>Tue, 02 Sep 2025 18:33:50 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-breach-fintech-firm-in-attempted-130m-bank-heist/</guid>
-	<description><![CDATA[Hackers tried to steal $130 million from Evertec's Brazilian subsidiary Sinqia S.A.after gaining unauthorized access to its environment on the central bank's real-time payment system (Pix). [...]]]></description>
  </item>
 
 </channel>
