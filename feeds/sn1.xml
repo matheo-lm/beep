@@ -12,7 +12,7 @@
 	<atom:link href="https://www.sentinelone.com/labs/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.sentinelone.com/labs/</link>
 	<description>Next Generation Endpoint Security</description>
-	<lastBuildDate>Mon, 04 Aug 2025 18:32:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 03 Sep 2025 06:09:31 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,443 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>Contagious Interview &#124; North Korean Threat Actors Reveal Plans and Ops by Abusing Cyber Intel Platforms</title>
+		<link>https://www.sentinelone.com/labs/contagious-interview-threat-actors-scout-cyber-intel-platforms-reveal-plans-and-ops/</link>
+		
+		<dc:creator><![CDATA[Aleksandar Milenkoski, Sreekar Madabushi (Validin) &amp; Kenneth Kinion (Validin)]]></dc:creator>
+		<pubDate>Thu, 04 Sep 2025 09:55:04 +0000</pubDate>
+				<category><![CDATA[DPRK]]></category>
+		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=125898</guid>
+
+					<description><![CDATA[DPRK-aligned threat actors abuse CTI platforms to detect infrastructure exposure and scout for new assets.]]></description>
+										<content:encoded><![CDATA[<h2>Executive Summary</h2>
+<ul>
+<li>North Korea-aligned threat actors actively monitor cyber threat intelligence to detect infrastructure exposure and scout for new assets. This analysis focuses on the abuse of cyber intelligence platforms by the actors behind the Contagious Interview campaign cluster employing the ClickFix social engineering technique.</li>
+<li>They operate in coordinated teams with real-time collaboration, likely using Slack and multiple intelligence sources such as Validin, VirusTotal, and Maltrail.</li>
+<li aria-level="1">Although aware their infrastructure is detectable, they make only limited changes to reduce detection and disruption risk, while rapidly deploying new infrastructure in response to service provider takedowns.</li>
+<li aria-level="1">This indicates a strategic focus on continuously replacing disrupted infrastructure with new assets to sustain operations and high victim engagement.</li>
+<li aria-level="1">Factors such as decentralized command and competitive internal incentives may limit the threat actors’ ability to consistently protect existing infrastructure at scale.</li>
+<li aria-level="1">SentinelLABS’ analysis suggests that the threat actors are effective at engaging targets; there were over 230 victims between January and March 2025, with the actual number likely being significantly higher.</li>
+<li aria-level="1">In partnership with SentinelLABS and Validin, Reuters provides further coverage of the human dimension of this threat, exploring victim engagement methods and their personal impact.</li>
+</ul>
+<h2>Overview</h2>
+<p>In collaboration with the <a href="https://www.validin.com/company/" target="_blank" rel="noopener noreferrer">internet intelligence platform Validin</a>, SentinelLABS has been tracking activity on the platform which we attribute with high confidence to North Korean threat actors involved in the <a href="https://unit42.paloaltonetworks.com/two-campaigns-by-north-korea-bad-actors-target-job-hunters/" target="_blank" rel="noopener noreferrer">Contagious Interview</a> campaign cluster. This activity, which took place between March and June 2025, involved the threat actors examining cyber threat intelligence (CTI) information related to their infrastructure. Our unique visibility has provided valuable insights into their operational practices, internal coordination, infrastructure management and deployment, and victimology.</p>
+<p>SentinelLABS continuously tracks North Korean-aligned threat actors, including their <a href="https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals/" target="_blank" rel="noopener noreferrer">persistent interest</a> in cyber threat intelligence. As part of SentinelLABS’ broader efforts to identify and disrupt North Korean operations in collaboration with partner organizations, SentinelLABS and Validin conducted a joint investigation, combining our threat intelligence expertise with Validin’s visibility into the threat actors&#8217; activities on their platform, to better understand these activities and provide actionable intelligence supporting defensive actions.</p>
+<p>SentinelLABS and Validin observed an intensive and coordinated effort by Contagious Interview threat actors to register and use Validin community access accounts within approximately 24 hours after Validin published a <a href="https://www.validin.com/blog/bybit_hack_infrastructure_hunt/" target="_blank" rel="noopener noreferrer">blog post</a> on 11 March 2025. The post discusses the infrastructure of Lazarus, a suspected North Korean APT umbrella cluster associated with Contagious Interview activities. Validin’s community access portal provides free access to infrastructure intelligence information.</p>
+<p>The threat actors used Google Gmail addresses that we had already been tracking as Contagious Interview artifacts at the time of registration. Although Validin blocked the accounts shortly after registration, we observed the threat actors persisting in their efforts to use Validin by creating accounts at later dates. At that point, we intentionally kept one account active over the long term to monitor and gather intelligence on their activities.</p>
+<p>We observed that the Contagious Interview threat actors engaged in coordinated activity and likely operated in teams to investigate threat intelligence related to their infrastructure and to monitor for signs of detection. Indicators suggest they used multiple indicators of compromise (IOC) repositories and CTI platforms, including Validin, <a href="https://www.virustotal.com/" target="_blank" rel="noopener noreferrer">VirusTotal</a>, and <a href="https://github.com/stamparm/maltrail/tree/master" target="_blank" rel="noopener noreferrer">Maltrail</a>. We also identified indicators of real-time teamwork, including possible use of the <a href="https://slack.com/" target="_blank" rel="noopener noreferrer">Slack</a> platform to coordinate their investigations.</p>
+<p>Despite thoroughly examining threat intelligence and identifying artifacts that can be used to discover their infrastructure, the threat actors did not implement systematic, large-scale changes to make it harder to detect, thereby reducing its exposure to discovery and disruption. Instead, we observed only sporadic, limited-scale changes targeting specific artifacts used to identify Contagious Interview infrastructure, while the threat actors rapidly deployed new infrastructure in response to service provider takedowns.</p>
+<p>This may reflect a focus on investing resources to maintain operational readiness and sustain the campaign’s high volume of victim engagement by deploying new infrastructure rather than undertaking broad modifications to protect existing infrastructure. Based on log files unintentionally exposed on several Contagious Interview servers, we identified over 230 individuals affected during the period from January to March 2025, though the actual number is likely much higher.</p>
+<p>Given the continuous success of their campaigns in engaging targets, it may be more pragmatic and efficient for the threat actors to deploy new infrastructure rather than maintain existing assets. Potential internal factors, such as decentralized command structures or operational resource constraints, may restrict their capacity to rapidly implement coordinated changes. Moreover, competitive pressures stemming from <a href="https://reports.dtexsystems.com/DTEX-Exposing+DPRK+Cyber+Syndicate+and+Hidden+IT+Workforce.pdf" target="_blank" rel="noopener noreferrer">North Korea’s annual revenue quotas</a> for cyber teams likely incentivize operatives to make isolated adjustments to the infrastructure under their control in order to protect their own assets and outperform colleagues, rather than participate in centrally coordinated, large-scale updates.</p>
+<p>The threat actors also used Validin to scout and evaluate new infrastructure before acquisition, likely aiming to avoid assets previously flagged as malicious, which would increase detection risk and reduce operational effectiveness once deployed. Following acquisition, they continued to monitor their assets for signs of detection throughout their lifecycle. We were closely monitoring Contagious Interview infrastructure during its acquisition and deployment, which revealed repeated OPSEC failures, suggesting a lack of consistent operational security controls during the infrastructure setup phase.</p>
+<h2>Background | Contagious Interview and ClickFix</h2>
+<p>First used in 2023 to label a <a href="https://unit42.paloaltonetworks.com/two-campaigns-by-north-korea-bad-actors-target-job-hunters/" target="_blank" rel="noopener noreferrer">campaign</a> targeting job seekers, the term Contagious Interview has since been used interchangeably in other contexts, including to refer to an APT group assessed to be a subset of the North Korean umbrella group Lazarus.</p>
+<p>In this post, we use Contagious Interview to refer to a cluster of campaigns, variants of the 2023 campaign, that target job applicants using diverse social engineering tactics to trick targets into executing malware.</p>
+<p>Contagious Interview activities predominantly target individuals active in the cryptocurrency industry, aiming to gain access to their systems for various purposes, including intelligence collection and the theft of cryptocurrency assets. This supports North Korea’s efforts in evading sanctions and generating illicit revenue for financing its projects, including <a href="https://www.bbc.com/news/world-asia-60281129" target="_blank" rel="noopener noreferrer">missile programmes</a>.</p>
+<p>Contagious Interview campaigns have been typically associated with the umbrella threat cluster Lazarus. DTEX Systems <a href="https://reports.dtexsystems.com/DTEX-Exposing+DPRK+Cyber+Syndicate+and+Hidden+IT+Workforce.pdf" target="_blank" rel="noopener noreferrer">has attributed these campaigns</a> to a group referred to as Gwisin Gang, which likely emerged from an IT organization whose subordination within the North Korean state apparatus is still subject to assessment.</p>
+<p>Recent Contagious Interview campaigns, also referred to as <a href="https://blog.sekoia.io/clickfake-interview-campaign-by-lazarus/" target="_blank" rel="noopener noreferrer">ClickFake Interview</a>, involve a social engineering technique known as ClickFix. We assess that the threat actors whose activities are discussed in this post are involved in these campaigns.</p>
+<p>ClickFix typically proceeds as follows. A targeted job seeker receives an invitation to participate in a job application process, directing them to a lure website where they are prompted to complete a skill assessment. During the assessment, the applicant encounters a fabricated error message, such as a camera access issue. They are then instructed to copy and paste command lines, often involving utilities like <code>curl</code>, to download and execute a supposed update from a separate malware distribution server, unknowingly deploying malware in the process. This technique is discussed in more detail in <a href="https://blog.talosintelligence.com/python-version-of-golangghost-rat/" target="_blank" rel="noopener noreferrer">previous research</a>.</p>
+<h2>Account Registrations | Initial Activities</h2>
+<p>The threat actors started creating Validin community accounts on 12 March 2025 at 22:44:11 UTC, an activity which spanned a relatively short interval of approximately 15 minutes, suggesting a concentrated and coordinated approach. We present below the email addresses used for account registrations as well as the IP addresses from which the registrations were conducted. We attribute this activity to Contagious Interview threat actors based on multiple indicators.</p>
+<div style="overflow-x:auto; font-size:0.8em;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 25px;">
+<td style="width: 50%; height: 25px;"><strong>Email Address</strong></td>
+<td style="width: 50%; height: 25px;"><strong>IP Address</strong></td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 50%; height: 25px;">jimmr6587[@]gmail.com</td>
+<td style="width: 50%; height: 25px;">38.170.181[.]10</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 50%; height: 25px;">excellentreporter321[@]gmail.com</td>
+<td style="width: 50%; height: 25px;">194.33.45[.]162</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 50%; height: 25px;">rockstar96054[@]gmail.com</td>
+<td style="width: 50%; height: 25px;">96.62.127[.]126</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 50%; height: 25px;">richardkdavis45[@]gmail.com</td>
+<td style="width: 50%; height: 25px;">45.86.208[.]162</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 50%; height: 25px;">fairdev610[@]gmail.com</td>
+<td style="width: 50%; height: 25px;">70.39.70[.]194</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 50%; height: 25px;">marvel714jm[@]gmail.com</td>
+<td style="width: 50%; height: 25px;">77.247.126[.]189</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 50%; height: 25px;">montessantiago9712[@]gmail.com</td>
+<td style="width: 50%; height: 25px;">38.170.181[.]10</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 50%; height: 25px;">hundredup2023[@]gmail.com</td>
+<td style="width: 50%; height: 25px;">70.32.3[.]15</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 50%; height: 25px;">huzqur023[@]gmail.com</td>
+<td style="width: 50%; height: 25px;">89.19.58[.]51</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>A significant portion of the IP addresses used for registration, such as <code>194.33.45[.]162</code>, <code>70.39.70[.]194</code>, <code>70.32.3[.]15</code>, <code>38.170.181[.]10</code>, and <code>45.86.208[.]162</code>, <a href="https://spur.us/astrill-vpn-and-remote-worker-fraud/" target="_blank" rel="noopener noreferrer">have been associated</a> with Astrill VPN, a VPN service popular among North Korean threat clusters.</p>
+<p>Additionally, even before the account registrations, SentinelLABS and Validin were already tracking the email addresses <code>fairdev610[@]gmail.com</code>, <code>richardkdavis45[@]gmail.com</code>, <code>rockstar96054[@]gmail.com</code>, <code>excellentreporter321[@]gmail.com</code>, and <code>hundredup2023[@]gmail.com</code> as Contagious Interview artifacts. We found these addresses in unintentionally exposed JavaScript scripts (<a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">Node.js</a> applications) on Contagious Interview ClickFix malware distribution servers.</p>
+<p>We have been tracking these Node.js applications under the ContagiousDrop moniker since their initial exposure. Typically implemented as <code>app.js</code> files, the applications distribute malware to targeted individuals and notify the threat actors via email about victim engagement. This engagement includes information submission to Contagious Interview lure websites and the execution of commands, such as <code>curl</code>, as directed by the threat actors as part of the ClickFix social engineering tactic. A ContagiousDrop sample is highlighted in <a href="https://www.silentpush.com/blog/contagious-interview-front-companies/" target="_blank" rel="noopener noreferrer">previous research</a> on Contagious Interview activity published in April 2025. These applications will be discussed in greater detail later in this blog post.</p>
+<p>Moreover, some email addresses have been used for registering Contagious Interview domains pointing to lure websites. For example, <code>marvel714jm[@]gmail.com</code> and <code>jimmr6587[@]gmail.com</code> have been used to register the <code>paxos-video-interview[.]com</code> and <code>skill-share[.]org</code> domains, respectively.</p>
+<p>Finally, some email addresses were used to register Validin accounts from IP addresses that were also used to register or log in to accounts with other email addresses we attribute with high confidence to Contagious Interview. For example, the account <code>montessantiago9712[@]gmail.com</code> was registered from the IP address <code>38.170.181[.]10</code>, the same as <code>jimmr6587[@]gmail.com</code>.</p>
+<p>Approximately 15 minutes after the first observed account registration, Validin blocked the Contagious Interview accounts and subsequently prevented further community registrations originating from known Astrill VPN IP addresses or using Gmail accounts.</p>
+<h2>Account Registrations | Further Activities</h2>
+<p>After likely realizing that their access to Validin had been blocked, Contagious Interview threat actors attempted to register community accounts again on 25 March 2025 (13 days after the initial registration activity) and 26 April 2025. This time, they also used non-Gmail email addresses, most likely in response to Validin blocking Gmail-based registrations: <code>info[@]versusx[.]us</code> and <code>invite[@]quiz-nest[.]com</code>. We present below the email addresses used for Validin account registrations, along with the date, time, and originating IP addresses of these registrations.</p>
+<div style="overflow-x:auto; font-size:0.8em;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 25px;">
+<td style="width: 35%; height: 25px;"><strong>Email Address</strong></td>
+<td style="width: 19.7761%; height: 25px;"><strong>Date (UTC)</strong></td>
+<td style="width: 20.2239%; height: 25px;"><strong>Time (UTC)</strong></td>
+<td style="width: 25%; height: 25px;"><strong>IP Address</strong></td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 35%; height: 25px;">info[@]versusx[.]us</td>
+<td style="width: 19.7761%; height: 25px;">2025-03-25</td>
+<td style="width: 20.2239%; height: 25px;">13:33:01</td>
+<td style="width: 25%; height: 25px;">181.59.180[.]84</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 35%; height: 25px;">mvsolution9[@]gmail.com</td>
+<td style="width: 19.7761%; height: 25px;">2025-04-26</td>
+<td style="width: 20.2239%; height: 25px;">16:48:54</td>
+<td style="width: 25%; height: 25px;">181.215.9[.]29</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 35%; height: 25px;">invite[@]quiz-nest[.]com</td>
+<td style="width: 19.7761%; height: 25px;">2025-04-26</td>
+<td style="width: 20.2239%; height: 25px;">16:51:29</td>
+<td style="width: 25%; height: 25px;">181.215.9[.]29</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The domain registration records for <code>versusx[.]us</code> include the email address <code>brooksliam534[@]gmail.com</code>, which has also been used to register several Contagious Interview domains discussed in <a href="https://www.validin.com/blog/inoculating_contagious_interview_with_validin/" target="_blank" rel="noopener noreferrer">previous research</a>, such as <code>willotalent[.]us</code> and <code>nvidia-release[.]us</code>. Additionally, indicators suggest that the <code>brooksliam534[@]gmail.com</code> account <a href="https://socket.dev/npm/user/liambrooksman/packages" target="_blank" rel="noopener noreferrer">has been involved</a> in publishing malicious npm (Node Package Manager) packages (<code>cors-app</code> and <code>cors-parser</code>) as part of a software supply chain campaign <a href="https://socket.dev/blog/lazarus-expands-malicious-npm-campaign-11-new-packages-add-malware-loaders-and-bitbucket" target="_blank" rel="noopener noreferrer">attributed</a> to Contagious Interview threat actors.</p>
+<figure id="attachment_125905" aria-describedby="caption-attachment-125905" style="width: 993px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_6.jpg" target="_blank" rel="noopener noreferrer"><img fetchpriority="high" decoding="async" class="wp-image-125905 size-full" src="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_6.jpg" alt="&quot;The" width="993" height="373" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_6.jpg 993w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_6-300x113.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_6-768x288.jpg 768w" sizes="(max-width: 993px) 100vw, 993px" /></a><figcaption id="caption-attachment-125905" class="wp-caption-text">The <em>liambrooksman</em> persona (<em>brooksliam534[@]gmail.com</em>) tracked as maintainer of <em>cors-app</em> and <em>cors-parser</em></figcaption></figure>
+<p>We observed the registration of <code>invite[@]quiz-nest[.]com</code> approximately two minutes after the threat actors attempted to register <code>mvsolution9[@]gmail.com</code>. The registration of <code>mvsolution9[@]gmail.com</code> failed due to measures Validin implemented following the March 2025 account registration activities. Both actions originated from the same IP address, <code>181.215.9[.]29</code>, suggesting the involvement of a single operator.</p>
+<p><code>mvsolution9[@]gmail.com</code> has been used to register two Contagious Interview domains: <code>evalassesso[.]com</code>, which Sekoia has also <a href="https://blog.sekoia.io/clickfake-interview-campaign-by-lazarus/" target="_blank" rel="noopener noreferrer">attributed</a> to Contagious Interview, and <code>speakure[.]com</code>. The <code>quiz-nest[.]com</code> website, at least up to 24 May 2025, was implemented in a manner typical of Contagious Interview lure websites.</p>
+<p>We also observed login attempts on 9 May 2025 using the <code>excellentreporter321[@]gmail.com</code> and <code>marvel714jm[@]gmail.com</code> accounts, which had been blocked by Validin in March 2025.</p>
+<p>The threat actors’ shift to using non-Gmail addresses, along with their continuous attempts to bypass Validin’s access controls, highlights their adaptability and persistent interest in Validin data. Recognizing their persistence in obtaining community access, we intentionally kept only the <code>info[@]versusx[.]us</code> account active to monitor subsequent activity, determine their objectives, and gather further intelligence. Since then, the Contagious Interview threat actors have continued attempting to register new Validin accounts through the time of writing this post.</p>
+<h2>Account Registrations | Personas</h2>
+<p>In accordance with Validin&#8217;s policy for community accounts, the Contagious Interview actors completed registration forms requesting information such as full name, affiliation, and reason for registration.</p>
+<div style="overflow-x:auto; font-size:0.8em;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr>
+<td style="width: 38%;"><strong>Account</strong></td>
+<td style="width: 27%;"><strong>Full Name</strong></td>
+<td style="width: 15%;"><strong>Affiliation</strong></td>
+<td style="width: 20%;"><strong>Reason</strong></td>
+</tr>
+<tr>
+<td style="width: 38%;">excellentreporter321[@]gmail.com</td>
+<td style="width: 27%;">Andress Victor Pabon Carrascal</td>
+<td style="width: 15%;">DAG</td>
+<td style="width: 20%;">Find My Platform.</td>
+</tr>
+<tr>
+<td style="width: 38%;">fairdev610[@]gmail.com</td>
+<td style="width: 27%;">Fair Dev</td>
+<td style="width: 15%;">Talents Vision</td>
+<td style="width: 20%;">Reference</td>
+</tr>
+<tr>
+<td style="width: 38%;">hundredup2023[@]gmail.com</td>
+<td style="width: 27%;">Thomas Mitchell</td>
+<td style="width: 15%;">Baymax</td>
+<td style="width: 20%;">to find domain</td>
+</tr>
+<tr>
+<td style="width: 38%;">huzqur023[@]gmail.com</td>
+<td style="width: 27%;">Hamza</td>
+<td style="width: 15%;">Starlink</td>
+<td style="width: 20%;">I will use this for phishing check</td>
+<tr>
+<td style="width: 38%;">info[@]versusx[.]us</td>
+<td style="width: 27%;">Noraida</td>
+<td style="width: 15%;">Versusx</td>
+<td style="width: 20%;">Research</td>
+<tr>
+<td style="width: 38%;">invite[@]quiz-nest[.]com</td>
+<td style="width: 27%;">Anika Larkin</td>
+<td style="width: 15%;">Quiz Nest</td>
+<td style="width: 20%;">Google</td>
+</tr>
+<tr>
+<td style="width: 38%;">jimmr6587[@]gmail.com</td>
+<td style="width: 27%;">jimmr</td>
+<td style="width: 15%;">Individual</td>
+<td style="width: 20%;">Github</td>
+<tr>
+<td style="width: 38%;">marvel714jm[@]gmail.com</td>
+<td style="width: 27%;">Mar Vel</td>
+<td style="width: 15%;">Paxos</td>
+<td style="width: 20%;">Valisin</td>
+</tr>
+<tr>
+<td style="width: 38%;">montessantiago9712[@]gmail.com</td>
+<td style="width: 27%;">Santiago Montes</td>
+<td style="width: 15%;">Personal</td>
+<td style="width: 20%;">Virus Checker</td>
+<tr>
+<td style="width: 38%;">mvsolution9[@]gmail.com</td>
+<td style="width: 27%;">Anika Larkin</td>
+<td style="width: 15%;">Test</td>
+<td style="width: 20%;">Ggle</td>
+</tr>
+<tr>
+<td style="width: 38%;">richardkdavis45[@]gmail.com</td>
+<td style="width: 27%;">Richard Davis</td>
+<td style="width: 15%;">CreatDao</td>
+<td style="width: 20%;">/</td>
+<tr>
+<td style="width: 38%;">rockstar96054[@]gmail.com</td>
+<td style="width: 27%;">Rock Lee</td>
+<td style="width: 15%;">FWW</td>
+<td style="width: 20%;">Googling</td>
+</tbody>
+</table>
+</div>
+<p>The threat actors used a diverse range of names, from generic handles like <code>jimmr</code> to pop-culture references such as <code>Rock Lee</code> (a character from the Japanese anime series Naruto), <code>Mar Vel</code> (likely referring to Mar-Vell, a Captain Marvel character from Marvel Comics), and <code>Santiago Montes</code> (the main protagonist of the animated television series Santiago of the Seas), as well as more elaborate, seemingly legitimate full names like <code>Andress Victor Pabon Carrascal</code>. The reuse of the name <code>Anika Larkin </code>for two different accounts, <code>invite[@]quiz-nest[.]com</code> and <code>mvsolution9[@]gmail.com</code>, combined with both accounts being registered from the same IP address (<code>181.215.9[.]29</code>) within approximately two minutes, suggests the involvement of a single individual.</p>
+<p>Some affiliations correspond to fake hiring platforms operated by Contagious Interview. For example, <code>Quiz Nest</code> aligns with the domain <code>quiz-nest[.]com</code>, while <code>Paxos</code> corresponds to domains such as <code>paxos-video-interview[.]com</code> and <code>paxosassessments[.]com</code>. The account <code>marvel714jm[@]gmail.com</code>, which used the <code>Paxos</code> affiliation, was also used to register the domain <code>paxos-video-interview[.]com</code>. This suggests the actors leveraged their own infrastructure and fabricated brands to create a more convincing facade of legitimacy.</p>
+<p>In addition to these fake platforms, the threat actors also used names of legitimate, well-known companies such as <code>Starlink</code>, as well as vague descriptors like <code>Individual</code> or <code>Personal</code>.</p>
+<p>Some of the stated reasons for registration provide direct insight into the threat actors’ primary objective: investigating threat intelligence information related to their infrastructure. For example, pretexts such as <code>Research</code>,  <code>To find domain</code>, and <code>Find My Platform</code> indicate their interest in exploring Validin’s data.</p>
+<h2>Validin Use | Activity Across Multiple Platforms</h2>
+<p>The majority of accounts began using the Validin platform immediately after registration. In total, we observed 57 unique search terms across all categories supported by the platform, including domain names, hashes, URLs, web metadata, keywords, and IP addresses.</p>
+<p>The threat actors did not search for any IOCs reported in Validin’s <a href="https://www.validin.com/blog/bybit_hack_infrastructure_hunt/" target="_blank" rel="noopener noreferrer">blog post</a>, which we suspect triggered their initial interest in the platform. Therefore, we assess the post only brought Validin to their attention, after which they integrated Validin into a broader workflow for investigating threat intelligence related to their operations by leveraging multiple sources.</p>
+<p>We observed indicators suggesting that the threat actors used additional IOC repositories and platforms alongside Validin to conduct comprehensive investigations. These included VirusTotal and the <code>apt_lazarus.txt</code> file, which is part of the Maltrail project and <a href="https://github.com/stamparm/maltrail/blob/master/trails/static/malware/apt_lazarus.txt" target="_blank" rel="noopener noreferrer">publicly available</a> on GitHub. This file is regularly updated with domain names, IP addresses, and URLs attributed to the Lazarus umbrella APT cluster, as well as sources providing attribution information or context, such as social media, blog posts, and other threat intelligence platforms (including VirusTotal and Validin). VirusTotal is a malware analysis service and threat intelligence platform that aggregates detection results, reputation assessments, and contextual information for files, URLs, domains, and IP addresses from a wide range of detection engines, third-party tools, and its user community.</p>
+<p>The very first search term used by the threat actors was the keyword <code>TalentCheck</code>, entered on 12 March 2025 at 22:44:40 UTC. <code>TalentCheck</code> is the title of multiple Contagious Interview websites, including <code>skillcheck[.]pro</code>, <code>talentcheck[.]pro</code>, and <code>vidassesspro[.]com</code>. The keyword was first published as an artifact identifying Contagious Interview websites approximately one day earlier by Maltrail in <code>apt_lazarus.txt</code>, on 11 March 2025 at 11:18:22 UTC. This suggests that the threat actors likely used Validin to investigate what additional information the platform could provide based on the <code>TalentCheck</code> keyword they first observed in <code>apt_lazarus.txt</code>.</p>
+<figure id="attachment_125914" aria-describedby="caption-attachment-125914" style="width: 678px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_1.jpg" target="_blank" rel="noopener noreferrer"><img decoding="async" class="wp-image-125914 size-full" src="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_1.jpg" alt="TalentCheck in apt_lazarus.txt" width="678" height="255" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_1.jpg 678w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_1-300x113.jpg 300w" sizes="(max-width: 678px) 100vw, 678px" /></a><figcaption id="caption-attachment-125914" class="wp-caption-text"><em>TalentCheck</em> in <em>apt_lazarus.txt</em></figcaption></figure>
+<p>Most of the search terms the threat actors used in Validin had been published exclusively in <code>apt_lazarus.txt</code> at the time of the search and were queried shortly after their appearance in the file, sometimes within less than an hour. This supports our assessment that the Contagious Interview actors closely monitored <code>apt_lazarus.txt</code> and used Validin to gather further details and contextual information.</p>
+<p>In addition to Maltrail, we suspect that the Contagious Interview threat actors also use VirusTotal, or monitor what information about their infrastructure and malware is available on the platform, in conjunction with Validin. For example, the account <code>richardkdavis45[@]gmail.com</code> queried Validin for the URL <code>https[://]robinhood[.]evalvidz[.]com/invite/fZ6j8A2k</code> on 12 March 2025 at 22:59:20 UTC, just a few minutes after the exact same URL was first submitted to VirusTotal at 22:54:24 UTC.</p>
+<p>Based on log files, we were able to reconstruct the exact navigation paths of the Contagious Interview threat actors within Validin. We observed a strong interest in external references that provide attribution information for specific search terms, which Validin displays in the <code>Reputation Factors</code> panel on the search results page. For most of the domains they searched, the threat actors visited every available external reference, demonstrating a determined effort to conduct thorough CTI investigations by gathering information from multiple sources.</p>
+<figure id="attachment_125911" aria-describedby="caption-attachment-125911" style="width: 1999px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_12.jpg" target="_blank" rel="noopener noreferrer"><img decoding="async" class="wp-image-125911 size-full" src="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_12.jpg" alt="Reconstructed navigation path of the jimmr6587[@]gmail.com account" width="1999" height="644" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_12.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_12-300x97.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_12-1024x330.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_12-768x247.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_12-1536x495.jpg 1536w" sizes="(max-width: 1999px) 100vw, 1999px" /></a><figcaption id="caption-attachment-125911" class="wp-caption-text">Reconstructed navigation path of the <em>jimmr6587[@]gmail.com</em> account</figcaption></figure>
+<h2>Validin Use | Team Collaboration</h2>
+<p>We observed multiple accounts searching for the same terms within a very short time frame, indicating a coordinated and collaborative effort involving multiple individuals. In addition, we identified strong indicators that the threat actors were using <a href="https://slack.com/" target="_blank" rel="noopener noreferrer">Slack</a>, a messaging platform commonly used for team communication and collaboration, to coordinate their activities.</p>
+<p>When investigating patterns of account activity and search behavior using Validin log data, we observed that the <code>jimmr6587[@]gmail.com</code> account was the first to search for the domain <code>webcamfixer[.]online</code> on 12 March 2025 at 22:54:19 UTC, followed by <code>excellentreporter321[@]gmail.com</code> (22:55:17 UTC), <code>rockstar96054[@]gmail.com</code> (22:55:25 UTC), <code>richardkdavis45[@]gmail.com</code> (22:55:43 UTC), and <code>fairdev610[@]gmail.com</code> (22:55:55 UTC).</p>
+<p>Our cross-examination of web server log data revealed that the search by <code>jimmr6587[@]gmail.com</code> was followed by requests to Validin from Slack Robots for the same URL generated by the search (<code>/detail?type=dom&amp;find=webcamfixer[.]online</code>). <a href="https://api.slack.com/robots" target="_blank" rel="noopener noreferrer">Slack Robots</a> retrieve web content when a user posts a URL in a channel or direct message, displaying summary information such as the page title, meta description, and a preview image.</p>
+<p>These Slack Bot requests were followed by requests to the same URL from the IP addresses from which the accounts <code>excellentreporter321[@]gmail.com</code>, <code>rockstar96054[@]gmail.com</code>, <code>richardkdavis45[@]gmail.com</code>, and <code>fairdev610[@]gmail.com</code> had logged in. The timing of these requests aligns with each account’s respective search for <code>webcamfixer[.]online</code> as recorded in Validin logs.</p>
+<figure id="attachment_125910" aria-describedby="caption-attachment-125910" style="width: 723px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_13.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-125910" src="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_13.jpg" alt="Web server log data" width="723" height="283" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_13.jpg 723w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_13-300x117.jpg 300w" sizes="auto, (max-width: 723px) 100vw, 723px" /></a><figcaption id="caption-attachment-125910" class="wp-caption-text">Web server log data</figcaption></figure>
+<p>This suggests that the individual operating the <code>jimmr6587[@]gmail.com</code> account searched for <code>webcamfixer[.]online</code> in Validin, pasted the resulting URL into Slack, and that the individuals behind the other accounts subsequently clicked on the shared link in quick succession.</p>
+<h2>Validin Use | Limited Infrastructure Changes</h2>
+<p>Despite thoroughly investigating CTI information and identifying artifacts that could be used to discover their infrastructure, we did not observe any systematic or widespread actions by the Contagious Interview threat actors to make their infrastructure more difficult to discover and to protect it against detection and disruption. We observed only sporadic changes of limited scale that did not significantly reduce the infrastructure’s visibility to defenders and threat researchers.</p>
+<p>For example, after searching in Validin for the keyword <code>SkillMaster</code>, which is the title of multiple Contagious Interview websites, the threat actors changed the title of only one site, <code>skillmasteryhub[.]us</code>, from <code>SkillMaster</code> to <code>SkillUp</code> a few hours after the search. This change was not applied to other websites with the same title, such as <code>VidHireHub[.]com</code>.</p>
+<figure id="attachment_125913" aria-describedby="caption-attachment-125913" style="width: 795px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_10.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-125913" src="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_10.jpg" alt="Website title change on 13 March 2025, as seen in Validin" width="795" height="150" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_10.jpg 795w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_10-300x57.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_10-768x145.jpg 768w" sizes="auto, (max-width: 795px) 100vw, 795px" /></a><figcaption id="caption-attachment-125913" class="wp-caption-text">Website title change on 13 March 2025, as seen in Validin</figcaption></figure>
+<p>Many of the Contagious Interview domains that the threat actors searched for in Validin were <a href="https://x.com/Namecheap/status/1902083743902543980" target="_blank" rel="noopener noreferrer">taken down</a> by their respective registrars shortly after the search activity. Some may have been voluntarily deactivated by the threat actors themselves, likely to avoid seizure or further investigation, particularly if the domains were linked to their operational security. For example, the A DNS record for the domain <code>careerquestion[.]com</code> was removed just a few hours after the threat actors searched for it in Validin and confirmed its association with their operation.</p>
+<p>The lack of systematic changes to their infrastructure, despite the threat actors’ thorough examination of CTI information, suggests several possible explanations.</p>
+<p>Given the continuous success of the campaign in engaging job applicants, the threat actors may be prioritizing maintaining operational readiness and meeting their objectives by rapidly deploying new assets to replace disrupted infrastructure, rather than undertaking large-scale targeted changes. We observed a high rate of new infrastructure deployment by the Contagious Interview threat actors alongside losses of existing infrastructure due to actions by service providers, which supports this assessment.</p>
+<p>There may be internal limitations, such as a lack of a central authoritative command structure or resource constraints affecting their ability to modify infrastructure rapidly and at scale. Additionally, the North Korean regime <a href="https://reports.dtexsystems.com/DTEX-Exposing+DPRK+Cyber+Syndicate+and+Hidden+IT+Workforce.pdf" target="_blank" rel="noopener noreferrer">sets annual earnings quotas</a> for cyber teams, requiring them to self-fund while meeting revenue targets. These quotas likely incentivize operatives to continually seek new income sources, fostering intense competition within teams. As a result, individuals managing only portions of the Contagious Interview infrastructure may make limited changes aimed at evading detection of the infrastructure they oversee, thereby gaining advantages over colleagues, rather than engaging in coordinated, large-scale modifications.</p>
+<h2>Validin Use | New Infrastructure And OPSEC Failures</h2>
+<p>The activity patterns of the <code>info@versusx[.]us</code> account on Validin, which we intentionally kept active over the long term, suggest that the threat actors used the platform not only to monitor for signs of detection related to their existing infrastructure, but also:</p>
+<ul>
+<li aria-level="1">To scout and evaluate new infrastructure prior to purchase, highly likely to determine whether it had been previously reported as malicious. This helps the threat actors avoid acquiring assets already labeled as malicious, which would increase the risk of detection and reduce the effectiveness of their operations once deployed.</li>
+<li aria-level="1">To monitor newly acquired infrastructure throughout its lifecycle for any indicators of detection.</li>
+</ul>
+<p>For instance, on March 25, 2025, we observed the <code>info@versusx[.]us</code> account searching for the domain names <code>hiringassessment[.]net</code>, <code>hiringassessment[.]com</code>, <code>hireassessment[.]com</code>, <code>easyjobinterview[.]org</code>, and <code>screenquestion[.]org</code>. All of these domains were available for purchase at the time. These names align with the recruitment-related themes typically used in Contagious Interview activities.</p>
+<p>The <code>info@versusx[.]us</code> account also searched for multiple domains shortly after they were purchased and continued monitoring them for signs of detection after deploying web content. One example is <code>skillquestions[.]com</code>, which was first queried on March 25, 2025, at 17:33:34 UTC, just minutes before it was registered at 17:41:14 UTC. Additional searches occurred shortly before content was deployed on April 23, 2025, and continued periodically until May 6, 2025. According to Validin data, the <code>skillquestions[.]com</code> website remained operational until at least May 13, 2025, at 20:44:27 UTC.</p>
+<p>Our continuous monitoring of the planning, acquisition, and deployment of new Contagious Interview infrastructure allowed us to identify OPSEC mistakes made by the threat actors throughout the process. We observed multiple instances of such errors, including the unintended exposure of files and directory contents, which indicate poor OPSEC practices during infrastructure deployment and provide further insight into their operations.</p>
+<p>For example, <code>api.release-drivers[.]online</code> was exposing its web root directory, the files it contained, and their associated modification timestamps. This included error logs from a Node.js application stored in <code>/home/relefmwz/api.release-drivers[.]online/</code>, indicating that the threat actors used the username <code>relefmwz</code>. The exposed timestamps provide insight into when the Contagious Interview operators deployed content to the server, allowing us to reconstruct their activity timeline.</p>
+<figure id="attachment_125906" aria-describedby="caption-attachment-125906" style="width: 996px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="wp-image-125906 size-full" src="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_4.jpg" alt="Exposed web root directory of api.release-drivers[.]online" width="996" height="384" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_4.jpg 996w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_4-300x116.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_4-768x296.jpg 768w" sizes="auto, (max-width: 996px) 100vw, 996px" /><figcaption id="caption-attachment-125906" class="wp-caption-text">Exposed web root directory of <em>api.release-drivers[.]online</em></figcaption></figure>
+<p>Further, several newly deployed ClickFix malware distribution servers, such as <code>api.camdriverhelp[.]club</code> and <code>api.drive-release[.]cloud</code>, were exposing ContagiousDrop applications along with the log files they had generated. These files contain information on affected individuals, allowing us to gain valuable insights into the victimology of the campaigns.</p>
+<h2>ContagiousDrop Applications</h2>
+<p>The ContagiousDrop applications, typically implemented in <code>app.js files</code>, are deployed on ClickFix malware distribution servers such as <code>api.drive-release[.]cloud</code>. These applications run servers that listen on configured ports to handle incoming HTTP GET and POST requests, executing different functions based on the specific request path.</p>
+<p>The ContagiousDrop applications deliver malware disguised as software updates or essential utilities. They distribute a tailored payload based on the victim’s operating system (Windows, macOS, or Linux), system architecture, and method of interaction with the server, such as the use of the <code>curl</code> command.</p>
+<figure id="attachment_125904" aria-describedby="caption-attachment-125904" style="width: 540px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_7.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-125904" src="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_7.jpg" alt="Operating system-specific malware delivery" width="540" height="203" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_7.jpg 540w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_7-300x113.jpg 300w" sizes="auto, (max-width: 540px) 100vw, 540px" /></a><figcaption id="caption-attachment-125904" class="wp-caption-text">Operating system-specific malware delivery</figcaption></figure>
+<p>In addition to delivering malware, the ContagiousDrop applications feature an integrated email notification system. These notifications, sent from a configured email address such as <code>designedcuratedamy58[@]gmail.com</code>, provide the Contagious Interview threat actors with insights into victim engagement and interaction patterns and are delivered to their configured recipient addresses. For example, an email is triggered when an affected individual starts a fake skill assessment or executes a <code>curl</code> command to download a file from the ClickFix malware distribution server.</p>
+<figure id="attachment_125912" aria-describedby="caption-attachment-125912" style="width: 504px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_11.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-125912" src="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_11.jpg" alt="Email notification recipients" width="504" height="350" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_11.jpg 504w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_11-300x208.jpg 300w" sizes="auto, (max-width: 504px) 100vw, 504px" /></a><figcaption id="caption-attachment-125912" class="wp-caption-text">Email notification recipients</figcaption></figure>
+<p>Furthermore, these applications record victim information across multiple files and interaction points, effectively building a victimology database and logging victim activities. For example, initial and later engagements are captured in <code>client_ips_start_test.json</code> and <code>client_ips_submit.json</code>, including details such as full name, email address, IP address, phone number, and the date of interaction. Malware download initiations are logged in files such as <code>client_ips_start.json</code> and <code>client_ips_mac_start.json</code>, which capture operating system–specific payload delivery.</p>
+<figure id="attachment_125903" aria-describedby="caption-attachment-125903" style="width: 631px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_8.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="wp-image-125903 size-full" src="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_8.jpg" alt="Logging to client_ips_start_test.json" width="631" height="372" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_8.jpg 631w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_8-300x177.jpg 300w" sizes="auto, (max-width: 631px) 100vw, 631px" /></a><figcaption id="caption-attachment-125903" class="wp-caption-text">Logging to <em>client_ips_start_test.json</em></figcaption></figure>
+<h2>ContagiousDrop | Victimology</h2>
+<p>Based on ContagiousDrop log files we retrieved, we identified over 230 individuals who engaged with Contagious Interview lures between mid-January and the end of March 2025. This figure is based on log files from only a few Contagious Interview servers; therefore, the actual number of affected individuals is likely significantly higher. Their engagement spanned multiple stages of the attack, including completing fake assessment tests and progressing to the infection phase via the ClickFix technique.</p>
+<p>Most of the affected individuals work in roles related to cryptocurrency and blockchain technologies, primarily within the marketing and finance sectors, and are geographically distributed worldwide. They engaged with lures involving various job positions, such as Portfolio Manager, Investment Manager, and Senior Product Manager, across a range of impersonated companies including Archblock, Robinhood, and eToro.</p>
+<figure id="attachment_125902" aria-describedby="caption-attachment-125902" style="width: 1999px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_9.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-125902" src="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_9.jpg" alt="Contagious Interview victimology" width="1999" height="1278" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_9.jpg 1999w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_9-300x192.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_9-1024x655.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_9-768x491.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_9-1536x982.jpg 1536w" sizes="auto, (max-width: 1999px) 100vw, 1999px" /></a><figcaption id="caption-attachment-125902" class="wp-caption-text">Contagious Interview victimology</figcaption></figure>
+<p>In addition to entries related to victim activity, the ContagiousDrop logs also contain records likely generated during testing of lure deployment and campaign infrastructure by the Contagious Interview threat actors themselves. They used email addresses and persona names we have associated with them, such as <code>awesomium430[@]gmail.com</code> (found in ContagiousDrop code) and Richard Davis. Other names, such as <code>test</code>, <code>test user</code>, and <code>Lazaro</code>, indicate internal testing activity, with <code>Lazaro</code> likely being derived from the name of the North Korean umbrella threat cluster associated with Contagious Interview activities: Lazarus.</p>
+<p><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_2.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="wp-image-125908 size-full aligncenter" src="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_2.jpg" alt="" width="325" height="157" /></a></p>
+<figure id="attachment_125907" aria-describedby="caption-attachment-125907" style="width: 325px" class="wp-caption aligncenter"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_3.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-125907" src="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_3.jpg" alt="Log entries" width="325" height="157" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_3.jpg 325w, https://www.sentinelone.com/wp-content/uploads/2025/07/ContInt_Validin_July2025_3-300x145.jpg 300w" sizes="auto, (max-width: 325px) 100vw, 325px" /></a><figcaption id="caption-attachment-125907" class="wp-caption-text">Log entries</figcaption></figure>
+<h2>Conclusions</h2>
+<p>North Korean threat groups actively examine CTI information to identify threats to their operations and improve the resilience and effectiveness of their campaigns, depending on their operational priorities. In addition to the actors behind the Contagious Interview campaign cluster, SentinelLABS has also observed other North Korean groups demonstrating interest in threat intelligence prior to the activities discussed in this post. In 2024, we <a href="https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals/" target="_blank" rel="noopener noreferrer">retrieved malware</a> associated with ScarCruft, likely designed to target consumers of threat intelligence reporting, such as threat researchers and other cybersecurity professionals. We suspect the actors aimed to gain insights into non-public CTI and defensive strategies.</p>
+<p>In this post, we disclose indicators and TTPs that enable the sustained tracking of the Contagious Interview threat actors. While we expect them to alter their methods as a result, the expanding scale and broad targeting of these operations suggests greater benefit in empowering the wider public to effectively defend than there is in hoarding actionable intelligence indefinitely. SentinelLABS maintains other methods of tracking these evolving campaigns.</p>
+<p>Based on our observations, the Contagious Interview threat actors do not implement systematic changes to their infrastructure based on the CTI information they consume from multiple sources, which could make their operations harder to detect or disrupt. Despite this, they continue to achieve a relatively high success rate in attracting job seekers through fraudulent employment offers and skill assessment tests. Their operational strategy appears to prioritize promptly replacing infrastructure lost due to takedown efforts by service providers, using newly provisioned infrastructure to sustain their activity.</p>
+<p>Therefore, a critical element in mitigating this threat is the human factor. It is important that job seekers, particularly those within the cryptocurrency sector, exercise heightened vigilance when engaging with employment offers and associated assessments.</p>
+<p>In addition, infrastructure service providers play an important role in disrupting Contagious Interview operations. Continuous and effective actions against the threat actors’ infrastructure can significantly reduce their capacity to carry out attacks. Close collaboration and coordination between service providers and the threat intelligence community are crucial to mitigating the impact of these activities. SentinelLABS and Validin remain committed to sharing timely and actionable threat intelligence to support these collaborative efforts.</p>
+<h2>Indicators of Compromise</h2>
+<p><b>Email Addresses (Contagious Interview Operators)</b></p>
+<div style="font-size:0.8em">
+admin[@]quickproassess[.]com<br />
+awesomium430[@]gmail.com<br />
+betosoto2819[@]gmail.com<br />
+brooksliam534[@]gmail.com<br />
+chris[@]wegrowup[.]us<br />
+daisukeokitsugu[@]gmail.com<br />
+denys[@]gmail.com<br />
+designedcuratedamy58[@]gmail.com<br />
+dzsignzdcuatzdamy[@]gmail.com<br />
+eliteengineer0523[@]gmail.com<br />
+excellentreporter321[@]gmail.com<br />
+fairdev610[@]gmail.com<br />
+ghostmaxim777[@]outlook.com<br />
+hundredup2023[@]gmail.com<br />
+huzqur023[@]gmail.com<br />
+info[@]versusx[.]us<br />
+invite[@]quiz-nest[.]com<br />
+jimmr6587[@]gmail.com<br />
+johnkane84830[@]gmail.com<br />
+legendaryaladdin[@]motionassess[.]com<br />
+marvel714jm[@]gmail.com<br />
+maxwell[@]gmail.com<br />
+montessantiago9712[@]gmail.com<br />
+mvsolution9[@]gmail.com<br />
+phoenixfire471[@]gmail.com<br />
+richardkdavis45[@]gmail.com<br />
+rockstar96054[@]gmail.com<br />
+rodriguezjamesdaniel0807[@]gmail.com<br />
+rv882866.hstgr.cloud[@]glitchmedic[.]com<br />
+sinbad[@]hirelytics360[.]com<br />
+thedrgn1011[@]gmail.com<br />
+trevorgreer9312[@]gmail.com<br />
+yudaiaoyama14[@]gmail.com
+</div>
+<p>&nbsp;<br />
+<b>IP Addresses</b></p>
+<div style="overflow-x:auto; font-size:0.8em;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 25px;">
+<td style="width: 30%; height: 25px;"><strong>Value</strong></td>
+<td style="width: 70%; height: 25px;"><strong>Note</strong></td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 30%; height: 25px;">181.215.9[.]29</td>
+<td style="width: 70%; height: 25px;">Used for account registration and logging into Validin</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 30%; height: 25px;">181.53.13[.]189</td>
+<td style="width: 70%; height: 25px;">Used for logging into Validin</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 30%; height: 25px;">181.59.180[.]84</td>
+<td style="width: 70%; height: 25px;">Used for account registration and logging into Validin</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 30%; height: 25px;">194.33.45[.]162</td>
+<td style="width: 70%; height: 25px;">Used for account registration and logging into Validin</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 30%; height: 25px;">216.24.215[.]231</td>
+<td style="width: 70%; height: 25px;">Used for logging into Validin</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 30%; height: 25px;">38.170.181[.]10</td>
+<td style="width: 70%; height: 25px;">Used for account registration and logging into Validin</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 30%; height: 25px;">45.86.208[.]162</td>
+<td style="width: 70%; height: 25px;">Used for account registration and logging into Validin</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 30%; height: 25px;">70.32.3[.]15</td>
+<td style="width: 70%; height: 25px;">Used for account registration and logging into Validin</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 30%; height: 25px;">70.39.70[.]194</td>
+<td style="width: 70%; height: 25px;">Used for account registration and logging into Validin</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 30%; height: 25px;">77.247.126[.]189</td>
+<td style="width: 70%; height: 25px;">Used for Validin account registration</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 30%; height: 25px;">89.19.58[.]51</td>
+<td style="width: 70%; height: 25px;">Used for account registration and logging into Validin</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 30%; height: 25px;">96.62.127[.]126</td>
+<td style="width: 70%; height: 25px;">Used for account registration and logging into Validin</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><b>Contagious Interview Domains</b></p>
+<div style="font-size:0.8em">
+careerquestion[.]com<br />
+evaluateiq[.]com<br />
+hirelytics360[.]com<br />
+motionassess[.]com<br />
+nvidia-release[.]us<br />
+paxos-video-interview[.]com<br />
+paxosassessments[.]com<br />
+quickproassess[.]com<br />
+quiz-nest[.]com<br />
+robinhood[.]evalvidz[.]com<br />
+skill-share[.]org<br />
+skillcheck[.]pro<br />
+skillmasteryhub[.]us<br />
+skillquestions[.]com<br />
+talentcheck[.]pro<br />
+versusx[.]us<br />
+vidassesspro[.]com<br />
+VidHireHub[.]com<br />
+webcamfixer[.]online<br />
+willotalent[.]us
+</div>
+<p>&nbsp;<br />
+<b>ClickFix Malware Distribution Servers</b></p>
+<div style="font-size:0.8em">
+api.camdriverhelp[.]club<br />
+api.drive-release[.]cloud<br />
+api.release-drivers[.]online<br />
+glitchmedic[.]com
+</div>
+<p>&nbsp;<br />
+<b>Domains Scouted by Contagious Interview Operators</b></p>
+<div style="font-size:0.8em">
+easyjobinterview[.]org<br />
+hireassessment[.]com<br />
+hiringassessment[.]com<br />
+hiringassessment[.]net<br />
+screenquestion[.]org
+</div>
+<p>&nbsp;</p>
+<p><b>SHA-1 Hashes</b></p>
+<div style="overflow-x:auto; font-size:0.8em;">
+<table style="border-collapse: collapse; width: 100%; height: 120px;">
+<tbody>
+<tr style="height: 25px;">
+<td style="width: 60%; height: 25px;"><strong>Value</strong></td>
+<td style="width: 40%; height: 25px;"><strong>Note</strong></td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 60%; height: 25px;">24042a8eea9b9c20af1f7bae00296b44968a068f</td>
+<td style="width: 40%; height: 25px;">ContagiousDrop application (app.js)</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 60%; height: 25px;">44ddabf5b5d601077936a130a2863a96d2af1c8e</td>
+<td style="width: 40%; height: 25px;">ContagiousDrop application (app.js)</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 60%; height: 25px;">4a8bfa28d46ae14e45a50e105e2d34f850ffa96c</td>
+<td style="width: 40%; height: 25px;">ContagiousDrop application (app.js)</td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content:encoded>
+					
+		
+		
+		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/07/ConInt_Validin_July2025_ftr.jpg" length="542352" type="image/jpeg" />	</item>
+		<item>
 		<title>Smart Contract Scams &#124; Ethereum Drainers Pose as Trading Bots to Steal Crypto</title>
 		<link>https://www.sentinelone.com/labs/smart-contract-scams-ethereum-drainers-pose-as-trading-bots-to-steal-crypto/</link>
 		
@@ -49,13 +486,13 @@
 <li aria-level="1">Large decimal to hex: converts a 256-bit integer to the <code>uint160</code> data type, which removes the 12 high bytes and the ETH address remains. Solidity <a href="https://docs.soliditylang.org/en/latest/types.html" target="_blank" rel="noopener noreferrer">recognizes</a> <code>uint160</code> values as Ethereum wallet addresses.</li>
 </ul>
 <p>The XOR method is the most complex of the three examples and it has been used across multiple weaponized Solidity contracts that results in the same calculated attacker EOA, <code>0x872528989c4D20349D0dB3Ca06751d83DC86D831</code>. The contract declaration <code>DexInterface</code> contains two constants labeled <code>apiKey</code> and <code>apiSignature</code>. The contract declaration sets these values in the <code>dataProvider</code> variable;, when XOR’ed, this contains the smart contract address <code>0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2</code>. The value is  passed into the <code>getDexRouter</code> function later in the Solidity code.</p>
-<figure id="attachment_125917" aria-describedby="caption-attachment-125917" style="width: 834px" class="wp-caption alignnone"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_7.jpg" target="_blank" rel="noopener noreferrer"><img fetchpriority="high" decoding="async" class="size-full wp-image-125917" src="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_7.jpg" alt="The DexInterface contract declaration in a weaponized Solidity contract using XOR obfuscation technique" width="834" height="516" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_7.jpg 834w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_7-300x186.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_7-768x475.jpg 768w" sizes="(max-width: 834px) 100vw, 834px" /></a><figcaption id="caption-attachment-125917" class="wp-caption-text">The DexInterface contract declaration in a weaponized Solidity contract using XOR obfuscation technique</figcaption></figure>
+<figure id="attachment_125917" aria-describedby="caption-attachment-125917" style="width: 834px" class="wp-caption alignnone"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_7.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-125917" src="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_7.jpg" alt="The DexInterface contract declaration in a weaponized Solidity contract using XOR obfuscation technique" width="834" height="516" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_7.jpg 834w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_7-300x186.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_7-768x475.jpg 768w" sizes="auto, (max-width: 834px) 100vw, 834px" /></a><figcaption id="caption-attachment-125917" class="wp-caption-text">The DexInterface contract declaration in a weaponized Solidity contract using XOR obfuscation technique</figcaption></figure>
 <p>The <code>DexInterface</code> contract declaration calls the function <code>getDexRouter</code>, which calculates the attacker’s EOA from the <code>DexRouter</code> and <code>factory</code> constants by XORing the two values,  resulting in EOA <code>0x872528989c4D20349D0dB3Ca06751d83DC86D831</code>.</p>
-<figure id="attachment_125915" aria-describedby="caption-attachment-125915" style="width: 898px" class="wp-caption alignnone"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_9.jpg" target="_blank" rel="noopener noreferrer"><img decoding="async" class="size-full wp-image-125915" src="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_9.jpg" alt="Functions in XOR obfuscated Solidity contract that calculate the attacker’s EOA and create the contract" width="898" height="209" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_9.jpg 898w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_9-300x70.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_9-768x179.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_9-221x51.jpg 221w" sizes="(max-width: 898px) 100vw, 898px" /></a><figcaption id="caption-attachment-125915" class="wp-caption-text">Functions in XOR obfuscated Solidity contract that calculate the attacker’s EOA and create the contract</figcaption></figure>
+<figure id="attachment_125915" aria-describedby="caption-attachment-125915" style="width: 898px" class="wp-caption alignnone"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_9.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-125915" src="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_9.jpg" alt="Functions in XOR obfuscated Solidity contract that calculate the attacker’s EOA and create the contract" width="898" height="209" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_9.jpg 898w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_9-300x70.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_9-768x179.jpg 768w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_9-221x51.jpg 221w" sizes="auto, (max-width: 898px) 100vw, 898px" /></a><figcaption id="caption-attachment-125915" class="wp-caption-text">Functions in XOR obfuscated Solidity contract that calculate the attacker’s EOA and create the contract</figcaption></figure>
 <p>In all cases regardless of obfuscation technique, when a victim deploys the smart contract, there are two owner values set: the victim’s own wallet and the obfuscated attacker EOA. For the scam to work, the victim must then fund the contract by sending ETH to the new contract. The scam instruction videos tell the victim to deploy the contract with a call like <code>Start()</code> or <code>StartNative()</code>, initializing another call that derives the trade router address, which is actually the attacker EOA that had been obfuscated using one of the techniques outlined above. However, even if the victim does not call <code>Start()</code> after funding the contract, the contract contains a failover mechanism that allows the attacker to withdraw funds that have been sent to the contract.</p>
 <h2>YouTube Video Distribution</h2>
 <p>These scams are distributed through YouTube videos explaining the smart contracts as trading arbitrage bots–also known as Maximal Extractable Value (MEV) bots–that automatically trade cryptocurrency based on market fluctuations. The goal of legitimate <a href="https://www.blocknative.com/blog/mev-and-creating-a-basic-arbitrage-bot-on-ethereum-mainnet" target="_blank" rel="noopener noreferrer">MEV</a> bots is to monitor for price differences in a single asset such as Ethereum between different cryptocurrency exchanges and trade that to the operator’s advantage. One channel we identified belongs to YouTube user @todd_tutorials, who posted step by step instructions on deploying the weaponized smart contract. The video was available when our research began, but has since been made <a href="https://www.youtube.com/watch?v=yhyJGd9FGUI" target="_blank" rel="noopener noreferrer">private</a>. The voice and person narrating the video displayed characteristics of AI-generated content: a robotic voice with inconsistent speech pacing and awkward facial movements.</p>
-<figure id="attachment_125923" aria-describedby="caption-attachment-125923" style="width: 1018px" class="wp-caption alignnone"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_10.jpg" target="_blank" rel="noopener noreferrer"><img decoding="async" class="size-full wp-image-125923" src="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_10.jpg" alt="Instructions to deploy a weaponized smart contract disguised as a crypto trading bot" width="1018" height="461" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_10.jpg 1018w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_10-300x136.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_10-768x348.jpg 768w" sizes="(max-width: 1018px) 100vw, 1018px" /></a><figcaption id="caption-attachment-125923" class="wp-caption-text">Instructions to deploy a weaponized smart contract disguised as a crypto trading bot</figcaption></figure>
+<figure id="attachment_125923" aria-describedby="caption-attachment-125923" style="width: 1018px" class="wp-caption alignnone"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_10.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-125923" src="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_10.jpg" alt="Instructions to deploy a weaponized smart contract disguised as a crypto trading bot" width="1018" height="461" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_10.jpg 1018w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_10-300x136.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_10-768x348.jpg 768w" sizes="auto, (max-width: 1018px) 100vw, 1018px" /></a><figcaption id="caption-attachment-125923" class="wp-caption-text">Instructions to deploy a weaponized smart contract disguised as a crypto trading bot</figcaption></figure>
 <p>The accounts are aged and several have a history of posting other sources’ cryptocurrency news as playlists. This is likely to build credibility to the account as a source for crypto news. Each of the scams instructs users to deposit a minimum of .5 ETH to ensure sufficient funds for arbitrage profit, as well as accounting for gas fees,  which are required for any transaction to move across the blockchain and increase in cases with multiple transactions.</p>
 <figure id="attachment_125924" aria-describedby="caption-attachment-125924" style="width: 1357px" class="wp-caption alignnone"><a href="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_1.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" class="size-full wp-image-125924" src="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_1.jpg" alt="Playlists posted by todd_tutorials YouTube account" width="1357" height="861" srcset="https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_1.jpg 1357w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_1-300x190.jpg 300w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_1-1024x650.jpg 1024w, https://www.sentinelone.com/wp-content/uploads/2025/07/Eth_Drainer_1-768x487.jpg 768w" sizes="auto, (max-width: 1357px) 100vw, 1357px" /></a><figcaption id="caption-attachment-125924" class="wp-caption-text">Playlists posted by todd_tutorials YouTube account</figcaption></figure>
 <p>Despite wallet history suggesting that some users fell victim to the scam, the YouTube video comments are overwhelmingly positive. We believe that the video creators have most likely enabled comment management <a href="https://support.google.com/youtube/answer/9483359?hl=en#zippy=,on,blocked-words" target="_blank" rel="noopener noreferrer">features</a> offered by YouTube that give the creator control over approving comments and filtering certain keywords.</p>
@@ -2894,30 +3331,5 @@ fb7fdcc2fe11e95065a0ce9041348984427ca0f4</p>
 		
 		
 		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/Dakota_LABScon24-ftr.jpg" length="613749" type="image/jpeg" />	</item>
-		<item>
-		<title>LABScon24 Replay &#124; Kryptina RaaS: From Unsellable Cast-off to Enterprise Ransomware</title>
-		<link>https://www.sentinelone.com/labs/labscon24-replay-kryptina-raas-from-unsellable-cast-off-to-enterprise-ransomware/</link>
-		
-		<dc:creator><![CDATA[LABScon]]></dc:creator>
-		<pubDate>Wed, 26 Mar 2025 13:00:16 +0000</pubDate>
-				<category><![CDATA[labscon24]]></category>
-		<guid isPermaLink="false">https://www.sentinelone.com/?post_type=labs&#038;p=115093</guid>
-
-					<description><![CDATA[Jim Walter reveals how a recent leak provided insight into how Kryptina RaaS has been adapted for use in enterprise attacks. ]]></description>
-										<content:encoded><![CDATA[<p>Kryptina RaaS is a Linux-focused RaaS platform &amp; service that started life as an unsellable giveaway. However, large-scale ransomware operations are now adopting the platform to extend their reach into Linux and cloud environments.</p>
-<p>In this talk, Jim Walter reveals how a recent leak from a Mallox ransomware-affiliated actor’s staging server provided insight into how Kryptina has been adapted for use in enterprise attacks.</p>
-<p>The presentation focuses on recent developments and provides an understanding of why threat actors are attracted to the Kryptina platform, and what this means in the context of victims and targeting.</p>
-<p>Jim also dissects what was included in the May 2024 Mallox leak and improvements and modifications that threat actors have made to the Kryptina platform.</p>
-<p><iframe loading="lazy" src="https://www.youtube.com/embed/SobaTW71C-A" width="700" height="392" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<h2>About the Author</h2>
-<p>Jim Walter is a Senior Threat Researcher at SentinelOne focusing on evolving trends, actors, and tactics within the thriving ecosystem of cybercrime and crimeware. He specializes in the discovery and analysis of emerging cybercrime “services” and evolving communication channels leveraged by mid-level criminal organizations.</p>
-<h2>About LABScon</h2>
-<p>This presentation was featured live at <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon</a> 2024, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLABS.</p>
-<p>Keep up with all the latest on <a href="https://www.labscon.io/" target="_blank" rel="noopener noreferrer">LABScon 2025</a> here.</p>
-]]></content:encoded>
-					
-		
-		
-		<enclosure url="https://www.sentinelone.com/wp-content/uploads/2025/02/Jim-LABScon24-ftr.jpg" length="73546" type="image/jpeg" />	</item>
 	</channel>
 </rss>
