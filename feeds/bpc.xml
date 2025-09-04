@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 04 Sep 2025 14:01:38 EDT</pubDate>
+        <pubDate>Thu, 04 Sep 2025 15:01:47 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers exploited Sitecore zero-day flaw to deploy backdoors</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-exploited-sitecore-zero-day-flaw-to-deploy-backdoors/</link>
+        <pubDate>Thu, 04 Sep 2025 14:51:42 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploited-sitecore-zero-day-flaw-to-deploy-backdoors/</guid>
+	<description><![CDATA[Threat actors have been exploiting a zero-day vulnerability in legacy Sitecore deployments to deploy WeepSteel reconnaissance malware. [...]]]></description>
+ </item>
+
  <item>
         <title>Texas sues PowerSchool over breach exposing 62M students, 880k Texans</title>
         <link>https://www.bleepingcomputer.com/news/security/texas-sues-powerschool-after-massive-data-breach-hit-62-million-students/</link>
@@ -176,34 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-sues-robot-toy-maker-for-exposing-childrens-data-to-chinese-devs/</guid>
 	<description><![CDATA[The U.S. Department of Justice has sued toy maker Apitor Technology for allegedly allowing a Chinese third party to collect children's geolocation data without their knowledge and parental consent. [...]]]></description>
- </item>
-
- <item>
-        <title>Police disrupts Streameast, largest pirated sports streaming network</title>
-        <link>https://www.bleepingcomputer.com/news/security/streameast-the-largest-pirated-sports-platform-disrupted-by-police/</link>
-        <pubDate>Wed, 03 Sep 2025 12:45:09 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/streameast-the-largest-pirated-sports-platform-disrupted-by-police/</guid>
-	<description><![CDATA[The Alliance for Creativity and Entertainment (ACE) and Egyptian authorities have shut down Streameast, the world's largest illegal live sports streaming network, and arrested two people allegedly associated with the operation. [...]]]></description>
- </item>
-
- <item>
-        <title>SaaS giant Workiva discloses data breach after Salesforce attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/saas-giant-workiva-discloses-data-breach-after-salesforce-attack/</link>
-        <pubDate>Wed, 03 Sep 2025 12:40:44 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/saas-giant-workiva-discloses-data-breach-after-salesforce-attack/</guid>
-	<description><![CDATA[Workiva, a leading cloud-based SaaS (Software as a Service) provider, notified its customers that attackers who gained access to a third-party customer relationship management (CRM) system stole some of their data. [...]]]></description>
  </item>
 
 </channel>
