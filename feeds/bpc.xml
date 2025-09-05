@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 05 Sep 2025 09:04:48 EDT</pubDate>
+        <pubDate>Fri, 05 Sep 2025 10:01:53 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Critical SAP S/4HANA vulnerability now exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/critical-sap-s-4hana-vulnerability-now-exploited-in-attacks/</link>
+        <pubDate>Fri, 05 Sep 2025 09:36:35 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/critical-sap-s-4hana-vulnerability-now-exploited-in-attacks/</guid>
+	<description><![CDATA[A critical SAP S/4HANA code injection vulnerability is being leveraged in attacks in the wild to breach exposed servers, researchers warn. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers exploited Sitecore zero-day flaw to deploy backdoors</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-exploited-sitecore-zero-day-flaw-to-deploy-backdoors/</link>
@@ -160,36 +174,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-offers-10-million-bounty-for-info-on-russian-fsb-hackers/</guid>
 	<description><![CDATA[The U.S. Department of State is offering a reward of up to $10 million for information on three Russian Federal Security Service (FSB) officers involved in cyberattacks targeting U.S. critical infrastructure organizations on behalf of the Russian government. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers use new HexStrike-AI tool to rapidly exploit n-day flaws</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-use-new-hexstrike-ai-tool-to-rapidly-exploit-n-day-flaws/</link>
-        <pubDate>Wed, 03 Sep 2025 14:03:42 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-use-new-hexstrike-ai-tool-to-rapidly-exploit-n-day-flaws/</guid>
-	<description><![CDATA[Hackers are increasingly using a new AI-powered offensive security framework called HexStrike-AI in real attacks to exploit newly disclosed n-day flaws. [...]]]></description>
- </item>
-
- <item>
-        <title>US sues robot toy maker for exposing children's data to Chinese devs</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-sues-robot-toy-maker-for-exposing-childrens-data-to-chinese-devs/</link>
-        <pubDate>Wed, 03 Sep 2025 13:53:32 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-sues-robot-toy-maker-for-exposing-childrens-data-to-chinese-devs/</guid>
-	<description><![CDATA[The U.S. Department of Justice has sued toy maker Apitor Technology for allegedly allowing a Chinese third party to collect children's geolocation data without their knowledge and parental consent. [...]]]></description>
  </item>
 
 </channel>
