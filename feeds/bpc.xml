@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 05 Sep 2025 12:01:57 EDT</pubDate>
+        <pubDate>Fri, 05 Sep 2025 13:01:56 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>EU fines Google $3.5 billion for anti-competitive ad practices</title>
+        <link>https://www.bleepingcomputer.com/news/google/eu-fines-google-35-billion-for-anti-competitive-ad-practices/</link>
+        <pubDate>Fri, 05 Sep 2025 12:36:03 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/google/eu-fines-google-35-billion-for-anti-competitive-ad-practices/</guid>
+	<description><![CDATA[The European Commission has fined Google €2.95 billion ($3.5 billion) for abusing its dominance in the digital advertising technology market and favoring its adtech services over those of its competitors. [...]]]></description>
+ </item>
+
  <item>
         <title>Financial services firm Wealthsimple discloses data breach</title>
         <link>https://www.bleepingcomputer.com/news/security/financial-services-firm-wealthsimple-discloses-data-breach/</link>
@@ -184,22 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/tire-giant-bridgestone-confirms-cyberattack-impacts-manufacturing/</guid>
 	<description><![CDATA[Car tire giant Bridgestone confirms it is investigating a cyberattack that impacts the operation of some manufacturing facilities in North America. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft says recent Windows updates cause app install issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-windows-updates-cause-app-install-issues-due-to-unexpected-admin-UAC-prompts/</link>
-        <pubDate>Thu, 04 Sep 2025 07:57:02 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-windows-updates-cause-app-install-issues-due-to-unexpected-admin-UAC-prompts/</guid>
-	<description><![CDATA[Microsoft says the August 2025 security updates are triggering unexpected User Account Control (UAC) prompts and app installation issues for non-admin users across all supported Windows versions. [...]]]></description>
  </item>
 
 </channel>
