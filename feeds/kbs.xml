@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Sat, 06 Sep 2025 03:23:35 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 06 Sep 2025 11:49:14 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -61,7 +61,7 @@
 <p>&#8220;Many of our spamtraps are in repurposed legacy-TLD domains (.com, .org, .net) and therefore could be understood to have been involved with a U.S. entity in their pre-zombie life,&#8221; Tossavainen explained in the LinkedIn post.<span id="more-72091"></span></p>
 <p><strong>Raymond Dijkxhoorn</strong> is the CEO and a founding member of <a href="https://www.surbl.org/" target="_blank" rel="noopener">SURBL</a>, a widely-used blocklist that flags domains and IP addresses known to be used in unsolicited messages, phishing and malware distribution. Dijkxhoorn said their spamtrap data mirrors that of Koli-Lõks, and shows that WinRed has consistently been far more aggressive in sending email than ActBlue.</p>
 <p>Dijkxhoorn said the fact that WinRed&#8217;s emails so often end up dinging the organization&#8217;s sender reputation is not a content issue but rather a technical one.</p>
-<p>&#8220;On our end we don’t really care if the content is political or trying to sell viagra or penis enlargements,&#8221; Dijkhoorn said. &#8220;It’s the mechanics, they should not end up in spamtraps. And that’s the reason the domain reputation is tempered. Not ‘because domain reputation firms have a political agenda.&#8217; We really don&#8217;t care about the political situation anywhere. The same as we don&#8217;t mind people buying penis enlargements. But when either of those land in spamtraps it will impact sending experience.&#8221;</p>
+<p>&#8220;On our end we don’t really care if the content is political or trying to sell viagra or penis enlargements,&#8221; Dijkxhoorn said. &#8220;It’s the mechanics, they should not end up in spamtraps. And that’s the reason the domain reputation is tempered. Not ‘because domain reputation firms have a political agenda.&#8217; We really don&#8217;t care about the political situation anywhere. The same as we don&#8217;t mind people buying penis enlargements. But when either of those land in spamtraps it will impact sending experience.&#8221;</p>
 <p>The FTC letter to Google&#8217;s CEO also referenced a <a href="https://www.techdirt.com/2022/04/11/despite-what-fox-news-tells-you-a-new-study-did-not-prove-that-gmail-is-biased-against-conservatives/" target="_blank" rel="noopener">debunked</a> <a href="https://arxiv.org/pdf/2203.16743.pdf" target="_blank" rel="noopener">2022 study</a> (PDF) by political consultants who found Google caught more Republican emails in spam filters. <strong>Techdirt</strong> editor <strong>Mike Masnick</strong> notes that while the 2022 study also found that other email providers caught more Democratic emails as spam, &#8220;Republicans laser-focused on Gmail because it fit their victimization narrative better.&#8221;</p>
 <p>Masnick said GOP lawmakers then filed both lawsuits and complaints with the <strong>Federal Election Commission</strong> (both of which failed easily), claiming this was somehow an “in-kind contribution” to Democrats.</p>
 <p>&#8220;This is political posturing designed to keep the White House happy by appearing to &#8216;do something&#8217; about conservative claims of &#8216;censorship,'&#8221; Masnick <a href="https://www.techdirt.com/2025/09/04/ftc-chair-fergusons-ridiculous-crusade-threatening-google-over-spam-filters-that-actually-work/" target="_blank" rel="noopener">wrote</a> of the FTC letter. &#8220;The FTC has never policed &#8216;political bias&#8217; in private companies’ editorial decisions, and for good reason—the First Amendment prohibits exactly this kind of government interference.&#8221;</p>
@@ -69,13 +69,13 @@
 <p>The WinRed website says it is an online fundraising platform supported by a united front of the Trump campaign, the <strong>Republican National Committee</strong> (RNC), the NRSC, and the <strong>National Republican Congressional Committee</strong> (NRCC).</p>
 <p>WinRed has recently come under fire for aggressive fundraising via text message as well. In June, <strong>404 Media</strong> reported on <a href="https://www.404media.co/winred-texts-class-action-lawsuit-rnc-donations/" target="_blank" rel="noopener">a lawsuit</a> filed by a family in Utah against the RNC for allegedly bombarding their mobile phones with text messages seeking donations after they&#8217;d tried to unsubscribe from the missives dozens of times.</p>
 <p>One of the family members said they received 27 such messages from 25 numbers, even after sending 20 stop requests. The plaintiffs in that case allege the texts from WinRed and the RNC &#8220;knowingly disregard stop requests and purposefully use different phone numbers to make it impossible to block new messages.&#8221;</p>
-<p>Dijkhoorn said WinRed did inquire recently about why some of its assets had been marked as a risk by SURBL, but he said they appeared to have zero interest in investigating the likely causes he offered in reply.</p>
-<p>&#8220;They only replied with, &#8216;You are interfering with U.S. elections,'&#8221; Dijkhoorn said, noting that many of SURBL&#8217;s spamtrap domains are only publicly listed in the registration records for random domain names.</p>
+<p>Dijkxhoorn said WinRed did inquire recently about why some of its assets had been marked as a risk by SURBL, but he said they appeared to have zero interest in investigating the likely causes he offered in reply.</p>
+<p>&#8220;They only replied with, &#8216;You are interfering with U.S. elections,'&#8221; Dijkxhoorn said, noting that many of SURBL&#8217;s spamtrap domains are only publicly listed in the registration records for random domain names.</p>
 <p>&#8220;They’re at best harvested by themselves but more likely [they] just went and bought lists,&#8221; he said. &#8220;It&#8217;s not like ‘Oh Google is filtering this and not the other,’ the reason isn&#8217;t the provider. The reason is the fundraising spammers and the lists they send to.&#8221;</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/09/gop-cries-censorship-over-spam-filters-that-work/feed/</wfw:commentRss>
-			<slash:comments>4</slash:comments>
+			<slash:comments>7</slash:comments>
 		
 		
 			</item>
@@ -660,5 +660,5 @@ Object Caching 273/273 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-09-06 06:58:01 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-09-06 07:55:02 by W3 Total Cache
 -->
