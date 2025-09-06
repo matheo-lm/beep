@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Wed, 03 Sep 2025 19:15:32 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 06 Sep 2025 03:23:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,66 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>GOP Cries Censorship Over Spam Filters That Work</title>
+		<link>https://krebsonsecurity.com/2025/09/gop-cries-censorship-over-spam-filters-that-work/</link>
+					<comments>https://krebsonsecurity.com/2025/09/gop-cries-censorship-over-spam-filters-that-work/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Sat, 06 Sep 2025 03:23:35 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[404 Media]]></category>
+		<category><![CDATA[ActBlue]]></category>
+		<category><![CDATA[Alphabet]]></category>
+		<category><![CDATA[Andrew Ferguson]]></category>
+		<category><![CDATA[Atro Tossavainen]]></category>
+		<category><![CDATA[Federal Trade Commission]]></category>
+		<category><![CDATA[Koli-Lõks OÜ]]></category>
+		<category><![CDATA[Mike Masnick]]></category>
+		<category><![CDATA[National Republican Congressional Committee]]></category>
+		<category><![CDATA[National Republican Senatorial Committee]]></category>
+		<category><![CDATA[Pekka Jalonen]]></category>
+		<category><![CDATA[Raymond Dijkxhoorn]]></category>
+		<category><![CDATA[Republican National Committee]]></category>
+		<category><![CDATA[Sundar Pichai]]></category>
+		<category><![CDATA[SURBL]]></category>
+		<category><![CDATA[Techdirt]]></category>
+		<category><![CDATA[The New York Post]]></category>
+		<category><![CDATA[WinRed]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=72091</guid>
+
+					<description><![CDATA[The chairman of the Federal Trade Commission (FTC) last week sent a letter to Google's CEO demanding to know why Gmail was blocking messages from Republican senders while allegedly failing to block similar missives supporting Democrats. The letter followed media reports accusing Gmail of disproportionately flagging messages from the GOP fundraising platform WinRed and sending them to the spam folder. But according to experts who track daily spam volumes worldwide, WinRed's messages are getting blocked more because its methods of blasting email are increasingly way more spammy than that of ActBlue, the fundraising platform for Democrats.]]></description>
+										<content:encoded><![CDATA[<p>The chairman of the <strong>Federal Trade Commission</strong> (FTC) last week sent a letter to Google&#8217;s CEO demanding to know why Gmail was blocking messages from Republican senders while allegedly failing to block similar missives supporting Democrats. The letter followed media reports accusing Gmail of disproportionately flagging messages from the GOP fundraising platform <strong>WinRed</strong> and sending them to the spam folder. But according to experts who track daily spam volumes worldwide, WinRed&#8217;s messages are getting blocked more because its methods of blasting email are increasingly way more spammy than that of <strong>ActBlue</strong>, the fundraising platform for Democrats.</p>
+<div id="attachment_72095" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72095" decoding="async" class=" wp-image-72095" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/nyp-google-spam.png" alt="" width="749" height="255" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/09/nyp-google-spam.png 865w, https://krebsonsecurity.com/wp-content/uploads/2025/09/nyp-google-spam-768x262.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/09/nyp-google-spam-782x267.png 782w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-72095" class="wp-caption-text">Image: nypost.com</p></div>
+<p>On Aug. 13, <strong>The New York Post</strong> ran an &#8220;exclusive&#8221; <a href="https://nypost.com/2025/08/13/business/google-caught-flagging-gop-fundraiser-emails-as-suspicious-sending-them-directly-to-spam-memo/" target="_blank" rel="noopener">story</a> titled, &#8220;Google caught flagging GOP fundraiser emails as &#8216;suspicious&#8217; &#8212; sending them directly to spam.&#8221; The story cited a memo from Targeted Victory – whose clients include the National Republican Senatorial Committee (NRSC), Rep. Steve Scalise and Sen. Marsha Blackburn – which said it observed that the &#8220;serious and troubling&#8221; trend was still going on as recently as June and July of this year.</p>
+<p>“If Gmail is allowed to quietly suppress WinRed links while giving ActBlue a free pass, it will continue to tilt the playing field in ways that voters never see, but campaigns will feel every single day,” the memo reportedly said.</p>
+<p>In an August 28 letter to Google CEO <strong>Sundar Pichai</strong>, FTC Chairman <strong>Andrew Ferguson</strong> cited the New York Post story and warned that Gmail&#8217;s parent <strong>Alphabet</strong> may be engaging in unfair or deceptive practices.</p>
+<p>&#8220;Alphabet’s alleged partisan treatment of comparable messages or messengers in Gmail to achieve political objectives may violate both of these prohibitions under the FTC Act,&#8221; Ferguson wrote. &#8220;And the partisan treatment may cause harm to consumers.&#8221;</p>
+<p>However, the situation looks very different when you ask spam experts what&#8217;s going on with WinRed&#8217;s recent messaging campaigns. <strong>Atro Tossavainen</strong> and <strong>Pekka Jalonen</strong> are co-founders at <a href="https://www.koliloks.eu/" target="_blank" rel="noopener">Koli-Lõks OÜ</a>, an email intelligence company in Estonia. Koli-Lõks taps into real-time intelligence about daily spam volumes by monitoring large numbers of &#8220;spamtraps&#8221; &#8212; email addresses that are intentionally set up to catch unsolicited emails.</p>
+<p>Spamtraps are generally not used for communication or account creation, but instead are created to identify senders exhibiting spammy behavior, such as scraping the Internet for email addresses or buying unmanaged distribution lists. As an email sender, blasting these spamtraps over and over with unsolicited email is the fastest way to ruin your domain&#8217;s reputation online. Such activity also virtually ensures that more of your messages are going to start getting listed on spam blocklists that are broadly shared within the global anti-abuse community.</p>
+<p>Tossavainen told KrebsOnSecurity that WinRed&#8217;s emails hit its spamtraps in the .com, .net, and .org space far more frequently than do fundraising emails sent by ActBlue. Koli-Lõks published a graph of the stark disparity in spamtrap activity for WinRed versus ActBlue, showing a nearly fourfold increase in spamtrap hits from WinRed emails in the final week of July 2025.</p>
+<div id="attachment_72094" style="width: 759px" class="wp-caption aligncenter"><a href="https://krebsonsecurity.com/wp-content/uploads/2025/09/koli-loks-red-v-blue.png" target="_blank" rel="noopener"><img aria-describedby="caption-attachment-72094" decoding="async" loading="lazy" class="wp-image-72094" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/koli-loks-red-v-blue.png" alt="" width="749" height="399" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/09/koli-loks-red-v-blue.png 974w, https://krebsonsecurity.com/wp-content/uploads/2025/09/koli-loks-red-v-blue-768x409.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/09/koli-loks-red-v-blue-782x417.png 782w" sizes="(max-width: 749px) 100vw, 749px" /></a><p id="caption-attachment-72094" class="wp-caption-text">Image: Koliloks.eu</p></div>
+<p>&#8220;Many of our spamtraps are in repurposed legacy-TLD domains (.com, .org, .net) and therefore could be understood to have been involved with a U.S. entity in their pre-zombie life,&#8221; Tossavainen explained in the LinkedIn post.<span id="more-72091"></span></p>
+<p><strong>Raymond Dijkxhoorn</strong> is the CEO and a founding member of <a href="https://www.surbl.org/" target="_blank" rel="noopener">SURBL</a>, a widely-used blocklist that flags domains and IP addresses known to be used in unsolicited messages, phishing and malware distribution. Dijkxhoorn said their spamtrap data mirrors that of Koli-Lõks, and shows that WinRed has consistently been far more aggressive in sending email than ActBlue.</p>
+<p>Dijkxhoorn said the fact that WinRed&#8217;s emails so often end up dinging the organization&#8217;s sender reputation is not a content issue but rather a technical one.</p>
+<p>&#8220;On our end we don’t really care if the content is political or trying to sell viagra or penis enlargements,&#8221; Dijkhoorn said. &#8220;It’s the mechanics, they should not end up in spamtraps. And that’s the reason the domain reputation is tempered. Not ‘because domain reputation firms have a political agenda.&#8217; We really don&#8217;t care about the political situation anywhere. The same as we don&#8217;t mind people buying penis enlargements. But when either of those land in spamtraps it will impact sending experience.&#8221;</p>
+<p>The FTC letter to Google&#8217;s CEO also referenced a <a href="https://www.techdirt.com/2022/04/11/despite-what-fox-news-tells-you-a-new-study-did-not-prove-that-gmail-is-biased-against-conservatives/" target="_blank" rel="noopener">debunked</a> <a href="https://arxiv.org/pdf/2203.16743.pdf" target="_blank" rel="noopener">2022 study</a> (PDF) by political consultants who found Google caught more Republican emails in spam filters. <strong>Techdirt</strong> editor <strong>Mike Masnick</strong> notes that while the 2022 study also found that other email providers caught more Democratic emails as spam, &#8220;Republicans laser-focused on Gmail because it fit their victimization narrative better.&#8221;</p>
+<p>Masnick said GOP lawmakers then filed both lawsuits and complaints with the <strong>Federal Election Commission</strong> (both of which failed easily), claiming this was somehow an “in-kind contribution” to Democrats.</p>
+<p>&#8220;This is political posturing designed to keep the White House happy by appearing to &#8216;do something&#8217; about conservative claims of &#8216;censorship,'&#8221; Masnick <a href="https://www.techdirt.com/2025/09/04/ftc-chair-fergusons-ridiculous-crusade-threatening-google-over-spam-filters-that-actually-work/" target="_blank" rel="noopener">wrote</a> of the FTC letter. &#8220;The FTC has never policed &#8216;political bias&#8217; in private companies’ editorial decisions, and for good reason—the First Amendment prohibits exactly this kind of government interference.&#8221;</p>
+<p>WinRed did not respond to a request for comment.</p>
+<p>The WinRed website says it is an online fundraising platform supported by a united front of the Trump campaign, the <strong>Republican National Committee</strong> (RNC), the NRSC, and the <strong>National Republican Congressional Committee</strong> (NRCC).</p>
+<p>WinRed has recently come under fire for aggressive fundraising via text message as well. In June, <strong>404 Media</strong> reported on <a href="https://www.404media.co/winred-texts-class-action-lawsuit-rnc-donations/" target="_blank" rel="noopener">a lawsuit</a> filed by a family in Utah against the RNC for allegedly bombarding their mobile phones with text messages seeking donations after they&#8217;d tried to unsubscribe from the missives dozens of times.</p>
+<p>One of the family members said they received 27 such messages from 25 numbers, even after sending 20 stop requests. The plaintiffs in that case allege the texts from WinRed and the RNC &#8220;knowingly disregard stop requests and purposefully use different phone numbers to make it impossible to block new messages.&#8221;</p>
+<p>Dijkhoorn said WinRed did inquire recently about why some of its assets had been marked as a risk by SURBL, but he said they appeared to have zero interest in investigating the likely causes he offered in reply.</p>
+<p>&#8220;They only replied with, &#8216;You are interfering with U.S. elections,'&#8221; Dijkhoorn said, noting that many of SURBL&#8217;s spamtrap domains are only publicly listed in the registration records for random domain names.</p>
+<p>&#8220;They’re at best harvested by themselves but more likely [they] just went and bought lists,&#8221; he said. &#8220;It&#8217;s not like ‘Oh Google is filtering this and not the other,’ the reason isn&#8217;t the provider. The reason is the fundraising spammers and the lists they send to.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/09/gop-cries-censorship-over-spam-filters-that-work/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>The Ongoing Fallout from a Breach at AI Chatbot Maker Salesloft</title>
 		<link>https://krebsonsecurity.com/2025/09/the-ongoing-fallout-from-a-breach-at-ai-chatbot-maker-salesloft/</link>
 					<comments>https://krebsonsecurity.com/2025/09/the-ongoing-fallout-from-a-breach-at-ai-chatbot-maker-salesloft/#comments</comments>
@@ -48,7 +108,7 @@
 
 					<description><![CDATA[The recent mass-theft of authentication tokens from Salesloft, whose AI chatbot is used by a broad swath of corporate America to convert customer interaction into Salesforce leads, has left many companies racing to invalidate the stolen credentials before hackers can exploit them. Now Google warns the breach goes far beyond access to Salesforce data, noting the hackers responsible also stole valid authentication tokens for hundreds of online services that customers can integrate with Salesloft, including Slack, Google Workspace, Amazon S3, Microsoft Azure, and OpenAI.]]></description>
 										<content:encoded><![CDATA[<p>The recent mass-theft of authentication tokens from <strong>Salesloft</strong>, whose AI chatbot is used by a broad swath of corporate America to convert customer interaction into <strong>Salesforce</strong> leads, has left many companies racing to invalidate the stolen credentials before hackers can exploit them. Now <strong>Google</strong> warns the breach goes far beyond access to Salesforce data, noting the hackers responsible also stole valid authentication tokens for hundreds of online services that customers can integrate with Salesloft, including Slack, Google Workspace, Amazon S3, Microsoft Azure, and OpenAI.</p>
-<div id="attachment_72076" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72076" decoding="async" class=" wp-image-72076" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers.png" alt="" width="748" height="389" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers.png 1653w, https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers-768x399.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers-1536x798.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers-782x406.png 782w, https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers-267x140.png 267w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-72076" class="wp-caption-text">Salesloft says its products are trusted by 5,000+ customers. Some of the bigger names are visible on the company&#8217;s homepage.</p></div>
+<div id="attachment_72076" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72076" decoding="async" loading="lazy" class=" wp-image-72076" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers.png" alt="" width="748" height="389" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers.png 1653w, https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers-768x399.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers-1536x798.png 1536w, https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers-782x406.png 782w, https://krebsonsecurity.com/wp-content/uploads/2025/09/salesloft-customers-267x140.png 267w" sizes="(max-width: 748px) 100vw, 748px" /><p id="caption-attachment-72076" class="wp-caption-text">Salesloft says its products are trusted by 5,000+ customers. Some of the bigger names are visible on the company&#8217;s homepage.</p></div>
 <p>Salesloft <a href="https://trust.salesloft.com/?uid=Drift%2FSalesforce+Security+Notification" target="_blank" rel="noopener">disclosed on August 20</a> that, &#8220;Today, we detected a security issue in the <strong>Drift</strong> application,&#8221; referring to the technology that powers an AI chatbot used by so many corporate websites. The alert urged customers to re-authenticate the connection between the Drift and Salesforce apps to invalidate their existing authentication tokens, but it said nothing then to indicate those tokens had already been stolen.</p>
 <p>On August 26, the <strong>Google Threat Intelligence Group</strong> (GTIG) <a href="https://cloud.google.com/blog/topics/threat-intelligence/data-theft-salesforce-instances-via-salesloft-drift" target="_blank" rel="noopener">warned</a> that unidentified hackers tracked as <strong>UNC6395</strong> used the access tokens stolen from Salesloft to siphon large amounts of data from numerous corporate Salesforce instances. Google said the data theft began as early as Aug. 8, 2025 and lasted through at least Aug. 18, 2025, and that the incident did not involve any vulnerability in the Salesforce platform.</p>
 <p>Google said the attackers have been sifting through the massive data haul for credential materials such as AWS keys, VPN credentials, and credentials to the cloud storage provider Snowflake.</p>
@@ -590,65 +650,15 @@ Your unique writing style, phraseology, punctuation, consistency of grammatical 
 		
 		
 			</item>
-		<item>
-		<title>Scammers Unleash Flood of Slick Online Gaming Sites</title>
-		<link>https://krebsonsecurity.com/2025/07/scammers-unleash-flood-of-slick-online-gaming-sites/</link>
-					<comments>https://krebsonsecurity.com/2025/07/scammers-unleash-flood-of-slick-online-gaming-sites/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Wed, 30 Jul 2025 18:46:34 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Latest Warnings]]></category>
-		<category><![CDATA[Web Fraud 2.0]]></category>
-		<category><![CDATA[B-Ball Blitz]]></category>
-		<category><![CDATA[Beast Games]]></category>
-		<category><![CDATA[Discord]]></category>
-		<category><![CDATA[Mr. Beast]]></category>
-		<category><![CDATA[scambling]]></category>
-		<category><![CDATA[Silent Push]]></category>
-		<category><![CDATA[Thereallo]]></category>
-		<category><![CDATA[Zach Edwards]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71791</guid>
-
-					<description><![CDATA[Fraudsters are flooding Discord and other social media platforms with ads for hundreds of polished online gaming and wagering websites that lure people with free credits and eventually abscond with any cryptocurrency funds deposited by players. Here's a closer look at the social engineering tactics and remarkable traits of this sprawling network of more than 1,200 scam sites.]]></description>
-										<content:encoded><![CDATA[<p>Fraudsters are flooding Discord and other social media platforms with ads for hundreds of polished online gaming and wagering websites that lure people with free credits and eventually abscond with any cryptocurrency funds deposited by players. Here&#8217;s a closer look at the social engineering tactics and remarkable traits of this sprawling network of more than 1,200 scam sites.</p>
-<p>The scam begins with deceptive ads posted on social media that claim the wagering sites are working in partnership with popular social media personalities, such as <a href="https://en.wikipedia.org/wiki/MrBeast" target="_blank" rel="noopener">Mr. Beast</a>, who recently launched a gaming business called <strong>Beast Games</strong>. The ads invariably state that by using a supplied &#8220;promo code,&#8221; interested players can claim a $2,500 credit on the advertised gaming website.</p>
-<div id="attachment_71798" style="width: 734px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71798" decoding="async" loading="lazy" class="size-full wp-image-71798" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/reddit-gambwex.png" alt="" width="724" height="750" /><p id="caption-attachment-71798" class="wp-caption-text">An ad posted to a Discord channel for a scam gambling website that the proprietors falsely claim was operating in collaboration with the Internet personality Mr. Beast. Image: Reddit.com.</p></div>
-<p>The gaming sites all require users to create a free account to claim their $2,500 credit, which they can use to play any number of extremely polished video games that ask users to bet on each action. At the scam website gamblerbeast[.]com, for example, visitors can pick from dozens of games like <strong>B-Ball Blitz</strong>, in which you play a basketball pro who is taking shots from the free throw line against a single opponent, and you bet on your ability to sink each shot.</p>
-<p>The financial part of this scam begins when users try to cash out any &#8220;winnings.&#8221; At that point, the gaming site will reject the request and prompt the user to make a &#8220;verification deposit&#8221; of cryptocurrency &#8212; typically around $100 &#8212; before any money can be distributed. Those who deposit cryptocurrency funds are soon asked for additional payments.</p>
-<div style="text-align: center;"><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/lNjqXIq1s5g?si=-30qS1Bw73VdIXow" width="750" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-<p>However, any &#8220;winnings&#8221; displayed by these gaming sites are a complete fantasy, and players who deposit cryptocurrency funds will never see that money again. Compounding the problem, victims likely will soon be peppered with come-ons from &#8220;recovery experts&#8221; who peddle dubious claims on social media networks about being able to retrieve funds lost to such scams.</p>
-<p>KrebsOnSecurity first learned about this network of phony betting sites from a Discord user who asked to be identified only by their screen name: &#8220;<strong>Thereallo</strong>&#8221; is a 17-year-old developer who operates multiple Discord servers and said they began digging deeper after users started complaining of being inundated with misleading spam messages promoting the sites.</p>
-<p>&#8220;We were being spammed relentlessly by these scam posts from compromised or purchased [Discord] accounts,&#8221; Thereallo said. &#8220;I got frustrated with just banning and deleting, so I started to investigate the infrastructure behind the scam messages. This is not a one-off site, it&#8217;s a scalable criminal enterprise with a clear playbook, technical fingerprints, and financial infrastructure.&#8221;</p>
-<p>After comparing the code on the gaming sites promoted via spam messages, Thereallo found they all invoked the same API key for an online chatbot that appears to be in limited use or else is custom-made. Indeed, a scan for that API key at the threat hunting platform <strong>Silent Push</strong> reveals at least 1,270 recently-registered and active domains whose names all invoke some type of gaming or wagering theme.</p>
-<div id="attachment_71799" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71799" decoding="async" loading="lazy" class=" wp-image-71799" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/scambling-withdrawalerror.png" alt="" width="750" height="374" /><p id="caption-attachment-71799" class="wp-caption-text">The &#8220;verification deposit&#8221; stage of the scam requires the user to deposit cryptocurrency in order to withdraw their &#8220;winnings.&#8221;</p></div>
-<p>Thereallo said the operators of this scam empire appear to generate a unique Bitcoin wallet for each gaming domain they deploy.</p>
-<p>&#8220;This is a decoy wallet,&#8221; Thereallo explained. &#8220;Once the victim deposits funds, they are never able to withdraw any money. Any attempts to contact the &#8216;Live Support&#8217; are handled by a combination of AI and human operators who eventually block the user. The chat system is self-hosted, making it difficult to report to third-party service providers.&#8221;</p>
-<p>Thereallo discovered another feature common to all of these scam gambling sites [hereafter referred to simply as &#8220;scambling&#8221; sites]: If you register at one of them and then very quickly try to register at a sister property of theirs from the same Internet address and device, the registration request is denied at the second site.</p>
-<p>&#8220;I registered on one site, then hopped to another to register again,&#8221; Thereallo said. Instead, the second site returned an error stating that a new account couldn&#8217;t be created for another 10 minutes.</p>
-<div id="attachment_71801" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-71801" decoding="async" loading="lazy" class="wp-image-71801" src="https://krebsonsecurity.com/wp-content/uploads/2025/07/scambling-spinora.png" alt="" width="749" height="404" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/07/scambling-spinora.png 908w, https://krebsonsecurity.com/wp-content/uploads/2025/07/scambling-spinora-768x414.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/07/scambling-spinora-782x422.png 782w, https://krebsonsecurity.com/wp-content/uploads/2025/07/scambling-spinora-370x200.png 370w" sizes="(max-width: 749px) 100vw, 749px" /><p id="caption-attachment-71801" class="wp-caption-text">The scam gaming site spinora dot cc shares the same chatbot API as more than 1,200 similar fake gaming sites.</p></div>
-<p>&#8220;They&#8217;re tracking my VPN IP across their entire network,&#8221; Thereallo explained. &#8220;My password manager also proved it. It tried to use my dummy email on a site I had never visited, and the site told me the account already existed. So it&#8217;s definitely one entity running a single platform with 1,200+ different domain names as front-ends. This explains how their support works, a central pool of agents handling all the sites. It also explains why they&#8217;re so strict about not giving out wallet addresses; it&#8217;s a network-wide policy.&#8221;<span id="more-71791"></span></p>
-<p>In many ways, these scambling sites borrow from the playbook of &#8220;<a href="https://krebsonsecurity.com/2022/07/massive-losses-define-epidemic-of-pig-butchering/" target="_blank" rel="noopener">pig butchering</a>&#8221; schemes, a rampant and far more elaborate crime in which people are gradually lured by flirtatious strangers online into investing in fraudulent cryptocurrency trading platforms.</p>
-<p>Pig butchering scams are typically powered by people in Asia who have been kidnapped and threatened with physical harm or worse unless they sit in a cubicle and scam Westerners on the Internet all day. In contrast, these scambling sites tend to steal far less money from individual victims, but their cookie-cutter nature and automated support components may enable their operators to extract payments from a large number of people in far less time, and with considerably less risk and up-front investment.</p>
-<p>Silent Push&#8217;s <strong>Zach Edwards</strong> said the proprietors of this scambling empire are spending big money to make the sites look and feel like some fancy new type of casino.</p>
-<p>&#8220;That&#8217;s a very odd type of pig butchering network and not like what we typically see, with much lower investments in the sites and lures,&#8221; Edwards said.</p>
-<p><a href="https://krebsonsecurity.com/wp-content/uploads/2025/07/deduped_scambling_domains.txt" target="_blank" rel="noopener">Here is a list of all domains</a> that Silent Push found were using the scambling network&#8217;s chat API.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/07/scammers-unleash-flood-of-slick-online-gaming-sites/feed/</wfw:commentRss>
-			<slash:comments>34</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 262/262 objects using memcached
+Object Caching 273/273 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-09-05 23:01:09 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-09-06 00:01:42 by W3 Total Cache
 -->
