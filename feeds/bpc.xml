@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 07 Sep 2025 12:59:29 EDT</pubDate>
+        <pubDate>Sun, 07 Sep 2025 14:00:54 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>iCloud Calendar abused to send phishing emails from Apple’s servers</title>
+        <link>https://www.bleepingcomputer.com/news/security/icloud-calendar-abused-to-send-phishing-emails-from-apples-servers/</link>
+        <pubDate>Sun, 07 Sep 2025 13:10:29 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/icloud-calendar-abused-to-send-phishing-emails-from-apples-servers/</guid>
+	<description><![CDATA[iCloud Calendar invites are being abused to send callback phishing emails disguised as purchase notifications directly from Apple's email servers, making them more likely to bypass spam filters to land in targets' inboxes. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Czech cyber agency warns against Chinese tech in critical infrastructure</title>
+        <link>https://www.bleepingcomputer.com/news/security/czech-cyber-agency-warns-against-chinese-tech-in-critical-infrastructure/</link>
+        <pubDate>Sun, 07 Sep 2025 10:09:19 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Government]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/czech-cyber-agency-warns-against-chinese-tech-in-critical-infrastructure/</guid>
+	<description><![CDATA[The Czech Republic's National Cyber and Information Security Agency (NUKIB) is instructing critical infrastructure organizations in the country to avoid using Chinese technology or transferring user data to servers located in China. [...]]]></description>
+ </item>
+
  <item>
         <title>VirusTotal finds hidden malware phishing campaign in SVG files</title>
         <link>https://www.bleepingcomputer.com/news/security/virustotal-finds-hidden-malware-phishing-campaign-in-svg-files/</link>
@@ -142,36 +172,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/critical-sap-s-4hana-vulnerability-now-exploited-in-attacks/</guid>
 	<description><![CDATA[A critical SAP S/4HANA code injection vulnerability is being leveraged in attacks in the wild to breach exposed servers, researchers warn. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers exploited Sitecore zero-day flaw to deploy backdoors</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-exploited-sitecore-zero-day-flaw-to-deploy-backdoors/</link>
-        <pubDate>Thu, 04 Sep 2025 14:51:42 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-exploited-sitecore-zero-day-flaw-to-deploy-backdoors/</guid>
-	<description><![CDATA[Threat actors have been exploiting a zero-day vulnerability in legacy Sitecore deployments to deploy WeepSteel reconnaissance malware. [...]]]></description>
- </item>
-
- <item>
-        <title>Texas sues PowerSchool over breach exposing 62M students, 880k Texans</title>
-        <link>https://www.bleepingcomputer.com/news/security/texas-sues-powerschool-after-massive-data-breach-hit-62-million-students/</link>
-        <pubDate>Thu, 04 Sep 2025 14:01:31 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Education]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/texas-sues-powerschool-after-massive-data-breach-hit-62-million-students/</guid>
-	<description><![CDATA[Texas Attorney General Ken Paxton has filed a lawsuit against education software company PowerSchool, which suffered a massive data breach in December that exposed the personal information of 62 million students, including over 880,000 Texans. [...]]]></description>
  </item>
 
 </channel>
