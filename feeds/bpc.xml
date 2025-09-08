@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 08 Sep 2025 14:04:24 EDT</pubDate>
+        <pubDate>Mon, 08 Sep 2025 14:59:48 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Lovesac confirms data breach after ransomware attack claims</title>
+        <link>https://www.bleepingcomputer.com/news/security/lovesac-confirms-data-breach-after-ransomware-attack-claims/</link>
+        <pubDate>Mon, 08 Sep 2025 14:24:25 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/lovesac-confirms-data-breach-after-ransomware-attack-claims/</guid>
+	<description><![CDATA[American furniture brand Lovesac is warning that it suffered a data breach impacting an undisclosed number of individuals, stating their personal data was exposed in a cybersecurity incident. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Sports streaming piracy service with 123M yearly visits shut down</title>
+        <link>https://www.bleepingcomputer.com/news/security/massive-calcio-sports-streaming-piracy-service-with-123m-yearly-visits-shut-down/</link>
+        <pubDate>Mon, 08 Sep 2025 14:12:57 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/massive-calcio-sports-streaming-piracy-service-with-123m-yearly-visits-shut-down/</guid>
+	<description><![CDATA[​Calcio, a large piracy sports streaming platform with more than 120 million visits in the past year, was shut down following a collaborative effort by the Alliance for Creativity and Entertainment (ACE) and DAZN. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers hijack npm packages with 2 billion weekly downloads in supply chain attack</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-hijack-npm-packages-with-2-billion-weekly-downloads-in-supply-chain-attack/</link>
@@ -162,20 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-enforces-mfa-on-azure-portal-sign-ins-for-all-tenants/</guid>
 	<description><![CDATA[Microsoft says it has been enforcing multifactor authentication (MFA) for Azure Portal sign-ins across all tenants since March 2025. [...]]]></description>
- </item>
-
- <item>
-        <title>EU fines Google $3.5 billion for anti-competitive ad practices</title>
-        <link>https://www.bleepingcomputer.com/news/google/eu-fines-google-35-billion-for-anti-competitive-ad-practices/</link>
-        <pubDate>Fri, 05 Sep 2025 12:36:03 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/google/eu-fines-google-35-billion-for-anti-competitive-ad-practices/</guid>
-	<description><![CDATA[The European Commission has fined Google €2.95 billion ($3.5 billion) for abusing its dominance in the digital advertising technology market and favoring its adtech services over those of its competitors. [...]]]></description>
  </item>
 
 </channel>
