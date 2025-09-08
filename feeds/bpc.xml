@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 08 Sep 2025 14:59:48 EDT</pubDate>
+        <pubDate>Mon, 08 Sep 2025 15:59:02 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers steal 3,325 secrets in GhostAction GitHub supply chain attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-steal-3-325-secrets-in-ghostaction-github-supply-chain-attack/</link>
+        <pubDate>Mon, 08 Sep 2025 15:53:59 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-steal-3-325-secrets-in-ghostaction-github-supply-chain-attack/</guid>
+	<description><![CDATA[A new supply chain attack on GitHub, dubbed 'GhostAction,' has compromised 3,325 secrets, including PyPI, npm, DockerHub, GitHub tokens, Cloudflare, and AWS keys. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Signal adds secure cloud backups to save and restore chats</title>
+        <link>https://www.bleepingcomputer.com/news/security/signal-adds-secure-cloud-backups-to-save-and-restore-chats/</link>
+        <pubDate>Mon, 08 Sep 2025 15:17:25 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/signal-adds-secure-cloud-backups-to-save-and-restore-chats/</guid>
+	<description><![CDATA[Signal has introduced a new opt-in feature that helps users create end-to-end encrypted backups of their chats, allowing them to restore messages even if their phones are damaged or lost. [...]]]></description>
+ </item>
+
  <item>
         <title>Lovesac confirms data breach after ransomware attack claims</title>
         <link>https://www.bleepingcomputer.com/news/security/lovesac-confirms-data-breach-after-ransomware-attack-claims/</link>
@@ -174,22 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/ai-powered-malware-hit-2-180-github-accounts-in-s1ngularity-attack/</guid>
 	<description><![CDATA[Investigations into the Nx "s1ngularity" NPM supply chain attack have unveiled a massive fallout, with thousands of account tokens and repository secrets leaked. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft now enforces MFA on Azure Portal sign-ins for all tenants</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-enforces-mfa-on-azure-portal-sign-ins-for-all-tenants/</link>
-        <pubDate>Fri, 05 Sep 2025 15:32:05 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-now-enforces-mfa-on-azure-portal-sign-ins-for-all-tenants/</guid>
-	<description><![CDATA[Microsoft says it has been enforcing multifactor authentication (MFA) for Azure Portal sign-ins across all tenants since March 2025. [...]]]></description>
  </item>
 
 </channel>
