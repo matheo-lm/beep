@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 08 Sep 2025 09:59:25 EDT</pubDate>
+        <pubDate>Mon, 08 Sep 2025 10:58:49 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Action1 vs. Microsoft WSUS: A Better Approach to Modern Patch Management</title>
+        <link>https://www.bleepingcomputer.com/news/security/action1-vs-microsoft-wsus-a-better-approach-to-modern-patch-management/</link>
+        <pubDate>Mon, 08 Sep 2025 09:35:00 -0400</pubDate>
+        <dc:creator>Sponsored by Action1</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/action1-vs-microsoft-wsus-a-better-approach-to-modern-patch-management/</guid>
+	<description><![CDATA[With WSUS deprecated, it's time to move from an outdated legacy patching system to a modern one. Learn from Action1 how its modern patching platform offers cloud-native speed, 3rd-party coverage, real-time compliance, and zero infrastructure. Try it free now! [...]]]></description>
+ </item>
+
  <item>
         <title>Google to make it easier to access AI Mode as default</title>
         <link>https://www.bleepingcomputer.com/news/google/google-to-make-it-easier-to-access-ai-mode-as-default/</link>
@@ -162,34 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/max-severity-argo-cd-api-flaw-leaks-repository-credentials/</guid>
 	<description><![CDATA[An Argo CD vulnerability allows API tokens with even low project-level get permissions to access API endpoints and retrieve all repository credentials associated with the project. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft gives US students a free year of Microsoft 365 Personal</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-gives-us-students-a-free-year-of-microsoft-365-personal/</link>
-        <pubDate>Fri, 05 Sep 2025 10:31:03 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-gives-us-students-a-free-year-of-microsoft-365-personal/</guid>
-	<description><![CDATA[Microsoft announced that starting this Thursday, all college students in the United States can get a free year of Microsoft 365 Personal. [...]]]></description>
- </item>
-
- <item>
-        <title>Don’t let outdated IGA hold back your security, compliance, and growth</title>
-        <link>https://www.bleepingcomputer.com/news/security/dont-let-outdated-iga-hold-back-your-security-compliance-and-growth/</link>
-        <pubDate>Fri, 05 Sep 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by tenfold Software</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/dont-let-outdated-iga-hold-back-your-security-compliance-and-growth/</guid>
-	<description><![CDATA[Identity Governance & Administration (IGA) is critical to keeping data secure, ensuring only the right people have access to the right resources. But legacy IGA is slow, costly, and code-heavy. Learn from tenfold why Modern IGA solutions deliver faster out-of-the-box integrations, streamlined governance, and built-in compliance. [...]]]></description>
  </item>
 
 </channel>
