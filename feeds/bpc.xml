@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 08 Sep 2025 16:59:24 EDT</pubDate>
+        <pubDate>Mon, 08 Sep 2025 18:00:15 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Surge in networks scans targeting Cisco ASA devices raise concerns</title>
+        <link>https://www.bleepingcomputer.com/news/security/surge-in-networks-scans-targeting-cisco-asa-devices-raise-concerns/</link>
+        <pubDate>Mon, 08 Sep 2025 17:44:50 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/surge-in-networks-scans-targeting-cisco-asa-devices-raise-concerns/</guid>
+	<description><![CDATA[Large network scans have been  targeting Cisco ASA devices, prompting warnings from cybersecurity researchers that it could indicate an upcoming flaw in the products. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers steal 3,325 secrets in GhostAction GitHub supply chain attack</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-steal-3-325-secrets-in-ghostaction-github-supply-chain-attack/</link>
@@ -83,7 +97,7 @@
 
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-hijack-npm-packages-with-2-billion-weekly-downloads-in-supply-chain-attack/</guid>
-	<description><![CDATA[In what is being called the largest supply chain attack in history, attackers have injected malware into NPM packages with over 2.6 billion weekly downloads after compromising a maintainer's account in a phishing attack. [...]]]></description>
+	<description><![CDATA[In a supply chain attack, attackers have injected malware into NPM packages with over 2.6 billion weekly downloads after compromising a maintainer's account in a phishing attack. [...]]]></description>
  </item>
 
  <item>
@@ -188,20 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/virustotal-finds-hidden-malware-phishing-campaign-in-svg-files/</guid>
 	<description><![CDATA[VirusTotal has discovered a phishing campaign hidden in SVG files that create convincing portals impersonating Colombia's judicial system that deliver malware. [...]]]></description>
- </item>
-
- <item>
-        <title>AI-powered malware hit 2,180 GitHub accounts in “s1ngularity” attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/ai-powered-malware-hit-2-180-github-accounts-in-s1ngularity-attack/</link>
-        <pubDate>Sat, 06 Sep 2025 10:11:21 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ai-powered-malware-hit-2-180-github-accounts-in-s1ngularity-attack/</guid>
-	<description><![CDATA[Investigations into the Nx "s1ngularity" NPM supply chain attack have unveiled a massive fallout, with thousands of account tokens and repository secrets leaked. [...]]]></description>
  </item>
 
 </channel>
