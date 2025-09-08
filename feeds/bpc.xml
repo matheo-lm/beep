@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 08 Sep 2025 11:58:45 EDT</pubDate>
+        <pubDate>Mon, 08 Sep 2025 13:02:20 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers hijack npm packages with 2 billion weekly downloads in supply chain attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-hijack-npm-packages-with-2-billion-weekly-downloads-in-supply-chain-attack/</link>
+        <pubDate>Mon, 08 Sep 2025 12:47:51 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-hijack-npm-packages-with-2-billion-weekly-downloads-in-supply-chain-attack/</guid>
+	<description><![CDATA[In what is being called the largest supply chain attack in history, attackers have injected malware into NPM packages with over 2.6 billion weekly downloads after compromising maintainers' accounts in a phishing attack. [...]]]></description>
+ </item>
+
  <item>
         <title>Salesloft: March GitHub repo breach led to Salesforce data theft attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/salesloft-march-github-repo-breach-led-to-salesforce-data-theft-attacks/</link>
@@ -162,20 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/google/eu-fines-google-35-billion-for-anti-competitive-ad-practices/</guid>
 	<description><![CDATA[The European Commission has fined Google €2.95 billion ($3.5 billion) for abusing its dominance in the digital advertising technology market and favoring its adtech services over those of its competitors. [...]]]></description>
- </item>
-
- <item>
-        <title>Financial services firm Wealthsimple discloses data breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/financial-services-firm-wealthsimple-discloses-data-breach/</link>
-        <pubDate>Fri, 05 Sep 2025 11:36:48 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/financial-services-firm-wealthsimple-discloses-data-breach/</guid>
-	<description><![CDATA[Wealthsimple, a leading Canadian online investment management service, has disclosed a data breach after attackers stole the personal data of an undisclosed number of customers in a recent incident. [...]]]></description>
  </item>
 
 </channel>
