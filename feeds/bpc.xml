@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 08 Sep 2025 10:58:49 EDT</pubDate>
+        <pubDate>Mon, 08 Sep 2025 11:58:45 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Salesloft: March GitHub repo breach led to Salesforce data theft attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/salesloft-march-github-repo-breach-led-to-salesforce-data-theft-attacks/</link>
+        <pubDate>Mon, 08 Sep 2025 11:43:30 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/salesloft-march-github-repo-breach-led-to-salesforce-data-theft-attacks/</guid>
+	<description><![CDATA[Salesloft says attackers first breached its GitHub account in March, leading to the theft of Drift OAuth tokens later used in widespread Salesforce data theft attacks in August. [...]]]></description>
+ </item>
+
  <item>
         <title>Action1 vs. Microsoft WSUS: A Better Approach to Modern Patch Management</title>
         <link>https://www.bleepingcomputer.com/news/security/action1-vs-microsoft-wsus-a-better-approach-to-modern-patch-management/</link>
@@ -162,20 +176,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/financial-services-firm-wealthsimple-discloses-data-breach/</guid>
 	<description><![CDATA[Wealthsimple, a leading Canadian online investment management service, has disclosed a data breach after attackers stole the personal data of an undisclosed number of customers in a recent incident. [...]]]></description>
- </item>
-
- <item>
-        <title>Max severity Argo CD API flaw leaks repository credentials</title>
-        <link>https://www.bleepingcomputer.com/news/security/max-severity-argo-cd-api-flaw-leaks-repository-credentials/</link>
-        <pubDate>Fri, 05 Sep 2025 11:30:18 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/max-severity-argo-cd-api-flaw-leaks-repository-credentials/</guid>
-	<description><![CDATA[An Argo CD vulnerability allows API tokens with even low project-level get permissions to access API endpoints and retrieve all repository credentials associated with the project. [...]]]></description>
  </item>
 
 </channel>
