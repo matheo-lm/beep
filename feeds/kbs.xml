@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 09 Sep 2025 00:16:21 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 09 Sep 2025 01:32:23 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,7 @@
 	<item>
 		<title>18 Popular Code Packages Hacked, Rigged to Steal Crypto</title>
 		<link>https://krebsonsecurity.com/2025/09/18-popular-code-packages-hacked-rigged-to-steal-crypto/</link>
-					<comments>https://krebsonsecurity.com/2025/09/18-popular-code-packages-hacked-rigged-to-steal-crypto/#respond</comments>
+					<comments>https://krebsonsecurity.com/2025/09/18-popular-code-packages-hacked-rigged-to-steal-crypto/#comments</comments>
 		
 		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
 		<pubDate>Mon, 08 Sep 2025 22:53:41 +0000</pubDate>
@@ -30,7 +30,7 @@
 		<category><![CDATA[Data Breaches]]></category>
 		<category><![CDATA[Latest Warnings]]></category>
 		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[Akido]]></category>
+		<category><![CDATA[Aikido]]></category>
 		<category><![CDATA[Charlie Eriksen]]></category>
 		<category><![CDATA[javascript]]></category>
 		<category><![CDATA[Josh Junon]]></category>
@@ -44,12 +44,12 @@
 					<description><![CDATA[At least 18 popular JavaScript code packages that are collectively downloaded more than two billion times each week were briefly compromised with malicious software today, after a developer involved in maintaining the projects was phished. The attack appears to have been quickly contained and was narrowly focused on stealing cryptocurrency. But experts warn that a similar attack with a slightly more nefarious payload could quickly lead to a disruptive malware outbreak that is far more difficult to detect and restrain.]]></description>
 										<content:encoded><![CDATA[<p>At least 18 popular JavaScript code packages that are collectively downloaded more than two billion times each week were briefly compromised with malicious software today, after a developer involved in maintaining the projects was phished. The attack appears to have been quickly contained and was narrowly focused on stealing cryptocurrency. But experts warn that a similar attack with a slightly more nefarious payload could lead to a disruptive malware outbreak that is far more difficult to detect and restrain.</p>
 <div id="attachment_72130" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72130" decoding="async" class=" wp-image-72130" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/npmjshelp.png" alt="" width="750" height="567" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/09/npmjshelp.png 908w, https://krebsonsecurity.com/wp-content/uploads/2025/09/npmjshelp-768x580.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/09/npmjshelp-782x591.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-72130" class="wp-caption-text">This phishing email lured a developer into logging in at a fake NPM website and supplying a one-time token for two-factor authentication. The phishers then used that developer&#8217;s NPM account to add malicious code to at least 18 popular JavaScript code packages.</p></div>
-<p><strong>Akido</strong> is a security firm in Belgium that monitors new code updates to major open-source code repositories, scanning any code updates for suspicious and malicious code. In a blog post published today, Akido said its systems found malicious code had been added to at least 18 widely-used code libraries available on <a href="https://www.npmjs.com/" target="_blank" rel="noopener"><strong>NPM</strong></a> (short for) &#8220;Node Package Manager,&#8221; which acts as a central hub for JavaScript development and the latest updates to widely-used JavaScript components.</p>
+<p><strong>Aikido</strong> is a security firm in Belgium that monitors new code updates to major open-source code repositories, scanning any code updates for suspicious and malicious code. In a blog post published today, Aikido said its systems found malicious code had been added to at least 18 widely-used code libraries available on <a href="https://www.npmjs.com/" target="_blank" rel="noopener"><strong>NPM</strong></a> (short for) &#8220;Node Package Manager,&#8221; which acts as a central hub for JavaScript development and the latest updates to widely-used JavaScript components.</p>
 <p>JavaScript is a powerful web-based scripting language used by countless websites to build a more interactive experience with users, such as entering data into a form. But there&#8217;s no need for each website developer to build a program from scratch for entering data into a form when they can just reuse already existing packages of code at NPM that are specifically designed for that purpose.</p>
 <p>Unfortunately, if cybercriminals manage to phish NPM credentials from developers, they can introduce malicious code that allows attackers to fundamentally control what people see in their web browser when they visit a website that uses one of the affected code libraries.</p>
-<p>According to Akido, the attackers injected a piece of code that silently intercepts cryptocurrency activity in the browser, &#8220;manipulates wallet interactions, and rewrites payment destinations so that funds and approvals are redirected to attacker-controlled accounts without any obvious signs to the user.&#8221;</p>
-<p>&#8220;This malware is essentially a browser-based interceptor that hijacks both network traffic and application APIs,&#8221; Akido researcher <strong>Charlie Eriksen</strong> <a href="https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised" target="_blank" rel="noopener">wrote</a>. &#8220;What makes it dangerous is that it operates at multiple layers: Altering content shown on websites, tampering with API calls, and manipulating what users’ apps believe they are signing. Even if the interface looks correct, the underlying transaction can be redirected in the background.&#8221;</p>
-<p>Akido said it used the social network Bsky to notify the affected developer, <strong>Josh Junon</strong>, who quickly replied that he was aware of having just been phished. The phishing email that Junon fell for was part of a larger campaign that spoofed NPM and told recipients they were required to update their two-factor authentication (2FA) credentials. The phishing site mimicked NPM&#8217;s login page, and intercepted Junon&#8217;s credentials and 2FA token. Once logged in, the phishers then changed the email address on file for Junon&#8217;s NPM account, temporarily locking him out.</p>
+<p>According to Aikido, the attackers injected a piece of code that silently intercepts cryptocurrency activity in the browser, &#8220;manipulates wallet interactions, and rewrites payment destinations so that funds and approvals are redirected to attacker-controlled accounts without any obvious signs to the user.&#8221;</p>
+<p>&#8220;This malware is essentially a browser-based interceptor that hijacks both network traffic and application APIs,&#8221; Aikido researcher <strong>Charlie Eriksen</strong> <a href="https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised" target="_blank" rel="noopener">wrote</a>. &#8220;What makes it dangerous is that it operates at multiple layers: Altering content shown on websites, tampering with API calls, and manipulating what users’ apps believe they are signing. Even if the interface looks correct, the underlying transaction can be redirected in the background.&#8221;</p>
+<p>Aikido said it used the social network Bsky to notify the affected developer, <strong>Josh Junon</strong>, who quickly replied that he was aware of having just been phished. The phishing email that Junon fell for was part of a larger campaign that spoofed NPM and told recipients they were required to update their two-factor authentication (2FA) credentials. The phishing site mimicked NPM&#8217;s login page, and intercepted Junon&#8217;s credentials and 2FA token. Once logged in, the phishers then changed the email address on file for Junon&#8217;s NPM account, temporarily locking him out.</p>
 <div id="attachment_72126" style="width: 776px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72126" decoding="async" loading="lazy" class="size-full wp-image-72126" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/junon-bsky.png" alt="" width="766" height="418" /><p id="caption-attachment-72126" class="wp-caption-text">Aikido notified the maintainer on Bluesky, who replied at 15:15 UTC that he was aware of being compromised, and starting to clean up the compromised packages.</p></div>
 <p>Junon also issued a mea culpa <a href="https://news.ycombinator.com/item?id=45169794" target="_blank" rel="noopener">on HackerNews</a>, telling the community&#8217;s coder-heavy readership, &#8220;Hi, yep I got pwned.&#8221;</p>
 <p>&#8220;It looks and feels a bit like a targeted attack,&#8221; Junon wrote. &#8220;Sorry everyone, very embarrassing.&#8221;<span id="more-72122"></span></p>
@@ -66,14 +66,14 @@
 <p><strong>Kevin Beaumont</strong>, a frequently quoted security expert who writes about security incidents at the blog doublepulsar.com, has been following this story closely today in frequent updates to <a href="https://infosec.exchange/@GossiTheDog@cyberplace.social" target="_blank" rel="noopener">his account on Mastodon</a>. Beaumont said the incident is a reminder that much of the planet still depends on code that is ultimately maintained by an exceedingly small number of people who are mostly overburdened and under-resourced.</p>
 <p>&#8220;For about the past 15 years every business has been developing apps by pulling in 178 interconnected libraries written by 24 people in a shed in Skegness,&#8221; Beaumont wrote on Mastodon. &#8220;For about the past 2 years orgs have been buying AI vibe coding tools, where some exec screams &#8216;make online shop&#8217; into a computer and 389 libraries are added and an app is farted out. The output = if you want to own the world&#8217;s companies, just phish one guy in Skegness.&#8221;</p>
 <div id="attachment_72131" style="width: 708px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72131" decoding="async" loading="lazy" class="size-full wp-image-72131" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/gossi-skegness.png" alt="" width="698" height="461" /><p id="caption-attachment-72131" class="wp-caption-text">Image: https://infosec.exchange/@GossiTheDog@cyberplace.social.</p></div>
-<p>Akido recently launched a product that aims to help development teams ensure that every code library used is checked for malware before it can be used or installed. <strong>Nicholas Weaver</strong>, a researcher with the International Computer Science Institute, a nonprofit in Berkeley, Calif., said Akido&#8217;s new offering exists because many organizations are still one successful phishing attack away from a supply-chain nightmare.</p>
+<p>Aikido recently launched a product that aims to help development teams ensure that every code library used is checked for malware before it can be used or installed. <strong>Nicholas Weaver</strong>, a researcher with the International Computer Science Institute, a nonprofit in Berkeley, Calif., said Aikido&#8217;s new offering exists because many organizations are still one successful phishing attack away from a supply-chain nightmare.</p>
 <p>Weaver said these types of supply-chain compromises will continue as long as people responsible for maintaining widely-used code continue to rely on phishable forms of 2FA.</p>
 <p>&#8220;NPM should only support phish-proof authentication,&#8221; Weaver said, referring to <a href="https://krebsonsecurity.com/2018/07/google-security-keys-neutralized-employee-phishing/" target="_blank" rel="noopener">physical security keys</a> that are phish-proof &#8212; meaning that even if phishers manage to steal your username and password, they still can&#8217;t log in to your account without also possessing that physical key.</p>
 <p>&#8220;All critical infrastructure needs to use phish-proof 2FA, and given the dependencies in modern software, archives such as NPM are absolutely critical infrastructure,&#8221; Weaver said. &#8220;That NPM does not require that all contributor accounts use security keys or similar 2FA methods should be considered negligence.&#8221;</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/09/18-popular-code-packages-hacked-rigged-to-steal-crypto/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+			<slash:comments>2</slash:comments>
 		
 		
 			</item>
@@ -133,7 +133,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/09/gop-cries-censorship-over-spam-filters-that-work/feed/</wfw:commentRss>
-			<slash:comments>48</slash:comments>
+			<slash:comments>50</slash:comments>
 		
 		
 			</item>
@@ -244,7 +244,7 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://krebsonsecurity.com/2025/08/affiliates-flock-to-soulless-scam-gambling-machine/feed/</wfw:commentRss>
-			<slash:comments>17</slash:comments>
+			<slash:comments>18</slash:comments>
 		
 		
 			</item>
@@ -623,8 +623,8 @@ Noah Michael Urban of Palm Coast, Fla. pleaded guilty in April 2025 to charges o
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 Object Caching 261/261 objects using memcached
-Page Caching using memcached (User agent is rejected) 
+Page Caching using memcached 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-09-08 21:25:08 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-09-08 22:25:18 by W3 Total Cache
 -->
