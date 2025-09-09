@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 09 Sep 2025 09:06:58 EDT</pubDate>
+        <pubDate>Tue, 09 Sep 2025 09:59:19 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: Anti-spam bug blocks links in Exchange Online, Teams</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-anti-spam-bug-blocks-links-in-exchange-online-teams/</link>
+        <pubDate>Tue, 09 Sep 2025 09:40:58 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-anti-spam-bug-blocks-links-in-exchange-online-teams/</guid>
+	<description><![CDATA[​Microsoft is working to resolve a known issue that causes an anti-spam service to mistakenly block Exchange Online and Microsoft Teams users from opening URLs and quarantine some of their emails. [...]]]></description>
+ </item>
+
+ <item>
+        <title>SAP fixes maximum severity NetWeaver command execution flaw</title>
+        <link>https://www.bleepingcomputer.com/news/security/sap-fixes-maximum-severity-netweaver-command-execution-flaw/</link>
+        <pubDate>Tue, 09 Sep 2025 09:18:11 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sap-fixes-maximum-severity-netweaver-command-execution-flaw/</guid>
+	<description><![CDATA[SAP has addressed 21 new vulnerabilities affecting its products, including three critical severity issues impacting the NetWeaver software solution. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft testing new AI features in Windows 11 File Explorer</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-ai-features-in-windows-11-file-explorer/</link>
@@ -170,36 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/google/google-to-make-it-easier-to-access-ai-mode-as-default/</guid>
 	<description><![CDATA[Google plans to make it easier for users to access AI mode by allowing them to set it as the default, replacing the traditional blue links. [...]]]></description>
- </item>
-
- <item>
-        <title>ChatGPT makes Projects feature free, adds a toggle to split chat</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-makes-projects-feature-free-adds-a-toggle-to-split-chat/</link>
-        <pubDate>Sun, 07 Sep 2025 19:33:49 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-makes-projects-feature-free-adds-a-toggle-to-split-chat/</guid>
-	<description><![CDATA[ChatGPT's Projects feature is now feature and second new feature allows you to create new conversations from existing conversations. [...]]]></description>
- </item>
-
- <item>
-        <title>iCloud Calendar abused to send phishing emails from Apple’s servers</title>
-        <link>https://www.bleepingcomputer.com/news/security/icloud-calendar-abused-to-send-phishing-emails-from-apples-servers/</link>
-        <pubDate>Sun, 07 Sep 2025 13:10:29 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/icloud-calendar-abused-to-send-phishing-emails-from-apples-servers/</guid>
-	<description><![CDATA[iCloud Calendar invites are being abused to send callback phishing emails disguised as purchase notifications directly from Apple's email servers, making them more likely to bypass spam filters to land in targets' inboxes. [...]]]></description>
  </item>
 
 </channel>
