@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 09 Sep 2025 20:08:34 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 09 Sep 2025 21:21:14 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,60 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Microsoft Patch Tuesday, September 2025 Edition</title>
+		<link>https://krebsonsecurity.com/2025/09/microsoft-patch-tuesday-september-2025-edition/</link>
+					<comments>https://krebsonsecurity.com/2025/09/microsoft-patch-tuesday-september-2025-edition/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Tue, 09 Sep 2025 21:21:14 +0000</pubDate>
+				<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[The Coming Storm]]></category>
+		<category><![CDATA[Time to Patch]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[CVE-2025-38352]]></category>
+		<category><![CDATA[CVE-2025-48543]]></category>
+		<category><![CDATA[CVE-2025-54916]]></category>
+		<category><![CDATA[CVE-2025-54918]]></category>
+		<category><![CDATA[CVE-2025-55177]]></category>
+		<category><![CDATA[CVE-2025-55234]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Immersive]]></category>
+		<category><![CDATA[Kev Breen]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[NT LAN Manager]]></category>
+		<category><![CDATA[sans internet storm center]]></category>
+		<category><![CDATA[Satnam Narang]]></category>
+		<category><![CDATA[Tenable]]></category>
+		<category><![CDATA[WhatsApp]]></category>
+		<category><![CDATA[windows]]></category>
+		<category><![CDATA[Windows NTLM]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=72086</guid>
+
+					<description><![CDATA[Microsoft Corp. today issued security updates to fix more than 80 vulnerabilities in its Windows operating systems and software. There are no known "zero-day" or actively exploited vulnerabilities in this month's bundle from Redmond, which nevertheless includes patches for 13 flaws that earned Microsoft's most-dire "critical" label. Meanwhile, both Apple and Google recently released updates to fix zero-day bugs in their devices.]]></description>
+										<content:encoded><![CDATA[<p><strong>Microsoft Corp.</strong> today issued security updates to fix more than 80 vulnerabilities in its <strong>Windows</strong> operating systems and software. There are no known &#8220;zero-day&#8221; or actively exploited vulnerabilities in this month&#8217;s bundle from Redmond, which nevertheless includes patches for 13 flaws that earned Microsoft&#8217;s most-dire &#8220;critical&#8221; label. Meanwhile, both <strong>Apple</strong> and <strong>Google</strong> recently released updates to fix zero-day bugs in their devices.</p>
+<p><img decoding="async" class="aligncenter  wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="750" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<p>Microsoft assigns security flaws a &#8220;critical&#8221; rating when malware or miscreants can exploit them to gain remote access to a Windows system with little or no help from users. Among the more concerning critical bugs quashed this month is <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-54918" target="_blank" rel="noopener">CVE-2025-54918</a>. The problem here resides with <strong>Windows NTLM</strong>, or NT LAN Manager, a suite of code for managing authentication in a Windows network environment.</p>
+<p>Redmond rates this flaw as &#8220;Exploitation More Likely,&#8221; and although it is listed as a privilege escalation vulnerability, <strong>Kev Breen</strong> at <strong>Immersive</strong> says this one is actually exploitable over the network or the Internet.</p>
+<p>&#8220;From Microsoft’s limited description, it appears that if an attacker is able to send specially crafted packets over the network to the target device, they would have the ability to gain SYSTEM-level privileges on the target machine,&#8221; Breen said. &#8220;The patch notes for this vulnerability state that &#8216;Improper authentication in Windows NTLM allows an authorized attacker to elevate privileges over a network,&#8217; suggesting an attacker may already need to have access to the NTLM hash or the user&#8217;s credentials.&#8221;</p>
+<p>Breen said another patch &#8212; <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-55234" target="_blank" rel="noopener">CVE-2025-55234</a>, a 8.8 CVSS-scored flaw affecting the <strong>Windows SMB</strong> client for sharing files across a network &#8212; also is listed as privilege escalation bug but is likewise remotely exploitable. This vulnerability was publicly disclosed prior to this month.</p>
+<p>&#8220;Microsoft says that an attacker with network access would be able to perform a replay attack against a target host, which could result in the attacker gaining additional privileges, which could lead to code execution,&#8221; Breen noted.<span id="more-72086"></span></p>
+<p><a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-54916" target="_blank" rel="noopener">CVE-2025-54916</a> is an &#8220;important&#8221; vulnerability in <strong>Windows NTFS</strong> &#8212; the default filesystem for all modern versions of Windows &#8212; that can lead to remote code execution. Microsoft likewise thinks we are more than likely to see exploitation of this bug soon: The last time Microsoft patched an NTFS bug was in March 2025 and it was already being exploited in the wild as a zero-day.</p>
+<p>&#8220;While the title of the CVE says &#8216;Remote Code Execution,&#8217; this exploit is not remotely exploitable over the network, but instead needs an attacker to either have the ability to run code on the host or to convince a user to run a file that would trigger the exploit,&#8221; Breen said. &#8220;This is commonly seen in social engineering attacks, where they send the user a file to open as an attachment or a link to a file to download and run.&#8221;</p>
+<p>Critical and remote code execution bugs tend to steal all the limelight, but <strong>Tenable</strong> Senior Staff Research Engineer <strong>Satnam Narang</strong> notes that nearly half of all vulnerabilities fixed by Microsoft this month are privilege escalation flaws that require an attacker to have gained access to a target system first before attempting to elevate privileges.</p>
+<p>&#8220;For the third time this year, Microsoft patched more elevation of privilege vulnerabilities than remote code execution flaws,&#8221; Narang observed.</p>
+<p>On Sept. 3, Google <a href="https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-flaws-in-september-update/" target="_blank" rel="noopener">fixed two flaws</a> that were detected as exploited in zero-day attacks, including CVE-2025-38352, an elevation of privilege in the Android kernel, and CVE-2025-48543, also an elevation of privilege problem in the Android Runtime component.</p>
+<p>Also, Apple recently patched its seventh zero-day (CVE-2025-43300) of this year. It was part of <a href="https://techcrunch.com/2025/08/29/whatsapp-fixes-zero-click-bug-used-to-hack-apple-users-with-spyware/" target="_blank" rel="noopener">an exploit chain</a> used along with a vulnerability in the <strong>WhatsApp </strong>(CVE-2025-55177) instant messenger to hack Apple devices. Amnesty International <a href="https://x.com/DonnchaC/status/1961444710620303653" target="_blank" rel="noopener">reports</a> that the two zero-days have been used in &#8220;an advanced spyware campaign&#8221; over the past 90 days. The issue is fixed in iOS 18.6.2, iPadOS 18.6.2, iPadOS 17.7.10, macOS Sequoia 15.6.1, macOS Sonoma 14.7.8, and macOS Ventura 13.7.8.</p>
+<p>The <strong>SANS Internet Storm Center</strong> has a <a href="https://isc.sans.edu/forums/diary/Microsoft%20Patch%20Tuesday%20September%202025/32270/" target="_blank" rel="noopener">clickable breakdown</a> of each individual fix from Microsoft, indexed by severity and CVSS score. Enterprise Windows admins involved in testing patches before rolling them out should keep an eye on <a href="https://www.askwoody.com/2025/september-2025-updates-are-out/" target="_blank" rel="noopener">askwoody.com</a>, which often has the skinny on wonky updates.</p>
+<p>AskWoody also reminds us that we&#8217;re now just two months out from Microsoft discontinuing free security updates for Windows 10 computers. For those interested in safely extending the lifespan and usefulness of these older machines, check out <a href="https://krebsonsecurity.com/2025/08/microsoft-patch-tuesday-august-2025-edition/" target="_blank" rel="noopener">last month&#8217;s Patch Tuesday coverage</a> for a few pointers.</p>
+<p>As ever, please don&#8217;t neglect to back up your data (if not your entire system) at regular intervals, and feel free to sound off in the comments if you experience problems installing any of these fixes.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/09/microsoft-patch-tuesday-september-2025-edition/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>18 Popular Code Packages Hacked, Rigged to Steal Crypto</title>
 		<link>https://krebsonsecurity.com/2025/09/18-popular-code-packages-hacked-rigged-to-steal-crypto/</link>
 					<comments>https://krebsonsecurity.com/2025/09/18-popular-code-packages-hacked-rigged-to-steal-crypto/#comments</comments>
@@ -43,7 +97,7 @@
 
 					<description><![CDATA[At least 18 popular JavaScript code packages that are collectively downloaded more than two billion times each week were briefly compromised with malicious software today, after a developer involved in maintaining the projects was phished. The attack appears to have been quickly contained and was narrowly focused on stealing cryptocurrency. But experts warn that a similar attack with a slightly more nefarious payload could quickly lead to a disruptive malware outbreak that is far more difficult to detect and restrain.]]></description>
 										<content:encoded><![CDATA[<p>At least 18 popular JavaScript code packages that are collectively downloaded more than two billion times each week were briefly compromised with malicious software today, after a developer involved in maintaining the projects was phished. The attack appears to have been quickly contained and was narrowly focused on stealing cryptocurrency. But experts warn that a similar attack with a slightly more nefarious payload could lead to a disruptive malware outbreak that is far more difficult to detect and restrain.</p>
-<div id="attachment_72130" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72130" decoding="async" class=" wp-image-72130" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/npmjshelp.png" alt="" width="750" height="567" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/09/npmjshelp.png 908w, https://krebsonsecurity.com/wp-content/uploads/2025/09/npmjshelp-768x580.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/09/npmjshelp-782x591.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-72130" class="wp-caption-text">This phishing email lured a developer into logging in at a fake NPM website and supplying a one-time token for two-factor authentication. The phishers then used that developer&#8217;s NPM account to add malicious code to at least 18 popular JavaScript code packages.</p></div>
+<div id="attachment_72130" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72130" decoding="async" loading="lazy" class=" wp-image-72130" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/npmjshelp.png" alt="" width="750" height="567" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/09/npmjshelp.png 908w, https://krebsonsecurity.com/wp-content/uploads/2025/09/npmjshelp-768x580.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/09/npmjshelp-782x591.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-72130" class="wp-caption-text">This phishing email lured a developer into logging in at a fake NPM website and supplying a one-time token for two-factor authentication. The phishers then used that developer&#8217;s NPM account to add malicious code to at least 18 popular JavaScript code packages.</p></div>
 <p><strong>Aikido</strong> is a security firm in Belgium that monitors new code updates to major open-source code repositories, scanning any code updates for suspicious and malicious code. In a blog post published today, Aikido said its systems found malicious code had been added to at least 18 widely-used code libraries available on <a href="https://www.npmjs.com/" target="_blank" rel="noopener"><strong>NPM</strong></a> (short for) &#8220;Node Package Manager,&#8221; which acts as a central hub for JavaScript development and the latest updates to widely-used JavaScript components.</p>
 <p>JavaScript is a powerful web-based scripting language used by countless websites to build a more interactive experience with users, such as entering data into a form. But there&#8217;s no need for each website developer to build a program from scratch for entering data into a form when they can just reuse already existing packages of code at NPM that are specifically designed for that purpose.</p>
 <p>Unfortunately, if cybercriminals manage to phish NPM credentials from developers, they can introduce malicious code that allows attackers to fundamentally control what people see in their web browser when they visit a website that uses one of the affected code libraries.</p>
@@ -572,59 +626,15 @@ Noah Michael Urban of Palm Coast, Fla. pleaded guilty in April 2025 to charges o
 		
 		
 			</item>
-		<item>
-		<title>KrebsOnSecurity in New &#8216;Most Wanted&#8217; HBO Max Series</title>
-		<link>https://krebsonsecurity.com/2025/08/krebsonsecurity-in-new-most-wanted-hbo-max-series/</link>
-					<comments>https://krebsonsecurity.com/2025/08/krebsonsecurity-in-new-most-wanted-hbo-max-series/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Fri, 08 Aug 2025 21:38:01 +0000</pubDate>
-				<category><![CDATA[A Little Sunshine]]></category>
-		<category><![CDATA[Ne'er-Do-Well News]]></category>
-		<category><![CDATA[Ransomware]]></category>
-		<category><![CDATA[John Smedley]]></category>
-		<category><![CDATA[Joni Soila]]></category>
-		<category><![CDATA[Julius Kivimäki]]></category>
-		<category><![CDATA[Lizard Squad]]></category>
-		<category><![CDATA[Sami Kieski]]></category>
-		<category><![CDATA[Sony Playstation]]></category>
-		<category><![CDATA[Vastaamo Psychotherapy Center]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71873</guid>
-
-					<description><![CDATA[A new documentary series about cybercrime airing next month on HBO Max features interviews with Yours Truly. The four-part series follows the exploits of Julius Kivimäki, a prolific Finnish hacker recently convicted of leaking tens of thousands of patient records from an online psychotherapy practice while attempting to extort the clinic and its patients.]]></description>
-										<content:encoded><![CDATA[<p>A new documentary series about cybercrime airing next month on <strong>HBO Max</strong> features interviews with Yours Truly. The four-part series follows the exploits of <strong>Julius Kivimäki</strong>, a prolific Finnish hacker recently convicted of leaking tens of thousands of patient records from an online psychotherapy practice while attempting to extort the clinic and its patients.</p>
-<p>The documentary, &#8220;<em>Most Wanted: Teen Hacker</em>,&#8221; explores the 27-year-old Kivimäki&#8217;s lengthy and increasingly destructive career, one that was marked by cyber attacks designed to result in real-world physical impacts on their targets.</p>
-<div style="text-align: center;"><iframe loading="lazy" title="YouTube video player" src="https://www.youtube.com/embed/p0CHYMtORb0?si=LQip-niqEaMZXZM3" width="750" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-<p>By the age of 14, Kivimäki had fallen in with a group of criminal hackers who were <a href="https://krebsonsecurity.com/2014/03/the-long-tail-of-coldfusion-fail/" target="_blank" rel="noopener">mass-compromising websites and milking them for customer payment card data</a>. Kivimäki and his friends enjoyed harassing and terrorizing others by &#8220;swatting&#8221; their homes &#8212; calling in fake hostage situations or bomb threats at a target&#8217;s address in the hopes of triggering a heavily-armed police response to that location.</p>
-<p>On Dec. 26, 2014, Kivimäki and fellow members of a group of online hooligans calling themselves the <strong>Lizard Squad</strong> <a href="https://krebsonsecurity.com/2014/12/cowards-attack-sony-playstation-microsoft-xbox-networks/" target="_blank" rel="noopener">launched a massive distributed denial-of-service</a> (DDoS) attack against the <strong>Sony Playstation</strong> and <strong>Microsoft Xbox Live</strong> platforms, preventing millions of users from playing with their shiny new gaming rigs the day after Christmas. The Lizard Squad later acknowledged that the stunt was planned to call attention to their new DDoS-for-hire service, which came online and <a href="https://krebsonsecurity.com/2015/01/lizard-stresser-runs-on-hacked-home-routers/" target="_blank" rel="noopener">started selling subscriptions</a> shortly after the attack.</p>
-<p>Finnish investigators said Kivimäki also was responsible for a 2014 bomb threat against former <strong>Sony Online Entertainment President</strong> <strong>John Smedley</strong> that <a href="https://www.forbes.com/sites/insertcoin/2014/08/24/sony-online-entertainment-presidents-flight-diverted-by-psn-hackers-bomb-threat/" target="_blank" rel="noopener">grounded an American Airlines plane</a>. That incident was widely reported to have started with a Twitter post from the Lizard Squad, after Smedley mentioned some upcoming travel plans online. But according to Smedley and Finnish investigators, the bomb threat started with a phone call from Kivimäki.</p>
-<div id="attachment_29338" style="width: 466px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-29338" decoding="async" loading="lazy" class=" wp-image-29338" src="https://krebsonsecurity.com/wp-content/uploads/2014/12/ryan-k-285x270.png" alt="" width="456" height="432" srcset="https://krebsonsecurity.com/wp-content/uploads/2014/12/ryan-k-285x270.png 285w, https://krebsonsecurity.com/wp-content/uploads/2014/12/ryan-k.png 368w" sizes="(max-width: 456px) 100vw, 456px" /><p id="caption-attachment-29338" class="wp-caption-text">Julius &#8220;Zeekill&#8221; Kivimaki, in December 2014.</p></div>
-<p>The creaky wheels of justice seemed to be catching up with Kivimäki in mid-2015, when a Finnish court found him guilty of more than 50,000 cybercrimes, including data breaches, payment fraud, and operating a global botnet of hacked computers. Unfortunately, the defendant was 17 at the time, and received little more than a slap on the wrist: A two-year suspended sentence and a small fine.<span id="more-71873"></span></p>
-<p>Kivimäki immediately bragged online about the lenient sentencing, posting on Twitter that he was an &#8220;untouchable hacker god.&#8221; I wrote a column in 2015 <a href="https://krebsonsecurity.com/2015/07/finnish-decision-is-win-for-internet-trolls/" target="_blank" rel="noopener">lamenting his laughable punishment</a> because it was clear even then that this was a person who enjoyed watching other people suffer, and who seemed utterly incapable of remorse about any of it. It was also abundantly clear to everyone who investigated his crimes that he wasn&#8217;t going to quit unless someone made him stop.</p>
-<p>In response to some of my early reporting that mentioned Kivimäki, one reader shared that they had been dealing with non-stop harassment and abuse from Kivimäki for years, including swatting incidents, unwanted deliveries and subscriptions, emails to her friends and co-workers, as well as threatening phonecalls and texts at all hours of the night. The reader, who spoke on condition of anonymity, shared that Kivimäki at one point confided that he had no reason whatsoever for harassing her &#8212; that she was picked at random and that it was just something he did for laughs.</p>
-<p>Five years after Kivimäki&#8217;s conviction, the <strong>Vastaamo Psychotherapy Center</strong> in Finland became the target of blackmail when a tormentor identified as “ransom_man” demanded payment of 40 bitcoins (~450,000 euros at the time) in return for a promise not to publish highly sensitive therapy session notes Vastaamo had exposed online.</p>
-<p>Ransom_man, a.k.a. Kivimäki, announced on the dark web that he would start publishing 100 patient profiles every 24 hours. When Vastaamo declined to pay, ransom_man shifted to extorting individual patients. According to Finnish police, some 22,000 victims reported extortion attempts targeting them personally, targeted emails that threatened to publish their therapy notes online unless paid a 500 euro ransom.</p>
-<p>In October 2022, Finnish authorities charged Kivimäki with extorting Vastaamo and its patients. But by that time he was on the run from the law and living it up across Europe, spending lavishly on fancy cars, apartments and a hard-partying lifestyle.</p>
-<p>In February 2023, Kivimäki was <a href="https://krebsonsecurity.com/2023/02/finlands-most-wanted-hacker-nabbed-in-france/" target="_blank" rel="noopener">arrested in France</a> after authorities there responded to a domestic disturbance call and found the defendant sleeping off a hangover on the couch of a woman he’d met the night before. The French police grew suspicious when the 6′ 3″ blonde, green-eyed man presented an ID that stated he was of Romanian nationality.</p>
-<div id="attachment_65661" style="width: 505px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-65661" decoding="async" loading="lazy" class="size-full wp-image-65661" src="https://krebsonsecurity.com/wp-content/uploads/2023/11/kivimaki-romainianid.png" alt="" width="495" height="338" /><p id="caption-attachment-65661" class="wp-caption-text">A redacted copy of an ID Kivimaki gave to French authorities claiming he was from Romania.</p></div>
-<p>In April 2024, Kivimäki was <a href="https://krebsonsecurity.com/2024/04/man-who-mass-extorted-psychotherapy-patients-gets-six-years/" target="_blank" rel="noopener">sentenced to more than six years in prison</a> after being convicted of extorting Vastaamo and its patients.</p>
-<p>The documentary is directed by the award-winning Finnish producer and director <a href="https://fi.wikipedia.org/wiki/Sami_Kieksi" target="_blank" rel="noopener">Sami Kieski</a> and co-written by <strong>Joni Soila</strong>. According to an August 6 press release, the four 43-minute episodes will drop weekly on Fridays throughout September across Europe, the U.S, Latin America, Australia and South-East Asia.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/08/krebsonsecurity-in-new-most-wanted-hbo-max-series/feed/</wfw:commentRss>
-			<slash:comments>21</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 261/261 objects using memcached
+Object Caching 246/285 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-09-09 17:00:09 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-09-09 18:00:18 by W3 Total Cache
 -->
