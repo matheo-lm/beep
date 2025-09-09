@@ -4,12 +4,68 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Tue, 09 Sep 2025 15:52:32 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Sep 2025 16:18:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
         <copyright>Copyright © 2025 Recorded Future, Inc.</copyright>
         <atom:link href="https://www.recordedfuture.com/feed" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Why Manual Cyber Operations Can Create Dangerous Gaps]]></title>
+            <link>https://www.recordedfuture.com/blog/why-manual-cyber-operations-can-create-dangerous-gaps</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/blog/why-manual-cyber-operations-can-create-dangerous-gaps</guid>
+            <pubDate>Tue, 09 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Manual threat hunting can leave enterprises exposed to sophisticated attacks. Learn why Fortune 500 companies are abandoning traditional approaches for autonomous threat operations.]]></description>
+            <content:encoded><![CDATA[
+        <h2>The Hidden Crisis in Your SOC</h2>
+        <p>Every Monday morning, your threat hunters run the same queries they ran last week. By Friday, they've analyzed Monday's logs. Meanwhile, attackers who may have breached your network on Tuesday have already completed their mission.</p>
+        <p>This gap—where threats operate 180 hours per week while your team covers just 40— often represents the single greatest vulnerability in enterprise security today.</p>
+        <h2>The Brutal Math of Manual Operations</h2>
+        <p>Consider what Recorded Future's analysis of 1,900+ enterprises reveals:</p>
+        <p><strong>Your team spends on average 16.3 hours weekly on threat analysis and hunting.</strong> That's 40% of their time on repetitive tasks that should be automated. For financial services firms managing complex regulatory requirements, this translates to millions of dollars in lost productivity annually.</p>
+        <p><strong>Healthcare organizations face an even grimmer reality.</strong> With ransomware attacks increasing exponentially (source: <a href="https://pages.recordedfutureext.com/GartnerThreatLandscapeReport.html">Gartner ThreatScape 2025</a>), manual processes can leave critical patient systems exposed for days. The result: healthcare breaches affecting millions of patients, as seen in recent attacks on UnitedHealth (192.7 million records) and MediSecure (13 million records).</p>
+        <p><strong>Government agencies struggle with correlation overload.</strong> SOCs managing 15-20 intelligence feeds can see each correlation taking hours. When nation-state actors operate at machine speed—as evidenced by recent Chinese telecom hacking campaigns affecting dozens of countries—manual correlation can become a national security liability.</p>
+        <h2>Why Traditional Approaches Can't Scale</h2>
+        <p>The threat landscape has fundamentally changed:</p>
+        <ul>
+          <li><strong>Attack velocity:</strong> Threats now move from initial compromise to data exfiltration on average in under 48 hours</li>
+          <li><strong>Threat volume:</strong> 1 million+ new malware samples daily (Recorded Future Intelligence Cloud)</li>
+          <li><strong>Detection gaps:</strong> Manual hunting 1-2 times weekly can leave 165-hour gaps</li>
+        </ul>
+        <p>Our customer data shows organizations achieve on average only <strong>22% coverage</strong> with manual operations (40 hours covered / 180 total hours). Every gap is an opportunity for attackers.</p>
+        <h2>The Hidden Cost of "Good Enough"</h2>
+        <p>When boards ask about threat hunting capabilities, the real numbers tell a sobering story:</p>
+        <p><strong>Intelligence ROI remains unmeasurable.</strong> Without automated tracking, organizations struggle to demonstrate value from their cybersecurity investments. Recorded Future customers report that before automation, they couldn't attribute a single prevented breach to their intelligence feeds.</p>
+        <p><strong>Talent waste is rampant.</strong> Senior analysts spending <strong>28% of their time on work that junior analysts could handle</strong> represents massive inefficiency (<a href="https://app.userevidence.com/sites/recorded-future-why-recorded-future">Recorded Future Customer Survey, July 2024</a>).</p>
+        <p><strong>Compliance becomes fiction.</strong> Healthcare organizations must demonstrate continuous monitoring for compliance and other purposes. But manual hunting happening sporadically can make "continuous" a dangerous illusion.</p>
+        <h2>The Paradigm Shift Already Underway</h2>
+        <p>The most sophisticated organizations are already exploring and taking steps to automate cyber operations workflows with intelligence:</p>
+        <p><strong>A major European enterprise</strong> (<a href="https://www.recordedfuture.com/blog/visma-case-study">Visma</a>) with 170 subsidiary companies transformed operations by deploying automated correlation—something that would have required hundreds of additional analysts manually.</p>
+        <p>A <strong>large financial institution</strong> (<a href="https://www.recordedfuture.com/case-study/citizens-financial-group-banks-on-threat-intelligence">Citizens Bank</a>) uses hunting packages to understand threat actor’s ever changing tactics, techniques and procedures (TTPs) to identify and remediate gaps.</p>
+        <p><strong>Customers across all industries</strong> using Recorded Future report <strong>3x faster threat detection</strong> and <strong><a href="https://www.recordedfuture.com/blog/improving-cybersecurity-productivity-threat-intelligence-recorded-future-drives-roi#:~:text=Faster%20threat%20identification:%20On%20average,download%20our%20full%20ROI%20report.">65% faster identification of new threats</a></strong><a href="https://www.recordedfuture.com/blog/improving-cybersecurity-productivity-threat-intelligence-recorded-future-drives-roi#:~:text=Faster%20threat%20identification:%20On%20average,download%20our%20full%20ROI%20report.">.</a></p>
+        <h2>From Human-Limited to Machine-Powered</h2>
+        <p>These organizations understand the future isn't about hiring more analysts or buying more tools. It's about fundamentally transforming how threat operations work.</p>
+        <p>Autonomous threat operations can deliver:</p>
+        <ul>
+          <li><strong>Continuous coverage:</strong> 24/7/365 hunting without gaps</li>
+          <li><strong>Instant correlation:</strong> Intelligence processed in seconds, not hours</li>
+          <li><strong>Measurable impact:</strong> Capable of 572 hours saved annually per analyst (1.3 FTE equivalent)</li>
+        </ul>
+        <p>This isn't replacing human expertise—it's amplifying it. When machines handle repetitive tasks, analysts can focus on strategic decisions. When automation eliminates gaps, defenders can achieve true continuous coverage.</p>
+        <h2>The Choice Is Clear</h2>
+        <p><a href="https://www.recordedfuture.com/blog/improving-cybersecurity-productivity-threat-intelligence-recorded-future-drives-roi#:~:text=Faster%20threat%20identification:%20On%20average,download%20our%20full%20ROI%20report.">Organizations</a> using Recorded Future report:</p>
+        <ul>
+          <li><strong>57% significant reduction in overall cyber risk</strong></li>
+          <li><strong>73% increase in threat visibility</strong></li>
+          <li><strong>350% ROI on intelligence investments</strong></li>
+        </ul>
+        <p>Meanwhile, those clinging to manual processes face expanding gaps, increasing complexity, and adversaries that never sleep.</p>
+        <p>The question isn't whether to automate your threat operations—it's whether you'll do it before or after your next breach.</p>
+        <p><strong>Your adversaries have already automated their attacks. Isn't it time you automated your defense?</strong></p>
+      ]]></content:encoded>
+            <category>Blog</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_17b8686ba1dadaff33fe067d2ed622b4354f976a4.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
         <item>
             <title><![CDATA[Getting Ahead of Payment Fraud: The Early Detection Window You're Missing]]></title>
             <link>https://www.recordedfuture.com/blog/getting-ahead-of-payment-fraud</link>
@@ -10684,227 +10740,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Blog</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_141ec777a795b47dec97b4859ed2b61be69e7c212.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[Trimble Cityworks: CVE-2025-0994: Active Exploitation]]></title>
-            <link>https://www.recordedfuture.com/blog/trimble-cityworks-cve-2025-0994-vulnerability-analysis</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/blog/trimble-cityworks-cve-2025-0994-vulnerability-analysis</guid>
-            <pubDate>Wed, 19 Feb 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Learn about CVE-2025-0994 affecting Trimble Cityworks products. Patch now to prevent remote code execution.]]></description>
-            <content:encoded><![CDATA[
-        <h1>What is CVE-2025-0994?</h1>
-        <p><a href="https://www.recordedfuture.com/vulnerability-database/cve-2025-0994">CVE-2025-0994</a> is a high-severity deserialization vulnerability in <a href="https://utilities.trimble.com/en-us/unityrm-and-cityworks">Trimble Cityworks</a>, an asset management and work order software designed for local governments and utilities. The critical infrastructure sectors Cityworks services include water and wastewater systems, energy, transportation systems, government services and facilities, and communications.</p>
-        <p>The vulnerability affects Cityworks versions before 15.8.9 and Cityworks with Office Companion versions before 23.10.</p>
-        <p>Successfully exploiting CVE-2025-0994 can allow authenticated attackers to conduct remote code execution (RCE) against a target’s Microsoft Internet Information Services (IIS) web server.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="trimble-cityworks-01.png" src="https://www.recordedfuture.com/media_1711b8533ab72afa4a64f9656889359fb9d84e9ee.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="882" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 1:</em></strong> <em>Login page on an exposed Cityworks instance (Source: Recorded Future)</em></div>
-          </div>
-        </div>
-        <h2>Insikt Group’s Assessment of CVE-2025-0994</h2>
-        <p>Indicators of compromise (IoCs) shared by Trimble suggest that the vulnerability is being exploited to deliver custom Rust-based loaders capable of loading VShell and <a href="/blog/detect-cobalt-strike-inside-look">Cobalt Strike</a> into memory. Additionally, the threat actors delivered an obfuscated JavaScript payload located in the “%TEMP%” folder, two unknown files, three malicious executables with randomized, alphanumeric filenames (for example, “fq1u4t83[.]exe”), and two files masquerading as legitimate services (“winpty.dll” and “winpty-agent[.]exe”).</p>
-        <p>The malicious files were likely downloaded into the victim's environment from threat actor-controlled Cobalt Strike C2 servers.</p>
-        <p>Based on the IoCs shared by Trimble, the threat actors used <a href="https://app.recordedfuture.com/portal/intelligence-card/ip%3A192.210.239.172/overview?organization=uhash:5cJsHMHeSM">192.210.239[.]172:3219</a> and <a href="https://app.recordedfuture.com/portal/intelligence-card/ip%3A192.210.239.172/overview?organization=uhash:5cJsHMHeSM">192.210.239[.]172:4219</a> as staging infrastructure. Insikt Group has validated this IP address as a C2 server for <a href="https://app.recordedfuture.com/portal/intelligence-card/JLHNoH/overview?organization=uhash:5cJsHMHeSM">Cobalt Strike</a>.</p>
-        <p>There is insufficient evidence to definitively confirm which files were transferred from the threat actor’s infrastructure; however, the obfuscated alphanumeric-named executables stored in the “\Temp” folder or the JavaScript payload are two possibilities.</p>
-        <p>At the time of writing, there were 111 exposed Cityworks instances on Shodan, 21% of which are vulnerable based on identified version numbers. The majority of exposed instances are also geolocated in the US and include multiple .gov domains.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="trimble-cityworks-02.png" src="https://www.recordedfuture.com/media_15cd10b3a326e6174d50bfe39a0436f2c30b488a5.png?width=750&amp;format=png&amp;optimize=medium" width="600" height="371" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 2:</em></strong> <em>Nearly 95% of exposed Cityworks instances on Shodan are geolocated in the US (Sources:</em> <em><a href="https://www.shodan.io/search?query=html%3A%22Cityworks%22">Shodan</a>, Recorded Future)</em></div>
-          </div>
-        </div>
-        <p>Trimble shared the following list of IoCs related to their observed exploitation of CVE-2025-0994:</p>
-        <div>
-          <div>
-            <div>IoC</div>
-            <div>Type</div>
-            <div>Description</div>
-          </div>
-          <div>
-            <div>4b7561e27c87a1895446d7f2b83e2d9fcf71e6d6e8bc99d44818dc39a6ff99d5</div>
-            <div>SHA-256</div>
-            <div>Obfuscated JavaScript payload</div>
-          </div>
-          <div>
-            <div>4ffc33bdc8527a2e8cb87e49cdc16c3b1480dfc135e507d552f581a67d1850a9</div>
-            <div>SHA-256</div>
-            <div>VShell loader</div>
-          </div>
-          <div>
-            <div>8a6c735f3608719ec9f46d9c6c5fc196db8c97065957c218b98733a491edd899</div>
-            <div>SHA-256</div>
-            <div>Unknown</div>
-          </div>
-          <div>
-            <div>883d849b94238c26c57c0595ccb95b8c356628887b9a3628bf56e726332af925</div>
-            <div>SHA-256</div>
-            <div>Cobalt Strike loader</div>
-          </div>
-          <div>
-            <div>151a71c43e63db802d41d5d715aa98eb1b236e0a6441076a8d30fd93990416b4</div>
-            <div>SHA-256</div>
-            <div>Unknown</div>
-          </div>
-          <div>
-            <div>1de72c03927bcd2810ce98205ff871ef1ebf4344fba187e126e50caa1e43250b</div>
-            <div>SHA-256</div>
-            <div>Cobalt Strike loader</div>
-          </div>
-          <div>
-            <div>14a072113baa0a1e1e2b6044068c7bc972ae5e541a0aec06577b0d6663140079</div>
-            <div>SHA-256</div>
-            <div>Unknown malicious file fq1u4t83[.]exe</div>
-          </div>
-          <div>
-            <div>04dc3a16e1e2b4924943805a1cea5e402c4f2304c717ea21fdf43274b8c34a84</div>
-            <div>SHA-256</div>
-            <div>Unknown malicious file q0pe6x96[.]exe</div>
-          </div>
-          <div>
-            <div>f09b51b759dfe7de06fa724bd89592f5b8eae57053d5fb4891e40f24055103fb</div>
-            <div>SHA-256</div>
-            <div>Unknown malicious file szm9wz8m[.]exe</div>
-          </div>
-          <div>
-            <div>C:\windows\temp\z1[.]exe</div>
-            <div>File path</div>
-            <div>Malicious binary download path</div>
-          </div>
-          <div>
-            <div>C:\windows\temp\z2[.]exe</div>
-            <div>File path</div>
-            <div>Malicious binary download path</div>
-          </div>
-          <div>
-            <div>C:\windows\temp\z44[.]exe</div>
-            <div>File path</div>
-            <div>Malicious binary download path</div>
-          </div>
-          <div>
-            <div>C:\windows\temp\z55[.]exe</div>
-            <div>File path</div>
-            <div>Malicious binary download path</div>
-          </div>
-          <div>
-            <div>C:\Windows\Temp\UDGEZR[.]exe</div>
-            <div>File path</div>
-            <div>Malicious binary download path</div>
-          </div>
-          <div>
-            <div>C:\Windows\Temp\z55.exe_winpty\<a href="https://www.google.com/url?q=https://app.recordedfuture.com/portal/intelligence-card/Mq_Qzg/overview?organization%3Duhash:5cJsHMHeSM&amp;sa=D&amp;source=editors&amp;ust=1739979692202570&amp;usg=AOvVaw15_LFbcvxHMxPW8d_RPuCM">winpty-agent[.]exe</a></div>
-            <div>File path</div>
-            <div>PUTTY binary download path</div>
-          </div>
-          <div>
-            <div>C:\Windows\Temp\z55.exe_winpty\<a href="https://www.google.com/url?q=https://app.recordedfuture.com/portal/intelligence-card/RA1Z9y/overview?organization%3Duhash:5cJsHMHeSM&amp;sa=D&amp;source=editors&amp;ust=1739979692203091&amp;usg=AOvVaw3kbl_TrHI3zTosQKpIMMOw">winpty[.]dll</a></div>
-            <div>File path</div>
-            <div>PUTTY binary download path</div>
-          </div>
-          <div>
-            <div>192.210.239[.]172:3219</div>
-            <div>IPv4:port</div>
-            <div>Staging IP address</div>
-          </div>
-          <div>
-            <div>192.210.239[.]172:4219</div>
-            <div>IPv4:port</div>
-            <div>Staging IP address</div>
-          </div>
-          <div>
-            <div><a href="https://www.google.com/url?q=https://app.recordedfuture.com/portal/intelligence-card/ip%253A23.247.136.238/overview?organization%3Duhash:5cJsHMHeSM&amp;sa=D&amp;source=editors&amp;ust=1739979692204146&amp;usg=AOvVaw1bnS_Z7m_f2E3DVLxEM2tT">23.247.136[.]238</a></div>
-            <div>IPv4</div>
-            <div>Threat actor-controlled IP address</div>
-          </div>
-          <div>
-            <div><a href="https://www.google.com/url?q=https://app.recordedfuture.com/portal/intelligence-card/ip%253A31.59.70.13/overview?organization%3Duhash:5cJsHMHeSM&amp;sa=D&amp;source=editors&amp;ust=1739979692204601&amp;usg=AOvVaw2xlXrPh4Q2I71kyBMI4LC6">31.59.70[.]13</a></div>
-            <div>IPv4</div>
-            <div>Threat actor-controlled IP address</div>
-          </div>
-          <div>
-            <div><a href="https://www.google.com/url?q=https://app.recordedfuture.com/portal/intelligence-card/ip%253A31.59.70.11/overview?organization%3Duhash:5cJsHMHeSM&amp;sa=D&amp;source=editors&amp;ust=1739979692205187&amp;usg=AOvVaw3yYie-w8JCWsPivoKFLVOm">31.59.70[.]11</a></div>
-            <div>IPv4</div>
-            <div>Threat actor-controlled IP address</div>
-          </div>
-          <div>
-            <div><a href="https://www.google.com/url?q=https://app.recordedfuture.com/portal/intelligence-card/ip%253A149.112.117.49/overview?organization%3Duhash:5cJsHMHeSM&amp;sa=D&amp;source=editors&amp;ust=1739979692205733&amp;usg=AOvVaw3oeU9q03wJvSGuntCdFJ2Q">149.112.117[.]49</a></div>
-            <div>IPv4</div>
-            <div>Threat actor-controlled IP address</div>
-          </div>
-          <div>
-            <div><a href="https://www.google.com/url?q=https://app.recordedfuture.com/portal/intelligence-card/ip%253A192.210.137.81/overview?organization%3Duhash:5cJsHMHeSM&amp;sa=D&amp;source=editors&amp;ust=1739979692206501&amp;usg=AOvVaw0KJ-ZJqo2lZRw2Txrxnr4r">192.210.137[.]81</a></div>
-            <div>IPv4</div>
-            <div>Threat actor-controlled IP address</div>
-          </div>
-          <div>
-            <div><a href="https://www.google.com/url?q=https://app.recordedfuture.com/portal/intelligence-card/ip%253A192.210.183.118/overview?organization%3Duhash:5cJsHMHeSM&amp;sa=D&amp;source=editors&amp;ust=1739979692207318&amp;usg=AOvVaw3HKZ0BV2ndTy8M_QBl0Itt">192.210.183[.]118</a></div>
-            <div>IPv4</div>
-            <div>Threat actor-controlled IP address</div>
-          </div>
-          <div>
-            <div>cdn.phototagx[.]com</div>
-            <div>Domain</div>
-            <div>Threat actor-controlled callback domain</div>
-          </div>
-          <div>
-            <div>ifode[.]xyz</div>
-            <div>Domain</div>
-            <div>Threat actor-controlled domain</div>
-          </div>
-          <div>
-            <div>https[:]//cdn.lgaircon[.]xyz[:]443/jquery-3.3.1.min.js</div>
-            <div>URI</div>
-            <div>Cobalt Strike C2</div>
-          </div>
-          <div>
-            <div>https[:]//192.210.239[.]172/messages/73KWf-o0-s0hxVCDJp1sfAHRcgdm7</div>
-            <div>URI</div>
-            <div>Cobalt Strike C2</div>
-          </div>
-        </div>
-        <p><strong><em>Table 1:</em></strong> <em>IoCs shared by Trimble related to their observed exploitation of CVE-2025-0994 (Source:</em> <em><a href="https://learn.assetlifecycle.trimble.com/i/1532182-cityworks-customer-communication-2025-02-06-docx">Trimble</a>)</em></p>
-        <h2>Recommended Actions</h2>
-        <p>Organizations should upgrade to Cityworks version 15.8.9 or later, and Cityworks with Office Companion version 23.10 or later. CISA has included this CVE in their <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">Known Exploited Vulnerabilities Catalog</a>, recommending immediate mitigation actions or discontinuation of the product if mitigations are unavailable. Given its active exploitation and high severity rating, organizations should prioritize patching this vulnerability to safeguard your company's assets from potential attacks.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="trimble-cityworks-03.png" src="https://www.recordedfuture.com/media_13b5789a7783c21caac94595fb2ff35a913e52bdb.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1002" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 3:</em></strong> <em>Vulnerability Intelligence Card for CVE-2025-0994 in Recorded Future (Source: Recorded Future)</em></div>
-          </div>
-        </div>
-        <h3>How Recorded Future Can Help:</h3>
-        <ul>
-          <li><strong><a href="/research/insikt-group">Insikt Group</a></strong> - <a href="https://assets.recordedfuture.com/strapi/yaml-yar/CVE_2025_0994_53f6872d40.yaml">Download the attached YAML file</a> in this blog post to access a Nuclei template created by Insikt Group for CVE-2025-0994 that enables defenders to test potentially vulnerable Trimble Cityworks instances prior to the patched version.</li>
-          <li><strong><a href="/products/attack-surface-intelligence">Attack Surface Intelligence</a></strong> - Identify internet-facing assets vulnerable to CVE-2025-0994.</li>
-          <li><strong><a href="/products/vulnerability-intelligence">Vulnerability Intelligence</a></strong> - Gain helpful context on CVE-2025-0994. to aid in patching and prioritization discussions.</li>
-        </ul>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="trimble-cityworks-04.png" src="https://www.recordedfuture.com/media_1ce2513e328652ae1bc962babb93053041ec91204.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="220" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 4:</em></strong> <em>Signature for CVE-2025-0994 in Recorded Future Attack Surface Intelligence® (Source: Recorded Future)</em></div>
-          </div>
-        </div>
-        <h3>About Insikt Group:</h3>
-        <p>Recorded Future’s Insikt Group threat research team is comprised of analysts, linguists, and security researchers with deep government and industry experience.</p>
-        <p>Insikt Group publishes threat intelligence to the Recorded Future analyst community in blog posts and analyst notes.</p>
-      ]]></content:encoded>
-            <category>Blog</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_1105e47332269daac2f0a7d9ba89af03bb9ff6fe3.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>

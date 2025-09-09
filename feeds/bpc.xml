@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 09 Sep 2025 11:58:58 EDT</pubDate>
+        <pubDate>Tue, 09 Sep 2025 13:02:51 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US charges admin of LockerGoga, MegaCortex, Nefilim ransomware</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-charges-admin-of-lockergoga-megacortex-nefilim-ransomware/</link>
+        <pubDate>Tue, 09 Sep 2025 12:08:15 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-charges-admin-of-lockergoga-megacortex-nefilim-ransomware/</guid>
+	<description><![CDATA[The U.S. Department of Justice has charged Ukrainian national Volodymyr Viktorovich Tymoshchuk for his role as the administrator of the LockerGoga, MegaCortex, and Nefilim ransomware operations. [...]]]></description>
+ </item>
+
  <item>
         <title>Adobe patches critical SessionReaper flaw in Magento eCommerce platform</title>
         <link>https://www.bleepingcomputer.com/news/security/adobe-patches-critical-sessionreaper-flaw-in-magento-ecommerce-platform/</link>
@@ -198,20 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/salesloft-march-github-repo-breach-led-to-salesforce-data-theft-attacks/</guid>
 	<description><![CDATA[Salesloft says attackers first breached its GitHub account in March, leading to the theft of Drift OAuth tokens later used in widespread Salesforce data theft attacks in August. [...]]]></description>
- </item>
-
- <item>
-        <title>Action1 vs. Microsoft WSUS: A Better Approach to Modern Patch Management</title>
-        <link>https://www.bleepingcomputer.com/news/security/action1-vs-microsoft-wsus-a-better-approach-to-modern-patch-management/</link>
-        <pubDate>Mon, 08 Sep 2025 09:35:00 -0400</pubDate>
-        <dc:creator>Sponsored by Action1</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/action1-vs-microsoft-wsus-a-better-approach-to-modern-patch-management/</guid>
-	<description><![CDATA[With WSUS deprecated, it's time to move from an outdated legacy patching system to a modern one. Learn from Action1 how its modern patching platform offers cloud-native speed, 3rd-party coverage, real-time compliance, and zero infrastructure. Try it free now! [...]]]></description>
  </item>
 
 </channel>
