@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 09 Sep 2025 10:59:35 EDT</pubDate>
+        <pubDate>Tue, 09 Sep 2025 11:58:58 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Adobe patches critical SessionReaper flaw in Magento eCommerce platform</title>
+        <link>https://www.bleepingcomputer.com/news/security/adobe-patches-critical-sessionreaper-flaw-in-magento-ecommerce-platform/</link>
+        <pubDate>Tue, 09 Sep 2025 11:53:53 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/adobe-patches-critical-sessionreaper-flaw-in-magento-ecommerce-platform/</guid>
+	<description><![CDATA[Adobe is warning of a critical vulnerability (CVE-2025-54236) in its Commerce and Magento Open Source platforms that researchers call SessionReaper and describe as one of " the most severe" flaws in the history of the product. [...]]]></description>
+ </item>
+
+ <item>
+        <title>How External Attack Surface Management helps enterprises manage cyber risk</title>
+        <link>https://www.bleepingcomputer.com/news/security/how-external-attack-surface-management-helps-enterprises-manage-cyber-risk/</link>
+        <pubDate>Tue, 09 Sep 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Outpost24</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/how-external-attack-surface-management-helps-enterprises-manage-cyber-risk/</guid>
+	<description><![CDATA[Shadow assets don't care about your perimeter. EASM finds every internet-facing asset, surfaces unknowns, and prioritizes real risks—so you can fix exposures before attackers do. See how Outpost24 makes it easy. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: Anti-spam bug blocks links in Exchange Online, Teams</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-anti-spam-bug-blocks-links-in-exchange-online-teams/</link>
@@ -184,22 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/action1-vs-microsoft-wsus-a-better-approach-to-modern-patch-management/</guid>
 	<description><![CDATA[With WSUS deprecated, it's time to move from an outdated legacy patching system to a modern one. Learn from Action1 how its modern patching platform offers cloud-native speed, 3rd-party coverage, real-time compliance, and zero infrastructure. Try it free now! [...]]]></description>
- </item>
-
- <item>
-        <title>Google to make it easier to access AI Mode as default</title>
-        <link>https://www.bleepingcomputer.com/news/google/google-to-make-it-easier-to-access-ai-mode-as-default/</link>
-        <pubDate>Sun, 07 Sep 2025 20:07:54 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/google/google-to-make-it-easier-to-access-ai-mode-as-default/</guid>
-	<description><![CDATA[Google plans to make it easier for users to access AI mode by allowing them to set it as the default, replacing the traditional blue links. [...]]]></description>
  </item>
 
 </channel>
