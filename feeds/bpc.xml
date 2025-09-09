@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 09 Sep 2025 16:01:55 EDT</pubDate>
+        <pubDate>Tue, 09 Sep 2025 17:01:01 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>U.S. sanctions cyber scammers who stole billions from Americans</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-sanctions-cyber-scammers-who-stole-billions-from-americans/</link>
+        <pubDate>Tue, 09 Sep 2025 16:25:49 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-sanctions-cyber-scammers-who-stole-billions-from-americans/</guid>
+	<description><![CDATA[The U.S. Department of the Treasury has sanctioned several large networks of cyber scam operations in Southeast Asia, which stole over $10 billion from Americans last year. [...]]]></description>
+ </item>
+
  <item>
         <title>Hackers hide behind Tor in exposed Docker API breaches</title>
         <link>https://www.bleepingcomputer.com/news/security/hackers-hide-behind-tor-in-exposed-docker-api-breaches/</link>
@@ -190,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/plex-tells-users-to-reset-passwords-after-new-data-breach/</guid>
 	<description><![CDATA[Media streaming platform Plex is warning customers to reset passwords after suffering a data breach in which a hacker was able to steal customer authentication data from one of its databases. [...]]]></description>
- </item>
-
- <item>
-        <title>Surge in networks scans targeting Cisco ASA devices raise concerns</title>
-        <link>https://www.bleepingcomputer.com/news/security/surge-in-networks-scans-targeting-cisco-asa-devices-raise-concerns/</link>
-        <pubDate>Mon, 08 Sep 2025 17:44:50 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/surge-in-networks-scans-targeting-cisco-asa-devices-raise-concerns/</guid>
-	<description><![CDATA[Large network scans have been  targeting Cisco ASA devices, prompting warnings from cybersecurity researchers that it could indicate an upcoming flaw in the products. [...]]]></description>
  </item>
 
 </channel>

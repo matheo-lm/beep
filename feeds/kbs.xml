@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 09 Sep 2025 01:32:23 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 09 Sep 2025 20:08:34 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -57,7 +57,7 @@
 <div id="attachment_72128" style="width: 700px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72128" decoding="async" loading="lazy" class="size-full wp-image-72128" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/junon-hn.png" alt="" width="690" height="881" /><p id="caption-attachment-72128" class="wp-caption-text">Junon&#8217;s mea cupla on Hackernews today listed the affected packages.</p></div>
 <p>Caturegli said it&#8217;s remarkable that the attackers in this case were not more ambitious or malicious with their code modifications.</p>
 <p>&#8220;The crazy part is they compromised billions of websites and apps just to target a couple of cryptocurrency things,&#8221; he said. &#8220;This was a supply chain attack, and it could easily have been something much worse than crypto harvesting.&#8221;</p>
-<p>Akito&#8217;s Eriksen agreed, saying countless websites dodged a bullet because this incident was handled in a matter of hours. As an example of how these supply-chain attacks can escalate quickly, Eriksen pointed to <a href="https://www.aikido.dev/blog/popular-nx-packages-compromised-on-npm" target="_blank" rel="noopener">another compromise of an NPM developer in late August</a> that added malware to &#8220;<strong>nx</strong>,&#8221; an open-source code development toolkit with as many as six million weekly downloads.</p>
+<p>Aikido&#8217;s Eriksen agreed, saying countless websites dodged a bullet because this incident was handled in a matter of hours. As an example of how these supply-chain attacks can escalate quickly, Eriksen pointed to <a href="https://www.aikido.dev/blog/popular-nx-packages-compromised-on-npm" target="_blank" rel="noopener">another compromise of an NPM developer in late August</a> that added malware to &#8220;<strong>nx</strong>,&#8221; an open-source code development toolkit with as many as six million weekly downloads.</p>
 <p>In the nx compromise, the attackers introduced code that scoured the user&#8217;s device for authentication tokens from programmer destinations like GitHub and NPM, as well as SSH and API keys. But instead of sending those stolen credentials to a central server controlled by the attackers, the malicious code created a new public repository in the victim&#8217;s GitHub account, and published the stolen data there for all the world to see and download.</p>
 <p>Eriksen said coding platforms like GitHub and NPM should be doing more to ensure that any new code commits for broadly-used packages require a higher level of attestation that confirms the code in question was in fact submitted by the person who owns the account, and not just by that person&#8217;s account.</p>
 <p>&#8220;More popular packages should require attestation that it came through trusted provenance and not just randomly from some location on the Internet,&#8221; Eriksen said. &#8220;Where does the package get uploaded from, by GitHub in response to a new pull request into the main branch, or somewhere else? In this case, they didn&#8217;t compromise the target&#8217;s GitHub account. They didn&#8217;t touch that. They just uploaded a modified version that didn&#8217;t come where it&#8217;s expected to come from.&#8221;</p>
@@ -626,5 +626,5 @@ Object Caching 261/261 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-09-09 16:03:10 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-09-09 17:00:09 by W3 Total Cache
 -->
