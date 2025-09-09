@@ -11,11 +11,71 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 09 Sep 2025 13:02:51 EDT</pubDate>
+        <pubDate>Tue, 09 Sep 2025 14:02:48 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Windows 10 KB5065429 update includes 14 changes and fixes</title>
+        <link>https://www.bleepingcomputer.com/news/security/windows-10-kb5065429-update-includes-14-changes-and-fixes/</link>
+        <pubDate>Tue, 09 Sep 2025 13:57:12 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/windows-10-kb5065429-update-includes-14-changes-and-fixes/</guid>
+	<description><![CDATA[Microsoft has released the KB5065429 cumulative update for Windows 10 22H2 and Windows 10 21H2, with fourteen fixes or changes, including fixes for unexpected UAC prompts and severe lag and stuttering issues with NDI streaming software. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft September 2025 Patch Tuesday fixes 81 flaws, two zero-days</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2025-patch-tuesday-fixes-81-flaws-two-zero-days/</link>
+        <pubDate>Tue, 09 Sep 2025 13:43:33 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2025-patch-tuesday-fixes-81-flaws-two-zero-days/</guid>
+	<description><![CDATA[Today is Microsoft's September 2025 Patch Tuesday, which includes security updates for 81 flaws, including two publicly disclosed zero-day vulnerabilities. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 KB5065426 &amp; KB5065431 cumulative updates released</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5065426-and-kb5065431-cumulative-updates-released/</link>
+        <pubDate>Tue, 09 Sep 2025 13:37:21 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5065426-and-kb5065431-cumulative-updates-released/</guid>
+	<description><![CDATA[Microsoft has released Windows 11 KB5065426 and KB5065431 cumulative updates for versions 24H2 and 23H2 to fix security vulnerabilities and issues. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Kosovo hacker pleads guilty to running BlackDB cybercrime marketplace</title>
+        <link>https://www.bleepingcomputer.com/news/security/kosovo-hacker-pleads-guilty-to-running-blackdb-cybercrime-marketplace/</link>
+        <pubDate>Tue, 09 Sep 2025 13:33:09 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/kosovo-hacker-pleads-guilty-to-running-blackdb-cybercrime-marketplace/</guid>
+	<description><![CDATA[Kosovo national Liridon Masurica has pleaded guilty to running BlackDB.cc, a cybercrime marketplace that has been active since 2018. [...]]]></description>
+ </item>
+
  <item>
         <title>US charges admin of LockerGoga, MegaCortex, Nefilim ransomware</title>
         <link>https://www.bleepingcomputer.com/news/security/us-charges-admin-of-lockergoga-megacortex-nefilim-ransomware/</link>
@@ -156,62 +216,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/signal-adds-secure-cloud-backups-to-save-and-restore-chats/</guid>
 	<description><![CDATA[Signal has introduced a new opt-in feature that helps users create end-to-end encrypted backups of their chats, allowing them to restore messages even if their phones are damaged or lost. [...]]]></description>
- </item>
-
- <item>
-        <title>Lovesac confirms data breach after ransomware attack claims</title>
-        <link>https://www.bleepingcomputer.com/news/security/lovesac-confirms-data-breach-after-ransomware-attack-claims/</link>
-        <pubDate>Mon, 08 Sep 2025 14:24:25 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/lovesac-confirms-data-breach-after-ransomware-attack-claims/</guid>
-	<description><![CDATA[American furniture brand Lovesac is warning that it suffered a data breach impacting an undisclosed number of individuals, stating their personal data was exposed in a cybersecurity incident. [...]]]></description>
- </item>
-
- <item>
-        <title>Sports streaming piracy service with 123M yearly visits shut down</title>
-        <link>https://www.bleepingcomputer.com/news/security/massive-calcio-sports-streaming-piracy-service-with-123m-yearly-visits-shut-down/</link>
-        <pubDate>Mon, 08 Sep 2025 14:12:57 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/massive-calcio-sports-streaming-piracy-service-with-123m-yearly-visits-shut-down/</guid>
-	<description><![CDATA[​Calcio, a large piracy sports streaming platform with more than 120 million visits in the past year, was shut down following a collaborative effort by the Alliance for Creativity and Entertainment (ACE) and DAZN. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers hijack npm packages with 2 billion weekly downloads in supply chain attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-hijack-npm-packages-with-2-billion-weekly-downloads-in-supply-chain-attack/</link>
-        <pubDate>Mon, 08 Sep 2025 12:47:51 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-hijack-npm-packages-with-2-billion-weekly-downloads-in-supply-chain-attack/</guid>
-	<description><![CDATA[In a supply chain attack, attackers injected malware into NPM packages with over 2.6 billion weekly downloads after compromising a maintainer's account in a phishing attack. [...]]]></description>
- </item>
-
- <item>
-        <title>Salesloft: March GitHub repo breach led to Salesforce data theft attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/salesloft-march-github-repo-breach-led-to-salesforce-data-theft-attacks/</link>
-        <pubDate>Mon, 08 Sep 2025 11:43:30 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/salesloft-march-github-repo-breach-led-to-salesforce-data-theft-attacks/</guid>
-	<description><![CDATA[Salesloft says attackers first breached its GitHub account in March, leading to the theft of Drift OAuth tokens later used in widespread Salesforce data theft attacks in August. [...]]]></description>
  </item>
 
 </channel>
