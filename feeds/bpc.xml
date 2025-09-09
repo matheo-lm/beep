@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 09 Sep 2025 15:03:01 EDT</pubDate>
+        <pubDate>Tue, 09 Sep 2025 16:01:55 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers hide behind Tor in exposed Docker API breaches</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-hide-behind-tor-in-exposed-docker-api-breaches/</link>
+        <pubDate>Tue, 09 Sep 2025 15:16:30 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Cloud]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-hide-behind-tor-in-exposed-docker-api-breaches/</guid>
+	<description><![CDATA[A threat actor targeting exposed Docker APIs has updated its malicious tooling with more dangerous functionality that could lay the foundation for a complex botnet. [...]]]></description>
+ </item>
+
  <item>
         <title>Windows 10 KB5065429 update includes 14 changes and fixes</title>
         <link>https://www.bleepingcomputer.com/news/security/windows-10-kb5065429-update-includes-14-changes-and-fixes/</link>
@@ -188,34 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/surge-in-networks-scans-targeting-cisco-asa-devices-raise-concerns/</guid>
 	<description><![CDATA[Large network scans have been  targeting Cisco ASA devices, prompting warnings from cybersecurity researchers that it could indicate an upcoming flaw in the products. [...]]]></description>
- </item>
-
- <item>
-        <title>Hackers steal 3,325 secrets in GhostAction GitHub supply chain attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/hackers-steal-3-325-secrets-in-ghostaction-github-supply-chain-attack/</link>
-        <pubDate>Mon, 08 Sep 2025 15:53:59 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/hackers-steal-3-325-secrets-in-ghostaction-github-supply-chain-attack/</guid>
-	<description><![CDATA[A new supply chain attack on GitHub, dubbed 'GhostAction,' has compromised 3,325 secrets, including PyPI, npm, DockerHub, GitHub tokens, Cloudflare, and AWS keys. [...]]]></description>
- </item>
-
- <item>
-        <title>Signal adds secure cloud backups to save and restore chats</title>
-        <link>https://www.bleepingcomputer.com/news/security/signal-adds-secure-cloud-backups-to-save-and-restore-chats/</link>
-        <pubDate>Mon, 08 Sep 2025 15:17:25 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/signal-adds-secure-cloud-backups-to-save-and-restore-chats/</guid>
-	<description><![CDATA[Signal has introduced a new opt-in feature that helps users create end-to-end encrypted backups of their chats, allowing them to restore messages even if their phones are damaged or lost. [...]]]></description>
  </item>
 
 </channel>
