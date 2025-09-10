@@ -11,11 +11,63 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 10 Sep 2025 13:00:16 EDT</pubDate>
+        <pubDate>Wed, 10 Sep 2025 14:01:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Hackers left empty-handed after massive NPM supply-chain attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/hackers-left-empty-handed-after-massive-npm-supply-chain-attack/</link>
+        <pubDate>Wed, 10 Sep 2025 13:56:15 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/hackers-left-empty-handed-after-massive-npm-supply-chain-attack/</guid>
+	<description><![CDATA[The largest supply-chain compromise in the history of the NPM ecosystem has impacted roughly 10% of all cloud environments, but attackers made little profit off it. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Pixel 10 fights AI fakes with new Android photo verification tech</title>
+        <link>https://www.bleepingcomputer.com/news/security/pixel-10-fights-ai-fakes-with-new-android-photo-verification-tech/</link>
+        <pubDate>Wed, 10 Sep 2025 12:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+        <category><![CDATA[Mobile]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/pixel-10-fights-ai-fakes-with-new-android-photo-verification-tech/</guid>
+	<description><![CDATA[Google is integrating C2PA Content Credentials into the Pixel 10 camera and Google Photos, to help users distinguish between authentic, unaltered images and those generated or edited with artificial intelligence technology. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Cursor AI editor lets repos “autorun” malicious code on devices</title>
+        <link>https://www.bleepingcomputer.com/news/security/cursor-ai-editor-lets-repos-autorun-malicious-code-on-devices/</link>
+        <pubDate>Wed, 10 Sep 2025 11:46:24 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cursor-ai-editor-lets-repos-autorun-malicious-code-on-devices/</guid>
+	<description><![CDATA[A weakness in the Cursor code editor exposes developers to the risk of automatically executing tasks in a malicious repository as soon as it's opened. [...]]]></description>
+ </item>
+
  <item>
         <title>Jaguar Land Rover confirms data theft after recent cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/jaguar-land-rover-jlr-confirms-data-theft-after-recent-cyberattack/</link>
@@ -162,48 +214,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/kosovo-hacker-pleads-guilty-to-running-blackdb-cybercrime-marketplace/</guid>
 	<description><![CDATA[Kosovo national Liridon Masurica has pleaded guilty to running BlackDB.cc, a cybercrime marketplace that has been active since 2018. [...]]]></description>
- </item>
-
- <item>
-        <title>US charges admin of LockerGoga, MegaCortex, Nefilim ransomware</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-charges-admin-of-lockergoga-megacortex-nefilim-ransomware/</link>
-        <pubDate>Tue, 09 Sep 2025 12:08:15 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-charges-admin-of-lockergoga-megacortex-nefilim-ransomware/</guid>
-	<description><![CDATA[The U.S. Department of Justice has charged Ukrainian national Volodymyr Viktorovich Tymoshchuk for his role as the administrator of the LockerGoga, MegaCortex, and Nefilim ransomware operations. [...]]]></description>
- </item>
-
- <item>
-        <title>Adobe patches critical SessionReaper flaw in Magento eCommerce platform</title>
-        <link>https://www.bleepingcomputer.com/news/security/adobe-patches-critical-sessionreaper-flaw-in-magento-ecommerce-platform/</link>
-        <pubDate>Tue, 09 Sep 2025 11:53:53 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/adobe-patches-critical-sessionreaper-flaw-in-magento-ecommerce-platform/</guid>
-	<description><![CDATA[Adobe is warning of a critical vulnerability (CVE-2025-54236) in its Commerce and Magento Open Source platforms that researchers call SessionReaper and describe as one of " the most severe" flaws in the history of the product. [...]]]></description>
- </item>
-
- <item>
-        <title>How External Attack Surface Management helps enterprises manage cyber risk</title>
-        <link>https://www.bleepingcomputer.com/news/security/how-external-attack-surface-management-helps-enterprises-manage-cyber-risk/</link>
-        <pubDate>Tue, 09 Sep 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Outpost24</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/how-external-attack-surface-management-helps-enterprises-manage-cyber-risk/</guid>
-	<description><![CDATA[Shadow assets don't care about your perimeter. EASM finds every internet-facing asset, surfaces unknowns, and prioritizes real risks—so you can fix exposures before attackers do. See how Outpost24 makes it easy. [...]]]></description>
  </item>
 
 </channel>
