@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 10 Sep 2025 07:03:04 EDT</pubDate>
+        <pubDate>Wed, 10 Sep 2025 08:02:43 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft fixes app install issues caused by August Windows updates</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-app-install-issues-caused-by-august-windows-updates/</link>
+        <pubDate>Wed, 10 Sep 2025 08:02:35 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-app-install-issues-caused-by-august-windows-updates/</guid>
+	<description><![CDATA[Microsoft has fixed a known issue caused by the August 2025 security updates, which triggers unexpected User Account Control (UAC) prompts and app installation problems for non-admin users on all Windows versions. [...]]]></description>
+ </item>
+
  <item>
         <title>U.S. sanctions cyber scammers who stole billions from Americans</title>
         <link>https://www.bleepingcomputer.com/news/security/us-sanctions-cyber-scammers-who-stole-billions-from-americans/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-ai-features-in-windows-11-file-explorer/</guid>
 	<description><![CDATA[Microsoft is testing new File Explorer AI-powered features that will enable Windows 11 users to work with images and documents without needing to open the files. [...]]]></description>
- </item>
-
- <item>
-        <title>Plex tells users to reset passwords after new data breach</title>
-        <link>https://www.bleepingcomputer.com/news/security/plex-tells-users-to-reset-passwords-after-new-data-breach/</link>
-        <pubDate>Mon, 08 Sep 2025 21:03:02 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/plex-tells-users-to-reset-passwords-after-new-data-breach/</guid>
-	<description><![CDATA[Media streaming platform Plex is warning customers to reset passwords after suffering a data breach in which a hacker was able to steal customer authentication data from one of its databases. [...]]]></description>
  </item>
 
 </channel>
