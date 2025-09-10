@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 10 Sep 2025 17:59:29 EDT</pubDate>
+        <pubDate>Wed, 10 Sep 2025 18:59:57 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>DDoS defender targeted in 1.5 Bpps denial-of-service attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/ddos-defender-targeted-in-15-bpps-denial-of-service-attack/</link>
+        <pubDate>Wed, 10 Sep 2025 18:09:41 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/ddos-defender-targeted-in-15-bpps-denial-of-service-attack/</guid>
+	<description><![CDATA[A DDoS mitigation service provider in Europe was targeted in a massive distributed denial-of-service attack that reached 1.5 billion packets per second. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft waives fees for Windows devs publishing to Microsoft Store</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-waives-fees-for-windows-devs-publishing-to-microsoft-store/</link>
@@ -182,22 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/windows-10-kb5065429-update-includes-14-changes-and-fixes/</guid>
 	<description><![CDATA[Microsoft has released the KB5065429 cumulative update for Windows 10 22H2 and Windows 10 21H2, with fourteen fixes or changes, including fixes for unexpected UAC prompts and severe lag and stuttering issues with NDI streaming software. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft September 2025 Patch Tuesday fixes 81 flaws, two zero-days</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2025-patch-tuesday-fixes-81-flaws-two-zero-days/</link>
-        <pubDate>Tue, 09 Sep 2025 13:43:33 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2025-patch-tuesday-fixes-81-flaws-two-zero-days/</guid>
-	<description><![CDATA[Today is Microsoft's September 2025 Patch Tuesday, which includes security updates for 81 flaws, including two publicly disclosed zero-day vulnerabilities. [...]]]></description>
  </item>
 
 </channel>
