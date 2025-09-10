@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 10 Sep 2025 11:01:33 EDT</pubDate>
+        <pubDate>Wed, 10 Sep 2025 11:59:28 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Jaguar Land Rover confirms data theft after recent cyberattack</title>
+        <link>https://www.bleepingcomputer.com/news/security/jaguar-land-rover-jlr-confirms-data-theft-after-recent-cyberattack/</link>
+        <pubDate>Wed, 10 Sep 2025 11:29:16 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/jaguar-land-rover-jlr-confirms-data-theft-after-recent-cyberattack/</guid>
+	<description><![CDATA[Jaguar Land Rover (JLR) confirmed today that attackers also stole "some data" during a recent cyberattack that forced it to shut down systems and instruct staff not to report to work. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Can I have a new password, please? The $400M question.</title>
+        <link>https://www.bleepingcomputer.com/news/security/can-i-have-a-new-password-please-the-400m-question/</link>
+        <pubDate>Wed, 10 Sep 2025 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by Specops Software</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/can-i-have-a-new-password-please-the-400m-question/</guid>
+	<description><![CDATA[Scattered Spider didn't need a zero-day to breach Clorox. They just phoned the help desk—convincing agents to reset passwords & MFA without proper checks. The result: $380M in damages. Learn from Specops Software why caller verification and audit trails are critical. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes streaming issues triggered by Windows updates</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-streaming-issues-triggered-by-windows-updates/</link>
@@ -176,36 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/how-external-attack-surface-management-helps-enterprises-manage-cyber-risk/</guid>
 	<description><![CDATA[Shadow assets don't care about your perimeter. EASM finds every internet-facing asset, surfaces unknowns, and prioritizes real risks—so you can fix exposures before attackers do. See how Outpost24 makes it easy. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft: Anti-spam bug blocks links in Exchange Online, Teams</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-anti-spam-bug-blocks-links-in-exchange-online-teams/</link>
-        <pubDate>Tue, 09 Sep 2025 09:40:58 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-anti-spam-bug-blocks-links-in-exchange-online-teams/</guid>
-	<description><![CDATA[​Microsoft is working to resolve a known issue that causes an anti-spam service to mistakenly block Exchange Online and Microsoft Teams users from opening URLs and quarantine some of their emails. [...]]]></description>
- </item>
-
- <item>
-        <title>SAP fixes maximum severity NetWeaver command execution flaw</title>
-        <link>https://www.bleepingcomputer.com/news/security/sap-fixes-maximum-severity-netweaver-command-execution-flaw/</link>
-        <pubDate>Tue, 09 Sep 2025 09:18:11 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sap-fixes-maximum-severity-netweaver-command-execution-flaw/</guid>
-	<description><![CDATA[SAP has addressed 21 new vulnerabilities affecting its products, including three critical severity issues impacting the NetWeaver software solution. [...]]]></description>
  </item>
 
 </channel>
