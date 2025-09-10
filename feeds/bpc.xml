@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 10 Sep 2025 08:02:43 EDT</pubDate>
+        <pubDate>Wed, 10 Sep 2025 09:07:50 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft fixes streaming issues triggered by Windows updates</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-streaming-issues-triggered-by-windows-updates/</link>
+        <pubDate>Wed, 10 Sep 2025 09:02:44 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-streaming-issues-triggered-by-windows-updates/</guid>
+	<description><![CDATA[Microsoft has resolved severe lag and stuttering issues with streaming software affecting Windows 10 and Windows 11 systems after installing the August 2025 security updates. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes app install issues caused by August Windows updates</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-app-install-issues-caused-by-august-windows-updates/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/sap-fixes-maximum-severity-netweaver-command-execution-flaw/</guid>
 	<description><![CDATA[SAP has addressed 21 new vulnerabilities affecting its products, including three critical severity issues impacting the NetWeaver software solution. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft testing new AI features in Windows 11 File Explorer</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-ai-features-in-windows-11-file-explorer/</link>
-        <pubDate>Tue, 09 Sep 2025 07:41:12 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-ai-features-in-windows-11-file-explorer/</guid>
-	<description><![CDATA[Microsoft is testing new File Explorer AI-powered features that will enable Windows 11 users to work with images and documents without needing to open the files. [...]]]></description>
  </item>
 
 </channel>
