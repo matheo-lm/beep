@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 11 Sep 2025 15:02:54 EDT</pubDate>
+        <pubDate>Thu, 11 Sep 2025 15:59:31 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft investigates Exchange Online outage in North America</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-exchange-online-outage-in-north-america/</link>
+        <pubDate>Thu, 11 Sep 2025 15:43:00 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-exchange-online-outage-in-north-america/</guid>
+	<description><![CDATA[Microsoft is working to resolve an ongoing Exchange Online outage affecting customers throughout North America, blocking their access to emails. [...]]]></description>
+ </item>
+
+ <item>
+        <title>U.S. Senator accuses Microsoft of “gross cybersecurity negligence”</title>
+        <link>https://www.bleepingcomputer.com/news/security/us-senator-accuses-microsoft-of-gross-cybersecurity-negligence/</link>
+        <pubDate>Thu, 11 Sep 2025 15:23:41 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/us-senator-accuses-microsoft-of-gross-cybersecurity-negligence/</guid>
+	<description><![CDATA[U.S. Senator Ron Wyden has sent a letter to the Federal Trade Commission (FTC) requesting the agency to investigate Microsoft for failing to provide adequate security in its products, which led to ransomware attacks against healthcare organizations. [...]]]></description>
+ </item>
+
  <item>
         <title>Apple warns customers targeted in recent spyware attacks</title>
         <link>https://www.bleepingcomputer.com/news/security/apple-warns-customers-targeted-in-recent-spyware-attacks/</link>
@@ -170,36 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/pixel-10-fights-ai-fakes-with-new-android-photo-verification-tech/</guid>
 	<description><![CDATA[Google is integrating C2PA Content Credentials into the Pixel 10 camera and Google Photos, to help users distinguish between authentic, unaltered images and those generated or edited with artificial intelligence technology. [...]]]></description>
- </item>
-
- <item>
-        <title>Cursor AI editor lets repos “autorun” malicious code on devices</title>
-        <link>https://www.bleepingcomputer.com/news/security/cursor-ai-editor-lets-repos-autorun-malicious-code-on-devices/</link>
-        <pubDate>Wed, 10 Sep 2025 11:46:24 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cursor-ai-editor-lets-repos-autorun-malicious-code-on-devices/</guid>
-	<description><![CDATA[A weakness in the Cursor code editor exposes developers to the risk of automatically executing tasks in a malicious repository as soon as it's opened. [...]]]></description>
- </item>
-
- <item>
-        <title>Jaguar Land Rover confirms data theft after recent cyberattack</title>
-        <link>https://www.bleepingcomputer.com/news/security/jaguar-land-rover-jlr-confirms-data-theft-after-recent-cyberattack/</link>
-        <pubDate>Wed, 10 Sep 2025 11:29:16 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/jaguar-land-rover-jlr-confirms-data-theft-after-recent-cyberattack/</guid>
-	<description><![CDATA[Jaguar Land Rover (JLR) confirmed today that attackers also stole "some data" during a recent cyberattack that forced it to shut down systems and instruct staff not to report to work. [...]]]></description>
  </item>
 
 </channel>
