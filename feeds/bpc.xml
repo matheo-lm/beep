@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 11 Sep 2025 14:01:52 EDT</pubDate>
+        <pubDate>Thu, 11 Sep 2025 15:02:54 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Apple warns customers targeted in recent spyware attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/apple-warns-customers-targeted-in-recent-spyware-attacks/</link>
+        <pubDate>Thu, 11 Sep 2025 15:02:51 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apple-warns-customers-targeted-in-recent-spyware-attacks/</guid>
+	<description><![CDATA[Apple warned customers last week that their devices were targeted in a new series of spyware attacks, according to the French national Computer Emergency Response Team (CERT-FR). [...]]]></description>
+ </item>
+
+ <item>
+        <title>Panama Ministry of Economy discloses breach claimed by INC ransomware</title>
+        <link>https://www.bleepingcomputer.com/news/security/panama-ministry-of-economy-discloses-breach-claimed-by-inc-ransomware/</link>
+        <pubDate>Thu, 11 Sep 2025 14:26:59 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Government]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/panama-ministry-of-economy-discloses-breach-claimed-by-inc-ransomware/</guid>
+	<description><![CDATA[Panama's Ministry of Economy and Finance (MEF) has disclosed that one of its computers may have been compromised in a cyberattack.. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft adds malicious link warnings to Teams private chats</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-adds-malicious-link-warnings-to-teams-private-chats/</link>
@@ -170,48 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/jaguar-land-rover-jlr-confirms-data-theft-after-recent-cyberattack/</guid>
 	<description><![CDATA[Jaguar Land Rover (JLR) confirmed today that attackers also stole "some data" during a recent cyberattack that forced it to shut down systems and instruct staff not to report to work. [...]]]></description>
- </item>
-
- <item>
-        <title>Can I have a new password, please? The $400M question.</title>
-        <link>https://www.bleepingcomputer.com/news/security/can-i-have-a-new-password-please-the-400m-question/</link>
-        <pubDate>Wed, 10 Sep 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by Specops Software</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/can-i-have-a-new-password-please-the-400m-question/</guid>
-	<description><![CDATA[Scattered Spider didn't need a zero-day to breach Clorox. They just phoned the help desk—convincing agents to reset passwords & MFA without proper checks. The result: $380M in damages. Learn from Specops Software why caller verification and audit trails are critical. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes streaming issues triggered by Windows updates</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-streaming-issues-triggered-by-windows-updates/</link>
-        <pubDate>Wed, 10 Sep 2025 09:02:44 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-streaming-issues-triggered-by-windows-updates/</guid>
-	<description><![CDATA[Microsoft has resolved severe lag and stuttering issues with streaming software affecting Windows 10 and Windows 11 systems after installing the August 2025 security updates. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes app install issues caused by August Windows updates</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-app-install-issues-caused-by-august-windows-updates/</link>
-        <pubDate>Wed, 10 Sep 2025 08:02:35 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-app-install-issues-caused-by-august-windows-updates/</guid>
-	<description><![CDATA[Microsoft has fixed a known issue caused by the August 2025 security updates, which triggers unexpected User Account Control (UAC) prompts and app installation problems for non-admin users on all Windows versions. [...]]]></description>
  </item>
 
 </channel>
