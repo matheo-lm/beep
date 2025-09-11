@@ -12,7 +12,7 @@
 	<atom:link href="https://krebsonsecurity.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://krebsonsecurity.com</link>
 	<description>In-depth security news and investigation</description>
-	<lastBuildDate>Tue, 09 Sep 2025 21:21:14 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 11 Sep 2025 17:42:22 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,64 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
 	<item>
+		<title>Bulletproof Host Stark Industries Evades EU Sanctions</title>
+		<link>https://krebsonsecurity.com/2025/09/bulletproof-host-stark-industries-evades-eu-sanctions/</link>
+					<comments>https://krebsonsecurity.com/2025/09/bulletproof-host-stark-industries-evades-eu-sanctions/#respond</comments>
+		
+		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
+		<pubDate>Thu, 11 Sep 2025 17:40:22 +0000</pubDate>
+				<category><![CDATA[A Little Sunshine]]></category>
+		<category><![CDATA[Latest Warnings]]></category>
+		<category><![CDATA[Ne'er-Do-Well News]]></category>
+		<category><![CDATA[Russia's War on Ukraine]]></category>
+		<category><![CDATA[Andrey Nesterenko]]></category>
+		<category><![CDATA[AS209847]]></category>
+		<category><![CDATA[domaintools]]></category>
+		<category><![CDATA[Ivan Neculiti]]></category>
+		<category><![CDATA[MIRhosting]]></category>
+		<category><![CDATA[Misfits Media]]></category>
+		<category><![CDATA[PQ Hosting]]></category>
+		<category><![CDATA[PQ Hosting Plus S.R.L.]]></category>
+		<category><![CDATA[Recorded Future]]></category>
+		<category><![CDATA[Stark Industries Solutions Ltd]]></category>
+		<category><![CDATA[WorkTitans B.V.]]></category>
+		<category><![CDATA[WT Hosting]]></category>
+		<category><![CDATA[Youssef Zinad]]></category>
+		<category><![CDATA[Yuri Neculiti]]></category>
+		<guid isPermaLink="false">https://krebsonsecurity.com/?p=72088</guid>
+
+					<description><![CDATA[In May 2025, the European Union levied financial sanctions on the owners of Stark Industries Solutions Ltd., a bulletproof hosting provider that materialized two weeks before Russia invaded Ukraine and quickly became a top source of Kremlin-linked cyberattacks and disinformation campaigns. But new data shows those sanctions have done little to stop Stark from simply rebranding and transferring their assets to other corporate entities controlled by its original hosting providers.]]></description>
+										<content:encoded><![CDATA[<p>In May 2025, the European Union levied financial sanctions on the owners of<strong> Stark Industries Solutions Ltd.</strong>, a bulletproof hosting provider that materialized two weeks before Russia invaded Ukraine and quickly became a top source of Kremlin-linked cyberattacks and disinformation campaigns. But new findings show those sanctions have done little to stop Stark from simply rebranding and transferring their assets to other corporate entities controlled by its original hosting providers.</p>
+<div id="attachment_58061" style="width: 751px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-58061" decoding="async" class="wp-image-58061" src="https://krebsonsecurity.com/wp-content/uploads/2022/01/wbrkb.jpg" alt="" width="741" height="495" /><p id="caption-attachment-58061" class="wp-caption-text">Image: Shutterstock.</p></div>
+<p>Materializing just two weeks before Russia invaded Ukraine in 2022, Stark Industries Solutions became a frequent source of massive DDoS attacks, Russian-language proxy and VPN services, malware tied to Russia-backed hacking groups, and fake news. ISPs like Stark are called &#8220;bulletproof&#8221; providers when they cultivate a reputation for ignoring any abuse complaints or police inquiries about activity on their networks.</p>
+<p>In May 2025, the European Union <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202500965" target="_blank" rel="noopener">sanctioned</a> one of Stark&#8217;s two main conduits to the larger Internet &#8212; Moldova-based <strong>PQ Hosting</strong> &#8212; as well as the company&#8217;s Moldovan owners <strong>Yuri</strong> and <strong>Ivan Neculiti</strong>. The EU said the Neculiti brothers and PQ Hosting were linked to Russia&#8217;s hybrid warfare efforts.</p>
+<p>But <a href="https://www.recordedfuture.com/research/one-step-ahead-stark-industries-solutions-preempts-eu-sanctions" target="_blank" rel="noopener">a new report</a> from <strong>Recorded Future</strong> finds that just prior to the sanctions being announced, Stark rebranded to <strong>the[.]hosting</strong>, under control of the Dutch entity <strong>WorkTitans BV</strong> (AS209847) on June 24, 2025. The Neculiti brothers reportedly got a heads up roughly 12 days before the sanctions were announced, when Moldovan and EU media reported on the forthcoming inclusion of the Neculiti brothers in the sanctions package.</p>
+<p>In response, the Neculiti brothers moved much of Stark&#8217;s considerable address space and other resources over to a new company in Moldova called <strong>PQ Hosting Plus S.R.L</strong>., an entity reportedly connected to the Neculiti brothers thanks to <a href="https://correctiv.org/faktencheck/russland-ukraine/2024/05/16/hacks-und-propaganda-zwei-brueder-aus-moldau-tragen-russlands-digitalen-krieg-nach-europa/#:~:text=web%20hosting%20service%2C-,Morenehost,-%2C%20writes%20the%20IT" target="_blank" rel="noopener">the re-use of a phone number</a> from the original PQ Hosting.</p>
+<p>&#8220;Although the majority of associated infrastructure remains attributable to Stark Industries, these changes likely reflect an attempt to obfuscate ownership and sustain hosting services under new legal and network entities,&#8221; Recorded Future observed.</p>
+<p>Neither the Recorded Future report nor the May 2025 sanctions from the EU mentioned a second critical pillar of Stark&#8217;s network that KrebsOnSecurity identified in <a href="https://krebsonsecurity.com/2024/05/stark-industries-solutions-an-iron-hammer-in-the-cloud/" target="_blank" rel="noopener">a May 2024 profile on the notorious bulletproof hoster</a>: The Netherlands-based hosting provider <strong>MIRhosting</strong>.</p>
+<p>MIRhosting is operated by 38-year old <strong>Andrey Nesterenko</strong>, whose <a href="https://web.archive.org/web/20141221134456/http://www.nesterenko.name/en/index.html" target="_blank" rel="noopener">personal website</a> says he is an accomplished concert pianist who began performing publicly at a young age. <strong>DomainTools</strong> says mirhosting[.]com is registered to Mr. Nesterenko and to <strong>Innovation IT Solutions Corp</strong>, which lists addresses in London and in Nesterenko’s stated hometown of Nizhny Novgorod, Russia.</p>
+<div id="attachment_67519" style="width: 758px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-67519" decoding="async" loading="lazy" class=" wp-image-67519" src="https://krebsonsecurity.com/wp-content/uploads/2024/05/neculiti-netzwerk-768x1340-1.png" alt="" width="748" height="1305" /><p id="caption-attachment-67519" class="wp-caption-text">Image credit: correctiv.org.</p></div>
+<p>According to the book <em>Inside Cyber Warfare</em> by Jeffrey Carr, Innovation IT Solutions Corp. was responsible for hosting <strong>StopGeorgia[.]ru</strong>, a hacktivist website for organizing cyberattacks against Georgia that appeared at the same time Russian forces invaded the former Soviet nation in 2008. That conflict was thought to be the first war ever fought in which a notable cyberattack and an actual military engagement happened simultaneously.</p>
+<p>Mr. Nesterenko did not respond to requests for comment. In May 2024, Mr. Nesterenko <a href="https://krebsonsecurity.com/2024/05/stark-industries-solutions-an-iron-hammer-in-the-cloud/" target="_blank" rel="noopener">said</a> he couldn&#8217;t verify whether StopGeorgia was ever a customer because they didn&#8217;t keep records going back that far. But he maintained that Stark Industries Solutions Inc. was merely one client of many, and claimed MIRhosting had not received any actionable complaints about abuse on Stark.</p>
+<p>However, it appears that MIRhosting is once again the new home of Stark Industries, and that MIRhosting employees are managing both the[.]hosting and WorkTitans &#8212; the primary beneficiaries of Stark&#8217;s assets.</p>
+<p>A copy of the incorporation documents for WorkTitans BV obtained from the Dutch Chamber of Commerce shows WorkTitans also does business under the names <strong>Misfits Media</strong> and and <strong>WT Hosting</strong> (considering Stark&#8217;s historical connection to Russian disinformation websites, &#8220;Misfits Media&#8221; is a bit on the nose).<span id="more-72088"></span></p>
+<div id="attachment_72163" style="width: 663px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72163" decoding="async" loading="lazy" class=" wp-image-72163" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/kvk-worktitans.png" alt="" width="653" height="896" /><p id="caption-attachment-72163" class="wp-caption-text">An incorporation document for WorkTitans B.V. from the Netherlands Chamber of Commerce.</p></div>
+<p>The incorporation document says the company was formed in 2019 by a <strong>y.zinad@worktitans.nl</strong>. That email address corresponds to <a href="https://www.linkedin.com/in/youssef-zinad-mba-a1690a10/" target="_blank" rel="noopener">a LinkedIn account</a> for a <strong>Youssef Zinad</strong>, who says their personal websites are worktitans[.]nl and custom-solution[.]nl. The profile also links to a website (etripleasims dot nl) that LinkedIn currently blocks as malicious. All of these websites are or were hosted at MIRhosting.</p>
+<p>Although Mr. Zinad&#8217;s LinkedIn profile does not mention any employment at MIRhosting, virtually all of his LinkedIn posts over the past year have been reposts of advertisements for MIRhosting&#8217;s services.</p>
+<div id="attachment_72178" style="width: 760px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-72178" decoding="async" loading="lazy" class=" wp-image-72178" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/zinad-mirhosting.png" alt="" width="750" height="646" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/09/zinad-mirhosting.png 998w, https://krebsonsecurity.com/wp-content/uploads/2025/09/zinad-mirhosting-768x661.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/09/zinad-mirhosting-782x673.png 782w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-72178" class="wp-caption-text">Mr. Zinad&#8217;s LinkedIn profile is full of posts for MIRhosting&#8217;s services.</p></div>
+<p>A Google search for Youssef Zinad reveals multiple startup-tracking websites that list him as the founder of the[.]hosting, which <strong>censys.io</strong> finds is hosted by <strong>PQ Hosting Plus S.R.L</strong>.</p>
+<p>The Dutch Chamber of Commerce document says WorkTitans&#8217; sole shareholder is a company in Almere, Netherlands called <strong>Fezzy B.V. </strong>Who runs Fezzy? The phone number listed in a Google search for Fezzy B.V. &#8212; <strong>31651079755</strong> &#8212; also was used to register a <strong>Facebook</strong> profile for a Youssef Zinad from the same town, according to the breach tracking service <strong>Constella Intelligence</strong>.</p>
+<p>In a series of email exchanges leading up to KrebsOnSecurity&#8217;s <a href="https://krebsonsecurity.com/2024/05/stark-industries-solutions-an-iron-hammer-in-the-cloud/" target="_blank" rel="noopener">May 2024 deep dive on Stark</a>, Mr. Nesterenko included Mr. Zinad in the message thread (youssef@mirhosting.com), referring to him as part of the company&#8217;s legal team. The Dutch website stagemarkt[.]nl lists Youssef Zinad as an official contact for MIRhosting&#8217;s offices in Almere. Mr. Zinad did not respond to requests for comment.</p>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-72162" src="https://krebsonsecurity.com/wp-content/uploads/2025/09/stage-mir-youssef.png" alt="" width="1173" height="810" srcset="https://krebsonsecurity.com/wp-content/uploads/2025/09/stage-mir-youssef.png 1173w, https://krebsonsecurity.com/wp-content/uploads/2025/09/stage-mir-youssef-768x530.png 768w, https://krebsonsecurity.com/wp-content/uploads/2025/09/stage-mir-youssef-782x540.png 782w, https://krebsonsecurity.com/wp-content/uploads/2025/09/stage-mir-youssef-100x70.png 100w" sizes="(max-width: 1173px) 100vw, 1173px" /></p>
+<p>Given the above, it is difficult to argue with the Recorded Future report on Stark&#8217;s rebranding, which concluded that &#8220;the EU’s sanctioning of Stark Industries was largely ineffective, as affiliated infrastructure remained operational and services were rapidly re-established under new branding, with no significant or lasting disruption.&#8221;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://krebsonsecurity.com/2025/09/bulletproof-host-stark-industries-evades-eu-sanctions/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Microsoft Patch Tuesday, September 2025 Edition</title>
 		<link>https://krebsonsecurity.com/2025/09/microsoft-patch-tuesday-september-2025-edition/</link>
 					<comments>https://krebsonsecurity.com/2025/09/microsoft-patch-tuesday-september-2025-edition/#comments</comments>
@@ -51,7 +109,7 @@
 
 					<description><![CDATA[Microsoft Corp. today issued security updates to fix more than 80 vulnerabilities in its Windows operating systems and software. There are no known "zero-day" or actively exploited vulnerabilities in this month's bundle from Redmond, which nevertheless includes patches for 13 flaws that earned Microsoft's most-dire "critical" label. Meanwhile, both Apple and Google recently released updates to fix zero-day bugs in their devices.]]></description>
 										<content:encoded><![CDATA[<p><strong>Microsoft Corp.</strong> today issued security updates to fix more than 80 vulnerabilities in its <strong>Windows</strong> operating systems and software. There are no known &#8220;zero-day&#8221; or actively exploited vulnerabilities in this month&#8217;s bundle from Redmond, which nevertheless includes patches for 13 flaws that earned Microsoft&#8217;s most-dire &#8220;critical&#8221; label. Meanwhile, both <strong>Apple</strong> and <strong>Google</strong> recently released updates to fix zero-day bugs in their devices.</p>
-<p><img decoding="async" class="aligncenter  wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="750" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter  wp-image-60331" src="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png" alt="" width="750" height="496" srcset="https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate.png 923w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-768x508.png 768w, https://krebsonsecurity.com/wp-content/uploads/2022/07/winupdatedate-782x518.png 782w" sizes="(max-width: 750px) 100vw, 750px" /></p>
 <p>Microsoft assigns security flaws a &#8220;critical&#8221; rating when malware or miscreants can exploit them to gain remote access to a Windows system with little or no help from users. Among the more concerning critical bugs quashed this month is <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-54918" target="_blank" rel="noopener">CVE-2025-54918</a>. The problem here resides with <strong>Windows NTLM</strong>, or NT LAN Manager, a suite of code for managing authentication in a Windows network environment.</p>
 <p>Redmond rates this flaw as &#8220;Exploitation More Likely,&#8221; and although it is listed as a privilege escalation vulnerability, <strong>Kev Breen</strong> at <strong>Immersive</strong> says this one is actually exploitable over the network or the Internet.</p>
 <p>&#8220;From Microsoft’s limited description, it appears that if an attacker is able to send specially crafted packets over the network to the target device, they would have the ability to gain SYSTEM-level privileges on the target machine,&#8221; Breen said. &#8220;The patch notes for this vulnerability state that &#8216;Improper authentication in Windows NTLM allows an authorized attacker to elevate privileges over a network,&#8217; suggesting an attacker may already need to have access to the NTLM hash or the user&#8217;s credentials.&#8221;</p>
@@ -570,71 +628,15 @@ Noah Michael Urban of Palm Coast, Fla. pleaded guilty in April 2025 to charges o
 		
 		
 			</item>
-		<item>
-		<title>Microsoft Patch Tuesday, August 2025 Edition</title>
-		<link>https://krebsonsecurity.com/2025/08/microsoft-patch-tuesday-august-2025-edition/</link>
-					<comments>https://krebsonsecurity.com/2025/08/microsoft-patch-tuesday-august-2025-edition/#comments</comments>
-		
-		<dc:creator><![CDATA[BrianKrebs]]></dc:creator>
-		<pubDate>Tue, 12 Aug 2025 22:14:41 +0000</pubDate>
-				<category><![CDATA[Latest Warnings]]></category>
-		<category><![CDATA[The Coming Storm]]></category>
-		<category><![CDATA[Time to Patch]]></category>
-		<category><![CDATA[Akamai]]></category>
-		<category><![CDATA[BadSuccessor]]></category>
-		<category><![CDATA[Ben McCarthy]]></category>
-		<category><![CDATA[CVE-2025-50165]]></category>
-		<category><![CDATA[CVE-2025-53733]]></category>
-		<category><![CDATA[CVE-2025-53766]]></category>
-		<category><![CDATA[CVE-2025-53778]]></category>
-		<category><![CDATA[CVE-2025-53779]]></category>
-		<category><![CDATA[Exchange Online]]></category>
-		<category><![CDATA[Exchange Server 2016]]></category>
-		<category><![CDATA[Exchange Server 2019]]></category>
-		<category><![CDATA[Exchange Server Subscription Edition]]></category>
-		<category><![CDATA[Immersive]]></category>
-		<category><![CDATA[Microsoft Exchange Server]]></category>
-		<category><![CDATA[Microsoft Office 365]]></category>
-		<category><![CDATA[Microsoft Word]]></category>
-		<category><![CDATA[sans internet storm center]]></category>
-		<category><![CDATA[Windows GDI+]]></category>
-		<category><![CDATA[Yuval Gordon]]></category>
-		<guid isPermaLink="false">https://krebsonsecurity.com/?p=71899</guid>
-
-					<description><![CDATA[Microsoft today released updates to fix more than 100 security flaws in its Windows operating systems and other software. At least 13 of the bugs received Microsoft's most-dire "critical" rating, meaning they could be abused by malware or malcontents to gain remote access to a Windows system with little or no help from users.]]></description>
-										<content:encoded><![CDATA[<p><strong>Microsoft</strong> today released updates to fix more than 100 security flaws in its <strong>Windows</strong> operating systems and other software. At least 13 of the bugs received Microsoft&#8217;s most-dire &#8220;critical&#8221; rating, meaning they could be abused by malware or malcontents to gain remote access to a Windows system with little or no help from users.</p>
-<p><img decoding="async" loading="lazy" class="aligncenter wp-image-56287" src="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png" alt="" width="750" height="528" srcset="https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate.png 841w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-768x541.png 768w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-782x550.png 782w, https://krebsonsecurity.com/wp-content/uploads/2021/07/windupate-100x70.png 100w" sizes="(max-width: 750px) 100vw, 750px" /></p>
-<p>August&#8217;s patch batch from Redmond includes an update for <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53786" target="_blank" rel="noopener">CVE-2025-53786</a>, a vulnerability that allows an attacker to pivot from a compromised <strong>Microsoft Exchange Server</strong> directly into an organization&#8217;s cloud environment, potentially gaining control over <strong>Exchange Online</strong> and other connected <strong>Microsoft Office 365</strong> services. Microsoft first warned about this bug on Aug. 6, saying it affects <strong>Exchange Server 2016</strong> and <strong>Exchange Server 2019</strong>, as well as its flagship <strong>Exchange Server Subscription Edition</strong>.</p>
-<p><strong>Ben McCarthy</strong>, lead cyber security engineer at <strong>Immersive</strong>, said a rough search reveals approximately 29,000 Exchange servers publicly facing on the internet that are vulnerable to this issue, with many of them likely to have even older vulnerabilities.</p>
-<p>McCarthy said the fix for CVE-2025-53786 requires more than just installing a patch, such as following Microsoft&#8217;s manual instructions for creating a dedicated service to oversee and lock down the hybrid connection.</p>
-<p>&#8220;In effect, this vulnerability turns a significant on-premise Exchange breach into a full-blown, difficult-to-detect cloud compromise with effectively living off the land techniques which are always harder to detect for defensive teams,&#8221; McCarthy said.</p>
-<p><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53779" target="_blank" rel="noopener">CVE-2025-53779</a> is a weakness in the <strong>Windows Kerberos</strong> authentication system that allows an unauthenticated attacker to gain domain administrator privileges. Microsoft credits the discovery of the flaw to Akamai researcher <strong>Yuval Gordon</strong>, who dubbed it &#8220;<strong>BadSuccessor</strong>&#8221; in <a href="https://www.akamai.com/blog/security-research/abusing-dmsa-for-privilege-escalation-in-active-directory" target="_blank" rel="noopener">a May 2025 blog post</a>. The attack exploits a weakness in &#8220;delegated Managed Service Account&#8221; or dMSA &#8212; a feature that was introduced in <strong>Windows Server 2025</strong>.</p>
-<p>Some of the critical flaws addressed this month with the highest severity (between 9.0 and 9.9 CVSS scores) include a remote code execution bug in the <strong>Windows GDI+</strong> component that handles graphics rendering (<a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53766" target="_blank" rel="noopener">CVE-2025-53766</a>) and <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-50165" target="_blank" rel="noopener">CVE-2025-50165</a>, another graphics rendering weakness. Another critical patch involves <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-53733" target="_blank" rel="noopener">CVE-2025-53733</a>, a vulnerability in <strong>Microsoft Word</strong> that can be exploited without user interaction and triggered through the Preview Pane.<span id="more-71899"></span></p>
-<p>One final critical bug tackled this month deserves attention: <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53778" target="_blank" rel="noopener">CVE-2025-53778</a>, a bug in <strong>Windows NTLM</strong>, a core function of how Windows systems handle network authentication. According to Microsoft, the flaw could allow an attacker with low-level network access and basic user privileges to exploit NTLM and elevate to SYSTEM-level access — the highest level of privilege in Windows. Microsoft rates the exploitation of this bug as &#8220;more likely,&#8221; although there is no evidence the vulnerability is being exploited at the moment.</p>
-<p>Feel free to holler in the comments if you experience problems installing any of these updates. As ever, the <strong>SANS Internet Storm Center</strong> has its <a href="https://isc.sans.edu/diary/Microsoft%20August%202025%20Patch%20Tuesday/32192" target="_blank" rel="noopener">useful breakdown</a> of the Microsoft patches indexed by severity and CVSS score, and <a href="https://www.askwoody.com/2025/august-2025-security-updates/" target="_blank" rel="noopener">AskWoody.com</a> is keeping an eye out for Windows patches that may cause problems for enterprises and end users.</p>
-<h2>GOOD MIGRATIONS</h2>
-<p>Windows 10 users out there likely have noticed by now that Microsoft really wants you to upgrade to Windows 11. The reason is that after the Patch Tuesday on October 14, 2025, Microsoft will stop shipping free security updates for <strong>Windows 10</strong> computers. The trouble is, many PCs running Windows 10 do not meet the hardware specifications required to install <strong>Windows 11 </strong>(or they do, but just barely).</p>
-<p>If the experience with Windows XP is any indicator, many of these older computers will wind up in landfills or else will be left running in an unpatched state. But if your Windows 10 PC doesn&#8217;t have the hardware chops to run Windows 11 and you&#8217;d still like to get some use out of it safely, consider installing a newbie-friendly version of Linux, like <strong>Linux Mint</strong>.</p>
-<p>Like most modern Linux versions, Mint will run on anything with a 64-bit CPU that has at least 2GB of memory, although 4GB is recommended. In other words, it will run on almost any computer produced in the last decade.</p>
-<p>There are many versions of Linux available, but Linux Mint is likely to be the most intuitive interface for regular Windows users, and it is largely configurable without any fuss at the text-only command-line prompt. Mint and other flavors of Linux come with <strong>LibreOffice</strong>, which is an open source suite of tools that includes applications similar to Microsoft Office, and it can open, edit and save documents as Microsoft Office files.</p>
-<p>If you&#8217;d prefer to give Linux a test drive before installing it on a Windows PC, you can always just download it to a removable USB drive. From there, reboot the computer (with the removable drive plugged in) and select the option at startup to run the operating system from the external USB drive. If you don&#8217;t see an option for that after restarting, try restarting again and hitting the F8 button, which should open a list of bootable drives. <a href="https://www.youtube.com/watch?v=_qZI6i21jB4" target="_blank" rel="noopener">Here&#8217;s a fairly thorough tutorial</a> that walks through exactly how to do all this.</p>
-<p>And if this is your first time trying out Linux, relax and have fun: The nice thing about a &#8220;live&#8221; version of Linux (as it&#8217;s called when the operating system is run from a removable drive such as a CD or a USB stick) is that none of your changes persist after a reboot. Even if you somehow manage to break something, a restart will return the system back to its original state.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://krebsonsecurity.com/2025/08/microsoft-patch-tuesday-august-2025-edition/feed/</wfw:commentRss>
-			<slash:comments>19</slash:comments>
-		
-		
-			</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 265/265 objects using memcached
+Object Caching 272/272 objects using memcached
 Page Caching using memcached (User agent is rejected) 
 Database Caching using memcached
 
-Served from: krebsonsecurity.com @ 2025-09-11 13:00:49 by W3 Total Cache
+Served from: krebsonsecurity.com @ 2025-09-11 13:55:55 by W3 Total Cache
 -->
