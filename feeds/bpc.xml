@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 12 Sep 2025 12:59:35 EDT</pubDate>
+        <pubDate>Fri, 12 Sep 2025 14:03:26 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New HybridPetya ransomware can bypass UEFI Secure Boot</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-hybridpetya-ransomware-can-bypass-uefi-secure-boot/</link>
+        <pubDate>Fri, 12 Sep 2025 13:18:07 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-hybridpetya-ransomware-can-bypass-uefi-secure-boot/</guid>
+	<description><![CDATA[A recently discovered ransomware strain called HybridPetya can bypass the UEFI Secure Boot feature to install a malicious application on the EFI System Partition. [...]]]></description>
+ </item>
+
  <item>
         <title>CISA warns of actively exploited Dassault RCE vulnerability</title>
         <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-dassault-rce-vulnerability/</link>
@@ -192,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-vmscape-attack-breaks-guest-host-isolation-on-amd-intel-cpus/</guid>
 	<description><![CDATA[A new Spectre-like attack dubbed VMScape allows a malicious virtual machine (VM) to leak cryptographic keys from an unmodified QEMU hypervisor process running on modern AMD or Intel CPUs. [...]]]></description>
- </item>
-
- <item>
-        <title>The Buyer’s Guide to Browser Extension Management</title>
-        <link>https://www.bleepingcomputer.com/news/security/the-buyers-guide-to-browser-extension-management/</link>
-        <pubDate>Thu, 11 Sep 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Keep Aware</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/the-buyers-guide-to-browser-extension-management/</guid>
-	<description><![CDATA[Browser extensions boost productivity—but also open the door to hidden risks like data exfiltration and AitM attacks. Keep Aware's Buyer's Guide shows how to gain visibility, enforce policies, and block risky add-ons in real time. [...]]]></description>
  </item>
 
 </channel>
