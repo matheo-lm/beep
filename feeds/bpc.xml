@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 12 Sep 2025 11:58:47 EDT</pubDate>
+        <pubDate>Fri, 12 Sep 2025 12:59:35 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>CISA warns of actively exploited Dassault RCE vulnerability</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-dassault-rce-vulnerability/</link>
+        <pubDate>Fri, 12 Sep 2025 12:19:39 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-dassault-rce-vulnerability/</guid>
+	<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of hackers exploiting a critical remote code execution flaw in DELMIA Apriso, a  manufacturing operations management (MOM) and execution (MES) solution from French company Dassault Systèmes. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Windows 11 23H2 Home and Pro reach end of support in 60 days</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-23h2-home-and-pro-reach-end-of-support-in-60-days/</link>
+        <pubDate>Fri, 12 Sep 2025 12:15:22 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-23h2-home-and-pro-reach-end-of-support-in-60-days/</guid>
+	<description><![CDATA[Microsoft has reminded customers today that devices running Home and Pro editions of Windows 11 23H2 will stop receiving updates in November. [...]]]></description>
+ </item>
+
  <item>
         <title>The first three things you’ll want during a cyberattack</title>
         <link>https://www.bleepingcomputer.com/news/security/the-first-three-things-youll-want-during-a-cyberattack/</link>
@@ -178,20 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/the-buyers-guide-to-browser-extension-management/</guid>
 	<description><![CDATA[Browser extensions boost productivity—but also open the door to hidden risks like data exfiltration and AitM attacks. Keep Aware's Buyer's Guide shows how to gain visibility, enforce policies, and block risky add-ons in real time. [...]]]></description>
- </item>
-
- <item>
-        <title>DDoS defender targeted in 1.5 Bpps denial-of-service attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/ddos-defender-targeted-in-15-bpps-denial-of-service-attack/</link>
-        <pubDate>Wed, 10 Sep 2025 18:09:41 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/ddos-defender-targeted-in-15-bpps-denial-of-service-attack/</guid>
-	<description><![CDATA[A DDoS mitigation service provider in Europe was targeted in a massive distributed denial-of-service attack that reached 1.5 billion packets per second. [...]]]></description>
  </item>
 
 </channel>
