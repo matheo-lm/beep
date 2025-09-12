@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 12 Sep 2025 05:00:31 EDT</pubDate>
+        <pubDate>Fri, 12 Sep 2025 06:03:38 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Samsung patches actively exploited zero-day reported by WhatsApp</title>
+        <link>https://www.bleepingcomputer.com/news/security/samsung-patches-actively-exploited-zero-day-reported-by-whatsapp/</link>
+        <pubDate>Fri, 12 Sep 2025 05:48:30 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/samsung-patches-actively-exploited-zero-day-reported-by-whatsapp/</guid>
+	<description><![CDATA[Samsung has patched a remote code execution vulnerability that was exploited in zero-day attacks targeting its Android devices. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft fixes Exchange Online outage affecting users worldwide</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-exchange-online-outage-in-north-america/</link>
@@ -180,26 +194,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/hackers-left-empty-handed-after-massive-npm-supply-chain-attack/</guid>
 	<description><![CDATA[The largest supply-chain compromise in the history of the NPM ecosystem has impacted roughly 10% of all cloud environments, but attackers made little profit off it. [...]]]></description>
- </item>
-
- <item>
-        <title>Pixel 10 fights AI fakes with new Android photo verification tech</title>
-        <link>https://www.bleepingcomputer.com/news/security/pixel-10-fights-ai-fakes-with-new-android-photo-verification-tech/</link>
-        <pubDate>Wed, 10 Sep 2025 12:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-        <category><![CDATA[Mobile]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/pixel-10-fights-ai-fakes-with-new-android-photo-verification-tech/</guid>
-	<description><![CDATA[Google is integrating C2PA Content Credentials into the Pixel 10 camera and Google Photos, to help users distinguish between authentic, unaltered images and those generated or edited with artificial intelligence technology. [...]]]></description>
  </item>
 
 </channel>
