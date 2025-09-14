@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 14 Sep 2025 16:59:03 EDT</pubDate>
+        <pubDate>Sun, 14 Sep 2025 18:01:45 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FBI warns of UNC6040, UNC6395 hackers stealing Salesforce data</title>
+        <link>https://www.bleepingcomputer.com/news/security/fbi-warns-of-unc6040-unc6395-hackers-stealing-salesforce-data/</link>
+        <pubDate>Sun, 14 Sep 2025 17:56:40 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/fbi-warns-of-unc6040-unc6395-hackers-stealing-salesforce-data/</guid>
+	<description><![CDATA[The FBI has issued a FLASH alert warning that two threat clusters, tracked as UNC6040 and UNC6395, are compromising organizations' Salesforce environments to steal data and extort victims. [...]]]></description>
+ </item>
+
  <item>
         <title>New VoidProxy phishing service targets Microsoft 365, Google accounts</title>
         <link>https://www.bleepingcomputer.com/news/security/new-voidproxy-phishing-service-targets-microsoft-365-google-accounts/</link>
@@ -170,20 +184,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/us-senator-accuses-microsoft-of-gross-cybersecurity-negligence/</guid>
 	<description><![CDATA[U.S. Senator Ron Wyden has sent a letter to the Federal Trade Commission (FTC) requesting the agency to investigate Microsoft for failing to provide adequate security in its products, which led to ransomware attacks against healthcare organizations. [...]]]></description>
- </item>
-
- <item>
-        <title>Apple warns customers targeted in recent spyware attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/apple-warns-customers-targeted-in-recent-spyware-attacks/</link>
-        <pubDate>Thu, 11 Sep 2025 15:02:51 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/apple-warns-customers-targeted-in-recent-spyware-attacks/</guid>
-	<description><![CDATA[Apple warned customers last week that their devices were targeted in a new series of spyware attacks, according to the French national Computer Emergency Response Team (CERT-FR). [...]]]></description>
  </item>
 
 </channel>
