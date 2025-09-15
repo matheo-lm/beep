@@ -4,7 +4,7 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Mon, 15 Sep 2025 14:00:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Sep 2025 16:57:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
@@ -19,8 +19,7 @@
             <content:encoded><![CDATA[
         <p>In August 2025, Recorded Future’s <a href="https://www.recordedfuture.com/research/insikt-group">Insikt Group</a>® identified eighteen high-impact vulnerabilities that should be prioritized for remediation. This represents a decrease from the 22 identified in July.</p>
         <p>However, the number of Very Critical vulnerabilities has remained the same (16) compared to July. These vulnerabilities have affected the following vendors: Trend Micro, WinRAR, N-able, Cisco, Apple, Citrix, FreePBX, Git, Microsoft, D-Link, and Fortinet.</p>
-        <p>August was dominated by Citrix and D-Link flaws, which represented six of the eighteen</p>
-        <p>vulnerabilities. Threat actors actively exploited Citrix NetScaler ADC, NetScaler Gateway, and Citrix Session Recording products, as well as D-Link DNR-322L and DCS-2530L routers.</p>
+        <p>August was dominated by Citrix and D-Link flaws, which represented six of the eighteen vulnerabilities. Threat actors actively exploited Citrix NetScaler ADC, NetScaler Gateway, and Citrix Session Recording products, as well as D-Link DNR-322L and DCS-2530L routers.</p>
         <p>Recorded Future Insikt Group’s CVE Findings from August 2025:</p>
         <ul>
           <li>CWE-78 (OS Command Injection) was the most commonly exploited weakness, followed by CWE-502 (Deserialization of Untrusted Data) and CWE-288 (Authentication Bypass Using an Alternate Path or Channel).</li>
