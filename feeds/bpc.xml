@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 15 Sep 2025 12:59:50 EDT</pubDate>
+        <pubDate>Mon, 15 Sep 2025 14:01:30 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Phoenix attack bypasses Rowhammer defenses in DDR5 memory</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-phoenix-attack-bypasses-rowhammer-defenses-in-ddr5-memory/</link>
+        <pubDate>Mon, 15 Sep 2025 14:01:24 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-phoenix-attack-bypasses-rowhammer-defenses-in-ddr5-memory/</guid>
+	<description><![CDATA[Academic researchers have devised a new variant of Rowhammer attacks that bypass the latest protection mechanisms on DDR5 memory chips from SK Hynix. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft: Exchange 2016 and 2019 reach end of support in 30 days</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-reach-end-of-support-in-30-days/</link>
+        <pubDate>Mon, 15 Sep 2025 13:04:05 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-reach-end-of-support-in-30-days/</guid>
+	<description><![CDATA[​Microsoft has reminded administrators again that Exchange 2016 and Exchange 2019 will reach the end of extended support next month and has provided guidance for decommissioning outdated servers. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft to force install the Microsoft 365 Copilot app in October</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-force-install-the-microsoft-365-copilot-app-in-october/</link>
@@ -27,7 +57,7 @@
 
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-force-install-the-microsoft-365-copilot-app-in-october/</guid>
-	<description><![CDATA[Next month, Microsoft will begin automatically installing the Microsoft 365 Copilot app on Windows devices that have the Microsoft 365 desktop client apps. [...]]]></description>
+	<description><![CDATA[Next month, Microsoft will begin automatically installing the Microsoft 365 Copilot app on Windows devices outside of the EEA region that have the Microsoft 365 desktop client apps. [...]]]></description>
  </item>
 
  <item>
@@ -154,34 +184,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-dassault-rce-vulnerability/</guid>
 	<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of hackers exploiting a critical remote code execution flaw in DELMIA Apriso, a  manufacturing operations management (MOM) and execution (MES) solution from French company Dassault Systèmes. [...]]]></description>
- </item>
-
- <item>
-        <title>Windows 11 23H2 Home and Pro reach end of support in 60 days</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-23h2-home-and-pro-reach-end-of-support-in-60-days/</link>
-        <pubDate>Fri, 12 Sep 2025 12:15:22 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/windows-11-23h2-home-and-pro-reach-end-of-support-in-60-days/</guid>
-	<description><![CDATA[Microsoft has reminded customers today that devices running Home and Pro editions of Windows 11 23H2 will stop receiving updates in November. [...]]]></description>
- </item>
-
- <item>
-        <title>The first three things you’ll want during a cyberattack</title>
-        <link>https://www.bleepingcomputer.com/news/security/the-first-three-things-youll-want-during-a-cyberattack/</link>
-        <pubDate>Fri, 12 Sep 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by Acronis</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/the-first-three-things-youll-want-during-a-cyberattack/</guid>
-	<description><![CDATA[When cyberattacks hit, every second counts. Survival depends on three essentials: clarity to see what's happening, control to contain it, and a lifeline to recover fast. Learn from Acronis TRU how MSPs and IT teams can prepare now for the difference between recovery and catastrophe. [...]]]></description>
  </item>
 
 </channel>
