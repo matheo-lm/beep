@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 15 Sep 2025 08:01:29 EDT</pubDate>
+        <pubDate>Mon, 15 Sep 2025 09:08:51 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft says Windows September updates break SMBv1 shares</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-september-updates-break-smbv1-shares/</link>
+        <pubDate>Mon, 15 Sep 2025 08:48:23 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-september-updates-break-smbv1-shares/</guid>
+	<description><![CDATA[​Microsoft has confirmed that the September 2025 Windows security updates are causing connection issues to Server Message Block (SMB) v1 shares. [...]]]></description>
+ </item>
+
  <item>
         <title>FBI warns of UNC6040, UNC6395 hackers stealing Salesforce data</title>
         <link>https://www.bleepingcomputer.com/news/security/fbi-warns-of-unc6040-unc6395-hackers-stealing-salesforce-data/</link>
@@ -154,36 +168,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/samsung-patches-actively-exploited-zero-day-reported-by-whatsapp/</guid>
 	<description><![CDATA[Samsung has patched a remote code execution vulnerability that was exploited in zero-day attacks targeting its Android devices. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Exchange Online outage affecting users worldwide</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-exchange-online-outage-in-north-america/</link>
-        <pubDate>Thu, 11 Sep 2025 15:43:00 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-exchange-online-outage-in-north-america/</guid>
-	<description><![CDATA[Microsoft says that it has mitigated an Exchange Online outage affecting customers worldwide, which blocked their access to emails and calendars. [...]]]></description>
- </item>
-
- <item>
-        <title>U.S. Senator accuses Microsoft of “gross cybersecurity negligence”</title>
-        <link>https://www.bleepingcomputer.com/news/security/us-senator-accuses-microsoft-of-gross-cybersecurity-negligence/</link>
-        <pubDate>Thu, 11 Sep 2025 15:23:41 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/us-senator-accuses-microsoft-of-gross-cybersecurity-negligence/</guid>
-	<description><![CDATA[U.S. Senator Ron Wyden has sent a letter to the Federal Trade Commission (FTC) requesting the agency to investigate Microsoft for failing to provide adequate security in its products, which led to ransomware attacks against healthcare organizations. [...]]]></description>
  </item>
 
 </channel>
