@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 15 Sep 2025 16:03:43 EDT</pubDate>
+        <pubDate>Mon, 15 Sep 2025 16:59:31 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Google confirms hackers gained access to law enforcement portal</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-confirms-hackers-gained-access-to-law-enforcement-portal/</link>
+        <pubDate>Mon, 15 Sep 2025 16:12:37 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Google]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-confirms-hackers-gained-access-to-law-enforcement-portal/</guid>
+	<description><![CDATA[Google has confirmed that hackers created a fraudulent account in its Law Enforcement Request System (LERS) platform that law enforcement uses to submit official data requests to the company [...]]]></description>
+ </item>
+
  <item>
         <title>FinWise insider breach impacts 689K American First Finance customers</title>
         <link>https://www.bleepingcomputer.com/news/security/finwise-insider-breach-impacts-689k-american-first-finance-customers/</link>
@@ -170,20 +186,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/whitecobra-floods-vscode-market-with-crypto-stealing-extensions/</guid>
 	<description><![CDATA[A threat actor named WhiteCobra has targeting VSCode, Cursor, and Windsurf users by planting 24 malicious extensions in the Visual Studio marketplace and the Open VSX registry. [...]]]></description>
- </item>
-
- <item>
-        <title>New HybridPetya ransomware can bypass UEFI Secure Boot</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-hybridpetya-ransomware-can-bypass-uefi-secure-boot/</link>
-        <pubDate>Fri, 12 Sep 2025 13:18:07 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-hybridpetya-ransomware-can-bypass-uefi-secure-boot/</guid>
-	<description><![CDATA[A recently discovered ransomware strain called HybridPetya can bypass the UEFI Secure Boot feature to install a malicious application on the EFI System Partition. [...]]]></description>
  </item>
 
 </channel>
