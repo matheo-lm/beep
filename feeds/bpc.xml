@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 15 Sep 2025 14:01:30 EDT</pubDate>
+        <pubDate>Mon, 15 Sep 2025 14:58:26 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>FinWise insider breach impacts 689K American First Finance customers</title>
+        <link>https://www.bleepingcomputer.com/news/security/finwise-insider-breach-impacts-689k-american-first-finance-customers/</link>
+        <pubDate>Mon, 15 Sep 2025 14:18:10 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/finwise-insider-breach-impacts-689k-american-first-finance-customers/</guid>
+	<description><![CDATA[FinWise Bank is warning on behalf of corporate customers that it suffered a data breach after a former employee accessed sensitive files after the end of their employment. [...]]]></description>
+ </item>
+
  <item>
         <title>New Phoenix attack bypasses Rowhammer defenses in DDR5 memory</title>
         <link>https://www.bleepingcomputer.com/news/security/new-phoenix-attack-bypasses-rowhammer-defenses-in-ddr5-memory/</link>
@@ -170,20 +184,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/new-hybridpetya-ransomware-can-bypass-uefi-secure-boot/</guid>
 	<description><![CDATA[A recently discovered ransomware strain called HybridPetya can bypass the UEFI Secure Boot feature to install a malicious application on the EFI System Partition. [...]]]></description>
- </item>
-
- <item>
-        <title>CISA warns of actively exploited Dassault RCE vulnerability</title>
-        <link>https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-dassault-rce-vulnerability/</link>
-        <pubDate>Fri, 12 Sep 2025 12:19:39 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-dassault-rce-vulnerability/</guid>
-	<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of hackers exploiting a critical remote code execution flaw in DELMIA Apriso, a  manufacturing operations management (MOM) and execution (MES) solution from French company Dassault Systèmes. [...]]]></description>
  </item>
 
 </channel>
