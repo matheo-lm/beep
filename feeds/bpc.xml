@@ -11,11 +11,69 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 16 Sep 2025 08:04:20 EDT</pubDate>
+        <pubDate>Tue, 16 Sep 2025 09:08:21 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Jaguar Land Rover extends shutdown after cyberattack by another week</title>
+        <link>https://www.bleepingcomputer.com/news/security/jaguar-land-rover-extends-shutdown-after-cyberattack-by-another-week/</link>
+        <pubDate>Tue, 16 Sep 2025 09:08:16 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/jaguar-land-rover-extends-shutdown-after-cyberattack-by-another-week/</guid>
+	<description><![CDATA[Jaguar Land Rover (JLR) announced today that it will extend the production shutdown for another week, following a devastating cyberattack that impacted its systems at the end of August. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Apple backports zero-day patches to older iPhones and iPads</title>
+        <link>https://www.bleepingcomputer.com/news/security/apple-backports-zero-day-patches-to-older-iphones-and-ipads/</link>
+        <pubDate>Tue, 16 Sep 2025 08:16:53 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/apple-backports-zero-day-patches-to-older-iphones-and-ipads/</guid>
+	<description><![CDATA[​Apple has released security updates to backport patches released last month to older iPhones and iPads, addressing a zero-day bug that was exploited in "extremely sophisticated" attacks. [...]]]></description>
+ </item>
+
+ <item>
+        <title>New FileFix attack uses steganography to drop StealC malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-filefix-attack-uses-steganography-to-drop-stealc-malware/</link>
+        <pubDate>Tue, 16 Sep 2025 08:00:00 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-filefix-attack-uses-steganography-to-drop-stealc-malware/</guid>
+	<description><![CDATA[A newly discovered FileFix social engineering attack impersonates Meta account suspension warnings to trick users into unknowingly installing the StealC infostealer malware. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Webinar: Your browser is the breach — securing the modern web edge</title>
+        <link>https://www.bleepingcomputer.com/news/security/webinar-your-browser-is-the-breach-securing-the-modern-web-edge/</link>
+        <pubDate>Tue, 16 Sep 2025 07:01:08 -0400</pubDate>
+        <dc:creator>BleepingComputer</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/webinar-your-browser-is-the-breach-securing-the-modern-web-edge/</guid>
+	<description><![CDATA[The web browser has quietly become one of the most critical components of enterprise infrastructure—and one of the most dangerous. Join BleepingComputer, SC Media, and Push Security on September 29 at 12:00 PM ET for a live webinar on how attackers are targeting the browser to hijack sessions, steal data, and bypass security. [...]]]></description>
+ </item>
+
  <item>
         <title>OpenAI's new GPT-5 Codex model takes on Claude Code</title>
         <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-new-gpt-5-codex-model-takes-on-claude-code/</link>
@@ -146,62 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-september-updates-break-smbv1-shares/</guid>
 	<description><![CDATA[​Microsoft has confirmed that the September 2025 Windows security updates are causing connection issues to Server Message Block (SMB) v1 shares. [...]]]></description>
- </item>
-
- <item>
-        <title>FBI warns of UNC6040, UNC6395 hackers stealing Salesforce data</title>
-        <link>https://www.bleepingcomputer.com/news/security/fbi-warns-of-unc6040-unc6395-hackers-stealing-salesforce-data/</link>
-        <pubDate>Sun, 14 Sep 2025 17:56:40 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/fbi-warns-of-unc6040-unc6395-hackers-stealing-salesforce-data/</guid>
-	<description><![CDATA[The FBI has issued a FLASH alert warning that two threat clusters, tracked as UNC6040 and UNC6395, are compromising organizations' Salesforce environments to steal data and extort victims. [...]]]></description>
- </item>
-
- <item>
-        <title>New VoidProxy phishing service targets Microsoft 365, Google accounts</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-voidproxy-phishing-service-targets-microsoft-365-google-accounts/</link>
-        <pubDate>Sun, 14 Sep 2025 10:23:32 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-voidproxy-phishing-service-targets-microsoft-365-google-accounts/</guid>
-	<description><![CDATA[A newly discovered phishing-as-a-service (PhaaS) platform, named VoidProxy, targets Microsoft 365 and Google accounts, including those protected by third-party single sign-on (SSO) providers such as Okta. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft reminds of Windows 10 support ending in 30 days</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-of-windows-10-support-ending-in-30-days/</link>
-        <pubDate>Sat, 13 Sep 2025 12:20:40 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-of-windows-10-support-ending-in-30-days/</guid>
-	<description><![CDATA[On Friday, Microsoft reminded customers once again that Windows 10 will reach its end of support in 30 days, on October 14. [...]]]></description>
- </item>
-
- <item>
-        <title>'WhiteCobra' floods VSCode market with crypto-stealing extensions</title>
-        <link>https://www.bleepingcomputer.com/news/security/whitecobra-floods-vscode-market-with-crypto-stealing-extensions/</link>
-        <pubDate>Sat, 13 Sep 2025 10:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/whitecobra-floods-vscode-market-with-crypto-stealing-extensions/</guid>
-	<description><![CDATA[A threat actor named WhiteCobra has targeting VSCode, Cursor, and Windsurf users by planting 24 malicious extensions in the Visual Studio marketplace and the Open VSX registry. [...]]]></description>
  </item>
 
 </channel>
