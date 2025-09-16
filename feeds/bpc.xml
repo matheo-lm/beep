@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 16 Sep 2025 11:02:50 EDT</pubDate>
+        <pubDate>Tue, 16 Sep 2025 11:59:03 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft: WMIC will be removed after Windows 11 25H2 upgrade</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-wmic-will-be-removed-after-windows-11-25h2-upgrade/</link>
+        <pubDate>Tue, 16 Sep 2025 11:58:59 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-wmic-will-be-removed-after-windows-11-25h2-upgrade/</guid>
+	<description><![CDATA[Microsoft has announced that the Windows Management Instrumentation Command-line (WMIC) tool will be removed after upgrading to Windows 11 25H2 and later. [...]]]></description>
+ </item>
+
  <item>
         <title>Team-Wide VMware Certification: Your Secret Weapon for Security</title>
         <link>https://www.bleepingcomputer.com/news/security/team-wide-vmware-certification-your-secret-weapon-for-security/</link>
@@ -204,20 +218,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-11-audio-issues-confirmed-in-december/</guid>
 	<description><![CDATA[Microsoft has removed a safeguard hold that prevented some users from upgrading their systems to Windows 11 24H2 due to compatibility issues that were causing Bluetooth headsets and speakers to malfunction. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft says Windows September updates break SMBv1 shares</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-september-updates-break-smbv1-shares/</link>
-        <pubDate>Mon, 15 Sep 2025 08:48:23 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-september-updates-break-smbv1-shares/</guid>
-	<description><![CDATA[​Microsoft has confirmed that the September 2025 Windows security updates are causing connection issues to Server Message Block (SMB) v1 shares. [...]]]></description>
  </item>
 
 </channel>
