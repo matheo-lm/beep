@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 16 Sep 2025 11:59:03 EDT</pubDate>
+        <pubDate>Tue, 16 Sep 2025 13:01:49 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Self-propagating supply chain attack hits 187 npm packages</title>
+        <link>https://www.bleepingcomputer.com/news/security/self-propagating-supply-chain-attack-hits-187-npm-packages/</link>
+        <pubDate>Tue, 16 Sep 2025 12:46:43 -0400</pubDate>
+        <dc:creator>Ax Sharma</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/self-propagating-supply-chain-attack-hits-187-npm-packages/</guid>
+	<description><![CDATA[Security researchers have identified at least 187 npm packages compromised in an ongoing supply chain attack. The coordinated worm-style campaign dubbed 'Shai-Hulud' started yesterday with the compromise of the @ctrl/tinycolor npm package, and has now expanded to CrowdStrike's npm namespace. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft: WMIC will be removed after Windows 11 25H2 upgrade</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-wmic-will-be-removed-after-windows-11-25h2-upgrade/</link>
@@ -204,20 +218,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/stop-waiting-on-nvd-get-real-time-vulnerability-alerts-now/</guid>
 	<description><![CDATA[Vulnerabilities are discovered daily—but not every alert matters. SecAlerts pulls from 100+ sources for faster, real-time vuln alerts, filtering the noise so teams can patch quicker and stay secure. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft fixes Windows 11 audio issues confirmed in December</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-11-audio-issues-confirmed-in-december/</link>
-        <pubDate>Mon, 15 Sep 2025 09:48:05 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-11-audio-issues-confirmed-in-december/</guid>
-	<description><![CDATA[Microsoft has removed a safeguard hold that prevented some users from upgrading their systems to Windows 11 24H2 due to compatibility issues that were causing Bluetooth headsets and speakers to malfunction. [...]]]></description>
  </item>
 
 </channel>
