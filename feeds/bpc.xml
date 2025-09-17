@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 17 Sep 2025 17:01:58 EDT</pubDate>
+        <pubDate>Wed, 17 Sep 2025 18:02:12 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>ShinyHunters claims 1.5 billion Salesforce records stolen in Drift hacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/shinyhunters-claims-15-billion-salesforce-records-stolen-in-drift-hacks/</link>
+        <pubDate>Wed, 17 Sep 2025 17:11:06 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/shinyhunters-claims-15-billion-salesforce-records-stolen-in-drift-hacks/</guid>
+	<description><![CDATA[The ShinyHunters extortion group claims to have stolen over 1.5 billion Salesforce records from 760 companies using compromised Salesloft Drift OAuth tokens. [...]]]></description>
+ </item>
+
  <item>
         <title>VC giant Insight Partners warns thousands after ransomware breach</title>
         <link>https://www.bleepingcomputer.com/news/security/vc-giant-insight-partners-warns-thousands-after-ransomware-breach/</link>
@@ -170,20 +184,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/team-wide-vmware-certification-your-secret-weapon-for-security/</guid>
 	<description><![CDATA[One VMware-certified pro is a win. An entire certified team? That's a security multiplier. VMUG Advantage makes team-wide certification practical—building collaboration, resilience, and retention. [...]]]></description>
- </item>
-
- <item>
-        <title>Jaguar Land Rover extends shutdown after cyberattack by another week</title>
-        <link>https://www.bleepingcomputer.com/news/security/jaguar-land-rover-extends-shutdown-after-cyberattack-by-another-week/</link>
-        <pubDate>Tue, 16 Sep 2025 09:08:16 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/jaguar-land-rover-extends-shutdown-after-cyberattack-by-another-week/</guid>
-	<description><![CDATA[Jaguar Land Rover (JLR) announced today that it will extend the production shutdown for another week, following a devastating cyberattack that impacted its systems at the end of August. [...]]]></description>
  </item>
 
 </channel>
