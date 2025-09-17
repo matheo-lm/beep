@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 17 Sep 2025 13:02:01 EDT</pubDate>
+        <pubDate>Wed, 17 Sep 2025 14:01:02 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>VC giant Insight Partners warns thousands after ransomware breach</title>
+        <link>https://www.bleepingcomputer.com/news/security/vc-giant-insight-partners-warns-thousands-after-ransomware-breach/</link>
+        <pubDate>Wed, 17 Sep 2025 13:50:52 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/vc-giant-insight-partners-warns-thousands-after-ransomware-breach/</guid>
+	<description><![CDATA[New York-based venture capital and private equity firm Insight Partners is notifying thousands of individuals whose personal information was stolen in a ransomware attack. [...]]]></description>
+ </item>
+
  <item>
         <title>SonicWall warns customers to reset credentials after breach</title>
         <link>https://www.bleepingcomputer.com/news/security/sonicwall-warns-customers-to-reset-credentials-after-MySonicWall-breach/</link>
@@ -186,20 +200,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/apple-backports-zero-day-patches-to-older-iphones-and-ipads/</guid>
 	<description><![CDATA[​Apple has released security updates to backport patches released last month to older iPhones and iPads, addressing a zero-day bug that was exploited in "extremely sophisticated" attacks. [...]]]></description>
- </item>
-
- <item>
-        <title>New FileFix attack uses steganography to drop StealC malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-filefix-attack-uses-steganography-to-drop-stealc-malware/</link>
-        <pubDate>Tue, 16 Sep 2025 08:00:00 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-filefix-attack-uses-steganography-to-drop-stealc-malware/</guid>
-	<description><![CDATA[A newly discovered FileFix social engineering attack impersonates Meta account suspension warnings to trick users into unknowingly installing the StealC infostealer malware. [...]]]></description>
  </item>
 
 </channel>
