@@ -4,12 +4,25 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Mon, 15 Sep 2025 16:57:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Sep 2025 14:00:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
         <copyright>Copyright © 2025 Recorded Future, Inc.</copyright>
         <atom:link href="https://www.recordedfuture.com/feed" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[How to Protect Your People and Assets from Targeted Threats]]></title>
+            <link>https://www.recordedfuture.com/blog/how-to-protect-your-people-and-assets-from-targeted-threats</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/blog/how-to-protect-your-people-and-assets-from-targeted-threats</guid>
+            <pubDate>Wed, 17 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to protect executives and assets from targeted threats. Discover evolving violent extremist tactics, digital exposure risks, and actionable mitigation strategies from Recorded Future experts.]]></description>
+            <content:encoded><![CDATA[
+        <p>Threats against public and private sector personnel and facilities are on the rise. To help organizations keep their people and assets safe, Recorded Future recently hosted a webinar to explain how the violent extremist landscape is evolving, share tactics aimed at identifying key sources of online risk exposure, and offer mitigations that can help reduce physical security concerns.</p>
+        <p>Read on for a recap of the highlights, and be sure to <a href="https://recordedfuture.ondemand.goldcast.io/on-demand/11be03e5-ab8f-40e6-9192-77d16d4fe509">watch the recording</a> for complete details and recommendations.</p>
+      ]]></content:encoded>
+            <category>Blog</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_17545c24d175f27efde965eb4a266836ad1e13fd8.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
         <item>
             <title><![CDATA[August 2025 CVE Landscape]]></title>
             <link>https://www.recordedfuture.com/blog/august-2025-cve-landscape</link>
@@ -10850,132 +10863,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Blog</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_1d1d4f96af5331002b11b01310ea40518e2454c08.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[Apache Tomcat: CVE-2025-24813: Active Exploitation]]></title>
-            <link>https://www.recordedfuture.com/blog/apache-tomcat-cve-2025-24813-vulnerability-analysis</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/blog/apache-tomcat-cve-2025-24813-vulnerability-analysis</guid>
-            <pubDate>Fri, 28 Mar 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Learn about CVE-2025-24813 affecting Apache Tomcat products. Patch now to prevent remote code execution.]]></description>
-            <content:encoded><![CDATA[
-        <h2>What is CVE-2025-24813?</h2>
-        <p><a href="https://www.recordedfuture.com/vulnerability-database/cve-2025-24813">CVE-2025-24813</a> is a critical path equivalence vulnerability in Apache Tomcat, with exploitation attempts by threat actors observed in the wild. The vulnerability allows attackers to execute arbitrary code on vulnerable servers without authentication under specific conditions, potentially leading to system compromise and sensitive data being exposed.</p>
-        <p>Organizations affected by the configuration required for exploitation should patch CVE-2025-24813 to mitigate potential attacks and protect sensitive data from unauthorized access.</p>
-        <p>The vulnerability affects Tomcat versions 11.0.0-M1 to 11.0.2, 10.1.0-M1 to 10.1.34, and 9.0.0. M1 to 9.0.98. <strong>Additionally, Insikt Group’s analysis found that 8.5.x versions (specifically 8.5.0 to 8.5.98 and 8.5.100, with the exception of 8.5.99) are also vulnerable, though they were not included in the initial set of affected products by Apache.</strong></p>
-        <h2>Insikt Group’s Assessment of CVE-2025-24813</h2>
-        <p>CVE-2025-24813 stems from Tomcat’s handling of partial PUT requests and allows remote, unauthenticated attackers to conduct remote code execution (RCE), view security-sensitive files, and inject content into those files.</p>
-        <p>Exploitation involves two primary steps:</p>
-        <ul>
-          <li>The attacker sends a PUT request containing a Base64-encoded serialized Java payload to the server. This payload is designed to trigger RCE upon deserialization.</li>
-          <li>The attacker then sends a GET request with a specially crafted “JSESSIONID” cookie referencing the malicious session, causing the server to deserialize the payload and execute arbitrary code.</li>
-        </ul>
-        <p>However, successfully conducting RCE requires the following conditions:</p>
-        <ul>
-          <li>The default servlet must have write permissions enabled (disabled by default)</li>
-          <li>Partial PUT support must be enabled (enabled by default)</li>
-          <li>The application uses Tomcat's file-based session persistence with the default storage location</li>
-          <li>The application includes a library that can be leveraged in a deserialization attack</li>
-        </ul>
-        <p>If the following conditions are true, attackers can view sensitive security files and inject content into those files:</p>
-        <ul>
-          <li>The default servlet must have write permissions enabled (disabled by default)</li>
-          <li>Partial PUT support must be enabled (enabled by default)</li>
-          <li>The target URL for sensitive uploads resides within a sub-directory of the public uploads directory</li>
-          <li>The attacker is aware of the filenames of the security-sensitive files being uploaded</li>
-          <li>The security-sensitive files are uploaded using partial PUT requests</li>
-        </ul>
-        <p>As such, only a limited number of Tomcat instances are likely to be affected by the configuration required for exploitation. For example, a GitHub code search query to check for the write permissions condition (<code>&lt;param-name&gt;readonly&lt; /param-name&gt; AND "false" language:xml</code>) shows only 218 open-source projects using this configuration.</p>
-        <p>Cybersecurity firm Greynoise has identified six malicious IP addresses attempting to exploit CVE-2025-24813, targeting systems in the US, Japan, Mexico, South Korea, and Australia. However, Insikt Group has not identified any evidence of successful exploitation or any evidence of known threat actors exploiting the vulnerability. At the time of writing, there were 378,444 exposed instances on Shodan. The specific versions are disclosed in the title and body of the servers’ responses.</p>
-        <div>
-          <div>
-            <div><strong>Malicious IP Address</strong></div>
-            <div><strong>Source Location</strong></div>
-            <div><strong>Target Location</strong></div>
-          </div>
-          <div>
-            <div>203.160.68[.]24</div>
-            <div>Hong Kong</div>
-            <div>US</div>
-          </div>
-          <div>
-            <div>176.65.138[.]172</div>
-            <div>Germany</div>
-            <div>Japan, Singapore, Hong Kong, Indonesia, Pakistan, Taiwan</div>
-          </div>
-          <div>
-            <div>38.126.114[.]186</div>
-            <div>US</div>
-            <div>India, Japan, Mexico, US</div>
-          </div>
-          <div>
-            <div>188.213.161[.]98</div>
-            <div>Italy</div>
-            <div>Japan, South Korea</div>
-          </div>
-          <div>
-            <div>140.143.182[.]115</div>
-            <div>China</div>
-            <div>US, Australia, Mexico, South Korea</div>
-          </div>
-          <div>
-            <div>196.240.54[.]120</div>
-            <div>Latvia</div>
-            <div>US</div>
-          </div>
-        </div>
-        <p><strong><em>Table 1:</em></strong> <em>Malicious IP addresses attempting to exploit CVE-2025-24813 (Source:</em> <em><a href="https://viz.greynoise.io/query/CVE-2025-24813">Greynoise</a>)</em></p>
-        <p>Multiple proof-of-concept (PoC) exploits have been published, including by Palo Alto Networks and GitHub user iSee857. These public exploits increase the likelihood of ongoing exploitation attempts. Insikt Group did not test these PoCs for efficacy or accuracy.</p>
-        <p>Indicators of compromise (IoCs):</p>
-        <ul>
-          <li>Presence of unexpected JSP files in the web server root directory</li>
-          <li>External POST or GET requests targeting suspicious JSP files</li>
-          <li>Occurrence of unexpected PUT requests in web server logs</li>
-          <li>Evidence of malicious payloads being delivered via PUT requests</li>
-          <li>Triggered WAF rules indicating attempts to upload or execute unauthorized files</li>
-        </ul>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="CVE-2025-24813-01.png" src="https://www.recordedfuture.com/media_1a3087e37015151048a97887321e47ed8ae914ed4.png?width=750&amp;format=png&amp;optimize=medium" width="600" height="371" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 1:</em></strong> <em>The majority of exposed Tomcat instances on Shodan are geolocated in China, Brazil, Morocco, and the US (Sources:</em> <em><a href="https://www.shodan.io/search?query=title%3A%22Apache+Tomcat%22">Shodan</a>, Recorded Future)</em></div>
-          </div>
-        </div>
-        <h2>Recommended Actions for CVE-2025-24813</h2>
-        <p>Users should upgrade to version 11.0.3, 10.1.35 or 9.0.99. For end-of-life (EoL) 8.5.x versions, users should upgrade to a supported branch of Apache <a href="https://app.recordedfuture.com/portal/intelligence-card/EvTHn/overview?organization=uhash:5cJsHMHeSM">Tomcat</a>. If upgrading is not immediately possible, users should implement network-level controls to restrict access to the Tomcat server.</p>
-        <p><strong>How Recorded Future Can Help:</strong></p>
-        <ul>
-          <li><a href="/research/insikt-group">Insikt Group</a> - <a href="https://assets.recordedfuture.com/strapi/yaml-yar/CVE_2025_24813_a31e539d7e.yaml">Download the attached YAML file</a> in this blog post to access a Nuclei template created by Insikt Group for CVE-2025-24813 that enables defenders to test potentially vulnerable Apache Tomcat instances prior to the patched version.</li>
-          <li><a href="/products/attack-surface-intelligence">Attack Surface Intelligence</a> - Identify internet-facing assets vulnerable to CVE-2025-24813.</li>
-          <li><a href="/products/vulnerability-intelligence">Vulnerability Intelligence</a> - Gain helpful context on CVE-2025-24813 to aid in patching and prioritization discussions.</li>
-        </ul>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="CVE-2025-24813-02.png" src="https://www.recordedfuture.com/media_19a2e4382ee1e144fbf4c022c6202bdf9c0fa80f2.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1002" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 2:</em></strong> <em>Vulnerability Intelligence Card for CVE-2025-24813 in Recorded Future (Source: Recorded Future)</em></div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="CVE-2025-24813-03.png" src="https://www.recordedfuture.com/media_142a48786df7e18dfe7bdcc7e50d33870e028ca68.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="525" />
-            </div>
-          </div>
-          <div>
-            <div><strong><em>Figure 3:</em></strong> <em>Signature for CVE-2025-24813 in Recorded Future Attack Surface Intelligence® (Source: Recorded Future)</em></div>
-          </div>
-        </div>
-        <p><strong>About Insikt Group:</strong> Recorded Future’s Insikt Group threat research team is comprised of analysts, linguists, and security researchers with deep government and industry experience.</p>
-        <p>Insikt Group publishes threat intelligence to the Recorded Future analyst community in blog posts and analyst notes.</p>
-      ]]></content:encoded>
-            <category>Blog</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_1105e47332269daac2f0a7d9ba89af03bb9ff6fe3.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>

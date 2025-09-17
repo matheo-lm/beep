@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 17 Sep 2025 09:05:18 EDT</pubDate>
+        <pubDate>Wed, 17 Sep 2025 09:59:52 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft and Cloudflare disrupt massive RaccoonO365 phishing service</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-and-cloudflare-disrupt-massive-raccoono365-phishing-service/</link>
+        <pubDate>Wed, 17 Sep 2025 09:20:05 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-and-cloudflare-disrupt-massive-raccoono365-phishing-service/</guid>
+	<description><![CDATA[Microsoft and Cloudflare have disrupted a massive Phishing-as-a-Service (PhaaS) operation, known as RaccoonO365, that helped cybercriminals steal thousands of Microsoft 365 credentials. [...]]]></description>
+ </item>
+
  <item>
         <title>BreachForums hacking forum admin resentenced to three years in prison</title>
         <link>https://www.bleepingcomputer.com/news/security/breachforums-hacking-forum-admin-resentenced-to-three-years-in-prison/</link>
@@ -172,36 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-new-gpt-5-codex-model-takes-on-claude-code/</guid>
 	<description><![CDATA[OpenAI is rolling out the GPT-5 Codex model to all Codex instances, including Terminal, IDE extension, and Codex Web (codex.chatgpt.com). [...]]]></description>
- </item>
-
- <item>
-        <title>Google confirms fraudulent account created in law enforcement portal</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-confirms-fraudulent-account-created-in-law-enforcement-portal/</link>
-        <pubDate>Mon, 15 Sep 2025 16:12:37 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Google]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-confirms-fraudulent-account-created-in-law-enforcement-portal/</guid>
-	<description><![CDATA[Google has confirmed that hackers created a fraudulent account in its Law Enforcement Request System (LERS) platform that law enforcement uses to submit official data requests to the company [...]]]></description>
- </item>
-
- <item>
-        <title>FinWise insider breach impacts 689K American First Finance customers</title>
-        <link>https://www.bleepingcomputer.com/news/security/finwise-insider-breach-impacts-689k-american-first-finance-customers/</link>
-        <pubDate>Mon, 15 Sep 2025 14:18:10 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/finwise-insider-breach-impacts-689k-american-first-finance-customers/</guid>
-	<description><![CDATA[FinWise Bank is warning on behalf of corporate customers that it suffered a data breach after a former employee accessed sensitive files after the end of their employment. [...]]]></description>
  </item>
 
 </channel>
