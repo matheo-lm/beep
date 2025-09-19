@@ -4,7 +4,7 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Thu, 18 Sep 2025 00:00:35 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Sep 2025 12:24:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
@@ -664,6 +664,65 @@ reuters[.]uk[.]net
       ]]></content:encoded>
             <category>Research (Insikt)</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_1a821afab45fc1cb44368237d90cfa61c83ed927c.gif?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
+        <item>
+            <title><![CDATA[How The Right AI Enables An Autonomous Future]]></title>
+            <link>https://www.recordedfuture.com/blog/how-the-right-ai-enables-an-autonomous-future</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/blog/how-the-right-ai-enables-an-autonomous-future</guid>
+            <pubDate>Thu, 18 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how AI can transform manual security operations into autonomous defense systems. Learn the technology that can lead to 3x faster threat detection and remediation.]]></description>
+            <content:encoded><![CDATA[
+        <h2>Building AI That Can Actually Stop Cyberattacks</h2>
+        <p>Many cybersecurity vendors claim their AI can work autonomously, but how much is actually possible? At Recorded Future, we've discovered what it really takes to build AI that can prioritize, decide, and act independently to stop threats.</p>
+        <p>Through our experience, we've identified three essential building blocks for autonomous AI capabilities:</p>
+        <ol>
+          <li><strong>Historical Understanding and Trusted Intelligence Inputs:</strong> AI needs a well-organized foundation of past threat data and high-quality, reliable sources to learn from previous attacks and defender responses.</li>
+          <li><strong>Threat-Specific Patterns and Campaigns:</strong> The system must identify patterns unique to cybersecurity threats, going beyond general AI capabilities to understand attacker behavior.</li>
+          <li><strong>Precise Recommendations and Ability to Action</strong> AI should provide specific recommendations and be able to take action with minimal guidance, allowing analysts to determine what outcomes are delegated to machines and which need strategic input.</li>
+        </ol>
+        <p>When these building blocks work together, they can create AI that doesn't just detect threats but stops attacks before they succeed.</p>
+        <h2>Building Block #1: Comprehensive Threat Memory</h2>
+        <p>There's a saying: "the further backward you can look, the further forward you can see." This principle is essential for AI-powered cybersecurity.</p>
+        <p>AI systems need access to extensive historical threat data and real-time intelligence about current attacks, threat actors, and emerging patterns. This comprehensive memory allows AI to anticipate future threats rather than simply reacting to isolated alerts. At Recorded Future, we leverage our <a href="https://www.recordedfuture.com/platform/intelligence-graph">Intelligence Graph®</a> that has 15 years of connected threat data. This serves as the critical threat memory, containing:</p>
+        <ol>
+          <li><strong>280 million malware samples</strong> analyzed and categorized</li>
+          <li><strong>4,000+ threat actors</strong> with full attribution chains</li>
+          <li><strong>90,000 C2 servers</strong> monitored in real-time</li>
+          <li><strong>1.3 million novel credentials</strong> discovered daily</li>
+          <li><strong>35 million domains/URLs</strong> scanned continuously</li>
+        </ol>
+        <p>This living knowledge system connects every new threat to its evolutionary history, giving AI the foundational memory necessary for building blocks 2 and 3.</p>
+        <p><strong>Real-World Impact</strong>: When malicious network traffic triggered alerts, the Intelligence Graph® instantly correlated the alert with a recently identified malware family and associated hunting packages—transforming routine monitoring into actionable threat intelligence that can guide the IR team's investigation strategy.</p>
+        <h2>Building Block #2: Recognizing Threat Actor Patterns and Campaigns</h2>
+        <p>The second essential component is AI that can identify meaningful patterns within threat intelligence data. Specialized threat intelligence AI must excel in two critical areas:</p>
+        <p><strong>Multi-Source Data Processing</strong><br />When five different feeds report the same threat differently, AI uses natural language processing to create a unified understanding. The Intelligence Graph® enriches each indicator with a Risk Score and connects it to related entities through the Ontology Graph. For example, it links a file hash to a specific malware family that exploits a particular vulnerability. These connections generate Risk Scores that help analysts prioritize the most critical threats.</p>
+        <p><strong>Long-Term Campaign Detection</strong><br />AI can identify attack campaigns that unfold over months, revealing patterns that daily human analysis would miss. This capability relies heavily on the Intelligence Graph's ability to process millions of relationships simultaneously, drawing from 15 years of threat data to connect past and present campaigns across multiple signal sources.</p>
+        <p>This pattern recognition transforms isolated data points into actionable intelligence about coordinated threat activities.</p>
+        <h2>Building Block #3: Autonomous Decision Engines</h2>
+        <p>The third essential component gives AI the framework to make decisive, trustworthy decisions. This is where all the building blocks converge to create a breakthrough: AI that doesn't just detect threats but decides and acts based on risk.</p>
+        <p><strong>Risk-Based Decision Framework</strong></p>
+        <p>Our framework uses Risk Scores derived from multiple intelligence sources processed through the Intelligence Graph. By combining context, correlation, and multi-source analysis, organizations can focus their attention on the events and indicators that pose the greatest threat.</p>
+        <p><strong>Recorded Future Risk-Scoring Framework:</strong></p>
+        <ol>
+          <li><strong>Very malicious: 90-99:</strong> Suggested automatic blocking of indicators of compromise (IoC), especially IP addresses and domains</li>
+          <li><strong>Malicious: 65-89:</strong> Suggested automatic blocking for hashes; consider related context for other IoCs</li>
+          <li><strong>Suspicious: 25-64:</strong> Potential evidence of risky behavior that needs more evaluation</li>
+          <li><strong>Unusual: 5-24:</strong> Possible historic connection to risky behavior</li>
+          <li><strong>No Current Evidence of Risk: 0:</strong> Little to no evidence of current risk</li>
+        </ol>
+        <h2>The Future Is Already Here</h2>
+        <p>In summary, we have found that the future of autonomous AI require three specialized building blocks working together:</p>
+        <ol>
+          <li><strong>Threat Memory:</strong> Comprehensive historical and real-time intelligence data</li>
+          <li><strong>Threat Actor Patterns and Campaigns:</strong> Advanced analysis of anomalous behavior or Indicators of Compromise (IoCs) to generate accurate risk scores and confidence levels</li>
+          <li><strong>Decision Engine:</strong> Clear parameters that enable appropriate AI actions for each threat scenario</li>
+        </ol>
+        <p><strong>Time to Act</strong></p>
+        <p>Most organizations still depend on manual security processes developed decades ago. The technology for AI-powered autonomous operations exists today and has proven results in production environments.</p>
+        <p>The question isn't whether this transformation will happen, but when your organization will make the shift from human-limited to AI-powered security operations.</p>
+      ]]></content:encoded>
+            <category>Blog</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_133c971670e72e014c17ce2ff427f8450266744a4.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
         <item>
             <title><![CDATA[How to Protect Your People and Assets from Targeted Threats]]></title>
@@ -11402,44 +11461,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Blog</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_17fabbdcb3d243930807ee39d1d0549b922958760.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[How Huione Marketplace Fuels Global Cyber Fraud in 2024]]></title>
-            <link>https://www.recordedfuture.com/blog/huoine-marketplace-reshaping-global-fraud</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/blog/huoine-marketplace-reshaping-global-fraud</guid>
-            <pubDate>Fri, 11 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Explore how Huione Marketplace empowers global fraud networks with AI tools, deepfakes, and money laundering services—reshaping cybercrime at scale.]]></description>
-            <content:encoded><![CDATA[
-        <h2>The Global Fraud Landscape</h2>
-        <p>Fraud is a booming industry, with scammers <a href="https://www.gasa.org/_files/ugd/7bdaac_9060be8317424edd9964072cf279a0a4.pdf">pulling in</a> over <strong>$1 trillion</strong> from their victims in 2024. Businesses are paying the price: <strong>87%</strong> of businesses <a href="https://www.veriff.com/ebooks/us-industry-pulse-survey-2024">reported</a> an increase in online fraud, with most experiencing a <strong>1% to 9%</strong> loss in revenue as a result. In terms of individual consumers, Asia reported digital scam losses <a href="https://www.mastercard.com/news/ap/en/perspectives/en/2025/evolution-of-fraud-and-scams-in-asia-the-need-for-a-unified-defence/">reaching</a> <strong>$700 billion</strong> last year, compared to the <strong>$12.5 billion</strong> reported by US consumers in <a href="https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024">2024</a>.</p>
-        <p>Trust-based financial exploitation scams are especially lucrative. Examples include <a href="https://www.scamwatch.gov.au/stay-protected/real-life-stories/dating-and-romance-scam-georginas-facebook-fianc%C3%A9-leaves-her-flat-broke">romance</a> scams, investment scams, or <a href="https://www.abc.net.au/news/2025-02-24/fake-chinese-authority-scam-extorting-millions/104974122">impersonation</a> scams. Fraudulent actors can adapt impersonation scams to target businesses, such as by posing as regulators or <a href="https://www.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk/index.html">impersonating</a> executives. The percentage of people who reported losing money to fraud and scams <a href="https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024">increased</a> from 27% in 2023 to 38% in 2024, suggesting that scams are increasingly more effective and believable.</p>
-        <h2>Huione Marketplace: The One-Stop Shop for Fraud</h2>
-        <p>Online platforms that market tools and services to Chinese-speaking cybercriminals are one factor behind this boom, making it easier for criminals to execute fraud at scale. <a href="https://support.recordedfuture.com/hc/en-us/articles/37986893239187-Huione-Guarantee-Serves-as-a-One-Stop-Shop-for-Chinese-Speaking-Cybercriminals">Huione Guarantee</a>, a prominent gray-market hub that operates under the Huione Group, a Cambodian financial conglomerate, <a href="https://www.wired.com/story/the-largest-illicit-online-marketplace-ever-is-growing-at-an-alarming-rate">acts</a> as a one-stop shop for fraud-related tools and services. The website compiles Telegram channels with posts offering cryptocurrency mining tools, money laundering, and <a href="https://www.straitstimes.com/singapore/10m-lost-in-malware-scam-where-victims-banking-credentials-stolen-by-keylogger-hidden-in-app">malware-as-a-service</a>. The channels also promote offerings that use social engineering to facilitate fraud, including the sale of social media accounts to adopt realistic online personas, as well as personal, financial, and employment data to personalize the scam. Sellers also advertise generative AI deepfake voice and face-changing tools, some of which list <a href="https://www.cnbc.com/2023/10/17/us-bans-export-of-more-ai-chips-including-nvidia-h800-to-china.html">US-sanctioned</a> computer hardware components in the technology specifications. Advanced consumer-grade GPUs, like the kind recommended by threat actors for an advanced face swapping tool sold on the Huione Marketplace, are widely <a href="https://www.wsj.com/tech/the-underground-network-sneaking-nvidia-chips-into-china-f733aaa6">available</a> through underground and informal distribution networks.</p>
-        <h2>From Scams to Slavery: TCOs, AI Tools, and Human Trafficking</h2>
-        <p>Transnational criminal organizations (TCOs) use services from Huione Guarantee to support large-scale scam operations. These organizations operate call center compounds in Cambodia and Myanmar that force <a href="https://www.humanity-consultancy.com/publications/responses-to-trafficking-in-persons-for-forced-criminality-in-the-thai-context">human trafficking victims</a> to carry out hundreds of scam calls each day. Coerced labor is <a href="https://www.abc.net.au/news/2024-05-16/pig-butchering-scams-artificial-intelligence-ai-face-swapping-/103804830">augmented</a> with generative AI tools, including deepfake impersonations and automated bots. Chinese and Thai law enforcement have made joint efforts to shut down the call centers by <a href="https://www.yahoo.com/news/china-brings-back-3-000-093000193.html">repatriating</a> trafficking victims and <a href="https://www.scmp.com/week-asia/politics/article/3297499/thailand-shuts-power-myanmars-scam-hub-pm-paetongtarn-vows-firm-action">shutting down</a> power to the regions where they operate. However, political instability and weak governance in regions where these centers operate make sustained enforcement efforts challenging.</p>
-        <p>Huione infrastructure also supports money laundering services through Huoine Pay, the conglomerate’s banking arm. The Huione Pay website advertises money laundering services along with other scam tools. The National Bank of Cambodia recently <a href="https://www.rfa.org/english/cambodia/2025/03/06/huione-cambodia-cyberscam-cryptocurrency/">stripped</a> Huoine Pay’s banking license in response to international pressure, though further enforcement actions such as arrests or fines have not yet been made.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="huoine.png" src="https://www.recordedfuture.com/media_10b483ad99e0510a775a7224468d6b414eb4080fb.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="879" />
-            </div>
-          </div>
-          <div>
-            <div><em>Huione infrastructure (Huione Guarantee and Huione Pay) help to expand scam operations conducted by Chinese criminals (Source: Recorded Future)</em></div>
-          </div>
-        </div>
-        <h2>New Markets: Expanding to the US and Beyond</h2>
-        <p>TCOs are <a href="https://web.archive.org/web/20240612094033/https://www.usip.org/programs/transnational-organized-crime-southeast-asia">beginning</a> to look to other regions to grow their operations. Scam losses per capita in the US are the <a href="https://www.gasa.org/_files/ugd/7bdaac_9060be8317424edd9964072cf279a0a4.pdf">highest</a> in the world at $3,520, offering an enticing market for expanding operations. The majority of scams these groups operate appear to target individuals, employing a variety of scam techniques based on who they are targeting and which scams are working.</p>
-        <p>Businesses can protect themselves from scam-related revenue losses by adapting their employee training and policies to keep up with increasingly sophisticated scams.</p>
-        <ul>
-          <li><strong>Update phishing detection training</strong> to include more sophisticated tactics, such as more professional-sounding content in emails or even deepfake voice or video calls, to help employees recognize fraudulent communications.</li>
-          <li><strong>Discourage using unmonitored personal devices</strong> for sensitive business functions to ensure that the security team can quickly identify malware infection, data exfiltration, or suspicious network activity due to fraud.</li>
-          <li><strong>Ensure employees and leadership alike have a trusted mechanism for reporting suspicious activity.</strong> In addition, providing assurances that scam victims will not be punished can help ensure they report the scams to the security team, which may then be able to intervene before more serious losses are incurred.</li>
-        </ul>
-        <p>Recorded Future customers can access the full report with deeper technical detail titled, "Huione Guarantee Serves as a One Stop Shop for Chinese Speaking Cybercriminals" in the platform.</p>
-      ]]></content:encoded>
-            <category>Blog</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_1668736f65b07d67f11b3a7ec8a6938e6f22c479c.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>
