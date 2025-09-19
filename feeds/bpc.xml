@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 19 Sep 2025 14:04:03 EDT</pubDate>
+        <pubDate>Fri, 19 Sep 2025 15:01:34 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft starts rolling out Gaming Copilot on Windows 11 PCs</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-rolling-out-gaming-copilot-on-windows-11-pcs/</link>
+        <pubDate>Fri, 19 Sep 2025 14:46:22 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-rolling-out-gaming-copilot-on-windows-11-pcs/</guid>
+	<description><![CDATA[Microsoft has begun rolling out the beta version of its AI-powered Gaming Copilot to Windows 11 systems for users aged 18 or older, excluding those in mainland China. [...]]]></description>
+ </item>
+
  <item>
         <title>FBI warns of cybercriminals using fake FBI crime reporting portals</title>
         <link>https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fbi-crime-complaint-portals-used-for-cybercrime/</link>
@@ -190,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/notepad-gets-free-ai-features-on-copilot-plus-pcs-with-windows-11/</guid>
 	<description><![CDATA[Microsoft is adding free AI-powered text writing capabilities to Notepad for customers with Copilot+ PCs running Windows 11. [...]]]></description>
- </item>
-
- <item>
-        <title>PyPI invalidates tokens stolen in GhostAction supply chain attack</title>
-        <link>https://www.bleepingcomputer.com/news/security/pypi-invalidates-tokens-stolen-in-ghostaction-supply-chain-attack/</link>
-        <pubDate>Thu, 18 Sep 2025 09:09:09 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/pypi-invalidates-tokens-stolen-in-ghostaction-supply-chain-attack/</guid>
-	<description><![CDATA[The Python Software Foundation team has invalidated all PyPI tokens stolen in the GhostAction supply chain attack in early September, confirming that the threat actors didn't abuse them to publish malware. [...]]]></description>
  </item>
 
 </channel>
