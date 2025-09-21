@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Sun, 21 Sep 2025 13:02:28 EDT</pubDate>
+        <pubDate>Sun, 21 Sep 2025 14:01:51 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft Entra ID flaw allowed hijacking any company's tenant</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-entra-id-flaw-allowed-hijacking-any-companys-tenant/</link>
+        <pubDate>Sun, 21 Sep 2025 13:30:51 -0400</pubDate>
+        <dc:creator>Ionut Ilascu</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-entra-id-flaw-allowed-hijacking-any-companys-tenant/</guid>
+	<description><![CDATA[A critical combination of legacy components could have allowed complete access to the Microsoft Entra ID tenant of every company in the world. [...]]]></description>
+ </item>
+
  <item>
         <title>Canada dismantles TradeOgre exchange, seizes $40 million in crypto</title>
         <link>https://www.bleepingcomputer.com/news/security/canada-dismantles-tradeogre-exchange-seizes-40-million-in-crypto/</link>
@@ -164,34 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-now-gives-you-greater-control-over-gpt-5-thinking-model/</guid>
 	<description><![CDATA[OpenAI is finally rolling out a toggle that allows you to decide how hard the GPT-5-thinking model can think. This feature is rolling out to Plus and Pro subscribers. [...]]]></description>
- </item>
-
- <item>
-        <title>UK arrests 'Scattered Spider' teens linked to Transport for London hack</title>
-        <link>https://www.bleepingcomputer.com/news/security/uk-arrests-scattered-spider-teens-linked-to-transport-for-london-hack/</link>
-        <pubDate>Thu, 18 Sep 2025 10:37:12 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/uk-arrests-scattered-spider-teens-linked-to-transport-for-london-hack/</guid>
-	<description><![CDATA[Two teenagers, believed to be linked to the August 2024 cyberattack on Transport for London, have been arrested in the United Kingdom. [...]]]></description>
- </item>
-
- <item>
-        <title>SystemBC malware turns infected VPS systems into proxy highway</title>
-        <link>https://www.bleepingcomputer.com/news/security/systembc-malware-turns-infected-vps-systems-into-proxy-highway/</link>
-        <pubDate>Thu, 18 Sep 2025 10:35:53 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/systembc-malware-turns-infected-vps-systems-into-proxy-highway/</guid>
-	<description><![CDATA[The operators of the SystemBC proxy botnet are hunting for vulnerable commercial virtual private servers (VPS) and maintain an average of 1,500 bots every day that provide a highway for malicious traffic. [...]]]></description>
  </item>
 
 </channel>
