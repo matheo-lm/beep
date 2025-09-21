@@ -6,6 +6,13 @@
     <description>The latest publicly leaked data breaches to hit Have I Been Pwned</description>
     <atom:link href="https://haveibeenpwned.com/feed/breaches/" rel="self" type="application/rss+xml" />
     <item>
+      <guid isPermaLink="false">Animeify</guid>
+      <link>https://haveibeenpwned.com/Breach/Animeify</link>
+      <title>Animeify - 808,034 breached accounts</title>
+      <description>In October 2021, the now defunct Arabic language Anime website Animeify suffered a data breach &lt;a href="https://cybernews.com/security/billions-passwords-credentials-leaked-mother-of-all-breaches/" target="_blank" rel="noopener"&gt;that was later redistributed as part of a larger corpus of data&lt;/a&gt;. The data included 808k unique email addresses along with names, usernames, genders and plain text passwords.</description>
+      <pubDate>Sun, 21 Sep 2025 07:48:38 Z</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">FreeOnes</guid>
       <link>https://haveibeenpwned.com/Breach/FreeOnes</link>
       <title>FreeOnes - 960,213 breached accounts</title>
@@ -137,13 +144,6 @@
       <title>Free - 13,926,173 breached accounts</title>
       <description>In October 2024, &lt;a href="https://www.bleepingcomputer.com/news/security/free-frances-second-largest-isp-confirms-data-breach-after-leak/" target="_blank" rel="noopener"&gt;French ISP &amp;quot;Free&amp;quot; suffered a data breach&lt;/a&gt; which was subsequently posted for sale and later, leaked publicly. The data included 14M unique email addresses along with names, physical addresses, phone numbers, genders, dates of birth and for many records, IBAN bank account numbers. Free advised that the numbers were &amp;quot;not enough to make a direct debit from a bank&amp;quot;.</description>
       <pubDate>Tue, 27 May 2025 07:03:21 Z</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OperationEndgame2</guid>
-      <link>https://haveibeenpwned.com/Breach/OperationEndgame2</link>
-      <title>Operation Endgame 2.0 - 15,436,844 breached accounts</title>
-      <description>In May 2025, &lt;a href="https://www.europol.europa.eu/media-press/newsroom/news/operation-endgame-strikes-again-ransomware-kill-chain-broken-its-source" target="_blank" rel="noopener"&gt;a coalition of law enforcement agencies took down the criminal infrastructure behind the malware used to launch ransomware attacks&lt;/a&gt; in a new phase of &amp;quot;Operation Endgame&amp;quot;. This followed &lt;a href="https://www.troyhunt.com/operation-endgame/" target="_blank" rel="noopener"&gt;the first Operation Endgame exercise a year earlier&lt;/a&gt;, with the latest action resulting in 15.3M victim email addresses being provided to HIBP by law enforcement. A further 43.8M victim passwords were also provided for &lt;a href="https://haveibeenpwned.com/Passwords"&gt;HIBP's Pwned Passwords service&lt;/a&gt;.</description>
-      <pubDate>Fri, 23 May 2025 20:47:34 Z</pubDate>
     </item>
   </channel>
 </rss>
