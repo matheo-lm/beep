@@ -11,11 +11,55 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 22 Sep 2025 11:02:44 EDT</pubDate>
+        <pubDate>Mon, 22 Sep 2025 12:03:49 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Mozilla now lets Firefox add-on devs roll back bad updates</title>
+        <link>https://www.bleepingcomputer.com/news/software/mozilla-now-lets-firefox-add-on-devs-roll-back-bad-updates/</link>
+        <pubDate>Mon, 22 Sep 2025 11:53:29 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Software]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/software/mozilla-now-lets-firefox-add-on-devs-roll-back-bad-updates/</guid>
+	<description><![CDATA[Mozilla has announced a new feature that enables Firefox extension developers to roll back to previously approved versions, allowing them to quickly address critical bugs and issues. [...]]]></description>
+ </item>
+
+ <item>
+        <title>LastPass: Fake password managers infect Mac users with malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/lastpass-fake-password-managers-infect-mac-users-with-malware/</link>
+        <pubDate>Mon, 22 Sep 2025 11:36:15 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/lastpass-fake-password-managers-infect-mac-users-with-malware/</guid>
+	<description><![CDATA[LastPass is warning users of a campaign that targets macOS users with malicious software impersonating popular products delivered through fraudulent GitHub repositories. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Why attackers are moving beyond email-based phishing attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/why-attackers-are-moving-beyond-email-based-phishing-attacks/</link>
+        <pubDate>Mon, 22 Sep 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Push Security</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/why-attackers-are-moving-beyond-email-based-phishing-attacks/</guid>
+	<description><![CDATA[Phishing isn't just email anymore. Attackers now use social media, chat apps & malicious ads to steal credentials. Push Security explains the latest tactics and shows how to stop multi-channel phishing where it happens — inside the browser. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft says recent updates cause DRM video playback issues</title>
         <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-updates-cause-drm-video-playback-issues/</link>
@@ -146,38 +190,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/known-emerging-unstoppable-ransomware-attacks-still-evade-defenses/</guid>
 	<description><![CDATA[Ransomware remains one of the most destructive threats—because defenses keep failing. Picus Blue Report 2025 shows prevention dropped to 62%, while data exfiltration prevention collapsed to just 3%. [...]]]></description>
- </item>
-
- <item>
-        <title>Steam will stop running on Windows 32-bit in January 2026</title>
-        <link>https://www.bleepingcomputer.com/news/software/steam-will-stop-running-on-windows-32-bit-in-january-2026/</link>
-        <pubDate>Fri, 19 Sep 2025 08:14:41 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Software]]></category>
-
-        <category><![CDATA[Gaming]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/software/steam-will-stop-running-on-windows-32-bit-in-january-2026/</guid>
-	<description><![CDATA[Valve has announced that its Steam digital distribution service will drop support for 32-bit versions of Windows starting January 2026. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI's $4 GPT Go plan may expand to more regions</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-4-gpt-go-plan-may-expand-to-more-regions/</link>
-        <pubDate>Thu, 18 Sep 2025 20:30:00 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-4-gpt-go-plan-may-expand-to-more-regions/</guid>
-	<description><![CDATA[.OpenAI released $4 GPT Go in August, but it was limited to just India. Now, OpenAI is expanding GPT Go to include new regions. [...]]]></description>
  </item>
 
 </channel>
