@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Mon, 22 Sep 2025 09:07:30 EDT</pubDate>
+        <pubDate>Mon, 22 Sep 2025 10:00:53 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft says recent updates cause DRM video playback issues</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-updates-cause-drm-video-playback-issues/</link>
+        <pubDate>Mon, 22 Sep 2025 09:55:47 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-updates-cause-drm-video-playback-issues/</guid>
+	<description><![CDATA[Microsoft has confirmed a known issue that prevents some apps from playing Digital Rights Management (DRM) protected video content or displaying and recording live TV. [...]]]></description>
+ </item>
+
  <item>
         <title>Verified Steam game steals streamer's cancer treatment donations</title>
         <link>https://www.bleepingcomputer.com/news/security/verified-steam-game-steals-streamers-cancer-treatment-donations/</link>
@@ -31,7 +45,7 @@
 
 
         <guid>https://www.bleepingcomputer.com/news/security/verified-steam-game-steals-streamers-cancer-treatment-donations/</guid>
-	<description><![CDATA[A gamer seeking financial support for cancer treatment lost $32,000 after downloading from Steam a verified game named Block Blasters that drained his cryptocurrency wallet. [...]]]></description>
+	<description><![CDATA[A gamer seeking financial support for cancer treatment lost $32,000 after downloading from Steam a verified game named BlockBlasters that drained his cryptocurrency wallet. [...]]]></description>
  </item>
 
  <item>
@@ -164,38 +178,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-4-gpt-go-plan-may-expand-to-more-regions/</guid>
 	<description><![CDATA[.OpenAI released $4 GPT Go in August, but it was limited to just India. Now, OpenAI is expanding GPT Go to include new regions. [...]]]></description>
- </item>
-
- <item>
-        <title>ChatGPT Search is now smarter as OpenAI takes on Google Search</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-search-is-now-smarter-as-openai-takes-on-google-search/</link>
-        <pubDate>Thu, 18 Sep 2025 19:10:00 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-search-is-now-smarter-as-openai-takes-on-google-search/</guid>
-	<description><![CDATA[OpenAI has rolled out a big update to ChatGPT Search, which is an AI-powered search feature, similar to Google AI Mode. [...]]]></description>
- </item>
-
- <item>
-        <title>ChatGPT now gives you greater control over GPT-5 Thinking model</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-now-gives-you-greater-control-over-gpt-5-thinking-model/</link>
-        <pubDate>Thu, 18 Sep 2025 18:20:56 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-now-gives-you-greater-control-over-gpt-5-thinking-model/</guid>
-	<description><![CDATA[OpenAI is finally rolling out a toggle that allows you to decide how hard the GPT-5-thinking model can think. This feature is rolling out to Plus and Pro subscribers. [...]]]></description>
  </item>
 
 </channel>
