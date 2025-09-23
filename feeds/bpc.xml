@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 23 Sep 2025 08:02:21 EDT</pubDate>
+        <pubDate>Tue, 23 Sep 2025 09:06:16 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>GitHub tightens npm security with mandatory 2FA, access tokens</title>
+        <link>https://www.bleepingcomputer.com/news/security/github-tightens-npm-security-with-mandatory-2fa-access-tokens/</link>
+        <pubDate>Tue, 23 Sep 2025 08:05:37 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/github-tightens-npm-security-with-mandatory-2fa-access-tokens/</guid>
+	<description><![CDATA[GitHub is introducing a set of defenses against supply-chain attacks on the platform that led to multiple large-scale incidents recently. [...]]]></description>
+ </item>
+
  <item>
         <title>NPM package caught using QR Code to fetch cookie-stealing malware</title>
         <link>https://www.bleepingcomputer.com/news/security/npm-package-caught-using-qr-code-to-fetch-cookie-stealing-malware/</link>
