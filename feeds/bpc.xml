@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 23 Sep 2025 10:59:17 EDT</pubDate>
+        <pubDate>Tue, 23 Sep 2025 12:04:15 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cloudflare mitigates new record-breaking 22.2 Tbps DDoS attack</title>
+        <link>https://www.bleepingcomputer.com/news/security/cloudflare-mitigates-new-record-breaking-222-tbps-ddos-attack/</link>
+        <pubDate>Tue, 23 Sep 2025 11:58:55 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cloudflare-mitigates-new-record-breaking-222-tbps-ddos-attack/</guid>
+	<description><![CDATA[Cloudflare has mitigated a distributed denial-of-service (DDoS) attack that peaked at a record-breaking 22.2 terabits per second (Tbps) and 10.6 billion packets per second (Bpps). [...]]]></description>
+ </item>
+
+ <item>
+        <title>CISA says hackers breached federal agency using GeoServer exploit</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisa-says-hackers-breached-federal-agency-using-geoserver-exploit/</link>
+        <pubDate>Tue, 23 Sep 2025 11:07:27 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisa-says-hackers-breached-federal-agency-using-geoserver-exploit/</guid>
+	<description><![CDATA[CISA has revealed that attackers breached the network of an unnamed U.S. federal civilian executive branch (FCEB) agency last year after compromising an unpatched GeoServer instance. [...]]]></description>
+ </item>
+
  <item>
         <title>Police dismantles crypto fraud ring linked to €100 million in losses</title>
         <link>https://www.bleepingcomputer.com/news/security/police-dismantles-crypto-fraud-ring-linked-to-100-million-in-losses/</link>
@@ -184,34 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/software/mozilla-now-lets-firefox-add-on-devs-roll-back-bad-updates/</guid>
 	<description><![CDATA[Mozilla has announced a new feature that enables Firefox extension developers to roll back to previously approved versions, allowing them to quickly address critical bugs and issues. [...]]]></description>
- </item>
-
- <item>
-        <title>LastPass: Fake password managers infect Mac users with malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/lastpass-fake-password-managers-infect-mac-users-with-malware/</link>
-        <pubDate>Mon, 22 Sep 2025 11:36:15 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/lastpass-fake-password-managers-infect-mac-users-with-malware/</guid>
-	<description><![CDATA[LastPass is warning users of a campaign that targets macOS users with malicious software impersonating popular products delivered through fraudulent GitHub repositories. [...]]]></description>
- </item>
-
- <item>
-        <title>Why attackers are moving beyond email-based phishing attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/why-attackers-are-moving-beyond-email-based-phishing-attacks/</link>
-        <pubDate>Mon, 22 Sep 2025 10:01:11 -0400</pubDate>
-        <dc:creator>Sponsored by Push Security</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/why-attackers-are-moving-beyond-email-based-phishing-attacks/</guid>
-	<description><![CDATA[Phishing isn't just email anymore. Attackers now use social media, chat apps & malicious ads to steal credentials. Push Security explains the latest tactics and shows how to stop multi-channel phishing where it happens — inside the browser. [...]]]></description>
  </item>
 
 </channel>
