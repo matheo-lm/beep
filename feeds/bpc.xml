@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 23 Sep 2025 09:06:16 EDT</pubDate>
+        <pubDate>Tue, 23 Sep 2025 10:02:01 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>SolarWinds releases third patch to fix Web Help Desk RCE bug</title>
+        <link>https://www.bleepingcomputer.com/news/security/solarwinds-releases-third-patch-to-fix-web-help-desk-rce-bug/</link>
+        <pubDate>Tue, 23 Sep 2025 09:41:54 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/solarwinds-releases-third-patch-to-fix-web-help-desk-rce-bug/</guid>
+	<description><![CDATA[SolarWinds has released a hotfix for a critical a critical vulnerability in Web Help Desk that allows remote code execution (RCE) without authentication. [...]]]></description>
+ </item>
+
+ <item>
+        <title>SonicWall releases SMA100 firmware update to wipe rootkit malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/sonicwall-releases-sma100-firmware-update-to-wipe-rootkit-malware/</link>
+        <pubDate>Tue, 23 Sep 2025 09:15:33 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-releases-sma100-firmware-update-to-wipe-rootkit-malware/</guid>
+	<description><![CDATA[SonicWall has released a firmware update that can help customers remove rootkit malware deployed in attacks targeting SMA 100 series devices. [...]]]></description>
+ </item>
+
  <item>
         <title>GitHub tightens npm security with mandatory 2FA, access tokens</title>
         <link>https://www.bleepingcomputer.com/news/security/github-tightens-npm-security-with-mandatory-2fa-access-tokens/</link>
@@ -170,38 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-updates-cause-drm-video-playback-issues/</guid>
 	<description><![CDATA[Microsoft has confirmed a known issue that prevents some apps from playing Digital Rights Management (DRM) protected video content or displaying and recording live TV. [...]]]></description>
- </item>
-
- <item>
-        <title>Verified Steam game steals streamer's cancer treatment donations</title>
-        <link>https://www.bleepingcomputer.com/news/security/verified-steam-game-steals-streamers-cancer-treatment-donations/</link>
-        <pubDate>Mon, 22 Sep 2025 05:28:10 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-        <category><![CDATA[Gaming]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/verified-steam-game-steals-streamers-cancer-treatment-donations/</guid>
-	<description><![CDATA[A gamer seeking financial support for cancer treatment lost $32,000 after downloading from Steam a verified game named BlockBlasters that drained his cryptocurrency wallet. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft Entra ID flaw allowed hijacking any company's tenant</title>
-        <link>https://www.bleepingcomputer.com/news/security/microsoft-entra-id-flaw-allowed-hijacking-any-companys-tenant/</link>
-        <pubDate>Sun, 21 Sep 2025 13:30:51 -0400</pubDate>
-        <dc:creator>Ionut Ilascu</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/microsoft-entra-id-flaw-allowed-hijacking-any-companys-tenant/</guid>
-	<description><![CDATA[A critical combination of legacy components could have allowed complete access to the Microsoft Entra ID tenant of every company in the world. [...]]]></description>
  </item>
 
 </channel>
