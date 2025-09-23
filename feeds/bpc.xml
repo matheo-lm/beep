@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 23 Sep 2025 10:02:01 EDT</pubDate>
+        <pubDate>Tue, 23 Sep 2025 10:59:17 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Police dismantles crypto fraud ring linked to €100 million in losses</title>
+        <link>https://www.bleepingcomputer.com/news/security/police-dismantles-crypto-fraud-ring-linked-to-100-million-in-losses/</link>
+        <pubDate>Tue, 23 Sep 2025 10:16:35 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/police-dismantles-crypto-fraud-ring-linked-to-100-million-in-losses/</guid>
+	<description><![CDATA[Law enforcement authorities in Europe have arrested five suspects linked to a cryptocurrency investment fraud ring that stole over €100 million ($118 million) from more than 100 victims. [...]]]></description>
+ </item>
+
+ <item>
+        <title>5 ways to streamline Identity Governance with this free tool</title>
+        <link>https://www.bleepingcomputer.com/news/security/5-ways-to-streamline-identity-governance-with-this-free-tool/</link>
+        <pubDate>Tue, 23 Sep 2025 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by tenfold Software</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/5-ways-to-streamline-identity-governance-with-this-free-tool/</guid>
+	<description><![CDATA[Identity Governance doesn't have to be complex or costly. tenfold's free Community Edition helps orgs (up to 150 users) streamline onboarding, access reviews & M365 permissions — all with a no-code IGA platform. [...]]]></description>
+ </item>
+
  <item>
         <title>SolarWinds releases third patch to fix Web Help Desk RCE bug</title>
         <link>https://www.bleepingcomputer.com/news/security/solarwinds-releases-third-patch-to-fix-web-help-desk-rce-bug/</link>
@@ -184,20 +212,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/why-attackers-are-moving-beyond-email-based-phishing-attacks/</guid>
 	<description><![CDATA[Phishing isn't just email anymore. Attackers now use social media, chat apps & malicious ads to steal credentials. Push Security explains the latest tactics and shows how to stop multi-channel phishing where it happens — inside the browser. [...]]]></description>
- </item>
-
- <item>
-        <title>Microsoft says recent updates cause DRM video playback issues</title>
-        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-updates-cause-drm-video-playback-issues/</link>
-        <pubDate>Mon, 22 Sep 2025 09:55:47 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Microsoft]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-updates-cause-drm-video-playback-issues/</guid>
-	<description><![CDATA[Microsoft has confirmed a known issue that prevents some apps from playing Digital Rights Management (DRM) protected video content or displaying and recording live TV. [...]]]></description>
  </item>
 
 </channel>
