@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 23 Sep 2025 06:00:19 EDT</pubDate>
+        <pubDate>Tue, 23 Sep 2025 07:03:18 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>NPM package caught using QR Code to fetch cookie-stealing malware</title>
+        <link>https://www.bleepingcomputer.com/news/security/npm-package-caught-using-qr-code-to-fetch-cookie-stealing-malware/</link>
+        <pubDate>Tue, 23 Sep 2025 06:42:14 -0400</pubDate>
+        <dc:creator>Ax Sharma</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/npm-package-caught-using-qr-code-to-fetch-cookie-stealing-malware/</guid>
+	<description><![CDATA[Newly discovered npm package 'fezbox' employs QR codes to hide a second-stage payload to steal cookies from a user's web browser. The package, masquerading as a utility library, leverages this innovative steganographic technique to harvest sensitive data, such as user credentials, from a compromised machine. [...]]]></description>
+ </item>
+
  <item>
         <title>Airport disruptions in Europe caused by a ransomware attack</title>
         <link>https://www.bleepingcomputer.com/news/security/airport-disruptions-in-europe-caused-by-a-ransomware-attack/</link>
