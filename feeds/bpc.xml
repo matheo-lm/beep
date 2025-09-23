@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Tue, 23 Sep 2025 17:59:04 EDT</pubDate>
+        <pubDate>Tue, 23 Sep 2025 19:01:16 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Boyd Gaming discloses data breach after suffering a cyberattack</title>
+        <link>https://www.bleepingcomputer.com/news/security/boyd-gaming-discloses-data-breach-after-suffering-a-cyberattack/</link>
+        <pubDate>Tue, 23 Sep 2025 18:25:02 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/boyd-gaming-discloses-data-breach-after-suffering-a-cyberattack/</guid>
+	<description><![CDATA[US gaming and casino operator Boyd Gaming Corporation disclosed it suffered a breach after threat actors gained access to its systems and stole data, including employee information and data belonging to a limited number of other individuals. [...]]]></description>
+ </item>
+
  <item>
         <title>Libraesva ESG issues emergency fix for bug exploited by state hackers</title>
         <link>https://www.bleepingcomputer.com/news/security/libraesva-esg-issues-emergency-fix-for-bug-exploited-by-state-hackers/</link>
@@ -182,34 +196,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/american-archive-of-public-broadcasting-fixes-bug-exposing-restricted-media/</guid>
 	<description><![CDATA[​A vulnerability in the American Archive of Public Broadcasting's website allowed downloading of protected and private media for years, with the flaw quietly patched this month. [...]]]></description>
- </item>
-
- <item>
-        <title>Automaker giant Stellantis confirms data breach after Salesforce hack</title>
-        <link>https://www.bleepingcomputer.com/news/security/automaker-giant-stellantis-confirms-data-breach-after-salesforce-hack/</link>
-        <pubDate>Mon, 22 Sep 2025 14:01:50 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/automaker-giant-stellantis-confirms-data-breach-after-salesforce-hack/</guid>
-	<description><![CDATA[Automotive manufacturing giant Stellantis has confirmed that attackers stole some of its North American customers' data after gaining access to a third-party service provider's platform. [...]]]></description>
- </item>
-
- <item>
-        <title>New EDR-Freeze tool uses Windows WER to suspend security software</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-edr-freeze-tool-uses-windows-wer-to-suspend-security-software/</link>
-        <pubDate>Mon, 22 Sep 2025 13:07:14 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-edr-freeze-tool-uses-windows-wer-to-suspend-security-software/</guid>
-	<description><![CDATA[A new method and proof-of-concept tool called EDR-Freeze demonstrates that evading security solutions is possible from user mode with Microsoft's Windows Error Reporting (WER) system. [...]]]></description>
  </item>
 
 </channel>
