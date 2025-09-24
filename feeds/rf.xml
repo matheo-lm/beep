@@ -4,12 +4,78 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Wed, 24 Sep 2025 14:23:28 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Sep 2025 17:14:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
         <copyright>Copyright © 2025 Recorded Future, Inc.</copyright>
         <atom:link href="https://www.recordedfuture.com/feed" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Uncover Your Vendor’s Hidden Infrastructure Before it Becomes a Problem]]></title>
+            <link>https://www.recordedfuture.com/blog/uncover-vendors-hidden-infrastructure-before-becomes-problem</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/blog/uncover-vendors-hidden-infrastructure-before-becomes-problem</guid>
+            <pubDate>Wed, 24 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Uncover unseen third-party risks. Get full visibility into vendors’ IPs, domains, subsidiaries, and facilities to make faster, data-driven security decisions.]]></description>
+            <content:encoded><![CDATA[
+        <p>Third-party vendors may pass initial security assessments with clean questionnaires, solid certifications, and headquarters in a trusted country.</p>
+        <p>But what about the unseen risks?</p>
+        <p>The IP address that was actively validated to be a Command and Control (C&amp;C) Server.</p>
+        <p>The subsidiary of the vendor operating in a country with data privacy or corruption concerns.</p>
+        <p>The vendor’s facility, located in a sanctioned country.</p>
+        <p>Third-party risks often stem from cyber or physical incidents. Yet, security professionals consistently struggle to get an accurate and complete picture of all domains, subsidiaries, and physical locations for the third-party vendors they work with.</p>
+        <p>Today’s vendors aren’t single entities. They’re often complex networks of subsidiaries, acquisitions, and partnerships spread across continents. That niche technology vendor you just purchased might operate through:</p>
+        <ul>
+          <li>8 subsidiaries across 4 countries</li>
+          <li>Cloud infrastructure in jurisdictions with weak data protection laws</li>
+          <li>Legacy systems acquired through M&amp;A – systems that may never have received critical security updates</li>
+        </ul>
+        <p>At Recorded Future we’ve worked with many threat intelligence and third-party risk management teams seeking more visibility into their suppliers’ technical and subsidiary relationships.</p>
+        <p>In a recent customer survey we heard from a Director of Information Security at a financial institution that “<em>It’s often difficult to get a full picture of all domains, subsidiaries, or global operations – particularly when responding to zero-day threats or geographic disruptions</em>.”</p>
+        <h2>Introducing the Third-Party Intelligence Asset Map</h2>
+        <p><a href="https://www.recordedfuture.com/products/third-party-intelligence">The Third-Party Intelligence Asset Map provides critical visibility</a> into vendor ecosystems. Instead of relying on what vendors disclose in questionnaires, you can investigate the subsidiaries, domains, IP addresses, and facilities for organizations in your supply chain.</p>
+        <h2>Improving initial vendor assessments</h2>
+        <p>Traditional vendor assessments can over rely on self-reported information that can miss critical infrastructure details. The Asset Map improves initial due diligence processes by providing additional details regarding a vendor’s ecosystem before contracts are signed.</p>
+        <p>Security teams can better identify risky subsidiaries operating in high-threat jurisdictions, view any current or historical technical risks, and spot potential concentration risks in digital infrastructure. This visibility can enable teams to negotiate better contract terms, implement targeted security requirements, and make informed go/no-go decisions based on evidence of their risk exposure.</p>
+        <h2>Proactively responding to new incidents</h2>
+        <p>When threats emerge or geographic disruptions occur, security teams need immediate visibility into which vendors might be affected. The Asset Map enables quick impact assessments by showing critical cyber risks and where vendor infrastructure may be located.</p>
+        <p>Teams can quickly identify which vendors have facilities in conflict zones, use vulnerable software versions, or have IP addresses communicating with C&amp;C infrastructure. This intelligence allows security teams to proactively reach out to at-risk vendors, implement additional monitoring, and adjust risk postures before incidents escalate into business disruptions.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_10371462f51c0c7cabf173bcfcd7dcf3c3a545c8f.png?width=750&amp;format=png&amp;optimize=medium" width="1396" height="626" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 1:</em></strong> <em>The Structure view within the Third-Party Intelligence Asset Map</em></div>
+          </div>
+        </div>
+        <h2>Three viewing modes</h2>
+        <p>The Asset Map provides users with three different viewing modes to toggle between:</p>
+        <p><strong>Structure</strong> – provides an asset hierarchy showing asset ownership and allows the user to investigate DNS, TLS, and WHOIS data associated with domains alongside their Recorded Future Risk Score.</p>
+        <p>This helps to answer questions such as what domains and IPs are associated with this company and what are the parent-subsidiary relationship hierarchies?</p>
+        <p><strong>Risk Rules</strong> – enables exploration and analysis of triggered Risk Rules and the digital assets triggering those rules, such as an IP address being validated as a C&amp;C server or recently reported as a host of an active phishing URL.</p>
+        <p>This helps users answer questions like how do these subsidiaries and digital assets contribute to Recorded Future’s risk score for this company? Or, are there IP addresses I should proactively block?</p>
+        <p><strong>Map</strong> – presents facility locations along with relevant country risks, such as data and surveillance risk or physical security and travel risk. The map also provides information on where digital assets are hosted.</p>
+        <p>This view can be used to better understand the geopolitical and socioeconomic risks associated with where the company operates.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_1c7fc22a991c10701696ba5a221f885800bc74552.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="904" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 2:</em></strong> <em>Screenshot of the Risk Rules viewing mode within the Third-Party Intelligence Asset Map.</em></div>
+          </div>
+        </div>
+        <h2>Enhanced vendor visibility</h2>
+        <p>Questionnaires and certifications show what vendors choose to disclose. The Third-Party Intelligence Asset Map can show you what actually exists.</p>
+        <p>Map vendor hierarchies, identify high-risk assets, and assess facility locations with country-specific risk context.</p>
+        <p>Make more confident vendor decisions before contracts are signed and speed up incident response when breaches occur. Learn more about <a href="https://www.recordedfuture.com/products/third-party-intelligence">Third-Party Intelligence</a>, and <a href="https://www.recordedfuture.com/get-started#book-demo">request a demo</a> to uncover how to make fast, effective, data-driven decisions on third-party risks.</p>
+        <p><em>Join us at</em> <em><a href="https://predict.recordedfuture.com/en/">Predict Global</a></em> <em>in New York City from October 7th - 9th, and at</em> <em><a href="https://predicteurope.recordedfuture.com/">Predict London</a></em> <em>from October 21st - 22nd to learn more about the future of third-party risk management.</em></p>
+      ]]></content:encoded>
+            <category>Blog</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_1bf3de56e2078bcafcd9487232b30a9f358e624d0.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
         <item>
             <title><![CDATA[RedNovember Targets Government, Defense, and Technology Organizations]]></title>
             <link>https://www.recordedfuture.com/research/rednovember-targets-government-defense-and-technology-organizations</link>
@@ -766,6 +832,7 @@ reuters[.]uk[.]net
         <p><strong>Time to Act</strong></p>
         <p>Most organizations still depend on manual security processes developed decades ago. The technology for AI-powered autonomous operations exists today and has proven results in production environments.</p>
         <p>The question isn't whether this transformation will happen, but when your organization will make the shift from human-limited to AI-powered security operations.</p>
+        <p><a href="https://www.recordedfuture.com/blog/the-intelligence-operations-organizations-need">Previously in this series “The future is autonomous”</a></p>
       ]]></content:encoded>
             <category>Blog</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_133c971670e72e014c17ce2ff427f8450266744a4.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
@@ -1158,8 +1225,9 @@ reuters[.]uk[.]net
           <li><strong>73% increase</strong> in threat visibility</li>
           <li><strong>57% significant reduction</strong> in cyber risk</li>
         </ul>
-        <p>In an era of sophisticated threats, competitive advantage comes from operational excellence, not data access. Organizations that transform intelligence into action faster than adversaries can attack win.</p>
-        <p>The question isn't whether you need Intelligence Operations—it's whether you'll implement it before your competitors do.</p>
+        <p>In an era of sophisticated threats, competitive advantage comes from operational excellence, not data access. Organizations that transform intelligence into action faster than adversaries can attack win.<br />The question isn't whether you need Intelligence Operations—it's whether you'll implement it before your competitors do.</p>
+        <p><a href="https://www.recordedfuture.com/blog/how-the-right-ai-enables-an-autonomous-future">Next in this series “The future is autonomous”</a></p>
+        <p><a href="https://www.recordedfuture.com/blog/why-manual-cyber-operations-can-create-dangerous-gaps">Previously in this series “The future is autonomous”</a></p>
       ]]></content:encoded>
             <category>Blog</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_1c69e314fc888329ad20a840c20eb02140785a79b.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
@@ -1512,9 +1580,8 @@ reuters[.]uk[.]net
           <li><strong>73% increase in threat visibility</strong></li>
           <li><strong>350% ROI on intelligence investments</strong></li>
         </ul>
-        <p>Meanwhile, those clinging to manual processes face expanding gaps, increasing complexity, and adversaries that never sleep.</p>
-        <p>The question isn't whether to automate your threat operations—it's whether you'll do it before or after your next breach.</p>
-        <p><strong>Your adversaries have already automated their attacks. Isn't it time you automated your defense?</strong></p>
+        <p>Meanwhile, those clinging to manual processes face expanding gaps, increasing complexity, and adversaries that never sleep.<br />The question isn't whether to automate your threat operations—it's whether you'll do it before or after your next breach.<br /><strong>Your adversaries have already automated their attacks. Isn't it time you automated your defense?</strong></p>
+        <p><a href="https://www.recordedfuture.com/blog/the-intelligence-operations-organizations-need">Next in this series “The future is autonomous”</a></p>
       ]]></content:encoded>
             <category>Blog</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_17b8686ba1dadaff33fe067d2ed622b4354f976a4.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
@@ -11350,75 +11417,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Research (Insikt)</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_1e430aec3dd53db87cdf407428a51f105aa24bf0e.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[Embracing the Evolution of Cybersecurity | Recorded Future]]></title>
-            <link>https://www.recordedfuture.com/blog/introducing-refreshed-recorded-future-brand</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/blog/introducing-refreshed-recorded-future-brand</guid>
-            <pubDate>Wed, 16 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Learn how Recorded Future's brand refresh, powered by AI and actionable threat intelligence, helps teams evolve with the next generation of cybersecurity.]]></description>
-            <content:encoded><![CDATA[
-        <h2>The next chapter in our journey</h2>
-        <p>
-          <img loading="lazy" alt="rebrand-001.png" src="https://www.recordedfuture.com/media_167c4c97d6204beceab45c248be5f5e76fdb9446f.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1172" />
-        </p>
-        <p>Today marks an exciting milestone as we unveil Recorded Future's refreshed brand identity and website – a transformation that reflects the <a href="/blog/6-threat-intelligence-outlooks-strategies-2025">next chapter in cybersecurity</a> and threat intelligence. This evolution arrives at a pivotal moment when organizations face increasingly sophisticated threats that demand clarity, focus, and actionable insights.</p>
-        <p>The inspiration for this refresh became clear while walking the floors at cybersecurity conferences. Amid a sea of sameness – dark displays, matrix-like code animations, and ubiquitous hooded figures – the messaging blends together in an indistinguishable haze of technical jargon and vague promises.</p>
-        <p>For security leaders tasked with protecting their organizations, this uniformity creates a real challenge: how to identify what truly matters when everyone looks and sounds the same?</p>
-        <p>This observation became the catalyst for our brand refresh – not just as a marketing initiative, but as an authentic expression of how Recorded Future helps security professionals cut through overwhelming noise to focus on what's essential.</p>
-        <h2>Deconstructing our brand heritage.</h2>
-        <p>This journey wasn't about creating a new logo – Recorded Future already had a strong visual mark. Instead, we focused on building a comprehensive visual and verbal language that embodies clarity and precision. The deconstructed logo became an important aspect of our brand system, allowing us to create meaningful visual elements that connect our identity with the purpose that has been at the heart of our company since we were founded in 2009.</p>
-        <p>
-          <img loading="lazy" alt="rebrand-002.png" src="https://www.recordedfuture.com/media_13ed4d9079c8495c9e886b1e32c73fb82ad479a45.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="704" />
-        </p>
-        <p>It also became a symbol of premium offering in the category. When we created patterns using deconstructed elements of the logo, we were struck by their beauty being reminiscent of Hermes scarves (another brand that is at the pinnacle of their category).</p>
-        <p>The process involved examining countless competitor websites, which blended together in a blur of undifferentiated, fear-based messaging. The question emerged: "Could our brand serve as an antidote to this confusion, bringing the same clarity to our marketing that our platform brings to threat intelligence?" This approach transcended typical design exercises. It centered on authentically representing the value we provide. Our customers aren't just buying software – they're seeking confidence amid constant pressure and overwhelming data. They need a partner who understands their fundamental requirement: knowing which threats truly matter to their business.</p>
-        <h2>Crafting our story. Finding our voice.</h2>
-        <p>When drafting our brand narrative, the team read it aloud together to feel how the words resonated beyond how they appeared on paper. The opening lines captured our essence perfectly:</p>
-        <p><em>"In cybersecurity, your greatest fear isn't the threats you see coming. It's the critical signals that get lost in the noise."</em></p>
-        <p>This became our north star, guiding the development of four pillars for our design system:</p>
-        <ul>
-          <li><strong>Meaningful</strong> – Reinforcing what we stand for and the value we deliver to customers</li>
-          <li><strong>Bold</strong> – Being distinctive, confident, and immediately recognizable in a crowded marketplace</li>
-          <li><strong>Premium</strong> – Conveying the sophistication that positions us as the market leader in intelligence</li>
-          <li><strong>Helpful</strong> – Using design to help customers discover relevant content and navigate complex information</li>
-        </ul>
-        <h2>Visual distinction with purpose.</h2>
-        <p>The introduction of vibrant electric blue serves as more than an aesthetic choice – it symbolizes our promise to illuminate what matters in a noisy threat landscape. Upon seeing it, CEO Christopher Ahlberg remarked, "Now that stands out," confirming we were moving in the right direction.</p>
-        <p>
-          <img loading="lazy" alt="rebrand-003.png" src="https://www.recordedfuture.com/media_16aca26e8705c00c960d31ebf9e2f488d3e483cb3.png?width=750&amp;format=png&amp;optimize=medium" width="1600" height="1066" />
-        </p>
-        <p>Christopher's guidance on our website proved equally valuable: "The most important thing is to build a website that is truly useful and engages customers in a way that there's something they want to come back to." This perspective drove our approach toward building a destination that delivers ongoing value, with particular emphasis on elevating the incredible content and thought leadership we provide – a significant differentiator for Recorded Future in the marketplace.</p>
-        <p>The website redesign presented an interesting challenge: balancing rich content with product and sales experiences. Years of building trust through <a href="https://go.recordedfuture.com/2024-state-of-threat-intelligence">intelligence research</a> has established Recorded Future's reputation for expertise.</p>
-        <p>Elevating this content became central to our strategy.</p>
-        <p>
-          <img loading="lazy" alt="rebrand-004.jpg" src="https://www.recordedfuture.com/media_15357342136c202c4c6b6f2446bd2e062fe5ff7a1.jpg?width=750&amp;format=jpg&amp;optimize=medium" width="1600" height="1280" />
-        </p>
-        <p>Our intelligence research demonstrates expertise, builds credibility, and provides tangible value to security professionals. The design needed to showcase this strength while making our insights more accessible and actionable.</p>
-        <div>
-          <div>
-            <div>jiut8byq3k</div>
-          </div>
-        </div>
-        <h2>Bringing our story to life – with AI and humanity.</h2>
-        <p>The brand launch features a powerful video that tells the story of Recorded Future's next chapter, created entirely using generative AI. This approach represents a meaningful parallel to our core work – using <a href="/blog/next-evolution-recorded-future-ai-powering-threat-intelligence">advanced AI to combat sophisticated cyber threats</a>. Just as we harness AI to deliver precision Intelligence, we embraced AI-powered creativity to express our vision for the future of cybersecurity.</p>
-        <p>But what moves me most about this rebrand is the response from our people. Watching our teams getting excited about the new materials, hearing our intelligence analysts express how the new brand better reflects the sophistication of their work – these moments affirm that we've created something that resonates on a human level.</p>
-        <p>
-          <img loading="lazy" alt="rebrand-005.png" src="https://www.recordedfuture.com/media_13d31ccc47db68ac1de9e959b7745b1ee50498c39.png?width=750&amp;format=png&amp;optimize=medium" width="1362" height="396" />
-        </p>
-        <h2>The Road Ahead</h2>
-        <p>This refreshed identity helps us communicate with the same precision and clarity that our platform delivers, elevating our brand while making complex intelligence more accessible and actionable.</p>
-        <p>As cyber threats grow in complexity, our platform indexes vast sources of global data, using advanced machine learning and natural language processing to deliver timely, actionable intelligence. This empowers security teams to anticipate threats, understand adversaries' tactics, and respond swiftly.</p>
-        <p>The threat landscape will continue to evolve, but our commitment remains steadfast: helping security teams know what matters most and act first. Our brand now expresses this promise in every interaction, from website visits to platform experiences.</p>
-        <p>This transformation achieves differentiation in the market while authentically embodying our core belief: in a world of overwhelming noise, precision and focus provide the ultimate protection.</p>
-        <p>As we begin this next chapter, the entire team deserves recognition for bringing this vision to life. This refresh isn't merely about visual identity – it's about helping our customers become more confident, more precise, and ultimately more secure.</p>
-        <p><em>Kalpana Singh is SVP of Marketing at Recorded Future, where she leads brand strategy and marketing initiatives. With a passion for connecting human needs with technological solutions, she has spearheaded the company's brand evolution to better reflect its position as the best intelligence platform.</em></p>
-        <p>
-          <img loading="lazy" alt="rebrand-006.png" src="https://www.recordedfuture.com/media_198e4c51faba02ff32ef635009de2d55b931a657f.png?width=750&amp;format=png&amp;optimize=medium" width="1362" height="910" />
-        </p>
-      ]]></content:encoded>
-            <category>Blog</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_139df24300927d78dc7d5214fa8cdababa4cfa100.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>
