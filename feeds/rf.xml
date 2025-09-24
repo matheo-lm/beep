@@ -4,12 +4,58 @@
         <title>Recorded Future</title>
         <link>https://www.recordedfuture.com</link>
         <description>Strengthen Your Defenses with Threat Intelligence</description>
-        <lastBuildDate>Fri, 19 Sep 2025 12:24:12 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Sep 2025 14:00:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Recorded Future, Inc.</generator>
         <language>en</language>
         <copyright>Copyright © 2025 Recorded Future, Inc.</copyright>
         <atom:link href="https://www.recordedfuture.com/feed" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[RedNovember Targets Government, Defense, and Technology Organizations]]></title>
+            <link>https://www.recordedfuture.com/research/rednovember-targets-government-defense-and-technology-organizations</link>
+            <guid isPermaLink="false">https://www.recordedfuture.com/research/rednovember-targets-government-defense-and-technology-organizations</guid>
+            <pubDate>Wed, 24 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[RedNovember, a likely Chinese state-sponsored cyber-espionage group, has targeted global government, defense, and tech sectors using advanced tools like Pantegana and Cobalt Strike. Discover the latest findings and victimology from Recorded Future’s in-depth analysis.]]></description>
+            <content:encoded><![CDATA[
+        <p><em>Note: The analysis cut-off date for this report was July 25, 2025</em></p>
+        <h2>Executive Summary</h2>
+        <p>In July 2024, Insikt Group publicly <a href="https://go.recordedfuture.com/hubfs/reports/cta-2024-0716.pdf">reported</a> on TAG-100, a threat activity group conducting suspected cyber-espionage activity targeting high-profile government, intergovernmental, and private sector organizations globally using the open-source, multi-platform Go backdoor Pantegana. At the time, we did not attribute this activity to a particular country; however, after reviewing all available evidence, we assess that TAG-100 is highly likely a Chinese state-sponsored threat activity group. Accordingly, Insikt Group now tracks this group under the designation RedNovember.</p>
+        <p>Between June 2024 and July 2025, RedNovember (which overlaps with Storm-2077) targeted perimeter appliances of high-profile organizations globally and used the Go-based backdoor Pantegana and Cobalt Strike as part of its intrusions. The group has expanded its targeting remit across government and private sector organizations, including defense and aerospace organizations, space organizations, and law firms.</p>
+        <p>Using Recorded Future Network Intelligence, Insikt Group identified new likely victims, which include a ministry of foreign affairs in central Asia, a state security organization in Africa, a European government directorate, and a Southeast Asian government. RedNovember also likely compromised at least two United States (US) defense contractors, a European engine manufacturer, and a trade-focused intergovernmental cooperation body in Southeast Asia.</p>
+        <p>We observed RedNovember reconnoitering and likely compromising edge devices for initial access, including SonicWall, Cisco Adaptive Security Appliance (ASA), F5 BIG-IP, Palo Alto Networks GlobalProtect, Sophos SSL VPN, and Fortinet FortiGate instances, as well as Outlook Web Access (OWA) instances and Ivanti Connect Secure (ICS) VPN appliances.</p>
+        <p>RedNovember’s activity exemplifies the ability to combine weaponized proof-of-concept (PoC) exploits with open-source post-exploitation frameworks such as Pantegana, lowering the entry barrier for less-capable threat actors. It also allows higher-tier groups to refrain from using customized tools during operations in which they are less concerned with being detected or in which heightened attribution obfuscation is desirable.</p>
+        <p>Insikt Group followed responsible disclosure procedures in advance of this publication per Recorded Future's notification policy.</p>
+        <h2>Key Findings</h2>
+        <ul>
+          <li>RedNovember continues to rely on command-and-control (C2) frameworks (Pantegana and Cobalt Strike) and open-source backdoors (SparkRAT) for its operations.</li>
+          <li>The threat group has significantly broadened its targeting, including by conducting spearphishing and vulnerability exploitation attempts against entities in the US Defense Industrial Base (DIB) and space organizations in Europe.</li>
+          <li>At least some of the RedNovember activity that Insikt Group observed, including in Taiwan and Panama, took place in close proximity to geopolitical and military events of key strategic interest to China.</li>
+          <li>RedNovember has also increasingly focused its initial access efforts on targeting edge devices, including security solutions such as VPNs, firewalls, load balancers, virtualization infrastructure, and email servers.</li>
+          <li>In April 2025, the threat group conducted a campaign focused on the reconnaissance and targeting of Ivanti Connect Secure (ICS) VPN devices across multiple countries. Specific targets included a major US newspaper and a specialized US engineering and military contractor.</li>
+        </ul>
+        <h2>Background</h2>
+        <p>RedNovember (previously tracked as TAG-100 and overlapping with Storm-2077) is a Chinese state-sponsored cyber-espionage group that leverages open-source tools and exploits internet-facing devices to target government, intergovernmental, and private sector organizations globally. Insikt Group has previously publicly <a href="https://go.recordedfuture.com/hubfs/reports/cta-2024-0716.pdf">reported</a> on RedNovember’s use of the multi-platform Go-based backdoor Pantegana and other offensive security tools, including Cobalt Strike and SparkRAT, coupled with exploitation of perimeter appliances, to conduct reconnaissance, initial access, and probable compromise activities.</p>
+        <p>RedNovember’s strategic use of open-source capabilities allows the threat group to lower operational costs and obfuscate attribution, a tactic that aligns with broader state-sponsored cyber-espionage trends that Insikt Group has observed. Combining weaponized proof-of-concept (PoC) exploits and open-source tools enables RedNovember to operate at scale. RedNovember’s activity highlights the persistent vulnerabilities of perimeter devices, which remain a significant risk vector due to limited visibility and logging capabilities.</p>
+        <p>RedNovember is one of multiple <a href="https://go.recordedfuture.com/hubfs/reports/cta-2023-1107.pdf">other</a> Chinese state-sponsored threat groups that are increasingly achieving initial access to targets by targeting vulnerabilities in internet-facing devices, including security products. Targeting internet-facing devices has proven to be an effective way for Chinese state-sponsored threat groups to scale initial access and achieve initial footholds in large numbers of organizations ahead of more targeted follow-on activity.</p>
+        <h2>Technical Analysis</h2>
+        <p>Since our initial <a href="https://go.recordedfuture.com/hubfs/reports/cta-2024-0716.pdf">public report</a> on its activity, RedNovember has continued to use the Pantegana C2 framework and Cobalt Strike as part of its intrusion activity. From our visibility and collection, RedNovember also highly likely continues to use ExpressVPN to administer its servers and may, with realistic probability, have started using other VPNs such as Warp VPN to remotely connect to its infrastructure.</p>
+        <div>
+          <div>
+            <div>
+              <img loading="lazy" alt="" src="https://www.recordedfuture.com/media_10bd05a64e676f84b08629e7c8a4c50b31e5412cf.png?width=750&amp;format=png&amp;optimize=medium" width="1216" height="726" />
+            </div>
+          </div>
+          <div>
+            <div><strong><em>Figure 1:</em></strong> <em>Overview of RedNovember operations (Source: Recorded Future)</em></div>
+          </div>
+        </div>
+        <p>While monitoring RedNovember’s active C2 servers, Insikt Group observed a number of victims on a global scale across the public and private sectors, but concentrated in the following verticals: aerospace and defense, government, and professional services.</p>
+        <p>In addition to suspected compromise activity by RedNovember, we observed other network communications between multiple organizations and C2 servers associated with RedNovember, likely reflecting, at a minimum, general browsing activity and potentially reconnaissance efforts by the threat group. While the activity could be indicative of an intent to compromise, in these cases, there is currently insufficient evidence to reach such a conclusion.</p>
+        <p>The terms “compromise,” “targeting,” “reconnaissance,” and “browsing" are used specifically throughout this report to clarify the kind of activity observed. For example, where we assess that RedNovember compromised an entity, we will use terms such as “compromise” and “victim.”</p>
+      ]]></content:encoded>
+            <category>Research (Insikt)</category>
+            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/research/media_183e8402337d74d98b3efcd12faa97983eae2de95.gif?width=1200&amp;format=pjpg&amp;optimize=medium"/>
+        </item>
         <item>
             <title><![CDATA[CopyCop Deepens Its Playbook with New Websites and Targets]]></title>
             <link>https://www.recordedfuture.com/research/copycop-deepens-its-playbook-with-new-websites-and-targets</link>
@@ -11373,94 +11419,6 @@ Content-Disposition: form-data; name="ip"
       ]]></content:encoded>
             <category>Blog</category>
             <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_139df24300927d78dc7d5214fa8cdababa4cfa100.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
-        </item>
-        <item>
-            <title><![CDATA[How Threat Intelligence Enhances Security Spending Efficiency]]></title>
-            <link>https://www.recordedfuture.com/blog/how-threat-intel-drives-smarter-security</link>
-            <guid isPermaLink="false">https://www.recordedfuture.com/blog/how-threat-intel-drives-smarter-security</guid>
-            <pubDate>Tue, 15 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Discover how integrating threat intelligence into your cybersecurity strategy can lead to smarter, more efficient security investments. Learn practical approaches to optimize your security budget effectively.]]></description>
-            <content:encoded><![CDATA[
-        <p>DDoS (distributed denial-of-service) attacks have existed since the early days of the internet. While new tricks occasionally pop up—like leveraging certain vulnerabilities to amplify attacks—the core idea remains: overwhelming servers with more traffic than they can handle. Think of it as trying to push the ocean through a straw. When these attacks grow big, they can even disrupt internet providers themselves. Companies like <a href="/blog/how-threat-intel-drives-smarter-security?host=https%3A%2F%2Fwww.recordedfuture.com">Google</a> and <a href="/blog/how-threat-intel-drives-smarter-security?host=https%3A%2F%2Fwww.recordedfuture.com">Cloudflare</a> still battle these threats regularly, proving DDoS remains a serious issue even in 2025.</p>
-        <p>Historically, cybercriminals have targeted entire industries like airlines and banks, shutting the companies down until they paid. State-backed groups from countries like <a href="/blog/how-threat-intel-drives-smarter-security?host=https%3A%2F%2Fwww.recordedfuture.com">Russia</a> and <a href="/blog/how-threat-intel-drives-smarter-security?host=https%3A%2F%2Fwww.recordedfuture.com">Iran</a> also use DDoS attacks as weapons against their enemies.</p>
-        <h2>Why Spend Money Before an Attack Happens?</h2>
-        <p>Protecting against DDoS attacks matters because downtime means losing money or, for critical services, even worse consequences. But if your company hasn't been hit yet, why spend money on defenses? When should you start protecting yourself?</p>
-        <p>That’s where threat intelligence comes in handy. By looking at data and comparing trends, threat intelligence helps you decide if and when investing in DDoS defenses makes sense. It provides the insights to answer these questions for DDoS and any other cyber risk that may create one or more of the <a href="/blog/how-threat-intel-drives-smarter-security?host=https%3A%2F%2Fwww.recordedfuture.com">five risk impacts</a>.</p>
-        <h2>Smart Data Means Smart Decisions</h2>
-        <p>Good decisions need good data. Recorded Future tracks thousands of DDoS attacks every day, giving you a clear picture of who’s getting hit and how often. Pulling data from the Recorded Future API gives analysts useful analytics, like IP addresses targeted by attackers.</p>
-        <p>With this data, security teams can:</p>
-        <ul>
-          <li>Spot trends and predict who might be next</li>
-          <li>Automate defenses and make faster decisions</li>
-          <li>Better manage risk, knowing exactly when and how to invest</li>
-        </ul>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="9cd3a7d8-dc4a-420b-af20-ae1fe216b00c_1132x480.webp" src="https://www.recordedfuture.com/media_16f1494150292fc803965e8a1c73627c51fad62b9.png?width=750&amp;format=png&amp;optimize=medium" width="1132" height="480" />
-            </div>
-          </div>
-          <div>
-            <div><em>DDoS target list courtesy of Recorded Future</em></div>
-          </div>
-        </div>
-        <h2>Who's Being Targeted?</h2>
-        <p>Launching DDoS attacks isn’t technically difficult. Someone with basic internet know-how can do it. But some attackers put more effort into it, building armies of infected devices known as botnets. One tool frequently used by pro-Russian hackers, called DDoSia, attacks different targets daily. By tracking who’s getting hit most, businesses can better prepare their defenses.</p>
-        <p>For example, Ukraine currently faces heavy attacks due to geopolitical tensions. But finance and transportation companies in Europe are also frequent targets, suggesting broader threats.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="4f39046a-858e-4e69-83dc-0ad1f3681c3b_1600x991.webp" src="https://www.recordedfuture.com/media_193798c4c7165992148cc801dc394a2aefb072b00.png?width=750&amp;format=png&amp;optimize=medium" width="1456" height="902" />
-            </div>
-          </div>
-          <div>
-            <div><em>Ten months of DDoSia targets by industry, courtesy of Recorded Future</em></div>
-          </div>
-        </div>
-        <h2>Thinking Bigger than Just Your Own Network</h2>
-        <p>When CISOs aren’t considering crafting better risk management narratives for executive consumption, they are contemplating improving operational resilience. Denial of service attacks fall squarely in this category. The revolving questions don’t stop with an organization’s local network perimeter (if such a thing even exists anymore) but extend to partners, suppliers, and wider internet infrastructure (e.g., DNS and CDN providers).</p>
-        <p>More than ever, daily business and geopolitical events create a cascading effect of cyber impacts. DDoS is always a possibility. Recent <a href="/blog/how-threat-intel-drives-smarter-security?host=https%3A%2F%2Fwww.recordedfuture.com">attacks against X</a> (Twitter’s hip rebrand) are a good reminder.</p>
-        <h2>Key Decisions for Stronger DDoS Defense</h2>
-        <p>The decisions that underpin DDoS defense and response correspond to organizational size, mission, footprint, regulatory compliance mandates, and resources. Here are some practical actions to consider:</p>
-        <ul>
-          <li>Partnering with your internet provider for fast response</li>
-          <li>Using scrubbing centers to filter attack traffic</li>
-          <li>Implementing challenge-response tests like CAPTCHAs</li>
-          <li>Deploying cloud protections like AWS Shield</li>
-          <li>Utilizing web application firewalls (WAF)</li>
-          <li>Optimizing network setups (like load balancers and distributed data centers)</li>
-          <li>Filtering traffic using firewalls and intrusion systems</li>
-          <li>Relying on content delivery networks (CDNs)</li>
-          <li>Using Anycast routing to protect DNS services</li>
-        </ul>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="51a7bcf4-e610-4a16-afd3-cdd56703060c_1024x1024.webp" src="https://www.recordedfuture.com/media_178345e8ca102297b8e54bfd70fdd3b0e52fd4bb3.png?width=750&amp;format=png&amp;optimize=medium" width="1024" height="1024" />
-            </div>
-          </div>
-          <div>
-            <div><em>Analytic contemplation courtesy of Gemini</em></div>
-          </div>
-        </div>
-        <h2>Everyone’s a Target</h2>
-        <p>It’s tempting to think your business won't face a DDoS attack, especially if it's small or non-political. The reality? Anyone online can become a target for extortion or political agendas. That's why proactive intelligence is so valuable—it helps security teams know when threats are getting closer and when it’s time to upgrade defenses.</p>
-        <p>As the frequency of DDoS attacks increases around certain industries or regions, it's essential to reassess and strengthen your own security controls accordingly. The closer these threats get, the more your organization should test their resilience. Said differently, as DDoS attack proximity moves closer to an organization, the operational disruption risk may, in parallel, need to <a href="/blog/how-threat-intel-drives-smarter-security?host=https%3A%2F%2Fwww.recordedfuture.com">move north on the resilience axis</a>.</p>
-        <div>
-          <div>
-            <div>
-              <img loading="lazy" alt="e749bad6-f210-4917-a230-a144e9e72ae7_1600x900.webp" src="https://www.recordedfuture.com/media_14189415a2ef2c8f09162779e8c192e620e22b935.png?width=750&amp;format=png&amp;optimize=medium" width="1456" height="819" />
-            </div>
-          </div>
-          <div>
-            <div><em>Risk Graph courtesy of ChatGPT</em></div>
-          </div>
-        </div>
-        <h2>Staying One Step Ahead</h2>
-        <p>DDoS attacks aren't going away, but they don't have to be a nightmare, either. Threat intelligence provides the clear insights needed to prepare and respond effectively. By using analytics wisely, organizations can invest smartly, build stronger defenses, and keep their operations running smoothly. When attacks creep closer—say, spiking in your sector or geography—second-order risks (like operational disruption) loom larger. That’s your cue to prioritize resilience, whether a CDN subscription or ISP speed-dial.</p>
-      ]]></content:encoded>
-            <category>Blog</category>
-            <enclosure length="0" type="image/jpg" url="https://www.recordedfuture.com/blog/media_17fabbdcb3d243930807ee39d1d0549b922958760.png?width=1200&amp;format=pjpg&amp;optimize=medium"/>
         </item>
     </channel>
 </rss>
