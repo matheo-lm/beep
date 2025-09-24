@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 24 Sep 2025 16:03:15 EDT</pubDate>
+        <pubDate>Wed, 24 Sep 2025 16:59:11 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>New Supermicro BMC flaws can create persistent backdoors</title>
+        <link>https://www.bleepingcomputer.com/news/security/new-supermicro-bmc-flaws-can-create-persistent-backdoors/</link>
+        <pubDate>Wed, 24 Sep 2025 16:13:49 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/new-supermicro-bmc-flaws-can-create-persistent-backdoors/</guid>
+	<description><![CDATA[Two vulnerabilities affecting the firmware of Supermicro hardware, including Baseboard Management Controller (BMC) allow attackers to update systems with maliciously crafted images. [...]]]></description>
+ </item>
+
+ <item>
+        <title>OpenAI is testing a new GPT-5-based AI agent "GPT-Alpha"</title>
+        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-a-new-gpt-5-based-ai-agent-gpt-alpha/</link>
+        <pubDate>Wed, 24 Sep 2025 16:09:25 -0400</pubDate>
+        <dc:creator>Mayank Parmar</dc:creator>
+
+        
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+        <category><![CDATA[Technology]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-a-new-gpt-5-based-ai-agent-gpt-alpha/</guid>
+	<description><![CDATA[OpenAI is internally testing a new version of its AI agent, which uses a special version of GPT-5 dubbed "GPT-Alpha." [...]]]></description>
+ </item>
+
  <item>
         <title>Kali Linux 2025.3 released with 10 new tools, wifi enhancements</title>
         <link>https://www.bleepingcomputer.com/news/security/kali-linux-20253-released-with-10-new-tools-wifi-enhancements/</link>
@@ -158,34 +188,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/boyd-gaming-discloses-data-breach-after-suffering-a-cyberattack/</guid>
 	<description><![CDATA[US gaming and casino operator Boyd Gaming Corporation disclosed it suffered a breach after threat actors gained access to its systems and stole data, including employee information and data belonging to a limited number of other individuals. [...]]]></description>
- </item>
-
- <item>
-        <title>Libraesva ESG issues emergency fix for bug exploited by state hackers</title>
-        <link>https://www.bleepingcomputer.com/news/security/libraesva-esg-issues-emergency-fix-for-bug-exploited-by-state-hackers/</link>
-        <pubDate>Tue, 23 Sep 2025 13:51:19 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/libraesva-esg-issues-emergency-fix-for-bug-exploited-by-state-hackers/</guid>
-	<description><![CDATA[Libraesva rolled out an emergency update for its Email Security Gateway solution to fix a vulnerability exploited by threat actors believed to be state sponsored. [...]]]></description>
- </item>
-
- <item>
-        <title>WhatsApp adds message translation to iPhone and Android apps</title>
-        <link>https://www.bleepingcomputer.com/news/security/whatsapp-adds-message-translation-to-iphone-and-android-apps/</link>
-        <pubDate>Tue, 23 Sep 2025 13:11:31 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/whatsapp-adds-message-translation-to-iphone-and-android-apps/</guid>
-	<description><![CDATA[WhatsApp has started rolling out a new translation feature that enables Android and iPhone users to translate messages in chats, groups, and channel updates. [...]]]></description>
  </item>
 
 </channel>
