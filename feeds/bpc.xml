@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Wed, 24 Sep 2025 10:00:53 EDT</pubDate>
+        <pubDate>Wed, 24 Sep 2025 11:02:27 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Obscura, an obscure new ransomware variant</title>
+        <link>https://www.bleepingcomputer.com/news/security/obscura-an-obscure-new-ransomware-variant/</link>
+        <pubDate>Wed, 24 Sep 2025 10:01:11 -0400</pubDate>
+        <dc:creator>Sponsored by Huntress Labs</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/obscura-an-obscure-new-ransomware-variant/</guid>
+	<description><![CDATA[Huntress analysts discovered a previously unseen ransomware variant, Obscura, spreading from a victim company's domain controller. Learn how Obscura works—and what it means for defenders—in this week's Tradecraft Tuesday. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Google: Brickstone malware used to steal U.S. orgs' data for over a year</title>
+        <link>https://www.bleepingcomputer.com/news/security/google-brickstone-malware-used-to-steal-us-orgs-data-for-over-a-year/</link>
+        <pubDate>Wed, 24 Sep 2025 10:00:00 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/google-brickstone-malware-used-to-steal-us-orgs-data-for-over-a-year/</guid>
+	<description><![CDATA[Suspected Chinese hackers have used the Brickstorm malware in long-term persistence espionage operations against U.S. organizations in the technology and legal sectors. [...]]]></description>
+ </item>
+
  <item>
         <title>UK arrests suspect for RTX ransomware attack causing airport disruptions</title>
         <link>https://www.bleepingcomputer.com/news/security/uk-arrests-suspect-for-rtx-ransomware-attack-causing-airport-disruptions/</link>
@@ -170,34 +198,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/solarwinds-releases-third-patch-to-fix-web-help-desk-rce-bug/</guid>
 	<description><![CDATA[SolarWinds has released a hotfix for a critical a critical vulnerability in Web Help Desk that allows remote code execution (RCE) without authentication. [...]]]></description>
- </item>
-
- <item>
-        <title>SonicWall releases SMA100 firmware update to wipe rootkit malware</title>
-        <link>https://www.bleepingcomputer.com/news/security/sonicwall-releases-sma100-firmware-update-to-wipe-rootkit-malware/</link>
-        <pubDate>Tue, 23 Sep 2025 09:15:33 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/sonicwall-releases-sma100-firmware-update-to-wipe-rootkit-malware/</guid>
-	<description><![CDATA[SonicWall has released a firmware update that can help customers remove rootkit malware deployed in attacks targeting SMA 100 series devices. [...]]]></description>
- </item>
-
- <item>
-        <title>GitHub tightens npm security with mandatory 2FA, access tokens</title>
-        <link>https://www.bleepingcomputer.com/news/security/github-tightens-npm-security-with-mandatory-2fa-access-tokens/</link>
-        <pubDate>Tue, 23 Sep 2025 08:05:37 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/github-tightens-npm-security-with-mandatory-2fa-access-tokens/</guid>
-	<description><![CDATA[GitHub is introducing a set of defenses against supply-chain attacks on the platform that led to multiple large-scale incidents recently. [...]]]></description>
  </item>
 
 </channel>
