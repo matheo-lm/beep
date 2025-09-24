@@ -6,6 +6,13 @@
     <description>The latest publicly leaked data breaches to hit Have I Been Pwned</description>
     <atom:link href="https://haveibeenpwned.com/feed/breaches/" rel="self" type="application/rss+xml" />
     <item>
+      <guid isPermaLink="false">BouyguesTelecom</guid>
+      <link>https://haveibeenpwned.com/Breach/BouyguesTelecom</link>
+      <title>Bouygues Telecom - 5,685,771 breached accounts</title>
+      <description>In August 2025, &lt;a href="https://www.bleepingcomputer.com/news/security/bouygues-telecom-confirms-data-breach-impacting-64-million-customers/" target="_blank" rel="noopener"&gt;the French telecommunications company Bouygues Telecom detected a cyber attack against their services&lt;/a&gt;. The incident resulted in a data breach that exposed almost 6.4M customer records, including 5.7M unique email addresses. The breach also exposed names, physical addresses, phone numbers, dates of birth and IBANs (International Bank Account Numbers). Bouygues Telecom advised that all affected customers had been notified about the incident.</description>
+      <pubDate>Wed, 24 Sep 2025 06:37:56 Z</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">Animeify</guid>
       <link>https://haveibeenpwned.com/Breach/Animeify</link>
       <title>Animeify - 808,034 breached accounts</title>
@@ -137,13 +144,6 @@
       <title>ColoCrossing - 7,183 breached accounts</title>
       <description>In May 2025, &lt;a href="https://lowendbox.com/blog/colocloud-breach-virtualizer-bugs-lead-to-wild-lowendtalk-thread/" target="_blank" rel="noopener"&gt;hosting provider ColoCrossing identified a data breach that impacted customers of their ColoCloud virtual server product&lt;/a&gt;. ColoCrossing advised the incident was isolated to their cloud/VPS platform and stemmed from a single sign-on vulnerability. 7k email addresses were exposed in the incident along with names and MD5-Crypt password hashes.</description>
       <pubDate>Tue, 03 Jun 2025 05:09:53 Z</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">FreeMobile</guid>
-      <link>https://haveibeenpwned.com/Breach/FreeMobile</link>
-      <title>Free - 13,926,173 breached accounts</title>
-      <description>In October 2024, &lt;a href="https://www.bleepingcomputer.com/news/security/free-frances-second-largest-isp-confirms-data-breach-after-leak/" target="_blank" rel="noopener"&gt;French ISP &amp;quot;Free&amp;quot; suffered a data breach&lt;/a&gt; which was subsequently posted for sale and later, leaked publicly. The data included 14M unique email addresses along with names, physical addresses, phone numbers, genders, dates of birth and for many records, IBAN bank account numbers. Free advised that the numbers were &amp;quot;not enough to make a direct debit from a bank&amp;quot;.</description>
-      <pubDate>Tue, 27 May 2025 07:03:21 Z</pubDate>
     </item>
   </channel>
 </rss>
