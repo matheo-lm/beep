@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 25 Sep 2025 18:02:24 EDT</pubDate>
+        <pubDate>Thu, 25 Sep 2025 18:59:33 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft warns of new XCSSET macOS malware variant targeting Xcode devs</title>
+        <link>https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-xcsset-macos-malware-variant-targeting-xcode-devs/</link>
+        <pubDate>Thu, 25 Sep 2025 18:49:22 -0400</pubDate>
+        <dc:creator>Lawrence Abrams</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[Apple]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-xcsset-macos-malware-variant-targeting-xcode-devs/</guid>
+	<description><![CDATA[Microsoft Threat Intelligence reports that a new variant of the XCSSET macOS malware has been detected in limited attacks, incorporating several new features, including enhanced browser targeting, clipboard hijacking, and improved persistence mechanisms. [...]]]></description>
+ </item>
+
  <item>
         <title>Unofficial Postmark MCP npm silently stole users' emails</title>
         <link>https://www.bleepingcomputer.com/news/security/unofficial-postmark-mcp-npm-silently-stole-users-emails/</link>
