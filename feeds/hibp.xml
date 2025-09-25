@@ -6,6 +6,13 @@
     <description>The latest publicly leaked data breaches to hit Have I Been Pwned</description>
     <atom:link href="https://haveibeenpwned.com/feed/breaches/" rel="self" type="application/rss+xml" />
     <item>
+      <guid isPermaLink="false">Cultura</guid>
+      <link>https://haveibeenpwned.com/Breach/Cultura</link>
+      <title>Cultura - 1,462,025 breached accounts</title>
+      <description>In September 2024, &lt;a href="https://therecord.media/france-retailers-hacked-confirm-cyberattack" target="_blank" rel="noopener"&gt;French retailer Cultura was the victim of a cyber attack they attributed to an external IT service provider&lt;/a&gt;. The resultant data breach included almost 1.5M unique email addresses along with names, phone numbers, physical addresses and orders. Cultura advised that all affected customers had been notified about the incident.</description>
+      <pubDate>Thu, 25 Sep 2025 01:50:55 Z</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">BouyguesTelecom</guid>
       <link>https://haveibeenpwned.com/Breach/BouyguesTelecom</link>
       <title>Bouygues Telecom - 5,685,771 breached accounts</title>
@@ -137,13 +144,6 @@
       <title>Disk Union - 690,667 breached accounts</title>
       <description>In June 2022, &lt;a href="https://news.kaduu.io/blog/2022/07/04/the-worlds-best-record-shop-leaks-701k-user-records-and-personal-info/" target="_blank" rel="noopener"&gt;the Japanese record chain store Disk Union suffered a data breach&lt;/a&gt;. The incident exposed 690k unique email addresses along with names, post codes, phone numbers and plain text passwords.</description>
       <pubDate>Sat, 07 Jun 2025 07:08:28 Z</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">ColoCrossing</guid>
-      <link>https://haveibeenpwned.com/Breach/ColoCrossing</link>
-      <title>ColoCrossing - 7,183 breached accounts</title>
-      <description>In May 2025, &lt;a href="https://lowendbox.com/blog/colocloud-breach-virtualizer-bugs-lead-to-wild-lowendtalk-thread/" target="_blank" rel="noopener"&gt;hosting provider ColoCrossing identified a data breach that impacted customers of their ColoCloud virtual server product&lt;/a&gt;. ColoCrossing advised the incident was isolated to their cloud/VPS platform and stemmed from a single sign-on vulnerability. 7k email addresses were exposed in the incident along with names and MD5-Crypt password hashes.</description>
-      <pubDate>Tue, 03 Jun 2025 05:09:53 Z</pubDate>
     </item>
   </channel>
 </rss>
