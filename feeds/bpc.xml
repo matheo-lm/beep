@@ -11,11 +11,25 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 25 Sep 2025 10:03:27 EDT</pubDate>
+        <pubDate>Thu, 25 Sep 2025 11:01:27 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>How secure are passkeys, really? Here's what you need to know</title>
+        <link>https://www.bleepingcomputer.com/news/security/how-secure-are-passkeys-really-heres-what-you-need-to-know/</link>
+        <pubDate>Thu, 25 Sep 2025 10:02:12 -0400</pubDate>
+        <dc:creator>Sponsored by Specops Software</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/how-secure-are-passkeys-really-heres-what-you-need-to-know/</guid>
+	<description><![CDATA[Passwords are weak links—88% of breaches involve stolen creds. Learn more from Specops Software about how passkeys deliver phishing resistance, simpler logins & lower support costs (with some hurdles to adoption). [...]]]></description>
+ </item>
+
  <item>
         <title>Teen suspected of Vegas casino cyberattacks released to parents</title>
         <link>https://www.bleepingcomputer.com/news/security/teen-suspected-of-vegas-casino-cyberattacks-released-to-parents/</link>
@@ -188,22 +202,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/pypi-urges-users-to-reset-credentials-after-new-phishing-attacks/</guid>
 	<description><![CDATA[The Python Software Foundation has warned victims of a new wave of phishing attacks using a fake Python Package Index (PyPI) website to reset credentials. [...]]]></description>
- </item>
-
- <item>
-        <title>GitHub notifications abused to impersonate Y Combinator for crypto theft</title>
-        <link>https://www.bleepingcomputer.com/news/security/github-notifications-abused-to-impersonate-y-combinator-for-crypto-theft/</link>
-        <pubDate>Wed, 24 Sep 2025 08:37:31 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/github-notifications-abused-to-impersonate-y-combinator-for-crypto-theft/</guid>
-	<description><![CDATA[A massive phishing campaign targeted GitHub users with cryptocurrency drainers, delivered via fake invitations to the Y Combinator (YC) W2026 program. [...]]]></description>
  </item>
 
 </channel>
