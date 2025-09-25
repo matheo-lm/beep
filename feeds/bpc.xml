@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 25 Sep 2025 11:01:27 EDT</pubDate>
+        <pubDate>Thu, 25 Sep 2025 12:03:24 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Malicious Rust packages on Crates.io steal crypto wallet keys</title>
+        <link>https://www.bleepingcomputer.com/news/security/malicious-rust-packages-on-cratesio-steal-crypto-wallet-keys/</link>
+        <pubDate>Thu, 25 Sep 2025 11:43:14 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+        <category><![CDATA[CryptoCurrency]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/malicious-rust-packages-on-cratesio-steal-crypto-wallet-keys/</guid>
+	<description><![CDATA[Two malicious packages with nearly 8,500 downloads in Rust's official crate repository scanned developers' systems to steal cryptocurrency private keys and other secrets. [...]]]></description>
+ </item>
+
  <item>
         <title>How secure are passkeys, really? Here's what you need to know</title>
         <link>https://www.bleepingcomputer.com/news/security/how-secure-are-passkeys-really-heres-what-you-need-to-know/</link>
@@ -188,20 +204,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/uk-arrests-suspect-for-rtx-ransomware-attack-causing-airport-disruptions/</guid>
 	<description><![CDATA[The UK's National Crime Agency has arrested a suspect linked to a ransomware attack that is causing widespread disruptions across European airports. [...]]]></description>
- </item>
-
- <item>
-        <title>PyPI urges users to reset credentials after new phishing attacks</title>
-        <link>https://www.bleepingcomputer.com/news/security/pypi-urges-users-to-reset-credentials-after-new-phishing-attacks/</link>
-        <pubDate>Wed, 24 Sep 2025 09:15:30 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/pypi-urges-users-to-reset-credentials-after-new-phishing-attacks/</guid>
-	<description><![CDATA[The Python Software Foundation has warned victims of a new wave of phishing attacks using a fake Python Package Index (PyPI) website to reset credentials. [...]]]></description>
  </item>
 
 </channel>
