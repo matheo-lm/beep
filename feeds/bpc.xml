@@ -11,11 +11,41 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Thu, 25 Sep 2025 12:03:24 EDT</pubDate>
+        <pubDate>Thu, 25 Sep 2025 12:59:47 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Cisco warns of ASA firewall zero-days exploited in attacks</title>
+        <link>https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-firewall-zero-days-exploited-in-attacks/</link>
+        <pubDate>Thu, 25 Sep 2025 12:49:36 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-firewall-zero-days-exploited-in-attacks/</guid>
+	<description><![CDATA[Cisco warned customers today to patch two zero-day vulnerabilities that are actively being exploited in attacks and impact the company's firewall software. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Amazon pays $2.5 billion to settle Prime memberships lawsuit</title>
+        <link>https://www.bleepingcomputer.com/news/technology/amazon-pays-25-billion-to-settle-prime-memberships-lawsuit/</link>
+        <pubDate>Thu, 25 Sep 2025 12:21:24 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Technology]]></category>
+
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/technology/amazon-pays-25-billion-to-settle-prime-memberships-lawsuit/</guid>
+	<description><![CDATA[Amazon will pay $2.5 billion to settle claims by the U.S. Federal Trade Commission (FTC) that it used dark patterns to trick millions of users into enrolling in its Prime program and made it as difficult as possible to cancel the recurring subscriptions. [...]]]></description>
+ </item>
+
  <item>
         <title>Malicious Rust packages on Crates.io steal crypto wallet keys</title>
         <link>https://www.bleepingcomputer.com/news/security/malicious-rust-packages-on-cratesio-steal-crypto-wallet-keys/</link>
@@ -176,34 +206,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/obscura-an-obscure-new-ransomware-variant/</guid>
 	<description><![CDATA[Huntress analysts discovered a previously unseen ransomware variant, Obscura, spreading from a victim company's domain controller. Learn how Obscura works—and what it means for defenders—in this week's Tradecraft Tuesday. [...]]]></description>
- </item>
-
- <item>
-        <title>Google: Brickstorm malware used to steal U.S. orgs' data for over a year</title>
-        <link>https://www.bleepingcomputer.com/news/security/google-brickstorm-malware-used-to-steal-us-orgs-data-for-over-a-year/</link>
-        <pubDate>Wed, 24 Sep 2025 10:00:00 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/google-brickstorm-malware-used-to-steal-us-orgs-data-for-over-a-year/</guid>
-	<description><![CDATA[Suspected Chinese hackers have used the Brickstorm malware in long-term persistence espionage operations against U.S. organizations in the technology and legal sectors. [...]]]></description>
- </item>
-
- <item>
-        <title>UK arrests suspect for RTX ransomware attack causing airport disruptions</title>
-        <link>https://www.bleepingcomputer.com/news/security/uk-arrests-suspect-for-rtx-ransomware-attack-causing-airport-disruptions/</link>
-        <pubDate>Wed, 24 Sep 2025 09:55:48 -0400</pubDate>
-        <dc:creator>Sergiu Gatlan</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/uk-arrests-suspect-for-rtx-ransomware-attack-causing-airport-disruptions/</guid>
-	<description><![CDATA[The UK's National Crime Agency has arrested a suspect linked to a ransomware attack that is causing widespread disruptions across European airports. [...]]]></description>
  </item>
 
 </channel>
