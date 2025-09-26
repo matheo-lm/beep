@@ -11,11 +11,43 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 26 Sep 2025 11:59:24 EDT</pubDate>
+        <pubDate>Fri, 26 Sep 2025 13:01:41 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>US investors to take over TikTok operations in the country</title>
+        <link>https://www.bleepingcomputer.com/news/government/us-investors-to-take-over-tiktok-operations-in-the-country/</link>
+        <pubDate>Fri, 26 Sep 2025 13:01:38 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Government]]></category>
+
+        <category><![CDATA[Legal]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/government/us-investors-to-take-over-tiktok-operations-in-the-country/</guid>
+	<description><![CDATA[U.S. President Donald Trump has signed an executive order approving a plan to restructure TikTok operations in the country to address national security concerns. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft shares temp fix for Outlook encrypted email errors</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temp-fix-for-outlook-encrypted-email-errors/</link>
+        <pubDate>Fri, 26 Sep 2025 12:43:48 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Software]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temp-fix-for-outlook-encrypted-email-errors/</guid>
+	<description><![CDATA[Microsoft is investigating a known issue that triggers Outlook errors when opening encrypted emails sent from other organizations. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft Edge to block malicious sideloaded extensions</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-edge-to-block-malicious-sideloaded-extensions/</link>
@@ -178,36 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/security/malicious-rust-packages-on-cratesio-steal-crypto-wallet-keys/</guid>
 	<description><![CDATA[Two malicious packages with nearly 8,500 downloads in Rust's official crate repository scanned developers' systems to steal cryptocurrency private keys and other secrets. [...]]]></description>
- </item>
-
- <item>
-        <title>How secure are passkeys, really? Here's what you need to know</title>
-        <link>https://www.bleepingcomputer.com/news/security/how-secure-are-passkeys-really-heres-what-you-need-to-know/</link>
-        <pubDate>Thu, 25 Sep 2025 10:02:12 -0400</pubDate>
-        <dc:creator>Sponsored by Specops Software</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/how-secure-are-passkeys-really-heres-what-you-need-to-know/</guid>
-	<description><![CDATA[Passwords are weak links—88% of breaches involve stolen creds. Learn more from Specops Software about how passkeys deliver phishing resistance, simpler logins & lower support costs (with some hurdles to adoption). [...]]]></description>
- </item>
-
- <item>
-        <title>Teen suspected of Vegas casino cyberattacks released to parents</title>
-        <link>https://www.bleepingcomputer.com/news/security/teen-suspected-of-vegas-casino-cyberattacks-released-to-parents/</link>
-        <pubDate>Thu, 25 Sep 2025 08:51:18 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[Legal]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/teen-suspected-of-vegas-casino-cyberattacks-released-to-parents/</guid>
-	<description><![CDATA[A 17-year-old hacker who surrendered to face charges over cyberattacks targeting Vegas casinos in 2023 has been released into the custody of his parents, a family court judge ruled. [...]]]></description>
  </item>
 
 </channel>
