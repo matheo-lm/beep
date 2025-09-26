@@ -11,11 +11,27 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 26 Sep 2025 15:02:17 EDT</pubDate>
+        <pubDate>Fri, 26 Sep 2025 15:58:52 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Microsoft’s new AI feature will organize your photos automatically</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsofts-new-ai-feature-will-organize-your-photos-automatically/</link>
+        <pubDate>Fri, 26 Sep 2025 15:41:18 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+        <category><![CDATA[Artificial Intelligence]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsofts-new-ai-feature-will-organize-your-photos-automatically/</guid>
+	<description><![CDATA[Microsoft has begun testing a new AI-powered feature in Microsoft Photos, designed to categorize photos automatically on Windows 11 systems. [...]]]></description>
+ </item>
+
  <item>
         <title>US investors to take over TikTok operations in the country</title>
         <link>https://www.bleepingcomputer.com/news/government/us-investors-to-take-over-tiktok-operations-in-the-country/</link>
@@ -194,22 +210,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/technology/amazon-pays-25-billion-to-settle-prime-memberships-lawsuit/</guid>
 	<description><![CDATA[Amazon will pay $2.5 billion to settle claims by the U.S. Federal Trade Commission (FTC) that it used dark patterns to trick millions of users into enrolling in its Prime program and made it as difficult as possible to cancel the recurring subscriptions. [...]]]></description>
- </item>
-
- <item>
-        <title>Malicious Rust packages on Crates.io steal crypto wallet keys</title>
-        <link>https://www.bleepingcomputer.com/news/security/malicious-rust-packages-on-cratesio-steal-crypto-wallet-keys/</link>
-        <pubDate>Thu, 25 Sep 2025 11:43:14 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-        <category><![CDATA[CryptoCurrency]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/malicious-rust-packages-on-cratesio-steal-crypto-wallet-keys/</guid>
-	<description><![CDATA[Two malicious packages with nearly 8,500 downloads in Rust's official crate repository scanned developers' systems to steal cryptocurrency private keys and other secrets. [...]]]></description>
  </item>
 
 </channel>
