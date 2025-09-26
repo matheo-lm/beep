@@ -11,11 +11,39 @@
 
         <link>https://www.bleepingcomputer.com/</link>
         <description>BleepingComputer - All Stories</description>
-        <pubDate>Fri, 26 Sep 2025 09:09:14 EDT</pubDate>
+        <pubDate>Fri, 26 Sep 2025 10:00:49 EDT</pubDate>
         <generator>https://www.bleepingcomputer.com/</generator>
         <language>en</language>
         <atom:link href="https://www.bleepingcomputer.com/feed/" rel="self" type="application/rss+xml" />
 	
+ <item>
+        <title>Maximum severity GoAnywhere MFT flaw exploited as zero day</title>
+        <link>https://www.bleepingcomputer.com/news/security/maximum-severity-goanywhere-mft-flaw-exploited-as-zero-day/</link>
+        <pubDate>Fri, 26 Sep 2025 09:50:42 -0400</pubDate>
+        <dc:creator>Bill Toulas</dc:creator>
+
+        
+        <category><![CDATA[Security]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/security/maximum-severity-goanywhere-mft-flaw-exploited-as-zero-day/</guid>
+	<description><![CDATA[Hackers are actively exploiting a maximum severity vulnerability (CVE-2025-10035) in Fortra's GoAnywhere MFT that allows injecting commands remotely without authentication. [...]]]></description>
+ </item>
+
+ <item>
+        <title>Microsoft releases the final Windows 10 22H2 preview update</title>
+        <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-the-final-windows-10-22h2-preview-update/</link>
+        <pubDate>Fri, 26 Sep 2025 09:32:07 -0400</pubDate>
+        <dc:creator>Sergiu Gatlan</dc:creator>
+
+        
+        <category><![CDATA[Microsoft]]></category>
+
+
+        <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-the-final-windows-10-22h2-preview-update/</guid>
+	<description><![CDATA[Microsoft has released the final non-security preview update for Windows 10, version 22H2, which includes fixes for the out-of-box experience and SMBv1 protocol connectivity. [...]]]></description>
+ </item>
+
  <item>
         <title>Microsoft warns of new XCSSET macOS malware variant targeting Xcode devs</title>
         <link>https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-xcsset-macos-malware-variant-targeting-xcode-devs/</link>
@@ -164,50 +192,6 @@
 
         <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-will-offer-free-windows-10-security-updates-in-europe/</guid>
 	<description><![CDATA[Microsoft will offer free extended security updates for Windows 10 users in the European Economic Area (EEA), which includes Iceland, Liechtenstein, Norway, and all 27 European Union member states. [...]]]></description>
- </item>
-
- <item>
-        <title>New Supermicro BMC flaws can create persistent backdoors</title>
-        <link>https://www.bleepingcomputer.com/news/security/new-supermicro-bmc-flaws-can-create-persistent-backdoors/</link>
-        <pubDate>Wed, 24 Sep 2025 16:13:49 -0400</pubDate>
-        <dc:creator>Bill Toulas</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/new-supermicro-bmc-flaws-can-create-persistent-backdoors/</guid>
-	<description><![CDATA[Two vulnerabilities affecting the firmware of Supermicro hardware, including Baseboard Management Controller (BMC) allow attackers to update systems with maliciously crafted images. [...]]]></description>
- </item>
-
- <item>
-        <title>OpenAI is testing a new GPT-5-based AI agent "GPT-Alpha"</title>
-        <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-a-new-gpt-5-based-ai-agent-gpt-alpha/</link>
-        <pubDate>Wed, 24 Sep 2025 16:09:25 -0400</pubDate>
-        <dc:creator>Mayank Parmar</dc:creator>
-
-        
-        <category><![CDATA[Artificial Intelligence]]></category>
-
-        <category><![CDATA[Technology]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-a-new-gpt-5-based-ai-agent-gpt-alpha/</guid>
-	<description><![CDATA[OpenAI is internally testing a new version of its AI agent, which uses a special version of GPT-5 dubbed "GPT-Alpha." [...]]]></description>
- </item>
-
- <item>
-        <title>Kali Linux 2025.3 released with 10 new tools, Wi-Fi enhancements</title>
-        <link>https://www.bleepingcomputer.com/news/security/kali-linux-20253-released-with-10-new-tools-wifi-enhancements/</link>
-        <pubDate>Wed, 24 Sep 2025 14:30:02 -0400</pubDate>
-        <dc:creator>Lawrence Abrams</dc:creator>
-
-        
-        <category><![CDATA[Security]]></category>
-
-
-        <guid>https://www.bleepingcomputer.com/news/security/kali-linux-20253-released-with-10-new-tools-wifi-enhancements/</guid>
-	<description><![CDATA[Kali Linux has released version 2025.3, the third version of 2025, featuring ten new tools, Nexmon support, and NetHunter improvements. [...]]]></description>
  </item>
 
 </channel>
