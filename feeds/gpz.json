@@ -480,6 +480,19 @@
       "categories": [],
       "isoDate": "2025-08-08T10:43:00.000Z",
       "tag": "exploits"
+    },
+    {
+      "creator": "Google Project Zero (noreply@blogger.com)",
+      "title": "Pointer leaks through pointer-keyed data structures",
+      "link": "https://googleprojectzero.blogspot.com/2025/09/pointer-leaks-through-pointer-keyed.html",
+      "pubDate": "2025-09-26T10:00:00.000-07:00",
+      "dc:creator": "Google Project Zero (noreply@blogger.com)",
+      "content": "Posted by Jann Horn, Google Project Zero\nIntroductionSome time in 2024, during a Project Zero team discussion, we were talking about how remote ASLR leaks would be helpful or necessary for exploiting some types of memory corruption bugs, sp[...]",
+      "contentSnippet": "Posted by Jann Horn, Google Project Zero\nIntroductionSome time in 2024, during a Project Zero team discussion, we were talking about how remote ASLR leaks would be helpful or necessary for exploiting some types of memory corruption bugs, sp[...]",
+      "guid": "https://googleprojectzero.blogspot.com/2025/09/pointer-leaks-through-pointer-keyed.html",
+      "categories": [],
+      "isoDate": "2025-09-26T17:00:00.000Z",
+      "tag": "exploits"
     }
   ]
 }
